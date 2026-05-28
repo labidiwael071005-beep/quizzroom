@@ -1,0 +1,71 @@
+// public/js/i18n.js — Système de traduction FR/EN/ES
+
+const SUPPORTED = ['fr', 'en', 'es'];
+let translations = {};
+let currentLang  = 'fr';
+
+function detectLang() {
+  const stored = localStorage.getItem('qr_lang');
+  if (stored && SUPPORTED.includes(stored)) return stored;
+  const nav = (navigator.language || navigator.userLanguage || 'fr').slice(0, 2).toLowerCase();
+  return SUPPORTED.includes(nav) ? nav : 'fr';
+}
+
+async function loadLocale(lang) {
+  const resp = await fetch(`/locales/${lang}.json`);
+  if (!resp.ok) throw new Error(`Locale ${lang} not found`);
+  return resp.json();
+}
+
+function applyTranslations() {
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.dataset.i18n;
+    if (translations[key]) el.textContent = translations[key];
+  });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    const key = el.dataset.i18nPlaceholder;
+    if (translations[key]) el.placeholder = translations[key];
+  });
+  document.querySelectorAll('[data-i18n-title]').forEach(el => {
+    const key = el.dataset.i18nTitle;
+    if (translations[key]) el.title = translations[key];
+  });
+}
+
+function t(key, fallback = '') {
+  return translations[key] || fallback || key;
+}
+
+async function initI18n() {
+  currentLang  = detectLang();
+  translations = await loadLocale(currentLang).catch(() => ({}));
+  document.documentElement.lang = currentLang;
+  applyTranslations();
+  renderLangSwitcher();
+}
+
+async function setLang(lang) {
+  if (!SUPPORTED.includes(lang)) return;
+  localStorage.setItem('qr_lang', lang);
+  currentLang  = lang;
+  translations = await loadLocale(lang).catch(() => ({}));
+  document.documentElement.lang = lang;
+  applyTranslations();
+  renderLangSwitcher();
+}
+
+function renderLangSwitcher() {
+  const el = document.getElementById('lang-switcher');
+  if (!el) return;
+  const flags = { fr: '🇫🇷', en: '🇬🇧', es: '🇪🇸' };
+  el.innerHTML = SUPPORTED.map(l => `
+    <button class="lang-btn ${l === currentLang ? 'active' : ''}" onclick="setLang('${l}')">
+      ${flags[l]} ${l.toUpperCase()}
+    </button>
+  `).join('');
+}
+
+// Exposer globalement
+window.t       = t;
+window.setLang = setLang;
+window.initI18n = initI18n;

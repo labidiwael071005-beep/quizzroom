@@ -1,0 +1,885 @@
+// server/index.js — Serveur principal QuizzRoom
+const express = require('express');
+const http    = require('http');
+const { Server } = require('socket.io');
+const path    = require('path');
+require('dotenv').config();
+
+const app    = express();
+const server = http.createServer(app);
+const io     = new Server(server);
+const PORT   = process.env.PORT || 3000;
+
+app.use(express.json());
+app.use(express.static(path.join(__dirname, '../public')));
+
+const { getQuestions }    = require('./questions');
+const { getPixelQuestions } = require('./pixel-images');
+const { getGeoQuestions, distanceKm, geoScore } = require('./geo-questions');
+
+app.get('/api/questions', async (req, res) => {
+  const { theme = 'general', difficulty = 'medium', count = 10 } = req.query;
+  try {
+    const questions = await getQuestions({ themes: theme, difficulty, count: Number(count) });
+    res.json({ ok: true, questions });
+  } catch (err) {
+    res.status(500).json({ ok: false, error: err.message });
+  }
+});
+
+// ── Rooms ─────────────────────────────────────────────────────
+const rooms = {};
+
+function generateCode() {
+  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+  let code = 'QR-';
+  for (let i = 0; i < 4; i++) code += chars[Math.floor(Math.random() * chars.length)];
+  return code;
+}
+
+// ── Helpers jeu ───────────────────────────────────────────────
+
+function checkAllAnswered(code) {
+  const room = rooms[code];
+  if (!room || room.nextScheduled || room.players.length === 0) return;
+
+  let allDone = false;
+  if (room.settings.teamMode) {
+    const answeredTeams = new Set(Object.keys(room.teamAnswers));
+    allDone = answeredTeams.size >= room.teams.length;
+  } else {
+    const answeredCount = room.players.filter(p => room.answers[p.name] !== undefined).length;
+    allDone = answeredCount >= room.players.length;
+  }
+  if (allDone) endQuestion(code);
+}
+
+// Enregistre la question terminée dans l'historique de la partie (récap de fin de quiz).
+function recordQuestionHistory(room, round, q) {
+  if (!Array.isArray(room.history)) room.history = [];
+  const isGeo = q.type === 'geomap';
+  const results = room.players.map(p => {
+    const a = room.answers[p.name];
+    const entry = {
+      name:    p.name,
+      avatar:  p.avatar,
+      answered: a !== undefined,
+      correct: !!a?.correct,
+      points:  a?.points || 0,
+    };
+    if (isGeo) {
+      entry.distance = (a && a.distance != null) ? Math.round(a.distance) : null;
+    } else {
+      entry.answer = (a && a.answerIndex != null) ? q.options?.[a.answerIndex] : null;
+    }
+    return entry;
+  });
+  room.history.push({
+    round:         round.name,
+    type:          q.type || 'normal',
+    question:      q.question,
+    correctAnswer: isGeo ? (q.label || q.country || '—') : (q.options?.[q.correctIndex] ?? '—'),
+    results,
+  });
+}
+
+// Termine la question en cours (appelé soit par checkAllAnswered, soit par le force-timeout).
+// Émet le reveal puis bascule sur l'écran de résultats, puis ATTEND le host avant d'avancer.
+function endQuestion(code) {
+  const room = rooms[code];
+  if (!room || room.nextScheduled) return;
+  room.nextScheduled = true;
+
+  const round = currentRound(room);
+  const q = round?.questions[room.currentQuestion];
+  if (q) recordQuestionHistory(room, round, q);
+
+  // 1. Reveal de la question (selon le type) — diffusé à TOUTE la room
+  //    pour que chacun (même ceux qui n'ont pas répondu) voie la correction,
+  //    l'anecdote et le statut juste/faux des avatars.
+  if (q?.type === 'geomap') {
+    io.to(code).emit('geomap_reveal', {
+      correctLat:   q.lat,
+      correctLng:   q.lng,
+      correctLabel: q.label,
+      country:      q.country,
+      explanation:  q.explanation || '',
+      guesses: room.players.map(p => ({
+        name:     p.name,
+        avatar:   p.avatar,
+        lat:      room.answers[p.name]?.lat,
+        lng:      room.answers[p.name]?.lng,
+        distance: room.answers[p.name]?.distance,
+        points:   room.answers[p.name]?.points || 0,
+        correct:  !!room.answers[p.name]?.correct,
+        answered: room.answers[p.name] !== undefined,
+      })),
+    });
+  } else if (q) {
+    io.to(code).emit('question_reveal', {
+      question:      q.question,
+      correctIndex:  q.correctIndex,
+      correctAnswer: q.options?.[q.correctIndex] ?? '',
+      explanation:   q.explanation || '',
+      results: room.players.map(p => ({
+        name:     p.name,
+        answered: room.answers[p.name] !== undefined,
+        correct:  !!room.answers[p.name]?.correct,
+      })),
+    });
+  }
+
+  room.phase = 'scores';
+  room.questionStartTime = null;
+
+  // 2. Après une courte pause pour laisser voir le reveal, on bascule sur l'écran de transition
+  //    et on attend l'hôte
+  const revealPause = q?.type === 'geomap' ? 2500 : 800;
+  setTimeout(() => {
+    if (!rooms[code]) return;
+    const isLastInRound = room.currentQuestion + 1 >= round.questions.length;
+    const isLastRound   = room.currentRound + 1 >= room.roundPlan.length;
+    const isGameOver    = isLastInRound && isLastRound;
+
+    // Pour les questions classiques : on affiche un écran de scores intermédiaire
+    // (la carte geomap reste affichée avec son propre reveal)
+    if (q?.type !== 'geomap') {
+      if (isLastInRound && !isGameOver) {
+        // Fin de manche intermédiaire : intermezzo (les scores y sont)
+        const nextRound = room.roundPlan[room.currentRound + 1];
+        io.to(code).emit('round_ended', {
+          roundName:    round.name,
+          nextRound:    nextRound.name,
+          nextRoundIdx: room.currentRound + 1,
+          totalRounds:  room.roundPlan.length,
+          players:      room.players,
+          teams:        room.teams,
+          teamMode:     room.settings.teamMode,
+        });
+      } else {
+        // Mid-round (ou dernière question d'un game) : screen-scores
+        io.to(code).emit('scores_update', {
+          players:  room.players,
+          teams:    room.teams,
+          teamMode: room.settings.teamMode,
+        });
+      }
+    } else if (isLastInRound && !isGameOver) {
+      // Geomap fin de manche intermédiaire : on émet round_ended pour switch sur intermezzo
+      const nextRound = room.roundPlan[room.currentRound + 1];
+      io.to(code).emit('round_ended', {
+        roundName:    round.name,
+        nextRound:    nextRound.name,
+        nextRoundIdx: room.currentRound + 1,
+        totalRounds:  room.roundPlan.length,
+        players:      room.players,
+        teams:        room.teams,
+        teamMode:     room.settings.teamMode,
+      });
+    }
+    // Geomap mid-round ou dernière de la partie : on reste sur screen-geomap
+
+    awaitHost(code);
+  }, revealPause);
+}
+
+// Attend que l'hôte clique "Suivante" (ou fallback 30s)
+function awaitHost(code) {
+  const room = rooms[code];
+  if (!room) return;
+  const round = currentRound(room);
+  if (!round) return;
+
+  const isLastInRound = room.currentQuestion + 1 >= round.questions.length;
+  const isLastRound   = room.currentRound + 1 >= room.roundPlan.length;
+  const isGameOver    = isLastInRound && isLastRound;
+
+  let label = 'Question suivante';
+  if (isGameOver)        label = '🏆 Voir le classement';
+  else if (isLastInRound) label = '➡️ Manche suivante';
+
+  room.waitingForHost  = true;
+  room.awaitingPayload = { label, isGameOver, isLastInRound };
+  io.to(code).emit('awaiting_host', room.awaitingPayload);
+
+  if (room.hostTimeout) clearTimeout(room.hostTimeout);
+  room.hostTimeout = setTimeout(() => {
+    if (rooms[code]?.waitingForHost) advance(code);
+  }, 30000);
+}
+
+// Déclenche le passage à la suite (host click ou fallback)
+function advance(code) {
+  const room = rooms[code];
+  if (!room || !room.waitingForHost) return;
+  if (room.hostTimeout) { clearTimeout(room.hostTimeout); room.hostTimeout = null; }
+  room.waitingForHost = false;
+
+  const round = currentRound(room);
+  if (!round) return;
+  const wasLastInRound = room.currentQuestion + 1 >= round.questions.length;
+  const wasLastRound   = room.currentRound + 1 >= room.roundPlan.length;
+
+  if (wasLastInRound && wasLastRound) {
+    doGameOver(code);
+  } else if (wasLastInRound) {
+    room.currentRound++;
+    room.currentQuestion = 0;
+    startRound(code, room.currentRound);
+  } else {
+    room.currentQuestion++;
+    sendQuestion(code);
+  }
+}
+
+function doGameOver(code) {
+  const room = rooms[code];
+  if (!room) return;
+  const ranking = room.settings.teamMode
+    ? [...room.teams].sort((a, b) => b.score - a.score)
+    : [...room.players].sort((a, b) => b.score - a.score);
+  room.phase = 'over';
+  io.to(code).emit('game_over', {
+    ranking,
+    teamMode: room.settings.teamMode,
+    history:  room.history || [],
+  });
+  // On garde la room en vie pour permettre le retour au lobby et rejouer
+  room.started           = false;
+  room.currentRound      = 0;
+  room.currentQuestion   = 0;
+  room.roundPlan         = [];
+  room.answers           = {};
+  room.teamAnswers       = {};
+  room.questionStartTime = null;
+  room.pariMiserDone     = {};
+  room.waitingForHost    = false;
+  room.phase             = null;
+  room.players.forEach(p => { p.score = 0; });
+  if (room.teams) room.teams.forEach(t => { t.score = 0; });
+  console.log(`🔁 Room ${code} : partie terminée, retour au lobby possible`);
+}
+
+function buildRoundPlan(settings) {
+  const plan       = [];
+  const rounds     = settings.rounds || ['culture'];
+  const qpr        = settings.questionsPerRound || {};
+  const userThemes = settings.themes || ['general'];
+
+  for (const round of rounds) {
+    const raw   = Number(qpr[round]);
+    const count = Number.isFinite(raw) && raw > 0 ? Math.min(20, Math.floor(raw)) : defaultQCount(round);
+    if (round === 'pixel') {
+      plan.push({ type: 'pixel', name: 'pixel', qCount: count, questions: [] });
+    } else if (round === 'geo') {
+      plan.push({ type: 'geomap', name: 'geo', qCount: count, questions: [] });
+    } else {
+      plan.push({ type: 'normal', name: round, qCount: count, questions: [], themes: userThemes });
+    }
+  }
+  console.log(`🗂️  Plan: ${plan.map(r => `${r.name}×${r.qCount}`).join(' | ')}`);
+  return plan;
+}
+
+function defaultQCount(round) {
+  return { culture: 10, geo: 5, pari: 3, pixel: 5 }[round] || 5;
+}
+
+async function loadRoundQuestions(plan, difficulty) {
+  for (const round of plan) {
+    if (round.type === 'pixel') {
+      round.questions = getPixelQuestions({ count: round.qCount });
+    } else if (round.type === 'geomap') {
+      round.questions = getGeoQuestions({ count: round.qCount });
+    } else {
+      round.questions = await getQuestions({
+        themes:     round.themes,
+        difficulty: difficulty || 'medium',
+        count:      round.qCount,
+      });
+    }
+    console.log(`📚 Manche "${round.name}" : ${round.qCount} demandée(s), ${round.questions.length} chargée(s)`);
+  }
+}
+
+function currentRound(room) {
+  return room.roundPlan[room.currentRound];
+}
+
+function sendQuestion(code) {
+  const room  = rooms[code];
+  if (!room) return;
+  const round = currentRound(room);
+  if (!round) return;
+
+  room.answers       = {};
+  room.teamAnswers   = {};
+  room.nextScheduled = false;
+  room.questionStartTime = Date.now();
+  room.phase         = 'question';
+
+  const questionIndex   = room.currentQuestion;
+  const currentRoundIdx = room.currentRound;
+  const q               = round.questions[questionIndex];
+
+  const payload = {
+    index:     questionIndex,
+    total:     round.questions.length,
+    question:  q.question,
+    options:   q.options,
+    timeLimit: 15,
+    type:      q.type || 'normal',
+    roundName: round.name,
+    roundIndex: room.currentRound,
+    totalRounds: room.roundPlan.length,
+  };
+  if (q.type === 'pixel')  {
+    payload.imageUrl = q.imageUrl;
+    // Client : 10s de dépixellisation + 10s de timer = 20s. Marge serveur.
+    payload.timeLimit = 25;
+  }
+  if (q.type === 'geomap') {
+    // Pas de question/options classiques : juste un lieu à placer
+    payload.options = [];   // pas d'options A/B/C/D
+    payload.timeLimit = 20; // 20s pour cliquer sur la carte
+  }
+  if (round.name === 'pari') {
+    payload.isPari = true;
+    // Client : phase de mise libre + 15s après "Miser et voir". Marge serveur généreuse.
+    payload.timeLimit = 45;
+  }
+
+  io.to(code).emit('new_question', payload);
+
+  if (round.name === 'pari') {
+    // Pari : pas de timeout d'avance immédiat. On attend le "miser et voir" de chaque joueur,
+    // OU au max 25s de phase de mise. Ensuite startPariAnswerPhase déclenche les 15s de réponse.
+    room.pariMiserDone = {};
+    if (room.pariCap) clearTimeout(room.pariCap);
+    room.pariCap = setTimeout(() => {
+      if (rooms[code] === room && room.currentQuestion === questionIndex
+          && room.currentRound === currentRoundIdx) {
+        startPariAnswerPhase(code, questionIndex, currentRoundIdx);
+      }
+    }, 25000);
+  } else {
+    // Marge serveur : +300ms standard, +1500ms pour geomap (laisse le temps à l'auto-submit
+    // côté client d'arriver avant que le serveur force le reveal sans la dernière réponse)
+    const grace = q.type === 'geomap' ? 1500 : 300;
+    const limit = payload.timeLimit * 1000 + grace;
+    setTimeout(() => {
+      if (rooms[code] && rooms[code].currentQuestion === questionIndex &&
+          rooms[code].currentRound === currentRoundIdx &&
+          !rooms[code].nextScheduled && rooms[code].players.length > 0) {
+        // Passe par endQuestion pour gérer le geomap_reveal même quand personne ne répond
+        endQuestion(code);
+      }
+    }, limit);
+  }
+}
+
+function startPariAnswerPhase(code, questionIndex, roundIndex) {
+  const room = rooms[code];
+  if (!room) return;
+  if (room.pariCap) { clearTimeout(room.pariCap); room.pariCap = null; }
+  if (room.currentQuestion !== questionIndex || room.currentRound !== roundIndex) return;
+
+  // Reset le compteur de question : les 15s commencent maintenant pour TOUS les joueurs
+  room.questionStartTime = Date.now();
+  io.to(code).emit('pari_reveal', { timeLimit: 15 });
+
+  setTimeout(() => {
+    if (rooms[code] && rooms[code].currentQuestion === questionIndex &&
+        rooms[code].currentRound === roundIndex &&
+        !rooms[code].nextScheduled && rooms[code].players.length > 0) {
+      endQuestion(code);
+    }
+  }, 16000);
+}
+
+// Annonce dramatique d'une manche, puis lance sa première question
+function startRound(code, roundIndex) {
+  const room = rooms[code];
+  if (!room) return;
+  const round = room.roundPlan[roundIndex];
+  if (!round) return;
+
+  room.phase = 'intro';
+  room.questionStartTime = null;
+
+  io.to(code).emit('round_intro', {
+    roundName:   round.name,
+    roundIndex,
+    totalRounds: room.roundPlan.length,
+    qCount:      round.questions.length,
+  });
+  io.to(code).emit('round_started', { roundName: round.name, roundIndex });
+
+  setTimeout(() => {
+    if (rooms[code] && rooms[code].phase === 'intro') sendQuestion(code);
+  }, 3500);
+}
+
+// ── Socket.io ─────────────────────────────────────────────────
+io.on('connection', (socket) => {
+  console.log(`✅ Connecté : ${socket.id}`);
+
+  socket.on('create_room', ({ playerName, settings, avatar }) => {
+    const code = generateCode();
+    const teams = settings.teamMode ? buildTeams(settings.numTeams || 2) : [];
+    rooms[code] = {
+      code,
+      host:     socket.id,
+      hostName: playerName,
+      players:  [{ id: socket.id, name: playerName, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true }],
+      settings,
+      teams,
+      started:      false,
+      currentRound: 0,
+      currentQuestion: 0,
+      answers:      {},
+      teamAnswers:  {},
+      nextScheduled: false,
+      questionStartTime: null,
+      roundPlan:    [],
+      history:      [],
+    };
+    socket.join(code);
+    console.log(`🎮 Room créée : ${code} par ${playerName}`);
+    socket.emit('room_created', { code, players: rooms[code].players, settings, teams });
+  });
+
+  socket.on('join_room', ({ code, playerName, avatar }) => {
+    const room = rooms[code];
+    if (!room)                    return socket.emit('join_error', 'Partie introuvable.');
+    if (room.started)             return socket.emit('join_error', 'Partie déjà commencée.');
+    if (room.players.length >= 8) return socket.emit('join_error', 'Partie pleine (8/8).');
+    if (room.players.find(p => p.name === playerName))
+      return socket.emit('join_error', 'Ce pseudo est déjà pris.');
+
+    room.players.push({ id: socket.id, name: playerName, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true });
+    socket.join(code);
+    socket.emit('room_joined', { code, players: room.players, settings: room.settings, teams: room.teams });
+    emitPlayersUpdate(code);
+  });
+
+  socket.on('lobby_sync', ({ code, playerName, avatar, fromLobby }) => {
+    const room = rooms[code];
+    if (!room) return socket.emit('join_error', 'Partie introuvable.');
+
+    // Annuler le timer de suppression du lobby vide si le joueur revient
+    if (room._emptyTimer) { clearTimeout(room._emptyTimer); room._emptyTimer = null; }
+
+    let player = room.players.find(p => p.name === playerName);
+    if (player) {
+      // Joueur trouvé : mettre à jour son socket ID
+      const oldId = player.id;
+      player.id   = socket.id;
+      if (room.host === oldId) room.host = socket.id;
+      // Si le sync vient de lobby.html, le joueur est revenu au salon (post-game / refresh)
+      if (fromLobby) player.inLobby = true;
+    } else if (!room.started) {
+      // Joueur supprimé par le timer de déconnexion avant que lobby.html charge
+      player = { id: socket.id, name: playerName, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true };
+      const isOriginalHost = room.hostName === playerName;
+      if (isOriginalHost) {
+        room.players.unshift(player); // L'hôte reste toujours en première position
+        room.host = socket.id;
+      } else {
+        room.players.push(player);
+      }
+      console.log(`♻️  ${playerName} ré-ajouté dans ${code} (reconnexion tardive)`);
+    }
+    socket.join(code);
+    emitPlayersUpdate(code);
+    // Direct delivery to the connecting socket — guarantees they see themselves
+    // even if the room broadcast has a timing edge case
+    socket.emit('players_update', {
+      players:  room.players,
+      teams:    room.teams,
+      hostName: room.hostName,
+    });
+    // Pour les joueurs (ré)entrant au lobby : pousser les settings courants
+    // afin qu'ils voient l'état actuel des pickers (manches, thèmes, difficulté…),
+    // même si l'hôte les a modifiés avant qu'ils n'ouvrent lobby.html.
+    if (!room.started) {
+      socket.emit('settings_updated', { settings: room.settings, teams: room.teams });
+    }
+
+    // Renvoi d'état pour les rejoineurs (host qui passe lobby→game inclus)
+    if (room.started && room.roundPlan.length > 0) {
+      const round = currentRound(room);
+      if (!round) return;
+
+      if (room.phase === 'intro') {
+        // En cours d'annonce de manche : renvoyer le jingle
+        socket.emit('round_intro', {
+          roundName:   round.name,
+          roundIndex:  room.currentRound,
+          totalRounds: room.roundPlan.length,
+          qCount:      round.questions.length,
+        });
+        socket.emit('round_started', { roundName: round.name, roundIndex: room.currentRound });
+      } else if (room.phase === 'question' && room.questionStartTime
+                 && room.currentQuestion < round.questions.length) {
+        const q = round.questions[room.currentQuestion];
+        const alreadyAnswered = player && room.answers[player.name] !== undefined;
+        if (!alreadyAnswered) {
+          const elapsed   = (Date.now() - room.questionStartTime) / 1000;
+          const base      = q.type === 'pixel' ? 25 : (round.name === 'pari' ? 45 : 15);
+          const remaining = Math.max(3, base - Math.floor(elapsed));
+          socket.emit('new_question', {
+            index: room.currentQuestion, total: round.questions.length,
+            question: q.question, options: q.options, timeLimit: remaining,
+            type: q.type || 'normal', imageUrl: q.imageUrl,
+            roundName: round.name, roundIndex: room.currentRound, totalRounds: room.roundPlan.length,
+            isPari: round.name === 'pari' || undefined,
+          });
+        }
+      }
+      // phase 'scores' / 'between' : ne renvoie rien, le prochain événement viendra
+    }
+  });
+
+  // Hôte met à jour les settings depuis le lobby (nb questions, mode équipe, etc.)
+  socket.on('update_settings', ({ code, settings }) => {
+    const room = rooms[code];
+    if (!room || room.host !== socket.id) return;
+
+    const wasTeamMode = !!room.settings.teamMode;
+    const oldNumTeams = room.settings.numTeams;
+    room.settings = { ...room.settings, ...settings };
+    const isTeamMode = !!room.settings.teamMode;
+    const newNumTeams = room.settings.numTeams || 2;
+
+    // Reconstruire les équipes ET nettoyer player.teamId quand on bascule
+    // entre solo/équipe ou qu'on change le nombre d'équipes — sinon les anciens
+    // teamId pointent vers des équipes qui n'existent plus (badge fantôme).
+    if (wasTeamMode !== isTeamMode || (isTeamMode && oldNumTeams !== newNumTeams)) {
+      room.teams = isTeamMode ? buildTeams(newNumTeams) : [];
+      room.players.forEach(p => { p.teamId = null; });
+    }
+
+    io.to(code).emit('settings_updated', { settings: room.settings, teams: room.teams });
+    emitPlayersUpdate(code);
+  });
+
+  // Joueur choisit une équipe
+  socket.on('choose_team', ({ code, teamId }) => {
+    const room   = rooms[code];
+    if (!room) return;
+    const player = room.players.find(p => p.id === socket.id);
+    if (!player) return;
+    player.teamId = teamId;
+    emitPlayersUpdate(code);
+  });
+
+  socket.on('start_game', async ({ code }) => {
+    const room = rooms[code];
+    if (!room || room.host !== socket.id) return;
+
+    // Tous les joueurs doivent être revenus au lobby (sinon ils ratent l'intro)
+    const stragglers = room.players.filter(p => p.inLobby === false).map(p => p.name);
+    if (stragglers.length > 0) {
+      socket.emit('start_blocked', { stragglers });
+      return;
+    }
+
+    room.started = true;
+    // Une fois la partie lancée, plus personne n'est "dans le lobby"
+    room.players.forEach(p => { p.inLobby = false; });
+    try {
+      room.roundPlan    = buildRoundPlan(room.settings);
+      room.currentRound = 0;
+      room.currentQuestion = 0;
+      room.history      = [];
+      await loadRoundQuestions(room.roundPlan, room.settings.difficulty);
+
+      const first = room.roundPlan[0];
+      io.to(code).emit('game_started', {
+        totalRounds: room.roundPlan.length,
+        firstRound:  first ? first.name : 'culture',
+        teamMode:    room.settings.teamMode,
+        teams:       room.teams,
+        players:     room.players,
+      });
+      startRound(code, 0);
+    } catch (err) {
+      console.error(err);
+      socket.emit('join_error', 'Erreur lors du chargement.');
+      room.started = false;
+    }
+  });
+
+  socket.on('submit_answer', ({ code, answerIndex, betAmount, lat, lng }) => {
+    const room = rooms[code];
+    if (!room) return;
+
+    const player = room.players.find(p => p.id === socket.id);
+    if (!player) return;
+    if (room.answers[player.name] !== undefined) return;
+
+    const round = currentRound(room);
+    if (!round) return;
+    const q = round.questions[room.currentQuestion];
+
+    // ── GEOMAP : score basé sur la distance au point correct ─────
+    if (q.type === 'geomap') {
+      const guessLat = Number(lat), guessLng = Number(lng);
+      let points = 0, dist = null;
+      if (Number.isFinite(guessLat) && Number.isFinite(guessLng)) {
+        dist   = distanceKm(guessLat, guessLng, q.lat, q.lng);
+        points = geoScore(dist);
+      }
+      const correct = points >= 500;
+      room.answers[player.name] = { lat: guessLat, lng: guessLng, distance: dist, correct, points };
+      if (room.settings.teamMode && player.teamId !== null) {
+        const team = room.teams.find(t => t.id === player.teamId);
+        if (team) team.score += points;
+      } else {
+        player.score = Math.max(0, player.score + points);
+      }
+      socket.emit('answer_result', {
+        correct, points, distance: dist,
+        correctLat: q.lat, correctLng: q.lng, correctLabel: q.label,
+      });
+      io.to(code).emit('player_answered', { name: player.name });
+      checkAllAnswered(code);
+      return;
+    }
+
+    // ── Manches classiques (culture, pixel, pari) ────────────────
+    const correct = answerIndex === q.correctIndex;
+    let points = 0;
+    if (correct) {
+      if (round.name === 'pari' && betAmount !== undefined) {
+        points = betAmount;
+      } else if (q.type === 'pixel') {
+        const elapsed = (Date.now() - room.questionStartTime) / 1000;
+        if (elapsed < 6)       points = 500;
+        else if (elapsed < 12) points = 400;
+        else if (elapsed < 18) points = 300;
+        else if (elapsed < 24) points = 200;
+        else                   points = 100;
+        const allAnswers = Object.values(room.answers);
+        const correctSoFar = allAnswers.filter(a => a.correct).length;
+        if (correctSoFar === 0) points += 100;
+      } else {
+        points = 100;
+      }
+    } else if (round.name === 'pari' && betAmount !== undefined) {
+      points = -betAmount;
+    }
+
+    room.answers[player.name] = { answerIndex, correct, points };
+
+    if (room.settings.teamMode && player.teamId !== null) {
+      const team = room.teams.find(t => t.id === player.teamId);
+      if (team && !room.teamAnswers[player.teamId]) {
+        room.teamAnswers[player.teamId] = { answerIndex, correct, points };
+        if (correct) team.score += points;
+      }
+    } else {
+      if (correct) player.score = Math.max(0, player.score + points);
+    }
+
+    socket.emit('answer_result', { correct, correctIndex: q.correctIndex, points });
+    io.to(code).emit('player_answered', { name: player.name });
+    checkAllAnswered(code);
+  });
+
+  socket.on('host_advance', ({ code }) => {
+    const room = rooms[code];
+    if (!room) return;
+    if (room.host !== socket.id) return;       // Seul l'hôte peut déclencher
+    if (!room.waitingForHost) return;          // Pas dans une phase d'attente
+    advance(code);
+  });
+
+  // L'hôte lègue son rôle à un autre joueur (depuis le lobby ou en cours de partie).
+  socket.on('transfer_host', ({ code, targetName }) => {
+    const room = rooms[code];
+    if (!room || room.host !== socket.id) return;
+    const target = room.players.find(p => p.name === targetName);
+    if (!target || target.id === socket.id) return;
+
+    const oldHostName = room.hostName;
+    room.host     = target.id;
+    room.hostName = target.name;
+    // Convention : l'hôte est en première position de la liste players.
+    const idx = room.players.findIndex(p => p.id === target.id);
+    if (idx > 0) {
+      const [p] = room.players.splice(idx, 1);
+      room.players.unshift(p);
+    }
+    console.log(`👑 ${oldHostName} → ${target.name} (transfert d'hôte dans ${code})`);
+
+    io.to(code).emit('host_changed', { hostName: room.hostName });
+    emitPlayersUpdate(code);
+    io.to(code).emit('chat_message', {
+      name: '🔔 Système',
+      text: `👑 ${oldHostName} a légué le rôle d'hôte à ${target.name}.`,
+    });
+    // Si on attendait justement le clic de l'hôte, relancer l'invite pour le nouvel hôte
+    if (room.waitingForHost && room.awaitingPayload) {
+      io.to(code).emit('awaiting_host', room.awaitingPayload);
+    }
+  });
+
+  // L'hôte exclut un joueur du lobby (uniquement avant le démarrage de la partie).
+  socket.on('kick_player', ({ code, targetName }) => {
+    const room = rooms[code];
+    if (!room || room.host !== socket.id) return;
+    if (room.started) return; // Pas de kick en pleine partie
+    const target = room.players.find(p => p.name === targetName);
+    if (!target || target.id === socket.id) return;
+
+    const targetSocket = io.sockets.sockets.get(target.id);
+    room.players = room.players.filter(p => p.name !== targetName);
+    if (targetSocket) {
+      targetSocket.emit('kicked', { by: room.hostName });
+      targetSocket.leave(code);
+    }
+    console.log(`🚫 ${target.name} exclu de ${code} par ${room.hostName}`);
+    emitPlayersUpdate(code);
+    io.to(code).emit('chat_message', {
+      name: '🔔 Système',
+      text: `🚫 ${target.name} a été exclu du lobby.`,
+    });
+  });
+
+  socket.on('pari_miser_done', ({ code, betAmount }) => {
+    const room = rooms[code];
+    if (!room) return;
+    const player = room.players.find(p => p.id === socket.id);
+    if (!player) return;
+    const round = currentRound(room);
+    if (!round || round.name !== 'pari') return;
+
+    if (!room.pariMiserDone) room.pariMiserDone = {};
+    room.pariMiserDone[player.name] = { bet: Number(betAmount) || 0 };
+
+    // Tous les joueurs ont fait leur miser → lance la phase de réponse
+    if (Object.keys(room.pariMiserDone).length >= room.players.length) {
+      startPariAnswerPhase(code, room.currentQuestion, room.currentRound);
+    }
+  });
+
+  socket.on('chat_message', ({ code, name, text }) => {
+    if (!rooms[code]) return;
+    io.to(code).emit('chat_message', { name, text });
+  });
+
+  // Joueur quitte volontairement la partie en cours (bouton "Quitter")
+  socket.on('leave_game', ({ code }) => {
+    const room = rooms[code];
+    if (!room) return;
+    const idx = room.players.findIndex(p => p.id === socket.id);
+    if (idx === -1) return;
+
+    const name    = room.players[idx].name;
+    const wasHost = room.host === socket.id;
+    room.players.splice(idx, 1);
+    socket.leave(code);
+    console.log(`🚪 ${name} a quitté volontairement ${code}`);
+
+    if (room.players.length === 0) {
+      if (room.hostTimeout)  clearTimeout(room.hostTimeout);
+      if (room._emptyTimer)  clearTimeout(room._emptyTimer);
+      delete rooms[code];
+      console.log(`🗑️  Room ${code} supprimée (plus de joueurs)`);
+      return;
+    }
+
+    // Réattribution de l'hôte si l'hôte vient de partir
+    let newHostName = null;
+    if (wasHost) {
+      room.host     = room.players[0].id;
+      room.hostName = room.players[0].name;
+      newHostName   = room.hostName;
+      io.to(code).emit('host_changed', { hostName: room.hostName });
+      // Si on attendait justement le clic de l'hôte, on relance l'invite pour le nouvel hôte
+      if (room.waitingForHost && room.awaitingPayload) {
+        io.to(code).emit('awaiting_host', room.awaitingPayload);
+      }
+    }
+    // Pop-up dédiée aux clients (toast immédiat) — séparée du chat_message
+    io.to(code).emit('player_left', { name, wasHost, newHostName });
+    emitPlayersUpdate(code);
+    io.to(code).emit('chat_message', { name: '🔔 Système', text: `${name} a quitté la partie.` });
+    if (room.started) checkAllAnswered(code);
+  });
+
+  socket.on('disconnect', () => {
+    console.log(`❌ Déconnecté : ${socket.id}`);
+    setTimeout(() => {
+      for (const code in rooms) {
+        const room = rooms[code];
+        const idx  = room.players.findIndex(p => p.id === socket.id);
+        if (idx === -1) continue;
+
+        const name    = room.players[idx].name;
+        const wasHost = room.host === socket.id;
+        room.players.splice(idx, 1);
+        console.log(`👋 ${name} parti de ${code}`);
+
+        if (room.players.length === 0) {
+          if (room.started) {
+            // Partie lancée et plus personne : supprimer immédiatement
+            delete rooms[code];
+          } else {
+            // Lobby vide : attendre 60s avant de supprimer (laisse le temps de se reconnecter)
+            room._emptyTimer = setTimeout(() => {
+              if (rooms[code] && rooms[code].players.length === 0) {
+                delete rooms[code];
+                console.log(`🗑️  Room ${code} supprimée (lobby vide 60s)`);
+              }
+            }, 60000);
+            console.log(`⏳ Room ${code} vide — sera supprimée dans 60s si personne ne revient`);
+          }
+        } else {
+          // Annuler le timer de suppression si d'autres joueurs sont là
+          if (room._emptyTimer) { clearTimeout(room._emptyTimer); room._emptyTimer = null; }
+          // Si l'hôte vient de partir, transférer le rôle au joueur suivant
+          let newHostName = null;
+          if (wasHost) {
+            room.host     = room.players[0].id;
+            room.hostName = room.players[0].name;
+            newHostName   = room.hostName;
+            io.to(code).emit('host_changed', { hostName: room.hostName });
+            if (room.waitingForHost && room.awaitingPayload) {
+              io.to(code).emit('awaiting_host', room.awaitingPayload);
+            }
+          }
+          io.to(code).emit('player_left', { name, wasHost, newHostName });
+          emitPlayersUpdate(code);
+          io.to(code).emit('chat_message', { name: '🔔 Système', text: `${name} a quitté la partie.` });
+          if (room.started) checkAllAnswered(code);
+        }
+      }
+    }, 8000);
+  });
+});
+
+// ── Helpers ───────────────────────────────────────────────────
+function emitPlayersUpdate(code) {
+  const room = rooms[code];
+  if (!room) return;
+  io.to(code).emit('players_update', {
+    players:  room.players,
+    teams:    room.teams,
+    hostName: room.hostName,
+  });
+}
+
+function buildTeams(n) {
+  const names  = ['Violet', 'Orange', 'Teal', 'Rose'];
+  const colors = ['#6C3FCF', '#F97316', '#14B8A6', '#EC4899'];
+  return Array.from({ length: n }, (_, i) => ({ id: i, name: `Équipe ${names[i]}`, color: colors[i], score: 0 }));
+}
+
+function defaultAvatar() { return { colorIdx: 0, emoji: '🎮' }; }
+
+server.listen(PORT, () => {
+  console.log(`\n🎮 QuizzRoom → http://localhost:${PORT}\n`);
+});

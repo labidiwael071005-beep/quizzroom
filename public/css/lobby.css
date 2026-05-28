@@ -1,0 +1,443 @@
+/* lobby.css — Styles spécifiques au salon d'attente */
+
+.lobby-main {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 20px;
+  max-width: 900px;
+  margin: 28px auto;
+  padding: 0 24px;
+  align-items: start;
+}
+
+/* ── Cards génériques du lobby ──────────────────────────────── */
+.lobby-card {
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px;
+  margin-bottom: 14px;
+}
+.lobby-card-title {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 14px;
+}
+.lobby-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.player-count {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--orange);
+}
+
+/* ── Code d'invitation ──────────────────────────────────────── */
+.code-card {
+  background: linear-gradient(135deg, rgba(108,63,207,0.25), rgba(249,115,22,0.15));
+  border: 0.5px solid rgba(139,92,246,0.35);
+  border-radius: var(--radius-lg);
+  padding: 22px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.code-label {
+  font-size: 11px;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  margin-bottom: 10px;
+}
+.code-display {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: .22em;
+  color: var(--text);
+  margin-bottom: 14px;
+  font-family: var(--font-mono), monospace;
+}
+
+/* ── Paramètres ─────────────────────────────────────────────── */
+.settings-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 0.5px solid var(--border);
+}
+.settings-row:last-child { border-bottom: none; }
+.settings-key { font-size: 13px; color: var(--text-muted); }
+
+/* ── Ordre des manches ──────────────────────────────────────── */
+.rounds-order { display: flex; flex-direction: column; gap: 7px; }
+.round-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.round-num {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--purple-light);
+  min-width: 18px;
+}
+.round-item i { color: var(--orange); }
+.round-q { margin-left: auto; font-size: 11px; color: var(--text-faint); }
+
+/* ── Liste des joueurs ──────────────────────────────────────── */
+.players-list { display: flex; flex-direction: column; gap: 2px; }
+.player-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 0.5px solid var(--border);
+  animation: slideIn .3s ease;
+}
+.player-item:last-child { border-bottom: none; }
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-10px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.player-avatar {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 600;
+  flex-shrink: 0;
+}
+.av-0 { background: rgba(108,63,207,.4); color: #C4B5FD; }
+.av-1 { background: rgba(249,115,22,.35); color: #FED7AA; }
+.av-2 { background: rgba(20,184,166,.3); color: #99F6E4; }
+.av-3 { background: rgba(236,72,153,.3); color: #F9A8D4; }
+.av-4 { background: rgba(250,204,21,.25); color: #FEF08A; }
+.av-5 { background: rgba(59,130,246,.3); color: #BAE6FD; }
+.av-6 { background: rgba(168,85,247,.3); color: #E9D5FF; }
+.av-7 { background: rgba(34,197,94,.25); color: #BBF7D0; }
+
+.player-name {
+  font-size: 14px; font-weight: 500; flex: 1;
+  display: flex; align-items: center; flex-wrap: wrap; gap: 6px;
+}
+.player-waiting-label {
+  display: block;
+  width: 100%;
+  font-size: 11px;
+  font-style: italic;
+  color: var(--text-faint);
+  margin-top: 2px;
+}
+/* On grise seulement l'avatar et le nom, pas l'ensemble du player-item :
+   un parent en opacity créerait un stacking context et atténuerait aussi le
+   menu kebab (qui doit rester pleinement cliquable). */
+.player-item.is-waiting .av-inline {
+  opacity: .55;
+  filter: grayscale(.7);
+}
+.player-item.is-waiting .player-name { color: var(--text-faint); }
+.player-item.is-waiting .player-status { background: #6B7280; }
+.player-you  { font-size: 11px; color: var(--orange); margin-left: 6px; }
+.host-badge  {
+  font-size: 10px; font-weight: 600;
+  padding: 2px 7px; border-radius: 20px;
+  background: rgba(249,115,22,.2); color: #FED7AA;
+  border: 0.5px solid rgba(249,115,22,.4);
+}
+/* ── Menu kebab (3 points) sur chaque autre joueur, visible pour l'hôte ── */
+.player-menu { position: relative; flex-shrink: 0; }
+.player-menu-btn {
+  width: 26px; height: 26px;
+  border-radius: 50%;
+  border: 0.5px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  color: var(--text-muted);
+  font-size: 18px; line-height: 1;
+  cursor: pointer;
+  font-family: inherit;
+  display: inline-flex; align-items: center; justify-content: center;
+  transition: all .15s;
+  padding: 0;
+}
+.player-menu-btn:hover {
+  background: rgba(255,255,255,0.10);
+  color: var(--text);
+  border-color: var(--purple-light);
+}
+.player-menu-dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  min-width: 170px;
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  padding: 4px;
+  display: none;
+  z-index: 30;
+}
+.player-menu-dropdown.open { display: block; animation: slideIn .12s ease; }
+.player-menu-item {
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font-size: 13px;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: inherit;
+  transition: background .12s;
+}
+.player-menu-item:hover { background: rgba(255,255,255,0.06); }
+.player-menu-item.danger { color: #FCA5A5; }
+.player-menu-item.danger:hover { background: rgba(239,68,68,0.15); }
+.player-status {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: #22C55E;
+  flex-shrink: 0;
+}
+
+/* Slots vides */
+.empty-slots { display: flex; flex-direction: column; gap: 2px; margin-top: 2px; }
+.empty-slot {
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 0;
+  border-bottom: 0.5px solid var(--border);
+  opacity: .35;
+}
+.empty-slot:last-child { border-bottom: none; }
+.empty-avatar {
+  width: 36px; height: 36px; border-radius: 50%;
+  border: 1.5px dashed var(--border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; color: var(--text-faint);
+}
+.empty-name { font-size: 13px; color: var(--text-faint); font-style: italic; }
+
+/* ── Chat ───────────────────────────────────────────────────── */
+.chat-messages {
+  height: 120px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-right: 4px;
+}
+.chat-messages::-webkit-scrollbar { width: 3px; }
+.chat-messages::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+.chat-msg { font-size: 13px; line-height: 1.5; }
+.chat-author { font-weight: 600; color: var(--orange); margin-right: 6px; }
+.chat-text { color: var(--text-muted); }
+.chat-system { font-size: 12px; color: var(--text-faint); font-style: italic; }
+
+.chat-input-row { display: flex; gap: 8px; }
+.chat-input-row input {
+  flex: 1; padding: 9px 12px;
+  border-radius: 8px;
+  border: 0.5px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  color: var(--text); font-size: 13px;
+  outline: none;
+  transition: border-color .15s;
+}
+.chat-input-row input:focus { border-color: var(--purple-light); }
+.chat-input-row input::placeholder { color: var(--text-faint); }
+
+/* Bouton Start désactivé tant que tous les joueurs ne sont pas revenus au lobby */
+#btn-start:disabled,
+#btn-start.is-blocked {
+  opacity: .5;
+  cursor: not-allowed;
+  filter: grayscale(.4);
+}
+
+/* ── Actions hôte / invité ──────────────────────────────────── */
+.start-hint {
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-faint);
+  margin-top: 10px;
+}
+.guest-waiting {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 16px;
+  color: var(--text-faint);
+  font-size: 13px;
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: .5; }
+}
+
+/* ── Q count par manche (hôte) ──────────────────────────────── */
+.qcount-list { display: flex; flex-direction: column; gap: 10px; }
+.qcount-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 8px 0; border-bottom: 0.5px solid var(--border);
+}
+.qcount-item:last-child { border-bottom: none; }
+.qcount-label { flex: 1; font-size: 13px; color: var(--text-muted); display: flex; align-items: center; gap: 8px; }
+.qcount-controls { display: flex; align-items: center; gap: 10px; }
+.qcount-btn {
+  width: 28px; height: 28px; border-radius: 6px;
+  background: var(--surface); border: 0.5px solid var(--border);
+  color: var(--text); font-size: 16px; font-weight: 600;
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  transition: background .15s;
+}
+.qcount-btn:hover { background: var(--surface-hov); border-color: var(--orange); }
+.qcount-val { min-width: 24px; text-align: center; font-size: 15px; font-weight: 600; color: var(--orange); }
+
+/* ── Mode équipe ────────────────────────────────────────────── */
+.team-toggle {
+  display: flex; gap: 8px; margin-bottom: 14px;
+}
+.team-toggle-btn {
+  flex: 1; padding: 10px 8px; border-radius: var(--radius);
+  border: 0.5px solid var(--border); background: var(--surface);
+  color: var(--text-muted); font-size: 13px; cursor: pointer;
+  transition: all .15s; text-align: center;
+}
+.team-toggle-btn.active { border-color: var(--orange); background: rgba(249,115,22,.15); color: #FED7AA; }
+
+.teams-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.team-card {
+  padding: 12px; border-radius: var(--radius);
+  border: 1.5px solid var(--border); background: var(--surface);
+  cursor: pointer; transition: all .15s;
+}
+.team-card:hover { border-color: var(--orange); }
+.team-card.joined { border-color: var(--orange); background: rgba(249,115,22,.12); }
+.team-card-name { font-size: 13px; font-weight: 600; margin-bottom: 4px; display: flex; align-items: center; gap: 6px; }
+.team-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+.team-members { font-size: 11px; color: var(--text-faint); margin-bottom: 8px; min-height: 16px; }
+.team-join-btn {
+  width: 100%; padding: 6px; border-radius: 6px;
+  font-size: 12px; font-weight: 500; cursor: pointer;
+  border: 0.5px solid var(--border); background: var(--surface);
+  color: var(--text-muted); transition: all .15s;
+}
+.team-join-btn:hover { border-color: var(--orange); color: #FED7AA; }
+
+.num-teams-row {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 12px; font-size: 13px; color: var(--text-muted);
+}
+
+/* ── Avatar dans la liste joueurs ───────────────────────────── */
+.player-item .av-inline { flex-shrink: 0; }
+.player-team-badge {
+  font-size: 10px; padding: 2px 6px; border-radius: 20px;
+  font-weight: 600; margin-left: 4px;
+}
+
+/* ── Responsive ─────────────────────────────────────────────── */
+@media (max-width: 680px) {
+  .lobby-main {
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+  }
+  .teams-grid { grid-template-columns: 1fr; }
+}
+/* ── Sélecteurs hôte : manches / thèmes / difficulté ───────── */
+.rounds-pick {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 8px;
+}
+.round-pick {
+  padding: 10px 12px; border-radius: 10px;
+  border: 0.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text); font-size: 13px;
+  cursor: pointer; transition: all .15s;
+  display: flex; align-items: center; gap: 8px;
+  font-family: inherit;
+}
+.round-pick:hover { border-color: var(--purple-light); background: rgba(108,63,207,0.15); }
+.round-pick.active {
+  border-color: var(--orange);
+  background: rgba(249,115,22,0.18);
+  color: var(--text);
+}
+
+.themes-pick {
+  display: flex; flex-wrap: wrap; gap: 6px;
+}
+.theme-pick {
+  padding: 6px 12px; border-radius: 20px;
+  border: 0.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted); font-size: 12px;
+  cursor: pointer; transition: all .15s;
+  font-family: inherit;
+}
+.theme-pick:hover { color: var(--text); border-color: var(--purple-light); }
+.theme-pick.active {
+  background: var(--purple);
+  border-color: var(--purple);
+  color: white;
+}
+
+.diff-pick {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px;
+}
+.diff-pick-btn {
+  padding: 8px 4px; border-radius: 8px;
+  border: 0.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted); font-size: 12px; font-weight: 600;
+  cursor: pointer; transition: all .15s;
+  font-family: inherit;
+}
+.diff-pick-btn:hover { color: var(--text); }
+.diff-pick-btn.active {
+  background: var(--orange);
+  border-color: var(--orange);
+  color: white;
+}
+
+/* ── Lobby invité : pickers visibles mais en lecture seule ───── */
+/* L'invité voit exactement les mêmes cartes que l'hôte, mais ne peut rien
+   modifier — pointer-events:none désactive le clic, l'opacité signale l'état. */
+.lobby-main.is-guest #rounds-pick .round-pick,
+.lobby-main.is-guest #themes-pick .theme-pick,
+.lobby-main.is-guest #diff-pick .diff-pick-btn,
+.lobby-main.is-guest #qcount-list .qcount-btn,
+.lobby-main.is-guest #team-toggle .team-toggle-btn,
+.lobby-main.is-guest .num-teams-row .qcount-btn {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.85;
+}
+/* Petit cadenas inline dans le titre des cartes pour signaler la lecture seule */
+.lobby-main.is-guest #rounds-pick-card .lobby-card-title::after,
+.lobby-main.is-guest #themes-pick-card .lobby-card-title::after,
+.lobby-main.is-guest #diff-pick-card   .lobby-card-title::after,
+.lobby-main.is-guest #qcount-card      .lobby-card-title::after,
+.lobby-main.is-guest #team-card        .lobby-card-title::after {
+  content: '  🔒';
+  font-size: 11px;
+  opacity: .75;
+  margin-left: 4px;
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuizzRoom — En jeu</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/game.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+</head>
+<body>
+<canvas id="marble-canvas"></canvas>
+
+<!-- HUD : juste round + progression, plus de timer ici -->
+<div class="hud">
+  <div class="hud-left">
+    <div class="logo-mark"><i class="ti ti-bolt"></i></div>
+    <span class="hud-round" id="hud-round">Manche 1</span>
+  </div>
+  <div class="hud-center">
+    <div class="hud-progress">Q <span id="hud-q-index">1</span>/<span id="hud-q-total">10</span></div>
+    <div class="progress-bar-track"><div class="progress-bar-fill" id="progress-bar"></div></div>
+  </div>
+  <div class="hud-right">
+    <button class="hud-quit-btn" id="quit-btn" onclick="leaveGame()" title="Quitter la partie">
+      <i class="ti ti-door-exit"></i><span>Quitter</span>
+    </button>
+  </div>
+</div>
+
+<!-- Plateau de jeu : avatars autour + zone centrale -->
+<div class="stage" id="stage">
+  <!-- Panneau d'avatars autour de la "table" -->
+  <aside class="avatars-panel" id="avatars-panel"></aside>
+
+  <!-- Zone centrale : sablier + écrans -->
+  <main class="stage-main">
+    <!-- Sablier animé (verre + bouchons dorés) -->
+    <div class="hourglass-wrap" id="hourglass-wrap">
+      <svg class="hourglass" viewBox="0 0 100 140" id="hourglass-svg">
+        <defs>
+          <linearGradient id="hgCap" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#FCD34D"/>
+            <stop offset="100%" stop-color="#D97706"/>
+          </linearGradient>
+          <linearGradient id="hgSand" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#FBBF24"/>
+            <stop offset="100%" stop-color="#F97316"/>
+          </linearGradient>
+          <linearGradient id="hgGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="rgba(255,255,255,0.10)"/>
+            <stop offset="50%" stop-color="rgba(139,92,246,0.10)"/>
+            <stop offset="100%" stop-color="rgba(255,255,255,0.05)"/>
+          </linearGradient>
+          <clipPath id="hgTopClip">
+            <path d="M 22 16 L 78 16 Q 78 40, 50 65 Q 22 40, 22 16 Z"/>
+          </clipPath>
+          <clipPath id="hgBotClip">
+            <path d="M 22 124 L 78 124 Q 78 100, 50 75 Q 22 100, 22 124 Z"/>
+          </clipPath>
+        </defs>
+
+        <!-- Bouchons dorés -->
+        <rect x="6" y="6" width="88" height="10" rx="4" fill="url(#hgCap)" stroke="#92400E" stroke-width="0.5"/>
+        <rect x="6" y="124" width="88" height="10" rx="4" fill="url(#hgCap)" stroke="#92400E" stroke-width="0.5"/>
+
+        <!-- Bulbes de verre -->
+        <path d="M 22 16 L 78 16 Q 78 40, 50 65 Q 22 40, 22 16 Z"
+              fill="url(#hgGlass)" stroke="rgba(241,240,253,0.55)" stroke-width="1.2" stroke-linejoin="round"/>
+        <path d="M 22 124 L 78 124 Q 78 100, 50 75 Q 22 100, 22 124 Z"
+              fill="url(#hgGlass)" stroke="rgba(241,240,253,0.55)" stroke-width="1.2" stroke-linejoin="round"/>
+
+        <!-- Reflets sur le verre -->
+        <path d="M 28 18 Q 28 36, 44 56" stroke="rgba(255,255,255,0.35)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        <path d="M 56 84 Q 72 104, 72 122" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none" stroke-linecap="round"/>
+
+        <!-- Sable -->
+        <rect id="hg-sand-top" x="22" y="16" width="56" height="49" fill="url(#hgSand)" clip-path="url(#hgTopClip)"/>
+        <rect id="hg-sand-bot" x="22" y="124" width="56" height="0" fill="url(#hgSand)" clip-path="url(#hgBotClip)"/>
+
+        <!-- Filet de sable + grains -->
+        <rect id="hg-stream" x="48.5" y="65" width="3" height="10" fill="#FBBF24" rx="1.5"/>
+        <circle class="hg-grain" cx="50" cy="78" r="1.6" fill="#FCD34D"/>
+        <circle class="hg-grain hg-grain-2" cx="50" cy="80" r="1.2" fill="#FBBF24"/>
+      </svg>
+      <span class="hourglass-num" id="timer-num">15</span>
+    </div>
+
+    <!-- Annonce de manche (effet TV) -->
+    <div class="game-screen" id="screen-round-intro">
+      <div class="round-intro-wrap">
+        <div class="round-intro-prefix">PRÊTS ?</div>
+        <div class="round-intro-name" id="round-intro-name">Culture G</div>
+        <div class="round-intro-suffix">va commencer !!</div>
+        <div class="round-intro-meta" id="round-intro-meta">Manche 1/3 — 10 questions</div>
+      </div>
+    </div>
+
+    <!-- Countdown -->
+    <div class="game-screen hidden" id="screen-countdown">
+      <div class="countdown-wrap">
+        <div class="countdown-label" id="countdown-label" data-i18n="game.next.q">Prochaine question dans</div>
+        <div class="countdown-num" id="countdown-num">3</div>
+      </div>
+    </div>
+
+    <!-- Question normale -->
+    <div class="game-screen hidden" id="screen-question">
+      <div class="question-wrap">
+        <div class="question-meta">
+          <span class="badge badge-purple" id="q-theme">Culture G</span>
+        </div>
+        <div class="question-text" id="question-text">Chargement...</div>
+        <div class="answers-grid" id="answers-grid"></div>
+      </div>
+    </div>
+
+    <!-- Manche Pixel -->
+    <div class="game-screen hidden" id="screen-pixel">
+      <div class="pixel-wrap">
+        <div class="question-meta">
+          <span class="badge badge-purple"><i class="ti ti-photo"></i> Pixel</span>
+        </div>
+        <div class="question-text" data-i18n="game.pixel.title">Qu'est-ce que c'est ?</div>
+        <div class="pixel-canvas-wrap">
+          <canvas id="pixel-canvas" width="480" height="360"></canvas>
+        </div>
+        <div class="pixel-level-bar"><div class="pixel-level-fill" id="pixel-level-fill" style="width:12%"></div></div>
+        <div id="pixel-credit" class="pixel-credit"></div>
+        <div class="answers-grid" id="pixel-answers-grid"></div>
+      </div>
+    </div>
+
+    <!-- Manche Geo (carte interactive) -->
+    <div class="game-screen hidden" id="screen-geomap">
+      <div class="geomap-wrap">
+        <div class="geomap-header">
+          <span class="badge badge-orange"><i class="ti ti-map-pin"></i> GéoQuizz</span>
+          <h2 class="geomap-question" id="geomap-question">Où se trouve... ?</h2>
+        </div>
+        <div class="geomap-body">
+          <div id="geo-map" class="geo-map"></div>
+          <aside class="geomap-side">
+            <div class="hourglass-slot" id="hourglass-slot"></div>
+            <div class="geomap-hint-card" id="geomap-hint">
+              <i class="ti ti-pointer"></i>
+              <span>Clique sur la carte pour placer ton point</span>
+            </div>
+            <!-- Panneau de résultats (caché par défaut, montré au reveal) -->
+            <div class="geomap-results-panel" id="geomap-results-panel" style="display:none">
+              <div class="geomap-results-title" id="geomap-results-title">📍 Lieu</div>
+              <div class="geomap-results-fact" id="geomap-results-fact"></div>
+              <div class="geomap-results-list" id="geomap-results-list"></div>
+            </div>
+            <button class="btn-geo-validate" id="geo-validate-btn"
+                    onclick="submitGeoAnswer()" disabled>
+              <i class="ti ti-check"></i>
+              <span>Valider !</span>
+            </button>
+          </aside>
+        </div>
+      </div>
+    </div>
+
+    <!-- Manche Pari : phase 1 (mise) -->
+    <div class="game-screen hidden" id="screen-pari">
+      <div class="pari-wrap">
+        <div class="question-meta">
+          <span class="badge badge-orange"><i class="ti ti-coins"></i> Pari</span>
+        </div>
+        <div class="pari-question" id="pari-question-text">Question...</div>
+        <div class="pari-balance">
+          Tes points : <strong id="pari-balance">0</strong>
+          <span data-i18n="game.pari.pts">pts disponibles</span>
+        </div>
+        <div class="pari-slider-wrap">
+          <input type="range" class="pari-slider" id="pari-slider" min="0" max="100" value="50"
+                 oninput="updatePariDisplay()">
+        </div>
+        <div class="pari-bet-display">
+          <span id="pari-bet-pts">0</span> pts misés
+        </div>
+        <div class="answers-grid" id="pari-answers-grid" style="display:none"></div>
+        <button class="btn btn-orange btn-lg" id="pari-reveal-btn" onclick="revealPariAnswers()">
+          <i class="ti ti-eye"></i> <span data-i18n="game.pari.btn">Miser et voir</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- « Le savais-tu ? » — écran dédié affiché entre chaque question et entre chaque manche -->
+    <div class="game-screen hidden" id="screen-reveal">
+      <div class="reveal-screen-wrap">
+        <div class="reveal-screen-head">
+          <i class="ti ti-bulb"></i>
+          <span>Le savais-tu ?</span>
+        </div>
+        <div class="reveal-screen-question" id="reveal-screen-question"></div>
+        <div class="reveal-screen-answer">
+          <span class="reveal-screen-answer-label">Bonne réponse</span>
+          <span class="reveal-screen-answer-text" id="reveal-screen-answer">—</span>
+        </div>
+        <div class="reveal-screen-text" id="reveal-screen-text"></div>
+      </div>
+    </div>
+
+    <!-- Résultat réponse -->
+    <div class="game-screen hidden" id="screen-result">
+      <div class="result-wrap">
+        <div class="result-icon" id="result-icon">✅</div>
+        <div class="result-title" id="result-title">Bonne réponse !</div>
+        <div class="result-answer" id="result-answer"></div>
+        <div class="result-points" id="result-points">+100 pts</div>
+      </div>
+    </div>
+
+    <!-- Scores intermédiaires -->
+    <div class="game-screen hidden" id="screen-scores">
+      <div class="scores-wrap">
+        <div class="scores-title" data-i18n="game.scores">🏅 Classement</div>
+        <div id="scores-list" class="scores-list"></div>
+      </div>
+    </div>
+
+    <!-- Fin de partie -->
+    <div class="game-screen hidden" id="screen-gameover">
+      <div class="gameover-wrap">
+        <div class="gameover-trophy">🏆</div>
+        <div class="gameover-title" data-i18n="game.over">Partie terminée !</div>
+        <div id="gameover-ranking" class="gameover-ranking"></div>
+        <div class="gameover-actions">
+          <button class="btn btn-purple btn-lg" onclick="displayGameHistory()">
+            <i class="ti ti-list-details"></i> Voir le récap
+          </button>
+          <button class="btn btn-orange btn-lg" onclick="window.location.href='lobby.html'">
+            <i class="ti ti-arrow-back"></i> Retour au lobby
+          </button>
+          <button class="btn btn-ghost btn-lg" onclick="goHome()">
+            <i class="ti ti-home"></i> <span data-i18n="game.back">Accueil</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Récap de partie (historique question par question) -->
+    <div class="game-screen hidden" id="screen-history">
+      <div class="history-wrap">
+        <div class="history-title">📜 Récap de la partie</div>
+        <div id="history-list" class="history-list"></div>
+        <button class="btn btn-orange btn-lg" onclick="backToGameOver()" style="margin-top:20px">
+          <i class="ti ti-arrow-back"></i> Retour au classement
+        </button>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- Contrôle hôte : bouton "Suivante" (visible seulement entre questions/manches pour l'hôte) -->
+<button class="host-control" id="host-control" onclick="hostAdvance()">
+  <i class="ti ti-player-track-next-filled"></i>
+  <span id="host-control-label">Suivante</span>
+</button>
+<div class="host-waiting-msg" id="host-waiting-msg">
+  <i class="ti ti-clock-pause"></i> En attente de l'hôte...
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="js/i18n.js"></script>
+<script src="js/avatar.js"></script>
+<script src="js/marble.js"></script>
+<script src="js/pixel-round.js"></script>
+<script src="js/geo-round.js"></script>
+<script src="js/game.js"></script>
+<script>initI18n();</script>
+</body>
+</html>

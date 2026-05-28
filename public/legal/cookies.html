@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Politique de Cookies — QuizzRoom</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .legal-wrap { max-width: 720px; margin: 40px auto; padding: 0 24px 60px; }
+    .legal-wrap h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+    .legal-date  { font-size: 13px; color: var(--text-faint); margin-bottom: 32px; }
+    .legal-wrap h2 { font-size: 17px; font-weight: 600; margin: 28px 0 10px; color: var(--orange); }
+    .legal-wrap p, .legal-wrap li { font-size: 14px; color: var(--text-muted); line-height: 1.75; margin-bottom: 10px; }
+    .legal-wrap ul { padding-left: 20px; }
+    table { width:100%; border-collapse:collapse; margin:16px 0; font-size:13px; }
+    th, td { padding:10px 12px; border:0.5px solid var(--border); text-align:left; color:var(--text-muted); }
+    th { background:var(--surface); color:var(--text); font-weight:600; }
+  </style>
+</head>
+<body>
+<nav class="nav">
+  <div class="logo"><div class="logo-mark">⚡</div>QuizzRoom</div>
+  <a href="/" class="btn btn-ghost btn-sm">← Accueil</a>
+</nav>
+<div class="legal-wrap">
+  <h1>Politique de Cookies</h1>
+  <p class="legal-date">Dernière mise à jour : 1er janvier 2024</p>
+
+  <h2>Qu'est-ce qu'un cookie ?</h2>
+  <p>Un cookie est un petit fichier texte déposé sur votre navigateur lors de votre visite sur un site web. Il permet de mémoriser des informations relatives à votre navigation.</p>
+
+  <h2>Cookies utilisés par QuizzRoom</h2>
+  <p>QuizzRoom utilise uniquement des cookies <strong>strictement nécessaires</strong> au fonctionnement du service. Aucun cookie publicitaire ou de tracking tiers n'est utilisé.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nom</th>
+        <th>Type</th>
+        <th>Durée</th>
+        <th>Finalité</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>qr_lang</code></td>
+        <td>localStorage</td>
+        <td>Permanent (jusqu'à effacement)</td>
+        <td>Mémoriser la langue préférée de l'utilisateur</td>
+      </tr>
+      <tr>
+        <td><code>qr_cookies_consent</code></td>
+        <td>localStorage</td>
+        <td>Permanent (jusqu'à effacement)</td>
+        <td>Enregistrer le consentement à la politique de cookies</td>
+      </tr>
+      <tr>
+        <td><code>qr_room</code> / <code>qr_player</code></td>
+        <td>sessionStorage</td>
+        <td>Durée de la session</td>
+        <td>Maintenir la connexion à la partie en cours (supprimé à la fermeture de l'onglet)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Cookies tiers</h2>
+  <p>Le Service charge des ressources depuis des CDN tiers :</p>
+  <ul>
+    <li><strong>cdn.jsdelivr.net</strong> — Bibliothèque d'icônes Tabler Icons. Peut déposer des cookies de performance anonymes selon la politique jsDelivr.</li>
+    <li><strong>Wikimedia Commons</strong> — Images pour la Manche Pixel. Consultez la <a href="https://wikimediafoundation.org/fr/politique-de-confidentialite/" target="_blank" rel="noopener">politique de confidentialité de la Wikimedia Foundation</a>.</li>
+    <li><strong>api.anthropic.com</strong> — Génération de questions par IA (côté serveur uniquement, aucun cookie déposé côté client).</li>
+  </ul>
+
+  <h2>Comment gérer vos cookies ?</h2>
+  <p>Vous pouvez à tout moment :</p>
+  <ul>
+    <li>Supprimer les données stockées via les paramètres de votre navigateur (Outils → Supprimer les données de navigation) ;</li>
+    <li>Effacer le localStorage de votre navigateur ;</li>
+    <li>Paramétrer votre navigateur pour refuser tous les cookies (ce qui peut affecter le bon fonctionnement du Service).</li>
+  </ul>
+
+  <p>Pour retirer votre consentement, cliquez ici : <button class="btn btn-ghost btn-sm" onclick="localStorage.removeItem('qr_cookies_consent');window.location.reload()">Retirer mon consentement</button></p>
+
+  <h2>Base légale</h2>
+  <p>Les cookies essentiels sont déposés sur la base de l'<strong>intérêt légitime</strong> (article 6.1.f du RGPD), car ils sont indispensables au fonctionnement du Service. Conformément aux recommandations de la CNIL, les cookies strictement nécessaires ne requièrent pas de consentement préalable.</p>
+
+  <h2>Contact</h2>
+  <p>Pour toute question : <a href="mailto:contact@quizzroom.fr">contact@quizzroom.fr</a></p>
+</div>
+<footer class="site-footer">
+  <div class="footer-links">
+    <a href="/legal/cgu.html">CGU</a>
+    <a href="/legal/cookies.html">Cookies</a>
+    <a href="/legal/mentions-legales.html">Mentions légales</a>
+    <a href="/legal/attributions.html">Attributions</a>
+  </div>
+</footer>
+</body>
+</html>

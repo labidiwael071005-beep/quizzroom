@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: quizzroom
+    runtime: node
+    plan: free
+    # On n'installe pas les devDependencies (playwright/nodemon inutiles en prod)
+    buildCommand: npm install --omit=dev
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production

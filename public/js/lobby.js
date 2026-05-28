@@ -1,0 +1,449 @@
+// public/js/lobby.js — Salon d'attente
+
+const roomCode   = sessionStorage.getItem('qr_room');
+const playerData = JSON.parse(sessionStorage.getItem('qr_player') || '{}');
+let   isHost     = sessionStorage.getItem('qr_host') === 'true';
+let   settings   = JSON.parse(sessionStorage.getItem('qr_settings') || '{}');
+let   teams      = [];
+let   numTeams   = settings.numTeams || 2;
+let   teamMode   = settings.teamMode || false;
+let   myTeamId   = null;
+// Déclaré ici (pas en bas du fichier) pour éviter la temporal-dead-zone :
+// initHostPickers() est appelé pendant l'init avant le `let` plus bas dans le fichier.
+let   pickerHandlersAttached = false;
+
+if (!roomCode || !playerData.name) window.location.href = 'index.html';
+
+// ── Afficher infos statiques ──────────────────────────────────
+document.getElementById('room-code').textContent = roomCode;
+
+const themeLabels = {
+  general:'Culture G', science:'Science', geographie:'Géographie',
+  histoire:'Histoire', sport:'Sport', cinema:'Cinéma',
+  musique:'Musique', tech:'Tech', nature:'Nature', art:'Art',
+  litterature:'Littérature', gastronomie:'Gastronomie',
+};
+const roundIcons = {
+  culture:  { icon:'ti-brain',   label:'Culture générale' },
+  geo:      { icon:'ti-map-pin', label:'GéoQuizz'         },
+  pixel:    { icon:'ti-photo',   label:'Manche Pixel'     },
+  pari:     { icon:'ti-coins',   label:'Manche Pari'      },
+};
+
+// Applique l'état des pickers (boutons actifs, valeurs qcount, mode équipe)
+// à partir de `settings`. Appelé à l'init et à chaque settings_updated.
+function renderPickersState() {
+  const activeRounds = new Set(settings.rounds || ['culture']);
+  document.querySelectorAll('#rounds-pick .round-pick').forEach(btn => {
+    btn.classList.toggle('active', activeRounds.has(btn.dataset.round));
+  });
+  const activeThemes = new Set(settings.themes || ['general']);
+  document.querySelectorAll('#themes-pick .theme-pick').forEach(btn => {
+    btn.classList.toggle('active', activeThemes.has(btn.dataset.theme));
+  });
+  const currentDiff = settings.difficulty || 'medium';
+  document.querySelectorAll('#diff-pick .diff-pick-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.diff === currentDiff);
+  });
+  (settings.rounds || ['culture']).forEach(r => {
+    const el = document.getElementById(`qv-${r}`);
+    if (el) el.textContent = settings.questionsPerRound?.[r] || defaultQ[r] || 5;
+  });
+  const tm = !!settings.teamMode;
+  document.querySelectorAll('.team-toggle-btn').forEach((b, i) =>
+    b.classList.toggle('active', i === (tm ? 1 : 0))
+  );
+  const tc = document.getElementById('team-config');
+  if (tc) tc.style.display = tm ? 'block' : 'none';
+  const nt = document.getElementById('num-teams-val');
+  if (nt) nt.textContent = settings.numTeams || 2;
+}
+
+// ── QCount par manche ─────────────────────────────────────────
+const defaultQ = { culture:10, geo:5, pixel:5, pari:3 };
+if (!settings.questionsPerRound) settings.questionsPerRound = {};
+
+// Tous les joueurs voient les mêmes cartes (manches, thèmes, difficulté, qcount,
+// équipes). Seul l'hôte attache des handlers de modification ; les invités
+// ont la classe `is-guest` qui désactive visuellement les contrôles.
+buildQCountControls();
+renderPickersState();
+
+if (isHost) {
+  document.getElementById('host-actions').style.display  = 'block';
+  document.getElementById('guest-waiting').style.display = 'none';
+  initHostPickers();
+} else {
+  document.querySelector('.lobby-main').classList.add('is-guest');
+}
+
+// ── Pickers hôte : manches / thèmes / difficulté ──────────────
+// L'état actif initial est posé par renderPickersState() ; ici on n'attache
+// que les click-handlers, réservés à l'hôte. Le flag `pickerHandlersAttached`
+// (déclaré en tête de fichier) le rend idempotent — utile en cas de transfert d'hôte.
+function initHostPickers() {
+  if (pickerHandlersAttached) return;
+  pickerHandlersAttached = true;
+  document.querySelectorAll('#rounds-pick .round-pick').forEach(btn => {
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('active');
+      const sel = [...document.querySelectorAll('#rounds-pick .round-pick.active')]
+                    .map(b => b.dataset.round);
+      if (sel.length === 0) { btn.classList.add('active'); return; } // au moins 1 manche
+      settings.rounds = sel;
+      buildQCountControls();   // re-render qcount pour les nouvelles manches
+      pushSettings();
+    });
+  });
+
+  document.querySelectorAll('#themes-pick .theme-pick').forEach(btn => {
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('active');
+      const sel = [...document.querySelectorAll('#themes-pick .theme-pick.active')]
+                    .map(b => b.dataset.theme);
+      if (sel.length === 0) { btn.classList.add('active'); return; } // au moins 1 thème
+      settings.themes = sel;
+      pushSettings();
+    });
+  });
+
+  document.querySelectorAll('#diff-pick .diff-pick-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#diff-pick .diff-pick-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      settings.difficulty = btn.dataset.diff;
+      pushSettings();
+    });
+  });
+}
+
+function buildQCountControls() {
+  const list = document.getElementById('qcount-list');
+  list.innerHTML = '';
+  (settings.rounds || ['culture']).forEach(r => {
+    const val = settings.questionsPerRound[r] || defaultQ[r] || 5;
+    settings.questionsPerRound[r] = val;
+    const info = roundIcons[r] || { icon:'ti-help', label:r };
+    list.innerHTML += `
+      <div class="qcount-item">
+        <span class="qcount-label"><i class="ti ${info.icon}"></i>${info.label}</span>
+        <div class="qcount-controls">
+          <button class="qcount-btn" onclick="changeQ('${r}',-1)">−</button>
+          <span class="qcount-val" id="qv-${r}">${val}</span>
+          <button class="qcount-btn" onclick="changeQ('${r}',1)">+</button>
+        </div>
+      </div>`;
+  });
+}
+
+function changeQ(round, delta) {
+  if (!isHost) return;
+  const min = 1, max = 20;
+  const cur = settings.questionsPerRound[round] || defaultQ[round] || 5;
+  const nv  = Math.max(min, Math.min(max, cur + delta));
+  settings.questionsPerRound[round] = nv;
+  document.getElementById(`qv-${round}`).textContent = nv;
+  pushSettings();
+}
+
+// ── Mode équipe ───────────────────────────────────────────────
+function setTeamMode(on) {
+  if (!isHost) return;
+  teamMode = on;
+  document.querySelectorAll('.team-toggle-btn').forEach((b,i) => b.classList.toggle('active', i === (on ? 1 : 0)));
+  document.getElementById('team-config').style.display = on ? 'block' : 'none';
+  pushSettings();
+}
+
+function changeNumTeams(delta) {
+  if (!isHost) return;
+  numTeams = Math.max(2, Math.min(4, numTeams + delta));
+  document.getElementById('num-teams-val').textContent = numTeams;
+  pushSettings();
+}
+
+function pushSettings() {
+  socket.emit('update_settings', {
+    code: roomCode,
+    settings: { ...settings, teamMode, numTeams },
+  });
+}
+
+function renderTeamConfig() {
+  // appelé lors de settings_updated aussi
+}
+
+function renderTeams(teamsData) {
+  teams = teamsData || [];
+  const grid = document.getElementById('teams-display');
+  if (!grid) return;
+  grid.innerHTML = teams.map(team => {
+    const members = currentPlayers.filter(p => p.teamId === team.id);
+    const joined  = members.some(p => p.name === playerData.name);
+    return `
+      <div class="team-card ${joined ? 'joined' : ''}">
+        <div class="team-card-name">
+          <span class="team-dot" style="background:${team.color}"></span>
+          ${team.name}
+        </div>
+        <div class="team-members">${members.map(m => m.name).join(', ') || '—'}</div>
+        <button class="team-join-btn" onclick="joinTeam(${team.id})">
+          <span data-i18n="lobby.team.join">Rejoindre</span>
+        </button>
+      </div>`;
+  }).join('');
+}
+
+function joinTeam(teamId) {
+  myTeamId = teamId;
+  socket.emit('choose_team', { code: roomCode, teamId });
+}
+
+// ── Socket ────────────────────────────────────────────────────
+// Affichage immédiat de soi-même depuis sessionStorage (avant toute réponse serveur)
+let currentPlayers = [{
+  id: 'self', name: playerData.name, score: 0, teamId: null,
+  avatar: playerData.avatar || { colorIdx: 0, emoji: '🎮' },
+}];
+let currentHostName = isHost ? playerData.name : '';
+updatePlayers(currentPlayers);
+
+const socket = io();
+
+socket.on('connect', () => {
+  // fromLobby:true → le serveur marque ce joueur "revenu au salon" (vs. resync depuis game.html)
+  socket.emit('lobby_sync', { code: roomCode, playerName: playerData.name, avatar: playerData.avatar, fromLobby: true });
+});
+
+socket.on('players_update', ({ players, teams: teamsArr, hostName }) => {
+  if (Array.isArray(players)) currentPlayers = players;
+  if (hostName) currentHostName = hostName;
+  if (teamsArr) teams = teamsArr;
+  updatePlayers(currentPlayers);
+  if (teamsArr) renderTeams(teamsArr);
+});
+
+socket.on('settings_updated', ({ settings: s, teams: teamsArr }) => {
+  settings = s;
+  teams    = teamsArr || [];
+  teamMode = s.teamMode;
+  numTeams = s.numTeams || 2;
+  // Re-sync l'affichage pour TOUS les joueurs (hôte + invités).
+  // Les invités voient ainsi les changements de l'hôte en temps réel.
+  buildQCountControls();
+  renderPickersState();
+  if (teamsArr) renderTeams(teamsArr);
+});
+
+// Transfert du rôle d'hôte (volontaire via transferHost, ou auto si l'hôte quitte)
+socket.on('host_changed', ({ hostName }) => {
+  currentHostName = hostName;
+  const amNewHost = hostName === playerData.name;
+  if (amNewHost !== isHost) {
+    isHost = amNewHost;
+    sessionStorage.setItem('qr_host', amNewHost ? 'true' : 'false');
+    document.getElementById('host-actions').style.display  = amNewHost ? 'block' : 'none';
+    document.getElementById('guest-waiting').style.display = amNewHost ? 'none'  : '';
+    document.querySelector('.lobby-main').classList.toggle('is-guest', !amNewHost);
+    if (amNewHost) {
+      initHostPickers();   // idempotent grâce au flag
+      showToast('👑 Tu es maintenant l\'hôte de la partie', 'success');
+    } else {
+      showToast(`ℹ️ ${hostName} est maintenant l'hôte`, '');
+    }
+  }
+  updatePlayers(currentPlayers);   // re-render pour les boutons « léguer »
+});
+
+socket.on('game_started', () => {
+  showToast('🚀 ' + t('toast.started'), 'success');
+  setTimeout(() => { window.location.href = 'game.html'; }, 600);
+});
+
+socket.on('join_error', (msg) => {
+  showToast('❌ ' + msg, 'error');
+  setTimeout(() => { window.location.href = 'index.html'; }, 2000);
+});
+
+// Démarrage refusé par le serveur tant que certains joueurs n'ont pas regagné le lobby
+socket.on('start_blocked', ({ stragglers }) => {
+  const btn = document.getElementById('btn-start');
+  if (btn) {
+    btn.disabled = false;
+    btn.innerHTML = `<i class="ti ti-player-play"></i> <span data-i18n="lobby.start">Lancer la partie</span>`;
+  }
+  showToast(`⏳ En attente de : ${(stragglers || []).join(', ')}`, 'error');
+});
+
+// Un joueur (peut-être l'hôte) vient de quitter : pop-up immédiate pour les autres
+socket.on('player_left', ({ name, wasHost, newHostName }) => {
+  if (name === playerData.name) return; // ignorer son propre départ
+  if (wasHost) {
+    showToast(`🚪 ${name} (hôte) a quitté — 👑 ${newHostName || '???'} prend la main`, 'error');
+  } else {
+    showToast(`🚪 ${name} a quitté le lobby`, '');
+  }
+});
+
+// L'hôte m'a exclu du lobby
+socket.on('kicked', ({ by }) => {
+  showToast(`🚫 Tu as été exclu du lobby par ${by || 'l\'hôte'}`, 'error');
+  sessionStorage.clear();
+  setTimeout(() => { window.location.href = 'index.html'; }, 1800);
+});
+
+socket.on('chat_message', ({ name, text }) => addChatMsg(name, text));
+
+// ── Rendu joueurs ─────────────────────────────────────────────
+function updatePlayers(players) {
+  document.getElementById('player-count').textContent = `${players.length}/8`;
+
+  const list = document.getElementById('players-list');
+  list.innerHTML = players.map((p, i) => {
+    const isMe    = p.name === playerData.name;
+    const isHostP = p.name === currentHostName;
+    const av      = p.avatar || { colorIdx: i % 8, emoji: '🎮' };
+    const team    = teams.find(t => t.id === p.teamId);
+    const teamBadge = team ? `<span class="player-team-badge" style="background:${team.color}20;color:${team.color};border:1px solid ${team.color}40">${team.name}</span>` : '';
+    // p.inLobby peut être absent (anciennes rooms) → on traite undefined comme "présent au lobby".
+    const isWaiting = p.inLobby === false;
+    // Menu kebab (3 points) — visible uniquement pour l'hôte sur les autres joueurs.
+    const safeName = p.name.replace(/'/g, "\\'");
+    const kebab = (isHost && !isHostP && !isMe)
+      ? `<div class="player-menu">
+           <button class="player-menu-btn" onclick="togglePlayerMenu(event, '${safeName}')" title="Actions" aria-label="Actions">⋮</button>
+           <div class="player-menu-dropdown" id="menu-${sanitizeNameId(p.name)}">
+             <button class="player-menu-item" onclick="transferHost('${safeName}')">👑 Léguer l'hôte</button>
+             <button class="player-menu-item danger" onclick="kickPlayer('${safeName}')">🚫 Exclure</button>
+           </div>
+         </div>`
+      : '';
+    return `
+      <div class="player-item ${isWaiting ? 'is-waiting' : ''}">
+        <span class="av-inline av-sm" style="${getAvatarStyle(av)}">${av.emoji}</span>
+        <span class="player-name">
+          ${p.name}
+          ${isMe ? '<span class="player-you">(toi)</span>' : ''}
+          ${teamBadge}
+          ${isWaiting ? '<span class="player-waiting-label">⏳ En attente du joueur</span>' : ''}
+        </span>
+        ${isHostP ? '<span class="host-badge">👑 Hôte</span>' : ''}
+        ${kebab}
+        <div class="player-status"></div>
+      </div>`;
+  }).join('');
+
+  const emptySlots = document.getElementById('empty-slots');
+  emptySlots.innerHTML = Array(8 - players.length).fill(0).map(() => `
+    <div class="empty-slot">
+      <div class="empty-avatar"><i class="ti ti-user"></i></div>
+      <span class="empty-name" data-i18n="lobby.waiting">En attente...</span>
+    </div>`).join('');
+
+  refreshStartButtonState(players);
+}
+
+function sanitizeNameId(name) { return (name || '').replace(/[^a-zA-Z0-9]/g, '_'); }
+
+// Bouton "Lancer la partie" désactivé tant que certains joueurs n'ont pas regagné le lobby
+// (post-game : ils sont encore sur le récap / classement).
+function refreshStartButtonState(players) {
+  const btn  = document.getElementById('btn-start');
+  const hint = document.querySelector('#host-actions .start-hint');
+  if (!btn) return;
+  const waiting = players.filter(p => p.inLobby === false);
+  if (waiting.length > 0) {
+    btn.disabled = true;
+    btn.classList.add('is-blocked');
+    if (hint) {
+      const names = waiting.map(p => p.name).join(', ');
+      hint.textContent = `En attente de : ${names}`;
+    }
+  } else {
+    btn.disabled = false;
+    btn.classList.remove('is-blocked');
+    if (hint) hint.textContent = "Tu es l'hôte — les autres attendent.";
+  }
+}
+
+// ── Menu kebab (3 points) ─────────────────────────────────────
+function togglePlayerMenu(evt, name) {
+  evt.stopPropagation();
+  const id = 'menu-' + sanitizeNameId(name);
+  const target = document.getElementById(id);
+  document.querySelectorAll('.player-menu-dropdown.open').forEach(el => {
+    if (el !== target) el.classList.remove('open');
+  });
+  if (target) target.classList.toggle('open');
+}
+
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.player-menu')) {
+    document.querySelectorAll('.player-menu-dropdown.open').forEach(el => el.classList.remove('open'));
+  }
+});
+
+function kickPlayer(name) {
+  if (!isHost) return;
+  document.querySelectorAll('.player-menu-dropdown.open').forEach(el => el.classList.remove('open'));
+  if (!confirm(`Exclure ${name} du lobby ?`)) return;
+  socket.emit('kick_player', { code: roomCode, targetName: name });
+}
+
+// ── Chat ──────────────────────────────────────────────────────
+function sendChat() {
+  const input = document.getElementById('chat-input');
+  const text  = input.value.trim();
+  if (!text) return;
+  socket.emit('chat_message', { code: roomCode, name: playerData.name, text });
+  input.value = '';
+}
+
+function addChatMsg(name, text) {
+  const msgs = document.getElementById('chat-messages');
+  const div  = document.createElement('div');
+  div.className = 'chat-msg';
+  div.innerHTML = `<span class="chat-author">${name}</span><span class="chat-text">${text}</span>`;
+  msgs.appendChild(div);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+
+// ── Actions ───────────────────────────────────────────────────
+function startGame() {
+  const btn = document.getElementById('btn-start');
+  btn.disabled = true;
+  btn.innerHTML = `<i class="ti ti-loader"></i> ${t('lobby.start.loading')}`;
+  socket.emit('start_game', { code: roomCode });
+}
+
+// L'hôte lègue son rôle à un autre joueur
+function transferHost(name) {
+  if (!isHost) return;
+  document.querySelectorAll('.player-menu-dropdown.open').forEach(el => el.classList.remove('open'));
+  if (!confirm(`Léguer le rôle d'hôte à ${name} ? Tu redeviendras un joueur classique.`)) return;
+  socket.emit('transfer_host', { code: roomCode, targetName: name });
+}
+
+function leaveRoom() {
+  if (confirm(t('lobby.leave.confirm'))) {
+    // Avertir le serveur immédiatement (sinon il faut attendre le timeout de
+    // déconnexion ~8s avant que les autres voient le départ + le transfert d'hôte).
+    try { socket.emit('leave_game', { code: roomCode }); } catch (e) {}
+    sessionStorage.clear();
+    window.location.href = 'index.html';
+  }
+}
+
+function copyCode() {
+  navigator.clipboard.writeText(roomCode)
+    .then(() => showToast('✅ ' + t('toast.copied') + ' ' + roomCode, 'success'));
+}
+
+function showToast(msg, type = '') {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.className   = 'toast ' + type;
+  el.classList.add('show');
+  clearTimeout(el._timer);
+  el._timer = setTimeout(() => el.classList.remove('show'), 3000);
+}

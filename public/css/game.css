@@ -1,0 +1,923 @@
+/* game.css — Styles de la page de jeu */
+
+/* ── Layout root : aucun scroll body possible, fond sombre garanti ── */
+html, body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: var(--bg);
+  margin: 0;
+  padding: 0;
+}
+
+/* ── HUD (sans timer) ──────────────────────────────────────── */
+.hud {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  background: rgba(15,10,30,0.85);
+  backdrop-filter: blur(12px);
+  border-bottom: 0.5px solid var(--border);
+  z-index: 10;
+}
+.hud-left  { display: flex; align-items: center; gap: 10px; }
+.hud-center { display: flex; flex-direction: column; align-items: center; gap: 4px; flex: 1; }
+.hud-right { display: flex; align-items: center; min-width: 32px; }
+
+.hud-round { font-size: 13px; font-weight: 500; color: var(--text-muted); }
+.hud-progress { font-size: 12px; color: var(--text-faint); }
+
+/* Bouton Quitter (HUD, à droite) */
+.hud-quit-btn {
+  display: flex; align-items: center; gap: 6px;
+  padding: 7px 12px;
+  background: rgba(239,68,68,0.12);
+  border: 0.5px solid rgba(239,68,68,0.4);
+  border-radius: 9px;
+  color: #FCA5A5;
+  font-family: inherit; font-size: 12px; font-weight: 600;
+  cursor: pointer; transition: all .15s;
+  white-space: nowrap;
+}
+.hud-quit-btn:hover { background: rgba(239,68,68,0.22); color: #FECACA; }
+.hud-quit-btn i { font-size: 15px; }
+
+.progress-bar-track {
+  width: 200px; height: 3px;
+  background: var(--border);
+  border-radius: 2px; overflow: hidden;
+}
+.progress-bar-fill {
+  height: 100%; background: var(--orange);
+  border-radius: 2px; transition: width .4s ease;
+}
+
+/* ── Plateau ───────────────────────────────────────────────── */
+.stage {
+  position: fixed; inset: 56px 0 0 0;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  z-index: 5;
+  overflow: hidden;
+}
+.stage-main {
+  position: relative;
+  overflow: hidden;       /* le scroll est délégué à .game-screen quand nécessaire */
+  min-height: 0;
+}
+
+/* ── Panneau d'avatars (côté gauche, table TV) ─────────────── */
+.avatars-panel {
+  background: rgba(15,10,30,0.55);
+  border-right: 0.5px solid var(--border);
+  padding: 18px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  overflow-y: auto;
+  backdrop-filter: blur(8px);
+}
+.av-player-slot {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  width: 100%; position: relative;
+  padding: 8px;
+  border-radius: 14px;
+  transition: background .25s;
+}
+.av-player-slot.me {
+  background: rgba(249,115,22,0.10);
+  outline: 1px solid rgba(249,115,22,0.45);
+}
+.av-player-icon {
+  width: 72px; height: 72px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 36px;
+  border: 3px solid var(--border);
+  transition: all .3s;
+  position: relative;
+}
+.av-player-icon.thinking { animation: pulseThink 1.6s ease-in-out infinite; }
+.av-player-icon.answered {
+  border-color: var(--orange); box-shadow: 0 0 18px rgba(249,115,22,.55);
+  animation: avAnswered .4s ease;
+}
+.av-player-icon.correct  {
+  border-color: #22C55E; box-shadow: 0 0 22px rgba(34,197,94,.6);
+  animation: avCorrect .7s cubic-bezier(.2,.8,.2,1.1);
+}
+.av-player-icon.wrong    {
+  border-color: #EF4444; box-shadow: 0 0 18px rgba(239,68,68,.5);
+  animation: avWrong .5s ease;
+}
+.av-player-icon.no-answer {
+  border-color: var(--border); opacity: .5;
+  filter: grayscale(.7);
+}
+
+@keyframes pulseThink {
+  0%,100% { box-shadow: 0 0 0 0 rgba(255,255,255,0.10); }
+  50%     { box-shadow: 0 0 0 8px rgba(255,255,255,0.0); }
+}
+@keyframes avAnswered {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.12); }
+  100% { transform: scale(1); }
+}
+@keyframes avCorrect {
+  0%   { transform: scale(1) rotate(0); }
+  35%  { transform: scale(1.20) rotate(-6deg); }
+  70%  { transform: scale(.94) rotate(4deg); }
+  100% { transform: scale(1) rotate(0); }
+}
+@keyframes avWrong {
+  0%,100% { transform: translateX(0); }
+  20%     { transform: translateX(-5px); }
+  40%     { transform: translateX(5px); }
+  60%     { transform: translateX(-3px); }
+  80%     { transform: translateX(3px); }
+}
+
+.av-player-name {
+  font-size: 12px; font-weight: 600; color: var(--text);
+  text-align: center;
+  max-width: 100%;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.av-player-score {
+  font-size: 11px; font-weight: 700; color: var(--orange);
+}
+.av-player-status {
+  font-size: 10px; font-weight: 600;
+  text-align: center;
+  color: var(--text-muted);
+  min-height: 13px;
+  white-space: nowrap;
+  transition: color .25s;
+}
+.av-player-status.answered  { color: var(--orange); }
+.av-player-status.correct   { color: #22C55E; }
+.av-player-status.wrong     { color: #EF4444; }
+.av-player-status.no-answer { color: var(--text-faint); }
+.av-player-status.thinking  { animation: statusBlink 1.8s ease-in-out infinite; }
+@keyframes statusBlink {
+  0%,100% { opacity: 1; }
+  50%     { opacity: .5; }
+}
+.av-status-badge {
+  position: absolute; top: -4px; right: -4px;
+  width: 22px; height: 22px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; background: var(--bg);
+  animation: badgePop .35s cubic-bezier(.2,.8,.2,1.5) both;
+}
+@keyframes badgePop {
+  0%   { transform: scale(0); }
+  100% { transform: scale(1); }
+}
+
+/* ── Sablier animé ─────────────────────────────────────────── */
+.hourglass-wrap {
+  position: absolute;
+  top: 12px; right: 20px;
+  width: 110px; height: 156px;
+  align-items: center; justify-content: center;
+  display: none;             /* caché par défaut, JS l'active via 'flex' au moment voulu */
+  z-index: 4;
+  pointer-events: none;
+}
+.hourglass {
+  width: 110px; height: 154px;
+  filter: drop-shadow(0 6px 14px rgba(249,115,22,.30)) drop-shadow(0 0 22px rgba(108,63,207,.18));
+}
+.hourglass-num {
+  position: absolute;
+  bottom: -8px; left: 0; right: 0;
+  text-align: center;
+  font-size: 20px; font-weight: 800;
+  color: var(--text);
+  text-shadow: 0 2px 6px rgba(0,0,0,.6);
+}
+.hourglass-num.urgent { color: #EF4444; animation: shakeNum .35s ease-in-out infinite; }
+@keyframes shakeNum {
+  0%,100% { transform: translateX(0); }
+  25%     { transform: translateX(-2px); }
+  75%     { transform: translateX(2px); }
+}
+
+/* Filet de sable et grains : cachés par défaut, animés quand .flowing */
+#hg-stream, .hg-grain { opacity: 0; }
+.hourglass.flowing #hg-stream { opacity: 1; animation: streamPulse .25s ease-in-out infinite alternate; }
+.hourglass.flowing .hg-grain   { opacity: 1; animation: grainFall .9s linear infinite; }
+.hourglass.flowing .hg-grain-2 { animation-delay: .45s; }
+@keyframes streamPulse {
+  from { transform: scaleX(0.85); }
+  to   { transform: scaleX(1.15); }
+}
+#hg-stream { transform-origin: 50px 70px; }
+@keyframes grainFall {
+  0%   { transform: translateY(-12px); opacity: 0; }
+  20%  { opacity: 1; }
+  85%  { opacity: 1; }
+  100% { transform: translateY(14px);  opacity: 0; }
+}
+
+/* Retournement quand le timer démarre */
+.hourglass.flip { animation: hgFlip .7s cubic-bezier(.4,.1,.2,1.2); }
+@keyframes hgFlip {
+  0%   { transform: rotate(0); }
+  50%  { transform: rotate(180deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* État urgent : sablier qui rougeoie */
+.hourglass.urgent { filter: drop-shadow(0 6px 14px rgba(239,68,68,.55)) drop-shadow(0 0 28px rgba(239,68,68,.35)); }
+
+/* ── Écrans : chacun en absolute pour éviter tout layout shift au switch ── */
+.game-screen {
+  position: absolute;
+  inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  padding: 16px;
+  overflow-y: auto;
+}
+.game-screen.hidden { display: none; }
+
+/* ── Intro de manche (effet plateau TV) ────────────────────── */
+.round-intro-wrap {
+  text-align: center;
+  animation: introZoom .55s cubic-bezier(.2,.8,.2,1.05);
+}
+.round-intro-prefix {
+  font-size: 18px; font-weight: 700;
+  letter-spacing: .35em;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+.round-intro-name {
+  font-size: clamp(40px, 8vw, 96px);
+  font-weight: 900;
+  background: linear-gradient(90deg, var(--orange), var(--purple-light));
+  -webkit-background-clip: text; background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 48px rgba(249,115,22,.45);
+  line-height: 1.05;
+  margin-bottom: 6px;
+  animation: nameGlow 1.6s ease-in-out infinite alternate;
+}
+.round-intro-suffix {
+  font-size: clamp(20px, 3vw, 32px);
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 18px;
+}
+.round-intro-meta {
+  font-size: 13px;
+  color: var(--text-faint);
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+@keyframes introZoom {
+  0%   { transform: scale(.4) rotate(-4deg); opacity: 0; }
+  60%  { transform: scale(1.06) rotate(0); }
+  100% { transform: scale(1); opacity: 1; }
+}
+@keyframes nameGlow {
+  from { text-shadow: 0 0 30px rgba(249,115,22,.4); }
+  to   { text-shadow: 0 0 60px rgba(139,92,246,.7); }
+}
+
+/* ── Countdown ────────────────────────────────────────────── */
+.countdown-wrap { text-align: center; }
+.countdown-label { font-size: 16px; color: var(--text-muted); margin-bottom: 16px; }
+.countdown-num {
+  font-size: 96px; font-weight: 700; color: var(--orange);
+  line-height: 1; animation: pop .4s ease;
+}
+@keyframes pop {
+  0%   { transform: scale(1.4); opacity: 0; }
+  100% { transform: scale(1);   opacity: 1; }
+}
+
+/* ── Question ─────────────────────────────────────────────── */
+.question-wrap {
+  width: 100%; max-width: 720px;
+  display: flex; flex-direction: column; gap: 22px;
+}
+.question-meta { display: flex; align-items: center; gap: 10px; }
+.question-text {
+  font-size: clamp(20px, 3vw, 30px);
+  font-weight: 600; line-height: 1.4;
+  color: var(--text); text-align: center; padding: 10px 0;
+}
+.answers-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
+.answer-btn {
+  padding: 18px 20px;
+  border-radius: var(--radius-lg);
+  border: 0.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text); font-size: 15px; font-weight: 500;
+  cursor: pointer; transition: all .15s;
+  text-align: left; line-height: 1.4; font-family: inherit;
+  display: flex; align-items: center; gap: 12px;
+}
+.answer-btn:hover:not(:disabled) {
+  border-color: var(--purple-light);
+  background: rgba(108,63,207,0.2);
+  transform: translateY(-2px);
+}
+.answer-btn:active:not(:disabled) { transform: translateY(0); }
+.answer-btn.selected { border-color: var(--orange); background: rgba(249,115,22,0.2); }
+.answer-btn.correct  { border-color: #22C55E; background: rgba(34,197,94,0.2); color: #BBF7D0; }
+.answer-btn.wrong    { border-color: #EF4444; background: rgba(239,68,68,0.15); color: #FCA5A5; }
+.answer-btn:disabled { cursor: default; }
+
+.answer-letter {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 26px; height: 26px; border-radius: 7px;
+  background: rgba(255,255,255,0.08);
+  font-size: 12px; font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* ── Écran « Le savais-tu ? » — entre chaque question / manche ── */
+.reveal-screen-wrap {
+  width: 100%; max-width: 640px;
+  display: flex; flex-direction: column; align-items: center;
+  gap: 20px;
+  padding: 20px 12px;
+  text-align: center;
+  animation: revealPop .45s cubic-bezier(.2,.8,.2,1.05) both;
+}
+.reveal-screen-head {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-size: 14px; font-weight: 800; color: var(--orange);
+  text-transform: uppercase; letter-spacing: .08em;
+  padding: 6px 14px;
+  background: rgba(249,115,22,0.12);
+  border: 0.5px solid rgba(249,115,22,0.4);
+  border-radius: 999px;
+}
+.reveal-screen-head i { font-size: 20px; }
+.reveal-screen-question {
+  font-size: clamp(18px, 3vw, 26px);
+  font-weight: 600; line-height: 1.4;
+  color: var(--text);
+  max-width: 100%;
+}
+.reveal-screen-answer {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  padding: 18px 22px;
+  background: rgba(34,197,94,0.10);
+  border: 0.5px solid rgba(34,197,94,0.45);
+  border-radius: var(--radius-lg);
+  min-width: min(360px, 90%);
+}
+.reveal-screen-answer-label {
+  font-size: 11px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .08em;
+  color: #22C55E;
+}
+.reveal-screen-answer-text {
+  font-size: clamp(20px, 3vw, 28px);
+  font-weight: 800;
+  color: #BBF7D0;
+}
+.reveal-screen-text {
+  font-size: clamp(14px, 2vw, 16px);
+  line-height: 1.55;
+  color: var(--text);
+  background: linear-gradient(135deg, rgba(108,63,207,0.18), rgba(249,115,22,0.10));
+  border: 0.5px solid rgba(139,92,246,0.4);
+  border-radius: var(--radius-lg);
+  padding: 14px 18px;
+  max-width: 100%;
+}
+@keyframes revealPop {
+  0%   { opacity: 0; transform: translateY(14px) scale(.96); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ── Résultat ─────────────────────────────────────────────── */
+.result-wrap { text-align: center; animation: fadeIn .3s ease; }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.result-icon   { font-size: 64px; margin-bottom: 12px; }
+.result-title  { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+.result-answer { font-size: 16px; color: var(--text-muted); margin-bottom: 16px; }
+.result-points { font-size: 32px; font-weight: 700; color: var(--orange); }
+.result-points.wrong { color: #EF4444; }
+
+/* ── Scores intermédiaires ────────────────────────────────── */
+.scores-wrap  { width: 100%; max-width: 480px; }
+.scores-title { font-size: 20px; font-weight: 700; text-align: center; margin-bottom: 20px; }
+.scores-list  { display: flex; flex-direction: column; gap: 8px; }
+.score-item {
+  display: flex; align-items: center; gap: 14px;
+  padding: 14px 18px;
+  background: var(--surface); border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  animation: slideIn .3s ease both;
+}
+.score-item.me { border-color: var(--orange); background: rgba(249,115,22,0.1); }
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-16px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+.score-rank { font-size: 18px; font-weight: 700; min-width: 28px; color: var(--text-faint); }
+.score-name { flex: 1; font-size: 15px; font-weight: 500; }
+.score-pts  { font-size: 16px; font-weight: 700; color: var(--text); }
+
+/* ── Fin de partie ────────────────────────────────────────── */
+.gameover-wrap   { text-align: center; width: 100%; max-width: 480px; }
+.gameover-trophy { font-size: 72px; margin-bottom: 10px; }
+.gameover-title  { font-size: 28px; font-weight: 700; margin-bottom: 24px; }
+.gameover-ranking { display: flex; flex-direction: column; gap: 8px; margin-bottom: 28px; }
+.gameover-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+/* ── Récap de partie (historique) ─────────────────────────── */
+.history-wrap {
+  width: 100%; max-width: 640px;
+  display: flex; flex-direction: column; align-items: center;
+}
+.history-title {
+  font-size: 24px; font-weight: 700; text-align: center;
+  margin-bottom: 20px;
+}
+.history-list {
+  width: 100%;
+  display: flex; flex-direction: column; gap: 14px;
+}
+.hist-card {
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 14px 16px;
+  text-align: left;
+  animation: slideIn .3s ease both;
+}
+.hist-card-head {
+  display: flex; align-items: center; gap: 10px; margin-bottom: 8px;
+}
+.hist-qnum { font-size: 12px; font-weight: 600; color: var(--text-faint); }
+.hist-question {
+  font-size: 15px; font-weight: 600; color: var(--text);
+  line-height: 1.4; margin-bottom: 6px;
+}
+.hist-correct { font-size: 13px; color: #BBF7D0; margin-bottom: 10px; }
+.hist-correct strong { color: #22C55E; }
+.hist-players { display: flex; flex-direction: column; gap: 4px; }
+.hist-player-row {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto auto;
+  gap: 10px; align-items: center;
+  padding: 6px 8px;
+  border-radius: 8px;
+  font-size: 13px;
+  background: rgba(255,255,255,0.03);
+}
+.hist-player-row.me { background: rgba(249,115,22,0.12); }
+.hist-player-name   { font-weight: 600; color: var(--text); }
+.hist-player-answer { color: var(--text-muted); font-size: 12px; text-align: right; }
+.hist-noanswer      { color: #EF4444; font-style: italic; }
+.hist-mark { font-size: 13px; }
+.hist-pts  { font-weight: 700; font-size: 13px; color: var(--text-faint); }
+.hist-pts.pos { color: var(--orange); }
+.hist-pts.neg { color: #EF4444; }
+
+/* ── Manche Pixel ─────────────────────────────────────────── */
+.pixel-wrap {
+  width: 100%; max-width: 720px;
+  display: flex; flex-direction: column; align-items: center; gap: 18px;
+}
+.pixel-canvas-wrap {
+  position: relative;
+  width: min(520px, 90vw); aspect-ratio: 4/3;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 0.5px solid var(--border);
+  background: #0F0A1E;
+}
+#pixel-canvas {
+  width: 100%; height: 100%; display: block; image-rendering: pixelated;
+}
+.pixel-level-bar {
+  width: 100%; height: 4px; background: var(--border); border-radius: 2px; overflow: hidden;
+}
+.pixel-level-fill {
+  height: 100%; background: linear-gradient(90deg, var(--purple), var(--orange));
+  border-radius: 2px; transition: width 1s ease;
+}
+.pixel-credit {
+  font-size: 10px; color: var(--text-faint); text-align: center;
+}
+.pixel-credit a { color: var(--text-faint); text-decoration: underline; }
+
+/* ── Contrôle hôte : bouton "Suivante" flottant ───────────── */
+.host-control {
+  position: fixed;
+  bottom: 28px; right: 28px;
+  z-index: 30;
+  display: none;
+  padding: 16px 26px;
+  background: linear-gradient(135deg, var(--orange), var(--orange-dark));
+  color: white;
+  border: none;
+  border-radius: var(--radius-lg);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  cursor: pointer;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 6px 22px rgba(249,115,22,.55), 0 0 40px rgba(249,115,22,.25);
+  transition: all .2s;
+  animation: pulseValidate 1.6s ease-in-out infinite;
+}
+.host-control.visible { display: inline-flex; }
+.host-control i { font-size: 22px; }
+.host-control:hover { transform: translateY(-2px); box-shadow: 0 8px 26px rgba(249,115,22,.7); }
+
+.host-waiting-msg {
+  position: fixed;
+  bottom: 28px; right: 28px;
+  z-index: 30;
+  display: none;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  background: rgba(15,10,30,0.88);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  color: var(--text-muted);
+  font-size: 13px;
+  backdrop-filter: blur(8px);
+}
+.host-waiting-msg.visible { display: inline-flex; }
+.host-waiting-msg i { color: var(--orange); font-size: 16px; }
+
+/* ── Manche Geo (carte interactive) ───────────────────────── */
+.geomap-wrap {
+  width: 100%; max-width: 1100px;
+  display: flex; flex-direction: column; gap: 12px;
+  height: 100%;
+}
+.geomap-header {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  flex-shrink: 0;
+}
+.geomap-question {
+  font-size: clamp(18px, 2.5vw, 26px);
+  font-weight: 700;
+  text-align: center;
+  color: var(--text);
+  margin: 0;
+}
+.geomap-body {
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  gap: 14px;
+  flex: 1;
+  min-height: 0;
+}
+.geo-map {
+  border-radius: var(--radius-lg);
+  border: 0.5px solid var(--border);
+  overflow: hidden;
+  background: #1E1535;
+  min-height: 340px;
+}
+.geomap-side {
+  display: flex; flex-direction: column;
+  align-items: stretch;
+  gap: 14px;
+}
+.hourglass-slot {
+  height: 160px;
+  position: relative;
+  display: flex; align-items: center; justify-content: center;
+}
+/* Quand le sablier est dans la sidebar geomap : il se place naturellement, pas en absolute top-right */
+.hourglass-slot .hourglass-wrap {
+  position: relative;
+  top: auto; right: auto;
+  margin: 0 auto;
+}
+.geomap-hint-card {
+  background: rgba(108,63,207,0.10);
+  border: 0.5px solid rgba(139,92,246,.3);
+  border-radius: var(--radius-lg);
+  padding: 14px;
+  display: flex; align-items: center; gap: 10px;
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.4;
+}
+.geomap-hint-card i { color: var(--purple-light); font-size: 22px; flex-shrink: 0; }
+
+/* Panneau résultats (montré pendant le reveal) */
+.geomap-results-panel {
+  background: rgba(15,10,30,0.78);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 12px 14px;
+  animation: fadeIn .35s ease;
+}
+.geomap-results-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--orange);
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 0.5px solid var(--border);
+}
+.geomap-results-fact {
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--text);
+  background: rgba(108,63,207,0.12);
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+}
+.geomap-results-list {
+  display: flex; flex-direction: column; gap: 6px;
+}
+.geomap-result-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  gap: 2px 8px;
+  padding: 6px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  background: rgba(255,255,255,0.03);
+}
+.geomap-result-row.me {
+  background: rgba(249,115,22,0.13);
+  outline: 1px solid rgba(249,115,22,0.3);
+}
+.geomap-result-name { color: var(--text); font-weight: 600; }
+.geomap-result-pts {
+  color: var(--orange); font-weight: 700;
+  text-align: right; font-size: 13px;
+}
+.geomap-result-dist {
+  color: var(--text-muted);
+  font-size: 11px;
+  grid-column: 1 / -1;
+}
+.geomap-result-dist.no-answer { color: #EF4444; font-style: italic; }
+
+.btn-geo-validate {
+  margin-top: auto;     /* pousse le bouton tout en bas de la sidebar */
+  font-size: 19px;
+  padding: 22px 18px;
+  background: linear-gradient(135deg, var(--orange), var(--orange-dark));
+  color: white;
+  border: none;
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  font-weight: 800;
+  font-family: inherit;
+  transition: all .2s;
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  box-shadow: 0 4px 14px rgba(249,115,22,.25);
+}
+.btn-geo-validate i { font-size: 24px; }
+.btn-geo-validate:not(:disabled) {
+  animation: pulseValidate 1.5s ease-in-out infinite;
+  box-shadow: 0 6px 22px rgba(249,115,22,.55);
+}
+.btn-geo-validate:not(:disabled):hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(249,115,22,.7);
+}
+.btn-geo-validate:disabled {
+  background: rgba(255,255,255,0.05);
+  color: var(--text-faint);
+  cursor: not-allowed;
+  box-shadow: none;
+  border: 0.5px solid var(--border);
+}
+@keyframes pulseValidate {
+  0%,100% { transform: scale(1); }
+  50%     { transform: scale(1.05); }
+}
+
+/* Markers personnalisés */
+.geo-marker { background: transparent !important; border: none !important; }
+.geo-pin {
+  width: 32px; height: 32px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px;
+  filter: drop-shadow(0 3px 4px rgba(0,0,0,.5));
+}
+.geo-pin-self    { font-size: 28px; }
+.geo-pin-correct { font-size: 32px; animation: pulseCorrect 1.2s ease-in-out infinite; }
+@keyframes pulseCorrect {
+  0%,100% { transform: scale(1); }
+  50%     { transform: scale(1.15); }
+}
+
+/* Tooltips Leaflet : style sombre */
+.leaflet-tooltip {
+  background: rgba(15,10,30,0.92) !important;
+  color: var(--text) !important;
+  border: 0.5px solid var(--border) !important;
+  border-radius: 6px !important;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 4px 8px !important;
+}
+.leaflet-tooltip-top:before { border-top-color: rgba(15,10,30,0.92) !important; }
+
+/* Résultats sous la carte (au reveal) */
+.geomap-result {
+  background: rgba(15,10,30,0.7);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 10px 14px;
+  animation: fadeIn .35s ease;
+}
+.geomap-correct-label {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.geomap-results-list {
+  display: flex; flex-direction: column; gap: 4px;
+}
+.geomap-result-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 12px; align-items: center;
+  padding: 6px 8px;
+  font-size: 13px;
+  border-radius: 8px;
+}
+.geomap-result-item.me { background: rgba(249,115,22,0.12); }
+.geomap-result-name { color: var(--text); font-weight: 500; }
+.geomap-result-dist { color: var(--text-muted); font-size: 12px; }
+.geomap-result-pts  { color: var(--orange); font-weight: 700; }
+
+/* ── Manche Pari ──────────────────────────────────────────── */
+.pari-wrap {
+  width: 100%; max-width: 580px;
+  display: flex; flex-direction: column; gap: 20px; align-items: center;
+}
+.pari-question {
+  font-size: clamp(16px, 2.5vw, 22px); font-weight: 600;
+  text-align: center; color: var(--text);
+}
+.pari-balance {
+  font-size: 14px; color: var(--text-muted);
+  text-align: center;
+}
+.pari-balance strong { color: var(--orange); font-size: 18px; }
+.pari-slider-wrap { width: 100%; }
+.pari-slider {
+  width: 100%; height: 6px; border-radius: 3px;
+  -webkit-appearance: none; appearance: none;
+  background: linear-gradient(90deg, var(--orange) var(--pct, 50%), var(--border) var(--pct, 50%));
+  outline: none; cursor: pointer;
+}
+.pari-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none;
+  width: 20px; height: 20px; border-radius: 50%;
+  background: var(--orange); border: 2px solid var(--bg); cursor: pointer;
+}
+.pari-bet-display {
+  text-align: center; margin-top: 8px;
+  font-size: 22px; font-weight: 700; color: var(--orange);
+}
+
+/* ── Scores équipe ────────────────────────────────────────── */
+.team-score-item {
+  display: flex; align-items: center; gap: 14px;
+  padding: 14px 18px;
+  background: var(--surface); border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+.team-color-bar { width: 4px; height: 40px; border-radius: 2px; flex-shrink: 0; }
+.team-score-name { flex: 1; font-size: 15px; font-weight: 600; }
+.team-score-pts  { font-size: 18px; font-weight: 700; }
+
+/* ═══════════════════════════════════════════════════════════
+   RESPONSIVE — multiple breakpoints pour éviter chevauchements
+   ═══════════════════════════════════════════════════════════ */
+
+/* ── Tablet large : avatars panel + sidebar geomap rétrécissent ── */
+@media (max-width: 1100px) {
+  .stage              { grid-template-columns: 200px 1fr; }
+  .av-player-icon     { width: 60px; height: 60px; font-size: 28px; }
+  .av-player-name     { font-size: 11px; }
+  .av-player-score    { font-size: 10px; }
+  .geomap-body        { grid-template-columns: 1fr 200px; }
+  .hourglass-wrap     { width: 90px; height: 130px; }
+  .hourglass          { width: 90px; height: 128px; }
+  .btn-geo-validate   { padding: 16px 14px; font-size: 16px; }
+  .geomap-results-panel { padding: 10px; }
+}
+
+/* ── Tablet portrait : layout plus compact, host button réduit ── */
+@media (max-width: 900px) {
+  .stage              { grid-template-columns: 170px 1fr; }
+  .av-player-icon     { width: 52px; height: 52px; font-size: 24px; }
+  .question-wrap      { max-width: 100%; }
+  .geomap-body        { grid-template-columns: 1fr 180px; }
+  .host-control       { padding: 12px 18px; font-size: 14px; bottom: 18px; right: 18px; }
+  .host-control i     { font-size: 18px; }
+}
+
+/* ── Mobile : layout vertical complet ───────────────────── */
+@media (max-width: 720px) {
+  .stage {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+  .avatars-panel {
+    flex-direction: row;
+    border-right: none;
+    border-bottom: 0.5px solid var(--border);
+    padding: 10px 8px;
+    gap: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .av-player-slot     { width: auto; min-width: 64px; padding: 4px; }
+  .av-player-icon     { width: 48px; height: 48px; font-size: 22px; border-width: 2px; }
+  .av-player-name     { font-size: 10px; max-width: 70px; }
+  .av-player-score    { font-size: 10px; }
+
+  .answers-grid       { grid-template-columns: 1fr; gap: 8px; }
+  .answer-btn         { padding: 14px 16px; font-size: 14px; }
+  .question-text      { font-size: clamp(16px, 4vw, 22px); padding: 6px 0; }
+
+  .progress-bar-track { width: 80px; }
+  .hud                { padding: 0 12px; height: 50px; }
+  .hud-round          { font-size: 11px; }
+  .hud-progress       { font-size: 11px; }
+
+  /* Sablier plus petit, position ajustée */
+  .hourglass-wrap     { top: 6px; right: 10px; width: 60px; height: 84px; }
+  .hourglass          { width: 60px; height: 84px; }
+  .hourglass-num      { font-size: 13px; bottom: -4px; }
+
+  /* Geomap : single column, sidebar passe en row sous la map */
+  .geomap-wrap        { gap: 8px; }
+  .geomap-header      { gap: 4px; }
+  .geomap-question    { font-size: 16px; }
+  .geomap-body {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(280px, 1fr) auto;
+    gap: 8px;
+  }
+  .geomap-side        { flex-direction: row; flex-wrap: wrap; gap: 8px; }
+  .hourglass-slot     { display: none; }   /* hourglass reste en stage-main top-right */
+  .geomap-hint-card   { flex: 1 1 100%; padding: 8px 10px; font-size: 12px; }
+  .geomap-results-panel { flex: 1 1 100%; }
+  .btn-geo-validate   { flex: 1 1 100%; padding: 14px 18px; font-size: 15px; margin-top: 0; }
+
+  /* Pixel : canvas plus compact */
+  .pixel-canvas-wrap  { width: 100%; max-width: 360px; }
+
+  /* Pari : compact */
+  .pari-wrap          { gap: 14px; }
+  .pari-question      { font-size: 16px; }
+
+  /* Round intro */
+  .round-intro-name   { font-size: clamp(32px, 9vw, 56px); }
+  .round-intro-suffix { font-size: clamp(16px, 4vw, 22px); }
+
+  /* Host control en mobile */
+  .host-control       { padding: 10px 14px; font-size: 13px; bottom: 12px; right: 12px; }
+  .host-control i     { font-size: 16px; }
+  .host-waiting-msg   { padding: 8px 12px; font-size: 11px; bottom: 12px; right: 12px; }
+}
+
+/* ── Mobile très petit (< 480px) ─────────────────────────── */
+@media (max-width: 480px) {
+  .av-player-icon     { width: 44px; height: 44px; font-size: 20px; }
+  .progress-bar-track { width: 60px; }
+  .hud-round          { display: none; }    /* pas la place */
+  .answer-btn         { padding: 12px 14px; font-size: 13px; }
+  .answer-letter      { width: 22px; height: 22px; font-size: 11px; }
+  .hud-quit-btn span  { display: none; }   /* icône seule, pas la place pour le texte */
+  .hud-quit-btn       { padding: 6px 9px; }
+}
+
