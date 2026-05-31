@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server/index.js",
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "audit": "npm audit --omit=dev"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +19,10 @@
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "socket.io": "^4.8.3"
+    "express-rate-limit": "^8.5.2",
+    "helmet": "^8.2.0",
+    "socket.io": "^4.8.3",
+    "validator": "^13.15.35"
   },
   "devDependencies": {
     "nodemon": "^3.1.14",

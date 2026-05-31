@@ -1,5 +1,17 @@
 // public/js/game.js — Logique de la page de jeu
 
+// ── Sécurité : échappement HTML pour toute donnée user-controlled ────
+// (pseudos, emojis avatar) avant injection via innerHTML. Les questions de la
+// banque sont aussi échappées par défense en profondeur.
+function escapeHtml(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 const roomCode   = sessionStorage.getItem('qr_room');
 const playerData = JSON.parse(sessionStorage.getItem('qr_player') || '{}');
 const settings   = JSON.parse(sessionStorage.getItem('qr_settings') || '{}');
@@ -166,9 +178,9 @@ function renderAvatarsPanel(players) {
       <div class="av-player-slot ${isMe ? 'me' : ''}" id="av-slot-${sanitizeId(p.name)}">
         <div class="av-player-icon thinking" id="av-icon-${sanitizeId(p.name)}"
              style="${getAvatarStyle(av)};${ring}">
-          ${av.emoji}
+          ${escapeHtml(av.emoji)}
         </div>
-        <div class="av-player-name">${isMe ? '★ ' : ''}${p.name}</div>
+        <div class="av-player-name">${isMe ? '★ ' : ''}${escapeHtml(p.name)}</div>
         <div class="av-player-status thinking" id="av-status-${sanitizeId(p.name)}">${AV_STATUS_LABELS.thinking}</div>
         <div class="av-player-score" id="av-score-${sanitizeId(p.name)}">${p.score || 0} pts</div>
       </div>`;
@@ -244,7 +256,7 @@ function displayQuestion({ index, total, question, options, timeLimit, roundName
   const grid = document.getElementById('answers-grid');
   grid.innerHTML = options.map((opt, i) => `
     <button class="answer-btn" data-index="${i}" onclick="submitAnswer(${i})">
-      <span class="answer-letter">${LETTERS[i]}</span>${opt}
+      <span class="answer-letter">${LETTERS[i]}</span>${escapeHtml(opt)}
     </button>`).join('');
 
   resetAvatarStatuses();
@@ -284,7 +296,7 @@ function displayPixelQuestion({ index, total, question, options, imageUrl }) {
   const grid = document.getElementById('pixel-answers-grid');
   grid.innerHTML = options.map((opt, i) => `
     <button class="answer-btn" data-index="${i}" onclick="submitPixelAnswer(${i})">
-      <span class="answer-letter">${LETTERS[i]}</span>${opt}
+      <span class="answer-letter">${LETTERS[i]}</span>${escapeHtml(opt)}
     </button>`).join('');
 
   resetAvatarStatuses();
@@ -500,7 +512,7 @@ function displayScores({ players, teams: teamsArr, teamMode: tm }) {
     document.getElementById('scores-list').innerHTML = sorted.map((team, i) => `
       <div class="team-score-item" style="animation-delay:${i*0.08}s">
         <div class="team-color-bar" style="background:${team.color}"></div>
-        <span class="team-score-name">${team.name}</span>
+        <span class="team-score-name">${escapeHtml(team.name)}</span>
         <span class="team-score-pts">${team.score} pts</span>
       </div>`).join('');
   } else {
@@ -512,8 +524,8 @@ function displayScores({ players, teams: teamsArr, teamMode: tm }) {
       return `
         <div class="score-item ${isMe ? 'me' : ''}" style="animation-delay:${i*0.08}s">
           <div style="font-size:22px;min-width:28px;text-align:center">${rankEl}</div>
-          <span class="av-inline av-sm" style="${getAvatarStyle(av)}">${av.emoji}</span>
-          <span class="score-name">${p.name}${isMe ? ' <span style="color:var(--orange);font-size:11px">(toi)</span>' : ''}</span>
+          <span class="av-inline av-sm" style="${getAvatarStyle(av)}">${escapeHtml(av.emoji)}</span>
+          <span class="score-name">${escapeHtml(p.name)}${isMe ? ' <span style="color:var(--orange);font-size:11px">(toi)</span>' : ''}</span>
           <span class="score-pts">${p.score} pts</span>
         </div>`;
     }).join('');
@@ -532,14 +544,14 @@ function displayGameOver(ranking, tm) {
   document.getElementById('gameover-ranking').innerHTML = ranking.map((item, i) => {
     const isMe = item.name === playerData.name;
     const av   = item.avatar;
-    const avHtml = av ? `<span class="av-inline av-sm" style="${getAvatarStyle(av)}">${av.emoji}</span>` : '';
+    const avHtml = av ? `<span class="av-inline av-sm" style="${getAvatarStyle(av)}">${escapeHtml(av.emoji)}</span>` : '';
     return `
       <div class="score-item ${isMe ? 'me' : ''}" style="animation-delay:${i*0.1}s">
         <span style="font-size:22px;min-width:28px;text-align:center">
           ${medals[i] || `<span class="score-rank">${i+1}</span>`}
         </span>
         ${tm && item.color ? `<span class="team-dot" style="background:${item.color};width:12px;height:12px;border-radius:50%"></span>` : avHtml}
-        <span class="score-name">${item.name}${isMe ? ' (toi)' : ''}</span>
+        <span class="score-name">${escapeHtml(item.name)}${isMe ? ' (toi)' : ''}</span>
         <span class="score-pts">${item.score} pts</span>
       </div>`;
   }).join('');
@@ -570,15 +582,15 @@ function displayGameHistory() {
         } else if (h.type === 'geomap') {
           answerHtml = `${r.distance != null ? r.distance + ' km' : '—'}`;
         } else {
-          answerHtml = r.answer != null ? r.answer : '—';
+          answerHtml = r.answer != null ? escapeHtml(r.answer) : '—';
         }
         const mark   = !r.answered ? '⛔' : (r.correct ? '✅' : '❌');
         const ptsCls = r.points > 0 ? 'pos' : (r.points < 0 ? 'neg' : '');
         const ptsTxt = (r.points > 0 ? '+' : '') + r.points + ' pts';
         return `
           <div class="hist-player-row ${isMe ? 'me' : ''}">
-            <span class="av-inline av-xs" style="${getAvatarStyle(av)}">${av.emoji}</span>
-            <span class="hist-player-name">${r.name}</span>
+            <span class="av-inline av-xs" style="${getAvatarStyle(av)}">${escapeHtml(av.emoji)}</span>
+            <span class="hist-player-name">${escapeHtml(r.name)}</span>
             <span class="hist-player-answer">${answerHtml}</span>
             <span class="hist-mark">${mark}</span>
             <span class="hist-pts ${ptsCls}">${ptsTxt}</span>
@@ -587,11 +599,11 @@ function displayGameHistory() {
       return `
         <div class="hist-card" style="animation-delay:${Math.min(qi, 12) * 0.04}s">
           <div class="hist-card-head">
-            <span class="badge badge-purple">${roundLabel}</span>
+            <span class="badge badge-purple">${escapeHtml(roundLabel)}</span>
             <span class="hist-qnum">Question ${qi + 1}</span>
           </div>
-          <div class="hist-question">${h.question}</div>
-          <div class="hist-correct">✔ Bonne réponse : <strong>${h.correctAnswer}</strong></div>
+          <div class="hist-question">${escapeHtml(h.question)}</div>
+          <div class="hist-correct">✔ Bonne réponse : <strong>${escapeHtml(h.correctAnswer)}</strong></div>
           <div class="hist-players">${rows}</div>
         </div>`;
     }).join('');
@@ -673,7 +685,7 @@ socket.on('pari_reveal', ({ timeLimit }) => {
   const grid = document.getElementById('pari-answers-grid');
   grid.innerHTML = opts.map((opt, i) => `
     <button class="answer-btn" data-index="${i}" onclick="submitAnswer(${i})">
-      <span class="answer-letter">${LETTERS[i]}</span>${opt}
+      <span class="answer-letter">${LETTERS[i]}</span>${escapeHtml(opt)}
     </button>`).join('');
 
   startTimer(timeLimit || 15);

@@ -1,5 +1,17 @@
 // public/js/lobby.js — Salon d'attente
 
+// ── Sécurité : échappement HTML pour TOUTE donnée user-controlled ────
+// À utiliser systématiquement pour les pseudos, messages chat, etc. injectés
+// via innerHTML. Pour les attributs (data-name="${...}") c'est aussi requis.
+function escapeHtml(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 const roomCode   = sessionStorage.getItem('qr_room');
 const playerData = JSON.parse(sessionStorage.getItem('qr_player') || '{}');
 let   isHost     = sessionStorage.getItem('qr_host') === 'true';
@@ -180,18 +192,26 @@ function renderTeams(teamsData) {
   grid.innerHTML = teams.map(team => {
     const members = currentPlayers.filter(p => p.teamId === team.id);
     const joined  = members.some(p => p.name === playerData.name);
+    // team.name vient du serveur (whitelist côté serveur), team.color aussi —
+    // mais pour défense en profondeur on échappe quand même.
     return `
       <div class="team-card ${joined ? 'joined' : ''}">
         <div class="team-card-name">
           <span class="team-dot" style="background:${team.color}"></span>
-          ${team.name}
+          ${escapeHtml(team.name)}
         </div>
-        <div class="team-members">${members.map(m => m.name).join(', ') || '—'}</div>
-        <button class="team-join-btn" onclick="joinTeam(${team.id})">
+        <div class="team-members">${members.map(m => escapeHtml(m.name)).join(', ') || '—'}</div>
+        <button class="team-join-btn" data-action="join-team" data-team-id="${team.id}">
           <span data-i18n="lobby.team.join">Rejoindre</span>
         </button>
       </div>`;
   }).join('');
+
+  // Bind les boutons "Rejoindre" via addEventListener (pas d'inline onclick).
+  grid.querySelectorAll('[data-action="join-team"]').forEach(btn => {
+    const teamId = Number(btn.dataset.teamId);
+    btn.addEventListener('click', () => joinTeam(teamId));
+  });
 }
 
 function joinTeam(teamId) {
@@ -294,35 +314,50 @@ socket.on('kicked', ({ by }) => {
 
 socket.on('chat_message', ({ name, text }) => addChatMsg(name, text));
 
+// Message bloqué côté serveur (profanity, spam, trop long, etc.)
+socket.on('chat_blocked', ({ reason }) => {
+  showToast('❌ ' + (reason || 'Message refusé'), 'error');
+});
+
+// F4 : rate-limit serveur — affiche un toast de cool-down
+socket.on('rate_limited', ({ until }) => {
+  const wait = Math.max(1, Math.ceil((Number(until) - Date.now()) / 1000));
+  showToast(`⏳ Doucement ! Réessaye dans ${wait}s.`, 'error');
+});
+
 // ── Rendu joueurs ─────────────────────────────────────────────
 function updatePlayers(players) {
   document.getElementById('player-count').textContent = `${players.length}/8`;
 
   const list = document.getElementById('players-list');
+  // ⚠️ TOUTE donnée venant d'un user (pseudo, emoji avatar) doit passer par
+  // escapeHtml() avant injection. On utilise data-name="..." + addEventListener
+  // plutôt que des onclick inline qui sont des vecteurs XSS classiques.
   list.innerHTML = players.map((p, i) => {
     const isMe    = p.name === playerData.name;
     const isHostP = p.name === currentHostName;
     const av      = p.avatar || { colorIdx: i % 8, emoji: '🎮' };
     const team    = teams.find(t => t.id === p.teamId);
-    const teamBadge = team ? `<span class="player-team-badge" style="background:${team.color}20;color:${team.color};border:1px solid ${team.color}40">${team.name}</span>` : '';
-    // p.inLobby peut être absent (anciennes rooms) → on traite undefined comme "présent au lobby".
+    const teamBadge = team
+      ? `<span class="player-team-badge" style="background:${team.color}20;color:${team.color};border:1px solid ${team.color}40">${escapeHtml(team.name)}</span>`
+      : '';
     const isWaiting = p.inLobby === false;
-    // Menu kebab (3 points) — visible uniquement pour l'hôte sur les autres joueurs.
-    const safeName = p.name.replace(/'/g, "\\'");
-    const kebab = (isHost && !isHostP && !isMe)
+    const nameAttr  = escapeHtml(p.name);
+    const showKebab = (isHost && !isHostP && !isMe);
+    const kebab = showKebab
       ? `<div class="player-menu">
-           <button class="player-menu-btn" onclick="togglePlayerMenu(event, '${safeName}')" title="Actions" aria-label="Actions">⋮</button>
+           <button class="player-menu-btn" data-action="menu" data-name="${nameAttr}" title="Actions" aria-label="Actions">⋮</button>
            <div class="player-menu-dropdown" id="menu-${sanitizeNameId(p.name)}">
-             <button class="player-menu-item" onclick="transferHost('${safeName}')">👑 Léguer l'hôte</button>
-             <button class="player-menu-item danger" onclick="kickPlayer('${safeName}')">🚫 Exclure</button>
+             <button class="player-menu-item" data-action="promote" data-name="${nameAttr}">👑 Léguer l'hôte</button>
+             <button class="player-menu-item danger" data-action="kick" data-name="${nameAttr}">🚫 Exclure</button>
            </div>
          </div>`
       : '';
     return `
       <div class="player-item ${isWaiting ? 'is-waiting' : ''}">
-        <span class="av-inline av-sm" style="${getAvatarStyle(av)}">${av.emoji}</span>
+        <span class="av-inline av-sm" style="${getAvatarStyle(av)}">${escapeHtml(av.emoji)}</span>
         <span class="player-name">
-          ${p.name}
+          ${escapeHtml(p.name)}
           ${isMe ? '<span class="player-you">(toi)</span>' : ''}
           ${teamBadge}
           ${isWaiting ? '<span class="player-waiting-label">⏳ En attente du joueur</span>' : ''}
@@ -332,6 +367,17 @@ function updatePlayers(players) {
         <div class="player-status"></div>
       </div>`;
   }).join('');
+
+  // Bind les actions (menu / promote / kick) en addEventListener — pas d'onclick inline.
+  list.querySelectorAll('[data-action]').forEach(btn => {
+    const action = btn.dataset.action;
+    const name   = btn.dataset.name;
+    btn.addEventListener('click', (e) => {
+      if (action === 'menu')         togglePlayerMenu(e, name);
+      else if (action === 'promote') transferHost(name);
+      else if (action === 'kick')    kickPlayer(name);
+    });
+  });
 
   const emptySlots = document.getElementById('empty-slots');
   emptySlots.innerHTML = Array(8 - players.length).fill(0).map(() => `
@@ -399,11 +445,23 @@ function sendChat() {
   input.value = '';
 }
 
+// F1 : XSS stockée — construction DOM stricte, jamais d'innerHTML avec
+// du texte utilisateur. textContent neutralise tout balisage / handler injecté.
 function addChatMsg(name, text) {
   const msgs = document.getElementById('chat-messages');
   const div  = document.createElement('div');
   div.className = 'chat-msg';
-  div.innerHTML = `<span class="chat-author">${name}</span><span class="chat-text">${text}</span>`;
+
+  const author = document.createElement('span');
+  author.className   = 'chat-author';
+  author.textContent = String(name == null ? '' : name);
+
+  const txt = document.createElement('span');
+  txt.className   = 'chat-text';
+  txt.textContent = String(text == null ? '' : text);
+
+  div.appendChild(author);
+  div.appendChild(txt);
   msgs.appendChild(div);
   msgs.scrollTop = msgs.scrollHeight;
 }

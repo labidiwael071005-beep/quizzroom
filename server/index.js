@@ -1,16 +1,86 @@
 // server/index.js — Serveur principal QuizzRoom
-const express = require('express');
-const http    = require('http');
-const { Server } = require('socket.io');
-const path    = require('path');
+const express     = require('express');
+const http        = require('http');
+const { Server }  = require('socket.io');
+const path        = require('path');
+const crypto      = require('crypto');
+const helmet      = require('helmet');
+const rateLimit   = require('express-rate-limit');
 require('dotenv').config();
+
+const { validatePseudo, validateChatMessage } = require('./profanity-filter');
 
 const app    = express();
 const server = http.createServer(app);
-const io     = new Server(server);
 const PORT   = process.env.PORT || 3000;
 
-app.use(express.json());
+// ── Origins autorisés (CORS Socket.io + sécurité) ─────────────
+const ALLOWED_ORIGINS = process.env.NODE_ENV === 'production'
+  ? [process.env.PUBLIC_URL || 'https://quizzroom.onrender.com']
+  : ['http://localhost:3000', 'http://127.0.0.1:3000'];
+
+const io = new Server(server, {
+  cors: {
+    origin: ALLOWED_ORIGINS,
+    methods: ['GET', 'POST'],
+    credentials: true,
+  },
+  pingTimeout:  60000,
+  pingInterval: 25000,
+});
+
+// ── Durcissement Express ──────────────────────────────────────
+app.disable('x-powered-by');
+// Render (et la plupart des PaaS) place l'app derrière un proxy. Sans
+// trust proxy, req.ip et le rate-limit IP pointent tous vers l'IP du proxy.
+app.set('trust proxy', 1);
+
+// Helmet : headers de sécurité + CSP adaptée à Socket.io, Tabler Icons,
+// Leaflet (CSS+JS sur unpkg) et les tuiles OpenStreetMap.
+app.use(helmet({
+  contentSecurityPolicy: {
+    directives: {
+      defaultSrc: ["'self'"],
+      scriptSrc: [
+        "'self'", "'unsafe-inline'",
+        "https://cdn.jsdelivr.net",
+        "https://cdn.socket.io",
+        "https://unpkg.com",
+      ],
+      // Helmet met scriptSrcAttr à 'none' par défaut → bloquerait tous les
+      // onclick="…" inline du HTML. On les autorise tant qu'on n'a pas migré
+      // toute la UI vers addEventListener.
+      scriptSrcAttr: ["'unsafe-inline'"],
+      styleSrc: [
+        "'self'", "'unsafe-inline'",
+        "https://cdn.jsdelivr.net",
+        "https://unpkg.com",
+      ],
+      fontSrc: ["'self'", "https://cdn.jsdelivr.net", "data:"],
+      imgSrc: [
+        "'self'", "data:", "blob:",
+        "https://upload.wikimedia.org",
+        "https://*.tile.openstreetmap.org",
+        "https://unpkg.com",
+      ],
+      connectSrc: ["'self'", "wss:", "ws:"],
+      frameAncestors: ["'none'"],
+    },
+  },
+  crossOriginEmbedderPolicy: false,
+}));
+
+app.use(express.json({ limit: '64kb' }));
+
+// ── Rate-limit REST ────────────────────────────────────────────
+const apiLimiter = rateLimit({
+  windowMs: 60 * 1000,
+  max:      60,
+  standardHeaders: true,
+  legacyHeaders:   false,
+});
+app.use('/api/', apiLimiter);
+
 app.use(express.static(path.join(__dirname, '../public')));
 
 const { getQuestions }    = require('./questions');
@@ -23,18 +93,107 @@ app.get('/api/questions', async (req, res) => {
     const questions = await getQuestions({ themes: theme, difficulty, count: Number(count) });
     res.json({ ok: true, questions });
   } catch (err) {
-    res.status(500).json({ ok: false, error: err.message });
+    // Ne JAMAIS exposer err.message en clair (peut leaker des chemins / SQL / etc.)
+    console.error('[/api/questions]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
   }
 });
 
 // ── Rooms ─────────────────────────────────────────────────────
 const rooms = {};
 
+// Code de room : 6 caractères tirés cryptographiquement, charset sans
+// confusions (pas de I/O/0/1). En cas de collision improbable, on retire.
 function generateCode() {
   const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+  const bytes = crypto.randomBytes(6);
   let code = 'QR-';
-  for (let i = 0; i < 6; i++) code += chars[Math.floor(Math.random() * chars.length)];
+  for (let i = 0; i < 6; i++) code += chars[bytes[i] % chars.length];
+  if (rooms[code]) return generateCode();
   return code;
+}
+
+// ── Validation des entrées socket (F3) ────────────────────────
+const CHAT_MAX = 200;
+
+function validRoomCode(s) {
+  return typeof s === 'string' && /^QR-[A-Z2-9]{6}$/.test(s);
+}
+function validAnswerIndex(i) {
+  return Number.isInteger(i) && i >= 0 && i <= 10;
+}
+function validBet(b, max) {
+  return Number.isInteger(b) && b >= 0 && b <= max;
+}
+function validLatLng(lat, lng) {
+  return Number.isFinite(lat) && Number.isFinite(lng)
+      && lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180;
+}
+function validAvatar(a) {
+  if (!a || typeof a !== 'object') return false;
+  if (!Number.isInteger(a.colorIdx) || a.colorIdx < 0 || a.colorIdx > 20) return false;
+  if (typeof a.emoji !== 'string' || a.emoji.length > 8) return false;
+  return true;
+}
+function validSettingsObj(s) {
+  if (!s || typeof s !== 'object' || Array.isArray(s)) return false;
+  // Tolérant : on accepte les champs partiels (l'hôte peut envoyer 1 seule clé).
+  // On rejette uniquement les types clairement faux.
+  if (s.themes !== undefined && !Array.isArray(s.themes)) return false;
+  if (s.rounds !== undefined && !Array.isArray(s.rounds)) return false;
+  if (s.difficulty !== undefined && typeof s.difficulty !== 'string') return false;
+  if (s.teamMode !== undefined && typeof s.teamMode !== 'boolean') return false;
+  if (s.numTeams !== undefined && (!Number.isInteger(s.numTeams) || s.numTeams < 2 || s.numTeams > 4)) return false;
+  if (s.questionsPerRound !== undefined && (typeof s.questionsPerRound !== 'object' || Array.isArray(s.questionsPerRound))) return false;
+  return true;
+}
+
+// ── Rate-limit Socket.io (F4) ─────────────────────────────────
+// Stockage mémoire (single-instance OK sur Render free tier).
+const socketRateLimits = new Map();    // socket.id -> { chatCount, chatResetAt, actionCount, actionResetAt }
+const ipRoomCreations  = new Map();    // ip -> { count, resetAt }
+
+function getClientIp(socket) {
+  // Derrière un proxy (Render), socket.handshake.address pointe sur le proxy.
+  // L'IP réelle est dans x-forwarded-for.
+  const xff = socket.handshake.headers['x-forwarded-for'];
+  if (xff) return String(xff).split(',')[0].trim();
+  return socket.handshake.address || '';
+}
+function getOrInitRate(socket) {
+  let d = socketRateLimits.get(socket.id);
+  if (!d) {
+    const now = Date.now();
+    d = { chatCount: 0, chatResetAt: now + 10000, actionCount: 0, actionResetAt: now + 1000 };
+    socketRateLimits.set(socket.id, d);
+  }
+  return d;
+}
+function checkChatRate(socket) {
+  const d = getOrInitRate(socket);
+  const now = Date.now();
+  if (now > d.chatResetAt) { d.chatCount = 0; d.chatResetAt = now + 10000; }
+  if (d.chatCount >= 5) { socket.emit('rate_limited', { until: d.chatResetAt }); return false; }
+  d.chatCount++;
+  return true;
+}
+function checkActionRate(socket) {
+  const d = getOrInitRate(socket);
+  const now = Date.now();
+  if (now > d.actionResetAt) { d.actionCount = 0; d.actionResetAt = now + 1000; }
+  if (d.actionCount >= 10) { socket.emit('rate_limited', { until: d.actionResetAt }); return false; }
+  d.actionCount++;
+  return true;
+}
+function checkIpRoomCreate(socket) {
+  const ip = getClientIp(socket);
+  const now = Date.now();
+  let d = ipRoomCreations.get(ip) || { count: 0, resetAt: now + 60000 };
+  if (now > d.resetAt) { d.count = 0; d.resetAt = now + 60000; }
+  if (d.count >= 3) { socket.emit('join_error', 'Trop de salons créés. Réessayez dans 1 minute.'); return false; }
+  d.count++;
+  ipRoomCreations.set(ip, d);
+  return true;
 }
 
 // ── Helpers jeu ───────────────────────────────────────────────
@@ -425,13 +584,22 @@ io.on('connection', (socket) => {
   console.log(`✅ Connecté : ${socket.id}`);
 
   socket.on('create_room', ({ playerName, settings, avatar }) => {
-    const code = generateCode();
+    // F4 : cap IP avant tout (3 rooms / minute)
+    if (!checkIpRoomCreate(socket)) return;
+    // F3 + profanity : pseudo valide ?
+    const pseudoCheck = validatePseudo(playerName);
+    if (!pseudoCheck.ok) return socket.emit('join_error', pseudoCheck.reason);
+    if (!validSettingsObj(settings)) return socket.emit('join_error', 'Paramètres invalides.');
+    if (avatar !== undefined && !validAvatar(avatar)) return socket.emit('join_error', 'Avatar invalide.');
+
+    const name  = String(playerName).trim();
+    const code  = generateCode();
     const teams = settings.teamMode ? buildTeams(settings.numTeams || 2) : [];
     rooms[code] = {
       code,
       host:     socket.id,
-      hostName: playerName,
-      players:  [{ id: socket.id, name: playerName, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true }],
+      hostName: name,
+      players:  [{ id: socket.id, name, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true }],
       settings,
       teams,
       started:      false,
@@ -445,25 +613,35 @@ io.on('connection', (socket) => {
       history:      [],
     };
     socket.join(code);
-    console.log(`🎮 Room créée : ${code} par ${playerName}`);
+    console.log(`🎮 Room créée : ${code} par ${name}`);
     socket.emit('room_created', { code, players: rooms[code].players, settings, teams });
   });
 
   socket.on('join_room', ({ code, playerName, avatar }) => {
+    if (!validRoomCode(code)) return socket.emit('join_error', 'Code invalide.');
+    const pseudoCheck = validatePseudo(playerName);
+    if (!pseudoCheck.ok) return socket.emit('join_error', pseudoCheck.reason);
+    if (avatar !== undefined && !validAvatar(avatar)) return socket.emit('join_error', 'Avatar invalide.');
+
     const room = rooms[code];
     if (!room)                    return socket.emit('join_error', 'Partie introuvable.');
     if (room.started)             return socket.emit('join_error', 'Partie déjà commencée.');
     if (room.players.length >= 8) return socket.emit('join_error', 'Partie pleine (8/8).');
-    if (room.players.find(p => p.name === playerName))
+    const name = String(playerName).trim();
+    if (room.players.find(p => p.name === name))
       return socket.emit('join_error', 'Ce pseudo est déjà pris.');
 
-    room.players.push({ id: socket.id, name: playerName, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true });
+    room.players.push({ id: socket.id, name, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true });
     socket.join(code);
     socket.emit('room_joined', { code, players: room.players, settings: room.settings, teams: room.teams });
     emitPlayersUpdate(code);
   });
 
   socket.on('lobby_sync', ({ code, playerName, avatar, fromLobby }) => {
+    if (!validRoomCode(code)) return socket.emit('join_error', 'Code invalide.');
+    const pseudoCheck = validatePseudo(playerName);
+    if (!pseudoCheck.ok) return socket.emit('join_error', pseudoCheck.reason);
+    if (avatar !== undefined && !validAvatar(avatar)) avatar = undefined;
     const room = rooms[code];
     if (!room) return socket.emit('join_error', 'Partie introuvable.');
 
@@ -543,6 +721,8 @@ io.on('connection', (socket) => {
 
   // Hôte met à jour les settings depuis le lobby (nb questions, mode équipe, etc.)
   socket.on('update_settings', ({ code, settings }) => {
+    if (!validRoomCode(code) || !validSettingsObj(settings)) return;
+    if (!checkActionRate(socket)) return;
     const room = rooms[code];
     if (!room || room.host !== socket.id) return;
 
@@ -566,15 +746,22 @@ io.on('connection', (socket) => {
 
   // Joueur choisit une équipe
   socket.on('choose_team', ({ code, teamId }) => {
+    if (!validRoomCode(code)) return;
+    if (teamId !== null && !Number.isInteger(teamId)) return;
+    if (!checkActionRate(socket)) return;
     const room   = rooms[code];
     if (!room) return;
     const player = room.players.find(p => p.id === socket.id);
     if (!player) return;
+    // L'équipe doit exister dans la room (sinon badge fantôme)
+    if (teamId !== null && !room.teams.some(t => t.id === teamId)) return;
     player.teamId = teamId;
     emitPlayersUpdate(code);
   });
 
   socket.on('start_game', async ({ code }) => {
+    if (!validRoomCode(code)) return;
+    if (!checkActionRate(socket)) return;
     const room = rooms[code];
     if (!room || room.host !== socket.id) return;
 
@@ -612,6 +799,8 @@ io.on('connection', (socket) => {
   });
 
   socket.on('submit_answer', ({ code, answerIndex, betAmount, lat, lng }) => {
+    if (!validRoomCode(code)) return;
+    if (!checkActionRate(socket)) return;
     const room = rooms[code];
     if (!room) return;
 
@@ -627,6 +816,13 @@ io.on('connection', (socket) => {
     if (q.type === 'geomap') {
       const guessLat = Number(lat), guessLng = Number(lng);
       let points = 0, dist = null;
+      if (!validLatLng(guessLat, guessLng)) {
+        // Réponse vide / hors-plage : on enregistre 0 point
+        room.answers[player.name] = { lat: null, lng: null, distance: null, correct: false, points: 0 };
+        io.to(code).emit('player_answered', { name: player.name });
+        checkAllAnswered(code);
+        return;
+      }
       if (Number.isFinite(guessLat) && Number.isFinite(guessLng)) {
         dist   = distanceKm(guessLat, guessLng, q.lat, q.lng);
         points = geoScore(dist);
@@ -649,6 +845,14 @@ io.on('connection', (socket) => {
     }
 
     // ── Manches classiques (culture, pixel, pari) ────────────────
+    if (!validAnswerIndex(answerIndex)) return;
+    if (round.name === 'pari' && betAmount !== undefined) {
+      // betAmount doit être un entier dans [0, score du joueur]
+      const maxBet = room.settings.teamMode
+        ? (room.teams.find(t => t.id === player.teamId)?.score ?? 0)
+        : (player.score ?? 0);
+      if (!validBet(betAmount, Math.max(maxBet, 0))) return;
+    }
     const correct = answerIndex === q.correctIndex;
     let points = 0;
     if (correct) {
@@ -689,6 +893,8 @@ io.on('connection', (socket) => {
   });
 
   socket.on('host_advance', ({ code }) => {
+    if (!validRoomCode(code)) return;
+    if (!checkActionRate(socket)) return;
     const room = rooms[code];
     if (!room) return;
     if (room.host !== socket.id) return;       // Seul l'hôte peut déclencher
@@ -698,6 +904,9 @@ io.on('connection', (socket) => {
 
   // L'hôte lègue son rôle à un autre joueur (depuis le lobby ou en cours de partie).
   socket.on('transfer_host', ({ code, targetName }) => {
+    if (!validRoomCode(code)) return;
+    if (typeof targetName !== 'string') return;
+    if (!checkActionRate(socket)) return;
     const room = rooms[code];
     if (!room || room.host !== socket.id) return;
     const target = room.players.find(p => p.name === targetName);
@@ -728,6 +937,9 @@ io.on('connection', (socket) => {
 
   // L'hôte exclut un joueur du lobby (uniquement avant le démarrage de la partie).
   socket.on('kick_player', ({ code, targetName }) => {
+    if (!validRoomCode(code)) return;
+    if (typeof targetName !== 'string') return;
+    if (!checkActionRate(socket)) return;
     const room = rooms[code];
     if (!room || room.host !== socket.id) return;
     if (room.started) return; // Pas de kick en pleine partie
@@ -749,6 +961,9 @@ io.on('connection', (socket) => {
   });
 
   socket.on('pari_miser_done', ({ code, betAmount }) => {
+    if (!validRoomCode(code)) return;
+    if (!Number.isInteger(betAmount) || betAmount < 0 || betAmount > 1000000) return;
+    if (!checkActionRate(socket)) return;
     const room = rooms[code];
     if (!room) return;
     const player = room.players.find(p => p.id === socket.id);
@@ -766,12 +981,29 @@ io.on('connection', (socket) => {
   });
 
   socket.on('chat_message', ({ code, name, text }) => {
-    if (!rooms[code]) return;
-    io.to(code).emit('chat_message', { name, text });
+    if (!validRoomCode(code)) return;
+    const room = rooms[code];
+    if (!room) return;
+    // F7 : l'émetteur doit être dans la room (pas n'importe quel socket connecté)
+    const player = room.players.find(p => p.id === socket.id);
+    if (!player) return;
+    // On force le nom diffusé = nom serveur (pas celui du payload, qui pourrait être usurpé)
+    const displayName = player.name;
+
+    if (!checkChatRate(socket)) return;
+
+    const chatCheck = validateChatMessage(text);
+    if (!chatCheck.ok) {
+      socket.emit('chat_blocked', { reason: chatCheck.reason });
+      console.log(`[FILTER] room=${code} user=${displayName} reason="${chatCheck.reason}" original="${String(text || '').slice(0, 50)}"`);
+      return;
+    }
+    io.to(code).emit('chat_message', { name: displayName, text: chatCheck.cleaned });
   });
 
   // Joueur quitte volontairement la partie en cours (bouton "Quitter")
   socket.on('leave_game', ({ code }) => {
+    if (!validRoomCode(code)) return;
     const room = rooms[code];
     if (!room) return;
     const idx = room.players.findIndex(p => p.id === socket.id);
@@ -812,6 +1044,8 @@ io.on('connection', (socket) => {
 
   socket.on('disconnect', () => {
     console.log(`❌ Déconnecté : ${socket.id}`);
+    // F4 : libérer la mémoire du rate-limiter
+    socketRateLimits.delete(socket.id);
     setTimeout(() => {
       for (const code in rooms) {
         const room = rooms[code];

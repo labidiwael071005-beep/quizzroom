@@ -145,6 +145,10 @@ function showGeoReveal({ correctLat, correctLng, correctLabel, country, guesses,
       factEl.style.display = (explanation || '').trim() ? 'block' : 'none';
     }
     const sorted = [...(guesses || [])].sort((a, b) => (b.points || 0) - (a.points || 0));
+    // Sécurité : g.name est user-controlled → échappement HTML obligatoire.
+    const esc = s => String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
     list.innerHTML = sorted.map(g => {
       const isMe = g.name === playerData.name;
       const hasGuess = Number.isFinite(g.lat) && Number.isFinite(g.lng);
@@ -152,7 +156,7 @@ function showGeoReveal({ correctLat, correctLng, correctLabel, country, guesses,
         ? `${Math.round(g.distance)} km`
         : 'Pas de réponse';
       return `<div class="geomap-result-row ${isMe ? 'me' : ''}">
-        <span class="geomap-result-name">${g.name}${isMe ? ' (toi)' : ''}</span>
+        <span class="geomap-result-name">${esc(g.name)}${isMe ? ' (toi)' : ''}</span>
         <span class="geomap-result-pts">+${g.points || 0} pts</span>
         <span class="geomap-result-dist ${hasGuess ? '' : 'no-answer'}">${distLabel}</span>
       </div>`;
