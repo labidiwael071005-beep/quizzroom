@@ -6,7 +6,7 @@ services:
     # On n'installe pas les devDependencies (playwright/nodemon inutiles en prod)
     buildCommand: npm install --omit=dev
     startCommand: npm start
-    healthCheckPath: /
+    healthCheckPath: /api/health
     envVars:
       - key: NODE_ENV
         value: production

@@ -4,36 +4,48 @@
 // NB : ce filtre n'est PAS infaillible (contournements possibles), il est
 // complété côté UX par un bouton "signaler" (TODO future).
 
-// Liste de mots-racines interdits (français + anglais).
-// On match une racine → bloque ses dérivés (pluriel, conjugaisons).
-// Ajoute/retire des entrées selon les retours utilisateurs.
-const BLOCKLIST = [
-  // ── Insultes françaises courantes ──
-  'connard', 'connasse', 'enculé', 'encule', 'pute', 'putain',
-  'salope', 'salopard', 'merde', 'batard', 'bâtard', 'fdp',
-  'tg ', 'ntm', 'ftg', 'pd ', 'pédé', 'tapette', 'tarlouze',
+// Deux niveaux de détection pour minimiser les faux positifs :
+//
+// 1. STRICT_BLOCKLIST : match par sous-chaîne sur le texte NORMALISÉ
+//    (NFD + leetspeak + suppression d'espaces). Réservé aux mots qui ne
+//    peuvent pas apparaître innocemment dans un autre mot ("connard" est
+//    sûr ; "shit" ne l'est pas — cf. shitake).
+//
+// 2. WORD_BLOCKLIST : match par mot entier sur le texte NFD-only (sans
+//    leet / sans strip d'espaces). Sert pour les mots courts ou dont une
+//    sous-chaîne existe dans des mots innocents (bite → habiter, orbite ;
+//    cunt → Scunthorpe ; pute → disputer ; etc.).
+//
+// 3. URL_BLOCKLIST : inclusion brute sur le texte lowercase, pour bloquer
+//    les liens / domaines / promos.
+const STRICT_BLOCKLIST = [
+  'connard', 'connasse', 'enculé', 'encule', 'putain',
+  'salope', 'salopard', 'bâtard', 'batard', 'pédé', 'tarlouze',
+  'motherfucker', 'bougnoul', 'youpin', 'chinetoque',
+  'nigger', 'nigga', 'faggot', 'tranny',
+  'heil hitler', 'sieg heil',
+];
 
-  // ── Insultes anglaises courantes ──
+const WORD_BLOCKLIST = [
+  'pute', 'merde', 'fdp', 'tg', 'ntm', 'ftg', 'pd',
   'fuck', 'shit', 'bitch', 'asshole', 'bastard', 'dick',
-  'cunt', 'whore', 'slut', 'motherfucker', 'douchebag',
+  'cunt', 'whore', 'slut', 'douchebag',
+  'nègre', 'negre', 'negro',
+  'gook', 'chink', 'kike',
+  'retard', 'retarded', 'kkk',
+  'porno', 'porn', 'nude', 'nudes', 'bite', 'couille',
+  'penis', 'vagin', 'chatte', 'sexe', 'tapette',
+];
 
-  // ── Slurs racistes/homophobes (à bloquer strictement) ──
-  'nègre', 'negre', 'negro', 'bougnoul', 'youpin', 'chinetoque',
-  'gook', 'chink', 'kike', 'nigger', 'nigga', 'faggot', 'tranny',
-  'retard', 'retarded',
-
-  // ── Contenu sexuel explicite ──
-  'porno', 'porn', 'sexe ', 'nude', 'nudes', 'bite', 'couille',
-  'chatte ', 'penis', 'vagin',
-
-  // ── Spam / phishing / promo ──
+const URL_BLOCKLIST = [
   'http://', 'https://', 'www.', '.com', '.net', '.fr/', '.org',
   'discord.gg', 'bit.ly', 'tinyurl', 't.me/',
   'free robux', 'crypto gratuit', 'cliquez ici',
-
-  // ── Hate speech ──
-  'heil hitler', 'sieg heil', 'kkk',
 ];
+
+function escapeRegex(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
 
 // Pseudos réservés (impersonation de l'équipe / système)
 const RESERVED_PSEUDOS = [
@@ -64,11 +76,37 @@ function normalize(text) {
     .replace(/[\s\-_\.]+/g, '');
 }
 
-// Vérifie si un texte contient un mot interdit
+// Vérifie si un texte contient un mot interdit.
+// Trois passes :
+//   1) STRICT (sous-chaîne sur texte normalisé) — résiste leet/espaces
+//   2) WORD  (mot entier sur texte NFD-only)    — évite les faux positifs
+//   3) URL   (inclusion brute lowercase)         — anti-spam / promo
 function containsProfanity(text) {
   if (!text) return false;
+
+  // ── 1. Match strict (sous-chaîne sur texte aggressivement normalisé) ──
   const normalized = normalize(text);
-  return BLOCKLIST.some(word => normalized.includes(normalize(word)));
+  if (STRICT_BLOCKLIST.some(w => normalized.includes(normalize(w)))) return true;
+
+  // ── 2. Match par mot entier sur texte NFD-only ──
+  // On retire seulement les accents pour rester sensible aux frontières de
+  // mots ; on n'applique pas le strip d'espaces / leetspeak (qui supprimerait
+  // justement les frontières).
+  const wordText = String(text)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '');
+  for (const word of WORD_BLOCKLIST) {
+    const w = String(word).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+    const re = new RegExp(`(^|[^a-z0-9])${escapeRegex(w)}([^a-z0-9]|$)`, 'i');
+    if (re.test(wordText)) return true;
+  }
+
+  // ── 3. URLs / domaines / promos ──
+  const lower = String(text).toLowerCase();
+  if (URL_BLOCKLIST.some(u => lower.includes(u))) return true;
+
+  return false;
 }
 
 // Vérifie si un pseudo est réservé (impersonation)
@@ -146,3 +184,44 @@ module.exports = {
   isSpammy,
   normalize,
 };
+
+// ── Tests inline ──────────────────────────────────────────────
+// Exécuter avec : `node server/profanity-filter.js`
+// (rien n'est exécuté quand le module est require()'d par le serveur)
+if (require.main === module) {
+  const cases = [
+    // [input, shouldBlock, label]
+    // Faux positifs historiques — DOIVENT passer maintenant
+    ['habiter',       false, 'mot innocent contenant "bite"'],
+    ['orbite',        false, 'mot innocent contenant "bite"'],
+    ['cohabite',      false, 'mot innocent contenant "bite"'],
+    ['shitake',       false, 'mot innocent contenant "shit"'],
+    ['penisula',      false, 'mot innocent contenant "penis"'],
+    ['Scunthorpe',    false, 'mot innocent contenant "cunt"'],
+    ['ChatTester',    false, 'mot innocent contenant "chatte"'],
+    ['disputer',      false, 'mot innocent contenant "pute"'],
+    ['salut tout le monde', false, 'phrase neutre'],
+    ['étage',         false, 'mot innocent contenant "tg"'],
+    ['Wael-1',        false, 'pseudo classique avec tiret'],
+    // Vrais positifs — DOIVENT être bloqués
+    ['connard',       true,  'insulte directe'],
+    ['c0nn4rd',       true,  'insulte leetspeak'],
+    ['c o n n a r d', true,  'insulte espacée'],
+    ['salut pute',    true,  'mot entier "pute" en fin'],
+    ['va te faire foutre, shit', true, 'mot entier "shit" entouré ponctuation'],
+    ['chatte',        true,  'mot entier seul'],
+    ['Connasse123',   true,  'insulte avec suffixe numérique'],
+    ['rejoins-moi sur discord.gg/abc', true, 'lien promo discord'],
+    ['https://malicious.example', true, 'URL bloquée'],
+  ];
+  let pass = 0, fail = 0;
+  for (const [input, expected, label] of cases) {
+    const actual = containsProfanity(input);
+    const ok = actual === expected;
+    const tag = ok ? '✅' : '❌';
+    console.log(`${tag} "${input}" → ${actual ? 'BLOCK' : 'PASS '}  (attendu: ${expected ? 'BLOCK' : 'PASS '}) — ${label}`);
+    ok ? pass++ : fail++;
+  }
+  console.log(`\n${pass}/${pass + fail} tests passés`);
+  process.exit(fail > 0 ? 1 : 0);
+}

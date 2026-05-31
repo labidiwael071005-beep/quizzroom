@@ -87,6 +87,17 @@ const { getQuestions }    = require('./questions');
 const { getPixelQuestions } = require('./pixel-images');
 const { getGeoQuestions, distanceKm, geoScore } = require('./geo-questions');
 
+// Sonde de santé légère (utilisée par Render pour le health check) — JSON pur,
+// pas de HTML, pas d'authentification, pas de données sensibles.
+app.get('/api/health', (req, res) => {
+  res.json({
+    ok:          true,
+    uptime:      process.uptime(),
+    activeRooms: Object.keys(rooms).length,
+    timestamp:   Date.now(),
+  });
+});
+
 app.get('/api/questions', async (req, res) => {
   const { theme = 'general', difficulty = 'medium', count = 10 } = req.query;
   try {
