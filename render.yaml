@@ -3,10 +3,19 @@ services:
     name: quizzroom
     runtime: node
     plan: free
-    # On n'installe pas les devDependencies (playwright/nodemon inutiles en prod)
-    buildCommand: npm install --omit=dev
+    # install (postinstall lance `prisma generate`) puis applique les migrations
+    # idempotentes sur la DB. DATABASE_URL doit être configurée AVANT le build.
+    buildCommand: npm install --omit=dev && npx prisma migrate deploy
     startCommand: npm start
     healthCheckPath: /api/health
     envVars:
       - key: NODE_ENV
         value: production
+      # Secrets : à configurer dans le dashboard Render avant le 1er deploy.
+      # `sync: false` empêche Render de re-publier la valeur dans le YAML.
+      - key: DATABASE_URL
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: PUBLIC_URL
+        sync: false

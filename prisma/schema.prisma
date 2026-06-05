@@ -1,0 +1,91 @@
+// prisma/schema.prisma — SquizzGame
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Question {
+  id            String   @id @default(cuid())
+  question      String   @db.Text
+  language      String   @default("fr")        // fr, en, es
+  theme         String                          // general, science, histoire, sport, art, geo, etc.
+  difficulty    String   @default("medium")     // easy, medium, hard
+  type          String   @default("qcm")        // qcm, pixel, geo
+
+  // QCM (et Pixel — qui est un QCM avec image)
+  options       Json?                           // array of strings
+  correctIndex  Int?
+
+  // Pixel — métadonnées d'attribution (Wikimedia / Creative Commons).
+  // Présentes en BDD pour rester conformes aux licences CC BY-SA.
+  imageUrl      String?
+  credit        String?
+  creditUrl     String?
+  license       String?
+
+  // Geo
+  lat           Float?
+  lng           Float?
+  label         String?
+  country       String?
+
+  // Métadonnées
+  explanation   String   @db.Text
+  source        String   @default("manual")    // OpenTriviaDB, ClaudeAPI, manual, admin
+  status        String   @default("approved")  // draft, approved, reported, rejected
+
+  // Stats
+  timesShown    Int      @default(0)
+  timesCorrect  Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  // Relations
+  reports       QuestionReport[]
+  gameSessions  GameSession[]
+
+  @@index([language])
+  @@index([theme])
+  @@index([difficulty])
+  @@index([type])
+}
+
+model GameSession {
+  id           String    @id @default(cuid())
+  roomCode     String    @unique
+  playerNames  Json
+  settings     Json
+  questionIds  Json
+  startedAt    DateTime  @default(now())
+  endedAt      DateTime?
+
+  questions    Question[]
+
+  @@index([roomCode])
+  @@index([startedAt])
+}
+
+model QuestionReport {
+  id         String   @id @default(cuid())
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  reason     String   @db.Text
+  createdAt  DateTime @default(now())
+
+  @@index([questionId])
+}
+
+model AdminUser {
+  id           String    @id @default(cuid())
+  username     String    @unique
+  passwordHash String
+  role         String    @default("moderator") // admin, moderator
+  createdAt    DateTime  @default(now())
+  lastLogin    DateTime?
+
+  @@index([username])
+}

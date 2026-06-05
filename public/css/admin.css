@@ -1,0 +1,223 @@
+/* admin.css — Back-office SquizzGame
+   Reprend les variables de style.css (--surface, --orange, --text, etc.) */
+
+.admin-body { min-height: 100vh; padding: 0; }
+
+/* ── Login ───────────────────────────────────────────────── */
+.admin-login {
+  min-height: 100vh;
+  display: flex; align-items: center; justify-content: center;
+  padding: 24px;
+}
+.admin-login-card {
+  width: 100%; max-width: 380px;
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+}
+.admin-login-card .logo {
+  justify-content: center; margin-bottom: 6px;
+}
+.admin-login-sub {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0 0 22px;
+}
+.admin-login form { display: flex; flex-direction: column; gap: 10px; }
+.admin-login label {
+  font-size: 11px; text-transform: uppercase; letter-spacing: .07em;
+  color: var(--text-faint); margin-top: 6px;
+}
+.admin-login input[type="password"] {
+  padding: 11px 13px; border-radius: var(--radius);
+  border: 0.5px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  color: var(--text); font-size: 14px;
+  outline: none;
+}
+.admin-login input[type="password"]:focus { border-color: var(--purple-light); }
+.login-error {
+  min-height: 18px; margin-top: 4px;
+  font-size: 12px; color: #FCA5A5; text-align: center;
+}
+
+/* ── Dashboard ──────────────────────────────────────────── */
+.admin-topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px;
+  padding: 14px 24px;
+  border-bottom: 0.5px solid var(--border);
+  background: var(--surface);
+  flex-wrap: wrap;
+}
+.admin-stats { display: flex; gap: 14px; flex-wrap: wrap; }
+.admin-stats .stat {
+  font-size: 12px;
+  color: var(--text-muted);
+  display: inline-flex; align-items: center; gap: 6px;
+}
+.admin-stats .stat b { color: var(--orange); font-weight: 600; }
+
+.admin-main {
+  max-width: 1100px;
+  margin: 24px auto;
+  padding: 0 24px;
+  display: flex; flex-direction: column; gap: 18px;
+}
+
+.admin-card {
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px;
+}
+.admin-card-head {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 14px; gap: 10px; flex-wrap: wrap;
+}
+.admin-card-head h2 {
+  font-size: 13px; font-weight: 600; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--text-faint);
+  margin: 0;
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.admin-count { color: var(--orange); font-weight: 500; }
+
+/* ── Filtres ───────────────────────────────────────────── */
+.admin-filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+.admin-filters select,
+.admin-filters input[type="search"] {
+  padding: 9px 12px; border-radius: 8px;
+  border: 0.5px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  font-size: 13px; font-family: inherit;
+  outline: none;
+}
+.admin-filters select:focus,
+.admin-filters input[type="search"]:focus { border-color: var(--purple-light); }
+
+/* ── Liste de questions ──────────────────────────────── */
+.admin-list { display: flex; flex-direction: column; gap: 6px; }
+.admin-row {
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 12px;
+  background: rgba(255,255,255,0.02);
+  border: 0.5px solid var(--border);
+  border-radius: 10px;
+}
+.admin-row:hover { background: rgba(255,255,255,0.05); }
+.row-type {
+  width: 32px; height: 32px;
+  border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(108,63,207,0.18);
+  color: var(--purple-light);
+  font-size: 18px; flex-shrink: 0;
+}
+.row-main { flex: 1; min-width: 0; }
+.row-question {
+  font-size: 14px; color: var(--text);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.row-meta {
+  margin-top: 4px;
+  display: flex; gap: 6px; flex-wrap: wrap;
+  font-size: 11px;
+}
+.row-meta .badge {
+  padding: 2px 7px; border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  border: 0.5px solid var(--border);
+  color: var(--text-muted);
+  font-size: 11px;
+}
+.row-stats { color: var(--text-faint); margin-left: auto; }
+.row-actions { display: flex; gap: 4px; flex-shrink: 0; }
+.row-actions .danger { color: #FCA5A5; }
+.row-actions .danger:hover { background: rgba(239,68,68,0.15); }
+
+.admin-empty {
+  text-align: center; padding: 30px 12px;
+  color: var(--text-faint); font-size: 13px;
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+}
+.admin-empty i { font-size: 28px; opacity: .6; }
+
+/* ── Modal ─────────────────────────────────────────────── */
+.admin-modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 100;
+  display: flex; align-items: center; justify-content: center;
+  padding: 16px;
+  backdrop-filter: blur(2px);
+}
+.admin-modal {
+  width: 100%; max-width: 620px;
+  max-height: 90vh; overflow-y: auto;
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+.admin-modal-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 0.5px solid var(--border);
+}
+.admin-modal-head h2 { margin: 0; font-size: 16px; }
+.admin-modal-body {
+  padding: 18px 20px;
+  display: flex; flex-direction: column; gap: 14px;
+}
+.form-row { display: flex; flex-direction: column; gap: 5px; }
+.form-row.two-cols {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+}
+.form-row label {
+  font-size: 11px; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--text-faint);
+}
+.form-row input,
+.form-row select,
+.form-row textarea {
+  padding: 9px 12px; border-radius: 8px;
+  border: 0.5px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  font-size: 13px; font-family: inherit;
+  outline: none;
+  width: 100%;
+}
+.form-row input:focus,
+.form-row select:focus,
+.form-row textarea:focus { border-color: var(--purple-light); }
+.form-row textarea { resize: vertical; min-height: 60px; }
+
+.form-fieldset {
+  border: 0.5px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px 14px;
+  display: flex; flex-direction: column; gap: 10px;
+}
+.form-fieldset legend {
+  padding: 0 6px; font-size: 11px; text-transform: uppercase;
+  letter-spacing: .06em; color: var(--text-muted);
+}
+.options-grid { display: flex; flex-direction: column; gap: 6px; }
+.opt-row {
+  display: grid; grid-template-columns: 24px 1fr; gap: 8px;
+  align-items: center;
+}
+.opt-row input[type="radio"] { width: 16px; height: 16px; cursor: pointer; }
+.form-hint { font-size: 11px; color: var(--text-faint); }
+.form-actions {
+  flex-direction: row; justify-content: flex-end; gap: 10px;
+  margin-top: 6px;
+}

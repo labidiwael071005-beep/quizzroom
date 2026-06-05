@@ -340,4 +340,4 @@ function getQuestions({ themes = 'general', difficulty = 'medium', count = 10 })
   return dbQ.sort(() => Math.random() - 0.5).slice(0, count);
 }
 
-module.exports = { getQuestions };
+module.exports = { getQuestions, _DB: DB };

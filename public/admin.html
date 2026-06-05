@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
+  <title>SquizzGame — Admin</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+</head>
+<body class="admin-body">
+
+<!-- ── LOGIN ───────────────────────────────────────────────── -->
+<section id="login-section" class="admin-login">
+  <div class="admin-login-card">
+    <div class="logo">
+      <div class="logo-mark"><i class="ti ti-shield-lock"></i></div>
+      SquizzGame — Admin
+    </div>
+    <p class="admin-login-sub">Connexion modérateur</p>
+    <form id="login-form" autocomplete="off">
+      <label for="login-pwd">Mot de passe</label>
+      <input type="password" id="login-pwd" required autocomplete="current-password" autofocus>
+      <button class="btn btn-orange btn-full btn-lg" type="submit">
+        <i class="ti ti-login"></i> Se connecter
+      </button>
+      <div id="login-error" class="login-error"></div>
+    </form>
+  </div>
+</section>
+
+<!-- ── DASHBOARD ──────────────────────────────────────────── -->
+<section id="dashboard" class="admin-dash" hidden>
+
+  <header class="admin-topbar">
+    <div class="logo">
+      <div class="logo-mark"><i class="ti ti-shield-lock"></i></div>
+      Admin
+    </div>
+    <div class="admin-stats" id="admin-stats">
+      <span class="stat"><i class="ti ti-database"></i> <b id="stat-total">—</b> questions</span>
+      <span class="stat"><i class="ti ti-brain"></i> <b id="stat-qcm">—</b> QCM</span>
+      <span class="stat"><i class="ti ti-map-pin"></i> <b id="stat-geo">—</b> Géo</span>
+      <span class="stat"><i class="ti ti-photo"></i> <b id="stat-pixel">—</b> Pixel</span>
+      <span class="stat"><i class="ti ti-users"></i> <b id="stat-rooms">—</b> rooms actives</span>
+    </div>
+    <button class="btn btn-ghost btn-sm" id="btn-logout">
+      <i class="ti ti-logout"></i> Quitter
+    </button>
+  </header>
+
+  <main class="admin-main">
+
+    <div class="admin-card">
+      <div class="admin-card-head">
+        <h2><i class="ti ti-filter"></i> Filtres</h2>
+        <button class="btn btn-orange btn-sm" id="btn-add">
+          <i class="ti ti-plus"></i> Nouvelle question
+        </button>
+      </div>
+      <div class="admin-filters">
+        <select id="filter-type">
+          <option value="">Tous les types</option>
+          <option value="qcm">QCM</option>
+          <option value="pixel">Pixel</option>
+          <option value="geo">Géo</option>
+        </select>
+        <select id="filter-theme">
+          <option value="">Tous les thèmes</option>
+          <option value="general">Culture G</option>
+          <option value="science">Science</option>
+          <option value="geographie">Géographie</option>
+          <option value="histoire">Histoire</option>
+          <option value="sport">Sport</option>
+          <option value="cinema">Cinéma</option>
+          <option value="musique">Musique</option>
+          <option value="tech">Tech</option>
+          <option value="nature">Nature</option>
+          <option value="art">Art</option>
+          <option value="litterature">Littérature</option>
+          <option value="gastronomie">Gastronomie</option>
+          <option value="geo">Géo (lieux)</option>
+        </select>
+        <select id="filter-difficulty">
+          <option value="">Toutes difficultés</option>
+          <option value="easy">Facile</option>
+          <option value="medium">Moyen</option>
+          <option value="hard">Difficile</option>
+        </select>
+        <input type="search" id="filter-search" placeholder="Rechercher dans la question…">
+      </div>
+    </div>
+
+    <div class="admin-card">
+      <div class="admin-card-head">
+        <h2><i class="ti ti-list"></i> Questions <span class="admin-count" id="list-count"></span></h2>
+      </div>
+      <div class="admin-list" id="questions-list"></div>
+      <div id="list-empty" class="admin-empty" hidden>
+        <i class="ti ti-mood-empty"></i>
+        Aucune question pour ces filtres.
+      </div>
+    </div>
+
+  </main>
+</section>
+
+<!-- ── MODAL (créer / éditer) ──────────────────────────────── -->
+<div id="modal" class="admin-modal-overlay" hidden>
+  <div class="admin-modal">
+    <div class="admin-modal-head">
+      <h2 id="modal-title">Nouvelle question</h2>
+      <button class="btn-close" id="modal-close" aria-label="Fermer">
+        <i class="ti ti-x"></i>
+      </button>
+    </div>
+
+    <form id="question-form" class="admin-modal-body">
+      <input type="hidden" id="f-id">
+
+      <div class="form-row">
+        <label for="f-type">Type</label>
+        <select id="f-type" required>
+          <option value="qcm">QCM (Culture / thématique)</option>
+          <option value="pixel">Pixel (image + QCM)</option>
+          <option value="geo">Géo (point sur carte)</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label for="f-question">Question</label>
+        <textarea id="f-question" rows="2" maxlength="500" required></textarea>
+      </div>
+
+      <div class="form-row two-cols">
+        <div>
+          <label for="f-theme">Thème</label>
+          <select id="f-theme">
+            <option value="general">Culture G</option>
+            <option value="science">Science</option>
+            <option value="geographie">Géographie</option>
+            <option value="histoire">Histoire</option>
+            <option value="sport">Sport</option>
+            <option value="cinema">Cinéma</option>
+            <option value="musique">Musique</option>
+            <option value="tech">Tech</option>
+            <option value="nature">Nature</option>
+            <option value="art">Art</option>
+            <option value="litterature">Littérature</option>
+            <option value="gastronomie">Gastronomie</option>
+            <option value="geo">Géo (lieux)</option>
+          </select>
+        </div>
+        <div>
+          <label for="f-difficulty">Difficulté</label>
+          <select id="f-difficulty">
+            <option value="easy">Facile</option>
+            <option value="medium" selected>Moyen</option>
+            <option value="hard">Difficile</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- QCM / Pixel : 4 options + correctIndex -->
+      <fieldset id="f-options-group" class="form-fieldset">
+        <legend>Options de réponse</legend>
+        <div class="options-grid">
+          <label class="opt-row">
+            <input type="radio" name="f-correct" value="0">
+            <input type="text" id="f-opt-0" placeholder="Option A" maxlength="120">
+          </label>
+          <label class="opt-row">
+            <input type="radio" name="f-correct" value="1">
+            <input type="text" id="f-opt-1" placeholder="Option B" maxlength="120">
+          </label>
+          <label class="opt-row">
+            <input type="radio" name="f-correct" value="2">
+            <input type="text" id="f-opt-2" placeholder="Option C" maxlength="120">
+          </label>
+          <label class="opt-row">
+            <input type="radio" name="f-correct" value="3">
+            <input type="text" id="f-opt-3" placeholder="Option D" maxlength="120">
+          </label>
+        </div>
+        <div class="form-hint">Coche la bonne réponse à gauche.</div>
+      </fieldset>
+
+      <!-- Pixel : image + attribution -->
+      <fieldset id="f-pixel-group" class="form-fieldset" hidden>
+        <legend>Image et attribution (Pixel)</legend>
+        <div class="form-row">
+          <label for="f-imageUrl">URL de l'image</label>
+          <input type="url" id="f-imageUrl" placeholder="https://upload.wikimedia.org/…">
+        </div>
+        <div class="form-row two-cols">
+          <div>
+            <label for="f-credit">Crédit / Auteur</label>
+            <input type="text" id="f-credit" placeholder="ex: Benh LIEU SONG">
+          </div>
+          <div>
+            <label for="f-license">Licence</label>
+            <input type="text" id="f-license" placeholder="ex: CC BY-SA 3.0">
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="f-creditUrl">URL source</label>
+          <input type="url" id="f-creditUrl" placeholder="https://commons.wikimedia.org/…">
+        </div>
+      </fieldset>
+
+      <!-- Géo : coordonnées + label + country -->
+      <fieldset id="f-geo-group" class="form-fieldset" hidden>
+        <legend>Coordonnées (Géo)</legend>
+        <div class="form-row two-cols">
+          <div>
+            <label for="f-lat">Latitude</label>
+            <input type="number" id="f-lat" step="0.0001" min="-90" max="90" placeholder="48.8584">
+          </div>
+          <div>
+            <label for="f-lng">Longitude</label>
+            <input type="number" id="f-lng" step="0.0001" min="-180" max="180" placeholder="2.2945">
+          </div>
+        </div>
+        <div class="form-row two-cols">
+          <div>
+            <label for="f-label">Label (lieu)</label>
+            <input type="text" id="f-label" placeholder="Paris (Tour Eiffel)">
+          </div>
+          <div>
+            <label for="f-country">Pays</label>
+            <input type="text" id="f-country" placeholder="France">
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="form-row">
+        <label for="f-explanation">Anecdote (« Le savais-tu ? »)</label>
+        <textarea id="f-explanation" rows="3" maxlength="500"></textarea>
+      </div>
+
+      <div class="form-row form-actions">
+        <button type="button" class="btn btn-ghost" id="modal-cancel">Annuler</button>
+        <button type="submit" class="btn btn-orange">
+          <i class="ti ti-check"></i> Enregistrer
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script src="js/admin.js"></script>
+</body>
+</html>

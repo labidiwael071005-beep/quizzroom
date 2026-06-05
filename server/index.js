@@ -83,9 +83,60 @@ app.use('/api/', apiLimiter);
 
 app.use(express.static(path.join(__dirname, '../public')));
 
-const { getQuestions }    = require('./questions');
-const { getPixelQuestions } = require('./pixel-images');
-const { getGeoQuestions, distanceKm, geoScore } = require('./geo-questions');
+// ── Couche données : Prisma → cache mémoire chargé au boot ────
+const { PrismaClient } = require('@prisma/client');
+const prisma = new PrismaClient();
+
+const {
+  initQuestionStore,
+  reloadQuestionStore,
+  getQuestions,
+  getPixelQuestions,
+  getGeoQuestions,
+  recordShown,
+  recordCorrect,
+  cacheStats,
+} = require('./question-store');
+const { distanceKm, geoScore } = require('./geo-math');
+
+// ── Auth admin (session token, scrypt-free pour limiter les deps) ─
+const ADMIN_PASSWORD_HASH = crypto.createHash('sha256')
+  .update(process.env.ADMIN_PASSWORD || 'changeme_random_password_here')
+  .digest('hex');
+const adminTokens = new Map(); // token → expiryMs
+
+function hashPassword(pwd) {
+  return crypto.createHash('sha256').update(String(pwd || '')).digest('hex');
+}
+function generateToken() {
+  return crypto.randomBytes(32).toString('hex');
+}
+function purgeExpiredTokens() {
+  const now = Date.now();
+  for (const [t, exp] of adminTokens) if (exp < now) adminTokens.delete(t);
+}
+function adminAuth(req, res, next) {
+  const auth = req.headers.authorization;
+  if (!auth || !auth.startsWith('Bearer ')) {
+    return res.status(401).json({ ok: false, error: 'Non authentifié' });
+  }
+  const token = auth.substring(7);
+  const expiry = adminTokens.get(token);
+  if (!expiry || expiry < Date.now()) {
+    adminTokens.delete(token);
+    return res.status(401).json({ ok: false, error: 'Token expiré' });
+  }
+  next();
+}
+
+// Rate-limit dédié au login admin (anti-brute-force).
+const adminLoginLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max:      5,
+  standardHeaders: true,
+  legacyHeaders:   false,
+  message: { ok: false, error: 'Trop de tentatives, réessayez plus tard.' },
+});
 
 // Sonde de santé légère (utilisée par Render pour le health check) — JSON pur,
 // pas de HTML, pas d'authentification, pas de données sensibles.
@@ -99,13 +150,157 @@ app.get('/api/health', (req, res) => {
 });
 
 app.get('/api/questions', async (req, res) => {
-  const { theme = 'general', difficulty = 'medium', count = 10 } = req.query;
   try {
-    const questions = await getQuestions({ themes: theme, difficulty, count: Number(count) });
+    const { theme, difficulty, type, limit } = req.query;
+    const l = Math.min(parseInt(limit) || 10, 100);
+    const questions = await prisma.question.findMany({
+      where: {
+        status: 'approved',
+        ...(theme && { theme }),
+        ...(difficulty && { difficulty }),
+        ...(type && { type }),
+      },
+      take: l,
+      select: { id: true, question: true, theme: true, difficulty: true, type: true },
+    });
     res.json({ ok: true, questions });
   } catch (err) {
-    // Ne JAMAIS exposer err.message en clair (peut leaker des chemins / SQL / etc.)
     console.error('[/api/questions]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
+  }
+});
+
+// ── Endpoints Admin ──────────────────────────────────────────
+app.post('/api/admin/login', adminLoginLimiter, (req, res) => {
+  const { password } = req.body || {};
+  if (!password || hashPassword(password) !== ADMIN_PASSWORD_HASH) {
+    return res.status(401).json({ ok: false, error: 'Mot de passe incorrect' });
+  }
+  purgeExpiredTokens();
+  const token = generateToken();
+  adminTokens.set(token, Date.now() + 24 * 60 * 60 * 1000);
+  res.json({ ok: true, token });
+});
+
+app.post('/api/admin/logout', adminAuth, (req, res) => {
+  const token = req.headers.authorization.substring(7);
+  adminTokens.delete(token);
+  res.json({ ok: true });
+});
+
+app.get('/api/admin/questions', adminAuth, async (req, res) => {
+  try {
+    const { theme, type, difficulty } = req.query;
+    const where = {};
+    if (theme)      where.theme      = theme;
+    if (type)       where.type       = type;
+    if (difficulty) where.difficulty = difficulty;
+    const questions = await prisma.question.findMany({
+      where,
+      orderBy: { createdAt: 'desc' },
+      take: 200,
+    });
+    res.json({ ok: true, questions, total: await prisma.question.count({ where }) });
+  } catch (err) {
+    console.error('[GET /api/admin/questions]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
+  }
+});
+
+app.post('/api/admin/questions', adminAuth, async (req, res) => {
+  try {
+    const b = req.body || {};
+    if (!b.question || !b.type) {
+      return res.status(400).json({ ok: false, error: 'Champs requis manquants (question, type)' });
+    }
+    if (!['qcm', 'pixel', 'geo'].includes(b.type)) {
+      return res.status(400).json({ ok: false, error: 'Type invalide' });
+    }
+    const created = await prisma.question.create({
+      data: {
+        question:     String(b.question).slice(0, 500),
+        language:     b.language || 'fr',
+        type:         b.type,
+        theme:        b.theme || 'general',
+        difficulty:   b.difficulty || 'medium',
+        options:      b.type === 'qcm' || b.type === 'pixel' ? (b.options || null) : null,
+        correctIndex: b.type === 'qcm' || b.type === 'pixel' ? (Number.isInteger(b.correctIndex) ? b.correctIndex : null) : null,
+        imageUrl:     b.type === 'pixel' ? (b.imageUrl || null) : null,
+        credit:       b.type === 'pixel' ? (b.credit || null) : null,
+        creditUrl:    b.type === 'pixel' ? (b.creditUrl || null) : null,
+        license:      b.type === 'pixel' ? (b.license || null) : null,
+        lat:          b.type === 'geo' ? (Number.isFinite(b.lat) ? b.lat : null) : null,
+        lng:          b.type === 'geo' ? (Number.isFinite(b.lng) ? b.lng : null) : null,
+        label:        b.type === 'geo' || b.type === 'pixel' ? (b.label || null) : null,
+        country:      b.type === 'geo' ? (b.country || null) : null,
+        explanation:  String(b.explanation || ''),
+        status:       'approved',
+        source:       'admin',
+      },
+    });
+    await reloadQuestionStore();
+    res.json({ ok: true, question: created });
+  } catch (err) {
+    console.error('[POST /api/admin/questions]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
+  }
+});
+
+app.put('/api/admin/questions/:id', adminAuth, async (req, res) => {
+  try {
+    const b = req.body || {};
+    const updated = await prisma.question.update({
+      where: { id: req.params.id },
+      data: {
+        ...(b.question !== undefined && { question: String(b.question).slice(0, 500) }),
+        ...(b.theme && { theme: b.theme }),
+        ...(b.difficulty && { difficulty: b.difficulty }),
+        ...(b.options !== undefined && { options: b.options }),
+        ...(b.correctIndex !== undefined && Number.isInteger(b.correctIndex) && { correctIndex: b.correctIndex }),
+        ...(b.imageUrl !== undefined && { imageUrl: b.imageUrl || null }),
+        ...(b.credit !== undefined && { credit: b.credit || null }),
+        ...(b.creditUrl !== undefined && { creditUrl: b.creditUrl || null }),
+        ...(b.license !== undefined && { license: b.license || null }),
+        ...(b.lat !== undefined && Number.isFinite(b.lat) && { lat: b.lat }),
+        ...(b.lng !== undefined && Number.isFinite(b.lng) && { lng: b.lng }),
+        ...(b.label !== undefined && { label: b.label || null }),
+        ...(b.country !== undefined && { country: b.country || null }),
+        ...(b.explanation !== undefined && { explanation: String(b.explanation) }),
+        ...(b.status && ['draft', 'approved', 'reported', 'rejected'].includes(b.status) && { status: b.status }),
+      },
+    });
+    await reloadQuestionStore();
+    res.json({ ok: true, question: updated });
+  } catch (err) {
+    console.error('[PUT /api/admin/questions/:id]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
+  }
+});
+
+app.delete('/api/admin/questions/:id', adminAuth, async (req, res) => {
+  try {
+    await prisma.question.delete({ where: { id: req.params.id } });
+    await reloadQuestionStore();
+    res.json({ ok: true });
+  } catch (err) {
+    console.error('[DELETE /api/admin/questions/:id]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
+  }
+});
+
+app.get('/api/admin/stats', adminAuth, async (req, res) => {
+  try {
+    const counts = cacheStats();
+    const total  = await prisma.question.count();
+    res.json({
+      ok:    true,
+      cache: counts,
+      total,
+      activeRooms: Object.keys(rooms).length,
+      uptime:      process.uptime(),
+    });
+  } catch (err) {
+    console.error('[GET /api/admin/stats]', err);
     res.status(500).json({ ok: false, error: 'Erreur serveur' });
   }
 });
@@ -520,6 +715,8 @@ function sendQuestion(code) {
   }
 
   io.to(code).emit('new_question', payload);
+  // Stat fire-and-forget : on incrémente timesShown pour la question diffusée.
+  if (q.id) recordShown(q.id);
 
   if (round.name === 'pari') {
     // Pari : pas de timeout d'avance immédiat. On attend le "miser et voir" de chaque joueur,
@@ -865,6 +1062,8 @@ io.on('connection', (socket) => {
       if (!validBet(betAmount, Math.max(maxBet, 0))) return;
     }
     const correct = answerIndex === q.correctIndex;
+    // Stat fire-and-forget : on incrémente timesCorrect quand la réponse est juste.
+    if (correct && q.id) recordCorrect(q.id);
     let points = 0;
     if (correct) {
       if (round.name === 'pari' && betAmount !== undefined) {
@@ -1125,6 +1324,25 @@ function buildTeams(n) {
 
 function defaultAvatar() { return { colorIdx: 0, emoji: '🎮' }; }
 
-server.listen(PORT, () => {
-  console.log(`\n🎮 QuizzRoom → http://localhost:${PORT}\n`);
-});
+// ── Bootstrap : charge le cache DB AVANT d'accepter du trafic ──
+(async () => {
+  try {
+    await initQuestionStore(prisma);
+  } catch (err) {
+    console.error('❌ Impossible de charger la DB :', err);
+    process.exit(1);
+  }
+  server.listen(PORT, () => {
+    console.log(`\n🎮 SquizzGame → http://localhost:${PORT}\n`);
+  });
+})();
+
+// Clean shutdown — referme la connexion Prisma pour ne pas laisser de
+// connexions ouvertes côté Neon (limite stricte sur le free tier).
+async function shutdown(signal) {
+  console.log(`\n${signal} reçu — arrêt propre…`);
+  try { await prisma.$disconnect(); } catch (e) {}
+  process.exit(0);
+}
+process.on('SIGINT',  () => shutdown('SIGINT'));
+process.on('SIGTERM', () => shutdown('SIGTERM'));
