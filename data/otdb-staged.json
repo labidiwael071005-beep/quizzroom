@@ -1,0 +1,3402 @@
+[
+  {
+    "sourceRef": "1bb709ccb425b13c",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What is the name of Poland in Polish?",
+      "options": [
+        "Polska",
+        "Pupcia",
+        "Polszka",
+        "Póland"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "265f6e8f22cec82c",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "What do sailors call the back of a boat?",
+      "options": [
+        "Starboard",
+        "Port",
+        "Stern",
+        "Bow"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "e00ae188629d8623",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "Who was the 1st President of Mexico?",
+      "options": [
+        "Miguel Hidalgo Y Costilla",
+        "Benito Juárez",
+        "Guadalupe Victoria",
+        "Vicente Guerrero"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "71750d719d2bf711",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What do sailors call the right side of a boat?",
+      "options": [
+        "Starboard",
+        "Stern",
+        "Port",
+        "Bow"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "bb98cf68ec9af389",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "How many furlongs are there in a mile?",
+      "options": [
+        "Eight",
+        "Six",
+        "Two",
+        "Four"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "5efb915773baac92",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "In blood typing, the (+) and (-) marker after an A, B, AB, or O is called Rh factor. Which of the following is the source of its discovery?",
+      "options": [
+        "Red-Haired People",
+        "Rhesus Monkeys",
+        "Rhizomes",
+        "Rheumatism Patients"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "db12bf370df651d7",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "Which company did Valve cooperate with in the creation of the Vive?",
+      "options": [
+        "Google",
+        "HTC",
+        "Razer",
+        "Oculus"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "b0bfd9dda8a3a3a2",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "On a dartboard, what number is directly opposite No. 1?",
+      "options": [
+        "19",
+        "12",
+        "15",
+        "20"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "807fd6a90550c1bd",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What is the name of the poker hand containing three of a kind and a pair?",
+      "options": [
+        "Full House",
+        "High card",
+        "Straight",
+        "Flush"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "63672e0c878e3aa7",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What do the letters of the fast food chain KFC stand for?",
+      "options": [
+        "Kentucky Fried Chicken",
+        "Kibbled Freaky Cow",
+        "Kentucky Fresh Cheese",
+        "Kiwi Food Cut"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "0164cebd7600ea7e",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "What technology is named after a tenth-century ruler of Denmark and Norway?",
+      "options": [
+        "Wi-Fi",
+        "Internet",
+        "GPS",
+        "Bluetooth"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "760130c4bb3d770b",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "What company developed the vocaloid Hatsune Miku?",
+      "options": [
+        "Sega",
+        "Crypton Future Media",
+        "Yamaha Corporation",
+        "Sony"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "12ad65c87bb77546",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "Which of these colours is NOT featured in the logo for Google?",
+      "options": [
+        "Blue",
+        "Yellow",
+        "Pink",
+        "Green"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "49191cf4dbdd2181",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "What word represents the letter 'T' in the NATO phonetic alphabet?",
+      "options": [
+        "Taxi",
+        "Target",
+        "Turkey",
+        "Tango"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "baf19ec43de7bd4c",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "Which of these fast-food chains is NOT mainly known to sell pizza?",
+      "options": [
+        "Papa John's",
+        "Little Caesars",
+        "Domino's",
+        "Wendy's"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "c7927488f98c6184",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "How many fingers does a single human hand have?",
+      "options": [
+        "Five",
+        "Four",
+        "Eight",
+        "Ten"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "35172ba1b8e1205b",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "What is the perimeter of a circle more commonly known as?",
+      "options": [
+        "Radius",
+        "Diameter",
+        "Arc",
+        "Circumference"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "ebab46bb623e2173",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "How many cards are there in a standard deck of playing cards?",
+      "options": [
+        "40",
+        "32",
+        "52",
+        "64"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "3ec50c8d6aa4bc3d",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "The file hosting service, \"Google Drive\" was launched on what day?",
+      "options": [
+        "November 14, 2008",
+        "January 12, 2014",
+        "January 20, 2010",
+        "April 24, 2012"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "4694f2fa0fee873f",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "When one is \"envious\", they are said to be what color?",
+      "options": [
+        "Blue",
+        "Green",
+        "Yellow",
+        "Red"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "1314483919e9b1ed",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "In \"Jurassic World\", what is the name of the dinosaur that is a genetic hybrid?",
+      "options": [
+        "Tyrannosaurus Rex",
+        "Pteranodon",
+        "Mosasaurus",
+        "Indominus Rex"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "234cd3b55b5bb414",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "When does \"Rogue One: A Star Wars Story\" take place chronologically in the series?",
+      "options": [
+        "Before Episode 1",
+        "Between Episode 4 and 5",
+        "After Episode 6",
+        "Between Episode 3 and 4"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "f56ec45093b5a0ed",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "What was the first feature-length computer-animated movie?",
+      "options": [
+        "101 Dalmatians",
+        "Lion king",
+        "Tron",
+        "Toy Story"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "b02c96b65d168067",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "Which actress danced the twist with John Travolta in 'Pulp Fiction'?",
+      "options": [
+        "Pam Grier",
+        "Bridget Fonda",
+        "Uma Thurman",
+        "Kathy Griffin"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "4c3981f26a9af4af",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "Which movie released in 2016 features Superman and Batman fighting?",
+      "options": [
+        "Batman v Superman: Knightfall",
+        "Batman v Superman: Black of Knight",
+        "Batman v Superman: Superapocalypse",
+        "Batman v Superman: Dawn of Justice"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "d70fd5614c3712b2",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "Who played Deputy Marshal Samuel Gerard in the 1993 film \"The Fugitive\"?",
+      "options": [
+        "Martin Landau",
+        "Tommy Lee Jones",
+        "Harvey Keitel",
+        "Harrison Ford"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "30d3efdb6278cb06",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "Which movie includes a giant bunny-like spirit who has magic powers including growing trees?",
+      "options": [
+        "Alice in Wonderland",
+        "My Neighbor Totoro",
+        "Hop",
+        "Rise of the Guardians"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "05e8c316f61dcf92",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What historical time period was the center of the Assassin’s Creed movie (2016)?",
+      "options": [
+        "Spanish Inquisition",
+        "Victorian England",
+        "Colonial America",
+        "French Revolution"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "9662adfd20832685",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "In \"ALF\", what was ALF's real name?",
+      "options": [
+        "Gordon Milipp",
+        "Gordon von Gam",
+        "Gordon Shumway",
+        "Gordon Foster"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "7e3c322df3ad1e74",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "This movie contains the quote, \"I feel the need ... the need for speed!\"",
+      "options": [
+        "Top Gun",
+        "The Color of Money",
+        "Cocktail",
+        "Days of Thunder"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "cb5fd95d765e8906",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "Who is the protagonist of the 2002 film \"Kung Pow! Enter the Fist\"?",
+      "options": [
+        "Chosen One",
+        "Dragon King",
+        "Master Tang",
+        "Iron Monkey"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "a1e886ebb8b15b49",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "What breed of dog was Marley in the film \"Marley & Me\" (2008)?",
+      "options": [
+        "Dalmatian",
+        "Golden Retriever",
+        "Shiba Inu",
+        "Labrador Retriever"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "c3bbb4df388b8770",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "Which of the following movies was not based on a novel by Stephen King?",
+      "options": [
+        "The Green Mile",
+        "The Thing",
+        "Carrie",
+        "Misery"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "b3e4cfcb73ab2a03",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "7-Eleven stores were temporarily converted into Kwik E-marts to promote the release of what movie?",
+      "options": [
+        "Spider-Man 3",
+        "Shrek the Third",
+        "Ratatouille",
+        "The Simpsons Movie"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "1736f1043e6a7ce6",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "In the 1995 film \"Balto\", who are Steele's accomplices?",
+      "options": [
+        "Nuk, Yak, and Sumac",
+        "Kaltag, Nikki, and Star",
+        "Jenna, Sylvie, and Dixie",
+        "Dusty, Kirby, and Ralph"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "99fa3a3180d32532",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "In the movie \"Spaceballs\", what are the Spaceballs attempting to steal from Planet Druidia?",
+      "options": [
+        "Air",
+        "Princess Lonestar",
+        "Meatballs",
+        "The Schwartz"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "868a3f8aba51c281",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "Which movie contains the quote, \"Say hello to my little friend!\"?",
+      "options": [
+        "Scarface",
+        "Heat",
+        "Reservoir Dogs",
+        "Goodfellas"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "3802e3161cca9edf",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "Max Schreck, a famous German silent film actor, plays a famous monster in which 1922 film?",
+      "options": [
+        "Nosferatu",
+        "Häxan",
+        "Frankenstein",
+        "The Headless Horseman"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "83899c3eaf20597a",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What was the title of the first Bond movie, released in 1962?",
+      "options": [
+        "Dr. No",
+        "Thunderball",
+        "From Russia with Love",
+        "Goldfinger"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "6c877c9955687e12",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "Which film has been critically regarded as the best film of all time?",
+      "options": [
+        "Citizen Kane",
+        "The Room",
+        "Avatar",
+        "The Godfather Part II"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "5fc9571a2a4d3812",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "According to a song by Belinda Carlisle, Heaven is a place on what?",
+      "options": [
+        "Uranus",
+        "Mars",
+        "Earth",
+        "Venus"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "32ab9c9e00496d0e",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "Kanye West at 2009 VMA's interrupted which celebrity?",
+      "options": [
+        "Beck",
+        "Beyonce",
+        "MF DOOM",
+        "Taylor Swift"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "5d1747be239a0ce8",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "Which one of the following musical instruments is NOT a part of the Woodwind section?",
+      "options": [
+        "Trumpet",
+        "Clarinet",
+        "Oboe",
+        "Alto Saxophone"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "eaf76a265d539349",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "Which Beatles album does NOT feature any of the band members on it's cover?",
+      "options": [
+        "The Beatles (White Album)",
+        "Rubber Soul",
+        "Abbey Road",
+        "Magical Mystery Tour"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "0667a9d76c6bd40d",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "In what year was Avril Lavigne’s first studio album, “Let Go”, released?",
+      "options": [
+        "2004",
+        "2002",
+        "2001",
+        "2005"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "8c66c39e6994b8a8",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "What album did The Lumineers release in 2016?",
+      "options": [
+        "Tracks From The Attic",
+        "Cleopatra",
+        "The Lumineers",
+        "Winter"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "ccef12ddfa1f064c",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "What is the name of Metallica's debut album, released in 1983?",
+      "options": [
+        "Master of Puppets",
+        "...And Justice for All",
+        "Countdown to Extinction",
+        "Kill 'Em All"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "4bf76496da098dc0",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "How many albums did King Gizzard & the Lizard Wizard release in 2017?",
+      "options": [
+        "5",
+        "6",
+        "2",
+        "3"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "380387a35975b606",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "Who is the lead singer of Arctic Monkeys?",
+      "options": [
+        "Alex Turner",
+        "Matt Helders",
+        "Nick O'Malley",
+        "Jamie Cook"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "e56d0bc47be0bea4",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "Which of these are NOT a Men at Work song?",
+      "options": [
+        "Be Good Johnny",
+        "Dr. Heckyll and Mr. Jive",
+        "Basket Case",
+        "Who Can It Be Now?"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "ab61fac1f2a32892",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "The 2016 song \"Starboy\" by Canadian singer The Weeknd features which prominent electronic artist?",
+      "options": [
+        "Disclosure",
+        "deadmau5",
+        "DJ Shadow",
+        "Daft Punk"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "56c16e43c461a228",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "Which group performs the song \"Crash into Me\"?",
+      "options": [
+        "Destiny's Child",
+        "The Grateful Dead",
+        "Dave Matthews Band",
+        "Phish"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "bb6d52739d5d2664",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "Kanye West's \"Gold Digger\" featured which Oscar-winning actor?",
+      "options": [
+        "Bruce Willis",
+        "Dwayne Johnson",
+        "Alec Baldwin",
+        "Jamie Foxx"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "740bb9df54b5e937",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "Who was \"Kung Fu Fighting\" in 1974?",
+      "options": [
+        "Heatwave",
+        "Carl Douglas",
+        "The Bee Gees",
+        "Kool & the Gang"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "9114eaf22cb9faf8",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "Which song on Daft Punk's \"Random Access Memories\" features Pharrell Williams?",
+      "options": [
+        "Get Lucky",
+        "Doin' It Right",
+        "Instant Crush",
+        "The Game of Love"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "b553b750a65b78db",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "What was Rage Against the Machine's debut album?",
+      "options": [
+        "Bombtrack",
+        "The Battle Of Los Angeles",
+        "Evil Empire",
+        "Rage Against the Machine"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "82c1c4102749f88b",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "Which Daft Punk album is the song \"Harder, Better, Faster, Stronger\" from?",
+      "options": [
+        "Random Access Memories",
+        "Discovery",
+        "Homework",
+        "Human After All"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "319286c7e97e9a0b",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "Who performed \"I Took A Pill In Ibiza\"?",
+      "options": [
+        "Robbie Williams",
+        "Mike Posner",
+        "Avicii",
+        "Harry Styles"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "192db6181109f700",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "How many strings are there on a cello?",
+      "options": [
+        "6",
+        "8",
+        "4",
+        "5"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "67818e08a69136df",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "Ozzy Osbourne was the lead singer for what metal band?",
+      "options": [
+        "Black Sabbath",
+        "AC/DC",
+        "Iron Maiden",
+        "Judas Priest"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "6c4c3ab2d16cba50",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "What is the unit of electrical resistance?",
+      "options": [
+        "Tesla",
+        "Ohm",
+        "Mho",
+        "Joule"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "b3414e610650d7b9",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "How many moons does the Earth have?",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "0"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "99eb7f7e0f88ec37",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What organelle aids in synthesis of DNA in cells?",
+      "options": [
+        "Ribosomes",
+        "Nuclei",
+        "Lysosomes",
+        "Mitochondria"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "3d185c6b71601c9b",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "What lies at the center of our galaxy?",
+      "options": [
+        "A supernova",
+        "A wormhole",
+        "A quasar",
+        "A black hole"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "cf13fcbdb9e69453",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "Which type of rock is created by intense heat AND pressure?",
+      "options": [
+        "Igneous",
+        "Diamond",
+        "Metamorphic",
+        "Sedimentary"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "814859900d53d6e0",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "Who is the chemical element Curium named after?",
+      "options": [
+        "The Curiosity Rover",
+        "Marie & Pierre Curie",
+        "Stephen Curry",
+        "Curious George"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "eabef0cac3228157",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "Which is the most abundant element in the universe?",
+      "options": [
+        "Oxygen",
+        "Helium",
+        "Hydrogen",
+        "Lithium"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "17640a5d30ee7698",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What is the thin, outermost layer of the Earth?",
+      "options": [
+        "Crust",
+        "Mantle",
+        "Outer Core",
+        "Exosphere"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "6ce3d4c2307bc4db",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "What does DNA stand for?",
+      "options": [
+        "Detoxic Acid",
+        "Deoxyribogenetic Atoms",
+        "Deoxyribogenetic Acid",
+        "Deoxyribonucleic Acid"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "7a0c6e20900dd4e9",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "This element, when overcome with extreme heat and pressure, creates diamonds.",
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "Nitrogen",
+        "Carbon"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "52d70f4708c91d1a",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "What does LASER stand for?",
+      "options": [
+        "Lite analysing by stereo ecorazer",
+        "Light amplifier by standby energy of radio",
+        "Light amplification by stimulated emission of radiation",
+        "Life antimatter by standing entry of range"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "25b2f057c8a46922",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What is the standard atomic weight of a Plutonium nucleus?",
+      "options": [
+        "244",
+        "481",
+        "128",
+        "94"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "d602f38487a96bcc",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "Which Apollo mission was the first one to land on the Moon?",
+      "options": [
+        "Apollo 13",
+        "Apollo 9",
+        "Apollo 11",
+        "Apollo 10"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "bb942cde90fe6085",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What is the chemical makeup of water?",
+      "options": [
+        "H20",
+        "H",
+        "CO2",
+        "C12H6O2"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "504f8e99876826b7",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "What is an example of a bacterial pathogen?",
+      "options": [
+        "AIDS",
+        "Cholera",
+        "Measles",
+        "Ringworm"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "f7602bf2bf6f3922",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "What is the hottest planet in the solar system",
+      "options": [
+        "Mars",
+        "Jupiter",
+        "Mercury",
+        "Venus"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "3880a00a4996bc13",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "What is the powerhouse of the cell?",
+      "options": [
+        "Ribosome",
+        "Nucleus",
+        "Redbull",
+        "Mitochondria"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "46cf95d9ecdb8097",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "Which gas forms about 78% of the Earth’s atmosphere?",
+      "options": [
+        "Nitrogen",
+        "Argon",
+        "Carbon Dioxide",
+        "Oxygen"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "e2b005ef59d3407e",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "What name is given to all baby marsupials?",
+      "options": [
+        "Pup",
+        "Calf",
+        "Joey",
+        "Cub"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "84499bb3aaddf941",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "How many moons does Pluto have?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Five"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "2a36e5c5631a64d1",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "In web design, what does CSS stand for?",
+      "options": [
+        "Corrective Style Sheet",
+        "Computer Style Sheet",
+        "Cascading Style Sheet",
+        "Counter Strike: Source"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "ae3c4c0795715b32",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What is the commonly used keyboard shortcut for the 'Copy' function on Windows OS?",
+      "options": [
+        "Ctrl + C",
+        "Ctrl + X",
+        "Alt + C",
+        "Alt + X"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "72197921c20a3ef5",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "What does SSD stand for?",
+      "options": [
+        "Solid State Disk",
+        "Source Solution Drive",
+        "Solid State Drive",
+        "Solution Source Disk"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "1f79ab35026d9df7",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "The programming language 'Swift' was created to replace what other programming language?",
+      "options": [
+        "Ruby",
+        "Objective-C",
+        "C#",
+        "C++"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "529a52c2d7ce446f",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "HTML is what type of language?",
+      "options": [
+        "Markup Language",
+        "Scripting Language",
+        "Programming Language",
+        "Macro Language"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "c703377f03c6fbfd",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "The Electron computer was released in Britain during 1983 for the home computing market, by which company?",
+      "options": [
+        "Commodore Business Machines",
+        "Amstrad PLC",
+        "Acorn Computers",
+        "Sinclair Research"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "a9718a6d37bb2693",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What does the computer software acronym JVM stand for?",
+      "options": [
+        "Java Virtual Machine",
+        "Java Visual Machine",
+        "Java Vendor Machine",
+        "Just Virtual Machine"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "242b045d06efb7ab",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What is the name of Layer 7 of the OSI model?",
+      "options": [
+        "Application",
+        "Present",
+        "Network",
+        "Session"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "8a032e80b9d5003c",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "What does LTS stand for in the software market?",
+      "options": [
+        "Ludicrous Transfer Speed",
+        "Long Taco Service",
+        "Long Term Support",
+        "Ludicrous Turbo Speed"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "31b9a21f1cbf2647",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What is the most preferred image format used for logos in the Wikimedia database?",
+      "options": [
+        ".svg",
+        ".gif",
+        ".png",
+        ".jpeg"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "83428b86261b5865",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "What does CPU stand for?",
+      "options": [
+        "Central Process Unit",
+        "Central Processor Unit",
+        "Central Processing Unit",
+        "Computer Personal Unit"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "b1c7f4bb358f043a",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "When Gmail first launched, how much storage did it provide for your email?",
+      "options": [
+        "512MB",
+        "Unlimited",
+        "1GB",
+        "5GB"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "21cc324bfcf74650",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "The numbering system with a radix of 16 is more commonly referred to as",
+      "options": [
+        "Octal",
+        "Duodecimal",
+        "Binary",
+        "Hexidecimal"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "24291f367b49d76a",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What is the domain name for the country Tuvalu?",
+      "options": [
+        ".tv",
+        ".tl",
+        ".tu",
+        ".tt"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "a7a6602527665e68",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "On a standard American QWERTY keyboard, what symbol will you enter if you hold the shift key and press 1?",
+      "options": [
+        "Percent Sign",
+        "Dollar Sign",
+        "Exclamation Mark",
+        "Asterisk"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "68ede59654799396",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "What language does Node.js use?",
+      "options": [
+        "Joomla Source Code",
+        "Java Source",
+        "Java",
+        "JavaScript"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "e66489462d880f1f",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "The C programming language was created by this American computer scientist.",
+      "options": [
+        "Dennis Ritchie",
+        "Tim Berners Lee",
+        "Willis Ware",
+        "al-Khwārizmī"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "b84fe9649517ba33",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "Which SQL keyword is used to fetch data from a database?",
+      "options": [
+        "SELECT",
+        "INDEX",
+        "VALUES",
+        "EXEC"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "1684f7abda30bbd3",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "Which computer hardware device provides an interface for all other connected devices to communicate?",
+      "options": [
+        "Central Processing Unit",
+        "Motherboard",
+        "Random Access Memory",
+        "Hard Disk Drive"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "484be26c664becdf",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "What kind of memory is used on memory cache?",
+      "options": [
+        "Flash",
+        "ROM",
+        "SRAM",
+        "DRAM"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "0c1f06dc58e39d7a",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "What prime number comes next after 19?",
+      "options": [
+        "21",
+        "27",
+        "23",
+        "25"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "c9905abcfdb05765",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "The metric prefix \"atto-\" makes a measurement how much smaller than the base unit?",
+      "options": [
+        "One Quadrillionth",
+        "One Quintillionth",
+        "One Septillionth",
+        "One Billionth"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "d150a2b90a09edb3",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "How many sides does a Möbius strip have?",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "af6120d5590db048",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "Which of the following is not one of the seven Millennium Prize Problems?",
+      "options": [
+        "Birch and Swinnerton-Dyer Conjecture",
+        "Poincaré conjecture",
+        "Riemann hypothesis",
+        "Naviér conjecture"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "9d14df41e32e9267",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What is the correct order of operations for solving equations?",
+      "options": [
+        "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
+        "Addition, Multiplication, Division, Subtraction, Addition, Parentheses",
+        "The order in which the operations are written.",
+        "Parentheses, Exponents, Addition, Substraction, Multiplication, Division"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "8ec8e1cd01eac3db",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "How many square faces does a cube have?",
+      "options": [
+        "4",
+        "8",
+        "6",
+        "10"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "1516677cf6c81f8e",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "How many sides does a trapezium have?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "1cbd5c0b8b7ab273",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "What is the mathematician Euler's first name?",
+      "options": [
+        "Lionel",
+        "Ajan",
+        "Leonhard",
+        "Andrin"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "16aff11d0ca04b30",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "What's the square root of 49?",
+      "options": [
+        "9",
+        "4",
+        "7",
+        "12"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "a72546a23fe02e7f",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "Who proved Fermat's Last Theorem?",
+      "options": [
+        "Leonhard Euler",
+        "Srinivasa Ramanujan",
+        "Carl Friedrich Gauss",
+        "Andrew Wiles"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "b3c011035050a4ce",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "What is a polygon with eight sides called?",
+      "options": [
+        "Nanagon",
+        "Heptagon",
+        "Octagon",
+        "Hexagon"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "2d5089a2fbd2c6cd",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What is the name of a nine sided polygon?",
+      "options": [
+        "Nonagon",
+        "Octagon",
+        "Hexagon",
+        "Heptagon"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "248f32ce9afb757c",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "How many sides does a pentagon have?",
+      "options": [
+        "6",
+        "4",
+        "5",
+        "9"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "91a9e87a2c431231",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "How many sides does a heptagon have?",
+      "options": [
+        "9",
+        "7",
+        "4",
+        "5"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "3b2e1140d97aacb0",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "What is the least number of sides a polygon can have?",
+      "options": [
+        "1",
+        "3",
+        "7",
+        "2"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "f475c5d03bd23e5b",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "How many degrees make a full circle?",
+      "options": [
+        "360",
+        "90",
+        "180",
+        "720"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "262e02a698b93497",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "In Roman Numerals, what does XL equate to?",
+      "options": [
+        "15",
+        "60",
+        "40",
+        "90"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "363a89410dbd8403",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "What type of angle is greater than 90°?",
+      "options": [
+        "Straight",
+        "Right",
+        "Obtuse",
+        "Acute"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "fbcfc44ecebc0f67",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What is the symbol for Displacement?",
+      "options": [
+        "Δr",
+        "Dp",
+        "r",
+        "dr"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "c44fab586f30714e",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "en": {
+      "text": "In the hexadecimal system, what number comes after 9?",
+      "options": [
+        "10",
+        "The Number 0",
+        "The Letter A",
+        "16"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "ddbdc0fbf25c5b78",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "en": {
+      "text": "Which of these Roman gods doesn't have a counterpart in Greek mythology?",
+      "options": [
+        "Mars",
+        "Janus",
+        "Juno",
+        "Vulcan"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "373a2c8519864fb0",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "en": {
+      "text": "This Greek mythological figure is the god/goddess of battle strategy (among other things).",
+      "options": [
+        "Ares",
+        "Apollo",
+        "Athena",
+        "Artemis"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "d1e90bbeef5c985d",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "en": {
+      "text": "In African mythology, Anansi is a trickster and storyteller who takes the shape of which animal?",
+      "options": [
+        "Monkey",
+        "Crocodile",
+        "Spider",
+        "Wild dog"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "4470be1dfd94783e",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "en": {
+      "text": "The Norse god Odin has two pet crows named \"Huginn\" and \"Muninn\".  What do their names mean?",
+      "options": [
+        "War & Learning",
+        "Sleeping & Waking",
+        "Thought & Memory",
+        "Power & Peace"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "7ba84a3a92025ac8",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "en": {
+      "text": "What is the name of the Greek god of blacksmiths?",
+      "options": [
+        "Vulcan",
+        "Artagatus",
+        "Hephaestus",
+        "Dyntos"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "baa8bee49c5a2b3f",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "en": {
+      "text": "In Norse Mythology, Baldr was killed by Loki with a magical spear made from what plant?",
+      "options": [
+        "Buckthorn",
+        "Hemlock",
+        "Wolf's Bane",
+        "Mistletoe"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "3903c750d4913072",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "en": {
+      "text": "Who is the God Loki's son?",
+      "options": [
+        "Sigyn",
+        "Fenrir",
+        "Odin",
+        "Hel"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "773112e9e17ca6d1",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "en": {
+      "text": "Hel was the daughter of which Norse Mythological figure?",
+      "options": [
+        "Thor",
+        "Loki",
+        "Odin",
+        "Balder"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "1502c5a9ff31421c",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "en": {
+      "text": "According to the Egyptian Myth of Osiris, who murdered Osiris?",
+      "options": [
+        "Ra",
+        "Anhur",
+        "Set",
+        "Horus"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "8a5df5ba131f8d8c",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "en": {
+      "text": "A minotaur is half human half what?",
+      "options": [
+        "Bull",
+        "Horse",
+        "Eagle",
+        "Cow"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "2ac46dbc2d08e04d",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "en": {
+      "text": "Hera is god of...",
+      "options": [
+        "War",
+        "Sea",
+        "Agriculture",
+        "Marriage"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "e2c9a2da419540d0",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "en": {
+      "text": "According to Japanese folklore, what is the favorite food of the Kappa.",
+      "options": [
+        "Nasu",
+        "Kabocha",
+        "Soba",
+        "Cucumbers"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "279c6c7c624b9d3b",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "en": {
+      "text": "Who was the Roman god of fire?",
+      "options": [
+        "Mercury",
+        "Vulcan",
+        "Jupiter",
+        "Apollo"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "0036700d512aa5c3",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "en": {
+      "text": "In Greek Mythology, who killed Achilles?",
+      "options": [
+        "Hector",
+        "Pericles",
+        "Paris",
+        "Helen"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "8aa037e8983bf56e",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "en": {
+      "text": "In Norse Mythology, what is the name of the symbol commonly referred to as the \"Tree of Life\"?",
+      "options": [
+        "Odin's Roots",
+        "Tree of the Earth",
+        "Yggdrasil",
+        "Ymir"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "b96e719e9e8b7f17",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "en": {
+      "text": "The Hippogriff, not to be confused with the Griffon, is a magical creature with the front half of an eagle, and the back half of what?",
+      "options": [
+        "A Tiger",
+        "A Dragon",
+        "A Horse",
+        "A Lion"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "7e065c68d56a87ea",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "en": {
+      "text": "In Greek mythology, Persephone must return to the underworld because she had eaten what kind of seeds?",
+      "options": [
+        "Pomegranate",
+        "Sunflower",
+        "Fig",
+        "Orange"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "5a7eda5a4614241d",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "en": {
+      "text": "What animal did Queen Pasipahe sleep with before she gave birth to the Minotaur in Greek Mythology?",
+      "options": [
+        "Horse",
+        "Ox",
+        "Pig",
+        "Bull"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "cf1d215fea407dde",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "en": {
+      "text": "What is the name of the Greek god of peaceful deaths?",
+      "options": [
+        "Moros",
+        "Hades",
+        "Thanatos",
+        "Tartarus"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "137bfa941f91c08b",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "en": {
+      "text": "Which of the following Mesopotamian mythological figures was NOT a deity?",
+      "options": [
+        "Enlil",
+        "Enkimdu",
+        "Enkidu",
+        "Enki"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "c8a4e3d1c54c6740",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "The Alps are a mountain range on which continent?",
+      "options": [
+        "Europe",
+        "Africa",
+        "North America",
+        "Asia"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "50592c6356af9e45",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "Which of the following languages does NOT use the Latin alphabet?",
+      "options": [
+        "Turkish",
+        "Vietnamese",
+        "Georgian",
+        "Swahili"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "c910deffb32bb50b",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "Which country was NOT part of the Soviet Union?",
+      "options": [
+        "Turkmenistan",
+        "Romania",
+        "Belarus",
+        "Tajikistan"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "433c7eddbb4cc1bd",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "Which city is the biggest in Canada?",
+      "options": [
+        "Toronto",
+        "Montreal",
+        "Vancouver",
+        "Ottawa"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "64d72b89bfa265ab",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "Which of the following countries has a flag featuring a yellow lion wielding a sword on a dark red background?",
+      "options": [
+        "Scotland",
+        "Bhutan",
+        "Sri Lanka",
+        "Kiribati"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "c77e133ebe0b340d",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "What is the name of the ocean that Hawaii is located in?",
+      "options": [
+        "Arctic",
+        "Atlantic",
+        "Pacific",
+        "Indian"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "9b772861617cc43e",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "Which Borough is the farthest in the north of New York City?",
+      "options": [
+        "Queens",
+        "Manhattan",
+        "Bronx",
+        "Brooklyn"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "9176ce42cf90e0b2",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What country has a horizontal bicolor red and white flag?",
+      "options": [
+        "Monaco",
+        "Bahrain",
+        "Liechenstein",
+        "Malta"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "a158350902cfacb2",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "What is the capital of Jamaica?",
+      "options": [
+        "Bridgetown",
+        "Port-au-Prince",
+        "Kingston",
+        "San Juan"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "69d14c1c513008a3",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "What is Canada's smallest province?",
+      "options": [
+        "Yukon",
+        "Prince Edward Island",
+        "New Brunswick",
+        "Nova Scotia"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "80d0b73fbf08cd7f",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "Which area of Eastern Europe is famous for its association with vampires?",
+      "options": [
+        "Slovakia",
+        "Transylvania",
+        "Silesia",
+        "Macedonia"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "d0096f9fe02f960f",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "The country of Belize borders which country?",
+      "options": [
+        "Kenya",
+        "Laos",
+        "Perú",
+        "Guatemala"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "371535361f2f50b4",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "What name was historically used for the Turkish city currently known as Istanbul?",
+      "options": [
+        "Hüdavendigar",
+        "Söğüt",
+        "Constantinople",
+        "Adrianople"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "cdd5b6989bf60b37",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "What is Laos?",
+      "options": [
+        "Region",
+        "River",
+        "City",
+        "Country"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "36e15426464f9a1d",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "Which of these African regions does *not* directly border the Democratic Republic of The Congo?",
+      "options": [
+        "Sudan",
+        "Central African Republic",
+        "Tanzania",
+        "Zambia"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "ab4fbc8efc25d9a9",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "Which small country is located between the borders of France and Spain?",
+      "options": [
+        "Lichtenstein",
+        "Andorra",
+        "Vatican City",
+        "San Marino"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "c43cf2a96f63e115",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "What is the Polish city known to Germans as Danzig?",
+      "options": [
+        "Zakopane",
+        "Gdańsk",
+        "Poznań",
+        "Warsaw"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "2b4735191b48721d",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "en": {
+      "text": "Which continent is considered the largest and most populous continent in the world?",
+      "options": [
+        "Europe",
+        "Africa",
+        "Asia",
+        "North America"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "c0045001127ea68a",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "In which country is the city of Rio de Janeiro?",
+      "options": [
+        "Peru",
+        "Chile",
+        "Venezuela",
+        "Brazil"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "03618feb3c4abe0e",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "In which ocean is the Réunion island?",
+      "options": [
+        "North Pacific Ocean",
+        "Indian Ocean",
+        "South Pacific Ocean",
+        "Atlantic Ocean"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "b1c19d5aea53e03c",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "Which South American country fought Great Britain over the Falkland Islands in 1982?",
+      "options": [
+        "Argentina",
+        "Venezuela",
+        "Brazil",
+        "Chile"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "d0c3b12ab976316d",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "Who discovered Penicillin?",
+      "options": [
+        "Alexander Flemming",
+        "Alfred Nobel",
+        "Louis Pasteur",
+        "Marie Curie"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "195c16875d9e70e4",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What is widely considered to be the oldest civilization known to mankind?",
+      "options": [
+        "Sumeria",
+        "Assyria",
+        "Phoenicia",
+        "Babylon"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "625e677ba36e08f1",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "In which war did the atomic bombings of Hiroshima and Nagasaki occur?",
+      "options": [
+        "Russo-Japanese War",
+        "World War II",
+        "World War I",
+        "First Sino-Japanese War"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "6604d98daf3b3e70",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "Which of the following countries was not an axis power during World War II?",
+      "options": [
+        "Japan",
+        "Italy",
+        "Germany",
+        "Soviet Union"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "20692b91a0d4dd01",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "How was Socrates executed?",
+      "options": [
+        "Decapitation",
+        "Poison",
+        "Crucifixion",
+        "Firing squad"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "2ddd792240231021",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+      "options": [
+        "Gold",
+        "Sword",
+        "Juno",
+        "Silver"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "67c51d8b57e1e05b",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "Who led the Communist Revolution of Russia?",
+      "options": [
+        "Joseph Stalin",
+        "Vladimir Putin",
+        "Mikhail Gorbachev",
+        "Vladimir Lenin"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "6d098c6e6cb9932a",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?",
+      "options": [
+        "Paul Revere",
+        "Henry Longfellow",
+        "Nathan Hale",
+        "Thomas Paine"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "6aa133b6c2c52aad",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "In 1453, which important city fell?",
+      "options": [
+        "Rome",
+        "Athens",
+        "Hamburg",
+        "Constantinople"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "779d62f7a2143694",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "In which country was the Statue of Liberty built and exported to the United States of America?",
+      "options": [
+        "Spain",
+        "France",
+        "Germany",
+        "England"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "c7f58475f5f12eb7",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "In what year was the M1911 pistol designed?",
+      "options": [
+        "1911",
+        "1917",
+        "1899",
+        "1907"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "2916198709fd7a6e",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "Which one of these tanks was designed and operated by the United Kingdom?",
+      "options": [
+        "Tiger H1",
+        "Tog II",
+        "T-34",
+        "M4 Sherman"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "6dd40ac383fd8900",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "en": {
+      "text": "What was the first sport to have been played on the moon?",
+      "options": [
+        "Tennis",
+        "Golf",
+        "Soccer",
+        "Football"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "b63f072cb90da85d",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "How old was Adolf Hitler when he died?",
+      "options": [
+        "56",
+        "43",
+        "47",
+        "65"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "228f128015564bc3",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "In what year did the Wall Street Crash take place?",
+      "options": [
+        "1932",
+        "1930",
+        "1925",
+        "1929"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "13f5f439f902fbc3",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "During WWII, in 1945, the United States dropped atomic bombs on the two Japanese cities of Hiroshima and what other city?",
+      "options": [
+        "Kagoshima",
+        "Tokyo",
+        "Kawasaki",
+        "Nagasaki"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "c8622dd030dc4584",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "A collection of Sanskrit hymns and verses known as the Vedas are sacred texts in what religion?",
+      "options": [
+        "Hinduism",
+        "Buddhism",
+        "Judaism",
+        "Islam"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "b18083c944a526dd",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "en": {
+      "text": "What year did the Titanic sink?",
+      "options": [
+        "1912",
+        "1930",
+        "1917",
+        "1941"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "2646c42b05cafc8e",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "en": {
+      "text": "Pol Pot was the former dictator of which country?",
+      "options": [
+        "Laos",
+        "Vietnam",
+        "North Korea",
+        "Cambodia"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "0ec69714c63dc0cb",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "en": {
+      "text": "What is the collective noun for bears?",
+      "options": [
+        "Tribe",
+        "Sloth",
+        "Husk",
+        "Drove"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "c06bab009e8f6875",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "en": {
+      "text": "A carnivorous animal eats flesh, what does a nucivorous animal eat?",
+      "options": [
+        "Seaweed",
+        "Fruit",
+        "Nuts",
+        "Nothing"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "87354ecb0cff01b8",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "en": {
+      "text": "What is the scientific name of the Common Chimpanzee?",
+      "options": [
+        "Panthera leo",
+        "Pan paniscus",
+        "Pan troglodytes",
+        "Gorilla gorilla"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "3b09bcbe672211d1",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "en": {
+      "text": "What is the scientific name for the \"Polar Bear\"?",
+      "options": [
+        "Ursus Spelaeus",
+        "Ursus Maritimus",
+        "Polar Bear",
+        "Ursus Arctos"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "ea569ce246b1f53e",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "en": {
+      "text": "Which of the following is NOT a venomous snake?",
+      "options": [
+        "Reticulated python",
+        "Black mamba",
+        "Malayan Krait",
+        "Yellow bellied sea snake"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "5aca8fb249c902cb",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "en": {
+      "text": "Which of the following is true when alligators are behaving territorially?",
+      "options": [
+        "They bellow while showing their tail and neck",
+        "Open their jaws while making a clicking noise",
+        "Slap their tails on the ground",
+        "They run full force at the threat"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "bfaaa854199ce742",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "en": {
+      "text": "What is the common term for bovine spongiform encephalopathy (BSE)?",
+      "options": [
+        "Milk fever",
+        "Foot-and-mouth disease",
+        "Mad Cow disease",
+        "Weil's disease"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "6edebc5af9900b98",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "en": {
+      "text": "For what reason would a spotted hyena \"laugh\"?",
+      "options": [
+        "Exhaustion",
+        "Excitement",
+        "Aggression",
+        "Nervousness"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "daf73dd68c6dceca",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "en": {
+      "text": "What is the collective noun for rats?",
+      "options": [
+        "Pack",
+        "Mischief",
+        "Race",
+        "Drift"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "cb95764dfcb09b09",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "en": {
+      "text": "Which of these species is not extinct?",
+      "options": [
+        "Komodo dragon",
+        "Saudi gazelle",
+        "Tasmanian tiger",
+        "Japanese sea lion"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "1123439fe7b92987",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "en": {
+      "text": "Cashmere is the wool from which kind of animal?",
+      "options": [
+        "Llama",
+        "Camel",
+        "Sheep",
+        "Goat"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "b02b80cc9520a5ae",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "en": {
+      "text": "The dish Fugu, is made from what family of fish?",
+      "options": [
+        "Pufferfish",
+        "Salmon",
+        "Bass",
+        "Mackerel"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "60cdcb80273b5600",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "en": {
+      "text": "About how much of their body weight in food do sea otters eat every day?",
+      "options": [
+        "25%",
+        "45%",
+        "10%",
+        "80%"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "1af5b36de7d2416b",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "en": {
+      "text": "The now extinct species \"Thylacine\" was native to where?",
+      "options": [
+        "Wallachia, Romania",
+        "Oregon, United States",
+        "Baluchistan, Pakistan",
+        "Tasmania, Australia"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "15a5355721e8011c",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "en": {
+      "text": "What dog breed is one of the oldest breeds of dog and has flourished since before 400 BCE.",
+      "options": [
+        "Pugs",
+        "Boxers",
+        "Chihuahua",
+        "Bulldogs"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "42a128cf402e206a",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "en": {
+      "text": "Which dog breed is named after a region in Croatia",
+      "options": [
+        "Pekingnese",
+        "Pomeranian",
+        "Chihuahua",
+        "Dalmatian"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "b4d93a90d07f8967",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "en": {
+      "text": "What is the name of the family that the domestic cat is a member of?",
+      "options": [
+        "Felidae",
+        "Felinae",
+        "Cat",
+        "Felis"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "2d48769311f83703",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "en": {
+      "text": "What are rhino's horn made of?",
+      "options": [
+        "Bone",
+        "Keratin",
+        "Skin",
+        "Ivory"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "b5ed0233c7956cf1",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "en": {
+      "text": "What are the scales on all snakes and most lizards are made of?",
+      "options": [
+        "Keratin",
+        "Ankyloglossia",
+        "Epidermis",
+        "Ecdysis"
+      ],
+      "explanation": ""
+    }
+  },
+  {
+    "sourceRef": "35445dd882aee7f8",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "en": {
+      "text": "\"Decapods\" are an order of ten-footed crustaceans.  Which of these are NOT decapods?",
+      "options": [
+        "Krill",
+        "Crabs",
+        "Shrimp",
+        "Lobsters"
+      ],
+      "explanation": ""
+    }
+  }
+]
