@@ -1948,5 +1948,1955 @@
         "explanation": ""
       }
     }
+  },
+  {
+    "sourceRef": "ab61fac1f2a32892",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "The 2016 song \"Starboy\" by Canadian singer The Weeknd features which prominent electronic artist?",
+        "options": [
+          "Disclosure",
+          "deadmau5",
+          "DJ Shadow",
+          "Daft Punk"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "La chanson « Starboy » du chanteur canadien The Weeknd, sortie en 2016, fait intervenir quel artiste électronique de renom ?",
+        "options": [
+          "Disclosure",
+          "deadmau5",
+          "DJ Shadow",
+          "Daft Punk"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "La canción «Starboy» del cantante canadiense The Weeknd, de 2016, cuenta con qué artista electrónico de renombre?",
+        "options": [
+          "Disclosure",
+          "deadmau5",
+          "DJ Shadow",
+          "Daft Punk"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "56c16e43c461a228",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "Which group performs the song \"Crash into Me\"?",
+        "options": [
+          "Destiny's Child",
+          "The Grateful Dead",
+          "Dave Matthews Band",
+          "Phish"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel groupe interprète la chanson « Crash into Me » ?",
+        "options": [
+          "Destiny's Child",
+          "The Grateful Dead",
+          "Dave Matthews Band",
+          "Phish"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué grupo interpreta la canción «Crash into Me»?",
+        "options": [
+          "Destiny's Child",
+          "The Grateful Dead",
+          "Dave Matthews Band",
+          "Phish"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "bb6d52739d5d2664",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "Kanye West's \"Gold Digger\" featured which Oscar-winning actor?",
+        "options": [
+          "Bruce Willis",
+          "Dwayne Johnson",
+          "Alec Baldwin",
+          "Jamie Foxx"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "« Gold Digger » de Kanye West met en scène quel acteur oscarisé ?",
+        "options": [
+          "Bruce Willis",
+          "Dwayne Johnson",
+          "Alec Baldwin",
+          "Jamie Foxx"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "«Gold Digger» de Kanye West cuenta con qué actor ganador del Óscar?",
+        "options": [
+          "Bruce Willis",
+          "Dwayne Johnson",
+          "Alec Baldwin",
+          "Jamie Foxx"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "740bb9df54b5e937",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Who was \"Kung Fu Fighting\" in 1974?",
+        "options": [
+          "Heatwave",
+          "Carl Douglas",
+          "The Bee Gees",
+          "Kool & the Gang"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Qui a chanté « Kung Fu Fighting » en 1974 ?",
+        "options": [
+          "Heatwave",
+          "Carl Douglas",
+          "The Bee Gees",
+          "Kool & the Gang"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Quién interpretó «Kung Fu Fighting» en 1974?",
+        "options": [
+          "Heatwave",
+          "Carl Douglas",
+          "The Bee Gees",
+          "Kool & the Gang"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "9114eaf22cb9faf8",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Which song on Daft Punk's \"Random Access Memories\" features Pharrell Williams?",
+        "options": [
+          "Get Lucky",
+          "Doin' It Right",
+          "Instant Crush",
+          "The Game of Love"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Sur l'album « Random Access Memories » des Daft Punk, quelle chanson met en vedette Pharrell Williams ?",
+        "options": [
+          "Get Lucky",
+          "Doin' It Right",
+          "Instant Crush",
+          "The Game of Love"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En el álbum «Random Access Memories» de Daft Punk, ¿qué canción cuenta con Pharrell Williams?",
+        "options": [
+          "Get Lucky",
+          "Doin' It Right",
+          "Instant Crush",
+          "The Game of Love"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "b553b750a65b78db",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "What was Rage Against the Machine's debut album?",
+        "options": [
+          "Bombtrack",
+          "The Battle Of Los Angeles",
+          "Evil Empire",
+          "Rage Against the Machine"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est le premier album de Rage Against the Machine ?",
+        "options": [
+          "Bombtrack",
+          "The Battle Of Los Angeles",
+          "Evil Empire",
+          "Rage Against the Machine"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál fue el álbum debut de Rage Against the Machine?",
+        "options": [
+          "Bombtrack",
+          "The Battle Of Los Angeles",
+          "Evil Empire",
+          "Rage Against the Machine"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "82c1c4102749f88b",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Which Daft Punk album is the song \"Harder, Better, Faster, Stronger\" from?",
+        "options": [
+          "Random Access Memories",
+          "Discovery",
+          "Homework",
+          "Human After All"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "De quel album des Daft Punk provient la chanson « Harder, Better, Faster, Stronger » ?",
+        "options": [
+          "Random Access Memories",
+          "Discovery",
+          "Homework",
+          "Human After All"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿De qué álbum de Daft Punk es la canción «Harder, Better, Faster, Stronger»?",
+        "options": [
+          "Random Access Memories",
+          "Discovery",
+          "Homework",
+          "Human After All"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "319286c7e97e9a0b",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Who performed \"I Took A Pill In Ibiza\"?",
+        "options": [
+          "Robbie Williams",
+          "Mike Posner",
+          "Avicii",
+          "Harry Styles"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Qui interprète « I Took A Pill In Ibiza » ?",
+        "options": [
+          "Robbie Williams",
+          "Mike Posner",
+          "Avicii",
+          "Harry Styles"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Quién interpreta «I Took A Pill In Ibiza»?",
+        "options": [
+          "Robbie Williams",
+          "Mike Posner",
+          "Avicii",
+          "Harry Styles"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "192db6181109f700",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "How many strings are there on a cello?",
+        "options": [
+          "6",
+          "8",
+          "4",
+          "5"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Combien de cordes possède un violoncelle ?",
+        "options": [
+          "6",
+          "8",
+          "4",
+          "5"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuántas cuerdas tiene un violonchelo?",
+        "options": [
+          "6",
+          "8",
+          "4",
+          "5"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "67818e08a69136df",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Ozzy Osbourne was the lead singer for what metal band?",
+        "options": [
+          "Black Sabbath",
+          "AC/DC",
+          "Iron Maiden",
+          "Judas Priest"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Ozzy Osbourne était le chanteur principal de quel groupe de métal ?",
+        "options": [
+          "Black Sabbath",
+          "AC/DC",
+          "Iron Maiden",
+          "Judas Priest"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Ozzy Osbourne fue el cantante principal de qué banda de metal?",
+        "options": [
+          "Black Sabbath",
+          "AC/DC",
+          "Iron Maiden",
+          "Judas Priest"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "6c4c3ab2d16cba50",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "What is the unit of electrical resistance?",
+        "options": [
+          "Tesla",
+          "Ohm",
+          "Mho",
+          "Joule"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle est l'unité de la résistance électrique ?",
+        "options": [
+          "Tesla",
+          "Ohm",
+          "Mho",
+          "Joule"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es la unidad de la resistencia eléctrica?",
+        "options": [
+          "Tesla",
+          "Ohmio",
+          "Mho",
+          "Julio"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "b3414e610650d7b9",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "How many moons does the Earth have?",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "0"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Combien de lunes la Terre possède-t-elle ?",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "0"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuántas lunas tiene la Tierra?",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "0"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "99eb7f7e0f88ec37",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What organelle aids in synthesis of DNA in cells?",
+        "options": [
+          "Ribosomes",
+          "Nuclei",
+          "Lysosomes",
+          "Mitochondria"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel organite contribue à la synthèse de l'ADN dans les cellules ?",
+        "options": [
+          "Ribosomes",
+          "Noyaux",
+          "Lysosomes",
+          "Mitochondries"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué orgánulo contribuye a la síntesis del ADN en las células?",
+        "options": [
+          "Ribosomas",
+          "Núcleos",
+          "Lisosomas",
+          "Mitocondrias"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "3d185c6b71601c9b",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "What lies at the center of our galaxy?",
+        "options": [
+          "A supernova",
+          "A wormhole",
+          "A quasar",
+          "A black hole"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Qu'y a-t-il au centre de notre galaxie ?",
+        "options": [
+          "Une supernova",
+          "Un trou de ver",
+          "Un quasar",
+          "Un trou noir"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué hay en el centro de nuestra galaxia?",
+        "options": [
+          "Una supernova",
+          "Un agujero de gusano",
+          "Un cuásar",
+          "Un agujero negro"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "cf13fcbdb9e69453",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "Which type of rock is created by intense heat AND pressure?",
+        "options": [
+          "Igneous",
+          "Diamond",
+          "Metamorphic",
+          "Sedimentary"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel type de roche est créé par une chaleur ET une pression intenses ?",
+        "options": [
+          "Ignée",
+          "Diamant",
+          "Métamorphique",
+          "Sédimentaire"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué tipo de roca se forma por calor Y presión intensos?",
+        "options": [
+          "Ígnea",
+          "Diamante",
+          "Metamórfica",
+          "Sedimentaria"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "814859900d53d6e0",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Who is the chemical element Curium named after?",
+        "options": [
+          "The Curiosity Rover",
+          "Marie & Pierre Curie",
+          "Stephen Curry",
+          "Curious George"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "En l'honneur de qui l'élément chimique Curium est-il nommé ?",
+        "options": [
+          "Le rover Curiosity",
+          "Marie & Pierre Curie",
+          "Stephen Curry",
+          "Georges le petit curieux"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿En honor a quién se nombró el elemento químico Curio?",
+        "options": [
+          "El rover Curiosity",
+          "Marie y Pierre Curie",
+          "Stephen Curry",
+          "Jorge el curioso"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "eabef0cac3228157",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "Which is the most abundant element in the universe?",
+        "options": [
+          "Oxygen",
+          "Helium",
+          "Hydrogen",
+          "Lithium"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est l'élément le plus abondant de l'univers ?",
+        "options": [
+          "Oxygène",
+          "Hélium",
+          "Hydrogène",
+          "Lithium"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el elemento más abundante del universo?",
+        "options": [
+          "Oxígeno",
+          "Helio",
+          "Hidrógeno",
+          "Litio"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "17640a5d30ee7698",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What is the thin, outermost layer of the Earth?",
+        "options": [
+          "Crust",
+          "Mantle",
+          "Outer Core",
+          "Exosphere"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle est la fine couche la plus externe de la Terre ?",
+        "options": [
+          "La croûte",
+          "Le manteau",
+          "Le noyau externe",
+          "L'exosphère"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es la delgada capa más externa de la Tierra?",
+        "options": [
+          "La corteza",
+          "El manto",
+          "El núcleo externo",
+          "La exosfera"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "6ce3d4c2307bc4db",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "What does DNA stand for?",
+        "options": [
+          "Detoxic Acid",
+          "Deoxyribogenetic Atoms",
+          "Deoxyribogenetic Acid",
+          "Deoxyribonucleic Acid"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Que signifie le sigle ADN (DNA en anglais) ?",
+        "options": [
+          "Detoxic Acid",
+          "Deoxyribogenetic Atoms",
+          "Deoxyribogenetic Acid",
+          "Deoxyribonucleic Acid"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué significa el acrónimo DNA?",
+        "options": [
+          "Detoxic Acid",
+          "Deoxyribogenetic Atoms",
+          "Deoxyribogenetic Acid",
+          "Deoxyribonucleic Acid"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "7a0c6e20900dd4e9",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "This element, when overcome with extreme heat and pressure, creates diamonds.",
+        "options": [
+          "Hydrogen",
+          "Oxygen",
+          "Nitrogen",
+          "Carbon"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Cet élément, soumis à une chaleur et une pression extrêmes, produit du diamant.",
+        "options": [
+          "Hydrogène",
+          "Oxygène",
+          "Azote",
+          "Carbone"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Este elemento, sometido a calor y presión extremos, produce diamantes.",
+        "options": [
+          "Hidrógeno",
+          "Oxígeno",
+          "Nitrógeno",
+          "Carbono"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "52d70f4708c91d1a",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What does LASER stand for?",
+        "options": [
+          "Lite analysing by stereo ecorazer",
+          "Light amplifier by standby energy of radio",
+          "Light amplification by stimulated emission of radiation",
+          "Life antimatter by standing entry of range"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Que signifie l'acronyme LASER ?",
+        "options": [
+          "Lite analysing by stereo ecorazer",
+          "Light amplifier by standby energy of radio",
+          "Light amplification by stimulated emission of radiation",
+          "Life antimatter by standing entry of range"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué significa el acrónimo LASER?",
+        "options": [
+          "Lite analysing by stereo ecorazer",
+          "Light amplifier by standby energy of radio",
+          "Light amplification by stimulated emission of radiation",
+          "Life antimatter by standing entry of range"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "25b2f057c8a46922",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What is the standard atomic weight of a Plutonium nucleus?",
+        "options": [
+          "244",
+          "481",
+          "128",
+          "94"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle est la masse atomique standard d'un noyau de plutonium ?",
+        "options": [
+          "244",
+          "481",
+          "128",
+          "94"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el peso atómico estándar de un núcleo de plutonio?",
+        "options": [
+          "244",
+          "481",
+          "128",
+          "94"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "d602f38487a96bcc",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "Which Apollo mission was the first one to land on the Moon?",
+        "options": [
+          "Apollo 13",
+          "Apollo 9",
+          "Apollo 11",
+          "Apollo 10"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle mission Apollo a été la première à se poser sur la Lune ?",
+        "options": [
+          "Apollo 13",
+          "Apollo 9",
+          "Apollo 11",
+          "Apollo 10"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál fue la primera misión Apolo en aterrizar en la Luna?",
+        "options": [
+          "Apolo 13",
+          "Apolo 9",
+          "Apolo 11",
+          "Apolo 10"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "bb942cde90fe6085",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What is the chemical makeup of water?",
+        "options": [
+          "H20",
+          "H",
+          "CO2",
+          "C12H6O2"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle est la composition chimique de l'eau ?",
+        "options": [
+          "H2O",
+          "H",
+          "CO2",
+          "C12H6O2"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es la composición química del agua?",
+        "options": [
+          "H2O",
+          "H",
+          "CO2",
+          "C12H6O2"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "504f8e99876826b7",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "What is an example of a bacterial pathogen?",
+        "options": [
+          "AIDS",
+          "Cholera",
+          "Measles",
+          "Ringworm"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est un exemple d'agent pathogène bactérien ?",
+        "options": [
+          "SIDA",
+          "Choléra",
+          "Rougeole",
+          "Teigne"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es un ejemplo de patógeno bacteriano?",
+        "options": [
+          "SIDA",
+          "Cólera",
+          "Sarampión",
+          "Tiña"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "f7602bf2bf6f3922",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "What is the hottest planet in the solar system",
+        "options": [
+          "Mars",
+          "Jupiter",
+          "Mercury",
+          "Venus"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle est la planète la plus chaude du système solaire ?",
+        "options": [
+          "Mars",
+          "Jupiter",
+          "Mercure",
+          "Vénus"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el planeta más caliente del sistema solar?",
+        "options": [
+          "Marte",
+          "Júpiter",
+          "Mercurio",
+          "Venus"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "3880a00a4996bc13",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "What is the powerhouse of the cell?",
+        "options": [
+          "Ribosome",
+          "Nucleus",
+          "Redbull",
+          "Mitochondria"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle est la centrale énergétique de la cellule ?",
+        "options": [
+          "Le ribosome",
+          "Le noyau",
+          "Le Redbull",
+          "La mitochondrie"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es la central energética de la célula?",
+        "options": [
+          "El ribosoma",
+          "El núcleo",
+          "El Redbull",
+          "La mitocondria"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "46cf95d9ecdb8097",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Which gas forms about 78% of the Earth’s atmosphere?",
+        "options": [
+          "Nitrogen",
+          "Argon",
+          "Carbon Dioxide",
+          "Oxygen"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel gaz constitue environ 78 % de l'atmosphère terrestre ?",
+        "options": [
+          "Azote",
+          "Argon",
+          "Dioxyde de carbone",
+          "Oxygène"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué gas forma aproximadamente el 78 % de la atmósfera terrestre?",
+        "options": [
+          "Nitrógeno",
+          "Argón",
+          "Dióxido de carbono",
+          "Oxígeno"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "e2b005ef59d3407e",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What name is given to all baby marsupials?",
+        "options": [
+          "Pup",
+          "Calf",
+          "Joey",
+          "Cub"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel nom donne-t-on aux petits de tous les marsupiaux ?",
+        "options": [
+          "Pup",
+          "Veau",
+          "Joey",
+          "Ourson"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué nombre se da a las crías de todos los marsupiales?",
+        "options": [
+          "Cachorro",
+          "Ternero",
+          "Joey",
+          "Osezno"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "84499bb3aaddf941",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "How many moons does Pluto have?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Five"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Combien de lunes Pluton possède-t-il ?",
+        "options": [
+          "Une",
+          "Deux",
+          "Trois",
+          "Cinq"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuántas lunas tiene Plutón?",
+        "options": [
+          "Una",
+          "Dos",
+          "Tres",
+          "Cinco"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "2a36e5c5631a64d1",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "In web design, what does CSS stand for?",
+        "options": [
+          "Corrective Style Sheet",
+          "Computer Style Sheet",
+          "Cascading Style Sheet",
+          "Counter Strike: Source"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "En conception web, que signifie l'acronyme CSS ?",
+        "options": [
+          "Corrective Style Sheet",
+          "Computer Style Sheet",
+          "Cascading Style Sheet",
+          "Counter Strike: Source"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En diseño web, ¿qué significa el acrónimo CSS?",
+        "options": [
+          "Corrective Style Sheet",
+          "Computer Style Sheet",
+          "Cascading Style Sheet",
+          "Counter Strike: Source"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "ae3c4c0795715b32",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What is the commonly used keyboard shortcut for the 'Copy' function on Windows OS?",
+        "options": [
+          "Ctrl + C",
+          "Ctrl + X",
+          "Alt + C",
+          "Alt + X"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est le raccourci clavier couramment utilisé pour la fonction « Copier » sous Windows ?",
+        "options": [
+          "Ctrl + C",
+          "Ctrl + X",
+          "Alt + C",
+          "Alt + X"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el atajo de teclado habitual para la función «Copiar» en Windows?",
+        "options": [
+          "Ctrl + C",
+          "Ctrl + X",
+          "Alt + C",
+          "Alt + X"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "72197921c20a3ef5",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What does SSD stand for?",
+        "options": [
+          "Solid State Disk",
+          "Source Solution Drive",
+          "Solid State Drive",
+          "Solution Source Disk"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Que signifie l'acronyme SSD ?",
+        "options": [
+          "Solid State Disk",
+          "Source Solution Drive",
+          "Solid State Drive",
+          "Solution Source Disk"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué significa el acrónimo SSD?",
+        "options": [
+          "Solid State Disk",
+          "Source Solution Drive",
+          "Solid State Drive",
+          "Solution Source Disk"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "1f79ab35026d9df7",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "The programming language 'Swift' was created to replace what other programming language?",
+        "options": [
+          "Ruby",
+          "Objective-C",
+          "C#",
+          "C++"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Le langage de programmation « Swift » a été créé pour remplacer quel autre langage ?",
+        "options": [
+          "Ruby",
+          "Objective-C",
+          "C#",
+          "C++"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "El lenguaje de programación «Swift» fue creado para reemplazar qué otro lenguaje?",
+        "options": [
+          "Ruby",
+          "Objective-C",
+          "C#",
+          "C++"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "529a52c2d7ce446f",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "HTML is what type of language?",
+        "options": [
+          "Markup Language",
+          "Scripting Language",
+          "Programming Language",
+          "Macro Language"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "HTML est quel type de langage ?",
+        "options": [
+          "Langage de balisage",
+          "Langage de script",
+          "Langage de programmation",
+          "Langage de macros"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "HTML es qué tipo de lenguaje?",
+        "options": [
+          "Lenguaje de marcado",
+          "Lenguaje de scripting",
+          "Lenguaje de programación",
+          "Lenguaje de macros"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "c703377f03c6fbfd",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "The Electron computer was released in Britain during 1983 for the home computing market, by which company?",
+        "options": [
+          "Commodore Business Machines",
+          "Amstrad PLC",
+          "Acorn Computers",
+          "Sinclair Research"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "L'ordinateur Electron a été commercialisé en Grande-Bretagne en 1983 pour le marché domestique. Par quelle société ?",
+        "options": [
+          "Commodore Business Machines",
+          "Amstrad PLC",
+          "Acorn Computers",
+          "Sinclair Research"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "El ordenador Electron fue lanzado en Reino Unido en 1983 para el mercado doméstico. ¿Por qué empresa?",
+        "options": [
+          "Commodore Business Machines",
+          "Amstrad PLC",
+          "Acorn Computers",
+          "Sinclair Research"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "a9718a6d37bb2693",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What does the computer software acronym JVM stand for?",
+        "options": [
+          "Java Virtual Machine",
+          "Java Visual Machine",
+          "Java Vendor Machine",
+          "Just Virtual Machine"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Que signifie l'acronyme informatique JVM ?",
+        "options": [
+          "Java Virtual Machine",
+          "Java Visual Machine",
+          "Java Vendor Machine",
+          "Just Virtual Machine"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué significa el acrónimo JVM en software?",
+        "options": [
+          "Java Virtual Machine",
+          "Java Visual Machine",
+          "Java Vendor Machine",
+          "Just Virtual Machine"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "242b045d06efb7ab",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What is the name of Layer 7 of the OSI model?",
+        "options": [
+          "Application",
+          "Present",
+          "Network",
+          "Session"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Comment s'appelle la couche 7 du modèle OSI ?",
+        "options": [
+          "Application",
+          "Présentation",
+          "Réseau",
+          "Session"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cómo se llama la Capa 7 del modelo OSI?",
+        "options": [
+          "Aplicación",
+          "Presentación",
+          "Red",
+          "Sesión"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "8a032e80b9d5003c",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What does LTS stand for in the software market?",
+        "options": [
+          "Ludicrous Transfer Speed",
+          "Long Taco Service",
+          "Long Term Support",
+          "Ludicrous Turbo Speed"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Que signifie LTS dans le monde du logiciel ?",
+        "options": [
+          "Ludicrous Transfer Speed",
+          "Long Taco Service",
+          "Long Term Support",
+          "Ludicrous Turbo Speed"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué significa LTS en el ámbito del software?",
+        "options": [
+          "Ludicrous Transfer Speed",
+          "Long Taco Service",
+          "Long Term Support",
+          "Ludicrous Turbo Speed"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "31b9a21f1cbf2647",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What is the most preferred image format used for logos in the Wikimedia database?",
+        "options": [
+          ".svg",
+          ".gif",
+          ".png",
+          ".jpeg"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel format d'image est privilégié pour les logos dans la base Wikimedia ?",
+        "options": [
+          ".svg",
+          ".gif",
+          ".png",
+          ".jpeg"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el formato de imagen preferido para los logotipos en la base Wikimedia?",
+        "options": [
+          ".svg",
+          ".gif",
+          ".png",
+          ".jpeg"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "83428b86261b5865",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What does CPU stand for?",
+        "options": [
+          "Central Process Unit",
+          "Central Processor Unit",
+          "Central Processing Unit",
+          "Computer Personal Unit"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Que signifie l'acronyme CPU ?",
+        "options": [
+          "Central Process Unit",
+          "Central Processor Unit",
+          "Central Processing Unit",
+          "Computer Personal Unit"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué significa el acrónimo CPU?",
+        "options": [
+          "Central Process Unit",
+          "Central Processor Unit",
+          "Central Processing Unit",
+          "Computer Personal Unit"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "b1c7f4bb358f043a",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "When Gmail first launched, how much storage did it provide for your email?",
+        "options": [
+          "512MB",
+          "Unlimited",
+          "1GB",
+          "5GB"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Au lancement de Gmail, combien d'espace de stockage pour vos e-mails était fourni ?",
+        "options": [
+          "512 Mo",
+          "Illimité",
+          "1 Go",
+          "5 Go"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Cuando Gmail se lanzó, ¿cuánto espacio de almacenamiento ofrecía para tu correo?",
+        "options": [
+          "512 MB",
+          "Ilimitado",
+          "1 GB",
+          "5 GB"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "21cc324bfcf74650",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "The numbering system with a radix of 16 is more commonly referred to as",
+        "options": [
+          "Octal",
+          "Duodecimal",
+          "Binary",
+          "Hexidecimal"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Le système de numération de base 16 est plus couramment appelé...",
+        "options": [
+          "Octal",
+          "Duodécimal",
+          "Binaire",
+          "Hexadécimal"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "El sistema de numeración con base 16 se conoce comúnmente como...",
+        "options": [
+          "Octal",
+          "Duodecimal",
+          "Binario",
+          "Hexadecimal"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "24291f367b49d76a",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What is the domain name for the country Tuvalu?",
+        "options": [
+          ".tv",
+          ".tl",
+          ".tu",
+          ".tt"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle est l'extension de domaine du pays Tuvalu ?",
+        "options": [
+          ".tv",
+          ".tl",
+          ".tu",
+          ".tt"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el dominio del país Tuvalu?",
+        "options": [
+          ".tv",
+          ".tl",
+          ".tu",
+          ".tt"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "a7a6602527665e68",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "On a standard American QWERTY keyboard, what symbol will you enter if you hold the shift key and press 1?",
+        "options": [
+          "Percent Sign",
+          "Dollar Sign",
+          "Exclamation Mark",
+          "Asterisk"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Sur un clavier QWERTY américain standard, quel symbole obtient-on en maintenant Maj et en appuyant sur 1 ?",
+        "options": [
+          "Le signe pourcentage",
+          "Le signe dollar",
+          "Le point d'exclamation",
+          "L'astérisque"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En un teclado QWERTY estadounidense estándar, ¿qué símbolo se obtiene manteniendo Shift y pulsando 1?",
+        "options": [
+          "Signo de porcentaje",
+          "Signo de dólar",
+          "Signo de exclamación",
+          "Asterisco"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "68ede59654799396",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "What language does Node.js use?",
+        "options": [
+          "Joomla Source Code",
+          "Java Source",
+          "Java",
+          "JavaScript"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel langage utilise Node.js ?",
+        "options": [
+          "Joomla Source Code",
+          "Java Source",
+          "Java",
+          "JavaScript"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué lenguaje usa Node.js?",
+        "options": [
+          "Joomla Source Code",
+          "Java Source",
+          "Java",
+          "JavaScript"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "e66489462d880f1f",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "The C programming language was created by this American computer scientist.",
+        "options": [
+          "Dennis Ritchie",
+          "Tim Berners Lee",
+          "Willis Ware",
+          "al-Khwārizmī"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Le langage de programmation C a été créé par cet informaticien américain.",
+        "options": [
+          "Dennis Ritchie",
+          "Tim Berners-Lee",
+          "Willis Ware",
+          "Al-Khwârizmî"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "El lenguaje de programación C fue creado por este informático estadounidense.",
+        "options": [
+          "Dennis Ritchie",
+          "Tim Berners-Lee",
+          "Willis Ware",
+          "Al-Juarismi"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "b84fe9649517ba33",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Which SQL keyword is used to fetch data from a database?",
+        "options": [
+          "SELECT",
+          "INDEX",
+          "VALUES",
+          "EXEC"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel mot-clé SQL est utilisé pour récupérer des données dans une base ?",
+        "options": [
+          "SELECT",
+          "INDEX",
+          "VALUES",
+          "EXEC"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué palabra clave de SQL se utiliza para obtener datos de una base de datos?",
+        "options": [
+          "SELECT",
+          "INDEX",
+          "VALUES",
+          "EXEC"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "1684f7abda30bbd3",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Which computer hardware device provides an interface for all other connected devices to communicate?",
+        "options": [
+          "Central Processing Unit",
+          "Motherboard",
+          "Random Access Memory",
+          "Hard Disk Drive"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel composant informatique fournit l'interface permettant à tous les autres périphériques connectés de communiquer ?",
+        "options": [
+          "Processeur (CPU)",
+          "Carte mère",
+          "Mémoire vive (RAM)",
+          "Disque dur"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué componente de hardware proporciona la interfaz para que todos los demás dispositivos conectados se comuniquen?",
+        "options": [
+          "Procesador (CPU)",
+          "Placa base",
+          "Memoria RAM",
+          "Disco duro"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "484be26c664becdf",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What kind of memory is used on memory cache?",
+        "options": [
+          "Flash",
+          "ROM",
+          "SRAM",
+          "DRAM"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel type de mémoire est utilisé pour la mémoire cache ?",
+        "options": [
+          "Flash",
+          "ROM",
+          "SRAM",
+          "DRAM"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué tipo de memoria se utiliza para la memoria caché?",
+        "options": [
+          "Flash",
+          "ROM",
+          "SRAM",
+          "DRAM"
+        ],
+        "explanation": ""
+      }
+    }
   }
 ]
