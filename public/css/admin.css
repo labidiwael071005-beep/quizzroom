@@ -1,6 +1,11 @@
 /* admin.css — Back-office SquizzGame
    Reprend les variables de style.css (--surface, --orange, --text, etc.) */
 
+/* Défense en profondeur : si une classe (display:flex/grid) override l'attribut
+   natif [hidden], le dashboard/modal apparaîtrait quand même au boot. On
+   force display:none sur tout élément porteur de [hidden]. */
+[hidden] { display: none !important; }
+
 .admin-body { min-height: 100vh; padding: 0; }
 
 /* ── Login ───────────────────────────────────────────────── */

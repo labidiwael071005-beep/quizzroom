@@ -26,11 +26,9 @@ function showToast(msg, type = '') {
   el._timer = setTimeout(() => el.classList.remove('show'), 3000);
 }
 
-function getToken() { return localStorage.getItem(TOKEN_KEY) || ''; }
-function setToken(t) {
-  if (t) localStorage.setItem(TOKEN_KEY, t);
-  else   localStorage.removeItem(TOKEN_KEY);
-}
+function getToken()   { return localStorage.getItem(TOKEN_KEY) || ''; }
+function setToken(t)  { if (t) localStorage.setItem(TOKEN_KEY, t); else clearToken(); }
+function clearToken() { localStorage.removeItem(TOKEN_KEY); }
 
 // Wrapper fetch authentifié — déclenche un logout silencieux sur 401.
 async function api(path, opts = {}) {
@@ -59,6 +57,10 @@ const loginSection = document.getElementById('login-section');
 const dashSection  = document.getElementById('dashboard');
 
 function showLogin() {
+  // Garantit un état "déconnecté" propre : modal fermé + dashboard caché.
+  // Sans ce reset, un dashboard ouvert puis logout laisserait le modal
+  // ouvert au prochain affichage du login.
+  document.getElementById('modal').hidden = true;
   loginSection.hidden = false;
   dashSection.hidden  = true;
   document.getElementById('login-pwd').value = '';
@@ -329,9 +331,30 @@ async function deleteQuestion(id) {
 }
 
 // ── Boot ─────────────────────────────────────────────────────
-if (getToken()) {
-  // On essaie de charger les stats — si 401, api() reset le token et bascule sur login
-  showDashboard();
-} else {
+// On part TOUJOURS de l'état "login + modal fermé" pour éviter qu'un
+// dashboard / modal flashe à l'écran le temps que la vérif réseau revienne.
+// Le token local est seulement un indice ; on le revalide auprès du serveur
+// avant d'afficher le moindre élément protégé.
+async function boot() {
+  document.getElementById('modal').hidden = true;
   showLogin();
+
+  const token = getToken();
+  if (!token) return;
+
+  try {
+    const r = await fetch('/api/admin/stats', {
+      headers: { 'Authorization': 'Bearer ' + token },
+    });
+    if (r.ok) {
+      showDashboard();
+    } else {
+      clearToken();
+      showLogin();
+    }
+  } catch (_) {
+    // Réseau KO → on reste sur login, l'user retentera
+    showLogin();
+  }
 }
+boot();
