@@ -3898,5 +3898,1955 @@
         "explanation": ""
       }
     }
+  },
+  {
+    "sourceRef": "0c1f06dc58e39d7a",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What prime number comes next after 19?",
+        "options": [
+          "21",
+          "27",
+          "23",
+          "25"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel nombre premier vient juste après 19 ?",
+        "options": [
+          "21",
+          "27",
+          "23",
+          "25"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué número primo viene justo después del 19?",
+        "options": [
+          "21",
+          "27",
+          "23",
+          "25"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "c9905abcfdb05765",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "The metric prefix \"atto-\" makes a measurement how much smaller than the base unit?",
+        "options": [
+          "One Quadrillionth",
+          "One Quintillionth",
+          "One Septillionth",
+          "One Billionth"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Le préfixe métrique « atto- » rend une mesure combien de fois plus petite que l'unité de base ?",
+        "options": [
+          "Un quadrillionième",
+          "Un quintillionième",
+          "Un septillionième",
+          "Un milliardième"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "El prefijo métrico «atto-» hace que una medida sea cuántas veces más pequeña que la unidad base?",
+        "options": [
+          "Una mil billonésima",
+          "Una trillonésima",
+          "Una mil cuatrillonésima",
+          "Una mil millonésima"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "d150a2b90a09edb3",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "How many sides does a Möbius strip have?",
+        "options": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Combien de faces possède un ruban de Möbius ?",
+        "options": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuántas caras tiene una banda de Möbius?",
+        "options": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "af6120d5590db048",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "Which of the following is not one of the seven Millennium Prize Problems?",
+        "options": [
+          "Birch and Swinnerton-Dyer Conjecture",
+          "Poincaré conjecture",
+          "Riemann hypothesis",
+          "Naviér conjecture"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Lequel des problèmes suivants ne fait PAS partie des sept Problèmes du prix du millénaire ?",
+        "options": [
+          "Conjecture de Birch et Swinnerton-Dyer",
+          "Conjecture de Poincaré",
+          "Hypothèse de Riemann",
+          "Conjecture de Navier"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de los siguientes NO es uno de los siete Problemas del Premio del Milenio?",
+        "options": [
+          "Conjetura de Birch y Swinnerton-Dyer",
+          "Conjetura de Poincaré",
+          "Hipótesis de Riemann",
+          "Conjetura de Navier"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "9d14df41e32e9267",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What is the correct order of operations for solving equations?",
+        "options": [
+          "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
+          "Addition, Multiplication, Division, Subtraction, Addition, Parentheses",
+          "The order in which the operations are written.",
+          "Parentheses, Exponents, Addition, Substraction, Multiplication, Division"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est l'ordre correct des opérations pour résoudre une équation ?",
+        "options": [
+          "Parenthèses, exposants, multiplication, division, addition, soustraction",
+          "Addition, multiplication, division, soustraction, addition, parenthèses",
+          "L'ordre dans lequel les opérations sont écrites.",
+          "Parenthèses, exposants, addition, soustraction, multiplication, division"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el orden correcto de las operaciones para resolver una ecuación?",
+        "options": [
+          "Paréntesis, exponentes, multiplicación, división, suma, resta",
+          "Suma, multiplicación, división, resta, suma, paréntesis",
+          "El orden en que están escritas las operaciones.",
+          "Paréntesis, exponentes, suma, resta, multiplicación, división"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "8ec8e1cd01eac3db",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "How many square faces does a cube have?",
+        "options": [
+          "4",
+          "8",
+          "6",
+          "10"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Combien de faces carrées possède un cube ?",
+        "options": [
+          "4",
+          "8",
+          "6",
+          "10"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuántas caras cuadradas tiene un cubo?",
+        "options": [
+          "4",
+          "8",
+          "6",
+          "10"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "1516677cf6c81f8e",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "How many sides does a trapezium have?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "6"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Combien de côtés compte un trapèze ?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "6"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuántos lados tiene un trapecio?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "6"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "1cbd5c0b8b7ab273",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What is the mathematician Euler's first name?",
+        "options": [
+          "Lionel",
+          "Ajan",
+          "Leonhard",
+          "Andrin"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est le prénom du mathématicien Euler ?",
+        "options": [
+          "Lionel",
+          "Ajan",
+          "Leonhard",
+          "Andrin"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el primer nombre del matemático Euler?",
+        "options": [
+          "Lionel",
+          "Ajan",
+          "Leonhard",
+          "Andrin"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "16aff11d0ca04b30",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What's the square root of 49?",
+        "options": [
+          "9",
+          "4",
+          "7",
+          "12"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle est la racine carrée de 49 ?",
+        "options": [
+          "9",
+          "4",
+          "7",
+          "12"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es la raíz cuadrada de 49?",
+        "options": [
+          "9",
+          "4",
+          "7",
+          "12"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "a72546a23fe02e7f",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "Who proved Fermat's Last Theorem?",
+        "options": [
+          "Leonhard Euler",
+          "Srinivasa Ramanujan",
+          "Carl Friedrich Gauss",
+          "Andrew Wiles"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Qui a démontré le dernier théorème de Fermat ?",
+        "options": [
+          "Leonhard Euler",
+          "Srinivasa Ramanujan",
+          "Carl Friedrich Gauss",
+          "Andrew Wiles"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Quién demostró el último teorema de Fermat?",
+        "options": [
+          "Leonhard Euler",
+          "Srinivasa Ramanujan",
+          "Carl Friedrich Gauss",
+          "Andrew Wiles"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "b3c011035050a4ce",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What is a polygon with eight sides called?",
+        "options": [
+          "Nanagon",
+          "Heptagon",
+          "Octagon",
+          "Hexagon"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Comment appelle-t-on un polygone à huit côtés ?",
+        "options": [
+          "Nanagone",
+          "Heptagone",
+          "Octogone",
+          "Hexagone"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cómo se llama un polígono de ocho lados?",
+        "options": [
+          "Nanágono",
+          "Heptágono",
+          "Octágono",
+          "Hexágono"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "2d5089a2fbd2c6cd",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What is the name of a nine sided polygon?",
+        "options": [
+          "Nonagon",
+          "Octagon",
+          "Hexagon",
+          "Heptagon"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Comment appelle-t-on un polygone à neuf côtés ?",
+        "options": [
+          "Ennéagone",
+          "Octogone",
+          "Hexagone",
+          "Heptagone"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cómo se llama un polígono de nueve lados?",
+        "options": [
+          "Nonágono",
+          "Octágono",
+          "Hexágono",
+          "Heptágono"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "248f32ce9afb757c",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "How many sides does a pentagon have?",
+        "options": [
+          "6",
+          "4",
+          "5",
+          "9"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Combien de côtés possède un pentagone ?",
+        "options": [
+          "6",
+          "4",
+          "5",
+          "9"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuántos lados tiene un pentágono?",
+        "options": [
+          "6",
+          "4",
+          "5",
+          "9"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "91a9e87a2c431231",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "How many sides does a heptagon have?",
+        "options": [
+          "9",
+          "7",
+          "4",
+          "5"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Combien de côtés possède un heptagone ?",
+        "options": [
+          "9",
+          "7",
+          "4",
+          "5"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuántos lados tiene un heptágono?",
+        "options": [
+          "9",
+          "7",
+          "4",
+          "5"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "3b2e1140d97aacb0",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "What is the least number of sides a polygon can have?",
+        "options": [
+          "1",
+          "3",
+          "7",
+          "2"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est le plus petit nombre de côtés qu'un polygone peut avoir ?",
+        "options": [
+          "1",
+          "3",
+          "7",
+          "2"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el menor número de lados que puede tener un polígono?",
+        "options": [
+          "1",
+          "3",
+          "7",
+          "2"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "f475c5d03bd23e5b",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "How many degrees make a full circle?",
+        "options": [
+          "360",
+          "90",
+          "180",
+          "720"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Combien de degrés forment un cercle complet ?",
+        "options": [
+          "360",
+          "90",
+          "180",
+          "720"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuántos grados forman un círculo completo?",
+        "options": [
+          "360",
+          "90",
+          "180",
+          "720"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "262e02a698b93497",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "In Roman Numerals, what does XL equate to?",
+        "options": [
+          "15",
+          "60",
+          "40",
+          "90"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "En chiffres romains, que vaut XL ?",
+        "options": [
+          "15",
+          "60",
+          "40",
+          "90"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En números romanos, ¿a qué equivale XL?",
+        "options": [
+          "15",
+          "60",
+          "40",
+          "90"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "363a89410dbd8403",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What type of angle is greater than 90°?",
+        "options": [
+          "Straight",
+          "Right",
+          "Obtuse",
+          "Acute"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel type d'angle mesure plus de 90° ?",
+        "options": [
+          "Plat",
+          "Droit",
+          "Obtus",
+          "Aigu"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué tipo de ángulo mide más de 90°?",
+        "options": [
+          "Llano",
+          "Recto",
+          "Obtuso",
+          "Agudo"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "fbcfc44ecebc0f67",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What is the symbol for Displacement?",
+        "options": [
+          "Δr",
+          "Dp",
+          "r",
+          "dr"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est le symbole du déplacement ?",
+        "options": [
+          "Δr",
+          "Dp",
+          "r",
+          "dr"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el símbolo del desplazamiento?",
+        "options": [
+          "Δr",
+          "Dp",
+          "r",
+          "dr"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "c44fab586f30714e",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "In the hexadecimal system, what number comes after 9?",
+        "options": [
+          "10",
+          "The Number 0",
+          "The Letter A",
+          "16"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Dans le système hexadécimal, quel symbole vient après 9 ?",
+        "options": [
+          "10",
+          "Le chiffre 0",
+          "La lettre A",
+          "16"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En el sistema hexadecimal, ¿qué símbolo viene después del 9?",
+        "options": [
+          "10",
+          "El número 0",
+          "La letra A",
+          "16"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "ddbdc0fbf25c5b78",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Which of these Roman gods doesn't have a counterpart in Greek mythology?",
+        "options": [
+          "Mars",
+          "Janus",
+          "Juno",
+          "Vulcan"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Lequel de ces dieux romains n'a PAS d'équivalent dans la mythologie grecque ?",
+        "options": [
+          "Mars",
+          "Janus",
+          "Junon",
+          "Vulcain"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de estos dioses romanos NO tiene contraparte en la mitología griega?",
+        "options": [
+          "Marte",
+          "Jano",
+          "Juno",
+          "Vulcano"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "373a2c8519864fb0",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "This Greek mythological figure is the god/goddess of battle strategy (among other things).",
+        "options": [
+          "Ares",
+          "Apollo",
+          "Athena",
+          "Artemis"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Cette figure de la mythologie grecque est le dieu/la déesse de la stratégie militaire (entre autres).",
+        "options": [
+          "Arès",
+          "Apollon",
+          "Athéna",
+          "Artémis"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Esta figura de la mitología griega es el dios/diosa de la estrategia militar (entre otras cosas).",
+        "options": [
+          "Ares",
+          "Apolo",
+          "Atenea",
+          "Ártemis"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "d1e90bbeef5c985d",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "In African mythology, Anansi is a trickster and storyteller who takes the shape of which animal?",
+        "options": [
+          "Monkey",
+          "Crocodile",
+          "Spider",
+          "Wild dog"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Dans la mythologie africaine, Anansi est un filou et conteur qui prend la forme de quel animal ?",
+        "options": [
+          "Singe",
+          "Crocodile",
+          "Araignée",
+          "Chien sauvage"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En la mitología africana, Anansi es un embaucador y narrador que toma la forma de qué animal?",
+        "options": [
+          "Mono",
+          "Cocodrilo",
+          "Araña",
+          "Perro salvaje"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "4470be1dfd94783e",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "The Norse god Odin has two pet crows named \"Huginn\" and \"Muninn\".  What do their names mean?",
+        "options": [
+          "War & Learning",
+          "Sleeping & Waking",
+          "Thought & Memory",
+          "Power & Peace"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Le dieu nordique Odin possède deux corbeaux apprivoisés, « Huginn » et « Muninn ». Que signifient leurs noms ?",
+        "options": [
+          "Guerre & Savoir",
+          "Sommeil & Éveil",
+          "Pensée & Mémoire",
+          "Pouvoir & Paix"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "El dios nórdico Odín tiene dos cuervos mascota llamados «Huginn» y «Muninn». ¿Qué significan sus nombres?",
+        "options": [
+          "Guerra y Conocimiento",
+          "Sueño y Vigilia",
+          "Pensamiento y Memoria",
+          "Poder y Paz"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "7ba84a3a92025ac8",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What is the name of the Greek god of blacksmiths?",
+        "options": [
+          "Vulcan",
+          "Artagatus",
+          "Hephaestus",
+          "Dyntos"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est le nom du dieu grec des forgerons ?",
+        "options": [
+          "Vulcain",
+          "Artagatus",
+          "Héphaïstos",
+          "Dyntos"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el nombre del dios griego de los herreros?",
+        "options": [
+          "Vulcano",
+          "Artagatus",
+          "Hefesto",
+          "Dyntos"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "baa8bee49c5a2b3f",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "In Norse Mythology, Baldr was killed by Loki with a magical spear made from what plant?",
+        "options": [
+          "Buckthorn",
+          "Hemlock",
+          "Wolf's Bane",
+          "Mistletoe"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Dans la mythologie nordique, Baldr fut tué par Loki avec une lance magique faite à partir de quelle plante ?",
+        "options": [
+          "Nerprun",
+          "Ciguë",
+          "Aconit",
+          "Gui"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En la mitología nórdica, Baldr fue asesinado por Loki con una lanza mágica hecha de qué planta?",
+        "options": [
+          "Espino cerval",
+          "Cicuta",
+          "Acónito",
+          "Muérdago"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "3903c750d4913072",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Who is the God Loki's son?",
+        "options": [
+          "Sigyn",
+          "Fenrir",
+          "Odin",
+          "Hel"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Qui est le fils du dieu Loki ?",
+        "options": [
+          "Sigyn",
+          "Fenrir",
+          "Odin",
+          "Hel"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Quién es el hijo del dios Loki?",
+        "options": [
+          "Sigyn",
+          "Fenrir",
+          "Odín",
+          "Hel"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "773112e9e17ca6d1",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Hel was the daughter of which Norse Mythological figure?",
+        "options": [
+          "Thor",
+          "Loki",
+          "Odin",
+          "Balder"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Hel était la fille de quelle figure de la mythologie nordique ?",
+        "options": [
+          "Thor",
+          "Loki",
+          "Odin",
+          "Baldr"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Hel era hija de qué figura de la mitología nórdica?",
+        "options": [
+          "Thor",
+          "Loki",
+          "Odín",
+          "Baldr"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "1502c5a9ff31421c",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "According to the Egyptian Myth of Osiris, who murdered Osiris?",
+        "options": [
+          "Ra",
+          "Anhur",
+          "Set",
+          "Horus"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Selon le mythe égyptien d'Osiris, qui a assassiné Osiris ?",
+        "options": [
+          "Rê",
+          "Anhour",
+          "Seth",
+          "Horus"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Según el mito egipcio de Osiris, ¿quién mató a Osiris?",
+        "options": [
+          "Ra",
+          "Anhur",
+          "Seth",
+          "Horus"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "8a5df5ba131f8d8c",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "A minotaur is half human half what?",
+        "options": [
+          "Bull",
+          "Horse",
+          "Eagle",
+          "Cow"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Un minotaure est mi-humain, mi-quoi ?",
+        "options": [
+          "Taureau",
+          "Cheval",
+          "Aigle",
+          "Vache"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Un minotauro es mitad humano y mitad qué?",
+        "options": [
+          "Toro",
+          "Caballo",
+          "Águila",
+          "Vaca"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "2ac46dbc2d08e04d",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "Hera is god of...",
+        "options": [
+          "War",
+          "Sea",
+          "Agriculture",
+          "Marriage"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Héra est la déesse de…",
+        "options": [
+          "La guerre",
+          "La mer",
+          "L'agriculture",
+          "Le mariage"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Hera es la diosa del…",
+        "options": [
+          "La guerra",
+          "El mar",
+          "La agricultura",
+          "El matrimonio"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "e2c9a2da419540d0",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "According to Japanese folklore, what is the favorite food of the Kappa.",
+        "options": [
+          "Nasu",
+          "Kabocha",
+          "Soba",
+          "Cucumbers"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Selon le folklore japonais, quel est l'aliment préféré du Kappa ?",
+        "options": [
+          "Le nasu",
+          "Le kabocha",
+          "Les soba",
+          "Les concombres"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Según el folklore japonés, ¿cuál es la comida favorita del Kappa?",
+        "options": [
+          "Nasu",
+          "Kabocha",
+          "Soba",
+          "Pepinos"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "279c6c7c624b9d3b",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Who was the Roman god of fire?",
+        "options": [
+          "Mercury",
+          "Vulcan",
+          "Jupiter",
+          "Apollo"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Qui était le dieu romain du feu ?",
+        "options": [
+          "Mercure",
+          "Vulcain",
+          "Jupiter",
+          "Apollon"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Quién era el dios romano del fuego?",
+        "options": [
+          "Mercurio",
+          "Vulcano",
+          "Júpiter",
+          "Apolo"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "0036700d512aa5c3",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "In Greek Mythology, who killed Achilles?",
+        "options": [
+          "Hector",
+          "Pericles",
+          "Paris",
+          "Helen"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Dans la mythologie grecque, qui a tué Achille ?",
+        "options": [
+          "Hector",
+          "Périclès",
+          "Pâris",
+          "Hélène"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En la mitología griega, ¿quién mató a Aquiles?",
+        "options": [
+          "Héctor",
+          "Pericles",
+          "Paris",
+          "Helena"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "8aa037e8983bf56e",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "In Norse Mythology, what is the name of the symbol commonly referred to as the \"Tree of Life\"?",
+        "options": [
+          "Odin's Roots",
+          "Tree of the Earth",
+          "Yggdrasil",
+          "Ymir"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Dans la mythologie nordique, quel est le nom du symbole communément appelé « l'arbre de vie » ?",
+        "options": [
+          "Les racines d'Odin",
+          "L'arbre de la Terre",
+          "Yggdrasil",
+          "Ymir"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En la mitología nórdica, ¿cuál es el nombre del símbolo conocido como el «Árbol de la Vida»?",
+        "options": [
+          "Las raíces de Odín",
+          "El árbol de la Tierra",
+          "Yggdrasil",
+          "Ymir"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "b96e719e9e8b7f17",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "The Hippogriff, not to be confused with the Griffon, is a magical creature with the front half of an eagle, and the back half of what?",
+        "options": [
+          "A Tiger",
+          "A Dragon",
+          "A Horse",
+          "A Lion"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "L'Hippogriffe, à ne pas confondre avec le Griffon, est une créature magique dont l'avant est un aigle, et l'arrière celui de quel animal ?",
+        "options": [
+          "Un tigre",
+          "Un dragon",
+          "Un cheval",
+          "Un lion"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "El hipogrifo, que no debe confundirse con el grifo, es una criatura mágica cuya parte delantera es un águila y la parte trasera es de qué animal?",
+        "options": [
+          "Un tigre",
+          "Un dragón",
+          "Un caballo",
+          "Un león"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "7e065c68d56a87ea",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "In Greek mythology, Persephone must return to the underworld because she had eaten what kind of seeds?",
+        "options": [
+          "Pomegranate",
+          "Sunflower",
+          "Fig",
+          "Orange"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Dans la mythologie grecque, Perséphone doit retourner aux Enfers car elle a mangé quels pépins ?",
+        "options": [
+          "De grenade",
+          "De tournesol",
+          "De figue",
+          "D'orange"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En la mitología griega, Perséfone debe regresar al inframundo porque comió qué tipo de semillas?",
+        "options": [
+          "De granada",
+          "De girasol",
+          "De higo",
+          "De naranja"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "5a7eda5a4614241d",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "What animal did Queen Pasipahe sleep with before she gave birth to the Minotaur in Greek Mythology?",
+        "options": [
+          "Horse",
+          "Ox",
+          "Pig",
+          "Bull"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Dans la mythologie grecque, avec quel animal la reine Pasiphaé s'est-elle accouplée avant de mettre au monde le Minotaure ?",
+        "options": [
+          "Cheval",
+          "Bœuf",
+          "Cochon",
+          "Taureau"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En la mitología griega, ¿con qué animal se acostó la reina Pasífae antes de dar a luz al Minotauro?",
+        "options": [
+          "Caballo",
+          "Buey",
+          "Cerdo",
+          "Toro"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "cf1d215fea407dde",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What is the name of the Greek god of peaceful deaths?",
+        "options": [
+          "Moros",
+          "Hades",
+          "Thanatos",
+          "Tartarus"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est le nom du dieu grec des morts paisibles ?",
+        "options": [
+          "Moros",
+          "Hadès",
+          "Thanatos",
+          "Tartare"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el nombre del dios griego de las muertes pacíficas?",
+        "options": [
+          "Moros",
+          "Hades",
+          "Tánatos",
+          "Tártaro"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "137bfa941f91c08b",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "Which of the following Mesopotamian mythological figures was NOT a deity?",
+        "options": [
+          "Enlil",
+          "Enkimdu",
+          "Enkidu",
+          "Enki"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Laquelle de ces figures mythologiques mésopotamiennes n'était PAS une divinité ?",
+        "options": [
+          "Enlil",
+          "Enkimdu",
+          "Enkidu",
+          "Enki"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de las siguientes figuras mitológicas mesopotámicas NO era una deidad?",
+        "options": [
+          "Enlil",
+          "Enkimdu",
+          "Enkidu",
+          "Enki"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "c8a4e3d1c54c6740",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "The Alps are a mountain range on which continent?",
+        "options": [
+          "Europe",
+          "Africa",
+          "North America",
+          "Asia"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Les Alpes sont une chaîne de montagnes située sur quel continent ?",
+        "options": [
+          "L'Europe",
+          "L'Afrique",
+          "L'Amérique du Nord",
+          "L'Asie"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Los Alpes son una cordillera ubicada en qué continente?",
+        "options": [
+          "Europa",
+          "África",
+          "América del Norte",
+          "Asia"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "50592c6356af9e45",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "Which of the following languages does NOT use the Latin alphabet?",
+        "options": [
+          "Turkish",
+          "Vietnamese",
+          "Georgian",
+          "Swahili"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Laquelle des langues suivantes n'utilise PAS l'alphabet latin ?",
+        "options": [
+          "Turc",
+          "Vietnamien",
+          "Géorgien",
+          "Swahili"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de los siguientes idiomas NO utiliza el alfabeto latino?",
+        "options": [
+          "Turco",
+          "Vietnamita",
+          "Georgiano",
+          "Suajili"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "c910deffb32bb50b",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Which country was NOT part of the Soviet Union?",
+        "options": [
+          "Turkmenistan",
+          "Romania",
+          "Belarus",
+          "Tajikistan"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel pays n'a PAS fait partie de l'Union soviétique ?",
+        "options": [
+          "Turkménistan",
+          "Roumanie",
+          "Biélorussie",
+          "Tadjikistan"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué país NO formó parte de la Unión Soviética?",
+        "options": [
+          "Turkmenistán",
+          "Rumanía",
+          "Bielorrusia",
+          "Tayikistán"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "433c7eddbb4cc1bd",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Which city is the biggest in Canada?",
+        "options": [
+          "Toronto",
+          "Montreal",
+          "Vancouver",
+          "Ottawa"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle est la plus grande ville du Canada ?",
+        "options": [
+          "Toronto",
+          "Montréal",
+          "Vancouver",
+          "Ottawa"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es la ciudad más grande de Canadá?",
+        "options": [
+          "Toronto",
+          "Montreal",
+          "Vancouver",
+          "Ottawa"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "64d72b89bfa265ab",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "Which of the following countries has a flag featuring a yellow lion wielding a sword on a dark red background?",
+        "options": [
+          "Scotland",
+          "Bhutan",
+          "Sri Lanka",
+          "Kiribati"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Lequel des pays suivants arbore un drapeau représentant un lion jaune brandissant une épée sur fond rouge foncé ?",
+        "options": [
+          "Écosse",
+          "Bhoutan",
+          "Sri Lanka",
+          "Kiribati"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de los siguientes países tiene una bandera con un león amarillo blandiendo una espada sobre fondo rojo oscuro?",
+        "options": [
+          "Escocia",
+          "Bután",
+          "Sri Lanka",
+          "Kiribati"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "c77e133ebe0b340d",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What is the name of the ocean that Hawaii is located in?",
+        "options": [
+          "Arctic",
+          "Atlantic",
+          "Pacific",
+          "Indian"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Dans quel océan se trouve Hawaï ?",
+        "options": [
+          "Arctique",
+          "Atlantique",
+          "Pacifique",
+          "Indien"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿En qué océano se encuentra Hawái?",
+        "options": [
+          "Ártico",
+          "Atlántico",
+          "Pacífico",
+          "Índico"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "9b772861617cc43e",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "Which Borough is the farthest in the north of New York City?",
+        "options": [
+          "Queens",
+          "Manhattan",
+          "Bronx",
+          "Brooklyn"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel arrondissement (borough) est le plus au nord de New York ?",
+        "options": [
+          "Queens",
+          "Manhattan",
+          "Bronx",
+          "Brooklyn"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué distrito (borough) está más al norte de Nueva York?",
+        "options": [
+          "Queens",
+          "Manhattan",
+          "Bronx",
+          "Brooklyn"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "9176ce42cf90e0b2",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What country has a horizontal bicolor red and white flag?",
+        "options": [
+          "Monaco",
+          "Bahrain",
+          "Liechenstein",
+          "Malta"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel pays a un drapeau bicolore horizontal rouge et blanc ?",
+        "options": [
+          "Monaco",
+          "Bahreïn",
+          "Liechtenstein",
+          "Malte"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué país tiene una bandera bicolor horizontal roja y blanca?",
+        "options": [
+          "Mónaco",
+          "Baréin",
+          "Liechtenstein",
+          "Malta"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "a158350902cfacb2",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What is the capital of Jamaica?",
+        "options": [
+          "Bridgetown",
+          "Port-au-Prince",
+          "Kingston",
+          "San Juan"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle est la capitale de la Jamaïque ?",
+        "options": [
+          "Bridgetown",
+          "Port-au-Prince",
+          "Kingston",
+          "San Juan"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es la capital de Jamaica?",
+        "options": [
+          "Bridgetown",
+          "Puerto Príncipe",
+          "Kingston",
+          "San Juan"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "69d14c1c513008a3",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "What is Canada's smallest province?",
+        "options": [
+          "Yukon",
+          "Prince Edward Island",
+          "New Brunswick",
+          "Nova Scotia"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle est la plus petite province du Canada ?",
+        "options": [
+          "Yukon",
+          "Île-du-Prince-Édouard",
+          "Nouveau-Brunswick",
+          "Nouvelle-Écosse"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es la provincia más pequeña de Canadá?",
+        "options": [
+          "Yukón",
+          "Isla del Príncipe Eduardo",
+          "Nuevo Brunswick",
+          "Nueva Escocia"
+        ],
+        "explanation": ""
+      }
+    }
   }
 ]
