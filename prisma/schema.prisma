@@ -11,13 +11,15 @@ datasource db {
 model Question {
   id            String   @id @default(cuid())
   question      String   @db.Text
-  language      String   @default("fr")        // fr, en, es
+  language      String   @default("fr")        // fr, en, es — langue de référence (legacy mono-langue)
   theme         String                          // general, science, histoire, sport, art, geo, etc.
   difficulty    String   @default("medium")     // easy, medium, hard
   type          String   @default("qcm")        // qcm, pixel, geo
 
-  // QCM (et Pixel — qui est un QCM avec image)
-  options       Json?                           // array of strings
+  // QCM (et Pixel — qui est un QCM avec image). En multilingue, l'ordre des
+  // options dans chaque traduction DOIT être le même que celui-ci (correctIndex
+  // est partagé entre toutes les langues, c'est la SOURCE DE VÉRITÉ).
+  options       Json?                           // array of strings (legacy / fallback)
   correctIndex  Int?
 
   // Pixel — métadonnées d'attribution (Wikimedia / Creative Commons).
@@ -27,7 +29,8 @@ model Question {
   creditUrl     String?
   license       String?
 
-  // Geo
+  // Geo — la position (lat/lng) est NEUTRE en langue : c'est elle qui sert à
+  // la validation, pas le label. Le label/country (legacy) restent en FR.
   lat           Float?
   lng           Float?
   label         String?
@@ -37,6 +40,7 @@ model Question {
   explanation   String   @db.Text
   source        String   @default("manual")    // OpenTriviaDB, ClaudeAPI, manual, admin
   status        String   @default("approved")  // draft, approved, reported, rejected
+  sourceRef     String?  @unique               // hash de dédoublonnage pour les imports futurs
 
   // Stats
   timesShown    Int      @default(0)
@@ -47,11 +51,32 @@ model Question {
   // Relations
   reports       QuestionReport[]
   gameSessions  GameSession[]
+  translations  QuestionTranslation[]
 
   @@index([language])
   @@index([theme])
   @@index([difficulty])
   @@index([type])
+}
+
+// Traduction d'une Question dans une langue donnée. La clé business est
+// (questionId, language). L'ordre des options DOIT correspondre à
+// Question.options / Question.correctIndex (validé serveur côté backfill).
+model QuestionTranslation {
+  id          String   @id @default(cuid())
+  questionId  String
+  question    Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  language    String                            // fr, en, es
+  text        String   @db.Text                 // texte de la question (traduit)
+  options     Json?                             // réponses traduites — MÊME ORDRE que correctIndex
+  explanation String   @db.Text                 // anecdote traduite
+  label       String?                           // géo : nom du lieu traduit
+  country     String?                           // géo : pays traduit
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([questionId, language])
+  @@index([language])
 }
 
 model GameSession {
@@ -73,10 +98,18 @@ model QuestionReport {
   id         String   @id @default(cuid())
   questionId String
   question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
-  reason     String   @db.Text
+  // Legacy : champ libre conservé pour ne pas casser d'anciens reports.
+  // Les nouveaux signalements utilisent `category` + `comment`.
+  reason     String?  @db.Text
+  language   String?                                  // version affichée au joueur lors du signalement
+  category   String   @default("other")               // translation, wrong_answer, typo, other
+  comment    String?  @db.Text                        // texte libre optionnel du joueur
+  roomCode   String?
+  status     String   @default("open")                // open, resolved
   createdAt  DateTime @default(now())
 
   @@index([questionId])
+  @@index([status])
 }
 
 model AdminUser {
