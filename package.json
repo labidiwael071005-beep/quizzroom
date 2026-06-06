@@ -11,6 +11,7 @@
     "seed": "node scripts/seed-questions.js",
     "backfill": "node scripts/backfill-translations.js",
     "otdb:fetch": "node scripts/otdb-fetch.js",
+    "otdb:translate": "node scripts/otdb-translate.js",
     "otdb:seed": "node scripts/otdb-seed.js",
     "postinstall": "prisma generate"
   },

@@ -1,0 +1,1952 @@
+[
+  {
+    "sourceRef": "1bb709ccb425b13c",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What is the name of Poland in Polish?",
+        "options": [
+          "Polska",
+          "Pupcia",
+          "Polszka",
+          "Póland"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Comment dit-on « Pologne » en polonais ?",
+        "options": [
+          "Polska",
+          "Pupcia",
+          "Polszka",
+          "Póland"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cómo se dice «Polonia» en polaco?",
+        "options": [
+          "Polska",
+          "Pupcia",
+          "Polszka",
+          "Póland"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "265f6e8f22cec82c",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What do sailors call the back of a boat?",
+        "options": [
+          "Starboard",
+          "Port",
+          "Stern",
+          "Bow"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Comment les marins appellent-ils l'arrière d'un bateau ?",
+        "options": [
+          "Tribord",
+          "Bâbord",
+          "Poupe",
+          "Proue"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cómo llaman los marineros a la parte trasera de un barco?",
+        "options": [
+          "Estribor",
+          "Babor",
+          "Popa",
+          "Proa"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "e00ae188629d8623",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "Who was the 1st President of Mexico?",
+        "options": [
+          "Miguel Hidalgo Y Costilla",
+          "Benito Juárez",
+          "Guadalupe Victoria",
+          "Vicente Guerrero"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Qui a été le 1er président du Mexique ?",
+        "options": [
+          "Miguel Hidalgo y Costilla",
+          "Benito Juárez",
+          "Guadalupe Victoria",
+          "Vicente Guerrero"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Quién fue el 1er presidente de México?",
+        "options": [
+          "Miguel Hidalgo y Costilla",
+          "Benito Juárez",
+          "Guadalupe Victoria",
+          "Vicente Guerrero"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "71750d719d2bf711",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What do sailors call the right side of a boat?",
+        "options": [
+          "Starboard",
+          "Stern",
+          "Port",
+          "Bow"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Comment les marins appellent-ils le côté droit d'un bateau ?",
+        "options": [
+          "Tribord",
+          "Poupe",
+          "Bâbord",
+          "Proue"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cómo llaman los marineros al lado derecho de un barco?",
+        "options": [
+          "Estribor",
+          "Popa",
+          "Babor",
+          "Proa"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "bb98cf68ec9af389",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "How many furlongs are there in a mile?",
+        "options": [
+          "Eight",
+          "Six",
+          "Two",
+          "Four"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Combien y a-t-il de furlongs dans un mile ?",
+        "options": [
+          "Huit",
+          "Six",
+          "Deux",
+          "Quatre"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuántos furlongs hay en una milla?",
+        "options": [
+          "Ocho",
+          "Seis",
+          "Dos",
+          "Cuatro"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "5efb915773baac92",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "In blood typing, the (+) and (-) marker after an A, B, AB, or O is called Rh factor. Which of the following is the source of its discovery?",
+        "options": [
+          "Red-Haired People",
+          "Rhesus Monkeys",
+          "Rhizomes",
+          "Rheumatism Patients"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "En groupes sanguins, le marqueur (+) ou (-) après un A, B, AB ou O est appelé facteur Rhésus. Lequel des éléments suivants est à l'origine de sa découverte ?",
+        "options": [
+          "Les personnes rousses",
+          "Les macaques rhésus",
+          "Les rhizomes",
+          "Les patients atteints de rhumatismes"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En los grupos sanguíneos, el marcador (+) o (-) tras una A, B, AB u O se llama factor Rh. ¿Cuál de los siguientes es el origen de su descubrimiento?",
+        "options": [
+          "Personas pelirrojas",
+          "Macacos rhesus",
+          "Rizomas",
+          "Pacientes con reumatismo"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "db12bf370df651d7",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Which company did Valve cooperate with in the creation of the Vive?",
+        "options": [
+          "Google",
+          "HTC",
+          "Razer",
+          "Oculus"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Avec quelle entreprise Valve a-t-elle collaboré pour la création du Vive ?",
+        "options": [
+          "Google",
+          "HTC",
+          "Razer",
+          "Oculus"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Con qué empresa colaboró Valve para crear el Vive?",
+        "options": [
+          "Google",
+          "HTC",
+          "Razer",
+          "Oculus"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "b0bfd9dda8a3a3a2",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "On a dartboard, what number is directly opposite No. 1?",
+        "options": [
+          "19",
+          "12",
+          "15",
+          "20"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Sur une cible de fléchettes, quel chiffre est directement opposé au 1 ?",
+        "options": [
+          "19",
+          "12",
+          "15",
+          "20"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En una diana de dardos, ¿qué número está directamente opuesto al 1?",
+        "options": [
+          "19",
+          "12",
+          "15",
+          "20"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "807fd6a90550c1bd",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What is the name of the poker hand containing three of a kind and a pair?",
+        "options": [
+          "Full House",
+          "High card",
+          "Straight",
+          "Flush"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Comment s'appelle la combinaison au poker contenant un brelan et une paire ?",
+        "options": [
+          "Full",
+          "Carte haute",
+          "Quinte",
+          "Couleur"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cómo se llama la jugada de póker que contiene un trío y una pareja?",
+        "options": [
+          "Full",
+          "Carta alta",
+          "Escalera",
+          "Color"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "63672e0c878e3aa7",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What do the letters of the fast food chain KFC stand for?",
+        "options": [
+          "Kentucky Fried Chicken",
+          "Kibbled Freaky Cow",
+          "Kentucky Fresh Cheese",
+          "Kiwi Food Cut"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Que signifient les lettres de la chaîne de fast-food KFC ?",
+        "options": [
+          "Kentucky Fried Chicken",
+          "Kibbled Freaky Cow",
+          "Kentucky Fresh Cheese",
+          "Kiwi Food Cut"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué significan las letras de la cadena de comida rápida KFC?",
+        "options": [
+          "Kentucky Fried Chicken",
+          "Kibbled Freaky Cow",
+          "Kentucky Fresh Cheese",
+          "Kiwi Food Cut"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "0164cebd7600ea7e",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "What technology is named after a tenth-century ruler of Denmark and Norway?",
+        "options": [
+          "Wi-Fi",
+          "Internet",
+          "GPS",
+          "Bluetooth"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle technologie tient son nom d'un roi du Danemark et de Norvège du Xe siècle ?",
+        "options": [
+          "Wi-Fi",
+          "Internet",
+          "GPS",
+          "Bluetooth"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué tecnología debe su nombre a un rey de Dinamarca y Noruega del siglo X?",
+        "options": [
+          "Wi-Fi",
+          "Internet",
+          "GPS",
+          "Bluetooth"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "760130c4bb3d770b",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "What company developed the vocaloid Hatsune Miku?",
+        "options": [
+          "Sega",
+          "Crypton Future Media",
+          "Yamaha Corporation",
+          "Sony"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle entreprise a développé la vocaloid Hatsune Miku ?",
+        "options": [
+          "Sega",
+          "Crypton Future Media",
+          "Yamaha Corporation",
+          "Sony"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué empresa desarrolló a la vocaloid Hatsune Miku?",
+        "options": [
+          "Sega",
+          "Crypton Future Media",
+          "Yamaha Corporation",
+          "Sony"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "12ad65c87bb77546",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "Which of these colours is NOT featured in the logo for Google?",
+        "options": [
+          "Blue",
+          "Yellow",
+          "Pink",
+          "Green"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Laquelle de ces couleurs n'est PAS présente dans le logo de Google ?",
+        "options": [
+          "Bleu",
+          "Jaune",
+          "Rose",
+          "Vert"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de estos colores NO aparece en el logo de Google?",
+        "options": [
+          "Azul",
+          "Amarillo",
+          "Rosa",
+          "Verde"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "49191cf4dbdd2181",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "What word represents the letter 'T' in the NATO phonetic alphabet?",
+        "options": [
+          "Taxi",
+          "Target",
+          "Turkey",
+          "Tango"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel mot représente la lettre « T » dans l'alphabet phonétique de l'OTAN ?",
+        "options": [
+          "Taxi",
+          "Target",
+          "Turkey",
+          "Tango"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué palabra representa la letra «T» en el alfabeto fonético de la OTAN?",
+        "options": [
+          "Taxi",
+          "Target",
+          "Turkey",
+          "Tango"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "baf19ec43de7bd4c",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "Which of these fast-food chains is NOT mainly known to sell pizza?",
+        "options": [
+          "Papa John's",
+          "Little Caesars",
+          "Domino's",
+          "Wendy's"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Laquelle de ces chaînes de fast-food n'est PAS principalement connue pour vendre des pizzas ?",
+        "options": [
+          "Papa John's",
+          "Little Caesars",
+          "Domino's",
+          "Wendy's"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de estas cadenas de comida rápida NO es conocida principalmente por vender pizzas?",
+        "options": [
+          "Papa John's",
+          "Little Caesars",
+          "Domino's",
+          "Wendy's"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "c7927488f98c6184",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "How many fingers does a single human hand have?",
+        "options": [
+          "Five",
+          "Four",
+          "Eight",
+          "Ten"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Combien de doigts compte une seule main humaine ?",
+        "options": [
+          "Cinq",
+          "Quatre",
+          "Huit",
+          "Dix"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuántos dedos tiene una mano humana?",
+        "options": [
+          "Cinco",
+          "Cuatro",
+          "Ocho",
+          "Diez"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "35172ba1b8e1205b",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "What is the perimeter of a circle more commonly known as?",
+        "options": [
+          "Radius",
+          "Diameter",
+          "Arc",
+          "Circumference"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Comment appelle-t-on plus communément le périmètre d'un cercle ?",
+        "options": [
+          "Rayon",
+          "Diamètre",
+          "Arc",
+          "Circonférence"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cómo se conoce más comúnmente el perímetro de un círculo?",
+        "options": [
+          "Radio",
+          "Diámetro",
+          "Arco",
+          "Circunferencia"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "ebab46bb623e2173",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "How many cards are there in a standard deck of playing cards?",
+        "options": [
+          "40",
+          "32",
+          "52",
+          "64"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Combien de cartes contient un jeu de cartes à jouer standard ?",
+        "options": [
+          "40",
+          "32",
+          "52",
+          "64"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuántas cartas hay en una baraja estándar de naipes?",
+        "options": [
+          "40",
+          "32",
+          "52",
+          "64"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "3ec50c8d6aa4bc3d",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "The file hosting service, \"Google Drive\" was launched on what day?",
+        "options": [
+          "November 14, 2008",
+          "January 12, 2014",
+          "January 20, 2010",
+          "April 24, 2012"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Le service d'hébergement de fichiers « Google Drive » a été lancé à quelle date ?",
+        "options": [
+          "14 novembre 2008",
+          "12 janvier 2014",
+          "20 janvier 2010",
+          "24 avril 2012"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿En qué fecha fue lanzado el servicio de almacenamiento de archivos «Google Drive»?",
+        "options": [
+          "14 de noviembre de 2008",
+          "12 de enero de 2014",
+          "20 de enero de 2010",
+          "24 de abril de 2012"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "4694f2fa0fee873f",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "When one is \"envious\", they are said to be what color?",
+        "options": [
+          "Blue",
+          "Green",
+          "Yellow",
+          "Red"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quand on est « envieux », on dit que l'on est de quelle couleur ?",
+        "options": [
+          "Bleu",
+          "Vert",
+          "Jaune",
+          "Rouge"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Cuando alguien está «envidioso», ¿de qué color se dice que está?",
+        "options": [
+          "Azul",
+          "Verde",
+          "Amarillo",
+          "Rojo"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "1314483919e9b1ed",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "In \"Jurassic World\", what is the name of the dinosaur that is a genetic hybrid?",
+        "options": [
+          "Tyrannosaurus Rex",
+          "Pteranodon",
+          "Mosasaurus",
+          "Indominus Rex"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Dans « Jurassic World », quel est le nom du dinosaure hybride génétique ?",
+        "options": [
+          "Tyrannosaurus Rex",
+          "Pteranodon",
+          "Mosasaurus",
+          "Indominus Rex"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En «Jurassic World», ¿cómo se llama el dinosaurio que es un híbrido genético?",
+        "options": [
+          "Tyrannosaurus Rex",
+          "Pteranodon",
+          "Mosasaurus",
+          "Indominus Rex"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "234cd3b55b5bb414",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "When does \"Rogue One: A Star Wars Story\" take place chronologically in the series?",
+        "options": [
+          "Before Episode 1",
+          "Between Episode 4 and 5",
+          "After Episode 6",
+          "Between Episode 3 and 4"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Chronologiquement dans la saga, à quel moment se déroule « Rogue One: A Star Wars Story » ?",
+        "options": [
+          "Avant l'Épisode 1",
+          "Entre les Épisodes 4 et 5",
+          "Après l'Épisode 6",
+          "Entre les Épisodes 3 et 4"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿En qué momento de la cronología de la saga transcurre «Rogue One: una historia de Star Wars»?",
+        "options": [
+          "Antes del Episodio 1",
+          "Entre los Episodios 4 y 5",
+          "Después del Episodio 6",
+          "Entre los Episodios 3 y 4"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "f56ec45093b5a0ed",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "What was the first feature-length computer-animated movie?",
+        "options": [
+          "101 Dalmatians",
+          "Lion king",
+          "Tron",
+          "Toy Story"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel a été le premier long-métrage en animation par ordinateur ?",
+        "options": [
+          "Les 101 Dalmatiens",
+          "Le Roi lion",
+          "Tron",
+          "Toy Story"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál fue la primera película larga animada íntegramente por ordenador?",
+        "options": [
+          "101 dálmatas",
+          "El rey león",
+          "Tron",
+          "Toy Story"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "b02c96b65d168067",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "Which actress danced the twist with John Travolta in 'Pulp Fiction'?",
+        "options": [
+          "Pam Grier",
+          "Bridget Fonda",
+          "Uma Thurman",
+          "Kathy Griffin"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle actrice a dansé le twist avec John Travolta dans « Pulp Fiction » ?",
+        "options": [
+          "Pam Grier",
+          "Bridget Fonda",
+          "Uma Thurman",
+          "Kathy Griffin"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué actriz bailó el twist con John Travolta en «Pulp Fiction»?",
+        "options": [
+          "Pam Grier",
+          "Bridget Fonda",
+          "Uma Thurman",
+          "Kathy Griffin"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "4c3981f26a9af4af",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "Which movie released in 2016 features Superman and Batman fighting?",
+        "options": [
+          "Batman v Superman: Knightfall",
+          "Batman v Superman: Black of Knight",
+          "Batman v Superman: Superapocalypse",
+          "Batman v Superman: Dawn of Justice"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel film sorti en 2016 met en scène un combat entre Superman et Batman ?",
+        "options": [
+          "Batman v Superman: Knightfall",
+          "Batman v Superman: Black of Knight",
+          "Batman v Superman: Superapocalypse",
+          "Batman v Superman: L'Aube de la Justice"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué película estrenada en 2016 muestra a Superman y Batman peleando?",
+        "options": [
+          "Batman v Superman: Knightfall",
+          "Batman v Superman: Black of Knight",
+          "Batman v Superman: Superapocalypse",
+          "Batman v Superman: El amanecer de la justicia"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "d70fd5614c3712b2",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Who played Deputy Marshal Samuel Gerard in the 1993 film \"The Fugitive\"?",
+        "options": [
+          "Martin Landau",
+          "Tommy Lee Jones",
+          "Harvey Keitel",
+          "Harrison Ford"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Qui jouait l'agent fédéral Samuel Gerard dans le film « Le Fugitif » de 1993 ?",
+        "options": [
+          "Martin Landau",
+          "Tommy Lee Jones",
+          "Harvey Keitel",
+          "Harrison Ford"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Quién interpretó al Marshal Adjunto Samuel Gerard en la película «El fugitivo» de 1993?",
+        "options": [
+          "Martin Landau",
+          "Tommy Lee Jones",
+          "Harvey Keitel",
+          "Harrison Ford"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "30d3efdb6278cb06",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Which movie includes a giant bunny-like spirit who has magic powers including growing trees?",
+        "options": [
+          "Alice in Wonderland",
+          "My Neighbor Totoro",
+          "Hop",
+          "Rise of the Guardians"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel film met en scène un esprit géant ressemblant à un lapin doté de pouvoirs magiques, dont celui de faire pousser des arbres ?",
+        "options": [
+          "Alice au pays des merveilles",
+          "Mon voisin Totoro",
+          "Hop",
+          "Les Cinq Légendes"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿En qué película aparece un espíritu gigante con forma de conejo dotado de poderes mágicos, incluido el de hacer crecer árboles?",
+        "options": [
+          "Alicia en el país de las maravillas",
+          "Mi vecino Totoro",
+          "Hop",
+          "El origen de los guardianes"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "05e8c316f61dcf92",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What historical time period was the center of the Assassin’s Creed movie (2016)?",
+        "options": [
+          "Spanish Inquisition",
+          "Victorian England",
+          "Colonial America",
+          "French Revolution"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle époque historique est au cœur du film « Assassin's Creed » (2016) ?",
+        "options": [
+          "L'Inquisition espagnole",
+          "L'Angleterre victorienne",
+          "L'Amérique coloniale",
+          "La Révolution française"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué época histórica es el eje de la película «Assassin's Creed» (2016)?",
+        "options": [
+          "La Inquisición española",
+          "La Inglaterra victoriana",
+          "La América colonial",
+          "La Revolución francesa"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "9662adfd20832685",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "In \"ALF\", what was ALF's real name?",
+        "options": [
+          "Gordon Milipp",
+          "Gordon von Gam",
+          "Gordon Shumway",
+          "Gordon Foster"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Dans la série « ALF », quel était le vrai nom d'ALF ?",
+        "options": [
+          "Gordon Milipp",
+          "Gordon von Gam",
+          "Gordon Shumway",
+          "Gordon Foster"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En la serie «ALF», ¿cuál era el verdadero nombre de ALF?",
+        "options": [
+          "Gordon Milipp",
+          "Gordon von Gam",
+          "Gordon Shumway",
+          "Gordon Foster"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "7e3c322df3ad1e74",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "This movie contains the quote, \"I feel the need ... the need for speed!\"",
+        "options": [
+          "Top Gun",
+          "The Color of Money",
+          "Cocktail",
+          "Days of Thunder"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Dans quel film entend-on la réplique : « I feel the need... the need for speed ! » ?",
+        "options": [
+          "Top Gun",
+          "The Color of Money",
+          "Cocktail",
+          "Days of Thunder"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿En qué película se escucha la frase «I feel the need... the need for speed»?",
+        "options": [
+          "Top Gun",
+          "The Color of Money",
+          "Cocktail",
+          "Days of Thunder"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "cb5fd95d765e8906",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Who is the protagonist of the 2002 film \"Kung Pow! Enter the Fist\"?",
+        "options": [
+          "Chosen One",
+          "Dragon King",
+          "Master Tang",
+          "Iron Monkey"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Qui est le protagoniste du film « Kung Pow! Enter the Fist » de 2002 ?",
+        "options": [
+          "L'Élu",
+          "Le Roi Dragon",
+          "Maître Tang",
+          "Iron Monkey"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Quién es el protagonista de la película «Kung Pow! Enter the Fist» (2002)?",
+        "options": [
+          "El Elegido",
+          "El Rey Dragón",
+          "Maestro Tang",
+          "Iron Monkey"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "a1e886ebb8b15b49",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "What breed of dog was Marley in the film \"Marley & Me\" (2008)?",
+        "options": [
+          "Dalmatian",
+          "Golden Retriever",
+          "Shiba Inu",
+          "Labrador Retriever"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle était la race de Marley dans le film « Marley & Moi » (2008) ?",
+        "options": [
+          "Dalmatien",
+          "Golden Retriever",
+          "Shiba Inu",
+          "Labrador Retriever"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿De qué raza era Marley en la película «Marley y yo» (2008)?",
+        "options": [
+          "Dálmata",
+          "Golden Retriever",
+          "Shiba Inu",
+          "Labrador Retriever"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "c3bbb4df388b8770",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Which of the following movies was not based on a novel by Stephen King?",
+        "options": [
+          "The Green Mile",
+          "The Thing",
+          "Carrie",
+          "Misery"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Lequel des films suivants n'est PAS adapté d'un roman de Stephen King ?",
+        "options": [
+          "La Ligne verte",
+          "The Thing",
+          "Carrie",
+          "Misery"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de las siguientes películas NO está basada en una novela de Stephen King?",
+        "options": [
+          "La milla verde",
+          "The Thing",
+          "Carrie",
+          "Misery"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "b3e4cfcb73ab2a03",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "7-Eleven stores were temporarily converted into Kwik E-marts to promote the release of what movie?",
+        "options": [
+          "Spider-Man 3",
+          "Shrek the Third",
+          "Ratatouille",
+          "The Simpsons Movie"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Des magasins 7-Eleven ont été temporairement transformés en Kwik E-Marts pour promouvoir la sortie de quel film ?",
+        "options": [
+          "Spider-Man 3",
+          "Shrek le troisième",
+          "Ratatouille",
+          "Les Simpson, le film"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Las tiendas 7-Eleven se transformaron temporalmente en Kwik E-Marts para promocionar el estreno de qué película?",
+        "options": [
+          "Spider-Man 3",
+          "Shrek tercero",
+          "Ratatouille",
+          "Los Simpson: la película"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "1736f1043e6a7ce6",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "In the 1995 film \"Balto\", who are Steele's accomplices?",
+        "options": [
+          "Nuk, Yak, and Sumac",
+          "Kaltag, Nikki, and Star",
+          "Jenna, Sylvie, and Dixie",
+          "Dusty, Kirby, and Ralph"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Dans le film « Balto » (1995), qui sont les complices de Steele ?",
+        "options": [
+          "Nuk, Yak et Sumac",
+          "Kaltag, Nikki et Star",
+          "Jenna, Sylvie et Dixie",
+          "Dusty, Kirby et Ralph"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En la película «Balto» (1995), ¿quiénes son los cómplices de Steele?",
+        "options": [
+          "Nuk, Yak y Sumac",
+          "Kaltag, Nikki y Star",
+          "Jenna, Sylvie y Dixie",
+          "Dusty, Kirby y Ralph"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "99fa3a3180d32532",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "In the movie \"Spaceballs\", what are the Spaceballs attempting to steal from Planet Druidia?",
+        "options": [
+          "Air",
+          "Princess Lonestar",
+          "Meatballs",
+          "The Schwartz"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Dans « La Folle Histoire de l'espace » (Spaceballs), que tentent de voler les Spaceballs à la planète Druidia ?",
+        "options": [
+          "L'air",
+          "La princesse Lonestar",
+          "Des boulettes de viande",
+          "Le Schwartz"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En la película «La loca historia de las galaxias» (Spaceballs), ¿qué intentan robar los Spaceballs del planeta Druidia?",
+        "options": [
+          "Aire",
+          "Princesa Lonestar",
+          "Albóndigas",
+          "El Schwartz"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "868a3f8aba51c281",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Which movie contains the quote, \"Say hello to my little friend!\"?",
+        "options": [
+          "Scarface",
+          "Heat",
+          "Reservoir Dogs",
+          "Goodfellas"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel film contient la réplique « Say hello to my little friend! » ?",
+        "options": [
+          "Scarface",
+          "Heat",
+          "Reservoir Dogs",
+          "Les Affranchis"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué película contiene la frase «Say hello to my little friend»?",
+        "options": [
+          "Scarface",
+          "Heat",
+          "Reservoir Dogs",
+          "Uno de los nuestros"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "3802e3161cca9edf",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Max Schreck, a famous German silent film actor, plays a famous monster in which 1922 film?",
+        "options": [
+          "Nosferatu",
+          "Häxan",
+          "Frankenstein",
+          "The Headless Horseman"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Max Schreck, célèbre acteur allemand du cinéma muet, interprète un monstre légendaire dans quel film de 1922 ?",
+        "options": [
+          "Nosferatu",
+          "Häxan",
+          "Frankenstein",
+          "The Headless Horseman"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Max Schreck, famoso actor alemán del cine mudo, interpreta a un monstruo célebre en qué película de 1922?",
+        "options": [
+          "Nosferatu",
+          "Häxan",
+          "Frankenstein",
+          "The Headless Horseman"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "83899c3eaf20597a",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What was the title of the first Bond movie, released in 1962?",
+        "options": [
+          "Dr. No",
+          "Thunderball",
+          "From Russia with Love",
+          "Goldfinger"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel était le titre du premier film de James Bond, sorti en 1962 ?",
+        "options": [
+          "Dr. No",
+          "Opération Tonnerre",
+          "Bons baisers de Russie",
+          "Goldfinger"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál fue el título de la primera película de James Bond, estrenada en 1962?",
+        "options": [
+          "Dr. No",
+          "Operación Trueno",
+          "Desde Rusia con amor",
+          "Goldfinger"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "6c877c9955687e12",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Which film has been critically regarded as the best film of all time?",
+        "options": [
+          "Citizen Kane",
+          "The Room",
+          "Avatar",
+          "The Godfather Part II"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel film a été considéré par la critique comme le meilleur film de tous les temps ?",
+        "options": [
+          "Citizen Kane",
+          "The Room",
+          "Avatar",
+          "Le Parrain 2"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué película ha sido considerada por la crítica como la mejor de todos los tiempos?",
+        "options": [
+          "Ciudadano Kane",
+          "The Room",
+          "Avatar",
+          "El Padrino: Parte II"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "5fc9571a2a4d3812",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "According to a song by Belinda Carlisle, Heaven is a place on what?",
+        "options": [
+          "Uranus",
+          "Mars",
+          "Earth",
+          "Venus"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Selon une chanson de Belinda Carlisle, le paradis est un endroit situé sur quoi ?",
+        "options": [
+          "Uranus",
+          "Mars",
+          "la Terre",
+          "Vénus"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Según una canción de Belinda Carlisle, el cielo es un lugar situado en qué?",
+        "options": [
+          "Urano",
+          "Marte",
+          "la Tierra",
+          "Venus"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "32ab9c9e00496d0e",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "Kanye West at 2009 VMA's interrupted which celebrity?",
+        "options": [
+          "Beck",
+          "Beyonce",
+          "MF DOOM",
+          "Taylor Swift"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Aux MTV Video Music Awards 2009, Kanye West a interrompu quelle célébrité ?",
+        "options": [
+          "Beck",
+          "Beyoncé",
+          "MF DOOM",
+          "Taylor Swift"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En los MTV Video Music Awards 2009, ¿a qué celebridad interrumpió Kanye West?",
+        "options": [
+          "Beck",
+          "Beyoncé",
+          "MF DOOM",
+          "Taylor Swift"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "5d1747be239a0ce8",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Which one of the following musical instruments is NOT a part of the Woodwind section?",
+        "options": [
+          "Trumpet",
+          "Clarinet",
+          "Oboe",
+          "Alto Saxophone"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Lequel des instruments suivants n'appartient PAS à la famille des bois ?",
+        "options": [
+          "Trompette",
+          "Clarinette",
+          "Hautbois",
+          "Saxophone alto"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de los siguientes instrumentos NO pertenece a la sección de viento-madera?",
+        "options": [
+          "Trompeta",
+          "Clarinete",
+          "Oboe",
+          "Saxofón alto"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "eaf76a265d539349",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Which Beatles album does NOT feature any of the band members on it's cover?",
+        "options": [
+          "The Beatles (White Album)",
+          "Rubber Soul",
+          "Abbey Road",
+          "Magical Mystery Tour"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Sur la pochette de quel album des Beatles aucun membre du groupe n'apparaît-il ?",
+        "options": [
+          "The Beatles (l'Album blanc)",
+          "Rubber Soul",
+          "Abbey Road",
+          "Magical Mystery Tour"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿En la portada de qué álbum de los Beatles NO aparece ningún miembro de la banda?",
+        "options": [
+          "The Beatles (Álbum Blanco)",
+          "Rubber Soul",
+          "Abbey Road",
+          "Magical Mystery Tour"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "0667a9d76c6bd40d",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "In what year was Avril Lavigne’s first studio album, “Let Go”, released?",
+        "options": [
+          "2004",
+          "2002",
+          "2001",
+          "2005"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "En quelle année est sorti « Let Go », le premier album studio d'Avril Lavigne ?",
+        "options": [
+          "2004",
+          "2002",
+          "2001",
+          "2005"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿En qué año salió «Let Go», el primer álbum de estudio de Avril Lavigne?",
+        "options": [
+          "2004",
+          "2002",
+          "2001",
+          "2005"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "8c66c39e6994b8a8",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "What album did The Lumineers release in 2016?",
+        "options": [
+          "Tracks From The Attic",
+          "Cleopatra",
+          "The Lumineers",
+          "Winter"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel album The Lumineers ont-ils sorti en 2016 ?",
+        "options": [
+          "Tracks From The Attic",
+          "Cleopatra",
+          "The Lumineers",
+          "Winter"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué álbum publicaron The Lumineers en 2016?",
+        "options": [
+          "Tracks From The Attic",
+          "Cleopatra",
+          "The Lumineers",
+          "Winter"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "ccef12ddfa1f064c",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "What is the name of Metallica's debut album, released in 1983?",
+        "options": [
+          "Master of Puppets",
+          "...And Justice for All",
+          "Countdown to Extinction",
+          "Kill 'Em All"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est le titre du premier album de Metallica, sorti en 1983 ?",
+        "options": [
+          "Master of Puppets",
+          "...And Justice for All",
+          "Countdown to Extinction",
+          "Kill 'Em All"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el nombre del álbum debut de Metallica, publicado en 1983?",
+        "options": [
+          "Master of Puppets",
+          "...And Justice for All",
+          "Countdown to Extinction",
+          "Kill 'Em All"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "4bf76496da098dc0",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "How many albums did King Gizzard & the Lizard Wizard release in 2017?",
+        "options": [
+          "5",
+          "6",
+          "2",
+          "3"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Combien d'albums King Gizzard & the Lizard Wizard ont-ils sortis en 2017 ?",
+        "options": [
+          "5",
+          "6",
+          "2",
+          "3"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuántos álbumes publicó King Gizzard & the Lizard Wizard en 2017?",
+        "options": [
+          "5",
+          "6",
+          "2",
+          "3"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "380387a35975b606",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Who is the lead singer of Arctic Monkeys?",
+        "options": [
+          "Alex Turner",
+          "Matt Helders",
+          "Nick O'Malley",
+          "Jamie Cook"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Qui est le chanteur principal des Arctic Monkeys ?",
+        "options": [
+          "Alex Turner",
+          "Matt Helders",
+          "Nick O'Malley",
+          "Jamie Cook"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Quién es el cantante principal de Arctic Monkeys?",
+        "options": [
+          "Alex Turner",
+          "Matt Helders",
+          "Nick O'Malley",
+          "Jamie Cook"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "e56d0bc47be0bea4",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "Which of these are NOT a Men at Work song?",
+        "options": [
+          "Be Good Johnny",
+          "Dr. Heckyll and Mr. Jive",
+          "Basket Case",
+          "Who Can It Be Now?"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Laquelle de ces chansons n'est PAS de Men at Work ?",
+        "options": [
+          "Be Good Johnny",
+          "Dr. Heckyll and Mr. Jive",
+          "Basket Case",
+          "Who Can It Be Now?"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de estas canciones NO es de Men at Work?",
+        "options": [
+          "Be Good Johnny",
+          "Dr. Heckyll and Mr. Jive",
+          "Basket Case",
+          "Who Can It Be Now?"
+        ],
+        "explanation": ""
+      }
+    }
+  }
+]
