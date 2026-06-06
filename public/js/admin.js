@@ -71,6 +71,7 @@ function showDashboard() {
   dashSection.hidden  = false;
   loadStats();
   loadQuestions();
+  loadReports();
 }
 
 // ── Auth ─────────────────────────────────────────────────────
@@ -107,12 +108,13 @@ document.getElementById('btn-logout').addEventListener('click', async () => {
 // ── Stats ────────────────────────────────────────────────────
 async function loadStats() {
   try {
-    const { cache, activeRooms } = await api('/api/admin/stats');
+    const { cache, activeRooms, openReports } = await api('/api/admin/stats');
     document.getElementById('stat-total').textContent = cache.total;
     document.getElementById('stat-qcm').textContent   = cache.qcm;
     document.getElementById('stat-geo').textContent   = cache.geo;
     document.getElementById('stat-pixel').textContent = cache.pixel;
     document.getElementById('stat-rooms').textContent = activeRooms;
+    document.getElementById('stat-reports').textContent = openReports ?? 0;
   } catch (err) { /* déjà géré par api() */ }
 }
 
@@ -329,6 +331,127 @@ async function deleteQuestion(id) {
     showToast('Erreur : ' + err.message, 'error');
   }
 }
+
+// ── Signalements ─────────────────────────────────────────────
+const CAT_LABEL = {
+  translation:  'Traduction',
+  wrong_answer: 'Mauvaise réponse',
+  typo:         'Faute de frappe',
+  other:        'Autre',
+};
+
+function fmtDate(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return '';
+  return d.toLocaleString('fr-FR', {
+    day: '2-digit', month: '2-digit', year: '2-digit',
+    hour: '2-digit', minute: '2-digit',
+  });
+}
+
+async function loadReports() {
+  try {
+    const { reports, openCount } = await api('/api/admin/reports');
+    renderReports(reports || [], openCount || 0);
+  } catch (err) { /* déjà géré */ }
+}
+
+function renderReports(reports, openCount) {
+  const list      = document.getElementById('reports-list');
+  const empty     = document.getElementById('reports-empty');
+  const countEl   = document.getElementById('reports-count');
+  const openBadge = document.getElementById('reports-open-badge');
+  countEl.textContent = `(${reports.length})`;
+  if (openCount > 0) {
+    openBadge.textContent = `${openCount} à traiter`;
+    openBadge.hidden = false;
+  } else {
+    openBadge.hidden = true;
+  }
+  if (!reports.length) {
+    list.innerHTML = '';
+    empty.hidden = false;
+    return;
+  }
+  empty.hidden = true;
+
+  list.innerHTML = reports.map(r => {
+    const resolved  = r.status === 'resolved';
+    const catLabel  = CAT_LABEL[r.category] || r.category;
+    const catCls    = `cat-${escapeHtml(r.category || 'other')}`;
+    const langBadge = r.language ? `<span class="badge">🌍 ${escapeHtml(r.language)}</span>` : '';
+    const roomBadge = r.roomCode ? `<span class="badge">🎮 ${escapeHtml(r.roomCode)}</span>` : '';
+    const typeBadge = r.questionType ? `<span class="badge">${escapeHtml(r.questionType)}</span>` : '';
+    const comment   = r.comment
+      ? `<div class="rp-comment">"${escapeHtml(r.comment)}"</div>`
+      : '';
+    return `
+      <div class="report-row ${resolved ? 'resolved' : ''}" data-id="${escapeHtml(r.id)}">
+        <div class="rp-icon"><i class="ti ti-${resolved ? 'check' : 'flag'}"></i></div>
+        <div class="rp-main">
+          <div class="rp-q">${escapeHtml(r.questionPreview || '(question supprimée)')}</div>
+          <div class="rp-meta">
+            <span class="badge ${catCls}">${escapeHtml(catLabel)}</span>
+            ${typeBadge}
+            ${langBadge}
+            ${roomBadge}
+            <span class="badge">${escapeHtml(resolved ? 'résolu' : 'ouvert')}</span>
+          </div>
+          ${comment}
+        </div>
+        <div class="rp-date">${escapeHtml(fmtDate(r.createdAt))}</div>
+        <div class="rp-actions">
+          ${resolved ? '' : `<button class="btn btn-ghost btn-sm" data-action="resolve" data-id="${escapeHtml(r.id)}" title="Marquer résolu">
+            <i class="ti ti-check"></i>
+          </button>`}
+          <button class="btn btn-ghost btn-sm danger" data-action="delete-report" data-id="${escapeHtml(r.id)}" title="Supprimer">
+            <i class="ti ti-trash"></i>
+          </button>
+        </div>
+      </div>`;
+  }).join('');
+
+  list.querySelectorAll('[data-action]').forEach(btn => {
+    const action = btn.dataset.action;
+    const id     = btn.dataset.id;
+    btn.addEventListener('click', () => {
+      if (action === 'resolve')       resolveReport(id);
+      if (action === 'delete-report') deleteReport(id);
+    });
+  });
+}
+
+async function resolveReport(id) {
+  try {
+    await api('/api/admin/reports/' + id, {
+      method: 'PATCH',
+      body:   JSON.stringify({ status: 'resolved' }),
+    });
+    showToast('Signalement résolu', 'success');
+    loadStats();
+    loadReports();
+  } catch (err) {
+    showToast('Erreur : ' + err.message, 'error');
+  }
+}
+
+async function deleteReport(id) {
+  if (!confirm('Supprimer ce signalement ?')) return;
+  try {
+    await api('/api/admin/reports/' + id, { method: 'DELETE' });
+    showToast('Signalement supprimé', 'success');
+    loadStats();
+    loadReports();
+  } catch (err) {
+    showToast('Erreur : ' + err.message, 'error');
+  }
+}
+
+document.getElementById('btn-reload-reports').addEventListener('click', () => {
+  loadReports();
+  loadStats();
+});
 
 // ── Boot ─────────────────────────────────────────────────────
 // On part TOUJOURS de l'état "login + modal fermé" pour éviter qu'un

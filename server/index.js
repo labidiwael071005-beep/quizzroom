@@ -333,14 +333,133 @@ app.delete('/api/admin/questions/:id', adminAuth, async (req, res) => {
   }
 });
 
+// ── Signalements (Phase 5) ────────────────────────────────────
+// Rate-limit dédié pour /api/report : 10/min/IP. On veut bloquer un
+// joueur qui spammerait le bouton mais rester généreux côté UX.
+const reportLimiter = rateLimit({
+  windowMs: 60 * 1000,
+  max:      10,
+  standardHeaders: true,
+  legacyHeaders:   false,
+  message: { ok: false, error: 'Trop de signalements, réessayez dans 1 minute.' },
+});
+const REPORT_CATEGORIES = ['translation', 'wrong_answer', 'typo', 'other'];
+
+app.post('/api/report', reportLimiter, async (req, res) => {
+  try {
+    const b = req.body || {};
+    const questionId = typeof b.questionId === 'string' ? b.questionId.trim() : '';
+    if (!questionId) {
+      return res.status(400).json({ ok: false, error: 'questionId requis' });
+    }
+    const category = REPORT_CATEGORIES.includes(b.category) ? b.category : null;
+    if (!category) {
+      return res.status(400).json({ ok: false, error: 'category invalide' });
+    }
+    const language = SUPPORTED_LANGS.includes(b.language) ? b.language : null;
+    const roomCode = (typeof b.roomCode === 'string' && validRoomCode(b.roomCode)) ? b.roomCode : null;
+    let comment = typeof b.comment === 'string' ? b.comment.trim().slice(0, 500) : '';
+    if (!comment) comment = null;
+
+    // Vérifie l'existence de la question
+    const q = await prisma.question.findUnique({ where: { id: questionId }, select: { id: true } });
+    if (!q) return res.status(400).json({ ok: false, error: 'Question introuvable' });
+
+    await prisma.questionReport.create({
+      data: { questionId, category, comment, language, roomCode, status: 'open' },
+    });
+    res.json({ ok: true });
+  } catch (err) {
+    console.error('[POST /api/report]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
+  }
+});
+
+app.get('/api/admin/reports', adminAuth, async (req, res) => {
+  try {
+    const reports = await prisma.questionReport.findMany({
+      orderBy: { createdAt: 'desc' },
+      take: 300,
+      include: {
+        question: {
+          select: {
+            id: true, type: true, theme: true,
+            question: true, language: true,
+            translations: {
+              select: { language: true, text: true },
+            },
+          },
+        },
+      },
+    });
+    // On ré-écrit chaque report avec un extrait de la question dans la
+    // langue signalée (fallback FR puis première dispo).
+    const out = reports.map(r => {
+      const trMap = {};
+      for (const t of (r.question?.translations || [])) trMap[t.language] = t.text;
+      const order = [r.language, 'fr', 'en', ...Object.keys(trMap)];
+      let preview = '';
+      for (const l of order) { if (l && trMap[l]) { preview = trMap[l]; break; } }
+      if (!preview) preview = r.question?.question || '(question supprimée)';
+      return {
+        id:         r.id,
+        questionId: r.questionId,
+        category:   r.category,
+        comment:    r.comment,
+        language:   r.language,
+        roomCode:   r.roomCode,
+        status:     r.status,
+        createdAt:  r.createdAt,
+        questionPreview: preview,
+        questionType:    r.question?.type  || null,
+        questionTheme:   r.question?.theme || null,
+      };
+    });
+    const openCount = out.filter(r => r.status === 'open').length;
+    res.json({ ok: true, reports: out, openCount, total: out.length });
+  } catch (err) {
+    console.error('[GET /api/admin/reports]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
+  }
+});
+
+app.patch('/api/admin/reports/:id', adminAuth, async (req, res) => {
+  try {
+    const b = req.body || {};
+    if (b.status !== 'resolved' && b.status !== 'open') {
+      return res.status(400).json({ ok: false, error: 'status invalide' });
+    }
+    await prisma.questionReport.update({
+      where: { id: req.params.id },
+      data:  { status: b.status },
+    });
+    res.json({ ok: true });
+  } catch (err) {
+    console.error('[PATCH /api/admin/reports/:id]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
+  }
+});
+
+app.delete('/api/admin/reports/:id', adminAuth, async (req, res) => {
+  try {
+    await prisma.questionReport.delete({ where: { id: req.params.id } });
+    res.json({ ok: true });
+  } catch (err) {
+    console.error('[DELETE /api/admin/reports/:id]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
+  }
+});
+
 app.get('/api/admin/stats', adminAuth, async (req, res) => {
   try {
     const counts = cacheStats();
     const total  = await prisma.question.count();
+    const openReports = await prisma.questionReport.count({ where: { status: 'open' } });
     res.json({
       ok:    true,
       cache: counts,
       total,
+      openReports,
       activeRooms: Object.keys(rooms).length,
       uptime:      process.uptime(),
     });

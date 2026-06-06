@@ -265,6 +265,39 @@
   <i class="ti ti-clock-pause"></i> En attente de l'hôte...
 </div>
 
+<!-- Modal de signalement (Phase 5) — affiché depuis le récap de fin de partie -->
+<div class="report-overlay" id="report-overlay" role="dialog" aria-modal="true" aria-labelledby="report-title">
+  <div class="report-modal">
+    <h3 id="report-title"><i class="ti ti-flag"></i> Signaler cette question</h3>
+    <div class="report-sub">Aide-nous à améliorer la banque : indique ce qui cloche.</div>
+
+    <div class="report-cats" id="report-cats">
+      <label class="report-cat" data-cat="translation">
+        <input type="radio" name="report-cat" value="translation"> Mauvaise traduction
+      </label>
+      <label class="report-cat" data-cat="wrong_answer">
+        <input type="radio" name="report-cat" value="wrong_answer"> Mauvaise réponse
+      </label>
+      <label class="report-cat" data-cat="typo">
+        <input type="radio" name="report-cat" value="typo"> Faute de frappe
+      </label>
+      <label class="report-cat" data-cat="other">
+        <input type="radio" name="report-cat" value="other"> Autre
+      </label>
+    </div>
+
+    <textarea class="report-comment" id="report-comment"
+              placeholder="Détails (optionnel)" maxlength="500"></textarea>
+
+    <div class="report-actions">
+      <button type="button" class="btn btn-ghost" id="report-cancel">Annuler</button>
+      <button type="button" class="btn btn-orange" id="report-send" disabled>
+        <i class="ti ti-send"></i> Envoyer
+      </button>
+    </div>
+  </div>
+</div>
+
 <div id="toast" class="toast"></div>
 
 <script src="/socket.io/socket.io.js"></script>

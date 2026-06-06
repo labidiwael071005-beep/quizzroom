@@ -44,6 +44,7 @@
       <span class="stat"><i class="ti ti-map-pin"></i> <b id="stat-geo">—</b> Géo</span>
       <span class="stat"><i class="ti ti-photo"></i> <b id="stat-pixel">—</b> Pixel</span>
       <span class="stat"><i class="ti ti-users"></i> <b id="stat-rooms">—</b> rooms actives</span>
+      <span class="stat stat-reports"><i class="ti ti-flag"></i> <b id="stat-reports">0</b> signalements</span>
     </div>
     <button class="btn btn-ghost btn-sm" id="btn-logout">
       <i class="ti ti-logout"></i> Quitter
@@ -100,6 +101,24 @@
       <div id="list-empty" class="admin-empty" hidden>
         <i class="ti ti-mood-empty"></i>
         Aucune question pour ces filtres.
+      </div>
+    </div>
+
+    <!-- ── Section Signalements ──────────────────────────── -->
+    <div class="admin-card">
+      <div class="admin-card-head">
+        <h2><i class="ti ti-flag"></i> Signalements
+          <span class="admin-count" id="reports-count"></span>
+          <span class="badge badge-orange" id="reports-open-badge" hidden></span>
+        </h2>
+        <button class="btn btn-ghost btn-sm" id="btn-reload-reports">
+          <i class="ti ti-refresh"></i> Actualiser
+        </button>
+      </div>
+      <div class="admin-list" id="reports-list"></div>
+      <div id="reports-empty" class="admin-empty" hidden>
+        <i class="ti ti-mood-smile"></i>
+        Aucun signalement.
       </div>
     </div>
 

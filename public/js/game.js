@@ -664,6 +664,102 @@ function backToGameOver() {
   showScreen('screen-gameover');
 }
 
+// ── Modal de signalement (Phase 5) ───────────────────────────
+const reportedQuestions = new Set();
+let reportCurrentQid     = null;
+let reportCurrentBtn     = null;
+
+function openReportModal(questionId, originBtn) {
+  if (!questionId) return;
+  if (reportedQuestions.has(questionId)) return;
+  reportCurrentQid = questionId;
+  reportCurrentBtn = originBtn || null;
+
+  // Reset du formulaire à chaque ouverture
+  document.querySelectorAll('#report-cats input[name="report-cat"]').forEach(r => { r.checked = false; });
+  document.querySelectorAll('#report-cats .report-cat').forEach(l => l.classList.remove('selected'));
+  document.getElementById('report-comment').value = '';
+  document.getElementById('report-send').disabled = true;
+
+  document.getElementById('report-overlay').classList.add('show');
+}
+
+function closeReportModal() {
+  document.getElementById('report-overlay').classList.remove('show');
+  reportCurrentQid = null;
+  reportCurrentBtn = null;
+}
+
+async function sendReport() {
+  if (!reportCurrentQid) return;
+  const selected = document.querySelector('#report-cats input[name="report-cat"]:checked');
+  if (!selected) return;
+  const category = selected.value;
+  const comment  = document.getElementById('report-comment').value.trim();
+  const language = (window.getLang && window.getLang()) || 'fr';
+  const sendBtn  = document.getElementById('report-send');
+  sendBtn.disabled = true;
+
+  try {
+    const r = await fetch('/api/report', {
+      method:  'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        questionId: reportCurrentQid,
+        category,
+        comment:  comment || undefined,
+        language,
+        roomCode: roomCode || undefined,
+      }),
+    });
+    const json = await r.json().catch(() => ({}));
+    if (!r.ok || !json.ok) {
+      showToast('Erreur : ' + (json.error || 'envoi impossible'), 'error');
+      sendBtn.disabled = false;
+      return;
+    }
+    reportedQuestions.add(reportCurrentQid);
+    if (reportCurrentBtn) {
+      reportCurrentBtn.classList.add('sent');
+      reportCurrentBtn.innerHTML = '<i class="ti ti-check"></i>';
+      reportCurrentBtn.title = 'Signalement envoyé';
+    }
+    showToast('Merci, signalement envoyé', 'success');
+    closeReportModal();
+  } catch (err) {
+    showToast('Erreur réseau', 'error');
+    sendBtn.disabled = false;
+  }
+}
+
+// Branche les listeners une seule fois au boot
+(function initReportModal() {
+  const overlay = document.getElementById('report-overlay');
+  if (!overlay) return;
+  // Toggle visuel + activation du bouton Envoyer quand une catégorie est cochée
+  document.querySelectorAll('#report-cats .report-cat').forEach(label => {
+    label.addEventListener('click', () => {
+      // Délai 0 pour laisser le radio se cocher avant qu'on lise l'état
+      setTimeout(() => {
+        document.querySelectorAll('#report-cats .report-cat').forEach(l => l.classList.remove('selected'));
+        const checked = document.querySelector('#report-cats input[name="report-cat"]:checked');
+        if (checked) {
+          checked.closest('.report-cat').classList.add('selected');
+          document.getElementById('report-send').disabled = false;
+        }
+      }, 0);
+    });
+  });
+  document.getElementById('report-cancel').addEventListener('click', closeReportModal);
+  document.getElementById('report-send').addEventListener('click', sendReport);
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) closeReportModal(); });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && overlay.classList.contains('show')) closeReportModal();
+  });
+})();
+
+window.openReportModal = openReportModal;
+
 // ── Quitter la partie en cours ───────────────────────────────
 function leaveGame() {
   if (!confirm('Quitter la partie en cours ? Tu retourneras à l\'accueil.')) return;
