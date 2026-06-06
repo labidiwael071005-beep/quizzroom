@@ -5848,5 +5848,1955 @@
         "explanation": ""
       }
     }
+  },
+  {
+    "sourceRef": "80d0b73fbf08cd7f",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Which area of Eastern Europe is famous for its association with vampires?",
+        "options": [
+          "Slovakia",
+          "Transylvania",
+          "Silesia",
+          "Macedonia"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle région d'Europe de l'Est est célèbre pour son association aux vampires ?",
+        "options": [
+          "Slovaquie",
+          "Transylvanie",
+          "Silésie",
+          "Macédoine"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué región de Europa del Este es famosa por su asociación con los vampiros?",
+        "options": [
+          "Eslovaquia",
+          "Transilvania",
+          "Silesia",
+          "Macedonia"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "d0096f9fe02f960f",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "The country of Belize borders which country?",
+        "options": [
+          "Kenya",
+          "Laos",
+          "Perú",
+          "Guatemala"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Le Belize partage une frontière avec quel pays ?",
+        "options": [
+          "Kenya",
+          "Laos",
+          "Pérou",
+          "Guatemala"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Con qué país comparte frontera Belice?",
+        "options": [
+          "Kenia",
+          "Laos",
+          "Perú",
+          "Guatemala"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "371535361f2f50b4",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What name was historically used for the Turkish city currently known as Istanbul?",
+        "options": [
+          "Hüdavendigar",
+          "Söğüt",
+          "Constantinople",
+          "Adrianople"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel nom était historiquement donné à la ville turque actuellement appelée Istanbul ?",
+        "options": [
+          "Hüdavendigar",
+          "Söğüt",
+          "Constantinople",
+          "Andrinople"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué nombre se usó históricamente para la ciudad turca actualmente conocida como Estambul?",
+        "options": [
+          "Hüdavendigar",
+          "Söğüt",
+          "Constantinopla",
+          "Adrianópolis"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "cdd5b6989bf60b37",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "What is Laos?",
+        "options": [
+          "Region",
+          "River",
+          "City",
+          "Country"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Qu'est-ce que le Laos ?",
+        "options": [
+          "Une région",
+          "Un fleuve",
+          "Une ville",
+          "Un pays"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué es Laos?",
+        "options": [
+          "Una región",
+          "Un río",
+          "Una ciudad",
+          "Un país"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "36e15426464f9a1d",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Which of these African regions does *not* directly border the Democratic Republic of The Congo?",
+        "options": [
+          "Sudan",
+          "Central African Republic",
+          "Tanzania",
+          "Zambia"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Laquelle de ces régions africaines NE partage PAS de frontière directe avec la République démocratique du Congo ?",
+        "options": [
+          "Soudan",
+          "République centrafricaine",
+          "Tanzanie",
+          "Zambie"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de estas regiones africanas NO comparte frontera directa con la República Democrática del Congo?",
+        "options": [
+          "Sudán",
+          "República Centroafricana",
+          "Tanzania",
+          "Zambia"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "ab4fbc8efc25d9a9",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Which small country is located between the borders of France and Spain?",
+        "options": [
+          "Lichtenstein",
+          "Andorra",
+          "Vatican City",
+          "San Marino"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel petit pays est situé à la frontière entre la France et l'Espagne ?",
+        "options": [
+          "Liechtenstein",
+          "Andorre",
+          "Cité du Vatican",
+          "Saint-Marin"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué pequeño país se encuentra en la frontera entre Francia y España?",
+        "options": [
+          "Liechtenstein",
+          "Andorra",
+          "Ciudad del Vaticano",
+          "San Marino"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "c43cf2a96f63e115",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "What is the Polish city known to Germans as Danzig?",
+        "options": [
+          "Zakopane",
+          "Gdańsk",
+          "Poznań",
+          "Warsaw"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle ville polonaise est connue des Allemands sous le nom de Danzig ?",
+        "options": [
+          "Zakopane",
+          "Gdańsk",
+          "Poznań",
+          "Varsovie"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué ciudad polaca es conocida por los alemanes como Danzig?",
+        "options": [
+          "Zakopane",
+          "Gdańsk",
+          "Poznań",
+          "Varsovia"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "2b4735191b48721d",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "Which continent is considered the largest and most populous continent in the world?",
+        "options": [
+          "Europe",
+          "Africa",
+          "Asia",
+          "North America"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel continent est considéré comme le plus grand et le plus peuplé du monde ?",
+        "options": [
+          "L'Europe",
+          "L'Afrique",
+          "L'Asie",
+          "L'Amérique du Nord"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué continente es considerado el más grande y el más poblado del mundo?",
+        "options": [
+          "Europa",
+          "África",
+          "Asia",
+          "América del Norte"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "c0045001127ea68a",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "In which country is the city of Rio de Janeiro?",
+        "options": [
+          "Peru",
+          "Chile",
+          "Venezuela",
+          "Brazil"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Dans quel pays se trouve la ville de Rio de Janeiro ?",
+        "options": [
+          "Pérou",
+          "Chili",
+          "Venezuela",
+          "Brésil"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿En qué país se encuentra la ciudad de Río de Janeiro?",
+        "options": [
+          "Perú",
+          "Chile",
+          "Venezuela",
+          "Brasil"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "03618feb3c4abe0e",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "In which ocean is the Réunion island?",
+        "options": [
+          "North Pacific Ocean",
+          "Indian Ocean",
+          "South Pacific Ocean",
+          "Atlantic Ocean"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Dans quel océan se trouve l'île de la Réunion ?",
+        "options": [
+          "Océan Pacifique Nord",
+          "Océan Indien",
+          "Océan Pacifique Sud",
+          "Océan Atlantique"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿En qué océano se encuentra la isla de la Reunión?",
+        "options": [
+          "Océano Pacífico Norte",
+          "Océano Índico",
+          "Océano Pacífico Sur",
+          "Océano Atlántico"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "b1c19d5aea53e03c",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Which South American country fought Great Britain over the Falkland Islands in 1982?",
+        "options": [
+          "Argentina",
+          "Venezuela",
+          "Brazil",
+          "Chile"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel pays d'Amérique du Sud a affronté le Royaume-Uni à propos des îles Malouines en 1982 ?",
+        "options": [
+          "Argentine",
+          "Venezuela",
+          "Brésil",
+          "Chili"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué país sudamericano se enfrentó al Reino Unido por las Islas Malvinas en 1982?",
+        "options": [
+          "Argentina",
+          "Venezuela",
+          "Brasil",
+          "Chile"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "d0c3b12ab976316d",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Who discovered Penicillin?",
+        "options": [
+          "Alexander Flemming",
+          "Alfred Nobel",
+          "Louis Pasteur",
+          "Marie Curie"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Qui a découvert la pénicilline ?",
+        "options": [
+          "Alexander Fleming",
+          "Alfred Nobel",
+          "Louis Pasteur",
+          "Marie Curie"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Quién descubrió la penicilina?",
+        "options": [
+          "Alexander Fleming",
+          "Alfred Nobel",
+          "Louis Pasteur",
+          "Marie Curie"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "195c16875d9e70e4",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What is widely considered to be the oldest civilization known to mankind?",
+        "options": [
+          "Sumeria",
+          "Assyria",
+          "Phoenicia",
+          "Babylon"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle est largement considérée comme la plus ancienne civilisation connue de l'humanité ?",
+        "options": [
+          "Sumer",
+          "Assyrie",
+          "Phénicie",
+          "Babylone"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es ampliamente considerada como la civilización más antigua conocida por la humanidad?",
+        "options": [
+          "Sumeria",
+          "Asiria",
+          "Fenicia",
+          "Babilonia"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "625e677ba36e08f1",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "In which war did the atomic bombings of Hiroshima and Nagasaki occur?",
+        "options": [
+          "Russo-Japanese War",
+          "World War II",
+          "World War I",
+          "First Sino-Japanese War"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Lors de quelle guerre ont eu lieu les bombardements atomiques d'Hiroshima et Nagasaki ?",
+        "options": [
+          "Guerre russo-japonaise",
+          "Seconde Guerre mondiale",
+          "Première Guerre mondiale",
+          "Première guerre sino-japonaise"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿En qué guerra ocurrieron los bombardeos atómicos de Hiroshima y Nagasaki?",
+        "options": [
+          "Guerra ruso-japonesa",
+          "Segunda Guerra Mundial",
+          "Primera Guerra Mundial",
+          "Primera guerra sino-japonesa"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "6604d98daf3b3e70",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "Which of the following countries was not an axis power during World War II?",
+        "options": [
+          "Japan",
+          "Italy",
+          "Germany",
+          "Soviet Union"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Lequel des pays suivants n'était pas une puissance de l'Axe pendant la Seconde Guerre mondiale ?",
+        "options": [
+          "Japon",
+          "Italie",
+          "Allemagne",
+          "Union soviétique"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de los siguientes países NO era una potencia del Eje durante la Segunda Guerra Mundial?",
+        "options": [
+          "Japón",
+          "Italia",
+          "Alemania",
+          "Unión Soviética"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "20692b91a0d4dd01",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "How was Socrates executed?",
+        "options": [
+          "Decapitation",
+          "Poison",
+          "Crucifixion",
+          "Firing squad"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Comment Socrate a-t-il été exécuté ?",
+        "options": [
+          "Décapitation",
+          "Poison",
+          "Crucifixion",
+          "Peloton d'exécution"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cómo fue ejecutado Sócrates?",
+        "options": [
+          "Decapitación",
+          "Veneno",
+          "Crucifixión",
+          "Pelotón de fusilamiento"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "2ddd792240231021",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+        "options": [
+          "Gold",
+          "Sword",
+          "Juno",
+          "Silver"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Lequel des suivants n'était PAS un site de débarquement lors de l'invasion de la Normandie ?",
+        "options": [
+          "Gold",
+          "Sword",
+          "Juno",
+          "Silver"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de los siguientes NO fue una playa de desembarco en la invasión de Normandía?",
+        "options": [
+          "Gold",
+          "Sword",
+          "Juno",
+          "Silver"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "67c51d8b57e1e05b",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "Who led the Communist Revolution of Russia?",
+        "options": [
+          "Joseph Stalin",
+          "Vladimir Putin",
+          "Mikhail Gorbachev",
+          "Vladimir Lenin"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Qui a dirigé la Révolution communiste russe ?",
+        "options": [
+          "Joseph Staline",
+          "Vladimir Poutine",
+          "Mikhaïl Gorbatchev",
+          "Vladimir Lénine"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Quién lideró la Revolución comunista rusa?",
+        "options": [
+          "Iósif Stalin",
+          "Vladímir Putin",
+          "Mijaíl Gorbachov",
+          "Vladímir Lenin"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "6d098c6e6cb9932a",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?",
+        "options": [
+          "Paul Revere",
+          "Henry Longfellow",
+          "Nathan Hale",
+          "Thomas Paine"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Qui a chevauché pour avertir les Minutemen que les Britanniques arrivaient pendant la guerre d'indépendance américaine ?",
+        "options": [
+          "Paul Revere",
+          "Henry Longfellow",
+          "Nathan Hale",
+          "Thomas Paine"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Quién cabalgó para avisar a los Minutemen de que los británicos venían durante la Guerra de Independencia de EE. UU.?",
+        "options": [
+          "Paul Revere",
+          "Henry Longfellow",
+          "Nathan Hale",
+          "Thomas Paine"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "6aa133b6c2c52aad",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "In 1453, which important city fell?",
+        "options": [
+          "Rome",
+          "Athens",
+          "Hamburg",
+          "Constantinople"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "En 1453, quelle importante ville est tombée ?",
+        "options": [
+          "Rome",
+          "Athènes",
+          "Hambourg",
+          "Constantinople"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "En 1453, ¿qué importante ciudad cayó?",
+        "options": [
+          "Roma",
+          "Atenas",
+          "Hamburgo",
+          "Constantinopla"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "779d62f7a2143694",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "In which country was the Statue of Liberty built and exported to the United States of America?",
+        "options": [
+          "Spain",
+          "France",
+          "Germany",
+          "England"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Dans quel pays la Statue de la Liberté a-t-elle été construite avant d'être expédiée aux États-Unis ?",
+        "options": [
+          "Espagne",
+          "France",
+          "Allemagne",
+          "Angleterre"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿En qué país se construyó la Estatua de la Libertad antes de ser exportada a Estados Unidos?",
+        "options": [
+          "España",
+          "Francia",
+          "Alemania",
+          "Inglaterra"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "c7f58475f5f12eb7",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "In what year was the M1911 pistol designed?",
+        "options": [
+          "1911",
+          "1917",
+          "1899",
+          "1907"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "En quelle année le pistolet M1911 a-t-il été conçu ?",
+        "options": [
+          "1911",
+          "1917",
+          "1899",
+          "1907"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿En qué año se diseñó la pistola M1911?",
+        "options": [
+          "1911",
+          "1917",
+          "1899",
+          "1907"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "2916198709fd7a6e",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "Which one of these tanks was designed and operated by the United Kingdom?",
+        "options": [
+          "Tiger H1",
+          "Tog II",
+          "T-34",
+          "M4 Sherman"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Lequel de ces chars a été conçu et utilisé par le Royaume-Uni ?",
+        "options": [
+          "Tigre H1",
+          "Tog II",
+          "T-34",
+          "M4 Sherman"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de estos tanques fue diseñado y operado por el Reino Unido?",
+        "options": [
+          "Tiger H1",
+          "Tog II",
+          "T-34",
+          "M4 Sherman"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "6dd40ac383fd8900",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "What was the first sport to have been played on the moon?",
+        "options": [
+          "Tennis",
+          "Golf",
+          "Soccer",
+          "Football"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel a été le premier sport pratiqué sur la Lune ?",
+        "options": [
+          "Tennis",
+          "Golf",
+          "Football",
+          "Football américain"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál fue el primer deporte practicado en la Luna?",
+        "options": [
+          "Tenis",
+          "Golf",
+          "Fútbol",
+          "Fútbol americano"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "b63f072cb90da85d",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "How old was Adolf Hitler when he died?",
+        "options": [
+          "56",
+          "43",
+          "47",
+          "65"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel âge avait Adolf Hitler à sa mort ?",
+        "options": [
+          "56",
+          "43",
+          "47",
+          "65"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuántos años tenía Adolf Hitler cuando murió?",
+        "options": [
+          "56",
+          "43",
+          "47",
+          "65"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "228f128015564bc3",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "In what year did the Wall Street Crash take place?",
+        "options": [
+          "1932",
+          "1930",
+          "1925",
+          "1929"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "En quelle année a eu lieu le krach de Wall Street ?",
+        "options": [
+          "1932",
+          "1930",
+          "1925",
+          "1929"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿En qué año tuvo lugar el crac de Wall Street?",
+        "options": [
+          "1932",
+          "1930",
+          "1925",
+          "1929"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "13f5f439f902fbc3",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "During WWII, in 1945, the United States dropped atomic bombs on the two Japanese cities of Hiroshima and what other city?",
+        "options": [
+          "Kagoshima",
+          "Tokyo",
+          "Kawasaki",
+          "Nagasaki"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Durant la Seconde Guerre mondiale, en 1945, les États-Unis ont largué des bombes atomiques sur Hiroshima et quelle autre ville japonaise ?",
+        "options": [
+          "Kagoshima",
+          "Tokyo",
+          "Kawasaki",
+          "Nagasaki"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Durante la Segunda Guerra Mundial, en 1945, Estados Unidos lanzó bombas atómicas sobre las ciudades japonesas de Hiroshima y qué otra ciudad?",
+        "options": [
+          "Kagoshima",
+          "Tokio",
+          "Kawasaki",
+          "Nagasaki"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "c8622dd030dc4584",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "A collection of Sanskrit hymns and verses known as the Vedas are sacred texts in what religion?",
+        "options": [
+          "Hinduism",
+          "Buddhism",
+          "Judaism",
+          "Islam"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Un recueil d'hymnes et de versets sanskrits, les Védas, sont des textes sacrés de quelle religion ?",
+        "options": [
+          "Hindouisme",
+          "Bouddhisme",
+          "Judaïsme",
+          "Islam"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Una colección de himnos y versos en sánscrito, los Vedas, son textos sagrados de qué religión?",
+        "options": [
+          "Hinduismo",
+          "Budismo",
+          "Judaísmo",
+          "Islam"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "b18083c944a526dd",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What year did the Titanic sink?",
+        "options": [
+          "1912",
+          "1930",
+          "1917",
+          "1941"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "En quelle année le Titanic a-t-il sombré ?",
+        "options": [
+          "1912",
+          "1930",
+          "1917",
+          "1941"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿En qué año se hundió el Titanic?",
+        "options": [
+          "1912",
+          "1930",
+          "1917",
+          "1941"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "2646c42b05cafc8e",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "Pol Pot was the former dictator of which country?",
+        "options": [
+          "Laos",
+          "Vietnam",
+          "North Korea",
+          "Cambodia"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Pol Pot était l'ancien dictateur de quel pays ?",
+        "options": [
+          "Laos",
+          "Vietnam",
+          "Corée du Nord",
+          "Cambodge"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Pol Pot fue el antiguo dictador de qué país?",
+        "options": [
+          "Laos",
+          "Vietnam",
+          "Corea del Norte",
+          "Camboya"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "0ec69714c63dc0cb",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "What is the collective noun for bears?",
+        "options": [
+          "Tribe",
+          "Sloth",
+          "Husk",
+          "Drove"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est le nom collectif pour désigner un groupe d'ours ?",
+        "options": [
+          "Tribe",
+          "Sloth",
+          "Husk",
+          "Drove"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el sustantivo colectivo para un grupo de osos (en inglés)?",
+        "options": [
+          "Tribe",
+          "Sloth",
+          "Husk",
+          "Drove"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "c06bab009e8f6875",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "A carnivorous animal eats flesh, what does a nucivorous animal eat?",
+        "options": [
+          "Seaweed",
+          "Fruit",
+          "Nuts",
+          "Nothing"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Un animal carnivore mange de la chair ; que mange un animal nucivore ?",
+        "options": [
+          "Des algues",
+          "Des fruits",
+          "Des noix",
+          "Rien"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Un animal carnívoro come carne; ¿qué come un animal nucívoro?",
+        "options": [
+          "Algas",
+          "Fruta",
+          "Nueces",
+          "Nada"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "87354ecb0cff01b8",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What is the scientific name of the Common Chimpanzee?",
+        "options": [
+          "Panthera leo",
+          "Pan paniscus",
+          "Pan troglodytes",
+          "Gorilla gorilla"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est le nom scientifique du chimpanzé commun ?",
+        "options": [
+          "Panthera leo",
+          "Pan paniscus",
+          "Pan troglodytes",
+          "Gorilla gorilla"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el nombre científico del chimpancé común?",
+        "options": [
+          "Panthera leo",
+          "Pan paniscus",
+          "Pan troglodytes",
+          "Gorilla gorilla"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "3b09bcbe672211d1",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "What is the scientific name for the \"Polar Bear\"?",
+        "options": [
+          "Ursus Spelaeus",
+          "Ursus Maritimus",
+          "Polar Bear",
+          "Ursus Arctos"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est le nom scientifique de l'« ours polaire » ?",
+        "options": [
+          "Ursus Spelaeus",
+          "Ursus Maritimus",
+          "Polar Bear",
+          "Ursus Arctos"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el nombre científico del «oso polar»?",
+        "options": [
+          "Ursus Spelaeus",
+          "Ursus Maritimus",
+          "Polar Bear",
+          "Ursus Arctos"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "ea569ce246b1f53e",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Which of the following is NOT a venomous snake?",
+        "options": [
+          "Reticulated python",
+          "Black mamba",
+          "Malayan Krait",
+          "Yellow bellied sea snake"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Laquelle de ces espèces n'est PAS un serpent venimeux ?",
+        "options": [
+          "Python réticulé",
+          "Mamba noir",
+          "Bongare malais",
+          "Serpent marin à ventre jaune"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de las siguientes NO es una serpiente venenosa?",
+        "options": [
+          "Pitón reticulada",
+          "Mamba negra",
+          "Krait malayo",
+          "Serpiente marina de vientre amarillo"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "5aca8fb249c902cb",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Which of the following is true when alligators are behaving territorially?",
+        "options": [
+          "They bellow while showing their tail and neck",
+          "Open their jaws while making a clicking noise",
+          "Slap their tails on the ground",
+          "They run full force at the threat"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Lequel des comportements suivants est typique d'un alligator territorial ?",
+        "options": [
+          "Il pousse un grognement en exposant sa queue et son cou",
+          "Il ouvre la gueule en produisant un cliquetis",
+          "Il claque la queue sur le sol",
+          "Il fonce à pleine vitesse sur la menace"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de los siguientes es cierto cuando los caimanes muestran comportamiento territorial?",
+        "options": [
+          "Braman mostrando la cola y el cuello",
+          "Abren las fauces emitiendo un chasquido",
+          "Golpean la cola contra el suelo",
+          "Cargan a toda velocidad contra la amenaza"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "bfaaa854199ce742",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "en": {
+        "text": "What is the common term for bovine spongiform encephalopathy (BSE)?",
+        "options": [
+          "Milk fever",
+          "Foot-and-mouth disease",
+          "Mad Cow disease",
+          "Weil's disease"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est le nom commun de l'encéphalopathie spongiforme bovine (ESB) ?",
+        "options": [
+          "Fièvre du lait",
+          "Fièvre aphteuse",
+          "Maladie de la vache folle",
+          "Maladie de Weil"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el nombre común de la encefalopatía espongiforme bovina (EEB)?",
+        "options": [
+          "Fiebre de la leche",
+          "Fiebre aftosa",
+          "Enfermedad de las vacas locas",
+          "Enfermedad de Weil"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "6edebc5af9900b98",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "For what reason would a spotted hyena \"laugh\"?",
+        "options": [
+          "Exhaustion",
+          "Excitement",
+          "Aggression",
+          "Nervousness"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Pour quelle raison une hyène tachetée « rit »-elle ?",
+        "options": [
+          "Épuisement",
+          "Excitation",
+          "Agressivité",
+          "Nervosité"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Por qué razón una hiena moteada se «ríe»?",
+        "options": [
+          "Agotamiento",
+          "Excitación",
+          "Agresividad",
+          "Nerviosismo"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "daf73dd68c6dceca",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "What is the collective noun for rats?",
+        "options": [
+          "Pack",
+          "Mischief",
+          "Race",
+          "Drift"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est le nom collectif pour désigner un groupe de rats (en anglais) ?",
+        "options": [
+          "Pack",
+          "Mischief",
+          "Race",
+          "Drift"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el sustantivo colectivo para un grupo de ratas (en inglés)?",
+        "options": [
+          "Pack",
+          "Mischief",
+          "Race",
+          "Drift"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "cb95764dfcb09b09",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "Which of these species is not extinct?",
+        "options": [
+          "Komodo dragon",
+          "Saudi gazelle",
+          "Tasmanian tiger",
+          "Japanese sea lion"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Laquelle de ces espèces n'est PAS éteinte ?",
+        "options": [
+          "Dragon de Komodo",
+          "Gazelle d'Arabie",
+          "Tigre de Tasmanie",
+          "Otarie du Japon"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál de estas especies NO está extinta?",
+        "options": [
+          "Dragón de Komodo",
+          "Gacela de Arabia",
+          "Tigre de Tasmania",
+          "León marino japonés"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "1123439fe7b92987",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "Cashmere is the wool from which kind of animal?",
+        "options": [
+          "Llama",
+          "Camel",
+          "Sheep",
+          "Goat"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Le cachemire est la laine de quel animal ?",
+        "options": [
+          "Lama",
+          "Chameau",
+          "Mouton",
+          "Chèvre"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "La cachemira es la lana de qué animal?",
+        "options": [
+          "Llama",
+          "Camello",
+          "Oveja",
+          "Cabra"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "b02b80cc9520a5ae",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "The dish Fugu, is made from what family of fish?",
+        "options": [
+          "Pufferfish",
+          "Salmon",
+          "Bass",
+          "Mackerel"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Le plat fugu est préparé à partir de quelle famille de poissons ?",
+        "options": [
+          "Tétraodons (poisson-globe)",
+          "Saumons",
+          "Bars",
+          "Maquereaux"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿De qué familia de peces se prepara el plato fugu?",
+        "options": [
+          "Peces globo",
+          "Salmones",
+          "Lubinas",
+          "Caballas"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "60cdcb80273b5600",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "About how much of their body weight in food do sea otters eat every day?",
+        "options": [
+          "25%",
+          "45%",
+          "10%",
+          "80%"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Environ quelle proportion de leur poids les loutres de mer mangent-elles en nourriture chaque jour ?",
+        "options": [
+          "25 %",
+          "45 %",
+          "10 %",
+          "80 %"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Aproximadamente qué proporción de su peso corporal en comida ingieren las nutrias marinas cada día?",
+        "options": [
+          "25 %",
+          "45 %",
+          "10 %",
+          "80 %"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "1af5b36de7d2416b",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "The now extinct species \"Thylacine\" was native to where?",
+        "options": [
+          "Wallachia, Romania",
+          "Oregon, United States",
+          "Baluchistan, Pakistan",
+          "Tasmania, Australia"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "L'espèce aujourd'hui éteinte « Thylacine » était originaire d'où ?",
+        "options": [
+          "Valachie, Roumanie",
+          "Oregon, États-Unis",
+          "Baloutchistan, Pakistan",
+          "Tasmanie, Australie"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "La especie ahora extinta «Tilacino» era originaria de dónde?",
+        "options": [
+          "Valaquia, Rumanía",
+          "Oregón, Estados Unidos",
+          "Baluchistán, Pakistán",
+          "Tasmania, Australia"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "15a5355721e8011c",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What dog breed is one of the oldest breeds of dog and has flourished since before 400 BCE.",
+        "options": [
+          "Pugs",
+          "Boxers",
+          "Chihuahua",
+          "Bulldogs"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle race de chien est l'une des plus anciennes et prospère depuis avant 400 av. J.-C. ?",
+        "options": [
+          "Carlins",
+          "Boxers",
+          "Chihuahuas",
+          "Bouledogues"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué raza de perro es una de las más antiguas y ha prosperado desde antes del 400 a. C.?",
+        "options": [
+          "Pugs",
+          "Bóxers",
+          "Chihuahuas",
+          "Bulldogs"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "42a128cf402e206a",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "en": {
+        "text": "Which dog breed is named after a region in Croatia",
+        "options": [
+          "Pekingnese",
+          "Pomeranian",
+          "Chihuahua",
+          "Dalmatian"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quelle race de chien tire son nom d'une région de Croatie ?",
+        "options": [
+          "Pékinois",
+          "Spitz nain",
+          "Chihuahua",
+          "Dalmatien"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Qué raza de perro debe su nombre a una región de Croacia?",
+        "options": [
+          "Pekinés",
+          "Pomerania",
+          "Chihuahua",
+          "Dálmata"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "b4d93a90d07f8967",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What is the name of the family that the domestic cat is a member of?",
+        "options": [
+          "Felidae",
+          "Felinae",
+          "Cat",
+          "Felis"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Quel est le nom de la famille à laquelle appartient le chat domestique ?",
+        "options": [
+          "Felidae",
+          "Felinae",
+          "Cat",
+          "Felis"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿Cuál es el nombre de la familia a la que pertenece el gato doméstico?",
+        "options": [
+          "Felidae",
+          "Felinae",
+          "Cat",
+          "Felis"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "2d48769311f83703",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "en": {
+        "text": "What are rhino's horn made of?",
+        "options": [
+          "Bone",
+          "Keratin",
+          "Skin",
+          "Ivory"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "De quoi est composée la corne d'un rhinocéros ?",
+        "options": [
+          "Os",
+          "Kératine",
+          "Peau",
+          "Ivoire"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿De qué está hecho el cuerno de un rinoceronte?",
+        "options": [
+          "Hueso",
+          "Queratina",
+          "Piel",
+          "Marfil"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "b5ed0233c7956cf1",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "What are the scales on all snakes and most lizards are made of?",
+        "options": [
+          "Keratin",
+          "Ankyloglossia",
+          "Epidermis",
+          "Ecdysis"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "De quoi sont faites les écailles de tous les serpents et de la plupart des lézards ?",
+        "options": [
+          "Kératine",
+          "Ankyloglossie",
+          "Épiderme",
+          "Mue (ecdysis)"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "¿De qué están hechas las escamas de todas las serpientes y de la mayoría de los lagartos?",
+        "options": [
+          "Queratina",
+          "Anquiloglosia",
+          "Epidermis",
+          "Muda (ecdisis)"
+        ],
+        "explanation": ""
+      }
+    }
+  },
+  {
+    "sourceRef": "35445dd882aee7f8",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "en": {
+        "text": "\"Decapods\" are an order of ten-footed crustaceans.  Which of these are NOT decapods?",
+        "options": [
+          "Krill",
+          "Crabs",
+          "Shrimp",
+          "Lobsters"
+        ],
+        "explanation": ""
+      },
+      "fr": {
+        "text": "Les « décapodes » sont un ordre de crustacés à dix pattes. Lequel des suivants n'EST PAS un décapode ?",
+        "options": [
+          "Krill",
+          "Crabes",
+          "Crevettes",
+          "Homards"
+        ],
+        "explanation": ""
+      },
+      "es": {
+        "text": "Los «decápodos» son un orden de crustáceos de diez patas. ¿Cuál de los siguientes NO es un decápodo?",
+        "options": [
+          "Krill",
+          "Cangrejos",
+          "Camarones",
+          "Langostas"
+        ],
+        "explanation": ""
+      }
+    }
   }
 ]
