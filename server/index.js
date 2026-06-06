@@ -96,6 +96,8 @@ const {
   recordShown,
   recordCorrect,
   cacheStats,
+  pickTranslation,
+  SUPPORTED_LANGS,
 } = require('./question-store');
 const { distanceKm, geoScore } = require('./geo-math');
 
@@ -216,10 +218,11 @@ app.post('/api/admin/questions', adminAuth, async (req, res) => {
     if (!['qcm', 'pixel', 'geo'].includes(b.type)) {
       return res.status(400).json({ ok: false, error: 'Type invalide' });
     }
+    const language = SUPPORTED_LANGS.includes(b.language) ? b.language : 'fr';
     const created = await prisma.question.create({
       data: {
         question:     String(b.question).slice(0, 500),
-        language:     b.language || 'fr',
+        language,
         type:         b.type,
         theme:        b.theme || 'general',
         difficulty:   b.difficulty || 'medium',
@@ -236,6 +239,19 @@ app.post('/api/admin/questions', adminAuth, async (req, res) => {
         explanation:  String(b.explanation || ''),
         status:       'approved',
         source:       'admin',
+        // On crée d'emblée la traduction correspondante : sans elle, le cache
+        // multilingue serait vide pour cette question et le client retomberait
+        // sur un fallback synthétisé.
+        translations: {
+          create: {
+            language,
+            text:        String(b.question).slice(0, 500),
+            options:     b.type === 'qcm' || b.type === 'pixel' ? (b.options || null) : null,
+            explanation: String(b.explanation || ''),
+            label:       b.type === 'geo' || b.type === 'pixel' ? (b.label || null) : null,
+            country:     b.type === 'geo' ? (b.country || null) : null,
+          },
+        },
       },
     });
     await reloadQuestionStore();
@@ -269,6 +285,35 @@ app.put('/api/admin/questions/:id', adminAuth, async (req, res) => {
         ...(b.status && ['draft', 'approved', 'reported', 'rejected'].includes(b.status) && { status: b.status }),
       },
     });
+    // Sync de la traduction dans la langue de référence de la question :
+    // l'admin n'édite que la version legacy/FR, mais on garde la trad alignée.
+    const lang = updated.language || 'fr';
+    if (SUPPORTED_LANGS.includes(lang)) {
+      const trData = {
+        text:        b.question    !== undefined ? String(b.question).slice(0, 500) : undefined,
+        options:     b.options     !== undefined ? (b.options || null)              : undefined,
+        explanation: b.explanation !== undefined ? String(b.explanation)            : undefined,
+        label:       b.label       !== undefined ? (b.label || null)                : undefined,
+        country:     b.country     !== undefined ? (b.country || null)              : undefined,
+      };
+      // Si rien n'a été touché côté texte/options/etc, on évite l'upsert.
+      const touched = Object.values(trData).some(v => v !== undefined);
+      if (touched) {
+        await prisma.questionTranslation.upsert({
+          where: { questionId_language: { questionId: updated.id, language: lang } },
+          create: {
+            questionId:  updated.id,
+            language:    lang,
+            text:        trData.text        ?? (updated.question || ''),
+            options:     trData.options     ?? (updated.options  || null),
+            explanation: trData.explanation ?? (updated.explanation || ''),
+            label:       trData.label       ?? (updated.label   || null),
+            country:     trData.country     ?? (updated.country || null),
+          },
+          update: Object.fromEntries(Object.entries(trData).filter(([, v]) => v !== undefined)),
+        });
+      }
+    }
     await reloadQuestionStore();
     res.json({ ok: true, question: updated });
   } catch (err) {
@@ -435,15 +480,22 @@ function recordQuestionHistory(room, round, q) {
     if (isGeo) {
       entry.distance = (a && a.distance != null) ? Math.round(a.distance) : null;
     } else {
-      entry.answer = (a && a.answerIndex != null) ? q.options?.[a.answerIndex] : null;
+      // On stocke l'INDEX choisi : le client résoudra le libellé dans sa langue
+      // via translations[locale].options[answerIndex]. On garde aussi un
+      // fallback texte pour les anciens clients (et les questions sans trad).
+      entry.answerIndex = a?.answerIndex ?? null;
+      entry.answer      = (a && a.answerIndex != null) ? q.options?.[a.answerIndex] : null;
     }
     return entry;
   });
   room.history.push({
+    questionId:    q.id || null,
     round:         round.name,
     type:          q.type || 'normal',
+    correctIndex:  q.correctIndex ?? null,
     question:      q.question,
     correctAnswer: isGeo ? (q.label || q.country || '—') : (q.options?.[q.correctIndex] ?? '—'),
+    translations:  q.translations || null,
     results,
   });
 }
@@ -464,11 +516,13 @@ function endQuestion(code) {
   //    l'anecdote et le statut juste/faux des avatars.
   if (q?.type === 'geomap') {
     io.to(code).emit('geomap_reveal', {
+      questionId:   q.id || null,
       correctLat:   q.lat,
       correctLng:   q.lng,
       correctLabel: q.label,
       country:      q.country,
       explanation:  q.explanation || '',
+      translations: q.translations || null,
       guesses: room.players.map(p => ({
         name:     p.name,
         avatar:   p.avatar,
@@ -482,10 +536,12 @@ function endQuestion(code) {
     });
   } else if (q) {
     io.to(code).emit('question_reveal', {
+      questionId:    q.id || null,
       question:      q.question,
       correctIndex:  q.correctIndex,
       correctAnswer: q.options?.[q.correctIndex] ?? '',
       explanation:   q.explanation || '',
+      translations:  q.translations || null,
       results: room.players.map(p => ({
         name:     p.name,
         answered: room.answers[p.name] !== undefined,
@@ -688,10 +744,12 @@ function sendQuestion(code) {
   const q               = round.questions[questionIndex];
 
   const payload = {
+    questionId: q.id || null,
     index:     questionIndex,
     total:     round.questions.length,
     question:  q.question,
     options:   q.options,
+    translations: q.translations || null,
     timeLimit: 15,
     type:      q.type || 'normal',
     roundName: round.name,
@@ -915,8 +973,10 @@ io.on('connection', (socket) => {
           const base      = q.type === 'pixel' ? 25 : (round.name === 'pari' ? 45 : 15);
           const remaining = Math.max(3, base - Math.floor(elapsed));
           socket.emit('new_question', {
+            questionId: q.id || null,
             index: room.currentQuestion, total: round.questions.length,
             question: q.question, options: q.options, timeLimit: remaining,
+            translations: q.translations || null,
             type: q.type || 'normal', imageUrl: q.imageUrl,
             roundName: round.name, roundIndex: room.currentRound, totalRounds: room.roundPlan.length,
             isPari: round.name === 'pari' || undefined,

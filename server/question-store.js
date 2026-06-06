@@ -4,6 +4,13 @@
 // / getGeoQuestions avec les mêmes signatures qu'avant la migration. La seule
 // différence est que les données proviennent désormais d'une DB Postgres,
 // cachée en mémoire au boot pour ne pas taper Neon à chaque manche.
+//
+// Multilingue : chaque question porte désormais un objet `translations` indexé
+// par langue { fr: {text, options, explanation, label, country}, en: {...}, … }.
+// Les champs neutres (correctIndex, lat, lng, imageUrl) restent à la racine —
+// la validation des réponses n'utilise QUE ces champs (jamais le texte).
+
+const SUPPORTED_LANGS = ['fr', 'en', 'es'];
 
 let prisma = null;
 let cache  = { qcm: [], geo: [], pixel: [] };
@@ -15,31 +22,113 @@ function pickRandom(arr, count) {
   return shuffled.slice(0, Math.min(count, shuffled.length));
 }
 
+// Choisit la "meilleure" traduction selon une langue préférée :
+// preferred → fr → en → première disponible. Renvoie un objet
+// { text, options, explanation, label, country } ou null si absolument rien.
+function pickTranslation(translations, preferred = 'fr') {
+  if (!translations) return null;
+  const order = [preferred, 'fr', 'en', ...Object.keys(translations)];
+  for (const l of order) {
+    if (translations[l]) return translations[l];
+  }
+  return null;
+}
+
+// Construit l'objet translations à partir des lignes QuestionTranslation +
+// d'éventuelles données legacy de la Question elle-même (fallback ultime).
+function buildTranslations(row) {
+  const out = {};
+  for (const t of row.translations || []) {
+    if (!SUPPORTED_LANGS.includes(t.language)) continue;
+    out[t.language] = {
+      text:        t.text || '',
+      options:     t.options || null,
+      explanation: t.explanation || '',
+      label:       t.label   || null,
+      country:     t.country || null,
+    };
+  }
+  // Fallback : si aucune traduction n'existe pour la langue legacy, on la
+  // synthétise depuis les colonnes héritées (Question.question, .options, …).
+  const legacyLang = row.language || 'fr';
+  if (!out[legacyLang] && row.question) {
+    out[legacyLang] = {
+      text:        row.question,
+      options:     row.options || null,
+      explanation: row.explanation || '',
+      label:       row.label   || null,
+      country:     row.country || null,
+    };
+  }
+  return out;
+}
+
 // ── Init : charge tout en cache au boot ───────────────────────
 async function initQuestionStore(prismaClient) {
   prisma = prismaClient;
   console.log('📚 Chargement des questions depuis la DB…');
 
-  const all = await prisma.question.findMany({ where: { status: 'approved' } });
-  cache.qcm   = all.filter(q => q.type === 'qcm');
-  cache.geo   = all.filter(q => q.type === 'geo');
-  cache.pixel = all.filter(q => q.type === 'pixel');
+  const all = await prisma.question.findMany({
+    where: { status: 'approved' },
+    include: { translations: true },
+  });
+  const enriched = all.map(enrichRow);
+  cache.qcm   = enriched.filter(q => q.type === 'qcm');
+  cache.geo   = enriched.filter(q => q.type === 'geo');
+  cache.pixel = enriched.filter(q => q.type === 'pixel');
 
+  const langStats = SUPPORTED_LANGS.map(l => {
+    const n = enriched.filter(q => q.translations[l]).length;
+    return `${l}=${n}`;
+  }).join(', ');
   console.log(`✅ Cache : ${cache.qcm.length} QCM, ${cache.geo.length} Géo, ${cache.pixel.length} Pixel`);
+  console.log(`🌍 Traductions par langue : ${langStats}`);
 }
 
 // Optionnel : recharger le cache (appelé après un POST/DELETE admin)
 async function reloadQuestionStore() {
   if (!prisma) return;
-  const all = await prisma.question.findMany({ where: { status: 'approved' } });
-  cache.qcm   = all.filter(q => q.type === 'qcm');
-  cache.geo   = all.filter(q => q.type === 'geo');
-  cache.pixel = all.filter(q => q.type === 'pixel');
+  const all = await prisma.question.findMany({
+    where: { status: 'approved' },
+    include: { translations: true },
+  });
+  const enriched = all.map(enrichRow);
+  cache.qcm   = enriched.filter(q => q.type === 'qcm');
+  cache.geo   = enriched.filter(q => q.type === 'geo');
+  cache.pixel = enriched.filter(q => q.type === 'pixel');
+}
+
+// Enrichit une ligne DB avec son objet translations + des champs "fallback"
+// (en FR si disponible) pour que la logique serveur (history, reveal interne)
+// puisse continuer à lire q.question / q.options sans connaître la locale.
+function enrichRow(row) {
+  const translations = buildTranslations(row);
+  const fallback     = pickTranslation(translations, 'fr') || {};
+  return {
+    id:           row.id,
+    type:         row.type,
+    theme:        row.theme,
+    difficulty:   row.difficulty,
+    correctIndex: row.correctIndex,
+    imageUrl:     row.imageUrl,
+    credit:       row.credit,
+    creditUrl:    row.creditUrl,
+    license:      row.license,
+    lat:          row.lat,
+    lng:          row.lng,
+    translations,
+    // Fallback (FR ou première dispo) — utilisé par le serveur en interne.
+    question:     fallback.text        || row.question     || '',
+    options:      fallback.options     || row.options      || null,
+    explanation:  fallback.explanation || row.explanation  || '',
+    label:        fallback.label       || row.label        || null,
+    country:      fallback.country     || row.country      || '',
+  };
 }
 
 // ── Adaptateurs : même signature que les anciens fichiers ─────
 
-// Mapping DB-row → format jeu (QCM "normal", pas de type explicite).
+// Mapping cache-row → format jeu (QCM "normal", pas de type explicite).
 function adaptQcm(row) {
   return {
     id:           row.id,
@@ -47,6 +136,7 @@ function adaptQcm(row) {
     options:      row.options,
     correctIndex: row.correctIndex,
     explanation:  row.explanation || '',
+    translations: row.translations,
   };
 }
 
@@ -61,6 +151,7 @@ function adaptGeo(row) {
     lng:         row.lng,
     country:     row.country || '',
     explanation: row.explanation || '',
+    translations: row.translations,
   };
 }
 
@@ -78,6 +169,7 @@ function adaptPixel(row) {
     credit:       row.credit,
     creditUrl:    row.creditUrl,
     license:      row.license,
+    translations: row.translations,
   };
 }
 
@@ -146,4 +238,6 @@ module.exports = {
   recordShown,
   recordCorrect,
   cacheStats,
+  pickTranslation,
+  SUPPORTED_LANGS,
 };
