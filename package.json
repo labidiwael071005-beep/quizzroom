@@ -9,6 +9,7 @@
     "start": "node server/index.js",
     "audit": "npm audit --omit=dev",
     "seed": "node scripts/seed-questions.js",
+    "backfill": "node scripts/backfill-translations.js",
     "postinstall": "prisma generate"
   },
   "keywords": [],
