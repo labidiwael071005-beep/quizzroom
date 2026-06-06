@@ -140,17 +140,78 @@
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
 }
+
+/* ── Selects et champs recherche : style sombre custom ──
+   Réutilisé par .admin-filters select, .form-row select, et le champ search.
+   La flèche est un SVG inline data-URI (lisible sur fond sombre). Les
+   <option> sont stylées en dark pour les browsers qui le permettent
+   (Firefox / Chromium récent), avec color-scheme: dark pour que le menu
+   natif s'affiche en sombre. */
 .admin-filters select,
-.admin-filters input[type="search"] {
-  padding: 9px 12px; border-radius: 8px;
+.form-row select {
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+  color-scheme:       dark;
+  background-image:   url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path fill='none' stroke='%239B97B0' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' d='M1 1.5l5 5 5-5'/></svg>");
+  background-repeat:  no-repeat;
+  background-position: right 12px center;
+  background-size:    12px 8px;
+  padding-right:      36px;
+}
+.admin-filters select,
+.admin-filters input[type="search"],
+.form-row select,
+.form-row input,
+.form-row textarea {
+  padding: 9px 12px;
+  border-radius: 8px;
   border: 0.5px solid var(--border);
-  background: rgba(255,255,255,0.04);
+  background-color: #1A1330;
   color: var(--text);
   font-size: 13px; font-family: inherit;
   outline: none;
+  transition: border-color .15s, box-shadow .15s, background-color .15s;
+}
+.admin-filters select { padding-right: 36px; }
+
+.admin-filters select:hover,
+.form-row select:hover {
+  background-color: #221A3A;
+  border-color: rgba(139,92,246,0.3);
 }
 .admin-filters select:focus,
-.admin-filters input[type="search"]:focus { border-color: var(--purple-light); }
+.admin-filters input[type="search"]:focus,
+.form-row select:focus,
+.form-row input:focus,
+.form-row textarea:focus {
+  border-color: var(--purple-light);
+  box-shadow: 0 0 0 3px rgba(139,92,246,0.18);
+}
+
+/* Style du menu déroulant natif (s'applique sur Firefox + Chromium dans la plupart des cas) */
+.admin-filters select option,
+.form-row select option {
+  background-color: #1A1330;
+  color: var(--text);
+}
+.admin-filters select option:checked,
+.form-row select option:checked {
+  background-color: #2D2350;
+}
+
+/* Petite icône loupe via background-image sur le champ search */
+.admin-filters input[type="search"] {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%239B97B0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='11' cy='11' r='7'/><path d='M21 21l-4.3-4.3'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 14px 14px;
+  padding-right: 36px;
+}
+.admin-filters input[type="search"]::-webkit-search-decoration,
+.admin-filters input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none; appearance: none;
+}
 
 /* ── Liste de questions ──────────────────────────────── */
 .admin-list { display: flex; flex-direction: column; gap: 6px; }
@@ -290,20 +351,12 @@
   font-size: 11px; text-transform: uppercase; letter-spacing: .06em;
   color: var(--text-faint);
 }
+/* Styles communs (background, focus halo…) sont définis plus haut avec ceux
+   des filtres pour éviter la duplication. Ici on conserve uniquement les
+   spécificités du form : largeur 100%, textarea redimensionnable. */
 .form-row input,
 .form-row select,
-.form-row textarea {
-  padding: 9px 12px; border-radius: 8px;
-  border: 0.5px solid var(--border);
-  background: rgba(255,255,255,0.04);
-  color: var(--text);
-  font-size: 13px; font-family: inherit;
-  outline: none;
-  width: 100%;
-}
-.form-row input:focus,
-.form-row select:focus,
-.form-row textarea:focus { border-color: var(--purple-light); }
+.form-row textarea { width: 100%; }
 .form-row textarea { resize: vertical; min-height: 60px; }
 
 .form-fieldset {
