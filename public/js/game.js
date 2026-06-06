@@ -38,6 +38,25 @@ let gameHistory    = [];
 const ROUND_LABELS = { culture:'Culture G', geo:'GéoQuizz', pixel:'Manche Pixel', pari:'Manche Pari', geomap:'GéoQuizz' };
 const LETTERS      = ['A','B','C','D'];
 
+// Résout la traduction d'une question dans la langue active du joueur.
+// La fonction se contente de réécrire les champs legacy (question, options,
+// explanation, label, country) avec leur version traduite, avec fallback
+// preferred → fr → en → première dispo. Si translations est absent ou vide,
+// on renvoie data tel quel : les champs legacy serviront de fallback ultime.
+function localizeQuestion(data) {
+  if (!data || !data.translations) return data;
+  const tr = (typeof window.pickQuestionTranslation === 'function')
+    ? window.pickQuestionTranslation(data.translations, (window.getLang && window.getLang()) || 'fr')
+    : null;
+  if (!tr) return data;
+  if (tr.text)        data.question    = tr.text;
+  if (tr.options)     data.options     = tr.options;
+  if (tr.explanation) data.explanation = tr.explanation;
+  if (tr.label)       data.label       = tr.label;
+  if (tr.country)     data.country     = tr.country;
+  return data;
+}
+
 // Libellés de statut affichés sous chaque avatar
 const AV_STATUS_LABELS = {
   thinking:    '🤔 Réfléchit…',
@@ -571,8 +590,19 @@ function displayGameHistory() {
   if (!gameHistory.length) {
     list.innerHTML = '<p style="text-align:center;color:var(--text-muted)">Aucun historique disponible.</p>';
   } else {
+    const lang = (window.getLang && window.getLang()) || 'fr';
     list.innerHTML = gameHistory.map((h, qi) => {
       const roundLabel = ROUND_LABELS[h.round] || h.round;
+      // Résolution multilingue : on prend la version traduite si dispo,
+      // sinon fallback sur les champs legacy.
+      const tr = (h.translations && typeof window.pickQuestionTranslation === 'function')
+        ? window.pickQuestionTranslation(h.translations, lang)
+        : null;
+      const qText      = tr?.text          || h.question      || '';
+      const correctTxt = (tr?.options && Number.isInteger(h.correctIndex)
+                          && tr.options[h.correctIndex] != null)
+                          ? tr.options[h.correctIndex]
+                          : (h.correctAnswer || '—');
       const rows = h.results.map(r => {
         const av   = r.avatar || { colorIdx: 0, emoji: '🎮' };
         const isMe = r.name === playerData.name;
@@ -581,6 +611,9 @@ function displayGameHistory() {
           answerHtml = '<span class="hist-noanswer">pas de réponse</span>';
         } else if (h.type === 'geomap') {
           answerHtml = `${r.distance != null ? r.distance + ' km' : '—'}`;
+        } else if (tr?.options && Number.isInteger(r.answerIndex)
+                   && tr.options[r.answerIndex] != null) {
+          answerHtml = escapeHtml(tr.options[r.answerIndex]);
         } else {
           answerHtml = r.answer != null ? escapeHtml(r.answer) : '—';
         }
@@ -596,17 +629,33 @@ function displayGameHistory() {
             <span class="hist-pts ${ptsCls}">${ptsTxt}</span>
           </div>`;
       }).join('');
+      const qid = h.questionId ? escapeHtml(h.questionId) : '';
+      const reportBtn = qid
+        ? `<button class="hist-report-btn" data-action="report" data-qid="${qid}" title="Signaler cette question" aria-label="Signaler">
+             <i class="ti ti-flag"></i>
+           </button>`
+        : '';
       return `
         <div class="hist-card" style="animation-delay:${Math.min(qi, 12) * 0.04}s">
           <div class="hist-card-head">
             <span class="badge badge-purple">${escapeHtml(roundLabel)}</span>
             <span class="hist-qnum">Question ${qi + 1}</span>
+            ${reportBtn}
           </div>
-          <div class="hist-question">${escapeHtml(h.question)}</div>
-          <div class="hist-correct">✔ Bonne réponse : <strong>${escapeHtml(h.correctAnswer)}</strong></div>
+          <div class="hist-question">${escapeHtml(qText)}</div>
+          <div class="hist-correct">✔ Bonne réponse : <strong>${escapeHtml(correctTxt)}</strong></div>
           <div class="hist-players">${rows}</div>
         </div>`;
     }).join('');
+    // Branche les boutons de signalement (Phase 5)
+    list.querySelectorAll('[data-action="report"]').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (typeof window.openReportModal === 'function') {
+          window.openReportModal(btn.dataset.qid, btn);
+        }
+      });
+    });
   }
   showScreen('screen-history');
 }
@@ -668,6 +717,17 @@ socket.on('round_intro', (data) => {
 socket.on('geomap_reveal', (data) => {
   // Tous les joueurs ont placé leur point → afficher la révélation sur la carte
   stopTimer();
+  // Localisation du label/country/explanation pour le panneau de résultat
+  if (data.translations) {
+    const tr = (typeof window.pickQuestionTranslation === 'function')
+      ? window.pickQuestionTranslation(data.translations, (window.getLang && window.getLang()) || 'fr')
+      : null;
+    if (tr) {
+      if (tr.label)       data.correctLabel = tr.label;
+      if (tr.country)     data.country      = tr.country;
+      if (tr.explanation) data.explanation  = tr.explanation;
+    }
+  }
   // Statut juste/faux sur les avatars (selon la proximité du point)
   (data.guesses || []).forEach(g => {
     setAvatarStatus(g.name, !g.answered ? 'no-answer' : (g.correct ? 'correct' : 'wrong'));
@@ -695,6 +755,11 @@ socket.on('new_question', (data) => {
   stopTimer();
   stopPixelReveal();
   hideHostControl();
+
+  // Localisation : on remplace question/options/etc par leur version dans la
+  // langue active AVANT de dispatcher à la bonne vue. Si pas de translations
+  // (vieille question pas encore migrée), on garde les champs legacy.
+  localizeQuestion(data);
 
   // Si on vient d'afficher l'intro de manche, on enchaîne directement (déjà 3,5s d'attente)
   const skipCountdown = roundIntroJustShown;
@@ -725,11 +790,24 @@ socket.on('player_answered', ({ name }) => {
 
 // Reveal de fin de question (diffusé à tous) : statut juste/faux sur les avatars,
 // puis bascule sur l'écran dédié « Le savais-tu ? » (anecdote + bonne réponse).
-socket.on('question_reveal', ({ question, correctIndex, correctAnswer, explanation, results }) => {
+socket.on('question_reveal', ({ question, correctIndex, correctAnswer, explanation, results, translations }) => {
   colorAnswerButtons(correctIndex);  // sous-jacent ; l'écran-question est masqué par le switch
   (results || []).forEach(r => {
     setAvatarStatus(r.name, !r.answered ? 'no-answer' : (r.correct ? 'correct' : 'wrong'));
   });
+  // Localisation du reveal : on remplace question/correctAnswer/explanation
+  // par leur version traduite si dispo, sinon fallback aux champs legacy.
+  if (translations) {
+    const tr = (typeof window.pickQuestionTranslation === 'function')
+      ? window.pickQuestionTranslation(translations, (window.getLang && window.getLang()) || 'fr')
+      : null;
+    if (tr) {
+      if (tr.text)                                   question      = tr.text;
+      if (tr.explanation)                            explanation   = tr.explanation;
+      if (tr.options && Number.isInteger(correctIndex)
+          && tr.options[correctIndex] != null)        correctAnswer = tr.options[correctIndex];
+    }
+  }
   displayRevealScreen({ question, correctAnswer, explanation });
 });
 

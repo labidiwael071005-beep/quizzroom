@@ -65,7 +65,23 @@ function renderLangSwitcher() {
   `).join('');
 }
 
+function getLang() { return currentLang; }
+
+// ── Multilingue questions : résolution d'une traduction de question ──
+// Renvoie l'objet {text, options, explanation, label, country} dans la
+// langue préférée, avec fallback preferred → fr → en → première dispo.
+function pickQuestionTranslation(translations, preferred) {
+  if (!translations || typeof translations !== 'object') return null;
+  const tryLangs = [preferred || currentLang, 'fr', 'en', ...Object.keys(translations)];
+  for (const l of tryLangs) {
+    if (l && translations[l]) return translations[l];
+  }
+  return null;
+}
+
 // Exposer globalement
 window.t       = t;
 window.setLang = setLang;
+window.getLang = getLang;
 window.initI18n = initI18n;
+window.pickQuestionTranslation = pickQuestionTranslation;
