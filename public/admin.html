@@ -51,76 +51,104 @@
     </button>
   </header>
 
+  <!-- ── Barre d'onglets ─────────────────────────────────── -->
+  <nav class="admin-tabs" role="tablist" aria-label="Sections de l'admin">
+    <button class="admin-tab active" id="tab-btn-questions"
+            role="tab" aria-selected="true" aria-controls="tab-panel-questions"
+            data-tab="questions">
+      <i class="ti ti-list"></i>
+      <span>Questions</span>
+    </button>
+    <button class="admin-tab" id="tab-btn-reports"
+            role="tab" aria-selected="false" aria-controls="tab-panel-reports"
+            data-tab="reports">
+      <i class="ti ti-flag"></i>
+      <span>Signalements</span>
+      <span class="admin-tab-badge" id="tab-reports-badge" hidden>0</span>
+    </button>
+  </nav>
+
   <main class="admin-main">
 
-    <div class="admin-card">
-      <div class="admin-card-head">
-        <h2><i class="ti ti-filter"></i> Filtres</h2>
-        <button class="btn btn-orange btn-sm" id="btn-add">
-          <i class="ti ti-plus"></i> Nouvelle question
-        </button>
-      </div>
-      <div class="admin-filters">
-        <select id="filter-type">
-          <option value="">Tous les types</option>
-          <option value="qcm">QCM</option>
-          <option value="pixel">Pixel</option>
-          <option value="geo">Géo</option>
-        </select>
-        <select id="filter-theme">
-          <option value="">Tous les thèmes</option>
-          <option value="general">Culture G</option>
-          <option value="science">Science</option>
-          <option value="geographie">Géographie</option>
-          <option value="histoire">Histoire</option>
-          <option value="sport">Sport</option>
-          <option value="cinema">Cinéma</option>
-          <option value="musique">Musique</option>
-          <option value="tech">Tech</option>
-          <option value="nature">Nature</option>
-          <option value="art">Art</option>
-          <option value="litterature">Littérature</option>
-          <option value="gastronomie">Gastronomie</option>
-          <option value="geo">Géo (lieux)</option>
-        </select>
-        <select id="filter-difficulty">
-          <option value="">Toutes difficultés</option>
-          <option value="easy">Facile</option>
-          <option value="medium">Moyen</option>
-          <option value="hard">Difficile</option>
-        </select>
-        <input type="search" id="filter-search" placeholder="Rechercher dans la question…">
-      </div>
-    </div>
+    <!-- ── Onglet Questions ──────────────────────────────── -->
+    <section class="admin-tab-panel" id="tab-panel-questions"
+             role="tabpanel" aria-labelledby="tab-btn-questions">
 
-    <div class="admin-card">
-      <div class="admin-card-head">
-        <h2><i class="ti ti-list"></i> Questions <span class="admin-count" id="list-count"></span></h2>
+      <div class="admin-card">
+        <div class="admin-card-head">
+          <h2><i class="ti ti-filter"></i> Filtres</h2>
+          <button class="btn btn-orange btn-sm" id="btn-add">
+            <i class="ti ti-plus"></i> Nouvelle question
+          </button>
+        </div>
+        <div class="admin-filters">
+          <select id="filter-type">
+            <option value="">Tous les types</option>
+            <option value="qcm">QCM</option>
+            <option value="pixel">Pixel</option>
+            <option value="geo">Géo</option>
+          </select>
+          <select id="filter-theme">
+            <option value="">Tous les thèmes</option>
+            <option value="general">Culture G</option>
+            <option value="science">Science</option>
+            <option value="geographie">Géographie</option>
+            <option value="histoire">Histoire</option>
+            <option value="sport">Sport</option>
+            <option value="cinema">Cinéma</option>
+            <option value="musique">Musique</option>
+            <option value="tech">Tech</option>
+            <option value="nature">Nature</option>
+            <option value="art">Art</option>
+            <option value="litterature">Littérature</option>
+            <option value="gastronomie">Gastronomie</option>
+            <option value="geo">Géo (lieux)</option>
+          </select>
+          <select id="filter-difficulty">
+            <option value="">Toutes difficultés</option>
+            <option value="easy">Facile</option>
+            <option value="medium">Moyen</option>
+            <option value="hard">Difficile</option>
+          </select>
+          <input type="search" id="filter-search" placeholder="Rechercher dans la question…">
+        </div>
       </div>
-      <div class="admin-list" id="questions-list"></div>
-      <div id="list-empty" class="admin-empty" hidden>
-        <i class="ti ti-mood-empty"></i>
-        Aucune question pour ces filtres.
-      </div>
-    </div>
 
-    <!-- ── Section Signalements ──────────────────────────── -->
-    <div class="admin-card">
-      <div class="admin-card-head">
-        <h2><i class="ti ti-flag"></i> Signalements
-          <span class="admin-count" id="reports-count"></span>
-          <span class="badge badge-orange" id="reports-open-badge" hidden></span>
-        </h2>
-        <button class="btn btn-ghost btn-sm" id="btn-reload-reports">
-          <i class="ti ti-refresh"></i> Actualiser
-        </button>
+      <div class="admin-card">
+        <div class="admin-card-head">
+          <h2><i class="ti ti-list"></i> Questions <span class="admin-count" id="list-count"></span></h2>
+        </div>
+        <div class="admin-list" id="questions-list"></div>
+        <div id="list-empty" class="admin-empty" hidden>
+          <i class="ti ti-mood-empty"></i>
+          Aucune question pour ces filtres.
+        </div>
       </div>
-      <div class="admin-list" id="reports-list"></div>
-      <div id="reports-empty" class="admin-empty" hidden>
-        <i class="ti ti-mood-smile"></i>
-        Aucun signalement.
+
+    </section>
+
+    <!-- ── Onglet Signalements ───────────────────────────── -->
+    <section class="admin-tab-panel" id="tab-panel-reports"
+             role="tabpanel" aria-labelledby="tab-btn-reports" hidden>
+
+      <div class="admin-card">
+        <div class="admin-card-head">
+          <h2><i class="ti ti-flag"></i> Signalements
+            <span class="admin-count" id="reports-count"></span>
+            <span class="badge badge-orange" id="reports-open-badge" hidden></span>
+          </h2>
+          <button class="btn btn-ghost btn-sm" id="btn-reload-reports">
+            <i class="ti ti-refresh"></i> Actualiser
+          </button>
+        </div>
+        <div class="admin-list" id="reports-list"></div>
+        <div id="reports-empty" class="admin-empty" hidden>
+          <i class="ti ti-mood-smile"></i>
+          Aucun signalement.
+        </div>
       </div>
-    </div>
+
+    </section>
 
   </main>
 </section>

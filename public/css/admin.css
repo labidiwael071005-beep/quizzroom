@@ -65,6 +65,50 @@
 }
 .admin-stats .stat b { color: var(--orange); font-weight: 600; }
 
+/* ── Barre d'onglets ──────────────────────────────────── */
+.admin-tabs {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex; gap: 4px;
+  border-bottom: 0.5px solid var(--border);
+}
+.admin-tab {
+  background: transparent;
+  border: 0;
+  color: var(--text-muted);
+  padding: 14px 18px;
+  font-size: 13px; font-weight: 500;
+  display: inline-flex; align-items: center; gap: 8px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: color .15s, border-color .15s, background .15s;
+  /* Compensation : la bordure 2px existe déjà au repos pour éviter le saut au passage actif */
+  margin-bottom: -0.5px;
+}
+.admin-tab:hover { color: var(--text); background: rgba(255,255,255,0.03); }
+.admin-tab:focus-visible {
+  outline: 2px solid var(--purple-light);
+  outline-offset: -2px;
+  border-radius: 6px 6px 0 0;
+}
+.admin-tab.active {
+  color: var(--text);
+  border-bottom-color: var(--orange);
+}
+.admin-tab i { font-size: 16px; }
+.admin-tab-badge {
+  background: var(--orange);
+  color: #fff;
+  font-size: 11px; font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 10px;
+  min-width: 18px; text-align: center;
+  line-height: 1.4;
+}
+
+.admin-tab-panel { display: flex; flex-direction: column; gap: 18px; }
+
 .admin-main {
   max-width: 1100px;
   margin: 24px auto;

@@ -115,6 +115,7 @@ async function loadStats() {
     document.getElementById('stat-pixel').textContent = cache.pixel;
     document.getElementById('stat-rooms').textContent = activeRooms;
     document.getElementById('stat-reports').textContent = openReports ?? 0;
+    updateReportsTabBadge(openReports ?? 0);
   } catch (err) { /* déjà géré par api() */ }
 }
 
@@ -357,6 +358,17 @@ async function loadReports() {
   } catch (err) { /* déjà géré */ }
 }
 
+function updateReportsTabBadge(openCount) {
+  const badge = document.getElementById('tab-reports-badge');
+  if (!badge) return;
+  if (openCount > 0) {
+    badge.textContent = String(openCount);
+    badge.hidden = false;
+  } else {
+    badge.hidden = true;
+  }
+}
+
 function renderReports(reports, openCount) {
   const list      = document.getElementById('reports-list');
   const empty     = document.getElementById('reports-empty');
@@ -369,6 +381,7 @@ function renderReports(reports, openCount) {
   } else {
     openBadge.hidden = true;
   }
+  updateReportsTabBadge(openCount);
   if (!reports.length) {
     list.innerHTML = '';
     empty.hidden = false;
@@ -451,6 +464,24 @@ async function deleteReport(id) {
 document.getElementById('btn-reload-reports').addEventListener('click', () => {
   loadReports();
   loadStats();
+});
+
+// ── Onglets (Questions ↔ Signalements) ──────────────────────
+function switchTab(name) {
+  const tabs   = document.querySelectorAll('.admin-tab');
+  const panels = document.querySelectorAll('.admin-tab-panel');
+  tabs.forEach(t => {
+    const active = t.dataset.tab === name;
+    t.classList.toggle('active', active);
+    t.setAttribute('aria-selected', active ? 'true' : 'false');
+  });
+  panels.forEach(p => {
+    const active = p.id === `tab-panel-${name}`;
+    p.hidden = !active;
+  });
+}
+document.querySelectorAll('.admin-tab').forEach(t => {
+  t.addEventListener('click', () => switchTab(t.dataset.tab));
 });
 
 // ── Boot ─────────────────────────────────────────────────────
