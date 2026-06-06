@@ -522,61 +522,162 @@ html, body {
 /* ── Modal de signalement ─────────────────────────────────── */
 .report-overlay {
   position: fixed; inset: 0;
-  background: rgba(0,0,0,0.65);
+  background: rgba(8,5,20,0.72);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
   display: none; align-items: center; justify-content: center;
   z-index: 9000;
   padding: 20px;
+  opacity: 0;
+  transition: opacity .18s ease;
 }
-.report-overlay.show { display: flex; }
+.report-overlay.show {
+  display: flex;
+  opacity: 1;
+}
 .report-modal {
-  background: var(--surface);
-  border: 0.5px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 22px 22px 18px;
-  width: 100%; max-width: 480px;
+  position: relative;
+  width: 92%; max-width: 440px;
   max-height: 90vh; overflow: auto;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  background: linear-gradient(180deg, #1A1330 0%, #14102A 100%);
+  border: 0.5px solid var(--border);
+  border-radius: 16px;
+  padding: 22px 22px 18px;
+  box-shadow: 0 24px 70px rgba(0,0,0,0.55), 0 0 0 1px rgba(139,92,246,0.05) inset;
+  transform: translateY(8px) scale(0.98);
+  opacity: 0;
+  transition: transform .22s cubic-bezier(.2,.7,.3,1.1), opacity .18s ease;
+}
+.report-overlay.show .report-modal {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .report-overlay, .report-modal { transition: none; }
+  .report-modal { transform: none; opacity: 1; }
+}
+
+.report-modal-head {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: 12px; margin-bottom: 4px;
 }
 .report-modal h3 {
-  font-size: 18px; margin-bottom: 6px;
+  font-size: 17px; font-weight: 600;
   display: flex; align-items: center; gap: 8px;
+  color: var(--text);
 }
+.report-modal h3 i { color: var(--orange); font-size: 18px; }
+
+.report-close {
+  width: 30px; height: 30px;
+  border-radius: 8px;
+  border: 0;
+  background: transparent;
+  color: var(--text-muted);
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background .15s, color .15s;
+}
+.report-close:hover { background: rgba(255,255,255,0.08); color: var(--text); }
+.report-close:focus-visible { outline: 2px solid var(--purple-light); outline-offset: 1px; }
+
 .report-modal .report-sub {
-  font-size: 13px; color: var(--text-muted); margin-bottom: 16px;
+  font-size: 13px; color: var(--text-muted);
+  margin-bottom: 16px; line-height: 1.4;
 }
+
+/* Chips/boutons sélectionnables — l'input radio reste accessible
+   (focusable au clavier) mais visuellement masqué : c'est le label
+   qui porte tout le rendu. */
 .report-cats {
   display: grid; grid-template-columns: 1fr 1fr;
-  gap: 8px; margin-bottom: 14px;
+  gap: 8px; margin-bottom: 16px;
 }
 .report-cat {
-  display: flex; align-items: center; gap: 8px;
-  padding: 10px 12px;
+  position: relative;
+  display: flex; align-items: center; gap: 9px;
+  padding: 11px 13px;
   border: 0.5px solid var(--border);
-  border-radius: 10px;
-  background: rgba(255,255,255,0.02);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03);
   cursor: pointer;
-  font-size: 13px;
-  transition: all .15s ease;
+  font-size: 13px; color: var(--text);
+  transition: border-color .15s, background-color .15s, transform .08s;
+  user-select: none;
 }
-.report-cat input { accent-color: var(--orange); }
-.report-cat:hover { border-color: var(--orange); }
-.report-cat.selected {
+.report-cat i {
+  font-size: 17px;
+  color: var(--text-muted);
+  transition: color .15s;
+  flex-shrink: 0;
+}
+.report-cat span { line-height: 1.2; }
+.report-cat input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0; height: 0;
+  pointer-events: none;
+  margin: 0;
+}
+.report-cat:hover {
+  border-color: rgba(249,115,22,0.5);
+  background: rgba(249,115,22,0.06);
+}
+.report-cat:active { transform: scale(.98); }
+.report-cat.selected,
+.report-cat:has(input:checked) {
   border-color: var(--orange);
-  background: rgba(249,115,22,0.1);
+  background: rgba(249,115,22,0.14);
+  box-shadow: 0 0 0 1px rgba(249,115,22,0.35);
 }
+.report-cat.selected i,
+.report-cat:has(input:checked) i { color: var(--orange); }
+/* Anneau de focus quand on tabule sur la radio masquée */
+.report-cat:focus-within {
+  border-color: var(--purple-light);
+  box-shadow: 0 0 0 3px rgba(139,92,246,0.25);
+}
+
+.report-comment-label {
+  display: block;
+  font-size: 11px; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--text-faint);
+  margin-bottom: 6px;
+}
+.report-optional { text-transform: none; letter-spacing: 0; opacity: .8; }
 .report-comment {
-  width: 100%; min-height: 80px;
-  background: rgba(255,255,255,0.04);
+  width: 100%; min-height: 84px;
+  background: #14102A;
   border: 0.5px solid var(--border);
   border-radius: 10px;
   color: var(--text);
   padding: 10px 12px;
   font: inherit; font-size: 13px;
+  line-height: 1.4;
   resize: vertical;
+  outline: none;
+  transition: border-color .15s, box-shadow .15s;
 }
-.report-comment:focus { outline: none; border-color: var(--orange); }
+.report-comment::placeholder { color: var(--text-faint); }
+.report-comment:focus {
+  border-color: var(--purple-light);
+  box-shadow: 0 0 0 3px rgba(139,92,246,0.2);
+}
+
 .report-actions {
-  display: flex; justify-content: flex-end; gap: 8px; margin-top: 14px;
+  display: flex; justify-content: flex-end; gap: 10px; margin-top: 18px;
+}
+.report-actions .btn:disabled {
+  opacity: .45;
+  cursor: not-allowed;
+  filter: saturate(0.6);
+}
+
+/* Mobile : grille de catégories sur une seule colonne sous 380px */
+@media (max-width: 420px) {
+  .report-cats { grid-template-columns: 1fr; }
+  .report-modal { padding: 18px 16px 14px; }
 }
 
 /* ── Manche Pixel ─────────────────────────────────────────── */

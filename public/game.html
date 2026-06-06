@@ -267,27 +267,41 @@
 
 <!-- Modal de signalement (Phase 5) — affiché depuis le récap de fin de partie -->
 <div class="report-overlay" id="report-overlay" role="dialog" aria-modal="true" aria-labelledby="report-title">
-  <div class="report-modal">
-    <h3 id="report-title"><i class="ti ti-flag"></i> Signaler cette question</h3>
+  <div class="report-modal" role="document">
+    <div class="report-modal-head">
+      <h3 id="report-title"><i class="ti ti-flag"></i> Signaler cette question</h3>
+      <button type="button" class="report-close" id="report-cancel-x" aria-label="Fermer">
+        <i class="ti ti-x"></i>
+      </button>
+    </div>
     <div class="report-sub">Aide-nous à améliorer la banque : indique ce qui cloche.</div>
 
-    <div class="report-cats" id="report-cats">
+    <div class="report-cats" id="report-cats" role="radiogroup" aria-label="Catégorie">
       <label class="report-cat" data-cat="translation">
-        <input type="radio" name="report-cat" value="translation"> Mauvaise traduction
+        <input type="radio" name="report-cat" value="translation">
+        <i class="ti ti-language"></i>
+        <span>Mauvaise traduction</span>
       </label>
       <label class="report-cat" data-cat="wrong_answer">
-        <input type="radio" name="report-cat" value="wrong_answer"> Mauvaise réponse
+        <input type="radio" name="report-cat" value="wrong_answer">
+        <i class="ti ti-circle-x"></i>
+        <span>Mauvaise réponse</span>
       </label>
       <label class="report-cat" data-cat="typo">
-        <input type="radio" name="report-cat" value="typo"> Faute de frappe
+        <input type="radio" name="report-cat" value="typo">
+        <i class="ti ti-typography"></i>
+        <span>Faute de frappe</span>
       </label>
       <label class="report-cat" data-cat="other">
-        <input type="radio" name="report-cat" value="other"> Autre
+        <input type="radio" name="report-cat" value="other">
+        <i class="ti ti-dots"></i>
+        <span>Autre</span>
       </label>
     </div>
 
+    <label class="report-comment-label" for="report-comment">Commentaire <span class="report-optional">(optionnel)</span></label>
     <textarea class="report-comment" id="report-comment"
-              placeholder="Détails (optionnel)" maxlength="500"></textarea>
+              placeholder="Décris ce qui cloche (optionnel)…" maxlength="500"></textarea>
 
     <div class="report-actions">
       <button type="button" class="btn btn-ghost" id="report-cancel">Annuler</button>

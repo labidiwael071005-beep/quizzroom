@@ -751,6 +751,7 @@ async function sendReport() {
     });
   });
   document.getElementById('report-cancel').addEventListener('click', closeReportModal);
+  document.getElementById('report-cancel-x')?.addEventListener('click', closeReportModal);
   document.getElementById('report-send').addEventListener('click', sendReport);
   overlay.addEventListener('click', (e) => { if (e.target === overlay) closeReportModal(); });
   document.addEventListener('keydown', (e) => {

@@ -209,6 +209,24 @@ Le champ `openReports` est ajouté à `GET /api/admin/stats`.
   la nouvelle question doit immédiatement être tirée dans une partie
   ET affichée en FR sans crash (la traduction FR a été upsertée).
 
+## Refonte visuelle (post-livraison)
+
+- `admin.html` : barre d'onglets **Questions / Signalements** sous la topbar
+  (ARIA-compliant). Le compteur de signalements ouverts apparaît dans
+  l'onglet (`.admin-tab-badge`) et se rafraîchit avec `loadStats` /
+  `loadReports`.
+- `admin.css` : tous les `<select>` (filtres + form modal) sont restylés —
+  chevron SVG inline, `color-scheme: dark`, surface solide `#1A1330`, focus
+  halo violet, `<option>` sombre. Idem champ recherche avec icône loupe.
+- `game.css` : modal de signalement refait — overlay flouté, carte centrée
+  avec entrée animée (`prefers-reduced-motion` respecté), catégories
+  transformées en chips avec icônes Tabler (radio masquée mais focusable
+  clavier, état sélectionné orange + halo), textarea et boutons cohérents
+  avec le reste du jeu, bouton X fermeture, responsive 1 colonne <420px.
+- Tests à refaire : connexion admin → bascule entre les deux onglets,
+  ouverture des filtres (chevron + menu lisible), signalement depuis le
+  récap d'une partie (modal joli, catégorie cochée bien visible).
+
 ## Notes pour la suite
 
 - **EN / ES** : prêts à recevoir un import. Il suffira d'insérer dans
