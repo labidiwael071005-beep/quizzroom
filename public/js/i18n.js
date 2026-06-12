@@ -32,8 +32,15 @@ function applyTranslations() {
   });
 }
 
-function t(key, fallback = '') {
-  return translations[key] || fallback || key;
+// t(key, fallback, vars?) — récupère la traduction (ou le fallback), puis
+// remplace les variables {x} si un objet `vars` est fourni. Rétrocompatible :
+// les appels sans `vars` se comportent comme avant.
+function t(key, fallback = '', vars = null) {
+  let s = translations[key] || fallback || key;
+  if (vars) {
+    for (const k in vars) s = s.split('{' + k + '}').join(String(vars[k]));
+  }
+  return s;
 }
 
 async function initI18n() {

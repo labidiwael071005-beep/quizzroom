@@ -35,8 +35,31 @@ let pixelRevealCount = 0;
 let roundIntroJustShown = false;
 let gameHistory    = [];
 
-const ROUND_LABELS = { culture:'Culture G', geo:'GéoQuizz', pixel:'Manche Pixel', pari:'Manche Pari', geomap:'GéoQuizz' };
 const LETTERS      = ['A','B','C','D'];
+
+// Libellé de manche résolu À L'AFFICHAGE via i18n (pas une constante figée au
+// chargement, sinon il ne suivrait pas la langue choisie). Fallback FR intégré.
+const ROUND_LABEL_KEYS = {
+  culture: ['game.round.culture', 'Culture G'],
+  geo:     ['game.round.geo',     'GéoQuizz'],
+  geomap:  ['game.round.geo',     'GéoQuizz'],
+  pixel:   ['game.round.pixel',   'Manche Pixel'],
+  pari:    ['game.round.pari',    'Manche Pari'],
+};
+function roundLabel(roundName) {
+  const e = ROUND_LABEL_KEYS[roundName];
+  return e ? t(e[0], e[1]) : (roundName || '');
+}
+
+// Méta de manche « Manche X/Y — N question(s) », pluriel géré simplement.
+function roundMeta(roundIndex, totalRounds, qCount) {
+  const word = qCount > 1
+    ? t('game.round.questions', 'questions')
+    : t('game.round.question', 'question');
+  return t('game.round.meta', 'Manche {n}/{total} — {count} {questions}', {
+    n: roundIndex + 1, total: totalRounds, count: qCount, questions: word,
+  });
+}
 
 // Résout la traduction d'une question dans la langue active du joueur.
 // La fonction se contente de réécrire les champs legacy (question, options,
@@ -57,14 +80,19 @@ function localizeQuestion(data) {
   return data;
 }
 
-// Libellés de statut affichés sous chaque avatar
-const AV_STATUS_LABELS = {
-  thinking:    '🤔 Réfléchit…',
-  answered:    '✏️ A répondu',
-  correct:     '✅ Juste !',
-  wrong:       '❌ Faux',
-  'no-answer': '💤 Absent',
+// Libellés de statut affichés sous chaque avatar — résolus à l'affichage via i18n
+// (clés avatar.status.*) avec fallback FR intégré.
+const AV_STATUS_KEYS = {
+  thinking:    ['avatar.status.thinking', '🤔 Réfléchit…'],
+  answered:    ['avatar.status.answered', '✏️ A répondu'],
+  correct:     ['avatar.status.correct',  '✅ Juste !'],
+  wrong:       ['avatar.status.wrong',    '❌ Faux'],
+  'no-answer': ['avatar.status.noanswer', '💤 Absent'],
 };
+function avStatusLabel(status) {
+  const e = AV_STATUS_KEYS[status];
+  return e ? t(e[0], e[1]) : '';
+}
 let currentScreenId = '';
 
 // ── Affichage ─────────────────────────────────────────────────
@@ -200,7 +228,7 @@ function renderAvatarsPanel(players) {
           ${escapeHtml(av.emoji)}
         </div>
         <div class="av-player-name">${isMe ? '★ ' : ''}${escapeHtml(p.name)}</div>
-        <div class="av-player-status thinking" id="av-status-${sanitizeId(p.name)}">${AV_STATUS_LABELS.thinking}</div>
+        <div class="av-player-status thinking" id="av-status-${sanitizeId(p.name)}">${escapeHtml(avStatusLabel('thinking'))}</div>
         <div class="av-player-score" id="av-score-${sanitizeId(p.name)}">${p.score || 0} pts</div>
       </div>`;
   }).join('');
@@ -224,7 +252,7 @@ function setAvatarStatus(playerName, status) {
   }
   const txt = document.getElementById(`av-status-${sanitizeId(playerName)}`);
   if (txt) {
-    txt.textContent = AV_STATUS_LABELS[status] || '';
+    txt.textContent = avStatusLabel(status);
     txt.className   = `av-player-status ${status}`;
   }
 }
@@ -236,7 +264,7 @@ function resetAvatarStatuses() {
     if (b) b.remove();
   });
   document.querySelectorAll('.av-player-status').forEach(el => {
-    el.textContent = AV_STATUS_LABELS.thinking;
+    el.textContent = avStatusLabel('thinking');
     el.className   = 'av-player-status thinking';
   });
 }
@@ -250,9 +278,8 @@ function updateAvatarScores(players) {
 
 // ── Annonce de manche (effet plateau TV) ──────────────────────
 function displayRoundIntro({ roundName, roundIndex, totalRounds, qCount }) {
-  document.getElementById('round-intro-name').textContent = ROUND_LABELS[roundName] || roundName;
-  document.getElementById('round-intro-meta').textContent =
-    `Manche ${roundIndex + 1}/${totalRounds} — ${qCount} question${qCount > 1 ? 's' : ''}`;
+  document.getElementById('round-intro-name').textContent = roundLabel(roundName);
+  document.getElementById('round-intro-meta').textContent = roundMeta(roundIndex, totalRounds, qCount);
   // Trigger animation reset
   const wrap = document.querySelector('.round-intro-wrap');
   if (wrap) { wrap.style.animation = 'none'; void wrap.offsetWidth; wrap.style.animation = ''; }
@@ -261,15 +288,18 @@ function displayRoundIntro({ roundName, roundIndex, totalRounds, qCount }) {
 }
 
 // ── Question normale ──────────────────────────────────────────
-function displayQuestion({ index, total, question, options, timeLimit, roundName }) {
+function displayQuestion(data) {
+  // Localisation : applique translations[locale] (fallback locale → fr → en → 1ʳᵉ dispo).
+  localizeQuestion(data);
+  const { index, total, question, options, timeLimit, roundName } = data;
   answered  = false;
   currentQ  = { index, total, question, options, timeLimit };
 
   document.getElementById('hud-q-index').textContent = index + 1;
   document.getElementById('hud-q-total').textContent  = total;
-  document.getElementById('hud-round').textContent    = ROUND_LABELS[roundName] || roundName;
+  document.getElementById('hud-round').textContent    = roundLabel(roundName);
   document.getElementById('progress-bar').style.width = (index / total * 100) + '%';
-  document.getElementById('q-theme').textContent      = ROUND_LABELS[roundName] || roundName;
+  document.getElementById('q-theme').textContent      = roundLabel(roundName);
   document.getElementById('question-text').textContent = question;
 
   const grid = document.getElementById('answers-grid');
@@ -303,13 +333,16 @@ function submitAnswer(index) {
 }
 
 // ── Manche Pixel ─────────────────────────────────────────────
-function displayPixelQuestion({ index, total, question, options, imageUrl }) {
+function displayPixelQuestion(data) {
+  // Localisation : applique translations[locale] (fallback locale → fr → en → 1ʳᵉ dispo).
+  localizeQuestion(data);
+  const { index, total, question, options, imageUrl } = data;
   answered       = false;
   pixelRevealCount = 0;
 
   document.getElementById('hud-q-index').textContent = index + 1;
   document.getElementById('hud-q-total').textContent  = total;
-  document.getElementById('hud-round').textContent    = 'Manche Pixel';
+  document.getElementById('hud-round').textContent    = roundLabel('pixel');
   document.getElementById('progress-bar').style.width = (index / total * 100) + '%';
 
   const grid = document.getElementById('pixel-answers-grid');
@@ -363,22 +396,25 @@ function submitPixelAnswer(index) {
 }
 
 // ── Manche Geo (carte interactive) ────────────────────────────
-function displayGeomapQuestion({ index, total, question, timeLimit }) {
+function displayGeomapQuestion(data) {
+  // Localisation : applique translations[locale] (fallback locale → fr → en → 1ʳᵉ dispo).
+  localizeQuestion(data);
+  const { index, total, question, timeLimit } = data;
   answered = false;
   currentQ = { index, total, question, timeLimit };
 
   document.getElementById('hud-q-index').textContent  = index + 1;
   document.getElementById('hud-q-total').textContent  = total;
-  document.getElementById('hud-round').textContent    = 'GéoQuizz';
+  document.getElementById('hud-round').textContent    = roundLabel('geo');
   document.getElementById('progress-bar').style.width = (index / total * 100) + '%';
 
   document.getElementById('geomap-question').textContent = question;
-  document.getElementById('geomap-hint').innerHTML       = '<i class="ti ti-pointer"></i><span>Clique sur la carte pour placer ton point</span>';
+  document.getElementById('geomap-hint').innerHTML       = `<i class="ti ti-pointer"></i><span>${escapeHtml(t('game.geo.hint', 'Clique sur la carte pour placer ton point'))}</span>`;
   document.getElementById('geomap-hint').style.display   = 'flex';
   document.getElementById('geomap-results-panel').style.display = 'none';
   const btn = document.getElementById('geo-validate-btn');
   btn.disabled = true;
-  btn.innerHTML = '<i class="ti ti-check"></i><span>Valider !</span>';
+  btn.innerHTML = `<i class="ti ti-check"></i><span>${escapeHtml(t('game.geo.validate', 'Valider !'))}</span>`;
 
   resetAvatarStatuses();
   showScreen('screen-geomap');
@@ -411,11 +447,14 @@ function submitGeoAnswer(isAuto = false) {
   lockGeoAnswer();
   setAvatarStatus(playerData.name, 'answered');
   socket.emit('submit_answer', { code: roomCode, lat: guess.lat, lng: guess.lng });
-  if (isAuto) showToast("⏰ Temps écoulé — ton point a été envoyé automatiquement", 'success');
+  if (isAuto) showToast(t('game.geo.autosubmit', '⏰ Temps écoulé — ton point a été envoyé automatiquement'), 'success');
 }
 
 // ── Manche Pari ───────────────────────────────────────────────
-function displayPariQuestion({ index, total, question, options, timeLimit }) {
+function displayPariQuestion(data) {
+  // Localisation : applique translations[locale] (fallback locale → fr → en → 1ʳᵉ dispo).
+  localizeQuestion(data);
+  const { index, total, question, options, timeLimit } = data;
   answered     = false;
   pariRevealed = false;
   pariBalance  = myScore;
@@ -423,7 +462,7 @@ function displayPariQuestion({ index, total, question, options, timeLimit }) {
 
   document.getElementById('hud-q-index').textContent = index + 1;
   document.getElementById('hud-q-total').textContent  = total;
-  document.getElementById('hud-round').textContent    = 'Manche Pari';
+  document.getElementById('hud-round').textContent    = roundLabel('pari');
   document.getElementById('progress-bar').style.width = (index / total * 100) + '%';
 
   document.getElementById('pari-question-text').textContent = question;
@@ -472,7 +511,7 @@ function revealPariAnswers() {
   const waitMsg = document.createElement('div');
   waitMsg.id = 'pari-waiting';
   waitMsg.style.cssText = 'text-align:center;color:var(--text-muted);font-size:14px;margin-top:8px';
-  waitMsg.textContent = '⏳ En attente des autres joueurs...';
+  waitMsg.textContent = t('game.pari.waiting', '⏳ En attente des autres joueurs...');
   document.querySelector('.pari-wrap')?.appendChild(waitMsg);
 
   // Dit au serveur "j'ai misé X" — il déclenchera pari_reveal pour tous quand tous prêts
@@ -497,7 +536,7 @@ function displayRevealScreen({ question, correctAnswer, explanation }) {
   document.getElementById('reveal-screen-answer').textContent   = correctAnswer || '—';
   const txt = (explanation || '').trim()
     ? explanation
-    : "Pas encore d'anecdote pour cette question — elle arrivera bientôt !";
+    : t('game.reveal.noanecdote', "Pas encore d'anecdote pour cette question — elle arrivera bientôt !");
   document.getElementById('reveal-screen-text').textContent = txt;
   showScreen('screen-reveal');
 }
@@ -588,11 +627,11 @@ function goHome() {
 function displayGameHistory() {
   const list = document.getElementById('history-list');
   if (!gameHistory.length) {
-    list.innerHTML = '<p style="text-align:center;color:var(--text-muted)">Aucun historique disponible.</p>';
+    list.innerHTML = `<p style="text-align:center;color:var(--text-muted)">${escapeHtml(t('game.history.empty', 'Aucun historique disponible.'))}</p>`;
   } else {
     const lang = (window.getLang && window.getLang()) || 'fr';
     list.innerHTML = gameHistory.map((h, qi) => {
-      const roundLabel = ROUND_LABELS[h.round] || h.round;
+      const roundLbl = roundLabel(h.round);
       // Résolution multilingue : on prend la version traduite si dispo,
       // sinon fallback sur les champs legacy.
       const tr = (h.translations && typeof window.pickQuestionTranslation === 'function')
@@ -608,7 +647,7 @@ function displayGameHistory() {
         const isMe = r.name === playerData.name;
         let answerHtml;
         if (!r.answered) {
-          answerHtml = '<span class="hist-noanswer">pas de réponse</span>';
+          answerHtml = `<span class="hist-noanswer">${escapeHtml(t('game.history.noanswer', 'pas de réponse'))}</span>`;
         } else if (h.type === 'geomap') {
           answerHtml = `${r.distance != null ? r.distance + ' km' : '—'}`;
         } else if (tr?.options && Number.isInteger(r.answerIndex)
@@ -630,20 +669,21 @@ function displayGameHistory() {
           </div>`;
       }).join('');
       const qid = h.questionId ? escapeHtml(h.questionId) : '';
+      const reportTitle = escapeHtml(t('report.title', 'Signaler cette question'));
       const reportBtn = qid
-        ? `<button class="hist-report-btn" data-action="report" data-qid="${qid}" title="Signaler cette question" aria-label="Signaler">
+        ? `<button class="hist-report-btn" data-action="report" data-qid="${qid}" title="${reportTitle}" aria-label="${reportTitle}">
              <i class="ti ti-flag"></i>
            </button>`
         : '';
       return `
         <div class="hist-card" style="animation-delay:${Math.min(qi, 12) * 0.04}s">
           <div class="hist-card-head">
-            <span class="badge badge-purple">${escapeHtml(roundLabel)}</span>
-            <span class="hist-qnum">Question ${qi + 1}</span>
+            <span class="badge badge-purple">${escapeHtml(roundLbl)}</span>
+            <span class="hist-qnum">${escapeHtml(t('game.history.qnum', 'Question {n}', { n: qi + 1 }))}</span>
             ${reportBtn}
           </div>
           <div class="hist-question">${escapeHtml(qText)}</div>
-          <div class="hist-correct">✔ Bonne réponse : <strong>${escapeHtml(correctTxt)}</strong></div>
+          <div class="hist-correct">✔ ${escapeHtml(t('game.history.correct', 'Bonne réponse :'))} <strong>${escapeHtml(correctTxt)}</strong></div>
           <div class="hist-players">${rows}</div>
         </div>`;
     }).join('');
@@ -714,7 +754,7 @@ async function sendReport() {
     });
     const json = await r.json().catch(() => ({}));
     if (!r.ok || !json.ok) {
-      showToast('Erreur : ' + (json.error || 'envoi impossible'), 'error');
+      showToast(t('report.error', 'Erreur :') + ' ' + (json.error || t('report.error.send', 'envoi impossible')), 'error');
       sendBtn.disabled = false;
       return;
     }
@@ -722,12 +762,12 @@ async function sendReport() {
     if (reportCurrentBtn) {
       reportCurrentBtn.classList.add('sent');
       reportCurrentBtn.innerHTML = '<i class="ti ti-check"></i>';
-      reportCurrentBtn.title = 'Signalement envoyé';
+      reportCurrentBtn.title = t('report.sent', 'Signalement envoyé');
     }
-    showToast('Merci, signalement envoyé', 'success');
+    showToast(t('report.thanks', 'Merci, signalement envoyé'), 'success');
     closeReportModal();
   } catch (err) {
-    showToast('Erreur réseau', 'error');
+    showToast(t('report.error.network', 'Erreur réseau'), 'error');
     sendBtn.disabled = false;
   }
 }
@@ -763,18 +803,28 @@ window.openReportModal = openReportModal;
 
 // ── Quitter la partie en cours ───────────────────────────────
 function leaveGame() {
-  if (!confirm('Quitter la partie en cours ? Tu retourneras à l\'accueil.')) return;
+  if (!confirm(t('game.leave.confirm', 'Quitter la partie en cours ? Tu retourneras à l\'accueil.'))) return;
   socket.emit('leave_game', { code: roomCode });
   sessionStorage.clear();
   window.location.href = 'index.html';
 }
 
 // ── Contrôle hôte : bouton "Suivante" ─────────────────────────
-function showHostControl(label) {
+// Le serveur envoie { label, isGameOver, isLastInRound } : on (re)traduit le
+// libellé côté client à partir des flags pour qu'il suive la langue choisie,
+// avec fallback sur le `label` brut du serveur si les flags sont absents.
+function hostControlLabel({ label, isGameOver, isLastInRound } = {}) {
+  if (isGameOver)        return t('game.host.ranking',   '🏆 Voir le classement');
+  if (isLastInRound)     return t('game.host.nextround', '➡️ Manche suivante');
+  if (label === undefined) return t('game.host.next', 'Suivante');
+  return t('game.host.nextq', 'Question suivante');
+}
+
+function showHostControl(info) {
   const btn = document.getElementById('host-control');
   const msg = document.getElementById('host-waiting-msg');
   if (isHost) {
-    document.getElementById('host-control-label').textContent = label || 'Suivante';
+    document.getElementById('host-control-label').textContent = hostControlLabel(info);
     btn.classList.add('visible');
     msg.classList.remove('visible');
   } else {
@@ -800,8 +850,8 @@ socket.on('connect', () => {
   socket.emit('lobby_sync', { code: roomCode, playerName: playerData.name });
 });
 
-socket.on('awaiting_host', ({ label }) => {
-  showHostControl(label);
+socket.on('awaiting_host', (info) => {
+  showHostControl(info);
 });
 
 socket.on('round_intro', (data) => {
@@ -853,10 +903,11 @@ socket.on('new_question', (data) => {
   stopPixelReveal();
   hideHostControl();
 
-  // Localisation : on remplace question/options/etc par leur version dans la
-  // langue active AVANT de dispatcher à la bonne vue. Si pas de translations
-  // (vieille question pas encore migrée), on garde les champs legacy.
-  localizeQuestion(data);
+  // Localisation : chaque fonction d'affichage (displayQuestion, displayPixelQuestion,
+  // displayGeomapQuestion, displayPariQuestion) appelle localizeQuestion(data) en
+  // tête, qui remplace question/options/explanation/label/country par leur version
+  // dans la langue active (fallback locale → fr → en → 1ʳᵉ dispo). Si pas de
+  // translations (vieille question pas encore migrée), on garde les champs legacy.
 
   // Si on vient d'afficher l'intro de manche, on enchaîne directement (déjà 3,5s d'attente)
   const skipCountdown = roundIntroJustShown;
@@ -922,7 +973,7 @@ socket.on('round_ended', (data) => {
 });
 
 socket.on('round_started', ({ roundName }) => {
-  document.getElementById('hud-round').textContent = ROUND_LABELS[roundName] || roundName;
+  document.getElementById('hud-round').textContent = roundLabel(roundName);
 });
 
 socket.on('players_update', ({ players, teams: teamsArr }) => {
@@ -951,7 +1002,7 @@ socket.on('host_changed', ({ hostName }) => {
   if (hostName === playerData.name && !isHost) {
     isHost = true;
     sessionStorage.setItem('qr_host', 'true');
-    showToast('👑 Tu es maintenant l\'hôte de la partie', 'success');
+    showToast(t('toast.nowhost', '👑 Tu es maintenant l\'hôte de la partie'), 'success');
   }
 });
 
@@ -962,7 +1013,7 @@ socket.on('join_error', () => {
 
 // L'hôte m'a exclu (peut survenir après la fin de partie si je suis resté sur le récap)
 socket.on('kicked', ({ by }) => {
-  showToast(`🚫 Tu as été exclu du lobby par ${by || 'l\'hôte'}`, 'error');
+  showToast(t('toast.kicked', '🚫 Tu as été exclu du lobby par {by}', { by: by || t('lobby.host', "l'hôte") }), 'error');
   sessionStorage.clear();
   setTimeout(() => { window.location.href = 'index.html'; }, 1800);
 });
@@ -970,4 +1021,4 @@ socket.on('kicked', ({ by }) => {
 // ── Init ──────────────────────────────────────────────────────
 showScreen('screen-round-intro');
 document.getElementById('round-intro-name').textContent = '...';
-document.getElementById('round-intro-meta').textContent = 'Préparation';
+document.getElementById('round-intro-meta').textContent = t('game.round.preparing', 'Préparation');

@@ -65,8 +65,11 @@ function placeUserMarker(lat, lng) {
 function lockGeoAnswer() {
   geoLocked = true;
   document.getElementById('geo-validate-btn').disabled = true;
-  document.getElementById('geo-validate-btn').innerHTML = '<i class="ti ti-loader"></i><span>Envoyé !</span>';
-  document.getElementById('geomap-hint').innerHTML = '<i class="ti ti-clock"></i><span>Réponse envoyée — en attente des autres</span>';
+  const esc = s => String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  document.getElementById('geo-validate-btn').innerHTML = `<i class="ti ti-loader"></i><span>${esc(t('game.geo.sent', 'Envoyé !'))}</span>`;
+  document.getElementById('geomap-hint').innerHTML = `<i class="ti ti-clock"></i><span>${esc(t('game.geo.sentwait', 'Réponse envoyée — en attente des autres'))}</span>`;
 }
 
 // Reveal final : montre le bon point + tous les markers + lignes + distances
@@ -154,9 +157,9 @@ function showGeoReveal({ correctLat, correctLng, correctLabel, country, guesses,
       const hasGuess = Number.isFinite(g.lat) && Number.isFinite(g.lng);
       const distLabel = hasGuess
         ? `${Math.round(g.distance)} km`
-        : 'Pas de réponse';
+        : t('game.geo.noanswer', 'Pas de réponse');
       return `<div class="geomap-result-row ${isMe ? 'me' : ''}">
-        <span class="geomap-result-name">${esc(g.name)}${isMe ? ' (toi)' : ''}</span>
+        <span class="geomap-result-name">${esc(g.name)}${isMe ? ' ' + esc(t('lobby.you', '(toi)')) : ''}</span>
         <span class="geomap-result-pts">+${g.points || 0} pts</span>
         <span class="geomap-result-dist ${hasGuess ? '' : 'no-answer'}">${distLabel}</span>
       </div>`;

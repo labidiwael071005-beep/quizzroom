@@ -35,11 +35,12 @@ const themeLabels = {
   musique:'Musique', tech:'Tech', nature:'Nature', art:'Art',
   litterature:'Littérature', gastronomie:'Gastronomie',
 };
+// Icône + clé i18n (résolue à l'affichage pour suivre la langue) par manche.
 const roundIcons = {
-  culture:  { icon:'ti-brain',   label:'Culture générale' },
-  geo:      { icon:'ti-map-pin', label:'GéoQuizz'         },
-  pixel:    { icon:'ti-photo',   label:'Manche Pixel'     },
-  pari:     { icon:'ti-coins',   label:'Manche Pari'      },
+  culture:  { icon:'ti-brain',   key:'game.round.culture', label:'Culture G'   },
+  geo:      { icon:'ti-map-pin', key:'game.round.geo',     label:'GéoQuizz'     },
+  pixel:    { icon:'ti-photo',   key:'game.round.pixel',   label:'Manche Pixel' },
+  pari:     { icon:'ti-coins',   key:'game.round.pari',    label:'Manche Pari'  },
 };
 
 // Applique l'état des pickers (boutons actifs, valeurs qcount, mode équipe)
@@ -136,9 +137,10 @@ function buildQCountControls() {
     const val = settings.questionsPerRound[r] || defaultQ[r] || 5;
     settings.questionsPerRound[r] = val;
     const info = roundIcons[r] || { icon:'ti-help', label:r };
+    const label = info.key ? t(info.key, info.label) : info.label;
     list.innerHTML += `
       <div class="qcount-item">
-        <span class="qcount-label"><i class="ti ${info.icon}"></i>${info.label}</span>
+        <span class="qcount-label"><i class="ti ${info.icon}"></i>${escapeHtml(label)}</span>
         <div class="qcount-controls">
           <button class="qcount-btn" onclick="changeQ('${r}',-1)">−</button>
           <span class="qcount-val" id="qv-${r}">${val}</span>
@@ -267,9 +269,9 @@ socket.on('host_changed', ({ hostName }) => {
     document.querySelector('.lobby-main').classList.toggle('is-guest', !amNewHost);
     if (amNewHost) {
       initHostPickers();   // idempotent grâce au flag
-      showToast('👑 Tu es maintenant l\'hôte de la partie', 'success');
+      showToast(t('toast.nowhost', '👑 Tu es maintenant l\'hôte de la partie'), 'success');
     } else {
-      showToast(`ℹ️ ${hostName} est maintenant l'hôte`, '');
+      showToast(t('toast.newhost', 'ℹ️ {name} est maintenant l\'hôte', { name: hostName }), '');
     }
   }
   updatePlayers(currentPlayers);   // re-render pour les boutons « léguer »
@@ -290,24 +292,25 @@ socket.on('start_blocked', ({ stragglers }) => {
   const btn = document.getElementById('btn-start');
   if (btn) {
     btn.disabled = false;
-    btn.innerHTML = `<i class="ti ti-player-play"></i> <span data-i18n="lobby.start">Lancer la partie</span>`;
+    btn.innerHTML = `<i class="ti ti-player-play"></i> <span data-i18n="lobby.start">${escapeHtml(t('lobby.start', 'Lancer la partie'))}</span>`;
   }
-  showToast(`⏳ En attente de : ${(stragglers || []).join(', ')}`, 'error');
+  showToast('⏳ ' + t('lobby.waitingfor', 'En attente de : {names}', { names: (stragglers || []).join(', ') }), 'error');
 });
 
 // Un joueur (peut-être l'hôte) vient de quitter : pop-up immédiate pour les autres
 socket.on('player_left', ({ name, wasHost, newHostName }) => {
   if (name === playerData.name) return; // ignorer son propre départ
   if (wasHost) {
-    showToast(`🚪 ${name} (hôte) a quitté — 👑 ${newHostName || '???'} prend la main`, 'error');
+    showToast(t('lobby.left.host', '🚪 {name} (hôte) a quitté — 👑 {newHost} prend la main',
+      { name, newHost: newHostName || '???' }), 'error');
   } else {
-    showToast(`🚪 ${name} a quitté le lobby`, '');
+    showToast(t('lobby.left', '🚪 {name} a quitté le lobby', { name }), '');
   }
 });
 
 // L'hôte m'a exclu du lobby
 socket.on('kicked', ({ by }) => {
-  showToast(`🚫 Tu as été exclu du lobby par ${by || 'l\'hôte'}`, 'error');
+  showToast(t('toast.kicked', '🚫 Tu as été exclu du lobby par {by}', { by: by || t('lobby.host', "l'hôte") }), 'error');
   sessionStorage.clear();
   setTimeout(() => { window.location.href = 'index.html'; }, 1800);
 });
@@ -316,13 +319,13 @@ socket.on('chat_message', ({ name, text }) => addChatMsg(name, text));
 
 // Message bloqué côté serveur (profanity, spam, trop long, etc.)
 socket.on('chat_blocked', ({ reason }) => {
-  showToast('❌ ' + (reason || 'Message refusé'), 'error');
+  showToast('❌ ' + (reason || t('lobby.chat.blocked', 'Message refusé')), 'error');
 });
 
 // F4 : rate-limit serveur — affiche un toast de cool-down
 socket.on('rate_limited', ({ until }) => {
   const wait = Math.max(1, Math.ceil((Number(until) - Date.now()) / 1000));
-  showToast(`⏳ Doucement ! Réessaye dans ${wait}s.`, 'error');
+  showToast(t('toast.ratelimited', '⏳ Doucement ! Réessaye dans {wait}s.', { wait }), 'error');
 });
 
 // ── Rendu joueurs ─────────────────────────────────────────────
@@ -348,8 +351,8 @@ function updatePlayers(players) {
       ? `<div class="player-menu">
            <button class="player-menu-btn" data-action="menu" data-name="${nameAttr}" title="Actions" aria-label="Actions">⋮</button>
            <div class="player-menu-dropdown" id="menu-${sanitizeNameId(p.name)}">
-             <button class="player-menu-item" data-action="promote" data-name="${nameAttr}">👑 Léguer l'hôte</button>
-             <button class="player-menu-item danger" data-action="kick" data-name="${nameAttr}">🚫 Exclure</button>
+             <button class="player-menu-item" data-action="promote" data-name="${nameAttr}">${escapeHtml(t('lobby.menu.promote', '👑 Léguer l\'hôte'))}</button>
+             <button class="player-menu-item danger" data-action="kick" data-name="${nameAttr}">${escapeHtml(t('lobby.menu.kick', '🚫 Exclure'))}</button>
            </div>
          </div>`
       : '';
@@ -358,11 +361,11 @@ function updatePlayers(players) {
         <span class="av-inline av-sm" style="${getAvatarStyle(av)}">${escapeHtml(av.emoji)}</span>
         <span class="player-name">
           ${escapeHtml(p.name)}
-          ${isMe ? '<span class="player-you">(toi)</span>' : ''}
+          ${isMe ? `<span class="player-you">${escapeHtml(t('lobby.you', '(toi)'))}</span>` : ''}
           ${teamBadge}
-          ${isWaiting ? '<span class="player-waiting-label">⏳ En attente du joueur</span>' : ''}
+          ${isWaiting ? `<span class="player-waiting-label">${escapeHtml(t('lobby.player.waiting', '⏳ En attente du joueur'))}</span>` : ''}
         </span>
-        ${isHostP ? '<span class="host-badge">👑 Hôte</span>' : ''}
+        ${isHostP ? `<span class="host-badge">${escapeHtml(t('lobby.player.host', '👑 Hôte'))}</span>` : ''}
         ${kebab}
         <div class="player-status"></div>
       </div>`;
@@ -403,12 +406,12 @@ function refreshStartButtonState(players) {
     btn.classList.add('is-blocked');
     if (hint) {
       const names = waiting.map(p => p.name).join(', ');
-      hint.textContent = `En attente de : ${names}`;
+      hint.textContent = t('lobby.waitingfor', 'En attente de : {names}', { names });
     }
   } else {
     btn.disabled = false;
     btn.classList.remove('is-blocked');
-    if (hint) hint.textContent = "Tu es l'hôte — les autres attendent.";
+    if (hint) hint.textContent = t('lobby.host.hint', "Tu es l'hôte — les autres attendent.");
   }
 }
 
@@ -432,7 +435,7 @@ document.addEventListener('click', (e) => {
 function kickPlayer(name) {
   if (!isHost) return;
   document.querySelectorAll('.player-menu-dropdown.open').forEach(el => el.classList.remove('open'));
-  if (!confirm(`Exclure ${name} du lobby ?`)) return;
+  if (!confirm(t('lobby.confirm.kick', 'Exclure {name} du lobby ?', { name }))) return;
   socket.emit('kick_player', { code: roomCode, targetName: name });
 }
 
@@ -478,7 +481,7 @@ function startGame() {
 function transferHost(name) {
   if (!isHost) return;
   document.querySelectorAll('.player-menu-dropdown.open').forEach(el => el.classList.remove('open'));
-  if (!confirm(`Léguer le rôle d'hôte à ${name} ? Tu redeviendras un joueur classique.`)) return;
+  if (!confirm(t('lobby.confirm.transfer', 'Léguer le rôle d\'hôte à {name} ? Tu redeviendras un joueur classique.', { name }))) return;
   socket.emit('transfer_host', { code: roomCode, targetName: name });
 }
 
