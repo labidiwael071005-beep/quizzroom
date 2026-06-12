@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QuizzRoom — En jeu</title>
+  <title data-i18n="page.game.title">QuizzRoom — En jeu</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/game.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
@@ -24,8 +24,9 @@
     <div class="progress-bar-track"><div class="progress-bar-fill" id="progress-bar"></div></div>
   </div>
   <div class="hud-right">
-    <button class="hud-quit-btn" id="quit-btn" onclick="leaveGame()" title="Quitter la partie">
-      <i class="ti ti-door-exit"></i><span>Quitter</span>
+    <div id="lang-switcher" class="lang-switcher"></div>
+    <button class="hud-quit-btn" id="quit-btn" onclick="leaveGame()" data-i18n-title="game.quit.title" title="Quitter la partie">
+      <i class="ti ti-door-exit"></i><span data-i18n="lobby.leave">Quitter</span>
     </button>
   </div>
 </div>
@@ -91,9 +92,9 @@
     <!-- Annonce de manche (effet TV) -->
     <div class="game-screen" id="screen-round-intro">
       <div class="round-intro-wrap">
-        <div class="round-intro-prefix">PRÊTS ?</div>
+        <div class="round-intro-prefix" data-i18n="game.intro.ready">PRÊTS ?</div>
         <div class="round-intro-name" id="round-intro-name">Culture G</div>
-        <div class="round-intro-suffix">va commencer !!</div>
+        <div class="round-intro-suffix" data-i18n="game.intro.starting">va commencer !!</div>
         <div class="round-intro-meta" id="round-intro-meta">Manche 1/3 — 10 questions</div>
       </div>
     </div>
@@ -112,7 +113,7 @@
         <div class="question-meta">
           <span class="badge badge-purple" id="q-theme">Culture G</span>
         </div>
-        <div class="question-text" id="question-text">Chargement...</div>
+        <div class="question-text" id="question-text" data-i18n="game.loading">Chargement...</div>
         <div class="answers-grid" id="answers-grid"></div>
       </div>
     </div>
@@ -121,7 +122,7 @@
     <div class="game-screen hidden" id="screen-pixel">
       <div class="pixel-wrap">
         <div class="question-meta">
-          <span class="badge badge-purple"><i class="ti ti-photo"></i> Pixel</span>
+          <span class="badge badge-purple"><i class="ti ti-photo"></i> <span data-i18n="round.pixel.short">Pixel</span></span>
         </div>
         <div class="question-text" data-i18n="game.pixel.title">Qu'est-ce que c'est ?</div>
         <div class="pixel-canvas-wrap">
@@ -137,8 +138,8 @@
     <div class="game-screen hidden" id="screen-geomap">
       <div class="geomap-wrap">
         <div class="geomap-header">
-          <span class="badge badge-orange"><i class="ti ti-map-pin"></i> GéoQuizz</span>
-          <h2 class="geomap-question" id="geomap-question">Où se trouve... ?</h2>
+          <span class="badge badge-orange"><i class="ti ti-map-pin"></i> <span data-i18n="round.geo.name">GéoQuizz</span></span>
+          <h2 class="geomap-question" id="geomap-question" data-i18n="game.geo.placeholder">Où se trouve... ?</h2>
         </div>
         <div class="geomap-body">
           <div id="geo-map" class="geo-map"></div>
@@ -146,18 +147,18 @@
             <div class="hourglass-slot" id="hourglass-slot"></div>
             <div class="geomap-hint-card" id="geomap-hint">
               <i class="ti ti-pointer"></i>
-              <span>Clique sur la carte pour placer ton point</span>
+              <span data-i18n="game.geo.hint">Clique sur la carte pour placer ton point</span>
             </div>
             <!-- Panneau de résultats (caché par défaut, montré au reveal) -->
             <div class="geomap-results-panel" id="geomap-results-panel" style="display:none">
-              <div class="geomap-results-title" id="geomap-results-title">📍 Lieu</div>
+              <div class="geomap-results-title" id="geomap-results-title" data-i18n="game.geo.place">📍 Lieu</div>
               <div class="geomap-results-fact" id="geomap-results-fact"></div>
               <div class="geomap-results-list" id="geomap-results-list"></div>
             </div>
             <button class="btn-geo-validate" id="geo-validate-btn"
                     onclick="submitGeoAnswer()" disabled>
               <i class="ti ti-check"></i>
-              <span>Valider !</span>
+              <span data-i18n="game.geo.validate">Valider !</span>
             </button>
           </aside>
         </div>
@@ -168,11 +169,11 @@
     <div class="game-screen hidden" id="screen-pari">
       <div class="pari-wrap">
         <div class="question-meta">
-          <span class="badge badge-orange"><i class="ti ti-coins"></i> Pari</span>
+          <span class="badge badge-orange"><i class="ti ti-coins"></i> <span data-i18n="round.pari.short">Pari</span></span>
         </div>
-        <div class="pari-question" id="pari-question-text">Question...</div>
+        <div class="pari-question" id="pari-question-text" data-i18n="game.loading">Question...</div>
         <div class="pari-balance">
-          Tes points : <strong id="pari-balance">0</strong>
+          <span data-i18n="game.pari.yourpoints">Tes points :</span> <strong id="pari-balance">0</strong>
           <span data-i18n="game.pari.pts">pts disponibles</span>
         </div>
         <div class="pari-slider-wrap">
@@ -180,7 +181,7 @@
                  oninput="updatePariDisplay()">
         </div>
         <div class="pari-bet-display">
-          <span id="pari-bet-pts">0</span> pts misés
+          <span id="pari-bet-pts">0</span> <span data-i18n="game.pari.betted">pts misés</span>
         </div>
         <div class="answers-grid" id="pari-answers-grid" style="display:none"></div>
         <button class="btn btn-orange btn-lg" id="pari-reveal-btn" onclick="revealPariAnswers()">
@@ -194,11 +195,11 @@
       <div class="reveal-screen-wrap">
         <div class="reveal-screen-head">
           <i class="ti ti-bulb"></i>
-          <span>Le savais-tu ?</span>
+          <span data-i18n="game.reveal.title">Le savais-tu ?</span>
         </div>
         <div class="reveal-screen-question" id="reveal-screen-question"></div>
         <div class="reveal-screen-answer">
-          <span class="reveal-screen-answer-label">Bonne réponse</span>
+          <span class="reveal-screen-answer-label" data-i18n="game.reveal.answer">Bonne réponse</span>
           <span class="reveal-screen-answer-text" id="reveal-screen-answer">—</span>
         </div>
         <div class="reveal-screen-text" id="reveal-screen-text"></div>
@@ -209,7 +210,7 @@
     <div class="game-screen hidden" id="screen-result">
       <div class="result-wrap">
         <div class="result-icon" id="result-icon">✅</div>
-        <div class="result-title" id="result-title">Bonne réponse !</div>
+        <div class="result-title" id="result-title" data-i18n="game.correct">Bonne réponse !</div>
         <div class="result-answer" id="result-answer"></div>
         <div class="result-points" id="result-points">+100 pts</div>
       </div>
@@ -231,10 +232,10 @@
         <div id="gameover-ranking" class="gameover-ranking"></div>
         <div class="gameover-actions">
           <button class="btn btn-purple btn-lg" onclick="displayGameHistory()">
-            <i class="ti ti-list-details"></i> Voir le récap
+            <i class="ti ti-list-details"></i> <span data-i18n="game.recap">Voir le récap</span>
           </button>
           <button class="btn btn-orange btn-lg" onclick="window.location.href='lobby.html'">
-            <i class="ti ti-arrow-back"></i> Retour au lobby
+            <i class="ti ti-arrow-back"></i> <span data-i18n="game.backlobby">Retour au lobby</span>
           </button>
           <button class="btn btn-ghost btn-lg" onclick="goHome()">
             <i class="ti ti-home"></i> <span data-i18n="game.back">Accueil</span>
@@ -246,10 +247,10 @@
     <!-- Récap de partie (historique question par question) -->
     <div class="game-screen hidden" id="screen-history">
       <div class="history-wrap">
-        <div class="history-title">📜 Récap de la partie</div>
+        <div class="history-title" data-i18n="game.history.title">📜 Récap de la partie</div>
         <div id="history-list" class="history-list"></div>
         <button class="btn btn-orange btn-lg" onclick="backToGameOver()" style="margin-top:20px">
-          <i class="ti ti-arrow-back"></i> Retour au classement
+          <i class="ti ti-arrow-back"></i> <span data-i18n="game.history.back">Retour au classement</span>
         </button>
       </div>
     </div>
@@ -259,54 +260,54 @@
 <!-- Contrôle hôte : bouton "Suivante" (visible seulement entre questions/manches pour l'hôte) -->
 <button class="host-control" id="host-control" onclick="hostAdvance()">
   <i class="ti ti-player-track-next-filled"></i>
-  <span id="host-control-label">Suivante</span>
+  <span id="host-control-label" data-i18n="game.host.next">Suivante</span>
 </button>
 <div class="host-waiting-msg" id="host-waiting-msg">
-  <i class="ti ti-clock-pause"></i> En attente de l'hôte...
+  <i class="ti ti-clock-pause"></i> <span data-i18n="lobby.guest.wait">En attente de l'hôte...</span>
 </div>
 
 <!-- Modal de signalement (Phase 5) — affiché depuis le récap de fin de partie -->
 <div class="report-overlay" id="report-overlay" role="dialog" aria-modal="true" aria-labelledby="report-title">
   <div class="report-modal" role="document">
     <div class="report-modal-head">
-      <h3 id="report-title"><i class="ti ti-flag"></i> Signaler cette question</h3>
-      <button type="button" class="report-close" id="report-cancel-x" aria-label="Fermer">
+      <h3 id="report-title"><i class="ti ti-flag"></i> <span data-i18n="report.title">Signaler cette question</span></h3>
+      <button type="button" class="report-close" id="report-cancel-x" aria-label="Fermer" data-i18n-title="report.close" title="Fermer">
         <i class="ti ti-x"></i>
       </button>
     </div>
-    <div class="report-sub">Aide-nous à améliorer la banque : indique ce qui cloche.</div>
+    <div class="report-sub" data-i18n="report.sub">Aide-nous à améliorer la banque : indique ce qui cloche.</div>
 
     <div class="report-cats" id="report-cats" role="radiogroup" aria-label="Catégorie">
       <label class="report-cat" data-cat="translation">
         <input type="radio" name="report-cat" value="translation">
         <i class="ti ti-language"></i>
-        <span>Mauvaise traduction</span>
+        <span data-i18n="report.cat.translation">Mauvaise traduction</span>
       </label>
       <label class="report-cat" data-cat="wrong_answer">
         <input type="radio" name="report-cat" value="wrong_answer">
         <i class="ti ti-circle-x"></i>
-        <span>Mauvaise réponse</span>
+        <span data-i18n="report.cat.wrong">Mauvaise réponse</span>
       </label>
       <label class="report-cat" data-cat="typo">
         <input type="radio" name="report-cat" value="typo">
         <i class="ti ti-typography"></i>
-        <span>Faute de frappe</span>
+        <span data-i18n="report.cat.typo">Faute de frappe</span>
       </label>
       <label class="report-cat" data-cat="other">
         <input type="radio" name="report-cat" value="other">
         <i class="ti ti-dots"></i>
-        <span>Autre</span>
+        <span data-i18n="report.cat.other">Autre</span>
       </label>
     </div>
 
-    <label class="report-comment-label" for="report-comment">Commentaire <span class="report-optional">(optionnel)</span></label>
+    <label class="report-comment-label" for="report-comment"><span data-i18n="report.comment">Commentaire</span> <span class="report-optional" data-i18n="report.optional">(optionnel)</span></label>
     <textarea class="report-comment" id="report-comment"
-              placeholder="Décris ce qui cloche (optionnel)…" maxlength="500"></textarea>
+              data-i18n-placeholder="report.comment.ph" placeholder="Décris ce qui cloche (optionnel)…" maxlength="500"></textarea>
 
     <div class="report-actions">
-      <button type="button" class="btn btn-ghost" id="report-cancel">Annuler</button>
+      <button type="button" class="btn btn-ghost" id="report-cancel" data-i18n="report.cancel">Annuler</button>
       <button type="button" class="btn btn-orange" id="report-send" disabled>
-        <i class="ti ti-send"></i> Envoyer
+        <i class="ti ti-send"></i> <span data-i18n="report.send">Envoyer</span>
       </button>
     </div>
   </div>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QuizzRoom — Salon d'attente</title>
+  <title data-i18n="page.lobby.title">QuizzRoom — Salon d'attente</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/lobby.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
@@ -16,9 +16,12 @@
     <div class="logo-mark"><i class="ti ti-bolt"></i></div>
     QuizzRoom
   </div>
-  <button class="btn btn-ghost btn-sm" onclick="leaveRoom()">
-    <i class="ti ti-door-exit"></i> <span data-i18n="lobby.leave">Quitter</span>
-  </button>
+  <div class="nav-actions">
+    <div id="lang-switcher" class="lang-switcher"></div>
+    <button class="btn btn-ghost btn-sm" onclick="leaveRoom()">
+      <i class="ti ti-door-exit"></i> <span data-i18n="lobby.leave">Quitter</span>
+    </button>
+  </div>
 </nav>
 
 <main class="lobby-main">
@@ -35,42 +38,42 @@
 
     <!-- Sélecteur de manches (visible pour tous, modifiable hôte seulement) -->
     <div class="lobby-card" id="rounds-pick-card">
-      <div class="lobby-card-title">Manches activées</div>
+      <div class="lobby-card-title" data-i18n="lobby.rounds.title">Manches activées</div>
       <div id="rounds-pick" class="rounds-pick">
-        <button class="round-pick" data-round="culture"><i class="ti ti-brain"></i> Culture G</button>
-        <button class="round-pick" data-round="geo"><i class="ti ti-map-pin"></i> GéoQuizz</button>
-        <button class="round-pick" data-round="pixel"><i class="ti ti-photo"></i> Pixel</button>
-        <button class="round-pick" data-round="pari"><i class="ti ti-coins"></i> Pari</button>
+        <button class="round-pick" data-round="culture"><i class="ti ti-brain"></i> <span data-i18n="round.culture.name">Culture G</span></button>
+        <button class="round-pick" data-round="geo"><i class="ti ti-map-pin"></i> <span data-i18n="round.geo.name">GéoQuizz</span></button>
+        <button class="round-pick" data-round="pixel"><i class="ti ti-photo"></i> <span data-i18n="round.pixel.short">Pixel</span></button>
+        <button class="round-pick" data-round="pari"><i class="ti ti-coins"></i> <span data-i18n="round.pari.short">Pari</span></button>
       </div>
     </div>
 
     <!-- Sélecteur de thèmes (visible pour tous, modifiable hôte seulement) -->
     <div class="lobby-card" id="themes-pick-card">
-      <div class="lobby-card-title">Thèmes (multi-sélection)</div>
+      <div class="lobby-card-title" data-i18n="lobby.themes.title">Thèmes (multi-sélection)</div>
       <div id="themes-pick" class="themes-pick">
-        <button class="theme-pick" data-theme="general">Culture G</button>
-        <button class="theme-pick" data-theme="science">Science</button>
-        <button class="theme-pick" data-theme="geographie">Géographie</button>
-        <button class="theme-pick" data-theme="histoire">Histoire</button>
-        <button class="theme-pick" data-theme="sport">Sport</button>
-        <button class="theme-pick" data-theme="cinema">Cinéma</button>
-        <button class="theme-pick" data-theme="musique">Musique</button>
-        <button class="theme-pick" data-theme="tech">Tech</button>
-        <button class="theme-pick" data-theme="nature">Nature</button>
-        <button class="theme-pick" data-theme="art">Art</button>
-        <button class="theme-pick" data-theme="litterature">Littérature</button>
-        <button class="theme-pick" data-theme="gastronomie">Gastronomie</button>
+        <button class="theme-pick" data-theme="general" data-i18n="theme.general">Culture G</button>
+        <button class="theme-pick" data-theme="science" data-i18n="theme.science">Science</button>
+        <button class="theme-pick" data-theme="geographie" data-i18n="theme.geographie">Géographie</button>
+        <button class="theme-pick" data-theme="histoire" data-i18n="theme.histoire">Histoire</button>
+        <button class="theme-pick" data-theme="sport" data-i18n="theme.sport">Sport</button>
+        <button class="theme-pick" data-theme="cinema" data-i18n="theme.cinema">Cinéma</button>
+        <button class="theme-pick" data-theme="musique" data-i18n="theme.musique">Musique</button>
+        <button class="theme-pick" data-theme="tech" data-i18n="theme.tech">Tech</button>
+        <button class="theme-pick" data-theme="nature" data-i18n="theme.nature">Nature</button>
+        <button class="theme-pick" data-theme="art" data-i18n="theme.art">Art</button>
+        <button class="theme-pick" data-theme="litterature" data-i18n="theme.litterature">Littérature</button>
+        <button class="theme-pick" data-theme="gastronomie" data-i18n="theme.gastronomie">Gastronomie</button>
       </div>
     </div>
 
     <!-- Sélecteur de difficulté (visible pour tous, modifiable hôte seulement) -->
     <div class="lobby-card" id="diff-pick-card">
-      <div class="lobby-card-title">Difficulté</div>
+      <div class="lobby-card-title" data-i18n="lobby.diff">Difficulté</div>
       <div id="diff-pick" class="diff-pick">
-        <button class="diff-pick-btn" data-diff="easy">Facile</button>
-        <button class="diff-pick-btn" data-diff="medium">Moyen</button>
-        <button class="diff-pick-btn" data-diff="hard">Difficile</button>
-        <button class="diff-pick-btn" data-diff="mix">Mix</button>
+        <button class="diff-pick-btn" data-diff="easy" data-i18n="diff.easy">Facile</button>
+        <button class="diff-pick-btn" data-diff="medium" data-i18n="diff.medium">Moyen</button>
+        <button class="diff-pick-btn" data-diff="hard" data-i18n="diff.hard">Difficile</button>
+        <button class="diff-pick-btn" data-diff="mix" data-i18n="diff.mix">Mix</button>
       </div>
     </div>
 
@@ -89,7 +92,7 @@
       </div>
       <div id="team-config" style="display:none">
         <div class="num-teams-row">
-          <span>Nombre d'équipes</span>
+          <span data-i18n="lobby.numteams">Nombre d'équipes</span>
           <div style="display:flex;gap:6px">
             <button class="qcount-btn" onclick="changeNumTeams(-1)">−</button>
             <span class="qcount-val" id="num-teams-val">2</span>
@@ -142,6 +145,15 @@
 <script src="js/avatar.js"></script>
 <script src="js/marble.js"></script>
 <script src="js/lobby.js"></script>
-<script>initI18n();</script>
+<script>
+  // initI18n() applique la langue stockée (localStorage 'qr_lang') aux éléments
+  // [data-i18n] et rend le sélecteur de langue. On re-rend ensuite les zones
+  // générées par JS (manches, pickers, liste joueurs) pour qu'elles soient déjà
+  // dans la bonne langue au démarrage, sans attendre un event socket.
+  initI18n().then(() => {
+    try { buildQCountControls(); renderPickersState(); } catch (e) {}
+    try { if (typeof currentPlayers !== 'undefined') updatePlayers(currentPlayers); } catch (e) {}
+  });
+</script>
 </body>
 </html>
