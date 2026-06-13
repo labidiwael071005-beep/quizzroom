@@ -5998,5 +5998,605 @@
         "country": null
       }
     }
+  },
+  {
+    "questionId": "cmq14wgnf005pu7afdyuyqoda",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the main ingredient of hummus?",
+        "options": [
+          "Lentils",
+          "White beans",
+          "Chickpeas",
+          "Broad beans"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el ingrediente principal del hummus?",
+        "options": [
+          "Lentejas",
+          "Alubias blancas",
+          "Garbanzos",
+          "Habas"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgo4005qu7afivzzwlb9",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which is the most expensive spice in the world?",
+        "options": [
+          "Vanilla",
+          "Cardamom",
+          "Saffron",
+          "Long pepper"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la especia más cara del mundo?",
+        "options": [
+          "Vainilla",
+          "Cardamomo",
+          "Azafrán",
+          "Pimienta larga"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgot005ru7afmj8mval8",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which cheese is used on a Margherita pizza?",
+        "options": [
+          "Emmental",
+          "Mozzarella",
+          "Parmesan",
+          "Burrata"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué queso se usa en la pizza Margarita?",
+        "options": [
+          "Emmental",
+          "Mozzarella",
+          "Parmesano",
+          "Burrata"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgph005su7afplj9j0zj",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which drink is called 'monks' wine' in some regions?",
+        "options": [
+          "Trappist beer",
+          "Mead",
+          "Cider",
+          "Kombucha"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué bebida se llama «vino de los monjes» en algunas regiones?",
+        "options": [
+          "Cerveza trapense",
+          "Hidromiel",
+          "Sidra",
+          "Kombucha"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgq6005tu7afe5czn8k3",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which country does sushi come from?",
+        "options": [
+          "China",
+          "Korea",
+          "Japan",
+          "Thailand"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿De qué país proviene el sushi?",
+        "options": [
+          "China",
+          "Corea",
+          "Japón",
+          "Tailandia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgqu005uu7aflygln9lv",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the main ingredient of tofu?",
+        "options": [
+          "Wheat",
+          "Chickpeas",
+          "Soy",
+          "Rice"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el ingrediente principal del tofu?",
+        "options": [
+          "Trigo",
+          "Garbanzos",
+          "Soja",
+          "Arroz"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgrj005vu7afd3lx79nc",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which French chef received the most Michelin stars in his career?",
+        "options": [
+          "Joël Robuchon",
+          "Paul Bocuse",
+          "Alain Ducasse",
+          "Guy Savoy"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué chef francés recibió más estrellas Michelin en su carrera?",
+        "options": [
+          "Joël Robuchon",
+          "Paul Bocuse",
+          "Alain Ducasse",
+          "Guy Savoy"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgs8005wu7afe1o7km2t",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is 'foie gras'?",
+        "options": [
+          "Fattened pork liver",
+          "Force-fed goose or duck liver",
+          "Cooked veal liver",
+          "Beef pâté"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es el «foie gras»?",
+        "options": [
+          "Hígado de cerdo engordado",
+          "Hígado de oca o pato cebado",
+          "Hígado de ternera cocido",
+          "Paté de ternera"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgsw005xu7afank6tk6y",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which wine is associated with the Bordeaux region?",
+        "options": [
+          "Dry white wine only",
+          "Red and white wines",
+          "Sparkling wines",
+          "Rosé wines"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué vino se asocia con la región de Burdeos?",
+        "options": [
+          "Solo vino blanco seco",
+          "Vinos tintos y blancos",
+          "Vinos espumosos",
+          "Vinos rosados"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgtm005yu7af6rvc6iod",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which cooking technique consists of cooking in fat at low temperature?",
+        "options": [
+          "Blanquette",
+          "Confit",
+          "Braising",
+          "Stewing"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué técnica de cocina consiste en cocinar en grasa a baja temperatura?",
+        "options": [
+          "Blanquette",
+          "Confit",
+          "Braseado",
+          "Rehogado"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgua005zu7aftcahsv6w",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Paris (Eiffel Tower)?",
+        "options": null,
+        "explanation": "Paris is crossed by the Seine and nicknamed the 'City of Light'.",
+        "label": "Paris (Eiffel Tower)",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Dónde está París (Torre Eiffel)?",
+        "options": null,
+        "explanation": "París está atravesada por el Sena y apodada la «Ciudad de la Luz».",
+        "label": "París (Torre Eiffel)",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgwa0061u7afdbs15mxg",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Rome (Colosseum)?",
+        "options": null,
+        "explanation": "Rome, the 'Eternal City', contains an independent state within it: the Vatican.",
+        "label": "Rome (Colosseum)",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Dónde está Roma (Coliseo)?",
+        "options": null,
+        "explanation": "Roma, la «Ciudad Eterna», alberga en su interior un Estado independiente: el Vaticano.",
+        "label": "Roma (Coliseo)",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgyc0064u7aftpis86od",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Athens (Acropolis)?",
+        "options": null,
+        "explanation": "Athens is considered the cradle of democracy.",
+        "label": "Athens (Acropolis)",
+        "country": "Greece"
+      },
+      "es": {
+        "text": "¿Dónde está Atenas (Acrópolis)?",
+        "options": null,
+        "explanation": "Atenas es considerada la cuna de la democracia.",
+        "label": "Atenas (Acrópolis)",
+        "country": "Grecia"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgz10065u7aflr72vcd1",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Moscow (Red Square)?",
+        "options": null,
+        "explanation": "Moscow is the most populous city in Europe.",
+        "label": "Moscow (Red Square)",
+        "country": "Russia"
+      },
+      "es": {
+        "text": "¿Dónde está Moscú (Plaza Roja)?",
+        "options": null,
+        "explanation": "Moscú es la ciudad más poblada de Europa.",
+        "label": "Moscú (Plaza Roja)",
+        "country": "Rusia"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wh130068u7aftsxvs06r",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Los Angeles (Hollywood Sign)?",
+        "options": null,
+        "explanation": "Los Angeles is home to Hollywood, the world capital of cinema.",
+        "label": "Los Angeles (Hollywood Sign)",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Dónde está Los Ángeles (letrero de Hollywood)?",
+        "options": null,
+        "explanation": "Los Ángeles alberga Hollywood, la capital mundial del cine.",
+        "label": "Los Ángeles (letrero de Hollywood)",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wh2g006au7afvo9fueqk",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Rio (Christ the Redeemer)?",
+        "options": null,
+        "explanation": "Christ the Redeemer has watched over Rio's bay since 1931, from a height of 30 metres.",
+        "label": "Rio (Christ the Redeemer)",
+        "country": "Brazil"
+      },
+      "es": {
+        "text": "¿Dónde está Río (Cristo Redentor)?",
+        "options": null,
+        "explanation": "El Cristo Redentor vela sobre la bahía de Río desde 1931, desde sus 30 metros de altura.",
+        "label": "Río (Cristo Redentor)",
+        "country": "Brasil"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wh35006bu7affaif16ih",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Buenos Aires?",
+        "options": null,
+        "explanation": "Buenos Aires is the birthplace of tango.",
+        "label": "Buenos Aires",
+        "country": "Argentina"
+      },
+      "es": {
+        "text": "¿Dónde está Buenos Aires?",
+        "options": null,
+        "explanation": "Buenos Aires es la cuna del tango.",
+        "label": "Buenos Aires",
+        "country": "Argentina"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wh4i006du7afc5xfkz2m",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Tokyo?",
+        "options": null,
+        "explanation": "Tokyo forms the most populous urban area on the planet.",
+        "label": "Tokyo",
+        "country": "Japan"
+      },
+      "es": {
+        "text": "¿Dónde está Tokio?",
+        "options": null,
+        "explanation": "Tokio forma el área urbana más poblada del planeta.",
+        "label": "Tokio",
+        "country": "Japón"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wh5v006fu7afn6xdzbuq",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Sydney (Opera House)?",
+        "options": null,
+        "explanation": "Sydney is the largest and oldest city in Australia.",
+        "label": "Sydney (Opera House)",
+        "country": "Australia"
+      },
+      "es": {
+        "text": "¿Dónde está Sídney (Ópera)?",
+        "options": null,
+        "explanation": "Sídney es la ciudad más grande y más antigua de Australia.",
+        "label": "Sídney (Ópera)",
+        "country": "Australia"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wh6k006gu7af79sqmrhn",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Mumbai (Gateway of India)?",
+        "options": null,
+        "explanation": "Mumbai is India's economic capital and the heart of Bollywood.",
+        "label": "Mumbai (Gateway of India)",
+        "country": "India"
+      },
+      "es": {
+        "text": "¿Dónde está Bombay (Puerta de la India)?",
+        "options": null,
+        "explanation": "Bombay es la capital económica de la India y el corazón de Bollywood.",
+        "label": "Bombay (Puerta de la India)",
+        "country": "India"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wh79006hu7afzzfie1o1",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Bangkok (Grand Palace)?",
+        "options": null,
+        "explanation": "Bangkok's full ceremonial name is the longest city name in the world.",
+        "label": "Bangkok (Grand Palace)",
+        "country": "Thailand"
+      },
+      "es": {
+        "text": "¿Dónde está Bangkok (Gran Palacio)?",
+        "options": null,
+        "explanation": "El nombre ceremonial completo de Bangkok es el nombre de ciudad más largo del mundo.",
+        "label": "Bangkok (Gran Palacio)",
+        "country": "Tailandia"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wh8m006ju7aftd4vw919",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Singapore (Marina Bay)?",
+        "options": null,
+        "explanation": "Singapore is at once a city, an island and a sovereign state.",
+        "label": "Singapore (Marina Bay)",
+        "country": "Singapore"
+      },
+      "es": {
+        "text": "¿Dónde está Singapur (Marina Bay)?",
+        "options": null,
+        "explanation": "Singapur es a la vez una ciudad, una isla y un Estado soberano.",
+        "label": "Singapur (Marina Bay)",
+        "country": "Singapur"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wh9b006ku7afx573vrge",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Cairo (Pyramids of Giza)?",
+        "options": null,
+        "explanation": "The pyramids of Giza are the only one of the seven wonders of the ancient world still standing.",
+        "label": "Cairo (Pyramids of Giza)",
+        "country": "Egypt"
+      },
+      "es": {
+        "text": "¿Dónde está El Cairo (Pirámides de Guiza)?",
+        "options": null,
+        "explanation": "Las pirámides de Guiza son la única de las siete maravillas del mundo antiguo que sigue en pie.",
+        "label": "El Cairo (Pirámides de Guiza)",
+        "country": "Egipto"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14whao006mu7afqgeq1df5",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Marrakesh (Jemaa el-Fna)?",
+        "options": null,
+        "explanation": "Marrakesh is nicknamed the 'red city' for its ochre earthen walls.",
+        "label": "Marrakesh (Jemaa el-Fna)",
+        "country": "Morocco"
+      },
+      "es": {
+        "text": "¿Dónde está Marrakech (Jemaa el-Fna)?",
+        "options": null,
+        "explanation": "Marrakech recibe el apodo de «ciudad roja» por sus muros de tierra ocre.",
+        "label": "Marrakech (Jemaa el-Fna)",
+        "country": "Marruecos"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14whbd006nu7afc9levw75",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Lagos?",
+        "options": null,
+        "explanation": "Lagos is one of the largest cities in Africa.",
+        "label": "Lagos",
+        "country": "Nigeria"
+      },
+      "es": {
+        "text": "¿Dónde está Lagos?",
+        "options": null,
+        "explanation": "Lagos es una de las ciudades más grandes de África.",
+        "label": "Lagos",
+        "country": "Nigeria"
+      }
+    }
   }
 ]
