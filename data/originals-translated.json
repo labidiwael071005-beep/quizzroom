@@ -6598,5 +6598,675 @@
         "country": "Nigeria"
       }
     }
+  },
+  {
+    "questionId": "cmq14whcq006pu7afyuaw44cl",
+    "type": "pixel",
+    "translations": {
+      "en": {
+        "text": "What is this?",
+        "options": [
+          "Eiffel Tower",
+          "Leaning Tower of Pisa",
+          "Big Ben",
+          "CN Tower"
+        ],
+        "explanation": "Built for the 1889 World's Fair, the Eiffel Tower was meant to be dismantled after 20 years.",
+        "label": "The Eiffel Tower",
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es esto?",
+        "options": [
+          "Torre Eiffel",
+          "Torre de Pisa",
+          "Big Ben",
+          "Torre CN"
+        ],
+        "explanation": "Construida para la Exposición Universal de 1889, la Torre Eiffel debía desmontarse al cabo de 20 años.",
+        "label": "La Torre Eiffel",
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14whe2006qu7afp00rtfol",
+    "type": "pixel",
+    "translations": {
+      "en": {
+        "text": "What is this?",
+        "options": [
+          "Colosseum",
+          "Pantheon",
+          "Roman Forum",
+          "Nîmes Amphitheatre"
+        ],
+        "explanation": "The Colosseum in Rome could hold up to 50,000 spectators for gladiator fights.",
+        "label": "The Colosseum",
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es esto?",
+        "options": [
+          "Coliseo",
+          "Panteón",
+          "Foro Romano",
+          "Anfiteatro de Nimes"
+        ],
+        "explanation": "El Coliseo de Roma podía albergar hasta 50 000 espectadores para los combates de gladiadores.",
+        "label": "El Coliseo",
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14whc1006ou7afqzy2del5",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Nairobi?",
+        "options": null,
+        "explanation": "Nairobi has a national park populated by lions just a stone's throw from the city centre.",
+        "label": "Nairobi",
+        "country": "Kenya"
+      },
+      "es": {
+        "text": "¿Dónde está Nairobi?",
+        "options": null,
+        "explanation": "Nairobi tiene un parque nacional poblado de leones a dos pasos del centro de la ciudad.",
+        "label": "Nairobi",
+        "country": "Kenia"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wh57006eu7afi7dqnjkv",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Beijing (Forbidden City)?",
+        "options": null,
+        "explanation": "Beijing's Forbidden City has nearly 1,000 buildings.",
+        "label": "Beijing (Forbidden City)",
+        "country": "China"
+      },
+      "es": {
+        "text": "¿Dónde está Pekín (Ciudad Prohibida)?",
+        "options": null,
+        "explanation": "La Ciudad Prohibida de Pekín cuenta con cerca de 1000 edificios.",
+        "label": "Pekín (Ciudad Prohibida)",
+        "country": "China"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgzq0066u7afiruhqzhm",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Istanbul (Hagia Sophia)?",
+        "options": null,
+        "explanation": "Istanbul is the only major city in the world straddling two continents.",
+        "label": "Istanbul (Hagia Sophia)",
+        "country": "Turkey"
+      },
+      "es": {
+        "text": "¿Dónde está Estambul (Santa Sofía)?",
+        "options": null,
+        "explanation": "Estambul es la única gran ciudad del mundo que se extiende sobre dos continentes.",
+        "label": "Estambul (Santa Sofía)",
+        "country": "Turquía"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgwy0062u7afxz5t668y",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Berlin (Brandenburg Gate)?",
+        "options": null,
+        "explanation": "Berlin was split in two by a wall from 1961 to 1989.",
+        "label": "Berlin (Brandenburg Gate)",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿Dónde está Berlín (Puerta de Brandeburgo)?",
+        "options": null,
+        "explanation": "Berlín estuvo dividida en dos por un muro de 1961 a 1989.",
+        "label": "Berlín (Puerta de Brandeburgo)",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wh7y006iu7afq3fud4xf",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Dubai (Burj Khalifa)?",
+        "options": null,
+        "explanation": "Dubai's Burj Khalifa rises to 828 m: it is the tallest skyscraper in the world.",
+        "label": "Dubai (Burj Khalifa)",
+        "country": "United Arab Emirates"
+      },
+      "es": {
+        "text": "¿Dónde está Dubái (Burj Khalifa)?",
+        "options": null,
+        "explanation": "El Burj Khalifa de Dubái alcanza los 828 m: es el rascacielos más alto del mundo.",
+        "label": "Dubái (Burj Khalifa)",
+        "country": "Emiratos Árabes Unidos"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgxm0063u7afskr8o9jb",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Madrid?",
+        "options": null,
+        "explanation": "Madrid is the highest capital in Europe by altitude, at about 650 m.",
+        "label": "Madrid",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿Dónde está Madrid?",
+        "options": null,
+        "explanation": "Madrid es la capital de Europa más alta en altitud, a unos 650 m.",
+        "label": "Madrid",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wh1s0069u7afenqki61g",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Mexico City (Zócalo)?",
+        "options": null,
+        "explanation": "Mexico City is built on the site of the former Aztec city of Tenochtitlan.",
+        "label": "Mexico City (Zócalo)",
+        "country": "Mexico"
+      },
+      "es": {
+        "text": "¿Dónde está Ciudad de México (Zócalo)?",
+        "options": null,
+        "explanation": "Ciudad de México está construida sobre el emplazamiento de la antigua ciudad azteca de Tenochtitlan.",
+        "label": "Ciudad de México (Zócalo)",
+        "country": "México"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wh3u006cu7afbm39tnts",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Toronto (CN Tower)?",
+        "options": null,
+        "explanation": "Toronto's CN Tower was for a long time the tallest free-standing structure in the world.",
+        "label": "Toronto (CN Tower)",
+        "country": "Canada"
+      },
+      "es": {
+        "text": "¿Dónde está Toronto (Torre CN)?",
+        "options": null,
+        "explanation": "La Torre CN de Toronto fue durante mucho tiempo la estructura autoportante más alta del mundo.",
+        "label": "Toronto (Torre CN)",
+        "country": "Canadá"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wh0e0067u7aflilnw061",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is New York (Statue of Liberty)?",
+        "options": null,
+        "explanation": "New York is nicknamed 'the city that never sleeps'.",
+        "label": "New York (Statue of Liberty)",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Dónde está Nueva York (Estatua de la Libertad)?",
+        "options": null,
+        "explanation": "Nueva York recibe el apodo de «la ciudad que nunca duerme».",
+        "label": "Nueva York (Estatua de la Libertad)",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wheq006ru7afjbor9vbm",
+    "type": "pixel",
+    "translations": {
+      "en": {
+        "text": "What is this?",
+        "options": [
+          "Big Ben",
+          "Eiffel Tower",
+          "Empire State Building",
+          "Leaning Tower of Pisa"
+        ],
+        "explanation": "'Big Ben' actually refers to the bell; the tower has officially been called the Elizabeth Tower since 2012.",
+        "label": "Big Ben",
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es esto?",
+        "options": [
+          "Big Ben",
+          "Torre Eiffel",
+          "Empire State Building",
+          "Torre de Pisa"
+        ],
+        "explanation": "«Big Ben» se refiere en realidad a la campana; la torre se llama oficialmente Torre Isabel desde 2012.",
+        "label": "Big Ben",
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14whff006su7afvszprd0k",
+    "type": "pixel",
+    "translations": {
+      "en": {
+        "text": "What is this?",
+        "options": [
+          "Taj Mahal",
+          "Marble palace",
+          "Alhambra",
+          "Hagia Sophia"
+        ],
+        "explanation": "The Taj Mahal was built by emperor Shah Jahan in memory of his late wife.",
+        "label": "The Taj Mahal",
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es esto?",
+        "options": [
+          "Taj Mahal",
+          "Palacio de mármol",
+          "Alhambra",
+          "Santa Sofía"
+        ],
+        "explanation": "El Taj Mahal fue erigido por el emperador Sha Jahan en memoria de su difunta esposa.",
+        "label": "El Taj Mahal",
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14whgs006uu7afwordih4s",
+    "type": "pixel",
+    "translations": {
+      "en": {
+        "text": "What is this?",
+        "options": [
+          "Great Wall of China",
+          "Hadrian's Wall",
+          "Berlin Wall",
+          "Ramparts of Carcassonne"
+        ],
+        "explanation": "The Great Wall of China stretches over more than 21,000 km, built over nearly two millennia.",
+        "label": "The Great Wall of China",
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es esto?",
+        "options": [
+          "Gran Muralla China",
+          "Muro de Adriano",
+          "Muro de Berlín",
+          "Murallas de Carcasona"
+        ],
+        "explanation": "La Gran Muralla China se extiende a lo largo de más de 21 000 km, construida durante casi dos milenios.",
+        "label": "La Gran Muralla China",
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14whhh006vu7af69mog5os",
+    "type": "pixel",
+    "translations": {
+      "en": {
+        "text": "What is this?",
+        "options": [
+          "Mount Fuji",
+          "Mount Everest",
+          "Kilimanjaro",
+          "Mont Blanc"
+        ],
+        "explanation": "Mount Fuji, Japan's highest point at 3,776 m, is a volcano still considered active.",
+        "label": "Mount Fuji",
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es esto?",
+        "options": [
+          "Monte Fuji",
+          "Monte Everest",
+          "Kilimanjaro",
+          "Mont Blanc"
+        ],
+        "explanation": "El monte Fuji, el punto más alto de Japón con 3776 m, es un volcán que todavía se considera activo.",
+        "label": "El monte Fuji",
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14whiu006xu7afbhbsoahk",
+    "type": "pixel",
+    "translations": {
+      "en": {
+        "text": "What is this?",
+        "options": [
+          "The Starry Night",
+          "Sunflowers",
+          "Self-Portrait with Bandaged Ear",
+          "Irises"
+        ],
+        "explanation": "Van Gogh painted The Starry Night in 1889 from the window of the asylum in Saint-Rémy-de-Provence.",
+        "label": "The Starry Night",
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es esto?",
+        "options": [
+          "La noche estrellada",
+          "Los girasoles",
+          "Autorretrato con la oreja vendada",
+          "Lirios"
+        ],
+        "explanation": "Van Gogh pintó La noche estrellada en 1889 desde la ventana del manicomio de Saint-Rémy-de-Provence.",
+        "label": "La noche estrellada",
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14whjj006yu7afe5gp3x6b",
+    "type": "pixel",
+    "translations": {
+      "en": {
+        "text": "What is this?",
+        "options": [
+          "Notre-Dame de Paris",
+          "Chartres Cathedral",
+          "Sacré-Cœur",
+          "Saint-Denis"
+        ],
+        "explanation": "Notre-Dame de Paris cathedral, begun in 1163, took nearly 200 years to complete.",
+        "label": "Notre-Dame de Paris",
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es esto?",
+        "options": [
+          "Notre-Dame de París",
+          "Catedral de Chartres",
+          "Sacré-Cœur",
+          "Saint-Denis"
+        ],
+        "explanation": "La catedral de Notre-Dame de París, comenzada en 1163, tardó casi 200 años en completarse.",
+        "label": "Notre-Dame de París",
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wghz004ju7af21a01kx7",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What does 'CPU' stand for?",
+        "options": [
+          "Central Processing Unit",
+          "Computer Power Unit",
+          "Core Processing Utility",
+          "Central Program Unit"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué significa «CPU»?",
+        "options": [
+          "Central Processing Unit",
+          "Computer Power Unit",
+          "Core Processing Utility",
+          "Central Program Unit"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdvl000pu7afrumh7qtr",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many member countries does the European Union have (2024)?",
+        "options": [
+          "24",
+          "25",
+          "27",
+          "30"
+        ],
+        "explanation": "The European Union has had 27 member states since the United Kingdom left in 2020 (Brexit).",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántos países miembros tiene la Unión Europea (2024)?",
+        "options": [
+          "24",
+          "25",
+          "27",
+          "30"
+        ],
+        "explanation": "La Unión Europea tiene 27 Estados miembros desde la salida del Reino Unido en 2020 (Brexit).",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdpf000gu7afdjekagzc",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which chemical element has the symbol 'Au'?",
+        "options": [
+          "Silver",
+          "Aluminium",
+          "Gold",
+          "Copper"
+        ],
+        "explanation": "The symbol 'Au' for gold comes from the Latin 'aurum', meaning 'shining dawn'.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué elemento químico tiene el símbolo «Au»?",
+        "options": [
+          "Plata",
+          "Aluminio",
+          "Oro",
+          "Cobre"
+        ],
+        "explanation": "El símbolo «Au» del oro proviene del latín «aurum», que significa «amanecer brillante».",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14whg3006tu7afd43rqw91",
+    "type": "pixel",
+    "translations": {
+      "en": {
+        "text": "What is this?",
+        "options": [
+          "Sydney Opera House",
+          "Guggenheim Museum",
+          "Pompidou Centre",
+          "Palais Garnier"
+        ],
+        "explanation": "The Sydney Opera House, opened in 1973, is covered with more than a million white tiles.",
+        "label": "The Sydney Opera House",
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es esto?",
+        "options": [
+          "Ópera de Sídney",
+          "Museo Guggenheim",
+          "Centro Pompidou",
+          "Ópera Garnier"
+        ],
+        "explanation": "La Ópera de Sídney, inaugurada en 1973, está recubierta de más de un millón de tejas blancas.",
+        "label": "La Ópera de Sídney",
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgvl0060u7af2c1nm5x6",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is London (Big Ben)?",
+        "options": null,
+        "explanation": "London was the first city in the world to exceed one million inhabitants, around 1810.",
+        "label": "London (Big Ben)",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Dónde está Londres (Big Ben)?",
+        "options": null,
+        "explanation": "Londres fue la primera ciudad del mundo en superar el millón de habitantes, hacia 1810.",
+        "label": "Londres (Big Ben)",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfvd003mu7afbj223e1m",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who directed 'Pulp Fiction'?",
+        "options": [
+          "Coen Brothers",
+          "Tarantino",
+          "Rodriguez",
+          "Fincher"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién dirigió «Pulp Fiction»?",
+        "options": [
+          "Coen Brothers",
+          "Tarantino",
+          "Rodriguez",
+          "Fincher"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wh9z006lu7afdwpj7w5z",
+    "type": "geo",
+    "translations": {
+      "en": {
+        "text": "Where is Cape Town (Table Mountain)?",
+        "options": null,
+        "explanation": "Cape Town is dominated by Table Mountain, with its surprisingly flat summit.",
+        "label": "Cape Town (Table Mountain)",
+        "country": "South Africa"
+      },
+      "es": {
+        "text": "¿Dónde está Ciudad del Cabo (Montaña de la Mesa)?",
+        "options": null,
+        "explanation": "Ciudad del Cabo está dominada por la Montaña de la Mesa, de cima sorprendentemente plana.",
+        "label": "Ciudad del Cabo (Montaña de la Mesa)",
+        "country": "Sudáfrica"
+      }
+    }
+  },
+  {
+    "questionId": "cmq14whi5006wu7af8i81i2xy",
+    "type": "pixel",
+    "translations": {
+      "en": {
+        "text": "What is this?",
+        "options": [
+          "Mona Lisa",
+          "The Birth of Venus",
+          "Girl with a Pearl Earring",
+          "Liberty Leading the People"
+        ],
+        "explanation": "The Mona Lisa is barely 77 cm tall and is protected by bulletproof glass at the Louvre.",
+        "label": "Mona Lisa",
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es esto?",
+        "options": [
+          "La Mona Lisa",
+          "El nacimiento de Venus",
+          "La joven de la perla",
+          "La libertad guiando al pueblo"
+        ],
+        "explanation": "La Mona Lisa mide apenas 77 cm de alto y está protegida por un cristal blindado en el Louvre.",
+        "label": "La Mona Lisa",
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdqt000iu7af25pb5j6m",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the longest river in the world?",
+        "options": [
+          "Amazon",
+          "Nile",
+          "Yangtze",
+          "Mississippi"
+        ],
+        "explanation": "The Nile runs about 6,650 km through north-eastern Africa before flowing into the Mediterranean.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el río más largo del mundo?",
+        "options": [
+          "Amazonas",
+          "Nilo",
+          "Yangtsé",
+          "Misisipi"
+        ],
+        "explanation": "El Nilo recorre unos 6650 km a través del noreste de África antes de desembocar en el Mediterráneo.",
+        "label": null,
+        "country": null
+      }
+    }
   }
 ]
