@@ -4498,5 +4498,725 @@
         "country": null
       }
     }
+  },
+  {
+    "questionId": "cmq14wgbv004au7afbjvojykf",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which 1970s New York musical movement influenced hip-hop?",
+        "options": [
+          "Disco",
+          "Funk",
+          "Breakbeat/DJ culture",
+          "Punk"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué movimiento musical de los años 70 en Nueva York influyó en el hip-hop?",
+        "options": [
+          "Disco",
+          "Funk",
+          "Breakbeat/cultura DJ",
+          "Punk"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgcj004bu7afal7vqt4y",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who founded Microsoft?",
+        "options": [
+          "Steve Jobs",
+          "Bill Gates",
+          "Mark Zuckerberg",
+          "Larry Page"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién fundó Microsoft?",
+        "options": [
+          "Steve Jobs",
+          "Bill Gates",
+          "Mark Zuckerberg",
+          "Larry Page"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgd8004cu7af0m74gn0a",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What does 'HTML' stand for?",
+        "options": [
+          "Hyper Text Makeup Language",
+          "Hyper Text Markup Language",
+          "High Text Making Language",
+          "Hyper Transfer Markup List"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué significa «HTML»?",
+        "options": [
+          "Hyper Text Makeup Language",
+          "Hyper Text Markup Language",
+          "High Text Making Language",
+          "Hyper Transfer Markup List"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgdw004du7afzd6omgcg",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In what year was the first iPhone launched?",
+        "options": [
+          "2005",
+          "2006",
+          "2007",
+          "2008"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué año se lanzó el primer iPhone?",
+        "options": [
+          "2005",
+          "2006",
+          "2007",
+          "2008"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgel004eu7afl0gcx5nr",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which company created Android?",
+        "options": [
+          "Apple",
+          "Microsoft",
+          "Google",
+          "Samsung"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué empresa creó Android?",
+        "options": [
+          "Apple",
+          "Microsoft",
+          "Google",
+          "Samsung"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgf9004fu7afkyy3iv58",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What does 'AI' stand for?",
+        "options": [
+          "Advanced Internet",
+          "Artificial Intelligence",
+          "Algorithmic Innovation",
+          "Automatic Interface"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué significa «IA»?",
+        "options": [
+          "Internet Avanzado",
+          "Inteligencia Artificial",
+          "Innovación Algorítmica",
+          "Interfaz Automática"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgfx004gu7af4cqse7x5",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the Python programming language named after?",
+        "options": [
+          "A snake",
+          "Monty Python",
+          "A scientist",
+          "A tool"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿A qué debe su nombre el lenguaje de programación Python?",
+        "options": [
+          "Una serpiente",
+          "Monty Python",
+          "Un científico",
+          "Una herramienta"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgio004ku7afqqi8mgmy",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the most widely used open-source operating system in the world?",
+        "options": [
+          "Windows",
+          "macOS",
+          "Linux",
+          "Unix"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el sistema operativo de código abierto más usado del mundo?",
+        "options": [
+          "Windows",
+          "macOS",
+          "Linux",
+          "Unix"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgjc004lu7afuwcw2oym",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What does Dijkstra's algorithm compute?",
+        "options": [
+          "Sorting an array",
+          "The shortest path",
+          "Data compression",
+          "A random number"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué calcula el algoritmo de Dijkstra?",
+        "options": [
+          "El ordenamiento de un arreglo",
+          "El camino más corto",
+          "La compresión de datos",
+          "Un número aleatorio"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgk0004mu7afkbt50bcv",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is 'garbage collection' in computing?",
+        "options": [
+          "Deleting files",
+          "Automatic memory management",
+          "Virus cleanup",
+          "Disk defragmentation"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es la «recolección de basura» en informática?",
+        "options": [
+          "La eliminación de archivos",
+          "La gestión automática de la memoria",
+          "La limpieza de virus",
+          "La desfragmentación del disco"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgld004ou7afdo122qdr",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is a 'race condition'?",
+        "options": [
+          "A performance bug",
+          "A conflict between concurrent threads",
+          "A memory error",
+          "An infinite loop"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es una «condición de carrera»?",
+        "options": [
+          "Un fallo de rendimiento",
+          "Un conflicto entre hilos concurrentes",
+          "Un error de memoria",
+          "Un bucle infinito"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgm1004pu7afw29909yd",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the largest land mammal?",
+        "options": [
+          "Hippopotamus",
+          "Rhinoceros",
+          "Giraffe",
+          "African elephant"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el mamífero terrestre más grande?",
+        "options": [
+          "Hipopótamo",
+          "Rinoceronte",
+          "Jirafa",
+          "Elefante africano"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgmp004qu7af5wdpa82b",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many tree species make up the Amazon rainforest (order of magnitude)?",
+        "options": [
+          "Hundreds",
+          "Thousands",
+          "Tens of thousands",
+          "Millions"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿De cuántas especies de árboles se compone la selva amazónica (orden de magnitud)?",
+        "options": [
+          "Cientos",
+          "Miles",
+          "Decenas de miles",
+          "Millones"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgne004ru7af6hbynfyp",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which animal produces honey?",
+        "options": [
+          "The wasp",
+          "The bee",
+          "The bumblebee",
+          "The ant"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué animal produce miel?",
+        "options": [
+          "La avispa",
+          "La abeja",
+          "El abejorro",
+          "La hormiga"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgo2004su7afmpu9ydwf",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the fastest marine animal?",
+        "options": [
+          "Dolphin",
+          "Swordfish",
+          "Great white shark",
+          "Bluefin tuna"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el animal marino más rápido?",
+        "options": [
+          "Delfín",
+          "Pez espada",
+          "Tiburón blanco",
+          "Atún rojo"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgoq004tu7afrjhiwsgf",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many legs does a spider have?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "10"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántas patas tiene una araña?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "10"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg2a004uu7afv966wxr8",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which tree produces acorns?",
+        "options": [
+          "Beech",
+          "Chestnut",
+          "Oak",
+          "Walnut"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué árbol produce las bellotas?",
+        "options": [
+          "Haya",
+          "Castaño",
+          "Roble",
+          "Nogal"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg2z004vu7afywrhnsl3",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which animal can survive in the vacuum of space?",
+        "options": [
+          "Cockroach",
+          "Tardigrade",
+          "Scorpion",
+          "Brine shrimp"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué animal puede sobrevivir en el vacío del espacio?",
+        "options": [
+          "Cucaracha",
+          "Tardígrado",
+          "Escorpión",
+          "Artemia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg3n004wu7afi401z5ma",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the only mammal that flies naturally?",
+        "options": [
+          "The flying squirrel",
+          "The bat",
+          "The flying lemur",
+          "The colugo"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el único mamífero que vuela de forma natural?",
+        "options": [
+          "La ardilla voladora",
+          "El murciélago",
+          "El lémur volador",
+          "El colugo"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg4c004xu7afn2po4swj",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which is the largest carnivorous plant in the world?",
+        "options": [
+          "Venus flytrap",
+          "Sundew",
+          "Nepenthes",
+          "Pitcher plant"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la planta carnívora más grande del mundo?",
+        "options": [
+          "Venus atrapamoscas",
+          "Rocío de sol",
+          "Nepenthes",
+          "Planta jarra"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg51004yu7af5nb442uh",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How long is an elephant's gestation?",
+        "options": [
+          "12 months",
+          "16 months",
+          "22 months",
+          "30 months"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuánto dura la gestación de un elefante?",
+        "options": [
+          "12 meses",
+          "16 meses",
+          "22 meses",
+          "30 meses"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg5p004zu7afnw3arg8q",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is bioluminescence?",
+        "options": [
+          "Reflected sunlight",
+          "The production of light by a living organism",
+          "The phosphorescence of rocks",
+          "The refraction of light in water"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es la bioluminiscencia?",
+        "options": [
+          "La luz solar reflejada",
+          "La producción de luz por un ser vivo",
+          "La fosforescencia de las rocas",
+          "La refracción de la luz en el agua"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg6e0050u7afzzadm11i",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the largest fungus species in the world?",
+        "options": [
+          "Fly agaric",
+          "Honey fungus",
+          "Porcini",
+          "Black truffle"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la especie de hongo más grande del mundo?",
+        "options": [
+          "Amanita matamoscas",
+          "Armillaria color miel",
+          "Boleto (cep)",
+          "Trufa negra"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg720051u7afeh7wzzj4",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the oldest tree in the world?",
+        "options": [
+          "Baobab",
+          "Sequoia",
+          "Bristlecone pine",
+          "Olive tree"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el árbol más viejo del mundo?",
+        "options": [
+          "Baobab",
+          "Secuoya",
+          "Pino longevo (Bristlecone)",
+          "Olivo"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
   }
 ]
