@@ -748,5 +748,755 @@
         "country": null
       }
     }
+  },
+  {
+    "questionId": "cmq14wdx1000ru7afysv56ry9",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In what years did World War II take place?",
+        "options": [
+          "1914-1918",
+          "1935-1942",
+          "1939-1945",
+          "1941-1947"
+        ],
+        "explanation": "World War II lasted six years, from the invasion of Poland in 1939 to the surrender of Japan in 1945.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué años tuvo lugar la Segunda Guerra Mundial?",
+        "options": [
+          "1914-1918",
+          "1935-1942",
+          "1939-1945",
+          "1941-1947"
+        ],
+        "explanation": "La Segunda Guerra Mundial duró seis años, desde la invasión de Polonia en 1939 hasta la capitulación de Japón en 1945.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdz2000uu7afb7cj1p3e",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which country has the most time zones?",
+        "options": [
+          "Russia",
+          "United States",
+          "France",
+          "China"
+        ],
+        "explanation": "Thanks to its overseas territories, France covers 12 time zones, more than any other country.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué país tiene más husos horarios?",
+        "options": [
+          "Rusia",
+          "Estados Unidos",
+          "Francia",
+          "China"
+        ],
+        "explanation": "Gracias a sus territorios de ultramar, Francia abarca 12 husos horarios, más que cualquier otro país.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdzr000vu7afasbba4kt",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the approximate Earth–Moon distance?",
+        "options": [
+          "184 000 km",
+          "284 000 km",
+          "384 000 km",
+          "484 000 km"
+        ],
+        "explanation": "The Moon orbits about 384,000 km from Earth and moves 3.8 cm farther away each year.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la distancia aproximada entre la Tierra y la Luna?",
+        "options": [
+          "184 000 km",
+          "284 000 km",
+          "384 000 km",
+          "484 000 km"
+        ],
+        "explanation": "La Luna orbita a unos 384 000 km de la Tierra y se aleja 3,8 cm cada año.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14we0g000wu7afgm65o54x",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In what year was the United Nations founded?",
+        "options": [
+          "1942",
+          "1945",
+          "1948",
+          "1950"
+        ],
+        "explanation": "The UN was founded on 24 October 1945, after World War II, to preserve peace.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué año se fundó la Organización de las Naciones Unidas?",
+        "options": [
+          "1942",
+          "1945",
+          "1948",
+          "1950"
+        ],
+        "explanation": "La ONU se fundó el 24 de octubre de 1945, tras la Segunda Guerra Mundial, para preservar la paz.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14we14000xu7af7ve916d9",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which mathematician formulated the 'last theorem' proved in 1995?",
+        "options": [
+          "Euler",
+          "Gauss",
+          "Fermat",
+          "Riemann"
+        ],
+        "explanation": "Stated by Fermat in 1637, his last theorem was not proved until 1995, by Andrew Wiles.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué matemático formuló el «último teorema» demostrado en 1995?",
+        "options": [
+          "Euler",
+          "Gauss",
+          "Fermat",
+          "Riemann"
+        ],
+        "explanation": "Enunciado por Fermat en 1637, su último teorema no se demostró hasta 1995, por Andrew Wiles.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14we1t000yu7afi5cr273a",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the Earth's rotation speed at the equator?",
+        "options": [
+          "1 200 km/h",
+          "1 350 km/h",
+          "1 674 km/h",
+          "2 000 km/h"
+        ],
+        "explanation": "At the equator, the Earth spins on its axis at about 1,674 km/h.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la velocidad de rotación de la Tierra en el ecuador?",
+        "options": [
+          "1 200 km/h",
+          "1 350 km/h",
+          "1 674 km/h",
+          "2 000 km/h"
+        ],
+        "explanation": "En el ecuador, la Tierra gira sobre su eje a unos 1674 km/h.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14we2h000zu7afbhaiihe0",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many official languages does the UN recognise?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "explanation": "The UN recognises 6 official languages: English, French, Spanish, Russian, Chinese and Arabic.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántos idiomas oficiales reconoce la ONU?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "explanation": "La ONU reconoce 6 idiomas oficiales: inglés, francés, español, ruso, chino y árabe.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14we360010u7afdgon3jzr",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the atomic number of gold?",
+        "options": [
+          "47",
+          "74",
+          "79",
+          "82"
+        ],
+        "explanation": "Gold has 79 protons; it is one of the few metals that does not corrode.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el número atómico del oro?",
+        "options": [
+          "47",
+          "74",
+          "79",
+          "82"
+        ],
+        "explanation": "El oro tiene 79 protones; es uno de los pocos metales que no se corroe.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14we3u0011u7af81s0qc15",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who painted 'The Persistence of Memory'?",
+        "options": [
+          "Picasso",
+          "Dalí",
+          "Magritte",
+          "Miró"
+        ],
+        "explanation": "Salvador Dalí painted his famous melting clocks in 1931, a surrealist symbol of time being distorted.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién pintó «La persistencia de la memoria»?",
+        "options": [
+          "Picasso",
+          "Dalí",
+          "Magritte",
+          "Miró"
+        ],
+        "explanation": "Salvador Dalí pintó sus famosos relojes blandos en 1931, símbolo surrealista del tiempo que se deforma.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14we4j0012u7afol8k8lth",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which treaty created the European Union?",
+        "options": [
+          "Treaty of Rome",
+          "Treaty of Lisbon",
+          "Treaty of Maastricht",
+          "Treaty of Amsterdam"
+        ],
+        "explanation": "The Maastricht Treaty, signed in 1992, officially created the European Union.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el tratado que dio origen a la Unión Europea?",
+        "options": [
+          "Tratado de Roma",
+          "Tratado de Lisboa",
+          "Tratado de Maastricht",
+          "Tratado de Ámsterdam"
+        ],
+        "explanation": "El Tratado de Maastricht, firmado en 1992, creó oficialmente la Unión Europea.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14we580013u7af8mzxzjph",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the density of water at 4°C?",
+        "options": [
+          "0,99 g/cm³",
+          "1,00 g/cm³",
+          "1,01 g/cm³",
+          "1,05 g/cm³"
+        ],
+        "explanation": "Water reaches its maximum density (1.00 g/cm³) at 4 °C, which is why ice floats.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la densidad del agua a 4 °C?",
+        "options": [
+          "0,99 g/cm³",
+          "1,00 g/cm³",
+          "1,01 g/cm³",
+          "1,05 g/cm³"
+        ],
+        "explanation": "El agua alcanza su densidad máxima (1,00 g/cm³) a 4 °C, por eso el hielo flota.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14we5y0014u7afery9h7m8",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which planet is the largest in the solar system?",
+        "options": [
+          "Saturn",
+          "Neptune",
+          "Jupiter",
+          "Uranus"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué planeta es el más grande del sistema solar?",
+        "options": [
+          "Saturno",
+          "Neptuno",
+          "Júpiter",
+          "Urano"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14we6n0015u7afpb1fbw94",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What do plants need for photosynthesis?",
+        "options": [
+          "CO2 and water",
+          "O2 and sugar",
+          "Nitrogen and water",
+          "Salt and CO2"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué necesitan las plantas para la fotosíntesis?",
+        "options": [
+          "CO2 y agua",
+          "O2 y azúcar",
+          "Nitrógeno y agua",
+          "Sal y CO2"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14we7b0016u7af8l8mjfn5",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which gas do we mainly breathe?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "CO2",
+          "Helium"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué gas respiramos principalmente?",
+        "options": [
+          "Oxígeno",
+          "Nitrógeno",
+          "CO2",
+          "Helio"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14we820017u7af47e53lrl",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many teeth does an adult have (excluding wisdom teeth)?",
+        "options": [
+          "24",
+          "28",
+          "32",
+          "36"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántos dientes tiene un adulto (sin las muelas del juicio)?",
+        "options": [
+          "24",
+          "28",
+          "32",
+          "36"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14we8r0018u7afo3reyds2",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is DNA?",
+        "options": [
+          "A vitamin",
+          "Genetic information",
+          "A protein",
+          "An enzyme"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es el ADN?",
+        "options": [
+          "Una vitamina",
+          "La información genética",
+          "Una proteína",
+          "Una enzima"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14we9g0019u7afw25iccrf",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What colour is light when the 3 primary colours are mixed?",
+        "options": [
+          "Black",
+          "White",
+          "Grey",
+          "Yellow"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿De qué color es la luz cuando se mezclan los 3 colores primarios?",
+        "options": [
+          "Negro",
+          "Blanco",
+          "Gris",
+          "Amarillo"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wea4001au7afi5rr23x6",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many planets are there in the solar system?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántos planetas hay en el sistema solar?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14weat001bu7afmgkv1ddo",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is an atom?",
+        "options": [
+          "A molecule",
+          "The smallest unit of an element",
+          "A free electron",
+          "A nucleus alone"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es un átomo?",
+        "options": [
+          "Una molécula",
+          "La unidad más pequeña de un elemento",
+          "Un electrón libre",
+          "Un núcleo solo"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14webh001cu7afovd1famh",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the speed of light in a vacuum?",
+        "options": [
+          "200 000 km/s",
+          "300 000 km/s",
+          "400 000 km/s",
+          "150 000 km/s"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la velocidad de la luz en el vacío?",
+        "options": [
+          "200 000 km/s",
+          "300 000 km/s",
+          "400 000 km/s",
+          "150 000 km/s"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wec6001du7afw3xvv3x7",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which organ produces insulin?",
+        "options": [
+          "Liver",
+          "Kidney",
+          "Pancreas",
+          "Spleen"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué órgano produce la insulina?",
+        "options": [
+          "Hígado",
+          "Riñón",
+          "Páncreas",
+          "Bazo"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wecu001eu7afscilzr6n",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many chromosomes does a human have?",
+        "options": [
+          "23",
+          "44",
+          "46",
+          "48"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántos cromosomas tiene un ser humano?",
+        "options": [
+          "23",
+          "44",
+          "46",
+          "48"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wedj001fu7afhr62dw8y",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the boiling point of water at sea level?",
+        "options": [
+          "90°C",
+          "95°C",
+          "100°C",
+          "105°C"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la temperatura de ebullición del agua a nivel del mar?",
+        "options": [
+          "90°C",
+          "95°C",
+          "100°C",
+          "105°C"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wee8001gu7afkgmqxjwu",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the pH of a neutral solution?",
+        "options": [
+          "0",
+          "5",
+          "7",
+          "14"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el pH de una solución neutra?",
+        "options": [
+          "0",
+          "5",
+          "7",
+          "14"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdxp000su7afxnwmo6km",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which planet is nicknamed 'the red planet'?",
+        "options": [
+          "Venus",
+          "Jupiter",
+          "Mars",
+          "Saturn"
+        ],
+        "explanation": "Mars owes its red hue to iron oxide — rust — covering its surface.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué planeta recibe el apodo de «el planeta rojo»?",
+        "options": [
+          "Venus",
+          "Júpiter",
+          "Marte",
+          "Saturno"
+        ],
+        "explanation": "Marte debe su tono rojo al óxido de hierro —el óxido— que cubre su superficie.",
+        "label": null,
+        "country": null
+      }
+    }
   }
 ]
