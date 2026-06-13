@@ -13,6 +13,8 @@
     "otdb:fetch": "node scripts/otdb-fetch.js",
     "otdb:translate": "node scripts/otdb-translate.js",
     "otdb:seed": "node scripts/otdb-seed.js",
+    "export:originals": "node scripts/export-originals.js",
+    "import:originals": "node scripts/import-originals.js",
     "postinstall": "prisma generate"
   },
   "keywords": [],

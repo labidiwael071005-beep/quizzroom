@@ -1,0 +1,5143 @@
+[
+  {
+    "questionId": "cmq14wddo0000u7afls8zy0yn",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la capitale de la France ?",
+      "options": [
+        "Lyon",
+        "Paris",
+        "Marseille",
+        "Bordeaux"
+      ],
+      "explanation": "Paris est la capitale de la France depuis le 6ᵉ siècle et compte plus de 2 millions d'habitants intra-muros.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdf40001u7afunzdvw2r",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de côtés a un hexagone ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "« Hexa » vient du grec et signifie « six » — c'est pourquoi la France, à la forme hexagonale, est surnommée « l'Hexagone ».",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdfu0002u7af77bt6z44",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le plus grand océan du monde ?",
+      "options": [
+        "Atlantique",
+        "Indien",
+        "Arctique",
+        "Pacifique"
+      ],
+      "explanation": "Le Pacifique couvre à lui seul environ un tiers de la surface du globe, soit plus que toutes les terres émergées réunies.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdgj0003u7af40su6i4a",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "En quelle année l'homme a-t-il marché sur la Lune ?",
+      "options": [
+        "1965",
+        "1967",
+        "1969",
+        "1971"
+      ],
+      "explanation": "Le 21 juillet 1969, Neil Armstrong devient le premier homme à fouler la Lune lors de la mission Apollo 11.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdh70004u7afwpuh21qp",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a peint la Joconde ?",
+      "options": [
+        "Michel-Ange",
+        "Raphaël",
+        "Léonard de Vinci",
+        "Botticelli"
+      ],
+      "explanation": "Léonard de Vinci a peint la Joconde vers 1503 et l'a gardée près de lui jusqu'à sa mort en France.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdhw0005u7afwi437xtz",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle planète est la plus proche du Soleil ?",
+      "options": [
+        "Vénus",
+        "Mars",
+        "Mercure",
+        "Terre"
+      ],
+      "explanation": "Mercure est si proche du Soleil qu'une année n'y dure que 88 jours terrestres.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdil0006u7aft0e1oh64",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est l'animal le plus rapide du monde ?",
+      "options": [
+        "Lion",
+        "Guépard",
+        "Aigle",
+        "Antilope"
+      ],
+      "explanation": "Le guépard atteint 110 km/h, mais ne tient cette vitesse que sur quelques centaines de mètres.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdja0007u7af4fi01p12",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de joueurs dans une équipe de football ?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "explanation": "Une équipe de football aligne 11 joueurs sur le terrain, dont un gardien de but.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdjy0008u7afkwqaifjn",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "De quelle couleur est l'émeraude ?",
+      "options": [
+        "Rouge",
+        "Bleu",
+        "Vert",
+        "Violet"
+      ],
+      "explanation": "L'émeraude tire son vert intense du chrome présent dans le béryl, sa roche d'origine.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdkn0009u7afy22v5hj2",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel pays a la plus grande superficie ?",
+      "options": [
+        "Canada",
+        "Chine",
+        "États-Unis",
+        "Russie"
+      ],
+      "explanation": "La Russie s'étend sur 17 millions de km² et chevauche deux continents, l'Europe et l'Asie.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdlb000au7afsr523cu7",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de continents y a-t-il sur Terre ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "On compte traditionnellement 7 continents, même si certains modèles n'en distinguent que 5 ou 6.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdm0000bu7af40lq1aea",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la langue la plus parlée dans le monde ?",
+      "options": [
+        "Anglais",
+        "Espagnol",
+        "Mandarin",
+        "Hindi"
+      ],
+      "explanation": "Le mandarin est la langue maternelle de près d'un milliard de personnes, principalement en Chine.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdmp000cu7afg5j5m7d1",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui est le président actuel de la France (2024) ?",
+      "options": [
+        "Nicolas Sarkozy",
+        "François Hollande",
+        "Emmanuel Macron",
+        "Marine Le Pen"
+      ],
+      "explanation": "Emmanuel Macron, élu en 2017 puis réélu en 2022, est le plus jeune président de l'histoire de la République française.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdne000du7afacfwjhu5",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de grammes dans un kilogramme ?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "explanation": "Le préfixe « kilo » signifie mille : un kilogramme vaut donc exactement 1000 grammes.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdo2000eu7afh9zlwcuq",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la couleur du ciel par temps clair ?",
+      "options": [
+        "Vert",
+        "Bleu",
+        "Rouge",
+        "Violet"
+      ],
+      "explanation": "Le ciel paraît bleu car l'atmosphère diffuse davantage la lumière bleue, de plus courte longueur d'onde.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdor000fu7afmv7igu79",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la capitale de l'Australie ?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      "explanation": "Canberra a été choisie comme capitale en 1908 pour mettre fin à la rivalité entre Sydney et Melbourne.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdq4000hu7af24nxveed",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "En quelle année la Révolution française a-t-elle commencé ?",
+      "options": [
+        "1776",
+        "1789",
+        "1799",
+        "1804"
+      ],
+      "explanation": "La prise de la Bastille, le 14 juillet 1789, marque le début symbolique de la Révolution française.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdu8000nu7aftnazzpl8",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a composé la 9e Symphonie ?",
+      "options": [
+        "Mozart",
+        "Bach",
+        "Beethoven",
+        "Chopin"
+      ],
+      "explanation": "Beethoven a composé sa 9ᵉ Symphonie alors qu'il était devenu complètement sourd.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdux000ou7af6wp9nq29",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le symbole chimique du fer ?",
+      "options": [
+        "Fi",
+        "Fe",
+        "Fr",
+        "Fw"
+      ],
+      "explanation": "Le symbole « Fe » du fer vient du latin « ferrum ».",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdrh000ju7afmkjpvysb",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la formule chimique de l'eau ?",
+      "options": [
+        "HO",
+        "H2O",
+        "H2O2",
+        "OH"
+      ],
+      "explanation": "Une molécule d'eau associe deux atomes d'hydrogène à un atome d'oxygène, d'où la formule H₂O.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdsv000lu7afv6upksab",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien d'os y a-t-il dans le corps humain adulte ?",
+      "options": [
+        "186",
+        "206",
+        "226",
+        "246"
+      ],
+      "explanation": "L'adulte compte 206 os ; un nouveau-né en a près de 300, qui fusionnent au fil de la croissance.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wds6000ku7affgx458wm",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a écrit 'Les Misérables' ?",
+      "options": [
+        "Balzac",
+        "Zola",
+        "Hugo",
+        "Flaubert"
+      ],
+      "explanation": "Victor Hugo a publié Les Misérables en 1862, en partie écrit pendant son exil sur l'île de Guernesey.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdtj000mu7af5qkpavtl",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la monnaie du Japon ?",
+      "options": [
+        "Yuan",
+        "Won",
+        "Yen",
+        "Baht"
+      ],
+      "explanation": "Le yen, créé en 1871, signifie littéralement « objet rond » en japonais.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wf1h002eu7afw07pvfxe",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel empire a construit le Colisée ?",
+      "options": [
+        "Grec",
+        "Romain",
+        "Ottoman",
+        "Byzantin"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdwc000qu7afoarxrjjj",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le plus haut sommet du monde ?",
+      "options": [
+        "K2",
+        "Mont Blanc",
+        "Everest",
+        "Kilimandjaro"
+      ],
+      "explanation": "L'Everest culmine à 8 849 m et gagne encore quelques millimètres d'altitude chaque année.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdx1000ru7afysv56ry9",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "En quelle année a eu lieu la Seconde Guerre mondiale ?",
+      "options": [
+        "1914-1918",
+        "1935-1942",
+        "1939-1945",
+        "1941-1947"
+      ],
+      "explanation": "La Seconde Guerre mondiale a duré six ans, de l'invasion de la Pologne en 1939 à la capitulation du Japon en 1945.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdz2000uu7afb7cj1p3e",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le pays avec le plus de fuseaux horaires ?",
+      "options": [
+        "Russie",
+        "États-Unis",
+        "France",
+        "Chine"
+      ],
+      "explanation": "Grâce à ses territoires d'outre-mer, la France couvre 12 fuseaux horaires, plus que tout autre pays.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdzr000vu7afasbba4kt",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la distance approximative Terre-Lune ?",
+      "options": [
+        "184 000 km",
+        "284 000 km",
+        "384 000 km",
+        "484 000 km"
+      ],
+      "explanation": "La Lune gravite à environ 384 000 km de la Terre et s'en éloigne de 3,8 cm chaque année.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14we0g000wu7afgm65o54x",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "En quelle année fut fondée l'Organisation des Nations Unies ?",
+      "options": [
+        "1942",
+        "1945",
+        "1948",
+        "1950"
+      ],
+      "explanation": "L'ONU a été fondée le 24 octobre 1945, après la Seconde Guerre mondiale, pour préserver la paix.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14we14000xu7af7ve916d9",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel mathématicien a formulé le 'dernier théorème' démontré en 1995 ?",
+      "options": [
+        "Euler",
+        "Gauss",
+        "Fermat",
+        "Riemann"
+      ],
+      "explanation": "Énoncé par Fermat en 1637, son dernier théorème n'a été démontré qu'en 1995 par Andrew Wiles.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14we1t000yu7afi5cr273a",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la vitesse de rotation de la Terre sur elle-même à l'équateur ?",
+      "options": [
+        "1 200 km/h",
+        "1 350 km/h",
+        "1 674 km/h",
+        "2 000 km/h"
+      ],
+      "explanation": "À l'équateur, la Terre tourne sur elle-même à environ 1 674 km/h.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14we2h000zu7afbhaiihe0",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de langues officielles l'ONU reconnaît-elle ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "L'ONU reconnaît 6 langues officielles : anglais, français, espagnol, russe, chinois et arabe.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14we360010u7afdgon3jzr",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le numéro atomique de l'or ?",
+      "options": [
+        "47",
+        "74",
+        "79",
+        "82"
+      ],
+      "explanation": "L'or possède 79 protons ; c'est l'un des rares métaux qui ne se corrode pas.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14we3u0011u7af81s0qc15",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a peint 'La Persistance de la mémoire' ?",
+      "options": [
+        "Picasso",
+        "Dalí",
+        "Magritte",
+        "Miró"
+      ],
+      "explanation": "Salvador Dalí a peint ses célèbres montres molles en 1931, symbole surréaliste du temps qui se déforme.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14we4j0012u7afol8k8lth",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le traité à l'origine de l'Union européenne ?",
+      "options": [
+        "Traité de Rome",
+        "Traité de Lisbonne",
+        "Traité de Maastricht",
+        "Traité d'Amsterdam"
+      ],
+      "explanation": "Le traité de Maastricht, signé en 1992, a officiellement créé l'Union européenne.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14we580013u7af8mzxzjph",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la densité de l'eau à 4°C ?",
+      "options": [
+        "0,99 g/cm³",
+        "1,00 g/cm³",
+        "1,01 g/cm³",
+        "1,05 g/cm³"
+      ],
+      "explanation": "L'eau atteint sa densité maximale (1,00 g/cm³) à 4 °C, ce qui explique pourquoi la glace flotte.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14we5y0014u7afery9h7m8",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle planète est la plus grande du système solaire ?",
+      "options": [
+        "Saturne",
+        "Neptune",
+        "Jupiter",
+        "Uranus"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14we6n0015u7afpb1fbw94",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "De quoi les plantes ont-elles besoin pour faire la photosynthèse ?",
+      "options": [
+        "CO2 et eau",
+        "O2 et sucre",
+        "Azote et eau",
+        "Sel et CO2"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14we7b0016u7af8l8mjfn5",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel gaz respirons-nous principalement ?",
+      "options": [
+        "Oxygène",
+        "Azote",
+        "CO2",
+        "Hélium"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14we820017u7af47e53lrl",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de dents a un adulte (sans les dents de sagesse) ?",
+      "options": [
+        "24",
+        "28",
+        "32",
+        "36"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14we8r0018u7afo3reyds2",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que l'ADN ?",
+      "options": [
+        "Une vitamine",
+        "L'information génétique",
+        "Une protéine",
+        "Un enzyme"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14we9g0019u7afw25iccrf",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la couleur de la lumière quand les 3 couleurs primaires sont mélangées ?",
+      "options": [
+        "Noir",
+        "Blanc",
+        "Gris",
+        "Jaune"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wea4001au7afi5rr23x6",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de planètes dans le système solaire ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14weat001bu7afmgkv1ddo",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce qu'un atome ?",
+      "options": [
+        "Une molécule",
+        "La plus petite unité d'un élément",
+        "Un électron libre",
+        "Un noyau seul"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14webh001cu7afovd1famh",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la vitesse de la lumière dans le vide ?",
+      "options": [
+        "200 000 km/s",
+        "300 000 km/s",
+        "400 000 km/s",
+        "150 000 km/s"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wec6001du7afw3xvv3x7",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel organe produit l'insuline ?",
+      "options": [
+        "Foie",
+        "Rein",
+        "Pancréas",
+        "Rate"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wecu001eu7afscilzr6n",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de chromosomes a un être humain ?",
+      "options": [
+        "23",
+        "44",
+        "46",
+        "48"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wedj001fu7afhr62dw8y",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la température d'ébullition de l'eau au niveau de la mer ?",
+      "options": [
+        "90°C",
+        "95°C",
+        "100°C",
+        "105°C"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wee8001gu7afkgmqxjwu",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le pH d'une solution neutre ?",
+      "options": [
+        "0",
+        "5",
+        "7",
+        "14"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdxp000su7afxnwmo6km",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle planète est surnommée 'la planète rouge' ?",
+      "options": [
+        "Vénus",
+        "Jupiter",
+        "Mars",
+        "Saturne"
+      ],
+      "explanation": "Mars doit sa teinte rouge à l'oxyde de fer — de la rouille — qui recouvre sa surface.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdye000tu7af7tee2vx9",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a peint le Plafond de la Chapelle Sixtine ?",
+      "options": [
+        "Raphaël",
+        "Michel-Ange",
+        "Léonard de Vinci",
+        "Caravage"
+      ],
+      "explanation": "Michel-Ange a peint le plafond de la chapelle Sixtine entre 1508 et 1512, perché sur des échafaudages.",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14weew001hu7afssyfgshn",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle force maintient les planètes en orbite autour du Soleil ?",
+      "options": [
+        "Force magnétique",
+        "Gravitation",
+        "Force électrique",
+        "Force nucléaire"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wefl001iu7afevmx4aww",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel gaz est principalement responsable de l'effet de serre ?",
+      "options": [
+        "Oxygène",
+        "Azote",
+        "CO2",
+        "Hydrogène"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wega001ju7afstyhb12g",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est l'élément le plus abondant dans l'univers ?",
+      "options": [
+        "Oxygène",
+        "Hélium",
+        "Carbone",
+        "Hydrogène"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wegy001ku7af0j562n66",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien d'électrons peut contenir la première couche électronique ?",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "18"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14weho001lu7af988v22d4",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que le Big Bang ?",
+      "options": [
+        "Un trou noir",
+        "L'origine de l'univers",
+        "Une supernova",
+        "Une galaxie"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14weic001mu7af20lhpaxa",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la constante de Planck (ordre de grandeur) ?",
+      "options": [
+        "6,6 × 10⁻³⁴ J·s",
+        "3,0 × 10⁸ m/s",
+        "6,02 × 10²³",
+        "9,8 m/s²"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wej1001nu7afvv3ig1b4",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Que mesure le nombre d'Avogadro ?",
+      "options": [
+        "La masse molaire",
+        "Le nombre de particules par mole",
+        "La constante des gaz",
+        "La charge électrique"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wejq001ou7af7a4zweze",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le principe de l'incertitude d'Heisenberg ?",
+      "options": [
+        "E=mc²",
+        "On ne peut pas connaître simultanément position et quantité de mouvement",
+        "La lumière est une onde et une particule",
+        "L'entropie croît toujours"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wekf001pu7af96gkj0zj",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la demi-vie du carbone 14 ?",
+      "options": [
+        "570 ans",
+        "5 730 ans",
+        "57 300 ans",
+        "573 000 ans"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wel3001qu7af082uuiya",
+    "type": "qcm",
+    "theme": "science",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce qu'un quasar ?",
+      "options": [
+        "Un trou noir sans galaxie",
+        "Un noyau de galaxie très lumineux",
+        "Une étoile mourante",
+        "Un amas de comètes"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wels001ru7af8xzepa27",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la capitale de l'Espagne ?",
+      "options": [
+        "Barcelone",
+        "Madrid",
+        "Séville",
+        "Valence"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wemh001su7aflqojgz4q",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Sur quel continent se trouve l'Égypte ?",
+      "options": [
+        "Asie",
+        "Europe",
+        "Afrique",
+        "Amérique"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wen5001tu7afpyxe5smo",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la capitale de l'Italie ?",
+      "options": [
+        "Milan",
+        "Naples",
+        "Florence",
+        "Rome"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wenu001uu7af94ji3dip",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Le Nil se jette dans quel océan / mer ?",
+      "options": [
+        "Mer Rouge",
+        "Océan Indien",
+        "Méditerranée",
+        "Atlantique"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14weoi001vu7afx20zyjn2",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la capitale de l'Allemagne ?",
+      "options": [
+        "Munich",
+        "Hambourg",
+        "Berlin",
+        "Francfort"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wep7001wu7afuvzk2ior",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel pays est entouré d'eau de tous côtés ?",
+      "options": [
+        "Australie",
+        "Brésil",
+        "Inde",
+        "France"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wepv001xu7afvwffar62",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la capitale du Maroc ?",
+      "options": [
+        "Casablanca",
+        "Marrakech",
+        "Rabat",
+        "Fès"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14weqk001yu7afnlg46dx4",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "La Tour de Pise se trouve dans quelle ville ?",
+      "options": [
+        "Rome",
+        "Venise",
+        "Pise",
+        "Florence"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wer8001zu7afkbrp4r1r",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le plus grand pays du monde en superficie ?",
+      "options": [
+        "Canada",
+        "Chine",
+        "États-Unis",
+        "Russie"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14werx0020u7af4xi9wvik",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la capitale du Brésil ?",
+      "options": [
+        "São Paulo",
+        "Rio de Janeiro",
+        "Brasília",
+        "Salvador"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wesl0021u7af9y9035rv",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel désert est le plus grand du monde ?",
+      "options": [
+        "Sahara",
+        "Gobi",
+        "Antarctique",
+        "Arabie"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14weta0022u7afhe4jeh5l",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Par combien de pays est entourée la Suisse ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wety0023u7afeaz2ytlp",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le fleuve le plus long d'Europe ?",
+      "options": [
+        "Danube",
+        "Rhin",
+        "Volga",
+        "Dnieper"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14weun0024u7afyraux4ax",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Dans quel pays se trouve Machu Picchu ?",
+      "options": [
+        "Chili",
+        "Bolivie",
+        "Pérou",
+        "Équateur"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wevc0025u7af41br7bhy",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la capitale de la Nouvelle-Zélande ?",
+      "options": [
+        "Auckland",
+        "Wellington",
+        "Christchurch",
+        "Dunedin"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wew00026u7afiq83t2wj",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel détroit sépare l'Europe de l'Afrique ?",
+      "options": [
+        "Détroit de Malacca",
+        "Détroit d'Ormuz",
+        "Détroit de Gibraltar",
+        "Détroit de Bering"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wewp0027u7affgejx6m4",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la capitale du Kazakhstan ?",
+      "options": [
+        "Almaty",
+        "Astana",
+        "Chymkent",
+        "Karaganda"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wexd0028u7afluvdwwaw",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel pays possède le plus de lacs du monde ?",
+      "options": [
+        "Russie",
+        "Canada",
+        "Finlande",
+        "États-Unis"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wey20029u7afay790i1o",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est la ville la plus peuplée du monde ?",
+      "options": [
+        "Shanghai",
+        "Mumbai",
+        "Tokyo",
+        "Delhi"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14weyq002au7af3msz73c7",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Le fleuve Congo se jette dans quel océan ?",
+      "options": [
+        "Indien",
+        "Atlantique",
+        "Pacifique",
+        "Arctique"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wezf002bu7af6nxlfawa",
+    "type": "qcm",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le point le plus bas de la Terre ?",
+      "options": [
+        "Mer Morte",
+        "Lac Assal",
+        "Lac Baïkal",
+        "Mariana"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wf03002cu7afw9yy7ux6",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "En quelle année a eu lieu la Révolution française ?",
+      "options": [
+        "1776",
+        "1789",
+        "1799",
+        "1815"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wf0s002du7af8b7qjteh",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui était le premier président des États-Unis ?",
+      "options": [
+        "Abraham Lincoln",
+        "George Washington",
+        "Thomas Jefferson",
+        "Benjamin Franklin"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wf25002fu7afeayfgm7o",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "En quelle année a commencé la Première Guerre mondiale ?",
+      "options": [
+        "1912",
+        "1914",
+        "1916",
+        "1918"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wf2t002gu7aftw5z1goh",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui était Napoléon Bonaparte ?",
+      "options": [
+        "Roi de France",
+        "Président",
+        "Général et Empereur",
+        "Cardinal"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wf3h002hu7afg7z3sngz",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel mur symbolique est tombé en 1989 ?",
+      "options": [
+        "Mur de Chine",
+        "Mur de Berlin",
+        "Mur d'Hadrien",
+        "Mur de Gaza"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wf46002iu7afhvu0js2x",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "En quelle année Christophe Colomb a-t-il découvert l'Amérique ?",
+      "options": [
+        "1488",
+        "1492",
+        "1498",
+        "1502"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wf4v002ju7afzkhwsmms",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui était Jules César ?",
+      "options": [
+        "Un pharaon",
+        "Un général et homme politique romain",
+        "Un philosophe grec",
+        "Un roi perse"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wf5j002ku7af8z09c0tv",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle civilisation a construit les pyramides de Gizeh ?",
+      "options": [
+        "Romaine",
+        "Grecque",
+        "Égyptienne",
+        "Mésopotamienne"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wf68002lu7afdtw6ckqt",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "En quelle année a été signé l'armistice de la Première Guerre mondiale ?",
+      "options": [
+        "1917",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wf6w002mu7af5j56mlgr",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui était le pharaon le plus célèbre de l'Égypte antique ?",
+      "options": [
+        "Ramsès II",
+        "Toutânkhamon",
+        "Cléopâtre",
+        "Akhenaton"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wf7l002nu7afaaqrjhxn",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "La Révolution industrielle a débuté dans quel pays ?",
+      "options": [
+        "France",
+        "Allemagne",
+        "Angleterre",
+        "États-Unis"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wf89002ou7aftqmsvfqt",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel traité a mis fin à la Seconde Guerre mondiale en Europe ?",
+      "options": [
+        "Traité de Versailles",
+        "Traité de Potsdam",
+        "Capitulation d'Allemagne nazie",
+        "Traité de Paris"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wf8y002pu7afskpbqe75",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a inventé l'imprimerie en Occident ?",
+      "options": [
+        "Galilée",
+        "Gutenberg",
+        "Leonardo da Vinci",
+        "Newton"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wf9m002qu7afrj42mtyw",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "En quelle année s'est effondré l'Union soviétique ?",
+      "options": [
+        "1989",
+        "1990",
+        "1991",
+        "1992"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfab002ru7af2nlwzvst",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle civilisation a inventé l'écriture cunéiforme ?",
+      "options": [
+        "Egyptienne",
+        "Mésopotamienne (Sumériens)",
+        "Phénicienne",
+        "Chinoise"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfaz002su7afi64pwmm3",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui était le premier tsar de Russie ?",
+      "options": [
+        "Pierre le Grand",
+        "Ivan le Terrible",
+        "Catherine II",
+        "Alexandre Ier"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfbo002tu7af5w7rnofk",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "En quelle année a eu lieu la bataille de Waterloo ?",
+      "options": [
+        "1812",
+        "1813",
+        "1815",
+        "1821"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfcc002uu7afckezfiyn",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel empire était le plus grand de l'histoire en superficie ?",
+      "options": [
+        "Empire romain",
+        "Empire mongol",
+        "Empire britannique",
+        "Empire ottoman"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfd0002vu7afpfvhsp82",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a déchiffré les hiéroglyphes grâce à la Pierre de Rosette ?",
+      "options": [
+        "Howard Carter",
+        "Jean-François Champollion",
+        "Heinrich Schliemann",
+        "Arthur Evans"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfdp002wu7afos9qmccd",
+    "type": "qcm",
+    "theme": "histoire",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "En quelle année Mahomet a-t-il fondé l'islam (selon la tradition) ?",
+      "options": [
+        "570",
+        "610",
+        "622",
+        "632"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfed002xu7afsiw8eipo",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de joueurs dans une équipe de basketball ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wff2002yu7af9xtibxp2",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel pays a remporté la Coupe du Monde 2018 ?",
+      "options": [
+        "Brésil",
+        "Allemagne",
+        "Argentine",
+        "France"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wffq002zu7af7jd01ddg",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Dans quel sport utilise-t-on un 'birdie' ?",
+      "options": [
+        "Tennis",
+        "Golf",
+        "Badminton",
+        "Cricket"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfge0030u7afhr4zapr4",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de sets gagne-t-on un match de tennis (Grand Chelem hommes) ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfh30031u7afaux82jr6",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel athlète détient le record du 100m ?",
+      "options": [
+        "Carl Lewis",
+        "Michael Johnson",
+        "Usain Bolt",
+        "Justin Gatlin"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfhr0032u7afnw0ousuc",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Dans quel sport joue-t-on au Stade de France ?",
+      "options": [
+        "Football et Rugby",
+        "Tennis",
+        "Natation",
+        "Athlétisme seul"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfig0033u7afmc0arizb",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de points vaut un essai au rugby ?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfj50034u7af7vnk3kkn",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel pays organise les Jeux Olympiques d'été 2024 ?",
+      "options": [
+        "Japon",
+        "États-Unis",
+        "France",
+        "Australie"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfjt0035u7afn1uwy1q7",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel joueur de football a remporté le plus de Ballons d'Or ?",
+      "options": [
+        "Cristiano Ronaldo",
+        "Lionel Messi",
+        "Ronaldinho",
+        "Zinédine Zidane"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfkh0036u7afduk93bvr",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "En quelle année la France a-t-elle remporté sa première Coupe du Monde ?",
+      "options": [
+        "1994",
+        "1996",
+        "1998",
+        "2000"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfl60037u7afk5m2ympr",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le Grand Chelem le plus ancien ?",
+      "options": [
+        "US Open",
+        "Roland Garros",
+        "Wimbledon",
+        "Open d'Australie"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wflu0038u7afvd8ys3ji",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel nageur a remporté le plus de médailles olympiques ?",
+      "options": [
+        "Ian Thorpe",
+        "Mark Spitz",
+        "Michael Phelps",
+        "Ryan Lochte"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfmj0039u7afyiayptgk",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Dans quel sport y a-t-il une 'touche' ?",
+      "options": [
+        "Football américain",
+        "Rugby",
+        "Les deux",
+        "Aucun"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfn7003au7afyqdj5t9j",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de buts en une rencontre s'appelle un hat-trick ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfnw003bu7afbym4ntpp",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de victoires en Formule 1 a Michael Schumacher ?",
+      "options": [
+        "79",
+        "86",
+        "91",
+        "103"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfol003cu7af5dsppnhg",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle nation a remporté le plus de médailles olympiques dans l'histoire ?",
+      "options": [
+        "Russie/URSS",
+        "Chine",
+        "États-Unis",
+        "Allemagne"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfp9003du7af8jvtxycf",
+    "type": "qcm",
+    "theme": "sport",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le record du monde actuel du marathon (2024) ?",
+      "options": [
+        "1h58m00s",
+        "2h00m35s",
+        "2h00m35s",
+        "2h01m09s"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfpy003eu7af7hsbmc6a",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui joue le rôle de Jack dans Titanic (1997) ?",
+      "options": [
+        "Brad Pitt",
+        "Johnny Depp",
+        "Leonardo DiCaprio",
+        "Tom Hanks"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfqm003fu7afuftrfj9j",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel film est associé à la réplique 'Que la Force soit avec toi' ?",
+      "options": [
+        "Star Trek",
+        "Star Wars",
+        "Avatar",
+        "Matrix"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfra003gu7afx50jhclo",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a réalisé 'Les Dents de la mer' ?",
+      "options": [
+        "Kubrick",
+        "Spielberg",
+        "Scorsese",
+        "Cameron"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfry003hu7af516kuy2m",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel dessin animé met en scène un poisson-clown ?",
+      "options": [
+        "Shrek",
+        "Cars",
+        "Le Monde de Nemo",
+        "L'Âge de glace"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfsn003iu7af82oto8dk",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel film a remporté le plus d'Oscars (égalité avec 11) ?",
+      "options": [
+        "Titanic",
+        "Le Seigneur des Anneaux",
+        "Ben-Hur",
+        "Les trois ont 11"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wftb003ju7afgytgfalz",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Dans quel film Simba est-il le personnage principal ?",
+      "options": [
+        "Bambi",
+        "Dumbo",
+        "Le Roi Lion",
+        "La Belle et la Bête"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfu0003ku7af6mixbcn2",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui joue Iron Man dans le MCU ?",
+      "options": [
+        "Chris Evans",
+        "Chris Hemsworth",
+        "Robert Downey Jr.",
+        "Mark Ruffalo"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfuo003lu7afv5m2jp11",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel film de 2009 est le plus gros succès au box-office mondial ?",
+      "options": [
+        "Avengers",
+        "Titanic",
+        "Avatar",
+        "Star Wars VII"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfw1003nu7afi935nid6",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel film a lancé la saga James Bond en 1962 ?",
+      "options": [
+        "Goldfinger",
+        "Dr. No",
+        "Casino Royale",
+        "Bons Baisers de Russie"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfxe003pu7afags5hsql",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel acteur a joué dans 'Philadelphia' et 'Forrest Gump' la même année ?",
+      "options": [
+        "Dustin Hoffman",
+        "Al Pacino",
+        "Tom Hanks",
+        "Robert De Niro"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfy3003qu7afws02fw4l",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le vrai nom de Charlie Chaplin ?",
+      "options": [
+        "Charles Spencer Chaplin",
+        "Charles John Chaplin",
+        "Charles Albert Chaplin",
+        "Charles Henri Chaplin"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfys003ru7afy80obb68",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a composé la musique originale de Star Wars ?",
+      "options": [
+        "Hans Zimmer",
+        "Ennio Morricone",
+        "John Williams",
+        "Howard Shore"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfzh003su7afcxa4vh34",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel film de Kubrick est adapté d'un roman d'Arthur C. Clarke ?",
+      "options": [
+        "2001 l'Odyssée de l'espace",
+        "Orange mécanique",
+        "Full Metal Jacket",
+        "Shining"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg05003tu7afjlv7g6gh",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui est le réalisateur d'Akira (1988) ?",
+      "options": [
+        "Hayao Miyazaki",
+        "Katsuhiro Otomo",
+        "Mamoru Oshii",
+        "Satoshi Kon"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg0u003uu7afqjme2wqs",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel acteur a refusé l'Oscar du meilleur acteur en 1973 ?",
+      "options": [
+        "Al Pacino",
+        "Jack Nicholson",
+        "Marlon Brando",
+        "Dustin Hoffman"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg1j003vu7afa3wwq3hl",
+    "type": "qcm",
+    "theme": "musique",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel groupe a chanté 'Bohemian Rhapsody' ?",
+      "options": [
+        "The Beatles",
+        "Rolling Stones",
+        "Queen",
+        "Led Zeppelin"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg27003wu7afrcgpjfz7",
+    "type": "qcm",
+    "theme": "musique",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Comment s'appelle le chanteur de U2 ?",
+      "options": [
+        "Sting",
+        "Bono",
+        "Phil Collins",
+        "Elton John"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg2w003xu7af1g2hk3cg",
+    "type": "qcm",
+    "theme": "musique",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel instrument joue Elton John ?",
+      "options": [
+        "Guitare",
+        "Batterie",
+        "Piano",
+        "Violon"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg3l003yu7afqeaf09j1",
+    "type": "qcm",
+    "theme": "musique",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle pop star est surnommée 'La Reine de la Pop' ?",
+      "options": [
+        "Britney Spears",
+        "Beyoncé",
+        "Madonna",
+        "Lady Gaga"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg4f003zu7af4powr95r",
+    "type": "qcm",
+    "theme": "musique",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Dans quelle ville est né le jazz ?",
+      "options": [
+        "New York",
+        "Chicago",
+        "La Nouvelle-Orléans",
+        "Memphis"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg530040u7afkgzle9ht",
+    "type": "qcm",
+    "theme": "musique",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel rappeur français a sorti 'La Trilogie du Belge' ?",
+      "options": [
+        "Booba",
+        "PNL",
+        "Orelsan",
+        "Nekfeu"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg5r0041u7afmxbl5b6k",
+    "type": "qcm",
+    "theme": "musique",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel groupe suédois a formé ABBA ?",
+      "options": [
+        "2 hommes et 2 femmes",
+        "4 hommes",
+        "4 femmes",
+        "3 hommes et 1 femme"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg6f0042u7afdzyg43og",
+    "type": "qcm",
+    "theme": "musique",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a composé la Lettre à Élise ?",
+      "options": [
+        "Bach",
+        "Beethoven",
+        "Mozart",
+        "Schubert"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg740043u7afrm7unqz1",
+    "type": "qcm",
+    "theme": "musique",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "En quelle année les Beatles se sont-ils séparés ?",
+      "options": [
+        "1968",
+        "1969",
+        "1970",
+        "1971"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg7s0044u7aftgt7yu0k",
+    "type": "qcm",
+    "theme": "musique",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel genre musical est originaire de la Jamaïque ?",
+      "options": [
+        "Calypso",
+        "Ska",
+        "Reggae",
+        "Dancehall"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg8g0045u7afnqdiqxuy",
+    "type": "qcm",
+    "theme": "musique",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est l'album le plus vendu de tous les temps ?",
+      "options": [
+        "Thriller",
+        "Back in Black",
+        "The Dark Side of the Moon",
+        "Bat Out of Hell"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg940046u7afjn0rtazn",
+    "type": "qcm",
+    "theme": "musique",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui est l'auteur-compositeur de 'Imagine' ?",
+      "options": [
+        "Paul McCartney",
+        "John Lennon",
+        "George Harrison",
+        "Ringo Starr"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg9t0047u7af6muxcbx4",
+    "type": "qcm",
+    "theme": "musique",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel instrument Yo-Yo Ma joue-t-il ?",
+      "options": [
+        "Violon",
+        "Alto",
+        "Violoncelle",
+        "Contrebasse"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgai0048u7afarkiliqh",
+    "type": "qcm",
+    "theme": "musique",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de symphonies Beethoven a-t-il composées ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wfwq003ou7afxtw6qe72",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Dans quel pays se passe 'Parasite' de Bong Joon-ho ?",
+      "options": [
+        "Japon",
+        "Chine",
+        "Corée du Sud",
+        "Taïwan"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgb60049u7af80n9yw6q",
+    "type": "qcm",
+    "theme": "musique",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel compositeur était sourd à la fin de sa vie ?",
+      "options": [
+        "Mozart",
+        "Bach",
+        "Beethoven",
+        "Brahms"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgbv004au7afbjvojykf",
+    "type": "qcm",
+    "theme": "musique",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel mouvement musical des années 70 à New York a influencé le hip-hop ?",
+      "options": [
+        "Disco",
+        "Funk",
+        "Breakbeat/DJ culture",
+        "Punk"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgcj004bu7afal7vqt4y",
+    "type": "qcm",
+    "theme": "tech",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a fondé Microsoft ?",
+      "options": [
+        "Steve Jobs",
+        "Bill Gates",
+        "Mark Zuckerberg",
+        "Larry Page"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgd8004cu7af0m74gn0a",
+    "type": "qcm",
+    "theme": "tech",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Que signifie 'HTML' ?",
+      "options": [
+        "Hyper Text Makeup Language",
+        "Hyper Text Markup Language",
+        "High Text Making Language",
+        "Hyper Transfer Markup List"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgdw004du7afzd6omgcg",
+    "type": "qcm",
+    "theme": "tech",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "En quelle année le premier iPhone a-t-il été lancé ?",
+      "options": [
+        "2005",
+        "2006",
+        "2007",
+        "2008"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgel004eu7afl0gcx5nr",
+    "type": "qcm",
+    "theme": "tech",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle entreprise a créé Android ?",
+      "options": [
+        "Apple",
+        "Microsoft",
+        "Google",
+        "Samsung"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgf9004fu7afkyy3iv58",
+    "type": "qcm",
+    "theme": "tech",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Que signifie 'IA' ?",
+      "options": [
+        "Internet Avancé",
+        "Intelligence Artificielle",
+        "Innovation Algorithmique",
+        "Interface Automatique"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgfx004gu7af4cqse7x5",
+    "type": "qcm",
+    "theme": "tech",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel langage de programmation Python doit son nom à ?",
+      "options": [
+        "Un serpent",
+        "Monty Python",
+        "Un scientifique",
+        "Un outil"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgio004ku7afqqi8mgmy",
+    "type": "qcm",
+    "theme": "tech",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le système d'exploitation open-source le plus utilisé au monde ?",
+      "options": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Unix"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgjc004lu7afuwcw2oym",
+    "type": "qcm",
+    "theme": "tech",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que l'algorithme de Dijkstra calcule ?",
+      "options": [
+        "Le tri d'un tableau",
+        "Le chemin le plus court",
+        "La compression de données",
+        "Un nombre aléatoire"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgk0004mu7afkbt50bcv",
+    "type": "qcm",
+    "theme": "tech",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que le 'garbage collection' en informatique ?",
+      "options": [
+        "La suppression de fichiers",
+        "La gestion automatique de la mémoire",
+        "Le nettoyage de virus",
+        "La défragmentation du disque"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgkp004nu7afs84rbsx9",
+    "type": "qcm",
+    "theme": "tech",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel algorithme est utilisé dans Bitcoin pour le minage ?",
+      "options": [
+        "MD5",
+        "SHA-1",
+        "SHA-256",
+        "RSA"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgld004ou7afdo122qdr",
+    "type": "qcm",
+    "theme": "tech",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce qu'une 'race condition' ?",
+      "options": [
+        "Un bug de performance",
+        "Un conflit entre threads concurrents",
+        "Une erreur de mémoire",
+        "Un cycle infini"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgm1004pu7afw29909yd",
+    "type": "qcm",
+    "theme": "nature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le plus grand mammifère terrestre ?",
+      "options": [
+        "Hippopotame",
+        "Rhinocéros",
+        "Girafe",
+        "Éléphant d'Afrique"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgmp004qu7af5wdpa82b",
+    "type": "qcm",
+    "theme": "nature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "De combien d'espèces d'arbres la forêt amazonienne est-elle composée (ordre de grandeur) ?",
+      "options": [
+        "Centaines",
+        "Milliers",
+        "Dizaines de milliers",
+        "Millions"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgne004ru7af6hbynfyp",
+    "type": "qcm",
+    "theme": "nature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel animal produit du miel ?",
+      "options": [
+        "La guêpe",
+        "L'abeille",
+        "Le bourdon",
+        "La fourmi"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgo2004su7afmpu9ydwf",
+    "type": "qcm",
+    "theme": "nature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le plus rapide des animaux marins ?",
+      "options": [
+        "Dauphin",
+        "Espadon",
+        "Requin blanc",
+        "Thon rouge"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgoq004tu7afrjhiwsgf",
+    "type": "qcm",
+    "theme": "nature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de pattes a une araignée ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "10"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg2a004uu7afv966wxr8",
+    "type": "qcm",
+    "theme": "nature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel arbre produit les glands ?",
+      "options": [
+        "Hêtre",
+        "Châtaignier",
+        "Chêne",
+        "Noyer"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg2z004vu7afywrhnsl3",
+    "type": "qcm",
+    "theme": "nature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel animal peut survivre dans le vide spatial ?",
+      "options": [
+        "Cafard",
+        "Tardigrade",
+        "Scorpion",
+        "Crevette de saumure"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg3n004wu7afi401z5ma",
+    "type": "qcm",
+    "theme": "nature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le seul mammifère à voler naturellement ?",
+      "options": [
+        "L'écureuil volant",
+        "La chauve-souris",
+        "Le lémur volant",
+        "Le colugo"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg4c004xu7afn2po4swj",
+    "type": "qcm",
+    "theme": "nature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle plante carnivore est la plus grande du monde ?",
+      "options": [
+        "Vénus attrape-mouche",
+        "Sundew",
+        "Nepenthes",
+        "Pitcher Plant"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg51004yu7af5nb442uh",
+    "type": "qcm",
+    "theme": "nature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de temps dure la gestation d'un éléphant ?",
+      "options": [
+        "12 mois",
+        "16 mois",
+        "22 mois",
+        "30 mois"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg5p004zu7afnw3arg8q",
+    "type": "qcm",
+    "theme": "nature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que la bioluminescence ?",
+      "options": [
+        "La lumière solaire réfléchie",
+        "La production de lumière par un être vivant",
+        "La phosphorescence des roches",
+        "La réfraction lumineuse dans l'eau"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg6e0050u7afzzadm11i",
+    "type": "qcm",
+    "theme": "nature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle est l'espèce de champignon la plus grande du monde ?",
+      "options": [
+        "Amanite tue-mouches",
+        "Armillaire couleur de miel",
+        "Cèpe de Bordeaux",
+        "Truffe noire"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg720051u7afeh7wzzj4",
+    "type": "qcm",
+    "theme": "nature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est l'arbre le plus vieux du monde ?",
+      "options": [
+        "Baobab",
+        "Séquoia",
+        "Pin Bristlecone",
+        "Olivier"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg7r0052u7afhez0p729",
+    "type": "qcm",
+    "theme": "art",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a peint 'La Nuit étoilée' ?",
+      "options": [
+        "Gauguin",
+        "Monet",
+        "Van Gogh",
+        "Cézanne"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg8f0053u7af8vpzx218",
+    "type": "qcm",
+    "theme": "art",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel style artistique Picasso a-t-il cofondé ?",
+      "options": [
+        "Impressionnisme",
+        "Cubisme",
+        "Surréalisme",
+        "Dadaïsme"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg940054u7afjl1o2l6t",
+    "type": "qcm",
+    "theme": "art",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel musée abrite la Joconde ?",
+      "options": [
+        "Musée d'Orsay",
+        "Louvre",
+        "Pompidou",
+        "British Museum"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wghb004iu7afs0b7unoo",
+    "type": "qcm",
+    "theme": "tech",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel protocole sécurise les communications web ?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "HTTPS/SSL",
+        "SMTP"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wggm004hu7afl26hhc64",
+    "type": "qcm",
+    "theme": "tech",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que le 'Cloud Computing' ?",
+      "options": [
+        "Un type de matériel",
+        "L'informatique via internet",
+        "Un réseau local",
+        "Un système d'exploitation"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wg9s0055u7afv92qvx9t",
+    "type": "qcm",
+    "theme": "art",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a sculpté 'Le Penseur' ?",
+      "options": [
+        "Michel-Ange",
+        "Rodin",
+        "Brancusi",
+        "Giacometti"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgai0056u7afvnc004vt",
+    "type": "qcm",
+    "theme": "art",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel mouvement artistique Monet représente-t-il ?",
+      "options": [
+        "Réalisme",
+        "Romantisme",
+        "Impressionnisme",
+        "Expressionnisme"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgb70057u7afp13vp8fa",
+    "type": "qcm",
+    "theme": "art",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a peint 'La Persistance de la mémoire' (montres molles) ?",
+      "options": [
+        "Picasso",
+        "Dalí",
+        "Magritte",
+        "Ernst"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgbv0058u7af63xwtfzi",
+    "type": "qcm",
+    "theme": "art",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel artiste est connu pour ses boîtes de soupe Campbell ?",
+      "options": [
+        "Roy Lichtenstein",
+        "Andy Warhol",
+        "Jasper Johns",
+        "Robert Rauschenberg"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgcj0059u7afh6y5xkzl",
+    "type": "qcm",
+    "theme": "art",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a peint le 'Cri' ?",
+      "options": [
+        "Munch",
+        "Klimt",
+        "Schiele",
+        "Ensor"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgd8005au7afxqobvdu0",
+    "type": "qcm",
+    "theme": "art",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "En quelle année Picasso a-t-il peint Guernica ?",
+      "options": [
+        "1933",
+        "1935",
+        "1937",
+        "1939"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgdw005bu7af2bsqgslg",
+    "type": "qcm",
+    "theme": "art",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel mouvement artistique Marcel Duchamp a-t-il influencé ?",
+      "options": [
+        "Surréalisme",
+        "Art conceptuel et Dadaïsme",
+        "Cubisme",
+        "Expressionnisme abstrait"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgek005cu7afz39f1tev",
+    "type": "qcm",
+    "theme": "art",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a créé la sculpture 'Fountain' (urinoir), œuvre conceptuelle ?",
+      "options": [
+        "Man Ray",
+        "Francis Picabia",
+        "Marcel Duchamp",
+        "Jean Arp"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgf9005du7afyviv0ox0",
+    "type": "qcm",
+    "theme": "litterature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a écrit 'Don Quichotte' ?",
+      "options": [
+        "Lope de Vega",
+        "Cervantes",
+        "Calderón",
+        "García Lorca"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgfy005eu7af4g1y68ku",
+    "type": "qcm",
+    "theme": "litterature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Dans quel roman apparaît le personnage de Sherlock Holmes ?",
+      "options": [
+        "Agatha Christie",
+        "Arthur Conan Doyle",
+        "G.K. Chesterton",
+        "Edgar Allan Poe"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wggm005fu7af1a6kd00n",
+    "type": "qcm",
+    "theme": "litterature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a écrit '1984' ?",
+      "options": [
+        "Aldous Huxley",
+        "Ray Bradbury",
+        "George Orwell",
+        "Philip K. Dick"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wghb005gu7afewidapoh",
+    "type": "qcm",
+    "theme": "litterature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel auteur français a écrit 'La Condition humaine' ?",
+      "options": [
+        "Sartre",
+        "Camus",
+        "Malraux",
+        "Gide"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgi0005hu7afm7hqwddy",
+    "type": "qcm",
+    "theme": "litterature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le premier tome de 'À la recherche du temps perdu' ?",
+      "options": [
+        "Du côté de chez Swann",
+        "À l'ombre des jeunes filles en fleurs",
+        "Le Côté de Guermantes",
+        "Sodome et Gomorrhe"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgip005iu7afc99xyqfz",
+    "type": "qcm",
+    "theme": "litterature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a écrit 'Crime et Châtiment' ?",
+      "options": [
+        "Tolstoï",
+        "Tourgueniev",
+        "Tchekhov",
+        "Dostoïevski"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgjd005ju7aftbq8r95x",
+    "type": "qcm",
+    "theme": "litterature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Dans quelle œuvre trouve-t-on le personnage de Raskolnikov ?",
+      "options": [
+        "L'Idiot",
+        "Crime et Châtiment",
+        "Les Démons",
+        "Les Frères Karamazov"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgk1005ku7af4uair8lm",
+    "type": "qcm",
+    "theme": "litterature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a écrit 'Madame Bovary' ?",
+      "options": [
+        "Balzac",
+        "Zola",
+        "Maupassant",
+        "Flaubert"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgkp005lu7afvnq6hhdo",
+    "type": "qcm",
+    "theme": "litterature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel roman de Proust compte le plus de pages ?",
+      "options": [
+        "Du côté de chez Swann",
+        "La Prisonnière",
+        "Le Temps retrouvé",
+        "Sodome et Gomorrhe"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgle005mu7affrkdi1p4",
+    "type": "qcm",
+    "theme": "litterature",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a inventé le roman policier moderne ?",
+      "options": [
+        "Arthur Conan Doyle",
+        "Agatha Christie",
+        "Edgar Allan Poe",
+        "G.K. Chesterton"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgm3005nu7afa1lp5jdk",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel pays a inventé la pizza ?",
+      "options": [
+        "Grèce",
+        "Espagne",
+        "Italie",
+        "France"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgmr005ou7afh5neovzs",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "De quoi est fait le guacamole ?",
+      "options": [
+        "Concombre",
+        "Avocat",
+        "Poivron",
+        "Pois chiche"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgnf005pu7afdyuyqoda",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est l'ingrédient principal du houmous ?",
+      "options": [
+        "Lentilles",
+        "Haricots blancs",
+        "Pois chiches",
+        "Fèves"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgo4005qu7afivzzwlb9",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle épice est la plus chère au monde ?",
+      "options": [
+        "Vanille",
+        "Cardamome",
+        "Safran",
+        "Poivre long"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgot005ru7afmj8mval8",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel fromage est utilisé dans la pizza Margherita ?",
+      "options": [
+        "Emmental",
+        "Mozzarella",
+        "Parmesan",
+        "Burrata"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgph005su7afplj9j0zj",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle boisson est appelée 'vin des moines' dans certaines régions ?",
+      "options": [
+        "Bière trappiste",
+        "Hydromel",
+        "Cidre",
+        "Kombucha"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgq6005tu7afe5czn8k3",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "De quel pays vient le sushi ?",
+      "options": [
+        "Chine",
+        "Corée",
+        "Japon",
+        "Thaïlande"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgqu005uu7aflygln9lv",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est l'ingrédient principal du tofu ?",
+      "options": [
+        "Blé",
+        "Pois chiches",
+        "Soja",
+        "Riz"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgrj005vu7afd3lx79nc",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel chef français a reçu le plus d'étoiles Michelin en carrière ?",
+      "options": [
+        "Joël Robuchon",
+        "Paul Bocuse",
+        "Alain Ducasse",
+        "Guy Savoy"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgs8005wu7afe1o7km2t",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que le 'foie gras' ?",
+      "options": [
+        "Foie de porc engraissé",
+        "Foie d'oie ou canard gavé",
+        "Foie de veau cuit",
+        "Pâté de bœuf"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgsw005xu7afank6tk6y",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel vin est associé à la région de Bordeaux ?",
+      "options": [
+        "Vin blanc sec uniquement",
+        "Vins rouges et blancs",
+        "Vins mousseux",
+        "Vins rosés"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgtm005yu7af6rvc6iod",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quelle technique de cuisine consiste à cuire dans du gras à basse température ?",
+      "options": [
+        "Blanquette",
+        "Confit",
+        "Braisage",
+        "Étuvée"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgua005zu7aftcahsv6w",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Paris (Tour Eiffel) ?",
+      "options": null,
+      "explanation": "Paris est traversée par la Seine et surnommée la « Ville Lumière ».",
+      "label": "Paris (Tour Eiffel)",
+      "country": "France"
+    }
+  },
+  {
+    "questionId": "cmq14wgwa0061u7afdbs15mxg",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Rome (Colisée) ?",
+      "options": null,
+      "explanation": "Rome, la « Ville éternelle », abrite en son sein un État indépendant : le Vatican.",
+      "label": "Rome (Colisée)",
+      "country": "Italie"
+    }
+  },
+  {
+    "questionId": "cmq14wgyc0064u7aftpis86od",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Athènes (Acropole) ?",
+      "options": null,
+      "explanation": "Athènes est considérée comme le berceau de la démocratie.",
+      "label": "Athènes (Acropole)",
+      "country": "Grèce"
+    }
+  },
+  {
+    "questionId": "cmq14wgz10065u7aflr72vcd1",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Moscou (Place Rouge) ?",
+      "options": null,
+      "explanation": "Moscou est la ville la plus peuplée d'Europe.",
+      "label": "Moscou (Place Rouge)",
+      "country": "Russie"
+    }
+  },
+  {
+    "questionId": "cmq14wh130068u7aftsxvs06r",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Los Angeles (Hollywood Sign) ?",
+      "options": null,
+      "explanation": "Los Angeles abrite Hollywood, capitale mondiale du cinéma.",
+      "label": "Los Angeles (Hollywood Sign)",
+      "country": "États-Unis"
+    }
+  },
+  {
+    "questionId": "cmq14wh2g006au7afvo9fueqk",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Rio (Christ Rédempteur) ?",
+      "options": null,
+      "explanation": "Le Christ Rédempteur veille sur la baie de Rio depuis 1931, du haut de ses 30 mètres.",
+      "label": "Rio (Christ Rédempteur)",
+      "country": "Brésil"
+    }
+  },
+  {
+    "questionId": "cmq14wh35006bu7affaif16ih",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Buenos Aires ?",
+      "options": null,
+      "explanation": "Buenos Aires est le berceau du tango.",
+      "label": "Buenos Aires",
+      "country": "Argentine"
+    }
+  },
+  {
+    "questionId": "cmq14wh4i006du7afc5xfkz2m",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Tokyo ?",
+      "options": null,
+      "explanation": "Tokyo forme l'aire urbaine la plus peuplée de la planète.",
+      "label": "Tokyo",
+      "country": "Japon"
+    }
+  },
+  {
+    "questionId": "cmq14wh5v006fu7afn6xdzbuq",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Sydney (Opéra) ?",
+      "options": null,
+      "explanation": "Sydney est la plus grande et la plus ancienne ville d'Australie.",
+      "label": "Sydney (Opéra)",
+      "country": "Australie"
+    }
+  },
+  {
+    "questionId": "cmq14wh6k006gu7af79sqmrhn",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Mumbai (Gateway of India) ?",
+      "options": null,
+      "explanation": "Mumbai est la capitale économique de l'Inde et le cœur de Bollywood.",
+      "label": "Mumbai (Gateway of India)",
+      "country": "Inde"
+    }
+  },
+  {
+    "questionId": "cmq14wh79006hu7afzzfie1o1",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Bangkok (Grand Palais) ?",
+      "options": null,
+      "explanation": "Le nom cérémoniel complet de Bangkok est le plus long nom de ville au monde.",
+      "label": "Bangkok (Grand Palais)",
+      "country": "Thaïlande"
+    }
+  },
+  {
+    "questionId": "cmq14wh8m006ju7aftd4vw919",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Singapour (Marina Bay) ?",
+      "options": null,
+      "explanation": "Singapour est à la fois une ville, une île et un État souverain.",
+      "label": "Singapour (Marina Bay)",
+      "country": "Singapour"
+    }
+  },
+  {
+    "questionId": "cmq14wh9b006ku7afx573vrge",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Le Caire (Pyramides de Gizeh) ?",
+      "options": null,
+      "explanation": "Les pyramides de Gizeh sont la seule des sept merveilles du monde antique encore debout.",
+      "label": "Le Caire (Pyramides de Gizeh)",
+      "country": "Égypte"
+    }
+  },
+  {
+    "questionId": "cmq14whao006mu7afqgeq1df5",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Marrakech (Jemaa el-Fna) ?",
+      "options": null,
+      "explanation": "Marrakech est surnommée la « ville rouge » pour ses murs en terre ocre.",
+      "label": "Marrakech (Jemaa el-Fna)",
+      "country": "Maroc"
+    }
+  },
+  {
+    "questionId": "cmq14whbd006nu7afc9levw75",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Lagos ?",
+      "options": null,
+      "explanation": "Lagos est l'une des plus grandes villes d'Afrique.",
+      "label": "Lagos",
+      "country": "Nigeria"
+    }
+  },
+  {
+    "questionId": "cmq14whcq006pu7afyuaw44cl",
+    "type": "pixel",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que c'est ?",
+      "options": [
+        "Tour Eiffel",
+        "Tour de Pise",
+        "Big Ben",
+        "Tour CN"
+      ],
+      "explanation": "Construite pour l'Exposition universelle de 1889, la Tour Eiffel devait être démontée au bout de 20 ans.",
+      "label": "La Tour Eiffel",
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14whe2006qu7afp00rtfol",
+    "type": "pixel",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que c'est ?",
+      "options": [
+        "Colisée",
+        "Panthéon",
+        "Forum romain",
+        "Amphithéâtre de Nîmes"
+      ],
+      "explanation": "Le Colisée de Rome pouvait accueillir jusqu'à 50 000 spectateurs pour les combats de gladiateurs.",
+      "label": "Le Colisée",
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14whc1006ou7afqzy2del5",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Nairobi ?",
+      "options": null,
+      "explanation": "Nairobi possède un parc national peuplé de lions à deux pas du centre-ville.",
+      "label": "Nairobi",
+      "country": "Kenya"
+    }
+  },
+  {
+    "questionId": "cmq14wh57006eu7afi7dqnjkv",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Pékin (Cité Interdite) ?",
+      "options": null,
+      "explanation": "La Cité Interdite de Pékin compte près de 1 000 bâtiments.",
+      "label": "Pékin (Cité Interdite)",
+      "country": "Chine"
+    }
+  },
+  {
+    "questionId": "cmq14wgzq0066u7afiruhqzhm",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Istanbul (Sainte-Sophie) ?",
+      "options": null,
+      "explanation": "Istanbul est la seule grande ville au monde à cheval sur deux continents.",
+      "label": "Istanbul (Sainte-Sophie)",
+      "country": "Turquie"
+    }
+  },
+  {
+    "questionId": "cmq14wgwy0062u7afxz5t668y",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Berlin (Porte de Brandebourg) ?",
+      "options": null,
+      "explanation": "Berlin a été coupée en deux par un mur de 1961 à 1989.",
+      "label": "Berlin (Porte de Brandebourg)",
+      "country": "Allemagne"
+    }
+  },
+  {
+    "questionId": "cmq14wh7y006iu7afq3fud4xf",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Dubaï (Burj Khalifa) ?",
+      "options": null,
+      "explanation": "Le Burj Khalifa de Dubaï culmine à 828 m : c'est le plus haut gratte-ciel du monde.",
+      "label": "Dubaï (Burj Khalifa)",
+      "country": "Émirats arabes unis"
+    }
+  },
+  {
+    "questionId": "cmq14wgxm0063u7afskr8o9jb",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Madrid ?",
+      "options": null,
+      "explanation": "Madrid est la capitale d'Europe la plus haute en altitude, à environ 650 m.",
+      "label": "Madrid",
+      "country": "Espagne"
+    }
+  },
+  {
+    "questionId": "cmq14wh1s0069u7afenqki61g",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Mexico (Zócalo) ?",
+      "options": null,
+      "explanation": "Mexico est bâtie sur le site de l'ancienne cité aztèque de Tenochtitlán.",
+      "label": "Mexico (Zócalo)",
+      "country": "Mexique"
+    }
+  },
+  {
+    "questionId": "cmq14wh3u006cu7afbm39tnts",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Toronto (Tour CN) ?",
+      "options": null,
+      "explanation": "La Tour CN de Toronto a longtemps été la plus haute structure autoportante du monde.",
+      "label": "Toronto (Tour CN)",
+      "country": "Canada"
+    }
+  },
+  {
+    "questionId": "cmq14wh0e0067u7aflilnw061",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve New York (Statue de la Liberté) ?",
+      "options": null,
+      "explanation": "New York est surnommée « la ville qui ne dort jamais ».",
+      "label": "New York (Statue de la Liberté)",
+      "country": "États-Unis"
+    }
+  },
+  {
+    "questionId": "cmq14wheq006ru7afjbor9vbm",
+    "type": "pixel",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que c'est ?",
+      "options": [
+        "Big Ben",
+        "Tour Eiffel",
+        "Empire State Building",
+        "Tour de Pise"
+      ],
+      "explanation": "« Big Ben » désigne en réalité la cloche ; la tour s'appelle officiellement Elizabeth Tower depuis 2012.",
+      "label": "Big Ben",
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14whff006su7afvszprd0k",
+    "type": "pixel",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que c'est ?",
+      "options": [
+        "Taj Mahal",
+        "Palais de marbre",
+        "Alhambra",
+        "Hagia Sophia"
+      ],
+      "explanation": "Le Taj Mahal a été érigé par l'empereur Shah Jahan en mémoire de son épouse défunte.",
+      "label": "Le Taj Mahal",
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14whgs006uu7afwordih4s",
+    "type": "pixel",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que c'est ?",
+      "options": [
+        "Grande Muraille de Chine",
+        "Muraille d'Hadrien",
+        "Mur de Berlin",
+        "Remparts de Carcassonne"
+      ],
+      "explanation": "La Grande Muraille de Chine s'étire sur plus de 21 000 km, bâtie sur près de deux millénaires.",
+      "label": "La Grande Muraille de Chine",
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14whhh006vu7af69mog5os",
+    "type": "pixel",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que c'est ?",
+      "options": [
+        "Mont Fuji",
+        "Mont Everest",
+        "Kilimandjaro",
+        "Mont Blanc"
+      ],
+      "explanation": "Le Mont Fuji, point culminant du Japon à 3 776 m, est un volcan toujours considéré comme actif.",
+      "label": "Le Mont Fuji",
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14whiu006xu7afbhbsoahk",
+    "type": "pixel",
+    "theme": "art",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que c'est ?",
+      "options": [
+        "La Nuit étoilée",
+        "Les Tournesols",
+        "Autoportrait à l'oreille bandée",
+        "Iris"
+      ],
+      "explanation": "Van Gogh a peint La Nuit étoilée en 1889 depuis la fenêtre de l'asile de Saint-Rémy-de-Provence.",
+      "label": "La Nuit étoilée",
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14whjj006yu7afe5gp3x6b",
+    "type": "pixel",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que c'est ?",
+      "options": [
+        "Notre-Dame de Paris",
+        "Cathédrale de Chartres",
+        "Sacré-Cœur",
+        "Saint-Denis"
+      ],
+      "explanation": "La cathédrale Notre-Dame de Paris, commencée en 1163, a mis près de 200 ans à être achevée.",
+      "label": "Notre-Dame de Paris",
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wghz004ju7af21a01kx7",
+    "type": "qcm",
+    "theme": "tech",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Que signifie 'CPU' ?",
+      "options": [
+        "Central Processing Unit",
+        "Computer Power Unit",
+        "Core Processing Utility",
+        "Central Program Unit"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdvl000pu7afrumh7qtr",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Combien de pays membres compte l'Union européenne (2024) ?",
+      "options": [
+        "24",
+        "25",
+        "27",
+        "30"
+      ],
+      "explanation": "L'Union européenne compte 27 États membres depuis le départ du Royaume-Uni en 2020 (Brexit).",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdpf000gu7afdjekagzc",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel élément chimique a pour symbole 'Au' ?",
+      "options": [
+        "Argent",
+        "Aluminium",
+        "Or",
+        "Cuivre"
+      ],
+      "explanation": "Le symbole « Au » de l'or vient du latin « aurum », qui signifie « aube brillante ».",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14whg3006tu7afd43rqw91",
+    "type": "pixel",
+    "theme": "geographie",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que c'est ?",
+      "options": [
+        "Opéra de Sydney",
+        "Musée Guggenheim",
+        "Centre Pompidou",
+        "Opéra Garnier"
+      ],
+      "explanation": "L'Opéra de Sydney, inauguré en 1973, est recouvert de plus d'un million de tuiles blanches.",
+      "label": "L'Opéra de Sydney",
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wgvl0060u7af2c1nm5x6",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Londres (Big Ben) ?",
+      "options": null,
+      "explanation": "Londres fut la première ville au monde à dépasser le million d'habitants, vers 1810.",
+      "label": "Londres (Big Ben)",
+      "country": "Royaume-Uni"
+    }
+  },
+  {
+    "questionId": "cmq14wfvd003mu7afbj223e1m",
+    "type": "qcm",
+    "theme": "cinema",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qui a réalisé 'Pulp Fiction' ?",
+      "options": [
+        "Coen Brothers",
+        "Tarantino",
+        "Rodriguez",
+        "Fincher"
+      ],
+      "explanation": "",
+      "label": null,
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wh9z006lu7afdwpj7w5z",
+    "type": "geo",
+    "theme": "geo",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Où se trouve Le Cap (Table Mountain) ?",
+      "options": null,
+      "explanation": "Le Cap est dominée par la Montagne de la Table, au sommet étonnamment plat.",
+      "label": "Le Cap (Table Mountain)",
+      "country": "Afrique du Sud"
+    }
+  },
+  {
+    "questionId": "cmq14whi5006wu7af8i81i2xy",
+    "type": "pixel",
+    "theme": "art",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Qu'est-ce que c'est ?",
+      "options": [
+        "La Joconde",
+        "La Naissance de Vénus",
+        "La Jeune Fille à la Perle",
+        "La Liberté guidant le peuple"
+      ],
+      "explanation": "La Joconde mesure à peine 77 cm de haut et est protégée par une vitre blindée au Louvre.",
+      "label": "La Joconde",
+      "country": null
+    }
+  },
+  {
+    "questionId": "cmq14wdqt000iu7af25pb5j6m",
+    "type": "qcm",
+    "theme": "general",
+    "missing": [
+      "en",
+      "es"
+    ],
+    "fr": {
+      "text": "Quel est le plus long fleuve du monde ?",
+      "options": [
+        "Amazone",
+        "Nil",
+        "Yangtsé",
+        "Mississippi"
+      ],
+      "explanation": "Le Nil parcourt environ 6 650 km à travers le nord-est de l'Afrique avant de se jeter en Méditerranée.",
+      "label": null,
+      "country": null
+    }
+  }
+]
