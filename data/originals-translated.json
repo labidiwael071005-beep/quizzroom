@@ -5248,5 +5248,755 @@
         "country": null
       }
     }
+  },
+  {
+    "questionId": "cmq14wg7r0052u7afhez0p729",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who painted 'The Starry Night'?",
+        "options": [
+          "Gauguin",
+          "Monet",
+          "Van Gogh",
+          "Cézanne"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién pintó «La noche estrellada»?",
+        "options": [
+          "Gauguin",
+          "Monet",
+          "Van Gogh",
+          "Cézanne"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg8f0053u7af8vpzx218",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which artistic style did Picasso co-found?",
+        "options": [
+          "Impressionism",
+          "Cubism",
+          "Surrealism",
+          "Dadaism"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué estilo artístico cofundó Picasso?",
+        "options": [
+          "Impresionismo",
+          "Cubismo",
+          "Surrealismo",
+          "Dadaísmo"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg940054u7afjl1o2l6t",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which museum houses the Mona Lisa?",
+        "options": [
+          "Musée d'Orsay",
+          "Louvre",
+          "Pompidou",
+          "British Museum"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué museo alberga la Mona Lisa?",
+        "options": [
+          "Museo de Orsay",
+          "Louvre",
+          "Pompidou",
+          "Museo Británico"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wghb004iu7afs0b7unoo",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which protocol secures web communications?",
+        "options": [
+          "HTTP",
+          "FTP",
+          "HTTPS/SSL",
+          "SMTP"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué protocolo asegura las comunicaciones web?",
+        "options": [
+          "HTTP",
+          "FTP",
+          "HTTPS/SSL",
+          "SMTP"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wggm004hu7afl26hhc64",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is 'Cloud Computing'?",
+        "options": [
+          "A type of hardware",
+          "Computing via the internet",
+          "A local network",
+          "An operating system"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es la «computación en la nube»?",
+        "options": [
+          "Un tipo de hardware",
+          "La informática a través de internet",
+          "Una red local",
+          "Un sistema operativo"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg9s0055u7afv92qvx9t",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who sculpted 'The Thinker'?",
+        "options": [
+          "Michelangelo",
+          "Rodin",
+          "Brancusi",
+          "Giacometti"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién esculpió «El Pensador»?",
+        "options": [
+          "Miguel Ángel",
+          "Rodin",
+          "Brancusi",
+          "Giacometti"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgai0056u7afvnc004vt",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which artistic movement does Monet represent?",
+        "options": [
+          "Realism",
+          "Romanticism",
+          "Impressionism",
+          "Expressionism"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué movimiento artístico representa Monet?",
+        "options": [
+          "Realismo",
+          "Romanticismo",
+          "Impresionismo",
+          "Expresionismo"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgb70057u7afp13vp8fa",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who painted 'The Persistence of Memory' (melting clocks)?",
+        "options": [
+          "Picasso",
+          "Dalí",
+          "Magritte",
+          "Ernst"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién pintó «La persistencia de la memoria» (relojes blandos)?",
+        "options": [
+          "Picasso",
+          "Dalí",
+          "Magritte",
+          "Ernst"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgbv0058u7af63xwtfzi",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which artist is known for his Campbell's soup cans?",
+        "options": [
+          "Roy Lichtenstein",
+          "Andy Warhol",
+          "Jasper Johns",
+          "Robert Rauschenberg"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué artista es conocido por sus latas de sopa Campbell?",
+        "options": [
+          "Roy Lichtenstein",
+          "Andy Warhol",
+          "Jasper Johns",
+          "Robert Rauschenberg"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgcj0059u7afh6y5xkzl",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who painted 'The Scream'?",
+        "options": [
+          "Munch",
+          "Klimt",
+          "Schiele",
+          "Ensor"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién pintó «El grito»?",
+        "options": [
+          "Munch",
+          "Klimt",
+          "Schiele",
+          "Ensor"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgd8005au7afxqobvdu0",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In what year did Picasso paint Guernica?",
+        "options": [
+          "1933",
+          "1935",
+          "1937",
+          "1939"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué año pintó Picasso el Guernica?",
+        "options": [
+          "1933",
+          "1935",
+          "1937",
+          "1939"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgdw005bu7af2bsqgslg",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which artistic movement did Marcel Duchamp influence?",
+        "options": [
+          "Surrealism",
+          "Conceptual art and Dadaism",
+          "Cubism",
+          "Abstract expressionism"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué movimiento artístico influyó Marcel Duchamp?",
+        "options": [
+          "Surrealismo",
+          "Arte conceptual y dadaísmo",
+          "Cubismo",
+          "Expresionismo abstracto"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgek005cu7afz39f1tev",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who created the sculpture 'Fountain' (urinal), a conceptual work?",
+        "options": [
+          "Man Ray",
+          "Francis Picabia",
+          "Marcel Duchamp",
+          "Jean Arp"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién creó la escultura «Fuente» (urinario), obra conceptual?",
+        "options": [
+          "Man Ray",
+          "Francis Picabia",
+          "Marcel Duchamp",
+          "Jean Arp"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgf9005du7afyviv0ox0",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who wrote 'Don Quixote'?",
+        "options": [
+          "Lope de Vega",
+          "Cervantes",
+          "Calderón",
+          "García Lorca"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién escribió «Don Quijote»?",
+        "options": [
+          "Lope de Vega",
+          "Cervantes",
+          "Calderón",
+          "García Lorca"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgfy005eu7af4g1y68ku",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In which author's work does the character Sherlock Holmes appear?",
+        "options": [
+          "Agatha Christie",
+          "Arthur Conan Doyle",
+          "G.K. Chesterton",
+          "Edgar Allan Poe"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En la obra de qué autor aparece el personaje de Sherlock Holmes?",
+        "options": [
+          "Agatha Christie",
+          "Arthur Conan Doyle",
+          "G.K. Chesterton",
+          "Edgar Allan Poe"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wggm005fu7af1a6kd00n",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who wrote '1984'?",
+        "options": [
+          "Aldous Huxley",
+          "Ray Bradbury",
+          "George Orwell",
+          "Philip K. Dick"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién escribió «1984»?",
+        "options": [
+          "Aldous Huxley",
+          "Ray Bradbury",
+          "George Orwell",
+          "Philip K. Dick"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wghb005gu7afewidapoh",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which French author wrote 'La Condition humaine' (Man's Fate)?",
+        "options": [
+          "Sartre",
+          "Camus",
+          "Malraux",
+          "Gide"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué autor francés escribió «La condición humana»?",
+        "options": [
+          "Sartre",
+          "Camus",
+          "Malraux",
+          "Gide"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgi0005hu7afm7hqwddy",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the first volume of 'In Search of Lost Time'?",
+        "options": [
+          "Swann's Way",
+          "In the Shadow of Young Girls in Flower",
+          "The Guermantes Way",
+          "Sodom and Gomorrah"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el primer tomo de «En busca del tiempo perdido»?",
+        "options": [
+          "Por el camino de Swann",
+          "A la sombra de las muchachas en flor",
+          "El mundo de Guermantes",
+          "Sodoma y Gomorra"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgip005iu7afc99xyqfz",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who wrote 'Crime and Punishment'?",
+        "options": [
+          "Tolstoy",
+          "Turgenev",
+          "Chekhov",
+          "Dostoevsky"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién escribió «Crimen y castigo»?",
+        "options": [
+          "Tolstói",
+          "Turguénev",
+          "Chéjov",
+          "Dostoyevski"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgjd005ju7aftbq8r95x",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In which work do we find the character of Raskolnikov?",
+        "options": [
+          "The Idiot",
+          "Crime and Punishment",
+          "Demons",
+          "The Brothers Karamazov"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué obra aparece el personaje de Raskólnikov?",
+        "options": [
+          "El idiota",
+          "Crimen y castigo",
+          "Los demonios",
+          "Los hermanos Karamázov"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgk1005ku7af4uair8lm",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who wrote 'Madame Bovary'?",
+        "options": [
+          "Balzac",
+          "Zola",
+          "Maupassant",
+          "Flaubert"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién escribió «Madame Bovary»?",
+        "options": [
+          "Balzac",
+          "Zola",
+          "Maupassant",
+          "Flaubert"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgkp005lu7afvnq6hhdo",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which of Proust's novels has the most pages?",
+        "options": [
+          "Swann's Way",
+          "The Prisoner",
+          "Finding Time Again",
+          "Sodom and Gomorrah"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué novela de Proust tiene más páginas?",
+        "options": [
+          "Por el camino de Swann",
+          "La prisionera",
+          "El tiempo recobrado",
+          "Sodoma y Gomorra"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgle005mu7affrkdi1p4",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who invented the modern detective novel?",
+        "options": [
+          "Arthur Conan Doyle",
+          "Agatha Christie",
+          "Edgar Allan Poe",
+          "G.K. Chesterton"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién inventó la novela policíaca moderna?",
+        "options": [
+          "Arthur Conan Doyle",
+          "Agatha Christie",
+          "Edgar Allan Poe",
+          "G.K. Chesterton"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgm3005nu7afa1lp5jdk",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which country invented pizza?",
+        "options": [
+          "Greece",
+          "Spain",
+          "Italy",
+          "France"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué país inventó la pizza?",
+        "options": [
+          "Grecia",
+          "España",
+          "Italia",
+          "Francia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgmr005ou7afh5neovzs",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is guacamole made of?",
+        "options": [
+          "Cucumber",
+          "Avocado",
+          "Bell pepper",
+          "Chickpea"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿De qué está hecho el guacamole?",
+        "options": [
+          "Pepino",
+          "Aguacate",
+          "Pimiento",
+          "Garbanzo"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
   }
 ]
