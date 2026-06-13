@@ -1498,5 +1498,755 @@
         "country": null
       }
     }
+  },
+  {
+    "questionId": "cmq14wdye000tu7af7tee2vx9",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who painted the ceiling of the Sistine Chapel?",
+        "options": [
+          "Raphael",
+          "Michelangelo",
+          "Leonardo da Vinci",
+          "Caravaggio"
+        ],
+        "explanation": "Michelangelo painted the ceiling of the Sistine Chapel between 1508 and 1512, perched on scaffolding.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién pintó el techo de la Capilla Sixtina?",
+        "options": [
+          "Rafael",
+          "Miguel Ángel",
+          "Leonardo da Vinci",
+          "Caravaggio"
+        ],
+        "explanation": "Miguel Ángel pintó el techo de la Capilla Sixtina entre 1508 y 1512, encaramado en andamios.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14weew001hu7afssyfgshn",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which force keeps the planets in orbit around the Sun?",
+        "options": [
+          "Magnetic force",
+          "Gravitation",
+          "Electric force",
+          "Nuclear force"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué fuerza mantiene a los planetas en órbita alrededor del Sol?",
+        "options": [
+          "Fuerza magnética",
+          "Gravitación",
+          "Fuerza eléctrica",
+          "Fuerza nuclear"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wefl001iu7afevmx4aww",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which gas is mainly responsible for the greenhouse effect?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "CO2",
+          "Hydrogen"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué gas es el principal responsable del efecto invernadero?",
+        "options": [
+          "Oxígeno",
+          "Nitrógeno",
+          "CO2",
+          "Hidrógeno"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wega001ju7afstyhb12g",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the most abundant element in the universe?",
+        "options": [
+          "Oxygen",
+          "Helium",
+          "Carbon",
+          "Hydrogen"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el elemento más abundante del universo?",
+        "options": [
+          "Oxígeno",
+          "Helio",
+          "Carbono",
+          "Hidrógeno"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wegy001ku7af0j562n66",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many electrons can the first electron shell hold?",
+        "options": [
+          "2",
+          "4",
+          "8",
+          "18"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántos electrones puede contener la primera capa electrónica?",
+        "options": [
+          "2",
+          "4",
+          "8",
+          "18"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14weho001lu7af988v22d4",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the Big Bang?",
+        "options": [
+          "A black hole",
+          "The origin of the universe",
+          "A supernova",
+          "A galaxy"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es el Big Bang?",
+        "options": [
+          "Un agujero negro",
+          "El origen del universo",
+          "Una supernova",
+          "Una galaxia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14weic001mu7af20lhpaxa",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is Planck's constant (order of magnitude)?",
+        "options": [
+          "6,6 × 10⁻³⁴ J·s",
+          "3,0 × 10⁸ m/s",
+          "6,02 × 10²³",
+          "9,8 m/s²"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la constante de Planck (orden de magnitud)?",
+        "options": [
+          "6,6 × 10⁻³⁴ J·s",
+          "3,0 × 10⁸ m/s",
+          "6,02 × 10²³",
+          "9,8 m/s²"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wej1001nu7afvv3ig1b4",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What does Avogadro's number measure?",
+        "options": [
+          "Molar mass",
+          "The number of particles per mole",
+          "The gas constant",
+          "Electric charge"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué mide el número de Avogadro?",
+        "options": [
+          "La masa molar",
+          "El número de partículas por mol",
+          "La constante de los gases",
+          "La carga eléctrica"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wejq001ou7af7a4zweze",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is Heisenberg's uncertainty principle?",
+        "options": [
+          "E=mc²",
+          "You cannot simultaneously know position and momentum",
+          "Light is both a wave and a particle",
+          "Entropy always increases"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el principio de incertidumbre de Heisenberg?",
+        "options": [
+          "E=mc²",
+          "No se pueden conocer simultáneamente la posición y la cantidad de movimiento",
+          "La luz es onda y partícula",
+          "La entropía siempre aumenta"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wekf001pu7af96gkj0zj",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the half-life of carbon-14?",
+        "options": [
+          "570 years",
+          "5,730 years",
+          "57,300 years",
+          "573,000 years"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la vida media del carbono 14?",
+        "options": [
+          "570 años",
+          "5 730 años",
+          "57 300 años",
+          "573 000 años"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wel3001qu7af082uuiya",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is a quasar?",
+        "options": [
+          "A black hole without a galaxy",
+          "A very bright galactic nucleus",
+          "A dying star",
+          "A cluster of comets"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué es un cuásar?",
+        "options": [
+          "Un agujero negro sin galaxia",
+          "Un núcleo de galaxia muy brillante",
+          "Una estrella moribunda",
+          "Un cúmulo de cometas"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wels001ru7af8xzepa27",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the capital of Spain?",
+        "options": [
+          "Barcelona",
+          "Madrid",
+          "Seville",
+          "Valencia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la capital de España?",
+        "options": [
+          "Barcelona",
+          "Madrid",
+          "Sevilla",
+          "Valencia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wemh001su7aflqojgz4q",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "On which continent is Egypt located?",
+        "options": [
+          "Asia",
+          "Europe",
+          "Africa",
+          "America"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué continente se encuentra Egipto?",
+        "options": [
+          "Asia",
+          "Europa",
+          "África",
+          "América"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wen5001tu7afpyxe5smo",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the capital of Italy?",
+        "options": [
+          "Milan",
+          "Naples",
+          "Florence",
+          "Rome"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la capital de Italia?",
+        "options": [
+          "Milán",
+          "Nápoles",
+          "Florencia",
+          "Roma"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wenu001uu7af94ji3dip",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Into which ocean / sea does the Nile flow?",
+        "options": [
+          "Red Sea",
+          "Indian Ocean",
+          "Mediterranean",
+          "Atlantic"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué océano o mar desemboca el Nilo?",
+        "options": [
+          "Mar Rojo",
+          "Océano Índico",
+          "Mediterráneo",
+          "Atlántico"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14weoi001vu7afx20zyjn2",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the capital of Germany?",
+        "options": [
+          "Munich",
+          "Hamburg",
+          "Berlin",
+          "Frankfurt"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la capital de Alemania?",
+        "options": [
+          "Múnich",
+          "Hamburgo",
+          "Berlín",
+          "Fráncfort"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wep7001wu7afuvzk2ior",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which country is surrounded by water on all sides?",
+        "options": [
+          "Australia",
+          "Brazil",
+          "India",
+          "France"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué país está rodeado de agua por todos lados?",
+        "options": [
+          "Australia",
+          "Brasil",
+          "India",
+          "Francia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wepv001xu7afvwffar62",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the capital of Morocco?",
+        "options": [
+          "Casablanca",
+          "Marrakesh",
+          "Rabat",
+          "Fez"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la capital de Marruecos?",
+        "options": [
+          "Casablanca",
+          "Marrakech",
+          "Rabat",
+          "Fez"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14weqk001yu7afnlg46dx4",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In which city is the Leaning Tower of Pisa located?",
+        "options": [
+          "Rome",
+          "Venice",
+          "Pisa",
+          "Florence"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué ciudad se encuentra la Torre de Pisa?",
+        "options": [
+          "Roma",
+          "Venecia",
+          "Pisa",
+          "Florencia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wer8001zu7afkbrp4r1r",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the largest country in the world by area?",
+        "options": [
+          "Canada",
+          "China",
+          "United States",
+          "Russia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el país más grande del mundo por superficie?",
+        "options": [
+          "Canadá",
+          "China",
+          "Estados Unidos",
+          "Rusia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14werx0020u7af4xi9wvik",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the capital of Brazil?",
+        "options": [
+          "São Paulo",
+          "Rio de Janeiro",
+          "Brasília",
+          "Salvador"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la capital de Brasil?",
+        "options": [
+          "São Paulo",
+          "Río de Janeiro",
+          "Brasilia",
+          "Salvador"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wesl0021u7af9y9035rv",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which is the largest desert in the world?",
+        "options": [
+          "Sahara",
+          "Gobi",
+          "Antarctica",
+          "Arabia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el desierto más grande del mundo?",
+        "options": [
+          "Sahara",
+          "Gobi",
+          "Antártida",
+          "Arabia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14weta0022u7afhe4jeh5l",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many countries border Switzerland?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántos países rodean a Suiza?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wety0023u7afeaz2ytlp",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the longest river in Europe?",
+        "options": [
+          "Danube",
+          "Rhine",
+          "Volga",
+          "Dnieper"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el río más largo de Europa?",
+        "options": [
+          "Danubio",
+          "Rin",
+          "Volga",
+          "Dniéper"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14weun0024u7afyraux4ax",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In which country is Machu Picchu located?",
+        "options": [
+          "Chile",
+          "Bolivia",
+          "Peru",
+          "Ecuador"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué país se encuentra Machu Picchu?",
+        "options": [
+          "Chile",
+          "Bolivia",
+          "Perú",
+          "Ecuador"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
   }
 ]
