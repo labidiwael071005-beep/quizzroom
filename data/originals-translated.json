@@ -2248,5 +2248,755 @@
         "country": null
       }
     }
+  },
+  {
+    "questionId": "cmq14wevc0025u7af41br7bhy",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the capital of New Zealand?",
+        "options": [
+          "Auckland",
+          "Wellington",
+          "Christchurch",
+          "Dunedin"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la capital de Nueva Zelanda?",
+        "options": [
+          "Auckland",
+          "Wellington",
+          "Christchurch",
+          "Dunedin"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wew00026u7afiq83t2wj",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which strait separates Europe from Africa?",
+        "options": [
+          "Strait of Malacca",
+          "Strait of Hormuz",
+          "Strait of Gibraltar",
+          "Bering Strait"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué estrecho separa Europa de África?",
+        "options": [
+          "Estrecho de Malaca",
+          "Estrecho de Ormuz",
+          "Estrecho de Gibraltar",
+          "Estrecho de Bering"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wewp0027u7affgejx6m4",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the capital of Kazakhstan?",
+        "options": [
+          "Almaty",
+          "Astana",
+          "Shymkent",
+          "Karaganda"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la capital de Kazajistán?",
+        "options": [
+          "Almaty",
+          "Astaná",
+          "Shymkent",
+          "Karagandá"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wexd0028u7afluvdwwaw",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which country has the most lakes in the world?",
+        "options": [
+          "Russia",
+          "Canada",
+          "Finland",
+          "United States"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué país tiene más lagos del mundo?",
+        "options": [
+          "Rusia",
+          "Canadá",
+          "Finlandia",
+          "Estados Unidos"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wey20029u7afay790i1o",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the most populous city in the world?",
+        "options": [
+          "Shanghai",
+          "Mumbai",
+          "Tokyo",
+          "Delhi"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la ciudad más poblada del mundo?",
+        "options": [
+          "Shanghái",
+          "Bombay",
+          "Tokio",
+          "Delhi"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14weyq002au7af3msz73c7",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Into which ocean does the Congo River flow?",
+        "options": [
+          "Indian",
+          "Atlantic",
+          "Pacific",
+          "Arctic"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué océano desemboca el río Congo?",
+        "options": [
+          "Índico",
+          "Atlántico",
+          "Pacífico",
+          "Ártico"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wezf002bu7af6nxlfawa",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the lowest point on Earth?",
+        "options": [
+          "Dead Sea",
+          "Lake Assal",
+          "Lake Baikal",
+          "Mariana"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el punto más bajo de la Tierra?",
+        "options": [
+          "Mar Muerto",
+          "Lago Assal",
+          "Lago Baikal",
+          "Marianas"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wf03002cu7afw9yy7ux6",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In what year did the French Revolution take place?",
+        "options": [
+          "1776",
+          "1789",
+          "1799",
+          "1815"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué año tuvo lugar la Revolución Francesa?",
+        "options": [
+          "1776",
+          "1789",
+          "1799",
+          "1815"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wf0s002du7af8b7qjteh",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who was the first president of the United States?",
+        "options": [
+          "Abraham Lincoln",
+          "George Washington",
+          "Thomas Jefferson",
+          "Benjamin Franklin"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién fue el primer presidente de los Estados Unidos?",
+        "options": [
+          "Abraham Lincoln",
+          "George Washington",
+          "Thomas Jefferson",
+          "Benjamin Franklin"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wf25002fu7afeayfgm7o",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In what year did World War I begin?",
+        "options": [
+          "1912",
+          "1914",
+          "1916",
+          "1918"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué año comenzó la Primera Guerra Mundial?",
+        "options": [
+          "1912",
+          "1914",
+          "1916",
+          "1918"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wf2t002gu7aftw5z1goh",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who was Napoleon Bonaparte?",
+        "options": [
+          "King of France",
+          "President",
+          "General and Emperor",
+          "Cardinal"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién fue Napoleón Bonaparte?",
+        "options": [
+          "Rey de Francia",
+          "Presidente",
+          "General y Emperador",
+          "Cardenal"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wf3h002hu7afg7z3sngz",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which symbolic wall fell in 1989?",
+        "options": [
+          "Great Wall of China",
+          "Berlin Wall",
+          "Hadrian's Wall",
+          "Gaza Wall"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué muro simbólico cayó en 1989?",
+        "options": [
+          "Muralla China",
+          "Muro de Berlín",
+          "Muro de Adriano",
+          "Muro de Gaza"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wf46002iu7afhvu0js2x",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In what year did Christopher Columbus discover America?",
+        "options": [
+          "1488",
+          "1492",
+          "1498",
+          "1502"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué año descubrió Cristóbal Colón América?",
+        "options": [
+          "1488",
+          "1492",
+          "1498",
+          "1502"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wf4v002ju7afzkhwsmms",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who was Julius Caesar?",
+        "options": [
+          "A pharaoh",
+          "A Roman general and statesman",
+          "A Greek philosopher",
+          "A Persian king"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién fue Julio César?",
+        "options": [
+          "Un faraón",
+          "Un general y político romano",
+          "Un filósofo griego",
+          "Un rey persa"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wf5j002ku7af8z09c0tv",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which civilisation built the pyramids of Giza?",
+        "options": [
+          "Roman",
+          "Greek",
+          "Egyptian",
+          "Mesopotamian"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué civilización construyó las pirámides de Guiza?",
+        "options": [
+          "Romana",
+          "Griega",
+          "Egipcia",
+          "Mesopotámica"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wf68002lu7afdtw6ckqt",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In what year was the World War I armistice signed?",
+        "options": [
+          "1917",
+          "1918",
+          "1919",
+          "1920"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué año se firmó el armisticio de la Primera Guerra Mundial?",
+        "options": [
+          "1917",
+          "1918",
+          "1919",
+          "1920"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wf6w002mu7af5j56mlgr",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who was the most famous pharaoh of ancient Egypt?",
+        "options": [
+          "Ramesses II",
+          "Tutankhamun",
+          "Cleopatra",
+          "Akhenaten"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién fue el faraón más famoso del antiguo Egipto?",
+        "options": [
+          "Ramsés II",
+          "Tutankamón",
+          "Cleopatra",
+          "Akenatón"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wf7l002nu7afaaqrjhxn",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In which country did the Industrial Revolution begin?",
+        "options": [
+          "France",
+          "Germany",
+          "England",
+          "United States"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué país comenzó la Revolución Industrial?",
+        "options": [
+          "Francia",
+          "Alemania",
+          "Inglaterra",
+          "Estados Unidos"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wf89002ou7aftqmsvfqt",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which treaty ended World War II in Europe?",
+        "options": [
+          "Treaty of Versailles",
+          "Treaty of Potsdam",
+          "Surrender of Nazi Germany",
+          "Treaty of Paris"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué tratado puso fin a la Segunda Guerra Mundial en Europa?",
+        "options": [
+          "Tratado de Versalles",
+          "Tratado de Potsdam",
+          "Capitulación de la Alemania nazi",
+          "Tratado de París"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wf8y002pu7afskpbqe75",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who invented the printing press in the West?",
+        "options": [
+          "Galileo",
+          "Gutenberg",
+          "Leonardo da Vinci",
+          "Newton"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién inventó la imprenta en Occidente?",
+        "options": [
+          "Galileo",
+          "Gutenberg",
+          "Leonardo da Vinci",
+          "Newton"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wf9m002qu7afrj42mtyw",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In what year did the Soviet Union collapse?",
+        "options": [
+          "1989",
+          "1990",
+          "1991",
+          "1992"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué año se desintegró la Unión Soviética?",
+        "options": [
+          "1989",
+          "1990",
+          "1991",
+          "1992"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfab002ru7af2nlwzvst",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which civilisation invented cuneiform writing?",
+        "options": [
+          "Egyptian",
+          "Mesopotamian (Sumerians)",
+          "Phoenician",
+          "Chinese"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué civilización inventó la escritura cuneiforme?",
+        "options": [
+          "Egipcia",
+          "Mesopotámica (sumerios)",
+          "Fenicia",
+          "China"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfaz002su7afi64pwmm3",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who was the first tsar of Russia?",
+        "options": [
+          "Peter the Great",
+          "Ivan the Terrible",
+          "Catherine II",
+          "Alexander I"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién fue el primer zar de Rusia?",
+        "options": [
+          "Pedro el Grande",
+          "Iván el Terrible",
+          "Catalina II",
+          "Alejandro I"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfbo002tu7af5w7rnofk",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In what year did the Battle of Waterloo take place?",
+        "options": [
+          "1812",
+          "1813",
+          "1815",
+          "1821"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué año tuvo lugar la batalla de Waterloo?",
+        "options": [
+          "1812",
+          "1813",
+          "1815",
+          "1821"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfcc002uu7afckezfiyn",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which was the largest empire in history by area?",
+        "options": [
+          "Roman Empire",
+          "Mongol Empire",
+          "British Empire",
+          "Ottoman Empire"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál fue el imperio más grande de la historia por superficie?",
+        "options": [
+          "Imperio romano",
+          "Imperio mongol",
+          "Imperio británico",
+          "Imperio otomano"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
   }
 ]
