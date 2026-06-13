@@ -4800,6 +4800,36 @@
     }
   },
   {
+    "questionId": "cmq14wgkp004nu7afs84rbsx9",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which algorithm is used in Bitcoin for mining?",
+        "options": [
+          "MD5",
+          "SHA-1",
+          "SHA-256",
+          "RSA"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué algoritmo se usa en Bitcoin para la minería?",
+        "options": [
+          "MD5",
+          "SHA-1",
+          "SHA-256",
+          "RSA"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
     "questionId": "cmq14wgld004ou7afdo122qdr",
     "type": "qcm",
     "translations": {
