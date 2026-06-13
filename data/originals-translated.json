@@ -1,0 +1,752 @@
+[
+  {
+    "questionId": "cmq14wddo0000u7afls8zy0yn",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the capital of France?",
+        "options": [
+          "Lyon",
+          "Paris",
+          "Marseille",
+          "Bordeaux"
+        ],
+        "explanation": "Paris has been the capital of France since the 6th century and has more than 2 million inhabitants within the city limits.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la capital de Francia?",
+        "options": [
+          "Lyon",
+          "París",
+          "Marsella",
+          "Burdeos"
+        ],
+        "explanation": "París es la capital de Francia desde el siglo VI y cuenta con más de 2 millones de habitantes dentro de la ciudad.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdf40001u7afunzdvw2r",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many sides does a hexagon have?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "explanation": "\"Hexa\" comes from Greek and means \"six\" — which is why France, with its hexagonal shape, is nicknamed \"the Hexagon\".",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántos lados tiene un hexágono?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "explanation": "«Hexa» viene del griego y significa «seis» — por eso Francia, con su forma hexagonal, recibe el apodo de «el Hexágono».",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdfu0002u7af77bt6z44",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the largest ocean in the world?",
+        "options": [
+          "Atlantic",
+          "Indian",
+          "Arctic",
+          "Pacific"
+        ],
+        "explanation": "The Pacific alone covers about a third of the globe's surface, more than all the land masses combined.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el océano más grande del mundo?",
+        "options": [
+          "Atlántico",
+          "Índico",
+          "Ártico",
+          "Pacífico"
+        ],
+        "explanation": "El Pacífico cubre por sí solo cerca de un tercio de la superficie del planeta, más que todas las tierras emergidas juntas.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdgj0003u7af40su6i4a",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In what year did man walk on the Moon?",
+        "options": [
+          "1965",
+          "1967",
+          "1969",
+          "1971"
+        ],
+        "explanation": "On 21 July 1969, Neil Armstrong became the first man to set foot on the Moon during the Apollo 11 mission.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué año caminó el hombre sobre la Luna?",
+        "options": [
+          "1965",
+          "1967",
+          "1969",
+          "1971"
+        ],
+        "explanation": "El 21 de julio de 1969, Neil Armstrong se convirtió en el primer hombre en pisar la Luna durante la misión Apolo 11.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdh70004u7afwpuh21qp",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who painted the Mona Lisa?",
+        "options": [
+          "Michelangelo",
+          "Raphael",
+          "Leonardo da Vinci",
+          "Botticelli"
+        ],
+        "explanation": "Leonardo da Vinci painted the Mona Lisa around 1503 and kept it with him until his death in France.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién pintó la Mona Lisa?",
+        "options": [
+          "Miguel Ángel",
+          "Rafael",
+          "Leonardo da Vinci",
+          "Botticelli"
+        ],
+        "explanation": "Leonardo da Vinci pintó la Mona Lisa hacia 1503 y la conservó consigo hasta su muerte en Francia.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdhw0005u7afwi437xtz",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which planet is closest to the Sun?",
+        "options": [
+          "Venus",
+          "Mars",
+          "Mercury",
+          "Earth"
+        ],
+        "explanation": "Mercury is so close to the Sun that a year there lasts only 88 Earth days.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué planeta es el más cercano al Sol?",
+        "options": [
+          "Venus",
+          "Marte",
+          "Mercurio",
+          "Tierra"
+        ],
+        "explanation": "Mercurio está tan cerca del Sol que un año allí dura solo 88 días terrestres.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdil0006u7aft0e1oh64",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the fastest animal in the world?",
+        "options": [
+          "Lion",
+          "Cheetah",
+          "Eagle",
+          "Antelope"
+        ],
+        "explanation": "The cheetah reaches 110 km/h, but only sustains that speed over a few hundred metres.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el animal más rápido del mundo?",
+        "options": [
+          "León",
+          "Guepardo",
+          "Águila",
+          "Antílope"
+        ],
+        "explanation": "El guepardo alcanza los 110 km/h, pero solo mantiene esa velocidad durante unos cientos de metros.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdja0007u7af4fi01p12",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many players are there in a football team?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "explanation": "A football team fields 11 players, including one goalkeeper.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántos jugadores hay en un equipo de fútbol?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "explanation": "Un equipo de fútbol alinea a 11 jugadores en el campo, incluido un portero.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdjy0008u7afkwqaifjn",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What colour is an emerald?",
+        "options": [
+          "Red",
+          "Blue",
+          "Green",
+          "Purple"
+        ],
+        "explanation": "The emerald gets its intense green from the chromium present in beryl, its source mineral.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿De qué color es la esmeralda?",
+        "options": [
+          "Rojo",
+          "Azul",
+          "Verde",
+          "Violeta"
+        ],
+        "explanation": "La esmeralda obtiene su verde intenso del cromo presente en el berilo, su mineral de origen.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdkn0009u7afy22v5hj2",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which country has the largest surface area?",
+        "options": [
+          "Canada",
+          "China",
+          "United States",
+          "Russia"
+        ],
+        "explanation": "Russia spans 17 million km² and straddles two continents, Europe and Asia.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué país tiene la mayor superficie?",
+        "options": [
+          "Canadá",
+          "China",
+          "Estados Unidos",
+          "Rusia"
+        ],
+        "explanation": "Rusia se extiende sobre 17 millones de km² y abarca dos continentes, Europa y Asia.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdlb000au7afsr523cu7",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many continents are there on Earth?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "explanation": "There are traditionally 7 continents, although some models distinguish only 5 or 6.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántos continentes hay en la Tierra?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "explanation": "Tradicionalmente se cuentan 7 continentes, aunque algunos modelos solo distinguen 5 o 6.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdm0000bu7af40lq1aea",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the most spoken language in the world?",
+        "options": [
+          "English",
+          "Spanish",
+          "Mandarin",
+          "Hindi"
+        ],
+        "explanation": "Mandarin is the native language of nearly a billion people, mainly in China.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el idioma más hablado del mundo?",
+        "options": [
+          "Inglés",
+          "Español",
+          "Mandarín",
+          "Hindi"
+        ],
+        "explanation": "El mandarín es la lengua materna de casi mil millones de personas, principalmente en China.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdmp000cu7afg5j5m7d1",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who is the current president of France (2024)?",
+        "options": [
+          "Nicolas Sarkozy",
+          "François Hollande",
+          "Emmanuel Macron",
+          "Marine Le Pen"
+        ],
+        "explanation": "Emmanuel Macron, elected in 2017 and re-elected in 2022, is the youngest president in the history of the French Republic.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién es el presidente actual de Francia (2024)?",
+        "options": [
+          "Nicolas Sarkozy",
+          "François Hollande",
+          "Emmanuel Macron",
+          "Marine Le Pen"
+        ],
+        "explanation": "Emmanuel Macron, elegido en 2017 y reelegido en 2022, es el presidente más joven de la historia de la República Francesa.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdne000du7afacfwjhu5",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many grams are there in a kilogram?",
+        "options": [
+          "10",
+          "100",
+          "1000",
+          "10000"
+        ],
+        "explanation": "The prefix \"kilo\" means thousand: a kilogram is therefore exactly 1000 grams.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántos gramos hay en un kilogramo?",
+        "options": [
+          "10",
+          "100",
+          "1000",
+          "10000"
+        ],
+        "explanation": "El prefijo «kilo» significa mil: un kilogramo equivale por tanto a exactamente 1000 gramos.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdo2000eu7afh9zlwcuq",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What colour is the sky on a clear day?",
+        "options": [
+          "Green",
+          "Blue",
+          "Red",
+          "Purple"
+        ],
+        "explanation": "The sky appears blue because the atmosphere scatters blue light, which has a shorter wavelength, more strongly.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿De qué color es el cielo cuando está despejado?",
+        "options": [
+          "Verde",
+          "Azul",
+          "Rojo",
+          "Violeta"
+        ],
+        "explanation": "El cielo parece azul porque la atmósfera dispersa más la luz azul, de menor longitud de onda.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdor000fu7afmv7igu79",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the capital of Australia?",
+        "options": [
+          "Sydney",
+          "Melbourne",
+          "Canberra",
+          "Brisbane"
+        ],
+        "explanation": "Canberra was chosen as the capital in 1908 to end the rivalry between Sydney and Melbourne.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la capital de Australia?",
+        "options": [
+          "Sídney",
+          "Melbourne",
+          "Canberra",
+          "Brisbane"
+        ],
+        "explanation": "Canberra fue elegida como capital en 1908 para poner fin a la rivalidad entre Sídney y Melbourne.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdq4000hu7af24nxveed",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In what year did the French Revolution begin?",
+        "options": [
+          "1776",
+          "1789",
+          "1799",
+          "1804"
+        ],
+        "explanation": "The storming of the Bastille, on 14 July 1789, marks the symbolic beginning of the French Revolution.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué año comenzó la Revolución Francesa?",
+        "options": [
+          "1776",
+          "1789",
+          "1799",
+          "1804"
+        ],
+        "explanation": "La toma de la Bastilla, el 14 de julio de 1789, marca el inicio simbólico de la Revolución Francesa.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdu8000nu7aftnazzpl8",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who composed the 9th Symphony?",
+        "options": [
+          "Mozart",
+          "Bach",
+          "Beethoven",
+          "Chopin"
+        ],
+        "explanation": "Beethoven composed his 9th Symphony after he had become completely deaf.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién compuso la 9.ª Sinfonía?",
+        "options": [
+          "Mozart",
+          "Bach",
+          "Beethoven",
+          "Chopin"
+        ],
+        "explanation": "Beethoven compuso su 9.ª Sinfonía cuando ya se había quedado completamente sordo.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdux000ou7af6wp9nq29",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the chemical symbol for iron?",
+        "options": [
+          "Fi",
+          "Fe",
+          "Fr",
+          "Fw"
+        ],
+        "explanation": "The symbol \"Fe\" for iron comes from the Latin \"ferrum\".",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el símbolo químico del hierro?",
+        "options": [
+          "Fi",
+          "Fe",
+          "Fr",
+          "Fw"
+        ],
+        "explanation": "El símbolo «Fe» del hierro proviene del latín «ferrum».",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdrh000ju7afmkjpvysb",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the chemical formula for water?",
+        "options": [
+          "HO",
+          "H2O",
+          "H2O2",
+          "OH"
+        ],
+        "explanation": "A water molecule combines two hydrogen atoms with one oxygen atom, hence the formula H₂O.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la fórmula química del agua?",
+        "options": [
+          "HO",
+          "H2O",
+          "H2O2",
+          "OH"
+        ],
+        "explanation": "Una molécula de agua combina dos átomos de hidrógeno con uno de oxígeno, de ahí la fórmula H₂O.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdsv000lu7afv6upksab",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many bones are there in the adult human body?",
+        "options": [
+          "186",
+          "206",
+          "226",
+          "246"
+        ],
+        "explanation": "An adult has 206 bones; a newborn has nearly 300, which fuse together as it grows.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántos huesos hay en el cuerpo humano adulto?",
+        "options": [
+          "186",
+          "206",
+          "226",
+          "246"
+        ],
+        "explanation": "Un adulto tiene 206 huesos; un recién nacido tiene casi 300, que se fusionan a medida que crece.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wds6000ku7affgx458wm",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who wrote 'Les Misérables'?",
+        "options": [
+          "Balzac",
+          "Zola",
+          "Hugo",
+          "Flaubert"
+        ],
+        "explanation": "Victor Hugo published Les Misérables in 1862, partly written during his exile on the island of Guernsey.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién escribió «Los Miserables»?",
+        "options": [
+          "Balzac",
+          "Zola",
+          "Hugo",
+          "Flaubert"
+        ],
+        "explanation": "Victor Hugo publicó Los Miserables en 1862, escrito en parte durante su exilio en la isla de Guernsey.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdtj000mu7af5qkpavtl",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the currency of Japan?",
+        "options": [
+          "Yuan",
+          "Won",
+          "Yen",
+          "Baht"
+        ],
+        "explanation": "The yen, created in 1871, literally means \"round object\" in Japanese.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la moneda de Japón?",
+        "options": [
+          "Yuan",
+          "Won",
+          "Yen",
+          "Baht"
+        ],
+        "explanation": "El yen, creado en 1871, significa literalmente «objeto redondo» en japonés.",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wf1h002eu7afw07pvfxe",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which empire built the Colosseum?",
+        "options": [
+          "Greek",
+          "Roman",
+          "Ottoman",
+          "Byzantine"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué imperio construyó el Coliseo?",
+        "options": [
+          "Griego",
+          "Romano",
+          "Otomano",
+          "Bizantino"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wdwc000qu7afoarxrjjj",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the highest peak in the world?",
+        "options": [
+          "K2",
+          "Mont Blanc",
+          "Everest",
+          "Kilimanjaro"
+        ],
+        "explanation": "Everest peaks at 8,849 m and still gains a few millimetres in altitude each year.",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es la cumbre más alta del mundo?",
+        "options": [
+          "K2",
+          "Mont Blanc",
+          "Everest",
+          "Kilimanjaro"
+        ],
+        "explanation": "El Everest alcanza los 8849 m y sigue ganando unos milímetros de altitud cada año.",
+        "label": null,
+        "country": null
+      }
+    }
+  }
+]
