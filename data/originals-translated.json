@@ -2998,5 +2998,755 @@
         "country": null
       }
     }
+  },
+  {
+    "questionId": "cmq14wfd0002vu7afpfvhsp82",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who deciphered hieroglyphs thanks to the Rosetta Stone?",
+        "options": [
+          "Howard Carter",
+          "Jean-François Champollion",
+          "Heinrich Schliemann",
+          "Arthur Evans"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién descifró los jeroglíficos gracias a la Piedra de Rosetta?",
+        "options": [
+          "Howard Carter",
+          "Jean-François Champollion",
+          "Heinrich Schliemann",
+          "Arthur Evans"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfdp002wu7afos9qmccd",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In what year did Muhammad found Islam (according to tradition)?",
+        "options": [
+          "570",
+          "610",
+          "622",
+          "632"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué año fundó Mahoma el islam (según la tradición)?",
+        "options": [
+          "570",
+          "610",
+          "622",
+          "632"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfed002xu7afsiw8eipo",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many players are there in a basketball team?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántos jugadores hay en un equipo de baloncesto?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wff2002yu7af9xtibxp2",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which country won the 2018 World Cup?",
+        "options": [
+          "Brazil",
+          "Germany",
+          "Argentina",
+          "France"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué país ganó la Copa del Mundo de 2018?",
+        "options": [
+          "Brasil",
+          "Alemania",
+          "Argentina",
+          "Francia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wffq002zu7af7jd01ddg",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In which sport is a 'birdie' used?",
+        "options": [
+          "Tennis",
+          "Golf",
+          "Badminton",
+          "Cricket"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué deporte se usa un «birdie»?",
+        "options": [
+          "Tenis",
+          "Golf",
+          "Bádminton",
+          "Críquet"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfge0030u7afhr4zapr4",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many sets do you win a tennis match in (men's Grand Slam)?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿A cuántos sets se gana un partido de tenis (Grand Slam masculino)?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfh30031u7afaux82jr6",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which athlete holds the 100m record?",
+        "options": [
+          "Carl Lewis",
+          "Michael Johnson",
+          "Usain Bolt",
+          "Justin Gatlin"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué atleta tiene el récord de los 100 m?",
+        "options": [
+          "Carl Lewis",
+          "Michael Johnson",
+          "Usain Bolt",
+          "Justin Gatlin"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfhr0032u7afnw0ousuc",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which sport is played at the Stade de France?",
+        "options": [
+          "Football and Rugby",
+          "Tennis",
+          "Swimming",
+          "Athletics only"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué deporte se juega en el Stade de France?",
+        "options": [
+          "Fútbol y Rugby",
+          "Tenis",
+          "Natación",
+          "Solo atletismo"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfig0033u7afmc0arizb",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many points is a try worth in rugby?",
+        "options": [
+          "3",
+          "5",
+          "6",
+          "7"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántos puntos vale un ensayo en rugby?",
+        "options": [
+          "3",
+          "5",
+          "6",
+          "7"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfj50034u7af7vnk3kkn",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which country is hosting the 2024 Summer Olympics?",
+        "options": [
+          "Japan",
+          "United States",
+          "France",
+          "Australia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué país organiza los Juegos Olímpicos de verano de 2024?",
+        "options": [
+          "Japón",
+          "Estados Unidos",
+          "Francia",
+          "Australia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfjt0035u7afn1uwy1q7",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which footballer has won the most Ballon d'Or awards?",
+        "options": [
+          "Cristiano Ronaldo",
+          "Lionel Messi",
+          "Ronaldinho",
+          "Zinedine Zidane"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué futbolista ha ganado más Balones de Oro?",
+        "options": [
+          "Cristiano Ronaldo",
+          "Lionel Messi",
+          "Ronaldinho",
+          "Zinedine Zidane"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfkh0036u7afduk93bvr",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In what year did France win its first World Cup?",
+        "options": [
+          "1994",
+          "1996",
+          "1998",
+          "2000"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué año ganó Francia su primera Copa del Mundo?",
+        "options": [
+          "1994",
+          "1996",
+          "1998",
+          "2000"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfl60037u7afk5m2ympr",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which is the oldest Grand Slam?",
+        "options": [
+          "US Open",
+          "French Open",
+          "Wimbledon",
+          "Australian Open"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el Grand Slam más antiguo?",
+        "options": [
+          "US Open",
+          "Roland Garros",
+          "Wimbledon",
+          "Abierto de Australia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wflu0038u7afvd8ys3ji",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which swimmer has won the most Olympic medals?",
+        "options": [
+          "Ian Thorpe",
+          "Mark Spitz",
+          "Michael Phelps",
+          "Ryan Lochte"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué nadador ha ganado más medallas olímpicas?",
+        "options": [
+          "Ian Thorpe",
+          "Mark Spitz",
+          "Michael Phelps",
+          "Ryan Lochte"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfmj0039u7afyiayptgk",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In which sport is there a 'touch'?",
+        "options": [
+          "American football",
+          "Rugby",
+          "Both",
+          "Neither"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué deporte existe la «touche» (banda)?",
+        "options": [
+          "Fútbol americano",
+          "Rugby",
+          "Ambos",
+          "Ninguno"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfn7003au7afyqdj5t9j",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many goals in a single match is called a hat-trick?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántos goles en un partido se llama hat-trick?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfnw003bu7afbym4ntpp",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many Formula 1 wins does Michael Schumacher have?",
+        "options": [
+          "79",
+          "86",
+          "91",
+          "103"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántas victorias en Fórmula 1 tiene Michael Schumacher?",
+        "options": [
+          "79",
+          "86",
+          "91",
+          "103"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfol003cu7af5dsppnhg",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which nation has won the most Olympic medals in history?",
+        "options": [
+          "Russia/USSR",
+          "China",
+          "United States",
+          "Germany"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué nación ha ganado más medallas olímpicas de la historia?",
+        "options": [
+          "Rusia/URSS",
+          "China",
+          "Estados Unidos",
+          "Alemania"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfp9003du7af8jvtxycf",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the current marathon world record (2024)?",
+        "options": [
+          "1h58m00s",
+          "2h00m35s",
+          "2h00m35s",
+          "2h01m09s"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el récord mundial actual de maratón (2024)?",
+        "options": [
+          "1h58m00s",
+          "2h00m35s",
+          "2h00m35s",
+          "2h01m09s"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfpy003eu7af7hsbmc6a",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who plays the role of Jack in Titanic (1997)?",
+        "options": [
+          "Brad Pitt",
+          "Johnny Depp",
+          "Leonardo DiCaprio",
+          "Tom Hanks"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién interpreta el papel de Jack en Titanic (1997)?",
+        "options": [
+          "Brad Pitt",
+          "Johnny Depp",
+          "Leonardo DiCaprio",
+          "Tom Hanks"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfqm003fu7afuftrfj9j",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which film is associated with the line 'May the Force be with you'?",
+        "options": [
+          "Star Trek",
+          "Star Wars",
+          "Avatar",
+          "Matrix"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué película se asocia con la frase «Que la Fuerza te acompañe»?",
+        "options": [
+          "Star Trek",
+          "Star Wars",
+          "Avatar",
+          "Matrix"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfra003gu7afx50jhclo",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who directed 'Jaws'?",
+        "options": [
+          "Kubrick",
+          "Spielberg",
+          "Scorsese",
+          "Cameron"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién dirigió «Tiburón»?",
+        "options": [
+          "Kubrick",
+          "Spielberg",
+          "Scorsese",
+          "Cameron"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfry003hu7af516kuy2m",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which animated film features a clownfish?",
+        "options": [
+          "Shrek",
+          "Cars",
+          "Finding Nemo",
+          "Ice Age"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué película de animación tiene como protagonista a un pez payaso?",
+        "options": [
+          "Shrek",
+          "Cars",
+          "Buscando a Nemo",
+          "La era de hielo"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfsn003iu7af82oto8dk",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which film won the most Oscars (tied at 11)?",
+        "options": [
+          "Titanic",
+          "The Lord of the Rings",
+          "Ben-Hur",
+          "All three have 11"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué película ganó más Óscars (empate con 11)?",
+        "options": [
+          "Titanic",
+          "El Señor de los Anillos",
+          "Ben-Hur",
+          "Las tres tienen 11"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wftb003ju7afgytgfalz",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In which film is Simba the main character?",
+        "options": [
+          "Bambi",
+          "Dumbo",
+          "The Lion King",
+          "Beauty and the Beast"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué película es Simba el personaje principal?",
+        "options": [
+          "Bambi",
+          "Dumbo",
+          "El Rey León",
+          "La Bella y la Bestia"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
   }
 ]
