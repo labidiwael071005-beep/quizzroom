@@ -3748,5 +3748,755 @@
         "country": null
       }
     }
+  },
+  {
+    "questionId": "cmq14wfu0003ku7af6mixbcn2",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who plays Iron Man in the MCU?",
+        "options": [
+          "Chris Evans",
+          "Chris Hemsworth",
+          "Robert Downey Jr.",
+          "Mark Ruffalo"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién interpreta a Iron Man en el UCM?",
+        "options": [
+          "Chris Evans",
+          "Chris Hemsworth",
+          "Robert Downey Jr.",
+          "Mark Ruffalo"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfuo003lu7afv5m2jp11",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which 2009 film is the biggest worldwide box-office hit?",
+        "options": [
+          "Avengers",
+          "Titanic",
+          "Avatar",
+          "Star Wars VII"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué película de 2009 es el mayor éxito de taquilla mundial?",
+        "options": [
+          "Avengers",
+          "Titanic",
+          "Avatar",
+          "Star Wars VII"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfw1003nu7afi935nid6",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which film launched the James Bond saga in 1962?",
+        "options": [
+          "Goldfinger",
+          "Dr. No",
+          "Casino Royale",
+          "From Russia with Love"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué película inició la saga de James Bond en 1962?",
+        "options": [
+          "Goldfinger",
+          "Dr. No",
+          "Casino Royale",
+          "Desde Rusia con amor"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfxe003pu7afags5hsql",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which actor starred in 'Philadelphia' and 'Forrest Gump' in the same year?",
+        "options": [
+          "Dustin Hoffman",
+          "Al Pacino",
+          "Tom Hanks",
+          "Robert De Niro"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué actor actuó en «Philadelphia» y «Forrest Gump» el mismo año?",
+        "options": [
+          "Dustin Hoffman",
+          "Al Pacino",
+          "Tom Hanks",
+          "Robert De Niro"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfy3003qu7afws02fw4l",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is Charlie Chaplin's real name?",
+        "options": [
+          "Charles Spencer Chaplin",
+          "Charles John Chaplin",
+          "Charles Albert Chaplin",
+          "Charles Henri Chaplin"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el verdadero nombre de Charlie Chaplin?",
+        "options": [
+          "Charles Spencer Chaplin",
+          "Charles John Chaplin",
+          "Charles Albert Chaplin",
+          "Charles Henri Chaplin"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfys003ru7afy80obb68",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who composed the original Star Wars score?",
+        "options": [
+          "Hans Zimmer",
+          "Ennio Morricone",
+          "John Williams",
+          "Howard Shore"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién compuso la banda sonora original de Star Wars?",
+        "options": [
+          "Hans Zimmer",
+          "Ennio Morricone",
+          "John Williams",
+          "Howard Shore"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfzh003su7afcxa4vh34",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which Kubrick film is adapted from an Arthur C. Clarke novel?",
+        "options": [
+          "2001: A Space Odyssey",
+          "A Clockwork Orange",
+          "Full Metal Jacket",
+          "The Shining"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué película de Kubrick está adaptada de una novela de Arthur C. Clarke?",
+        "options": [
+          "2001: Una odisea del espacio",
+          "La naranja mecánica",
+          "Full Metal Jacket",
+          "El resplandor"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg05003tu7afjlv7g6gh",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who is the director of Akira (1988)?",
+        "options": [
+          "Hayao Miyazaki",
+          "Katsuhiro Otomo",
+          "Mamoru Oshii",
+          "Satoshi Kon"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién es el director de Akira (1988)?",
+        "options": [
+          "Hayao Miyazaki",
+          "Katsuhiro Otomo",
+          "Mamoru Oshii",
+          "Satoshi Kon"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg0u003uu7afqjme2wqs",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which actor refused the Best Actor Oscar in 1973?",
+        "options": [
+          "Al Pacino",
+          "Jack Nicholson",
+          "Marlon Brando",
+          "Dustin Hoffman"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué actor rechazó el Óscar al mejor actor en 1973?",
+        "options": [
+          "Al Pacino",
+          "Jack Nicholson",
+          "Marlon Brando",
+          "Dustin Hoffman"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg1j003vu7afa3wwq3hl",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which band sang 'Bohemian Rhapsody'?",
+        "options": [
+          "The Beatles",
+          "Rolling Stones",
+          "Queen",
+          "Led Zeppelin"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué grupo cantó «Bohemian Rhapsody»?",
+        "options": [
+          "The Beatles",
+          "Rolling Stones",
+          "Queen",
+          "Led Zeppelin"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg27003wu7afrcgpjfz7",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the name of U2's singer?",
+        "options": [
+          "Sting",
+          "Bono",
+          "Phil Collins",
+          "Elton John"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cómo se llama el cantante de U2?",
+        "options": [
+          "Sting",
+          "Bono",
+          "Phil Collins",
+          "Elton John"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg2w003xu7af1g2hk3cg",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which instrument does Elton John play?",
+        "options": [
+          "Guitar",
+          "Drums",
+          "Piano",
+          "Violin"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué instrumento toca Elton John?",
+        "options": [
+          "Guitarra",
+          "Batería",
+          "Piano",
+          "Violín"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg3l003yu7afqeaf09j1",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which pop star is nicknamed 'the Queen of Pop'?",
+        "options": [
+          "Britney Spears",
+          "Beyoncé",
+          "Madonna",
+          "Lady Gaga"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué estrella del pop recibe el apodo de «la Reina del Pop»?",
+        "options": [
+          "Britney Spears",
+          "Beyoncé",
+          "Madonna",
+          "Lady Gaga"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg4f003zu7af4powr95r",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In which city was jazz born?",
+        "options": [
+          "New York",
+          "Chicago",
+          "New Orleans",
+          "Memphis"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué ciudad nació el jazz?",
+        "options": [
+          "Nueva York",
+          "Chicago",
+          "Nueva Orleans",
+          "Memphis"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg530040u7afkgzle9ht",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which French rapper released 'La Trilogie du Belge'?",
+        "options": [
+          "Booba",
+          "PNL",
+          "Orelsan",
+          "Nekfeu"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué rapero francés publicó «La Trilogie du Belge»?",
+        "options": [
+          "Booba",
+          "PNL",
+          "Orelsan",
+          "Nekfeu"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg5r0041u7afmxbl5b6k",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What was the makeup of the Swedish band ABBA?",
+        "options": [
+          "2 men and 2 women",
+          "4 men",
+          "4 women",
+          "3 men and 1 woman"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cómo estaba formado el grupo sueco ABBA?",
+        "options": [
+          "2 hombres y 2 mujeres",
+          "4 hombres",
+          "4 mujeres",
+          "3 hombres y 1 mujer"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg6f0042u7afdzyg43og",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who composed 'Für Elise'?",
+        "options": [
+          "Bach",
+          "Beethoven",
+          "Mozart",
+          "Schubert"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién compuso «Para Elisa»?",
+        "options": [
+          "Bach",
+          "Beethoven",
+          "Mozart",
+          "Schubert"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg740043u7afrm7unqz1",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In what year did the Beatles break up?",
+        "options": [
+          "1968",
+          "1969",
+          "1970",
+          "1971"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué año se separaron los Beatles?",
+        "options": [
+          "1968",
+          "1969",
+          "1970",
+          "1971"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg7s0044u7aftgt7yu0k",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which music genre originated in Jamaica?",
+        "options": [
+          "Calypso",
+          "Ska",
+          "Reggae",
+          "Dancehall"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué género musical es originario de Jamaica?",
+        "options": [
+          "Calypso",
+          "Ska",
+          "Reggae",
+          "Dancehall"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg8g0045u7afnqdiqxuy",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "What is the best-selling album of all time?",
+        "options": [
+          "Thriller",
+          "Back in Black",
+          "The Dark Side of the Moon",
+          "Bat Out of Hell"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuál es el álbum más vendido de todos los tiempos?",
+        "options": [
+          "Thriller",
+          "Back in Black",
+          "The Dark Side of the Moon",
+          "Bat Out of Hell"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg940046u7afjn0rtazn",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Who is the songwriter of 'Imagine'?",
+        "options": [
+          "Paul McCartney",
+          "John Lennon",
+          "George Harrison",
+          "Ringo Starr"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Quién es el autor de «Imagine»?",
+        "options": [
+          "Paul McCartney",
+          "John Lennon",
+          "George Harrison",
+          "Ringo Starr"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wg9t0047u7af6muxcbx4",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which instrument does Yo-Yo Ma play?",
+        "options": [
+          "Violin",
+          "Viola",
+          "Cello",
+          "Double bass"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué instrumento toca Yo-Yo Ma?",
+        "options": [
+          "Violín",
+          "Viola",
+          "Violonchelo",
+          "Contrabajo"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgai0048u7afarkiliqh",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "How many symphonies did Beethoven compose?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Cuántas sinfonías compuso Beethoven?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wfwq003ou7afxtw6qe72",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "In which country does Bong Joon-ho's 'Parasite' take place?",
+        "options": [
+          "Japan",
+          "China",
+          "South Korea",
+          "Taiwan"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿En qué país transcurre «Parásitos» de Bong Joon-ho?",
+        "options": [
+          "Japón",
+          "China",
+          "Corea del Sur",
+          "Taiwán"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
+  },
+  {
+    "questionId": "cmq14wgb60049u7af80n9yw6q",
+    "type": "qcm",
+    "translations": {
+      "en": {
+        "text": "Which composer was deaf at the end of his life?",
+        "options": [
+          "Mozart",
+          "Bach",
+          "Beethoven",
+          "Brahms"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      },
+      "es": {
+        "text": "¿Qué compositor estaba sordo al final de su vida?",
+        "options": [
+          "Mozart",
+          "Bach",
+          "Beethoven",
+          "Brahms"
+        ],
+        "explanation": "",
+        "label": null,
+        "country": null
+      }
+    }
   }
 ]
