@@ -1316,7 +1316,8 @@ body.game{
 }
 
 /* ─ Phase 3 : rideaux à chaque nouvelle question ─ */
-.game-curtains{ position:absolute; inset:0; z-index:40; pointer-events:none; overflow:hidden; }
+/* z-index élevé : au-dessus des couches Leaflet (panes/controls ~400-800) */
+.game-curtains{ position:absolute; inset:0; z-index:1000; pointer-events:none; overflow:hidden; }
 /* Par défaut : ouverts (hors écran). .closing les ferme, puis on rouvre. */
 .game-curtains .curtain{ transition:transform .5s cubic-bezier(.66,0,.34,1); }
 .game-curtains .curtain.l{ transform:translateX(-101%); }
@@ -1439,3 +1440,13 @@ body.game{
   .timer-ring{ width:74px; height:74px; }
   .hourglass-num{ font-size:24px; }
 }
+
+/* ─ Fix : la carte géo ne doit jamais passer par-dessus les rideaux ─ */
+/* isolation:isolate → piège tous les z-index internes de Leaflet (panes 400-800)
+   dans le contexte d'empilement de la carte ; combiné au z-index:1000 des
+   rideaux, la carte reste TOUJOURS derrière eux. */
+.geo-map{ isolation:isolate; }
+/* Pendant la fermeture des rideaux, on masque la carte par sécurité (anti-fuite).
+   On ne touche PAS aux z-index internes de Leaflet (ordre markers/contrôles
+   préservé) : isolation:isolate suffit à contenir toute la pile de la carte. */
+#stage.curtains-busy .geo-map{ visibility:hidden; }

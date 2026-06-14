@@ -920,14 +920,17 @@ function prefersReducedMotion() {
   return !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
 }
 function runQuestionTransition(swapFn) {
-  const cur = document.getElementById('game-curtains');
+  const cur   = document.getElementById('game-curtains');
+  const stage = document.getElementById('stage');
   // Pas de rideaux dispo ou reduced-motion → échange instantané (jamais bloquant).
   if (!cur || prefersReducedMotion()) { swapFn(); return; }
   clearTimeout(cur._closeT); clearTimeout(cur._openT);
   cur.classList.remove('opening');
   cur.classList.add('closing');                 // fermeture (~0.5s)
+  if (stage) stage.classList.add('curtains-busy');   // masque la carte géo pendant la fermeture
   cur._closeT = setTimeout(() => {
     swapFn();                                    // échange pendant que c'est fermé
+    if (stage) stage.classList.remove('curtains-busy');  // carte ré-affichée (encore couverte par les rideaux)
     cur.classList.remove('closing');
     cur.classList.add('opening');                // ouverture (~0.6s) → options cliquables
     cur._openT = setTimeout(() => cur.classList.remove('opening'), 620);
