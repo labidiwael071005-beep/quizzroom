@@ -193,6 +193,42 @@ body {
 /* Le canvas marbré existant devient une texture discrète sous le décor TV */
 #marble-canvas { opacity: 0.16 !important; mix-blend-mode: screen; }
 
+/* ═══════════════════════════════════════════════════════════════
+   RIDEAUX DE VELOURS (ouverture au chargement, injectés par theme.js)
+   pointer-events:none → ne bloquent JAMAIS l'interaction, même pendant
+   l'animation. Retirés (display:none) une fois ouverts.
+═══════════════════════════════════════════════════════════════ */
+.theatre-curtains {
+  position: fixed;
+  inset: 0;
+  z-index: 5000;
+  pointer-events: none;
+  overflow: hidden;
+}
+.theatre-curtain {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 52vw;                 /* > 50vw : léger chevauchement central, pas de couture */
+  background:
+    linear-gradient(180deg, rgba(0,0,0,0.28), transparent 14% 86%, rgba(0,0,0,0.42)),
+    repeating-linear-gradient(90deg,
+      var(--velvet-deep) 0 20px,
+      var(--velvet)      20px 42px,
+      var(--velvet-light) 42px 48px,
+      var(--velvet)      48px 64px),
+    var(--velvet);
+  box-shadow: inset 0 0 80px rgba(0,0,0,0.55);
+  transition: transform 1s cubic-bezier(0.7, 0, 0.2, 1);
+  will-change: transform;
+}
+.theatre-curtain--left  { left: 0;  border-right: 3px solid var(--gold); box-shadow: inset -10px 0 30px rgba(0,0,0,.5), 4px 0 18px rgba(212,175,55,.25); }
+.theatre-curtain--right { right: 0; border-left:  3px solid var(--gold); box-shadow: inset  10px 0 30px rgba(0,0,0,.5), -4px 0 18px rgba(212,175,55,.25); }
+
+/* État ouvert : les panneaux glissent hors écran */
+.theatre-curtains.is-open .theatre-curtain--left  { transform: translateX(-100%); }
+.theatre-curtains.is-open .theatre-curtain--right { transform: translateX(100%); }
+
 /* ── Accessibilité : couper les animations si demandé ────────── */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {

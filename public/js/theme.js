@@ -26,9 +26,41 @@
     document.body.insertBefore(decor, document.body.firstChild);
   }
 
+  // ── Rideaux de velours (ouverture au chargement) ─────────────
+  // Surtout sur l'accueil ; une fois par session ; jamais bloquant.
+  function injectCurtains() {
+    if (!isHome()) return;                 // lobby/game : entrée rapide, pas de rideaux
+    if (reduce) return;                    // accessibilité : contenu visible direct
+    try { if (sessionStorage.getItem('qr_curtains_shown')) return; } catch (e) {}
+    try { sessionStorage.setItem('qr_curtains_shown', '1'); } catch (e) {}
+
+    var wrap = document.createElement('div');
+    wrap.className = 'theatre-curtains';
+    wrap.setAttribute('aria-hidden', 'true');
+    wrap.innerHTML =
+      '<div class="theatre-curtain theatre-curtain--left"></div>' +
+      '<div class="theatre-curtain theatre-curtain--right"></div>';
+    document.body.appendChild(wrap);
+
+    // Deux frames pour garantir la pose fermée, puis ouverture animée.
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () { wrap.classList.add('is-open'); });
+    });
+
+    // Retrait complet après l'animation : ne doit PLUS jamais exister.
+    var done = false;
+    function remove() {
+      if (done) return; done = true;
+      if (wrap.parentNode) wrap.parentNode.removeChild(wrap);
+    }
+    wrap.addEventListener('transitionend', remove);
+    setTimeout(remove, 1800);   // filet de sécurité si transitionend manque
+  }
+
   function init() {
     if (!document.body) return;
     injectDecor();
+    injectCurtains();
   }
 
   if (document.readyState === 'loading') {
