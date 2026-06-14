@@ -1450,3 +1450,52 @@ body.game{
    On ne touche PAS aux z-index internes de Leaflet (ordre markers/contrôles
    préservé) : isolation:isolate suffit à contenir toute la pile de la carte. */
 #stage.curtains-busy .geo-map{ visibility:hidden; }
+
+/* ═══════════════════════════════════════════════════════════════
+   FIX Phase 3 — Joueurs en BARRE HORIZONTALE en haut (au lieu de la
+   sidebar gauche). La zone centrale (TV) gagne toute la largeur.
+   game.js inchangé côté hooks (#avatars-panel + ids av-*), seule la
+   taille --avatar-size est posée par JS (sizeAvatarBar).
+═══════════════════════════════════════════════════════════════ */
+.stage{ display:flex !important; flex-direction:column; grid-template-columns:none !important; }
+.stage-main{ flex:1 1 auto; width:100%; min-height:0; }
+
+/* Barre joueurs horizontale */
+.avatars-panel{
+  --avatar-size:56px;
+  flex-direction:row; flex-wrap:nowrap; align-items:flex-start; justify-content:center;
+  gap:8px; width:100%; max-width:100%;
+  padding:8px 10px; overflow:hidden;
+  background:rgba(11,24,68,.6); backdrop-filter:blur(8px);
+  border-right:none; border-bottom:2px solid rgba(255,207,77,.3);
+}
+.av-player-slot{ width:auto; min-width:0; flex:0 1 auto; padding:4px 6px; gap:3px; }
+.av-player-icon{
+  width:var(--avatar-size); height:var(--avatar-size);
+  font-size:calc(var(--avatar-size) * .5); border-width:3px;
+}
+.av-player-name{
+  font-size:clamp(9px,calc(var(--avatar-size) * .22),13px);
+  max-width:calc(var(--avatar-size) + 26px);
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.av-player-status{
+  font-size:clamp(8px,calc(var(--avatar-size) * .19),11px);
+  max-width:calc(var(--avatar-size) + 30px);
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; min-height:0;
+}
+.av-status-badge{
+  width:calc(var(--avatar-size) * .32); height:calc(var(--avatar-size) * .32);
+  min-width:16px; min-height:16px; font-size:11px; top:-2px; right:-2px;
+}
+.av-player-score{ font-size:clamp(10px,calc(var(--avatar-size) * .2),13px); padding:1px 8px; }
+
+/* Très petits écrans : on garde la barre horizontale, on densifie ; le statut
+   texte disparaît (le badge ✓/✗ sur l'avatar reste), pas de scroll horizontal. */
+@media (max-width:480px){
+  .avatars-panel{ gap:5px; padding:6px; }
+  .av-player-status{ display:none; }
+  .av-player-name{ max-width:calc(var(--avatar-size) + 14px); }
+  /* La taille de l'avatar reste pilotée par --avatar-size (règle non-media
+     plus bas dans la source → prime sur l'ancienne règle figée à 44px). */
+}

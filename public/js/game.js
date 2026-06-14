@@ -225,7 +225,27 @@ function renderAvatarsPanel(players) {
         <div class="av-player-score" id="av-score-${sanitizeId(p.name)}">${p.score || 0} pts</div>
       </div>`;
   }).join('');
+  sizeAvatarBar(panel, (players || []).length);
 }
+
+// Barre joueurs horizontale : taille d'avatar adaptative pour que TOUS tiennent
+// sur la largeur sans débordement ni scroll. Combine une borne par nombre de
+// joueurs (64px à 2 → 32px à 8) ET la largeur réellement disponible.
+function sizeAvatarBar(panel, n) {
+  if (!panel || !n) return;
+  const countSize = Math.max(32, Math.min(64, Math.round(64 - (n - 2) * (64 - 32) / 6)));
+  const avail     = panel.clientWidth || window.innerWidth || 360;
+  const gap       = 8;
+  const widthSize = Math.floor((avail - gap * (n + 1)) / n) - 10; // marge pour le pseudo
+  const size      = Math.max(26, Math.min(countSize, widthSize, 64));
+  panel.style.setProperty('--avatar-size', size + 'px');
+}
+
+// Recalcule la taille des avatars au redimensionnement (pas de scroll horizontal).
+window.addEventListener('resize', () => {
+  const panel = document.getElementById('avatars-panel');
+  if (panel && currentPlayers && currentPlayers.length) sizeAvatarBar(panel, currentPlayers.length);
+});
 
 function sanitizeId(name) { return (name || '').replace(/[^a-zA-Z0-9]/g, '_'); }
 
