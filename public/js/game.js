@@ -908,9 +908,6 @@ socket.on('new_question', (data) => {
   // tête, qui remplace question/options/explanation/label/country par leur version
   // dans la langue active (fallback locale → fr → en → 1ʳᵉ dispo). Si pas de
   // translations (vieille question pas encore migrée), on garde les champs legacy.
-
-  // Si on vient d'afficher l'intro de manche, on enchaîne directement (déjà 3,5s d'attente)
-  const skipCountdown = roundIntroJustShown;
   roundIntroJustShown = false;
 
   const showQuestion = () => {
@@ -920,9 +917,29 @@ socket.on('new_question', (data) => {
     else                              displayQuestion(data);
   };
 
-  if (skipCountdown) showQuestion();
-  else               runCountdown(3, showQuestion);
+  // Transition rideaux : ferme (~0.5s) → échange le contenu → ouvre (~0.6s).
+  // Le contenu est TOUJOURS affiché (rideaux ou pas) → OK 1ʳᵉ question & reconnexion.
+  runQuestionTransition(showQuestion);
 });
+
+// ── Rideaux à chaque nouvelle question ────────────────────────
+function prefersReducedMotion() {
+  return !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+}
+function runQuestionTransition(swapFn) {
+  const cur = document.getElementById('game-curtains');
+  // Pas de rideaux dispo ou reduced-motion → échange instantané (jamais bloquant).
+  if (!cur || prefersReducedMotion()) { swapFn(); return; }
+  clearTimeout(cur._closeT); clearTimeout(cur._openT);
+  cur.classList.remove('opening');
+  cur.classList.add('closing');                 // fermeture (~0.5s)
+  cur._closeT = setTimeout(() => {
+    swapFn();                                    // échange pendant que c'est fermé
+    cur.classList.remove('closing');
+    cur.classList.add('opening');                // ouverture (~0.6s) → options cliquables
+    cur._openT = setTimeout(() => cur.classList.remove('opening'), 620);
+  }, 520);
+}
 
 socket.on('answer_result', (data) => {
   displayResult(data);

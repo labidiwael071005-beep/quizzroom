@@ -1313,3 +1313,18 @@ body.game{
 @media (prefers-reduced-motion:reduce){
   .question-wrap::before, .question-wrap::after, .pixel-wrap::before, .pixel-wrap::after{ animation:none !important; }
 }
+
+/* ─ Phase 3 : rideaux à chaque nouvelle question ─ */
+.game-curtains{ position:absolute; inset:0; z-index:40; pointer-events:none; overflow:hidden; }
+/* Par défaut : ouverts (hors écran). .closing les ferme, puis on rouvre. */
+.game-curtains .curtain{ transition:transform .5s cubic-bezier(.66,0,.34,1); }
+.game-curtains .curtain.l{ transform:translateX(-101%); }
+.game-curtains .curtain.r{ transform:translateX(101%); }
+.game-curtains.closing .curtain{ transition-duration:.5s; }
+.game-curtains.closing .curtain.l, .game-curtains.closing .curtain.r{ transform:translateX(0); }
+.game-curtains.opening .curtain{ transition-duration:.6s; }
+.game-curtains.opening .curtain.l{ transform:translateX(-101%); }
+.game-curtains.opening .curtain.r{ transform:translateX(101%); }
+@media (prefers-reduced-motion:reduce){
+  .game-curtains .curtain{ transition:none !important; }
+}
