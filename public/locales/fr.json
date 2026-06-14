@@ -201,5 +201,6 @@
   "page.lobby.title": "QuizzRoom — Salon d'attente",
   "page.game.title": "QuizzRoom — En jeu",
   "home.slogan": "Défie tes amis sous les projecteurs",
-  "home.or": "ou"
+  "home.or": "ou",
+  "lobby.heading": "Salon d’attente"
 }

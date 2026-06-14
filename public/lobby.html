@@ -3,139 +3,148 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="page.lobby.title">QuizzRoom — Salon d'attente</title>
+  <title data-i18n="page.lobby.title">SquizzGame — Salon d'attente</title>
   <link rel="stylesheet" href="css/theme.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/lobby.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
-  <script defer src="js/theme.js"></script>
 </head>
-<body>
-<canvas id="marble-canvas"></canvas>
+<body class="lobby">
 
-<nav class="nav">
-  <div class="logo">
-    <div class="logo-mark"><i class="ti ti-bolt"></i></div>
-    QuizzRoom
-  </div>
-  <div class="nav-actions">
-    <div id="lang-switcher" class="lang-switcher"></div>
-    <button class="btn btn-ghost btn-sm" onclick="leaveRoom()">
-      <i class="ti ti-door-exit"></i> <span data-i18n="lobby.leave">Quitter</span>
-    </button>
-  </div>
-</nav>
+<main class="lobby-stage stage-bg">
+  <!-- Bandes de velours rouge (bordure latérale, liseré or) -->
+  <div class="vel vel--l" aria-hidden="true"></div>
+  <div class="vel vel--r" aria-hidden="true"></div>
+  <!-- Projecteurs -->
+  <div class="spot spot--l" aria-hidden="true"></div>
+  <div class="spot spot--r" aria-hidden="true"></div>
 
-<main class="lobby-main">
+  <div class="lobby-shell">
 
-  <!-- Colonne gauche -->
-  <div class="lobby-left">
+    <!-- En-tête -->
+    <header class="lobby-head">
+      <button class="btn btn--ghost lobby-leave" onclick="leaveRoom()">
+        <i class="ti ti-door-exit"></i> <span data-i18n="lobby.leave">Quitter</span>
+      </button>
+      <h1 class="lobby-title" data-i18n="lobby.heading">Salon d'attente</h1>
+      <div id="lang-switcher" class="lang-switcher"></div>
+    </header>
+
+    <!-- Code du salon -->
     <div class="code-card">
-      <div class="code-label" data-i18n="lobby.code">Code d'invitation</div>
-      <div class="code-display" id="room-code">QR-????</div>
-      <button class="btn btn-ghost btn-sm" onclick="copyCode()">
+      <span class="code-label" data-i18n="lobby.code">Code d'invitation</span>
+      <span class="code-display" id="room-code">QR-????</span>
+      <button class="btn btn--gold copy-btn" onclick="copyCode()">
         <i class="ti ti-copy"></i> <span data-i18n="lobby.copy">Copier</span>
       </button>
     </div>
 
-    <!-- Sélecteur de manches (visible pour tous, modifiable hôte seulement) -->
-    <div class="lobby-card" id="rounds-pick-card">
-      <div class="lobby-card-title" data-i18n="lobby.rounds.title">Manches activées</div>
-      <div id="rounds-pick" class="rounds-pick">
-        <button class="round-pick" data-round="culture"><i class="ti ti-brain"></i> <span data-i18n="round.culture.name">Culture G</span></button>
-        <button class="round-pick" data-round="geo"><i class="ti ti-map-pin"></i> <span data-i18n="round.geo.name">GéoQuizz</span></button>
-        <button class="round-pick" data-round="pixel"><i class="ti ti-photo"></i> <span data-i18n="round.pixel.short">Pixel</span></button>
-        <button class="round-pick" data-round="pari"><i class="ti ti-coins"></i> <span data-i18n="round.pari.short">Pari</span></button>
-      </div>
-    </div>
+    <div class="lobby-main">
 
-    <!-- Sélecteur de thèmes (visible pour tous, modifiable hôte seulement) -->
-    <div class="lobby-card" id="themes-pick-card">
-      <div class="lobby-card-title" data-i18n="lobby.themes.title">Thèmes (multi-sélection)</div>
-      <div id="themes-pick" class="themes-pick">
-        <button class="theme-pick" data-theme="general" data-i18n="theme.general">Culture G</button>
-        <button class="theme-pick" data-theme="science" data-i18n="theme.science">Science</button>
-        <button class="theme-pick" data-theme="geographie" data-i18n="theme.geographie">Géographie</button>
-        <button class="theme-pick" data-theme="histoire" data-i18n="theme.histoire">Histoire</button>
-        <button class="theme-pick" data-theme="sport" data-i18n="theme.sport">Sport</button>
-        <button class="theme-pick" data-theme="cinema" data-i18n="theme.cinema">Cinéma</button>
-        <button class="theme-pick" data-theme="musique" data-i18n="theme.musique">Musique</button>
-        <button class="theme-pick" data-theme="tech" data-i18n="theme.tech">Tech</button>
-        <button class="theme-pick" data-theme="nature" data-i18n="theme.nature">Nature</button>
-        <button class="theme-pick" data-theme="art" data-i18n="theme.art">Art</button>
-        <button class="theme-pick" data-theme="litterature" data-i18n="theme.litterature">Littérature</button>
-        <button class="theme-pick" data-theme="gastronomie" data-i18n="theme.gastronomie">Gastronomie</button>
-      </div>
-    </div>
+      <!-- Colonne gauche : joueurs + chat -->
+      <div class="lobby-left">
+        <div class="panel lobby-card players-card">
+          <div class="lobby-card-header">
+            <div class="lobby-card-title" data-i18n="lobby.players">Joueurs</div>
+            <span class="player-count" id="player-count">0/8</span>
+          </div>
+          <div id="players-list" class="players-list"></div>
+          <div id="empty-slots" class="empty-slots"></div>
+        </div>
 
-    <!-- Sélecteur de difficulté (visible pour tous, modifiable hôte seulement) -->
-    <div class="lobby-card" id="diff-pick-card">
-      <div class="lobby-card-title" data-i18n="lobby.diff">Difficulté</div>
-      <div id="diff-pick" class="diff-pick">
-        <button class="diff-pick-btn" data-diff="easy" data-i18n="diff.easy">Facile</button>
-        <button class="diff-pick-btn" data-diff="medium" data-i18n="diff.medium">Moyen</button>
-        <button class="diff-pick-btn" data-diff="hard" data-i18n="diff.hard">Difficile</button>
-        <button class="diff-pick-btn" data-diff="mix" data-i18n="diff.mix">Mix</button>
-      </div>
-    </div>
-
-    <!-- Nb de questions par manche (visible pour tous, modifiable hôte seulement) -->
-    <div class="lobby-card" id="qcount-card">
-      <div class="lobby-card-title" data-i18n="lobby.qcount">Questions par manche</div>
-      <div id="qcount-list" class="qcount-list"></div>
-    </div>
-
-    <!-- Mode équipe (visible pour tous, modifiable hôte seulement ; les invités peuvent toujours rejoindre une équipe) -->
-    <div class="lobby-card" id="team-card">
-      <div class="lobby-card-title" data-i18n="lobby.teammode">Mode équipe</div>
-      <div class="team-toggle" id="team-toggle">
-        <button class="team-toggle-btn active" onclick="setTeamMode(false)" data-i18n="lobby.teammode.solo">Chacun pour soi</button>
-        <button class="team-toggle-btn" onclick="setTeamMode(true)" data-i18n="lobby.teammode.team">En équipes</button>
-      </div>
-      <div id="team-config" style="display:none">
-        <div class="num-teams-row">
-          <span data-i18n="lobby.numteams">Nombre d'équipes</span>
-          <div style="display:flex;gap:6px">
-            <button class="qcount-btn" onclick="changeNumTeams(-1)">−</button>
-            <span class="qcount-val" id="num-teams-val">2</span>
-            <button class="qcount-btn" onclick="changeNumTeams(1)">+</button>
+        <div class="panel lobby-card chat-card">
+          <div class="lobby-card-title" data-i18n="lobby.chat">Chat</div>
+          <div id="chat-messages" class="chat-messages"></div>
+          <div class="chat-input-row">
+            <input type="text" id="chat-input" data-i18n-placeholder="lobby.chat.ph" placeholder="Dis quelque chose..." maxlength="80"
+                   onkeydown="if(event.key==='Enter') sendChat()">
+            <button class="btn btn--primary chat-send" onclick="sendChat()" aria-label="Envoyer"><i class="ti ti-send"></i></button>
           </div>
         </div>
-        <div id="teams-display" class="teams-grid"></div>
       </div>
-    </div>
 
-  </div>
+      <!-- Colonne droite : réglages -->
+      <div class="lobby-right">
 
-  <!-- Colonne droite -->
-  <div class="lobby-right">
-    <div class="lobby-card" style="flex:1">
-      <div class="lobby-card-header">
-        <div class="lobby-card-title" data-i18n="lobby.players">Joueurs</div>
-        <span class="player-count" id="player-count">0/8</span>
+        <!-- Sélecteur de manches (restructuré en Phase 2) -->
+        <div class="panel lobby-card" id="rounds-pick-card">
+          <div class="lobby-card-title" data-i18n="lobby.rounds.title">Manches activées</div>
+          <div id="rounds-pick" class="rounds-pick">
+            <button class="round-pick" data-round="culture"><i class="ti ti-brain"></i> <span data-i18n="round.culture.name">Culture G</span></button>
+            <button class="round-pick" data-round="geo"><i class="ti ti-map-pin"></i> <span data-i18n="round.geo.name">GéoQuizz</span></button>
+            <button class="round-pick" data-round="pixel"><i class="ti ti-photo"></i> <span data-i18n="round.pixel.short">Pixel</span></button>
+            <button class="round-pick" data-round="pari"><i class="ti ti-coins"></i> <span data-i18n="round.pari.short">Pari</span></button>
+          </div>
+        </div>
+
+        <!-- Nb de questions par manche -->
+        <div class="panel lobby-card" id="qcount-card">
+          <div class="lobby-card-title" data-i18n="lobby.qcount">Questions par manche</div>
+          <div id="qcount-list" class="qcount-list"></div>
+        </div>
+
+        <!-- Thèmes -->
+        <div class="panel lobby-card" id="themes-pick-card">
+          <div class="lobby-card-title" data-i18n="lobby.themes.title">Thèmes (multi-sélection)</div>
+          <div id="themes-pick" class="themes-pick">
+            <button class="theme-pick" data-theme="general" data-i18n="theme.general">Culture G</button>
+            <button class="theme-pick" data-theme="science" data-i18n="theme.science">Science</button>
+            <button class="theme-pick" data-theme="geographie" data-i18n="theme.geographie">Géographie</button>
+            <button class="theme-pick" data-theme="histoire" data-i18n="theme.histoire">Histoire</button>
+            <button class="theme-pick" data-theme="sport" data-i18n="theme.sport">Sport</button>
+            <button class="theme-pick" data-theme="cinema" data-i18n="theme.cinema">Cinéma</button>
+            <button class="theme-pick" data-theme="musique" data-i18n="theme.musique">Musique</button>
+            <button class="theme-pick" data-theme="tech" data-i18n="theme.tech">Tech</button>
+            <button class="theme-pick" data-theme="nature" data-i18n="theme.nature">Nature</button>
+            <button class="theme-pick" data-theme="art" data-i18n="theme.art">Art</button>
+            <button class="theme-pick" data-theme="litterature" data-i18n="theme.litterature">Littérature</button>
+            <button class="theme-pick" data-theme="gastronomie" data-i18n="theme.gastronomie">Gastronomie</button>
+          </div>
+        </div>
+
+        <!-- Difficulté -->
+        <div class="panel lobby-card" id="diff-pick-card">
+          <div class="lobby-card-title" data-i18n="lobby.diff">Difficulté</div>
+          <div id="diff-pick" class="diff-pick">
+            <button class="diff-pick-btn" data-diff="easy" data-i18n="diff.easy">Facile</button>
+            <button class="diff-pick-btn" data-diff="medium" data-i18n="diff.medium">Moyen</button>
+            <button class="diff-pick-btn" data-diff="hard" data-i18n="diff.hard">Difficile</button>
+            <button class="diff-pick-btn" data-diff="mix" data-i18n="diff.mix">Mix</button>
+          </div>
+        </div>
+
+        <!-- Mode équipe -->
+        <div class="panel lobby-card" id="team-card">
+          <div class="lobby-card-title" data-i18n="lobby.teammode">Mode équipe</div>
+          <div class="team-toggle" id="team-toggle">
+            <button class="team-toggle-btn active" onclick="setTeamMode(false)" data-i18n="lobby.teammode.solo">Chacun pour soi</button>
+            <button class="team-toggle-btn" onclick="setTeamMode(true)" data-i18n="lobby.teammode.team">En équipes</button>
+          </div>
+          <div id="team-config" style="display:none">
+            <div class="num-teams-row">
+              <span data-i18n="lobby.numteams">Nombre d'équipes</span>
+              <div class="num-teams-ctrl">
+                <button class="qcount-btn" onclick="changeNumTeams(-1)">−</button>
+                <span class="qcount-val" id="num-teams-val">2</span>
+                <button class="qcount-btn" onclick="changeNumTeams(1)">+</button>
+              </div>
+            </div>
+            <div id="teams-display" class="teams-grid"></div>
+          </div>
+        </div>
+
+        <!-- Actions hôte / invité -->
+        <div id="host-actions" class="host-actions" style="display:none">
+          <button class="btn btn--gold btn--lg btn--block" id="btn-start" onclick="startGame()">
+            <i class="ti ti-player-play"></i> <span data-i18n="lobby.start">Lancer la partie</span>
+          </button>
+          <div class="start-hint" data-i18n="lobby.host.hint">Tu es l'hôte — les autres attendent.</div>
+        </div>
+        <div id="guest-waiting" class="guest-waiting">
+          <i class="ti ti-clock"></i> <span data-i18n="lobby.guest.wait">En attente de l'hôte...</span>
+        </div>
+
       </div>
-      <div id="players-list" class="players-list"></div>
-      <div id="empty-slots" class="empty-slots"></div>
-    </div>
-
-    <div class="lobby-card">
-      <div class="lobby-card-title" data-i18n="lobby.chat">Chat</div>
-      <div id="chat-messages" class="chat-messages"></div>
-      <div class="chat-input-row">
-        <input type="text" id="chat-input" data-i18n-placeholder="lobby.chat.ph" placeholder="Dis quelque chose..." maxlength="80"
-               onkeydown="if(event.key==='Enter') sendChat()">
-        <button class="btn btn-purple btn-sm" onclick="sendChat()"><i class="ti ti-send"></i></button>
-      </div>
-    </div>
-
-    <div id="host-actions" style="display:none">
-      <button class="btn btn-orange btn-full btn-lg" id="btn-start" onclick="startGame()">
-        <i class="ti ti-player-play"></i> <span data-i18n="lobby.start">Lancer la partie</span>
-      </button>
-      <div class="start-hint" data-i18n="lobby.host.hint">Tu es l'hôte — les autres attendent.</div>
-    </div>
-    <div id="guest-waiting" class="guest-waiting">
-      <i class="ti ti-clock"></i> <span data-i18n="lobby.guest.wait">En attente de l'hôte...</span>
     </div>
   </div>
 </main>
@@ -145,13 +154,10 @@
 <script src="/socket.io/socket.io.js"></script>
 <script src="js/i18n.js"></script>
 <script src="js/avatar.js"></script>
-<script src="js/marble.js"></script>
 <script src="js/lobby.js"></script>
 <script>
-  // initI18n() applique la langue stockée (localStorage 'qr_lang') aux éléments
-  // [data-i18n] et rend le sélecteur de langue. On re-rend ensuite les zones
-  // générées par JS (manches, pickers, liste joueurs) pour qu'elles soient déjà
-  // dans la bonne langue au démarrage, sans attendre un event socket.
+  // initI18n() applique la langue stockée puis on re-rend les zones générées par
+  // JS (manches, pickers, joueurs) pour qu'elles soient déjà dans la bonne langue.
   initI18n().then(() => {
     try { buildQCountControls(); renderPickersState(); } catch (e) {}
     try { if (typeof currentPlayers !== 'undefined') updatePlayers(currentPlayers); } catch (e) {}
