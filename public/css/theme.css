@@ -1,0 +1,126 @@
+/* ═══════════════════════════════════════════════════════════════
+   QuizzRoom — theme.css  ·  Thème « plateau de jeu télévisé »
+   Chargé AVANT les autres CSS : source unique des design tokens.
+   Velours rouge + or + spotlights + fond de théâtre sombre.
+   (Re-skin pur : aucune classe/ID JS modifié.)
+═══════════════════════════════════════════════════════════════ */
+
+/* ── Polices auto-hébergées (CSP font-src 'self') ─────────────── */
+/* Cinzel (SIL OFL 1.1) — serif d'affichage « théâtre », pour les titres.
+   Licence : public/fonts/Cinzel-OFL.txt */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/cinzel-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/cinzel-700.woff2') format('woff2');
+}
+
+/* ── Design tokens ───────────────────────────────────────────── */
+:root {
+  /* Fond de théâtre (dégradé sombre chaud) */
+  --stage-bg:      #0c0709;
+  --stage-bg-2:    #160d11;
+
+  /* Velours rouge */
+  --velvet:        #7a0b16;
+  --velvet-deep:   #4a070e;
+  --velvet-light:  #a51c28;
+
+  /* Or */
+  --gold:          #d4af37;
+  --gold-light:    #f4e3a1;
+  --gold-dark:     #9a7d23;
+
+  /* Spotlight */
+  --spot:          rgba(255,246,224,0.16);
+
+  /* Texte (crème chaud) */
+  --text:          #f6ecd6;
+  --text-dim:      #c9bda3;
+
+  /* Ombres / glow dorés réutilisables */
+  --glow-gold:        0 0 18px rgba(212,175,55,0.35);
+  --glow-gold-strong: 0 0 28px rgba(212,175,55,0.55);
+  --shadow-soft:      0 10px 30px rgba(0,0,0,0.45);
+  --shadow-deep:      0 24px 70px rgba(0,0,0,0.65);
+  --gold-grad:        linear-gradient(180deg, var(--gold-light), var(--gold) 55%, var(--gold-dark));
+  --velvet-grad:      linear-gradient(180deg, var(--velvet-light), var(--velvet) 45%, var(--velvet-deep));
+
+  /* ── Alias sémantiques consommés par style/lobby/game/admin.css ──
+     On remappe l'ancienne palette (violet/orange) vers velours/or pour
+     re-skinner tout l'existant sans renommer la moindre classe. */
+  --bg:           var(--stage-bg);
+  --surface:      rgba(255, 240, 214, 0.045);
+  --surface-hov:  rgba(255, 240, 214, 0.09);
+  --border:       rgba(212, 175, 55, 0.24);
+
+  --text-muted:   rgba(246, 236, 214, 0.62);
+  --text-faint:   rgba(246, 236, 214, 0.40);
+
+  /* L'« orange » (couleur d'action principale) devient OR */
+  --orange:       var(--gold);
+  --orange-light: var(--gold-light);
+  --orange-dark:  var(--gold-dark);
+
+  /* Le « violet » (secondaire) devient VELOURS */
+  --purple:       var(--velvet-light);
+  --purple-light: var(--velvet-light);
+  --purple-dark:  var(--velvet-deep);
+
+  --radius:       10px;
+  --radius-lg:    14px;
+
+  --font:         'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono:    ui-monospace, 'SFMono-Regular', 'Menlo', monospace;
+  --font-display: 'Cinzel', Georgia, 'Times New Roman', serif;
+}
+
+/* ── Base théâtre ────────────────────────────────────────────── */
+/* Le fond riche (dégradé + vignettage + spotlights) est peint par le
+   calque .theatre-decor (z-index:-1) injecté par theme.js ; ici on
+   garde un fond solide de secours sur <html> pour éviter tout flash. */
+html { background: var(--stage-bg); }
+
+body {
+  background:
+    radial-gradient(120% 90% at 50% -10%, var(--stage-bg-2), var(--stage-bg) 60%) fixed;
+}
+
+/* Titres en serif dorée (appliqué aux gros titres existants, sans toucher
+   au markup : on cible des sélecteurs de présentation déjà en place). */
+.hero-title,
+.round-intro-name,
+.round-intro-prefix,
+.gameover-title,
+.scores-title,
+.history-title,
+.reveal-screen-head span,
+.modal-header h2,
+.section-label {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
+.hero-title,
+.round-intro-name,
+.gameover-title {
+  color: var(--gold-light);
+  text-shadow: 0 1px 0 rgba(0,0,0,.5), 0 0 22px rgba(212,175,55,.25);
+}
+
+/* ── Accessibilité : couper les animations si demandé ────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

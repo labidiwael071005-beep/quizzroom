@@ -3,24 +3,15 @@
    Design : fond sombre #0F0A1E + accents violet #6C3FCF / orange #F97316
 ═══════════════════════════════════════════════════════════════ */
 
-/* ── Variables ─────────────────────────────────────────────── */
+/* ── Variables ─────────────────────────────────────────────────
+   Les design tokens (couleurs, polices, rayons) sont désormais
+   centralisés dans theme.css (chargé AVANT ce fichier) pour le thème
+   « plateau TV ». On ne les redéclare donc plus ici afin de ne pas
+   écraser le thème. Fallbacks de secours au cas où theme.css manque. */
 :root {
-  --purple:       #6C3FCF;
-  --purple-light: #8B5CF6;
-  --purple-dark:  #4C1D95;
-  --orange:       #F97316;
-  --orange-light: #FB923C;
-  --orange-dark:  #C2410C;
-  --bg:           #0F0A1E;
-  --surface:      rgba(255,255,255,0.06);
-  --surface-hov:  rgba(255,255,255,0.10);
-  --border:       rgba(255,255,255,0.12);
-  --text:         #F1F0FD;
-  --text-muted:   rgba(241,240,253,0.6);
-  --text-faint:   rgba(241,240,253,0.35);
-  --radius:       10px;
-  --radius-lg:    14px;
-  --font:         'Inter', system-ui, -apple-system, sans-serif;
+  --orange:  var(--gold, #d4af37);
+  --bg:      var(--stage-bg, #0c0709);
+  --text:    #f6ecd6;
 }
 
 /* ── Reset & base ───────────────────────────────────────────── */
