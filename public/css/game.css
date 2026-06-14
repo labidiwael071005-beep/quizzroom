@@ -1108,3 +1108,59 @@ html, body {
   .hud-quit-btn       { padding: 6px 9px; }
 }
 
+
+/* ═══════════════════════════════════════════════════════════════
+   THEATRE POLISH (jeu) — finitions « plateau TV » en fin de fichier.
+   Même spécificité que les règles d'origine → priment par l'ordre,
+   sans modifier aucun id/classe ciblé par le JS.
+═══════════════════════════════════════════════════════════════ */
+/* HUD = scoreboard de plateau */
+.hud { background: rgba(12,7,9,0.86); border-bottom: 1px solid var(--border); }
+.hud-round {
+  color: var(--gold-light);
+  font-family: var(--font-display);
+  letter-spacing: .05em; text-transform: uppercase; font-weight: 700;
+}
+.progress-bar-fill { background: var(--gold-grad); box-shadow: 0 0 10px rgba(212,175,55,.5); }
+
+/* Carte de question = cadre doré sur velours sombre */
+.question-wrap {
+  background: linear-gradient(180deg, rgba(74,7,14,0.34), rgba(12,7,9,0.5));
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: clamp(18px, 3vw, 30px);
+  box-shadow: var(--shadow-deep), inset 0 1px 0 rgba(212,175,55,.15);
+}
+.question-text { text-shadow: 0 1px 0 rgba(0,0,0,.4); }
+
+/* Options A/B/C/D élégantes */
+.answer-btn {
+  background: linear-gradient(180deg, rgba(255,240,214,0.045), rgba(0,0,0,0.26));
+  border: 1px solid var(--border);
+}
+.answer-btn:hover:not(:disabled) {
+  border-color: var(--gold);
+  background: rgba(212,175,55,0.12);
+  box-shadow: var(--glow-gold);
+}
+.answer-btn.selected { border-color: var(--gold); background: rgba(212,175,55,0.18); }
+.answer-letter { background: var(--gold-grad); color: #2a1606; }
+
+/* Chiffres dorés (tableau lumineux) */
+.countdown-num   { color: var(--gold-light); }
+.score-pts       { color: var(--gold-light); font-family: var(--font-display); }
+.av-player-score { color: var(--gold-light) !important; font-weight: 700; }
+.result-points   { color: var(--gold-light); }
+
+/* Bouton hôte « Suivante » : or, texte sombre lisible */
+.host-control { color: #2a1606; }
+
+/* Modal de signalement : cohérence velours/or */
+.report-modal {
+  background: linear-gradient(180deg, #1c0f13, #130a0d);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-deep), inset 0 1px 0 rgba(212,175,55,.14);
+}
+.report-modal h3 { color: var(--gold-light); font-family: var(--font-display); }
+.report-cat.selected,
+.report-cat:has(input:checked) { border-color: var(--gold); background: rgba(212,175,55,0.12); }

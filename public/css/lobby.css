@@ -441,3 +441,38 @@
   opacity: .75;
   margin-left: 4px;
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   THEATRE POLISH (lobby) — finitions « plateau TV » en fin de fichier.
+   Mêmes sélecteurs/spécificité → priment par l'ordre. Aucun id/classe
+   JS modifié.
+═══════════════════════════════════════════════════════════════ */
+.lobby-card, .code-card {
+  background: linear-gradient(180deg, rgba(255,240,214,0.05), rgba(0,0,0,0.20));
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-soft), inset 0 1px 0 rgba(212,175,55,.12);
+}
+.lobby-card-title {
+  color: var(--gold-light);
+  font-family: var(--font-display);
+  letter-spacing: .03em;
+}
+.code-display {
+  color: var(--gold-light);
+  font-family: var(--font-display);
+  text-shadow: 0 0 18px rgba(212,175,55,.35);
+}
+/* Pickers : survol/actifs dorés (remplace les violets littéraux) */
+.round-pick:hover, .theme-pick:hover, .diff-pick-btn:hover {
+  border-color: var(--gold); background: rgba(212,175,55,0.12); color: var(--text);
+}
+.round-pick.active, .theme-pick.active, .diff-pick-btn.active,
+.team-toggle-btn.active, .team-card.joined {
+  border-color: var(--gold);
+  background: rgba(212,175,55,0.16);
+  color: var(--gold-light);
+}
+.qcount-btn:hover { border-color: var(--gold); }
+.chat-input-row input:focus { border-color: var(--gold); box-shadow: 0 0 0 2px rgba(212,175,55,.18); }
+.chat-author { color: var(--gold-light); }
+.host-badge { color: var(--gold-light); }
