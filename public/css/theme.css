@@ -1,248 +1,132 @@
 /* ═══════════════════════════════════════════════════════════════
-   QuizzRoom — theme.css  ·  Thème « plateau de jeu télévisé »
-   Chargé AVANT les autres CSS : source unique des design tokens.
-   Velours rouge + or + spotlights + fond de théâtre sombre.
-   (Re-skin pur : aucune classe/ID JS modifié.)
+   SquizzGame — theme.css  ·  Design system « plateau TV » (Gartic-like)
+   Identité validée : fond bleu royal · rideaux rouge + liseré or ·
+   accents or + boutons bleus · typo Fredoka (ronde, chunky).
+   Chargé AVANT les autres CSS sur toutes les pages joueur.
 ═══════════════════════════════════════════════════════════════ */
 
-/* ── Polices auto-hébergées (CSP font-src 'self') ─────────────── */
-/* Cinzel (SIL OFL 1.1) — serif d'affichage « théâtre », pour les titres.
-   Licence : public/fonts/Cinzel-OFL.txt */
-@font-face {
-  font-family: 'Cinzel';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('/fonts/cinzel-400.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Cinzel';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('/fonts/cinzel-700.woff2') format('woff2');
-}
+/* ── Police Fredoka auto-hébergée (CSP font-src 'self') ───────── */
+/* SIL OFL 1.1 — public/fonts/Fredoka-OFL.txt */
+@font-face { font-family:'Fredoka'; font-style:normal; font-weight:400; font-display:swap; src:url('/fonts/fredoka-400.woff2') format('woff2'); }
+@font-face { font-family:'Fredoka'; font-style:normal; font-weight:500; font-display:swap; src:url('/fonts/fredoka-500.woff2') format('woff2'); }
+@font-face { font-family:'Fredoka'; font-style:normal; font-weight:600; font-display:swap; src:url('/fonts/fredoka-600.woff2') format('woff2'); }
+@font-face { font-family:'Fredoka'; font-style:normal; font-weight:700; font-display:swap; src:url('/fonts/fredoka-700.woff2') format('woff2'); }
 
-/* ── Design tokens ───────────────────────────────────────────── */
-:root {
-  /* Fond de théâtre (dégradé sombre chaud) */
-  --stage-bg:      #0c0709;
-  --stage-bg-2:    #160d11;
+/* ── Tokens (identité validée) ───────────────────────────────── */
+:root{
+  --bg-1:#3566e6; --bg-2:#1c43a8; --bg-3:#112a72; --floor:#0f2156;
+  --accent:#2a5fe0; --accent-dark:#1b3f9e;
+  --gold:#ffcf4d; --gold-dark:#c79318; --logo-gold:#ffe07a; --logo-shadow:#b8451c;
+  --red-1:#b81616; --red-2:#e8261c; --red-3:#ff4332;
+  --panel:#fff8ec; --panel-border:#ead7b0; --ink:#3a2a1d; --ink-soft:#9a7a52;
+  --correct:#3ec46d; --correct-dark:#2da257;
+  --radius:16px; --radius-lg:20px;
+  font-family:'Fredoka',system-ui,sans-serif;
 
-  /* Velours rouge */
-  --velvet:        #7a0b16;
-  --velvet-deep:   #4a070e;
-  --velvet-light:  #a51c28;
+  /* Variantes utiles dérivées */
+  --gold-light:#ffe07a;
+  --gold-grad:linear-gradient(180deg,#ffe07a,#ffcf4d 55%,#c79318);
+  --shadow-soft:0 10px 0 rgba(0,0,0,.18);
+  --shadow-deep:0 16px 40px rgba(0,0,0,.45);
 
-  /* Or */
-  --gold:          #d4af37;
-  --gold-light:    #f4e3a1;
-  --gold-dark:     #9a7d23;
-
-  /* Spotlight */
-  --spot:          rgba(255,246,224,0.16);
-
-  /* Texte (crème chaud) */
-  --text:          #f6ecd6;
-  --text-dim:      #c9bda3;
-
-  /* Ombres / glow dorés réutilisables */
-  --glow-gold:        0 0 18px rgba(212,175,55,0.35);
-  --glow-gold-strong: 0 0 28px rgba(212,175,55,0.55);
-  --shadow-soft:      0 10px 30px rgba(0,0,0,0.45);
-  --shadow-deep:      0 24px 70px rgba(0,0,0,0.65);
-  --gold-grad:        linear-gradient(180deg, var(--gold-light), var(--gold) 55%, var(--gold-dark));
-  --velvet-grad:      linear-gradient(180deg, var(--velvet-light), var(--velvet) 45%, var(--velvet-deep));
-
-  /* ── Alias sémantiques consommés par style/lobby/game/admin.css ──
-     On remappe l'ancienne palette (violet/orange) vers velours/or pour
-     re-skinner tout l'existant sans renommer la moindre classe. */
-  --bg:           var(--stage-bg);
-  --surface:      rgba(255, 240, 214, 0.045);
-  --surface-hov:  rgba(255, 240, 214, 0.09);
-  --border:       rgba(212, 175, 55, 0.24);
-
-  --text-muted:   rgba(246, 236, 214, 0.62);
-  --text-faint:   rgba(246, 236, 214, 0.40);
-
-  /* L'« orange » (couleur d'action principale) devient OR */
-  --orange:       var(--gold);
-  --orange-light: var(--gold-light);
-  --orange-dark:  var(--gold-dark);
-
-  /* Le « violet » (secondaire) devient VELOURS */
-  --purple:       var(--velvet-light);
-  --purple-light: var(--velvet-light);
-  --purple-dark:  var(--velvet-deep);
-
-  --radius:       10px;
-  --radius-lg:    14px;
-
-  --font:         'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-  --font-mono:    ui-monospace, 'SFMono-Regular', 'Menlo', monospace;
-  --font-display: 'Cinzel', Georgia, 'Times New Roman', serif;
+  /* ── COMPAT : variables encore consommées par style/lobby/game/
+     admin.css (pages pas encore refondues — étapes 2 & 3). On les garde
+     définies pour ne RIEN casser en attendant leur refonte dédiée. ── */
+  --bg:#0c0709;
+  --stage-bg:#0c0709; --stage-bg-2:#160d11;
+  --surface:rgba(255,240,214,0.05); --surface-hov:rgba(255,240,214,0.09);
+  --border:rgba(255,207,77,0.28);
+  --text:#f6ecd6; --text-muted:rgba(246,236,214,0.64); --text-faint:rgba(246,236,214,0.42);
+  --orange:var(--gold); --orange-light:var(--gold-light); --orange-dark:var(--gold-dark);
+  --purple:var(--red-2); --purple-light:var(--red-3); --purple-dark:var(--red-1);
+  --velvet:var(--red-2); --velvet-deep:var(--red-1); --velvet-light:var(--red-3);
+  --velvet-grad:linear-gradient(180deg,var(--red-3),var(--red-2) 45%,var(--red-1));
+  --glow-gold:0 0 18px rgba(255,207,77,.4); --glow-gold-strong:0 0 28px rgba(255,207,77,.6);
+  --spot:rgba(255,246,224,0.16);
+  --font:'Fredoka',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --font-mono:ui-monospace,'SFMono-Regular','Menlo',monospace;
+  --font-display:'Fredoka',system-ui,sans-serif;
 }
 
-/* ── Base théâtre ────────────────────────────────────────────── */
-/* Le fond riche (dégradé + vignettage + spotlights) est peint par le
-   calque .theatre-decor (z-index:-1) injecté par theme.js ; ici on
-   garde un fond solide de secours sur <html> pour éviter tout flash. */
-html { background: var(--stage-bg); }
+/* ── Décor de scène réutilisable ─────────────────────────────── */
+.stage-bg{ background:radial-gradient(130% 100% at 50% 6%,var(--bg-1),var(--bg-2) 48%,var(--bg-3) 100%); }
 
-body {
-  background:
-    radial-gradient(120% 90% at 50% -10%, var(--stage-bg-2), var(--stage-bg) 60%) fixed;
+/* ── Boutons chunky (fond ET texte explicites → contraste garanti) ── */
+.btn{
+  font-family:'Fredoka',sans-serif; font-weight:700; border:none; border-radius:14px;
+  cursor:pointer; transition:transform .1s,box-shadow .1s,filter .1s;
+  display:inline-flex; align-items:center; justify-content:center; gap:8px;
+  padding:12px 22px; font-size:16px; line-height:1.1;
 }
+.btn:active{ transform:translateY(3px); }
+.btn:focus-visible{ outline:3px solid var(--logo-gold); outline-offset:3px; }
+.btn[disabled],.btn:disabled{ opacity:.55; cursor:not-allowed; }
+.btn--primary{ background:#2a5fe0 !important; color:#fff !important; box-shadow:0 6px 0 #1b3f9e; }
+.btn--primary:active{ box-shadow:0 3px 0 #1b3f9e; }
+.btn--gold{ background:#ffcf4d !important; color:#5a3a00 !important; box-shadow:0 6px 0 #c79318; }
+.btn--gold:active{ box-shadow:0 3px 0 #c79318; }
+.btn--ghost{ background:#fff !important; color:#2a5fe0 !important; box-shadow:0 5px 0 #d9d0c0; }
+.btn--ghost:active{ box-shadow:0 2px 0 #d9d0c0; transform:translateY(3px); }
+.btn--lg{ padding:16px 30px; font-size:19px; border-radius:16px; }
+.btn--block{ width:100%; }
 
-/* Titres en serif dorée (appliqué aux gros titres existants, sans toucher
-   au markup : on cible des sélecteurs de présentation déjà en place). */
-.hero-title,
-.round-intro-name,
-.round-intro-prefix,
-.gameover-title,
-.scores-title,
-.history-title,
-.reveal-screen-head span,
-.modal-header h2,
-.section-label {
-  font-family: var(--font-display);
-  letter-spacing: 0.02em;
+/* ── Panneau clair ───────────────────────────────────────────── */
+.panel{ background:var(--panel); border-radius:var(--radius-lg); box-shadow:0 10px 0 rgba(0,0,0,.18); color:var(--ink); }
+
+/* ── Rideaux velours rouge + liseré or ───────────────────────── */
+.curtain{
+  position:absolute; top:0; bottom:0; width:54%; z-index:5; pointer-events:none;
+  background:repeating-linear-gradient(90deg,#b81616 0 13px,#e8261c 13px 28px,#ff4332 28px 33px,#e8261c 33px 47px);
+  transition:transform .9s cubic-bezier(.66,0,.34,1);
 }
-.hero-title,
-.round-intro-name,
-.gameover-title {
-  color: var(--gold-light);
-  text-shadow: 0 1px 0 rgba(0,0,0,.5), 0 0 22px rgba(212,175,55,.25);
+.curtain::after{ content:''; position:absolute; top:0; bottom:0; width:16px; background:#ffcf4d; box-shadow:0 0 12px rgba(255,206,77,.6); }
+.curtain.l{ left:0; border-radius:0 16px 16px 0; } .curtain.l::after{ right:-16px; }
+.curtain.r{ right:0; border-radius:16px 0 0 16px; } .curtain.r::after{ left:-16px; }
+/* Démarrent fermés (transform:0) ; .open les écarte hors écran */
+.curtain.l.open{ transform:translateX(-100%); }
+.curtain.r.open{ transform:translateX(100%); }
+
+/* ── Projecteurs ─────────────────────────────────────────────── */
+.spot{
+  position:absolute; top:-14%; width:320px; height:560px; mix-blend-mode:screen; pointer-events:none;
+  background:radial-gradient(50% 50% at 50% 0,rgba(255,255,255,.16),rgba(255,255,255,0) 70%);
+  transform-origin:50% 0;
 }
 
 /* ═══════════════════════════════════════════════════════════════
-   DÉCOR DE SCÈNE (calque partagé, injecté par theme.js)
-   Toujours derrière le contenu (z-index:-1) et pointer-events:none :
-   ne gêne jamais les clics ni la lisibilité.
+   COMPAT DÉCOR (lobby/game/légales — injecté par theme.js, en attendant
+   la refonte de ces pages). Conserve l'aspect actuel sans rien casser.
 ═══════════════════════════════════════════════════════════════ */
-.theatre-decor {
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  overflow: hidden;
-  background: radial-gradient(125% 85% at 50% -12%, var(--stage-bg-2), var(--stage-bg) 62%);
-}
-/* Vignettage : assombrit les bords = éclairage de scène centré */
-.theatre-decor::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(120% 100% at 50% 38%, transparent 52%, rgba(0,0,0,0.58) 100%);
-}
-
-/* Spotlights : grands halos clairs qui dérivent lentement (GPU: transform) */
-.theatre-spot {
-  position: absolute;
-  width: 72vw;
-  height: 122vh;
-  top: -28vh;
-  border-radius: 50%;
-  mix-blend-mode: screen;
-  will-change: transform;
-}
-.theatre-spot--1 {
-  left: -12vw;
-  background: radial-gradient(closest-side, var(--spot), transparent 72%);
-  animation: spotDrift1 34s ease-in-out infinite alternate;
-}
-.theatre-spot--2 {
-  right: -12vw;
-  background: radial-gradient(closest-side, rgba(165,28,40,0.12), transparent 72%);
-  animation: spotDrift2 44s ease-in-out infinite alternate;
-}
-@keyframes spotDrift1 {
-  from { transform: translate3d(-4vw, -2vh, 0) rotate(-4deg); }
-  to   { transform: translate3d(9vw,  3vh, 0) rotate(3deg); }
-}
-@keyframes spotDrift2 {
-  from { transform: translate3d(4vw,  2vh, 0); }
-  to   { transform: translate3d(-9vw,-3vh, 0); }
-}
-
-/* Marquee : rangée d'ampoules dorées le long du haut, pulse doux */
-.theatre-marquee {
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 14px;
-  background-image: radial-gradient(circle at center,
-    var(--gold-light) 0 1.6px,
-    rgba(212,175,55,0.55) 1.6px 2.6px,
-    transparent 3.2px);
-  background-size: 24px 14px;
-  background-repeat: repeat-x;
-  background-position: center;
-  opacity: 0.8;
-  animation: marqueePulse 3.4s ease-in-out infinite;
-}
-@keyframes marqueePulse {
-  0%, 100% { opacity: 0.55; filter: drop-shadow(0 0 3px rgba(212,175,55,0.40)); }
-  50%      { opacity: 0.95; filter: drop-shadow(0 0 7px rgba(212,175,55,0.70)); }
-}
-
-/* Variante DISCRÈTE pour la page de jeu (moins lumineux, décor STATIQUE
-   pour préserver les perfs pendant les questions) */
-.theatre-decor--dim .theatre-spot   { opacity: 0.42; animation: none; }
-.theatre-decor--dim .theatre-marquee{ opacity: 0.30; animation: none; filter: none; }
-.theatre-decor--dim::after          { background: radial-gradient(120% 100% at 50% 40%, transparent 48%, rgba(0,0,0,0.66) 100%); }
-
-/* ── Petits écrans (≤ 380px) : décor allégé, rien ne déborde ──── */
-@media (max-width: 380px) {
-  .theatre-marquee { height: 10px; background-size: 18px 10px; }
-  .theatre-spot    { opacity: 0.7; }
-  .theatre-spot--2 { display: none; }
-}
-
-/* Le canvas marbré existant devient une texture discrète sous le décor TV */
-#marble-canvas { opacity: 0.16 !important; mix-blend-mode: screen; }
-
-/* ═══════════════════════════════════════════════════════════════
-   RIDEAUX DE VELOURS (ouverture au chargement, injectés par theme.js)
-   pointer-events:none → ne bloquent JAMAIS l'interaction, même pendant
-   l'animation. Retirés (display:none) une fois ouverts.
-═══════════════════════════════════════════════════════════════ */
-.theatre-curtains {
-  position: fixed;
-  inset: 0;
-  z-index: 5000;
-  pointer-events: none;
-  overflow: hidden;
-}
-.theatre-curtain {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 52vw;                 /* > 50vw : léger chevauchement central, pas de couture */
-  background:
-    linear-gradient(180deg, rgba(0,0,0,0.28), transparent 14% 86%, rgba(0,0,0,0.42)),
-    repeating-linear-gradient(90deg,
-      var(--velvet-deep) 0 20px,
-      var(--velvet)      20px 42px,
-      var(--velvet-light) 42px 48px,
-      var(--velvet)      48px 64px),
-    var(--velvet);
-  box-shadow: inset 0 0 80px rgba(0,0,0,0.55);
-  transition: transform 1s cubic-bezier(0.7, 0, 0.2, 1);
-  will-change: transform;
-}
-.theatre-curtain--left  { left: 0;  border-right: 3px solid var(--gold); box-shadow: inset -10px 0 30px rgba(0,0,0,.5), 4px 0 18px rgba(212,175,55,.25); }
-.theatre-curtain--right { right: 0; border-left:  3px solid var(--gold); box-shadow: inset  10px 0 30px rgba(0,0,0,.5), -4px 0 18px rgba(212,175,55,.25); }
-
-/* État ouvert : les panneaux glissent hors écran */
-.theatre-curtains.is-open .theatre-curtain--left  { transform: translateX(-100%); }
-.theatre-curtains.is-open .theatre-curtain--right { transform: translateX(100%); }
+.theatre-decor{ position:fixed; inset:0; z-index:-1; pointer-events:none; overflow:hidden;
+  background:radial-gradient(125% 85% at 50% -12%,var(--stage-bg-2),var(--stage-bg) 62%); }
+.theatre-decor::after{ content:""; position:absolute; inset:0;
+  background:radial-gradient(120% 100% at 50% 38%,transparent 52%,rgba(0,0,0,.58) 100%); }
+.theatre-spot{ position:absolute; width:72vw; height:122vh; top:-28vh; border-radius:50%; mix-blend-mode:screen; will-change:transform; }
+.theatre-spot--1{ left:-12vw; background:radial-gradient(closest-side,var(--spot),transparent 72%); animation:spotDrift1 34s ease-in-out infinite alternate; }
+.theatre-spot--2{ right:-12vw; background:radial-gradient(closest-side,rgba(255,67,50,0.12),transparent 72%); animation:spotDrift2 44s ease-in-out infinite alternate; }
+@keyframes spotDrift1{ from{transform:translate3d(-4vw,-2vh,0) rotate(-4deg)} to{transform:translate3d(9vw,3vh,0) rotate(3deg)} }
+@keyframes spotDrift2{ from{transform:translate3d(4vw,2vh,0)} to{transform:translate3d(-9vw,-3vh,0)} }
+.theatre-marquee{ position:absolute; top:0; left:0; right:0; height:14px;
+  background-image:radial-gradient(circle at center,var(--gold-light) 0 1.6px,rgba(255,207,77,0.55) 1.6px 2.6px,transparent 3.2px);
+  background-size:24px 14px; background-repeat:repeat-x; background-position:center; opacity:.8; animation:marqueePulse 3.4s ease-in-out infinite; }
+@keyframes marqueePulse{ 0%,100%{opacity:.55;filter:drop-shadow(0 0 3px rgba(255,207,77,.4))} 50%{opacity:.95;filter:drop-shadow(0 0 7px rgba(255,207,77,.7))} }
+.theatre-decor--dim .theatre-spot{ opacity:.42; animation:none; }
+.theatre-decor--dim .theatre-marquee{ opacity:.30; animation:none; filter:none; }
+.theatre-decor--dim::after{ background:radial-gradient(120% 100% at 50% 40%,transparent 48%,rgba(0,0,0,0.66) 100%); }
+#marble-canvas{ opacity:.16 !important; mix-blend-mode:screen; }
+.theatre-curtains{ position:fixed; inset:0; z-index:5000; pointer-events:none; overflow:hidden; }
+.theatre-curtain{ position:absolute; top:0; bottom:0; width:52vw;
+  background:linear-gradient(180deg,rgba(0,0,0,0.28),transparent 14% 86%,rgba(0,0,0,0.42)),
+    repeating-linear-gradient(90deg,var(--red-1) 0 20px,var(--red-2) 20px 42px,var(--red-3) 42px 48px,var(--red-2) 48px 64px),var(--red-2);
+  box-shadow:inset 0 0 80px rgba(0,0,0,0.55); transition:transform 1s cubic-bezier(0.7,0,0.2,1); will-change:transform; }
+.theatre-curtain--left{ left:0; border-right:3px solid var(--gold); }
+.theatre-curtain--right{ right:0; border-left:3px solid var(--gold); }
+.theatre-curtains.is-open .theatre-curtain--left{ transform:translateX(-100%); }
+.theatre-curtains.is-open .theatre-curtain--right{ transform:translateX(100%); }
 
 /* ── Accessibilité : couper les animations si demandé ────────── */
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    animation-duration: 0.001ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.001ms !important;
-    scroll-behavior: auto !important;
-  }
+@media (prefers-reduced-motion:reduce){
+  .spot{ animation:none !important; }
+  .curtain{ transition:none !important; }
+  *, *::before, *::after{ animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; }
 }
