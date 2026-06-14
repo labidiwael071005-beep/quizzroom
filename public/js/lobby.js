@@ -23,6 +23,10 @@ let   myTeamId   = null;
 // Déclaré ici (pas en bas du fichier) pour éviter la temporal-dead-zone :
 // initHostPickers() est appelé pendant l'init avant le `let` plus bas dans le fichier.
 let   pickerHandlersAttached = false;
+// Horodatage de la dernière modif locale (hôte). Pendant une courte fenêtre
+// après un clic, on ne réapplique pas l'écho serveur des réglages → évite tout
+// "retour en arrière" visuel quand on clique vite sur +/− (cf. pushSettings).
+let   lastLocalEdit = 0;
 
 if (!roomCode || !playerData.name) window.location.href = 'index.html';
 
@@ -213,6 +217,7 @@ function changeNumTeams(delta) {
 }
 
 function pushSettings() {
+  lastLocalEdit = Date.now();   // protège l'UI optimiste de l'écho serveur
   socket.emit('update_settings', {
     code: roomCode,
     settings: { ...settings, teamMode, numTeams },
@@ -273,24 +278,37 @@ socket.on('connect', () => {
   socket.emit('lobby_sync', { code: roomCode, playerName: playerData.name, avatar: playerData.avatar, fromLobby: true });
 });
 
+let _playersSig = '';
 socket.on('players_update', ({ players, teams: teamsArr, hostName }) => {
   if (Array.isArray(players)) currentPlayers = players;
   if (hostName) currentHostName = hostName;
   if (teamsArr) teams = teamsArr;
-  updatePlayers(currentPlayers);
+  // Ne re-render la grille de joueurs que si elle a RÉELLEMENT changé : évite
+  // un flash de la liste quand l'event arrive juste après un changement de
+  // réglage (le serveur rediffuse les joueurs même s'ils sont identiques).
+  const sig = JSON.stringify((currentPlayers || []).map(p =>
+    [p.name, p.teamId, p.inLobby, p.avatar && p.avatar.emoji, p.avatar && p.avatar.colorIdx]
+  )) + '|' + currentHostName;
+  if (sig !== _playersSig) { _playersSig = sig; updatePlayers(currentPlayers); }
   if (teamsArr) renderTeams(teamsArr);
 });
 
 socket.on('settings_updated', ({ settings: s, teams: teamsArr }) => {
-  settings = s;
-  if (!settings.questionsPerRound) settings.questionsPerRound = {};
-  teams    = teamsArr || [];
-  teamMode = s.teamMode;
-  numTeams = s.numTeams || 2;
-  // Réconciliation CIBLÉE (serveur = source de vérité) : on met à jour les
-  // toggles/valeurs existants SANS reconstruire le DOM (#rounds-control est
-  // statique : les 4 manches sont toujours présentes) → aucun flash/saut.
-  renderPickersState();
+  // L'hôte qui vient de cliquer a déjà l'UI à jour (optimistic) : on n'applique
+  // pas l'écho serveur pendant une courte fenêtre, sinon valeur qui "saute".
+  // Les invités (et l'hôte hors fenêtre) réconcilient depuis le serveur (vérité).
+  const fresh = isHost && (Date.now() - lastLocalEdit < 700);
+  if (!fresh) {
+    settings = s;
+    if (!settings.questionsPerRound) settings.questionsPerRound = {};
+    teamMode = s.teamMode;
+    numTeams = s.numTeams || 2;
+    // Réconciliation CIBLÉE : on met à jour toggles/valeurs SANS reconstruire le
+    // DOM (#rounds-control statique : les 4 manches sont toujours présentes).
+    renderPickersState();
+  }
+  // Les équipes sont reconstruites côté serveur → toujours prises du serveur.
+  teams = teamsArr || [];
   if (teamsArr) renderTeams(teamsArr);
 });
 
