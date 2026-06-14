@@ -153,47 +153,41 @@ function runCountdown(from, cb) {
   }, 1000);
 }
 
-// ── Sablier animé ─────────────────────────────────────────────
+// ── Timer : anneau de progression ─────────────────────────────
+// VISUEL uniquement : la logique (durée serveur, décompte 1s, fin de temps,
+// urgence ≤5s, callback d'expiration) est rigoureusement identique à avant —
+// on remplace seulement le sablier par un anneau qui se vide.
 let onTimerExpireCb = null;
+const RING_C = 2 * Math.PI * 44;   // circonférence de l'anneau (r=44 dans le viewBox)
 
 function startTimer(seconds, onExpire = null) {
   clearInterval(timerInterval);
   onTimerExpireCb = onExpire;
-  const sandTop = document.getElementById('hg-sand-top');
-  const sandBot = document.getElementById('hg-sand-bot');
-  const num     = document.getElementById('timer-num');
-  const svg     = document.getElementById('hourglass-svg');
-
-  // Dimensions cohérentes avec le viewBox 100x140 du SVG
-  const TOP_BASE_Y = 16, TOP_FULL_H = 49;   // bulbe haut : y=16→65
-  const BOT_BASE_Y = 124, BOT_FULL_H = 49;  // bulbe bas  : y=75→124
+  const num  = document.getElementById('timer-num');
+  const ring = document.getElementById('timer-ring-fill');
+  const wrap = document.getElementById('hourglass-wrap');
 
   let remaining = seconds;
-  num.classList.remove('urgent');
-  svg.classList.remove('urgent');
-  svg.classList.add('flowing');
-
-  // Mini "flip" pour signifier le démarrage
-  svg.classList.remove('flip');
-  void svg.offsetWidth;
-  svg.classList.add('flip');
+  if (num)  num.classList.remove('urgent');
+  if (wrap) wrap.classList.remove('urgent');
+  if (ring) {
+    ring.style.strokeDasharray = RING_C.toFixed(2);
+    // Pose initiale "plein" sans animation (évite un balayage parasite au démarrage)
+    ring.style.transition = 'none';
+    ring.style.strokeDashoffset = '0';
+    void ring.getBoundingClientRect();
+    ring.style.transition = '';
+  }
 
   function tick() {
-    num.textContent = Math.max(0, remaining);
+    if (num) num.textContent = Math.max(0, remaining);
     const pct = Math.max(0, Math.min(1, remaining / seconds));
+    // offset : 0 = plein, C = vide → l'anneau se vide en glissant (transition CSS 1s linéaire)
+    if (ring) ring.style.strokeDashoffset = (RING_C * (1 - pct)).toFixed(2);
 
-    const topH = TOP_FULL_H * pct;
-    sandTop.setAttribute('y', TOP_BASE_Y + (TOP_FULL_H - topH));
-    sandTop.setAttribute('height', topH);
-
-    const botH = BOT_FULL_H * (1 - pct);
-    sandBot.setAttribute('y', BOT_BASE_Y - botH);
-    sandBot.setAttribute('height', botH);
-
-    if (remaining <= 5) { num.classList.add('urgent'); svg.classList.add('urgent'); }
+    if (remaining <= 5) { if (num) num.classList.add('urgent'); if (wrap) wrap.classList.add('urgent'); }
 
     if (remaining <= 0) {
-      svg.classList.remove('flowing');
       clearInterval(timerInterval);
       const cb = onTimerExpireCb; onTimerExpireCb = null;
       if (cb) try { cb(); } catch(e) { console.error('[timer] expire cb', e); }
@@ -209,7 +203,6 @@ function stopTimer() {
   clearInterval(timerInterval);
   timerInterval = null;
   onTimerExpireCb = null;     // un stop volontaire annule le callback d'expiration
-  document.getElementById('hourglass-svg')?.classList.remove('flowing');
 }
 
 // ── Panneau d'avatars (joueurs autour du plateau) ─────────────

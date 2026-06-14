@@ -1328,3 +1328,27 @@ body.game{
 @media (prefers-reduced-motion:reduce){
   .game-curtains .curtain{ transition:none !important; }
 }
+
+/* ─ Phase 4 : nouveau timer (anneau de progression) ─ */
+.hourglass-wrap{ width:92px; height:92px; }     /* override taille sablier */
+.timer-ring{ width:92px; height:92px; display:block; transform:rotate(-90deg); }
+.timer-ring-track{ fill:none; stroke:rgba(255,255,255,.2); stroke-width:8; }
+.timer-ring-fill{
+  fill:none; stroke:var(--gold); stroke-width:8; stroke-linecap:round;
+  transition:stroke-dashoffset 1s linear, stroke .3s ease;
+  filter:drop-shadow(0 0 6px rgba(255,207,77,.5));
+}
+.hourglass-num{
+  position:absolute; inset:0; bottom:0; display:flex; align-items:center; justify-content:center;
+  font-family:'Fredoka',sans-serif; font-size:30px; font-weight:700; color:#fff;
+  text-shadow:0 2px 6px rgba(0,0,0,.55);
+}
+/* Urgence : anneau rouge + pulse discret */
+.hourglass-wrap.urgent .timer-ring-fill{ stroke:#ff3322; filter:drop-shadow(0 0 9px rgba(232,38,28,.75)); }
+.hourglass-num.urgent{ color:#ff7a6a; animation:none; }
+.hourglass-wrap.urgent{ animation:timerPulse .7s ease-in-out infinite; }
+@keyframes timerPulse{ 0%,100%{transform:scale(1)} 50%{transform:scale(1.07)} }
+@media (prefers-reduced-motion:reduce){
+  .hourglass-wrap.urgent{ animation:none !important; }
+  .timer-ring-fill{ transition:none !important; }
+}

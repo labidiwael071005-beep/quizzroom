@@ -45,53 +45,11 @@
 
   <!-- Zone centrale : sablier + écrans -->
   <main class="stage-main">
-    <!-- Sablier animé (verre + bouchons dorés) -->
+    <!-- Timer : anneau de progression (remplace le sablier) -->
     <div class="hourglass-wrap" id="hourglass-wrap">
-      <svg class="hourglass" viewBox="0 0 100 140" id="hourglass-svg">
-        <defs>
-          <linearGradient id="hgCap" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#FCD34D"/>
-            <stop offset="100%" stop-color="#D97706"/>
-          </linearGradient>
-          <linearGradient id="hgSand" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#FBBF24"/>
-            <stop offset="100%" stop-color="#F97316"/>
-          </linearGradient>
-          <linearGradient id="hgGlass" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="rgba(255,255,255,0.10)"/>
-            <stop offset="50%" stop-color="rgba(139,92,246,0.10)"/>
-            <stop offset="100%" stop-color="rgba(255,255,255,0.05)"/>
-          </linearGradient>
-          <clipPath id="hgTopClip">
-            <path d="M 22 16 L 78 16 Q 78 40, 50 65 Q 22 40, 22 16 Z"/>
-          </clipPath>
-          <clipPath id="hgBotClip">
-            <path d="M 22 124 L 78 124 Q 78 100, 50 75 Q 22 100, 22 124 Z"/>
-          </clipPath>
-        </defs>
-
-        <!-- Bouchons dorés -->
-        <rect x="6" y="6" width="88" height="10" rx="4" fill="url(#hgCap)" stroke="#92400E" stroke-width="0.5"/>
-        <rect x="6" y="124" width="88" height="10" rx="4" fill="url(#hgCap)" stroke="#92400E" stroke-width="0.5"/>
-
-        <!-- Bulbes de verre -->
-        <path d="M 22 16 L 78 16 Q 78 40, 50 65 Q 22 40, 22 16 Z"
-              fill="url(#hgGlass)" stroke="rgba(241,240,253,0.55)" stroke-width="1.2" stroke-linejoin="round"/>
-        <path d="M 22 124 L 78 124 Q 78 100, 50 75 Q 22 100, 22 124 Z"
-              fill="url(#hgGlass)" stroke="rgba(241,240,253,0.55)" stroke-width="1.2" stroke-linejoin="round"/>
-
-        <!-- Reflets sur le verre -->
-        <path d="M 28 18 Q 28 36, 44 56" stroke="rgba(255,255,255,0.35)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
-        <path d="M 56 84 Q 72 104, 72 122" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none" stroke-linecap="round"/>
-
-        <!-- Sable -->
-        <rect id="hg-sand-top" x="22" y="16" width="56" height="49" fill="url(#hgSand)" clip-path="url(#hgTopClip)"/>
-        <rect id="hg-sand-bot" x="22" y="124" width="56" height="0" fill="url(#hgSand)" clip-path="url(#hgBotClip)"/>
-
-        <!-- Filet de sable + grains -->
-        <rect id="hg-stream" x="48.5" y="65" width="3" height="10" fill="#FBBF24" rx="1.5"/>
-        <circle class="hg-grain" cx="50" cy="78" r="1.6" fill="#FCD34D"/>
-        <circle class="hg-grain hg-grain-2" cx="50" cy="80" r="1.2" fill="#FBBF24"/>
+      <svg class="timer-ring" id="timer-ring" viewBox="0 0 100 100" aria-hidden="true">
+        <circle class="timer-ring-track" cx="50" cy="50" r="44"></circle>
+        <circle class="timer-ring-fill" id="timer-ring-fill" cx="50" cy="50" r="44"></circle>
       </svg>
       <span class="hourglass-num" id="timer-num">15</span>
     </div>
