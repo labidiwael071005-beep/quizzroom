@@ -199,5 +199,7 @@
   "report.cancel": "Annuler",
   "report.send": "Envoyer",
   "page.lobby.title": "QuizzRoom — Salon d'attente",
-  "page.game.title": "QuizzRoom — En jeu"
+  "page.game.title": "QuizzRoom — En jeu",
+  "home.slogan": "Défie tes amis sous les projecteurs",
+  "home.or": "ou"
 }

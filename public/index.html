@@ -3,170 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QuizzRoom — Le plateau TV dans ton salon</title>
-  <meta name="description" content="Quiz multijoueur en temps réel. Jouez avec vos amis, choisissez vos thèmes et affrontez-vous en équipes.">
+  <title>SquizzGame — Défie tes amis sous les projecteurs</title>
+  <meta name="description" content="Quiz multijoueur en temps réel. Crée une partie ou rejoins tes amis avec un code, sous les projecteurs du plateau.">
   <link rel="stylesheet" href="css/theme.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
-  <script defer src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/home.css">
 </head>
-<body>
-<canvas id="marble-canvas"></canvas>
+<body class="home">
 
-<nav class="nav">
-  <div class="logo">
-    <div class="logo-mark"><i class="ti ti-bolt"></i></div>
-    QuizzRoom
-  </div>
-  <div class="nav-actions">
+<main class="home-stage stage-bg">
+
+  <!-- Projecteurs -->
+  <div class="spot spot--l" aria-hidden="true"></div>
+  <div class="spot spot--r" aria-hidden="true"></div>
+
+  <!-- Barre du haut : sélecteur de langue (système i18n existant) -->
+  <div class="home-topbar">
     <div id="lang-switcher" class="lang-switcher"></div>
-    <button class="btn btn-ghost" id="btn-login">
-      <i class="ti ti-user"></i> <span data-i18n="nav.login">Connexion</span>
-    </button>
-    <button class="btn btn-orange" onclick="showModal('create')">
-      <i class="ti ti-plus"></i> <span data-i18n="nav.create">Créer une partie</span>
-    </button>
   </div>
-</nav>
 
-<section class="hero">
-  <h1 class="hero-title">
-    <span data-i18n="hero.title1">Le plateau TV</span><br>
-    <span class="highlight" data-i18n="hero.title2">dans ton salon</span>
-  </h1>
-  <p class="hero-sub" data-i18n="hero.sub">Quiz multijoueur en temps réel — joue avec tes amis ou entraîne-toi en solo.</p>
-  <div class="hero-btns">
-    <button class="btn btn-orange btn-lg" onclick="showModal('create')">
-      <i class="ti ti-tournament"></i> <span data-i18n="hero.create">Créer une partie</span>
-    </button>
-    <button class="btn btn-ghost btn-lg" onclick="showModal('join')">
-      <i class="ti ti-door-enter"></i> <span data-i18n="hero.join">Rejoindre</span>
-    </button>
-  </div>
-</section>
+  <!-- Centre : logo + slogan + panneau d'actions -->
+  <div class="home-content">
+    <h1 class="home-logo">SquizzGame</h1>
+    <p class="home-slogan" data-i18n="home.slogan">Défie tes amis sous les projecteurs</p>
 
-<section class="stats-row">
-  <div class="stat-card"><div class="stat-num">5</div><div class="stat-label" data-i18n="stats.rounds">types de manches</div></div>
-  <div class="stat-card"><div class="stat-num">8</div><div class="stat-label" data-i18n="stats.players">joueurs max</div></div>
-  <div class="stat-card"><div class="stat-num orange">500+</div><div class="stat-label" data-i18n="stats.questions">questions</div></div>
-  <div class="stat-card"><div class="stat-num orange">IA</div><div class="stat-label" data-i18n="stats.ai">sans répétition</div></div>
-</section>
+    <div class="panel home-panel">
+      <label class="home-label" for="create-name" data-i18n="modal.create.pseudo">Ton pseudo</label>
+      <input type="text" id="create-name" class="home-input"
+             data-i18n-placeholder="modal.create.pseudo.ph" placeholder="Ex : QuizzMaster42" maxlength="20">
 
-<section class="section">
-  <div class="section-header">
-    <span class="section-label" data-i18n="rooms.title">Parties publiques en cours</span>
-    <button class="btn btn-ghost btn-sm" onclick="refreshRooms()">
-      <i class="ti ti-refresh"></i> <span data-i18n="rooms.refresh">Actualiser</span>
-    </button>
-  </div>
-  <div id="rooms-list" class="rooms-list">
-    <div class="empty-state"><i class="ti ti-mood-empty"></i><span data-i18n="rooms.empty">Aucune partie publique — sois le premier !</span></div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-label" data-i18n="rounds.title">Les manches</div>
-  <div class="rounds-grid">
-    <div class="round-card">
-      <div class="round-icon purple"><i class="ti ti-brain"></i></div>
-      <div class="round-name" data-i18n="round.culture.name">Culture G</div>
-      <div class="round-desc" data-i18n="round.culture.desc">Tout le monde répond en même temps, chrono visible</div>
-    </div>
-    <div class="round-card">
-      <div class="round-icon orange"><i class="ti ti-map-pin"></i></div>
-      <div class="round-name" data-i18n="round.geo.name">GéoQuizz</div>
-      <div class="round-desc" data-i18n="round.geo.desc">Questions de géographie et monuments</div>
-    </div>
-    <div class="round-card">
-      <div class="round-icon orange-light"><i class="ti ti-photo"></i></div>
-      <div class="round-name" data-i18n="round.pixel.name">Manche Pixel</div>
-      <div class="round-desc" data-i18n="round.pixel.desc">Image qui se dépixelise — plus vite tu réponds, plus tu gagnes</div>
-    </div>
-    <div class="round-card">
-      <div class="round-icon purple-light"><i class="ti ti-coins"></i></div>
-      <div class="round-name" data-i18n="round.pari.name">Manche Pari</div>
-      <div class="round-desc" data-i18n="round.pari.desc">Mise tes points — gros risque, grosse récompense</div>
-    </div>
-  </div>
-</section>
-
-<!-- MODAL Créer (simplifié : juste pseudo + avatar, le reste se configure dans le lobby) -->
-<div id="modal-create" class="modal-overlay" onclick="closeModal(event)">
-  <div class="modal" style="max-width:420px">
-    <div class="modal-header">
-      <h2 data-i18n="modal.create.title">Créer une partie</h2>
-      <button class="btn-close" onclick="hideModal('create')"><i class="ti ti-x"></i></button>
-    </div>
-
-    <p style="color:var(--text-muted);font-size:13px;margin-bottom:18px">
-      Tu choisiras les thèmes, la difficulté et les manches une fois dans le lobby.
-    </p>
-
-    <div class="form-group">
-      <label data-i18n="modal.create.pseudo">Ton pseudo</label>
-      <input type="text" id="create-name" data-i18n-placeholder="modal.create.pseudo.ph" placeholder="Ex : QuizzMaster42" maxlength="20">
-    </div>
-
-    <div class="form-group">
-      <label data-i18n="modal.create.avatar">Ton avatar</label>
+      <div class="home-label" style="margin-top:14px" data-i18n="modal.create.avatar">Ton avatar</div>
       <div id="create-avatar-picker"></div>
-    </div>
 
-    <button class="btn btn-orange btn-full btn-lg" onclick="createRoom()">
-      <i class="ti ti-rocket"></i> <span data-i18n="modal.create.btn">Créer et aller au lobby</span>
-    </button>
+      <button class="btn btn--primary btn--lg btn--block home-create" onclick="createRoom()"
+              data-i18n="hero.create">Créer une partie</button>
+
+      <div class="home-or"><span data-i18n="home.or">ou</span></div>
+
+      <label class="home-label" for="join-code" data-i18n="modal.join.code">Code d'invitation</label>
+      <div class="home-join">
+        <input type="text" id="join-code" class="home-input home-code"
+               data-i18n-placeholder="modal.join.code.ph" placeholder="XXXXXX" maxlength="9"
+               autocapitalize="characters" autocomplete="off" spellcheck="false">
+        <button class="btn btn--gold btn--lg" onclick="joinRoom()" data-i18n="hero.join">Rejoindre</button>
+      </div>
+    </div>
   </div>
-</div>
 
-<!-- MODAL Rejoindre -->
-<div id="modal-join" class="modal-overlay" onclick="closeModal(event)">
-  <div class="modal" style="max-width:380px">
-    <div class="modal-header">
-      <h2 data-i18n="modal.join.title">Rejoindre une partie</h2>
-      <button class="btn-close" onclick="hideModal('join')"><i class="ti ti-x"></i></button>
-    </div>
-    <div class="form-group">
-      <label data-i18n="modal.join.pseudo">Ton pseudo</label>
-      <input type="text" id="join-name" data-i18n-placeholder="modal.join.pseudo.ph" placeholder="Ex : Challenger99" maxlength="20">
-    </div>
-    <div class="form-group">
-      <label data-i18n="modal.join.avatar">Ton avatar</label>
-      <div id="join-avatar-picker"></div>
-    </div>
-    <div class="form-group">
-      <label data-i18n="modal.join.code">Code d'invitation</label>
-      <input type="text" id="join-code" data-i18n-placeholder="modal.join.code.ph" placeholder="XXXXXX" maxlength="9" autocapitalize="characters" autocomplete="off" spellcheck="false" style="text-align:center;font-size:20px;letter-spacing:.2em;font-weight:500;text-transform:uppercase">
-    </div>
-    <button class="btn btn-orange btn-full btn-lg" onclick="joinRoom()">
-      <i class="ti ti-door-enter"></i> <span data-i18n="modal.join.btn">Rejoindre</span>
-    </button>
-  </div>
-</div>
+  <!-- Sol de scène en perspective -->
+  <div class="home-floor" aria-hidden="true"></div>
 
-<div id="toast" class="toast"></div>
-
-<footer class="site-footer">
-  <div class="footer-links">
+  <!-- Liens légaux -->
+  <nav class="home-legal">
     <a href="/legal/cgu.html" data-i18n="footer.cgu">CGU</a>
     <a href="/legal/cookies.html" data-i18n="footer.cookies">Cookies</a>
     <a href="/legal/mentions-legales.html" data-i18n="footer.legal">Mentions légales</a>
     <a href="/legal/attributions.html" data-i18n="footer.attributions">Attributions</a>
-  </div>
-  <span>© 2024 QuizzRoom — Tous droits réservés</span>
-</footer>
+  </nav>
+
+  <!-- Rideaux : fermés au chargement, s'écartent en douceur -->
+  <div class="curtain l" id="home-curtain-l" aria-hidden="true"></div>
+  <div class="curtain r" id="home-curtain-r" aria-hidden="true"></div>
+
+</main>
+
+<div id="toast" class="toast"></div>
 
 <script src="/socket.io/socket.io.js"></script>
 <script src="js/i18n.js"></script>
 <script src="js/avatar.js"></script>
 <script src="js/cookies.js"></script>
-<script src="js/marble.js"></script>
 <script src="js/app.js"></script>
 <script>
+  // i18n + avatar + bandeau cookies (hooks existants conservés)
   initI18n().then(() => {
     buildAvatarPicker('create-avatar-picker');
-    buildAvatarPicker('join-avatar-picker');
     initCookieBanner();
   });
+
+  // Ouverture des rideaux au chargement (1×). pointer-events:none → ne bloque
+  // jamais. prefers-reduced-motion → rideaux ouverts immédiatement.
+  (function () {
+    var reduce = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    var l = document.getElementById('home-curtain-l');
+    var r = document.getElementById('home-curtain-r');
+    function open() { if (l) l.classList.add('open'); if (r) r.classList.add('open'); }
+    if (reduce) open();
+    else requestAnimationFrame(function () { requestAnimationFrame(open); });
+  })();
 </script>
 </body>
 </html>

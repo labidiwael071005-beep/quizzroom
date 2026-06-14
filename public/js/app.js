@@ -48,7 +48,8 @@ socket.on('room_created', ({ code, settings }) => {
 socket.on('room_joined', ({ code, settings }) => {
   const { name, avatar } = _pendingJoin || {};
   sessionStorage.setItem('qr_room',     code);
-  sessionStorage.setItem('qr_player',   JSON.stringify({ name: name || '', avatar: avatar || getAvatar('join-avatar-picker') }));
+  // Accueil refondu : pseudo + avatar partagés (id #create-name / create-avatar-picker)
+  sessionStorage.setItem('qr_player',   JSON.stringify({ name: name || '', avatar: avatar || getAvatar('create-avatar-picker') }));
   sessionStorage.setItem('qr_host',     'false');
   sessionStorage.setItem('qr_settings', JSON.stringify(settings));
   showToast(`✅ ${t('toast.joined')}`, 'success');
@@ -102,14 +103,18 @@ if (_codeInputEl) {
 }
 
 function joinRoom() {
-  const name = document.getElementById('join-name').value.trim();
+  // Accueil refondu : pseudo + avatar partagés avec la création (#create-name /
+  // create-avatar-picker). Un fallback sur l'ancien #join-name est gardé au cas
+  // où un autre écran réutiliserait ce flux.
+  const nameEl = document.getElementById('create-name') || document.getElementById('join-name');
+  const name = (nameEl ? nameEl.value : '').trim();
   const raw  = document.getElementById('join-code').value;
   const part = normalizeCodeInput(raw);
   if (!name) { showToast('⚠️ ' + t('error.pseudo'), 'error'); return; }
   if (!part) { showToast('⚠️ ' + t('error.code'), 'error'); return; }
   const code = 'QR-' + part;
 
-  const avatar = getAvatar('join-avatar-picker');
+  const avatar = getAvatar('create-avatar-picker');
   _pendingJoin = { name, avatar };
 
   socket.emit('join_room', { code, playerName: name, avatar });

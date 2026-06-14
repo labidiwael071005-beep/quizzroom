@@ -199,5 +199,7 @@
   "report.cancel": "Cancel",
   "report.send": "Send",
   "page.lobby.title": "QuizzRoom — Lobby",
-  "page.game.title": "QuizzRoom — In game"
+  "page.game.title": "QuizzRoom — In game",
+  "home.slogan": "Challenge your friends in the spotlight",
+  "home.or": "or"
 }
