@@ -115,6 +115,84 @@ body {
   text-shadow: 0 1px 0 rgba(0,0,0,.5), 0 0 22px rgba(212,175,55,.25);
 }
 
+/* ═══════════════════════════════════════════════════════════════
+   DÉCOR DE SCÈNE (calque partagé, injecté par theme.js)
+   Toujours derrière le contenu (z-index:-1) et pointer-events:none :
+   ne gêne jamais les clics ni la lisibilité.
+═══════════════════════════════════════════════════════════════ */
+.theatre-decor {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+  background: radial-gradient(125% 85% at 50% -12%, var(--stage-bg-2), var(--stage-bg) 62%);
+}
+/* Vignettage : assombrit les bords = éclairage de scène centré */
+.theatre-decor::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(120% 100% at 50% 38%, transparent 52%, rgba(0,0,0,0.58) 100%);
+}
+
+/* Spotlights : grands halos clairs qui dérivent lentement (GPU: transform) */
+.theatre-spot {
+  position: absolute;
+  width: 72vw;
+  height: 122vh;
+  top: -28vh;
+  border-radius: 50%;
+  mix-blend-mode: screen;
+  will-change: transform;
+}
+.theatre-spot--1 {
+  left: -12vw;
+  background: radial-gradient(closest-side, var(--spot), transparent 72%);
+  animation: spotDrift1 34s ease-in-out infinite alternate;
+}
+.theatre-spot--2 {
+  right: -12vw;
+  background: radial-gradient(closest-side, rgba(165,28,40,0.12), transparent 72%);
+  animation: spotDrift2 44s ease-in-out infinite alternate;
+}
+@keyframes spotDrift1 {
+  from { transform: translate3d(-4vw, -2vh, 0) rotate(-4deg); }
+  to   { transform: translate3d(9vw,  3vh, 0) rotate(3deg); }
+}
+@keyframes spotDrift2 {
+  from { transform: translate3d(4vw,  2vh, 0); }
+  to   { transform: translate3d(-9vw,-3vh, 0); }
+}
+
+/* Marquee : rangée d'ampoules dorées le long du haut, pulse doux */
+.theatre-marquee {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 14px;
+  background-image: radial-gradient(circle at center,
+    var(--gold-light) 0 1.6px,
+    rgba(212,175,55,0.55) 1.6px 2.6px,
+    transparent 3.2px);
+  background-size: 24px 14px;
+  background-repeat: repeat-x;
+  background-position: center;
+  opacity: 0.8;
+  animation: marqueePulse 3.4s ease-in-out infinite;
+}
+@keyframes marqueePulse {
+  0%, 100% { opacity: 0.55; filter: drop-shadow(0 0 3px rgba(212,175,55,0.40)); }
+  50%      { opacity: 0.95; filter: drop-shadow(0 0 7px rgba(212,175,55,0.70)); }
+}
+
+/* Variante DISCRÈTE pour la page de jeu (moins lumineux, moins d'anim) */
+.theatre-decor--dim .theatre-spot   { opacity: 0.42; }
+.theatre-decor--dim .theatre-marquee{ opacity: 0.30; animation: none; filter: none; }
+.theatre-decor--dim::after          { background: radial-gradient(120% 100% at 50% 40%, transparent 48%, rgba(0,0,0,0.66) 100%); }
+
+/* Le canvas marbré existant devient une texture discrète sous le décor TV */
+#marble-canvas { opacity: 0.16 !important; mix-blend-mode: screen; }
+
 /* ── Accessibilité : couper les animations si demandé ────────── */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
