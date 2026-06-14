@@ -1149,7 +1149,8 @@ html, body {
 /* Chiffres dorés (tableau lumineux) */
 .countdown-num   { color: var(--gold-light); }
 .score-pts       { color: var(--gold-light); font-family: var(--font-display); }
-.av-player-score { color: var(--gold-light) !important; font-weight: 700; }
+/* (Le score joueur de la sidebar est stylé plus bas comme la pastille du récap :
+   pastille dorée pleine + texte foncé lisible — pas de surcharge gold-light ici.) */
 .result-points   { color: var(--gold-light); }
 
 /* Bouton hôte « Suivante » : or, texte sombre lisible */
