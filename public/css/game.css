@@ -1352,3 +1352,89 @@ body.game{
   .hourglass-wrap.urgent{ animation:none !important; }
   .timer-ring-fill{ transition:none !important; }
 }
+
+/* ─ Phase 5 : géo, pari, révélation, fin de manche + responsive ─ */
+
+/* GÉO : intégrée dans le décor (cadre cohérent, carte encadrée or) */
+.geomap-header .badge{ background:var(--gold-grad) !important; color:#5a3a00 !important; border:none !important; border-radius:999px; padding:5px 14px; font-weight:700; box-shadow:0 3px 0 var(--gold-dark); }
+.geomap-question{ color:#eaf0ff; font-family:'Fredoka',sans-serif; text-shadow:0 1px 3px rgba(0,0,0,.5); }
+.geo-map{ border:4px solid var(--gold); border-radius:18px; background:#0e2766; box-shadow:0 10px 0 rgba(0,0,0,.3); }
+.geomap-hint-card{ background:var(--panel); color:var(--ink); border:2px solid var(--panel-border); border-radius:14px; padding:12px; font-weight:600; }
+.geomap-hint-card i{ color:var(--accent); }
+.geomap-results-panel{ background:var(--panel); color:var(--ink); border:2px solid var(--panel-border); border-radius:14px; padding:12px; }
+.geomap-results-title{ color:var(--ink); font-family:'Fredoka',sans-serif; font-weight:700; }
+.geomap-results-fact{ color:var(--ink-soft); }
+.geomap-result-row{ color:var(--ink); }
+.btn-geo-validate{
+  font-family:'Fredoka',sans-serif; font-weight:700; font-size:16px; border:none; border-radius:14px;
+  padding:13px 18px; background:var(--gold-grad); color:#5a3a00; box-shadow:0 5px 0 var(--gold-dark);
+  cursor:pointer; display:flex; align-items:center; justify-content:center; gap:8px; transition:transform .08s, box-shadow .08s, filter .1s;
+}
+.btn-geo-validate:hover:not(:disabled){ filter:brightness(1.05); }
+.btn-geo-validate:active:not(:disabled){ transform:translateY(4px); box-shadow:0 1px 0 var(--gold-dark); }
+.btn-geo-validate:disabled{ opacity:.5; cursor:not-allowed; }
+
+/* PARI : même TV dorée + contrôles chunky */
+.pari-wrap{
+  width:100%; max-width:620px; margin:0 auto; position:relative;
+  display:flex; flex-direction:column; gap:16px; align-items:stretch;
+  padding:24px 22px; border-radius:28px;
+  background:linear-gradient(180deg,#15347e,#0e2766);
+  border:6px solid var(--gold);
+  box-shadow:0 14px 0 rgba(0,0,0,.32), 0 0 0 3px var(--gold-dark), inset 0 0 44px rgba(0,0,0,.4);
+}
+.pari-question{ background:var(--panel); color:var(--ink); border-radius:18px; padding:20px; text-align:center; font-family:'Fredoka',sans-serif; font-weight:600; font-size:clamp(17px,2.5vw,24px); box-shadow:inset 0 2px 8px rgba(0,0,0,.12); }
+.pari-balance{ color:#eaf0ff; text-align:center; font-weight:600; }
+.pari-balance strong{ color:var(--logo-gold); }
+.pari-bet-display{ text-align:center; color:#eaf0ff; font-weight:600; }
+.pari-bet-display #pari-bet-pts{ color:var(--logo-gold); font-size:20px; font-weight:700; }
+#pari-reveal-btn{
+  background:var(--gold-grad) !important; color:#5a3a00 !important; border:none; border-radius:14px;
+  font-family:'Fredoka',sans-serif; font-weight:700; box-shadow:0 5px 0 var(--gold-dark); align-self:center; padding:14px 26px;
+}
+#pari-reveal-btn:active{ transform:translateY(4px); box-shadow:0 1px 0 var(--gold-dark); }
+
+/* RÉVÉLATION « Le savais-tu ? » + résultat */
+.reveal-screen-wrap{ width:100%; max-width:640px; margin:0 auto; background:var(--panel); color:var(--ink); border:5px solid var(--gold); border-radius:24px; padding:24px; box-shadow:0 12px 0 rgba(0,0,0,.3); display:flex; flex-direction:column; gap:14px; align-items:center; }
+.reveal-screen-head{ display:flex; align-items:center; gap:8px; color:var(--gold-dark); font-family:'Fredoka',sans-serif; font-weight:700; font-size:18px; }
+.reveal-screen-question{ color:var(--ink); font-weight:600; text-align:center; font-size:clamp(16px,2.3vw,22px); }
+.reveal-screen-answer{ display:flex; flex-direction:column; align-items:center; gap:4px; background:rgba(62,196,109,.16); border:2px solid var(--correct); border-radius:14px; padding:14px 22px; }
+.reveal-screen-answer-label{ font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--correct-dark); }
+.reveal-screen-answer-text{ font-family:'Fredoka',sans-serif; font-weight:700; font-size:clamp(18px,2.5vw,24px); color:var(--correct-dark); }
+.reveal-screen-text{ color:var(--ink-soft); background:#fff; border:2px solid var(--panel-border); border-radius:12px; padding:12px 16px; line-height:1.5; }
+.result-title{ font-family:'Fredoka',sans-serif; color:#eaf0ff; }
+.result-points{ font-family:'Fredoka',sans-serif; color:var(--logo-gold); }
+
+/* SCORES / FIN / RÉCAP : titres dorés, items en panneau */
+.scores-title, .gameover-title, .history-title{ font-family:'Fredoka',sans-serif; color:var(--logo-gold); text-shadow:0 2px 0 var(--logo-shadow); }
+.score-item, .team-score-item, .gameover-ranking .score-item{ background:#fffdf7; border:2px solid var(--panel-border); border-radius:14px; color:var(--ink); }
+.score-item.me{ border-color:var(--accent); background:#eaf1ff; }
+.score-name{ color:var(--ink); }
+.score-pts, .team-score-pts{ font-family:'Fredoka',sans-serif; font-weight:700; color:#5a3a00; background:var(--gold-grad); padding:2px 10px; border-radius:999px; box-shadow:0 2px 0 var(--gold-dark); }
+.gameover-trophy{ filter:drop-shadow(0 4px 10px rgba(255,206,77,.5)); }
+
+/* Contrôle hôte : bouton chunky doré */
+.host-control{
+  background:var(--gold-grad) !important; color:#5a3a00 !important; border:none;
+  border-radius:16px; box-shadow:0 6px 0 var(--gold-dark) !important;
+  font-family:'Fredoka',sans-serif; font-weight:700;
+}
+.host-control:hover{ transform:translateY(-2px); }
+.host-control:active{ transform:translateY(3px); box-shadow:0 2px 0 var(--gold-dark) !important; }
+.host-waiting-msg{ color:#eaf0ff; font-weight:600; }
+
+/* ── Responsive ─────────────────────────────────────────────── */
+@media (max-width:720px){
+  .geomap-body{ grid-template-columns:1fr; }
+  .geo-map{ min-height:260px; }
+  .stage{ grid-template-columns:150px 1fr; }
+}
+@media (max-width:480px){
+  .stage{ grid-template-columns:1fr; }
+  .avatars-panel{ flex-direction:row; flex-wrap:wrap; justify-content:center; border-right:none; border-bottom:2px solid rgba(255,207,77,.25); max-height:118px; }
+  .question-wrap, .pixel-wrap, .pari-wrap{ padding:16px 14px; border-width:4px; }
+  .question-text{ padding:16px 12px; }
+  .hourglass-wrap{ width:74px; height:74px; }
+  .timer-ring{ width:74px; height:74px; }
+  .hourglass-num{ font-size:24px; }
+}
