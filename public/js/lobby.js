@@ -42,14 +42,30 @@ const roundIcons = {
   pixel:    { icon:'ti-photo',   key:'game.round.pixel',   label:'Manche Pixel' },
   pari:     { icon:'ti-coins',   key:'game.round.pari',    label:'Manche Pari'  },
 };
+// Ordre canonique des manches : TOUTES sont affichées (chip actif/inactif).
+const ALL_ROUNDS = ['culture', 'geo', 'pixel', 'pari'];
+function roundActive(r) { return (settings.rounds || ['culture']).includes(r); }
 
-// Applique l'état des pickers (boutons actifs, valeurs qcount, mode équipe)
-// à partir de `settings`. Appelé à l'init et à chaque settings_updated.
-function renderPickersState() {
-  const activeRounds = new Set(settings.rounds || ['culture']);
-  document.querySelectorAll('#rounds-pick .round-pick').forEach(btn => {
-    btn.classList.toggle('active', activeRounds.has(btn.dataset.round));
+// Mise à jour CIBLÉE de l'UI des manches (chip actif + valeur qcount + état
+// grisé), SANS reconstruire le DOM → pas de flash (cf. Phase 3).
+function applyRoundsUI() {
+  ALL_ROUNDS.forEach(r => {
+    const row = document.querySelector(`#rounds-control [data-round-row="${r}"]`);
+    if (!row) return;
+    const active = roundActive(r);
+    row.classList.toggle('is-off', !active);
+    const pick = row.querySelector('.round-pick');
+    if (pick) { pick.classList.toggle('active', active); pick.setAttribute('aria-pressed', active ? 'true' : 'false'); }
+    const qv = document.getElementById(`qv-${r}`);
+    if (qv) qv.textContent = settings.questionsPerRound?.[r] || defaultQ[r] || 5;
   });
+}
+
+// Applique l'état des pickers (manches, thèmes, difficulté, mode équipe) à
+// partir de `settings`. Mises à jour CIBLÉES (toggles/valeurs), jamais de
+// reconstruction innerHTML → aucune saccade. Appelé à l'init et sur settings_updated.
+function renderPickersState() {
+  applyRoundsUI();
   const activeThemes = new Set(settings.themes || ['general']);
   document.querySelectorAll('#themes-pick .theme-pick').forEach(btn => {
     btn.classList.toggle('active', activeThemes.has(btn.dataset.theme));
@@ -57,10 +73,6 @@ function renderPickersState() {
   const currentDiff = settings.difficulty || 'medium';
   document.querySelectorAll('#diff-pick .diff-pick-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.diff === currentDiff);
-  });
-  (settings.rounds || ['culture']).forEach(r => {
-    const el = document.getElementById(`qv-${r}`);
-    if (el) el.textContent = settings.questionsPerRound?.[r] || defaultQ[r] || 5;
   });
   const tm = !!settings.teamMode;
   document.querySelectorAll('.team-toggle-btn').forEach((b, i) =>
@@ -72,15 +84,29 @@ function renderPickersState() {
   if (nt) nt.textContent = settings.numTeams || 2;
 }
 
-// ── QCount par manche ─────────────────────────────────────────
+// ── Manches + nombre de questions (par manche) ────────────────
 const defaultQ = { culture:10, geo:5, pixel:5, pari:3 };
 if (!settings.questionsPerRound) settings.questionsPerRound = {};
 
 // Tous les joueurs voient les mêmes cartes (manches, thèmes, difficulté, qcount,
 // équipes). Seul l'hôte attache des handlers de modification ; les invités
 // ont la classe `is-guest` qui désactive visuellement les contrôles.
-buildQCountControls();
+buildRoundsControl();
 renderPickersState();
+
+// Délégation sur le conteneur des manches : survit aux re-rendus et reste
+// branchée même après un transfert d'hôte (le garde isHost filtre les invités).
+(function bindRoundsControl() {
+  const el = document.getElementById('rounds-control');
+  if (!el) return;
+  el.addEventListener('click', (e) => {
+    if (!isHost) return;
+    const pick = e.target.closest('.round-pick');
+    const qbtn = e.target.closest('.qcount-btn');
+    if (pick && el.contains(pick))      toggleRound(pick.dataset.round);
+    else if (qbtn && el.contains(qbtn)) changeQ(qbtn.dataset.round, qbtn.dataset.qc === 'inc' ? 1 : -1);
+  });
+})();
 
 if (isHost) {
   document.getElementById('host-actions').style.display  = 'block';
@@ -97,17 +123,7 @@ if (isHost) {
 function initHostPickers() {
   if (pickerHandlersAttached) return;
   pickerHandlersAttached = true;
-  document.querySelectorAll('#rounds-pick .round-pick').forEach(btn => {
-    btn.addEventListener('click', () => {
-      btn.classList.toggle('active');
-      const sel = [...document.querySelectorAll('#rounds-pick .round-pick.active')]
-                    .map(b => b.dataset.round);
-      if (sel.length === 0) { btn.classList.add('active'); return; } // au moins 1 manche
-      settings.rounds = sel;
-      buildQCountControls();   // re-render qcount pour les nouvelles manches
-      pushSettings();
-    });
-  });
+  // (Les manches sont gérées par délégation sur #rounds-control — cf. bindRoundsControl.)
 
   document.querySelectorAll('#themes-pick .theme-pick').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -130,33 +146,53 @@ function initHostPickers() {
   });
 }
 
-function buildQCountControls() {
-  const list = document.getElementById('qcount-list');
-  list.innerHTML = '';
-  (settings.rounds || ['culture']).forEach(r => {
-    const val = settings.questionsPerRound[r] || defaultQ[r] || 5;
+// Construit le contrôle unifié « Manches & questions » : UNE ligne par manche
+// (TOUTES affichées), chacune = chip activable + sélecteur +/−. Construit UNE
+// fois (init / changement de langue) ; ensuite les MAJ sont ciblées (applyRoundsUI).
+function buildRoundsControl() {
+  const list = document.getElementById('rounds-control');
+  if (!list) return;
+  list.innerHTML = ALL_ROUNDS.map(r => {
+    const info   = roundIcons[r] || { icon:'ti-help', key:'', label:r };
+    const val    = settings.questionsPerRound[r] || defaultQ[r] || 5;
     settings.questionsPerRound[r] = val;
-    const info = roundIcons[r] || { icon:'ti-help', label:r };
-    const label = info.key ? t(info.key, info.label) : info.label;
-    list.innerHTML += `
-      <div class="qcount-item">
-        <span class="qcount-label"><i class="ti ${info.icon}"></i>${escapeHtml(label)}</span>
+    const active = roundActive(r);
+    return `
+      <div class="round-row ${active ? '' : 'is-off'}" data-round-row="${r}">
+        <button class="round-pick ${active ? 'active' : ''}" type="button" data-round="${r}" aria-pressed="${active}">
+          <i class="ti ${info.icon}"></i><span data-i18n="${info.key}">${escapeHtml(t(info.key, info.label))}</span>
+        </button>
         <div class="qcount-controls">
-          <button class="qcount-btn" onclick="changeQ('${r}',-1)">−</button>
+          <button class="qcount-btn" type="button" data-round="${r}" data-qc="dec" aria-label="−">−</button>
           <span class="qcount-val" id="qv-${r}">${val}</span>
-          <button class="qcount-btn" onclick="changeQ('${r}',1)">+</button>
+          <button class="qcount-btn" type="button" data-round="${r}" data-qc="inc" aria-label="+">+</button>
         </div>
       </div>`;
-  });
+  }).join('');
+}
+// Rétro-compat : d'anciens appels (init inline) peuvent encore l'invoquer.
+function buildQCountControls() { buildRoundsControl(); }
+
+// Active/désactive une manche (≥ 1 manche requise). MAJ optimiste + push serveur.
+function toggleRound(round) {
+  if (!isHost) return;
+  const set = new Set(settings.rounds || ['culture']);
+  if (set.has(round)) { if (set.size <= 1) return; set.delete(round); }
+  else set.add(round);
+  settings.rounds = ALL_ROUNDS.filter(r => set.has(r));   // ordre canonique
+  applyRoundsUI();        // mise à jour ciblée IMMÉDIATE (optimistic)
+  pushSettings();
 }
 
 function changeQ(round, delta) {
-  if (!isHost) return;
-  const min = 1, max = 20;
+  if (!isHost || !roundActive(round)) return;
+  const min = 3, max = 20;
   const cur = settings.questionsPerRound[round] || defaultQ[round] || 5;
   const nv  = Math.max(min, Math.min(max, cur + delta));
+  if (nv === cur) return;
   settings.questionsPerRound[round] = nv;
-  document.getElementById(`qv-${round}`).textContent = nv;
+  const qv = document.getElementById(`qv-${round}`);
+  if (qv) qv.textContent = nv;   // mise à jour optimiste, sans attendre le serveur
   pushSettings();
 }
 
@@ -247,12 +283,13 @@ socket.on('players_update', ({ players, teams: teamsArr, hostName }) => {
 
 socket.on('settings_updated', ({ settings: s, teams: teamsArr }) => {
   settings = s;
+  if (!settings.questionsPerRound) settings.questionsPerRound = {};
   teams    = teamsArr || [];
   teamMode = s.teamMode;
   numTeams = s.numTeams || 2;
-  // Re-sync l'affichage pour TOUS les joueurs (hôte + invités).
-  // Les invités voient ainsi les changements de l'hôte en temps réel.
-  buildQCountControls();
+  // Réconciliation CIBLÉE (serveur = source de vérité) : on met à jour les
+  // toggles/valeurs existants SANS reconstruire le DOM (#rounds-control est
+  // statique : les 4 manches sont toujours présentes) → aucun flash/saut.
   renderPickersState();
   if (teamsArr) renderTeams(teamsArr);
 });

@@ -202,5 +202,6 @@
   "page.game.title": "QuizzRoom — In game",
   "home.slogan": "Challenge your friends in the spotlight",
   "home.or": "or",
-  "lobby.heading": "Waiting room"
+  "lobby.heading": "Waiting room",
+  "lobby.rounds.qtitle": "Rounds & questions"
 }

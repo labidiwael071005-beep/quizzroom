@@ -202,5 +202,6 @@
   "page.game.title": "QuizzRoom — En juego",
   "home.slogan": "Reta a tus amigos bajo los focos",
   "home.or": "o",
-  "lobby.heading": "Sala de espera"
+  "lobby.heading": "Sala de espera",
+  "lobby.rounds.qtitle": "Rondas y preguntas"
 }

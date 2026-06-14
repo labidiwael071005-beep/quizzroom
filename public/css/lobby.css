@@ -177,7 +177,15 @@ body.lobby{ margin:0; background:var(--bg-3); font-family:'Fredoka',system-ui,sa
 .chat-input-row input::placeholder{ color:#c2ad88; }
 .chat-send{ flex-shrink:0; padding:11px 16px; }
 
-/* ── Réglages : manches / qcount ─────────────────────────────── */
+/* ── Réglages : manches + nombre de questions (contrôle unifié) ── */
+.rounds-control{ display:flex; flex-direction:column; gap:8px; }
+.round-row{ display:flex; align-items:center; gap:10px; }
+.round-row .round-pick{ flex:1; }
+/* Manche désactivée : sélecteur grisé & non cliquable */
+.round-row.is-off .qcount-controls{ opacity:.4; pointer-events:none; }
+.round-row.is-off .qcount-val{ color:var(--ink-soft); }
+.round-row.is-off .round-pick{ opacity:.8; }
+
 .rounds-pick{ display:grid; grid-template-columns:1fr 1fr; gap:8px; }
 .round-pick{
   display:flex; align-items:center; gap:8px; padding:11px 12px; border-radius:12px;
@@ -268,10 +276,10 @@ body.lobby{ margin:0; background:var(--bg-3); font-family:'Fredoka',system-ui,sa
 @keyframes pulse{ 0%,100%{opacity:1} 50%{opacity:.55} }
 
 /* ── Invité : contrôles en lecture seule ─────────────────────── */
-.lobby-main.is-guest #rounds-pick .round-pick,
+.lobby-main.is-guest #rounds-control .round-pick,
+.lobby-main.is-guest #rounds-control .qcount-btn,
 .lobby-main.is-guest #themes-pick .theme-pick,
 .lobby-main.is-guest #diff-pick .diff-pick-btn,
-.lobby-main.is-guest #qcount-list .qcount-btn,
 .lobby-main.is-guest #team-toggle .team-toggle-btn,
 .lobby-main.is-guest .num-teams-row .qcount-btn{
   pointer-events:none; cursor:not-allowed; opacity:.7;
@@ -279,7 +287,6 @@ body.lobby{ margin:0; background:var(--bg-3); font-family:'Fredoka',system-ui,sa
 .lobby-main.is-guest #rounds-pick-card .lobby-card-title::after,
 .lobby-main.is-guest #themes-pick-card .lobby-card-title::after,
 .lobby-main.is-guest #diff-pick-card   .lobby-card-title::after,
-.lobby-main.is-guest #qcount-card      .lobby-card-title::after,
 .lobby-main.is-guest #team-card        .lobby-card-title::after{
   content:'  🔒'; font-size:11px; opacity:.7; margin-left:4px;
 }

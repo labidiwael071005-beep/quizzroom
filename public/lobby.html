@@ -66,21 +66,10 @@
       <!-- Colonne droite : réglages -->
       <div class="lobby-right">
 
-        <!-- Sélecteur de manches (restructuré en Phase 2) -->
+        <!-- Manches + nombre de questions (une ligne par manche : chip + +/−) -->
         <div class="panel lobby-card" id="rounds-pick-card">
-          <div class="lobby-card-title" data-i18n="lobby.rounds.title">Manches activées</div>
-          <div id="rounds-pick" class="rounds-pick">
-            <button class="round-pick" data-round="culture"><i class="ti ti-brain"></i> <span data-i18n="round.culture.name">Culture G</span></button>
-            <button class="round-pick" data-round="geo"><i class="ti ti-map-pin"></i> <span data-i18n="round.geo.name">GéoQuizz</span></button>
-            <button class="round-pick" data-round="pixel"><i class="ti ti-photo"></i> <span data-i18n="round.pixel.short">Pixel</span></button>
-            <button class="round-pick" data-round="pari"><i class="ti ti-coins"></i> <span data-i18n="round.pari.short">Pari</span></button>
-          </div>
-        </div>
-
-        <!-- Nb de questions par manche -->
-        <div class="panel lobby-card" id="qcount-card">
-          <div class="lobby-card-title" data-i18n="lobby.qcount">Questions par manche</div>
-          <div id="qcount-list" class="qcount-list"></div>
+          <div class="lobby-card-title" data-i18n="lobby.rounds.qtitle">Manches &amp; questions</div>
+          <div id="rounds-control" class="rounds-control"></div>
         </div>
 
         <!-- Thèmes -->
