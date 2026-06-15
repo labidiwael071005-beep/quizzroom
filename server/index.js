@@ -242,50 +242,120 @@ app.get('/api/admin/questions', adminAuth, async (req, res) => {
   }
 });
 
+// Détail d'une question + ses 3 traductions (fr/en/es ; null si absente).
+app.get('/api/admin/questions/:id', adminAuth, async (req, res) => {
+  try {
+    const row = await prisma.question.findUnique({
+      where: { id: req.params.id },
+      include: { translations: true },
+    });
+    if (!row) return res.status(404).json({ ok: false, error: 'Question introuvable' });
+    const translations = { fr: null, en: null, es: null };
+    for (const t of row.translations) {
+      if (translations[t.language] !== undefined) {
+        translations[t.language] = {
+          text: t.text || '', options: t.options || null,
+          explanation: t.explanation || '', label: t.label || null, country: t.country || null,
+        };
+      }
+    }
+    const { translations: _omit, ...q } = row;
+    res.json({ ok: true, question: { ...q, translations } });
+  } catch (err) {
+    console.error('[GET /api/admin/questions/:id]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
+  }
+});
+
+// Normalise le payload d'une langue ; renvoie null si totalement vide (→ ignorée).
+function normLangPayload(tr) {
+  if (!tr || typeof tr !== 'object') return null;
+  const text = typeof tr.text === 'string' ? tr.text.trim() : '';
+  const options = Array.isArray(tr.options) ? tr.options.map(o => (o == null ? '' : String(o))) : null;
+  const hasOpts = Array.isArray(options) && options.some(o => o.trim());
+  const explanation = typeof tr.explanation === 'string' ? tr.explanation : '';
+  const label = tr.label ? String(tr.label) : null;
+  const country = tr.country ? String(tr.country) : null;
+  if (!text && !hasOpts && !explanation && !label && !country) return null;
+  return { text, options, explanation, label, country };
+}
+
+// Valide le payload multilingue (longueurs d'options identiques, correctIndex 0-3…).
+// Renvoie { error } ou { provided } (map langue → payload normalisé).
+function validateQuestionPayload({ type, correctIndex, translations, requireFr }) {
+  const provided = {};
+  for (const l of SUPPORTED_LANGS) { const n = normLangPayload(translations && translations[l]); if (n) provided[l] = n; }
+  if (requireFr && !provided.fr) return { error: 'Le texte en français est requis.' };
+  if (Object.keys(provided).length === 0) return { error: 'Au moins une langue doit être renseignée.' };
+
+  if (type === 'qcm' || type === 'pixel') {
+    if (!Number.isInteger(correctIndex) || correctIndex < 0 || correctIndex > 3) {
+      return { error: 'La bonne réponse (correctIndex) doit être un entier entre 0 et 3.' };
+    }
+    let len = null;
+    for (const [l, n] of Object.entries(provided)) {
+      if (!Array.isArray(n.options) || n.options.length !== 4) {
+        return { error: `La langue ${l.toUpperCase()} doit avoir exactement 4 options.` };
+      }
+      if (n.options.some(o => !o.trim())) {
+        return { error: `La langue ${l.toUpperCase()} a une option vide.` };
+      }
+      if (len === null) len = n.options.length;
+      else if (n.options.length !== len) {
+        return { error: 'Les options doivent avoir la même longueur dans toutes les langues (correctIndex est partagé).' };
+      }
+    }
+  } else if (type === 'geo') {
+    for (const n of Object.values(provided)) n.options = null; // géo : pas d'options
+  }
+  return { provided };
+}
+
 app.post('/api/admin/questions', adminAuth, async (req, res) => {
   try {
     const b = req.body || {};
-    if (!b.question || !b.type) {
-      return res.status(400).json({ ok: false, error: 'Champs requis manquants (question, type)' });
-    }
-    if (!['qcm', 'pixel', 'geo'].includes(b.type)) {
+    const type = b.type;
+    if (!['qcm', 'pixel', 'geo'].includes(type)) {
       return res.status(400).json({ ok: false, error: 'Type invalide' });
     }
-    const language = SUPPORTED_LANGS.includes(b.language) ? b.language : 'fr';
-    const created = await prisma.question.create({
-      data: {
-        question:     String(b.question).slice(0, 500),
-        language,
-        type:         b.type,
-        theme:        b.theme || 'general',
-        difficulty:   b.difficulty || 'medium',
-        options:      b.type === 'qcm' || b.type === 'pixel' ? (b.options || null) : null,
-        correctIndex: b.type === 'qcm' || b.type === 'pixel' ? (Number.isInteger(b.correctIndex) ? b.correctIndex : null) : null,
-        imageUrl:     b.type === 'pixel' ? (b.imageUrl || null) : null,
-        credit:       b.type === 'pixel' ? (b.credit || null) : null,
-        creditUrl:    b.type === 'pixel' ? (b.creditUrl || null) : null,
-        license:      b.type === 'pixel' ? (b.license || null) : null,
-        lat:          b.type === 'geo' ? (Number.isFinite(b.lat) ? b.lat : null) : null,
-        lng:          b.type === 'geo' ? (Number.isFinite(b.lng) ? b.lng : null) : null,
-        label:        b.type === 'geo' || b.type === 'pixel' ? (b.label || null) : null,
-        country:      b.type === 'geo' ? (b.country || null) : null,
-        explanation:  String(b.explanation || ''),
-        status:       'approved',
-        source:       'admin',
-        // On crée d'emblée la traduction correspondante : sans elle, le cache
-        // multilingue serait vide pour cette question et le client retomberait
-        // sur un fallback synthétisé.
-        translations: {
-          create: {
-            language,
-            text:        String(b.question).slice(0, 500),
-            options:     b.type === 'qcm' || b.type === 'pixel' ? (b.options || null) : null,
-            explanation: String(b.explanation || ''),
-            label:       b.type === 'geo' || b.type === 'pixel' ? (b.label || null) : null,
-            country:     b.type === 'geo' ? (b.country || null) : null,
-          },
+    // Nouveau format multilingue (translations) ; sinon repli mono-langue legacy.
+    const translations = b.translations || { fr: { text: b.question, options: b.options, explanation: b.explanation, label: b.label, country: b.country } };
+    const correctIndex = (type === 'qcm' || type === 'pixel') ? b.correctIndex : null;
+    const v = validateQuestionPayload({ type, correctIndex, translations, requireFr: true });
+    if (v.error) return res.status(400).json({ ok: false, error: v.error });
+    const provided = v.provided;
+    const fr = provided.fr;
+    const status = (b.status && ['draft', 'approved', 'reported', 'rejected'].includes(b.status)) ? b.status : 'approved';
+
+    const created = await prisma.$transaction(async (tx) => {
+      const qrow = await tx.question.create({
+        data: {
+          question:     fr.text.slice(0, 500),
+          language:     'fr',
+          type,
+          theme:        b.theme || (type === 'geo' ? 'geo' : 'general'),
+          difficulty:   b.difficulty || 'medium',
+          options:      type === 'geo' ? null : fr.options,
+          correctIndex,
+          imageUrl:     type === 'pixel' ? (b.imageUrl || null) : null,
+          credit:       type === 'pixel' ? (b.credit || null) : null,
+          creditUrl:    type === 'pixel' ? (b.creditUrl || null) : null,
+          license:      type === 'pixel' ? (b.license || null) : null,
+          lat:          type === 'geo' ? (Number.isFinite(b.lat) ? b.lat : null) : null,
+          lng:          type === 'geo' ? (Number.isFinite(b.lng) ? b.lng : null) : null,
+          label:        fr.label,
+          country:      fr.country,
+          explanation:  fr.explanation,
+          status,
+          source:       'admin',
         },
-      },
+      });
+      for (const [l, n] of Object.entries(provided)) {
+        await tx.questionTranslation.create({
+          data: { questionId: qrow.id, language: l, text: n.text, options: type === 'geo' ? null : n.options, explanation: n.explanation, label: n.label, country: n.country },
+        });
+      }
+      return qrow;
     });
     await reloadQuestionStore();
     res.json({ ok: true, question: created });
@@ -295,60 +365,50 @@ app.post('/api/admin/questions', adminAuth, async (req, res) => {
   }
 });
 
+// Édition MULTILINGUE : met à jour les champs neutres de la question + upsert des
+// 3 traductions, en transaction. Validations strictes (cf. validateQuestionPayload).
 app.put('/api/admin/questions/:id', adminAuth, async (req, res) => {
   try {
     const b = req.body || {};
-    const updated = await prisma.question.update({
-      where: { id: req.params.id },
-      data: {
-        ...(b.question !== undefined && { question: String(b.question).slice(0, 500) }),
-        ...(b.theme && { theme: b.theme }),
-        ...(b.difficulty && { difficulty: b.difficulty }),
-        ...(b.options !== undefined && { options: b.options }),
-        ...(b.correctIndex !== undefined && Number.isInteger(b.correctIndex) && { correctIndex: b.correctIndex }),
-        ...(b.imageUrl !== undefined && { imageUrl: b.imageUrl || null }),
-        ...(b.credit !== undefined && { credit: b.credit || null }),
-        ...(b.creditUrl !== undefined && { creditUrl: b.creditUrl || null }),
-        ...(b.license !== undefined && { license: b.license || null }),
-        ...(b.lat !== undefined && Number.isFinite(b.lat) && { lat: b.lat }),
-        ...(b.lng !== undefined && Number.isFinite(b.lng) && { lng: b.lng }),
-        ...(b.label !== undefined && { label: b.label || null }),
-        ...(b.country !== undefined && { country: b.country || null }),
-        ...(b.explanation !== undefined && { explanation: String(b.explanation) }),
-        ...(b.status && ['draft', 'approved', 'reported', 'rejected'].includes(b.status) && { status: b.status }),
-      },
-    });
-    // Sync de la traduction dans la langue de référence de la question :
-    // l'admin n'édite que la version legacy/FR, mais on garde la trad alignée.
-    const lang = updated.language || 'fr';
-    if (SUPPORTED_LANGS.includes(lang)) {
-      const trData = {
-        text:        b.question    !== undefined ? String(b.question).slice(0, 500) : undefined,
-        options:     b.options     !== undefined ? (b.options || null)              : undefined,
-        explanation: b.explanation !== undefined ? String(b.explanation)            : undefined,
-        label:       b.label       !== undefined ? (b.label || null)                : undefined,
-        country:     b.country     !== undefined ? (b.country || null)              : undefined,
-      };
-      // Si rien n'a été touché côté texte/options/etc, on évite l'upsert.
-      const touched = Object.values(trData).some(v => v !== undefined);
-      if (touched) {
-        await prisma.questionTranslation.upsert({
-          where: { questionId_language: { questionId: updated.id, language: lang } },
-          create: {
-            questionId:  updated.id,
-            language:    lang,
-            text:        trData.text        ?? (updated.question || ''),
-            options:     trData.options     ?? (updated.options  || null),
-            explanation: trData.explanation ?? (updated.explanation || ''),
-            label:       trData.label       ?? (updated.label   || null),
-            country:     trData.country     ?? (updated.country || null),
-          },
-          update: Object.fromEntries(Object.entries(trData).filter(([, v]) => v !== undefined)),
+    const id = req.params.id;
+    const existing = await prisma.question.findUnique({ where: { id } });
+    if (!existing) return res.status(404).json({ ok: false, error: 'Question introuvable' });
+    const type = ['qcm', 'pixel', 'geo'].includes(b.type) ? b.type : existing.type;
+
+    const translations = b.translations || {};
+    const correctIndex = (type === 'qcm' || type === 'pixel')
+      ? (Number.isInteger(b.correctIndex) ? b.correctIndex : existing.correctIndex)
+      : null;
+    const v = validateQuestionPayload({ type, correctIndex, translations, requireFr: false });
+    if (v.error) return res.status(400).json({ ok: false, error: v.error });
+    const provided = v.provided;
+    const fr = provided.fr;
+
+    await prisma.$transaction(async (tx) => {
+      await tx.question.update({
+        where: { id },
+        data: {
+          type,
+          ...(b.theme && { theme: b.theme }),
+          ...(b.difficulty && { difficulty: b.difficulty }),
+          ...(b.status && ['draft', 'approved', 'reported', 'rejected'].includes(b.status) && { status: b.status }),
+          correctIndex: (type === 'qcm' || type === 'pixel') ? correctIndex : null,
+          ...(type === 'pixel' ? { imageUrl: b.imageUrl || null, credit: b.credit || null, creditUrl: b.creditUrl || null, license: b.license || null } : {}),
+          ...(type === 'geo'   ? { lat: Number.isFinite(b.lat) ? b.lat : null, lng: Number.isFinite(b.lng) ? b.lng : null } : {}),
+          // Colonnes legacy (fallback serveur) alignées sur le FR si fourni.
+          ...(fr ? { question: fr.text.slice(0, 500), options: type === 'geo' ? null : fr.options, explanation: fr.explanation, label: fr.label, country: fr.country } : {}),
+        },
+      });
+      for (const [l, n] of Object.entries(provided)) {
+        await tx.questionTranslation.upsert({
+          where:  { questionId_language: { questionId: id, language: l } },
+          create: { questionId: id, language: l, text: n.text, options: type === 'geo' ? null : n.options, explanation: n.explanation, label: n.label, country: n.country },
+          update: { text: n.text, options: type === 'geo' ? null : n.options, explanation: n.explanation, label: n.label, country: n.country },
         });
       }
-    }
+    });
     await reloadQuestionStore();
-    res.json({ ok: true, question: updated });
+    res.json({ ok: true });
   } catch (err) {
     console.error('[PUT /api/admin/questions/:id]', err);
     res.status(500).json({ ok: false, error: 'Erreur serveur' });

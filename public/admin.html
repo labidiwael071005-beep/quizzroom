@@ -226,9 +226,9 @@
   </main>
 </section>
 
-<!-- ── MODAL (créer / éditer) ──────────────────────────────── -->
+<!-- ── MODAL multilingue (créer / éditer) ──────────────────── -->
 <div id="modal" class="admin-modal-overlay" hidden>
-  <div class="admin-modal">
+  <div class="admin-modal admin-modal-wide">
     <div class="admin-modal-head">
       <h2 id="modal-title">Nouvelle question</h2>
       <button class="btn-close" id="modal-close" aria-label="Fermer">
@@ -239,21 +239,16 @@
     <form id="question-form" class="admin-modal-body">
       <input type="hidden" id="f-id">
 
-      <div class="form-row">
-        <label for="f-type">Type</label>
-        <select id="f-type" required>
-          <option value="qcm">QCM (Culture / thématique)</option>
-          <option value="pixel">Pixel (image + QCM)</option>
-          <option value="geo">Géo (point sur carte)</option>
-        </select>
-      </div>
-
-      <div class="form-row">
-        <label for="f-question">Question</label>
-        <textarea id="f-question" rows="2" maxlength="500" required></textarea>
-      </div>
-
-      <div class="form-row two-cols">
+      <!-- Champs neutres (partagés par les 3 langues) -->
+      <div class="meta-grid">
+        <div>
+          <label for="f-type">Type</label>
+          <select id="f-type" required>
+            <option value="qcm">QCM</option>
+            <option value="pixel">Pixel</option>
+            <option value="geo">Géo</option>
+          </select>
+        </div>
         <div>
           <label for="f-theme">Thème</label>
           <select id="f-theme">
@@ -280,83 +275,120 @@
             <option value="hard">Difficile</option>
           </select>
         </div>
+        <div>
+          <label for="f-status">Statut</label>
+          <select id="f-status">
+            <option value="approved">Approuvée</option>
+            <option value="draft">Brouillon</option>
+            <option value="reported">Signalée</option>
+            <option value="rejected">Rejetée</option>
+          </select>
+        </div>
       </div>
 
-      <!-- QCM / Pixel : 4 options + correctIndex -->
-      <fieldset id="f-options-group" class="form-fieldset">
-        <legend>Options de réponse</legend>
-        <div class="options-grid">
-          <label class="opt-row">
-            <input type="radio" name="f-correct" value="0">
-            <input type="text" id="f-opt-0" placeholder="Option A" maxlength="120">
-          </label>
-          <label class="opt-row">
-            <input type="radio" name="f-correct" value="1">
-            <input type="text" id="f-opt-1" placeholder="Option B" maxlength="120">
-          </label>
-          <label class="opt-row">
-            <input type="radio" name="f-correct" value="2">
-            <input type="text" id="f-opt-2" placeholder="Option C" maxlength="120">
-          </label>
-          <label class="opt-row">
-            <input type="radio" name="f-correct" value="3">
-            <input type="text" id="f-opt-3" placeholder="Option D" maxlength="120">
-          </label>
+      <!-- correctIndex partagé (l'ordre des options est FIGÉ A→D) -->
+      <fieldset id="correct-group" class="form-fieldset">
+        <legend>Bonne réponse (partagée par les 3 langues)</legend>
+        <div class="correct-row">
+          <label class="correct-opt"><input type="radio" name="f-correct" value="0"><span>A</span></label>
+          <label class="correct-opt"><input type="radio" name="f-correct" value="1"><span>B</span></label>
+          <label class="correct-opt"><input type="radio" name="f-correct" value="2"><span>C</span></label>
+          <label class="correct-opt"><input type="radio" name="f-correct" value="3"><span>D</span></label>
         </div>
-        <div class="form-hint">Coche la bonne réponse à gauche.</div>
+        <div class="form-hint">L'ordre des options est figé (A→D, identique dans les 3 langues). Pour changer la bonne réponse, change la lettre cochée — ne réordonne jamais les options.</div>
       </fieldset>
 
-      <!-- Pixel : image + attribution -->
+      <!-- Pixel : image + attribution (neutre) -->
       <fieldset id="f-pixel-group" class="form-fieldset" hidden>
         <legend>Image et attribution (Pixel)</legend>
-        <div class="form-row">
-          <label for="f-imageUrl">URL de l'image</label>
-          <input type="url" id="f-imageUrl" placeholder="https://upload.wikimedia.org/…">
-        </div>
+        <div class="form-row"><label for="f-imageUrl">URL de l'image</label>
+          <input type="url" id="f-imageUrl" placeholder="https://upload.wikimedia.org/…"></div>
         <div class="form-row two-cols">
-          <div>
-            <label for="f-credit">Crédit / Auteur</label>
-            <input type="text" id="f-credit" placeholder="ex: Benh LIEU SONG">
-          </div>
-          <div>
-            <label for="f-license">Licence</label>
-            <input type="text" id="f-license" placeholder="ex: CC BY-SA 3.0">
-          </div>
+          <div><label for="f-credit">Crédit / Auteur</label><input type="text" id="f-credit" placeholder="ex: Benh LIEU SONG"></div>
+          <div><label for="f-license">Licence</label><input type="text" id="f-license" placeholder="ex: CC BY-SA 3.0"></div>
         </div>
-        <div class="form-row">
-          <label for="f-creditUrl">URL source</label>
-          <input type="url" id="f-creditUrl" placeholder="https://commons.wikimedia.org/…">
-        </div>
+        <div class="form-row"><label for="f-creditUrl">URL source</label>
+          <input type="url" id="f-creditUrl" placeholder="https://commons.wikimedia.org/…"></div>
       </fieldset>
 
-      <!-- Géo : coordonnées + label + country -->
+      <!-- Géo : coordonnées (neutre ; label/pays sont par langue) -->
       <fieldset id="f-geo-group" class="form-fieldset" hidden>
         <legend>Coordonnées (Géo)</legend>
         <div class="form-row two-cols">
-          <div>
-            <label for="f-lat">Latitude</label>
-            <input type="number" id="f-lat" step="0.0001" min="-90" max="90" placeholder="48.8584">
-          </div>
-          <div>
-            <label for="f-lng">Longitude</label>
-            <input type="number" id="f-lng" step="0.0001" min="-180" max="180" placeholder="2.2945">
-          </div>
-        </div>
-        <div class="form-row two-cols">
-          <div>
-            <label for="f-label">Label (lieu)</label>
-            <input type="text" id="f-label" placeholder="Paris (Tour Eiffel)">
-          </div>
-          <div>
-            <label for="f-country">Pays</label>
-            <input type="text" id="f-country" placeholder="France">
-          </div>
+          <div><label for="f-lat">Latitude</label><input type="number" id="f-lat" step="0.0001" min="-90" max="90" placeholder="48.8584"></div>
+          <div><label for="f-lng">Longitude</label><input type="number" id="f-lng" step="0.0001" min="-180" max="180" placeholder="2.2945"></div>
         </div>
       </fieldset>
 
-      <div class="form-row">
-        <label for="f-explanation">Anecdote (« Le savais-tu ? »)</label>
-        <textarea id="f-explanation" rows="3" maxlength="500"></textarea>
+      <!-- Onglets de langue (visibles seulement sur petit écran) -->
+      <div class="lang-tabs" id="lang-tabs">
+        <button type="button" class="lang-tab active" data-lang="fr">FR <span class="lang-miss" hidden>●</span></button>
+        <button type="button" class="lang-tab" data-lang="en">EN <span class="lang-miss" hidden>●</span></button>
+        <button type="button" class="lang-tab" data-lang="es">ES <span class="lang-miss" hidden>●</span></button>
+      </div>
+
+      <!-- 3 colonnes de langue côte à côte (≥1100px) -->
+      <div class="lang-cols">
+        <div class="lang-col active" data-lang="fr">
+          <div class="lang-col-head">Français <span class="lang-miss" id="miss-fr" hidden title="texte manquant">●</span></div>
+          <label>Question</label>
+          <textarea id="f-fr-text" rows="2" maxlength="500"></textarea>
+          <div class="lang-opts" data-optgroup>
+            <label>Options (A → D, ordre figé)</label>
+            <input type="text" id="f-fr-opt-0" placeholder="A" maxlength="160">
+            <input type="text" id="f-fr-opt-1" placeholder="B" maxlength="160">
+            <input type="text" id="f-fr-opt-2" placeholder="C" maxlength="160">
+            <input type="text" id="f-fr-opt-3" placeholder="D" maxlength="160">
+          </div>
+          <label>Anecdote</label>
+          <textarea id="f-fr-explanation" rows="2" maxlength="500"></textarea>
+          <div class="lang-geo" data-geogroup hidden>
+            <label>Label (lieu)</label><input type="text" id="f-fr-label" placeholder="Paris (Tour Eiffel)">
+            <label>Pays</label><input type="text" id="f-fr-country" placeholder="France">
+          </div>
+        </div>
+
+        <div class="lang-col" data-lang="en">
+          <div class="lang-col-head">English <span class="lang-miss" id="miss-en" hidden title="texte manquant">●</span>
+            <button type="button" class="btn btn-ghost btn-sm copy-fr" data-target="en">Copier depuis FR</button>
+          </div>
+          <label>Question</label>
+          <textarea id="f-en-text" rows="2" maxlength="500"></textarea>
+          <div class="lang-opts" data-optgroup>
+            <label>Options (A → D, ordre figé)</label>
+            <input type="text" id="f-en-opt-0" placeholder="A" maxlength="160">
+            <input type="text" id="f-en-opt-1" placeholder="B" maxlength="160">
+            <input type="text" id="f-en-opt-2" placeholder="C" maxlength="160">
+            <input type="text" id="f-en-opt-3" placeholder="D" maxlength="160">
+          </div>
+          <label>Anecdote</label>
+          <textarea id="f-en-explanation" rows="2" maxlength="500"></textarea>
+          <div class="lang-geo" data-geogroup hidden>
+            <label>Label (lieu)</label><input type="text" id="f-en-label">
+            <label>Pays</label><input type="text" id="f-en-country">
+          </div>
+        </div>
+
+        <div class="lang-col" data-lang="es">
+          <div class="lang-col-head">Español <span class="lang-miss" id="miss-es" hidden title="texte manquant">●</span>
+            <button type="button" class="btn btn-ghost btn-sm copy-fr" data-target="es">Copier depuis FR</button>
+          </div>
+          <label>Question</label>
+          <textarea id="f-es-text" rows="2" maxlength="500"></textarea>
+          <div class="lang-opts" data-optgroup>
+            <label>Options (A → D, ordre figé)</label>
+            <input type="text" id="f-es-opt-0" placeholder="A" maxlength="160">
+            <input type="text" id="f-es-opt-1" placeholder="B" maxlength="160">
+            <input type="text" id="f-es-opt-2" placeholder="C" maxlength="160">
+            <input type="text" id="f-es-opt-3" placeholder="D" maxlength="160">
+          </div>
+          <label>Anecdote</label>
+          <textarea id="f-es-explanation" rows="2" maxlength="500"></textarea>
+          <div class="lang-geo" data-geogroup hidden>
+            <label>Label (lieu)</label><input type="text" id="f-es-label">
+            <label>Pays</label><input type="text" id="f-es-country">
+          </div>
+        </div>
       </div>
 
       <div class="form-row form-actions">

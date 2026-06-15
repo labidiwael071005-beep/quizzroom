@@ -283,6 +283,41 @@
 .admin-modal .btn-ghost{ background:#efe6d2; color:var(--ink); box-shadow:0 4px 0 #d9ccaf; }
 .admin-modal .btn-ghost:hover{ background:#e7dcc2; }
 
+/* ── Modal multilingue ───────────────────────────────────────── */
+.admin-modal-wide{ max-width:1040px; }
+.meta-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:14px; }
+.meta-grid > div > label{ display:block; font-size:13px; font-weight:600; color:var(--ink-soft); margin-bottom:6px; }
+
+/* correctIndex partagé */
+.correct-row{ display:flex; gap:10px; flex-wrap:wrap; }
+.correct-opt{ display:inline-flex; align-items:center; gap:6px; padding:6px 12px; border:2px solid var(--panel-border); border-radius:10px; cursor:pointer; font-weight:700; color:var(--ink); }
+.correct-opt input{ accent-color:var(--accent); }
+.correct-opt:has(input:checked){ border-color:var(--accent); background:#eaf1ff; color:var(--accent); }
+
+/* Colonnes de langue */
+.lang-cols{ display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+.lang-col{ border:2px solid var(--panel-border); border-radius:12px; padding:12px; background:#fffdf7; }
+.lang-col > label{ display:block; font-size:12px; font-weight:600; color:var(--ink-soft); margin:8px 0 4px; }
+.lang-col-head{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; font-weight:700; color:var(--ink); padding-bottom:6px; border-bottom:2px solid var(--panel-border); }
+.lang-col-head .copy-fr{ margin-left:auto; padding:5px 9px; font-size:12px; }
+.lang-miss{ color:#e8261c; font-size:14px; line-height:1; }
+.lang-opts{ display:flex; flex-direction:column; gap:6px; }
+.lang-opts input{ margin-bottom:0; }
+.lang-geo > label{ display:block; font-size:12px; font-weight:600; color:var(--ink-soft); margin:8px 0 4px; }
+
+/* Onglets de langue : cachés sur grand écran (3 colonnes visibles) */
+.lang-tabs{ display:none; gap:8px; margin-bottom:10px; }
+.lang-tab{ flex:1; padding:9px; border:2px solid var(--panel-border); border-radius:10px; background:#fff; color:var(--ink); font-family:'Fredoka',sans-serif; font-weight:700; cursor:pointer; }
+.lang-tab.active{ background:var(--accent); color:#fff; border-color:var(--accent-dark); }
+
+@media (max-width:1100px){
+  .meta-grid{ grid-template-columns:1fr 1fr; }
+  .lang-tabs{ display:flex; }
+  .lang-cols{ grid-template-columns:1fr; }
+  .lang-col{ display:none; }
+  .lang-col.active{ display:block; }
+}
+
 /* ── Toast (réutilise .toast de style.css) ───────────────────── */
 .admin-body .toast{ font-family:'Fredoka',sans-serif; }
 

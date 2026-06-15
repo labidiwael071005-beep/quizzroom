@@ -280,7 +280,7 @@ function renderQuestions() {
     const action = btn.dataset.action;
     const id     = btn.dataset.id;
     btn.addEventListener('click', () => {
-      if (action === 'edit')   openModal(allQuestions.find(x => x.id === id));
+      if (action === 'edit')   openModal(id);
       if (action === 'delete') deleteQuestion(id);
     });
   });
@@ -291,42 +291,54 @@ function renderQuestions() {
 );
 document.getElementById('filter-search').addEventListener('input', debounce(loadQuestions, 300));
 
-// ── Modal create / edit ─────────────────────────────────────
+// ── Modal multilingue (create / edit) ───────────────────────
 const modal = document.getElementById('modal');
+const LANGS = ['fr', 'en', 'es'];
+function setVal(id, v) { const el = document.getElementById(id); if (el) el.value = v; }
+function getVal(id) { const el = document.getElementById(id); return el ? el.value : ''; }
 
-function openModal(question = null) {
-  document.getElementById('modal-title').textContent = question ? 'Éditer la question' : 'Nouvelle question';
-  document.getElementById('f-id').value = question?.id || '';
+function fillLang(l, t) {
+  setVal(`f-${l}-text`, t?.text || '');
+  const opts = t?.options || [];
+  for (let i = 0; i < 4; i++) setVal(`f-${l}-opt-${i}`, opts[i] || '');
+  setVal(`f-${l}-explanation`, t?.explanation || '');
+  setVal(`f-${l}-label`, t?.label || '');
+  setVal(`f-${l}-country`, t?.country || '');
+}
 
-  const type = question?.type || 'qcm';
-  document.getElementById('f-type').value       = type;
-  document.getElementById('f-question').value   = question?.question   || '';
-  document.getElementById('f-theme').value      = question?.theme      || 'general';
-  document.getElementById('f-difficulty').value = question?.difficulty || 'medium';
-  document.getElementById('f-explanation').value = question?.explanation || '';
+// openModal(id) : édition (fetch détail + 3 traductions) ; openModal(null) : création.
+async function openModal(id = null) {
+  const isEdit = !!id;
+  document.getElementById('modal-title').textContent = isEdit ? 'Éditer la question' : 'Nouvelle question';
+  document.getElementById('f-id').value = id || '';
 
-  // QCM / pixel : pré-remplir options
-  const opts = question?.options || [];
-  for (let i = 0; i < 4; i++) {
-    document.getElementById(`f-opt-${i}`).value = opts[i] || '';
+  let q = null, tr = { fr: null, en: null, es: null };
+  if (isEdit) {
+    try {
+      const r = await api('/api/admin/questions/' + id);
+      q = r.question; tr = q.translations || tr;
+    } catch (err) { showToast('Chargement impossible : ' + err.message, 'error'); return; }
   }
-  document.querySelectorAll('input[name="f-correct"]').forEach(r => {
-    r.checked = Number(r.value) === question?.correctIndex;
-  });
 
-  // Pixel
-  document.getElementById('f-imageUrl').value  = question?.imageUrl  || '';
-  document.getElementById('f-credit').value    = question?.credit    || '';
-  document.getElementById('f-creditUrl').value = question?.creditUrl || '';
-  document.getElementById('f-license').value   = question?.license   || '';
+  const type = q?.type || 'qcm';
+  setVal('f-type', type);
+  setVal('f-theme', q?.theme || 'general');
+  setVal('f-difficulty', q?.difficulty || 'medium');
+  setVal('f-status', q?.status || 'approved');
+  document.querySelectorAll('input[name="f-correct"]').forEach(r => { r.checked = Number(r.value) === q?.correctIndex; });
 
-  // Géo
-  document.getElementById('f-lat').value     = question?.lat     ?? '';
-  document.getElementById('f-lng').value     = question?.lng     ?? '';
-  document.getElementById('f-label').value   = question?.label   || '';
-  document.getElementById('f-country').value = question?.country || '';
+  setVal('f-imageUrl', q?.imageUrl || '');
+  setVal('f-credit', q?.credit || '');
+  setVal('f-creditUrl', q?.creditUrl || '');
+  setVal('f-license', q?.license || '');
+  setVal('f-lat', q?.lat ?? '');
+  setVal('f-lng', q?.lng ?? '');
+
+  LANGS.forEach(l => fillLang(l, tr[l]));
 
   syncFormByType();
+  updateMissingBadges();
+  setActiveLangTab('fr');
   modal.hidden = false;
 }
 
@@ -335,81 +347,121 @@ function closeModal() {
   document.getElementById('question-form').reset();
 }
 
-// Affiche / masque les fieldsets selon le type sélectionné.
+// Affiche/masque options (correctIndex + colonnes) vs géo selon le type.
 function syncFormByType() {
   const type = document.getElementById('f-type').value;
-  document.getElementById('f-options-group').hidden = type === 'geo';
-  document.getElementById('f-pixel-group').hidden   = type !== 'pixel';
-  document.getElementById('f-geo-group').hidden     = type !== 'geo';
-  // En géo, la theme est forcée à 'geo'.
+  const isOpt = type === 'qcm' || type === 'pixel';
+  document.getElementById('correct-group').hidden = !isOpt;
+  document.getElementById('f-pixel-group').hidden = type !== 'pixel';
+  document.getElementById('f-geo-group').hidden   = type !== 'geo';
+  document.querySelectorAll('[data-optgroup]').forEach(el => { el.hidden = !isOpt; });
+  document.querySelectorAll('[data-geogroup]').forEach(el => { el.hidden = type !== 'geo'; });
   if (type === 'geo') document.getElementById('f-theme').value = 'geo';
 }
 document.getElementById('f-type').addEventListener('change', syncFormByType);
 
+// Badge « langue manquante » (texte vide) sur colonnes + onglets.
+function updateMissingBadges() {
+  LANGS.forEach(l => {
+    const filled = !!getVal(`f-${l}-text`).trim();
+    const colBadge = document.getElementById(`miss-${l}`);
+    if (colBadge) colBadge.hidden = filled;
+    const tabBadge = document.querySelector(`.lang-tab[data-lang="${l}"] .lang-miss`);
+    if (tabBadge) tabBadge.hidden = filled;
+  });
+}
+// MAJ des badges à la frappe
+document.querySelectorAll('#f-fr-text, #f-en-text, #f-es-text').forEach(el =>
+  el.addEventListener('input', updateMissingBadges)
+);
+
+// Onglets de langue (utiles seulement sur petit écran ; sur large tout est visible)
+function setActiveLangTab(lang) {
+  document.querySelectorAll('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === lang));
+  document.querySelectorAll('.lang-col').forEach(c => c.classList.toggle('active', c.dataset.lang === lang));
+}
+document.querySelectorAll('.lang-tab').forEach(t =>
+  t.addEventListener('click', () => setActiveLangTab(t.dataset.lang))
+);
+
+// « Copier depuis FR » (EN / ES)
+document.querySelectorAll('.copy-fr').forEach(btn =>
+  btn.addEventListener('click', () => {
+    const target = btn.dataset.target;
+    fillLang(target, {
+      text:        getVal('f-fr-text'),
+      options:     [0, 1, 2, 3].map(i => getVal(`f-fr-opt-${i}`)),
+      explanation: getVal('f-fr-explanation'),
+      label:       getVal('f-fr-label'),
+      country:     getVal('f-fr-country'),
+    });
+    updateMissingBadges();
+  })
+);
+
 document.getElementById('btn-add').addEventListener('click', () => openModal(null));
 document.getElementById('modal-close').addEventListener('click', closeModal);
 document.getElementById('modal-cancel').addEventListener('click', closeModal);
-modal.addEventListener('click', (e) => {
-  if (e.target === modal) closeModal();
-});
+modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
 
 document.getElementById('question-form').addEventListener('submit', async (e) => {
   e.preventDefault();
-
-  const id   = document.getElementById('f-id').value;
-  const type = document.getElementById('f-type').value;
+  const id    = document.getElementById('f-id').value;
+  const type  = document.getElementById('f-type').value;
+  const isOpt = type === 'qcm' || type === 'pixel';
 
   const data = {
     type,
-    question:    document.getElementById('f-question').value.trim(),
-    theme:       document.getElementById('f-theme').value,
-    difficulty:  document.getElementById('f-difficulty').value,
-    explanation: document.getElementById('f-explanation').value.trim(),
-    language:    'fr',
+    theme:      getVal('f-theme'),
+    difficulty: getVal('f-difficulty'),
+    status:     getVal('f-status'),
   };
 
-  if (type === 'qcm' || type === 'pixel') {
-    const opts = [0, 1, 2, 3].map(i => document.getElementById(`f-opt-${i}`).value.trim());
-    if (opts.some(o => !o)) {
-      showToast('Renseigne les 4 options.', 'error');
-      return;
-    }
+  if (isOpt) {
     const correctEl = document.querySelector('input[name="f-correct"]:checked');
-    if (!correctEl) {
-      showToast('Coche la bonne réponse.', 'error');
-      return;
-    }
-    data.options      = opts;
+    if (!correctEl) { showToast('Coche la bonne réponse (A/B/C/D).', 'error'); return; }
     data.correctIndex = Number(correctEl.value);
   }
-
   if (type === 'pixel') {
-    data.imageUrl  = document.getElementById('f-imageUrl').value.trim();
-    data.credit    = document.getElementById('f-credit').value.trim();
-    data.creditUrl = document.getElementById('f-creditUrl').value.trim();
-    data.license   = document.getElementById('f-license').value.trim();
-    data.label     = document.getElementById('f-label').value.trim() || null;
+    data.imageUrl  = getVal('f-imageUrl').trim();
+    data.credit    = getVal('f-credit').trim();
+    data.creditUrl = getVal('f-creditUrl').trim();
+    data.license   = getVal('f-license').trim();
+  }
+  if (type === 'geo') {
+    const lat = parseFloat(getVal('f-lat')), lng = parseFloat(getVal('f-lng'));
+    if (!Number.isFinite(lat) || !Number.isFinite(lng)) { showToast('Coordonnées invalides.', 'error'); return; }
+    data.lat = lat; data.lng = lng;
   }
 
-  if (type === 'geo') {
-    const lat = parseFloat(document.getElementById('f-lat').value);
-    const lng = parseFloat(document.getElementById('f-lng').value);
-    if (!Number.isFinite(lat) || !Number.isFinite(lng)) {
-      showToast('Coordonnées invalides.', 'error');
-      return;
+  // Traductions : on n'envoie que les langues réellement renseignées (l'ordre des
+  // options reste FIGÉ A→D — aucun réordonnancement possible côté UI).
+  data.translations = {};
+  LANGS.forEach(l => {
+    const text        = getVal(`f-${l}-text`).trim();
+    const options     = [0, 1, 2, 3].map(i => getVal(`f-${l}-opt-${i}`).trim());
+    const explanation = getVal(`f-${l}-explanation`).trim();
+    const label       = getVal(`f-${l}-label`).trim();
+    const country     = getVal(`f-${l}-country`).trim();
+    const hasOpts = options.some(o => o);
+    if (text || hasOpts || explanation || label || country) {
+      data.translations[l] = {
+        text,
+        ...(isOpt ? { options } : {}),
+        explanation,
+        label:   label || null,
+        country: country || null,
+      };
     }
-    data.lat     = lat;
-    data.lng     = lng;
-    data.label   = document.getElementById('f-label').value.trim();
-    data.country = document.getElementById('f-country').value.trim();
-  }
+  });
+  if (!data.translations.fr) { showToast('Le texte en français est requis.', 'error'); return; }
 
   try {
     if (id) {
       await api('/api/admin/questions/' + id, { method: 'PUT', body: JSON.stringify(data) });
       showToast('Question mise à jour', 'success');
     } else {
-      await api('/api/admin/questions',       { method: 'POST', body: JSON.stringify(data) });
+      await api('/api/admin/questions', { method: 'POST', body: JSON.stringify(data) });
       showToast('Question créée', 'success');
     }
     closeModal();
