@@ -426,6 +426,49 @@ app.delete('/api/admin/questions/:id', adminAuth, async (req, res) => {
   }
 });
 
+// ── Actions en masse ──────────────────────────────────────────
+// Valide une liste d'ids (tableau de strings, 1..200).
+function sanitizeBulkIds(raw) {
+  const ids = Array.isArray(raw) ? raw.filter(x => typeof x === 'string' && x) : [];
+  return [...new Set(ids)];
+}
+
+app.post('/api/admin/questions/bulk-status', adminAuth, async (req, res) => {
+  try {
+    const b = req.body || {};
+    const ids = sanitizeBulkIds(b.ids);
+    if (!ids.length)      return res.status(400).json({ ok: false, error: 'Aucune question sélectionnée' });
+    if (ids.length > 200) return res.status(400).json({ ok: false, error: 'Trop d\'éléments (max 200)' });
+    if (!['approved', 'draft', 'rejected'].includes(b.status)) {
+      return res.status(400).json({ ok: false, error: 'Statut invalide' });
+    }
+    console.warn(`[ADMIN BULK] actor=admin action=status status=${b.status} count=${ids.length} t=${new Date().toISOString()} ids=${ids.join(',')}`);
+    // updateMany = une seule requête atomique ; ignore les ids inexistants.
+    const r = await prisma.question.updateMany({ where: { id: { in: ids } }, data: { status: b.status } });
+    await reloadQuestionStore();
+    res.json({ ok: true, count: r.count });
+  } catch (err) {
+    console.error('[POST /api/admin/questions/bulk-status]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
+  }
+});
+
+app.post('/api/admin/questions/bulk-delete', adminAuth, async (req, res) => {
+  try {
+    const ids = sanitizeBulkIds((req.body || {}).ids);
+    if (!ids.length)      return res.status(400).json({ ok: false, error: 'Aucune question sélectionnée' });
+    if (ids.length > 200) return res.status(400).json({ ok: false, error: 'Trop d\'éléments (max 200)' });
+    console.warn(`[ADMIN BULK] actor=admin action=delete count=${ids.length} t=${new Date().toISOString()} ids=${ids.join(',')}`);
+    // deleteMany = atomique ; cascade sur translations & reports (onDelete: Cascade).
+    const r = await prisma.question.deleteMany({ where: { id: { in: ids } } });
+    await reloadQuestionStore();
+    res.json({ ok: true, count: r.count });
+  } catch (err) {
+    console.error('[POST /api/admin/questions/bulk-delete]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
+  }
+});
+
 // ── Signalements (Phase 5) ────────────────────────────────────
 // Rate-limit dédié pour /api/report : 10/min/IP. On veut bloquer un
 // joueur qui spammerait le bouton mais rester généreux côté UX.

@@ -189,6 +189,7 @@ document.getElementById('btn-refresh-overview').addEventListener('click', loadOv
 
 // ── Liste ────────────────────────────────────────────────────
 let allQuestions = [];
+let selectedIds  = new Set();   // sélection pour les actions en masse
 
 function debounce(fn, ms) {
   let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); };
@@ -220,6 +221,7 @@ async function loadQuestions() {
   try {
     const { questions } = await api('/api/admin/questions?' + params.toString());
     allQuestions = questions;
+    selectedIds.clear();          // nouvelle liste → on repart d'une sélection vide
     renderQuestions();
   } catch (err) { /* déjà géré */ }
 }
@@ -254,6 +256,7 @@ function renderQuestions() {
     const sr = (q.successRate ?? null);
     return `
       <div class="admin-row" data-id="${escapeHtml(q.id)}">
+        <input type="checkbox" class="row-check" data-id="${escapeHtml(q.id)}" ${selectedIds.has(q.id) ? 'checked' : ''} aria-label="Sélectionner">
         <div class="row-type"><i class="ti ti-${typeIcon}"></i></div>
         <div class="row-main">
           <div class="row-question">${highlightTerm(q.question, term)}</div>
@@ -284,7 +287,91 @@ function renderQuestions() {
       if (action === 'delete') deleteQuestion(id);
     });
   });
+
+  // Cases de sélection (actions en masse)
+  list.querySelectorAll('.row-check').forEach(cb => {
+    cb.addEventListener('change', () => {
+      if (cb.checked) selectedIds.add(cb.dataset.id);
+      else selectedIds.delete(cb.dataset.id);
+      updateBulkBar();
+    });
+  });
+  updateBulkBar();
 }
+
+// ── Actions en masse ─────────────────────────────────────────
+function updateBulkBar() {
+  const n = selectedIds.size;
+  const bar = document.getElementById('bulk-bar');
+  if (bar) bar.hidden = n === 0;
+  const cnt = document.getElementById('bulk-count');
+  if (cnt) cnt.textContent = `${n} sélectionnée${n > 1 ? 's' : ''}`;
+  const all = document.getElementById('bulk-select-all');
+  if (all) {
+    const total = allQuestions.length;
+    all.checked = total > 0 && n === total;
+    all.indeterminate = n > 0 && n < total;
+  }
+}
+
+document.getElementById('bulk-select-all').addEventListener('change', (e) => {
+  selectedIds.clear();
+  if (e.target.checked) allQuestions.forEach(q => selectedIds.add(q.id));
+  document.querySelectorAll('#questions-list .row-check').forEach(cb => { cb.checked = e.target.checked; });
+  updateBulkBar();
+});
+
+document.getElementById('bulk-deselect').addEventListener('click', () => {
+  selectedIds.clear();
+  document.querySelectorAll('#questions-list .row-check').forEach(cb => { cb.checked = false; });
+  updateBulkBar();
+});
+
+document.getElementById('bulk-status-select').addEventListener('change', async (e) => {
+  const status = e.target.value;
+  e.target.value = '';                 // reset le select
+  if (!status || selectedIds.size === 0) return;
+  const ids = [...selectedIds];
+  const labels = { approved: 'Approuvée', draft: 'Brouillon', rejected: 'Rejetée' };
+  if (!confirm(`Changer le statut de ${ids.length} question(s) en « ${labels[status]} » ?`)) return;
+  try {
+    await api('/api/admin/questions/bulk-status', { method: 'POST', body: JSON.stringify({ ids, status }) });
+    showToast(`Statut mis à jour (${ids.length})`, 'success');
+    loadStats();
+    loadQuestions();
+  } catch (err) { showToast('Erreur : ' + err.message, 'error'); }
+});
+
+// Suppression en masse : confirmation par saisie de « SUPPRIMER »
+const confirmModal = document.getElementById('confirm-modal');
+const confirmInput = document.getElementById('confirm-input');
+const confirmOk    = document.getElementById('confirm-ok');
+
+document.getElementById('bulk-delete').addEventListener('click', () => {
+  if (selectedIds.size === 0) return;
+  document.getElementById('confirm-msg').textContent =
+    `Vous allez supprimer ${selectedIds.size} question(s).`;
+  confirmInput.value = '';
+  confirmOk.disabled = true;
+  confirmModal.hidden = false;
+  confirmInput.focus();
+});
+confirmInput.addEventListener('input', () => { confirmOk.disabled = confirmInput.value !== 'SUPPRIMER'; });
+function closeConfirm() { confirmModal.hidden = true; }
+document.getElementById('confirm-cancel').addEventListener('click', closeConfirm);
+confirmModal.addEventListener('click', (e) => { if (e.target === confirmModal) closeConfirm(); });
+confirmOk.addEventListener('click', async () => {
+  if (confirmInput.value !== 'SUPPRIMER' || selectedIds.size === 0) return;
+  const ids = [...selectedIds];
+  confirmOk.disabled = true;
+  try {
+    await api('/api/admin/questions/bulk-delete', { method: 'POST', body: JSON.stringify({ ids }) });
+    showToast(`${ids.length} question(s) supprimée(s)`, 'success');
+    closeConfirm();
+    loadStats();
+    loadQuestions();
+  } catch (err) { showToast('Erreur : ' + err.message, 'error'); confirmOk.disabled = false; }
+});
 
 ['filter-type', 'filter-theme', 'filter-difficulty', 'filter-stat', 'filter-sort'].forEach(id =>
   document.getElementById(id).addEventListener('change', loadQuestions)

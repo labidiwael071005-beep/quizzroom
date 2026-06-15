@@ -138,6 +138,27 @@
 .admin-body .btn-ghost.danger{ color:#ffb4ab; }
 .admin-body .btn.danger:hover{ background:rgba(232,38,28,0.22); color:#fff; }
 
+/* ── Barre de sélection / actions en masse ───────────────────── */
+.qlist-toolbar{
+  position:sticky; top:54px; z-index:10;
+  display:flex; align-items:center; gap:16px; flex-wrap:wrap;
+  padding:10px 6px; margin-bottom:10px;
+  background:var(--a-card); border-bottom:2px solid var(--a-border);
+}
+.bulk-all{ display:inline-flex; align-items:center; gap:8px; font-weight:600; color:var(--a-text); cursor:pointer; }
+.bulk-all input{ width:18px; height:18px; accent-color:var(--accent); }
+.bulk-bar{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+.bulk-bar[hidden]{ display:none; }
+.bulk-count{ font-weight:700; color:var(--logo-gold); }
+.bulk-status{ padding:7px 10px; border-radius:10px; border:2px solid var(--a-border); background:var(--a-input); color:var(--a-text); font-family:'Fredoka',sans-serif; font-size:13px; }
+.bulk-status option{ background:var(--a-input); color:var(--a-text); }
+.row-check{ width:18px; height:18px; flex-shrink:0; accent-color:var(--accent); cursor:pointer; }
+
+/* Bouton de confirmation destructif (modal SUPPRIMER) */
+#confirm-ok{ background:#e8261c !important; color:#fff !important; box-shadow:0 5px 0 #8f120c; }
+#confirm-ok:disabled{ opacity:.5; cursor:not-allowed; box-shadow:none; }
+#confirm-input{ width:100%; }
+
 /* ── Listes / lignes (questions) ─────────────────────────────── */
 .admin-list{ display:flex; flex-direction:column; gap:8px; }
 .admin-row{

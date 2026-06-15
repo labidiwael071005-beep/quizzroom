@@ -191,6 +191,23 @@
         <div class="admin-card-head">
           <h2><i class="ti ti-list"></i> Questions <span class="admin-count" id="list-count"></span></h2>
         </div>
+
+        <!-- Barre de sélection / actions en masse (collante en haut) -->
+        <div class="qlist-toolbar" id="qlist-toolbar">
+          <label class="bulk-all"><input type="checkbox" id="bulk-select-all"> Tout sélectionner (page)</label>
+          <div class="bulk-bar" id="bulk-bar" hidden>
+            <span class="bulk-count" id="bulk-count"></span>
+            <select id="bulk-status-select" class="bulk-status">
+              <option value="">Changer le statut…</option>
+              <option value="approved">→ Approuvée</option>
+              <option value="draft">→ Brouillon</option>
+              <option value="rejected">→ Rejetée</option>
+            </select>
+            <button type="button" class="btn btn-ghost btn-sm danger" id="bulk-delete"><i class="ti ti-trash"></i> Supprimer</button>
+            <button type="button" class="btn btn-ghost btn-sm" id="bulk-deselect">Désélectionner</button>
+          </div>
+        </div>
+
         <div class="admin-list" id="questions-list"></div>
         <div id="list-empty" class="admin-empty" hidden>
           <i class="ti ti-mood-empty"></i>
@@ -398,6 +415,26 @@
         </button>
       </div>
     </form>
+  </div>
+</div>
+
+<!-- ── Confirmation de suppression en masse (taper SUPPRIMER) ── -->
+<div id="confirm-modal" class="admin-modal-overlay" hidden>
+  <div class="admin-modal" style="max-width:440px">
+    <div class="admin-modal-head">
+      <h2><i class="ti ti-alert-triangle"></i> Suppression en masse</h2>
+    </div>
+    <div class="admin-modal-body">
+      <p id="confirm-msg" style="color:var(--ink)"></p>
+      <p style="color:var(--ink)">Cette action est <strong>IRRÉVERSIBLE</strong>. Tapez <strong>SUPPRIMER</strong> pour confirmer :</p>
+      <input type="text" id="confirm-input" autocomplete="off" placeholder="SUPPRIMER">
+      <div class="form-row form-actions" style="margin-top:14px">
+        <button type="button" class="btn btn-ghost" id="confirm-cancel">Annuler</button>
+        <button type="button" class="btn btn-orange danger" id="confirm-ok" disabled>
+          <i class="ti ti-trash"></i> Supprimer définitivement
+        </button>
+      </div>
+    </div>
   </div>
 </div>
 
