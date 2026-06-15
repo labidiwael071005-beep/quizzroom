@@ -62,6 +62,9 @@ app.use(helmet({
         "https://upload.wikimedia.org",
         "https://*.tile.openstreetmap.org",
         "https://unpkg.com",
+        // Avatars Google (photo de profil OAuth)
+        "https://lh3.googleusercontent.com",
+        "https://*.googleusercontent.com",
       ],
       connectSrc: ["'self'", "wss:", "ws:"],
       frameAncestors: ["'none'"],
@@ -100,6 +103,80 @@ const {
   SUPPORTED_LANGS,
 } = require('./question-store');
 const { distanceKm, geoScore } = require('./geo-math');
+
+// ── Sessions + Passport (connexion Google OPTIONNELLE) ────────
+// Ordre IMPÉRATIF : session AVANT passport, passport AVANT les routes.
+// Le static (servi plus haut) ne traverse PAS ce middleware → pas de requête
+// DB de session par asset. Le store vit dans la même base Neon
+// (connect-pg-simple) pour survivre aux redémarrages de Render.
+const session         = require('express-session');
+const passport        = require('passport');
+const GoogleStrategy  = require('passport-google-oauth20').Strategy;
+const PgSession       = require('connect-pg-simple')(session);
+const { Pool }        = require('pg');
+
+const IS_PROD = process.env.NODE_ENV === 'production';
+
+// En prod, refuser de démarrer sans secret de session (cookies non sûrs sinon).
+if (IS_PROD && !process.env.SESSION_SECRET) {
+  throw new Error('SESSION_SECRET manquant en production — démarrage refusé.');
+}
+
+// Pool PG dédié au store de session (Neon impose SSL).
+const sessionPool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+  ssl: { rejectUnauthorized: false },
+});
+
+app.use(session({
+  name:  'squizz.sid',
+  store: new PgSession({ pool: sessionPool, createTableIfMissing: true }),
+  secret: process.env.SESSION_SECRET || 'dev-insecure-secret-change-me',
+  resave: false,
+  saveUninitialized: false,
+  cookie: {
+    httpOnly: true,
+    sameSite: 'lax',
+    secure:   IS_PROD,                 // Render termine le HTTPS en amont
+    maxAge:   30 * 24 * 60 * 60 * 1000, // 30 jours
+  },
+}));
+
+app.use(passport.initialize());
+app.use(passport.session());
+
+// Stratégie Google : upsert d'un User par googleId à chaque connexion.
+passport.use(new GoogleStrategy({
+  clientID:     process.env.GOOGLE_CLIENT_ID,
+  clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+  callbackURL:  '/auth/google/callback',
+  proxy:        true,   // construit le redirect_uri en https derrière le proxy Render
+}, async (accessToken, refreshToken, profile, done) => {
+  try {
+    const googleId    = profile.id;
+    const email       = profile.emails?.[0]?.value || null;
+    const displayName = profile.displayName || email || 'Joueur';
+    const avatarUrl   = profile.photos?.[0]?.value || null;
+    const user = await prisma.user.upsert({
+      where:  { googleId },
+      create: { googleId, email, displayName, avatarUrl },
+      update: { displayName, avatarUrl, email, lastLoginAt: new Date() },
+    });
+    done(null, user);
+  } catch (err) {
+    done(err);
+  }
+}));
+
+passport.serializeUser((user, done) => done(null, user.id));
+passport.deserializeUser(async (id, done) => {
+  try {
+    const user = await prisma.user.findUnique({ where: { id } });
+    done(null, user || false);
+  } catch (err) {
+    done(err);
+  }
+});
 
 // ── Auth admin (session token, scrypt-free pour limiter les deps) ─
 const ADMIN_PASSWORD_HASH = crypto.createHash('sha256')
