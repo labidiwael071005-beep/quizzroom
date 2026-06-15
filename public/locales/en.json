@@ -203,5 +203,6 @@
   "home.slogan": "Challenge your friends in the spotlight",
   "home.or": "or",
   "lobby.heading": "Waiting room",
-  "lobby.rounds.qtitle": "Rounds & questions"
+  "lobby.rounds.qtitle": "Rounds & questions",
+  "game.round.exhausted": "No more questions available for this round"
 }

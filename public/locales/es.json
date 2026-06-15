@@ -203,5 +203,6 @@
   "home.slogan": "Reta a tus amigos bajo los focos",
   "home.or": "o",
   "lobby.heading": "Sala de espera",
-  "lobby.rounds.qtitle": "Rondas y preguntas"
+  "lobby.rounds.qtitle": "Rondas y preguntas",
+  "game.round.exhausted": "No quedan más preguntas para esta ronda"
 }

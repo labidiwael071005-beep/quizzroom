@@ -760,6 +760,11 @@ function advance(code) {
   const wasLastInRound = room.currentQuestion + 1 >= round.questions.length;
   const wasLastRound   = room.currentRound + 1 >= room.roundPlan.length;
 
+  // Manche raccourcie (réservoir épuisé) : on signale discrètement au client.
+  if (wasLastInRound && round.qCount && round.questions.length < round.qCount) {
+    io.to(code).emit('round_exhausted', { roundName: round.name });
+  }
+
   if (wasLastInRound && wasLastRound) {
     doGameOver(code);
   } else if (wasLastInRound) {

@@ -1009,6 +1009,12 @@ socket.on('round_started', ({ roundName }) => {
   document.getElementById('hud-round').textContent = roundLabel(roundName);
 });
 
+// Anti-répétition : réservoir épuisé pour une manche → message discret, sans
+// bloquer le passage à la manche suivante (géré par le serveur).
+socket.on('round_exhausted', () => {
+  showToast(t('game.round.exhausted', 'Plus de questions disponibles pour cette manche'), '');
+});
+
 socket.on('players_update', ({ players, teams: teamsArr }) => {
   currentPlayers = players;
   currentTeams   = teamsArr || [];

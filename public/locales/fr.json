@@ -203,5 +203,6 @@
   "home.slogan": "Défie tes amis sous les projecteurs",
   "home.or": "ou",
   "lobby.heading": "Salon d’attente",
-  "lobby.rounds.qtitle": "Manches & questions"
+  "lobby.rounds.qtitle": "Manches & questions",
+  "game.round.exhausted": "Plus de questions disponibles pour cette manche"
 }
