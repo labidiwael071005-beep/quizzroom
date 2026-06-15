@@ -780,6 +780,7 @@ function advance(code) {
 function doGameOver(code) {
   const room = rooms[code];
   if (!room) return;
+  finalizeGameSession(room);   // endedAt = now (traçabilité, fire-and-forget)
   const ranking = room.settings.teamMode
     ? [...room.teams].sort((a, b) => b.score - a.score)
     : [...room.players].sort((a, b) => b.score - a.score);
@@ -803,6 +804,44 @@ function doGameOver(code) {
   room.players.forEach(p => { p.score = 0; });
   if (room.teams) room.teams.forEach(t => { t.score = 0; });
   console.log(`🔁 Room ${code} : partie terminée, retour au lobby possible`);
+}
+
+// ── Traçabilité GameSession (fire-and-forget : ne bloque JAMAIS le jeu) ───────
+// L'autorité anti-répétition reste room.servedQuestionIds (mémoire). Ici on ne
+// fait QUE tracer en base, sans jamais propager une erreur DB au gameflow.
+// roomCode est @unique au schéma → on suffixe d'un timestamp pour avoir UNE
+// GameSession par partie (une même room peut enchaîner plusieurs parties).
+function ensureGameSession(room, code) {
+  if (!room || room.gameSessionKey) return;
+  const key = `${code}-${Date.now()}`;
+  room.gameSessionKey = key;
+  room.gsReady = prisma.gameSession.create({
+    data: {
+      roomCode:    key,
+      playerNames: (room.players || []).map(p => p.name),
+      settings:    room.settings || {},
+      questionIds: [...(room.servedOrder || [])],
+    },
+  }).catch(err => console.warn(`[GameSession] create ${key} fail:`, err.message));
+}
+
+function persistServedQuestion(room, code) {
+  if (!room) return;
+  ensureGameSession(room, code);
+  const key = room.gameSessionKey;
+  const ids = [...(room.servedOrder || [])];   // cumul → pas de read-modify-write
+  room.gsReady = (room.gsReady || Promise.resolve())
+    .then(() => prisma.gameSession.update({ where: { roomCode: key }, data: { questionIds: ids } }))
+    .catch(err => console.warn(`[GameSession] update ${key} fail:`, err.message));
+}
+
+function finalizeGameSession(room) {
+  if (!room || !room.gameSessionKey) return;
+  const key = room.gameSessionKey;
+  const ids = [...(room.servedOrder || [])];
+  room.gsReady = (room.gsReady || Promise.resolve())
+    .then(() => prisma.gameSession.update({ where: { roomCode: key }, data: { endedAt: new Date(), questionIds: ids } }))
+    .catch(err => console.warn(`[GameSession] finalize ${key} fail:`, err.message));
 }
 
 function buildRoundPlan(settings) {
@@ -925,6 +964,8 @@ function sendQuestion(code) {
   io.to(code).emit('new_question', payload);
   // Stat fire-and-forget : on incrémente timesShown pour la question diffusée.
   if (q.id) recordShown(q.id);
+  // Traçabilité GameSession (fire-and-forget, n'impacte pas le gameflow).
+  persistServedQuestion(room, code);
 
   if (round.name === 'pari') {
     // Pari : pas de timeout d'avance immédiat. On attend le "miser et voir" de chaque joueur,
