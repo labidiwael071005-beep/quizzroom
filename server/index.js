@@ -825,20 +825,32 @@ function defaultQCount(round) {
   return { culture: 10, geo: 5, pari: 3, pixel: 5 }[round] || 5;
 }
 
-async function loadRoundQuestions(plan, difficulty) {
+// `served` : Set d'ids déjà servis dans la partie. On charge les manches l'une
+// après l'autre en l'EXCLUANT puis en y ajoutant les ids choisis → aucune
+// répétition possible entre manches (culture/pixel/géo/pari), même si plusieurs
+// manches partagent le même type (ex : culture + pari = tous deux des QCM).
+async function loadRoundQuestions(plan, difficulty, served, codeForLog) {
+  const ex = served instanceof Set ? served : new Set();
   for (const round of plan) {
     if (round.type === 'pixel') {
-      round.questions = getPixelQuestions({ count: round.qCount });
+      round.questions = getPixelQuestions({ count: round.qCount, exclude: ex });
     } else if (round.type === 'geomap') {
-      round.questions = getGeoQuestions({ count: round.qCount });
+      round.questions = getGeoQuestions({ count: round.qCount, exclude: ex });
     } else {
       round.questions = await getQuestions({
         themes:     round.themes,
         difficulty: difficulty || 'medium',
         count:      round.qCount,
+        exclude:    ex,
       });
     }
-    console.log(`📚 Manche "${round.name}" : ${round.qCount} demandée(s), ${round.questions.length} chargée(s)`);
+    // Réserve les ids choisis AVANT toute émission → pas de doublon ni de race.
+    for (const q of round.questions) if (q && q.id) ex.add(q.id);
+    if (round.questions.length < round.qCount) {
+      console.warn(`[anti-rep] ${codeForLog || ''} manche "${round.name}" : ${round.questions.length}/${round.qCount} chargée(s) (réservoir épuisé, servedIds=${ex.size})`);
+    } else {
+      console.log(`📚 Manche "${round.name}" : ${round.qCount} demandée(s), ${round.questions.length} chargée(s)`);
+    }
   }
 }
 
@@ -861,6 +873,20 @@ function sendQuestion(code) {
   const questionIndex   = room.currentQuestion;
   const currentRoundIdx = room.currentRound;
   const q               = round.questions[questionIndex];
+
+  // Sécurité réservoir épuisé : aucune question à cet index → on ne répète JAMAIS,
+  // on termine proprement (manche suivante ou fin de partie) plutôt que planter.
+  if (!q) {
+    console.warn(`[anti-rep] ${code} sendQuestion sans question (manche="${round.name}", idx=${questionIndex})`);
+    finishExhaustedRound(code, round);
+    return;
+  }
+  // Anti-répétition : id marqué « servi » AVANT l'émission (pas de race).
+  if (q.id) {
+    room.servedQuestionIds.add(q.id);
+    room.servedOrder = room.servedOrder || [];
+    room.servedOrder.push(q.id);
+  }
 
   const payload = {
     questionId: q.id || null,
@@ -941,12 +967,36 @@ function startPariAnswerPhase(code, questionIndex, roundIndex) {
   }, 16000);
 }
 
+// Réservoir épuisé pour la manche en cours : on la termine proprement et on
+// enchaîne (manche suivante ou fin de partie via le flux normal). Jamais de
+// doublon, jamais de crash. Émet round_exhausted (toast i18n côté client).
+function finishExhaustedRound(code, round) {
+  const room = rooms[code];
+  if (!room) return;
+  io.to(code).emit('round_exhausted', { roundName: round ? round.name : null });
+  if (room.currentRound + 1 >= room.roundPlan.length) {
+    doGameOver(code);
+  } else {
+    room.currentRound++;
+    room.currentQuestion = 0;
+    startRound(code, room.currentRound);
+  }
+}
+
 // Annonce dramatique d'une manche, puis lance sa première question
 function startRound(code, roundIndex) {
   const room = rooms[code];
   if (!room) return;
   const round = room.roundPlan[roundIndex];
   if (!round) return;
+
+  // Anti-répétition : si le réservoir était déjà épuisé au chargement, la manche
+  // n'a aucune question → on la saute proprement (pas d'intro vide, pas de crash).
+  if (!round.questions || round.questions.length === 0) {
+    console.warn(`[anti-rep] ${code} manche "${round.name}" vide → sautée`);
+    finishExhaustedRound(code, round);
+    return;
+  }
 
   room.phase = 'intro';
   room.questionStartTime = null;
@@ -996,6 +1046,12 @@ io.on('connection', (socket) => {
       questionStartTime: null,
       roundPlan:    [],
       history:      [],
+      // Anti-répétition : ids des questions déjà servies dans la partie en cours
+      // (toutes manches confondues). Autorité en mémoire. Vidé à chaque relance.
+      servedQuestionIds: new Set(),
+      servedOrder:       [],     // ordre des ids réellement servis (traçabilité GameSession)
+      gameSessionKey:    null,   // clé unique de la GameSession de la partie en cours
+      gsReady:           null,   // chaîne de promesses DB (fire-and-forget)
     };
     socket.join(code);
     console.log(`🎮 Room créée : ${code} par ${name}`);
@@ -1167,7 +1223,13 @@ io.on('connection', (socket) => {
       room.currentRound = 0;
       room.currentQuestion = 0;
       room.history      = [];
-      await loadRoundQuestions(room.roundPlan, room.settings.difficulty);
+      // Nouveau cycle de manches → on vide la mémoire anti-répétition et on
+      // prépare une NOUVELLE GameSession (traçabilité) pour cette partie.
+      room.servedQuestionIds = new Set();
+      room.servedOrder       = [];
+      room.gameSessionKey    = null;
+      room.gsReady           = null;
+      await loadRoundQuestions(room.roundPlan, room.settings.difficulty, room.servedQuestionIds, code);
 
       const first = room.roundPlan[0];
       io.to(code).emit('game_started', {

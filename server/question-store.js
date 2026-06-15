@@ -173,33 +173,45 @@ function adaptPixel(row) {
   };
 }
 
-// QCM : on filtre par theme (string ou tableau) + difficulty, on retire `count`
-// au hasard. Compatible avec l'ancienne API.
-function getQuestions({ themes = 'general', difficulty = 'medium', count = 10 }) {
+// Tire jusqu'à `count` questions DISTINCTES, en excluant les ids déjà servis,
+// en parcourant une liste de pools par ordre de PRIORITÉ (fallback). Une fois
+// `count` atteint on s'arrête ; on ne reprend jamais une question déjà servie
+// ni une déjà choisie dans cet appel. Peut renvoyer MOINS que `count` (réservoir
+// épuisé) — c'est volontaire (manche raccourcie côté serveur).
+function pickDistinct(pools, count, exclude) {
+  const ex   = exclude instanceof Set ? exclude : new Set();
+  const out  = [];
+  const seen = new Set();
+  for (const pool of pools) {
+    if (out.length >= count) break;
+    const avail = pool.filter(q => !ex.has(q.id) && !seen.has(q.id));
+    for (const q of pickRandom(avail, count - out.length)) { seen.add(q.id); out.push(q); }
+  }
+  return out;
+}
+
+// QCM : filtre par theme (string|tableau) + difficulty, EXCLUT les ids déjà
+// servis, et applique un fallback progressif si le pool strict ne suffit pas :
+//   1) thèmes + difficulté  →  2) thèmes (toute difficulté)  →  3) tout le type.
+// `exclude` = Set d'ids déjà servis dans la partie (anti-répétition).
+function getQuestions({ themes = 'general', difficulty = 'medium', count = 10, exclude } = {}) {
   const themeList = Array.isArray(themes) ? themes : [themes];
-
-  let pool = cache.qcm.filter(q =>
-    themeList.includes(q.theme) && q.difficulty === difficulty
-  );
-
-  // Fallback si la difficulté demandée n'a rien (ancien fallback "medium")
-  if (pool.length === 0) {
-    pool = cache.qcm.filter(q => themeList.includes(q.theme));
-  }
-  // Dernier recours : élargir à general
-  if (pool.length === 0) {
-    pool = cache.qcm.filter(q => q.theme === 'general');
-  }
-
-  return pickRandom(pool, count).map(adaptQcm);
+  const inThemes  = q => themeList.includes(q.theme);
+  const pools = [
+    cache.qcm.filter(q => inThemes(q) && q.difficulty === difficulty), // 1. strict
+    cache.qcm.filter(q => inThemes(q)),                                // 2. difficulté relâchée
+    cache.qcm,                                                         // 3. thèmes relâchés (tout le type)
+  ];
+  return pickDistinct(pools, count, exclude).map(adaptQcm);
 }
 
-function getPixelQuestions({ count = 5 }) {
-  return pickRandom(cache.pixel, count).map(adaptPixel);
+function getPixelQuestions({ count = 5, exclude } = {}) {
+  // Pas de filtre thème/difficulté pour le pixel : un seul pool, hors exclusions.
+  return pickDistinct([cache.pixel], count, exclude).map(adaptPixel);
 }
 
-function getGeoQuestions({ count = 5 }) {
-  return pickRandom(cache.geo, count).map(adaptGeo);
+function getGeoQuestions({ count = 5, exclude } = {}) {
+  return pickDistinct([cache.geo], count, exclude).map(adaptGeo);
 }
 
 // ── Stats : fire-and-forget (on ne bloque pas le gameflow) ────
