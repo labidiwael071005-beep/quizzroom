@@ -159,6 +159,26 @@
 #confirm-ok:disabled{ opacity:.5; cursor:not-allowed; box-shadow:none; }
 #confirm-input{ width:100%; }
 
+/* ── Tri cliquable (en-têtes) ────────────────────────────────── */
+.sort-head{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin:2px 0 12px; }
+.sort-head-label{ font-size:13px; font-weight:600; color:var(--a-faint); }
+.sort-btn{
+  display:inline-flex; align-items:center; gap:5px;
+  padding:6px 12px; border-radius:10px;
+  border:2px solid var(--a-border); background:var(--a-input); color:var(--a-text);
+  font-family:'Fredoka',sans-serif; font-size:13px; font-weight:600; cursor:pointer; transition:all .12s;
+}
+.sort-btn:hover{ border-color:var(--a-gold-b); }
+.sort-btn .sort-arrow{ font-size:10px; opacity:0; }
+.sort-btn.active{ background:var(--gold-grad); color:#5a3a00; border-color:var(--gold-dark); box-shadow:0 3px 0 var(--gold-dark); }
+.sort-btn.active .sort-arrow{ opacity:1; }
+
+/* ── Pagination ──────────────────────────────────────────────── */
+.pager{ display:flex; align-items:center; justify-content:center; gap:14px; margin-top:14px; }
+.pager[hidden]{ display:none; }
+.pager-info{ font-size:13px; font-weight:600; color:var(--a-faint); min-width:120px; text-align:center; }
+.pager .btn:disabled{ opacity:.4; cursor:not-allowed; box-shadow:none; }
+
 /* ── Listes / lignes (questions) ─────────────────────────────── */
 .admin-list{ display:flex; flex-direction:column; gap:8px; }
 .admin-row{

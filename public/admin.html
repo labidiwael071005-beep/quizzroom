@@ -178,11 +178,6 @@
             <option value="hard">Souvent ratées (&lt;40%)</option>
             <option value="easy">Très réussies (≥80%)</option>
           </select>
-          <select id="filter-sort" title="Tri">
-            <option value="date">Tri : date</option>
-            <option value="rate">Tri : taux</option>
-            <option value="freq">Tri : fréquence</option>
-          </select>
           <input type="search" id="filter-search" placeholder="Rechercher dans la question…">
         </div>
       </div>
@@ -208,10 +203,25 @@
           </div>
         </div>
 
+        <!-- En-têtes de tri cliquables (flèche = tri actif) -->
+        <div class="sort-head" id="sort-head">
+          <span class="sort-head-label">Trier :</span>
+          <button type="button" class="sort-btn active" data-sort="date">Date <span class="sort-arrow">▼</span></button>
+          <button type="button" class="sort-btn" data-sort="rate">Taux <span class="sort-arrow">▲</span></button>
+          <button type="button" class="sort-btn" data-sort="freq">Fréquence <span class="sort-arrow">▼</span></button>
+        </div>
+
         <div class="admin-list" id="questions-list"></div>
         <div id="list-empty" class="admin-empty" hidden>
           <i class="ti ti-mood-empty"></i>
           Aucune question pour ces filtres.
+        </div>
+
+        <!-- Pagination -->
+        <div class="pager" id="pager" hidden>
+          <button type="button" class="btn btn-ghost btn-sm" id="pager-prev"><i class="ti ti-chevron-left"></i> Précédent</button>
+          <span class="pager-info" id="pager-info"></span>
+          <button type="button" class="btn btn-ghost btn-sm" id="pager-next">Suivant <i class="ti ti-chevron-right"></i></button>
         </div>
       </div>
 

@@ -70,7 +70,12 @@ function showLogin() {
 function showDashboard() {
   loginSection.hidden = true;
   dashSection.hidden  = false;
-  switchTab('dashboard');     // onglet par défaut à la connexion
+  readStateFromUrl();         // restaure filtres/recherche/tri/page depuis l'URL
+  // Si l'URL porte un état « Questions », on ouvre cet onglet (lien partagé/reload),
+  // sinon onglet par défaut (tableau de bord).
+  const up = new URLSearchParams(location.search);
+  const hasQState = ['type', 'theme', 'difficulty', 'stat', 'sort', 'q', 'page'].some(k => up.has(k));
+  switchTab(hasQState ? 'questions' : 'dashboard');
   loadStats();
   loadOverview();
   startOverviewAutoRefresh();
@@ -188,11 +193,53 @@ function stopOverviewAutoRefresh() {
 document.getElementById('btn-refresh-overview').addEventListener('click', loadOverview);
 
 // ── Liste ────────────────────────────────────────────────────
-let allQuestions = [];
-let selectedIds  = new Set();   // sélection pour les actions en masse
+let allQuestions   = [];
+let selectedIds    = new Set();   // sélection pour les actions en masse
+let currentSort    = 'date';      // date | rate | freq (tri cliquable)
+let currentPage    = 1;           // pagination (1-based)
+let totalQuestions = 0;           // total après filtres (renvoyé par l'API)
+const PAGE_SIZE    = 50;
 
 function debounce(fn, ms) {
   let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); };
+}
+
+// ── État persisté dans l'URL (filtres + recherche + tri + page) ───
+// Permet de partager/recharger une vue filtrée. Pas de push (pas d'historique),
+// juste un replace pour garder l'URL synchro avec les contrôles.
+function syncStateToUrl() {
+  const p = new URLSearchParams();
+  const get = id => document.getElementById(id).value;
+  const type = get('filter-type'), theme = get('filter-theme');
+  const difficulty = get('filter-difficulty'), stat = get('filter-stat');
+  const q = document.getElementById('filter-search').value.trim();
+  if (type)       p.set('type', type);
+  if (theme)      p.set('theme', theme);
+  if (difficulty) p.set('difficulty', difficulty);
+  if (stat)       p.set('stat', stat);
+  if (currentSort && currentSort !== 'date') p.set('sort', currentSort);
+  if (q)          p.set('q', q);
+  if (currentPage > 1) p.set('page', String(currentPage));
+  const qs = p.toString();
+  history.replaceState(null, '', qs ? '?' + qs : location.pathname);
+}
+
+function readStateFromUrl() {
+  const p = new URLSearchParams(location.search);
+  const setSel = (id, allowed, fallback) => {
+    const v = p.get(id.replace('filter-', ''));
+    const el = document.getElementById(id);
+    if (el && v != null && (!allowed || allowed.includes(v))) el.value = v;
+    else if (el && fallback != null) el.value = fallback;
+  };
+  setSel('filter-type', ['qcm', 'pixel', 'geo'], '');
+  setSel('filter-theme', null, '');   // thème : liste large, on fait confiance
+  setSel('filter-difficulty', ['easy', 'medium', 'hard'], '');
+  setSel('filter-stat', ['never', 'hard', 'easy'], '');
+  const s = document.getElementById('filter-search');
+  if (s) s.value = p.get('q') || '';
+  currentSort = ['date', 'rate', 'freq'].includes(p.get('sort')) ? p.get('sort') : 'date';
+  currentPage = Math.max(1, parseInt(p.get('page'), 10) || 1);
 }
 
 // Surbrillance (dorée) du terme recherché — on échappe AVANT d'injecter <mark>.
@@ -209,21 +256,50 @@ async function loadQuestions() {
   const theme      = document.getElementById('filter-theme').value;
   const difficulty = document.getElementById('filter-difficulty').value;
   const stat       = document.getElementById('filter-stat').value;
-  const sort       = document.getElementById('filter-sort').value;
   const q          = document.getElementById('filter-search').value.trim();
   const params = new URLSearchParams();
   if (type)       params.set('type', type);
   if (theme)      params.set('theme', theme);
   if (difficulty) params.set('difficulty', difficulty);
   if (stat)       params.set('stat', stat);
-  if (sort && sort !== 'date') params.set('sort', sort);
+  if (currentSort && currentSort !== 'date') params.set('sort', currentSort);
   if (q)          params.set('q', q);
+  params.set('page', String(currentPage));
+  params.set('pageSize', String(PAGE_SIZE));
+  syncStateToUrl();
   try {
-    const { questions } = await api('/api/admin/questions?' + params.toString());
-    allQuestions = questions;
+    const res = await api('/api/admin/questions?' + params.toString());
+    allQuestions   = res.questions || [];
+    totalQuestions = res.total ?? allQuestions.length;
+    // Page hors limites (ex. filtre qui réduit le total) → on recadre et recharge.
+    const maxPage = Math.max(1, Math.ceil(totalQuestions / PAGE_SIZE));
+    if (currentPage > maxPage) { currentPage = maxPage; return loadQuestions(); }
     selectedIds.clear();          // nouvelle liste → on repart d'une sélection vide
     renderQuestions();
+    renderPager();
+    updateSortHead();
   } catch (err) { /* déjà géré */ }
+}
+
+// Pagination : info « 1-50 sur N » + activation des boutons préc./suiv.
+function renderPager() {
+  const pager = document.getElementById('pager');
+  if (!pager) return;
+  if (totalQuestions === 0) { pager.hidden = true; return; }
+  const maxPage = Math.max(1, Math.ceil(totalQuestions / PAGE_SIZE));
+  const start = (currentPage - 1) * PAGE_SIZE + 1;
+  const end   = Math.min(currentPage * PAGE_SIZE, totalQuestions);
+  pager.hidden = maxPage <= 1;
+  document.getElementById('pager-info').textContent = `${start}–${end} sur ${totalQuestions}`;
+  document.getElementById('pager-prev').disabled = currentPage <= 1;
+  document.getElementById('pager-next').disabled = currentPage >= maxPage;
+}
+
+// Met en évidence l'en-tête de tri actif (flèche).
+function updateSortHead() {
+  document.querySelectorAll('#sort-head .sort-btn').forEach(b =>
+    b.classList.toggle('active', b.dataset.sort === currentSort)
+  );
 }
 
 // Badge de taux de réussite avec code couleur (cf. admin.css .rate-*).
@@ -243,7 +319,7 @@ function renderQuestions() {
   const filtered = allQuestions;
 
   const list = document.getElementById('questions-list');
-  document.getElementById('list-count').textContent = `(${filtered.length})`;
+  document.getElementById('list-count').textContent = `(${totalQuestions})`;
   const emptyEl = document.getElementById('list-empty');
   emptyEl.hidden = filtered.length > 0;
   emptyEl.innerHTML = '<i class="ti ti-mood-empty"></i> ' +
@@ -373,10 +449,29 @@ confirmOk.addEventListener('click', async () => {
   } catch (err) { showToast('Erreur : ' + err.message, 'error'); confirmOk.disabled = false; }
 });
 
-['filter-type', 'filter-theme', 'filter-difficulty', 'filter-stat', 'filter-sort'].forEach(id =>
-  document.getElementById(id).addEventListener('change', loadQuestions)
+// Changement de filtre → on revient à la page 1.
+['filter-type', 'filter-theme', 'filter-difficulty', 'filter-stat'].forEach(id =>
+  document.getElementById(id).addEventListener('change', () => { currentPage = 1; loadQuestions(); })
 );
-document.getElementById('filter-search').addEventListener('input', debounce(loadQuestions, 300));
+document.getElementById('filter-search').addEventListener('input',
+  debounce(() => { currentPage = 1; loadQuestions(); }, 300));
+
+// Tri cliquable sur les en-têtes.
+document.querySelectorAll('#sort-head .sort-btn').forEach(btn =>
+  btn.addEventListener('click', () => {
+    currentSort = btn.dataset.sort;
+    currentPage = 1;
+    loadQuestions();
+  })
+);
+
+// Pagination.
+document.getElementById('pager-prev').addEventListener('click', () => {
+  if (currentPage > 1) { currentPage--; loadQuestions(); }
+});
+document.getElementById('pager-next').addEventListener('click', () => {
+  currentPage++; loadQuestions();
+});
 
 // ── Modal multilingue (create / edit) ───────────────────────
 const modal = document.getElementById('modal');

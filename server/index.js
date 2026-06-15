@@ -235,7 +235,12 @@ app.get('/api/admin/questions', adminAuth, async (req, res) => {
       });
     }
 
-    res.json({ ok: true, questions, total: questions.length });
+    // Pagination (après filtres/tri JS pour rester cohérent avec hard/easy & rate).
+    const page     = Math.max(1, parseInt(req.query.page) || 1);
+    const pageSize = Math.min(100, Math.max(1, parseInt(req.query.pageSize) || 50));
+    const total    = questions.length;
+    const pageItems = questions.slice((page - 1) * pageSize, (page - 1) * pageSize + pageSize);
+    res.json({ ok: true, questions: pageItems, total, page, pageSize });
   } catch (err) {
     console.error('[GET /api/admin/questions]', err);
     res.status(500).json({ ok: false, error: 'Erreur serveur' });
