@@ -178,6 +178,79 @@ passport.deserializeUser(async (id, done) => {
   }
 });
 
+// ── Routes d'authentification Google ──────────────────────────
+// Rate-limit léger dédié à /auth/* (les routes /api/* ont déjà apiLimiter).
+const authLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max:      60,
+  standardHeaders: true,
+  legacyHeaders:   false,
+});
+app.use('/auth/', authLimiter);
+
+// N'autorise qu'un chemin interne comme returnTo (anti open-redirect).
+function safeReturnTo(rt) {
+  return (typeof rt === 'string' && rt.startsWith('/') && !rt.startsWith('//')) ? rt : null;
+}
+
+// Vérif d'origine minimale pour les POST sensibles. Le cookie sameSite=lax
+// empêche déjà l'envoi cross-site, c'est une ceinture+bretelles.
+function sameOrigin(req) {
+  const src = req.headers.origin || req.headers.referer;
+  if (!src) return true; // pas d'en-tête → sameSite protège déjà
+  try { return new URL(src).host === req.headers.host; }
+  catch { return false; }
+}
+
+// Démarre l'OAuth. ?returnTo=/lobby/CODE est mémorisé pour la redirection finale.
+app.get('/auth/google', (req, res, next) => {
+  const rt = safeReturnTo(req.query.returnTo);
+  if (rt) req.session.returnTo = rt;
+  passport.authenticate('google', { scope: ['profile', 'email'] })(req, res, next);
+});
+
+// Retour de Google : succès → returnTo || '/' ; échec → accueil avec drapeau.
+app.get('/auth/google/callback',
+  passport.authenticate('google', { failureRedirect: '/?login=fail' }),
+  (req, res) => {
+    const rt = safeReturnTo(req.session.returnTo);
+    delete req.session.returnTo;
+    res.redirect(rt || '/');
+  });
+
+// Déconnexion (POST + cookie). Détruit la session côté serveur et le cookie.
+app.post('/auth/logout', (req, res) => {
+  if (!sameOrigin(req)) {
+    return res.status(403).json({ ok: false, error: 'Origine invalide' });
+  }
+  req.logout(err => {
+    if (err) return res.status(500).json({ ok: false, error: 'Échec déconnexion' });
+    req.session.destroy(() => {
+      res.clearCookie('squizz.sid');
+      res.json({ ok: true });
+    });
+  });
+});
+
+// État de connexion pour le front (public, léger). Ne renvoie jamais de donnée
+// sensible (pas de googleId, pas de tokens).
+app.get('/api/me', (req, res) => {
+  if (req.isAuthenticated && req.isAuthenticated() && req.user) {
+    const u = req.user;
+    return res.json({
+      authenticated: true,
+      user: {
+        id:              u.id,
+        displayName:     u.displayName,
+        avatarUrl:       u.avatarUrl,
+        email:           u.email,
+        preferredLocale: u.preferredLocale,
+      },
+    });
+  }
+  res.json({ authenticated: false });
+});
+
 // ── Auth admin (session token, scrypt-free pour limiter les deps) ─
 const ADMIN_PASSWORD_HASH = crypto.createHash('sha256')
   .update(process.env.ADMIN_PASSWORD || 'changeme_random_password_here')
