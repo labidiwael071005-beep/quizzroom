@@ -112,6 +112,24 @@ model QuestionReport {
   @@index([status])
 }
 
+// Joueur authentifié via Google OAuth. La connexion est OPTIONNELLE : les
+// joueurs anonymes continuent de jouer sans User. On ne relie pas encore cette
+// identité au lobby/jeu/leaderboard (étape suivante).
+model User {
+  id            String   @id @default(cuid())
+  googleId      String   @unique
+  email         String?
+  displayName   String
+  avatarUrl     String?
+  createdAt     DateTime @default(now())
+  lastLoginAt   DateTime @default(now())
+  // Champs préparés pour les étapes suivantes (succès, profil) — peuplés plus tard
+  preferredLocale String? // 'fr'|'en'|'es' au moment de la 1ère connexion
+
+  @@index([googleId])
+  @@index([email])
+}
+
 model AdminUser {
   id           String    @id @default(cuid())
   username     String    @unique
