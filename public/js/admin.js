@@ -194,15 +194,29 @@ async function loadQuestions() {
   const type       = document.getElementById('filter-type').value;
   const theme      = document.getElementById('filter-theme').value;
   const difficulty = document.getElementById('filter-difficulty').value;
+  const stat       = document.getElementById('filter-stat').value;
+  const sort       = document.getElementById('filter-sort').value;
   const params = new URLSearchParams();
   if (type)       params.set('type', type);
   if (theme)      params.set('theme', theme);
   if (difficulty) params.set('difficulty', difficulty);
+  if (stat)       params.set('stat', stat);
+  if (sort && sort !== 'date') params.set('sort', sort);
   try {
     const { questions } = await api('/api/admin/questions?' + params.toString());
     allQuestions = questions;
     renderQuestions();
   } catch (err) { /* déjà géré */ }
+}
+
+// Badge de taux de réussite avec code couleur (cf. admin.css .rate-*).
+function rateBadge(sr) {
+  if (sr === null || sr === undefined) return '<span class="rate rate-none">jamais servie</span>';
+  let cls = 'rate-neutral';
+  if (sr >= 80)      cls = 'rate-green';   // peut-être trop facile
+  else if (sr < 15)  cls = 'rate-red';     // à vérifier en priorité
+  else if (sr < 40)  cls = 'rate-orange';  // potentiellement trop dure / mal formulée
+  return `<span class="rate ${cls}">${sr}%</span>`;
 }
 
 function renderQuestions() {
@@ -219,9 +233,7 @@ function renderQuestions() {
     const typeIcon = q.type === 'pixel' ? 'photo'
                    : q.type === 'geo'   ? 'map-pin'
                    :                       'brain';
-    const ratio = q.timesShown > 0
-      ? Math.round((q.timesCorrect / q.timesShown) * 100) + '%'
-      : '—';
+    const sr = (q.successRate ?? null);
     return `
       <div class="admin-row" data-id="${escapeHtml(q.id)}">
         <div class="row-type"><i class="ti ti-${typeIcon}"></i></div>
@@ -231,7 +243,8 @@ function renderQuestions() {
             <span class="badge">${escapeHtml(q.theme || '—')}</span>
             <span class="badge">${escapeHtml(q.difficulty || '—')}</span>
             <span class="badge">${escapeHtml(q.type || '—')}</span>
-            <span class="row-stats">vue ${q.timesShown}× — réussite ${ratio}</span>
+            <span class="row-stats">Servie ${q.timesShown || 0}×</span>
+            <span class="row-stats">Taux ${rateBadge(sr)}</span>
           </div>
         </div>
         <div class="row-actions">
@@ -255,7 +268,7 @@ function renderQuestions() {
   });
 }
 
-['filter-type', 'filter-theme', 'filter-difficulty'].forEach(id =>
+['filter-type', 'filter-theme', 'filter-difficulty', 'filter-stat', 'filter-sort'].forEach(id =>
   document.getElementById(id).addEventListener('change', loadQuestions)
 );
 document.getElementById('filter-search').addEventListener('input', renderQuestions);

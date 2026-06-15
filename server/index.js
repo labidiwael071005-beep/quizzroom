@@ -192,17 +192,40 @@ app.post('/api/admin/logout', adminAuth, (req, res) => {
 
 app.get('/api/admin/questions', adminAuth, async (req, res) => {
   try {
-    const { theme, type, difficulty } = req.query;
+    const { theme, type, difficulty, stat, sort } = req.query;
     const where = {};
     if (theme)      where.theme      = theme;
     if (type)       where.type       = type;
     if (difficulty) where.difficulty = difficulty;
-    const questions = await prisma.question.findMany({
-      where,
-      orderBy: { createdAt: 'desc' },
-      take: 200,
-    });
-    res.json({ ok: true, questions, total: await prisma.question.count({ where }) });
+    // Filtre statistique : 'never' est exprimable en SQL ; 'hard'/'easy'
+    // dépendent d'un ratio → on pré-filtre sur timesShown>=5 puis on affine en JS.
+    if (stat === 'never')                         where.timesShown = 0;
+    else if (stat === 'hard' || stat === 'easy')  where.timesShown = { gte: 5 };
+
+    let orderBy = { createdAt: 'desc' };
+    if (sort === 'freq') orderBy = { timesShown: 'desc' };
+    // 'rate' : tri appliqué côté JS (ratio non triable en SQL sans raw query).
+
+    let questions = await prisma.question.findMany({ where, orderBy, take: 500 });
+
+    // successRate = timesCorrect / timesShown (null si jamais servie).
+    questions = questions.map(q => ({
+      ...q,
+      successRate: q.timesShown > 0 ? Math.round((q.timesCorrect / q.timesShown) * 100) : null,
+    }));
+    if (stat === 'hard')      questions = questions.filter(q => q.successRate !== null && q.successRate < 40);
+    else if (stat === 'easy') questions = questions.filter(q => q.successRate !== null && q.successRate >= 80);
+
+    if (sort === 'rate') {
+      questions.sort((a, b) => {
+        if (a.successRate === null && b.successRate === null) return 0;
+        if (a.successRate === null) return 1;   // « jamais servie » en dernier
+        if (b.successRate === null) return -1;
+        return a.successRate - b.successRate;    // les plus ratées en premier
+      });
+    }
+
+    res.json({ ok: true, questions, total: questions.length });
   } catch (err) {
     console.error('[GET /api/admin/questions]', err);
     res.status(500).json({ ok: false, error: 'Erreur serveur' });
