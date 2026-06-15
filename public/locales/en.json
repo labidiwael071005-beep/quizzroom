@@ -202,6 +202,10 @@
   "page.game.title": "QuizzRoom — In game",
   "home.slogan": "Challenge your friends in the spotlight",
   "home.or": "or",
+  "auth.separator": "sign in",
+  "auth.signInWithGoogle": "Sign in with Google",
+  "auth.optional": "Optional — to keep your stats across devices",
+  "auth.signOut": "Sign out",
   "lobby.heading": "Waiting room",
   "lobby.rounds.qtitle": "Rounds & questions",
   "game.round.exhausted": "No more questions available for this round"

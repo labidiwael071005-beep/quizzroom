@@ -100,6 +100,39 @@ body.home{
 }
 .home-join .btn--gold{ flex-shrink:0; white-space:nowrap; }
 
+/* ── Connexion Google (optionnelle) ───────────────────────────── */
+.home-auth{ margin-top:4px; }
+.home-auth .home-or{ text-transform:uppercase; letter-spacing:.04em; }
+/* Bouton « Se connecter avec Google » : panneau blanc, bordure dorée, chunky. */
+.google-btn{
+  border:2px solid var(--logo-gold) !important;
+  color:var(--ink) !important;
+  font-size:15px; gap:10px;
+}
+.google-g{ flex-shrink:0; }
+.home-auth-note{
+  margin:8px 2px 0; text-align:center; font-size:12px; color:var(--ink-soft); line-height:1.35;
+}
+/* Carte utilisateur (état connecté) */
+.auth-user{
+  display:flex; align-items:center; gap:12px;
+  padding:10px 12px; background:#fff;
+  border:2px solid var(--panel-border); border-radius:14px;
+}
+.auth-avatar{
+  width:42px; height:42px; border-radius:50%; flex-shrink:0;
+  object-fit:cover; border:2px solid var(--logo-gold); background:#eee;
+}
+.auth-user-info{ display:flex; flex-direction:column; gap:2px; min-width:0; }
+.auth-name{ font-weight:600; color:var(--ink); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.auth-logout{
+  align-self:flex-start; background:none; border:none; padding:0; cursor:pointer;
+  font-family:'Fredoka',sans-serif; font-size:13px; font-weight:600;
+  color:var(--accent); text-decoration:underline;
+}
+.auth-logout:hover{ color:var(--accent-dark); }
+.auth-logout:focus-visible{ outline:3px solid var(--logo-gold); outline-offset:2px; border-radius:4px; }
+
 /* ── Avatar picker (réutilise les classes existantes) sur fond clair ── */
 .home-panel .avatar-preview-wrap{ display:flex; justify-content:center; margin:2px 0 10px; }
 .home-panel .avatar-big{ width:58px; height:58px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:28px; }
