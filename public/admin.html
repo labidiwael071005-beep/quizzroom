@@ -54,8 +54,14 @@
 
   <!-- ── Barre d'onglets ─────────────────────────────────── -->
   <nav class="admin-tabs" role="tablist" aria-label="Sections de l'admin">
-    <button class="admin-tab active" id="tab-btn-questions"
-            role="tab" aria-selected="true" aria-controls="tab-panel-questions"
+    <button class="admin-tab active" id="tab-btn-dashboard"
+            role="tab" aria-selected="true" aria-controls="tab-panel-dashboard"
+            data-tab="dashboard">
+      <i class="ti ti-layout-dashboard"></i>
+      <span>Tableau de bord</span>
+    </button>
+    <button class="admin-tab" id="tab-btn-questions"
+            role="tab" aria-selected="false" aria-controls="tab-panel-questions"
             data-tab="questions">
       <i class="ti ti-list"></i>
       <span>Questions</span>
@@ -71,9 +77,64 @@
 
   <main class="admin-main">
 
+    <!-- ── Onglet Tableau de bord ────────────────────────── -->
+    <section class="admin-tab-panel" id="tab-panel-dashboard"
+             role="tabpanel" aria-labelledby="tab-btn-dashboard">
+
+      <div class="admin-card-head" style="margin-bottom:6px">
+        <h2><i class="ti ti-layout-dashboard"></i> Vue d'ensemble</h2>
+        <button class="btn btn-ghost btn-sm" id="btn-refresh-overview">
+          <i class="ti ti-refresh"></i> Rafraîchir
+        </button>
+      </div>
+
+      <!-- KPI -->
+      <div class="kpi-grid" id="kpi-grid">
+        <div class="kpi-card"><div class="kpi-num" id="kpi-questions">—</div><div class="kpi-label">Questions totales</div><div class="kpi-sub" id="kpi-questions-sub"></div></div>
+        <div class="kpi-card accent"><div class="kpi-num" id="kpi-sessions">—</div><div class="kpi-label">Sessions de jeu</div></div>
+        <div class="kpi-card danger"><div class="kpi-num" id="kpi-reports-open">—</div><div class="kpi-label">Signalements ouverts</div></div>
+        <div class="kpi-card"><div class="kpi-num" id="kpi-reports-total">—</div><div class="kpi-label">Signalements totaux</div></div>
+      </div>
+
+      <!-- Répartitions -->
+      <div class="dash-cols-3">
+        <div class="admin-card">
+          <div class="admin-card-head"><h2><i class="ti ti-category"></i> Par type</h2></div>
+          <div class="bars" id="bars-type"></div>
+        </div>
+        <div class="admin-card">
+          <div class="admin-card-head"><h2><i class="ti ti-chart-bar"></i> Par difficulté</h2></div>
+          <div class="bars" id="bars-difficulty"></div>
+        </div>
+        <div class="admin-card">
+          <div class="admin-card-head"><h2><i class="ti ti-language"></i> Par langue</h2></div>
+          <div class="bars" id="bars-lang"></div>
+        </div>
+      </div>
+
+      <!-- Activité récente -->
+      <div class="dash-cols">
+        <div class="admin-card">
+          <div class="admin-card-head"><h2><i class="ti ti-device-gamepad-2"></i> Dernières parties</h2></div>
+          <div class="recent-list" id="recent-sessions"></div>
+        </div>
+        <div class="admin-card">
+          <div class="admin-card-head"><h2><i class="ti ti-flag"></i> Derniers signalements</h2></div>
+          <div class="recent-list" id="recent-reports"></div>
+        </div>
+      </div>
+
+      <!-- Répartition par thème (large) -->
+      <div class="admin-card">
+        <div class="admin-card-head"><h2><i class="ti ti-tags"></i> Par thème</h2></div>
+        <div class="bars" id="bars-theme"></div>
+      </div>
+
+    </section>
+
     <!-- ── Onglet Questions ──────────────────────────────── -->
     <section class="admin-tab-panel" id="tab-panel-questions"
-             role="tabpanel" aria-labelledby="tab-btn-questions">
+             role="tabpanel" aria-labelledby="tab-btn-questions" hidden>
 
       <div class="admin-card">
         <div class="admin-card-head">

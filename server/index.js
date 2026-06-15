@@ -469,6 +469,67 @@ app.get('/api/admin/stats', adminAuth, async (req, res) => {
   }
 });
 
+// Vue d'ensemble du tableau de bord admin (KPIs + répartitions + activité récente).
+app.get('/api/admin/stats/overview', adminAuth, async (req, res) => {
+  try {
+    const [
+      questions, questionsApproved, gameSessions, reportsOpen, reportsTotal,
+      trByLang, byType, byDifficulty, byTheme, recentSessions, recentReports,
+    ] = await Promise.all([
+      prisma.question.count(),
+      prisma.question.count({ where: { status: 'approved' } }),
+      prisma.gameSession.count(),
+      prisma.questionReport.count({ where: { status: 'open' } }),
+      prisma.questionReport.count(),
+      prisma.questionTranslation.groupBy({ by: ['language'], _count: { _all: true } }),
+      prisma.question.groupBy({ by: ['type'],       _count: { _all: true } }),
+      prisma.question.groupBy({ by: ['difficulty'], _count: { _all: true } }),
+      prisma.question.groupBy({ by: ['theme'],      _count: { _all: true } }),
+      prisma.gameSession.findMany({
+        orderBy: { startedAt: 'desc' }, take: 5,
+        select: { id: true, roomCode: true, startedAt: true, endedAt: true, playerNames: true },
+      }),
+      prisma.questionReport.findMany({
+        orderBy: { createdAt: 'desc' }, take: 5,
+        include: { question: { select: { question: true, translations: { select: { language: true, text: true } } } } },
+      }),
+    ]);
+
+    const translationsByLang = { fr: 0, en: 0, es: 0 };
+    for (const r of trByLang) if (translationsByLang[r.language] !== undefined) translationsByLang[r.language] = r._count._all;
+
+    const mapCount = (rows, key) =>
+      rows.map(r => ({ [key]: r[key], count: r._count._all })).sort((a, b) => b.count - a.count);
+
+    const recent = {
+      gameSessions: recentSessions.map(s => ({
+        id: s.id, roomCode: s.roomCode, startedAt: s.startedAt, endedAt: s.endedAt,
+        playerCount: Array.isArray(s.playerNames) ? s.playerNames.length : 0,
+      })),
+      reports: recentReports.map(r => {
+        const trMap = {};
+        for (const t of (r.question?.translations || [])) trMap[t.language] = t.text;
+        const excerpt = trMap.fr || trMap.en || trMap.es || r.question?.question || '(question supprimée)';
+        return { id: r.id, category: r.category, status: r.status, createdAt: r.createdAt, questionExcerpt: String(excerpt).slice(0, 80) };
+      }),
+    };
+
+    res.json({
+      ok: true,
+      totals: { questions, questionsApproved, translationsByLang, gameSessions, reportsOpen, reportsTotal },
+      breakdown: {
+        byType:       mapCount(byType, 'type'),
+        byDifficulty: mapCount(byDifficulty, 'difficulty'),
+        byTheme:      mapCount(byTheme, 'theme'),
+      },
+      recent,
+    });
+  } catch (err) {
+    console.error('[GET /api/admin/stats/overview]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
+  }
+});
+
 // ── Rooms ─────────────────────────────────────────────────────
 const rooms = {};
 

@@ -60,6 +60,7 @@ function showLogin() {
   // Garantit un état "déconnecté" propre : modal fermé + dashboard caché.
   // Sans ce reset, un dashboard ouvert puis logout laisserait le modal
   // ouvert au prochain affichage du login.
+  stopOverviewAutoRefresh();
   document.getElementById('modal').hidden = true;
   loginSection.hidden = false;
   dashSection.hidden  = true;
@@ -69,7 +70,10 @@ function showLogin() {
 function showDashboard() {
   loginSection.hidden = true;
   dashSection.hidden  = false;
+  switchTab('dashboard');     // onglet par défaut à la connexion
   loadStats();
+  loadOverview();
+  startOverviewAutoRefresh();
   loadQuestions();
   loadReports();
 }
@@ -118,6 +122,70 @@ async function loadStats() {
     updateReportsTabBadge(openReports ?? 0);
   } catch (err) { /* déjà géré par api() */ }
 }
+
+// ── Tableau de bord (vue d'ensemble) ─────────────────────────
+let _overviewTimer = null;
+
+function barsHtml(rows, key) {
+  if (!rows || !rows.length) return '<div class="admin-empty" style="padding:10px">Aucune donnée.</div>';
+  const max = Math.max(1, ...rows.map(r => r.count));
+  const accent = key === 'difficulty' ? ' accent' : '';
+  return rows.map(r => {
+    const label = key === '__lang' ? r.lang : (r[key] ?? '—');
+    const pct = Math.round((r.count / max) * 100);
+    return `<div class="bar-row">
+      <span class="bar-label">${escapeHtml(String(label))}</span>
+      <span class="bar-track"><span class="bar-fill${accent}" style="width:${pct}%"></span></span>
+      <span class="bar-val">${r.count}</span>
+    </div>`;
+  }).join('');
+}
+
+async function loadOverview() {
+  try {
+    const { totals, breakdown, recent } = await api('/api/admin/stats/overview');
+    document.getElementById('kpi-questions').textContent     = totals.questions;
+    document.getElementById('kpi-questions-sub').textContent = `${totals.questionsApproved} approuvées`;
+    document.getElementById('kpi-sessions').textContent      = totals.gameSessions;
+    document.getElementById('kpi-reports-open').textContent  = totals.reportsOpen;
+    document.getElementById('kpi-reports-total').textContent = totals.reportsTotal;
+
+    document.getElementById('bars-type').innerHTML       = barsHtml(breakdown.byType, 'type');
+    document.getElementById('bars-difficulty').innerHTML = barsHtml(breakdown.byDifficulty, 'difficulty');
+    const langRows = ['fr', 'en', 'es'].map(l => ({ lang: l, count: (totals.translationsByLang || {})[l] || 0 }));
+    document.getElementById('bars-lang').innerHTML       = barsHtml(langRows, '__lang');
+    document.getElementById('bars-theme').innerHTML      = barsHtml(breakdown.byTheme, 'theme');
+
+    const sessions = recent.gameSessions || [];
+    document.getElementById('recent-sessions').innerHTML = sessions.length
+      ? sessions.map(s => `<div class="recent-item">
+          <span class="ri-main">🎮 ${escapeHtml(s.roomCode)} · ${s.playerCount} j.</span>
+          <span class="ri-meta">${escapeHtml(fmtDate(s.startedAt))}${s.endedAt ? '' : ' · en cours'}</span>
+        </div>`).join('')
+      : '<div class="admin-empty" style="padding:14px">Aucune partie.</div>';
+
+    const reps = recent.reports || [];
+    document.getElementById('recent-reports').innerHTML = reps.length
+      ? reps.map(r => `<div class="recent-item">
+          <span class="ri-main">${escapeHtml(r.questionExcerpt || '—')}</span>
+          <span class="ri-meta">${escapeHtml(CAT_LABEL[r.category] || r.category)}${r.status === 'open' ? ' · ouvert' : ''}</span>
+        </div>`).join('')
+      : '<div class="admin-empty" style="padding:14px">Aucun signalement.</div>';
+  } catch (err) { /* géré par api() */ }
+}
+
+// Auto-refresh toutes les 30 s tant que l'onglet dashboard est actif.
+function startOverviewAutoRefresh() {
+  stopOverviewAutoRefresh();
+  _overviewTimer = setInterval(() => {
+    const panel = document.getElementById('tab-panel-dashboard');
+    if (panel && !panel.hidden && getToken()) loadOverview();
+  }, 30000);
+}
+function stopOverviewAutoRefresh() {
+  if (_overviewTimer) { clearInterval(_overviewTimer); _overviewTimer = null; }
+}
+document.getElementById('btn-refresh-overview').addEventListener('click', loadOverview);
 
 // ── Liste ────────────────────────────────────────────────────
 let allQuestions = [];
@@ -479,6 +547,7 @@ function switchTab(name) {
     const active = p.id === `tab-panel-${name}`;
     p.hidden = !active;
   });
+  if (name === 'dashboard') loadOverview();   // données fraîches à l'entrée
 }
 document.querySelectorAll('.admin-tab').forEach(t => {
   t.addEventListener('click', () => switchTab(t.dataset.tab));
