@@ -190,18 +190,33 @@ document.getElementById('btn-refresh-overview').addEventListener('click', loadOv
 // ── Liste ────────────────────────────────────────────────────
 let allQuestions = [];
 
+function debounce(fn, ms) {
+  let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); };
+}
+
+// Surbrillance (dorée) du terme recherché — on échappe AVANT d'injecter <mark>.
+function highlightTerm(text, term) {
+  const safe = escapeHtml(text || '');
+  if (!term) return safe;
+  const safeTerm = escapeHtml(term).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  if (!safeTerm) return safe;
+  return safe.replace(new RegExp('(' + safeTerm + ')', 'gi'), '<mark class="hl">$1</mark>');
+}
+
 async function loadQuestions() {
   const type       = document.getElementById('filter-type').value;
   const theme      = document.getElementById('filter-theme').value;
   const difficulty = document.getElementById('filter-difficulty').value;
   const stat       = document.getElementById('filter-stat').value;
   const sort       = document.getElementById('filter-sort').value;
+  const q          = document.getElementById('filter-search').value.trim();
   const params = new URLSearchParams();
   if (type)       params.set('type', type);
   if (theme)      params.set('theme', theme);
   if (difficulty) params.set('difficulty', difficulty);
   if (stat)       params.set('stat', stat);
   if (sort && sort !== 'date') params.set('sort', sort);
+  if (q)          params.set('q', q);
   try {
     const { questions } = await api('/api/admin/questions?' + params.toString());
     allQuestions = questions;
@@ -220,14 +235,17 @@ function rateBadge(sr) {
 }
 
 function renderQuestions() {
-  const search = document.getElementById('filter-search').value.toLowerCase().trim();
-  const filtered = search
-    ? allQuestions.filter(q => (q.question || '').toLowerCase().includes(search))
-    : allQuestions;
+  // La recherche est désormais faite côté serveur (?q, multilingue) : on rend
+  // directement les résultats reçus, en surlignant le terme s'il est visible.
+  const term = document.getElementById('filter-search').value.trim();
+  const filtered = allQuestions;
 
   const list = document.getElementById('questions-list');
   document.getElementById('list-count').textContent = `(${filtered.length})`;
-  document.getElementById('list-empty').hidden = filtered.length > 0;
+  const emptyEl = document.getElementById('list-empty');
+  emptyEl.hidden = filtered.length > 0;
+  emptyEl.innerHTML = '<i class="ti ti-mood-empty"></i> ' +
+    (term ? 'Aucune question ne contient ce terme.' : 'Aucune question pour ces filtres.');
 
   list.innerHTML = filtered.map(q => {
     const typeIcon = q.type === 'pixel' ? 'photo'
@@ -238,7 +256,7 @@ function renderQuestions() {
       <div class="admin-row" data-id="${escapeHtml(q.id)}">
         <div class="row-type"><i class="ti ti-${typeIcon}"></i></div>
         <div class="row-main">
-          <div class="row-question">${escapeHtml(q.question || '')}</div>
+          <div class="row-question">${highlightTerm(q.question, term)}</div>
           <div class="row-meta">
             <span class="badge">${escapeHtml(q.theme || '—')}</span>
             <span class="badge">${escapeHtml(q.difficulty || '—')}</span>
@@ -271,7 +289,7 @@ function renderQuestions() {
 ['filter-type', 'filter-theme', 'filter-difficulty', 'filter-stat', 'filter-sort'].forEach(id =>
   document.getElementById(id).addEventListener('change', loadQuestions)
 );
-document.getElementById('filter-search').addEventListener('input', renderQuestions);
+document.getElementById('filter-search').addEventListener('input', debounce(loadQuestions, 300));
 
 // ── Modal create / edit ─────────────────────────────────────
 const modal = document.getElementById('modal');

@@ -193,6 +193,7 @@ app.post('/api/admin/logout', adminAuth, (req, res) => {
 app.get('/api/admin/questions', adminAuth, async (req, res) => {
   try {
     const { theme, type, difficulty, stat, sort } = req.query;
+    const q = typeof req.query.q === 'string' ? req.query.q.trim() : '';
     const where = {};
     if (theme)      where.theme      = theme;
     if (type)       where.type       = type;
@@ -201,12 +202,21 @@ app.get('/api/admin/questions', adminAuth, async (req, res) => {
     // dépendent d'un ratio → on pré-filtre sur timesShown>=5 puis on affine en JS.
     if (stat === 'never')                         where.timesShown = 0;
     else if (stat === 'hard' || stat === 'easy')  where.timesShown = { gte: 5 };
+    // Recherche mot-clé : sur le texte des traductions (toute langue) + le label
+    // (traduction géo et colonne legacy), insensible à la casse.
+    if (q) {
+      where.OR = [
+        { translations: { some: { text:  { contains: q, mode: 'insensitive' } } } },
+        { translations: { some: { label: { contains: q, mode: 'insensitive' } } } },
+        { label: { contains: q, mode: 'insensitive' } },
+      ];
+    }
 
     let orderBy = { createdAt: 'desc' };
     if (sort === 'freq') orderBy = { timesShown: 'desc' };
     // 'rate' : tri appliqué côté JS (ratio non triable en SQL sans raw query).
 
-    let questions = await prisma.question.findMany({ where, orderBy, take: 500 });
+    let questions = await prisma.question.findMany({ where, orderBy, take: q ? 100 : 500 });
 
     // successRate = timesCorrect / timesShown (null si jamais servie).
     questions = questions.map(q => ({
