@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="profile.title">SquizzGame — Mon profil</title>
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/profil.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+</head>
+<body class="profil">
+
+<main class="profil-stage stage-bg">
+  <div class="spot spot--l" aria-hidden="true"></div>
+  <div class="spot spot--r" aria-hidden="true"></div>
+
+  <div class="profil-shell">
+    <header class="profil-head">
+      <a class="btn btn--ghost btn--sm" href="/"><i class="ti ti-arrow-left"></i> <span data-i18n="profile.back">Accueil</span></a>
+      <h1 class="profil-title" data-i18n="profile.heading">Mon profil</h1>
+      <div id="lang-switcher" class="lang-switcher"></div>
+    </header>
+
+    <!-- État déconnecté -->
+    <div class="panel profil-card profil-loggedout" id="profil-loggedout" hidden>
+      <p data-i18n="profile.loggedOut">Connecte-toi pour voir ton profil.</p>
+      <button type="button" class="btn btn--ghost google-btn" id="btn-google" data-i18n-aria-label="auth.signInWithGoogle">
+        <svg class="google-g" width="18" height="18" viewBox="0 0 18 18" aria-hidden="true" focusable="false">
+          <path fill="#4285F4" d="M17.64 9.2c0-.64-.06-1.25-.16-1.84H9v3.48h4.84a4.14 4.14 0 0 1-1.8 2.72v2.26h2.92c1.71-1.57 2.68-3.89 2.68-6.62z"/>
+          <path fill="#34A853" d="M9 18c2.43 0 4.47-.8 5.96-2.18l-2.92-2.26c-.81.54-1.84.86-3.04.86-2.34 0-4.32-1.58-5.03-3.7H.96v2.33A9 9 0 0 0 9 18z"/>
+          <path fill="#FBBC05" d="M3.97 10.72a5.4 5.4 0 0 1 0-3.44V4.95H.96a9 9 0 0 0 0 8.1l3.01-2.33z"/>
+          <path fill="#EA4335" d="M9 3.58c1.32 0 2.5.45 3.44 1.35l2.58-2.58C13.47.9 11.43 0 9 0A9 9 0 0 0 .96 4.95l3.01 2.33C4.68 5.16 6.66 3.58 9 3.58z"/>
+        </svg>
+        <span data-i18n="auth.signInWithGoogle">Se connecter avec Google</span>
+      </button>
+    </div>
+
+    <!-- État connecté -->
+    <div class="profil-content" id="profil-content" hidden>
+      <!-- Carte d'identité -->
+      <div class="panel profil-card profil-identity">
+        <img id="p-avatar" class="profil-avatar" alt="" referrerpolicy="no-referrer" hidden>
+        <div class="profil-identity-info">
+          <div class="profil-name">
+            <span id="p-name"></span>
+            <span class="verified-badge" title="" id="p-verified">
+              <svg class="shield-ico" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M12 2 4 5v6c0 5 3.4 8.6 8 11 4.6-2.4 8-6 8-11V5l-8-3Z"/>
+                <path fill="#1b3f9e" d="m10.7 14.4-2.4-2.4 1.1-1.1 1.3 1.3 3.2-3.2 1.1 1.1-4.3 4.3Z"/>
+              </svg>
+            </span>
+          </div>
+          <div class="profil-since" id="p-since"></div>
+          <div class="profil-lang" id="p-lang"></div>
+        </div>
+        <button type="button" class="btn btn--ghost btn--sm profil-logout" id="btn-logout" data-i18n="auth.signOut">Se déconnecter</button>
+      </div>
+
+      <!-- KPI -->
+      <div class="profil-kpis">
+        <div class="panel profil-kpi"><div class="kpi-val" id="k-played">0</div><div class="kpi-lbl" data-i18n="profile.kpi.played">Parties jouées</div></div>
+        <div class="panel profil-kpi"><div class="kpi-val" id="k-won">0</div><div class="kpi-lbl" data-i18n="profile.kpi.won">Victoires</div></div>
+        <div class="panel profil-kpi"><div class="kpi-val" id="k-winrate">0%</div><div class="kpi-lbl" data-i18n="profile.kpi.winrate">Taux de victoire</div></div>
+        <div class="panel profil-kpi"><div class="kpi-val" id="k-score">0</div><div class="kpi-lbl" data-i18n="profile.kpi.score">Score total</div></div>
+      </div>
+
+      <!-- Dernières parties -->
+      <div class="panel profil-card">
+        <h2 class="profil-section-title" data-i18n="profile.recent.title">Dernières parties</h2>
+        <table class="profil-recent">
+          <thead>
+            <tr>
+              <th data-i18n="profile.recent.date">Date</th>
+              <th data-i18n="profile.recent.room">Salon</th>
+              <th data-i18n="profile.recent.score">Score</th>
+              <th data-i18n="profile.recent.result">Résultat</th>
+            </tr>
+          </thead>
+          <tbody id="p-recent"></tbody>
+        </table>
+        <div class="profil-recent-empty" id="p-recent-empty" hidden data-i18n="profile.recent.empty">Aucune partie pour l'instant.</div>
+      </div>
+
+      <!-- Succès (préparation — bientôt) -->
+      <div class="panel profil-card profil-achievements">
+        <h2 class="profil-section-title" data-i18n="profile.achievements">Succès</h2>
+        <div class="profil-soon" data-i18n="profile.achievements.soon">Bientôt</div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div id="toast" class="toast"></div>
+
+<script src="js/i18n.js"></script>
+<script src="js/profil.js"></script>
+<script>
+  initI18n().then(() => { initProfile(); });
+</script>
+</body>
+</html>

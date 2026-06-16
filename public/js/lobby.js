@@ -572,8 +572,10 @@ fetch('/api/me', { headers: { Accept: 'application/json' } })
   .then(r => r.json())
   .then(d => {
     const cta = document.getElementById('lobby-auth-cta');
-    if (!cta) return;
-    if (!d || !d.authenticated) {
+    const profileLink = document.getElementById('lobby-profile-link');
+    if (d && d.authenticated) {
+      if (profileLink) profileLink.hidden = false;   // accès profil pour les connectés
+    } else if (cta) {
       cta.href = '/auth/google?returnTo=' + encodeURIComponent(location.pathname + location.search);
       cta.hidden = false;
     }

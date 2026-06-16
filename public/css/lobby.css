@@ -43,6 +43,13 @@ body.lobby{ margin:0; background:var(--bg-3); font-family:'Fredoka',system-ui,sa
   text-shadow:0 3px 0 var(--logo-shadow), 0 0 20px rgba(255,206,77,.3);
 }
 .lobby-leave{ flex-shrink:0; }
+.lobby-head-right{ display:flex; align-items:center; gap:10px; flex-shrink:0; }
+.lobby-profile-link{
+  font-size:13px; font-weight:600; color:#fff; text-decoration:underline;
+  white-space:nowrap; opacity:.92;
+}
+.lobby-profile-link:hover{ opacity:1; }
+.lobby-profile-link[hidden]{ display:none; }
 .lobby-head .lang-switcher{ display:flex; gap:6px; flex-shrink:0; }
 .lobby-head .lang-btn{
   font-family:'Fredoka',sans-serif; font-weight:700; font-size:13px;

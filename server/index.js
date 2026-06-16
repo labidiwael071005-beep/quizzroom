@@ -343,6 +343,53 @@ app.get('/api/leaderboard', async (req, res) => {
   }
 });
 
+// Profil du joueur connecté (auth via session Google — PAS l'adminAuth).
+app.get('/api/me/profile', async (req, res) => {
+  if (!(req.isAuthenticated && req.isAuthenticated() && req.user)) {
+    return res.status(401).json({ ok: false, error: 'Non authentifié' });
+  }
+  try {
+    const u = req.user;
+    const gamesPlayed = u.gamesPlayed || 0;
+    const gamesWon    = u.gamesWon || 0;
+    const totalScore  = u.totalScore || 0;
+    const stats = {
+      gamesPlayed,
+      gamesWon,
+      totalScore,
+      winRate:  gamesPlayed > 0 ? Math.round((gamesWon / gamesPlayed) * 100) : 0,
+      avgScore: gamesPlayed > 0 ? Math.round(totalScore / gamesPlayed) : 0,
+    };
+    const recent = await prisma.gamePlayerResult.findMany({
+      where:   { userId: u.id },
+      orderBy: { createdAt: 'desc' },
+      take:    10,
+      select:  { roomCode: true, score: true, won: true, createdAt: true },
+    });
+    res.json({
+      ok: true,
+      user: {
+        id:              u.id,
+        displayName:     u.displayName,
+        avatarUrl:       u.avatarUrl,
+        email:           u.email,
+        createdAt:       u.createdAt,
+        preferredLocale: u.preferredLocale,
+      },
+      stats,
+      recent,
+    });
+  } catch (err) {
+    console.warn('[profile] échec:', err.message);
+    res.status(500).json({ ok: false, error: 'Erreur profil' });
+  }
+});
+
+// Page profil (fichier statique servi sur une URL propre).
+app.get('/profil', (req, res) => {
+  res.sendFile(path.join(__dirname, '../public/profil.html'));
+});
+
 // ── Auth admin (session token, scrypt-free pour limiter les deps) ─
 const ADMIN_PASSWORD_HASH = crypto.createHash('sha256')
   .update(process.env.ADMIN_PASSWORD || 'changeme_random_password_here')

@@ -1,0 +1,50 @@
+/* public/css/profil.css — Page profil */
+.profil-stage{ min-height:100vh; padding:20px 16px 40px; position:relative; overflow-x:hidden; }
+.profil-shell{ max-width:760px; margin:0 auto; position:relative; z-index:2; }
+
+.profil-head{
+  display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:18px;
+}
+.profil-title{ margin:0; font-size:24px; color:var(--logo-gold); font-weight:700; }
+
+.profil-card{ padding:18px 20px; margin-bottom:16px; }
+
+/* État déconnecté */
+.profil-loggedout{ text-align:center; display:flex; flex-direction:column; align-items:center; gap:14px; }
+.profil-loggedout p{ margin:0; color:var(--ink); font-weight:600; }
+
+/* Carte d'identité */
+.profil-identity{ display:flex; align-items:center; gap:16px; flex-wrap:wrap; }
+.profil-avatar{ width:64px; height:64px; border-radius:50%; object-fit:cover; border:3px solid var(--logo-gold); background:#eee; flex-shrink:0; }
+.profil-identity-info{ flex:1; min-width:0; }
+.profil-name{ display:flex; align-items:center; gap:8px; font-size:20px; font-weight:700; color:var(--ink); }
+.profil-name .verified-badge{ color:var(--logo-gold); display:inline-flex; }
+.profil-since, .profil-lang{ font-size:13px; color:var(--ink-soft); margin-top:3px; }
+.profil-logout{ flex-shrink:0; }
+
+/* KPI */
+.profil-kpis{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:16px; }
+.profil-kpi{ text-align:center; padding:16px 10px; }
+.kpi-val{ font-size:28px; font-weight:700; color:var(--accent); line-height:1; }
+.kpi-lbl{ font-size:12px; color:var(--ink-soft); margin-top:6px; font-weight:600; }
+
+/* Dernières parties */
+.profil-section-title{ margin:0 0 12px; font-size:17px; color:var(--ink); font-weight:700; }
+.profil-recent{ width:100%; border-collapse:collapse; font-size:14px; }
+.profil-recent th, .profil-recent td{ text-align:left; padding:8px 10px; border-bottom:1px solid var(--panel-border); }
+.profil-recent th{ font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--ink-soft); }
+.profil-recent td{ color:var(--ink); font-weight:500; }
+.res-win{ color:#15803d; font-weight:700; }
+.res-loss{ color:#b91c1c; font-weight:700; }
+.profil-recent-empty{ text-align:center; color:var(--ink-soft); font-size:13px; padding:14px 0; }
+
+/* Succès (préparation) */
+.profil-achievements .profil-soon{
+  display:inline-block; padding:6px 14px; border-radius:999px;
+  background:rgba(255,206,77,.18); border:2px dashed var(--logo-gold);
+  color:var(--ink-soft); font-weight:600; font-size:13px;
+}
+
+@media (max-width:560px){
+  .profil-kpis{ grid-template-columns:repeat(2,1fr); }
+}
