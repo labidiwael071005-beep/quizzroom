@@ -109,6 +109,28 @@ body.home{
 }
 .home-join .btn--gold{ flex-shrink:0; white-space:nowrap; }
 
+/* ── Classement (Top 10 victoires) ────────────────────────────── */
+.home-leaderboard{ width:100%; margin-top:16px; padding:18px 18px 16px; }
+.lb-head{ display:flex; flex-direction:column; gap:10px; margin-bottom:10px; }
+.lb-title{ margin:0; font-size:18px; color:var(--logo-gold); font-weight:700; }
+.lb-controls{ display:flex; gap:8px; flex-wrap:wrap; }
+.lb-tabs{ display:inline-flex; background:#fff; border:2px solid var(--panel-border); border-radius:10px; overflow:hidden; }
+.lb-tab{
+  font-family:'Fredoka',sans-serif; font-weight:600; font-size:12.5px; cursor:pointer;
+  padding:6px 12px; border:none; background:transparent; color:var(--ink-soft);
+}
+.lb-tab.active{ background:var(--gold-grad); color:#5a3a00; }
+.lb-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:6px; }
+.lb-row{ display:flex; align-items:center; gap:10px; padding:7px 8px; background:#fffdf7; border:2px solid var(--panel-border); border-radius:10px; }
+.lb-rank{ font-size:15px; font-weight:700; min-width:30px; text-align:center; color:var(--ink-soft); }
+.lb-rank-1, .lb-rank-2, .lb-rank-3{ font-size:18px; }
+.lb-avatar{ width:30px; height:30px; border-radius:50%; flex-shrink:0; object-fit:cover; border:2px solid var(--logo-gold); background:#eee; }
+.lb-avatar-ph{ display:inline-flex; align-items:center; justify-content:center; font-weight:700; color:#5a3a00; background:var(--gold-grad); font-size:14px; }
+.lb-name{ flex:1; min-width:0; display:inline-flex; align-items:center; gap:5px; font-weight:600; color:var(--ink); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.lb-verified{ color:var(--logo-gold); display:inline-flex; flex-shrink:0; }
+.lb-wins{ font-weight:700; color:var(--accent); font-size:13px; white-space:nowrap; }
+.lb-empty{ text-align:center; color:var(--ink-soft); font-size:13px; padding:14px 0; }
+
 /* ── Connexion Google (optionnelle) ───────────────────────────── */
 .home-auth{ margin-top:4px; }
 .home-auth .home-or{ text-transform:uppercase; letter-spacing:.04em; }

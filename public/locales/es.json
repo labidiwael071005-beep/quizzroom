@@ -208,6 +208,13 @@
   "auth.optional.lobby": "Inicia sesión para guardar tus estadísticas entre dispositivos",
   "auth.signOut": "Cerrar sesión",
   "lobby.verifiedAccount": "Cuenta verificada",
+  "lb.title": "🏆 Clasificación",
+  "lb.verified": "Verificados",
+  "lb.all": "Todos",
+  "lb.week": "Semana",
+  "lb.month": "Mes",
+  "lb.wins": "victorias",
+  "lb.empty": "Aún no hay victorias.",
   "lobby.heading": "Sala de espera",
   "lobby.rounds.qtitle": "Rondas y preguntas",
   "game.round.exhausted": "No quedan más preguntas para esta ronda"

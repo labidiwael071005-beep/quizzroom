@@ -208,6 +208,13 @@
   "auth.optional.lobby": "Connecte-toi pour garder tes stats entre appareils",
   "auth.signOut": "Se déconnecter",
   "lobby.verifiedAccount": "Compte vérifié",
+  "lb.title": "🏆 Classement",
+  "lb.verified": "Vérifiés",
+  "lb.all": "Tous",
+  "lb.week": "Semaine",
+  "lb.month": "Mois",
+  "lb.wins": "victoires",
+  "lb.empty": "Aucune victoire pour l'instant.",
   "lobby.heading": "Salon d’attente",
   "lobby.rounds.qtitle": "Manches & questions",
   "game.round.exhausted": "Plus de questions disponibles pour cette manche"

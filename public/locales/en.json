@@ -208,6 +208,13 @@
   "auth.optional.lobby": "Sign in to keep your stats across devices",
   "auth.signOut": "Sign out",
   "lobby.verifiedAccount": "Verified account",
+  "lb.title": "🏆 Leaderboard",
+  "lb.verified": "Verified",
+  "lb.all": "All",
+  "lb.week": "Week",
+  "lb.month": "Month",
+  "lb.wins": "wins",
+  "lb.empty": "No wins yet.",
   "lobby.heading": "Waiting room",
   "lobby.rounds.qtitle": "Rounds & questions",
   "game.round.exhausted": "No more questions available for this round"

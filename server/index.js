@@ -260,6 +260,89 @@ app.get('/api/me', (req, res) => {
   res.json({ authenticated: false });
 });
 
+// ── Leaderboard (public) ──────────────────────────────────────
+// ?period=week|month (7 / 30 jours, défaut week)
+// ?scope=verified|all   (défaut verified)
+//   verified : uniquement les résultats liés à un compte (userId), regroupés
+//              par userId, displayName/avatar à jour depuis User.
+//   all      : regroupés par pseudoKey (anonymes inclus). verified=true pour une
+//              entrée seulement si TOUS ses résultats pointent vers le même
+//              compte (un seul userId non nul).
+app.get('/api/leaderboard', async (req, res) => {
+  try {
+    const period = req.query.period === 'month' ? 'month' : 'week';
+    const scope  = req.query.scope === 'all' ? 'all' : 'verified';
+    const days   = period === 'month' ? 30 : 7;
+    const cutoff = new Date(Date.now() - days * 24 * 60 * 60 * 1000);
+
+    let leaderboard = [];
+
+    if (scope === 'verified') {
+      // Victoires par compte.
+      const grouped = await prisma.gamePlayerResult.groupBy({
+        by: ['userId'],
+        where: { userId: { not: null }, won: true, createdAt: { gte: cutoff } },
+        _count: { _all: true },
+      });
+      grouped.sort((a, b) => b._count._all - a._count._all);
+      const top = grouped.slice(0, 10);
+      const users = top.length
+        ? await prisma.user.findMany({
+            where: { id: { in: top.map(t => t.userId) } },
+            select: { id: true, displayName: true, avatarUrl: true },
+          })
+        : [];
+      const byId = Object.fromEntries(users.map(u => [u.id, u]));
+      leaderboard = top.map((t, i) => ({
+        rank:      i + 1,
+        pseudo:    byId[t.userId]?.displayName || '—',
+        avatarUrl: byId[t.userId]?.avatarUrl || null,
+        wins:      t._count._all,
+        verified:  true,
+      }));
+    } else {
+      // scope=all : agrégation JS par pseudoKey (victoires uniquement).
+      const rows = await prisma.gamePlayerResult.findMany({
+        where: { won: true, createdAt: { gte: cutoff } },
+        select: { pseudoKey: true, pseudo: true, userId: true },
+        take: 5000,
+      });
+      const agg = new Map(); // pseudoKey -> { wins, pseudo, userIds:Set, hasNull }
+      for (const r of rows) {
+        let e = agg.get(r.pseudoKey);
+        if (!e) { e = { wins: 0, pseudo: r.pseudo, userIds: new Set(), hasNull: false }; agg.set(r.pseudoKey, e); }
+        e.wins++;
+        if (r.userId) e.userIds.add(r.userId); else e.hasNull = true;
+      }
+      const entries = [...agg.values()].sort((a, b) => b.wins - a.wins).slice(0, 10);
+      // Pour les entrées vérifiées, récupérer displayName/avatar à jour.
+      const verifiedIds = entries
+        .filter(e => !e.hasNull && e.userIds.size === 1)
+        .map(e => [...e.userIds][0]);
+      const users = verifiedIds.length
+        ? await prisma.user.findMany({ where: { id: { in: verifiedIds } }, select: { id: true, displayName: true, avatarUrl: true } })
+        : [];
+      const byId = Object.fromEntries(users.map(u => [u.id, u]));
+      leaderboard = entries.map((e, i) => {
+        const verified = !e.hasNull && e.userIds.size === 1;
+        const u = verified ? byId[[...e.userIds][0]] : null;
+        return {
+          rank:      i + 1,
+          pseudo:    u?.displayName || e.pseudo || '—',
+          avatarUrl: u?.avatarUrl || null,
+          wins:      e.wins,
+          verified,
+        };
+      });
+    }
+
+    res.json({ ok: true, period, scope, leaderboard });
+  } catch (err) {
+    console.warn('[leaderboard] échec:', err.message);
+    res.status(500).json({ ok: false, error: 'Erreur leaderboard' });
+  }
+});
+
 // ── Auth admin (session token, scrypt-free pour limiter les deps) ─
 const ADMIN_PASSWORD_HASH = crypto.createHash('sha256')
   .update(process.env.ADMIN_PASSWORD || 'changeme_random_password_here')
