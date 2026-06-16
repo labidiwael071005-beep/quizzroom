@@ -125,6 +125,11 @@ model User {
   lastLoginAt   DateTime @default(now())
   preferredLocale String? // 'fr'|'en'|'es'
 
+  // Pseudo public unique (identité de jeu des comptes connectés). pseudoKey =
+  // version normalisée (trim + lower) pour l'unicité insensible à la casse.
+  pseudo          String? @unique
+  pseudoKey       String? @unique
+
   // Lien vers les résultats de partie + cache de stats agrégées (mis à jour à
   // chaque fin de partie pour éviter de tout recalculer en lecture).
   results        GamePlayerResult[]

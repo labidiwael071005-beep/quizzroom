@@ -8,7 +8,7 @@ const helmet      = require('helmet');
 const rateLimit   = require('express-rate-limit');
 require('dotenv').config();
 
-const { validatePseudo, validateChatMessage } = require('./profanity-filter');
+const { validatePseudo, validateChatMessage, isReservedPseudo, containsProfanity } = require('./profanity-filter');
 
 const app    = express();
 const server = http.createServer(app);
@@ -251,6 +251,7 @@ app.get('/api/me', (req, res) => {
       user: {
         id:              u.id,
         displayName:     u.displayName,
+        pseudo:          u.pseudo,           // null tant que non choisi (1ère connexion)
         avatarUrl:       u.avatarUrl,
         email:           u.email,
         preferredLocale: u.preferredLocale,
@@ -258,6 +259,55 @@ app.get('/api/me', (req, res) => {
     });
   }
   res.json({ authenticated: false });
+});
+
+// Validation d'un choix de pseudo (longueur 3..16, charset sûr, profanité).
+// Renvoie { ok, pseudo, pseudoKey } ou { ok:false, reason } (clé i18n).
+function validatePseudoChoice(raw) {
+  const pseudo = String(raw == null ? '' : raw).trim();
+  if (pseudo.length < 3 || pseudo.length > 16) return { ok: false, reason: 'pseudo.err.length' };
+  if (!/^[a-zA-Z0-9._-]+$/.test(pseudo))        return { ok: false, reason: 'pseudo.err.charset' };
+  if (isReservedPseudo(pseudo) || containsProfanity(pseudo)) return { ok: false, reason: 'pseudo.err.profanity' };
+  return { ok: true, pseudo, pseudoKey: pseudo.toLowerCase() };
+}
+
+// Disponibilité d'un pseudo (auth requise — appelé pendant le choix/édition).
+app.get('/api/me/pseudo/available', async (req, res) => {
+  if (!(req.isAuthenticated && req.isAuthenticated() && req.user)) {
+    return res.status(401).json({ available: false, reason: 'pseudo.err.auth' });
+  }
+  const v = validatePseudoChoice(req.query.p);
+  if (!v.ok) return res.json({ available: false, reason: v.reason });
+  try {
+    const existing = await prisma.user.findUnique({ where: { pseudoKey: v.pseudoKey }, select: { id: true } });
+    if (existing && existing.id !== req.user.id) return res.json({ available: false, reason: 'pseudo.err.taken' });
+    res.json({ available: true });
+  } catch (err) {
+    res.status(500).json({ available: false, reason: 'pseudo.err.server' });
+  }
+});
+
+// Définit / modifie le pseudo du compte connecté.
+app.post('/api/me/pseudo', async (req, res) => {
+  if (!(req.isAuthenticated && req.isAuthenticated() && req.user)) {
+    return res.status(401).json({ ok: false, reason: 'pseudo.err.auth' });
+  }
+  const v = validatePseudoChoice(req.body && req.body.pseudo);
+  if (!v.ok) return res.status(400).json({ ok: false, reason: v.reason });
+  try {
+    const existing = await prisma.user.findUnique({ where: { pseudoKey: v.pseudoKey }, select: { id: true } });
+    if (existing && existing.id !== req.user.id) return res.status(400).json({ ok: false, reason: 'pseudo.err.taken' });
+    const u = await prisma.user.update({
+      where: { id: req.user.id },
+      data:  { pseudo: v.pseudo, pseudoKey: v.pseudoKey },
+    });
+    res.json({ ok: true, user: { id: u.id, pseudo: u.pseudo, displayName: u.displayName, avatarUrl: u.avatarUrl } });
+  } catch (err) {
+    // Course possible sur l'unique → P2002
+    if (err && err.code === 'P2002') return res.status(400).json({ ok: false, reason: 'pseudo.err.taken' });
+    console.warn('[pseudo] échec:', err.message);
+    res.status(500).json({ ok: false, reason: 'pseudo.err.server' });
+  }
 });
 
 // ── Leaderboard (public) ──────────────────────────────────────
@@ -370,7 +420,8 @@ app.get('/api/me/profile', async (req, res) => {
       ok: true,
       user: {
         id:              u.id,
-        displayName:     u.displayName,
+        pseudo:          u.pseudo,
+        displayName:     u.displayName,   // nom du compte Google (sous-texte)
         avatarUrl:       u.avatarUrl,
         email:           u.email,
         createdAt:       u.createdAt,
@@ -1651,8 +1702,11 @@ io.on('connection', (socket) => {
     if (!checkIpRoomCreate(socket)) return;
     // Identité éventuelle (session) — sert d'autorité, jamais le client.
     const gu = socketUser(socket);
-    // Si le client n'envoie pas de pseudo et qu'on a un compte → displayName.
-    if ((!playerName || !String(playerName).trim()) && gu) playerName = gu.displayName;
+    // Compte connecté AVEC pseudo → on FORCE son pseudo (identité figée par le
+    // compte ; le client ne peut pas le changer). Fallback displayName si pas
+    // encore de pseudo (ne devrait pas arriver : le client gate la création).
+    if (gu && gu.pseudo) playerName = gu.pseudo;
+    else if ((!playerName || !String(playerName).trim()) && gu) playerName = gu.displayName;
     // F3 + profanity : pseudo valide ?
     const pseudoCheck = validatePseudo(playerName);
     if (!pseudoCheck.ok) return socket.emit('join_error', pseudoCheck.reason);
@@ -1694,7 +1748,8 @@ io.on('connection', (socket) => {
   socket.on('join_room', ({ code, playerName, avatar }) => {
     if (!validRoomCode(code)) return socket.emit('join_error', 'Code invalide.');
     const gu = socketUser(socket);
-    if ((!playerName || !String(playerName).trim()) && gu) playerName = gu.displayName;
+    if (gu && gu.pseudo) playerName = gu.pseudo;   // pseudo de compte figé
+    else if ((!playerName || !String(playerName).trim()) && gu) playerName = gu.displayName;
     const pseudoCheck = validatePseudo(playerName);
     if (!pseudoCheck.ok) return socket.emit('join_error', pseudoCheck.reason);
     if (avatar !== undefined && !validAvatar(avatar)) return socket.emit('join_error', 'Avatar invalide.');
@@ -1716,6 +1771,8 @@ io.on('connection', (socket) => {
 
   socket.on('lobby_sync', ({ code, playerName, avatar, fromLobby }) => {
     if (!validRoomCode(code)) return socket.emit('join_error', 'Code invalide.');
+    const gu = socketUser(socket);
+    if (gu && gu.pseudo) playerName = gu.pseudo;   // identité figée par le compte
     const pseudoCheck = validatePseudo(playerName);
     if (!pseudoCheck.ok) return socket.emit('join_error', pseudoCheck.reason);
     if (avatar !== undefined && !validAvatar(avatar)) avatar = undefined;
@@ -1725,7 +1782,6 @@ io.on('connection', (socket) => {
     // Annuler le timer de suppression du lobby vide si le joueur revient
     if (room._emptyTimer) { clearTimeout(room._emptyTimer); room._emptyTimer = null; }
 
-    const gu = socketUser(socket);
     let player = room.players.find(p => p.name === playerName);
     if (player) {
       // Joueur trouvé : mettre à jour son socket ID

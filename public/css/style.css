@@ -546,3 +546,28 @@ input[type="text"]:focus, textarea:focus { border-color: var(--gold) !important;
 /* Liens crème plutôt que bleu */
 a.highlight, .highlight { color: var(--gold); }
 .cookie-link { color: var(--gold); }
+
+/* Champ texte clair réutilisable (défini aussi dans home.css ; ici pour les
+   pages qui ne chargent pas home.css : profil + gate pseudo). */
+.home-input{
+  width:100%; font-family:'Fredoka',sans-serif; font-weight:500; font-size:16px;
+  color:var(--ink); background:#fff; border:2px solid var(--panel-border);
+  border-radius:12px; padding:12px 14px; outline:none; transition:border-color .15s, box-shadow .15s;
+}
+.home-input::placeholder{ color:#c2ad88; }
+.home-input:focus{ border-color:var(--accent); box-shadow:0 0 0 3px rgba(42,95,224,.18); }
+
+/* ── Gate « Choisis ton pseudo » (obligatoire, comptes connectés) ── */
+.pseudo-gate-overlay{
+  position:fixed; inset:0; z-index:1100; display:flex; align-items:center; justify-content:center;
+  padding:20px; background:rgba(10,20,40,.72);
+}
+.pseudo-gate-overlay[hidden]{ display:none; }
+.pseudo-gate{ width:100%; max-width:380px; padding:24px; text-align:center; }
+.pseudo-gate h2{ margin:0 0 8px; color:var(--logo-gold); font-size:22px; }
+.pseudo-gate-sub{ margin:0 0 16px; color:var(--ink-soft); font-size:13px; line-height:1.4; }
+.pseudo-gate .home-input{ text-align:center; }
+.pseudo-feedback{ min-height:18px; margin:8px 0 12px; font-size:13px; font-weight:600; color:var(--ink-soft); }
+.pseudo-feedback.ok{ color:#15803d; }
+.pseudo-feedback.err{ color:#b91c1c; }
+body.pseudo-gate-open{ overflow:hidden; }

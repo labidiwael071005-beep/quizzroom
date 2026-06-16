@@ -43,6 +43,7 @@
         <input type="text" id="create-name" class="home-input"
                data-i18n-placeholder="modal.create.pseudo.ph" placeholder="Ex : QuizzMaster42" maxlength="20">
       </div>
+      <a id="pseudo-edit-link" class="pseudo-edit-link" href="/profil" data-i18n="pseudo.editInProfile" hidden>Modifier dans mon profil</a>
 
       <button class="btn btn--primary btn--lg btn--block home-create" onclick="createRoom()"
               data-i18n="hero.create">Créer une partie</button>
@@ -135,6 +136,7 @@
 <script src="js/avatar.js"></script>
 <script src="js/cookies.js"></script>
 <script src="js/leaderboard.js"></script>
+<script src="js/pseudo.js"></script>
 <script src="js/app.js"></script>
 <script>
   // i18n + avatar + bandeau cookies (hooks existants conservés)
@@ -168,13 +170,19 @@
         }
         signin.hidden  = true;
         userBox.hidden = false;
-        // Pré-remplir le pseudo (modifiable) + badge « compte vérifié ».
         const nameInput = document.getElementById('create-name');
-        if (nameInput && !nameInput.value.trim()) nameInput.value = data.user.displayName || '';
-        const vb = document.getElementById('pseudo-verified');
-        if (vb) vb.hidden = false;
-        // Applique silencieusement la langue préférée du compte si différente
-        // (sans re-persister : persist=false).
+        const editLink  = document.getElementById('pseudo-edit-link');
+        const vb        = document.getElementById('pseudo-verified');
+        if (data.user.pseudo) {
+          // Pseudo figé par le compte : champ verrouillé + lien vers le profil.
+          if (nameInput) { nameInput.value = data.user.pseudo; nameInput.readOnly = true; nameInput.classList.add('locked'); }
+          if (editLink) editLink.hidden = false;
+          if (vb) vb.hidden = false;
+        } else {
+          // 1ère connexion : écran obligatoire « Choisis ton pseudo ».
+          if (window.PseudoUI) PseudoUI.openGate(() => window.location.reload());
+        }
+        // Applique silencieusement la langue préférée du compte si différente.
         const pl = data.user.preferredLocale;
         if (pl && typeof getLang === 'function' && pl !== getLang() && typeof setLang === 'function') {
           setLang(pl, false);
@@ -182,6 +190,10 @@
       } else {
         signin.hidden  = false;
         userBox.hidden = true;
+        const nameInput = document.getElementById('create-name');
+        if (nameInput) { nameInput.readOnly = false; nameInput.classList.remove('locked'); }
+        const editLink = document.getElementById('pseudo-edit-link');
+        if (editLink) editLink.hidden = true;
         const vb = document.getElementById('pseudo-verified');
         if (vb) vb.hidden = true;
       }

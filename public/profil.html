@@ -51,10 +51,23 @@
               </svg>
             </span>
           </div>
+          <div class="profil-google" id="p-google"></div>
           <div class="profil-since" id="p-since"></div>
           <div class="profil-lang" id="p-lang"></div>
         </div>
         <button type="button" class="btn btn--ghost btn--sm profil-logout" id="btn-logout" data-i18n="auth.signOut">Se déconnecter</button>
+      </div>
+
+      <!-- Modifier le pseudo -->
+      <div class="panel profil-card">
+        <h2 class="profil-section-title" data-i18n="profile.pseudo.edit">Modifier mon pseudo</h2>
+        <p class="profil-pseudo-info" data-i18n="profile.pseudo.info">Ton pseudo est unique. Les autres joueurs te verront sous ce nom.</p>
+        <div class="profil-pseudo-row">
+          <input type="text" id="edit-pseudo-input" class="home-input" maxlength="16"
+                 data-i18n-placeholder="pseudo.placeholder" placeholder="Ton pseudo" autocomplete="off" spellcheck="false">
+          <button type="button" class="btn btn--primary" id="edit-pseudo-save" data-i18n="profile.pseudo.save" disabled>Enregistrer</button>
+        </div>
+        <div class="pseudo-feedback" id="edit-pseudo-feedback" aria-live="polite"></div>
       </div>
 
       <!-- KPI -->
@@ -94,6 +107,7 @@
 <div id="toast" class="toast"></div>
 
 <script src="js/i18n.js"></script>
+<script src="js/pseudo.js"></script>
 <script src="js/profil.js"></script>
 <script>
   initI18n().then(() => { initProfile(); });

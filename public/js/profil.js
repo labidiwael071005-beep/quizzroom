@@ -40,12 +40,41 @@ async function initProfile() {
 
   const u = data.user, s = data.stats;
 
-  // Identité
-  document.getElementById('p-name').textContent = u.displayName || '';
+  // Pas encore de pseudo (compte existant ou 1ère connexion) → gate obligatoire.
+  if (!u.pseudo && window.PseudoUI) {
+    window.PseudoUI.openGate(() => window.location.reload());
+  }
+
+  // Identité : pseudo en grand, nom Google en sous-texte discret.
+  document.getElementById('p-name').textContent = u.pseudo || u.displayName || '';
+  const gEl = document.getElementById('p-google');
+  if (gEl) gEl.textContent = _tr('profile.googleAccount', 'Compte Google') + ' : ' + (u.displayName || '—');
   const av = document.getElementById('p-avatar');
-  if (u.avatarUrl) { av.src = u.avatarUrl; av.alt = u.displayName || ''; av.hidden = false; }
+  if (u.avatarUrl) { av.src = u.avatarUrl; av.alt = u.pseudo || u.displayName || ''; av.hidden = false; }
   const vb = document.getElementById('p-verified');
   if (vb) vb.title = _tr('lobby.verifiedAccount', 'Compte vérifié');
+
+  // Section « Modifier mon pseudo ».
+  const pInput = document.getElementById('edit-pseudo-input');
+  const pSave  = document.getElementById('edit-pseudo-save');
+  const pFb    = document.getElementById('edit-pseudo-feedback');
+  if (pInput && pSave && window.PseudoUI) {
+    if (u.pseudo) pInput.value = u.pseudo;
+    pInput.addEventListener('input', () => window.PseudoUI.liveCheck(pInput.value, pFb, pSave));
+    pSave.addEventListener('click', async () => {
+      pSave.disabled = true;
+      const res = await window.PseudoUI.submitPseudo(pInput.value);
+      if (res.ok) {
+        document.getElementById('p-name').textContent = res.user.pseudo;
+        pFb.textContent = _tr('pseudo.saved', 'Pseudo enregistré ✓');
+        pFb.classList.remove('err'); pFb.classList.add('ok');
+      } else {
+        pFb.textContent = _tr(res.reason || 'pseudo.err.server', '');
+        pFb.classList.remove('ok'); pFb.classList.add('err');
+        pSave.disabled = false;
+      }
+    });
+  }
 
   const lang = (document.documentElement.lang || 'fr');
   const since = document.getElementById('p-since');

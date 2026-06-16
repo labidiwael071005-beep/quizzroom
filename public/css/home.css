@@ -170,6 +170,11 @@ body.home{
 /* Ligne identité : avatar compact + champ pseudo côte à côte */
 .home-identity-row{ display:flex; align-items:center; gap:12px; }
 .home-identity-row .home-input{ flex:1; min-width:0; }
+/* Champ pseudo verrouillé (compte connecté : pseudo figé) */
+.home-input.locked{ background:#f3eee2; color:var(--ink-soft); cursor:not-allowed; }
+.pseudo-edit-link{ display:inline-block; margin:6px 0 0 2px; font-size:12px; font-weight:600; color:var(--accent); text-decoration:underline; }
+.pseudo-edit-link[hidden]{ display:none; }
+.pseudo-edit-link:hover{ color:var(--accent-dark); }
 
 /* ── Avatar : aperçu compact + bouton « + » ── */
 .avatar-compact{ display:inline-flex; position:relative; }
