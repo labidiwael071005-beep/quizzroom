@@ -30,7 +30,7 @@ body.home{
 /* ── Barre du haut : sélecteur de langue à droite ────────────── */
 .home-topbar{
   position:absolute; top:16px; right:18px; left:18px;
-  display:flex; justify-content:flex-end; z-index:6;
+  display:flex; justify-content:flex-end; align-items:center; gap:10px; z-index:6;
 }
 #lang-switcher.lang-switcher{ display:flex; gap:6px; }
 .home-topbar .lang-btn{

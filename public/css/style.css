@@ -557,6 +557,37 @@ a.highlight, .highlight { color: var(--gold); }
 .home-input::placeholder{ color:#c2ad88; }
 .home-input:focus{ border-color:var(--accent); box-shadow:0 0 0 3px rgba(42,95,224,.18); }
 
+/* ── Menu utilisateur (cercle photo + dropdown) ── */
+.user-menu{ position:relative; }
+.user-menu[hidden]{ display:none; }
+.um-trigger{
+  width:36px; height:36px; border-radius:50%; padding:0; cursor:pointer; overflow:hidden;
+  border:2px solid var(--logo-gold); background:#fff; display:flex; align-items:center; justify-content:center;
+}
+.um-trigger:focus-visible{ outline:3px solid var(--logo-gold); outline-offset:2px; }
+.um-avatar{ width:100%; height:100%; object-fit:cover; border-radius:50%; display:block; }
+.um-avatar-ph{
+  width:100%; height:100%; display:flex; align-items:center; justify-content:center;
+  background:var(--gold-grad); color:#5a3a00; font-weight:700; font-family:'Fredoka',sans-serif;
+}
+.um-popover{
+  position:absolute; top:46px; right:0; width:220px; padding:10px; z-index:50;
+  box-shadow:0 10px 30px rgba(0,0,0,.25);
+}
+.um-popover[hidden]{ display:none; }
+.um-head{ display:flex; align-items:center; gap:10px; padding:4px 6px 10px; border-bottom:1px solid var(--panel-border); margin-bottom:6px; }
+.um-head .um-avatar, .um-head .um-avatar-ph{ width:38px; height:38px; flex-shrink:0; border-radius:50%; border:2px solid var(--logo-gold); }
+.um-head-info{ display:flex; flex-direction:column; min-width:0; }
+.um-name{ font-weight:700; color:var(--ink); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.um-sub{ font-size:11px; color:var(--ink-soft); }
+.um-item{
+  display:block; width:100%; text-align:left; padding:9px 10px; border:none; background:none; border-radius:8px;
+  cursor:pointer; font-family:'Fredoka',sans-serif; font-size:14px; font-weight:600; color:var(--ink); text-decoration:none;
+}
+.um-item:hover{ background:rgba(42,95,224,.08); }
+.um-logout{ color:var(--accent-dark); }
+.um-item:focus-visible{ outline:2px solid var(--logo-gold); outline-offset:-2px; }
+
 /* ── Gate « Choisis ton pseudo » (obligatoire, comptes connectés) ── */
 .pseudo-gate-overlay{
   position:fixed; inset:0; z-index:1100; display:flex; align-items:center; justify-content:center;

@@ -207,6 +207,7 @@
   "auth.optional": "Optionnel — pour garder vos stats entre appareils",
   "auth.optional.lobby": "Connecte-toi pour garder tes stats entre appareils",
   "auth.signOut": "Se déconnecter",
+  "auth.myProfile": "Mon profil",
   "lobby.verifiedAccount": "Compte vérifié",
   "lobby.editAvatar": "Modifier l'avatar",
   "avatar.color": "Couleur",

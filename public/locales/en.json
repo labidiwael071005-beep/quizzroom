@@ -207,6 +207,7 @@
   "auth.optional": "Optional — to keep your stats across devices",
   "auth.optional.lobby": "Sign in to keep your stats across devices",
   "auth.signOut": "Sign out",
+  "auth.myProfile": "My profile",
   "lobby.verifiedAccount": "Verified account",
   "lobby.editAvatar": "Edit avatar",
   "avatar.color": "Color",

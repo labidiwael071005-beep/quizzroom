@@ -28,7 +28,7 @@
       </button>
       <h1 class="lobby-title" data-i18n="lobby.heading">Salon d'attente</h1>
       <div class="lobby-head-right">
-        <a id="lobby-profile-link" class="lobby-profile-link" href="/profil" data-i18n="nav.profile" hidden>Mon profil</a>
+        <div id="user-menu" class="user-menu" hidden></div>
         <div id="lang-switcher" class="lang-switcher"></div>
       </div>
     </header>
@@ -152,6 +152,7 @@
 <script src="/socket.io/socket.io.js"></script>
 <script src="js/i18n.js"></script>
 <script src="js/avatar.js"></script>
+<script src="js/usermenu.js"></script>
 <script src="js/lobby.js"></script>
 <script>
   // initI18n() applique la langue stockée puis on re-rend les zones générées par

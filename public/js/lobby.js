@@ -572,9 +572,9 @@ fetch('/api/me', { headers: { Accept: 'application/json' } })
   .then(r => r.json())
   .then(d => {
     const cta = document.getElementById('lobby-auth-cta');
-    const profileLink = document.getElementById('lobby-profile-link');
     if (d && d.authenticated) {
-      if (profileLink) profileLink.hidden = false;   // accès profil pour les connectés
+      // Connecté : menu utilisateur (profil / déconnexion) en haut à droite.
+      if (window.initUserMenu) initUserMenu('user-menu', d.user);
     } else if (cta) {
       cta.href = '/auth/google?returnTo=' + encodeURIComponent(location.pathname + location.search);
       cta.hidden = false;

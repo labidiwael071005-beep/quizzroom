@@ -207,6 +207,7 @@
   "auth.optional": "Opcional — para guardar tus estadísticas entre dispositivos",
   "auth.optional.lobby": "Inicia sesión para guardar tus estadísticas entre dispositivos",
   "auth.signOut": "Cerrar sesión",
+  "auth.myProfile": "Mi perfil",
   "lobby.verifiedAccount": "Cuenta verificada",
   "lobby.editAvatar": "Editar avatar",
   "avatar.color": "Color",
