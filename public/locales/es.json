@@ -239,6 +239,7 @@
   "lb.month": "Mes",
   "lb.wins": "victorias",
   "lb.empty": "Aún no hay victorias.",
+  "leaderboard.verifiedOnly": "Aquí solo aparecen las cuentas conectadas.",
   "nav.profile": "Mi perfil",
   "profile.title": "SquizzGame — Mi perfil",
   "profile.heading": "Mi perfil",

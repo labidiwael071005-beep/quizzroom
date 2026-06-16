@@ -1,8 +1,7 @@
 // public/js/leaderboard.js — Classement (accueil)
 // Top 10 des victoires, filtrable Semaine/Mois et Vérifiés/Tous.
 (function () {
-  let scope  = 'verified';
-  let period = 'week';
+  let period = 'week';   // leaderboard réservé aux comptes connectés (verified)
 
   function esc(s) {
     return String(s == null ? '' : s)
@@ -24,7 +23,7 @@
     const empty = document.getElementById('lb-empty');
     if (!list) return;
     try {
-      const r = await fetch(`/api/leaderboard?scope=${scope}&period=${period}`, { headers: { Accept: 'application/json' } });
+      const r = await fetch(`/api/leaderboard?period=${period}`, { headers: { Accept: 'application/json' } });
       const d = await r.json();
       const rows = (d && d.leaderboard) || [];
       empty.hidden = rows.length > 0;
@@ -60,7 +59,6 @@
   }
 
   window.initLeaderboard = function () {
-    wireTabs('scope',  v => { scope  = v; });
     wireTabs('period', v => { period = v; });
     load();
   };
