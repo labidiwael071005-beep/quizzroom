@@ -173,6 +173,12 @@
         if (nameInput && !nameInput.value.trim()) nameInput.value = data.user.displayName || '';
         const vb = document.getElementById('pseudo-verified');
         if (vb) vb.hidden = false;
+        // Applique silencieusement la langue préférée du compte si différente
+        // (sans re-persister : persist=false).
+        const pl = data.user.preferredLocale;
+        if (pl && typeof getLang === 'function' && pl !== getLang() && typeof setLang === 'function') {
+          setLang(pl, false);
+        }
       } else {
         signin.hidden  = false;
         userBox.hidden = true;

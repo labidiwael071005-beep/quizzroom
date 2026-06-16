@@ -385,6 +385,24 @@ app.get('/api/me/profile', async (req, res) => {
   }
 });
 
+// Persiste la langue préférée d'un joueur connecté (auth session requise).
+app.post('/api/me/locale', async (req, res) => {
+  if (!(req.isAuthenticated && req.isAuthenticated() && req.user)) {
+    return res.status(401).json({ ok: false, error: 'Non authentifié' });
+  }
+  const locale = req.body && req.body.locale;
+  if (!SUPPORTED_LANGS.includes(locale)) {
+    return res.status(400).json({ ok: false, error: 'Locale invalide' });
+  }
+  try {
+    await prisma.user.update({ where: { id: req.user.id }, data: { preferredLocale: locale } });
+    res.json({ ok: true });
+  } catch (err) {
+    console.warn('[locale] échec:', err.message);
+    res.status(500).json({ ok: false });
+  }
+});
+
 // Page profil (fichier statique servi sur une URL propre).
 app.get('/profil', (req, res) => {
   res.sendFile(path.join(__dirname, '../public/profil.html'));

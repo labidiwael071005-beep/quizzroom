@@ -55,7 +55,7 @@ async function initI18n() {
   renderLangSwitcher();
 }
 
-async function setLang(lang) {
+async function setLang(lang, persist = true) {
   if (!SUPPORTED.includes(lang)) return;
   localStorage.setItem('qr_lang', lang);
   currentLang  = lang;
@@ -63,6 +63,18 @@ async function setLang(lang) {
   document.documentElement.lang = lang;
   applyTranslations();
   renderLangSwitcher();
+  // Persiste le choix pour les joueurs connectés (ignoré si anonyme → 401).
+  // `persist=false` quand on applique simplement la préférence du compte au
+  // chargement, pour éviter une écriture inutile.
+  if (persist) {
+    try {
+      fetch('/api/me/locale', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ locale: lang }),
+      }).catch(() => {});
+    } catch (e) { /* no-op */ }
+  }
 }
 
 function renderLangSwitcher() {
