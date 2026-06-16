@@ -444,8 +444,18 @@ html, body {
 .gameover-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 
 /* ── Récap de partie (historique) ─────────────────────────── */
+/* Récap de fin de partie : le conteneur d'écran centre verticalement son contenu
+   (align-items:center), ce qui rendait le HAUT de la liste inatteignable au
+   scroll quand elle dépasse la hauteur. On aligne en haut + scroll fluide. */
+#screen-history {
+  align-items: flex-start;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
 .history-wrap {
   width: 100%; max-width: 640px;
+  margin: 0 auto;
+  padding: 8px 0 28px;
   display: flex; flex-direction: column; align-items: center;
 }
 .history-title {
