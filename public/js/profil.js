@@ -33,8 +33,10 @@ async function initProfile() {
   }
   if (!data || !data.ok) { loggedOut.hidden = false; content.hidden = true; return; }
 
-  loggedOut.hidden = true;
-  content.hidden   = false;
+  // Connecté : on RETIRE complètement le bandeau « Connecte-toi » (il n'a aucun
+  // sens ici) plutôt que de le masquer — pas de doublon possible.
+  if (loggedOut && loggedOut.parentNode) loggedOut.parentNode.removeChild(loggedOut);
+  content.hidden = false;
 
   const u = data.user, s = data.stats;
 
