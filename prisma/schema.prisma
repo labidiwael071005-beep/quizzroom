@@ -113,8 +113,8 @@ model QuestionReport {
 }
 
 // Joueur authentifié via Google OAuth. La connexion est OPTIONNELLE : les
-// joueurs anonymes continuent de jouer sans User. On ne relie pas encore cette
-// identité au lobby/jeu/leaderboard (étape suivante).
+// joueurs anonymes continuent de jouer sans User. L'identité est reliée au
+// jeu/leaderboard/profil (résultats + stats agrégées ci-dessous).
 model User {
   id            String   @id @default(cuid())
   googleId      String   @unique
@@ -123,11 +123,38 @@ model User {
   avatarUrl     String?
   createdAt     DateTime @default(now())
   lastLoginAt   DateTime @default(now())
-  // Champs préparés pour les étapes suivantes (succès, profil) — peuplés plus tard
-  preferredLocale String? // 'fr'|'en'|'es' au moment de la 1ère connexion
+  preferredLocale String? // 'fr'|'en'|'es'
+
+  // Lien vers les résultats de partie + cache de stats agrégées (mis à jour à
+  // chaque fin de partie pour éviter de tout recalculer en lecture).
+  results        GamePlayerResult[]
+  gamesPlayed    Int      @default(0)
+  gamesWon       Int      @default(0)
+  totalScore     Int      @default(0)
 
   @@index([googleId])
   @@index([email])
+}
+
+// Un résultat de joueur pour une partie terminée (≥2 joueurs). userId est NULL
+// pour les anonymes. pseudoKey = pseudo normalisé (pour regrouper l'anonyme dans
+// le leaderboard scope=all). C'est la session serveur qui fixe userId, jamais le
+// client.
+model GamePlayerResult {
+  id         String   @id @default(cuid())
+  pseudo     String
+  pseudoKey  String                          // pseudo normalisé (trim + lower)
+  score      Int      @default(0)
+  won        Boolean  @default(false)
+  roomCode   String?
+  createdAt  DateTime @default(now())
+
+  userId     String?
+  user       User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId])
+  @@index([pseudoKey])
+  @@index([createdAt])
 }
 
 model AdminUser {
