@@ -87,6 +87,15 @@ body.home{
 .home-input::placeholder{ color:#c2ad88; }
 .home-input:focus{ border-color:var(--accent); box-shadow:0 0 0 3px rgba(42,95,224,.18); }
 
+/* Ligne label + badge « compte vérifié » (pré-rempli depuis le compte Google) */
+.home-label-row{ display:flex; align-items:center; justify-content:space-between; gap:8px; }
+.verified-badge{
+  display:inline-flex; align-items:center; gap:4px;
+  color:var(--logo-gold); font-weight:700; font-size:11px;
+  text-transform:uppercase; letter-spacing:.03em; margin:0 2px 6px 0;
+}
+.verified-badge .shield-ico{ flex-shrink:0; }
+
 .home-create{ margin-top:14px; }
 .home-or{
   display:flex; align-items:center; gap:12px; margin:16px 2px; color:var(--ink-soft); font-weight:600; font-size:13px;

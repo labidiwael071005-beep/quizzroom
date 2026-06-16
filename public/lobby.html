@@ -52,6 +52,12 @@
           <div id="empty-slots" class="empty-slots"></div>
         </div>
 
+        <!-- CTA discret de connexion (affiché seulement aux anonymes) -->
+        <a class="lobby-auth-cta" id="lobby-auth-cta" href="/auth/google" hidden>
+          <i class="ti ti-shield-check"></i>
+          <span data-i18n="auth.optional.lobby">Connecte-toi pour garder tes stats entre appareils</span>
+        </a>
+
         <div class="panel lobby-card chat-card">
           <div class="lobby-card-title" data-i18n="lobby.chat">Chat</div>
           <div id="chat-messages" class="chat-messages"></div>

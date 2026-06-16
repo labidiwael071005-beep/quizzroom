@@ -205,7 +205,9 @@
   "auth.separator": "sign in",
   "auth.signInWithGoogle": "Sign in with Google",
   "auth.optional": "Optional — to keep your stats across devices",
+  "auth.optional.lobby": "Sign in to keep your stats across devices",
   "auth.signOut": "Sign out",
+  "lobby.verifiedAccount": "Verified account",
   "lobby.heading": "Waiting room",
   "lobby.rounds.qtitle": "Rounds & questions",
   "game.round.exhausted": "No more questions available for this round"

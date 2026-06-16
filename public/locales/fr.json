@@ -205,7 +205,9 @@
   "auth.separator": "connexion",
   "auth.signInWithGoogle": "Se connecter avec Google",
   "auth.optional": "Optionnel — pour garder vos stats entre appareils",
+  "auth.optional.lobby": "Connecte-toi pour garder tes stats entre appareils",
   "auth.signOut": "Se déconnecter",
+  "lobby.verifiedAccount": "Compte vérifié",
   "lobby.heading": "Salon d’attente",
   "lobby.rounds.qtitle": "Manches & questions",
   "game.round.exhausted": "Plus de questions disponibles pour cette manche"

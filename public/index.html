@@ -28,7 +28,16 @@
     <p class="home-slogan" data-i18n="home.slogan">Défie tes amis sous les projecteurs</p>
 
     <div class="panel home-panel">
-      <label class="home-label" for="create-name" data-i18n="modal.create.pseudo">Ton pseudo</label>
+      <div class="home-label-row">
+        <label class="home-label" for="create-name" data-i18n="modal.create.pseudo">Ton pseudo</label>
+        <span id="pseudo-verified" class="verified-badge" hidden>
+          <svg class="shield-ico" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M12 2 4 5v6c0 5 3.4 8.6 8 11 4.6-2.4 8-6 8-11V5l-8-3Z"/>
+            <path fill="#1b3f9e" d="m10.7 14.4-2.4-2.4 1.1-1.1 1.3 1.3 3.2-3.2 1.1 1.1-4.3 4.3Z"/>
+          </svg>
+          <span data-i18n="lobby.verifiedAccount">Compte vérifié</span>
+        </span>
+      </div>
       <input type="text" id="create-name" class="home-input"
              data-i18n-placeholder="modal.create.pseudo.ph" placeholder="Ex : QuizzMaster42" maxlength="20">
 
@@ -135,9 +144,16 @@
         }
         signin.hidden  = true;
         userBox.hidden = false;
+        // Pré-remplir le pseudo (modifiable) + badge « compte vérifié ».
+        const nameInput = document.getElementById('create-name');
+        if (nameInput && !nameInput.value.trim()) nameInput.value = data.user.displayName || '';
+        const vb = document.getElementById('pseudo-verified');
+        if (vb) vb.hidden = false;
       } else {
         signin.hidden  = false;
         userBox.hidden = true;
+        const vb = document.getElementById('pseudo-verified');
+        if (vb) vb.hidden = true;
       }
     } catch (e) {
       // Échec réseau → état déconnecté par défaut.

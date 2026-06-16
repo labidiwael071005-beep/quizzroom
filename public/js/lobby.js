@@ -287,7 +287,7 @@ socket.on('players_update', ({ players, teams: teamsArr, hostName }) => {
   // un flash de la liste quand l'event arrive juste après un changement de
   // réglage (le serveur rediffuse les joueurs même s'ils sont identiques).
   const sig = JSON.stringify((currentPlayers || []).map(p =>
-    [p.name, p.teamId, p.inLobby, p.avatar && p.avatar.emoji, p.avatar && p.avatar.colorIdx]
+    [p.name, p.teamId, p.inLobby, p.verified, p.avatar && p.avatar.emoji, p.avatar && p.avatar.colorIdx]
   )) + '|' + currentHostName;
   if (sig !== _playersSig) { _playersSig = sig; updatePlayers(currentPlayers); }
   if (teamsArr) renderTeams(teamsArr);
@@ -415,7 +415,7 @@ function updatePlayers(players) {
       <div class="player-item ${isWaiting ? 'is-waiting' : ''}">
         <span class="av-inline av-sm" style="${getAvatarStyle(av)}">${escapeHtml(av.emoji)}</span>
         <span class="player-name">
-          ${escapeHtml(p.name)}
+          <span class="player-name-main">${escapeHtml(p.name)}${p.verified ? `<i class="ti ti-shield-check player-verified" title="${escapeHtml(t('lobby.verifiedAccount', 'Compte vérifié'))}" aria-label="${escapeHtml(t('lobby.verifiedAccount', 'Compte vérifié'))}"></i>` : ''}</span>
           ${isMe ? `<span class="player-you">${escapeHtml(t('lobby.you', '(toi)'))}</span>` : ''}
           ${teamBadge}
           ${isWaiting ? `<span class="player-waiting-label">${escapeHtml(t('lobby.player.waiting', '⏳ En attente du joueur'))}</span>` : ''}
@@ -563,3 +563,19 @@ function showToast(msg, type = '') {
   clearTimeout(el._timer);
   el._timer = setTimeout(() => el.classList.remove('show'), 3000);
 }
+
+// ── CTA discret de connexion (anonymes seulement) ─────────────
+// Optionnel : ne bloque rien. returnTo = lobby actuel pour revenir ici après
+// l'OAuth (sessionStorage persiste → la room est retrouvée et le joueur passe
+// "vérifié" au prochain lobby_sync).
+fetch('/api/me', { headers: { Accept: 'application/json' } })
+  .then(r => r.json())
+  .then(d => {
+    const cta = document.getElementById('lobby-auth-cta');
+    if (!cta) return;
+    if (!d || !d.authenticated) {
+      cta.href = '/auth/google?returnTo=' + encodeURIComponent(location.pathname + location.search);
+      cta.hidden = false;
+    }
+  })
+  .catch(() => {});

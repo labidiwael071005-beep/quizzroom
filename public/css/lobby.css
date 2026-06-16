@@ -101,6 +101,8 @@ body.lobby{ margin:0; background:var(--bg-3); font-family:'Fredoka',system-ui,sa
   display:flex; flex-direction:column; align-items:center; gap:2px; width:100%;
   overflow-wrap:anywhere;
 }
+.player-name-main{ display:inline-flex; align-items:center; gap:4px; justify-content:center; flex-wrap:wrap; }
+.player-verified{ color:var(--logo-gold); font-size:14px; line-height:1; flex-shrink:0; }
 .player-you{ font-size:11px; font-weight:600; color:var(--accent); }
 .player-waiting-label{ font-size:10px; font-style:italic; color:var(--ink-soft); }
 .player-item.is-waiting .av-inline{ opacity:.5; filter:grayscale(.7); }
@@ -153,6 +155,18 @@ body.lobby{ margin:0; background:var(--bg-3); font-family:'Fredoka',system-ui,sa
   font-size:20px; color:var(--ink-soft);
 }
 .empty-name{ font-size:11px; color:var(--ink-soft); font-style:italic; }
+
+/* CTA discret de connexion (anonymes) */
+.lobby-auth-cta{
+  display:flex; align-items:center; gap:8px; margin:0 0 10px;
+  padding:9px 12px; border-radius:12px; text-decoration:none;
+  background:rgba(255,206,77,.12); border:2px solid var(--logo-gold);
+  color:var(--ink); font-size:12.5px; font-weight:600; line-height:1.3;
+  transition:background .15s;
+}
+.lobby-auth-cta:hover{ background:rgba(255,206,77,.22); }
+.lobby-auth-cta i{ color:var(--logo-gold); font-size:18px; flex-shrink:0; }
+.lobby-auth-cta[hidden]{ display:none; }
 
 /* ── Chat ────────────────────────────────────────────────────── */
 .chat-card{ display:flex; flex-direction:column; }
