@@ -1151,6 +1151,9 @@ function doGameOver(code) {
     teamMode: room.settings.teamMode,
     history:  room.history || [],
   });
+  // Persistance des résultats (leaderboard/profil) AVANT la remise à zéro des
+  // scores plus bas. Fire-and-forget, n'impacte jamais le gameflow.
+  recordGameResults(room, code);
   // On garde la room en vie pour permettre le retour au lobby et rejouer
   room.started           = false;
   room.currentRound      = 0;
@@ -1165,6 +1168,57 @@ function doGameOver(code) {
   room.players.forEach(p => { p.score = 0; });
   if (room.teams) room.teams.forEach(t => { t.score = 0; });
   console.log(`🔁 Room ${code} : partie terminée, retour au lobby possible`);
+}
+
+// Enregistre un GamePlayerResult par joueur + incrémente les stats agrégées des
+// comptes connectés. Règles : parties solo (< 2 joueurs) NON comptées ;
+// userId vient TOUJOURS du serveur (player.userId), jamais du client.
+// Fire-and-forget : try/catch, n'impacte jamais le jeu.
+function recordGameResults(room, code) {
+  if (!room || !Array.isArray(room.players) || room.players.length < 2) return;
+  const teamMode = !!room.settings.teamMode;
+
+  // Détermine l'équipe gagnante (sans victoire en cas d'égalité d'équipes).
+  let winningTeamId = null;
+  if (teamMode && Array.isArray(room.teams) && room.teams.length) {
+    const maxT = Math.max(...room.teams.map(t => t.score || 0));
+    const top  = room.teams.filter(t => (t.score || 0) === maxT);
+    if (maxT > 0 && top.length === 1) winningTeamId = top[0].id;
+  }
+  const maxScore = Math.max(...room.players.map(p => p.score || 0));
+
+  const rows = room.players.map(p => ({
+    pseudo:    p.name,
+    pseudoKey: String(p.name || '').trim().toLowerCase(),
+    score:     p.score || 0,
+    won:       teamMode
+                 ? (winningTeamId !== null && p.teamId === winningTeamId)
+                 : (maxScore > 0 && (p.score || 0) === maxScore),
+    roomCode:  code,
+    userId:    p.userId || null,
+  }));
+
+  (async () => {
+    try {
+      const ops = [prisma.gamePlayerResult.createMany({ data: rows })];
+      for (const r of rows) {
+        if (!r.userId) continue;
+        ops.push(prisma.user.update({
+          where: { id: r.userId },
+          data: {
+            gamesPlayed: { increment: 1 },
+            gamesWon:    r.won ? { increment: 1 } : undefined,
+            totalScore:  { increment: r.score },
+          },
+        }));
+      }
+      await prisma.$transaction(ops);
+      const verifiedCount = rows.filter(r => r.userId).length;
+      console.log(`📊 Résultats enregistrés : ${rows.length} joueur(s) (${verifiedCount} vérifié(s)) — room ${code}`);
+    } catch (err) {
+      console.warn(`[GameResult] enregistrement échoué (room ${code}):`, err.message);
+    }
+  })();
 }
 
 // ── Traçabilité GameSession (fire-and-forget : ne bloque JAMAIS le jeu) ───────
