@@ -128,7 +128,7 @@ const sessionPool = new Pool({
   ssl: { rejectUnauthorized: false },
 });
 
-app.use(session({
+const sessionMiddleware = session({
   name:  'squizz.sid',
   store: new PgSession({ pool: sessionPool, createTableIfMissing: true }),
   secret: process.env.SESSION_SECRET || 'dev-insecure-secret-change-me',
@@ -140,10 +140,19 @@ app.use(session({
     secure:   IS_PROD,                 // Render termine le HTTPS en amont
     maxAge:   30 * 24 * 60 * 60 * 1000, // 30 jours
   },
-}));
+});
 
+app.use(sessionMiddleware);
 app.use(passport.initialize());
 app.use(passport.session());
+
+// ── Partage de la session Express avec Socket.io ──────────────
+// Indispensable pour identifier req.user (compte Google) dans le handshake
+// socket. Le pseudo/avatar VISIBLE reste celui envoyé par le client (override
+// possible) ; userId est dérivé de la session côté serveur — JAMAIS du client.
+io.engine.use(sessionMiddleware);
+io.engine.use(passport.initialize());
+io.engine.use(passport.session());
 
 // Stratégie Google : upsert d'un User par googleId à chaque connexion.
 passport.use(new GoogleStrategy({
@@ -1044,14 +1053,14 @@ function endQuestion(code) {
           nextRound:    nextRound.name,
           nextRoundIdx: room.currentRound + 1,
           totalRounds:  room.roundPlan.length,
-          players:      room.players,
+          players:      publicPlayers(room),
           teams:        room.teams,
           teamMode:     room.settings.teamMode,
         });
       } else {
         // Mid-round (ou dernière question d'un game) : screen-scores
         io.to(code).emit('scores_update', {
-          players:  room.players,
+          players:  publicPlayers(room),
           teams:    room.teams,
           teamMode: room.settings.teamMode,
         });
@@ -1064,7 +1073,7 @@ function endQuestion(code) {
         nextRound:    nextRound.name,
         nextRoundIdx: room.currentRound + 1,
         totalRounds:  room.roundPlan.length,
-        players:      room.players,
+        players:      publicPlayers(room),
         teams:        room.teams,
         teamMode:     room.settings.teamMode,
       });
@@ -1135,7 +1144,7 @@ function doGameOver(code) {
   finalizeGameSession(room);   // endedAt = now (traçabilité, fire-and-forget)
   const ranking = room.settings.teamMode
     ? [...room.teams].sort((a, b) => b.score - a.score)
-    : [...room.players].sort((a, b) => b.score - a.score);
+    : [...room.players].sort((a, b) => b.score - a.score).map(publicPlayer);
   room.phase = 'over';
   io.to(code).emit('game_over', {
     ranking,
@@ -1413,12 +1422,35 @@ function startRound(code, roundIndex) {
 }
 
 // ── Socket.io ─────────────────────────────────────────────────
+
+// Identité Google du socket, lue depuis la SESSION (jamais depuis le client).
+// Renvoie l'objet User (DB) si connecté, sinon null.
+function socketUser(socket) {
+  const u = socket.request && socket.request.user;
+  return (u && u.id) ? u : null;
+}
+
+// Vue « publique » d'un joueur envoyée aux autres clients : on retire les champs
+// d'autorité serveur (userId/gName/gAvatar) et on n'expose qu'un booléen
+// `verified`. JAMAIS d'email ni d'identifiant Google côté room.
+function publicPlayer(p) {
+  const { userId, gName, gAvatar, ...safe } = p;
+  return { ...safe, verified: !!userId };
+}
+function publicPlayers(room) {
+  return (room.players || []).map(publicPlayer);
+}
+
 io.on('connection', (socket) => {
   console.log(`✅ Connecté : ${socket.id}`);
 
   socket.on('create_room', ({ playerName, settings, avatar }) => {
     // F4 : cap IP avant tout (3 rooms / minute)
     if (!checkIpRoomCreate(socket)) return;
+    // Identité éventuelle (session) — sert d'autorité, jamais le client.
+    const gu = socketUser(socket);
+    // Si le client n'envoie pas de pseudo et qu'on a un compte → displayName.
+    if ((!playerName || !String(playerName).trim()) && gu) playerName = gu.displayName;
     // F3 + profanity : pseudo valide ?
     const pseudoCheck = validatePseudo(playerName);
     if (!pseudoCheck.ok) return socket.emit('join_error', pseudoCheck.reason);
@@ -1432,7 +1464,8 @@ io.on('connection', (socket) => {
       code,
       host:     socket.id,
       hostName: name,
-      players:  [{ id: socket.id, name, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true }],
+      players:  [{ id: socket.id, name, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true,
+                   userId: gu?.id || null, gName: gu?.displayName || null, gAvatar: gu?.avatarUrl || null }],
       settings,
       teams,
       started:      false,
@@ -1452,12 +1485,14 @@ io.on('connection', (socket) => {
       gsReady:           null,   // chaîne de promesses DB (fire-and-forget)
     };
     socket.join(code);
-    console.log(`🎮 Room créée : ${code} par ${name}`);
-    socket.emit('room_created', { code, players: rooms[code].players, settings, teams });
+    console.log(`🎮 Room créée : ${code} par ${name}${gu ? ' (compte vérifié)' : ''}`);
+    socket.emit('room_created', { code, players: publicPlayers(rooms[code]), settings, teams });
   });
 
   socket.on('join_room', ({ code, playerName, avatar }) => {
     if (!validRoomCode(code)) return socket.emit('join_error', 'Code invalide.');
+    const gu = socketUser(socket);
+    if ((!playerName || !String(playerName).trim()) && gu) playerName = gu.displayName;
     const pseudoCheck = validatePseudo(playerName);
     if (!pseudoCheck.ok) return socket.emit('join_error', pseudoCheck.reason);
     if (avatar !== undefined && !validAvatar(avatar)) return socket.emit('join_error', 'Avatar invalide.');
@@ -1470,9 +1505,10 @@ io.on('connection', (socket) => {
     if (room.players.find(p => p.name === name))
       return socket.emit('join_error', 'Ce pseudo est déjà pris.');
 
-    room.players.push({ id: socket.id, name, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true });
+    room.players.push({ id: socket.id, name, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true,
+                        userId: gu?.id || null, gName: gu?.displayName || null, gAvatar: gu?.avatarUrl || null });
     socket.join(code);
-    socket.emit('room_joined', { code, players: room.players, settings: room.settings, teams: room.teams });
+    socket.emit('room_joined', { code, players: publicPlayers(room), settings: room.settings, teams: room.teams });
     emitPlayersUpdate(code);
   });
 
@@ -1487,17 +1523,24 @@ io.on('connection', (socket) => {
     // Annuler le timer de suppression du lobby vide si le joueur revient
     if (room._emptyTimer) { clearTimeout(room._emptyTimer); room._emptyTimer = null; }
 
+    const gu = socketUser(socket);
     let player = room.players.find(p => p.name === playerName);
     if (player) {
       // Joueur trouvé : mettre à jour son socket ID
       const oldId = player.id;
       player.id   = socket.id;
       if (room.host === oldId) room.host = socket.id;
+      // Rafraîchir l'identité depuis la session (au cas où il s'est connecté
+      // entre-temps). Toujours dérivée du serveur, jamais du client.
+      player.userId  = gu?.id || null;
+      player.gName   = gu?.displayName || null;
+      player.gAvatar = gu?.avatarUrl || null;
       // Si le sync vient de lobby.html, le joueur est revenu au salon (post-game / refresh)
       if (fromLobby) player.inLobby = true;
     } else if (!room.started) {
       // Joueur supprimé par le timer de déconnexion avant que lobby.html charge
-      player = { id: socket.id, name: playerName, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true };
+      player = { id: socket.id, name: playerName, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true,
+                 userId: gu?.id || null, gName: gu?.displayName || null, gAvatar: gu?.avatarUrl || null };
       const isOriginalHost = room.hostName === playerName;
       if (isOriginalHost) {
         room.players.unshift(player); // L'hôte reste toujours en première position
@@ -1512,7 +1555,7 @@ io.on('connection', (socket) => {
     // Direct delivery to the connecting socket — guarantees they see themselves
     // even if the room broadcast has a timing edge case
     socket.emit('players_update', {
-      players:  room.players,
+      players:  publicPlayers(room),
       teams:    room.teams,
       hostName: room.hostName,
     });
@@ -1635,7 +1678,7 @@ io.on('connection', (socket) => {
         firstRound:  first ? first.name : 'culture',
         teamMode:    room.settings.teamMode,
         teams:       room.teams,
-        players:     room.players,
+        players:     publicPlayers(room),
       });
       startRound(code, 0);
     } catch (err) {
@@ -1949,7 +1992,7 @@ function emitPlayersUpdate(code) {
   const room = rooms[code];
   if (!room) return;
   io.to(code).emit('players_update', {
-    players:  room.players,
+    players:  publicPlayers(room),
     teams:    room.teams,
     hostName: room.hostName,
   });
