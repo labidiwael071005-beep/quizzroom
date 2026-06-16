@@ -31,36 +31,128 @@ function buildAvatarPicker(containerId, onChangeCb) {
   const el = document.getElementById(containerId);
   if (!el) return;
 
-  // Initialize state for this picker
-  _pickerStates[containerId] = { colorIdx: 0, emoji: '🎮' };
+  // Initialize state for this picker (préserve un état existant si déjà choisi)
+  if (!_pickerStates[containerId]) _pickerStates[containerId] = { colorIdx: 0, emoji: '🎮' };
   if (!_activePicker) _activePicker = containerId;
 
   const previewId = `av-preview-${containerId}`;
   const av = _pickerStates[containerId];
+  const editLabel = (typeof t === 'function') ? t('lobby.editAvatar', "Modifier l'avatar") : "Modifier l'avatar";
 
+  // UI COMPACTE : seulement l'avatar courant + un petit bouton « + » qui ouvre
+  // la pop-up de personnalisation (couleurs + emojis).
   el.innerHTML = `
-    <div class="avatar-preview-wrap">
+    <div class="avatar-compact">
       <div class="avatar-big" id="${previewId}" style="${getAvatarStyle(av)}">${av.emoji}</div>
-    </div>
-    <div class="avatar-section-label">Couleur</div>
-    <div class="avatar-colors" data-picker="${containerId}">
-      ${AVATAR_COLORS.map(c => `
-        <button class="av-color-btn ${c.idx === av.colorIdx ? 'active' : ''}"
-                data-idx="${c.idx}"
-                style="background:${c.bg};border-color:${c.border}"
-                onclick="_pickColor('${containerId}',${c.idx})"></button>
-      `).join('')}
-    </div>
-    <div class="avatar-section-label">Emoji</div>
-    <div class="avatar-emojis" data-picker="${containerId}">
-      ${AVATAR_EMOJIS.map(e => `
-        <button class="av-emoji-btn ${e === av.emoji ? 'active' : ''}"
-                onclick="_pickEmoji('${containerId}','${e}')">${e}</button>
-      `).join('')}
+      <button type="button" class="avatar-edit-btn" aria-label="${editLabel}" title="${editLabel}"
+              onclick="openAvatarModal('${containerId}')">+</button>
     </div>
   `;
 
   el._onChangeCb = onChangeCb;
+}
+
+// ── Pop-up de personnalisation de l'avatar ────────────────────
+let _avatarModalFor   = null;   // containerId en cours d'édition
+let _avatarModalDraft = null;   // copie de travail { colorIdx, emoji }
+let _avatarLastFocus  = null;   // élément à re-focus à la fermeture
+
+function ensureAvatarModal() {
+  if (document.getElementById('avatar-modal')) return;
+  const ov = document.createElement('div');
+  ov.className = 'avatar-modal-overlay';
+  ov.id = 'avatar-modal';
+  ov.hidden = true;
+  ov.setAttribute('role', 'dialog');
+  ov.setAttribute('aria-modal', 'true');
+  ov.setAttribute('aria-labelledby', 'avatar-modal-title');
+  ov.innerHTML = `
+    <div class="avatar-modal panel" role="document">
+      <h3 id="avatar-modal-title" data-i18n="lobby.editAvatar">Modifier l'avatar</h3>
+      <div class="avatar-modal-preview"><div class="avatar-big" id="avatar-modal-big"></div></div>
+      <div class="avatar-section-label" data-i18n="avatar.color">Couleur</div>
+      <div class="avatar-colors" id="avatar-modal-colors"></div>
+      <div class="avatar-section-label" data-i18n="avatar.emoji">Emoji</div>
+      <div class="avatar-emojis" id="avatar-modal-emojis"></div>
+      <div class="avatar-modal-actions">
+        <button type="button" class="btn btn--ghost" id="avatar-modal-cancel" data-i18n="avatar.cancel">Annuler</button>
+        <button type="button" class="btn btn--primary" id="avatar-modal-ok" data-i18n="avatar.validate">Valider</button>
+      </div>
+    </div>`;
+  document.body.appendChild(ov);
+
+  // Sélection couleur / emoji → met à jour le brouillon + l'aperçu.
+  ov.querySelector('#avatar-modal-colors').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-color]'); if (!b || !_avatarModalDraft) return;
+    _avatarModalDraft.colorIdx = parseInt(b.dataset.color, 10);
+    renderAvatarModal();
+  });
+  ov.querySelector('#avatar-modal-emojis').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-emoji]'); if (!b || !_avatarModalDraft) return;
+    _avatarModalDraft.emoji = b.dataset.emoji;
+    renderAvatarModal();
+  });
+  ov.querySelector('#avatar-modal-ok').addEventListener('click', commitAvatarModal);
+  ov.querySelector('#avatar-modal-cancel').addEventListener('click', closeAvatarModal);
+  // Clic en dehors de la carte → fermer.
+  ov.addEventListener('click', (e) => { if (e.target === ov) closeAvatarModal(); });
+  // Échap + piège à focus.
+  ov.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { e.preventDefault(); closeAvatarModal(); return; }
+    if (e.key === 'Tab') {
+      const f = ov.querySelectorAll('button, [tabindex]:not([tabindex="-1"])');
+      if (!f.length) return;
+      const first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  });
+}
+
+function renderAvatarModal() {
+  const d = _avatarModalDraft; if (!d) return;
+  const big = document.getElementById('avatar-modal-big');
+  big.style.cssText = getAvatarStyle(d);
+  big.textContent   = d.emoji;
+  document.getElementById('avatar-modal-colors').innerHTML = AVATAR_COLORS.map(c =>
+    `<button type="button" class="av-color-btn ${c.idx === d.colorIdx ? 'active' : ''}" data-color="${c.idx}"
+             style="background:${c.bg};border-color:${c.border}" aria-label="Couleur ${c.idx + 1}"></button>`
+  ).join('');
+  document.getElementById('avatar-modal-emojis').innerHTML = AVATAR_EMOJIS.map(e =>
+    `<button type="button" class="av-emoji-btn ${e === d.emoji ? 'active' : ''}" data-emoji="${e}">${e}</button>`
+  ).join('');
+}
+
+function openAvatarModal(containerId) {
+  ensureAvatarModal();
+  _avatarModalFor   = containerId;
+  const cur = _pickerStates[containerId] || { colorIdx: 0, emoji: '🎮' };
+  _avatarModalDraft = { colorIdx: cur.colorIdx, emoji: cur.emoji };
+  _avatarLastFocus  = document.activeElement;
+  renderAvatarModal();
+  if (typeof applyTranslations === 'function') applyTranslations();
+  const ov = document.getElementById('avatar-modal');
+  ov.hidden = false;
+  document.body.classList.add('avatar-modal-open');
+  // Focus initial dans la pop-up.
+  setTimeout(() => { document.getElementById('avatar-modal-ok')?.focus(); }, 0);
+}
+
+function commitAvatarModal() {
+  if (_avatarModalFor && _avatarModalDraft) {
+    setAvatar(_avatarModalDraft, _avatarModalFor);   // applique + déclenche onChangeCb
+    _activePicker = _avatarModalFor;
+  }
+  closeAvatarModal();
+}
+
+function closeAvatarModal() {
+  const ov = document.getElementById('avatar-modal');
+  if (ov) ov.hidden = true;
+  document.body.classList.remove('avatar-modal-open');
+  _avatarModalFor = null;
+  _avatarModalDraft = null;
+  if (_avatarLastFocus && _avatarLastFocus.focus) { try { _avatarLastFocus.focus(); } catch (e) {} }
 }
 
 function _pickColor(containerId, idx) {
@@ -123,6 +215,7 @@ function avatarHtml(avatar, name, size = 'sm') {
 window._pickColor      = _pickColor;
 window._pickEmoji      = _pickEmoji;
 window.buildAvatarPicker = buildAvatarPicker;
+window.openAvatarModal = openAvatarModal;
 window.getAvatar      = getAvatar;
 window.setAvatar      = setAvatar;
 window.avatarHtml     = avatarHtml;

@@ -38,11 +38,11 @@
           <span data-i18n="lobby.verifiedAccount">Compte vérifié</span>
         </span>
       </div>
-      <input type="text" id="create-name" class="home-input"
-             data-i18n-placeholder="modal.create.pseudo.ph" placeholder="Ex : QuizzMaster42" maxlength="20">
-
-      <div class="home-label" style="margin-top:14px" data-i18n="modal.create.avatar">Ton avatar</div>
-      <div id="create-avatar-picker"></div>
+      <div class="home-identity-row">
+        <div id="create-avatar-picker"></div>
+        <input type="text" id="create-name" class="home-input"
+               data-i18n-placeholder="modal.create.pseudo.ph" placeholder="Ex : QuizzMaster42" maxlength="20">
+      </div>
 
       <button class="btn btn--primary btn--lg btn--block home-create" onclick="createRoom()"
               data-i18n="hero.create">Créer une partie</button>
