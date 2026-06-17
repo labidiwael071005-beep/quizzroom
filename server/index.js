@@ -281,7 +281,7 @@ app.get('/api/me/pseudo/available', async (req, res) => {
   if (!v.ok) return res.json({ available: false, reason: v.reason });
   try {
     const existing = await prisma.user.findUnique({ where: { pseudoKey: v.pseudoKey }, select: { id: true } });
-    if (existing && existing.id !== req.user.id) return res.json({ available: false, reason: 'pseudo.err.taken' });
+    if (existing && existing.id !== req.user.id) return res.json({ available: false, reason: 'pseudo.taken' });
     res.json({ available: true });
   } catch (err) {
     res.status(500).json({ available: false, reason: 'pseudo.err.server' });
@@ -297,7 +297,8 @@ app.post('/api/me/pseudo', async (req, res) => {
   if (!v.ok) return res.status(400).json({ ok: false, reason: v.reason });
   try {
     const existing = await prisma.user.findUnique({ where: { pseudoKey: v.pseudoKey }, select: { id: true } });
-    if (existing && existing.id !== req.user.id) return res.status(400).json({ ok: false, reason: 'pseudo.err.taken' });
+    // 409 Conflict : pseudo déjà utilisé par un AUTRE compte connecté.
+    if (existing && existing.id !== req.user.id) return res.status(409).json({ ok: false, reason: 'pseudo.taken' });
     const u = await prisma.user.update({
       where: { id: req.user.id },
       data:  { pseudo: v.pseudo, pseudoKey: v.pseudoKey },
@@ -305,7 +306,7 @@ app.post('/api/me/pseudo', async (req, res) => {
     res.json({ ok: true, user: { id: u.id, pseudo: u.pseudo, displayName: u.displayName, avatarUrl: u.avatarUrl } });
   } catch (err) {
     // Course possible sur l'unique → P2002
-    if (err && err.code === 'P2002') return res.status(400).json({ ok: false, reason: 'pseudo.err.taken' });
+    if (err && err.code === 'P2002') return res.status(409).json({ ok: false, reason: 'pseudo.taken' });
     console.warn('[pseudo] échec:', err.message);
     res.status(500).json({ ok: false, reason: 'pseudo.err.server' });
   }

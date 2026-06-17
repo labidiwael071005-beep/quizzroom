@@ -224,6 +224,7 @@
   "pseudo.err.charset": "Lettres, chiffres, . _ - (sans espace).",
   "pseudo.err.profanity": "Ce pseudo n'est pas autorisé.",
   "pseudo.err.taken": "Ce pseudo est déjà pris.",
+  "pseudo.taken": "Ce pseudo est déjà utilisé par un autre compte.",
   "pseudo.err.auth": "Tu dois être connecté.",
   "pseudo.err.server": "Erreur, réessaie.",
   "pseudo.saved": "Pseudo enregistré ✓",

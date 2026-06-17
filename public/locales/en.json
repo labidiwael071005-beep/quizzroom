@@ -224,6 +224,7 @@
   "pseudo.err.charset": "Letters, digits, . _ - (no spaces).",
   "pseudo.err.profanity": "This nickname isn't allowed.",
   "pseudo.err.taken": "This nickname is already taken.",
+  "pseudo.taken": "This nickname is already used by another account.",
   "pseudo.err.auth": "You must be signed in.",
   "pseudo.err.server": "Error, try again.",
   "pseudo.saved": "Nickname saved ✓",
