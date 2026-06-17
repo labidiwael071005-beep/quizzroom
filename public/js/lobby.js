@@ -243,7 +243,7 @@ function renderTeams(teamsData) {
           <span class="team-dot" style="background:${team.color}"></span>
           ${escapeHtml(team.name)}
         </div>
-        <div class="team-members">${members.map(m => escapeHtml(m.name)).join(', ') || '—'}</div>
+        <div class="team-members">${members.map(m => escapeHtml(m.label || m.name)).join(', ') || '—'}</div>
         <button class="team-join-btn" data-action="join-team" data-team-id="${team.id}">
           <span data-i18n="lobby.team.join">Rejoindre</span>
         </button>
@@ -276,6 +276,15 @@ const socket = io();
 socket.on('connect', () => {
   // fromLobby:true → le serveur marque ce joueur "revenu au salon" (vs. resync depuis game.html)
   socket.emit('lobby_sync', { code: roomCode, playerName: playerData.name, avatar: playerData.avatar, fromLobby: true });
+});
+
+// Le serveur peut assigner un nom interne différent du pseudo saisi (coexistence
+// anonyme/vérifié). On le mémorise comme identité de référence.
+socket.on('self_name', ({ name }) => {
+  if (name && name !== playerData.name) {
+    playerData.name = name;
+    sessionStorage.setItem('qr_player', JSON.stringify(playerData));
+  }
 });
 
 let _playersSig = '';
@@ -422,7 +431,7 @@ function updatePlayers(players) {
       <div class="player-item ${isWaiting ? 'is-waiting' : ''}">
         <span class="av-inline av-sm" style="${getAvatarStyle(av)}">${escapeHtml(av.emoji)}</span>
         <span class="player-name">
-          <span class="player-name-main">${escapeHtml(p.name)}${p.verified ? `<i class="ti ti-shield-check player-verified" title="${escapeHtml(t('lobby.verifiedAccount', 'Compte vérifié'))}" aria-label="${escapeHtml(t('lobby.verifiedAccount', 'Compte vérifié'))}"></i>` : ''}</span>
+          <span class="player-name-main">${escapeHtml(p.label || p.name)}${p.verified ? `<i class="ti ti-shield-check player-verified" title="${escapeHtml(t('lobby.verifiedAccount', 'Compte vérifié'))}" aria-label="${escapeHtml(t('lobby.verifiedAccount', 'Compte vérifié'))}"></i>` : ''}</span>
           ${isMe ? `<span class="player-you">${escapeHtml(t('lobby.you', '(toi)'))}</span>` : ''}
           ${teamBadge}
           ${isWaiting ? `<span class="player-waiting-label">${escapeHtml(t('lobby.player.waiting', '⏳ En attente du joueur'))}</span>` : ''}

@@ -223,7 +223,7 @@ function renderAvatarsPanel(players) {
              style="${getAvatarStyle(av)};${ring}">
           ${escapeHtml(av.emoji)}
         </div>
-        <div class="av-player-name">${isMe ? '★ ' : ''}${escapeHtml(p.name)}</div>
+        <div class="av-player-name">${isMe ? '★ ' : ''}${escapeHtml(p.label || p.name)}</div>
         <div class="av-player-status thinking" id="av-status-${sanitizeId(p.name)}">${escapeHtml(avStatusLabel('thinking'))}</div>
         <div class="av-player-score" id="av-score-${sanitizeId(p.name)}">${p.score || 0} pts</div>
       </div>`;
@@ -606,7 +606,7 @@ function displayScores({ players, teams: teamsArr, teamMode: tm }) {
         <div class="score-item ${isMe ? 'me' : ''}" style="animation-delay:${i*0.08}s">
           <div style="font-size:22px;min-width:28px;text-align:center">${rankEl}</div>
           <span class="av-inline av-sm" style="${getAvatarStyle(av)}">${escapeHtml(av.emoji)}</span>
-          <span class="score-name">${escapeHtml(p.name)}${isMe ? ' <span style="color:var(--orange);font-size:11px">(toi)</span>' : ''}</span>
+          <span class="score-name">${escapeHtml(p.label || p.name)}${isMe ? ' <span style="color:var(--orange);font-size:11px">(toi)</span>' : ''}</span>
           <span class="score-pts">${p.score} pts</span>
         </div>`;
     }).join('');
@@ -632,7 +632,7 @@ function displayGameOver(ranking, tm) {
           ${medals[i] || `<span class="score-rank">${i+1}</span>`}
         </span>
         ${tm && item.color ? `<span class="team-dot" style="background:${item.color};width:12px;height:12px;border-radius:50%"></span>` : avHtml}
-        <span class="score-name">${escapeHtml(item.name)}${isMe ? ' (toi)' : ''}</span>
+        <span class="score-name">${escapeHtml(item.label || item.name)}${isMe ? ' (toi)' : ''}</span>
         <span class="score-pts">${item.score} pts</span>
       </div>`;
   }).join('');
@@ -685,7 +685,7 @@ function displayGameHistory() {
         return `
           <div class="hist-player-row ${isMe ? 'me' : ''}">
             <span class="av-inline av-xs" style="${getAvatarStyle(av)}">${escapeHtml(av.emoji)}</span>
-            <span class="hist-player-name">${escapeHtml(r.name)}</span>
+            <span class="hist-player-name">${escapeHtml(r.label || r.name)}</span>
             <span class="hist-player-answer">${answerHtml}</span>
             <span class="hist-mark">${mark}</span>
             <span class="hist-pts ${ptsCls}">${ptsTxt}</span>

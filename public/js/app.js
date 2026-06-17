@@ -35,21 +35,23 @@ socket.on('connect', () => console.log('✅ Socket :', socket.id));
 let _pendingCreate = null;
 let _pendingJoin   = null;
 
-socket.on('room_created', ({ code, settings }) => {
+socket.on('room_created', ({ code, selfName, settings }) => {
   const { name, avatar } = _pendingCreate || {};
   sessionStorage.setItem('qr_room',     code);
-  sessionStorage.setItem('qr_player',   JSON.stringify({ name: name || '', avatar: avatar || getAvatar('create-avatar-picker') }));
+  // `selfName` = nom interne assigné par le serveur (peut différer du pseudo saisi
+  // en cas de coexistence anonyme/vérifié). C'est l'identité utilisée ensuite.
+  sessionStorage.setItem('qr_player',   JSON.stringify({ name: selfName || name || '', avatar: avatar || getAvatar('create-avatar-picker') }));
   sessionStorage.setItem('qr_host',     'true');
   sessionStorage.setItem('qr_settings', JSON.stringify(settings));
   showToast(`🎮 ${t('toast.created')} — ${code}`, 'success');
   setTimeout(() => { window.location.href = 'lobby.html'; }, 600);
 });
 
-socket.on('room_joined', ({ code, settings }) => {
+socket.on('room_joined', ({ code, selfName, settings }) => {
   const { name, avatar } = _pendingJoin || {};
   sessionStorage.setItem('qr_room',     code);
-  // Accueil refondu : pseudo + avatar partagés (id #create-name / create-avatar-picker)
-  sessionStorage.setItem('qr_player',   JSON.stringify({ name: name || '', avatar: avatar || getAvatar('create-avatar-picker') }));
+  // `selfName` = nom interne assigné par le serveur (identité de référence).
+  sessionStorage.setItem('qr_player',   JSON.stringify({ name: selfName || name || '', avatar: avatar || getAvatar('create-avatar-picker') }));
   sessionStorage.setItem('qr_host',     'false');
   sessionStorage.setItem('qr_settings', JSON.stringify(settings));
   showToast(`✅ ${t('toast.joined')}`, 'success');

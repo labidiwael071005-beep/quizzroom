@@ -1165,6 +1165,7 @@ function recordQuestionHistory(room, round, q) {
     const a = room.answers[p.name];
     const entry = {
       name:    p.name,
+      label:   p.label || p.name,
       avatar:  p.avatar,
       answered: a !== undefined,
       correct: !!a?.correct,
@@ -1838,10 +1839,20 @@ function socketUser(socket) {
 // `verified`. JAMAIS d'email ni d'identifiant Google côté room.
 function publicPlayer(p) {
   const { userId, gName, gAvatar, ...safe } = p;
-  return { ...safe, verified: !!userId };
+  // `name` = identité interne UNIQUE (engine, couronne, DOM, actions).
+  // `label` = pseudo AFFICHÉ (peut être partagé entre un anonyme et un vérifié).
+  return { ...safe, label: p.label || p.name, verified: !!userId };
 }
 function publicPlayers(room) {
   return (room.players || []).map(publicPlayer);
+}
+
+// Nom interne unique dans la room à partir d'un libellé affiché. Suffixe « #2 »,
+// « #3 »… si nécessaire (collision inter-catégorie anon/vérifié de même pseudo).
+function uniqueRoomName(room, label) {
+  let name = label, n = 2;
+  while ((room.players || []).some(p => p.name === name)) name = `${label}#${n++}`;
+  return name;
 }
 
 io.on('connection', (socket) => {
@@ -1870,7 +1881,7 @@ io.on('connection', (socket) => {
       code,
       host:     socket.id,
       hostName: name,
-      players:  [{ id: socket.id, name, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true,
+      players:  [{ id: socket.id, name, label: name, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true,
                    userId: gu?.id || null, gName: gu?.displayName || null, gAvatar: gu?.avatarUrl || null }],
       settings,
       teams,
@@ -1892,7 +1903,7 @@ io.on('connection', (socket) => {
     };
     socket.join(code);
     console.log(`🎮 Room créée : ${code} par ${name}${gu ? ' (compte vérifié)' : ''}`);
-    socket.emit('room_created', { code, players: publicPlayers(rooms[code]), settings, teams });
+    socket.emit('room_created', { code, selfName: name, players: publicPlayers(rooms[code]), settings, teams });
   });
 
   socket.on('join_room', ({ code, playerName, avatar }) => {
@@ -1910,14 +1921,21 @@ io.on('connection', (socket) => {
     if (!room)                    return socket.emit('join_error', 'Partie introuvable.');
     if (room.started)             return socket.emit('join_error', 'Partie déjà commencée.');
     if (room.players.length >= 8) return socket.emit('join_error', 'Partie pleine (8/8).');
-    const name = String(playerName).trim();
-    if (room.players.find(p => p.name === name))
-      return socket.emit('join_error', 'Ce pseudo est déjà pris.');
+    const iAmVerified = !!(gu && gu.id);
+    const label = String(playerName).trim();
+    // Refus uniquement si un joueur de la MÊME catégorie porte déjà ce pseudo
+    // affiché (anon vs anon, vérifié vs vérifié). Un anonyme PEUT coexister avec
+    // un vérifié du même nom — la distinction visuelle est assurée par l'ampoule.
+    if (room.players.find(p => (p.label || p.name) === label && !!p.userId === iAmVerified))
+      return socket.emit('join_error', 'Ce pseudo est déjà pris dans cette room.');
+    // Nom interne UNIQUE (le moteur reste indexé par name). On suffixe en cas de
+    // coexistence inter-catégorie ; l'affichage reste `label`.
+    const name = uniqueRoomName(room, label);
 
-    room.players.push({ id: socket.id, name, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true,
+    room.players.push({ id: socket.id, name, label, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true,
                         userId: gu?.id || null, gName: gu?.displayName || null, gAvatar: gu?.avatarUrl || null });
     socket.join(code);
-    socket.emit('room_joined', { code, players: publicPlayers(room), settings: room.settings, teams: room.teams });
+    socket.emit('room_joined', { code, selfName: name, players: publicPlayers(room), settings: room.settings, teams: room.teams });
     emitPlayersUpdate(code);
   });
 
@@ -1934,7 +1952,11 @@ io.on('connection', (socket) => {
     // Annuler le timer de suppression du lobby vide si le joueur revient
     if (room._emptyTimer) { clearTimeout(room._emptyTimer); room._emptyTimer = null; }
 
-    let player = room.players.find(p => p.name === playerName);
+    // Identification : un vérifié par son userId (stable même si deux joueurs
+    // partagent le même libellé) ; un anonyme par son nom interne (unique).
+    let player = (gu && gu.id)
+      ? room.players.find(p => p.userId === gu.id)
+      : room.players.find(p => p.name === playerName && !p.userId);
     if (player) {
       // Joueur trouvé : mettre à jour son socket ID
       const oldId = player.id;
@@ -1945,21 +1967,26 @@ io.on('connection', (socket) => {
       player.userId  = gu?.id || null;
       player.gName   = gu?.displayName || null;
       player.gAvatar = gu?.avatarUrl || null;
+      if (gu && gu.pseudo) player.label = gu.pseudo;   // libellé = pseudo du compte
       // Si le sync vient de lobby.html, le joueur est revenu au salon (post-game / refresh)
       if (fromLobby) player.inLobby = true;
     } else if (!room.started) {
       // Joueur supprimé par le timer de déconnexion avant que lobby.html charge
-      player = { id: socket.id, name: playerName, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true,
+      const label = String(playerName).trim();
+      const name  = uniqueRoomName(room, label);
+      player = { id: socket.id, name, label, score: 0, teamId: null, avatar: avatar || defaultAvatar(), inLobby: true,
                  userId: gu?.id || null, gName: gu?.displayName || null, gAvatar: gu?.avatarUrl || null };
-      const isOriginalHost = room.hostName === playerName;
+      const isOriginalHost = room.hostName === name || room.hostName === label;
       if (isOriginalHost) {
         room.players.unshift(player); // L'hôte reste toujours en première position
         room.host = socket.id;
       } else {
         room.players.push(player);
       }
-      console.log(`♻️  ${playerName} ré-ajouté dans ${code} (reconnexion tardive)`);
+      console.log(`♻️  ${label} ré-ajouté dans ${code} (reconnexion tardive)`);
     }
+    // Le client doit connaître son nom interne (peut différer du libellé saisi).
+    if (player) socket.emit('self_name', { name: player.name });
     socket.join(code);
     // Anti-répétition niveau 2 : un joueur connecté qui (re)joint une partie EN
     // COURS → on (re)charge ses exclusions pour les manches à venir. Tolérant.
@@ -2228,22 +2255,23 @@ io.on('connection', (socket) => {
     const target = room.players.find(p => p.name === targetName);
     if (!target || target.id === socket.id) return;
 
-    const oldHostName = room.hostName;
+    const oldHostLabel = (room.players.find(p => p.id === room.host)?.label) || room.hostName;
+    const targetLabel  = target.label || target.name;
     room.host     = target.id;
-    room.hostName = target.name;
+    room.hostName = target.name;   // identité interne (matching couronne)
     // Convention : l'hôte est en première position de la liste players.
     const idx = room.players.findIndex(p => p.id === target.id);
     if (idx > 0) {
       const [p] = room.players.splice(idx, 1);
       room.players.unshift(p);
     }
-    console.log(`👑 ${oldHostName} → ${target.name} (transfert d'hôte dans ${code})`);
+    console.log(`👑 ${oldHostLabel} → ${target.name} (transfert d'hôte dans ${code})`);
 
     io.to(code).emit('host_changed', { hostName: room.hostName });
     emitPlayersUpdate(code);
     io.to(code).emit('chat_message', {
       name: '🔔 Système',
-      text: `👑 ${oldHostName} a légué le rôle d'hôte à ${target.name}.`,
+      text: `👑 ${oldHostLabel} a légué le rôle d'hôte à ${targetLabel}.`,
     });
     // Si on attendait justement le clic de l'hôte, relancer l'invite pour le nouvel hôte
     if (room.waitingForHost && room.awaitingPayload) {
@@ -2262,17 +2290,18 @@ io.on('connection', (socket) => {
     const target = room.players.find(p => p.name === targetName);
     if (!target || target.id === socket.id) return;
 
+    const hostLabel = (room.players.find(p => p.id === room.host)?.label) || room.hostName;
     const targetSocket = io.sockets.sockets.get(target.id);
     room.players = room.players.filter(p => p.name !== targetName);
     if (targetSocket) {
-      targetSocket.emit('kicked', { by: room.hostName });
+      targetSocket.emit('kicked', { by: hostLabel });
       targetSocket.leave(code);
     }
     console.log(`🚫 ${target.name} exclu de ${code} par ${room.hostName}`);
     emitPlayersUpdate(code);
     io.to(code).emit('chat_message', {
       name: '🔔 Système',
-      text: `🚫 ${target.name} a été exclu du lobby.`,
+      text: `🚫 ${target.label || target.name} a été exclu du lobby.`,
     });
   });
 
@@ -2298,9 +2327,9 @@ io.on('connection', (socket) => {
       await prisma.playerReport.create({
         data: {
           reportedUserId: target.userId || null,
-          reportedPseudo: target.name,
+          reportedPseudo: target.label || target.name,
           reporterUserId: reporter.userId || null,
-          reporterPseudo: reporter.name,
+          reporterPseudo: reporter.label || reporter.name,
           category: cat,
           comment:  txt,
           roomCode: code,
@@ -2342,8 +2371,8 @@ io.on('connection', (socket) => {
     // F7 : l'émetteur doit être dans la room (pas n'importe quel socket connecté)
     const player = room.players.find(p => p.id === socket.id);
     if (!player) return;
-    // On force le nom diffusé = nom serveur (pas celui du payload, qui pourrait être usurpé)
-    const displayName = player.name;
+    // On force le nom diffusé = libellé serveur (pas celui du payload, usurpable)
+    const displayName = player.label || player.name;
 
     if (!checkChatRate(socket)) return;
 
@@ -2365,6 +2394,7 @@ io.on('connection', (socket) => {
     if (idx === -1) return;
 
     const name    = room.players[idx].name;
+    const label   = room.players[idx].label || name;
     const wasHost = room.host === socket.id;
     room.players.splice(idx, 1);
     socket.leave(code);
@@ -2393,7 +2423,7 @@ io.on('connection', (socket) => {
     // Pop-up dédiée aux clients (toast immédiat) — séparée du chat_message
     io.to(code).emit('player_left', { name, wasHost, newHostName });
     emitPlayersUpdate(code);
-    io.to(code).emit('chat_message', { name: '🔔 Système', text: `${name} a quitté la partie.` });
+    io.to(code).emit('chat_message', { name: '🔔 Système', text: `${label} a quitté la partie.` });
     if (room.started) checkAllAnswered(code);
   });
 
