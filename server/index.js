@@ -101,6 +101,7 @@ const {
   cacheStats,
   pickTranslation,
   SUPPORTED_LANGS,
+  HISTORY_WINDOW_DAYS,
 } = require('./question-store');
 const { distanceKm, geoScore } = require('./geo-math');
 
@@ -1467,19 +1468,21 @@ function defaultQCount(round) {
 // après l'autre en l'EXCLUANT puis en y ajoutant les ids choisis → aucune
 // répétition possible entre manches (culture/pixel/géo/pari), même si plusieurs
 // manches partagent le même type (ex : culture + pari = tous deux des QCM).
-async function loadRoundQuestions(plan, difficulty, served, codeForLog) {
-  const ex = served instanceof Set ? served : new Set();
+async function loadRoundQuestions(plan, difficulty, served, codeForLog, softExclude) {
+  const ex   = served instanceof Set ? served : new Set();
+  const soft = softExclude instanceof Set ? softExclude : new Set();
   for (const round of plan) {
     if (round.type === 'pixel') {
-      round.questions = getPixelQuestions({ count: round.qCount, exclude: ex });
+      round.questions = getPixelQuestions({ count: round.qCount, exclude: ex, softExclude: soft });
     } else if (round.type === 'geomap') {
-      round.questions = getGeoQuestions({ count: round.qCount, exclude: ex });
+      round.questions = getGeoQuestions({ count: round.qCount, exclude: ex, softExclude: soft });
     } else {
       round.questions = await getQuestions({
         themes:     round.themes,
         difficulty: difficulty || 'medium',
         count:      round.qCount,
         exclude:    ex,
+        softExclude: soft,
       });
     }
     // Réserve les ids choisis AVANT toute émission → pas de doublon ni de race.
@@ -1515,10 +1518,64 @@ function applyPerm(arr, perm) {
 }
 function qKey(q, idx) { return q.id || ('idx-' + idx); }
 
-// Historique par joueur connecté (anti-répétition niveau 2). Corps branché en
-// Phase 3 ; stub neutre ici pour rester sans effet de bord tant que la table
-// n'existe pas.
-function recordSeenForConnected(room, q) { /* implémenté en Phase 3 */ }
+// ── Anti-répétition niveau 2 : historique par joueur connecté ──
+// Charge les exclusions (questions vues récemment) d'UN joueur connecté.
+async function loadOnePlayerExclusion(room, userId) {
+  if (!userId) return;
+  room.playerExclusions = room.playerExclusions || new Map();
+  try {
+    const cutoff = new Date(Date.now() - HISTORY_WINDOW_DAYS * 24 * 60 * 60 * 1000);
+    const rows = await prisma.userQuestionHistory.findMany({
+      where:  { userId, seenAt: { gte: cutoff } },
+      select: { questionId: true },
+    });
+    room.playerExclusions.set(userId, new Set(rows.map(r => r.questionId)));
+  } catch (err) {
+    // Tolérant : si la requête échoue, on continue sans exclusions pour ce joueur.
+    if (!room.playerExclusions.has(userId)) room.playerExclusions.set(userId, new Set());
+    console.warn(`[anti-rep L2] chargement historique échoué (user ${userId}):`, err.message);
+  }
+}
+
+// Charge les exclusions de TOUS les joueurs connectés de la room (début de partie).
+async function loadPlayerExclusions(room) {
+  room.playerExclusions = new Map();
+  const connected = room.players.filter(p => p.userId);
+  await Promise.all(connected.map(p => loadOnePlayerExclusion(room, p.userId)));
+}
+
+// Union des exclusions historiques des joueurs connectés présents (soft exclude).
+function buildSoftExclude(room) {
+  const soft = new Set();
+  if (!room.playerExclusions) return soft;
+  for (const p of room.players) {
+    if (!p.userId) continue;
+    const set = room.playerExclusions.get(p.userId);
+    if (set) for (const id of set) soft.add(id);
+  }
+  return soft;
+}
+
+// À chaque question servie : enregistre l'historique des joueurs CONNECTÉS
+// (fire-and-forget). Les anonymes n'ont pas d'identité stable → aucun historique.
+function recordSeenForConnected(room, q) {
+  if (!q || !q.id) return;
+  for (const p of room.players) {
+    if (!p.userId) continue;
+    const userId = p.userId;
+    // Tient le cache d'exclusions à jour pour les manches suivantes de CETTE partie.
+    if (room.playerExclusions) {
+      const set = room.playerExclusions.get(userId) || new Set();
+      set.add(q.id);
+      room.playerExclusions.set(userId, set);
+    }
+    prisma.userQuestionHistory.upsert({
+      where:  { userId_questionId: { userId, questionId: q.id } },
+      create: { userId, questionId: q.id },
+      update: { seenAt: new Date() },
+    }).catch(err => console.warn('[anti-rep L2] upsert historique échoué:', err.message));
+  }
+}
 
 function shuffledTranslations(translations, perm) {
   if (!translations) return null;
@@ -1851,6 +1908,9 @@ io.on('connection', (socket) => {
       console.log(`♻️  ${playerName} ré-ajouté dans ${code} (reconnexion tardive)`);
     }
     socket.join(code);
+    // Anti-répétition niveau 2 : un joueur connecté qui (re)joint une partie EN
+    // COURS → on (re)charge ses exclusions pour les manches à venir. Tolérant.
+    if (room.started && player && player.userId) loadOnePlayerExclusion(room, player.userId);
     emitPlayersUpdate(code);
     // Direct delivery to the connecting socket — guarantees they see themselves
     // even if the room broadcast has a timing edge case
@@ -1974,7 +2034,9 @@ io.on('connection', (socket) => {
       room.optionOrders      = {};   // mélange des réponses : reparti à neuf
       room.gameSessionKey    = null;
       room.gsReady           = null;
-      await loadRoundQuestions(room.roundPlan, room.settings.difficulty, room.servedQuestionIds, code);
+      // Anti-répétition niveau 2 : exclusions historiques des joueurs connectés.
+      await loadPlayerExclusions(room);
+      await loadRoundQuestions(room.roundPlan, room.settings.difficulty, room.servedQuestionIds, code, buildSoftExclude(room));
 
       const first = room.roundPlan[0];
       io.to(code).emit('game_started', {

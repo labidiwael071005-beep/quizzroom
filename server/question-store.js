@@ -12,6 +12,11 @@
 
 const SUPPORTED_LANGS = ['fr', 'en', 'es'];
 
+// Anti-répétition niveau 2 : on ne reressert pas au même joueur CONNECTÉ une
+// question vue dans les N derniers jours (à travers toutes ses parties).
+// Ajustable ici (point de contrôle unique).
+const HISTORY_WINDOW_DAYS = 14;
+
 let prisma = null;
 let cache  = { qcm: [], geo: [], pixel: [] };
 
@@ -178,14 +183,31 @@ function adaptPixel(row) {
 // `count` atteint on s'arrête ; on ne reprend jamais une question déjà servie
 // ni une déjà choisie dans cet appel. Peut renvoyer MOINS que `count` (réservoir
 // épuisé) — c'est volontaire (manche raccourcie côté serveur).
-function pickDistinct(pools, count, exclude) {
-  const ex   = exclude instanceof Set ? exclude : new Set();
+// `hardExclude` = ids JAMAIS resservis (servedQuestionIds niveau 1 — inviolable).
+// `softExclude` = historique par joueur connecté (niveau 2) — respecté d'abord,
+// relâché EN DERNIER recours si le pool non-vu est épuisé (sans jamais toucher
+// au hard). Au sein de chaque passe, on parcourt les pools dans l'ordre de
+// priorité (strict → élargi) déjà fourni par l'appelant.
+function pickDistinct(pools, count, hardExclude, softExclude) {
+  const hard = hardExclude instanceof Set ? hardExclude : new Set();
+  const soft = softExclude instanceof Set ? softExclude : new Set();
   const out  = [];
   const seen = new Set();
-  for (const pool of pools) {
-    if (out.length >= count) break;
-    const avail = pool.filter(q => !ex.has(q.id) && !seen.has(q.id));
-    for (const q of pickRandom(avail, count - out.length)) { seen.add(q.id); out.push(q); }
+  const fill = (useSoft) => {
+    for (const pool of pools) {
+      if (out.length >= count) break;
+      const avail = pool.filter(q =>
+        !hard.has(q.id) && !seen.has(q.id) && (!useSoft || !soft.has(q.id)));
+      for (const q of pickRandom(avail, count - out.length)) { seen.add(q.id); out.push(q); }
+    }
+  };
+  fill(true);                              // 1-3 : historique respecté
+  if (out.length < count && soft.size) {   // 4-5 : historique relâché (dernier recours)
+    const before = out.length;
+    fill(false);
+    if (out.length > before) {
+      console.log(`[anti-rep L2] historique relâché : +${out.length - before} question(s) déjà vue(s) réutilisée(s) (pool non-vu épuisé).`);
+    }
   }
   return out;
 }
@@ -194,7 +216,7 @@ function pickDistinct(pools, count, exclude) {
 // servis, et applique un fallback progressif si le pool strict ne suffit pas :
 //   1) thèmes + difficulté  →  2) thèmes (toute difficulté)  →  3) tout le type.
 // `exclude` = Set d'ids déjà servis dans la partie (anti-répétition).
-function getQuestions({ themes = 'general', difficulty = 'medium', count = 10, exclude } = {}) {
+function getQuestions({ themes = 'general', difficulty = 'medium', count = 10, exclude, softExclude } = {}) {
   const themeList = Array.isArray(themes) ? themes : [themes];
   const inThemes  = q => themeList.includes(q.theme);
   const pools = [
@@ -202,16 +224,16 @@ function getQuestions({ themes = 'general', difficulty = 'medium', count = 10, e
     cache.qcm.filter(q => inThemes(q)),                                // 2. difficulté relâchée
     cache.qcm,                                                         // 3. thèmes relâchés (tout le type)
   ];
-  return pickDistinct(pools, count, exclude).map(adaptQcm);
+  return pickDistinct(pools, count, exclude, softExclude).map(adaptQcm);
 }
 
-function getPixelQuestions({ count = 5, exclude } = {}) {
+function getPixelQuestions({ count = 5, exclude, softExclude } = {}) {
   // Pas de filtre thème/difficulté pour le pixel : un seul pool, hors exclusions.
-  return pickDistinct([cache.pixel], count, exclude).map(adaptPixel);
+  return pickDistinct([cache.pixel], count, exclude, softExclude).map(adaptPixel);
 }
 
-function getGeoQuestions({ count = 5, exclude } = {}) {
-  return pickDistinct([cache.geo], count, exclude).map(adaptGeo);
+function getGeoQuestions({ count = 5, exclude, softExclude } = {}) {
+  return pickDistinct([cache.geo], count, exclude, softExclude).map(adaptGeo);
 }
 
 // ── Stats : fire-and-forget (on ne bloque pas le gameflow) ────
@@ -252,4 +274,5 @@ module.exports = {
   cacheStats,
   pickTranslation,
   SUPPORTED_LANGS,
+  HISTORY_WINDOW_DAYS,
 };
