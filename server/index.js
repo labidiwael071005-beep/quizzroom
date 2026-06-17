@@ -1108,6 +1108,7 @@ function checkAllAnswered(code) {
 function recordQuestionHistory(room, round, q) {
   if (!Array.isArray(room.history)) room.history = [];
   const isGeo = q.type === 'geomap';
+  const qk = qKey(q, room.currentQuestion);
   const results = room.players.map(p => {
     const a = room.answers[p.name];
     const entry = {
@@ -1120,11 +1121,18 @@ function recordQuestionHistory(room, round, q) {
     if (isGeo) {
       entry.distance = (a && a.distance != null) ? Math.round(a.distance) : null;
     } else {
-      // On stocke l'INDEX choisi : le client résoudra le libellé dans sa langue
-      // via translations[locale].options[answerIndex]. On garde aussi un
-      // fallback texte pour les anciens clients (et les questions sans trad).
-      entry.answerIndex = a?.answerIndex ?? null;
-      entry.answer      = (a && a.answerIndex != null) ? q.options?.[a.answerIndex] : null;
+      // Le récap (room.history) est partagé et rendu en ordre CANONIQUE
+      // (correctIndex + translations d'origine). L'answerIndex du joueur est en
+      // ordre MÉLANGÉ → on le reconvertit en index canonique via sa permutation
+      // (perm[display] = index d'origine choisi). Sinon le récap afficherait la
+      // mauvaise réponse pour les joueurs ayant eu un mélange.
+      const map  = room.optionOrders?.[p.name]?.[qk];
+      const disp = a?.answerIndex;
+      const canonical = (map && disp != null && map.permutation[disp] != null)
+        ? map.permutation[disp]
+        : (disp ?? null);
+      entry.answerIndex = canonical;
+      entry.answer      = (canonical != null) ? q.options?.[canonical] : null;
     }
     return entry;
   });
@@ -1175,19 +1183,29 @@ function endQuestion(code) {
       })),
     });
   } else if (q) {
-    io.to(code).emit('question_reveal', {
-      questionId:    q.id || null,
-      question:      q.question,
-      correctIndex:  q.correctIndex,
-      correctAnswer: q.options?.[q.correctIndex] ?? '',
-      explanation:   q.explanation || '',
-      translations:  q.translations || null,
-      results: room.players.map(p => ({
-        name:     p.name,
-        answered: room.answers[p.name] !== undefined,
-        correct:  !!room.answers[p.name]?.correct,
-      })),
-    });
+    // Reveal PAR JOUEUR : chacun reçoit l'index correct DANS SON ORDRE propre
+    // (displayedCorrectIndex) + ses translations mélangées, pour que le
+    // surlignage vert tombe juste même si les ordres diffèrent.
+    const qk = qKey(q, room.currentQuestion);
+    const results = room.players.map(p => ({
+      name:     p.name,
+      answered: room.answers[p.name] !== undefined,
+      correct:  !!room.answers[p.name]?.correct,
+    }));
+    for (const p of room.players) {
+      const map = room.optionOrders?.[p.name]?.[qk];
+      const dci = map ? map.displayedCorrectIndex : (q.correctIndex ?? null);
+      const trP = map ? shuffledTranslations(q.translations, map.permutation) : (q.translations || null);
+      io.to(p.id).emit('question_reveal', {
+        questionId:    q.id || null,
+        question:      q.question,
+        correctIndex:  dci,
+        correctAnswer: q.options?.[q.correctIndex] ?? '',
+        explanation:   q.explanation || '',
+        translations:  trP,
+        results,
+      });
+    }
   }
 
   room.phase = 'scores';
@@ -1325,6 +1343,7 @@ function doGameOver(code) {
   room.pariMiserDone     = {};
   room.waitingForHost    = false;
   room.phase             = null;
+  room.optionOrders      = {};   // purge des permutations de réponses
   room.players.forEach(p => { p.score = 0; });
   if (room.teams) room.teams.forEach(t => { t.score = 0; });
   console.log(`🔁 Room ${code} : partie terminée, retour au lobby possible`);
@@ -1477,6 +1496,61 @@ function currentRound(room) {
   return room.roundPlan[room.currentRound];
 }
 
+// ── Mélange des réponses (par joueur, par question) ───────────
+// SÉCURITÉ : l'ordre mélangé ET l'index de la bonne réponse dans ce nouvel ordre
+// sont calculés CÔTÉ SERVEUR. On mémorise par room :
+//   room.optionOrders[playerName][qKey] = { permutation, displayedCorrectIndex }
+// (clé par nom de joueur = stable à travers les reconnexions dans la room).
+// Le client ne reçoit JAMAIS l'index correct avant le reveal.
+function makePermutation(n) {
+  const a = Array.from({ length: n }, (_, i) => i);
+  for (let i = n - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+function applyPerm(arr, perm) {
+  return Array.isArray(arr) ? perm.map(i => arr[i]) : arr;
+}
+function qKey(q, idx) { return q.id || ('idx-' + idx); }
+
+// Historique par joueur connecté (anti-répétition niveau 2). Corps branché en
+// Phase 3 ; stub neutre ici pour rester sans effet de bord tant que la table
+// n'existe pas.
+function recordSeenForConnected(room, q) { /* implémenté en Phase 3 */ }
+
+function shuffledTranslations(translations, perm) {
+  if (!translations) return null;
+  const out = {};
+  for (const lang of Object.keys(translations)) {
+    const t0 = translations[lang];
+    out[lang] = (t0 && Array.isArray(t0.options)) ? { ...t0, options: applyPerm(t0.options, perm) } : t0;
+  }
+  return out;
+}
+
+// Construit (et mémorise) le payload new_question mélangé pour un joueur. Pas de
+// mélange pour le géo. Réutilise la permutation existante si déjà calculée pour
+// ce joueur + cette question (reconnexion → même ordre).
+function shuffledQuestionPayload(room, q, qk, base, playerName) {
+  const shuffleable = q.type !== 'geomap'
+    && Array.isArray(q.options) && q.options.length > 1
+    && Number.isInteger(q.correctIndex);
+  if (!shuffleable) return base;
+  room.optionOrders = room.optionOrders || {};
+  room.optionOrders[playerName] = room.optionOrders[playerName] || {};
+  let map = room.optionOrders[playerName][qk];
+  if (!map) {
+    const perm = makePermutation(q.options.length);
+    map = { permutation: perm, displayedCorrectIndex: perm.indexOf(q.correctIndex) };
+    room.optionOrders[playerName][qk] = map;
+  }
+  const out = { ...base, options: applyPerm(q.options, map.permutation) };
+  if (q.translations) out.translations = shuffledTranslations(q.translations, map.permutation);
+  return out;
+}
+
 function sendQuestion(code) {
   const room  = rooms[code];
   if (!room) return;
@@ -1536,7 +1610,14 @@ function sendQuestion(code) {
     payload.timeLimit = 45;
   }
 
-  io.to(code).emit('new_question', payload);
+  // Émission PAR JOUEUR : chacun reçoit les options dans un ordre mélangé
+  // propre (le géo n'est pas mélangé). Le mapping est mémorisé sur la room.
+  const qk = qKey(q, questionIndex);
+  for (const p of room.players) {
+    io.to(p.id).emit('new_question', shuffledQuestionPayload(room, q, qk, payload, p.name));
+  }
+  // Historique par joueur connecté (anti-répétition niveau 2, fire-and-forget).
+  recordSeenForConnected(room, q);
   // Stat fire-and-forget : on incrémente timesShown pour la question diffusée.
   if (q.id) recordShown(q.id);
   // Traçabilité GameSession (fire-and-forget, n'impacte pas le gameflow).
@@ -1807,7 +1888,7 @@ io.on('connection', (socket) => {
           const elapsed   = (Date.now() - room.questionStartTime) / 1000;
           const base      = q.type === 'pixel' ? 25 : (round.name === 'pari' ? 45 : 15);
           const remaining = Math.max(3, base - Math.floor(elapsed));
-          socket.emit('new_question', {
+          const rejoinBase = {
             questionId: q.id || null,
             index: room.currentQuestion, total: round.questions.length,
             question: q.question, options: q.options, timeLimit: remaining,
@@ -1815,7 +1896,10 @@ io.on('connection', (socket) => {
             type: q.type || 'normal', imageUrl: q.imageUrl,
             roundName: round.name, roundIndex: room.currentRound, totalRounds: room.roundPlan.length,
             isPari: round.name === 'pari' || undefined,
-          });
+          };
+          // Réutilise la permutation déjà mémorisée pour ce joueur (même ordre
+          // qu'avant la déconnexion) ; sinon en génère une (cas marginal).
+          socket.emit('new_question', shuffledQuestionPayload(room, q, qKey(q, room.currentQuestion), rejoinBase, player.name));
         }
       }
       // phase 'scores' / 'between' : ne renvoie rien, le prochain événement viendra
@@ -1887,6 +1971,7 @@ io.on('connection', (socket) => {
       // prépare une NOUVELLE GameSession (traçabilité) pour cette partie.
       room.servedQuestionIds = new Set();
       room.servedOrder       = [];
+      room.optionOrders      = {};   // mélange des réponses : reparti à neuf
       room.gameSessionKey    = null;
       room.gsReady           = null;
       await loadRoundQuestions(room.roundPlan, room.settings.difficulty, room.servedQuestionIds, code);
@@ -1962,7 +2047,12 @@ io.on('connection', (socket) => {
         : (player.score ?? 0);
       if (!validBet(betAmount, Math.max(maxBet, 0))) return;
     }
-    const correct = answerIndex === q.correctIndex;
+    // L'index reçu correspond à CE QUE LE JOUEUR VOIT (ordre mélangé). On compare
+    // au displayedCorrectIndex mémorisé pour ce joueur (fallback : correctIndex
+    // global si aucun mapping — reconnexion marginale).
+    const omap = room.optionOrders?.[player.name]?.[qKey(q, room.currentQuestion)];
+    const effectiveCorrectIndex = omap ? omap.displayedCorrectIndex : q.correctIndex;
+    const correct = answerIndex === effectiveCorrectIndex;
     // Stat fire-and-forget : on incrémente timesCorrect quand la réponse est juste.
     if (correct && q.id) recordCorrect(q.id);
     let points = 0;
@@ -1998,7 +2088,7 @@ io.on('connection', (socket) => {
       if (correct) player.score = Math.max(0, player.score + points);
     }
 
-    socket.emit('answer_result', { correct, correctIndex: q.correctIndex, points });
+    socket.emit('answer_result', { correct, correctIndex: effectiveCorrectIndex, points });
     io.to(code).emit('player_answered', { name: player.name });
     checkAllAnswered(code);
   });
