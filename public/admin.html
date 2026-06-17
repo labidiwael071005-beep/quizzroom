@@ -232,20 +232,64 @@
     <section class="admin-tab-panel" id="tab-panel-reports"
              role="tabpanel" aria-labelledby="tab-btn-reports" hidden>
 
-      <div class="admin-card">
-        <div class="admin-card-head">
-          <h2><i class="ti ti-flag"></i> Signalements
-            <span class="admin-count" id="reports-count"></span>
-            <span class="badge badge-orange" id="reports-open-badge" hidden></span>
-          </h2>
-          <button class="btn btn-ghost btn-sm" id="btn-reload-reports">
-            <i class="ti ti-refresh"></i> Actualiser
-          </button>
+      <!-- Sous-onglets : questions / joueurs -->
+      <div class="report-subtabs">
+        <button class="report-subtab active" data-subtab="questions"><i class="ti ti-help-circle"></i> Questions</button>
+        <button class="report-subtab" data-subtab="players"><i class="ti ti-user-exclamation"></i> Joueurs
+          <span class="admin-tab-badge" id="preports-badge" hidden>0</span>
+        </button>
+      </div>
+
+      <!-- Sous-panneau : signalements de questions (existant) -->
+      <div class="report-subpanel" id="subpanel-questions">
+        <div class="admin-card">
+          <div class="admin-card-head">
+            <h2><i class="ti ti-flag"></i> Signalements de questions
+              <span class="admin-count" id="reports-count"></span>
+              <span class="badge badge-orange" id="reports-open-badge" hidden></span>
+            </h2>
+            <button class="btn btn-ghost btn-sm" id="btn-reload-reports">
+              <i class="ti ti-refresh"></i> Actualiser
+            </button>
+          </div>
+          <div class="admin-list" id="reports-list"></div>
+          <div id="reports-empty" class="admin-empty" hidden>
+            <i class="ti ti-mood-smile"></i>
+            Aucun signalement.
+          </div>
         </div>
-        <div class="admin-list" id="reports-list"></div>
-        <div id="reports-empty" class="admin-empty" hidden>
-          <i class="ti ti-mood-smile"></i>
-          Aucun signalement.
+      </div>
+
+      <!-- Sous-panneau : signalements de joueurs (nouveau) -->
+      <div class="report-subpanel" id="subpanel-players" hidden>
+        <div class="admin-card">
+          <div class="admin-card-head">
+            <h2><i class="ti ti-user-exclamation"></i> Signalements de joueurs
+              <span class="admin-count" id="preports-count"></span>
+            </h2>
+            <button class="btn btn-ghost btn-sm" id="btn-reload-preports">
+              <i class="ti ti-refresh"></i> Actualiser
+            </button>
+          </div>
+          <div class="admin-filters">
+            <select id="preports-filter-cat">
+              <option value="">Toutes catégories</option>
+              <option value="pseudo">Pseudo</option>
+              <option value="chat">Chat</option>
+              <option value="behavior">Comportement</option>
+              <option value="other">Autre</option>
+            </select>
+            <select id="preports-filter-status">
+              <option value="">Tous statuts</option>
+              <option value="open">Ouverts</option>
+              <option value="resolved">Résolus</option>
+            </select>
+          </div>
+          <div class="admin-list" id="preports-list"></div>
+          <div id="preports-empty" class="admin-empty" hidden>
+            <i class="ti ti-mood-smile"></i>
+            Aucun signalement de joueur.
+          </div>
         </div>
       </div>
 

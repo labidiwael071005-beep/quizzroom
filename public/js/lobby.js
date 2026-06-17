@@ -401,14 +401,21 @@ function updatePlayers(players) {
       : '';
     const isWaiting = p.inLobby === false;
     const nameAttr  = escapeHtml(p.name);
-    const showKebab = (isHost && !isHostP && !isMe);
+    // Menu 3 points : visible sur TOUT autre joueur. Modération (léguer/exclure)
+    // réservée à l'hôte ; « Signaler » disponible pour tous.
+    const canModerate = isHost && !isHostP && !isMe;
+    const showKebab   = !isMe;
+    const reportDisabled = (typeof isPlayerReportCooldown === 'function' && isPlayerReportCooldown(p.name));
+    const items = [];
+    if (canModerate) {
+      items.push(`<button class="player-menu-item" data-action="promote" data-name="${nameAttr}">${escapeHtml(t('lobby.menu.promote', '👑 Léguer l\'hôte'))}</button>`);
+      items.push(`<button class="player-menu-item danger" data-action="kick" data-name="${nameAttr}">${escapeHtml(t('lobby.menu.kick', '🚫 Exclure'))}</button>`);
+    }
+    items.push(`<button class="player-menu-item" data-action="report" data-name="${nameAttr}" ${reportDisabled ? 'disabled' : ''}>${escapeHtml(t('report.player.menu', '🚩 Signaler'))}</button>`);
     const kebab = showKebab
       ? `<div class="player-menu">
            <button class="player-menu-btn" data-action="menu" data-name="${nameAttr}" title="Actions" aria-label="Actions">⋮</button>
-           <div class="player-menu-dropdown" id="menu-${sanitizeNameId(p.name)}">
-             <button class="player-menu-item" data-action="promote" data-name="${nameAttr}">${escapeHtml(t('lobby.menu.promote', '👑 Léguer l\'hôte'))}</button>
-             <button class="player-menu-item danger" data-action="kick" data-name="${nameAttr}">${escapeHtml(t('lobby.menu.kick', '🚫 Exclure'))}</button>
-           </div>
+           <div class="player-menu-dropdown" id="menu-${sanitizeNameId(p.name)}">${items.join('')}</div>
          </div>`
       : '';
     return `
@@ -434,6 +441,10 @@ function updatePlayers(players) {
       if (action === 'menu')         togglePlayerMenu(e, name);
       else if (action === 'promote') transferHost(name);
       else if (action === 'kick')    kickPlayer(name);
+      else if (action === 'report') {
+        document.querySelectorAll('.player-menu-dropdown.open').forEach(el => el.classList.remove('open'));
+        if (typeof openPlayerReport === 'function') openPlayerReport(name, roomCode);
+      }
     });
   });
 

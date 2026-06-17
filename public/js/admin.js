@@ -804,6 +804,96 @@ document.getElementById('btn-reload-reports').addEventListener('click', () => {
   loadStats();
 });
 
+// ── Signalements de joueurs (sous-onglet) ───────────────────
+const PCAT_LABEL = { pseudo: 'Pseudo', chat: 'Chat', behavior: 'Comportement', other: 'Autre' };
+
+async function loadPlayerReports() {
+  try {
+    const cat = document.getElementById('preports-filter-cat')?.value || '';
+    const st  = document.getElementById('preports-filter-status')?.value || '';
+    const qs  = new URLSearchParams();
+    if (cat) qs.set('category', cat);
+    if (st)  qs.set('status', st);
+    const { reports, openCount } = await api('/api/admin/player-reports?' + qs.toString());
+    renderPlayerReports(reports || [], openCount || 0);
+  } catch (err) { /* déjà géré */ }
+}
+
+function renderPlayerReports(reports, openCount) {
+  const list    = document.getElementById('preports-list');
+  const empty   = document.getElementById('preports-empty');
+  const countEl = document.getElementById('preports-count');
+  const badge   = document.getElementById('preports-badge');
+  if (countEl) countEl.textContent = `(${reports.length})`;
+  if (badge) { if (openCount > 0) { badge.textContent = String(openCount); badge.hidden = false; } else badge.hidden = true; }
+  if (!reports.length) { list.innerHTML = ''; empty.hidden = false; return; }
+  empty.hidden = true;
+
+  list.innerHTML = reports.map(r => {
+    const resolved  = r.status === 'resolved';
+    const catLabel  = PCAT_LABEL[r.category] || r.category;
+    const vR = r.reportedUserId ? ' <i class="ti ti-shield-check" title="compte certifié"></i>' : '';
+    const vA = r.reporterUserId ? ' <i class="ti ti-shield-check" title="compte certifié"></i>' : '';
+    const comment   = r.comment ? `<div class="rp-comment">"${escapeHtml(r.comment)}"</div>` : '';
+    const roomBadge = r.roomCode ? `<span class="badge">🎮 ${escapeHtml(r.roomCode)}</span>` : '';
+    return `
+      <div class="report-row ${resolved ? 'resolved' : ''}" data-id="${escapeHtml(r.id)}">
+        <div class="rp-icon"><i class="ti ti-${resolved ? 'check' : 'user-exclamation'}"></i></div>
+        <div class="rp-main">
+          <div class="rp-q">Signalé : <strong>${escapeHtml(r.reportedPseudo)}</strong>${vR}
+            <span class="rp-by"> · par ${escapeHtml(r.reporterPseudo)}${vA}</span></div>
+          <div class="rp-meta">
+            <span class="badge cat-${escapeHtml(r.category || 'other')}">${escapeHtml(catLabel)}</span>
+            ${roomBadge}
+            <span class="badge">${escapeHtml(resolved ? 'résolu' : 'ouvert')}</span>
+          </div>
+          ${comment}
+        </div>
+        <div class="rp-date">${escapeHtml(fmtDate(r.createdAt))}</div>
+        <div class="rp-actions">
+          ${resolved ? '' : `<button class="btn btn-ghost btn-sm" data-action="presolve" data-id="${escapeHtml(r.id)}" title="Marquer résolu"><i class="ti ti-check"></i></button>`}
+          <button class="btn btn-ghost btn-sm danger" data-action="pdelete" data-id="${escapeHtml(r.id)}" title="Supprimer"><i class="ti ti-trash"></i></button>
+        </div>
+      </div>`;
+  }).join('');
+
+  list.querySelectorAll('[data-action]').forEach(btn => {
+    const id = btn.dataset.id, action = btn.dataset.action;
+    btn.addEventListener('click', () => {
+      if (action === 'presolve') resolvePlayerReport(id);
+      if (action === 'pdelete')  deletePlayerReport(id);
+    });
+  });
+}
+
+async function resolvePlayerReport(id) {
+  try {
+    await api('/api/admin/player-reports/' + id, { method: 'PATCH', body: JSON.stringify({ status: 'resolved' }) });
+    showToast('Signalement résolu', 'success');
+    loadPlayerReports();
+  } catch (err) { showToast('Erreur : ' + err.message, 'error'); }
+}
+async function deletePlayerReport(id) {
+  if (!confirm('Supprimer ce signalement de joueur ?')) return;
+  try {
+    await api('/api/admin/player-reports/' + id, { method: 'DELETE' });
+    showToast('Signalement supprimé', 'success');
+    loadPlayerReports();
+  } catch (err) { showToast('Erreur : ' + err.message, 'error'); }
+}
+
+// Bascule des sous-onglets + filtres
+document.querySelectorAll('.report-subtab').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.report-subtab').forEach(x => x.classList.toggle('active', x === b));
+  const sub = b.dataset.subtab;
+  document.getElementById('subpanel-questions').hidden = sub !== 'questions';
+  document.getElementById('subpanel-players').hidden   = sub !== 'players';
+  if (sub === 'players') loadPlayerReports();
+}));
+document.getElementById('btn-reload-preports')?.addEventListener('click', loadPlayerReports);
+document.getElementById('preports-filter-cat')?.addEventListener('change', loadPlayerReports);
+document.getElementById('preports-filter-status')?.addEventListener('change', loadPlayerReports);
+
 // ── Onglets (Questions ↔ Signalements) ──────────────────────
 function switchTab(name) {
   const tabs   = document.querySelectorAll('.admin-tab');
@@ -818,6 +908,7 @@ function switchTab(name) {
     p.hidden = !active;
   });
   if (name === 'dashboard') loadOverview();   // données fraîches à l'entrée
+  if (name === 'reports')   loadPlayerReports();   // rafraîchit le badge joueurs
 }
 document.querySelectorAll('.admin-tab').forEach(t => {
   t.addEventListener('click', () => switchTab(t.dataset.tab));

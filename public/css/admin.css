@@ -367,3 +367,15 @@
   .dash-cols, .dash-cols-3{ grid-template-columns:1fr; }
   .form-row.two-cols{ grid-template-columns:1fr; }
 }
+
+/* Sous-onglets Signalements (questions / joueurs) */
+.report-subtabs{ display:flex; gap:8px; margin-bottom:14px; }
+.report-subtab{
+  display:inline-flex; align-items:center; gap:6px;
+  font-family:'Fredoka',sans-serif; font-weight:600; font-size:14px; cursor:pointer;
+  padding:8px 14px; border-radius:10px; border:2px solid var(--a-border);
+  background:var(--a-input); color:var(--a-text);
+}
+.report-subtab.active{ background:var(--gold-grad); color:#5a3a00; border-color:var(--gold-dark); }
+.report-subtab .admin-tab-badge{ background:var(--red, #e8261c); color:#fff; border-radius:999px; padding:0 6px; font-size:11px; }
+.rp-by{ color:var(--a-faint); font-weight:500; }

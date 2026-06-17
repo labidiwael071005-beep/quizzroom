@@ -214,8 +214,11 @@ function renderAvatarsPanel(players) {
     const isMe  = p.name === playerData.name;
     const team  = currentTeams.find(t => t.id === p.teamId);
     const ring  = team ? `border-color:${team.color}` : '';
+    const reportBtn = isMe ? '' :
+      `<button class="av-report-btn" data-action="report" data-name="${escapeHtml(p.name)}" title="${escapeHtml(t('report.player.menu', '🚩 Signaler'))}" aria-label="${escapeHtml(t('report.player.title', 'Signaler ce joueur'))}">⋮</button>`;
     return `
       <div class="av-player-slot ${isMe ? 'me' : ''}" id="av-slot-${sanitizeId(p.name)}">
+        ${reportBtn}
         <div class="av-player-icon thinking" id="av-icon-${sanitizeId(p.name)}"
              style="${getAvatarStyle(av)};${ring}">
           ${escapeHtml(av.emoji)}
@@ -225,6 +228,13 @@ function renderAvatarsPanel(players) {
         <div class="av-player-score" id="av-score-${sanitizeId(p.name)}">${p.score || 0} pts</div>
       </div>`;
   }).join('');
+  // Bouton « Signaler » par joueur (autres que soi) → modale partagée.
+  panel.querySelectorAll('[data-action="report"]').forEach(b => {
+    b.addEventListener('click', (ev) => {
+      ev.stopPropagation();
+      if (typeof openPlayerReport === 'function') openPlayerReport(b.dataset.name, roomCode);
+    });
+  });
   sizeAvatarBar(panel, (players || []).length);
 }
 

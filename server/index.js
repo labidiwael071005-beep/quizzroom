@@ -912,6 +912,49 @@ app.delete('/api/admin/reports/:id', adminAuth, async (req, res) => {
   }
 });
 
+// ── Signalements de joueurs (modération) ──────────────────────
+const PLAYER_REPORT_CATEGORIES = ['pseudo', 'chat', 'behavior', 'other'];
+
+app.get('/api/admin/player-reports', adminAuth, async (req, res) => {
+  try {
+    const where = {};
+    if (req.query.status === 'open' || req.query.status === 'resolved') where.status = req.query.status;
+    if (PLAYER_REPORT_CATEGORIES.includes(req.query.category)) where.category = req.query.category;
+    const reports = await prisma.playerReport.findMany({
+      where, orderBy: { createdAt: 'desc' }, take: 300,
+    });
+    const openCount = await prisma.playerReport.count({ where: { status: 'open' } });
+    res.json({ ok: true, reports, openCount, total: reports.length });
+  } catch (err) {
+    console.error('[GET /api/admin/player-reports]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
+  }
+});
+
+app.patch('/api/admin/player-reports/:id', adminAuth, async (req, res) => {
+  try {
+    const b = req.body || {};
+    if (b.status !== 'resolved' && b.status !== 'open') {
+      return res.status(400).json({ ok: false, error: 'status invalide' });
+    }
+    await prisma.playerReport.update({ where: { id: req.params.id }, data: { status: b.status } });
+    res.json({ ok: true });
+  } catch (err) {
+    console.error('[PATCH /api/admin/player-reports/:id]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
+  }
+});
+
+app.delete('/api/admin/player-reports/:id', adminAuth, async (req, res) => {
+  try {
+    await prisma.playerReport.delete({ where: { id: req.params.id } });
+    res.json({ ok: true });
+  } catch (err) {
+    console.error('[DELETE /api/admin/player-reports/:id]', err);
+    res.status(500).json({ ok: false, error: 'Erreur serveur' });
+  }
+});
+
 app.get('/api/admin/stats', adminAuth, async (req, res) => {
   try {
     const counts = cacheStats();
@@ -2227,6 +2270,45 @@ io.on('connection', (socket) => {
       name: '🔔 Système',
       text: `🚫 ${target.name} a été exclu du lobby.`,
     });
+  });
+
+  // Signalement d'un joueur (lobby ou en partie). Disponible pour TOUS, sauf
+  // sur soi-même. Le reporter DOIT être dans la room (validé par socket.id).
+  socket.on('report_player', async ({ code, targetName, category, comment }) => {
+    if (!validRoomCode(code)) return;
+    if (typeof targetName !== 'string') return;
+    if (!checkActionRate(socket)) return;
+    const room = rooms[code];
+    if (!room) return;
+    const reporter = room.players.find(p => p.id === socket.id);
+    if (!reporter) return;                                   // pas dans la room
+    const target = room.players.find(p => p.name === targetName);
+    if (!target || target.id === socket.id) return;         // autre joueur seulement
+    const cat = ['pseudo', 'chat', 'behavior', 'other'].includes(category) ? category : 'other';
+    let txt = typeof comment === 'string' ? comment.trim().slice(0, 500) : '';
+    // On ne conserve pas de contenu injurieux intégral : si le commentaire est
+    // filtré, on le neutralise (le report et sa catégorie restent utiles).
+    if (txt && containsProfanity(txt)) txt = '[commentaire filtré]';
+    if (!txt) txt = null;
+    try {
+      await prisma.playerReport.create({
+        data: {
+          reportedUserId: target.userId || null,
+          reportedPseudo: target.name,
+          reporterUserId: reporter.userId || null,
+          reporterPseudo: reporter.name,
+          category: cat,
+          comment:  txt,
+          roomCode: code,
+          status:   'open',
+        },
+      });
+      console.warn(`[PLAYER REPORT] ${reporter.name} → ${target.name} (${cat}) room=${code}`);
+      socket.emit('player_report_ack', { ok: true });
+    } catch (err) {
+      console.error('[report_player]', err.message);
+      socket.emit('player_report_ack', { ok: false });
+    }
   });
 
   socket.on('pari_miser_done', ({ code, betAmount }) => {

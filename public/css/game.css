@@ -93,6 +93,16 @@ html, body {
   background: rgba(249,115,22,0.10);
   outline: 1px solid rgba(249,115,22,0.45);
 }
+/* Bouton « Signaler » discret en coin de slot (autres joueurs) */
+.av-report-btn {
+  position: absolute; top: 2px; right: 2px; z-index: 2;
+  width: 20px; height: 20px; border-radius: 50%;
+  border: none; background: rgba(0,0,0,0.35); color: #fff;
+  font-size: 14px; line-height: 1; cursor: pointer; opacity: .55;
+  display: flex; align-items: center; justify-content: center; transition: opacity .15s;
+}
+.av-player-slot:hover .av-report-btn { opacity: 1; }
+.av-report-btn:focus-visible { opacity: 1; outline: 2px solid var(--gold); }
 .av-player-icon {
   width: 72px; height: 72px; border-radius: 50%;
   display: flex; align-items: center; justify-content: center;

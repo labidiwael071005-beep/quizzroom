@@ -557,6 +557,21 @@ a.highlight, .highlight { color: var(--gold); }
 .home-input::placeholder{ color:#c2ad88; }
 .home-input:focus{ border-color:var(--accent); box-shadow:0 0 0 3px rgba(42,95,224,.18); }
 
+/* ── Modale « Signaler ce joueur » (lobby + partie) ── */
+.preport-overlay{ position:fixed; inset:0; z-index:1200; display:flex; align-items:center; justify-content:center; padding:20px; background:rgba(10,20,40,.6); }
+.preport-overlay[hidden]{ display:none; }
+.preport-card{ width:100%; max-width:380px; padding:22px; }
+.preport-card h3{ margin:0 0 6px; font-size:18px; color:var(--logo-gold); }
+.preport-target{ font-weight:700; color:var(--ink); margin-bottom:12px; }
+.preport-cats{ display:flex; flex-direction:column; gap:8px; margin-bottom:12px; }
+.preport-cat{ display:flex; align-items:center; gap:8px; padding:8px 10px; border:2px solid var(--panel-border); border-radius:10px; cursor:pointer; font-weight:600; color:var(--ink); }
+.preport-cat:has(input:checked){ border-color:var(--accent); background:rgba(42,95,224,.08); }
+#preport-comment{ width:100%; min-height:70px; resize:vertical; font-family:'Fredoka',sans-serif; font-size:14px; color:var(--ink); background:#fff; border:2px solid var(--panel-border); border-radius:12px; padding:10px 12px; outline:none; }
+#preport-comment:focus{ border-color:var(--accent); box-shadow:0 0 0 3px rgba(42,95,224,.18); }
+.preport-actions{ display:flex; gap:10px; margin-top:14px; }
+.preport-actions .btn{ flex:1; }
+body.preport-open{ overflow:hidden; }
+
 /* ── Menu utilisateur (cercle photo + dropdown) ── */
 .user-menu{ position:relative; }
 .user-menu[hidden]{ display:none; }

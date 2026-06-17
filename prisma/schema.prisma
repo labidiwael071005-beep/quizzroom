@@ -141,8 +141,34 @@ model User {
   // Anti-répétition niveau 2 : questions déjà vues par ce joueur (toutes parties).
   questionHistory UserQuestionHistory[]
 
+  // Signalements de joueurs (modération).
+  reportsAgainst  PlayerReport[] @relation("ReportedAgainst")
+  reportsMade     PlayerReport[] @relation("ReportsMade")
+
   @@index([googleId])
   @@index([email])
+}
+
+// Signalement d'un joueur par un autre (pseudo / chat / comportement / autre).
+// Distinct de QuestionReport. On garde une trace textuelle (pseudo + roomCode)
+// même quand le joueur n'est pas certifié.
+model PlayerReport {
+  id              String   @id @default(cuid())
+  reportedUserId  String?
+  reportedUser    User?    @relation("ReportedAgainst", fields: [reportedUserId], references: [id], onDelete: SetNull)
+  reportedPseudo  String                          // pseudo affiché au moment du signalement
+  reporterUserId  String?
+  reporter        User?    @relation("ReportsMade", fields: [reporterUserId], references: [id], onDelete: SetNull)
+  reporterPseudo  String                          // pseudo affiché de l'auteur
+  category        String   @default("other")      // pseudo / chat / behavior / other
+  comment         String?  @db.Text               // texte libre (max 500, filtré)
+  roomCode        String?
+  status          String   @default("open")       // open / resolved
+  createdAt       DateTime @default(now())
+
+  @@index([reportedUserId])
+  @@index([status])
+  @@index([createdAt])
 }
 
 // Historique « question vue » par joueur connecté, pour ne pas reservir une
