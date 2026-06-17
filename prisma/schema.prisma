@@ -52,6 +52,7 @@ model Question {
   reports       QuestionReport[]
   gameSessions  GameSession[]
   translations  QuestionTranslation[]
+  userHistory   UserQuestionHistory[]
 
   @@index([language])
   @@index([theme])
@@ -137,8 +138,26 @@ model User {
   gamesWon       Int      @default(0)
   totalScore     Int      @default(0)
 
+  // Anti-répétition niveau 2 : questions déjà vues par ce joueur (toutes parties).
+  questionHistory UserQuestionHistory[]
+
   @@index([googleId])
   @@index([email])
+}
+
+// Historique « question vue » par joueur connecté, pour ne pas reservir une
+// question avant HISTORY_WINDOW_DAYS jours, à travers TOUTES ses parties.
+// Les anonymes (userId absent) n'en génèrent pas.
+model UserQuestionHistory {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  seenAt     DateTime @default(now())
+
+  @@unique([userId, questionId])
+  @@index([userId, seenAt])
 }
 
 // Un résultat de joueur pour une partie terminée (≥2 joueurs). userId est NULL
