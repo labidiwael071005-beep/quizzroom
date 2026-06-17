@@ -40,16 +40,13 @@
     <div class="profil-content" id="profil-content" hidden>
       <!-- Carte d'identité -->
       <div class="panel profil-card profil-identity">
-        <img id="p-avatar" class="profil-avatar" alt="" referrerpolicy="no-referrer" hidden>
+        <span class="avatar-wrap">
+          <img id="p-avatar" class="profil-avatar" alt="" referrerpolicy="no-referrer" hidden>
+          <span class="avatar-bulb avatar-bulb--lg" id="p-bulb" title="" hidden></span>
+        </span>
         <div class="profil-identity-info">
           <div class="profil-name">
             <span id="p-name"></span>
-            <span class="verified-badge" title="" id="p-verified">
-              <svg class="shield-ico" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
-                <path fill="currentColor" d="M12 2 4 5v6c0 5 3.4 8.6 8 11 4.6-2.4 8-6 8-11V5l-8-3Z"/>
-                <path fill="#1b3f9e" d="m10.7 14.4-2.4-2.4 1.1-1.1 1.3 1.3 3.2-3.2 1.1 1.1-4.3 4.3Z"/>
-              </svg>
-            </span>
           </div>
           <div class="profil-google" id="p-google"></div>
           <div class="profil-since" id="p-since"></div>

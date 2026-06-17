@@ -130,3 +130,26 @@
   .curtain{ transition:none !important; }
   *, *::before, *::after{ animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; }
 }
+
+/* ── Badge « compte vérifié » : petite ampoule lumineuse sur l'avatar ── */
+.avatar-wrap{ position:relative; display:inline-block; }
+.avatar-bulb{
+  position:absolute; top:-2px; right:-2px;
+  width:11px; height:11px; border-radius:50%;
+  background:radial-gradient(circle at 35% 35%, #fff5c2 0%, #ffe07a 45%, #d4a017 100%);
+  box-shadow:0 0 6px rgba(255,224,122,.9), 0 0 14px rgba(255,200,80,.55);
+  z-index:3; pointer-events:none;
+  animation:bulb-pulse 1.6s ease-in-out infinite;
+}
+.avatar-bulb--lg{ width:15px; height:15px; top:-3px; right:-3px; }
+@keyframes bulb-pulse{
+  0%,100%{ transform:scale(1);   opacity:1;   }
+  50%    { transform:scale(1.1); opacity:.85; }
+}
+@media (prefers-reduced-motion: reduce){ .avatar-bulb{ animation:none; } }
+
+/* Texte réservé aux lecteurs d'écran */
+.sr-only{
+  position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+  overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+}

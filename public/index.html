@@ -31,13 +31,6 @@
     <div class="panel home-panel">
       <div class="home-label-row">
         <label class="home-label" for="create-name" data-i18n="modal.create.pseudo">Ton pseudo</label>
-        <span id="pseudo-verified" class="verified-badge" hidden>
-          <svg class="shield-ico" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
-            <path fill="currentColor" d="M12 2 4 5v6c0 5 3.4 8.6 8 11 4.6-2.4 8-6 8-11V5l-8-3Z"/>
-            <path fill="#1b3f9e" d="m10.7 14.4-2.4-2.4 1.1-1.1 1.3 1.3 3.2-3.2 1.1 1.1-4.3 4.3Z"/>
-          </svg>
-          <span data-i18n="lobby.verifiedAccount">Compte vérifié</span>
-        </span>
       </div>
       <div class="home-identity-row">
         <div id="create-avatar-picker"></div>
@@ -156,9 +149,23 @@
     const userBox   = document.getElementById('auth-user');
     const nameInput = document.getElementById('create-name');
     const editLink  = document.getElementById('pseudo-edit-link');
-    const vb        = document.getElementById('pseudo-verified');
     const userMenu  = document.getElementById('user-menu');
     if (!wrap) return;
+
+    // Ampoule « compte vérifié » sur l'avatar compact de l'accueil.
+    function setHomeVerifiedBulb(on) {
+      const ac = document.querySelector('#create-avatar-picker .avatar-compact');
+      if (!ac) return;
+      let bulb = ac.querySelector('.avatar-bulb');
+      if (on && !bulb) {
+        bulb = document.createElement('span');
+        bulb.className = 'avatar-bulb';
+        bulb.title = (typeof t === 'function') ? t('lobby.verifiedAccount', 'Compte vérifié') : 'Compte vérifié';
+        ac.appendChild(bulb);
+      } else if (!on && bulb) {
+        bulb.remove();
+      }
+    }
 
     let data = null;
     try { data = await (await fetch('/api/me', { headers: { Accept: 'application/json' } })).json(); }
@@ -174,7 +181,7 @@
         // Pseudo figé par le compte : champ verrouillé + lien vers le profil.
         if (nameInput) { nameInput.value = data.user.pseudo; nameInput.readOnly = true; nameInput.classList.add('locked'); }
         if (editLink) editLink.hidden = false;
-        if (vb) vb.hidden = false;
+        setHomeVerifiedBulb(true);
       } else {
         // 1ère connexion : écran obligatoire « Choisis ton pseudo ».
         if (window.PseudoUI) PseudoUI.openGate(() => window.location.reload());
@@ -191,7 +198,7 @@
       if (userBox) userBox.hidden = true;
       if (nameInput) { nameInput.readOnly = false; nameInput.classList.remove('locked'); }
       if (editLink) editLink.hidden = true;
-      if (vb) vb.hidden = true;
+      setHomeVerifiedBulb(false);
       if (userMenu) { userMenu.hidden = true; userMenu.innerHTML = ''; }
     }
   }

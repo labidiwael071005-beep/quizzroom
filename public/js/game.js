@@ -219,9 +219,12 @@ function renderAvatarsPanel(players) {
     return `
       <div class="av-player-slot ${isMe ? 'me' : ''}" id="av-slot-${sanitizeId(p.name)}">
         ${reportBtn}
-        <div class="av-player-icon thinking" id="av-icon-${sanitizeId(p.name)}"
-             style="${getAvatarStyle(av)};${ring}">
-          ${escapeHtml(av.emoji)}
+        <div class="avatar-wrap">
+          <div class="av-player-icon thinking" id="av-icon-${sanitizeId(p.name)}"
+               style="${getAvatarStyle(av)};${ring}">
+            ${escapeHtml(av.emoji)}
+          </div>
+          ${p.verified ? `<span class="avatar-bulb avatar-bulb--lg" title="${escapeHtml(t('lobby.verifiedAccount', 'Compte vérifié'))}"></span>` : ''}
         </div>
         <div class="av-player-name">${isMe ? '★ ' : ''}${escapeHtml(p.label || p.name)}</div>
         <div class="av-player-status thinking" id="av-status-${sanitizeId(p.name)}">${escapeHtml(avStatusLabel('thinking'))}</div>

@@ -50,9 +50,10 @@ async function initProfile() {
   const gEl = document.getElementById('p-google');
   if (gEl) gEl.textContent = _tr('profile.googleAccount', 'Compte Google') + ' : ' + (u.displayName || '—');
   const av = document.getElementById('p-avatar');
+  const bulb = document.getElementById('p-bulb');
   if (u.avatarUrl) { av.src = u.avatarUrl; av.alt = u.pseudo || u.displayName || ''; av.hidden = false; }
-  const vb = document.getElementById('p-verified');
-  if (vb) vb.title = _tr('lobby.verifiedAccount', 'Compte vérifié');
+  // Ampoule « compte vérifié » sur l'avatar (le profil = compte connecté).
+  if (bulb) { bulb.title = _tr('lobby.verifiedAccount', 'Compte vérifié'); bulb.hidden = false; }
 
   // Section « Modifier mon pseudo ».
   const pInput = document.getElementById('edit-pseudo-input');

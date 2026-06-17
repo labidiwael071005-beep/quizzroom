@@ -296,7 +296,7 @@ socket.on('players_update', ({ players, teams: teamsArr, hostName }) => {
   // un flash de la liste quand l'event arrive juste après un changement de
   // réglage (le serveur rediffuse les joueurs même s'ils sont identiques).
   const sig = JSON.stringify((currentPlayers || []).map(p =>
-    [p.name, p.teamId, p.inLobby, p.verified, p.avatar && p.avatar.emoji, p.avatar && p.avatar.colorIdx]
+    [p.name, p.label, p.teamId, p.inLobby, p.verified, p.avatar && p.avatar.emoji, p.avatar && p.avatar.colorIdx]
   )) + '|' + currentHostName;
   if (sig !== _playersSig) { _playersSig = sig; updatePlayers(currentPlayers); }
   if (teamsArr) renderTeams(teamsArr);
@@ -429,9 +429,12 @@ function updatePlayers(players) {
       : '';
     return `
       <div class="player-item ${isWaiting ? 'is-waiting' : ''}">
-        <span class="av-inline av-sm" style="${getAvatarStyle(av)}">${escapeHtml(av.emoji)}</span>
+        <span class="avatar-wrap">
+          <span class="av-inline av-sm" style="${getAvatarStyle(av)}">${escapeHtml(av.emoji)}</span>
+          ${p.verified ? `<span class="avatar-bulb" title="${escapeHtml(t('lobby.verifiedAccount', 'Compte vérifié'))}"></span><span class="sr-only">${escapeHtml(t('lobby.verifiedAccount', 'Compte vérifié'))}</span>` : ''}
+        </span>
         <span class="player-name">
-          <span class="player-name-main">${escapeHtml(p.label || p.name)}${p.verified ? `<i class="ti ti-shield-check player-verified" title="${escapeHtml(t('lobby.verifiedAccount', 'Compte vérifié'))}" aria-label="${escapeHtml(t('lobby.verifiedAccount', 'Compte vérifié'))}"></i>` : ''}</span>
+          <span class="player-name-main">${escapeHtml(p.label || p.name)}</span>
           ${isMe ? `<span class="player-you">${escapeHtml(t('lobby.you', '(toi)'))}</span>` : ''}
           ${teamBadge}
           ${isWaiting ? `<span class="player-waiting-label">${escapeHtml(t('lobby.player.waiting', '⏳ En attente du joueur'))}</span>` : ''}

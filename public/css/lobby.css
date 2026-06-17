@@ -103,7 +103,6 @@ body.lobby{ margin:0; background:var(--bg-3); font-family:'Fredoka',system-ui,sa
   overflow-wrap:anywhere;
 }
 .player-name-main{ display:inline-flex; align-items:center; gap:4px; justify-content:center; flex-wrap:wrap; }
-.player-verified{ color:var(--logo-gold); font-size:14px; line-height:1; flex-shrink:0; }
 .player-you{ font-size:11px; font-weight:600; color:var(--accent); }
 .player-waiting-label{ font-size:10px; font-style:italic; color:var(--ink-soft); }
 .player-item.is-waiting .av-inline{ opacity:.5; filter:grayscale(.7); }

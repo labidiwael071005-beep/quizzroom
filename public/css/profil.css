@@ -18,8 +18,9 @@
 .profil-avatar{ width:64px; height:64px; border-radius:50%; object-fit:cover; border:3px solid var(--logo-gold); background:#eee; flex-shrink:0; }
 .profil-identity-info{ flex:1; min-width:0; }
 .profil-name{ display:flex; align-items:center; gap:8px; font-size:20px; font-weight:700; color:var(--ink); }
-.profil-name .verified-badge{ color:var(--logo-gold); display:inline-flex; }
 .profil-google{ font-size:12.5px; color:var(--ink-soft); margin-top:3px; }
+/* L'avatar du profil porte l'ampoule « vérifié » → un peu de place autour */
+.profil-identity .avatar-wrap{ flex-shrink:0; }
 .profil-since, .profil-lang{ font-size:13px; color:var(--ink-soft); margin-top:3px; }
 .profil-logout{ flex-shrink:0; }
 
