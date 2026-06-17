@@ -1048,7 +1048,7 @@ const rooms = {};
 function generateCode() {
   const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
   const bytes = crypto.randomBytes(6);
-  let code = 'QR-';
+  let code = '';
   for (let i = 0; i < 6; i++) code += chars[bytes[i] % chars.length];
   if (rooms[code]) return generateCode();
   return code;
@@ -1057,8 +1057,10 @@ function generateCode() {
 // ── Validation des entrées socket (F3) ────────────────────────
 const CHAT_MAX = 200;
 
+// Code de salon : exactement 6 caractères de l'alphabet sûr (sans préfixe).
+// Le préfixe « QR- » historique n'est plus accepté.
 function validRoomCode(s) {
-  return typeof s === 'string' && /^QR-[A-Z2-9]{6}$/.test(s);
+  return typeof s === 'string' && /^[A-Z2-9]{6}$/.test(s);
 }
 function validAnswerIndex(i) {
   return Number.isInteger(i) && i >= 0 && i <= 10;
@@ -1894,6 +1896,8 @@ io.on('connection', (socket) => {
   });
 
   socket.on('join_room', ({ code, playerName, avatar }) => {
+    // Normalisation du code saisi (le reste du flux utilise la forme canonique).
+    code = typeof code === 'string' ? code.trim().toUpperCase() : code;
     if (!validRoomCode(code)) return socket.emit('join_error', 'Code invalide.');
     const gu = socketUser(socket);
     if (gu && gu.pseudo) playerName = gu.pseudo;   // pseudo de compte figé

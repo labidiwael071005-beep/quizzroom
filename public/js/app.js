@@ -83,14 +83,12 @@ function createRoom() {
 }
 
 // ── Rejoindre une partie ──────────────────────────────────────
-// Normalisation live de l'input code : uppercase, strip "QR-" éventuel, retire
-// les caractères invalides, limite à 6 chars. L'utilisateur peut donc taper juste
-// "abcdef" ou coller "QR-ABCDEF" — on s'occupe du reste.
+// Normalisation live de l'input code : uppercase, ne garde que l'alphabet sûr
+// (A-Z, 2-9), limite à 6 chars. Plus de préfixe « QR- » : un code = 6 caractères.
 function normalizeCodeInput(raw) {
   return (raw || '')
     .toUpperCase()
-    .replace(/^QR-?/, '')
-    .replace(/[^A-Z0-9]/g, '')
+    .replace(/[^A-Z2-9]/g, '')
     .slice(0, 6);
 }
 
@@ -109,10 +107,9 @@ function joinRoom() {
   const nameEl = document.getElementById('create-name') || document.getElementById('join-name');
   const name = (nameEl ? nameEl.value : '').trim();
   const raw  = document.getElementById('join-code').value;
-  const part = normalizeCodeInput(raw);
+  const code = normalizeCodeInput(raw);
   if (!name) { showToast('⚠️ ' + t('error.pseudo'), 'error'); return; }
-  if (!part) { showToast('⚠️ ' + t('error.code'), 'error'); return; }
-  const code = 'QR-' + part;
+  if (code.length !== 6) { showToast('⚠️ ' + t('error.code'), 'error'); return; }
 
   const avatar = getAvatar('create-avatar-picker');
   _pendingJoin = { name, avatar };

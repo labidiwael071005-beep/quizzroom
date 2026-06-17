@@ -211,6 +211,7 @@
   "page.game.title": "QuizzRoom — En jeu",
   "home.slogan": "Défie tes amis sous les projecteurs",
   "home.or": "ou",
+  "home.codePlaceholder": "Code à 6 caractères",
   "auth.separator": "connexion",
   "auth.signInWithGoogle": "Se connecter avec Google",
   "auth.optional": "Optionnel — pour garder vos stats entre appareils",

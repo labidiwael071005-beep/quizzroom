@@ -211,6 +211,7 @@
   "page.game.title": "QuizzRoom — In game",
   "home.slogan": "Challenge your friends in the spotlight",
   "home.or": "or",
+  "home.codePlaceholder": "6-character code",
   "auth.separator": "sign in",
   "auth.signInWithGoogle": "Sign in with Google",
   "auth.optional": "Optional — to keep your stats across devices",

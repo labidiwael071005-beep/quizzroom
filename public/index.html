@@ -54,7 +54,8 @@
       <label class="home-label" for="join-code" data-i18n="modal.join.code">Code d'invitation</label>
       <div class="home-join">
         <input type="text" id="join-code" class="home-input home-code"
-               data-i18n-placeholder="modal.join.code.ph" placeholder="XXXXXX" maxlength="9"
+               data-i18n-placeholder="home.codePlaceholder" placeholder="Code à 6 caractères" maxlength="6"
+               pattern="[A-Za-z2-9]{6}" inputmode="latin"
                autocapitalize="characters" autocomplete="off" spellcheck="false">
         <button class="btn btn--gold btn--lg" onclick="joinRoom()" data-i18n="hero.join">Rejoindre</button>
       </div>

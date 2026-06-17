@@ -211,6 +211,7 @@
   "page.game.title": "QuizzRoom — En juego",
   "home.slogan": "Reta a tus amigos bajo los focos",
   "home.or": "o",
+  "home.codePlaceholder": "Código de 6 caracteres",
   "auth.separator": "iniciar sesión",
   "auth.signInWithGoogle": "Iniciar sesión con Google",
   "auth.optional": "Opcional — para guardar tus estadísticas entre dispositivos",
