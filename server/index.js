@@ -936,6 +936,7 @@ app.get('/api/admin/stats/overview', adminAuth, async (req, res) => {
     const [
       questions, questionsApproved, gameSessions, reportsOpen, reportsTotal,
       trByLang, byType, byDifficulty, byTheme, recentSessions, recentReports,
+      historyTotal, historyDistinct,
     ] = await Promise.all([
       prisma.question.count(),
       prisma.question.count({ where: { status: 'approved' } }),
@@ -954,7 +955,11 @@ app.get('/api/admin/stats/overview', adminAuth, async (req, res) => {
         orderBy: { createdAt: 'desc' }, take: 5,
         include: { question: { select: { question: true, translations: { select: { language: true, text: true } } } } },
       }),
+      // Anti-répétition niveau 2 : volume d'historique + couverture du pool.
+      prisma.userQuestionHistory.count(),
+      prisma.userQuestionHistory.groupBy({ by: ['questionId'], _count: { _all: true } }),
     ]);
+    const historyCoverage = Array.isArray(historyDistinct) ? historyDistinct.length : 0;
 
     const translationsByLang = { fr: 0, en: 0, es: 0 };
     for (const r of trByLang) if (translationsByLang[r.language] !== undefined) translationsByLang[r.language] = r._count._all;
@@ -977,7 +982,7 @@ app.get('/api/admin/stats/overview', adminAuth, async (req, res) => {
 
     res.json({
       ok: true,
-      totals: { questions, questionsApproved, translationsByLang, gameSessions, reportsOpen, reportsTotal },
+      totals: { questions, questionsApproved, translationsByLang, gameSessions, reportsOpen, reportsTotal, historyTotal, historyCoverage },
       breakdown: {
         byType:       mapCount(byType, 'type'),
         byDifficulty: mapCount(byDifficulty, 'difficulty'),

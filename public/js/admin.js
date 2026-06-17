@@ -154,6 +154,11 @@ async function loadOverview() {
     document.getElementById('kpi-sessions').textContent      = totals.gameSessions;
     document.getElementById('kpi-reports-open').textContent  = totals.reportsOpen;
     document.getElementById('kpi-reports-total').textContent = totals.reportsTotal;
+    // Anti-répétition niveau 2 : volume d'historique + couverture du pool.
+    const histEl = document.getElementById('kpi-history-total');
+    if (histEl) histEl.textContent = totals.historyTotal ?? '—';
+    const histSub = document.getElementById('kpi-history-sub');
+    if (histSub) histSub.textContent = `${totals.historyCoverage ?? 0} questions vues (couverture)`;
 
     document.getElementById('bars-type').innerHTML       = barsHtml(breakdown.byType, 'type');
     document.getElementById('bars-difficulty').innerHTML = barsHtml(breakdown.byDifficulty, 'difficulty');
