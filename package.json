@@ -17,6 +17,7 @@
     "import:originals": "node scripts/import-originals.js",
     "stamp:lots": "node scripts/stamp-lots.js",
     "seed:generated": "node scripts/seed-generated.js",
+    "check:questions": "node scripts/check-questions.js",
     "postinstall": "prisma generate"
   },
   "keywords": [],
