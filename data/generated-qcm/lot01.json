@@ -1,0 +1,1562 @@
+[
+  {
+    "sourceRef": "2549e886cb5b02a2",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel empereur romain a fait construire un mur célèbre dans le nord de l'Angleterre ?",
+        "options": [
+          "Néron",
+          "Auguste",
+          "Hadrien",
+          "Trajan"
+        ],
+        "explanation": "Le mur d'Hadrien, érigé vers 122 apr. J.-C., marquait la limite nord-ouest de l'Empire romain sur près de 118 km."
+      },
+      "en": {
+        "text": "Which Roman emperor had a famous wall built in northern England?",
+        "options": [
+          "Nero",
+          "Augustus",
+          "Hadrian",
+          "Trajan"
+        ],
+        "explanation": "Hadrian's Wall, built around 122 AD, marked the north-western frontier of the Roman Empire for nearly 118 km."
+      },
+      "es": {
+        "text": "¿Qué emperador romano mandó construir un famoso muro en el norte de Inglaterra?",
+        "options": [
+          "Nerón",
+          "Augusto",
+          "Adriano",
+          "Trajano"
+        ],
+        "explanation": "El Muro de Adriano, erigido hacia el 122 d. C., marcaba la frontera noroeste del Imperio romano a lo largo de casi 118 km."
+      }
+    }
+  },
+  {
+    "sourceRef": "daa9c1e3c3500171",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle civilisation a construit la cité de Machu Picchu ?",
+        "options": [
+          "Les Aztèques",
+          "Les Incas",
+          "Les Mayas",
+          "Les Olmèques"
+        ],
+        "explanation": "Perchée à 2 430 m dans les Andes péruviennes, Machu Picchu fut bâtie vers 1450 sous l'empereur inca Pachacutec."
+      },
+      "en": {
+        "text": "Which civilization built the city of Machu Picchu?",
+        "options": [
+          "The Aztecs",
+          "The Incas",
+          "The Maya",
+          "The Olmecs"
+        ],
+        "explanation": "Perched at 2,430 m in the Peruvian Andes, Machu Picchu was built around 1450 under the Inca emperor Pachacuti."
+      },
+      "es": {
+        "text": "¿Qué civilización construyó la ciudad de Machu Picchu?",
+        "options": [
+          "Los aztecas",
+          "Los incas",
+          "Los mayas",
+          "Los olmecas"
+        ],
+        "explanation": "Encaramada a 2430 m en los Andes peruanos, Machu Picchu se construyó hacia 1450 bajo el emperador inca Pachacútec."
+      }
+    }
+  },
+  {
+    "sourceRef": "2ca65f471035b6f9",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel traité, signé en 1648, mit fin à la guerre de Trente Ans ?",
+        "options": [
+          "Le traité de Tordesillas",
+          "La paix d'Augsbourg",
+          "Le traité d'Utrecht",
+          "Les traités de Westphalie"
+        ],
+        "explanation": "La paix de Westphalie posa les bases de la souveraineté des États modernes en Europe."
+      },
+      "en": {
+        "text": "Which treaty, signed in 1648, ended the Thirty Years' War?",
+        "options": [
+          "The Treaty of Tordesillas",
+          "The Peace of Augsburg",
+          "The Treaty of Utrecht",
+          "The Peace of Westphalia"
+        ],
+        "explanation": "The Peace of Westphalia laid the foundations of modern state sovereignty in Europe."
+      },
+      "es": {
+        "text": "¿Qué tratado, firmado en 1648, puso fin a la guerra de los Treinta Años?",
+        "options": [
+          "El Tratado de Tordesillas",
+          "La Paz de Augsburgo",
+          "El Tratado de Utrecht",
+          "La Paz de Westfalia"
+        ],
+        "explanation": "La Paz de Westfalia sentó las bases de la soberanía de los Estados modernos en Europa."
+      }
+    }
+  },
+  {
+    "sourceRef": "d1220d1b266c27fb",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Qui fut le premier empereur à unifier la Chine, en 221 av. J.-C. ?",
+        "options": [
+          "Kubilai Khan",
+          "Qin Shi Huang",
+          "Sun Yat-sen",
+          "Wu Zetian"
+        ],
+        "explanation": "Qin Shi Huang unifia la Chine et se fit enterrer avec la célèbre armée de terre cuite de Xi'an."
+      },
+      "en": {
+        "text": "Who was the first emperor to unify China, in 221 BC?",
+        "options": [
+          "Kublai Khan",
+          "Qin Shi Huang",
+          "Sun Yat-sen",
+          "Wu Zetian"
+        ],
+        "explanation": "Qin Shi Huang unified China and was buried with the famous Terracotta Army of Xi'an."
+      },
+      "es": {
+        "text": "¿Quién fue el primer emperador que unificó China, en 221 a. C.?",
+        "options": [
+          "Kublai Kan",
+          "Qin Shi Huang",
+          "Sun Yat-sen",
+          "Wu Zetian"
+        ],
+        "explanation": "Qin Shi Huang unificó China y fue enterrado con el famoso Ejército de Terracota de Xi'an."
+      }
+    }
+  },
+  {
+    "sourceRef": "753fa96d53f755e5",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel est l'élément chimique le plus abondant dans l'univers ?",
+        "options": [
+          "L'oxygène",
+          "Le carbone",
+          "L'hydrogène",
+          "L'hélium"
+        ],
+        "explanation": "L'hydrogène représente environ 75 % de la matière ordinaire de l'univers."
+      },
+      "en": {
+        "text": "Which chemical element is the most abundant in the universe?",
+        "options": [
+          "Oxygen",
+          "Carbon",
+          "Hydrogen",
+          "Helium"
+        ],
+        "explanation": "Hydrogen makes up about 75% of the ordinary matter in the universe."
+      },
+      "es": {
+        "text": "¿Cuál es el elemento químico más abundante del universo?",
+        "options": [
+          "El oxígeno",
+          "El carbono",
+          "El hidrógeno",
+          "El helio"
+        ],
+        "explanation": "El hidrógeno constituye alrededor del 75 % de la materia ordinaria del universo."
+      }
+    }
+  },
+  {
+    "sourceRef": "d8595da357f9d6b2",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel physicien a énoncé le principe d'incertitude en mécanique quantique ?",
+        "options": [
+          "Werner Heisenberg",
+          "Niels Bohr",
+          "Erwin Schrödinger",
+          "Max Planck"
+        ],
+        "explanation": "Énoncé en 1927, ce principe affirme qu'on ne peut connaître simultanément et précisément la position et la vitesse d'une particule."
+      },
+      "en": {
+        "text": "Which physicist stated the uncertainty principle in quantum mechanics?",
+        "options": [
+          "Werner Heisenberg",
+          "Niels Bohr",
+          "Erwin Schrödinger",
+          "Max Planck"
+        ],
+        "explanation": "Stated in 1927, this principle says you cannot precisely know both a particle's position and momentum at once."
+      },
+      "es": {
+        "text": "¿Qué físico enunció el principio de incertidumbre en la mecánica cuántica?",
+        "options": [
+          "Werner Heisenberg",
+          "Niels Bohr",
+          "Erwin Schrödinger",
+          "Max Planck"
+        ],
+        "explanation": "Enunciado en 1927, este principio afirma que no se puede conocer con precisión a la vez la posición y la velocidad de una partícula."
+      }
+    }
+  },
+  {
+    "sourceRef": "cf580ebeedd4d97c",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de paires de chromosomes possède une cellule humaine normale ?",
+        "options": [
+          "46",
+          "24",
+          "22",
+          "23"
+        ],
+        "explanation": "Une cellule humaine possède 23 paires, soit 46 chromosomes au total."
+      },
+      "en": {
+        "text": "How many pairs of chromosomes does a normal human cell have?",
+        "options": [
+          "46",
+          "24",
+          "22",
+          "23"
+        ],
+        "explanation": "A human cell has 23 pairs, i.e. 46 chromosomes in total."
+      },
+      "es": {
+        "text": "¿Cuántos pares de cromosomas tiene una célula humana normal?",
+        "options": [
+          "46",
+          "24",
+          "22",
+          "23"
+        ],
+        "explanation": "Una célula humana tiene 23 pares, es decir, 46 cromosomas en total."
+      }
+    }
+  },
+  {
+    "sourceRef": "d6b146470a5fa2d4",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle particule élémentaire fut découverte au CERN en 2012 ?",
+        "options": [
+          "Le quark top",
+          "Le neutrino",
+          "Le boson de Higgs",
+          "Le muon"
+        ],
+        "explanation": "Le boson de Higgs, surnommé « particule de Dieu », explique l'origine de la masse des particules."
+      },
+      "en": {
+        "text": "Which elementary particle was discovered at CERN in 2012?",
+        "options": [
+          "The top quark",
+          "The neutrino",
+          "The Higgs boson",
+          "The muon"
+        ],
+        "explanation": "The Higgs boson, nicknamed the 'God particle', explains the origin of particle mass."
+      },
+      "es": {
+        "text": "¿Qué partícula elemental se descubrió en el CERN en 2012?",
+        "options": [
+          "El quark top",
+          "El neutrino",
+          "El bosón de Higgs",
+          "El muón"
+        ],
+        "explanation": "El bosón de Higgs, apodado la «partícula de Dios», explica el origen de la masa de las partículas."
+      }
+    }
+  },
+  {
+    "sourceRef": "e2549dd9d8d53096",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle chaîne de montagnes marque traditionnellement la frontière entre l'Europe et l'Asie ?",
+        "options": [
+          "Les Alpes",
+          "L'Oural",
+          "Le Caucase",
+          "Les Carpates"
+        ],
+        "explanation": "L'Oural s'étire sur plus de 2 500 km, formant la limite naturelle classique entre l'Europe et l'Asie."
+      },
+      "en": {
+        "text": "Which mountain range traditionally marks the boundary between Europe and Asia?",
+        "options": [
+          "The Alps",
+          "The Urals",
+          "The Caucasus",
+          "The Carpathians"
+        ],
+        "explanation": "The Urals stretch over 2,500 km, forming the classic natural boundary between Europe and Asia."
+      },
+      "es": {
+        "text": "¿Qué cordillera marca tradicionalmente la frontera entre Europa y Asia?",
+        "options": [
+          "Los Alpes",
+          "Los Urales",
+          "El Cáucaso",
+          "Los Cárpatos"
+        ],
+        "explanation": "Los Urales se extienden más de 2500 km y forman la frontera natural clásica entre Europa y Asia."
+      }
+    }
+  },
+  {
+    "sourceRef": "c760dfc6af46c40e",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus grand désert chaud du monde ?",
+        "options": [
+          "Le Gobi",
+          "Le Kalahari",
+          "L'Atacama",
+          "Le Sahara"
+        ],
+        "explanation": "Le Sahara couvre environ 9 millions de km², soit presque la superficie des États-Unis."
+      },
+      "en": {
+        "text": "Which is the largest hot desert in the world?",
+        "options": [
+          "The Gobi",
+          "The Kalahari",
+          "The Atacama",
+          "The Sahara"
+        ],
+        "explanation": "The Sahara covers about 9 million km², nearly the size of the United States."
+      },
+      "es": {
+        "text": "¿Cuál es el mayor desierto cálido del mundo?",
+        "options": [
+          "El Gobi",
+          "El Kalahari",
+          "El Atacama",
+          "El Sahara"
+        ],
+        "explanation": "El Sahara cubre unos 9 millones de km², casi la superficie de Estados Unidos."
+      }
+    }
+  },
+  {
+    "sourceRef": "cf47165672abb86a",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel pays possède le plus grand nombre de fuseaux horaires ?",
+        "options": [
+          "La Russie",
+          "Les États-Unis",
+          "La France",
+          "La Chine"
+        ],
+        "explanation": "Grâce à ses territoires d'outre-mer, la France couvre 12 fuseaux horaires, plus qu'aucun autre pays."
+      },
+      "en": {
+        "text": "Which country has the most time zones?",
+        "options": [
+          "Russia",
+          "The United States",
+          "France",
+          "China"
+        ],
+        "explanation": "Thanks to its overseas territories, France spans 12 time zones, more than any other country."
+      },
+      "es": {
+        "text": "¿Qué país tiene el mayor número de husos horarios?",
+        "options": [
+          "Rusia",
+          "Estados Unidos",
+          "Francia",
+          "China"
+        ],
+        "explanation": "Gracias a sus territorios de ultramar, Francia abarca 12 husos horarios, más que cualquier otro país."
+      }
+    }
+  },
+  {
+    "sourceRef": "350fc74614baa950",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien de joueurs composent une équipe de football sur le terrain ?",
+        "options": [
+          "11",
+          "9",
+          "10",
+          "12"
+        ],
+        "explanation": "Onze joueurs par équipe, dont un gardien de but."
+      },
+      "en": {
+        "text": "How many players make up a football (soccer) team on the pitch?",
+        "options": [
+          "11",
+          "9",
+          "10",
+          "12"
+        ],
+        "explanation": "Eleven players per team, including one goalkeeper."
+      },
+      "es": {
+        "text": "¿Cuántos jugadores forman un equipo de fútbol en el campo?",
+        "options": [
+          "11",
+          "9",
+          "10",
+          "12"
+        ],
+        "explanation": "Once jugadores por equipo, incluido un portero."
+      }
+    }
+  },
+  {
+    "sourceRef": "1ca2bbbf5bec36dc",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Tous les combien d'années se tiennent les Jeux olympiques d'été ?",
+        "options": [
+          "Tous les 2 ans",
+          "Tous les 4 ans",
+          "Tous les 5 ans",
+          "Tous les 3 ans"
+        ],
+        "explanation": "Les JO d'été ont lieu tous les quatre ans ; cet intervalle s'appelle une olympiade."
+      },
+      "en": {
+        "text": "How often are the Summer Olympic Games held?",
+        "options": [
+          "Every 2 years",
+          "Every 4 years",
+          "Every 5 years",
+          "Every 3 years"
+        ],
+        "explanation": "The Summer Olympics take place every four years; this interval is called an Olympiad."
+      },
+      "es": {
+        "text": "¿Cada cuántos años se celebran los Juegos Olímpicos de verano?",
+        "options": [
+          "Cada 2 años",
+          "Cada 4 años",
+          "Cada 5 años",
+          "Cada 3 años"
+        ],
+        "explanation": "Los JJ. OO. de verano se celebran cada cuatro años; ese intervalo se llama olimpiada."
+      }
+    }
+  },
+  {
+    "sourceRef": "0d686ee0846b26bc",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport réalise-t-on un « Grand Chelem » entre Melbourne, Paris, Londres et New York ?",
+        "options": [
+          "Le golf",
+          "Le rugby",
+          "Le tennis",
+          "Le cyclisme"
+        ],
+        "explanation": "Les quatre tournois du Grand Chelem sont l'Open d'Australie, Roland-Garros, Wimbledon et l'US Open."
+      },
+      "en": {
+        "text": "In which sport is a 'Grand Slam' won across Melbourne, Paris, London and New York?",
+        "options": [
+          "Golf",
+          "Rugby",
+          "Tennis",
+          "Cycling"
+        ],
+        "explanation": "The four Grand Slam tournaments are the Australian Open, Roland-Garros, Wimbledon and the US Open."
+      },
+      "es": {
+        "text": "¿En qué deporte se logra un «Grand Slam» entre Melbourne, París, Londres y Nueva York?",
+        "options": [
+          "El golf",
+          "El rugby",
+          "El tenis",
+          "El ciclismo"
+        ],
+        "explanation": "Los cuatro torneos de Grand Slam son el Abierto de Australia, Roland Garros, Wimbledon y el US Open."
+      }
+    }
+  },
+  {
+    "sourceRef": "c31dbb6cbec7b974",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel pays a remporté la toute première Coupe du monde de football, en 1930 ?",
+        "options": [
+          "Le Brésil",
+          "L'Argentine",
+          "L'Italie",
+          "L'Uruguay"
+        ],
+        "explanation": "L'Uruguay, pays hôte, battit l'Argentine 4-2 en finale à Montevideo."
+      },
+      "en": {
+        "text": "Which country won the very first football World Cup, in 1930?",
+        "options": [
+          "Brazil",
+          "Argentina",
+          "Italy",
+          "Uruguay"
+        ],
+        "explanation": "Host nation Uruguay beat Argentina 4-2 in the final in Montevideo."
+      },
+      "es": {
+        "text": "¿Qué país ganó la primera Copa del Mundo de fútbol, en 1930?",
+        "options": [
+          "Brasil",
+          "Argentina",
+          "Italia",
+          "Uruguay"
+        ],
+        "explanation": "Uruguay, país anfitrión, venció a Argentina 4-2 en la final en Montevideo."
+      }
+    }
+  },
+  {
+    "sourceRef": "b080980a859a03ee",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Qui a peint la Joconde ?",
+        "options": [
+          "Michel-Ange",
+          "Léonard de Vinci",
+          "Raphaël",
+          "Botticelli"
+        ],
+        "explanation": "Peinte au début du XVIe siècle, la Joconde est exposée au musée du Louvre à Paris."
+      },
+      "en": {
+        "text": "Who painted the Mona Lisa?",
+        "options": [
+          "Michelangelo",
+          "Leonardo da Vinci",
+          "Raphael",
+          "Botticelli"
+        ],
+        "explanation": "Painted in the early 16th century, the Mona Lisa hangs in the Louvre in Paris."
+      },
+      "es": {
+        "text": "¿Quién pintó la Mona Lisa?",
+        "options": [
+          "Miguel Ángel",
+          "Leonardo da Vinci",
+          "Rafael",
+          "Botticelli"
+        ],
+        "explanation": "Pintada a principios del siglo XVI, la Mona Lisa se expone en el Louvre de París."
+      }
+    }
+  },
+  {
+    "sourceRef": "10521b48baa7ce86",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre néerlandais s'est mutilé une partie de l'oreille ?",
+        "options": [
+          "Rembrandt",
+          "Vermeer",
+          "Mondrian",
+          "Vincent van Gogh"
+        ],
+        "explanation": "Van Gogh se coupa une partie de l'oreille en 1888 à Arles, après une dispute avec Paul Gauguin."
+      },
+      "en": {
+        "text": "Which Dutch painter mutilated part of his own ear?",
+        "options": [
+          "Rembrandt",
+          "Vermeer",
+          "Mondrian",
+          "Vincent van Gogh"
+        ],
+        "explanation": "Van Gogh cut off part of his ear in 1888 in Arles, after an argument with Paul Gauguin."
+      },
+      "es": {
+        "text": "¿Qué pintor neerlandés se mutiló parte de una oreja?",
+        "options": [
+          "Rembrandt",
+          "Vermeer",
+          "Mondrian",
+          "Vincent van Gogh"
+        ],
+        "explanation": "Van Gogh se cortó parte de la oreja en 1888 en Arlés, tras una discusión con Paul Gauguin."
+      }
+    }
+  },
+  {
+    "sourceRef": "a753709436f118eb",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "À quel mouvement artistique appartient le tableau « Impression, soleil levant » de Monet ?",
+        "options": [
+          "L'impressionnisme",
+          "Le cubisme",
+          "Le surréalisme",
+          "Le romantisme"
+        ],
+        "explanation": "C'est ce tableau de 1872 qui donna, par dérision, son nom au mouvement impressionniste."
+      },
+      "en": {
+        "text": "To which art movement does Monet's 'Impression, Sunrise' belong?",
+        "options": [
+          "Impressionism",
+          "Cubism",
+          "Surrealism",
+          "Romanticism"
+        ],
+        "explanation": "It was this 1872 painting that, mockingly, gave the Impressionist movement its name."
+      },
+      "es": {
+        "text": "¿A qué movimiento artístico pertenece «Impresión, sol naciente» de Monet?",
+        "options": [
+          "El impresionismo",
+          "El cubismo",
+          "El surrealismo",
+          "El romanticismo"
+        ],
+        "explanation": "Fue este cuadro de 1872 el que, con burla, dio nombre al movimiento impresionista."
+      }
+    }
+  },
+  {
+    "sourceRef": "413135db6d80ba4e",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel sculpteur français a réalisé « Le Penseur » ?",
+        "options": [
+          "Camille Claudel",
+          "Aristide Maillol",
+          "Auguste Rodin",
+          "Antoine Bourdelle"
+        ],
+        "explanation": "Conçu vers 1880, « Le Penseur » devait à l'origine représenter Dante méditant devant les portes de l'Enfer."
+      },
+      "en": {
+        "text": "Which French sculptor created 'The Thinker'?",
+        "options": [
+          "Camille Claudel",
+          "Aristide Maillol",
+          "Auguste Rodin",
+          "Antoine Bourdelle"
+        ],
+        "explanation": "Conceived around 1880, 'The Thinker' was originally meant to depict Dante pondering before the Gates of Hell."
+      },
+      "es": {
+        "text": "¿Qué escultor francés creó «El pensador»?",
+        "options": [
+          "Camille Claudel",
+          "Aristide Maillol",
+          "Auguste Rodin",
+          "Antoine Bourdelle"
+        ],
+        "explanation": "Concebido hacia 1880, «El pensador» debía representar en origen a Dante meditando ante las puertas del Infierno."
+      }
+    }
+  },
+  {
+    "sourceRef": "1a7d82e13cf05b77",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel film de 1997 réalisé par James Cameron a longtemps détenu le record de recettes ?",
+        "options": [
+          "Avatar",
+          "Titanic",
+          "Jurassic Park",
+          "Star Wars"
+        ],
+        "explanation": "Titanic resta le film le plus rentable de l'histoire jusqu'à ce qu'Avatar, du même réalisateur, le détrône en 2010."
+      },
+      "en": {
+        "text": "Which 1997 James Cameron film long held the box-office record?",
+        "options": [
+          "Avatar",
+          "Titanic",
+          "Jurassic Park",
+          "Star Wars"
+        ],
+        "explanation": "Titanic remained the highest-grossing film ever until Avatar, by the same director, overtook it in 2010."
+      },
+      "es": {
+        "text": "¿Qué película de 1997 dirigida por James Cameron ostentó largo tiempo el récord de taquilla?",
+        "options": [
+          "Avatar",
+          "Titanic",
+          "Jurassic Park",
+          "Star Wars"
+        ],
+        "explanation": "Titanic siguió siendo la película más taquillera hasta que Avatar, del mismo director, la superó en 2010."
+      }
+    }
+  },
+  {
+    "sourceRef": "799928b8a4f59872",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel studio a créé « Toy Story », premier long-métrage entièrement en images de synthèse ?",
+        "options": [
+          "DreamWorks",
+          "Studio Ghibli",
+          "Warner Bros.",
+          "Pixar"
+        ],
+        "explanation": "Sorti en 1995, « Toy Story » de Pixar fut le tout premier long-métrage entièrement animé par ordinateur."
+      },
+      "en": {
+        "text": "Which studio created 'Toy Story', the first fully computer-animated feature film?",
+        "options": [
+          "DreamWorks",
+          "Studio Ghibli",
+          "Warner Bros.",
+          "Pixar"
+        ],
+        "explanation": "Released in 1995, Pixar's 'Toy Story' was the very first fully computer-animated feature film."
+      },
+      "es": {
+        "text": "¿Qué estudio creó «Toy Story», el primer largometraje totalmente por ordenador?",
+        "options": [
+          "DreamWorks",
+          "Studio Ghibli",
+          "Warner Bros.",
+          "Pixar"
+        ],
+        "explanation": "Estrenada en 1995, «Toy Story» de Pixar fue el primer largometraje totalmente animado por ordenador."
+      }
+    }
+  },
+  {
+    "sourceRef": "936fb115e91d261f",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel réalisateur a remporté l'Oscar du meilleur film pour « Parasite » en 2020 ?",
+        "options": [
+          "Bong Joon-ho",
+          "Ang Lee",
+          "Alejandro Iñárritu",
+          "Guillermo del Toro"
+        ],
+        "explanation": "« Parasite » fut le premier film non anglophone à remporter l'Oscar du meilleur film."
+      },
+      "en": {
+        "text": "Which director won the Best Picture Oscar for 'Parasite' in 2020?",
+        "options": [
+          "Bong Joon-ho",
+          "Ang Lee",
+          "Alejandro Iñárritu",
+          "Guillermo del Toro"
+        ],
+        "explanation": "'Parasite' was the first non-English-language film to win the Best Picture Oscar."
+      },
+      "es": {
+        "text": "¿Qué director ganó el Óscar a la mejor película por «Parásitos» en 2020?",
+        "options": [
+          "Bong Joon-ho",
+          "Ang Lee",
+          "Alejandro Iñárritu",
+          "Guillermo del Toro"
+        ],
+        "explanation": "«Parásitos» fue la primera película de habla no inglesa en ganar el Óscar a la mejor película."
+      }
+    }
+  },
+  {
+    "sourceRef": "2192f13fe3f2db4f",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur, devenu sourd, a composé la Neuvième Symphonie et son « Ode à la joie » ?",
+        "options": [
+          "Wolfgang Mozart",
+          "Johann Sebastian Bach",
+          "Ludwig van Beethoven",
+          "Frédéric Chopin"
+        ],
+        "explanation": "Beethoven acheva sa Neuvième Symphonie en 1824 alors qu'il était devenu presque totalement sourd."
+      },
+      "en": {
+        "text": "Which composer, having gone deaf, wrote the Ninth Symphony and its 'Ode to Joy'?",
+        "options": [
+          "Wolfgang Mozart",
+          "Johann Sebastian Bach",
+          "Ludwig van Beethoven",
+          "Frédéric Chopin"
+        ],
+        "explanation": "Beethoven completed his Ninth Symphony in 1824 when he had become almost totally deaf."
+      },
+      "es": {
+        "text": "¿Qué compositor, ya sordo, escribió la Novena Sinfonía y su «Oda a la alegría»?",
+        "options": [
+          "Wolfgang Mozart",
+          "Johann Sebastian Bach",
+          "Ludwig van Beethoven",
+          "Frédéric Chopin"
+        ],
+        "explanation": "Beethoven terminó su Novena Sinfonía en 1824, cuando ya se había quedado casi totalmente sordo."
+      }
+    }
+  },
+  {
+    "sourceRef": "e1f11b14fa0a1a1a",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "De quel pays le groupe ABBA est-il originaire ?",
+        "options": [
+          "La Norvège",
+          "La Suède",
+          "Le Royaume-Uni",
+          "Les Pays-Bas"
+        ],
+        "explanation": "ABBA se fit connaître en remportant l'Eurovision 1974 avec la chanson « Waterloo »."
+      },
+      "en": {
+        "text": "Which country is the band ABBA from?",
+        "options": [
+          "Norway",
+          "Sweden",
+          "The United Kingdom",
+          "The Netherlands"
+        ],
+        "explanation": "ABBA rose to fame by winning the 1974 Eurovision Song Contest with 'Waterloo'."
+      },
+      "es": {
+        "text": "¿De qué país es el grupo ABBA?",
+        "options": [
+          "Noruega",
+          "Suecia",
+          "El Reino Unido",
+          "Países Bajos"
+        ],
+        "explanation": "ABBA saltó a la fama al ganar Eurovisión 1974 con la canción «Waterloo»."
+      }
+    }
+  },
+  {
+    "sourceRef": "4c9f859e1b2bb502",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "De quel instrument Miles Davis, figure majeure du jazz, jouait-il ?",
+        "options": [
+          "Le saxophone",
+          "Le piano",
+          "La contrebasse",
+          "La trompette"
+        ],
+        "explanation": "Son album « Kind of Blue » (1959) est l'un des disques de jazz les plus vendus de tous les temps."
+      },
+      "en": {
+        "text": "Which instrument did jazz legend Miles Davis play?",
+        "options": [
+          "The saxophone",
+          "The piano",
+          "The double bass",
+          "The trumpet"
+        ],
+        "explanation": "His album 'Kind of Blue' (1959) is one of the best-selling jazz records of all time."
+      },
+      "es": {
+        "text": "¿Qué instrumento tocaba la leyenda del jazz Miles Davis?",
+        "options": [
+          "El saxofón",
+          "El piano",
+          "El contrabajo",
+          "La trompeta"
+        ],
+        "explanation": "Su álbum «Kind of Blue» (1959) es uno de los discos de jazz más vendidos de la historia."
+      }
+    }
+  },
+  {
+    "sourceRef": "9ae601bcc919f854",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus grand mammifère vivant sur Terre ?",
+        "options": [
+          "La baleine bleue",
+          "L'éléphant d'Afrique",
+          "Le cachalot",
+          "La girafe"
+        ],
+        "explanation": "La baleine bleue peut dépasser 30 m de long et son cœur pèse autant qu'une petite voiture."
+      },
+      "en": {
+        "text": "What is the largest living mammal on Earth?",
+        "options": [
+          "The blue whale",
+          "The African elephant",
+          "The sperm whale",
+          "The giraffe"
+        ],
+        "explanation": "The blue whale can exceed 30 m in length and its heart weighs as much as a small car."
+      },
+      "es": {
+        "text": "¿Cuál es el mamífero vivo más grande de la Tierra?",
+        "options": [
+          "La ballena azul",
+          "El elefante africano",
+          "El cachalote",
+          "La jirafa"
+        ],
+        "explanation": "La ballena azul puede superar los 30 m de longitud y su corazón pesa tanto como un coche pequeño."
+      }
+    }
+  },
+  {
+    "sourceRef": "81aee67fd37ec862",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel oiseau est incapable de voler mais peut courir à près de 70 km/h ?",
+        "options": [
+          "Le manchot",
+          "Le kiwi",
+          "L'autruche",
+          "Le paon"
+        ],
+        "explanation": "L'autruche est le plus grand oiseau du monde et pond les plus gros œufs."
+      },
+      "en": {
+        "text": "Which bird cannot fly but can run at nearly 70 km/h?",
+        "options": [
+          "The penguin",
+          "The kiwi",
+          "The ostrich",
+          "The peacock"
+        ],
+        "explanation": "The ostrich is the world's largest bird and lays the biggest eggs."
+      },
+      "es": {
+        "text": "¿Qué ave no puede volar pero corre a casi 70 km/h?",
+        "options": [
+          "El pingüino",
+          "El kiwi",
+          "El avestruz",
+          "El pavo real"
+        ],
+        "explanation": "El avestruz es el ave más grande del mundo y pone los huevos más grandes."
+      }
+    }
+  },
+  {
+    "sourceRef": "e813421e42cd23d1",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel est l'organe interne le plus lourd du corps humain ?",
+        "options": [
+          "Le cerveau",
+          "Le foie",
+          "Les poumons",
+          "Le cœur"
+        ],
+        "explanation": "Le foie pèse environ 1,5 kg et assure plus de 500 fonctions vitales."
+      },
+      "en": {
+        "text": "What is the heaviest internal organ in the human body?",
+        "options": [
+          "The brain",
+          "The liver",
+          "The lungs",
+          "The heart"
+        ],
+        "explanation": "The liver weighs about 1.5 kg and performs over 500 vital functions."
+      },
+      "es": {
+        "text": "¿Cuál es el órgano interno más pesado del cuerpo humano?",
+        "options": [
+          "El cerebro",
+          "El hígado",
+          "Los pulmones",
+          "El corazón"
+        ],
+        "explanation": "El hígado pesa alrededor de 1,5 kg y desempeña más de 500 funciones vitales."
+      }
+    }
+  },
+  {
+    "sourceRef": "86b666655670d130",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel arbre est considéré comme le plus haut du monde ?",
+        "options": [
+          "Le baobab",
+          "Le chêne",
+          "Le pin parasol",
+          "Le séquoia à feuilles d'if"
+        ],
+        "explanation": "Le séquoia à feuilles d'if de Californie peut dépasser 115 m de hauteur."
+      },
+      "en": {
+        "text": "Which tree is considered the tallest in the world?",
+        "options": [
+          "The baobab",
+          "The oak",
+          "The stone pine",
+          "The coast redwood"
+        ],
+        "explanation": "The coast redwood of California can exceed 115 m in height."
+      },
+      "es": {
+        "text": "¿Qué árbol se considera el más alto del mundo?",
+        "options": [
+          "El baobab",
+          "El roble",
+          "El pino piñonero",
+          "La secuoya roja"
+        ],
+        "explanation": "La secuoya roja de California puede superar los 115 m de altura."
+      }
+    }
+  },
+  {
+    "sourceRef": "d6018dcd0e88106f",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Que signifie l'acronyme « HTML » ?",
+        "options": [
+          "HyperText Markup Language",
+          "High Tech Modern Language",
+          "Home Tool Markup Language",
+          "Hyperlink Text Management Logic"
+        ],
+        "explanation": "Le HTML, inventé par Tim Berners-Lee en 1991, structure les pages du Web."
+      },
+      "en": {
+        "text": "What does the acronym 'HTML' stand for?",
+        "options": [
+          "HyperText Markup Language",
+          "High Tech Modern Language",
+          "Home Tool Markup Language",
+          "Hyperlink Text Management Logic"
+        ],
+        "explanation": "HTML, invented by Tim Berners-Lee in 1991, structures the pages of the Web."
+      },
+      "es": {
+        "text": "¿Qué significa el acrónimo «HTML»?",
+        "options": [
+          "HyperText Markup Language",
+          "High Tech Modern Language",
+          "Home Tool Markup Language",
+          "Hyperlink Text Management Logic"
+        ],
+        "explanation": "El HTML, inventado por Tim Berners-Lee en 1991, estructura las páginas de la Web."
+      }
+    }
+  },
+  {
+    "sourceRef": "a56dd5391cd9d231",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel langage de programmation, créé en 1995, est devenu le principal langage du Web côté navigateur ?",
+        "options": [
+          "Python",
+          "C++",
+          "JavaScript",
+          "Ruby"
+        ],
+        "explanation": "JavaScript fut conçu en seulement dix jours par Brendan Eich chez Netscape."
+      },
+      "en": {
+        "text": "Which programming language, created in 1995, became the main browser-side language of the Web?",
+        "options": [
+          "Python",
+          "C++",
+          "JavaScript",
+          "Ruby"
+        ],
+        "explanation": "JavaScript was designed in just ten days by Brendan Eich at Netscape."
+      },
+      "es": {
+        "text": "¿Qué lenguaje de programación, creado en 1995, se convirtió en el principal del navegador en la Web?",
+        "options": [
+          "Python",
+          "C++",
+          "JavaScript",
+          "Ruby"
+        ],
+        "explanation": "JavaScript fue diseñado en apenas diez días por Brendan Eich en Netscape."
+      }
+    }
+  },
+  {
+    "sourceRef": "8cc6c86998ca206c",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "En informatique, combien vaut 2 à la puissance 10 ?",
+        "options": [
+          "1000",
+          "1024",
+          "512",
+          "2048"
+        ],
+        "explanation": "2^10 = 1024, ce qui explique pourquoi un kilo-octet « informatique » vaut 1024 octets."
+      },
+      "en": {
+        "text": "In computing, what is 2 to the power of 10?",
+        "options": [
+          "1000",
+          "1024",
+          "512",
+          "2048"
+        ],
+        "explanation": "2^10 = 1024, which is why a 'computing' kilobyte equals 1024 bytes."
+      },
+      "es": {
+        "text": "En informática, ¿cuánto vale 2 elevado a 10?",
+        "options": [
+          "1000",
+          "1024",
+          "512",
+          "2048"
+        ],
+        "explanation": "2^10 = 1024, por eso un kilobyte «informático» equivale a 1024 bytes."
+      }
+    }
+  },
+  {
+    "sourceRef": "7b4f196a3a406fe9",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Qui a écrit la pièce « Roméo et Juliette » ?",
+        "options": [
+          "Molière",
+          "Victor Hugo",
+          "Dante",
+          "William Shakespeare"
+        ],
+        "explanation": "Écrite vers 1595, cette tragédie de deux amants de Vérone est l'une des plus jouées au monde."
+      },
+      "en": {
+        "text": "Who wrote the play 'Romeo and Juliet'?",
+        "options": [
+          "Molière",
+          "Victor Hugo",
+          "Dante",
+          "William Shakespeare"
+        ],
+        "explanation": "Written around 1595, this tragedy of two Verona lovers is one of the most performed in the world."
+      },
+      "es": {
+        "text": "¿Quién escribió la obra «Romeo y Julieta»?",
+        "options": [
+          "Molière",
+          "Victor Hugo",
+          "Dante",
+          "William Shakespeare"
+        ],
+        "explanation": "Escrita hacia 1595, esta tragedia de dos amantes de Verona es una de las más representadas del mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "94ce3b61479976f1",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel personnage de roman vit sur une île déserte après un naufrage ?",
+        "options": [
+          "Robinson Crusoé",
+          "Don Quichotte",
+          "Gulliver",
+          "Ulysse"
+        ],
+        "explanation": "Le roman de Daniel Defoe (1719) s'inspire de l'histoire vraie du marin Alexander Selkirk."
+      },
+      "en": {
+        "text": "Which novel character lives on a desert island after a shipwreck?",
+        "options": [
+          "Robinson Crusoe",
+          "Don Quixote",
+          "Gulliver",
+          "Ulysses"
+        ],
+        "explanation": "Daniel Defoe's novel (1719) was inspired by the true story of sailor Alexander Selkirk."
+      },
+      "es": {
+        "text": "¿Qué personaje de novela vive en una isla desierta tras un naufragio?",
+        "options": [
+          "Robinson Crusoe",
+          "Don Quijote",
+          "Gulliver",
+          "Ulises"
+        ],
+        "explanation": "La novela de Daniel Defoe (1719) se inspira en la historia real del marinero Alexander Selkirk."
+      }
+    }
+  },
+  {
+    "sourceRef": "ec17ec92196b8404",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain français est l'auteur des « Misérables » ?",
+        "options": [
+          "Émile Zola",
+          "Gustave Flaubert",
+          "Victor Hugo",
+          "Alexandre Dumas"
+        ],
+        "explanation": "Publié en 1862, ce roman suit le parcours de l'ancien bagnard Jean Valjean."
+      },
+      "en": {
+        "text": "Which French writer is the author of 'Les Misérables'?",
+        "options": [
+          "Émile Zola",
+          "Gustave Flaubert",
+          "Victor Hugo",
+          "Alexandre Dumas"
+        ],
+        "explanation": "Published in 1862, the novel follows the journey of the ex-convict Jean Valjean."
+      },
+      "es": {
+        "text": "¿Qué escritor francés es el autor de «Los miserables»?",
+        "options": [
+          "Émile Zola",
+          "Gustave Flaubert",
+          "Victor Hugo",
+          "Alexandre Dumas"
+        ],
+        "explanation": "Publicada en 1862, la novela sigue el recorrido del expresidiario Jean Valjean."
+      }
+    }
+  },
+  {
+    "sourceRef": "fcfadd6a3384eddb",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain colombien a écrit « Cent ans de solitude » ?",
+        "options": [
+          "Jorge Luis Borges",
+          "Gabriel García Márquez",
+          "Pablo Neruda",
+          "Mario Vargas Llosa"
+        ],
+        "explanation": "Chef-d'œuvre du réalisme magique, le roman valut à son auteur le prix Nobel de littérature en 1982."
+      },
+      "en": {
+        "text": "Which Colombian writer wrote 'One Hundred Years of Solitude'?",
+        "options": [
+          "Jorge Luis Borges",
+          "Gabriel García Márquez",
+          "Pablo Neruda",
+          "Mario Vargas Llosa"
+        ],
+        "explanation": "A masterpiece of magical realism, the novel earned its author the 1982 Nobel Prize in Literature."
+      },
+      "es": {
+        "text": "¿Qué escritor colombiano escribió «Cien años de soledad»?",
+        "options": [
+          "Jorge Luis Borges",
+          "Gabriel García Márquez",
+          "Pablo Neruda",
+          "Mario Vargas Llosa"
+        ],
+        "explanation": "Obra maestra del realismo mágico, la novela le valió a su autor el Premio Nobel de Literatura en 1982."
+      }
+    }
+  },
+  {
+    "sourceRef": "6ca36a659ce979c8",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "De quel pays le sushi est-il originaire ?",
+        "options": [
+          "La Chine",
+          "La Thaïlande",
+          "La Corée",
+          "Le Japon"
+        ],
+        "explanation": "Le sushi moderne, à base de riz vinaigré et de poisson cru, s'est développé à Edo (Tokyo) au XIXe siècle."
+      },
+      "en": {
+        "text": "Which country is sushi originally from?",
+        "options": [
+          "China",
+          "Thailand",
+          "Korea",
+          "Japan"
+        ],
+        "explanation": "Modern sushi, made of vinegared rice and raw fish, developed in Edo (Tokyo) in the 19th century."
+      },
+      "es": {
+        "text": "¿De qué país es originario el sushi?",
+        "options": [
+          "China",
+          "Tailandia",
+          "Corea",
+          "Japón"
+        ],
+        "explanation": "El sushi moderno, de arroz avinagrado y pescado crudo, se desarrolló en Edo (Tokio) en el siglo XIX."
+      }
+    }
+  },
+  {
+    "sourceRef": "98e68b0e4e22109c",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel fromage italien est l'ingrédient traditionnel du tiramisu ?",
+        "options": [
+          "Le mascarpone",
+          "La mozzarella",
+          "Le parmesan",
+          "La ricotta"
+        ],
+        "explanation": "Le tiramisu (« remonte-moi » en italien) associe mascarpone, café et biscuits."
+      },
+      "en": {
+        "text": "Which Italian cheese is the traditional ingredient of tiramisu?",
+        "options": [
+          "Mascarpone",
+          "Mozzarella",
+          "Parmesan",
+          "Ricotta"
+        ],
+        "explanation": "Tiramisu ('pick me up' in Italian) combines mascarpone, coffee and ladyfinger biscuits."
+      },
+      "es": {
+        "text": "¿Qué queso italiano es el ingrediente tradicional del tiramisú?",
+        "options": [
+          "El mascarpone",
+          "La mozzarella",
+          "El parmesano",
+          "La ricota"
+        ],
+        "explanation": "El tiramisú («levántame» en italiano) combina mascarpone, café y bizcochos."
+      }
+    }
+  },
+  {
+    "sourceRef": "19d01e0c4ad98796",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle épice, parmi les plus chères du monde, provient du stigmate d'une fleur de crocus ?",
+        "options": [
+          "Le curcuma",
+          "La cardamome",
+          "Le safran",
+          "Le paprika"
+        ],
+        "explanation": "Il faut environ 150 000 fleurs, cueillies à la main, pour obtenir un seul kilo de safran."
+      },
+      "en": {
+        "text": "Which spice, among the world's most expensive, comes from the stigma of a crocus flower?",
+        "options": [
+          "Turmeric",
+          "Cardamom",
+          "Saffron",
+          "Paprika"
+        ],
+        "explanation": "It takes about 150,000 hand-picked flowers to obtain a single kilo of saffron."
+      },
+      "es": {
+        "text": "¿Qué especia, de las más caras del mundo, proviene del estigma de una flor de azafrán (crocus)?",
+        "options": [
+          "La cúrcuma",
+          "El cardamomo",
+          "El azafrán",
+          "El pimentón"
+        ],
+        "explanation": "Hacen falta unas 150 000 flores, recogidas a mano, para obtener un solo kilo de azafrán."
+      }
+    }
+  },
+  {
+    "sourceRef": "93dcf105b3bb2df4",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel plat espagnol à base de riz safrané est originaire de la région de Valence ?",
+        "options": [
+          "Le gaspacho",
+          "La paella",
+          "La tortilla",
+          "Le cocido"
+        ],
+        "explanation": "La paella valencienne traditionnelle contient du lapin, du poulet et des haricots, pas de fruits de mer."
+      },
+      "en": {
+        "text": "Which Spanish saffron-rice dish originates from the Valencia region?",
+        "options": [
+          "Gazpacho",
+          "Paella",
+          "Tortilla",
+          "Cocido"
+        ],
+        "explanation": "Traditional Valencian paella contains rabbit, chicken and beans — not seafood."
+      },
+      "es": {
+        "text": "¿Qué plato español a base de arroz con azafrán es originario de la región de Valencia?",
+        "options": [
+          "El gazpacho",
+          "La paella",
+          "La tortilla",
+          "El cocido"
+        ],
+        "explanation": "La paella valenciana tradicional lleva conejo, pollo y judías, no marisco."
+      }
+    }
+  }
+]
