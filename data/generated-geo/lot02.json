@@ -1,0 +1,842 @@
+[
+  {
+    "sourceRef": "4fecdd7c278456d4",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 59.9311,
+    "lng": 30.3609,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville russe éclata, en 1917, la révolution bolchevique menée par Lénine ?",
+        "explanation": "La révolution d'Octobre 1917 éclata à Petrograd, aujourd'hui Saint-Pétersbourg.",
+        "label": "Saint-Pétersbourg",
+        "country": "Russie"
+      },
+      "en": {
+        "text": "In which Russian city did the 1917 Bolshevik revolution led by Lenin break out?",
+        "explanation": "The October Revolution of 1917 broke out in Petrograd, today Saint Petersburg.",
+        "label": "Saint Petersburg",
+        "country": "Russia"
+      },
+      "es": {
+        "text": "¿En qué ciudad rusa estalló, en 1917, la revolución bolchevique dirigida por Lenin?",
+        "explanation": "La Revolución de Octubre de 1917 estalló en Petrogrado, hoy San Petersburgo.",
+        "label": "San Petersburgo",
+        "country": "Rusia"
+      }
+    }
+  },
+  {
+    "sourceRef": "1955c6e726bc6ac0",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 32.7767,
+    "lng": -96.797,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville du Texas le président John F. Kennedy fut-il assassiné en 1963 ?",
+        "explanation": "John F. Kennedy fut assassiné le 22 novembre 1963 lors d'un défilé en voiture.",
+        "label": "Dallas",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which Texas city was President John F. Kennedy assassinated in 1963?",
+        "explanation": "John F. Kennedy was assassinated on 22 November 1963 during a motorcade.",
+        "label": "Dallas",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Texas fue asesinado el presidente John F. Kennedy en 1963?",
+        "explanation": "John F. Kennedy fue asesinado el 22 de noviembre de 1963 durante una caravana de coches.",
+        "label": "Dallas",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "3567712b2f8cc369",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale l'Acropole domine-t-elle la ville avec son temple du Parthénon ?",
+        "explanation": "Le Parthénon, dédié à la déesse Athéna, fut érigé au Ve siècle av. J.-C.",
+        "label": "Athènes",
+        "country": "Grèce"
+      },
+      "en": {
+        "text": "In which capital does the Acropolis overlook the city with its Parthenon temple?",
+        "explanation": "The Parthenon, dedicated to the goddess Athena, was built in the 5th century BC.",
+        "label": "Athens",
+        "country": "Greece"
+      },
+      "es": {
+        "text": "¿En qué capital domina la Acrópolis la ciudad con su templo del Partenón?",
+        "explanation": "El Partenón, dedicado a la diosa Atenea, se erigió en el siglo V a. C.",
+        "label": "Atenas",
+        "country": "Grecia"
+      }
+    }
+  },
+  {
+    "sourceRef": "4b9d092218e5bdbc",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 49.4521,
+    "lng": 11.0767,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville allemande les dignitaires nazis furent-ils jugés en 1945-1946 ?",
+        "explanation": "Les procès de Nuremberg posèrent les bases du droit pénal international.",
+        "label": "Nuremberg",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which German city were Nazi leaders put on trial in 1945-1946?",
+        "explanation": "The Nuremberg trials laid the foundations of international criminal law.",
+        "label": "Nuremberg",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué ciudad alemana fueron juzgados los dirigentes nazis en 1945-1946?",
+        "explanation": "Los juicios de Núremberg sentaron las bases del derecho penal internacional.",
+        "label": "Núremberg",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "b6966ed6c0054551",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "lat": 29.9792,
+    "lng": 31.1342,
+    "translations": {
+      "fr": {
+        "text": "Près de quelle capitale africaine les grandes pyramides de Gizeh dominent-elles le désert ?",
+        "explanation": "La grande pyramide de Gizeh est la seule des sept merveilles antiques encore debout.",
+        "label": "Gizeh",
+        "country": "Égypte"
+      },
+      "en": {
+        "text": "Near which African capital do the great Pyramids of Giza tower over the desert?",
+        "explanation": "The Great Pyramid of Giza is the only one of the seven ancient wonders still standing.",
+        "label": "Giza",
+        "country": "Egypt"
+      },
+      "es": {
+        "text": "¿Cerca de qué capital africana dominan el desierto las grandes pirámides de Guiza?",
+        "explanation": "La Gran Pirámide de Guiza es la única de las siete maravillas antiguas que sigue en pie.",
+        "label": "Guiza",
+        "country": "Egipto"
+      }
+    }
+  },
+  {
+    "sourceRef": "a0be7a1db9ff026f",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": -33.9249,
+    "lng": 18.4241,
+    "translations": {
+      "fr": {
+        "text": "Au large de quelle ville sud-africaine se trouve l'île-prison où Nelson Mandela fut détenu ?",
+        "explanation": "Nelson Mandela passa 18 de ses 27 ans de détention sur l'île de Robben, au large de cette ville.",
+        "label": "Le Cap",
+        "country": "Afrique du Sud"
+      },
+      "en": {
+        "text": "Off which South African city is the prison island where Nelson Mandela was held?",
+        "explanation": "Nelson Mandela spent 18 of his 27 years of imprisonment on Robben Island, off this city.",
+        "label": "Cape Town",
+        "country": "South Africa"
+      },
+      "es": {
+        "text": "¿Frente a qué ciudad sudafricana está la isla-prisión donde estuvo preso Nelson Mandela?",
+        "explanation": "Nelson Mandela pasó 18 de sus 27 años de prisión en la isla de Robben, frente a esta ciudad.",
+        "label": "Ciudad del Cabo",
+        "country": "Sudáfrica"
+      }
+    }
+  },
+  {
+    "sourceRef": "7144c65ce8e77464",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 35.6762,
+    "lng": 139.6503,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale asiatique se sont tenus, en 1964, les premiers Jeux olympiques d'Asie ?",
+        "explanation": "Les JO de 1964 furent les premiers en Asie et les premiers retransmis en direct par satellite.",
+        "label": "Tokyo",
+        "country": "Japon"
+      },
+      "en": {
+        "text": "In which Asian capital were the first Olympic Games in Asia held, in 1964?",
+        "explanation": "The 1964 Games were the first in Asia and the first broadcast live by satellite.",
+        "label": "Tokyo",
+        "country": "Japan"
+      },
+      "es": {
+        "text": "¿En qué capital asiática se celebraron, en 1964, los primeros Juegos Olímpicos de Asia?",
+        "explanation": "Los Juegos de 1964 fueron los primeros en Asia y los primeros transmitidos en directo por satélite.",
+        "label": "Tokio",
+        "country": "Japón"
+      }
+    }
+  },
+  {
+    "sourceRef": "f600d7050dc642af",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 43.7384,
+    "lng": 7.4246,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle principauté se court un Grand Prix de Formule 1 mythique, dans les rues de Monte-Carlo ?",
+        "explanation": "Le Grand Prix, couru dans les rues de Monte-Carlo, est une manche mythique depuis 1929.",
+        "label": "Monaco",
+        "country": "Monaco"
+      },
+      "en": {
+        "text": "In which principality is a legendary Formula 1 Grand Prix run through the streets of Monte Carlo?",
+        "explanation": "The Grand Prix, run through the streets of Monte Carlo, has been a legendary race since 1929.",
+        "label": "Monaco",
+        "country": "Monaco"
+      },
+      "es": {
+        "text": "¿En qué principado se corre un mítico Gran Premio de Fórmula 1 por las calles de Montecarlo?",
+        "explanation": "El Gran Premio, corrido por las calles de Montecarlo, es una prueba mítica desde 1929.",
+        "label": "Mónaco",
+        "country": "Mónaco"
+      }
+    }
+  },
+  {
+    "sourceRef": "4d7487fe6af2fb93",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 40.4531,
+    "lng": -3.6883,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale européenne le Real joue-t-il au stade Santiago-Bernabéu ?",
+        "explanation": "Le Real Madrid, fondé en 1902, est l'un des clubs de football les plus titrés d'Europe.",
+        "label": "Madrid",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "In which European capital does Real play at the Santiago Bernabéu stadium?",
+        "explanation": "Real Madrid, founded in 1902, is one of the most decorated football clubs in Europe.",
+        "label": "Madrid",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿En qué capital europea juega el Real en el estadio Santiago Bernabéu?",
+        "explanation": "El Real Madrid, fundado en 1902, es uno de los clubes de fútbol más laureados de Europa.",
+        "label": "Madrid",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "72469002cd0af5e1",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 48.2082,
+    "lng": 16.3738,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale autrichienne Gustav Klimt a-t-il peint « Le Baiser », aujourd'hui au Belvédère ?",
+        "explanation": "« Le Baiser » (1908), recouvert de feuilles d'or, est conservé au palais du Belvédère.",
+        "label": "Vienne",
+        "country": "Autriche"
+      },
+      "en": {
+        "text": "In which Austrian capital did Gustav Klimt paint 'The Kiss', now at the Belvedere?",
+        "explanation": "'The Kiss' (1908), covered in gold leaf, is kept at the Belvedere Palace.",
+        "label": "Vienna",
+        "country": "Austria"
+      },
+      "es": {
+        "text": "¿En qué capital austríaca pintó Gustav Klimt «El beso», hoy en el Belvedere?",
+        "explanation": "«El beso» (1908), recubierto de pan de oro, se conserva en el palacio Belvedere.",
+        "label": "Viena",
+        "country": "Austria"
+      }
+    }
+  },
+  {
+    "sourceRef": "edb4411790720d72",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 24.4539,
+    "lng": 54.3773,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale du Golfe le Louvre a-t-il ouvert un musée sous une coupole ajourée, en 2017 ?",
+        "explanation": "Le Louvre Abou Dabi, conçu par Jean Nouvel, est le premier musée universel du monde arabe.",
+        "label": "Abou Dabi",
+        "country": "Émirats arabes unis"
+      },
+      "en": {
+        "text": "In which Gulf capital did the Louvre open a museum under a latticed dome, in 2017?",
+        "explanation": "The Louvre Abu Dhabi, designed by Jean Nouvel, is the first universal museum in the Arab world.",
+        "label": "Abu Dhabi",
+        "country": "United Arab Emirates"
+      },
+      "es": {
+        "text": "¿En qué capital del Golfo abrió el Louvre un museo bajo una cúpula calada, en 2017?",
+        "explanation": "El Louvre Abu Dabi, diseñado por Jean Nouvel, es el primer museo universal del mundo árabe.",
+        "label": "Abu Dabi",
+        "country": "Emiratos Árabes Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "6adfff1579dd0923",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 5.16,
+    "lng": -52.65,
+    "translations": {
+      "fr": {
+        "text": "Depuis quelle base d'Amérique du Sud l'Europe lance-t-elle ses fusées Ariane ?",
+        "explanation": "Le Centre spatial guyanais de Kourou est idéalement situé près de l'équateur pour les lancements.",
+        "label": "Kourou",
+        "country": "France"
+      },
+      "en": {
+        "text": "From which South American base does Europe launch its Ariane rockets?",
+        "explanation": "The Guiana Space Centre at Kourou is ideally located near the equator for launches.",
+        "label": "Kourou",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Desde qué base de América del Sur lanza Europa sus cohetes Ariane?",
+        "explanation": "El Centro Espacial de Kourou está idealmente situado cerca del ecuador para los lanzamientos.",
+        "label": "Kourou",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "59225e0975be9fb0",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 52.2297,
+    "lng": 21.0122,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale polonaise Marie Curie, double prix Nobel, est-elle née en 1867 ?",
+        "explanation": "Née Maria Skłodowska, elle reste la seule personne primée dans deux sciences différentes.",
+        "label": "Varsovie",
+        "country": "Pologne"
+      },
+      "en": {
+        "text": "In which Polish capital was Marie Curie, a double Nobel laureate, born in 1867?",
+        "explanation": "Born Maria Skłodowska, she remains the only person awarded in two different sciences.",
+        "label": "Warsaw",
+        "country": "Poland"
+      },
+      "es": {
+        "text": "¿En qué capital polaca nació Marie Curie, doble premio Nobel, en 1867?",
+        "explanation": "Nacida Maria Skłodowska, sigue siendo la única persona premiada en dos ciencias distintas.",
+        "label": "Varsovia",
+        "country": "Polonia"
+      }
+    }
+  },
+  {
+    "sourceRef": "f7a5ca907bdad1df",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "medium",
+    "lat": 59.3293,
+    "lng": 18.0686,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale scandinave la plupart des prix Nobel sont-ils remis chaque année ?",
+        "explanation": "Les prix Nobel y sont remis chaque 10 décembre, sauf celui de la paix, remis à Oslo.",
+        "label": "Stockholm",
+        "country": "Suède"
+      },
+      "en": {
+        "text": "In which Scandinavian capital are most Nobel Prizes awarded each year?",
+        "explanation": "The Nobel Prizes are awarded here every 10 December, except the Peace Prize, given in Oslo.",
+        "label": "Stockholm",
+        "country": "Sweden"
+      },
+      "es": {
+        "text": "¿En qué capital escandinava se entregan cada año la mayoría de los premios Nobel?",
+        "explanation": "Los premios Nobel se entregan aquí cada 10 de diciembre, salvo el de la paz, que se da en Oslo.",
+        "label": "Estocolmo",
+        "country": "Suecia"
+      }
+    }
+  },
+  {
+    "sourceRef": "8882af83fa95b17e",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "lat": 37.8199,
+    "lng": -122.4783,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de Californie se trouve le pont rouge du Golden Gate ?",
+        "explanation": "Le Golden Gate, inauguré en 1937, enjambe l'entrée de la baie de la ville.",
+        "label": "San Francisco",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which California city is the red Golden Gate Bridge located?",
+        "explanation": "The Golden Gate, opened in 1937, spans the entrance to the city's bay.",
+        "label": "San Francisco",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué ciudad de California se encuentra el puente rojo Golden Gate?",
+        "explanation": "El Golden Gate, inaugurado en 1937, cruza la entrada de la bahía de la ciudad.",
+        "label": "San Francisco",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "2008519e80340056",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 59.9139,
+    "lng": 10.7522,
+    "translations": {
+      "fr": {
+        "text": "Au fond de quel fjord la capitale de la Norvège s'est-elle développée ?",
+        "explanation": "Oslo, entourée de collines boisées, offre des pistes de ski à quelques minutes du centre.",
+        "label": "Oslo",
+        "country": "Norvège"
+      },
+      "en": {
+        "text": "At the head of which fjord did the capital of Norway develop?",
+        "explanation": "Oslo, surrounded by wooded hills, has ski slopes just minutes from the centre.",
+        "label": "Oslo",
+        "country": "Norway"
+      },
+      "es": {
+        "text": "¿Al fondo de qué fiordo se desarrolló la capital de Noruega?",
+        "explanation": "Oslo, rodeada de colinas boscosas, tiene pistas de esquí a pocos minutos del centro.",
+        "label": "Oslo",
+        "country": "Noruega"
+      }
+    }
+  },
+  {
+    "sourceRef": "1ad3e1fa505bd76d",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 27.1751,
+    "lng": 78.0421,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville indienne se dresse le Taj Mahal, mausolée de marbre blanc ?",
+        "explanation": "Le Taj Mahal fut érigé au XVIIe siècle par l'empereur Shah Jahan en mémoire de son épouse.",
+        "label": "Agra",
+        "country": "Inde"
+      },
+      "en": {
+        "text": "In which Indian city stands the Taj Mahal, a white marble mausoleum?",
+        "explanation": "The Taj Mahal was built in the 17th century by Emperor Shah Jahan in memory of his wife.",
+        "label": "Agra",
+        "country": "India"
+      },
+      "es": {
+        "text": "¿En qué ciudad india se alza el Taj Mahal, un mausoleo de mármol blanco?",
+        "explanation": "El Taj Mahal fue erigido en el siglo XVII por el emperador Shah Jahan en memoria de su esposa.",
+        "label": "Agra",
+        "country": "India"
+      }
+    }
+  },
+  {
+    "sourceRef": "f03a3959375ed970",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 39.9163,
+    "lng": 116.3972,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale asiatique se trouve la Cité interdite, ancien palais impérial ?",
+        "explanation": "La Cité interdite fut la résidence des empereurs chinois pendant près de cinq siècles.",
+        "label": "Pékin",
+        "country": "Chine"
+      },
+      "en": {
+        "text": "In which Asian capital is the Forbidden City, a former imperial palace?",
+        "explanation": "The Forbidden City was the residence of Chinese emperors for nearly five centuries.",
+        "label": "Beijing",
+        "country": "China"
+      },
+      "es": {
+        "text": "¿En qué capital asiática se encuentra la Ciudad Prohibida, antiguo palacio imperial?",
+        "explanation": "La Ciudad Prohibida fue la residencia de los emperadores chinos durante casi cinco siglos.",
+        "label": "Pekín",
+        "country": "China"
+      }
+    }
+  },
+  {
+    "sourceRef": "574d998a6450bda1",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": -13.5319,
+    "lng": -71.9675,
+    "translations": {
+      "fr": {
+        "text": "Quelle ancienne capitale de l'Empire inca, dans les Andes, ouvre la porte de la Vallée sacrée ?",
+        "explanation": "Cuzco fut la capitale de l'Empire inca avant la conquête espagnole au XVIe siècle.",
+        "label": "Cuzco",
+        "country": "Pérou"
+      },
+      "en": {
+        "text": "Which former capital of the Inca Empire, in the Andes, is the gateway to the Sacred Valley?",
+        "explanation": "Cusco was the capital of the Inca Empire before the Spanish conquest in the 16th century.",
+        "label": "Cusco",
+        "country": "Peru"
+      },
+      "es": {
+        "text": "¿Qué antigua capital del Imperio inca, en los Andes, es la puerta del Valle Sagrado?",
+        "explanation": "Cusco fue la capital del Imperio inca antes de la conquista española en el siglo XVI.",
+        "label": "Cusco",
+        "country": "Perú"
+      }
+    }
+  },
+  {
+    "sourceRef": "1e73a8f887892aec",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "translations": {
+      "fr": {
+        "text": "Sur les collines de quelle ville américaine se dresse le célèbre panneau « Hollywood » ?",
+        "explanation": "Le panneau Hollywood, érigé en 1923, surplombe la capitale mondiale du cinéma.",
+        "label": "Los Angeles",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "On the hills of which American city stands the famous 'Hollywood' sign?",
+        "explanation": "The Hollywood sign, put up in 1923, overlooks the world capital of cinema.",
+        "label": "Los Angeles",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En las colinas de qué ciudad estadounidense se alza el famoso cartel de «Hollywood»?",
+        "explanation": "El cartel de Hollywood, colocado en 1923, domina la capital mundial del cine.",
+        "label": "Los Ángeles",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "78af5d082d570530",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": -3.0674,
+    "lng": 37.3556,
+    "translations": {
+      "fr": {
+        "text": "Dans quel pays d'Afrique de l'Est s'élève le plus haut sommet du continent, à 5 895 m ?",
+        "explanation": "Le Kilimandjaro porte des glaciers à son sommet, bien qu'il soit proche de l'équateur.",
+        "label": "Kilimandjaro",
+        "country": "Tanzanie"
+      },
+      "en": {
+        "text": "In which East African country rises the continent's highest peak, at 5,895 m?",
+        "explanation": "Kilimanjaro has glaciers at its summit, even though it is close to the equator.",
+        "label": "Kilimanjaro",
+        "country": "Tanzania"
+      },
+      "es": {
+        "text": "¿En qué país de África oriental se eleva la cima más alta del continente, a 5895 m?",
+        "explanation": "El Kilimanjaro tiene glaciares en su cima, a pesar de estar cerca del ecuador.",
+        "label": "Kilimanjaro",
+        "country": "Tanzania"
+      }
+    }
+  },
+  {
+    "sourceRef": "1a4b980b32abb6c6",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": -3.4653,
+    "lng": -62.2159,
+    "translations": {
+      "fr": {
+        "text": "Dans quel pays s'étend la plus grande forêt tropicale du monde, traversée par un fleuve géant ?",
+        "explanation": "La forêt amazonienne abrite des millions d'espèces et régule le climat de la planète.",
+        "label": "Forêt amazonienne",
+        "country": "Brésil"
+      },
+      "en": {
+        "text": "In which country lies the world's largest rainforest, crossed by a giant river?",
+        "explanation": "The Amazon rainforest is home to millions of species and helps regulate the planet's climate.",
+        "label": "Amazon rainforest",
+        "country": "Brazil"
+      },
+      "es": {
+        "text": "¿En qué país se extiende la mayor selva tropical del mundo, atravesada por un río gigante?",
+        "explanation": "La selva amazónica alberga millones de especies y regula el clima del planeta.",
+        "label": "Selva amazónica",
+        "country": "Brasil"
+      }
+    }
+  },
+  {
+    "sourceRef": "b07e38e1f7731c70",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 44.428,
+    "lng": -110.5885,
+    "translations": {
+      "fr": {
+        "text": "Dans quel pays le premier parc national du monde protège-t-il geysers et bisons ?",
+        "explanation": "Yellowstone, créé en 1872, fut le tout premier parc national du monde.",
+        "label": "Parc de Yellowstone",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which country does the world's first national park protect geysers and bison?",
+        "explanation": "Yellowstone, established in 1872, was the very first national park in the world.",
+        "label": "Yellowstone Park",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué país el primer parque nacional del mundo protege géiseres y bisontes?",
+        "explanation": "Yellowstone, creado en 1872, fue el primer parque nacional del mundo.",
+        "label": "Parque de Yellowstone",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "0dea44f976c98bdc",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "lat": 53.3498,
+    "lng": -6.2603,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale se déroule le roman « Ulysse » de James Joyce, sur une seule journée ?",
+        "explanation": "« Ulysse » (1922) raconte le 16 juin 1904, célébré chaque année comme le « Bloomsday ».",
+        "label": "Dublin",
+        "country": "Irlande"
+      },
+      "en": {
+        "text": "In which capital does James Joyce's novel 'Ulysses' take place, over a single day?",
+        "explanation": "'Ulysses' (1922) recounts 16 June 1904, celebrated each year as 'Bloomsday'.",
+        "label": "Dublin",
+        "country": "Ireland"
+      },
+      "es": {
+        "text": "¿En qué capital transcurre la novela «Ulises» de James Joyce, en un solo día?",
+        "explanation": "«Ulises» (1922) narra el 16 de junio de 1904, celebrado cada año como el «Bloomsday».",
+        "label": "Dublín",
+        "country": "Irlanda"
+      }
+    }
+  },
+  {
+    "sourceRef": "c8da75dfb40f5d47",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 40.4818,
+    "lng": -3.3644,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville proche de Madrid Miguel de Cervantes, auteur de « Don Quichotte », est-il né ?",
+        "explanation": "Alcalá de Henares, ville natale de Cervantes, est classée au patrimoine mondial.",
+        "label": "Alcalá de Henares",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "In which town near Madrid was Miguel de Cervantes, author of 'Don Quixote', born?",
+        "explanation": "Alcalá de Henares, Cervantes's birthplace, is a UNESCO World Heritage Site.",
+        "label": "Alcalá de Henares",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿En qué ciudad cercana a Madrid nació Miguel de Cervantes, autor de «Don Quijote»?",
+        "explanation": "Alcalá de Henares, ciudad natal de Cervantes, es Patrimonio de la Humanidad.",
+        "label": "Alcalá de Henares",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "ddbb24356d1d2d40",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 42.3314,
+    "lng": -83.0458,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville américaine le label Motown a-t-il lancé la soul dans les années 1960 ?",
+        "explanation": "Le label Motown, fondé dans cette ville en 1959, lança Stevie Wonder et les Supremes.",
+        "label": "Detroit",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which American city did the Motown label launch soul music in the 1960s?",
+        "explanation": "The Motown label, founded in this city in 1959, launched Stevie Wonder and the Supremes.",
+        "label": "Detroit",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué ciudad estadounidense lanzó el sello Motown la música soul en los años 1960?",
+        "explanation": "El sello Motown, fundado en esta ciudad en 1959, lanzó a Stevie Wonder y a las Supremes.",
+        "label": "Detroit",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "83b369490c5dc17a",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 53.4084,
+    "lng": -2.9916,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville portuaire anglaise le groupe des Beatles s'est-il formé au début des années 1960 ?",
+        "explanation": "On y visite le club The Cavern, où les Beatles se produisirent à leurs débuts.",
+        "label": "Liverpool",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which English port city did the Beatles form in the early 1960s?",
+        "explanation": "You can visit The Cavern Club there, where the Beatles played in their early days.",
+        "label": "Liverpool",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué ciudad portuaria inglesa se formaron los Beatles a principios de los años 1960?",
+        "explanation": "Allí se visita el club The Cavern, donde los Beatles tocaron en sus inicios.",
+        "label": "Liverpool",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "5f91234173b4064f",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 45.4408,
+    "lng": 12.3155,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville italienne aux canaux le cocktail « Bellini » a-t-il été inventé ?",
+        "explanation": "Le Bellini fut inventé au Harry's Bar de cette ville vers 1948, à base de pêche et de prosecco.",
+        "label": "Venise",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which Italian city of canals was the 'Bellini' cocktail invented?",
+        "explanation": "The Bellini was invented at Harry's Bar in this city around 1948, from peach and prosecco.",
+        "label": "Venice",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué ciudad italiana de canales se inventó el cóctel «Bellini»?",
+        "explanation": "El Bellini se inventó en el Harry's Bar de esta ciudad hacia 1948, con melocotón y prosecco.",
+        "label": "Venecia",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "9917b98d07ace05a",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 35.0116,
+    "lng": 135.7681,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ancienne capitale japonaise la cérémonie du thé matcha s'est-elle raffinée ?",
+        "explanation": "Cette ville fut la capitale du Japon pendant plus de mille ans et reste le cœur de la cérémonie du thé.",
+        "label": "Kyoto",
+        "country": "Japon"
+      },
+      "en": {
+        "text": "In which former Japanese capital did the matcha tea ceremony become refined?",
+        "explanation": "This city was Japan's capital for over a thousand years and remains the heart of the tea ceremony.",
+        "label": "Kyoto",
+        "country": "Japan"
+      },
+      "es": {
+        "text": "¿En qué antigua capital japonesa se refinó la ceremonia del té matcha?",
+        "explanation": "Esta ciudad fue la capital de Japón durante más de mil años y sigue siendo el corazón de la ceremonia del té.",
+        "label": "Kioto",
+        "country": "Japón"
+      }
+    }
+  },
+  {
+    "sourceRef": "b7aca874a35c77b3",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "medium",
+    "lat": 37.3875,
+    "lng": -122.0575,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle région de Californie se concentrent les géants mondiaux de la technologie ?",
+        "explanation": "La Silicon Valley, au sud de la baie de San Francisco, abrite Apple, Google et bien d'autres.",
+        "label": "Silicon Valley",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which region of California are the world's tech giants concentrated?",
+        "explanation": "Silicon Valley, south of the San Francisco Bay, is home to Apple, Google and many others.",
+        "label": "Silicon Valley",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué región de California se concentran los gigantes tecnológicos mundiales?",
+        "explanation": "Silicon Valley, al sur de la bahía de San Francisco, alberga a Apple, Google y muchos más.",
+        "label": "Silicon Valley",
+        "country": "Estados Unidos"
+      }
+    }
+  }
+]

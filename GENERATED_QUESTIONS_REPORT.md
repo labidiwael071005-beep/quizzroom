@@ -32,12 +32,13 @@ entre langues).
 
 ## 2. État actuel (vagues en cours)
 
-- **Questions générées et insérées : 190** (4 lots QCM = 160 + 1 lot Géo = 30).
-- **Total en base : 641** questions (les ~451 préexistantes sont conservées).
-- **Traductions équilibrées** : `fr = en = es = 641`.
+- **Questions générées et insérées : 220** (4 lots QCM = 160 + 2 lots Géo = 60).
+- **Total en base : 671** questions (les ~451 préexistantes sont conservées).
+- **Traductions équilibrées** : `fr = en = es = 671`.
 - **Difficulté `hard`** renforcée : 42 → **141** au total ; chaque thème a désormais ≥ 8 en `hard`.
+- **Type géo** : 26 → **86** (les nouvelles géo sont « anecdote » et thématisées par sujet).
 
-Lots produits à ce jour : `generated-qcm/lot01-04.json`, `generated-geo/lot01.json`.
+Lots produits à ce jour : `generated-qcm/lot01-04.json`, `generated-geo/lot01-02.json`.
 
 Répartition thème × difficulté (source `check:questions`) :
 
