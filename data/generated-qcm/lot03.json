@@ -1,0 +1,1562 @@
+[
+  {
+    "sourceRef": "4bdd50c5a094960c",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "De quelle boisson chaude le « cappuccino » est-il une variété ?",
+        "options": [
+          "Le thé",
+          "Le café",
+          "Le chocolat",
+          "Le maté"
+        ],
+        "explanation": "Le cappuccino associe un expresso et du lait chaud mousseux ; son nom évoque la robe des moines capucins."
+      },
+      "en": {
+        "text": "Of which hot drink is a 'cappuccino' a variety?",
+        "options": [
+          "Tea",
+          "Coffee",
+          "Chocolate",
+          "Maté"
+        ],
+        "explanation": "A cappuccino combines an espresso with hot frothy milk; its name recalls the robes of Capuchin monks."
+      },
+      "es": {
+        "text": "¿De qué bebida caliente es una variedad el «capuchino»?",
+        "options": [
+          "El té",
+          "El café",
+          "El chocolate",
+          "El mate"
+        ],
+        "explanation": "El capuchino combina un espresso con leche caliente espumada; su nombre evoca el hábito de los monjes capuchinos."
+      }
+    }
+  },
+  {
+    "sourceRef": "42e8995d4f3e9679",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle pâtisserie française en forme de coquillage est associée à Marcel Proust ?",
+        "options": [
+          "La madeleine",
+          "Le macaron",
+          "L'éclair",
+          "Le canelé"
+        ],
+        "explanation": "La madeleine trempée dans le thé déclenche, chez Proust, le célèbre flot de souvenirs de « À la recherche du temps perdu »."
+      },
+      "en": {
+        "text": "Which shell-shaped French cake is associated with Marcel Proust?",
+        "options": [
+          "The madeleine",
+          "The macaron",
+          "The éclair",
+          "The canelé"
+        ],
+        "explanation": "A madeleine dipped in tea triggers, for Proust, the famous rush of memories in 'In Search of Lost Time'."
+      },
+      "es": {
+        "text": "¿Qué bollo francés con forma de concha se asocia con Marcel Proust?",
+        "options": [
+          "La magdalena",
+          "El macaron",
+          "El éclair",
+          "El canelé"
+        ],
+        "explanation": "Una magdalena mojada en té desencadena, en Proust, el famoso torrente de recuerdos de «En busca del tiempo perdido»."
+      }
+    }
+  },
+  {
+    "sourceRef": "48b371cbffe021e1",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "De quel pays le plat « bibimbap » est-il originaire ?",
+        "options": [
+          "La Thaïlande",
+          "Le Vietnam",
+          "La Corée du Sud",
+          "La Chine"
+        ],
+        "explanation": "Le bibimbap est un bol de riz coréen garni de légumes, de viande, d'un œuf et de pâte de piment gochujang."
+      },
+      "en": {
+        "text": "Which country is the dish 'bibimbap' originally from?",
+        "options": [
+          "Thailand",
+          "Vietnam",
+          "South Korea",
+          "China"
+        ],
+        "explanation": "Bibimbap is a Korean rice bowl topped with vegetables, meat, an egg and gochujang chilli paste."
+      },
+      "es": {
+        "text": "¿De qué país es originario el plato «bibimbap»?",
+        "options": [
+          "Tailandia",
+          "Vietnam",
+          "Corea del Sur",
+          "China"
+        ],
+        "explanation": "El bibimbap es un cuenco de arroz coreano con verduras, carne, un huevo y pasta de chile gochujang."
+      }
+    }
+  },
+  {
+    "sourceRef": "78368a970429873d",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel cépage rouge domine le vignoble de Bourgogne, en France ?",
+        "options": [
+          "Le pinot noir",
+          "Le cabernet sauvignon",
+          "Le merlot",
+          "La syrah"
+        ],
+        "explanation": "La Bourgogne rouge repose presque entièrement sur le pinot noir, cépage délicat et exigeant."
+      },
+      "en": {
+        "text": "Which red grape dominates the Burgundy vineyards of France?",
+        "options": [
+          "Pinot noir",
+          "Cabernet Sauvignon",
+          "Merlot",
+          "Syrah"
+        ],
+        "explanation": "Red Burgundy relies almost entirely on Pinot Noir, a delicate and demanding grape."
+      },
+      "es": {
+        "text": "¿Qué uva tinta domina el viñedo de Borgoña, en Francia?",
+        "options": [
+          "La pinot noir",
+          "La cabernet sauvignon",
+          "La merlot",
+          "La syrah"
+        ],
+        "explanation": "El Borgoña tinto se basa casi por completo en la pinot noir, una uva delicada y exigente."
+      }
+    }
+  },
+  {
+    "sourceRef": "0dbdb48dbbe3261c",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel détective créé par Arthur Conan Doyle vit au 221B Baker Street ?",
+        "options": [
+          "Sherlock Holmes",
+          "Hercule Poirot",
+          "Arsène Lupin",
+          "Auguste Dupin"
+        ],
+        "explanation": "Sherlock Holmes, accompagné du Dr Watson, apparaît pour la première fois en 1887."
+      },
+      "en": {
+        "text": "Which detective created by Arthur Conan Doyle lives at 221B Baker Street?",
+        "options": [
+          "Sherlock Holmes",
+          "Hercule Poirot",
+          "Arsène Lupin",
+          "Auguste Dupin"
+        ],
+        "explanation": "Sherlock Holmes, alongside Dr Watson, first appeared in 1887."
+      },
+      "es": {
+        "text": "¿Qué detective creado por Arthur Conan Doyle vive en el 221B de Baker Street?",
+        "options": [
+          "Sherlock Holmes",
+          "Hercule Poirot",
+          "Arsène Lupin",
+          "Auguste Dupin"
+        ],
+        "explanation": "Sherlock Holmes, junto al Dr. Watson, apareció por primera vez en 1887."
+      }
+    }
+  },
+  {
+    "sourceRef": "4b2b42133935230b",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel roman de George Orwell met en scène « Big Brother » et une société sous surveillance ?",
+        "options": [
+          "1984",
+          "Le Meilleur des mondes",
+          "Fahrenheit 451",
+          "La Ferme des animaux"
+        ],
+        "explanation": "Publié en 1949, « 1984 » a popularisé les notions de « Big Brother » et de « novlangue »."
+      },
+      "en": {
+        "text": "Which George Orwell novel features 'Big Brother' and a society under surveillance?",
+        "options": [
+          "1984",
+          "Brave New World",
+          "Fahrenheit 451",
+          "Animal Farm"
+        ],
+        "explanation": "Published in 1949, '1984' popularized the ideas of 'Big Brother' and 'Newspeak'."
+      },
+      "es": {
+        "text": "¿Qué novela de George Orwell presenta al «Gran Hermano» y una sociedad bajo vigilancia?",
+        "options": [
+          "1984",
+          "Un mundo feliz",
+          "Fahrenheit 451",
+          "Rebelión en la granja"
+        ],
+        "explanation": "Publicada en 1949, «1984» popularizó las nociones de «Gran Hermano» y «neolengua»."
+      }
+    }
+  },
+  {
+    "sourceRef": "d84f5ce32ca5eb3e",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel dramaturge français du XVIIe siècle a écrit « Le Malade imaginaire » ?",
+        "options": [
+          "Racine",
+          "Corneille",
+          "Molière",
+          "Beaumarchais"
+        ],
+        "explanation": "Molière s'effondra sur scène lors de la quatrième représentation du « Malade imaginaire » en 1673 et mourut peu après."
+      },
+      "en": {
+        "text": "Which 17th-century French playwright wrote 'The Imaginary Invalid'?",
+        "options": [
+          "Racine",
+          "Corneille",
+          "Molière",
+          "Beaumarchais"
+        ],
+        "explanation": "Molière collapsed on stage during the fourth performance of 'The Imaginary Invalid' in 1673 and died soon after."
+      },
+      "es": {
+        "text": "¿Qué dramaturgo francés del siglo XVII escribió «El enfermo imaginario»?",
+        "options": [
+          "Racine",
+          "Corneille",
+          "Molière",
+          "Beaumarchais"
+        ],
+        "explanation": "Molière se desplomó en escena durante la cuarta función de «El enfermo imaginario» en 1673 y murió poco después."
+      }
+    }
+  },
+  {
+    "sourceRef": "ed08be0ee1adc1c0",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle poétesse américaine du XIXe siècle, à peine publiée de son vivant, est célèbre pour ses vers brefs et ses tirets ?",
+        "options": [
+          "Sylvia Plath",
+          "Virginia Woolf",
+          "Louisa May Alcott",
+          "Emily Dickinson"
+        ],
+        "explanation": "Emily Dickinson écrivit près de 1 800 poèmes, dont moins d'une douzaine parurent de son vivant."
+      },
+      "en": {
+        "text": "Which 19th-century American poet, barely published in her lifetime, is famous for her short lines and dashes?",
+        "options": [
+          "Sylvia Plath",
+          "Virginia Woolf",
+          "Louisa May Alcott",
+          "Emily Dickinson"
+        ],
+        "explanation": "Emily Dickinson wrote nearly 1,800 poems, fewer than a dozen of which appeared in her lifetime."
+      },
+      "es": {
+        "text": "¿Qué poetisa estadounidense del siglo XIX, apenas publicada en vida, es célebre por sus versos breves y sus guiones?",
+        "options": [
+          "Sylvia Plath",
+          "Virginia Woolf",
+          "Louisa May Alcott",
+          "Emily Dickinson"
+        ],
+        "explanation": "Emily Dickinson escribió casi 1800 poemas, de los cuales menos de una docena se publicaron en vida."
+      }
+    }
+  },
+  {
+    "sourceRef": "2079a3cb43fe3d9a",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel ustensile un peintre utilise-t-il pour mélanger ses couleurs ?",
+        "options": [
+          "Le chevalet",
+          "La palette",
+          "Le pinceau",
+          "Le fusain"
+        ],
+        "explanation": "La palette permet de disposer et mélanger les couleurs avant de les appliquer sur la toile."
+      },
+      "en": {
+        "text": "Which tool does a painter use to mix their colours?",
+        "options": [
+          "The easel",
+          "The palette",
+          "The brush",
+          "The charcoal"
+        ],
+        "explanation": "The palette is used to lay out and mix colours before applying them to the canvas."
+      },
+      "es": {
+        "text": "¿Qué utensilio usa un pintor para mezclar sus colores?",
+        "options": [
+          "El caballete",
+          "La paleta",
+          "El pincel",
+          "El carboncillo"
+        ],
+        "explanation": "La paleta sirve para disponer y mezclar los colores antes de aplicarlos al lienzo."
+      }
+    }
+  },
+  {
+    "sourceRef": "59f48af455c9e807",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre norvégien a réalisé « Le Cri » ?",
+        "options": [
+          "Gustav Klimt",
+          "Egon Schiele",
+          "Edvard Munch",
+          "Edgar Degas"
+        ],
+        "explanation": "« Le Cri » (1893) est devenu une icône universelle de l'angoisse existentielle."
+      },
+      "en": {
+        "text": "Which Norwegian painter created 'The Scream'?",
+        "options": [
+          "Gustav Klimt",
+          "Egon Schiele",
+          "Edvard Munch",
+          "Edgar Degas"
+        ],
+        "explanation": "'The Scream' (1893) has become a universal icon of existential anguish."
+      },
+      "es": {
+        "text": "¿Qué pintor noruego creó «El grito»?",
+        "options": [
+          "Gustav Klimt",
+          "Egon Schiele",
+          "Edvard Munch",
+          "Edgar Degas"
+        ],
+        "explanation": "«El grito» (1893) se ha convertido en un icono universal de la angustia existencial."
+      }
+    }
+  },
+  {
+    "sourceRef": "e1be60acd440be88",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel architecte catalan a conçu la basilique de la Sagrada Família à Barcelone ?",
+        "options": [
+          "Antoni Gaudí",
+          "Le Corbusier",
+          "Frank Lloyd Wright",
+          "Santiago Calatrava"
+        ],
+        "explanation": "Commencée en 1882, la Sagrada Família de Gaudí n'est toujours pas achevée à ce jour."
+      },
+      "en": {
+        "text": "Which Catalan architect designed the Sagrada Família basilica in Barcelona?",
+        "options": [
+          "Antoni Gaudí",
+          "Le Corbusier",
+          "Frank Lloyd Wright",
+          "Santiago Calatrava"
+        ],
+        "explanation": "Begun in 1882, Gaudí's Sagrada Família is still unfinished to this day."
+      },
+      "es": {
+        "text": "¿Qué arquitecto catalán diseñó la basílica de la Sagrada Familia en Barcelona?",
+        "options": [
+          "Antoni Gaudí",
+          "Le Corbusier",
+          "Frank Lloyd Wright",
+          "Santiago Calatrava"
+        ],
+        "explanation": "Comenzada en 1882, la Sagrada Familia de Gaudí sigue sin terminarse hasta hoy."
+      }
+    }
+  },
+  {
+    "sourceRef": "aff2d09461da3fef",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle technique de peinture consiste à appliquer des pigments sur un enduit de chaux encore frais ?",
+        "options": [
+          "L'aquarelle",
+          "Le pastel",
+          "La gouache",
+          "La fresque"
+        ],
+        "explanation": "Dans la fresque, les pigments pénètrent l'enduit humide et deviennent indélébiles en séchant."
+      },
+      "en": {
+        "text": "Which painting technique applies pigments onto still-fresh lime plaster?",
+        "options": [
+          "Watercolour",
+          "Pastel",
+          "Gouache",
+          "Fresco"
+        ],
+        "explanation": "In fresco, pigments soak into the wet plaster and become permanent as it dries."
+      },
+      "es": {
+        "text": "¿Qué técnica de pintura aplica pigmentos sobre un enlucido de cal aún fresco?",
+        "options": [
+          "La acuarela",
+          "El pastel",
+          "La aguada",
+          "El fresco"
+        ],
+        "explanation": "En el fresco, los pigmentos penetran en el enlucido húmedo y se vuelven permanentes al secar."
+      }
+    }
+  },
+  {
+    "sourceRef": "1095d735f64091a3",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Combien d'anneaux entrelacés figurent sur le drapeau olympique ?",
+        "options": [
+          "4",
+          "6",
+          "5",
+          "3"
+        ],
+        "explanation": "Les cinq anneaux symbolisent l'union des cinq continents."
+      },
+      "en": {
+        "text": "How many interlocking rings appear on the Olympic flag?",
+        "options": [
+          "4",
+          "6",
+          "5",
+          "3"
+        ],
+        "explanation": "The five rings symbolize the union of the five continents."
+      },
+      "es": {
+        "text": "¿Cuántos anillos entrelazados figuran en la bandera olímpica?",
+        "options": [
+          "4",
+          "6",
+          "5",
+          "3"
+        ],
+        "explanation": "Los cinco anillos simbolizan la unión de los cinco continentes."
+      }
+    }
+  },
+  {
+    "sourceRef": "c4e1c537b90026e6",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport utilise-t-on un « green », un « fairway » et un « bunker » ?",
+        "options": [
+          "Le cricket",
+          "Le golf",
+          "Le polo",
+          "Le baseball"
+        ],
+        "explanation": "Ces termes désignent les différentes zones d'un parcours de golf."
+      },
+      "en": {
+        "text": "In which sport do you find a 'green', a 'fairway' and a 'bunker'?",
+        "options": [
+          "Cricket",
+          "Golf",
+          "Polo",
+          "Baseball"
+        ],
+        "explanation": "These terms name the different areas of a golf course."
+      },
+      "es": {
+        "text": "¿En qué deporte se usan un «green», una «calle» y un «búnker»?",
+        "options": [
+          "El críquet",
+          "El golf",
+          "El polo",
+          "El béisbol"
+        ],
+        "explanation": "Estos términos designan las distintas zonas de un campo de golf."
+      }
+    }
+  },
+  {
+    "sourceRef": "686d657cceefea09",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel boxeur américain se surnommait lui-même « The Greatest » ?",
+        "options": [
+          "Mike Tyson",
+          "Joe Frazier",
+          "Muhammad Ali",
+          "Floyd Mayweather"
+        ],
+        "explanation": "Muhammad Ali, triple champion du monde des lourds, refusa la guerre du Vietnam au sommet de sa carrière."
+      },
+      "en": {
+        "text": "Which American boxer called himself 'The Greatest'?",
+        "options": [
+          "Mike Tyson",
+          "Joe Frazier",
+          "Muhammad Ali",
+          "Floyd Mayweather"
+        ],
+        "explanation": "Muhammad Ali, three-time heavyweight world champion, refused the Vietnam War at the peak of his career."
+      },
+      "es": {
+        "text": "¿Qué boxeador estadounidense se autoproclamaba «The Greatest»?",
+        "options": [
+          "Mike Tyson",
+          "Joe Frazier",
+          "Muhammad Ali",
+          "Floyd Mayweather"
+        ],
+        "explanation": "Muhammad Ali, tres veces campeón mundial de los pesados, rechazó la guerra de Vietnam en la cima de su carrera."
+      }
+    }
+  },
+  {
+    "sourceRef": "410e92fdbbafc70b",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de temps dure le temps réglementaire d'un match de rugby à XV ?",
+        "options": [
+          "90 minutes",
+          "60 minutes",
+          "70 minutes",
+          "80 minutes"
+        ],
+        "explanation": "Un match de rugby à XV se joue en deux mi-temps de 40 minutes."
+      },
+      "en": {
+        "text": "How long is the regulation time of a rugby union match?",
+        "options": [
+          "90 minutes",
+          "60 minutes",
+          "70 minutes",
+          "80 minutes"
+        ],
+        "explanation": "A rugby union match is played in two halves of 40 minutes."
+      },
+      "es": {
+        "text": "¿Cuánto dura el tiempo reglamentario de un partido de rugby a XV?",
+        "options": [
+          "90 minutos",
+          "60 minutos",
+          "70 minutos",
+          "80 minutos"
+        ],
+        "explanation": "Un partido de rugby a XV se juega en dos tiempos de 40 minutos."
+      }
+    }
+  },
+  {
+    "sourceRef": "d6828c9cf2fc42a4",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel navigateur portugais a mené la première expédition à faire le tour du monde, achevée en 1522 ?",
+        "options": [
+          "Vasco de Gama",
+          "Fernand de Magellan",
+          "Christophe Colomb",
+          "Bartolomeu Dias"
+        ],
+        "explanation": "Magellan lança l'expédition en 1519 mais mourut en route ; Juan Sebastián Elcano la termina en 1522."
+      },
+      "en": {
+        "text": "Which Portuguese navigator led the first expedition to circle the globe, completed in 1522?",
+        "options": [
+          "Vasco da Gama",
+          "Ferdinand Magellan",
+          "Christopher Columbus",
+          "Bartolomeu Dias"
+        ],
+        "explanation": "Magellan launched the expedition in 1519 but died en route; Juan Sebastián Elcano completed it in 1522."
+      },
+      "es": {
+        "text": "¿Qué navegante portugués dirigió la primera expedición que dio la vuelta al mundo, completada en 1522?",
+        "options": [
+          "Vasco de Gama",
+          "Fernando de Magallanes",
+          "Cristóbal Colón",
+          "Bartolomeu Dias"
+        ],
+        "explanation": "Magallanes inició la expedición en 1519 pero murió en el camino; Juan Sebastián Elcano la completó en 1522."
+      }
+    }
+  },
+  {
+    "sourceRef": "e239800262828a42",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle reine d'Égypte s'allia à Jules César puis à Marc Antoine ?",
+        "options": [
+          "Cléopâtre",
+          "Néfertiti",
+          "Hatchepsout",
+          "Néfertari"
+        ],
+        "explanation": "Cléopâtre VII fut la dernière souveraine de l'Égypte ptolémaïque, morte en 30 av. J.-C."
+      },
+      "en": {
+        "text": "Which queen of Egypt allied with Julius Caesar and then Mark Antony?",
+        "options": [
+          "Cleopatra",
+          "Nefertiti",
+          "Hatshepsut",
+          "Nefertari"
+        ],
+        "explanation": "Cleopatra VII was the last ruler of Ptolemaic Egypt, who died in 30 BC."
+      },
+      "es": {
+        "text": "¿Qué reina de Egipto se alió con Julio César y luego con Marco Antonio?",
+        "options": [
+          "Cleopatra",
+          "Nefertiti",
+          "Hatshepsut",
+          "Nefertari"
+        ],
+        "explanation": "Cleopatra VII fue la última soberana del Egipto ptolemaico, muerta en el 30 a. C."
+      }
+    }
+  },
+  {
+    "sourceRef": "d112336d2a72e4ee",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel roi de France est surnommé le « Roi-Soleil » ?",
+        "options": [
+          "Louis XVI",
+          "François Ier",
+          "Louis XIV",
+          "Henri IV"
+        ],
+        "explanation": "Louis XIV régna 72 ans et fit construire le château de Versailles."
+      },
+      "en": {
+        "text": "Which king of France is nicknamed the 'Sun King'?",
+        "options": [
+          "Louis XVI",
+          "Francis I",
+          "Louis XIV",
+          "Henry IV"
+        ],
+        "explanation": "Louis XIV reigned for 72 years and had the Palace of Versailles built."
+      },
+      "es": {
+        "text": "¿Qué rey de Francia es apodado el «Rey Sol»?",
+        "options": [
+          "Luis XVI",
+          "Francisco I",
+          "Luis XIV",
+          "Enrique IV"
+        ],
+        "explanation": "Luis XIV reinó 72 años y mandó construir el palacio de Versalles."
+      }
+    }
+  },
+  {
+    "sourceRef": "705e80ee56bedfa0",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel scientifique a proposé la théorie de l'évolution par sélection naturelle ?",
+        "options": [
+          "Gregor Mendel",
+          "Charles Darwin",
+          "Louis Pasteur",
+          "Carl von Linné"
+        ],
+        "explanation": "Darwin exposa sa théorie dans « De l'origine des espèces » en 1859."
+      },
+      "en": {
+        "text": "Which scientist proposed the theory of evolution by natural selection?",
+        "options": [
+          "Gregor Mendel",
+          "Charles Darwin",
+          "Louis Pasteur",
+          "Carl Linnaeus"
+        ],
+        "explanation": "Darwin set out his theory in 'On the Origin of Species' in 1859."
+      },
+      "es": {
+        "text": "¿Qué científico propuso la teoría de la evolución por selección natural?",
+        "options": [
+          "Gregor Mendel",
+          "Charles Darwin",
+          "Louis Pasteur",
+          "Carlos Linneo"
+        ],
+        "explanation": "Darwin expuso su teoría en «El origen de las especies» en 1859."
+      }
+    }
+  },
+  {
+    "sourceRef": "f12dc68c251c26ba",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel est le symbole chimique de l'or ?",
+        "options": [
+          "Ag",
+          "Fe",
+          "Au",
+          "Pb"
+        ],
+        "explanation": "Le symbole « Au » vient du latin « aurum », qui signifie or."
+      },
+      "en": {
+        "text": "What is the chemical symbol for gold?",
+        "options": [
+          "Ag",
+          "Fe",
+          "Au",
+          "Pb"
+        ],
+        "explanation": "The symbol 'Au' comes from the Latin 'aurum', meaning gold."
+      },
+      "es": {
+        "text": "¿Cuál es el símbolo químico del oro?",
+        "options": [
+          "Ag",
+          "Fe",
+          "Au",
+          "Pb"
+        ],
+        "explanation": "El símbolo «Au» proviene del latín «aurum», que significa oro."
+      }
+    }
+  },
+  {
+    "sourceRef": "2f09b0ea0cef7c46",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de temps la lumière du Soleil met-elle environ à atteindre la Terre ?",
+        "options": [
+          "8 secondes",
+          "1 heure",
+          "1 minute",
+          "8 minutes"
+        ],
+        "explanation": "La lumière du Soleil met environ 8 minutes et 20 secondes à parcourir les 150 millions de km jusqu'à la Terre."
+      },
+      "en": {
+        "text": "Roughly how long does sunlight take to reach the Earth?",
+        "options": [
+          "8 seconds",
+          "1 hour",
+          "1 minute",
+          "8 minutes"
+        ],
+        "explanation": "Sunlight takes about 8 minutes and 20 seconds to travel the 150 million km to Earth."
+      },
+      "es": {
+        "text": "¿Cuánto tarda aproximadamente la luz del Sol en llegar a la Tierra?",
+        "options": [
+          "8 segundos",
+          "1 hora",
+          "1 minuto",
+          "8 minutos"
+        ],
+        "explanation": "La luz del Sol tarda unos 8 minutos y 20 segundos en recorrer los 150 millones de km hasta la Tierra."
+      }
+    }
+  },
+  {
+    "sourceRef": "6e631bdcdad4bc9e",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Sur quel continent se trouve le désert du Sahara ?",
+        "options": [
+          "L'Afrique",
+          "L'Asie",
+          "L'Amérique du Sud",
+          "L'Océanie"
+        ],
+        "explanation": "Le Sahara traverse une dizaine de pays du nord de l'Afrique."
+      },
+      "en": {
+        "text": "On which continent is the Sahara Desert located?",
+        "options": [
+          "Africa",
+          "Asia",
+          "South America",
+          "Oceania"
+        ],
+        "explanation": "The Sahara stretches across about ten countries in northern Africa."
+      },
+      "es": {
+        "text": "¿En qué continente se encuentra el desierto del Sahara?",
+        "options": [
+          "África",
+          "Asia",
+          "América del Sur",
+          "Oceanía"
+        ],
+        "explanation": "El Sahara atraviesa una decena de países del norte de África."
+      }
+    }
+  },
+  {
+    "sourceRef": "e1632928e7bf7657",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la capitale de l'Australie ?",
+        "options": [
+          "Sydney",
+          "Canberra",
+          "Melbourne",
+          "Perth"
+        ],
+        "explanation": "Canberra fut créée de toutes pièces comme capitale en 1913, pour éviter la rivalité entre Sydney et Melbourne."
+      },
+      "en": {
+        "text": "What is the capital of Australia?",
+        "options": [
+          "Sydney",
+          "Canberra",
+          "Melbourne",
+          "Perth"
+        ],
+        "explanation": "Canberra was purpose-built as the capital in 1913, to avoid rivalry between Sydney and Melbourne."
+      },
+      "es": {
+        "text": "¿Cuál es la capital de Australia?",
+        "options": [
+          "Sídney",
+          "Canberra",
+          "Melbourne",
+          "Perth"
+        ],
+        "explanation": "Canberra fue creada expresamente como capital en 1913, para evitar la rivalidad entre Sídney y Melbourne."
+      }
+    }
+  },
+  {
+    "sourceRef": "e9f6c9947c0a8c0f",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel détroit sépare l'Europe de l'Afrique entre l'Espagne et le Maroc ?",
+        "options": [
+          "Le Bosphore",
+          "Le détroit de Malacca",
+          "Le détroit de Gibraltar",
+          "Le détroit de Béring"
+        ],
+        "explanation": "Le détroit de Gibraltar ne fait que 14 km de large en son point le plus étroit."
+      },
+      "en": {
+        "text": "Which strait separates Europe from Africa, between Spain and Morocco?",
+        "options": [
+          "The Bosphorus",
+          "The Strait of Malacca",
+          "The Strait of Gibraltar",
+          "The Bering Strait"
+        ],
+        "explanation": "The Strait of Gibraltar is only 14 km wide at its narrowest point."
+      },
+      "es": {
+        "text": "¿Qué estrecho separa Europa de África, entre España y Marruecos?",
+        "options": [
+          "El Bósforo",
+          "El estrecho de Malaca",
+          "El estrecho de Gibraltar",
+          "El estrecho de Bering"
+        ],
+        "explanation": "El estrecho de Gibraltar mide solo 14 km en su punto más estrecho."
+      }
+    }
+  },
+  {
+    "sourceRef": "0bb55503194f8afa",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument possède 88 touches noires et blanches ?",
+        "options": [
+          "Le piano",
+          "Le violon",
+          "La flûte",
+          "La trompette"
+        ],
+        "explanation": "Un piano standard compte 88 touches, 52 blanches et 36 noires."
+      },
+      "en": {
+        "text": "Which instrument has 88 black and white keys?",
+        "options": [
+          "The piano",
+          "The violin",
+          "The flute",
+          "The trumpet"
+        ],
+        "explanation": "A standard piano has 88 keys, 52 white and 36 black."
+      },
+      "es": {
+        "text": "¿Qué instrumento tiene 88 teclas blancas y negras?",
+        "options": [
+          "El piano",
+          "El violín",
+          "La flauta",
+          "La trompeta"
+        ],
+        "explanation": "Un piano estándar tiene 88 teclas, 52 blancas y 36 negras."
+      }
+    }
+  },
+  {
+    "sourceRef": "baf497efcc1bba4b",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel chanteur américain est surnommé le « King of Pop » ?",
+        "options": [
+          "Elvis Presley",
+          "Michael Jackson",
+          "Prince",
+          "Freddie Mercury"
+        ],
+        "explanation": "Son album « Thriller » (1982) reste l'un des plus vendus de tous les temps."
+      },
+      "en": {
+        "text": "Which American singer is nicknamed the 'King of Pop'?",
+        "options": [
+          "Elvis Presley",
+          "Michael Jackson",
+          "Prince",
+          "Freddie Mercury"
+        ],
+        "explanation": "His album 'Thriller' (1982) remains one of the best-selling of all time."
+      },
+      "es": {
+        "text": "¿Qué cantante estadounidense es apodado el «Rey del Pop»?",
+        "options": [
+          "Elvis Presley",
+          "Michael Jackson",
+          "Prince",
+          "Freddie Mercury"
+        ],
+        "explanation": "Su álbum «Thriller» (1982) sigue siendo uno de los más vendidos de la historia."
+      }
+    }
+  },
+  {
+    "sourceRef": "3c0f7ee2db38a89a",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Combien de symphonies Ludwig van Beethoven a-t-il achevées ?",
+        "options": [
+          "5",
+          "7",
+          "9",
+          "12"
+        ],
+        "explanation": "Beethoven acheva neuf symphonies ; la Neuvième introduisit un chœur, ce qui était inédit."
+      },
+      "en": {
+        "text": "How many symphonies did Ludwig van Beethoven complete?",
+        "options": [
+          "5",
+          "7",
+          "9",
+          "12"
+        ],
+        "explanation": "Beethoven completed nine symphonies; the Ninth introduced a choir, which was unprecedented."
+      },
+      "es": {
+        "text": "¿Cuántas sinfonías completó Ludwig van Beethoven?",
+        "options": [
+          "5",
+          "7",
+          "9",
+          "12"
+        ],
+        "explanation": "Beethoven completó nueve sinfonías; la Novena introdujo un coro, algo sin precedentes."
+      }
+    }
+  },
+  {
+    "sourceRef": "8dbd7c520ccf1f65",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel personnage d'animation est une souris créée par Walt Disney en 1928 ?",
+        "options": [
+          "Mickey Mouse",
+          "Bugs Bunny",
+          "Tom",
+          "Jerry"
+        ],
+        "explanation": "Mickey apparut pour la première fois dans le court-métrage « Steamboat Willie » en 1928."
+      },
+      "en": {
+        "text": "Which animated character is a mouse created by Walt Disney in 1928?",
+        "options": [
+          "Mickey Mouse",
+          "Bugs Bunny",
+          "Tom",
+          "Jerry"
+        ],
+        "explanation": "Mickey first appeared in the short film 'Steamboat Willie' in 1928."
+      },
+      "es": {
+        "text": "¿Qué personaje de animación es un ratón creado por Walt Disney en 1928?",
+        "options": [
+          "Mickey Mouse",
+          "Bugs Bunny",
+          "Tom",
+          "Jerry"
+        ],
+        "explanation": "Mickey apareció por primera vez en el cortometraje «Steamboat Willie» en 1928."
+      }
+    }
+  },
+  {
+    "sourceRef": "863dcaa1fb52fc4f",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel film de 1972 de Francis Ford Coppola raconte l'histoire d'une famille mafieuse italo-américaine ?",
+        "options": [
+          "Les Affranchis",
+          "Le Parrain",
+          "Scarface",
+          "Casino"
+        ],
+        "explanation": "« Le Parrain » remporta l'Oscar du meilleur film et lança la carrière d'Al Pacino."
+      },
+      "en": {
+        "text": "Which 1972 Francis Ford Coppola film tells the story of an Italian-American mafia family?",
+        "options": [
+          "Goodfellas",
+          "The Godfather",
+          "Scarface",
+          "Casino"
+        ],
+        "explanation": "'The Godfather' won the Best Picture Oscar and launched Al Pacino's career."
+      },
+      "es": {
+        "text": "¿Qué película de 1972 de Francis Ford Coppola cuenta la historia de una familia mafiosa italoamericana?",
+        "options": [
+          "Uno de los nuestros",
+          "El padrino",
+          "Scarface",
+          "Casino"
+        ],
+        "explanation": "«El padrino» ganó el Óscar a la mejor película y lanzó la carrera de Al Pacino."
+      }
+    }
+  },
+  {
+    "sourceRef": "8ca335e9fc66dfba",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel réalisateur japonais est célèbre pour « Les Sept Samouraïs » (1954) ?",
+        "options": [
+          "Hayao Miyazaki",
+          "Yasujirō Ozu",
+          "Takeshi Kitano",
+          "Akira Kurosawa"
+        ],
+        "explanation": "« Les Sept Samouraïs » a inspiré de nombreux remakes, dont le western « Les Sept Mercenaires »."
+      },
+      "en": {
+        "text": "Which Japanese director is famous for 'Seven Samurai' (1954)?",
+        "options": [
+          "Hayao Miyazaki",
+          "Yasujirō Ozu",
+          "Takeshi Kitano",
+          "Akira Kurosawa"
+        ],
+        "explanation": "'Seven Samurai' inspired many remakes, including the western 'The Magnificent Seven'."
+      },
+      "es": {
+        "text": "¿Qué director japonés es célebre por «Los siete samuráis» (1954)?",
+        "options": [
+          "Hayao Miyazaki",
+          "Yasujirō Ozu",
+          "Takeshi Kitano",
+          "Akira Kurosawa"
+        ],
+        "explanation": "«Los siete samuráis» inspiró muchos remakes, incluido el wéstern «Los siete magníficos»."
+      }
+    }
+  },
+  {
+    "sourceRef": "158a3f1636c4faaa",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus grand félin sauvage du monde ?",
+        "options": [
+          "Le lion",
+          "Le jaguar",
+          "Le tigre",
+          "Le léopard"
+        ],
+        "explanation": "Le tigre de Sibérie peut peser plus de 300 kg."
+      },
+      "en": {
+        "text": "What is the largest wild cat in the world?",
+        "options": [
+          "The lion",
+          "The jaguar",
+          "The tiger",
+          "The leopard"
+        ],
+        "explanation": "The Siberian tiger can weigh over 300 kg."
+      },
+      "es": {
+        "text": "¿Cuál es el felino salvaje más grande del mundo?",
+        "options": [
+          "El león",
+          "El jaguar",
+          "El tigre",
+          "El leopardo"
+        ],
+        "explanation": "El tigre siberiano puede pesar más de 300 kg."
+      }
+    }
+  },
+  {
+    "sourceRef": "0562bbb433170929",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel animal marin possède trois cœurs et un sang bleu ?",
+        "options": [
+          "Le requin",
+          "La pieuvre",
+          "La méduse",
+          "Le dauphin"
+        ],
+        "explanation": "Le sang de la pieuvre est bleu car il transporte l'oxygène grâce au cuivre (hémocyanine), et non au fer."
+      },
+      "en": {
+        "text": "Which sea creature has three hearts and blue blood?",
+        "options": [
+          "The shark",
+          "The octopus",
+          "The jellyfish",
+          "The dolphin"
+        ],
+        "explanation": "The octopus's blood is blue because it carries oxygen using copper (hemocyanin), not iron."
+      },
+      "es": {
+        "text": "¿Qué animal marino tiene tres corazones y sangre azul?",
+        "options": [
+          "El tiburón",
+          "El pulpo",
+          "La medusa",
+          "El delfín"
+        ],
+        "explanation": "La sangre del pulpo es azul porque transporta oxígeno mediante cobre (hemocianina), no hierro."
+      }
+    }
+  },
+  {
+    "sourceRef": "e0291b253ba47026",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus grand reptile vivant du monde ?",
+        "options": [
+          "Le dragon de Komodo",
+          "L'anaconda",
+          "La tortue géante",
+          "Le crocodile marin"
+        ],
+        "explanation": "Le crocodile marin peut dépasser 6 mètres de long."
+      },
+      "en": {
+        "text": "What is the largest living reptile in the world?",
+        "options": [
+          "The Komodo dragon",
+          "The anaconda",
+          "The giant tortoise",
+          "The saltwater crocodile"
+        ],
+        "explanation": "The saltwater crocodile can exceed 6 metres in length."
+      },
+      "es": {
+        "text": "¿Cuál es el reptil vivo más grande del mundo?",
+        "options": [
+          "El dragón de Komodo",
+          "La anaconda",
+          "La tortuga gigante",
+          "El cocodrilo marino"
+        ],
+        "explanation": "El cocodrilo marino puede superar los 6 metros de longitud."
+      }
+    }
+  },
+  {
+    "sourceRef": "c9530ecedd81ef08",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle société a développé le moteur de recherche le plus utilisé au monde ?",
+        "options": [
+          "Google",
+          "Yahoo",
+          "Microsoft",
+          "Amazon"
+        ],
+        "explanation": "Google fut fondé en 1998 par Larry Page et Sergueï Brin dans un garage californien."
+      },
+      "en": {
+        "text": "Which company developed the most-used search engine in the world?",
+        "options": [
+          "Google",
+          "Yahoo",
+          "Microsoft",
+          "Amazon"
+        ],
+        "explanation": "Google was founded in 1998 by Larry Page and Sergey Brin in a Californian garage."
+      },
+      "es": {
+        "text": "¿Qué empresa desarrolló el motor de búsqueda más usado del mundo?",
+        "options": [
+          "Google",
+          "Yahoo",
+          "Microsoft",
+          "Amazon"
+        ],
+        "explanation": "Google fue fundado en 1998 por Larry Page y Sergey Brin en un garaje californiano."
+      }
+    }
+  },
+  {
+    "sourceRef": "b20fa098c7c0e8b4",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel système de numération n'utilise que les chiffres 0 et 1 ?",
+        "options": [
+          "Le décimal",
+          "L'hexadécimal",
+          "Le binaire",
+          "L'octal"
+        ],
+        "explanation": "Le binaire est la base de tout ordinateur : chaque bit vaut 0 ou 1."
+      },
+      "en": {
+        "text": "Which number system uses only the digits 0 and 1?",
+        "options": [
+          "Decimal",
+          "Hexadecimal",
+          "Binary",
+          "Octal"
+        ],
+        "explanation": "Binary is the foundation of every computer: each bit is 0 or 1."
+      },
+      "es": {
+        "text": "¿Qué sistema de numeración usa solo los dígitos 0 y 1?",
+        "options": [
+          "El decimal",
+          "El hexadecimal",
+          "El binario",
+          "El octal"
+        ],
+        "explanation": "El binario es la base de todo ordenador: cada bit vale 0 o 1."
+      }
+    }
+  },
+  {
+    "sourceRef": "7f0282f23c1b46c4",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "En quelle année le premier iPhone a-t-il été lancé ?",
+        "options": [
+          "2005",
+          "2007",
+          "2010",
+          "2003"
+        ],
+        "explanation": "Steve Jobs présenta le premier iPhone en janvier 2007 ; il fut commercialisé la même année."
+      },
+      "en": {
+        "text": "In which year was the first iPhone launched?",
+        "options": [
+          "2005",
+          "2007",
+          "2010",
+          "2003"
+        ],
+        "explanation": "Steve Jobs unveiled the first iPhone in January 2007; it went on sale the same year."
+      },
+      "es": {
+        "text": "¿En qué año se lanzó el primer iPhone?",
+        "options": [
+          "2005",
+          "2007",
+          "2010",
+          "2003"
+        ],
+        "explanation": "Steve Jobs presentó el primer iPhone en enero de 2007; salió a la venta ese mismo año."
+      }
+    }
+  },
+  {
+    "sourceRef": "85561d405841e5e9",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Combien de côtés possède un hexagone ?",
+        "options": [
+          "5",
+          "7",
+          "6",
+          "8"
+        ],
+        "explanation": "Un hexagone a six côtés ; la France est surnommée « l'Hexagone » pour sa forme."
+      },
+      "en": {
+        "text": "How many sides does a hexagon have?",
+        "options": [
+          "5",
+          "7",
+          "6",
+          "8"
+        ],
+        "explanation": "A hexagon has six sides; France is nicknamed 'the Hexagon' for its shape."
+      },
+      "es": {
+        "text": "¿Cuántos lados tiene un hexágono?",
+        "options": [
+          "5",
+          "7",
+          "6",
+          "8"
+        ],
+        "explanation": "Un hexágono tiene seis lados; a Francia la apodan «el Hexágono» por su forma."
+      }
+    }
+  },
+  {
+    "sourceRef": "d6d87e59c0e4cfb4",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la langue la plus parlée au monde comme langue maternelle ?",
+        "options": [
+          "L'anglais",
+          "Le mandarin",
+          "L'espagnol",
+          "L'hindi"
+        ],
+        "explanation": "Le mandarin compte le plus de locuteurs natifs, devant l'espagnol et l'anglais."
+      },
+      "en": {
+        "text": "Which language has the most native speakers in the world?",
+        "options": [
+          "English",
+          "Mandarin Chinese",
+          "Spanish",
+          "Hindi"
+        ],
+        "explanation": "Mandarin has the most native speakers, ahead of Spanish and English."
+      },
+      "es": {
+        "text": "¿Cuál es la lengua más hablada del mundo como lengua materna?",
+        "options": [
+          "El inglés",
+          "El chino mandarín",
+          "El español",
+          "El hindi"
+        ],
+        "explanation": "El mandarín tiene el mayor número de hablantes nativos, por delante del español y el inglés."
+      }
+    }
+  },
+  {
+    "sourceRef": "0123d3f8fccdf990",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de couleurs compte un arc-en-ciel selon la tradition occidentale ?",
+        "options": [
+          "6",
+          "5",
+          "9",
+          "7"
+        ],
+        "explanation": "Newton distingua sept couleurs : rouge, orange, jaune, vert, bleu, indigo et violet."
+      },
+      "en": {
+        "text": "How many colours does a rainbow have in the Western tradition?",
+        "options": [
+          "6",
+          "5",
+          "9",
+          "7"
+        ],
+        "explanation": "Newton identified seven colours: red, orange, yellow, green, blue, indigo and violet."
+      },
+      "es": {
+        "text": "¿Cuántos colores tiene un arcoíris según la tradición occidental?",
+        "options": [
+          "6",
+          "5",
+          "9",
+          "7"
+        ],
+        "explanation": "Newton distinguió siete colores: rojo, naranja, amarillo, verde, azul, índigo y violeta."
+      }
+    }
+  }
+]

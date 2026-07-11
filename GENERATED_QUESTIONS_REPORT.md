@@ -30,11 +30,13 @@ entre langues).
   l'énoncé, et **rattachée à un thème** (histoire, art, sport, science…) pour un
   futur filtrage par thème.
 
-## 2. État actuel (après vagues 1)
+## 2. État actuel (vagues en cours)
 
-- **Questions générées et insérées : 110** (2 lots QCM = 80 + 1 lot Géo = 30).
-- **Total en base : 561** questions (les ~451 préexistantes sont conservées).
-- **Traductions équilibrées** : `fr = en = es = 561`.
+- **Questions générées et insérées : 150** (3 lots QCM = 120 + 1 lot Géo = 30).
+- **Total en base : 601** questions (les ~451 préexistantes sont conservées).
+- **Traductions équilibrées** : `fr = en = es = 601`.
+
+Lots produits à ce jour : `generated-qcm/lot01-03.json`, `generated-geo/lot01.json`.
 
 Répartition thème × difficulté (source `check:questions`) :
 
