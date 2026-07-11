@@ -1,0 +1,842 @@
+[
+  {
+    "sourceRef": "8f7485fbcd942e7d",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "translations": {
+      "fr": {
+        "text": "Où s'est déroulée la prise de la Bastille en 1789 ?",
+        "explanation": "La prise de la Bastille, le 14 juillet 1789, y marqua le début de la Révolution française.",
+        "label": "Paris",
+        "country": "France"
+      },
+      "en": {
+        "text": "Where did the storming of the Bastille take place in 1789?",
+        "explanation": "The storming of the Bastille on 14 July 1789 marked the start of the French Revolution here.",
+        "label": "Paris",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Dónde ocurrió la toma de la Bastilla en 1789?",
+        "explanation": "La toma de la Bastilla, el 14 de julio de 1789, marcó aquí el inicio de la Revolución francesa.",
+        "label": "París",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "ce279e3031b079a0",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 48.8049,
+    "lng": 2.1204,
+    "translations": {
+      "fr": {
+        "text": "Où, dans une célèbre galerie des Glaces, fut signé en 1919 le traité mettant fin à la Première Guerre mondiale ?",
+        "explanation": "Le traité de Versailles fut signé le 28 juin 1919 dans la galerie des Glaces du château.",
+        "label": "Versailles",
+        "country": "France"
+      },
+      "en": {
+        "text": "Where, in a famous Hall of Mirrors, was the 1919 treaty ending World War I signed?",
+        "explanation": "The Treaty of Versailles was signed on 28 June 1919 in the Hall of Mirrors of the palace.",
+        "label": "Versailles",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Dónde, en una célebre Galería de los Espejos, se firmó en 1919 el tratado que puso fin a la Primera Guerra Mundial?",
+        "explanation": "El Tratado de Versalles se firmó el 28 de junio de 1919 en la Galería de los Espejos del palacio.",
+        "label": "Versalles",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "373f32f0f31f54b5",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 49.37,
+    "lng": -0.87,
+    "translations": {
+      "fr": {
+        "text": "Où a eu lieu le grand débarquement allié du 6 juin 1944, sur des plages désormais mondialement connues ?",
+        "explanation": "Le 6 juin 1944, le Débarquement de Normandie lança la libération de l'Europe de l'Ouest.",
+        "label": "Plages de Normandie",
+        "country": "France"
+      },
+      "en": {
+        "text": "Where did the great Allied landing of 6 June 1944 take place, on beaches now famous worldwide?",
+        "explanation": "On 6 June 1944, the Normandy landings launched the liberation of Western Europe.",
+        "label": "Normandy beaches",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Dónde tuvo lugar el gran desembarco aliado del 6 de junio de 1944, en playas hoy mundialmente conocidas?",
+        "explanation": "El 6 de junio de 1944, el desembarco de Normandía inició la liberación de Europa occidental.",
+        "label": "Playas de Normandía",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "3e3182f15380f0f5",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 52.52,
+    "lng": 13.405,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale un mur célèbre, symbole de la guerre froide, est-il tombé en 1989 ?",
+        "explanation": "La chute du mur, le 9 novembre 1989, précéda la réunification allemande.",
+        "label": "Berlin",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which capital did a famous wall, a symbol of the Cold War, fall in 1989?",
+        "explanation": "The fall of the Wall on 9 November 1989 preceded German reunification.",
+        "label": "Berlin",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué capital cayó en 1989 un famoso muro, símbolo de la Guerra Fría?",
+        "explanation": "La caída del Muro, el 9 de noviembre de 1989, precedió a la reunificación alemana.",
+        "label": "Berlín",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "f53622611cf5f1da",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 34.3853,
+    "lng": 132.4553,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle ville la première bombe atomique de l'histoire fut-elle larguée en août 1945 ?",
+        "explanation": "Le 6 août 1945, la première bombe atomique de l'histoire y fut larguée.",
+        "label": "Hiroshima",
+        "country": "Japon"
+      },
+      "en": {
+        "text": "On which city was the first atomic bomb in history dropped in August 1945?",
+        "explanation": "On 6 August 1945, the first atomic bomb in history was dropped here.",
+        "label": "Hiroshima",
+        "country": "Japan"
+      },
+      "es": {
+        "text": "¿Sobre qué ciudad se lanzó la primera bomba atómica de la historia en agosto de 1945?",
+        "explanation": "El 6 de agosto de 1945, se lanzó aquí la primera bomba atómica de la historia.",
+        "label": "Hiroshima",
+        "country": "Japón"
+      }
+    }
+  },
+  {
+    "sourceRef": "730cd19f2bab3fbd",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 41.9029,
+    "lng": 12.4534,
+    "translations": {
+      "fr": {
+        "text": "Où se trouve la chapelle Sixtine, dont le plafond fut peint par Michel-Ange ?",
+        "explanation": "Michel-Ange peignit le plafond de la chapelle Sixtine entre 1508 et 1512.",
+        "label": "Cité du Vatican",
+        "country": "Cité du Vatican"
+      },
+      "en": {
+        "text": "Where is the Sistine Chapel, whose ceiling was painted by Michelangelo?",
+        "explanation": "Michelangelo painted the Sistine Chapel ceiling between 1508 and 1512.",
+        "label": "Vatican City",
+        "country": "Vatican City"
+      },
+      "es": {
+        "text": "¿Dónde se encuentra la Capilla Sixtina, cuyo techo pintó Miguel Ángel?",
+        "explanation": "Miguel Ángel pintó el techo de la Capilla Sixtina entre 1508 y 1512.",
+        "label": "Ciudad del Vaticano",
+        "country": "Ciudad del Vaticano"
+      }
+    }
+  },
+  {
+    "sourceRef": "7bafba24e2ea9482",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 43.7696,
+    "lng": 11.2558,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville italienne peut-on admirer le David sculpté par Michel-Ange ?",
+        "explanation": "Le David, sculpté entre 1501 et 1504, est conservé à la Galerie de l'Académie.",
+        "label": "Florence",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which Italian city can you admire the David sculpted by Michelangelo?",
+        "explanation": "The David, sculpted between 1501 and 1504, is kept in the Accademia Gallery.",
+        "label": "Florence",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué ciudad italiana se puede admirar el David esculpido por Miguel Ángel?",
+        "explanation": "El David, esculpido entre 1501 y 1504, se conserva en la Galería de la Academia.",
+        "label": "Florencia",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "fd77d39c09c053a8",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 43.2687,
+    "lng": -2.934,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville basque espagnole se dresse le musée Guggenheim au bâtiment de titane conçu par Frank Gehry ?",
+        "explanation": "Le musée Guggenheim, inauguré en 1997, a relancé toute l'économie de la ville.",
+        "label": "Bilbao",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "In which Spanish Basque city stands the Guggenheim Museum, a titanium building designed by Frank Gehry?",
+        "explanation": "The Guggenheim Museum, opened in 1997, revitalized the entire local economy.",
+        "label": "Bilbao",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿En qué ciudad vasca española se alza el Museo Guggenheim, edificio de titanio diseñado por Frank Gehry?",
+        "explanation": "El Museo Guggenheim, inaugurado en 1997, revitalizó toda la economía de la ciudad.",
+        "label": "Bilbao",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "cdb85b71b8952e1c",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "easy",
+    "lat": 41.3874,
+    "lng": 2.1686,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville espagnole se sont tenus les Jeux olympiques d'été de 1992 ?",
+        "explanation": "Les JO de 1992 transformèrent la ville en métropole touristique majeure.",
+        "label": "Barcelone",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "In which Spanish city were the 1992 Summer Olympic Games held?",
+        "explanation": "The 1992 Games turned the city into a major tourist metropolis.",
+        "label": "Barcelona",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿En qué ciudad española se celebraron los Juegos Olímpicos de verano de 1992?",
+        "explanation": "Los Juegos de 1992 convirtieron la ciudad en una gran metrópolis turística.",
+        "label": "Barcelona",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "cc690fb1676266d3",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 51.434,
+    "lng": -0.214,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale se dispute chaque été le plus ancien tournoi de tennis du monde, sur gazon ?",
+        "explanation": "Wimbledon, créé en 1877, est le plus ancien tournoi de tennis du monde.",
+        "label": "Londres",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which capital is the world's oldest tennis tournament played each summer, on grass?",
+        "explanation": "Wimbledon, founded in 1877, is the oldest tennis tournament in the world.",
+        "label": "London",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué capital se disputa cada verano el torneo de tenis más antiguo del mundo, sobre hierba?",
+        "explanation": "Wimbledon, creado en 1877, es el torneo de tenis más antiguo del mundo.",
+        "label": "Londres",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "4147d06714aab413",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 37.6381,
+    "lng": 21.63,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sanctuaire de la Grèce antique se tenaient les Jeux olympiques tous les quatre ans ?",
+        "explanation": "Ce sanctuaire accueillit les Jeux dès 776 av. J.-C., en l'honneur de Zeus.",
+        "label": "Olympie",
+        "country": "Grèce"
+      },
+      "en": {
+        "text": "In which sanctuary of ancient Greece were the Olympic Games held every four years?",
+        "explanation": "This sanctuary hosted the Games from 776 BC, in honour of Zeus.",
+        "label": "Olympia",
+        "country": "Greece"
+      },
+      "es": {
+        "text": "¿En qué santuario de la antigua Grecia se celebraban los Juegos Olímpicos cada cuatro años?",
+        "explanation": "Este santuario acogió los Juegos desde el 776 a. C., en honor a Zeus.",
+        "label": "Olimpia",
+        "country": "Grecia"
+      }
+    }
+  },
+  {
+    "sourceRef": "866895f57d82ff3b",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "medium",
+    "lat": 46.2044,
+    "lng": 6.1432,
+    "translations": {
+      "fr": {
+        "text": "Près de quelle ville suisse le CERN a-t-il découvert le boson de Higgs en 2012 ?",
+        "explanation": "Le CERN, à la frontière franco-suisse, abrite le plus grand accélérateur de particules du monde.",
+        "label": "Genève",
+        "country": "Suisse"
+      },
+      "en": {
+        "text": "Near which Swiss city did CERN discover the Higgs boson in 2012?",
+        "explanation": "CERN, on the French-Swiss border, houses the largest particle accelerator in the world.",
+        "label": "Geneva",
+        "country": "Switzerland"
+      },
+      "es": {
+        "text": "¿Cerca de qué ciudad suiza descubrió el CERN el bosón de Higgs en 2012?",
+        "explanation": "El CERN, en la frontera franco-suiza, alberga el mayor acelerador de partículas del mundo.",
+        "label": "Ginebra",
+        "country": "Suiza"
+      }
+    }
+  },
+  {
+    "sourceRef": "cb0dc7d3995068dd",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 48.4011,
+    "lng": 9.9876,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville allemande Albert Einstein est-il né en 1879 ?",
+        "explanation": "Einstein y naquit le 14 mars 1879, avant que sa famille ne déménage à Munich.",
+        "label": "Ulm",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which German city was Albert Einstein born in 1879?",
+        "explanation": "Einstein was born here on 14 March 1879, before his family moved to Munich.",
+        "label": "Ulm",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué ciudad alemana nació Albert Einstein en 1879?",
+        "explanation": "Einstein nació aquí el 14 de marzo de 1879, antes de que su familia se mudara a Múnich.",
+        "label": "Ulm",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "7df409657587aba7",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "lat": 40.6892,
+    "lng": -74.0445,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville américaine se dresse la statue de la Liberté, offerte par la France ?",
+        "explanation": "La statue de la Liberté fut offerte par la France en 1886 pour le centenaire de l'indépendance américaine.",
+        "label": "New York",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which American city stands the Statue of Liberty, a gift from France?",
+        "explanation": "The Statue of Liberty was given by France in 1886 for the centennial of American independence.",
+        "label": "New York",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué ciudad estadounidense se alza la Estatua de la Libertad, regalo de Francia?",
+        "explanation": "La Estatua de la Libertad fue un regalo de Francia en 1886 por el centenario de la independencia estadounidense.",
+        "label": "Nueva York",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "9a3c67973027ca5e",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "lat": 43.723,
+    "lng": 10.3966,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville italienne se trouve une tour célèbre pour son inclinaison spectaculaire ?",
+        "explanation": "La tour de Pise penche à cause d'un sol trop meuble, dès le début de sa construction en 1173.",
+        "label": "Pise",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which Italian city is a tower famous for its dramatic lean?",
+        "explanation": "The Tower of Pisa leans because of soft ground, from the very start of its construction in 1173.",
+        "label": "Pisa",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué ciudad italiana se encuentra una torre famosa por su espectacular inclinación?",
+        "explanation": "La Torre de Pisa se inclina por un suelo demasiado blando, desde el inicio de su construcción en 1173.",
+        "label": "Pisa",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "3a6a9795c88e3256",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": -33.8568,
+    "lng": 151.2153,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville australienne se dresse un célèbre opéra aux toits en forme de voiles blanches, au bord de l'eau ?",
+        "explanation": "L'opéra, inauguré en 1973, est classé au patrimoine mondial de l'UNESCO.",
+        "label": "Sydney",
+        "country": "Australie"
+      },
+      "en": {
+        "text": "In which Australian city stands a famous opera house with white sail-shaped roofs, by the water?",
+        "explanation": "The opera house, opened in 1973, is a UNESCO World Heritage Site.",
+        "label": "Sydney",
+        "country": "Australia"
+      },
+      "es": {
+        "text": "¿En qué ciudad australiana se alza una famosa ópera con techos en forma de velas blancas, junto al agua?",
+        "explanation": "La ópera, inaugurada en 1973, es Patrimonio de la Humanidad de la UNESCO.",
+        "label": "Sídney",
+        "country": "Australia"
+      }
+    }
+  },
+  {
+    "sourceRef": "e3d2ef79e326df30",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 41.8902,
+    "lng": 12.4922,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale se trouve le Colisée, immense amphithéâtre de l'Antiquité ?",
+        "explanation": "Le Colisée pouvait accueillir jusqu'à 50 000 spectateurs pour les combats de gladiateurs.",
+        "label": "Rome",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which capital is the Colosseum, a huge amphitheatre from Antiquity?",
+        "explanation": "The Colosseum could hold up to 50,000 spectators for gladiator fights.",
+        "label": "Rome",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué capital se encuentra el Coliseo, enorme anfiteatro de la Antigüedad?",
+        "explanation": "El Coliseo podía acoger hasta 50 000 espectadores para los combates de gladiadores.",
+        "label": "Roma",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "285b6f07238729b2",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 31.6258,
+    "lng": -7.9891,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville marocaine se trouve la célèbre place Jemaa el-Fna, animée jour et nuit ?",
+        "explanation": "La place Jemaa el-Fna est inscrite au patrimoine oral de l'humanité par l'UNESCO.",
+        "label": "Marrakech",
+        "country": "Maroc"
+      },
+      "en": {
+        "text": "In which Moroccan city is the famous Jemaa el-Fna square, lively day and night?",
+        "explanation": "Jemaa el-Fna square is listed by UNESCO as part of humanity's oral heritage.",
+        "label": "Marrakesh",
+        "country": "Morocco"
+      },
+      "es": {
+        "text": "¿En qué ciudad marroquí se encuentra la famosa plaza Jemaa el-Fna, animada día y noche?",
+        "explanation": "La plaza Jemaa el-Fna está inscrita por la UNESCO como patrimonio oral de la humanidad.",
+        "label": "Marrakech",
+        "country": "Marruecos"
+      }
+    }
+  },
+  {
+    "sourceRef": "9de05ae0bb2c85ec",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "lat": 55.6929,
+    "lng": 12.5993,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale scandinave une statue de sirène rend-elle hommage à un conte d'Andersen ?",
+        "explanation": "La statue de la Petite Sirène, inaugurée en 1913, illustre le conte d'Hans Christian Andersen.",
+        "label": "Copenhague",
+        "country": "Danemark"
+      },
+      "en": {
+        "text": "In which Scandinavian capital does a mermaid statue pay tribute to a tale by Andersen?",
+        "explanation": "The Little Mermaid statue, unveiled in 1913, depicts Hans Christian Andersen's tale.",
+        "label": "Copenhagen",
+        "country": "Denmark"
+      },
+      "es": {
+        "text": "¿En qué capital escandinava una estatua de sirena rinde homenaje a un cuento de Andersen?",
+        "explanation": "La estatua de la Sirenita, inaugurada en 1913, ilustra el cuento de Hans Christian Andersen.",
+        "label": "Copenhague",
+        "country": "Dinamarca"
+      }
+    }
+  },
+  {
+    "sourceRef": "a80097cd61deee3b",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 52.1917,
+    "lng": -1.7083,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle petite ville anglaise William Shakespeare est-il né en 1564 ?",
+        "explanation": "Shakespeare naquit et mourut dans cette ville, où l'on visite sa maison natale.",
+        "label": "Stratford-upon-Avon",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which small English town was William Shakespeare born in 1564?",
+        "explanation": "Shakespeare was born and died in this town, where his birthplace can be visited.",
+        "label": "Stratford-upon-Avon",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué pequeña ciudad inglesa nació William Shakespeare en 1564?",
+        "explanation": "Shakespeare nació y murió en esta ciudad, donde puede visitarse su casa natal.",
+        "label": "Stratford-upon-Avon",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "a82688fe25c49114",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 55.7539,
+    "lng": 37.6208,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale se trouve la place Rouge, bordée par le Kremlin ?",
+        "explanation": "La place Rouge accueille les grands événements nationaux depuis des siècles.",
+        "label": "Moscou",
+        "country": "Russie"
+      },
+      "en": {
+        "text": "In which capital is Red Square, bordered by the Kremlin?",
+        "explanation": "Red Square has hosted major national events for centuries.",
+        "label": "Moscow",
+        "country": "Russia"
+      },
+      "es": {
+        "text": "¿En qué capital se encuentra la Plaza Roja, bordeada por el Kremlin?",
+        "explanation": "La Plaza Roja acoge los grandes acontecimientos nacionales desde hace siglos.",
+        "label": "Moscú",
+        "country": "Rusia"
+      }
+    }
+  },
+  {
+    "sourceRef": "467c08de985953fc",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": -13.1631,
+    "lng": -72.545,
+    "translations": {
+      "fr": {
+        "text": "Quelle cité inca, perchée à plus de 2 400 m dans les Andes, fut redécouverte en 1911 ?",
+        "explanation": "Cette cité fut construite vers 1450 puis abandonnée un siècle plus tard.",
+        "label": "Machu Picchu",
+        "country": "Pérou"
+      },
+      "en": {
+        "text": "Which Inca city, perched over 2,400 m in the Andes, was rediscovered in 1911?",
+        "explanation": "This city was built around 1450 and abandoned a century later.",
+        "label": "Machu Picchu",
+        "country": "Peru"
+      },
+      "es": {
+        "text": "¿Qué ciudad inca, encaramada a más de 2400 m en los Andes, fue redescubierta en 1911?",
+        "explanation": "Esta ciudad se construyó hacia 1450 y se abandonó un siglo después.",
+        "label": "Machu Picchu",
+        "country": "Perú"
+      }
+    }
+  },
+  {
+    "sourceRef": "879a49b0b51578ea",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": -18.2871,
+    "lng": 147.6992,
+    "translations": {
+      "fr": {
+        "text": "Au large de quel pays s'étend le plus grand récif corallien du monde ?",
+        "explanation": "La Grande Barrière de corail s'étend sur plus de 2 300 km et se voit depuis l'espace.",
+        "label": "Grande Barrière de corail",
+        "country": "Australie"
+      },
+      "en": {
+        "text": "Off the coast of which country does the world's largest coral reef stretch?",
+        "explanation": "The Great Barrier Reef extends over 2,300 km and is visible from space.",
+        "label": "Great Barrier Reef",
+        "country": "Australia"
+      },
+      "es": {
+        "text": "¿Frente a las costas de qué país se extiende el mayor arrecife de coral del mundo?",
+        "explanation": "La Gran Barrera de Coral se extiende más de 2300 km y se ve desde el espacio.",
+        "label": "Gran Barrera de Coral",
+        "country": "Australia"
+      }
+    }
+  },
+  {
+    "sourceRef": "22020ee9da7c9cf0",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": 27.9881,
+    "lng": 86.925,
+    "translations": {
+      "fr": {
+        "text": "Où se trouve le plus haut sommet du monde, culminant à 8 849 m ?",
+        "explanation": "Ce sommet fut gravi pour la première fois en 1953 par Edmund Hillary et Tenzing Norgay.",
+        "label": "Mont Everest",
+        "country": "Népal"
+      },
+      "en": {
+        "text": "Where is the highest peak in the world, reaching 8,849 m?",
+        "explanation": "This peak was first climbed in 1953 by Edmund Hillary and Tenzing Norgay.",
+        "label": "Mount Everest",
+        "country": "Nepal"
+      },
+      "es": {
+        "text": "¿Dónde se encuentra la cima más alta del mundo, que alcanza los 8849 m?",
+        "explanation": "Esta cima fue escalada por primera vez en 1953 por Edmund Hillary y Tenzing Norgay.",
+        "label": "Monte Everest",
+        "country": "Nepal"
+      }
+    }
+  },
+  {
+    "sourceRef": "e025db615d5980aa",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 25.1972,
+    "lng": 55.2744,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville du golfe Persique se dresse la plus haute tour du monde, le Burj Khalifa ?",
+        "explanation": "Le Burj Khalifa culmine à 828 m ; il fut inauguré en 2010.",
+        "label": "Dubaï",
+        "country": "Émirats arabes unis"
+      },
+      "en": {
+        "text": "In which Persian Gulf city stands the world's tallest tower, the Burj Khalifa?",
+        "explanation": "The Burj Khalifa reaches 828 m and was inaugurated in 2010.",
+        "label": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "es": {
+        "text": "¿En qué ciudad del golfo Pérsico se alza la torre más alta del mundo, el Burj Khalifa?",
+        "explanation": "El Burj Khalifa alcanza los 828 m y fue inaugurado en 2010.",
+        "label": "Dubái",
+        "country": "Emiratos Árabes Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "41a72f709a314713",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "lat": 40.7497,
+    "lng": 14.4869,
+    "translations": {
+      "fr": {
+        "text": "Quelle cité romaine fut ensevelie par l'éruption du Vésuve en 79 apr. J.-C. ?",
+        "explanation": "Ensevelie sous les cendres, la cité fut redécouverte presque intacte au XVIIIe siècle.",
+        "label": "Pompéi",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which Roman city was buried by the eruption of Vesuvius in 79 AD?",
+        "explanation": "Buried under ash, the city was rediscovered almost intact in the 18th century.",
+        "label": "Pompeii",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué ciudad romana fue sepultada por la erupción del Vesubio en el 79 d. C.?",
+        "explanation": "Sepultada bajo las cenizas, la ciudad se redescubrió casi intacta en el siglo XVIII.",
+        "label": "Pompeya",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "59c7e296f884c8a1",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": -22.9068,
+    "lng": -43.1729,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville brésilienne le stade Maracanã a-t-il accueilli deux finales de Coupe du monde ?",
+        "explanation": "Le Maracanã accueillit les finales de la Coupe du monde en 1950 et en 2014.",
+        "label": "Rio de Janeiro",
+        "country": "Brésil"
+      },
+      "en": {
+        "text": "In which Brazilian city has the Maracanã stadium hosted two World Cup finals?",
+        "explanation": "The Maracanã hosted the World Cup finals in 1950 and 2014.",
+        "label": "Rio de Janeiro",
+        "country": "Brazil"
+      },
+      "es": {
+        "text": "¿En qué ciudad brasileña ha acogido el estadio Maracaná dos finales de la Copa del Mundo?",
+        "explanation": "El Maracaná acogió las finales de la Copa del Mundo en 1950 y en 2014.",
+        "label": "Río de Janeiro",
+        "country": "Brasil"
+      }
+    }
+  },
+  {
+    "sourceRef": "96655aa7b5b9ce74",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 52.36,
+    "lng": 4.8852,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale néerlandaise le musée national expose-t-il « La Ronde de nuit » de Rembrandt ?",
+        "explanation": "« La Ronde de nuit » est le joyau du Rijksmuseum, achevé par Rembrandt en 1642.",
+        "label": "Amsterdam",
+        "country": "Pays-Bas"
+      },
+      "en": {
+        "text": "In which Dutch capital does the national museum display Rembrandt's 'The Night Watch'?",
+        "explanation": "'The Night Watch' is the highlight of the Rijksmuseum, completed by Rembrandt in 1642.",
+        "label": "Amsterdam",
+        "country": "Netherlands"
+      },
+      "es": {
+        "text": "¿En qué capital neerlandesa el museo nacional expone «La ronda de noche» de Rembrandt?",
+        "explanation": "«La ronda de noche» es la joya del Rijksmuseum, terminada por Rembrandt en 1642.",
+        "label": "Ámsterdam",
+        "country": "Países Bajos"
+      }
+    }
+  },
+  {
+    "sourceRef": "f70bb945773d964c",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "medium",
+    "lat": 29.7604,
+    "lng": -95.3698,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville texane la NASA pilote-t-elle ses vols spatiaux habités depuis son centre de contrôle ?",
+        "explanation": "« Houston, we've had a problem » : le centre Johnson y dirige les missions habitées depuis 1965.",
+        "label": "Houston",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which Texan city does NASA run its crewed spaceflights from its mission control center?",
+        "explanation": "'Houston, we've had a problem': the Johnson Center has directed crewed missions here since 1965.",
+        "label": "Houston",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué ciudad tejana dirige la NASA sus vuelos espaciales tripulados desde su centro de control?",
+        "explanation": "«Houston, tenemos un problema»: el Centro Johnson dirige las misiones tripuladas desde 1965.",
+        "label": "Houston",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "4489fc401003e8ae",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 41.0086,
+    "lng": 28.9802,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville à cheval sur deux continents se dresse la basilique Sainte-Sophie ?",
+        "explanation": "Sainte-Sophie, bâtie en 537, fut successivement basilique, mosquée et musée.",
+        "label": "Istanbul",
+        "country": "Turquie"
+      },
+      "en": {
+        "text": "In which city straddling two continents stands the Hagia Sophia?",
+        "explanation": "Hagia Sophia, built in 537, was successively a basilica, a mosque and a museum.",
+        "label": "Istanbul",
+        "country": "Turkey"
+      },
+      "es": {
+        "text": "¿En qué ciudad a caballo entre dos continentes se alza la basílica de Santa Sofía?",
+        "explanation": "Santa Sofía, construida en 537, fue sucesivamente basílica, mezquita y museo.",
+        "label": "Estambul",
+        "country": "Turquía"
+      }
+    }
+  }
+]

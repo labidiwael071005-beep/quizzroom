@@ -1,0 +1,1562 @@
+[
+  {
+    "sourceRef": "50c689f1d5ec8c84",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "En quelle année la Révolution française a-t-elle éclaté avec la prise de la Bastille ?",
+        "options": [
+          "1769",
+          "1799",
+          "1789",
+          "1804"
+        ],
+        "explanation": "Le 14 juillet 1789, la prise de la Bastille devint le symbole du début de la Révolution française."
+      },
+      "en": {
+        "text": "In which year did the French Revolution break out with the storming of the Bastille?",
+        "options": [
+          "1769",
+          "1799",
+          "1789",
+          "1804"
+        ],
+        "explanation": "On 14 July 1789, the storming of the Bastille became the symbol of the start of the French Revolution."
+      },
+      "es": {
+        "text": "¿En qué año estalló la Revolución francesa con la toma de la Bastilla?",
+        "options": [
+          "1769",
+          "1799",
+          "1789",
+          "1804"
+        ],
+        "explanation": "El 14 de julio de 1789, la toma de la Bastilla se convirtió en el símbolo del inicio de la Revolución francesa."
+      }
+    }
+  },
+  {
+    "sourceRef": "54082e8f70ff5028",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel pharaon égyptien est célèbre pour son tombeau découvert quasi intact en 1922 ?",
+        "options": [
+          "Toutânkhamon",
+          "Ramsès II",
+          "Khéops",
+          "Akhenaton"
+        ],
+        "explanation": "Howard Carter découvrit le tombeau de Toutânkhamon dans la Vallée des Rois en 1922, presque intact."
+      },
+      "en": {
+        "text": "Which Egyptian pharaoh is famous for his nearly intact tomb discovered in 1922?",
+        "options": [
+          "Tutankhamun",
+          "Ramesses II",
+          "Khufu",
+          "Akhenaten"
+        ],
+        "explanation": "Howard Carter discovered Tutankhamun's nearly intact tomb in the Valley of the Kings in 1922."
+      },
+      "es": {
+        "text": "¿Qué faraón egipcio es célebre por su tumba descubierta casi intacta en 1922?",
+        "options": [
+          "Tutankamón",
+          "Ramsés II",
+          "Keops",
+          "Akenatón"
+        ],
+        "explanation": "Howard Carter descubrió la tumba casi intacta de Tutankamón en el Valle de los Reyes en 1922."
+      }
+    }
+  },
+  {
+    "sourceRef": "5d110bd7874266b1",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "En quelle année l'Empire romain d'Occident s'est-il effondré ?",
+        "options": [
+          "476",
+          "410",
+          "1453",
+          "800"
+        ],
+        "explanation": "La déposition du dernier empereur, Romulus Augustule, en 476 marque conventionnellement la fin de l'Empire romain d'Occident."
+      },
+      "en": {
+        "text": "In which year did the Western Roman Empire collapse?",
+        "options": [
+          "476",
+          "410",
+          "1453",
+          "800"
+        ],
+        "explanation": "The deposition of the last emperor, Romulus Augustulus, in 476 conventionally marks the end of the Western Roman Empire."
+      },
+      "es": {
+        "text": "¿En qué año se derrumbó el Imperio romano de Occidente?",
+        "options": [
+          "476",
+          "410",
+          "1453",
+          "800"
+        ],
+        "explanation": "La deposición del último emperador, Rómulo Augústulo, en 476 marca convencionalmente el fin del Imperio romano de Occidente."
+      }
+    }
+  },
+  {
+    "sourceRef": "49683452f72b89d5",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle dynastie régna sur la France avant les Capétiens, du VIIIe au Xe siècle ?",
+        "options": [
+          "Les Carolingiens",
+          "Les Mérovingiens",
+          "Les Bourbons",
+          "Les Valois"
+        ],
+        "explanation": "Les Carolingiens, dont Charlemagne fut la figure majeure, précédèrent la dynastie capétienne fondée par Hugues Capet en 987."
+      },
+      "en": {
+        "text": "Which dynasty ruled France before the Capetians, from the 8th to the 10th century?",
+        "options": [
+          "The Carolingians",
+          "The Merovingians",
+          "The Bourbons",
+          "The Valois"
+        ],
+        "explanation": "The Carolingians, whose greatest figure was Charlemagne, preceded the Capetian dynasty founded by Hugh Capet in 987."
+      },
+      "es": {
+        "text": "¿Qué dinastía reinó en Francia antes de los Capetos, del siglo VIII al X?",
+        "options": [
+          "Los carolingios",
+          "Los merovingios",
+          "Los Borbones",
+          "Los Valois"
+        ],
+        "explanation": "Los carolingios, cuya figura mayor fue Carlomagno, precedieron a la dinastía capeta fundada por Hugo Capeto en 987."
+      }
+    }
+  },
+  {
+    "sourceRef": "5e25fc025352f704",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle planète est surnommée la « planète rouge » ?",
+        "options": [
+          "Mars",
+          "Vénus",
+          "Jupiter",
+          "Saturne"
+        ],
+        "explanation": "La couleur rouge de Mars vient de l'oxyde de fer (la rouille) présent à sa surface."
+      },
+      "en": {
+        "text": "Which planet is nicknamed the 'Red Planet'?",
+        "options": [
+          "Mars",
+          "Venus",
+          "Jupiter",
+          "Saturn"
+        ],
+        "explanation": "Mars's red colour comes from the iron oxide (rust) on its surface."
+      },
+      "es": {
+        "text": "¿Qué planeta es apodado el «planeta rojo»?",
+        "options": [
+          "Marte",
+          "Venus",
+          "Júpiter",
+          "Saturno"
+        ],
+        "explanation": "El color rojo de Marte proviene del óxido de hierro (el óxido) presente en su superficie."
+      }
+    }
+  },
+  {
+    "sourceRef": "dee71ffe8d72e207",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel métal est liquide à température ambiante ?",
+        "options": [
+          "Le plomb",
+          "Le mercure",
+          "L'étain",
+          "Le zinc"
+        ],
+        "explanation": "Le mercure est le seul métal liquide à température et pression ambiantes."
+      },
+      "en": {
+        "text": "Which metal is liquid at room temperature?",
+        "options": [
+          "Lead",
+          "Mercury",
+          "Tin",
+          "Zinc"
+        ],
+        "explanation": "Mercury is the only metal that is liquid at ambient temperature and pressure."
+      },
+      "es": {
+        "text": "¿Qué metal es líquido a temperatura ambiente?",
+        "options": [
+          "El plomo",
+          "El mercurio",
+          "El estaño",
+          "El cinc"
+        ],
+        "explanation": "El mercurio es el único metal líquido a temperatura y presión ambientes."
+      }
+    }
+  },
+  {
+    "sourceRef": "71c9d5eb220ee9bc",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle est, arrondie, la vitesse de la lumière dans le vide ?",
+        "options": [
+          "150 000 km/s",
+          "30 000 km/s",
+          "300 000 km/s",
+          "1 080 000 km/s"
+        ],
+        "explanation": "La lumière parcourt près de 300 000 km/s, soit environ 7,5 fois le tour de la Terre en une seconde."
+      },
+      "en": {
+        "text": "What is the approximate speed of light in a vacuum?",
+        "options": [
+          "150,000 km/s",
+          "30,000 km/s",
+          "300,000 km/s",
+          "1,080,000 km/s"
+        ],
+        "explanation": "Light travels at nearly 300,000 km/s — about 7.5 times around the Earth in one second."
+      },
+      "es": {
+        "text": "¿Cuál es, aproximadamente, la velocidad de la luz en el vacío?",
+        "options": [
+          "150 000 km/s",
+          "30 000 km/s",
+          "300 000 km/s",
+          "1 080 000 km/s"
+        ],
+        "explanation": "La luz viaja a casi 300 000 km/s, unas 7,5 veces la vuelta a la Tierra en un segundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "56f48eb75dcad163",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel gaz noble donne sa lumière rouge-orangé aux enseignes lumineuses classiques ?",
+        "options": [
+          "L'hélium",
+          "L'argon",
+          "Le krypton",
+          "Le néon"
+        ],
+        "explanation": "Le néon émet une lumière rouge-orangé caractéristique, d'où le nom des enseignes « au néon »."
+      },
+      "en": {
+        "text": "Which noble gas gives classic glowing signs their red-orange light?",
+        "options": [
+          "Helium",
+          "Argon",
+          "Krypton",
+          "Neon"
+        ],
+        "explanation": "Neon emits a characteristic red-orange light, which is why glowing signs are called 'neon' signs."
+      },
+      "es": {
+        "text": "¿Qué gas noble da su luz rojo-anaranjada a los letreros luminosos clásicos?",
+        "options": [
+          "El helio",
+          "El argón",
+          "El kriptón",
+          "El neón"
+        ],
+        "explanation": "El neón emite una luz rojo-anaranjada característica, de ahí el nombre de los letreros «de neón»."
+      }
+    }
+  },
+  {
+    "sourceRef": "e196afa2d7c643bd",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus grand océan du monde ?",
+        "options": [
+          "L'océan Atlantique",
+          "L'océan Pacifique",
+          "L'océan Indien",
+          "L'océan Arctique"
+        ],
+        "explanation": "Le Pacifique couvre à lui seul environ un tiers de la surface de la planète."
+      },
+      "en": {
+        "text": "What is the largest ocean in the world?",
+        "options": [
+          "The Atlantic Ocean",
+          "The Pacific Ocean",
+          "The Indian Ocean",
+          "The Arctic Ocean"
+        ],
+        "explanation": "The Pacific alone covers about one third of the planet's surface."
+      },
+      "es": {
+        "text": "¿Cuál es el mayor océano del mundo?",
+        "options": [
+          "El océano Atlántico",
+          "El océano Pacífico",
+          "El océano Índico",
+          "El océano Ártico"
+        ],
+        "explanation": "El Pacífico cubre por sí solo alrededor de un tercio de la superficie del planeta."
+      }
+    }
+  },
+  {
+    "sourceRef": "658d7d28a03bd36a",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la capitale du Canada ?",
+        "options": [
+          "Toronto",
+          "Montréal",
+          "Vancouver",
+          "Ottawa"
+        ],
+        "explanation": "Beaucoup pensent à Toronto, mais c'est Ottawa, en Ontario, qui est la capitale fédérale du Canada."
+      },
+      "en": {
+        "text": "What is the capital of Canada?",
+        "options": [
+          "Toronto",
+          "Montreal",
+          "Vancouver",
+          "Ottawa"
+        ],
+        "explanation": "Many think of Toronto, but it is Ottawa, in Ontario, that is Canada's federal capital."
+      },
+      "es": {
+        "text": "¿Cuál es la capital de Canadá?",
+        "options": [
+          "Toronto",
+          "Montreal",
+          "Vancouver",
+          "Ottawa"
+        ],
+        "explanation": "Muchos piensan en Toronto, pero es Ottawa, en Ontario, la capital federal de Canadá."
+      }
+    }
+  },
+  {
+    "sourceRef": "04d3d0b4b4e49817",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel fleuve traverse la capitale égyptienne, Le Caire ?",
+        "options": [
+          "Le Congo",
+          "Le Niger",
+          "Le Nil",
+          "Le Zambèze"
+        ],
+        "explanation": "Le Nil, long d'environ 6 650 km, a rendu possible la civilisation de l'Égypte antique."
+      },
+      "en": {
+        "text": "Which river runs through the Egyptian capital, Cairo?",
+        "options": [
+          "The Congo",
+          "The Niger",
+          "The Nile",
+          "The Zambezi"
+        ],
+        "explanation": "The Nile, about 6,650 km long, made the civilization of ancient Egypt possible."
+      },
+      "es": {
+        "text": "¿Qué río atraviesa la capital egipcia, El Cairo?",
+        "options": [
+          "El Congo",
+          "El Níger",
+          "El Nilo",
+          "El Zambeze"
+        ],
+        "explanation": "El Nilo, de unos 6650 km de longitud, hizo posible la civilización del antiguo Egipto."
+      }
+    }
+  },
+  {
+    "sourceRef": "35014facf4686a26",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus petit État indépendant du monde par sa superficie ?",
+        "options": [
+          "Monaco",
+          "Le Vatican",
+          "Nauru",
+          "Saint-Marin"
+        ],
+        "explanation": "Le Vatican, avec environ 0,44 km², est le plus petit État souverain du monde."
+      },
+      "en": {
+        "text": "What is the smallest independent state in the world by area?",
+        "options": [
+          "Monaco",
+          "Vatican City",
+          "Nauru",
+          "San Marino"
+        ],
+        "explanation": "Vatican City, at about 0.44 km², is the smallest sovereign state in the world."
+      },
+      "es": {
+        "text": "¿Cuál es el Estado independiente más pequeño del mundo por superficie?",
+        "options": [
+          "Mónaco",
+          "El Vaticano",
+          "Nauru",
+          "San Marino"
+        ],
+        "explanation": "El Vaticano, con unos 0,44 km², es el Estado soberano más pequeño del mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "0ca19e97e7ff8336",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Au football, quelle partie du corps un joueur de champ ne peut-il pas utiliser pour toucher le ballon ?",
+        "options": [
+          "Les pieds",
+          "La tête",
+          "Les mains",
+          "La poitrine"
+        ],
+        "explanation": "Seul le gardien de but peut toucher le ballon avec les mains, et uniquement dans sa surface."
+      },
+      "en": {
+        "text": "In football, which body part may an outfield player not use to touch the ball?",
+        "options": [
+          "The feet",
+          "The head",
+          "The hands",
+          "The chest"
+        ],
+        "explanation": "Only the goalkeeper may touch the ball with the hands, and only inside the penalty area."
+      },
+      "es": {
+        "text": "En el fútbol, ¿qué parte del cuerpo no puede usar un jugador de campo para tocar el balón?",
+        "options": [
+          "Los pies",
+          "La cabeza",
+          "Las manos",
+          "El pecho"
+        ],
+        "explanation": "Solo el portero puede tocar el balón con las manos, y únicamente dentro de su área."
+      }
+    }
+  },
+  {
+    "sourceRef": "0721b928f9d2129c",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport Michael Jordan est-il devenu une légende ?",
+        "options": [
+          "Le basket-ball",
+          "Le baseball",
+          "Le football américain",
+          "Le hockey"
+        ],
+        "explanation": "Michael Jordan a remporté six titres NBA avec les Chicago Bulls dans les années 1990."
+      },
+      "en": {
+        "text": "In which sport did Michael Jordan become a legend?",
+        "options": [
+          "Basketball",
+          "Baseball",
+          "American football",
+          "Ice hockey"
+        ],
+        "explanation": "Michael Jordan won six NBA titles with the Chicago Bulls in the 1990s."
+      },
+      "es": {
+        "text": "¿En qué deporte se convirtió en leyenda Michael Jordan?",
+        "options": [
+          "El baloncesto",
+          "El béisbol",
+          "El fútbol americano",
+          "El hockey"
+        ],
+        "explanation": "Michael Jordan ganó seis títulos de la NBA con los Chicago Bulls en los años 1990."
+      }
+    }
+  },
+  {
+    "sourceRef": "e8e27b9c0a5e91d5",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la distance officielle d'un marathon ?",
+        "options": [
+          "40 km",
+          "50 km",
+          "26 km",
+          "42,195 km"
+        ],
+        "explanation": "La distance de 42,195 km fut fixée aux JO de Londres 1908 pour finir devant la loge royale."
+      },
+      "en": {
+        "text": "What is the official distance of a marathon?",
+        "options": [
+          "40 km",
+          "50 km",
+          "26 km",
+          "42.195 km"
+        ],
+        "explanation": "The 42.195 km distance was set at the 1908 London Olympics to finish in front of the royal box."
+      },
+      "es": {
+        "text": "¿Cuál es la distancia oficial de un maratón?",
+        "options": [
+          "40 km",
+          "50 km",
+          "26 km",
+          "42,195 km"
+        ],
+        "explanation": "La distancia de 42,195 km se fijó en los JJ. OO. de Londres 1908 para terminar ante el palco real."
+      }
+    }
+  },
+  {
+    "sourceRef": "e3014827e8822905",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "En quelle année les premiers Jeux olympiques modernes ont-ils eu lieu à Athènes ?",
+        "options": [
+          "1900",
+          "1896",
+          "1888",
+          "1924"
+        ],
+        "explanation": "Rénovés par Pierre de Coubertin, les premiers JO modernes se tinrent à Athènes en 1896."
+      },
+      "en": {
+        "text": "In which year were the first modern Olympic Games held in Athens?",
+        "options": [
+          "1900",
+          "1896",
+          "1888",
+          "1924"
+        ],
+        "explanation": "Revived by Pierre de Coubertin, the first modern Olympics were held in Athens in 1896."
+      },
+      "es": {
+        "text": "¿En qué año se celebraron los primeros Juegos Olímpicos modernos en Atenas?",
+        "options": [
+          "1900",
+          "1896",
+          "1888",
+          "1924"
+        ],
+        "explanation": "Renovados por Pierre de Coubertin, los primeros JJ. OO. modernos se celebraron en Atenas en 1896."
+      }
+    }
+  },
+  {
+    "sourceRef": "b93b8536ea3a7c6f",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel artiste espagnol a cofondé le cubisme ?",
+        "options": [
+          "Pablo Picasso",
+          "Salvador Dalí",
+          "Joan Miró",
+          "Francisco Goya"
+        ],
+        "explanation": "Picasso développa le cubisme avec Georges Braque à partir de 1907."
+      },
+      "en": {
+        "text": "Which Spanish artist co-founded Cubism?",
+        "options": [
+          "Pablo Picasso",
+          "Salvador Dalí",
+          "Joan Miró",
+          "Francisco Goya"
+        ],
+        "explanation": "Picasso developed Cubism with Georges Braque from 1907 onwards."
+      },
+      "es": {
+        "text": "¿Qué artista español cofundó el cubismo?",
+        "options": [
+          "Pablo Picasso",
+          "Salvador Dalí",
+          "Joan Miró",
+          "Francisco Goya"
+        ],
+        "explanation": "Picasso desarrolló el cubismo con Georges Braque a partir de 1907."
+      }
+    }
+  },
+  {
+    "sourceRef": "277a9fc773b1f81f",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville se trouve le musée du Louvre ?",
+        "options": [
+          "Londres",
+          "Rome",
+          "Paris",
+          "Madrid"
+        ],
+        "explanation": "Le Louvre, ancien palais royal, est le musée le plus visité au monde."
+      },
+      "en": {
+        "text": "In which city is the Louvre museum located?",
+        "options": [
+          "London",
+          "Rome",
+          "Paris",
+          "Madrid"
+        ],
+        "explanation": "The Louvre, a former royal palace, is the most visited museum in the world."
+      },
+      "es": {
+        "text": "¿En qué ciudad se encuentra el museo del Louvre?",
+        "options": [
+          "Londres",
+          "Roma",
+          "París",
+          "Madrid"
+        ],
+        "explanation": "El Louvre, antiguo palacio real, es el museo más visitado del mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "222798ed067b1b57",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Qui a peint le plafond de la chapelle Sixtine au Vatican ?",
+        "options": [
+          "Raphaël",
+          "Le Titien",
+          "Le Caravage",
+          "Michel-Ange"
+        ],
+        "explanation": "Michel-Ange peignit le plafond de la chapelle Sixtine entre 1508 et 1512, sur des échafaudages."
+      },
+      "en": {
+        "text": "Who painted the ceiling of the Sistine Chapel in the Vatican?",
+        "options": [
+          "Raphael",
+          "Titian",
+          "Caravaggio",
+          "Michelangelo"
+        ],
+        "explanation": "Michelangelo painted the Sistine Chapel ceiling between 1508 and 1512, working on scaffolding."
+      },
+      "es": {
+        "text": "¿Quién pintó el techo de la Capilla Sixtina en el Vaticano?",
+        "options": [
+          "Rafael",
+          "Tiziano",
+          "Caravaggio",
+          "Miguel Ángel"
+        ],
+        "explanation": "Miguel Ángel pintó el techo de la Capilla Sixtina entre 1508 y 1512, sobre andamios."
+      }
+    }
+  },
+  {
+    "sourceRef": "2331dd66954018cd",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel courant artistique du XXe siècle est associé à Salvador Dalí et René Magritte ?",
+        "options": [
+          "Le fauvisme",
+          "Le surréalisme",
+          "Le dadaïsme",
+          "L'expressionnisme"
+        ],
+        "explanation": "Le surréalisme, théorisé par André Breton en 1924, explore le rêve et l'inconscient."
+      },
+      "en": {
+        "text": "Which 20th-century art movement is associated with Salvador Dalí and René Magritte?",
+        "options": [
+          "Fauvism",
+          "Surrealism",
+          "Dadaism",
+          "Expressionism"
+        ],
+        "explanation": "Surrealism, theorized by André Breton in 1924, explores dreams and the unconscious."
+      },
+      "es": {
+        "text": "¿Qué corriente artística del siglo XX se asocia con Salvador Dalí y René Magritte?",
+        "options": [
+          "El fauvismo",
+          "El surrealismo",
+          "El dadaísmo",
+          "El expresionismo"
+        ],
+        "explanation": "El surrealismo, teorizado por André Breton en 1924, explora el sueño y el inconsciente."
+      }
+    }
+  },
+  {
+    "sourceRef": "d4f3f27d412a7ff2",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "De quelle saga cinématographique provient la réplique « Que la Force soit avec toi » ?",
+        "options": [
+          "Star Trek",
+          "Le Seigneur des anneaux",
+          "Star Wars",
+          "Matrix"
+        ],
+        "explanation": "« Que la Force soit avec toi » est la réplique culte de la saga Star Wars, créée par George Lucas en 1977."
+      },
+      "en": {
+        "text": "From which film saga comes the line 'May the Force be with you'?",
+        "options": [
+          "Star Trek",
+          "The Lord of the Rings",
+          "Star Wars",
+          "The Matrix"
+        ],
+        "explanation": "'May the Force be with you' is the iconic line from the Star Wars saga, created by George Lucas in 1977."
+      },
+      "es": {
+        "text": "¿De qué saga cinematográfica proviene la frase «Que la Fuerza te acompañe»?",
+        "options": [
+          "Star Trek",
+          "El Señor de los Anillos",
+          "Star Wars",
+          "Matrix"
+        ],
+        "explanation": "«Que la Fuerza te acompañe» es la frase icónica de la saga Star Wars, creada por George Lucas en 1977."
+      }
+    }
+  },
+  {
+    "sourceRef": "f1dd4bb60da8c552",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel réalisateur britannique est surnommé le « maître du suspense » ?",
+        "options": [
+          "Stanley Kubrick",
+          "Alfred Hitchcock",
+          "Orson Welles",
+          "Federico Fellini"
+        ],
+        "explanation": "Alfred Hitchcock a réalisé des classiques comme « Psychose » et « Les Oiseaux »."
+      },
+      "en": {
+        "text": "Which British director is nicknamed the 'Master of Suspense'?",
+        "options": [
+          "Stanley Kubrick",
+          "Alfred Hitchcock",
+          "Orson Welles",
+          "Federico Fellini"
+        ],
+        "explanation": "Alfred Hitchcock directed classics such as 'Psycho' and 'The Birds'."
+      },
+      "es": {
+        "text": "¿Qué director británico es apodado el «maestro del suspense»?",
+        "options": [
+          "Stanley Kubrick",
+          "Alfred Hitchcock",
+          "Orson Welles",
+          "Federico Fellini"
+        ],
+        "explanation": "Alfred Hitchcock dirigió clásicos como «Psicosis» y «Los pájaros»."
+      }
+    }
+  },
+  {
+    "sourceRef": "f7cd0364e2b9093c",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel film de 1927 est considéré comme le premier long-métrage « parlant » ?",
+        "options": [
+          "Metropolis",
+          "Les Temps modernes",
+          "Nosferatu",
+          "Le Chanteur de jazz"
+        ],
+        "explanation": "« Le Chanteur de jazz » (1927) fut le premier long-métrage à intégrer des dialogues synchronisés."
+      },
+      "en": {
+        "text": "Which 1927 film is considered the first feature-length 'talkie'?",
+        "options": [
+          "Metropolis",
+          "Modern Times",
+          "Nosferatu",
+          "The Jazz Singer"
+        ],
+        "explanation": "'The Jazz Singer' (1927) was the first feature film to include synchronized dialogue."
+      },
+      "es": {
+        "text": "¿Qué película de 1927 se considera el primer largometraje «sonoro» hablado?",
+        "options": [
+          "Metrópolis",
+          "Tiempos modernos",
+          "Nosferatu",
+          "El cantante de jazz"
+        ],
+        "explanation": "«El cantante de jazz» (1927) fue el primer largometraje con diálogos sincronizados."
+      }
+    }
+  },
+  {
+    "sourceRef": "0bb165549b54b44c",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel groupe britannique a sorti l'album « Abbey Road » ?",
+        "options": [
+          "Les Rolling Stones",
+          "Queen",
+          "Les Beatles",
+          "Pink Floyd"
+        ],
+        "explanation": "« Abbey Road » (1969) est le dernier album enregistré par les Beatles, célèbre pour sa pochette."
+      },
+      "en": {
+        "text": "Which British band released the album 'Abbey Road'?",
+        "options": [
+          "The Rolling Stones",
+          "Queen",
+          "The Beatles",
+          "Pink Floyd"
+        ],
+        "explanation": "'Abbey Road' (1969) was the last album recorded by the Beatles, famous for its cover."
+      },
+      "es": {
+        "text": "¿Qué banda británica publicó el álbum «Abbey Road»?",
+        "options": [
+          "The Rolling Stones",
+          "Queen",
+          "The Beatles",
+          "Pink Floyd"
+        ],
+        "explanation": "«Abbey Road» (1969) fue el último álbum grabado por los Beatles, famoso por su portada."
+      }
+    }
+  },
+  {
+    "sourceRef": "8726f578760051e0",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur autrichien, enfant prodige, a écrit l'opéra « La Flûte enchantée » ?",
+        "options": [
+          "Wolfgang Amadeus Mozart",
+          "Joseph Haydn",
+          "Franz Schubert",
+          "Antonio Vivaldi"
+        ],
+        "explanation": "Mozart composa « La Flûte enchantée » en 1791, l'année de sa mort, à seulement 35 ans."
+      },
+      "en": {
+        "text": "Which Austrian composer and child prodigy wrote the opera 'The Magic Flute'?",
+        "options": [
+          "Wolfgang Amadeus Mozart",
+          "Joseph Haydn",
+          "Franz Schubert",
+          "Antonio Vivaldi"
+        ],
+        "explanation": "Mozart composed 'The Magic Flute' in 1791, the year of his death, at just 35."
+      },
+      "es": {
+        "text": "¿Qué compositor austríaco y niño prodigio escribió la ópera «La flauta mágica»?",
+        "options": [
+          "Wolfgang Amadeus Mozart",
+          "Joseph Haydn",
+          "Franz Schubert",
+          "Antonio Vivaldi"
+        ],
+        "explanation": "Mozart compuso «La flauta mágica» en 1791, el año de su muerte, con solo 35 años."
+      }
+    }
+  },
+  {
+    "sourceRef": "f845421cf6d93ff3",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel genre musical est né à La Nouvelle-Orléans au début du XXe siècle ?",
+        "options": [
+          "Le reggae",
+          "Le blues",
+          "Le rock",
+          "Le jazz"
+        ],
+        "explanation": "Le jazz naquit à La Nouvelle-Orléans vers 1900, mêlant blues, ragtime et fanfares."
+      },
+      "en": {
+        "text": "Which musical genre was born in New Orleans in the early 20th century?",
+        "options": [
+          "Reggae",
+          "Blues",
+          "Rock",
+          "Jazz"
+        ],
+        "explanation": "Jazz was born in New Orleans around 1900, blending blues, ragtime and brass bands."
+      },
+      "es": {
+        "text": "¿Qué género musical nació en Nueva Orleans a principios del siglo XX?",
+        "options": [
+          "El reggae",
+          "El blues",
+          "El rock",
+          "El jazz"
+        ],
+        "explanation": "El jazz nació en Nueva Orleans hacia 1900, mezclando blues, ragtime y bandas de metales."
+      }
+    }
+  },
+  {
+    "sourceRef": "16f389dbba8c8cc5",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Combien de pattes possède un insecte adulte ?",
+        "options": [
+          "8",
+          "6",
+          "4",
+          "10"
+        ],
+        "explanation": "Tous les insectes adultes ont six pattes ; les araignées, avec huit pattes, ne sont pas des insectes."
+      },
+      "en": {
+        "text": "How many legs does an adult insect have?",
+        "options": [
+          "8",
+          "6",
+          "4",
+          "10"
+        ],
+        "explanation": "All adult insects have six legs; spiders, with eight legs, are not insects."
+      },
+      "es": {
+        "text": "¿Cuántas patas tiene un insecto adulto?",
+        "options": [
+          "8",
+          "6",
+          "4",
+          "10"
+        ],
+        "explanation": "Todos los insectos adultos tienen seis patas; las arañas, con ocho patas, no son insectos."
+      }
+    }
+  },
+  {
+    "sourceRef": "d74fa86f6fe8267d",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel est l'animal terrestre le plus rapide ?",
+        "options": [
+          "Le lion",
+          "Le cheval",
+          "Le guépard",
+          "L'antilope"
+        ],
+        "explanation": "Le guépard peut atteindre 110 km/h sur de courtes distances."
+      },
+      "en": {
+        "text": "What is the fastest land animal?",
+        "options": [
+          "The lion",
+          "The horse",
+          "The cheetah",
+          "The antelope"
+        ],
+        "explanation": "The cheetah can reach 110 km/h over short distances."
+      },
+      "es": {
+        "text": "¿Cuál es el animal terrestre más rápido?",
+        "options": [
+          "El león",
+          "El caballo",
+          "El guepardo",
+          "El antílope"
+        ],
+        "explanation": "El guepardo puede alcanzar 110 km/h en distancias cortas."
+      }
+    }
+  },
+  {
+    "sourceRef": "c3f7a14d7d4e3e9a",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel processus permet aux plantes de fabriquer leur énergie à partir de la lumière ?",
+        "options": [
+          "La respiration",
+          "La fermentation",
+          "La digestion",
+          "La photosynthèse"
+        ],
+        "explanation": "La photosynthèse transforme le CO₂ et l'eau en sucres, en libérant l'oxygène que nous respirons."
+      },
+      "en": {
+        "text": "Which process lets plants make their energy from light?",
+        "options": [
+          "Respiration",
+          "Fermentation",
+          "Digestion",
+          "Photosynthesis"
+        ],
+        "explanation": "Photosynthesis turns CO₂ and water into sugars, releasing the oxygen we breathe."
+      },
+      "es": {
+        "text": "¿Qué proceso permite a las plantas fabricar su energía a partir de la luz?",
+        "options": [
+          "La respiración",
+          "La fermentación",
+          "La digestión",
+          "La fotosíntesis"
+        ],
+        "explanation": "La fotosíntesis transforma el CO₂ y el agua en azúcares, liberando el oxígeno que respiramos."
+      }
+    }
+  },
+  {
+    "sourceRef": "1f3505a353d80f91",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel est le seul mammifère capable de voler activement ?",
+        "options": [
+          "La chauve-souris",
+          "L'écureuil volant",
+          "Le colibri",
+          "Le pétaure du sucre"
+        ],
+        "explanation": "Seule la chauve-souris vole véritablement ; l'écureuil volant ne fait que planer."
+      },
+      "en": {
+        "text": "What is the only mammal capable of true, active flight?",
+        "options": [
+          "The bat",
+          "The flying squirrel",
+          "The hummingbird",
+          "The sugar glider"
+        ],
+        "explanation": "Only the bat truly flies; the flying squirrel merely glides."
+      },
+      "es": {
+        "text": "¿Cuál es el único mamífero capaz de un vuelo activo verdadero?",
+        "options": [
+          "El murciélago",
+          "La ardilla voladora",
+          "El colibrí",
+          "El petauro del azúcar"
+        ],
+        "explanation": "Solo el murciélago vuela de verdad; la ardilla voladora únicamente planea."
+      }
+    }
+  },
+  {
+    "sourceRef": "addc6d3057ab979f",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Qui a cofondé Apple avec Steve Jobs et conçu ses premiers ordinateurs ?",
+        "options": [
+          "Bill Gates",
+          "Mark Zuckerberg",
+          "Steve Wozniak",
+          "Elon Musk"
+        ],
+        "explanation": "Steve Wozniak conçut l'Apple I et l'Apple II, qui firent le succès initial de l'entreprise."
+      },
+      "en": {
+        "text": "Who co-founded Apple with Steve Jobs and designed its first computers?",
+        "options": [
+          "Bill Gates",
+          "Mark Zuckerberg",
+          "Steve Wozniak",
+          "Elon Musk"
+        ],
+        "explanation": "Steve Wozniak designed the Apple I and Apple II, which drove the company's early success."
+      },
+      "es": {
+        "text": "¿Quién cofundó Apple con Steve Jobs y diseñó sus primeros ordenadores?",
+        "options": [
+          "Bill Gates",
+          "Mark Zuckerberg",
+          "Steve Wozniak",
+          "Elon Musk"
+        ],
+        "explanation": "Steve Wozniak diseñó el Apple I y el Apple II, que impulsaron el éxito inicial de la empresa."
+      }
+    }
+  },
+  {
+    "sourceRef": "72782211cb45d523",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Que signifie le sigle « CPU » en informatique ?",
+        "options": [
+          "Computer Personal Unit",
+          "Central Processing Unit",
+          "Central Power Utility",
+          "Core Processing Utility"
+        ],
+        "explanation": "Le CPU, ou unité centrale de traitement, est le « cerveau » de l'ordinateur."
+      },
+      "en": {
+        "text": "What does the acronym 'CPU' stand for in computing?",
+        "options": [
+          "Computer Personal Unit",
+          "Central Processing Unit",
+          "Central Power Utility",
+          "Core Processing Utility"
+        ],
+        "explanation": "The CPU, or Central Processing Unit, is the 'brain' of the computer."
+      },
+      "es": {
+        "text": "¿Qué significa la sigla «CPU» en informática?",
+        "options": [
+          "Computer Personal Unit",
+          "Central Processing Unit",
+          "Central Power Utility",
+          "Core Processing Utility"
+        ],
+        "explanation": "La CPU, o unidad central de procesamiento, es el «cerebro» del ordenador."
+      }
+    }
+  },
+  {
+    "sourceRef": "e17e19f8778b3a03",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel réseau, ancêtre d'Internet, fut créé aux États-Unis à la fin des années 1960 ?",
+        "options": [
+          "Ethernet",
+          "Bitnet",
+          "Usenet",
+          "ARPANET"
+        ],
+        "explanation": "ARPANET, financé par l'armée américaine, connecta ses premiers ordinateurs en 1969."
+      },
+      "en": {
+        "text": "Which network, the ancestor of the Internet, was created in the U.S. in the late 1960s?",
+        "options": [
+          "Ethernet",
+          "Bitnet",
+          "Usenet",
+          "ARPANET"
+        ],
+        "explanation": "ARPANET, funded by the U.S. military, connected its first computers in 1969."
+      },
+      "es": {
+        "text": "¿Qué red, antecesora de Internet, se creó en EE. UU. a finales de los años 1960?",
+        "options": [
+          "Ethernet",
+          "Bitnet",
+          "Usenet",
+          "ARPANET"
+        ],
+        "explanation": "ARPANET, financiada por el ejército de EE. UU., conectó sus primeros ordenadores en 1969."
+      }
+    }
+  },
+  {
+    "sourceRef": "92c6ed13866ec0c0",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel jeune sorcier est le héros d'une célèbre série de J.K. Rowling ?",
+        "options": [
+          "Harry Potter",
+          "Frodon",
+          "Percy Jackson",
+          "Bilbon"
+        ],
+        "explanation": "La saga « Harry Potter », publiée entre 1997 et 2007, s'est vendue à plus de 500 millions d'exemplaires."
+      },
+      "en": {
+        "text": "Which young wizard is the hero of a famous series by J.K. Rowling?",
+        "options": [
+          "Harry Potter",
+          "Frodo",
+          "Percy Jackson",
+          "Bilbo"
+        ],
+        "explanation": "The 'Harry Potter' series, published between 1997 and 2007, has sold over 500 million copies."
+      },
+      "es": {
+        "text": "¿Qué joven mago es el héroe de una famosa serie de J.K. Rowling?",
+        "options": [
+          "Harry Potter",
+          "Frodo",
+          "Percy Jackson",
+          "Bilbo"
+        ],
+        "explanation": "La saga «Harry Potter», publicada entre 1997 y 2007, ha vendido más de 500 millones de ejemplares."
+      }
+    }
+  },
+  {
+    "sourceRef": "c5a1a7ffa104a1e1",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel conte met en scène une jeune fille qui perd une pantoufle de verre ?",
+        "options": [
+          "Blanche-Neige",
+          "La Belle au bois dormant",
+          "Raiponce",
+          "Cendrillon"
+        ],
+        "explanation": "La version la plus connue de Cendrillon fut écrite par Charles Perrault en 1697."
+      },
+      "en": {
+        "text": "Which fairy tale features a young girl who loses a glass slipper?",
+        "options": [
+          "Snow White",
+          "Sleeping Beauty",
+          "Rapunzel",
+          "Cinderella"
+        ],
+        "explanation": "The best-known version of Cinderella was written by Charles Perrault in 1697."
+      },
+      "es": {
+        "text": "¿Qué cuento presenta a una joven que pierde un zapato de cristal?",
+        "options": [
+          "Blancanieves",
+          "La Bella Durmiente",
+          "Rapunzel",
+          "Cenicienta"
+        ],
+        "explanation": "La versión más conocida de Cenicienta fue escrita por Charles Perrault en 1697."
+      }
+    }
+  },
+  {
+    "sourceRef": "9e1263efc8c15ca2",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel auteur russe a écrit « Guerre et Paix » ?",
+        "options": [
+          "Fiodor Dostoïevski",
+          "Anton Tchekhov",
+          "Alexandre Pouchkine",
+          "Léon Tolstoï"
+        ],
+        "explanation": "« Guerre et Paix » (1869) suit des familles russes sur fond des guerres napoléoniennes."
+      },
+      "en": {
+        "text": "Which Russian author wrote 'War and Peace'?",
+        "options": [
+          "Fyodor Dostoevsky",
+          "Anton Chekhov",
+          "Alexander Pushkin",
+          "Leo Tolstoy"
+        ],
+        "explanation": "'War and Peace' (1869) follows Russian families against the backdrop of the Napoleonic Wars."
+      },
+      "es": {
+        "text": "¿Qué autor ruso escribió «Guerra y paz»?",
+        "options": [
+          "Fiódor Dostoyevski",
+          "Antón Chéjov",
+          "Aleksandr Pushkin",
+          "León Tolstói"
+        ],
+        "explanation": "«Guerra y paz» (1869) sigue a familias rusas con el trasfondo de las guerras napoleónicas."
+      }
+    }
+  },
+  {
+    "sourceRef": "a252322e80263c20",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel poète italien du Moyen Âge a écrit « La Divine Comédie » ?",
+        "options": [
+          "Pétrarque",
+          "Dante Alighieri",
+          "Boccace",
+          "Virgile"
+        ],
+        "explanation": "Écrite au début du XIVe siècle, « La Divine Comédie » décrit un voyage à travers l'Enfer, le Purgatoire et le Paradis."
+      },
+      "en": {
+        "text": "Which medieval Italian poet wrote 'The Divine Comedy'?",
+        "options": [
+          "Petrarch",
+          "Dante Alighieri",
+          "Boccaccio",
+          "Virgil"
+        ],
+        "explanation": "Written in the early 14th century, 'The Divine Comedy' depicts a journey through Hell, Purgatory and Paradise."
+      },
+      "es": {
+        "text": "¿Qué poeta italiano medieval escribió «La Divina Comedia»?",
+        "options": [
+          "Petrarca",
+          "Dante Alighieri",
+          "Boccaccio",
+          "Virgilio"
+        ],
+        "explanation": "Escrita a principios del siglo XIV, «La Divina Comedia» describe un viaje por el Infierno, el Purgatorio y el Paraíso."
+      }
+    }
+  },
+  {
+    "sourceRef": "9bfd9959053d82c1",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "De quel pays le fromage « feta » est-il originaire ?",
+        "options": [
+          "L'Italie",
+          "La France",
+          "La Grèce",
+          "La Turquie"
+        ],
+        "explanation": "La feta, protégée par une AOP européenne, doit être produite en Grèce à partir de lait de brebis."
+      },
+      "en": {
+        "text": "Which country is 'feta' cheese originally from?",
+        "options": [
+          "Italy",
+          "France",
+          "Greece",
+          "Turkey"
+        ],
+        "explanation": "Feta, protected by a European PDO, must be made in Greece from sheep's milk."
+      },
+      "es": {
+        "text": "¿De qué país es originario el queso «feta»?",
+        "options": [
+          "Italia",
+          "Francia",
+          "Grecia",
+          "Turquía"
+        ],
+        "explanation": "La feta, protegida por una DOP europea, debe elaborarse en Grecia con leche de oveja."
+      }
+    }
+  },
+  {
+    "sourceRef": "ba69daa3bc958dcd",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel champignon très recherché, déterré à l'aide de chiens ou de cochons, atteint des prix records ?",
+        "options": [
+          "Le cèpe",
+          "La morille",
+          "La girolle",
+          "La truffe"
+        ],
+        "explanation": "La truffe blanche d'Alba peut se vendre plusieurs milliers d'euros le kilo."
+      },
+      "en": {
+        "text": "Which highly prized fungus, dug up with dogs or pigs, reaches record prices?",
+        "options": [
+          "The porcini",
+          "The morel",
+          "The chanterelle",
+          "The truffle"
+        ],
+        "explanation": "The white truffle of Alba can sell for several thousand euros per kilo."
+      },
+      "es": {
+        "text": "¿Qué hongo muy apreciado, desenterrado con perros o cerdos, alcanza precios récord?",
+        "options": [
+          "El boletus",
+          "La colmenilla",
+          "El rebozuelo",
+          "La trufa"
+        ],
+        "explanation": "La trufa blanca de Alba puede venderse por varios miles de euros el kilo."
+      }
+    }
+  },
+  {
+    "sourceRef": "11521b670d05d79f",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel alcool japonais est traditionnellement fabriqué à partir de riz fermenté ?",
+        "options": [
+          "Le saké",
+          "Le soju",
+          "Le baijiu",
+          "Le mezcal"
+        ],
+        "explanation": "Le saké est brassé à partir de riz, à la manière d'une bière, malgré son appellation courante de « vin de riz »."
+      },
+      "en": {
+        "text": "Which Japanese alcohol is traditionally made from fermented rice?",
+        "options": [
+          "Sake",
+          "Soju",
+          "Baijiu",
+          "Mezcal"
+        ],
+        "explanation": "Sake is brewed from rice like a beer, despite its common name 'rice wine'."
+      },
+      "es": {
+        "text": "¿Qué bebida alcohólica japonesa se elabora tradicionalmente con arroz fermentado?",
+        "options": [
+          "El sake",
+          "El soju",
+          "El baijiu",
+          "El mezcal"
+        ],
+        "explanation": "El sake se elabora a partir de arroz como una cerveza, pese a su nombre común de «vino de arroz»."
+      }
+    }
+  }
+]
