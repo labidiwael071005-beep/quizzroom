@@ -1,0 +1,1562 @@
+[
+  {
+    "sourceRef": "d53c63ff3c9a30ba",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "En quelle année a débuté la Seconde Guerre mondiale ?",
+        "options": [
+          "1939",
+          "1914",
+          "1945",
+          "1929"
+        ],
+        "explanation": "La Seconde Guerre mondiale débuta le 1er septembre 1939 avec l'invasion de la Pologne."
+      },
+      "en": {
+        "text": "In which year did World War II begin?",
+        "options": [
+          "1939",
+          "1914",
+          "1945",
+          "1929"
+        ],
+        "explanation": "World War II began on 1 September 1939 with the invasion of Poland."
+      },
+      "es": {
+        "text": "¿En qué año comenzó la Segunda Guerra Mundial?",
+        "options": [
+          "1939",
+          "1914",
+          "1945",
+          "1929"
+        ],
+        "explanation": "La Segunda Guerra Mundial comenzó el 1 de septiembre de 1939 con la invasión de Polonia."
+      }
+    }
+  },
+  {
+    "sourceRef": "917fbe87b9b9f2e3",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel général corse devint empereur des Français en 1804 ?",
+        "options": [
+          "Charles de Gaulle",
+          "Napoléon Bonaparte",
+          "Louis XVIII",
+          "Robespierre"
+        ],
+        "explanation": "Napoléon se couronna lui-même empereur à Notre-Dame de Paris le 2 décembre 1804."
+      },
+      "en": {
+        "text": "Which Corsican general became Emperor of the French in 1804?",
+        "options": [
+          "Charles de Gaulle",
+          "Napoleon Bonaparte",
+          "Louis XVIII",
+          "Robespierre"
+        ],
+        "explanation": "Napoleon crowned himself emperor at Notre-Dame de Paris on 2 December 1804."
+      },
+      "es": {
+        "text": "¿Qué general corso se convirtió en emperador de los franceses en 1804?",
+        "options": [
+          "Charles de Gaulle",
+          "Napoleón Bonaparte",
+          "Luis XVIII",
+          "Robespierre"
+        ],
+        "explanation": "Napoleón se coronó a sí mismo emperador en Notre-Dame de París el 2 de diciembre de 1804."
+      }
+    }
+  },
+  {
+    "sourceRef": "6efb36e8a9529d24",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle cité-État grecque était réputée pour l'éducation militaire très stricte de ses citoyens ?",
+        "options": [
+          "Athènes",
+          "Corinthe",
+          "Sparte",
+          "Thèbes"
+        ],
+        "explanation": "À Sparte, les garçons entraient dès 7 ans dans un rude entraînement militaire, l'agôgè."
+      },
+      "en": {
+        "text": "Which Greek city-state was famous for the very strict military upbringing of its citizens?",
+        "options": [
+          "Athens",
+          "Corinth",
+          "Sparta",
+          "Thebes"
+        ],
+        "explanation": "In Sparta, boys entered a harsh military training, the agoge, from the age of 7."
+      },
+      "es": {
+        "text": "¿Qué ciudad-estado griega era famosa por la estricta educación militar de sus ciudadanos?",
+        "options": [
+          "Atenas",
+          "Corinto",
+          "Esparta",
+          "Tebas"
+        ],
+        "explanation": "En Esparta, los niños entraban desde los 7 años en un duro entrenamiento militar, la agogé."
+      }
+    }
+  },
+  {
+    "sourceRef": "6af1003ae9567bb4",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle civilisation d'Amérique centrale a mis au point un calendrier très précis et une écriture glyphique ?",
+        "options": [
+          "Les Vikings",
+          "Les Sumériens",
+          "Les Perses",
+          "Les Mayas"
+        ],
+        "explanation": "Les Mayas avaient un calendrier extrêmement précis et une écriture composée de centaines de glyphes."
+      },
+      "en": {
+        "text": "Which Central American civilization developed a very accurate calendar and a glyphic writing system?",
+        "options": [
+          "The Vikings",
+          "The Sumerians",
+          "The Persians",
+          "The Maya"
+        ],
+        "explanation": "The Maya had an extremely accurate calendar and a writing system of hundreds of glyphs."
+      },
+      "es": {
+        "text": "¿Qué civilización de América Central desarrolló un calendario muy preciso y una escritura glífica?",
+        "options": [
+          "Los vikingos",
+          "Los sumerios",
+          "Los persas",
+          "Los mayas"
+        ],
+        "explanation": "Los mayas tenían un calendario muy preciso y una escritura de cientos de glifos."
+      }
+    }
+  },
+  {
+    "sourceRef": "17693fe5b39dd82a",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien de planètes compte le système solaire ?",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "10"
+        ],
+        "explanation": "Depuis 2006, Pluton est classée « planète naine », ramenant le total à huit planètes."
+      },
+      "en": {
+        "text": "How many planets does the Solar System have?",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "10"
+        ],
+        "explanation": "Since 2006, Pluto has been classified a 'dwarf planet', bringing the total to eight planets."
+      },
+      "es": {
+        "text": "¿Cuántos planetas tiene el sistema solar?",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "10"
+        ],
+        "explanation": "Desde 2006, Plutón está clasificado como «planeta enano», dejando el total en ocho planetas."
+      }
+    }
+  },
+  {
+    "sourceRef": "9682b0f37870c7f6",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel gaz les êtres humains rejettent-ils principalement en expirant ?",
+        "options": [
+          "L'oxygène",
+          "Le dioxyde de carbone",
+          "L'hydrogène",
+          "L'hélium"
+        ],
+        "explanation": "Nous inspirons de l'oxygène et rejetons surtout du dioxyde de carbone, produit par nos cellules."
+      },
+      "en": {
+        "text": "Which gas do humans mainly breathe out?",
+        "options": [
+          "Oxygen",
+          "Carbon dioxide",
+          "Hydrogen",
+          "Helium"
+        ],
+        "explanation": "We breathe in oxygen and breathe out mostly carbon dioxide, produced by our cells."
+      },
+      "es": {
+        "text": "¿Qué gas expulsan principalmente los seres humanos al espirar?",
+        "options": [
+          "El oxígeno",
+          "El dióxido de carbono",
+          "El hidrógeno",
+          "El helio"
+        ],
+        "explanation": "Inspiramos oxígeno y espiramos sobre todo dióxido de carbono, producido por nuestras células."
+      }
+    }
+  },
+  {
+    "sourceRef": "404c99f3125b0e58",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la planète la plus chaude du système solaire ?",
+        "options": [
+          "Mercure",
+          "Mars",
+          "Vénus",
+          "Jupiter"
+        ],
+        "explanation": "Malgré sa distance, Vénus dépasse 460 °C grâce à un effet de serre extrême, plus chaude que Mercure."
+      },
+      "en": {
+        "text": "Which is the hottest planet in the Solar System?",
+        "options": [
+          "Mercury",
+          "Mars",
+          "Venus",
+          "Jupiter"
+        ],
+        "explanation": "Despite being farther out, Venus exceeds 460 °C due to a runaway greenhouse effect, hotter than Mercury."
+      },
+      "es": {
+        "text": "¿Cuál es el planeta más caliente del sistema solar?",
+        "options": [
+          "Mercurio",
+          "Marte",
+          "Venus",
+          "Júpiter"
+        ],
+        "explanation": "A pesar de estar más lejos, Venus supera los 460 °C por un efecto invernadero extremo, más caliente que Mercurio."
+      }
+    }
+  },
+  {
+    "sourceRef": "1043fb844a1e8a20",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel savant a énoncé la célèbre équation E=mc² ?",
+        "options": [
+          "Isaac Newton",
+          "Niels Bohr",
+          "Marie Curie",
+          "Albert Einstein"
+        ],
+        "explanation": "Publiée en 1905, l'équation E=mc² établit l'équivalence entre masse et énergie."
+      },
+      "en": {
+        "text": "Which scientist stated the famous equation E=mc²?",
+        "options": [
+          "Isaac Newton",
+          "Niels Bohr",
+          "Marie Curie",
+          "Albert Einstein"
+        ],
+        "explanation": "Published in 1905, E=mc² establishes the equivalence between mass and energy."
+      },
+      "es": {
+        "text": "¿Qué científico enunció la famosa ecuación E=mc²?",
+        "options": [
+          "Isaac Newton",
+          "Niels Bohr",
+          "Marie Curie",
+          "Albert Einstein"
+        ],
+        "explanation": "Publicada en 1905, la ecuación E=mc² establece la equivalencia entre masa y energía."
+      }
+    }
+  },
+  {
+    "sourceRef": "64a700f04bb23c1e",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la capitale du Japon ?",
+        "options": [
+          "Tokyo",
+          "Kyoto",
+          "Osaka",
+          "Séoul"
+        ],
+        "explanation": "Tokyo, autrefois nommée Edo, est devenue la capitale du Japon en 1868."
+      },
+      "en": {
+        "text": "What is the capital of Japan?",
+        "options": [
+          "Tokyo",
+          "Kyoto",
+          "Osaka",
+          "Seoul"
+        ],
+        "explanation": "Tokyo, formerly named Edo, became the capital of Japan in 1868."
+      },
+      "es": {
+        "text": "¿Cuál es la capital de Japón?",
+        "options": [
+          "Tokio",
+          "Kioto",
+          "Osaka",
+          "Seúl"
+        ],
+        "explanation": "Tokio, antiguamente llamada Edo, se convirtió en la capital de Japón en 1868."
+      }
+    }
+  },
+  {
+    "sourceRef": "d28363f700d1b482",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel pays a la forme d'une botte sur la carte de l'Europe ?",
+        "options": [
+          "La Grèce",
+          "L'Italie",
+          "L'Espagne",
+          "Le Portugal"
+        ],
+        "explanation": "La péninsule italienne évoque une botte dont le « talon » est la région des Pouilles."
+      },
+      "en": {
+        "text": "Which country is shaped like a boot on the map of Europe?",
+        "options": [
+          "Greece",
+          "Italy",
+          "Spain",
+          "Portugal"
+        ],
+        "explanation": "The Italian peninsula looks like a boot, whose 'heel' is the Puglia region."
+      },
+      "es": {
+        "text": "¿Qué país tiene forma de bota en el mapa de Europa?",
+        "options": [
+          "Grecia",
+          "Italia",
+          "España",
+          "Portugal"
+        ],
+        "explanation": "La península italiana parece una bota, cuyo «tacón» es la región de Apulia."
+      }
+    }
+  },
+  {
+    "sourceRef": "0590dde098c7b600",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus vaste pays du monde par sa superficie ?",
+        "options": [
+          "Le Canada",
+          "La Chine",
+          "Les États-Unis",
+          "La Russie"
+        ],
+        "explanation": "La Russie couvre plus de 17 millions de km², soit près de deux fois le Canada."
+      },
+      "en": {
+        "text": "Which is the largest country in the world by area?",
+        "options": [
+          "Canada",
+          "China",
+          "The United States",
+          "Russia"
+        ],
+        "explanation": "Russia covers over 17 million km², nearly twice the size of Canada."
+      },
+      "es": {
+        "text": "¿Cuál es el país más extenso del mundo por superficie?",
+        "options": [
+          "Canadá",
+          "China",
+          "Estados Unidos",
+          "Rusia"
+        ],
+        "explanation": "Rusia cubre más de 17 millones de km², casi el doble que Canadá."
+      }
+    }
+  },
+  {
+    "sourceRef": "f60e64e757bd4cd3",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien de trous compte un parcours de golf complet standard ?",
+        "options": [
+          "18",
+          "9",
+          "12",
+          "24"
+        ],
+        "explanation": "Un parcours standard compte 18 trous ; on joue parfois 9 trous en version courte."
+      },
+      "en": {
+        "text": "How many holes does a standard full golf course have?",
+        "options": [
+          "18",
+          "9",
+          "12",
+          "24"
+        ],
+        "explanation": "A standard course has 18 holes; a short version is sometimes 9 holes."
+      },
+      "es": {
+        "text": "¿Cuántos hoyos tiene un campo de golf completo estándar?",
+        "options": [
+          "18",
+          "9",
+          "12",
+          "24"
+        ],
+        "explanation": "Un campo estándar tiene 18 hoyos; a veces se juega una versión corta de 9 hoyos."
+      }
+    }
+  },
+  {
+    "sourceRef": "e192bcfd307e0061",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel joueur argentin a mené son équipe au titre de champion du monde de football en 1986 ?",
+        "options": [
+          "Lionel Messi",
+          "Pelé",
+          "Diego Maradona",
+          "Zinédine Zidane"
+        ],
+        "explanation": "En 1986, Maradona marqua le but de la « main de Dieu » puis le « but du siècle » contre l'Angleterre."
+      },
+      "en": {
+        "text": "Which Argentine player led his team to the 1986 football World Cup title?",
+        "options": [
+          "Lionel Messi",
+          "Pelé",
+          "Diego Maradona",
+          "Zinédine Zidane"
+        ],
+        "explanation": "In 1986, Maradona scored the 'Hand of God' goal and then the 'Goal of the Century' against England."
+      },
+      "es": {
+        "text": "¿Qué jugador argentino llevó a su equipo al título mundial de fútbol en 1986?",
+        "options": [
+          "Lionel Messi",
+          "Pelé",
+          "Diego Maradona",
+          "Zinédine Zidane"
+        ],
+        "explanation": "En 1986, Maradona marcó el gol de la «mano de Dios» y luego el «gol del siglo» ante Inglaterra."
+      }
+    }
+  },
+  {
+    "sourceRef": "47cafc85914da102",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "De quel pays est originaire le sport du judo ?",
+        "options": [
+          "La Chine",
+          "Le Japon",
+          "La Corée",
+          "Le Brésil"
+        ],
+        "explanation": "Le judo fut créé au Japon en 1882 par Jigorō Kanō à partir d'anciennes techniques de jiu-jitsu."
+      },
+      "en": {
+        "text": "Which country is the sport of judo originally from?",
+        "options": [
+          "China",
+          "Japan",
+          "Korea",
+          "Brazil"
+        ],
+        "explanation": "Judo was created in Japan in 1882 by Jigorō Kanō from older jiu-jitsu techniques."
+      },
+      "es": {
+        "text": "¿De qué país es originario el deporte del judo?",
+        "options": [
+          "China",
+          "Japón",
+          "Corea",
+          "Brasil"
+        ],
+        "explanation": "El judo fue creado en Japón en 1882 por Jigorō Kanō a partir de antiguas técnicas de jiu-jitsu."
+      }
+    }
+  },
+  {
+    "sourceRef": "6d36d5ee098f26ea",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel pays a remporté le plus grand nombre de Coupes du monde de football (cinq) ?",
+        "options": [
+          "L'Allemagne",
+          "L'Italie",
+          "Le Brésil",
+          "L'Argentine"
+        ],
+        "explanation": "Le Brésil a gagné la Coupe du monde à cinq reprises : 1958, 1962, 1970, 1994 et 2002."
+      },
+      "en": {
+        "text": "Which country has won the most football World Cups (five)?",
+        "options": [
+          "Germany",
+          "Italy",
+          "Brazil",
+          "Argentina"
+        ],
+        "explanation": "Brazil has won the World Cup five times: 1958, 1962, 1970, 1994 and 2002."
+      },
+      "es": {
+        "text": "¿Qué país ha ganado el mayor número de Copas del Mundo de fútbol (cinco)?",
+        "options": [
+          "Alemania",
+          "Italia",
+          "Brasil",
+          "Argentina"
+        ],
+        "explanation": "Brasil ha ganado la Copa del Mundo cinco veces: 1958, 1962, 1970, 1994 y 2002."
+      }
+    }
+  },
+  {
+    "sourceRef": "f92aa326bf0f457c",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre espagnol a peint « Guernica », dénonçant les horreurs de la guerre ?",
+        "options": [
+          "Salvador Dalí",
+          "Pablo Picasso",
+          "Diego Vélasquez",
+          "El Greco"
+        ],
+        "explanation": "« Guernica » (1937) dénonce le bombardement d'une ville basque pendant la guerre d'Espagne."
+      },
+      "en": {
+        "text": "Which Spanish painter created 'Guernica', denouncing the horrors of war?",
+        "options": [
+          "Salvador Dalí",
+          "Pablo Picasso",
+          "Diego Velázquez",
+          "El Greco"
+        ],
+        "explanation": "'Guernica' (1937) denounces the bombing of a Basque town during the Spanish Civil War."
+      },
+      "es": {
+        "text": "¿Qué pintor español creó «Guernica», denunciando los horrores de la guerra?",
+        "options": [
+          "Salvador Dalí",
+          "Pablo Picasso",
+          "Diego Velázquez",
+          "El Greco"
+        ],
+        "explanation": "«Guernica» (1937) denuncia el bombardeo de una ciudad vasca durante la Guerra Civil española."
+      }
+    }
+  },
+  {
+    "sourceRef": "667f834b39a190af",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle sculptrice française, élève et collaboratrice de Rodin, réalisa « La Valse » ?",
+        "options": [
+          "Berthe Morisot",
+          "Sonia Delaunay",
+          "Niki de Saint Phalle",
+          "Camille Claudel"
+        ],
+        "explanation": "Camille Claudel, artiste majeure, fut longtemps éclipsée par sa relation avec Auguste Rodin."
+      },
+      "en": {
+        "text": "Which French sculptor, a pupil and collaborator of Rodin, created 'The Waltz'?",
+        "options": [
+          "Berthe Morisot",
+          "Sonia Delaunay",
+          "Niki de Saint Phalle",
+          "Camille Claudel"
+        ],
+        "explanation": "Camille Claudel, a major artist, was long overshadowed by her relationship with Auguste Rodin."
+      },
+      "es": {
+        "text": "¿Qué escultora francesa, alumna y colaboradora de Rodin, creó «El vals»?",
+        "options": [
+          "Berthe Morisot",
+          "Sonia Delaunay",
+          "Niki de Saint Phalle",
+          "Camille Claudel"
+        ],
+        "explanation": "Camille Claudel, artista importante, quedó mucho tiempo eclipsada por su relación con Auguste Rodin."
+      }
+    }
+  },
+  {
+    "sourceRef": "a333f8a148d96b3c",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Dans quel musée de Madrid sont conservées les œuvres majeures de Vélasquez et de Goya ?",
+        "options": [
+          "Le Reina Sofía",
+          "La galerie des Offices",
+          "Le musée du Prado",
+          "Le British Museum"
+        ],
+        "explanation": "Le musée du Prado abrite « Les Ménines » de Vélasquez et les « Peintures noires » de Goya."
+      },
+      "en": {
+        "text": "In which Madrid museum are the major works of Velázquez and Goya kept?",
+        "options": [
+          "The Reina Sofía",
+          "The Uffizi Gallery",
+          "The Prado Museum",
+          "The British Museum"
+        ],
+        "explanation": "The Prado holds Velázquez's 'Las Meninas' and Goya's 'Black Paintings'."
+      },
+      "es": {
+        "text": "¿En qué museo de Madrid se conservan las obras principales de Velázquez y Goya?",
+        "options": [
+          "El Reina Sofía",
+          "La Galería Uffizi",
+          "El Museo del Prado",
+          "El Museo Británico"
+        ],
+        "explanation": "El Prado alberga «Las meninas» de Velázquez y las «Pinturas negras» de Goya."
+      }
+    }
+  },
+  {
+    "sourceRef": "5fe11111e60c790c",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel extraterrestre veut « téléphoner maison » dans un film de Spielberg de 1982 ?",
+        "options": [
+          "E.T.",
+          "Yoda",
+          "Alf",
+          "Wall-E"
+        ],
+        "explanation": "« E.T. l'extra-terrestre » fut le plus gros succès au box-office des années 1980."
+      },
+      "en": {
+        "text": "Which alien wants to 'phone home' in a 1982 Spielberg film?",
+        "options": [
+          "E.T.",
+          "Yoda",
+          "Alf",
+          "Wall-E"
+        ],
+        "explanation": "'E.T. the Extra-Terrestrial' was the biggest box-office hit of the 1980s."
+      },
+      "es": {
+        "text": "¿Qué extraterrestre quiere «llamar a casa» en una película de Spielberg de 1982?",
+        "options": [
+          "E.T.",
+          "Yoda",
+          "Alf",
+          "Wall-E"
+        ],
+        "explanation": "«E.T., el extraterrestre» fue el mayor éxito de taquilla de los años 1980."
+      }
+    }
+  },
+  {
+    "sourceRef": "eb4013ed0b57a7a0",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Dans « Le Seigneur des anneaux », comment se nomme la créature qui convoite l'Anneau et l'appelle « mon précieux » ?",
+        "options": [
+          "Sauron",
+          "Gollum",
+          "Gandalf",
+          "Aragorn"
+        ],
+        "explanation": "Gollum, autrefois nommé Sméagol, fut corrompu par l'Anneau unique au fil des siècles."
+      },
+      "en": {
+        "text": "In 'The Lord of the Rings', what is the name of the creature who covets the Ring and calls it 'my precious'?",
+        "options": [
+          "Sauron",
+          "Gollum",
+          "Gandalf",
+          "Aragorn"
+        ],
+        "explanation": "Gollum, once named Sméagol, was corrupted by the One Ring over the centuries."
+      },
+      "es": {
+        "text": "En «El Señor de los Anillos», ¿cómo se llama la criatura que codicia el Anillo y lo llama «mi tesoro»?",
+        "options": [
+          "Sauron",
+          "Gollum",
+          "Gandalf",
+          "Aragorn"
+        ],
+        "explanation": "Gollum, antes llamado Sméagol, fue corrompido por el Anillo Único a lo largo de los siglos."
+      }
+    }
+  },
+  {
+    "sourceRef": "bd11feaa799538bf",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle actrice suédoise incarne le rôle féminin principal de « Casablanca » (1942) ?",
+        "options": [
+          "Greta Garbo",
+          "Marlene Dietrich",
+          "Ingrid Bergman",
+          "Katharine Hepburn"
+        ],
+        "explanation": "Ingrid Bergman y donne la réplique à Humphrey Bogart dans ce classique du cinéma."
+      },
+      "en": {
+        "text": "Which Swedish actress plays the female lead in 'Casablanca' (1942)?",
+        "options": [
+          "Greta Garbo",
+          "Marlene Dietrich",
+          "Ingrid Bergman",
+          "Katharine Hepburn"
+        ],
+        "explanation": "Ingrid Bergman stars opposite Humphrey Bogart in this cinema classic."
+      },
+      "es": {
+        "text": "¿Qué actriz sueca interpreta el papel femenino principal de «Casablanca» (1942)?",
+        "options": [
+          "Greta Garbo",
+          "Marlene Dietrich",
+          "Ingrid Bergman",
+          "Katharine Hepburn"
+        ],
+        "explanation": "Ingrid Bergman actúa junto a Humphrey Bogart en este clásico del cine."
+      }
+    }
+  },
+  {
+    "sourceRef": "09cd214ffb5a9490",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument à vent en cuivre est associé au jazz et à Louis Armstrong ?",
+        "options": [
+          "Le violon",
+          "La trompette",
+          "La harpe",
+          "L'accordéon"
+        ],
+        "explanation": "Louis Armstrong, surnommé « Satchmo », révolutionna le jazz par son jeu de trompette et sa voix rauque."
+      },
+      "en": {
+        "text": "Which brass wind instrument is associated with jazz and Louis Armstrong?",
+        "options": [
+          "The violin",
+          "The trumpet",
+          "The harp",
+          "The accordion"
+        ],
+        "explanation": "Louis Armstrong, nicknamed 'Satchmo', revolutionized jazz with his trumpet playing and gravelly voice."
+      },
+      "es": {
+        "text": "¿Qué instrumento de viento de metal se asocia con el jazz y con Louis Armstrong?",
+        "options": [
+          "El violín",
+          "La trompeta",
+          "El arpa",
+          "El acordeón"
+        ],
+        "explanation": "Louis Armstrong, apodado «Satchmo», revolucionó el jazz con su trompeta y su voz rasposa."
+      }
+    }
+  },
+  {
+    "sourceRef": "25d208f84d543aa2",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur baroque a écrit « Les Quatre Saisons » ?",
+        "options": [
+          "Jean-Sébastien Bach",
+          "Georg Friedrich Haendel",
+          "Antonio Vivaldi",
+          "Henry Purcell"
+        ],
+        "explanation": "« Les Quatre Saisons » (vers 1725) sont quatre concertos illustrant chacun une saison."
+      },
+      "en": {
+        "text": "Which Baroque composer wrote 'The Four Seasons'?",
+        "options": [
+          "Johann Sebastian Bach",
+          "George Frideric Handel",
+          "Antonio Vivaldi",
+          "Henry Purcell"
+        ],
+        "explanation": "'The Four Seasons' (c. 1725) are four concertos each depicting a season."
+      },
+      "es": {
+        "text": "¿Qué compositor barroco escribió «Las cuatro estaciones»?",
+        "options": [
+          "Johann Sebastian Bach",
+          "Georg Friedrich Händel",
+          "Antonio Vivaldi",
+          "Henry Purcell"
+        ],
+        "explanation": "«Las cuatro estaciones» (hacia 1725) son cuatro conciertos que representan cada uno una estación."
+      }
+    }
+  },
+  {
+    "sourceRef": "836af93cc7616898",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel groupe de rock britannique avait pour chanteur emblématique Freddie Mercury ?",
+        "options": [
+          "Led Zeppelin",
+          "The Who",
+          "Deep Purple",
+          "Queen"
+        ],
+        "explanation": "Freddie Mercury mena Queen à des tubes comme « Bohemian Rhapsody » et « We Are the Champions »."
+      },
+      "en": {
+        "text": "Which British rock band had Freddie Mercury as its iconic singer?",
+        "options": [
+          "Led Zeppelin",
+          "The Who",
+          "Deep Purple",
+          "Queen"
+        ],
+        "explanation": "Freddie Mercury led Queen to hits like 'Bohemian Rhapsody' and 'We Are the Champions'."
+      },
+      "es": {
+        "text": "¿Qué banda de rock británica tenía a Freddie Mercury como cantante icónico?",
+        "options": [
+          "Led Zeppelin",
+          "The Who",
+          "Deep Purple",
+          "Queen"
+        ],
+        "explanation": "Freddie Mercury llevó a Queen a éxitos como «Bohemian Rhapsody» y «We Are the Champions»."
+      }
+    }
+  },
+  {
+    "sourceRef": "501221e21626c9e6",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel oiseau noir et blanc, incapable de voler, vit surtout dans l'hémisphère sud ?",
+        "options": [
+          "Le manchot",
+          "L'aigle",
+          "Le hibou",
+          "Le flamant rose"
+        ],
+        "explanation": "Les manchots empereurs survivent à des froids de −60 °C en se serrant les uns contre les autres."
+      },
+      "en": {
+        "text": "Which black-and-white bird cannot fly and lives mostly in the southern hemisphere?",
+        "options": [
+          "The penguin",
+          "The eagle",
+          "The owl",
+          "The flamingo"
+        ],
+        "explanation": "Emperor penguins survive −60 °C cold by huddling together."
+      },
+      "es": {
+        "text": "¿Qué ave blanca y negra no puede volar y vive sobre todo en el hemisferio sur?",
+        "options": [
+          "El pingüino",
+          "El águila",
+          "El búho",
+          "El flamenco"
+        ],
+        "explanation": "Los pingüinos emperador sobreviven a fríos de −60 °C apiñándose unos contra otros."
+      }
+    }
+  },
+  {
+    "sourceRef": "9a604eb9b8fefb69",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus grand organe du corps humain ?",
+        "options": [
+          "Le foie",
+          "La peau",
+          "L'intestin",
+          "Le cerveau"
+        ],
+        "explanation": "La peau d'un adulte couvre environ 2 m² et pèse en moyenne 4 kg."
+      },
+      "en": {
+        "text": "What is the largest organ of the human body?",
+        "options": [
+          "The liver",
+          "The skin",
+          "The intestine",
+          "The brain"
+        ],
+        "explanation": "An adult's skin covers about 2 m² and weighs on average 4 kg."
+      },
+      "es": {
+        "text": "¿Cuál es el órgano más grande del cuerpo humano?",
+        "options": [
+          "El hígado",
+          "La piel",
+          "El intestino",
+          "El cerebro"
+        ],
+        "explanation": "La piel de un adulto cubre unos 2 m² y pesa de media 4 kg."
+      }
+    }
+  },
+  {
+    "sourceRef": "d2c78085d6e35dca",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Sur quel continent ne trouve-t-on aucune espèce de fourmi à l'état naturel ?",
+        "options": [
+          "L'Australie",
+          "L'Afrique",
+          "L'Antarctique",
+          "L'Amérique du Sud"
+        ],
+        "explanation": "L'Antarctique (et l'Islande) sont parmi les rares terres sans fourmis indigènes, à cause du froid extrême."
+      },
+      "en": {
+        "text": "On which continent are there no naturally occurring ant species?",
+        "options": [
+          "Australia",
+          "Africa",
+          "Antarctica",
+          "South America"
+        ],
+        "explanation": "Antarctica (and Iceland) are among the few lands without native ants, due to extreme cold."
+      },
+      "es": {
+        "text": "¿En qué continente no existe ninguna especie de hormiga de forma natural?",
+        "options": [
+          "Australia",
+          "África",
+          "La Antártida",
+          "América del Sur"
+        ],
+        "explanation": "La Antártida (e Islandia) están entre las pocas tierras sin hormigas autóctonas, por el frío extremo."
+      }
+    }
+  },
+  {
+    "sourceRef": "15dec62f67c92ce8",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la substance la plus dure produite par le corps humain ?",
+        "options": [
+          "L'os",
+          "Le cartilage",
+          "L'ongle",
+          "L'émail dentaire"
+        ],
+        "explanation": "L'émail dentaire est le tissu le plus dur du corps, mais il ne se régénère pas une fois abîmé."
+      },
+      "en": {
+        "text": "What is the hardest substance produced by the human body?",
+        "options": [
+          "Bone",
+          "Cartilage",
+          "Nail",
+          "Tooth enamel"
+        ],
+        "explanation": "Tooth enamel is the hardest tissue in the body, but it does not regenerate once damaged."
+      },
+      "es": {
+        "text": "¿Cuál es la sustancia más dura que produce el cuerpo humano?",
+        "options": [
+          "El hueso",
+          "El cartílago",
+          "La uña",
+          "El esmalte dental"
+        ],
+        "explanation": "El esmalte dental es el tejido más duro del cuerpo, pero no se regenera una vez dañado."
+      }
+    }
+  },
+  {
+    "sourceRef": "0f4de6c3fb1da411",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Que signifie « www » au début d'une adresse internet ?",
+        "options": [
+          "World Wide Web",
+          "World Web Wide",
+          "Wide World Web",
+          "Web World Wide"
+        ],
+        "explanation": "Le World Wide Web fut inventé par Tim Berners-Lee au CERN en 1989."
+      },
+      "en": {
+        "text": "What does 'www' stand for at the start of a web address?",
+        "options": [
+          "World Wide Web",
+          "World Web Wide",
+          "Wide World Web",
+          "Web World Wide"
+        ],
+        "explanation": "The World Wide Web was invented by Tim Berners-Lee at CERN in 1989."
+      },
+      "es": {
+        "text": "¿Qué significa «www» al principio de una dirección de internet?",
+        "options": [
+          "World Wide Web",
+          "World Web Wide",
+          "Wide World Web",
+          "Web World Wide"
+        ],
+        "explanation": "La World Wide Web fue inventada por Tim Berners-Lee en el CERN en 1989."
+      }
+    }
+  },
+  {
+    "sourceRef": "d3b4194f14f921a5",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel réseau social, fondé par Mark Zuckerberg, fut lancé en 2004 ?",
+        "options": [
+          "Twitter",
+          "MySpace",
+          "Facebook",
+          "Instagram"
+        ],
+        "explanation": "Facebook fut lancé en 2004 depuis une chambre d'étudiant de l'université Harvard."
+      },
+      "en": {
+        "text": "Which social network, founded by Mark Zuckerberg, was launched in 2004?",
+        "options": [
+          "Twitter",
+          "MySpace",
+          "Facebook",
+          "Instagram"
+        ],
+        "explanation": "Facebook was launched in 2004 from a Harvard University dorm room."
+      },
+      "es": {
+        "text": "¿Qué red social, fundada por Mark Zuckerberg, se lanzó en 2004?",
+        "options": [
+          "Twitter",
+          "MySpace",
+          "Facebook",
+          "Instagram"
+        ],
+        "explanation": "Facebook se lanzó en 2004 desde una habitación de estudiante de la Universidad de Harvard."
+      }
+    }
+  },
+  {
+    "sourceRef": "9fdf7e62054e31f6",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel langage de programmation, très utilisé pour l'IA, porte le nom d'un serpent ?",
+        "options": [
+          "Cobra",
+          "Python",
+          "Java",
+          "Rust"
+        ],
+        "explanation": "Le langage Python doit en réalité son nom à la troupe comique britannique « Monty Python », pas au serpent."
+      },
+      "en": {
+        "text": "Which programming language, widely used for AI, is named after a snake?",
+        "options": [
+          "Cobra",
+          "Python",
+          "Java",
+          "Rust"
+        ],
+        "explanation": "The Python language is actually named after the British comedy group 'Monty Python', not the snake."
+      },
+      "es": {
+        "text": "¿Qué lenguaje de programación, muy usado para la IA, lleva el nombre de una serpiente?",
+        "options": [
+          "Cobra",
+          "Python",
+          "Java",
+          "Rust"
+        ],
+        "explanation": "El lenguaje Python debe en realidad su nombre al grupo cómico británico «Monty Python», no a la serpiente."
+      }
+    }
+  },
+  {
+    "sourceRef": "9bb256e6d29adc6e",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel petit être vit dans la Comté et part détruire un anneau dans « Le Seigneur des anneaux » ?",
+        "options": [
+          "Frodon",
+          "Harry Potter",
+          "Peter Pan",
+          "Pinocchio"
+        ],
+        "explanation": "Frodon Sacquet, un Hobbit, hérite de l'Anneau unique de son oncle Bilbon."
+      },
+      "en": {
+        "text": "Which small being lives in the Shire and sets out to destroy a ring in 'The Lord of the Rings'?",
+        "options": [
+          "Frodo",
+          "Harry Potter",
+          "Peter Pan",
+          "Pinocchio"
+        ],
+        "explanation": "Frodo Baggins, a Hobbit, inherits the One Ring from his uncle Bilbo."
+      },
+      "es": {
+        "text": "¿Qué pequeño ser vive en la Comarca y parte a destruir un anillo en «El Señor de los Anillos»?",
+        "options": [
+          "Frodo",
+          "Harry Potter",
+          "Peter Pan",
+          "Pinocho"
+        ],
+        "explanation": "Frodo Bolsón, un hobbit, hereda el Anillo Único de su tío Bilbo."
+      }
+    }
+  },
+  {
+    "sourceRef": "4983d2c05de8515c",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain français a créé le capitaine Nemo et le sous-marin Nautilus ?",
+        "options": [
+          "Victor Hugo",
+          "Alexandre Dumas",
+          "Jules Verne",
+          "Marcel Pagnol"
+        ],
+        "explanation": "Jules Verne imagina le Nautilus dans « Vingt mille lieues sous les mers » (1870)."
+      },
+      "en": {
+        "text": "Which French writer created Captain Nemo and the submarine Nautilus?",
+        "options": [
+          "Victor Hugo",
+          "Alexandre Dumas",
+          "Jules Verne",
+          "Marcel Pagnol"
+        ],
+        "explanation": "Jules Verne imagined the Nautilus in 'Twenty Thousand Leagues Under the Seas' (1870)."
+      },
+      "es": {
+        "text": "¿Qué escritor francés creó al capitán Nemo y el submarino Nautilus?",
+        "options": [
+          "Victor Hugo",
+          "Alexandre Dumas",
+          "Julio Verne",
+          "Marcel Pagnol"
+        ],
+        "explanation": "Julio Verne imaginó el Nautilus en «Veinte mil leguas de viaje submarino» (1870)."
+      }
+    }
+  },
+  {
+    "sourceRef": "7dbeafff69c46f69",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain espagnol a écrit « Don Quichotte », considéré comme le premier roman moderne ?",
+        "options": [
+          "Federico García Lorca",
+          "Miguel de Cervantes",
+          "Lope de Vega",
+          "Camilo José Cela"
+        ],
+        "explanation": "Publié en deux parties (1605 et 1615), « Don Quichotte » est l'un des livres les plus traduits au monde."
+      },
+      "en": {
+        "text": "Which Spanish writer wrote 'Don Quixote', considered the first modern novel?",
+        "options": [
+          "Federico García Lorca",
+          "Miguel de Cervantes",
+          "Lope de Vega",
+          "Camilo José Cela"
+        ],
+        "explanation": "Published in two parts (1605 and 1615), 'Don Quixote' is one of the most translated books in the world."
+      },
+      "es": {
+        "text": "¿Qué escritor español escribió «Don Quijote», considerado la primera novela moderna?",
+        "options": [
+          "Federico García Lorca",
+          "Miguel de Cervantes",
+          "Lope de Vega",
+          "Camilo José Cela"
+        ],
+        "explanation": "Publicado en dos partes (1605 y 1615), «Don Quijote» es uno de los libros más traducidos del mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "9774c0f2507d423d",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "De quelle région italienne la pizza moderne est-elle originaire ?",
+        "options": [
+          "La Toscane",
+          "La Sicile",
+          "La Campanie (Naples)",
+          "La Lombardie"
+        ],
+        "explanation": "La pizza Margherita naquit à Naples en 1889, aux couleurs du drapeau italien."
+      },
+      "en": {
+        "text": "Which Italian region is modern pizza originally from?",
+        "options": [
+          "Tuscany",
+          "Sicily",
+          "Campania (Naples)",
+          "Lombardy"
+        ],
+        "explanation": "The Margherita pizza was born in Naples in 1889, in the colours of the Italian flag."
+      },
+      "es": {
+        "text": "¿De qué región italiana es originaria la pizza moderna?",
+        "options": [
+          "La Toscana",
+          "Sicilia",
+          "La Campania (Nápoles)",
+          "Lombardía"
+        ],
+        "explanation": "La pizza Margarita nació en Nápoles en 1889, con los colores de la bandera italiana."
+      }
+    }
+  },
+  {
+    "sourceRef": "023e30b03c924669",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "De quelle plante proviennent les fèves à partir desquelles on fabrique le chocolat ?",
+        "options": [
+          "Le caféier",
+          "Le cacaoyer",
+          "La canne à sucre",
+          "Le théier"
+        ],
+        "explanation": "Le chocolat provient des fèves du cacaoyer, un arbre d'Amérique tropicale cultivé depuis les Mayas."
+      },
+      "en": {
+        "text": "From which plant come the beans used to make chocolate?",
+        "options": [
+          "The coffee plant",
+          "The cocoa tree",
+          "Sugarcane",
+          "The tea plant"
+        ],
+        "explanation": "Chocolate comes from the beans of the cocoa tree, a tropical American tree grown since the Maya."
+      },
+      "es": {
+        "text": "¿De qué planta provienen las semillas con las que se fabrica el chocolate?",
+        "options": [
+          "El cafeto",
+          "El cacaotero",
+          "La caña de azúcar",
+          "El té"
+        ],
+        "explanation": "El chocolate proviene de las semillas del cacaotero, un árbol de la América tropical cultivado desde los mayas."
+      }
+    }
+  },
+  {
+    "sourceRef": "a1a17d5b5ec5f788",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel poisson, souvent orange et servi cru en sushi, remonte les rivières pour se reproduire ?",
+        "options": [
+          "Le thon",
+          "Le maquereau",
+          "La dorade",
+          "Le saumon"
+        ],
+        "explanation": "Le saumon naît en rivière, vit en mer, puis remonte le cours d'eau natal pour se reproduire."
+      },
+      "en": {
+        "text": "Which fish, often orange and served raw in sushi, swims up rivers to spawn?",
+        "options": [
+          "Tuna",
+          "Mackerel",
+          "Sea bream",
+          "Salmon"
+        ],
+        "explanation": "Salmon are born in rivers, live at sea, then swim back up their native river to spawn."
+      },
+      "es": {
+        "text": "¿Qué pescado, a menudo naranja y servido crudo en el sushi, remonta los ríos para reproducirse?",
+        "options": [
+          "El atún",
+          "La caballa",
+          "La dorada",
+          "El salmón"
+        ],
+        "explanation": "El salmón nace en el río, vive en el mar y luego remonta su río natal para reproducirse."
+      }
+    }
+  },
+  {
+    "sourceRef": "e9b1f1ba121b510c",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien de minutes compte une heure ?",
+        "options": [
+          "60",
+          "100",
+          "30",
+          "90"
+        ],
+        "explanation": "Une heure compte 60 minutes, héritage du système babylonien en base 60."
+      },
+      "en": {
+        "text": "How many minutes are there in an hour?",
+        "options": [
+          "60",
+          "100",
+          "30",
+          "90"
+        ],
+        "explanation": "An hour has 60 minutes, inherited from the Babylonian base-60 system."
+      },
+      "es": {
+        "text": "¿Cuántos minutos tiene una hora?",
+        "options": [
+          "60",
+          "100",
+          "30",
+          "90"
+        ],
+        "explanation": "Una hora tiene 60 minutos, herencia del sistema babilónico en base 60."
+      }
+    }
+  },
+  {
+    "sourceRef": "99d28cb3a67caad5",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la monnaie commune à de nombreux pays de l'Union européenne ?",
+        "options": [
+          "Le dollar",
+          "L'euro",
+          "La livre",
+          "Le franc"
+        ],
+        "explanation": "L'euro fut mis en circulation sous forme de pièces et billets le 1er janvier 2002."
+      },
+      "en": {
+        "text": "What is the common currency of many European Union countries?",
+        "options": [
+          "The dollar",
+          "The euro",
+          "The pound",
+          "The franc"
+        ],
+        "explanation": "The euro was introduced as coins and banknotes on 1 January 2002."
+      },
+      "es": {
+        "text": "¿Cuál es la moneda común de muchos países de la Unión Europea?",
+        "options": [
+          "El dólar",
+          "El euro",
+          "La libra",
+          "El franco"
+        ],
+        "explanation": "El euro se puso en circulación en monedas y billetes el 1 de enero de 2002."
+      }
+    }
+  },
+  {
+    "sourceRef": "64dadb4645aaf13b",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus grand nombre représenté par un seul chiffre romain classique ?",
+        "options": [
+          "D",
+          "C",
+          "M",
+          "X"
+        ],
+        "explanation": "Dans la numération romaine classique, M vaut 1000, la plus grande valeur d'un symbole unique."
+      },
+      "en": {
+        "text": "What is the largest number represented by a single classical Roman numeral?",
+        "options": [
+          "D",
+          "C",
+          "M",
+          "X"
+        ],
+        "explanation": "In classical Roman numerals, M is 1000, the largest value of a single symbol."
+      },
+      "es": {
+        "text": "¿Cuál es el mayor número representado por un solo número romano clásico?",
+        "options": [
+          "D",
+          "C",
+          "M",
+          "X"
+        ],
+        "explanation": "En la numeración romana clásica, M vale 1000, el mayor valor de un símbolo único."
+      }
+    }
+  }
+]

@@ -32,29 +32,30 @@ entre langues).
 
 ## 2. État actuel (vagues en cours)
 
-- **Questions générées et insérées : 150** (3 lots QCM = 120 + 1 lot Géo = 30).
-- **Total en base : 601** questions (les ~451 préexistantes sont conservées).
-- **Traductions équilibrées** : `fr = en = es = 601`.
+- **Questions générées et insérées : 190** (4 lots QCM = 160 + 1 lot Géo = 30).
+- **Total en base : 641** questions (les ~451 préexistantes sont conservées).
+- **Traductions équilibrées** : `fr = en = es = 641`.
+- **Difficulté `hard`** renforcée : 42 → **141** au total ; chaque thème a désormais ≥ 8 en `hard`.
 
-Lots produits à ce jour : `generated-qcm/lot01-03.json`, `generated-geo/lot01.json`.
+Lots produits à ce jour : `generated-qcm/lot01-04.json`, `generated-geo/lot01.json`.
 
 Répartition thème × difficulté (source `check:questions`) :
 
 ```
 theme             easy  medium    hard
-art                  5      13       7
-cinema              28       9       6
-gastronomie          9       6       4
-general             35      15      10
+art                  6      15      11
+cinema              29      11       9
+gastronomie         10       8       8
+general             36      17      13
 geo                  0      26       0   ← thème legacy des 26 anciennes géo (medium)
-geographie          36      18       9
-histoire            31      34      12
-litterature          4      11       5
-musique             28       8       6
-nature              29      30       4
-science             28      16      10
-sport               12      11       6
-tech                26       8       6
+geographie          38      20      11
+histoire            32      36      16
+litterature          6      13       8
+musique             29      10       9
+nature              30      32       8
+science             29      18      14
+sport               14      13      10
+tech                26      10      10
 ```
 
 Note : le thème `geo` (easy/hard à 0) correspond aux 26 **anciennes** questions
