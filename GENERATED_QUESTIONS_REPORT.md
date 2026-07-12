@@ -32,37 +32,37 @@ entre langues).
 
 ## 2. État actuel (vagues en cours)
 
-- **Questions générées et insérées : 606** (9 lots QCM = 414 + 7 lots Géo = 192).
-- **Total en base : 1057** questions (les ~451 préexistantes sont conservées).
-- **Traductions équilibrées** : `fr = en = es = 1057`.
-- **Difficultés équilibrées** : easy = **423**, medium = 390, hard = 244 (≈ 40/37/23 %).
-- **Type géo** : 26 → **237** (toutes les nouvelles géo sont « anecdote » et thématisées).
-- **Thèmes faibles renforcés** (lots 08-09 + géo 06-07) : litterature 42→63, art 46→62,
-  gastronomie 46→65.
+- **Questions générées et insérées : 686** (10 lots QCM = 464 + 8 lots Géo = 222).
+- **Total en base : 1137** questions (les ~451 préexistantes sont conservées).
+- **Traductions équilibrées** : `fr = en = es = 1137`.
+- **Difficultés équilibrées** : easy = **442**, medium = 422, hard = 273 (≈ 39/37/24 %).
+- **Type géo** : 26 → **267** (toutes les nouvelles géo sont « anecdote » et thématisées).
+- **Thèmes faibles renforcés** (lots 08-10 + géo 06-08) : litterature 42→71, art 46→69,
+  gastronomie 46→74, tech 58→73.
 - **Correction** : la géo `b6966ed6c0054551` (pyramides de Gizeh) demandait une capitale
   mais avait pour label « Gizeh » → corrigée en **Le Caire** (30.0444, 31.2357) dans le
   lot ET en base (script ponctuel `scripts/fix-cairo-label.js`, le hash géo ne dépendant
   que du texte FR, le sourceRef est inchangé).
 
-Lots produits à ce jour : `generated-qcm/lot01-09.json`, `generated-geo/lot01-07.json`.
+Lots produits à ce jour : `generated-qcm/lot01-10.json`, `generated-geo/lot01-08.json`.
 
 Répartition thème × difficulté (source `check:questions`, base complète) :
 
 ```
 theme             easy  medium    hard     total
-art                 12      25      25        62
-cinema              39      19      14        72
-gastronomie         24      23      18        65
-general             46      20      15        81
+art                 13      28      28        69
+cinema              40      21      15        76
+gastronomie         27      26      21        74
+general             48      20      16        84
 geo                  0      26       0        26   ← thème legacy des 26 anciennes géo (medium)
-geographie          60      42      19       121
-histoire            43      60      31       134
-litterature         15      27      21        63
-musique             36      23      19        78
-nature              49      47      16       112
-science             42      33      30       105
-sport               24      28      20        72
-tech                33      17      16        66
+geographie          62      47      21       130
+histoire            45      64      34       143
+litterature         17      30      24        71
+musique             37      25      21        83
+nature              50      50      18       118
+science             43      35      33       111
+sport               26      30      23        79
+tech                34      20      19        73
 ```
 
 Note : le thème `geo` (easy/hard à 0) correspond aux 26 **anciennes** questions
@@ -86,10 +86,11 @@ au `sourceRef`.
 
 ## 4. Priorités restantes pour les prochaines vagues
 
-Pour atteindre la cible (~1500–2000 nouvelles ; on en est à 606), continuer en renforçant :
-- **art**, **litterature**, **gastronomie**, **tech** (thèmes les moins fournis : 62-66) ;
-- garder l'équilibre easy/medium/hard atteint (≈ 40/37/23 %) ;
-- reprendre à **lot10** (QCM) et **lot08** (Géo) ; relire les lots existants avant
+Pour atteindre la cible (~1500–2000 nouvelles ; on en est à 686), continuer :
+- thèmes désormais bien équilibrés (69-143 chacun hors legacy `geo`) — répartir
+  uniformément, avec un léger plus pour **art**, **litterature**, **tech**, **cinema** ;
+- garder l'équilibre easy/medium/hard atteint (≈ 39/37/24 %) ;
+- reprendre à **lot11** (QCM) et **lot09** (Géo) ; relire les lots existants avant
   rédaction pour éviter tout doublon sémantique (sujets ET lieux-réponses déjà utilisés —
   attention notamment aux réutilisations pays/ville : ex. Kingston puis Jamaïque).
 
