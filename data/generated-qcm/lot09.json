@@ -1,0 +1,1796 @@
+[
+  {
+    "sourceRef": "3eddb5ad9a939b91",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel canard milliardaire de la bande dessinée plonge avec délice dans ses pièces d'or ?",
+        "options": [
+          "Donald",
+          "Picsou",
+          "Riri",
+          "Gontran"
+        ],
+        "explanation": "Selon le magazine Forbes, qui classe les fortunes fictives, Picsou est régulièrement le personnage le plus riche du monde."
+      },
+      "en": {
+        "text": "Which billionaire comic-book duck delights in diving into his gold coins?",
+        "options": [
+          "Donald",
+          "Scrooge McDuck",
+          "Huey",
+          "Gladstone"
+        ],
+        "explanation": "According to Forbes magazine, which ranks fictional fortunes, Scrooge McDuck is regularly the richest character in the world."
+      },
+      "es": {
+        "text": "¿Qué pato multimillonario del cómic se zambulle con deleite en sus monedas de oro?",
+        "options": [
+          "Donald",
+          "Tío Gilito",
+          "Juanito",
+          "Glad"
+        ],
+        "explanation": "Según la revista Forbes, que clasifica las fortunas ficticias, el Tío Gilito es habitualmente el personaje más rico del mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "a4fac02922953851",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel jeune reporter à la houppette parcourt le monde avec son chien Milou ?",
+        "options": [
+          "Tintin",
+          "Spirou",
+          "Gaston",
+          "Blake"
+        ],
+        "explanation": "Hergé envoya Tintin sur la Lune en 1954… quinze ans avant Neil Armstrong."
+      },
+      "en": {
+        "text": "Which young reporter with a quiff travels the world with his dog Snowy?",
+        "options": [
+          "Tintin",
+          "Spirou",
+          "Gaston",
+          "Blake"
+        ],
+        "explanation": "Hergé sent Tintin to the Moon in 1954… fifteen years before Neil Armstrong."
+      },
+      "es": {
+        "text": "¿Qué joven reportero del mechón rubio recorre el mundo con su perro Milú?",
+        "options": [
+          "Tintín",
+          "Spirou",
+          "Gastón",
+          "Blake"
+        ],
+        "explanation": "Hergé envió a Tintín a la Luna en 1954… quince años antes que Neil Armstrong."
+      }
+    }
+  },
+  {
+    "sourceRef": "72455751a711ae94",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain américain a créé les garnements Tom Sawyer et Huckleberry Finn ?",
+        "options": [
+          "Mark Twain",
+          "Jack London",
+          "John Steinbeck",
+          "Herman Melville"
+        ],
+        "explanation": "Son pseudonyme vient du cri des bateliers du Mississippi : « mark twain », deux brasses de profondeur."
+      },
+      "en": {
+        "text": "Which American writer created the rascals Tom Sawyer and Huckleberry Finn?",
+        "options": [
+          "Mark Twain",
+          "Jack London",
+          "John Steinbeck",
+          "Herman Melville"
+        ],
+        "explanation": "His pen name comes from the cry of Mississippi boatmen: 'mark twain', two fathoms deep."
+      },
+      "es": {
+        "text": "¿Qué escritor estadounidense creó a los pilluelos Tom Sawyer y Huckleberry Finn?",
+        "options": [
+          "Mark Twain",
+          "Jack London",
+          "John Steinbeck",
+          "Herman Melville"
+        ],
+        "explanation": "Su seudónimo viene del grito de los barqueros del Misisipi: «mark twain», dos brazas de profundidad."
+      }
+    }
+  },
+  {
+    "sourceRef": "710763532049b8db",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle saga romanesque de George R. R. Martin a inspiré la série « Game of Thrones » ?",
+        "options": [
+          "La Roue du temps",
+          "Le Trône de fer",
+          "L'Assassin royal",
+          "La Tour sombre"
+        ],
+        "explanation": "Martin tue ses héros sans pitié : il dit vouloir que le lecteur ait « vraiment peur » pour les personnages."
+      },
+      "en": {
+        "text": "Which novel saga by George R. R. Martin inspired the series 'Game of Thrones'?",
+        "options": [
+          "The Wheel of Time",
+          "A Song of Ice and Fire",
+          "The Farseer Trilogy",
+          "The Dark Tower"
+        ],
+        "explanation": "Martin kills his heroes without mercy: he says he wants readers to be 'truly afraid' for the characters."
+      },
+      "es": {
+        "text": "¿Qué saga novelesca de George R. R. Martin inspiró la serie «Juego de tronos»?",
+        "options": [
+          "La Rueda del Tiempo",
+          "Canción de hielo y fuego",
+          "El Vatídico",
+          "La Torre Oscura"
+        ],
+        "explanation": "Martin mata a sus héroes sin piedad: dice querer que el lector tenga «verdadero miedo» por los personajes."
+      }
+    }
+  },
+  {
+    "sourceRef": "78eae438a5aaf3be",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel dramaturge norvégien fit scandale avec « Une maison de poupée », où Nora claque la porte du foyer ?",
+        "options": [
+          "Henrik Ibsen",
+          "August Strindberg",
+          "Anton Tchekhov",
+          "Bertolt Brecht"
+        ],
+        "explanation": "En Allemagne, on imposa d'abord à Ibsen une fin « adoucie » où Nora renonce à partir ; il la qualifia d'outrage barbare."
+      },
+      "en": {
+        "text": "Which Norwegian playwright caused a scandal with 'A Doll's House', in which Nora slams the family door behind her?",
+        "options": [
+          "Henrik Ibsen",
+          "August Strindberg",
+          "Anton Chekhov",
+          "Bertolt Brecht"
+        ],
+        "explanation": "In Germany, Ibsen was first forced into a 'softened' ending where Nora stays; he called it a barbaric outrage."
+      },
+      "es": {
+        "text": "¿Qué dramaturgo noruego escandalizó con «Casa de muñecas», donde Nora da un portazo al hogar familiar?",
+        "options": [
+          "Henrik Ibsen",
+          "August Strindberg",
+          "Antón Chéjov",
+          "Bertolt Brecht"
+        ],
+        "explanation": "En Alemania impusieron primero a Ibsen un final «suavizado» donde Nora se queda; él lo llamó un ultraje bárbaro."
+      }
+    }
+  },
+  {
+    "sourceRef": "0a4384115be285f2",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle poétesse chilienne fut, en 1945, la première personnalité latino-américaine à recevoir le Nobel de littérature ?",
+        "options": [
+          "Alfonsina Storni",
+          "Gabriela Mistral",
+          "Juana de Ibarbourou",
+          "Alejandra Pizarnik"
+        ],
+        "explanation": "Institutrice de village devenue diplomate, elle fut aussi la mentore du jeune Pablo Neruda."
+      },
+      "en": {
+        "text": "Which Chilean poet was, in 1945, the first Latin American to receive the Nobel Prize in Literature?",
+        "options": [
+          "Alfonsina Storni",
+          "Gabriela Mistral",
+          "Juana de Ibarbourou",
+          "Alejandra Pizarnik"
+        ],
+        "explanation": "A village schoolteacher turned diplomat, she was also a mentor to the young Pablo Neruda."
+      },
+      "es": {
+        "text": "¿Qué poetisa chilena fue, en 1945, la primera personalidad latinoamericana en recibir el Nobel de Literatura?",
+        "options": [
+          "Alfonsina Storni",
+          "Gabriela Mistral",
+          "Juana de Ibarbourou",
+          "Alejandra Pizarnik"
+        ],
+        "explanation": "Maestra rural convertida en diplomática, fue además mentora del joven Pablo Neruda."
+      }
+    }
+  },
+  {
+    "sourceRef": "2df44d948ecc56c4",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel art japonais consiste à plier le papier, sans ciseaux ni colle ?",
+        "options": [
+          "L'ikebana",
+          "La calligraphie",
+          "L'origami",
+          "Le bonsaï"
+        ],
+        "explanation": "La grue en origami est un symbole de paix : la légende promet un vœu à qui en plie mille."
+      },
+      "en": {
+        "text": "Which Japanese art consists of folding paper, without scissors or glue?",
+        "options": [
+          "Ikebana",
+          "Calligraphy",
+          "Origami",
+          "Bonsai"
+        ],
+        "explanation": "The origami crane is a symbol of peace: legend promises a wish to anyone who folds a thousand."
+      },
+      "es": {
+        "text": "¿Qué arte japonés consiste en plegar papel, sin tijeras ni pegamento?",
+        "options": [
+          "El ikebana",
+          "La caligrafía",
+          "El origami",
+          "El bonsái"
+        ],
+        "explanation": "La grulla de origami es un símbolo de paz: la leyenda promete un deseo a quien pliegue mil."
+      }
+    }
+  },
+  {
+    "sourceRef": "52ddc194584b7fca",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle technique de peinture utilise des pigments dilués à l'eau, en couches transparentes sur papier ?",
+        "options": [
+          "La peinture à l'huile",
+          "L'acrylique",
+          "L'aquarelle",
+          "La gouache"
+        ],
+        "explanation": "À l'aquarelle, le blanc n'existe pas en tube : c'est le papier laissé nu qui fait la lumière."
+      },
+      "en": {
+        "text": "Which painting technique uses water-diluted pigments in transparent layers on paper?",
+        "options": [
+          "Oil painting",
+          "Acrylic",
+          "Watercolour",
+          "Gouache"
+        ],
+        "explanation": "In watercolour there is no white in a tube: the light comes from the paper left bare."
+      },
+      "es": {
+        "text": "¿Qué técnica pictórica usa pigmentos diluidos en agua, en capas transparentes sobre papel?",
+        "options": [
+          "El óleo",
+          "El acrílico",
+          "La acuarela",
+          "El gouache"
+        ],
+        "explanation": "En la acuarela no existe el blanco de tubo: la luz la da el papel dejado al desnudo."
+      }
+    }
+  },
+  {
+    "sourceRef": "2a5922fa832706de",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre italien de Montparnasse est reconnaissable à ses portraits aux cous étirés et aux yeux souvent vides ?",
+        "options": [
+          "Giorgio de Chirico",
+          "Umberto Boccioni",
+          "Amedeo Modigliani",
+          "Giorgio Morandi"
+        ],
+        "explanation": "Méprisé de son vivant, Modigliani vendait ses toiles quelques francs ; elles s'arrachent aujourd'hui à plus de 100 millions."
+      },
+      "en": {
+        "text": "Which Italian painter of Montparnasse is recognisable by his portraits with stretched necks and often blank eyes?",
+        "options": [
+          "Giorgio de Chirico",
+          "Umberto Boccioni",
+          "Amedeo Modigliani",
+          "Giorgio Morandi"
+        ],
+        "explanation": "Scorned in his lifetime, Modigliani sold his canvases for a few francs; today they fetch over 100 million."
+      },
+      "es": {
+        "text": "¿Qué pintor italiano de Montparnasse es reconocible por sus retratos de cuellos estirados y ojos a menudo vacíos?",
+        "options": [
+          "Giorgio de Chirico",
+          "Umberto Boccioni",
+          "Amedeo Modigliani",
+          "Giorgio Morandi"
+        ],
+        "explanation": "Despreciado en vida, Modigliani vendía sus lienzos por unos francos; hoy se disputan por más de 100 millones."
+      }
+    }
+  },
+  {
+    "sourceRef": "3011488b1533d3aa",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel artiste, avec sa compagne Jeanne-Claude, a emballé le Pont-Neuf puis le Reichstag dans des kilomètres de tissu ?",
+        "options": [
+          "Banksy",
+          "Christo",
+          "Jeff Koons",
+          "Anish Kapoor"
+        ],
+        "explanation": "L'Arc de triomphe fut emballé en 2021, selon ses plans… douze ans après sa mort était prévu ; il mourut en 2020, l'œuvre fut posthume."
+      },
+      "en": {
+        "text": "Which artist, with his partner Jeanne-Claude, wrapped the Pont-Neuf and then the Reichstag in kilometres of fabric?",
+        "options": [
+          "Banksy",
+          "Christo",
+          "Jeff Koons",
+          "Anish Kapoor"
+        ],
+        "explanation": "The Arc de Triomphe was wrapped in 2021 following his plans; he died in 2020, making the work posthumous."
+      },
+      "es": {
+        "text": "¿Qué artista, junto a su compañera Jeanne-Claude, envolvió el Pont-Neuf y luego el Reichstag en kilómetros de tela?",
+        "options": [
+          "Banksy",
+          "Christo",
+          "Jeff Koons",
+          "Anish Kapoor"
+        ],
+        "explanation": "El Arco de Triunfo fue envuelto en 2021 según sus planes; él murió en 2020, y la obra fue póstuma."
+      }
+    }
+  },
+  {
+    "sourceRef": "fc11a735534eab2d",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle boisson chaude obtient-on en infusant des feuilles séchées, du théier notamment ?",
+        "options": [
+          "Le thé",
+          "Le café",
+          "Le chocolat chaud",
+          "La chicorée"
+        ],
+        "explanation": "Après l'eau, le thé est la boisson la plus bue au monde : plus de deux milliards de tasses chaque jour."
+      },
+      "en": {
+        "text": "Which hot drink is made by infusing dried leaves, notably from the tea plant?",
+        "options": [
+          "Tea",
+          "Coffee",
+          "Hot chocolate",
+          "Chicory"
+        ],
+        "explanation": "After water, tea is the most consumed drink in the world: more than two billion cups every day."
+      },
+      "es": {
+        "text": "¿Qué bebida caliente se obtiene infusionando hojas secas, en particular del árbol del té?",
+        "options": [
+          "El té",
+          "El café",
+          "El chocolate caliente",
+          "La achicoria"
+        ],
+        "explanation": "Después del agua, el té es la bebida más consumida del mundo: más de dos mil millones de tazas al día."
+      }
+    }
+  },
+  {
+    "sourceRef": "143f72324002b11b",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel fruit rouge a la particularité de porter ses petites graines à l'extérieur ?",
+        "options": [
+          "La cerise",
+          "La fraise",
+          "La framboise",
+          "La groseille"
+        ],
+        "explanation": "Botaniquement, la fraise n'est pas un fruit : les vrais fruits sont les petits grains jaunes, les akènes."
+      },
+      "en": {
+        "text": "Which red fruit is unusual in bearing its little seeds on the outside?",
+        "options": [
+          "The cherry",
+          "The strawberry",
+          "The raspberry",
+          "The redcurrant"
+        ],
+        "explanation": "Botanically, the strawberry is not a fruit: the true fruits are the little yellow grains, the achenes."
+      },
+      "es": {
+        "text": "¿Qué fruta roja tiene la particularidad de llevar sus pequeñas semillas por fuera?",
+        "options": [
+          "La cereza",
+          "La fresa",
+          "La frambuesa",
+          "La grosella"
+        ],
+        "explanation": "Botánicamente, la fresa no es una fruta: los verdaderos frutos son los granitos amarillos, los aquenios."
+      }
+    }
+  },
+  {
+    "sourceRef": "0b7c35b7a6d7bc0f",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel plat convivial des Alpes consiste à tremper des morceaux de pain dans du fromage fondu ?",
+        "options": [
+          "La fondue",
+          "La tartiflette",
+          "La raclette",
+          "Le gratin"
+        ],
+        "explanation": "La tradition veut que celui qui perd son pain dans le caquelon paie un gage… ou la prochaine tournée."
+      },
+      "en": {
+        "text": "Which convivial Alpine dish involves dipping pieces of bread into melted cheese?",
+        "options": [
+          "Fondue",
+          "Tartiflette",
+          "Raclette",
+          "Gratin"
+        ],
+        "explanation": "Tradition holds that whoever loses their bread in the pot pays a forfeit… or the next round."
+      },
+      "es": {
+        "text": "¿Qué plato alpino y convivial consiste en mojar trozos de pan en queso fundido?",
+        "options": [
+          "La fondue",
+          "La tartiflette",
+          "La raclette",
+          "El gratén"
+        ],
+        "explanation": "La tradición dice que quien pierde su pan en el caquelón paga una prenda… o la siguiente ronda."
+      }
+    }
+  },
+  {
+    "sourceRef": "edb86193f1c11078",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Des œufs de quel poisson le véritable caviar est-il exclusivement issu ?",
+        "options": [
+          "L'esturgeon",
+          "Le saumon",
+          "La truite",
+          "Le hareng"
+        ],
+        "explanation": "Certains esturgeons vivent plus de 100 ans ; le caviar béluga, le plus cher, vient des plus vieilles femelles."
+      },
+      "en": {
+        "text": "From the eggs of which fish does true caviar exclusively come?",
+        "options": [
+          "The sturgeon",
+          "The salmon",
+          "The trout",
+          "The herring"
+        ],
+        "explanation": "Some sturgeons live more than 100 years; beluga caviar, the most expensive, comes from the oldest females."
+      },
+      "es": {
+        "text": "¿De los huevos de qué pez procede exclusivamente el auténtico caviar?",
+        "options": [
+          "El esturión",
+          "El salmón",
+          "La trucha",
+          "El arenque"
+        ],
+        "explanation": "Algunos esturiones viven más de 100 años; el caviar beluga, el más caro, viene de las hembras más viejas."
+      }
+    }
+  },
+  {
+    "sourceRef": "dc66550432612f6c",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel roi de la mythologie grecque transformait en or tout ce qu'il touchait ?",
+        "options": [
+          "Midas",
+          "Crésus",
+          "Minos",
+          "Tantale"
+        ],
+        "explanation": "Le don devint malédiction : même sa nourriture se changeait en or, et Midas supplia qu'on le lui retire."
+      },
+      "en": {
+        "text": "Which king of Greek mythology turned everything he touched into gold?",
+        "options": [
+          "Midas",
+          "Croesus",
+          "Minos",
+          "Tantalus"
+        ],
+        "explanation": "The gift became a curse: even his food turned to gold, and Midas begged for it to be taken away."
+      },
+      "es": {
+        "text": "¿Qué rey de la mitología griega convertía en oro todo lo que tocaba?",
+        "options": [
+          "Midas",
+          "Creso",
+          "Minos",
+          "Tántalo"
+        ],
+        "explanation": "El don se volvió maldición: hasta su comida se convertía en oro, y Midas suplicó que se lo quitaran."
+      }
+    }
+  },
+  {
+    "sourceRef": "a931f9d9404401a1",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel leader indien, apôtre de la non-violence, mena la « marche du sel » en 1930 ?",
+        "options": [
+          "Jawaharlal Nehru",
+          "Gandhi",
+          "Muhammad Ali Jinnah",
+          "Subhas Chandra Bose"
+        ],
+        "explanation": "En marchant 380 km pour ramasser une poignée de sel taxé, Gandhi ébranla tout l'Empire britannique."
+      },
+      "en": {
+        "text": "Which Indian leader, apostle of non-violence, led the 'Salt March' in 1930?",
+        "options": [
+          "Jawaharlal Nehru",
+          "Gandhi",
+          "Muhammad Ali Jinnah",
+          "Subhas Chandra Bose"
+        ],
+        "explanation": "By walking 380 km to pick up a handful of taxed salt, Gandhi shook the entire British Empire."
+      },
+      "es": {
+        "text": "¿Qué líder indio, apóstol de la no violencia, encabezó la «marcha de la sal» en 1930?",
+        "options": [
+          "Jawaharlal Nehru",
+          "Gandhi",
+          "Muhammad Ali Jinnah",
+          "Subhas Chandra Bose"
+        ],
+        "explanation": "Caminando 380 km para recoger un puñado de sal gravada, Gandhi sacudió todo el Imperio británico."
+      }
+    }
+  },
+  {
+    "sourceRef": "b7f684ea831018d8",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle organisation internationale, au siège new-yorkais, fut fondée en 1945 pour préserver la paix ?",
+        "options": [
+          "L'OTAN",
+          "La Société des Nations",
+          "L'ONU",
+          "Le Conseil de l'Europe"
+        ],
+        "explanation": "L'ONU compte 193 États membres ; son texte fondateur fut signé à San Francisco par 51 pays."
+      },
+      "en": {
+        "text": "Which international organisation, headquartered in New York, was founded in 1945 to preserve peace?",
+        "options": [
+          "NATO",
+          "The League of Nations",
+          "The UN",
+          "The Council of Europe"
+        ],
+        "explanation": "The UN has 193 member states; its founding charter was signed in San Francisco by 51 countries."
+      },
+      "es": {
+        "text": "¿Qué organización internacional, con sede en Nueva York, se fundó en 1945 para preservar la paz?",
+        "options": [
+          "La OTAN",
+          "La Sociedad de Naciones",
+          "La ONU",
+          "El Consejo de Europa"
+        ],
+        "explanation": "La ONU tiene 193 Estados miembros; su carta fundacional fue firmada en San Francisco por 51 países."
+      }
+    }
+  },
+  {
+    "sourceRef": "50226e491a924ed7",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel traité de 1494 partagea les terres du Nouveau Monde entre l'Espagne et le Portugal ?",
+        "options": [
+          "Le traité de Vienne",
+          "Le traité d'Utrecht",
+          "Le traité de Cateau-Cambrésis",
+          "Le traité de Tordesillas"
+        ],
+        "explanation": "La ligne de partage, tracée par le pape, explique pourquoi le Brésil parle portugais et non espagnol."
+      },
+      "en": {
+        "text": "Which 1494 treaty divided the lands of the New World between Spain and Portugal?",
+        "options": [
+          "The Treaty of Vienna",
+          "The Treaty of Utrecht",
+          "The Treaty of Cateau-Cambrésis",
+          "The Treaty of Tordesillas"
+        ],
+        "explanation": "The dividing line, drawn by the pope, explains why Brazil speaks Portuguese and not Spanish."
+      },
+      "es": {
+        "text": "¿Qué tratado de 1494 repartió las tierras del Nuevo Mundo entre España y Portugal?",
+        "options": [
+          "El Tratado de Viena",
+          "El Tratado de Utrecht",
+          "El Tratado de Cateau-Cambrésis",
+          "El Tratado de Tordesillas"
+        ],
+        "explanation": "La línea de reparto, trazada por el papa, explica por qué Brasil habla portugués y no español."
+      }
+    }
+  },
+  {
+    "sourceRef": "b13af70c74cdc57a",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle partie colorée de l'œil donne au regard sa couleur ?",
+        "options": [
+          "La pupille",
+          "L'iris",
+          "La rétine",
+          "La cornée"
+        ],
+        "explanation": "Comme une empreinte digitale, le dessin de l'iris est unique : il sert d'ailleurs à l'identification biométrique."
+      },
+      "en": {
+        "text": "Which coloured part of the eye gives it its colour?",
+        "options": [
+          "The pupil",
+          "The iris",
+          "The retina",
+          "The cornea"
+        ],
+        "explanation": "Like a fingerprint, the pattern of the iris is unique: it is even used for biometric identification."
+      },
+      "es": {
+        "text": "¿Qué parte coloreada del ojo da su color a la mirada?",
+        "options": [
+          "La pupila",
+          "El iris",
+          "La retina",
+          "La córnea"
+        ],
+        "explanation": "Como una huella dactilar, el dibujo del iris es único: de hecho se usa para la identificación biométrica."
+      }
+    }
+  },
+  {
+    "sourceRef": "a8009eaf85af295d",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel savant grec, selon la légende, s'écria « Eurêka ! » en découvrant la poussée des corps dans son bain ?",
+        "options": [
+          "Archimède",
+          "Pythagore",
+          "Thalès",
+          "Euclide"
+        ],
+        "explanation": "Il cherchait à démasquer un orfèvre soupçonné d'avoir triché sur l'or de la couronne du roi de Syracuse."
+      },
+      "en": {
+        "text": "Which Greek scientist, according to legend, cried 'Eureka!' upon discovering buoyancy in his bath?",
+        "options": [
+          "Archimedes",
+          "Pythagoras",
+          "Thales",
+          "Euclid"
+        ],
+        "explanation": "He was trying to expose a goldsmith suspected of cheating on the gold in the crown of the king of Syracuse."
+      },
+      "es": {
+        "text": "¿Qué sabio griego, según la leyenda, gritó «¡Eureka!» al descubrir el empuje de los cuerpos en su baño?",
+        "options": [
+          "Arquímedes",
+          "Pitágoras",
+          "Tales",
+          "Euclides"
+        ],
+        "explanation": "Buscaba desenmascarar a un orfebre sospechoso de haber engañado con el oro de la corona del rey de Siracusa."
+      }
+    }
+  },
+  {
+    "sourceRef": "3fd47080796df4c4",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle planète du système solaire tourne pratiquement « couchée » sur le côté ?",
+        "options": [
+          "Uranus",
+          "Neptune",
+          "Saturne",
+          "Mercure"
+        ],
+        "explanation": "Son axe est incliné à 98 degrés, sans doute après une collision géante ; chaque pôle connaît 42 ans de nuit."
+      },
+      "en": {
+        "text": "Which planet in the solar system spins practically 'lying' on its side?",
+        "options": [
+          "Uranus",
+          "Neptune",
+          "Saturn",
+          "Mercury"
+        ],
+        "explanation": "Its axis is tilted 98 degrees, probably after a giant collision; each pole gets 42 years of night."
+      },
+      "es": {
+        "text": "¿Qué planeta del sistema solar gira prácticamente «tumbado» de lado?",
+        "options": [
+          "Urano",
+          "Neptuno",
+          "Saturno",
+          "Mercurio"
+        ],
+        "explanation": "Su eje está inclinado 98 grados, sin duda tras una colisión gigante; cada polo pasa 42 años de noche."
+      }
+    }
+  },
+  {
+    "sourceRef": "fa6cb830b1aa6382",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle unité mesure la résistance électrique ?",
+        "options": [
+          "Le volt",
+          "L'ampère",
+          "L'ohm",
+          "Le farad"
+        ],
+        "explanation": "Georg Ohm énonça sa loi en 1827 ; elle fut d'abord si mal reçue qu'il perdit son poste d'enseignant."
+      },
+      "en": {
+        "text": "Which unit measures electrical resistance?",
+        "options": [
+          "The volt",
+          "The ampere",
+          "The ohm",
+          "The farad"
+        ],
+        "explanation": "Georg Ohm stated his law in 1827; it was so badly received at first that he lost his teaching post."
+      },
+      "es": {
+        "text": "¿Qué unidad mide la resistencia eléctrica?",
+        "options": [
+          "El voltio",
+          "El amperio",
+          "El ohmio",
+          "El faradio"
+        ],
+        "explanation": "Georg Ohm enunció su ley en 1827; al principio fue tan mal recibida que perdió su puesto de profesor."
+      }
+    }
+  },
+  {
+    "sourceRef": "02301198d8cdd39e",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel grand oiseau rose se tient souvent en équilibre sur une seule patte ?",
+        "options": [
+          "Le flamant rose",
+          "Le héron",
+          "La cigogne",
+          "L'ibis"
+        ],
+        "explanation": "Sa couleur rose vient de son alimentation : les minuscules crevettes et algues riches en pigments qu'il filtre."
+      },
+      "en": {
+        "text": "Which large pink bird often balances on a single leg?",
+        "options": [
+          "The flamingo",
+          "The heron",
+          "The stork",
+          "The ibis"
+        ],
+        "explanation": "Its pink colour comes from its diet: the tiny pigment-rich shrimp and algae it filters."
+      },
+      "es": {
+        "text": "¿Qué gran ave rosa se sostiene a menudo en equilibrio sobre una sola pata?",
+        "options": [
+          "El flamenco",
+          "La garza",
+          "La cigüeña",
+          "El ibis"
+        ],
+        "explanation": "Su color rosa viene de su alimentación: los diminutos camarones y algas ricos en pigmentos que filtra."
+      }
+    }
+  },
+  {
+    "sourceRef": "174520dcfa603d4e",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on le long sommeil hivernal de la marmotte ou du hérisson ?",
+        "options": [
+          "La migration",
+          "L'hibernation",
+          "La mue",
+          "La léthargie estivale"
+        ],
+        "explanation": "En hibernation, le cœur de la marmotte ralentit d'environ 200 à 5 battements par minute."
+      },
+      "en": {
+        "text": "What is the long winter sleep of the marmot or the hedgehog called?",
+        "options": [
+          "Migration",
+          "Hibernation",
+          "Moulting",
+          "Summer torpor"
+        ],
+        "explanation": "In hibernation, a marmot's heart slows from about 200 to 5 beats per minute."
+      },
+      "es": {
+        "text": "¿Cómo se llama el largo sueño invernal de la marmota o el erizo?",
+        "options": [
+          "La migración",
+          "La hibernación",
+          "La muda",
+          "El letargo estival"
+        ],
+        "explanation": "En hibernación, el corazón de la marmota pasa de unos 200 a 5 latidos por minuto."
+      }
+    }
+  },
+  {
+    "sourceRef": "28b448616426e9a1",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel animal terrestre possède le cou le plus long ?",
+        "options": [
+          "L'autruche",
+          "Le lama",
+          "La girafe",
+          "Le chameau"
+        ],
+        "explanation": "Malgré ses 2 mètres de long, le cou de la girafe ne compte que 7 vertèbres, comme le nôtre."
+      },
+      "en": {
+        "text": "Which land animal has the longest neck?",
+        "options": [
+          "The ostrich",
+          "The llama",
+          "The giraffe",
+          "The camel"
+        ],
+        "explanation": "Despite being 2 metres long, a giraffe's neck has only 7 vertebrae, just like ours."
+      },
+      "es": {
+        "text": "¿Qué animal terrestre tiene el cuello más largo?",
+        "options": [
+          "El avestruz",
+          "La llama",
+          "La jirafa",
+          "El camello"
+        ],
+        "explanation": "Pese a sus 2 metros de largo, el cuello de la jirafa solo tiene 7 vértebras, como el nuestro."
+      }
+    }
+  },
+  {
+    "sourceRef": "edbcf5bf0337a84a",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel arbre africain au tronc énorme, capable de stocker des milliers de litres d'eau, est surnommé « arbre bouteille » ?",
+        "options": [
+          "L'acacia",
+          "Le baobab",
+          "L'eucalyptus",
+          "Le figuier"
+        ],
+        "explanation": "Certains baobabs vivent plus de 2 000 ans ; leur tronc creux a parfois servi de prison ou de bar."
+      },
+      "en": {
+        "text": "Which African tree with a huge trunk, able to store thousands of litres of water, is nicknamed the 'bottle tree'?",
+        "options": [
+          "The acacia",
+          "The baobab",
+          "The eucalyptus",
+          "The fig tree"
+        ],
+        "explanation": "Some baobabs live more than 2,000 years; their hollow trunks have served as prisons and even bars."
+      },
+      "es": {
+        "text": "¿Qué árbol africano de tronco enorme, capaz de almacenar miles de litros de agua, es apodado «árbol botella»?",
+        "options": [
+          "La acacia",
+          "El baobab",
+          "El eucalipto",
+          "La higuera"
+        ],
+        "explanation": "Algunos baobabs viven más de 2.000 años; sus troncos huecos han servido de cárcel e incluso de bar."
+      }
+    }
+  },
+  {
+    "sourceRef": "00338394b57cb9d4",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la seule espèce de manchot vivant à l'état sauvage au nord de l'équateur ?",
+        "options": [
+          "Le manchot royal",
+          "Le manchot Adélie",
+          "Le manchot du Cap",
+          "Le manchot des Galápagos"
+        ],
+        "explanation": "Le courant froid de Humboldt lui permet de survivre en plein climat tropical, sur l'équateur même."
+      },
+      "en": {
+        "text": "Which is the only penguin species living in the wild north of the equator?",
+        "options": [
+          "The king penguin",
+          "The Adélie penguin",
+          "The African penguin",
+          "The Galápagos penguin"
+        ],
+        "explanation": "The cold Humboldt Current lets it survive in a fully tropical climate, right on the equator."
+      },
+      "es": {
+        "text": "¿Cuál es la única especie de pingüino que vive en estado salvaje al norte del ecuador?",
+        "options": [
+          "El pingüino rey",
+          "El pingüino de Adelia",
+          "El pingüino de El Cabo",
+          "El pingüino de las Galápagos"
+        ],
+        "explanation": "La fría corriente de Humboldt le permite sobrevivir en pleno clima tropical, sobre el mismo ecuador."
+      }
+    }
+  },
+  {
+    "sourceRef": "d9488c362f40aa3d",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel jeu de boules métalliques, où l'on vise un « cochonnet », est emblématique du sud de la France ?",
+        "options": [
+          "La pétanque",
+          "Le curling",
+          "Le bowling",
+          "La pelote"
+        ],
+        "explanation": "La pétanque est née à La Ciotat en 1910, inventée pour un champion devenu incapable de courir avant de lancer."
+      },
+      "en": {
+        "text": "Which game of metal balls, aiming at a little 'jack', is emblematic of the south of France?",
+        "options": [
+          "Pétanque",
+          "Curling",
+          "Bowling",
+          "Pelota"
+        ],
+        "explanation": "Pétanque was born in La Ciotat in 1910, invented for a champion who could no longer run before throwing."
+      },
+      "es": {
+        "text": "¿Qué juego de bolas metálicas, en el que se apunta a un «boliche», es emblemático del sur de Francia?",
+        "options": [
+          "La petanca",
+          "El curling",
+          "Los bolos",
+          "La pelota"
+        ],
+        "explanation": "La petanca nació en La Ciotat en 1910, inventada para un campeón que ya no podía correr antes de lanzar."
+      }
+    }
+  },
+  {
+    "sourceRef": "9bba8a0d7953b701",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Aux échecs, quelle pièce ne se déplace qu'en diagonale ?",
+        "options": [
+          "La tour",
+          "Le cavalier",
+          "Le fou",
+          "La dame"
+        ],
+        "explanation": "En anglais, le fou s'appelle « bishop », l'évêque ; en russe, c'est un éléphant."
+      },
+      "en": {
+        "text": "In chess, which piece moves only diagonally?",
+        "options": [
+          "The rook",
+          "The knight",
+          "The bishop",
+          "The queen"
+        ],
+        "explanation": "In French, the bishop is called 'fou', the jester; in Russian, it is an elephant."
+      },
+      "es": {
+        "text": "En el ajedrez, ¿qué pieza se mueve solo en diagonal?",
+        "options": [
+          "La torre",
+          "El caballo",
+          "El alfil",
+          "La dama"
+        ],
+        "explanation": "En inglés, el alfil se llama «bishop», el obispo; en ruso, es un elefante."
+      }
+    }
+  },
+  {
+    "sourceRef": "85e13fe5e4cb7a51",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle course à la voile, partant des Sables-d'Olonne, fait le tour du monde en solitaire, sans escale et sans assistance ?",
+        "options": [
+          "La Route du Rhum",
+          "La Transat Jacques-Vabre",
+          "Le Vendée Globe",
+          "La Solitaire du Figaro"
+        ],
+        "explanation": "Surnommée « l'Everest des mers », l'épreuve laisse les skippers seuls en mer pendant environ trois mois."
+      },
+      "en": {
+        "text": "Which sailing race, starting from Les Sables-d'Olonne, goes around the world solo, non-stop and unassisted?",
+        "options": [
+          "The Route du Rhum",
+          "The Transat Jacques-Vabre",
+          "The Vendée Globe",
+          "The Solitaire du Figaro"
+        ],
+        "explanation": "Nicknamed 'the Everest of the seas', the race leaves skippers alone at sea for about three months."
+      },
+      "es": {
+        "text": "¿Qué regata de vela, que parte de Les Sables-d'Olonne, da la vuelta al mundo en solitario, sin escalas y sin asistencia?",
+        "options": [
+          "La Route du Rhum",
+          "La Transat Jacques-Vabre",
+          "La Vendée Globe",
+          "La Solitaire du Figaro"
+        ],
+        "explanation": "Apodada «el Everest de los mares», la prueba deja a los patrones solos en el mar durante unos tres meses."
+      }
+    }
+  },
+  {
+    "sourceRef": "c98924f0614f7155",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Dans quel film d'animation un rat nommé Rémy devient-il chef cuisinier dans un grand restaurant parisien ?",
+        "options": [
+          "Les Aventures de Bernard et Bianca",
+          "Ratatouille",
+          "Kung Fu Panda",
+          "Zootopie"
+        ],
+        "explanation": "Pour le film, les animateurs de Pixar ont suivi des cours de cuisine dans de vrais restaurants étoilés."
+      },
+      "en": {
+        "text": "In which animated film does a rat named Remy become a chef in a grand Parisian restaurant?",
+        "options": [
+          "The Rescuers",
+          "Ratatouille",
+          "Kung Fu Panda",
+          "Zootopia"
+        ],
+        "explanation": "For the film, Pixar's animators took cooking classes in real Michelin-starred restaurants."
+      },
+      "es": {
+        "text": "¿En qué película de animación una rata llamada Rémy se convierte en chef de un gran restaurante parisino?",
+        "options": [
+          "Los Rescatadores",
+          "Ratatouille",
+          "Kung Fu Panda",
+          "Zootrópolis"
+        ],
+        "explanation": "Para la película, los animadores de Pixar tomaron clases de cocina en auténticos restaurantes con estrella."
+      }
+    }
+  },
+  {
+    "sourceRef": "1c45aedcb4a8ce72",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel acteur d'origine autrichienne, devenu gouverneur de Californie, incarnait le Terminator ?",
+        "options": [
+          "Sylvester Stallone",
+          "Arnold Schwarzenegger",
+          "Dolph Lundgren",
+          "Jean-Claude Van Damme"
+        ],
+        "explanation": "Sa réplique « I'll be back » ne comptait que trois mots… qu'il trouvait lui-même difficiles à prononcer."
+      },
+      "en": {
+        "text": "Which Austrian-born actor, later governor of California, played the Terminator?",
+        "options": [
+          "Sylvester Stallone",
+          "Arnold Schwarzenegger",
+          "Dolph Lundgren",
+          "Jean-Claude Van Damme"
+        ],
+        "explanation": "His line 'I'll be back' was only three words… which he himself found hard to pronounce."
+      },
+      "es": {
+        "text": "¿Qué actor de origen austríaco, luego gobernador de California, interpretaba a Terminator?",
+        "options": [
+          "Sylvester Stallone",
+          "Arnold Schwarzenegger",
+          "Dolph Lundgren",
+          "Jean-Claude Van Damme"
+        ],
+        "explanation": "Su frase «I'll be back» tenía solo tres palabras… que a él mismo le costaba pronunciar."
+      }
+    }
+  },
+  {
+    "sourceRef": "ce9d6bd2131369f4",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel réalisateur français a signé « Le Fabuleux Destin d'Amélie Poulain » en 2001 ?",
+        "options": [
+          "Luc Besson",
+          "Michel Gondry",
+          "Cédric Klapisch",
+          "Jean-Pierre Jeunet"
+        ],
+        "explanation": "Le café des Deux Moulins, où travaille Amélie, existe vraiment à Montmartre et attire depuis des fans du monde entier."
+      },
+      "en": {
+        "text": "Which French director made 'Amélie' in 2001?",
+        "options": [
+          "Luc Besson",
+          "Michel Gondry",
+          "Cédric Klapisch",
+          "Jean-Pierre Jeunet"
+        ],
+        "explanation": "The Deux Moulins café where Amélie works really exists in Montmartre and has drawn fans from around the world ever since."
+      },
+      "es": {
+        "text": "¿Qué director francés firmó «Amélie» en 2001?",
+        "options": [
+          "Luc Besson",
+          "Michel Gondry",
+          "Cédric Klapisch",
+          "Jean-Pierre Jeunet"
+        ],
+        "explanation": "El café des Deux Moulins, donde trabaja Amélie, existe de verdad en Montmartre y desde entonces atrae a fans de todo el mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "d3e3602be4f895cc",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "À quelle famille d'instruments appartiennent la trompette et le trombone ?",
+        "options": [
+          "Les bois",
+          "Les cordes",
+          "Les cuivres",
+          "Les percussions"
+        ],
+        "explanation": "Déplié, un cor d'harmonie mesure près de 4 mètres de tube enroulé."
+      },
+      "en": {
+        "text": "To which family of instruments do the trumpet and the trombone belong?",
+        "options": [
+          "Woodwind",
+          "Strings",
+          "Brass",
+          "Percussion"
+        ],
+        "explanation": "Unrolled, a French horn is nearly 4 metres of coiled tubing."
+      },
+      "es": {
+        "text": "¿A qué familia de instrumentos pertenecen la trompeta y el trombón?",
+        "options": [
+          "Las maderas",
+          "Las cuerdas",
+          "Los metales",
+          "Las percusiones"
+        ],
+        "explanation": "Desenrollada, una trompa mide casi 4 metros de tubo."
+      }
+    }
+  },
+  {
+    "sourceRef": "1db1dee84e6b2a13",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur français a écrit le « Boléro », un long crescendo répétitif devenu mondialement célèbre ?",
+        "options": [
+          "Maurice Ravel",
+          "Claude Debussy",
+          "Erik Satie",
+          "Gabriel Fauré"
+        ],
+        "explanation": "Ravel considérait le Boléro comme une simple expérience d'orchestration et s'étonnait de son immense succès."
+      },
+      "en": {
+        "text": "Which French composer wrote the 'Boléro', a long repetitive crescendo that became world-famous?",
+        "options": [
+          "Maurice Ravel",
+          "Claude Debussy",
+          "Erik Satie",
+          "Gabriel Fauré"
+        ],
+        "explanation": "Ravel regarded the Boléro as a mere orchestration experiment and was astonished by its immense success."
+      },
+      "es": {
+        "text": "¿Qué compositor francés escribió el «Bolero», un largo crescendo repetitivo mundialmente famoso?",
+        "options": [
+          "Maurice Ravel",
+          "Claude Debussy",
+          "Erik Satie",
+          "Gabriel Fauré"
+        ],
+        "explanation": "Ravel consideraba el Bolero un simple experimento de orquestación y se asombraba de su inmenso éxito."
+      }
+    }
+  },
+  {
+    "sourceRef": "3ae08cc41366df85",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel ténor italien, membre des « Trois Ténors », a popularisé l'opéra auprès du grand public ?",
+        "options": [
+          "Plácido Domingo",
+          "José Carreras",
+          "Luciano Pavarotti",
+          "Andrea Bocelli"
+        ],
+        "explanation": "Pavarotti chantait toujours avec un mouchoir blanc à la main, devenu sa signature sur scène."
+      },
+      "en": {
+        "text": "Which Italian tenor, one of the 'Three Tenors', brought opera to the general public?",
+        "options": [
+          "Plácido Domingo",
+          "José Carreras",
+          "Luciano Pavarotti",
+          "Andrea Bocelli"
+        ],
+        "explanation": "Pavarotti always sang with a white handkerchief in his hand, which became his stage signature."
+      },
+      "es": {
+        "text": "¿Qué tenor italiano, miembro de los «Tres Tenores», acercó la ópera al gran público?",
+        "options": [
+          "Plácido Domingo",
+          "José Carreras",
+          "Luciano Pavarotti",
+          "Andrea Bocelli"
+        ],
+        "explanation": "Pavarotti cantaba siempre con un pañuelo blanco en la mano, convertido en su firma escénica."
+      }
+    }
+  },
+  {
+    "sourceRef": "fe747ef201e7b513",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur russe déclencha une émeute à Paris en 1913 avec « Le Sacre du printemps » ?",
+        "options": [
+          "Piotr Tchaïkovski",
+          "Sergueï Rachmaninov",
+          "Dmitri Chostakovitch",
+          "Igor Stravinsky"
+        ],
+        "explanation": "Sifflets, insultes, coups : la première tourna au chaos, mais l'œuvre révolutionna la musique du XXe siècle."
+      },
+      "en": {
+        "text": "Which Russian composer sparked a riot in Paris in 1913 with 'The Rite of Spring'?",
+        "options": [
+          "Pyotr Tchaikovsky",
+          "Sergei Rachmaninoff",
+          "Dmitri Shostakovich",
+          "Igor Stravinsky"
+        ],
+        "explanation": "Whistles, insults, blows: the premiere descended into chaos, but the work revolutionised 20th-century music."
+      },
+      "es": {
+        "text": "¿Qué compositor ruso desató un tumulto en París en 1913 con «La consagración de la primavera»?",
+        "options": [
+          "Piotr Chaikovski",
+          "Serguéi Rajmáninov",
+          "Dmitri Shostakóvich",
+          "Ígor Stravinski"
+        ],
+        "explanation": "Silbidos, insultos, golpes: el estreno acabó en caos, pero la obra revolucionó la música del siglo XX."
+      }
+    }
+  },
+  {
+    "sourceRef": "93f9efddacb9f28f",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle entreprise japonaise de jeux vidéo a créé Mario, le plombier moustachu ?",
+        "options": [
+          "Sega",
+          "Sony",
+          "Capcom",
+          "Nintendo"
+        ],
+        "explanation": "Mario doit sa casquette et sa moustache aux limites techniques de 1981 : impossible de dessiner cheveux et bouche en pixels."
+      },
+      "en": {
+        "text": "Which Japanese video game company created Mario, the moustachioed plumber?",
+        "options": [
+          "Sega",
+          "Sony",
+          "Capcom",
+          "Nintendo"
+        ],
+        "explanation": "Mario owes his cap and moustache to the technical limits of 1981: hair and a mouth were impossible to draw in pixels."
+      },
+      "es": {
+        "text": "¿Qué empresa japonesa de videojuegos creó a Mario, el fontanero bigotudo?",
+        "options": [
+          "Sega",
+          "Sony",
+          "Capcom",
+          "Nintendo"
+        ],
+        "explanation": "Mario debe su gorra y su bigote a los límites técnicos de 1981: era imposible dibujar pelo y boca en píxeles."
+      }
+    }
+  },
+  {
+    "sourceRef": "9f150f1a900c4e40",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Que signifie le sigle « GPS », ce système qui nous géolocalise ?",
+        "options": [
+          "General Position Service",
+          "Global Positioning System",
+          "Geographic Point Signal",
+          "Ground Position Satellite"
+        ],
+        "explanation": "Le GPS repose sur une trentaine de satellites ; sans corrections relativistes d'Einstein, il dériverait de 10 km par jour."
+      },
+      "en": {
+        "text": "What does the acronym 'GPS', the system that geolocates us, stand for?",
+        "options": [
+          "General Position Service",
+          "Global Positioning System",
+          "Geographic Point Signal",
+          "Ground Position Satellite"
+        ],
+        "explanation": "GPS relies on about thirty satellites; without Einstein's relativistic corrections, it would drift 10 km a day."
+      },
+      "es": {
+        "text": "¿Qué significa la sigla «GPS», el sistema que nos geolocaliza?",
+        "options": [
+          "General Position Service",
+          "Global Positioning System",
+          "Geographic Point Signal",
+          "Ground Position Satellite"
+        ],
+        "explanation": "El GPS se apoya en una treintena de satélites; sin las correcciones relativistas de Einstein, se desviaría 10 km al día."
+      }
+    }
+  },
+  {
+    "sourceRef": "5f4574b6c053a363",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "En quelle année Tim Berners-Lee a-t-il proposé le World Wide Web, au CERN ?",
+        "options": [
+          "1983",
+          "1993",
+          "1996",
+          "1989"
+        ],
+        "explanation": "Son supérieur annota la proposition d'un laconique « vague, mais prometteur » ; le premier site est toujours en ligne."
+      },
+      "en": {
+        "text": "In which year did Tim Berners-Lee propose the World Wide Web, at CERN?",
+        "options": [
+          "1983",
+          "1993",
+          "1996",
+          "1989"
+        ],
+        "explanation": "His boss annotated the proposal with a laconic 'vague, but exciting'; the first website is still online."
+      },
+      "es": {
+        "text": "¿En qué año propuso Tim Berners-Lee la World Wide Web, en el CERN?",
+        "options": [
+          "1983",
+          "1993",
+          "1996",
+          "1989"
+        ],
+        "explanation": "Su jefe anotó la propuesta con un lacónico «vago, pero prometedor»; el primer sitio web sigue en línea."
+      }
+    }
+  },
+  {
+    "sourceRef": "1ce02ad9833b633c",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on une étendue de terre entièrement entourée d'eau ?",
+        "options": [
+          "Une presqu'île",
+          "Un isthme",
+          "Une île",
+          "Un atoll"
+        ],
+        "explanation": "La plus grande île du monde est le Groenland ; l'Australie, plus vaste, est considérée comme un continent."
+      },
+      "en": {
+        "text": "What do you call a stretch of land entirely surrounded by water?",
+        "options": [
+          "A peninsula",
+          "An isthmus",
+          "An island",
+          "An atoll"
+        ],
+        "explanation": "The largest island in the world is Greenland; Australia, though bigger, is considered a continent."
+      },
+      "es": {
+        "text": "¿Cómo se llama una extensión de tierra completamente rodeada de agua?",
+        "options": [
+          "Una península",
+          "Un istmo",
+          "Una isla",
+          "Un atolón"
+        ],
+        "explanation": "La isla más grande del mundo es Groenlandia; Australia, aunque mayor, se considera un continente."
+      }
+    }
+  },
+  {
+    "sourceRef": "85259e030266fa4a",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle ligne imaginaire, à mi-chemin des pôles, sépare les hémisphères Nord et Sud ?",
+        "options": [
+          "Le méridien de Greenwich",
+          "Le tropique du Cancer",
+          "Le cercle polaire",
+          "L'équateur"
+        ],
+        "explanation": "Sur l'équateur, jour et nuit durent 12 heures toute l'année, et l'on pèse légèrement moins qu'aux pôles."
+      },
+      "en": {
+        "text": "Which imaginary line, halfway between the poles, separates the Northern and Southern Hemispheres?",
+        "options": [
+          "The Greenwich meridian",
+          "The Tropic of Cancer",
+          "The polar circle",
+          "The equator"
+        ],
+        "explanation": "On the equator, day and night last 12 hours all year round, and you weigh slightly less than at the poles."
+      },
+      "es": {
+        "text": "¿Qué línea imaginaria, a medio camino de los polos, separa los hemisferios Norte y Sur?",
+        "options": [
+          "El meridiano de Greenwich",
+          "El trópico de Cáncer",
+          "El círculo polar",
+          "El ecuador"
+        ],
+        "explanation": "En el ecuador, el día y la noche duran 12 horas todo el año, y se pesa un poco menos que en los polos."
+      }
+    }
+  },
+  {
+    "sourceRef": "8ade507e37608efe",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel pays africain compte le plus de pyramides au monde, loin devant l'Égypte ?",
+        "options": [
+          "Le Mali",
+          "L'Algérie",
+          "La Libye",
+          "Le Soudan"
+        ],
+        "explanation": "Les rois de Nubie ont bâti plus de 200 pyramides à Méroé, plus petites et plus pentues que celles de Gizeh."
+      },
+      "en": {
+        "text": "Which African country has the most pyramids in the world, far ahead of Egypt?",
+        "options": [
+          "Mali",
+          "Algeria",
+          "Libya",
+          "Sudan"
+        ],
+        "explanation": "The kings of Nubia built more than 200 pyramids at Meroë, smaller and steeper than those of Giza."
+      },
+      "es": {
+        "text": "¿Qué país africano tiene más pirámides del mundo, muy por delante de Egipto?",
+        "options": [
+          "Malí",
+          "Argelia",
+          "Libia",
+          "Sudán"
+        ],
+        "explanation": "Los reyes de Nubia construyeron más de 200 pirámides en Meroe, más pequeñas y empinadas que las de Guiza."
+      }
+    }
+  },
+  {
+    "sourceRef": "bce71569966ed113",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de saisons rythment l'année dans les régions tempérées ?",
+        "options": [
+          "Deux",
+          "Trois",
+          "Cinq",
+          "Quatre"
+        ],
+        "explanation": "Les saisons existent parce que l'axe de la Terre est incliné d'environ 23,5 degrés, pas à cause de la distance au Soleil."
+      },
+      "en": {
+        "text": "How many seasons mark the year in temperate regions?",
+        "options": [
+          "Two",
+          "Three",
+          "Five",
+          "Four"
+        ],
+        "explanation": "Seasons exist because Earth's axis is tilted about 23.5 degrees, not because of the distance to the Sun."
+      },
+      "es": {
+        "text": "¿Cuántas estaciones marcan el año en las regiones templadas?",
+        "options": [
+          "Dos",
+          "Tres",
+          "Cinco",
+          "Cuatro"
+        ],
+        "explanation": "Las estaciones existen porque el eje de la Tierra está inclinado unos 23,5 grados, no por la distancia al Sol."
+      }
+    }
+  },
+  {
+    "sourceRef": "d78d0d4a3f5ffa87",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Combien de millisecondes compte une seconde ?",
+        "options": [
+          "100",
+          "10 000",
+          "1 000",
+          "100 000"
+        ],
+        "explanation": "Un clignement d'œil dure entre 100 et 400 millisecondes : littéralement, en un clin d'œil."
+      },
+      "en": {
+        "text": "How many milliseconds are there in a second?",
+        "options": [
+          "100",
+          "10,000",
+          "1,000",
+          "100,000"
+        ],
+        "explanation": "A blink of an eye lasts between 100 and 400 milliseconds: literally, in the blink of an eye."
+      },
+      "es": {
+        "text": "¿Cuántos milisegundos tiene un segundo?",
+        "options": [
+          "100",
+          "10.000",
+          "1.000",
+          "100.000"
+        ],
+        "explanation": "Un parpadeo dura entre 100 y 400 milisegundos: literalmente, en un abrir y cerrar de ojos."
+      }
+    }
+  },
+  {
+    "sourceRef": "a644d6579873ccdc",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel philosophe grec fut le précepteur du jeune Alexandre le Grand ?",
+        "options": [
+          "Socrate",
+          "Platon",
+          "Épicure",
+          "Aristote"
+        ],
+        "explanation": "Alexandre emportait en campagne un exemplaire de « L'Iliade » annoté par Aristote, qu'il gardait sous son oreiller."
+      },
+      "en": {
+        "text": "Which Greek philosopher was tutor to the young Alexander the Great?",
+        "options": [
+          "Socrates",
+          "Plato",
+          "Epicurus",
+          "Aristotle"
+        ],
+        "explanation": "On campaign, Alexander carried a copy of the 'Iliad' annotated by Aristotle, which he kept under his pillow."
+      },
+      "es": {
+        "text": "¿Qué filósofo griego fue preceptor del joven Alejandro Magno?",
+        "options": [
+          "Sócrates",
+          "Platón",
+          "Epicuro",
+          "Aristóteles"
+        ],
+        "explanation": "En campaña, Alejandro llevaba un ejemplar de la «Ilíada» anotado por Aristóteles, que guardaba bajo la almohada."
+      }
+    }
+  }
+]
