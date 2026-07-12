@@ -1,0 +1,1952 @@
+[
+  {
+    "sourceRef": "f18308ad1ab3c03c",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien de zéros compte le nombre un million ?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "8"
+        ],
+        "explanation": "Un million s'écrit 1 000 000 ; un milliard, lui, en compte neuf."
+      },
+      "en": {
+        "text": "How many zeros are there in the number one million?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "8"
+        ],
+        "explanation": "One million is written 1,000,000; a billion has nine."
+      },
+      "es": {
+        "text": "¿Cuántos ceros tiene el número un millón?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "8"
+        ],
+        "explanation": "Un millón se escribe 1.000.000; mil millones, en cambio, llevan nueve."
+      }
+    }
+  },
+  {
+    "sourceRef": "9bc373bc3ba9ef83",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la première lettre de l'alphabet grec ?",
+        "options": [
+          "Alpha",
+          "Bêta",
+          "Gamma",
+          "Oméga"
+        ],
+        "explanation": "« Alpha et oméga », première et dernière lettres, signifie « le début et la fin »."
+      },
+      "en": {
+        "text": "What is the first letter of the Greek alphabet?",
+        "options": [
+          "Alpha",
+          "Beta",
+          "Gamma",
+          "Omega"
+        ],
+        "explanation": "'Alpha and omega', the first and last letters, means 'the beginning and the end'."
+      },
+      "es": {
+        "text": "¿Cuál es la primera letra del alfabeto griego?",
+        "options": [
+          "Alfa",
+          "Beta",
+          "Gamma",
+          "Omega"
+        ],
+        "explanation": "«Alfa y omega», primera y última letras, significa «el principio y el fin»."
+      }
+    }
+  },
+  {
+    "sourceRef": "ad9ac4a5c7b5b301",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Combien de faces possède un dé à jouer classique ?",
+        "options": [
+          "Quatre",
+          "Six",
+          "Huit",
+          "Douze"
+        ],
+        "explanation": "Sur un dé classique, les faces opposées totalisent toujours 7 : le 1 fait face au 6, le 2 au 5, le 3 au 4."
+      },
+      "en": {
+        "text": "How many faces does a classic playing die have?",
+        "options": [
+          "Four",
+          "Six",
+          "Eight",
+          "Twelve"
+        ],
+        "explanation": "On a classic die, opposite faces always add up to 7: 1 faces 6, 2 faces 5, 3 faces 4."
+      },
+      "es": {
+        "text": "¿Cuántas caras tiene un dado clásico?",
+        "options": [
+          "Cuatro",
+          "Seis",
+          "Ocho",
+          "Doce"
+        ],
+        "explanation": "En un dado clásico, las caras opuestas siempre suman 7: el 1 frente al 6, el 2 frente al 5, el 3 frente al 4."
+      }
+    }
+  },
+  {
+    "sourceRef": "4f8e3933c260e34d",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel roi légendaire de Bretagne réunissait ses chevaliers autour d'une Table ronde ?",
+        "options": [
+          "Richard Cœur de Lion",
+          "Henri VIII",
+          "Le roi Arthur",
+          "Guillaume le Conquérant"
+        ],
+        "explanation": "La table était ronde pour que nul chevalier ne soit assis à une place plus honorable qu'un autre."
+      },
+      "en": {
+        "text": "Which legendary king of Britain gathered his knights around a Round Table?",
+        "options": [
+          "Richard the Lionheart",
+          "Henry VIII",
+          "King Arthur",
+          "William the Conqueror"
+        ],
+        "explanation": "The table was round so that no knight would sit in a more honourable seat than another."
+      },
+      "es": {
+        "text": "¿Qué rey legendario de Bretaña reunía a sus caballeros en torno a una Mesa Redonda?",
+        "options": [
+          "Ricardo Corazón de León",
+          "Enrique VIII",
+          "El rey Arturo",
+          "Guillermo el Conquistador"
+        ],
+        "explanation": "La mesa era redonda para que ningún caballero ocupara un asiento más honorable que otro."
+      }
+    }
+  },
+  {
+    "sourceRef": "d29fe376e5899479",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelait-on les combattants qui s'affrontaient dans les arènes de la Rome antique ?",
+        "options": [
+          "Les centurions",
+          "Les légionnaires",
+          "Les sénateurs",
+          "Les gladiateurs"
+        ],
+        "explanation": "Contrairement au cliché, les combats de gladiateurs ne finissaient pas toujours par la mort : les champions coûtaient cher."
+      },
+      "en": {
+        "text": "What were the fighters who battled in the arenas of ancient Rome called?",
+        "options": [
+          "Centurions",
+          "Legionaries",
+          "Senators",
+          "Gladiators"
+        ],
+        "explanation": "Contrary to the cliché, gladiator fights did not always end in death: champions were expensive."
+      },
+      "es": {
+        "text": "¿Cómo se llamaba a los combatientes que se enfrentaban en las arenas de la antigua Roma?",
+        "options": [
+          "Los centuriones",
+          "Los legionarios",
+          "Los senadores",
+          "Los gladiadores"
+        ],
+        "explanation": "Al contrario del tópico, los combates de gladiadores no siempre acababan en muerte: los campeones costaban caros."
+      }
+    }
+  },
+  {
+    "sourceRef": "8d2724f06ddddf65",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel liquide rouge transporte l'oxygène dans notre corps ?",
+        "options": [
+          "La lymphe",
+          "Le sang",
+          "La salive",
+          "La bile"
+        ],
+        "explanation": "Le corps d'un adulte contient environ 5 litres de sang, filtrés en permanence par les reins et le foie."
+      },
+      "en": {
+        "text": "Which red liquid carries oxygen around our body?",
+        "options": [
+          "Lymph",
+          "Blood",
+          "Saliva",
+          "Bile"
+        ],
+        "explanation": "An adult body contains about 5 litres of blood, constantly filtered by the kidneys and liver."
+      },
+      "es": {
+        "text": "¿Qué líquido rojo transporta el oxígeno por nuestro cuerpo?",
+        "options": [
+          "La linfa",
+          "La sangre",
+          "La saliva",
+          "La bilis"
+        ],
+        "explanation": "El cuerpo de un adulto contiene unos 5 litros de sangre, filtrados sin cesar por los riñones y el hígado."
+      }
+    }
+  },
+  {
+    "sourceRef": "32f97e498ba3f26b",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on l'eau à l'état solide ?",
+        "options": [
+          "La vapeur",
+          "La buée",
+          "Le givre",
+          "La glace"
+        ],
+        "explanation": "Fait rare dans la nature : la glace flotte, car l'eau est plus légère à l'état solide qu'à l'état liquide."
+      },
+      "en": {
+        "text": "What is water in its solid state called?",
+        "options": [
+          "Steam",
+          "Mist",
+          "Frost",
+          "Ice"
+        ],
+        "explanation": "A rarity in nature: ice floats, because water is lighter as a solid than as a liquid."
+      },
+      "es": {
+        "text": "¿Cómo se llama el agua en estado sólido?",
+        "options": [
+          "El vapor",
+          "El vaho",
+          "La escarcha",
+          "El hielo"
+        ],
+        "explanation": "Algo raro en la naturaleza: el hielo flota, porque el agua es más ligera en estado sólido que líquido."
+      }
+    }
+  },
+  {
+    "sourceRef": "f48caac9d9cd073f",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument sert à mesurer la température ?",
+        "options": [
+          "Le baromètre",
+          "Le thermomètre",
+          "L'hygromètre",
+          "L'altimètre"
+        ],
+        "explanation": "Les premiers thermomètres utilisaient du mercure ; aujourd'hui interdit, il est remplacé par l'alcool coloré ou l'électronique."
+      },
+      "en": {
+        "text": "Which instrument is used to measure temperature?",
+        "options": [
+          "The barometer",
+          "The thermometer",
+          "The hygrometer",
+          "The altimeter"
+        ],
+        "explanation": "Early thermometers used mercury; now banned, it has been replaced by coloured alcohol or electronics."
+      },
+      "es": {
+        "text": "¿Qué instrumento sirve para medir la temperatura?",
+        "options": [
+          "El barómetro",
+          "El termómetro",
+          "El higrómetro",
+          "El altímetro"
+        ],
+        "explanation": "Los primeros termómetros usaban mercurio; hoy prohibido, se sustituye por alcohol coloreado o electrónica."
+      }
+    }
+  },
+  {
+    "sourceRef": "741a4d0a9d58779a",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la formule chimique de l'eau ?",
+        "options": [
+          "CO2",
+          "O2",
+          "H2O",
+          "NaCl"
+        ],
+        "explanation": "H2O : deux atomes d'hydrogène pour un atome d'oxygène, la molécule la plus célèbre du monde."
+      },
+      "en": {
+        "text": "What is the chemical formula of water?",
+        "options": [
+          "CO2",
+          "O2",
+          "H2O",
+          "NaCl"
+        ],
+        "explanation": "H2O: two hydrogen atoms for one oxygen atom, the most famous molecule in the world."
+      },
+      "es": {
+        "text": "¿Cuál es la fórmula química del agua?",
+        "options": [
+          "CO2",
+          "O2",
+          "H2O",
+          "NaCl"
+        ],
+        "explanation": "H2O: dos átomos de hidrógeno por uno de oxígeno, la molécula más famosa del mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "fe897e00d67ab755",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la plus grande planète du système solaire ?",
+        "options": [
+          "Saturne",
+          "Neptune",
+          "Uranus",
+          "Jupiter"
+        ],
+        "explanation": "Jupiter est si vaste que toutes les autres planètes du système solaire tiendraient à l'intérieur."
+      },
+      "en": {
+        "text": "What is the largest planet in the solar system?",
+        "options": [
+          "Saturn",
+          "Neptune",
+          "Uranus",
+          "Jupiter"
+        ],
+        "explanation": "Jupiter is so vast that all the other planets in the solar system would fit inside it."
+      },
+      "es": {
+        "text": "¿Cuál es el planeta más grande del sistema solar?",
+        "options": [
+          "Saturno",
+          "Neptuno",
+          "Urano",
+          "Júpiter"
+        ],
+        "explanation": "Júpiter es tan vasto que todos los demás planetas del sistema solar cabrían en su interior."
+      }
+    }
+  },
+  {
+    "sourceRef": "120c9953e58bb4bd",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle mer borde la Côte d'Azur, au sud de la France ?",
+        "options": [
+          "L'océan Atlantique",
+          "La mer Méditerranée",
+          "La mer du Nord",
+          "La mer Baltique"
+        ],
+        "explanation": "La Méditerranée est une mer presque fermée : l'eau y met environ un siècle à se renouveler entièrement."
+      },
+      "en": {
+        "text": "Which sea borders the French Riviera, in the south of France?",
+        "options": [
+          "The Atlantic Ocean",
+          "The Mediterranean Sea",
+          "The North Sea",
+          "The Baltic Sea"
+        ],
+        "explanation": "The Mediterranean is an almost closed sea: its water takes about a century to renew itself completely."
+      },
+      "es": {
+        "text": "¿Qué mar baña la Costa Azul, en el sur de Francia?",
+        "options": [
+          "El océano Atlántico",
+          "El mar Mediterráneo",
+          "El mar del Norte",
+          "El mar Báltico"
+        ],
+        "explanation": "El Mediterráneo es un mar casi cerrado: su agua tarda alrededor de un siglo en renovarse por completo."
+      }
+    }
+  },
+  {
+    "sourceRef": "22b4ed9e87678632",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus haut sommet des Alpes ?",
+        "options": [
+          "Le Cervin",
+          "Le mont Rose",
+          "Le mont Blanc",
+          "Les Grandes Jorasses"
+        ],
+        "explanation": "Le mont Blanc culmine à environ 4 806 m, mais sa hauteur varie de quelques dizaines de centimètres selon la neige accumulée."
+      },
+      "en": {
+        "text": "What is the highest peak in the Alps?",
+        "options": [
+          "The Matterhorn",
+          "Monte Rosa",
+          "Mont Blanc",
+          "The Grandes Jorasses"
+        ],
+        "explanation": "Mont Blanc rises to about 4,806 m, but its height varies by a few dozen centimetres depending on the accumulated snow."
+      },
+      "es": {
+        "text": "¿Cuál es la cumbre más alta de los Alpes?",
+        "options": [
+          "El Cervino",
+          "El Monte Rosa",
+          "El Mont Blanc",
+          "Las Grandes Jorasses"
+        ],
+        "explanation": "El Mont Blanc culmina a unos 4.806 m, pero su altura varía unas decenas de centímetros según la nieve acumulada."
+      }
+    }
+  },
+  {
+    "sourceRef": "16a88414aa747906",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien d'océans compte la Terre, selon le découpage classique ?",
+        "options": [
+          "Cinq",
+          "Trois",
+          "Quatre",
+          "Six"
+        ],
+        "explanation": "Pacifique, Atlantique, Indien, Arctique et Austral : ce dernier n'a été officiellement reconnu qu'en 2000."
+      },
+      "en": {
+        "text": "How many oceans does the Earth have, according to the classic division?",
+        "options": [
+          "Five",
+          "Three",
+          "Four",
+          "Six"
+        ],
+        "explanation": "Pacific, Atlantic, Indian, Arctic and Southern: the last was only officially recognised in 2000."
+      },
+      "es": {
+        "text": "¿Cuántos océanos tiene la Tierra, según la división clásica?",
+        "options": [
+          "Cinco",
+          "Tres",
+          "Cuatro",
+          "Seis"
+        ],
+        "explanation": "Pacífico, Atlántico, Índico, Ártico y Antártico: este último solo fue reconocido oficialmente en 2000."
+      }
+    }
+  },
+  {
+    "sourceRef": "38a917f7238935ad",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport collectif marque-t-on des « essais » ?",
+        "options": [
+          "Le football",
+          "Le handball",
+          "Le volley-ball",
+          "Le rugby"
+        ],
+        "explanation": "À l'origine, l'essai ne rapportait aucun point : il donnait seulement le droit de « tenter » un coup de pied au but."
+      },
+      "en": {
+        "text": "In which team sport do you score 'tries'?",
+        "options": [
+          "Football",
+          "Handball",
+          "Volleyball",
+          "Rugby"
+        ],
+        "explanation": "Originally, a try was worth no points: it only gave the right to 'try' a kick at goal."
+      },
+      "es": {
+        "text": "¿En qué deporte de equipo se marcan «ensayos»?",
+        "options": [
+          "El fútbol",
+          "El balonmano",
+          "El voleibol",
+          "El rugby"
+        ],
+        "explanation": "Al principio, el ensayo no valía puntos: solo daba derecho a «intentar» una patada a palos."
+      }
+    }
+  },
+  {
+    "sourceRef": "c18a6762060280ee",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport traditionnel japonais deux lutteurs très corpulents s'affrontent-ils dans un cercle ?",
+        "options": [
+          "Le karaté",
+          "Le judo",
+          "L'aïkido",
+          "Le sumo"
+        ],
+        "explanation": "Les tournois de sumo sont liés aux rites shinto : le sel jeté avant chaque combat purifie l'arène."
+      },
+      "en": {
+        "text": "In which traditional Japanese sport do two very heavy wrestlers face off inside a circle?",
+        "options": [
+          "Karate",
+          "Judo",
+          "Aikido",
+          "Sumo"
+        ],
+        "explanation": "Sumo tournaments are tied to Shinto rites: the salt thrown before each bout purifies the ring."
+      },
+      "es": {
+        "text": "¿En qué deporte tradicional japonés dos luchadores muy corpulentos se enfrentan dentro de un círculo?",
+        "options": [
+          "El kárate",
+          "El judo",
+          "El aikido",
+          "El sumo"
+        ],
+        "explanation": "Los torneos de sumo están ligados a los ritos sintoístas: la sal lanzada antes de cada combate purifica la arena."
+      }
+    }
+  },
+  {
+    "sourceRef": "3ca98119f312e6ee",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment s'appelle le cow-boy en jouet, héros de « Toy Story » ?",
+        "options": [
+          "Buzz l'Éclair",
+          "Jessie",
+          "Woody",
+          "Rex"
+        ],
+        "explanation": "Woody doit son nom à Woody Strode, un acteur célèbre des westerns des années 1950."
+      },
+      "en": {
+        "text": "What is the name of the toy cowboy, hero of 'Toy Story'?",
+        "options": [
+          "Buzz Lightyear",
+          "Jessie",
+          "Woody",
+          "Rex"
+        ],
+        "explanation": "Woody is named after Woody Strode, a famous actor in 1950s westerns."
+      },
+      "es": {
+        "text": "¿Cómo se llama el vaquero de juguete, héroe de «Toy Story»?",
+        "options": [
+          "Buzz Lightyear",
+          "Jessie",
+          "Woody",
+          "Rex"
+        ],
+        "explanation": "Woody debe su nombre a Woody Strode, un actor célebre de los wésterns de los años 50."
+      }
+    }
+  },
+  {
+    "sourceRef": "f2aa96d42ea87d2f",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel singe géant escalade l'Empire State Building dans un film culte de 1933 ?",
+        "options": [
+          "Godzilla",
+          "King Kong",
+          "Le Kraken",
+          "Alien"
+        ],
+        "explanation": "Le King Kong de 1933 était animé image par image avec une marionnette de… 45 cm de haut."
+      },
+      "en": {
+        "text": "Which giant ape climbs the Empire State Building in a cult 1933 film?",
+        "options": [
+          "Godzilla",
+          "King Kong",
+          "The Kraken",
+          "Alien"
+        ],
+        "explanation": "The 1933 King Kong was animated frame by frame with a puppet just… 45 cm tall."
+      },
+      "es": {
+        "text": "¿Qué simio gigante escala el Empire State Building en una película de culto de 1933?",
+        "options": [
+          "Godzilla",
+          "King Kong",
+          "El Kraken",
+          "Alien"
+        ],
+        "explanation": "El King Kong de 1933 se animó fotograma a fotograma con una marioneta de apenas… 45 cm."
+      }
+    }
+  },
+  {
+    "sourceRef": "acb935566b3af219",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel agent secret britannique porte le matricule 007 ?",
+        "options": [
+          "Jason Bourne",
+          "James Bond",
+          "Jack Ryan",
+          "Ethan Hunt"
+        ],
+        "explanation": "Ian Fleming emprunta le nom de son espion à un véritable ornithologue, auteur d'un guide des oiseaux des Caraïbes."
+      },
+      "en": {
+        "text": "Which British secret agent has the code number 007?",
+        "options": [
+          "Jason Bourne",
+          "James Bond",
+          "Jack Ryan",
+          "Ethan Hunt"
+        ],
+        "explanation": "Ian Fleming borrowed his spy's name from a real ornithologist, author of a guide to Caribbean birds."
+      },
+      "es": {
+        "text": "¿Qué agente secreto británico lleva el número 007?",
+        "options": [
+          "Jason Bourne",
+          "James Bond",
+          "Jack Ryan",
+          "Ethan Hunt"
+        ],
+        "explanation": "Ian Fleming tomó el nombre de su espía de un ornitólogo real, autor de una guía de aves del Caribe."
+      }
+    }
+  },
+  {
+    "sourceRef": "3ebecf18b323e1d2",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien de notes différentes compte la gamme de do majeur (do, ré, mi…) ?",
+        "options": [
+          "Sept",
+          "Cinq",
+          "Six",
+          "Huit"
+        ],
+        "explanation": "Do, ré, mi, fa, sol, la, si : ces noms viennent d'un hymne latin du Moyen Âge, l'« Ut queant laxis »."
+      },
+      "en": {
+        "text": "How many different notes are there in the C major scale (do, re, mi…)?",
+        "options": [
+          "Seven",
+          "Five",
+          "Six",
+          "Eight"
+        ],
+        "explanation": "Do, re, mi, fa, sol, la, ti: these names come from a medieval Latin hymn, 'Ut queant laxis'."
+      },
+      "es": {
+        "text": "¿Cuántas notas diferentes tiene la escala de do mayor (do, re, mi…)?",
+        "options": [
+          "Siete",
+          "Cinco",
+          "Seis",
+          "Ocho"
+        ],
+        "explanation": "Do, re, mi, fa, sol, la, si: estos nombres vienen de un himno latino medieval, el «Ut queant laxis»."
+      }
+    }
+  },
+  {
+    "sourceRef": "c509442b667e0374",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument, composé de tambours et de cymbales, se joue avec des baguettes ?",
+        "options": [
+          "La batterie",
+          "Le piano",
+          "L'accordéon",
+          "La harpe"
+        ],
+        "explanation": "La batterie moderne est née au début du XXe siècle, quand un seul musicien se mit à jouer plusieurs percussions à la fois."
+      },
+      "en": {
+        "text": "Which instrument, made up of drums and cymbals, is played with sticks?",
+        "options": [
+          "The drum kit",
+          "The piano",
+          "The accordion",
+          "The harp"
+        ],
+        "explanation": "The modern drum kit was born in the early 20th century, when a single musician began playing several percussion instruments at once."
+      },
+      "es": {
+        "text": "¿Qué instrumento, compuesto de tambores y platillos, se toca con baquetas?",
+        "options": [
+          "La batería",
+          "El piano",
+          "El acordeón",
+          "El arpa"
+        ],
+        "explanation": "La batería moderna nació a principios del siglo XX, cuando un solo músico empezó a tocar varias percusiones a la vez."
+      }
+    }
+  },
+  {
+    "sourceRef": "675e22de83a30dfc",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel animal de compagnie exprime son contentement en ronronnant ?",
+        "options": [
+          "Le chien",
+          "Le lapin",
+          "Le hamster",
+          "Le chat"
+        ],
+        "explanation": "Le ronronnement du chat vibre à des fréquences qui pourraient même favoriser la cicatrisation des os."
+      },
+      "en": {
+        "text": "Which pet expresses contentment by purring?",
+        "options": [
+          "The dog",
+          "The rabbit",
+          "The hamster",
+          "The cat"
+        ],
+        "explanation": "A cat's purr vibrates at frequencies that may even promote bone healing."
+      },
+      "es": {
+        "text": "¿Qué mascota expresa su satisfacción ronroneando?",
+        "options": [
+          "El perro",
+          "El conejo",
+          "El hámster",
+          "El gato"
+        ],
+        "explanation": "El ronroneo del gato vibra a frecuencias que podrían incluso favorecer la cicatrización de los huesos."
+      }
+    }
+  },
+  {
+    "sourceRef": "08f9a31e35125f79",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on la transformation de la chenille en papillon ?",
+        "options": [
+          "L'éclosion",
+          "La mue",
+          "La métamorphose",
+          "La germination"
+        ],
+        "explanation": "Dans la chrysalide, la chenille se liquéfie presque entièrement avant de se reconstruire en papillon."
+      },
+      "en": {
+        "text": "What is the transformation of a caterpillar into a butterfly called?",
+        "options": [
+          "Hatching",
+          "Moulting",
+          "Metamorphosis",
+          "Germination"
+        ],
+        "explanation": "Inside the chrysalis, the caterpillar almost entirely liquefies before rebuilding itself as a butterfly."
+      },
+      "es": {
+        "text": "¿Cómo se llama la transformación de la oruga en mariposa?",
+        "options": [
+          "La eclosión",
+          "La muda",
+          "La metamorfosis",
+          "La germinación"
+        ],
+        "explanation": "Dentro de la crisálida, la oruga se licúa casi por completo antes de reconstruirse como mariposa."
+      }
+    }
+  },
+  {
+    "sourceRef": "c29a159af006a038",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel symbole sépare le nom d'utilisateur du domaine dans une adresse e-mail ?",
+        "options": [
+          "Le dièse",
+          "L'arobase",
+          "Le tiret bas",
+          "Le point-virgule"
+        ],
+        "explanation": "L'arobase existait déjà au Moyen Âge : c'était une unité de mesure utilisée par les marchands espagnols."
+      },
+      "en": {
+        "text": "Which symbol separates the username from the domain in an e-mail address?",
+        "options": [
+          "The hash",
+          "The at sign",
+          "The underscore",
+          "The semicolon"
+        ],
+        "explanation": "The at sign already existed in the Middle Ages: it was a unit of measure used by Spanish merchants."
+      },
+      "es": {
+        "text": "¿Qué símbolo separa el nombre de usuario del dominio en una dirección de correo electrónico?",
+        "options": [
+          "La almohadilla",
+          "La arroba",
+          "El guion bajo",
+          "El punto y coma"
+        ],
+        "explanation": "La arroba ya existía en la Edad Media: era una unidad de medida usada por los mercaderes españoles."
+      }
+    }
+  },
+  {
+    "sourceRef": "95b8e1b93c2822e5",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel petit appareil volant télécommandé, souvent à quatre hélices, sert à filmer du ciel ?",
+        "options": [
+          "Le planeur",
+          "La montgolfière",
+          "Le drone",
+          "Le deltaplane"
+        ],
+        "explanation": "Le mot « drone » signifie « faux bourdon » en anglais, à cause du bourdonnement de ses hélices."
+      },
+      "en": {
+        "text": "Which small remote-controlled flying device, often with four propellers, is used to film from the sky?",
+        "options": [
+          "The glider",
+          "The hot-air balloon",
+          "The drone",
+          "The hang-glider"
+        ],
+        "explanation": "The word 'drone' means a male bee, because of the buzzing of its propellers."
+      },
+      "es": {
+        "text": "¿Qué pequeño aparato volador teledirigido, a menudo con cuatro hélices, sirve para filmar desde el cielo?",
+        "options": [
+          "El planeador",
+          "El globo aerostático",
+          "El dron",
+          "El ala delta"
+        ],
+        "explanation": "La palabra «dron» significa «zángano» en inglés, por el zumbido de sus hélices."
+      }
+    }
+  },
+  {
+    "sourceRef": "06e32e41f1ef2e23",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "De quelle céréale sont traditionnellement faites les cornflakes ?",
+        "options": [
+          "Le maïs",
+          "Le blé",
+          "L'avoine",
+          "Le riz"
+        ],
+        "explanation": "Les cornflakes furent inventés par accident en 1894 par les frères Kellogg, à partir de blé... puis perfectionnés avec du maïs."
+      },
+      "en": {
+        "text": "From which cereal are cornflakes traditionally made?",
+        "options": [
+          "Corn",
+          "Wheat",
+          "Oats",
+          "Rice"
+        ],
+        "explanation": "Cornflakes were invented by accident in 1894 by the Kellogg brothers, first from wheat… then perfected with corn."
+      },
+      "es": {
+        "text": "¿De qué cereal se hacen tradicionalmente los cornflakes?",
+        "options": [
+          "El maíz",
+          "El trigo",
+          "La avena",
+          "El arroz"
+        ],
+        "explanation": "Los cornflakes los inventaron por accidente en 1894 los hermanos Kellogg, primero con trigo… y luego los perfeccionaron con maíz."
+      }
+    }
+  },
+  {
+    "sourceRef": "d21e6d43233867a0",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel fruit jaune et allongé pousse en régimes sur un grand herbier tropical ?",
+        "options": [
+          "La mangue",
+          "L'ananas",
+          "La papaye",
+          "La banane"
+        ],
+        "explanation": "Le bananier n'est pas un arbre mais une herbe géante : son « tronc » est fait de feuilles enroulées."
+      },
+      "en": {
+        "text": "Which long yellow fruit grows in bunches on a giant tropical herb?",
+        "options": [
+          "The mango",
+          "The pineapple",
+          "The papaya",
+          "The banana"
+        ],
+        "explanation": "The banana plant is not a tree but a giant herb: its 'trunk' is made of rolled-up leaves."
+      },
+      "es": {
+        "text": "¿Qué fruta amarilla y alargada crece en racimos sobre una hierba gigante tropical?",
+        "options": [
+          "El mango",
+          "La piña",
+          "La papaya",
+          "El plátano"
+        ],
+        "explanation": "El platanero no es un árbol sino una hierba gigante: su «tronco» está hecho de hojas enrolladas."
+      }
+    }
+  },
+  {
+    "sourceRef": "a3a51fce096f4554",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment s'appelle la baleine blanche traquée par le capitaine Achab dans le roman de Melville ?",
+        "options": [
+          "Moby Dick",
+          "Willy",
+          "Flipper",
+          "Nemo"
+        ],
+        "explanation": "Melville s'inspira d'un cachalot blanc bien réel, « Mocha Dick », qui terrorisait les baleiniers au large du Chili."
+      },
+      "en": {
+        "text": "What is the name of the white whale hunted by Captain Ahab in Melville's novel?",
+        "options": [
+          "Moby Dick",
+          "Willy",
+          "Flipper",
+          "Nemo"
+        ],
+        "explanation": "Melville was inspired by a very real white sperm whale, 'Mocha Dick', which terrorised whalers off Chile."
+      },
+      "es": {
+        "text": "¿Cómo se llama la ballena blanca perseguida por el capitán Ahab en la novela de Melville?",
+        "options": [
+          "Moby Dick",
+          "Willy",
+          "Flipper",
+          "Nemo"
+        ],
+        "explanation": "Melville se inspiró en un cachalote blanco muy real, «Mocha Dick», que aterrorizaba a los balleneros frente a Chile."
+      }
+    }
+  },
+  {
+    "sourceRef": "b08517c091bef51a",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel outil, frappé avec un maillet, sert au sculpteur à tailler la pierre ?",
+        "options": [
+          "Le pinceau",
+          "La truelle",
+          "Le ciseau",
+          "Le rabot"
+        ],
+        "explanation": "Michel-Ange disait « libérer » la statue déjà présente dans le bloc de marbre, coup de ciseau après coup de ciseau."
+      },
+      "en": {
+        "text": "Which tool, struck with a mallet, does a sculptor use to carve stone?",
+        "options": [
+          "The brush",
+          "The trowel",
+          "The chisel",
+          "The plane"
+        ],
+        "explanation": "Michelangelo said he 'freed' the statue already present in the marble block, chisel stroke after chisel stroke."
+      },
+      "es": {
+        "text": "¿Qué herramienta, golpeada con un mazo, usa el escultor para tallar la piedra?",
+        "options": [
+          "El pincel",
+          "La paleta",
+          "El cincel",
+          "El cepillo"
+        ],
+        "explanation": "Miguel Ángel decía «liberar» la estatua ya presente en el bloque de mármol, cincelada tras cincelada."
+      }
+    }
+  },
+  {
+    "sourceRef": "af05082f87d59ea0",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle reine de France, épouse de Louis XVI, fut guillotinée en 1793 ?",
+        "options": [
+          "Catherine de Médicis",
+          "Marie-Antoinette",
+          "Joséphine de Beauharnais",
+          "Anne d'Autriche"
+        ],
+        "explanation": "La célèbre phrase « Qu'ils mangent de la brioche » lui est attribuée… sans aucune preuve historique."
+      },
+      "en": {
+        "text": "Which queen of France, wife of Louis XVI, was guillotined in 1793?",
+        "options": [
+          "Catherine de' Medici",
+          "Marie Antoinette",
+          "Joséphine de Beauharnais",
+          "Anne of Austria"
+        ],
+        "explanation": "The famous line 'Let them eat cake' is attributed to her… without any historical evidence."
+      },
+      "es": {
+        "text": "¿Qué reina de Francia, esposa de Luis XVI, fue guillotinada en 1793?",
+        "options": [
+          "Catalina de Médici",
+          "María Antonieta",
+          "Josefina de Beauharnais",
+          "Ana de Austria"
+        ],
+        "explanation": "La famosa frase «Que coman pasteles» se le atribuye… sin ninguna prueba histórica."
+      }
+    }
+  },
+  {
+    "sourceRef": "c77ad74c536b0f4a",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle route commerciale mythique reliait la Chine à la Méditerranée dès l'Antiquité ?",
+        "options": [
+          "La route de l'encens",
+          "La route du sel",
+          "La route de la soie",
+          "La route de l'ambre"
+        ],
+        "explanation": "Outre la soie, elle transportait épices, papier, poudre… et aussi les idées et les religions."
+      },
+      "en": {
+        "text": "Which legendary trade route linked China to the Mediterranean from antiquity onwards?",
+        "options": [
+          "The Incense Route",
+          "The Salt Route",
+          "The Silk Road",
+          "The Amber Road"
+        ],
+        "explanation": "Besides silk, it carried spices, paper, gunpowder… and also ideas and religions."
+      },
+      "es": {
+        "text": "¿Qué mítica ruta comercial unía China con el Mediterráneo desde la Antigüedad?",
+        "options": [
+          "La ruta del incienso",
+          "La ruta de la sal",
+          "La Ruta de la Seda",
+          "La ruta del ámbar"
+        ],
+        "explanation": "Además de seda, transportaba especias, papel, pólvora… y también ideas y religiones."
+      }
+    }
+  },
+  {
+    "sourceRef": "384b61d01f13a68f",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel gaz compose environ 78 % de l'air que nous respirons ?",
+        "options": [
+          "L'oxygène",
+          "L'azote",
+          "L'argon",
+          "Le dioxyde de carbone"
+        ],
+        "explanation": "L'azote est si peu réactif que nous l'inspirons et l'expirons sans qu'il participe à notre respiration."
+      },
+      "en": {
+        "text": "Which gas makes up about 78% of the air we breathe?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Argon",
+          "Carbon dioxide"
+        ],
+        "explanation": "Nitrogen is so unreactive that we breathe it in and out without it taking part in respiration."
+      },
+      "es": {
+        "text": "¿Qué gas compone alrededor del 78 % del aire que respiramos?",
+        "options": [
+          "El oxígeno",
+          "El nitrógeno",
+          "El argón",
+          "El dióxido de carbono"
+        ],
+        "explanation": "El nitrógeno es tan poco reactivo que lo inspiramos y espiramos sin que participe en nuestra respiración."
+      }
+    }
+  },
+  {
+    "sourceRef": "10fc38665a157cca",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment s'appelle la galaxie qui abrite notre système solaire ?",
+        "options": [
+          "Andromède",
+          "Le Sombrero",
+          "La Voie lactée",
+          "Le Grand Nuage de Magellan"
+        ],
+        "explanation": "La Voie lactée compte entre 100 et 400 milliards d'étoiles… et fusionnera un jour avec Andromède."
+      },
+      "en": {
+        "text": "What is the name of the galaxy that contains our solar system?",
+        "options": [
+          "Andromeda",
+          "The Sombrero",
+          "The Milky Way",
+          "The Large Magellanic Cloud"
+        ],
+        "explanation": "The Milky Way has between 100 and 400 billion stars… and will one day merge with Andromeda."
+      },
+      "es": {
+        "text": "¿Cómo se llama la galaxia que alberga nuestro sistema solar?",
+        "options": [
+          "Andrómeda",
+          "El Sombrero",
+          "La Vía Láctea",
+          "La Gran Nube de Magallanes"
+        ],
+        "explanation": "La Vía Láctea tiene entre 100.000 y 400.000 millones de estrellas… y un día se fusionará con Andrómeda."
+      }
+    }
+  },
+  {
+    "sourceRef": "98c3529de0239580",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle île française de Méditerranée est surnommée « l'île de Beauté » ?",
+        "options": [
+          "La Sardaigne",
+          "La Sicile",
+          "Malte",
+          "La Corse"
+        ],
+        "explanation": "Ses montagnes culminent à plus de 2 700 m : on peut parfois y skier le matin et se baigner l'après-midi."
+      },
+      "en": {
+        "text": "Which French Mediterranean island is nicknamed the 'Isle of Beauty'?",
+        "options": [
+          "Sardinia",
+          "Sicily",
+          "Malta",
+          "Corsica"
+        ],
+        "explanation": "Its mountains rise above 2,700 m: you can sometimes ski in the morning and swim in the afternoon."
+      },
+      "es": {
+        "text": "¿Qué isla francesa del Mediterráneo es apodada la «isla de la Belleza»?",
+        "options": [
+          "Cerdeña",
+          "Sicilia",
+          "Malta",
+          "Córcega"
+        ],
+        "explanation": "Sus montañas superan los 2.700 m: a veces se puede esquiar por la mañana y bañarse por la tarde."
+      }
+    }
+  },
+  {
+    "sourceRef": "fa524159b8e990aa",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel détroit sépare l'Asie de l'Amérique du Nord ?",
+        "options": [
+          "Le détroit de Magellan",
+          "Le détroit de Béring",
+          "Le détroit d'Ormuz",
+          "Le détroit de Malacca"
+        ],
+        "explanation": "Il y a environ 20 000 ans, ce détroit était une terre ferme : les premiers humains l'auraient traversé à pied vers l'Amérique."
+      },
+      "en": {
+        "text": "Which strait separates Asia from North America?",
+        "options": [
+          "The Strait of Magellan",
+          "The Bering Strait",
+          "The Strait of Hormuz",
+          "The Strait of Malacca"
+        ],
+        "explanation": "About 20,000 years ago, this strait was dry land: the first humans are thought to have crossed it on foot into America."
+      },
+      "es": {
+        "text": "¿Qué estrecho separa Asia de América del Norte?",
+        "options": [
+          "El estrecho de Magallanes",
+          "El estrecho de Bering",
+          "El estrecho de Ormuz",
+          "El estrecho de Malaca"
+        ],
+        "explanation": "Hace unos 20.000 años, este estrecho era tierra firme: los primeros humanos lo habrían cruzado a pie hacia América."
+      }
+    }
+  },
+  {
+    "sourceRef": "e19c09e949ba503e",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Combien de points vaut un essai au rugby à XV ?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "7"
+        ],
+        "explanation": "L'essai est passé de 4 à 5 points en 1992, pour encourager le jeu offensif."
+      },
+      "en": {
+        "text": "How many points is a try worth in rugby union?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "7"
+        ],
+        "explanation": "The try went from 4 to 5 points in 1992, to encourage attacking play."
+      },
+      "es": {
+        "text": "¿Cuántos puntos vale un ensayo en el rugby XV?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "7"
+        ],
+        "explanation": "El ensayo pasó de 4 a 5 puntos en 1992, para fomentar el juego ofensivo."
+      }
+    }
+  },
+  {
+    "sourceRef": "2a125dcd9351b4b9",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle actrice incarne Hermione Granger dans la saga « Harry Potter » ?",
+        "options": [
+          "Emma Stone",
+          "Keira Knightley",
+          "Emma Watson",
+          "Natalie Portman"
+        ],
+        "explanation": "Emma Watson n'avait que 9 ans lors de sa toute première audition pour le rôle."
+      },
+      "en": {
+        "text": "Which actress plays Hermione Granger in the 'Harry Potter' saga?",
+        "options": [
+          "Emma Stone",
+          "Keira Knightley",
+          "Emma Watson",
+          "Natalie Portman"
+        ],
+        "explanation": "Emma Watson was only 9 years old at her very first audition for the role."
+      },
+      "es": {
+        "text": "¿Qué actriz interpreta a Hermione Granger en la saga «Harry Potter»?",
+        "options": [
+          "Emma Stone",
+          "Keira Knightley",
+          "Emma Watson",
+          "Natalie Portman"
+        ],
+        "explanation": "Emma Watson tenía solo 9 años en su primera audición para el papel."
+      }
+    }
+  },
+  {
+    "sourceRef": "b6ddabf9a84452fd",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle chanteuse américaine est surnommée la « Queen of Pop » ?",
+        "options": [
+          "Beyoncé",
+          "Lady Gaga",
+          "Rihanna",
+          "Madonna"
+        ],
+        "explanation": "Madonna reste l'artiste féminine ayant vendu le plus de disques de l'histoire, avec plus de 300 millions d'albums."
+      },
+      "en": {
+        "text": "Which American singer is nicknamed the 'Queen of Pop'?",
+        "options": [
+          "Beyoncé",
+          "Lady Gaga",
+          "Rihanna",
+          "Madonna"
+        ],
+        "explanation": "Madonna remains the best-selling female artist in history, with more than 300 million albums."
+      },
+      "es": {
+        "text": "¿Qué cantante estadounidense es apodada la «Reina del Pop»?",
+        "options": [
+          "Beyoncé",
+          "Lady Gaga",
+          "Rihanna",
+          "Madonna"
+        ],
+        "explanation": "Madonna sigue siendo la artista femenina con más discos vendidos de la historia, con más de 300 millones de álbumes."
+      }
+    }
+  },
+  {
+    "sourceRef": "04f7ab0f29452528",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel grand singe au pelage roux vit dans les forêts de Bornéo et de Sumatra ?",
+        "options": [
+          "L'orang-outan",
+          "Le gorille",
+          "Le chimpanzé",
+          "Le gibbon"
+        ],
+        "explanation": "Son nom signifie « homme de la forêt » en malais ; il partage environ 97 % de son ADN avec nous."
+      },
+      "en": {
+        "text": "Which great ape with reddish fur lives in the forests of Borneo and Sumatra?",
+        "options": [
+          "The orangutan",
+          "The gorilla",
+          "The chimpanzee",
+          "The gibbon"
+        ],
+        "explanation": "Its name means 'man of the forest' in Malay; it shares about 97% of its DNA with us."
+      },
+      "es": {
+        "text": "¿Qué gran simio de pelaje rojizo vive en los bosques de Borneo y Sumatra?",
+        "options": [
+          "El orangután",
+          "El gorila",
+          "El chimpancé",
+          "El gibón"
+        ],
+        "explanation": "Su nombre significa «hombre del bosque» en malayo; comparte alrededor del 97 % de su ADN con nosotros."
+      }
+    }
+  },
+  {
+    "sourceRef": "8c6a3cb538ef41bd",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle invention de Gutenberg, au XVe siècle, révolutionna la diffusion des livres ?",
+        "options": [
+          "La boussole",
+          "La machine à vapeur",
+          "L'imprimerie",
+          "Le télescope"
+        ],
+        "explanation": "Le premier grand livre imprimé, la Bible de Gutenberg, fut tiré à environ 180 exemplaires ; une cinquantaine subsistent."
+      },
+      "en": {
+        "text": "Which 15th-century invention by Gutenberg revolutionised the spread of books?",
+        "options": [
+          "The compass",
+          "The steam engine",
+          "The printing press",
+          "The telescope"
+        ],
+        "explanation": "The first great printed book, the Gutenberg Bible, had a run of about 180 copies; some fifty survive."
+      },
+      "es": {
+        "text": "¿Qué invento de Gutenberg, en el siglo XV, revolucionó la difusión de los libros?",
+        "options": [
+          "La brújula",
+          "La máquina de vapor",
+          "La imprenta",
+          "El telescopio"
+        ],
+        "explanation": "El primer gran libro impreso, la Biblia de Gutenberg, tuvo una tirada de unos 180 ejemplares; sobreviven unos cincuenta."
+      }
+    }
+  },
+  {
+    "sourceRef": "edaf52c5f149f11b",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle boisson gazeuse fut inventée en 1886 par un pharmacien d'Atlanta ?",
+        "options": [
+          "Le Coca-Cola",
+          "Le Pepsi",
+          "La root beer",
+          "Le Dr Pepper"
+        ],
+        "explanation": "À l'origine vendue comme remède, la boisson s'écoulait à… neuf verres par jour en moyenne la première année."
+      },
+      "en": {
+        "text": "Which fizzy drink was invented in 1886 by an Atlanta pharmacist?",
+        "options": [
+          "Coca-Cola",
+          "Pepsi",
+          "Root beer",
+          "Dr Pepper"
+        ],
+        "explanation": "Originally sold as a remedy, the drink sold… an average of nine glasses a day in its first year."
+      },
+      "es": {
+        "text": "¿Qué bebida gaseosa inventó en 1886 un farmacéutico de Atlanta?",
+        "options": [
+          "La Coca-Cola",
+          "La Pepsi",
+          "La root beer",
+          "El Dr Pepper"
+        ],
+        "explanation": "Vendida al principio como remedio, la bebida despachaba… una media de nueve vasos al día en su primer año."
+      }
+    }
+  },
+  {
+    "sourceRef": "919294428b1028e2",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel gentleman cambrioleur, créé par Maurice Leblanc, est passé maître dans l'art du déguisement ?",
+        "options": [
+          "Fantômas",
+          "Rocambole",
+          "Robin des Bois",
+          "Arsène Lupin"
+        ],
+        "explanation": "Leblanc fit même affronter son héros à « Herlock Sholmès », parodie transparente du détective anglais."
+      },
+      "en": {
+        "text": "Which gentleman thief, created by Maurice Leblanc, is a master of disguise?",
+        "options": [
+          "Fantômas",
+          "Rocambole",
+          "Robin Hood",
+          "Arsène Lupin"
+        ],
+        "explanation": "Leblanc even pitted his hero against 'Herlock Sholmès', a transparent parody of the English detective."
+      },
+      "es": {
+        "text": "¿Qué caballero ladrón, creado por Maurice Leblanc, es un maestro del disfraz?",
+        "options": [
+          "Fantômas",
+          "Rocambole",
+          "Robin Hood",
+          "Arsène Lupin"
+        ],
+        "explanation": "Leblanc incluso enfrentó a su héroe con «Herlock Sholmès», parodia transparente del detective inglés."
+      }
+    }
+  },
+  {
+    "sourceRef": "7b5cfae6953af3e8",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle danse académique, née dans les cours d'Italie et de France, se pratique sur pointes ?",
+        "options": [
+          "Le ballet",
+          "Le tango",
+          "Le flamenco",
+          "La valse"
+        ],
+        "explanation": "Les chaussons de pointes des danseuses professionnelles ne durent parfois… qu'une seule représentation."
+      },
+      "en": {
+        "text": "Which academic dance, born in the courts of Italy and France, is performed on pointe?",
+        "options": [
+          "Ballet",
+          "Tango",
+          "Flamenco",
+          "Waltz"
+        ],
+        "explanation": "Professional dancers' pointe shoes sometimes last… just a single performance."
+      },
+      "es": {
+        "text": "¿Qué danza académica, nacida en las cortes de Italia y Francia, se practica sobre puntas?",
+        "options": [
+          "El ballet",
+          "El tango",
+          "El flamenco",
+          "El vals"
+        ],
+        "explanation": "Las zapatillas de puntas de las bailarinas profesionales a veces duran… una sola función."
+      }
+    }
+  },
+  {
+    "sourceRef": "870f91bdbbe13eef",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel pharaon fit creuser les temples monumentaux d'Abou Simbel, au sud de l'Égypte ?",
+        "options": [
+          "Khéops",
+          "Akhenaton",
+          "Ramsès II",
+          "Thoutmosis III"
+        ],
+        "explanation": "Dans les années 1960, les temples furent découpés et déplacés bloc par bloc pour échapper aux eaux du barrage d'Assouan."
+      },
+      "en": {
+        "text": "Which pharaoh had the monumental temples of Abu Simbel carved in southern Egypt?",
+        "options": [
+          "Khufu",
+          "Akhenaten",
+          "Ramesses II",
+          "Thutmose III"
+        ],
+        "explanation": "In the 1960s, the temples were cut up and moved block by block to escape the waters of the Aswan Dam."
+      },
+      "es": {
+        "text": "¿Qué faraón mandó excavar los templos monumentales de Abu Simbel, al sur de Egipto?",
+        "options": [
+          "Keops",
+          "Akenatón",
+          "Ramsés II",
+          "Tutmosis III"
+        ],
+        "explanation": "En los años 60, los templos fueron cortados y trasladados bloque a bloque para escapar de las aguas de la presa de Asuán."
+      }
+    }
+  },
+  {
+    "sourceRef": "4056c4aabf2507e6",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel physicien français découvrit la radioactivité naturelle en 1896 ?",
+        "options": [
+          "Pierre Curie",
+          "Henri Becquerel",
+          "Wilhelm Röntgen",
+          "Ernest Rutherford"
+        ],
+        "explanation": "Becquerel fit sa découverte par hasard : des sels d'uranium avaient impressionné une plaque photo… dans un tiroir fermé."
+      },
+      "en": {
+        "text": "Which French physicist discovered natural radioactivity in 1896?",
+        "options": [
+          "Pierre Curie",
+          "Henri Becquerel",
+          "Wilhelm Röntgen",
+          "Ernest Rutherford"
+        ],
+        "explanation": "Becquerel made his discovery by chance: uranium salts had exposed a photographic plate… inside a closed drawer."
+      },
+      "es": {
+        "text": "¿Qué físico francés descubrió la radiactividad natural en 1896?",
+        "options": [
+          "Pierre Curie",
+          "Henri Becquerel",
+          "Wilhelm Röntgen",
+          "Ernest Rutherford"
+        ],
+        "explanation": "Becquerel hizo su descubrimiento por casualidad: unas sales de uranio habían velado una placa fotográfica… dentro de un cajón cerrado."
+      }
+    }
+  },
+  {
+    "sourceRef": "9b42192eb91d35db",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel lac, bordé par l'Ouganda, le Kenya et la Tanzanie, est le plus grand d'Afrique ?",
+        "options": [
+          "Le lac Tanganyika",
+          "Le lac Malawi",
+          "Le lac Tchad",
+          "Le lac Victoria"
+        ],
+        "explanation": "Grand comme l'Irlande, ce lac est aussi la principale source du Nil Blanc."
+      },
+      "en": {
+        "text": "Which lake, bordered by Uganda, Kenya and Tanzania, is the largest in Africa?",
+        "options": [
+          "Lake Tanganyika",
+          "Lake Malawi",
+          "Lake Chad",
+          "Lake Victoria"
+        ],
+        "explanation": "As big as Ireland, this lake is also the main source of the White Nile."
+      },
+      "es": {
+        "text": "¿Qué lago, bordeado por Uganda, Kenia y Tanzania, es el más grande de África?",
+        "options": [
+          "El lago Tanganica",
+          "El lago Malaui",
+          "El lago Chad",
+          "El lago Victoria"
+        ],
+        "explanation": "Tan grande como Irlanda, este lago es también la principal fuente del Nilo Blanco."
+      }
+    }
+  },
+  {
+    "sourceRef": "283ec69d7cf6a407",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel nageur américain détient le record absolu de médailles d'or olympiques, avec 23 titres ?",
+        "options": [
+          "Michael Phelps",
+          "Mark Spitz",
+          "Ian Thorpe",
+          "Ryan Lochte"
+        ],
+        "explanation": "Avec 28 médailles au total, Phelps devancerait la plupart des pays au classement historique des JO."
+      },
+      "en": {
+        "text": "Which American swimmer holds the all-time record for Olympic gold medals, with 23 titles?",
+        "options": [
+          "Michael Phelps",
+          "Mark Spitz",
+          "Ian Thorpe",
+          "Ryan Lochte"
+        ],
+        "explanation": "With 28 medals in total, Phelps would outrank most countries in the all-time Olympic table."
+      },
+      "es": {
+        "text": "¿Qué nadador estadounidense posee el récord absoluto de medallas de oro olímpicas, con 23 títulos?",
+        "options": [
+          "Michael Phelps",
+          "Mark Spitz",
+          "Ian Thorpe",
+          "Ryan Lochte"
+        ],
+        "explanation": "Con 28 medallas en total, Phelps superaría a la mayoría de los países en el medallero histórico de los JJ. OO."
+      }
+    }
+  },
+  {
+    "sourceRef": "a213d8a700815f50",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel opéra inachevé de Puccini contient le célèbre air « Nessun dorma » ?",
+        "options": [
+          "La Bohème",
+          "Madame Butterfly",
+          "Tosca",
+          "Turandot"
+        ],
+        "explanation": "À la création posthume en 1926, le chef Toscanini arrêta l'orchestre à l'endroit exact où Puccini avait posé la plume."
+      },
+      "en": {
+        "text": "Which unfinished Puccini opera contains the famous aria 'Nessun dorma'?",
+        "options": [
+          "La Bohème",
+          "Madama Butterfly",
+          "Tosca",
+          "Turandot"
+        ],
+        "explanation": "At the posthumous premiere in 1926, conductor Toscanini stopped the orchestra at the exact point where Puccini had laid down his pen."
+      },
+      "es": {
+        "text": "¿Qué ópera inacabada de Puccini contiene la famosa aria «Nessun dorma»?",
+        "options": [
+          "La Bohème",
+          "Madama Butterfly",
+          "Tosca",
+          "Turandot"
+        ],
+        "explanation": "En el estreno póstumo de 1926, el director Toscanini detuvo la orquesta en el punto exacto donde Puccini dejó la pluma."
+      }
+    }
+  },
+  {
+    "sourceRef": "891cf430a906df81",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel poète français, auteur des « Fleurs du mal », fut condamné pour outrage aux bonnes mœurs en 1857 ?",
+        "options": [
+          "Arthur Rimbaud",
+          "Charles Baudelaire",
+          "Paul Verlaine",
+          "Stéphane Mallarmé"
+        ],
+        "explanation": "Six poèmes du recueil restèrent interdits en France… jusqu'en 1949."
+      },
+      "en": {
+        "text": "Which French poet, author of 'The Flowers of Evil', was convicted of offending public morals in 1857?",
+        "options": [
+          "Arthur Rimbaud",
+          "Charles Baudelaire",
+          "Paul Verlaine",
+          "Stéphane Mallarmé"
+        ],
+        "explanation": "Six poems from the collection remained banned in France… until 1949."
+      },
+      "es": {
+        "text": "¿Qué poeta francés, autor de «Las flores del mal», fue condenado por ultraje a la moral pública en 1857?",
+        "options": [
+          "Arthur Rimbaud",
+          "Charles Baudelaire",
+          "Paul Verlaine",
+          "Stéphane Mallarmé"
+        ],
+        "explanation": "Seis poemas del libro permanecieron prohibidos en Francia… hasta 1949."
+      }
+    }
+  },
+  {
+    "sourceRef": "4a63b4124189960f",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre américain projetait la peinture sur ses toiles posées au sol, technique dite du « dripping » ?",
+        "options": [
+          "Jackson Pollock",
+          "Andy Warhol",
+          "Mark Rothko",
+          "Roy Lichtenstein"
+        ],
+        "explanation": "Des physiciens ont montré que les entrelacs de Pollock présentent des motifs fractals mesurables."
+      },
+      "en": {
+        "text": "Which American painter flung paint onto canvases laid on the floor, in the technique known as 'dripping'?",
+        "options": [
+          "Jackson Pollock",
+          "Andy Warhol",
+          "Mark Rothko",
+          "Roy Lichtenstein"
+        ],
+        "explanation": "Physicists have shown that Pollock's tangles display measurable fractal patterns."
+      },
+      "es": {
+        "text": "¿Qué pintor estadounidense lanzaba la pintura sobre lienzos colocados en el suelo, técnica llamada «dripping»?",
+        "options": [
+          "Jackson Pollock",
+          "Andy Warhol",
+          "Mark Rothko",
+          "Roy Lichtenstein"
+        ],
+        "explanation": "Físicos han demostrado que las marañas de Pollock presentan patrones fractales medibles."
+      }
+    }
+  },
+  {
+    "sourceRef": "93d6e28a5dfee1e8",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "De quelle famille de fleurs provient la gousse de vanille ?",
+        "options": [
+          "Les lys",
+          "Les hibiscus",
+          "Les orchidées",
+          "Les pivoines"
+        ],
+        "explanation": "Hors du Mexique, sans son abeille pollinisatrice, chaque fleur de vanille doit être fécondée à la main."
+      },
+      "en": {
+        "text": "From which family of flowers does the vanilla pod come?",
+        "options": [
+          "Lilies",
+          "Hibiscus",
+          "Orchids",
+          "Peonies"
+        ],
+        "explanation": "Outside Mexico, without its pollinating bee, every vanilla flower has to be fertilised by hand."
+      },
+      "es": {
+        "text": "¿De qué familia de flores proviene la vaina de vainilla?",
+        "options": [
+          "Los lirios",
+          "Los hibiscos",
+          "Las orquídeas",
+          "Las peonías"
+        ],
+        "explanation": "Fuera de México, sin su abeja polinizadora, cada flor de vainilla debe fecundarse a mano."
+      }
+    }
+  }
+]
