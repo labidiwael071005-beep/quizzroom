@@ -1,0 +1,2030 @@
+[
+  {
+    "sourceRef": "ae309a25bba918d6",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain français a créé d'Artagnan et les Trois Mousquetaires ?",
+        "options": [
+          "Alexandre Dumas",
+          "Honoré de Balzac",
+          "Émile Zola",
+          "Stendhal"
+        ],
+        "explanation": "Dumas employait des collaborateurs pour ses romans-feuilletons ; on estime sa production à près de 300 volumes."
+      },
+      "en": {
+        "text": "Which French writer created d'Artagnan and the Three Musketeers?",
+        "options": [
+          "Alexandre Dumas",
+          "Honoré de Balzac",
+          "Émile Zola",
+          "Stendhal"
+        ],
+        "explanation": "Dumas used collaborators for his serialised novels; his output is estimated at nearly 300 volumes."
+      },
+      "es": {
+        "text": "¿Qué escritor francés creó a d'Artagnan y los Tres Mosqueteros?",
+        "options": [
+          "Alexandre Dumas",
+          "Honoré de Balzac",
+          "Émile Zola",
+          "Stendhal"
+        ],
+        "explanation": "Dumas empleaba colaboradores para sus novelas por entregas; se estima su producción en casi 300 volúmenes."
+      }
+    }
+  },
+  {
+    "sourceRef": "77ed99f634be89dc",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment s'appelle l'ours insouciant, ami de Mowgli, dans « Le Livre de la jungle » ?",
+        "options": [
+          "Baloo",
+          "Bagheera",
+          "Shere Khan",
+          "Kaa"
+        ],
+        "explanation": "Dans le roman de Kipling, Baloo n'est pas un farceur : c'est le sévère professeur de la Loi de la jungle."
+      },
+      "en": {
+        "text": "What is the name of the carefree bear, Mowgli's friend, in 'The Jungle Book'?",
+        "options": [
+          "Baloo",
+          "Bagheera",
+          "Shere Khan",
+          "Kaa"
+        ],
+        "explanation": "In Kipling's book, Baloo is no joker: he is the strict teacher of the Law of the Jungle."
+      },
+      "es": {
+        "text": "¿Cómo se llama el oso despreocupado, amigo de Mowgli, en «El libro de la selva»?",
+        "options": [
+          "Baloo",
+          "Bagheera",
+          "Shere Khan",
+          "Kaa"
+        ],
+        "explanation": "En el libro de Kipling, Baloo no es ningún bromista: es el severo maestro de la Ley de la Selva."
+      }
+    }
+  },
+  {
+    "sourceRef": "ae173c8cc155e5b0",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle héroïne de Lewis Carroll tombe dans un terrier de lapin vers un pays des merveilles ?",
+        "options": [
+          "Dorothée",
+          "Alice",
+          "Wendy",
+          "Gretel"
+        ],
+        "explanation": "Lewis Carroll inventa l'histoire lors d'une promenade en barque, pour distraire la vraie Alice, âgée de 10 ans."
+      },
+      "en": {
+        "text": "Which Lewis Carroll heroine falls down a rabbit hole into a wonderland?",
+        "options": [
+          "Dorothy",
+          "Alice",
+          "Wendy",
+          "Gretel"
+        ],
+        "explanation": "Lewis Carroll made up the story during a boat trip, to entertain the real Alice, aged 10."
+      },
+      "es": {
+        "text": "¿Qué heroína de Lewis Carroll cae por una madriguera de conejo hacia un país de las maravillas?",
+        "options": [
+          "Dorothy",
+          "Alicia",
+          "Wendy",
+          "Gretel"
+        ],
+        "explanation": "Lewis Carroll inventó la historia durante un paseo en barca, para entretener a la verdadera Alicia, de 10 años."
+      }
+    }
+  },
+  {
+    "sourceRef": "4fc21be0ba86aa8f",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel petit guerrier gaulois, flanqué de son ami Obélix, résiste encore et toujours aux Romains en bande dessinée ?",
+        "options": [
+          "Vercingétorix",
+          "Idéfix",
+          "Astérix",
+          "Panoramix"
+        ],
+        "explanation": "Créé en 1959 par Goscinny et Uderzo, Astérix est traduit dans plus de 100 langues et dialectes."
+      },
+      "en": {
+        "text": "Which little Gaulish warrior, with his friend Obelix at his side, still holds out against the Romans in a famous comic series?",
+        "options": [
+          "Vercingetorix",
+          "Dogmatix",
+          "Asterix",
+          "Getafix"
+        ],
+        "explanation": "Created in 1959 by Goscinny and Uderzo, Asterix has been translated into more than 100 languages and dialects."
+      },
+      "es": {
+        "text": "¿Qué pequeño guerrero galo, junto a su amigo Obélix, resiste todavía a los romanos en un famoso cómic?",
+        "options": [
+          "Vercingétorix",
+          "Idefix",
+          "Astérix",
+          "Panorámix"
+        ],
+        "explanation": "Creado en 1959 por Goscinny y Uderzo, Astérix está traducido a más de 100 lenguas y dialectos."
+      }
+    }
+  },
+  {
+    "sourceRef": "0dcc469ce080abfd",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain russe a raconté le tourment du meurtrier Raskolnikov dans « Crime et Châtiment » ?",
+        "options": [
+          "Léon Tolstoï",
+          "Fiodor Dostoïevski",
+          "Anton Tchekhov",
+          "Nicolas Gogol"
+        ],
+        "explanation": "Condamné à mort puis gracié au dernier moment, Dostoïevski connut le bagne de Sibérie avant d'écrire ses chefs-d'œuvre."
+      },
+      "en": {
+        "text": "Which Russian writer told of the murderer Raskolnikov's torment in 'Crime and Punishment'?",
+        "options": [
+          "Leo Tolstoy",
+          "Fyodor Dostoevsky",
+          "Anton Chekhov",
+          "Nikolai Gogol"
+        ],
+        "explanation": "Sentenced to death then pardoned at the last moment, Dostoevsky endured a Siberian prison camp before writing his masterpieces."
+      },
+      "es": {
+        "text": "¿Qué escritor ruso narró el tormento del asesino Raskólnikov en «Crimen y castigo»?",
+        "options": [
+          "León Tolstói",
+          "Fiódor Dostoyevski",
+          "Antón Chéjov",
+          "Nikolái Gógol"
+        ],
+        "explanation": "Condenado a muerte y indultado en el último momento, Dostoyevski conoció el presidio de Siberia antes de escribir sus obras maestras."
+      }
+    }
+  },
+  {
+    "sourceRef": "5459785ddcb720c1",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle romancière britannique a créé le détective belge Hercule Poirot ?",
+        "options": [
+          "Virginia Woolf",
+          "Daphné du Maurier",
+          "Agatha Christie",
+          "Les sœurs Brontë"
+        ],
+        "explanation": "Agatha Christie reste l'auteure la plus vendue de tous les temps, derrière la Bible et Shakespeare."
+      },
+      "en": {
+        "text": "Which British novelist created the Belgian detective Hercule Poirot?",
+        "options": [
+          "Virginia Woolf",
+          "Daphne du Maurier",
+          "Agatha Christie",
+          "The Brontë sisters"
+        ],
+        "explanation": "Agatha Christie remains the best-selling author of all time, behind only the Bible and Shakespeare."
+      },
+      "es": {
+        "text": "¿Qué novelista británica creó al detective belga Hércules Poirot?",
+        "options": [
+          "Virginia Woolf",
+          "Daphne du Maurier",
+          "Agatha Christie",
+          "Las hermanas Brontë"
+        ],
+        "explanation": "Agatha Christie sigue siendo la autora más vendida de todos los tiempos, solo por detrás de la Biblia y Shakespeare."
+      }
+    }
+  },
+  {
+    "sourceRef": "2fa3ff615a1aa7ae",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Dans « Les Misérables », quel inspecteur poursuit inlassablement Jean Valjean ?",
+        "options": [
+          "Thénardier",
+          "Marius",
+          "Gavroche",
+          "Javert"
+        ],
+        "explanation": "Hugo s'inspira du vrai policier Vidocq, ancien bagnard devenu chef de la Sûreté… pour Valjean ET Javert."
+      },
+      "en": {
+        "text": "In 'Les Misérables', which inspector relentlessly pursues Jean Valjean?",
+        "options": [
+          "Thénardier",
+          "Marius",
+          "Gavroche",
+          "Javert"
+        ],
+        "explanation": "Hugo drew on the real policeman Vidocq, a former convict who became head of the Sûreté… for both Valjean AND Javert."
+      },
+      "es": {
+        "text": "En «Los miserables», ¿qué inspector persigue sin descanso a Jean Valjean?",
+        "options": [
+          "Thénardier",
+          "Marius",
+          "Gavroche",
+          "Javert"
+        ],
+        "explanation": "Hugo se inspiró en el policía real Vidocq, expresidiario convertido en jefe de la Sûreté… para Valjean Y Javert."
+      }
+    }
+  },
+  {
+    "sourceRef": "ea09cf6066cd55b4",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel poète de la Grèce antique est l'auteur présumé de « L'Iliade » et de « L'Odyssée » ?",
+        "options": [
+          "Sophocle",
+          "Hésiode",
+          "Eschyle",
+          "Homère"
+        ],
+        "explanation": "La tradition le décrit aveugle, et sept cités antiques se disputaient l'honneur de l'avoir vu naître."
+      },
+      "en": {
+        "text": "Which poet of ancient Greece is the presumed author of the 'Iliad' and the 'Odyssey'?",
+        "options": [
+          "Sophocles",
+          "Hesiod",
+          "Aeschylus",
+          "Homer"
+        ],
+        "explanation": "Tradition describes him as blind, and seven ancient cities claimed the honour of being his birthplace."
+      },
+      "es": {
+        "text": "¿Qué poeta de la antigua Grecia es el presunto autor de la «Ilíada» y la «Odisea»?",
+        "options": [
+          "Sófocles",
+          "Hesíodo",
+          "Esquilo",
+          "Homero"
+        ],
+        "explanation": "La tradición lo describe ciego, y siete ciudades antiguas se disputaban el honor de haberlo visto nacer."
+      }
+    }
+  },
+  {
+    "sourceRef": "9b07e5341a11b065",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain pragois a imaginé Gregor Samsa transformé en insecte dans « La Métamorphose » ?",
+        "options": [
+          "Franz Kafka",
+          "Stefan Zweig",
+          "Milan Kundera",
+          "Rainer Maria Rilke"
+        ],
+        "explanation": "Kafka avait demandé à son ami Max Brod de brûler tous ses manuscrits ; Brod désobéit et les publia."
+      },
+      "en": {
+        "text": "Which Prague writer imagined Gregor Samsa transformed into an insect in 'The Metamorphosis'?",
+        "options": [
+          "Franz Kafka",
+          "Stefan Zweig",
+          "Milan Kundera",
+          "Rainer Maria Rilke"
+        ],
+        "explanation": "Kafka had asked his friend Max Brod to burn all his manuscripts; Brod disobeyed and published them."
+      },
+      "es": {
+        "text": "¿Qué escritor de Praga imaginó a Gregor Samsa transformado en insecto en «La metamorfosis»?",
+        "options": [
+          "Franz Kafka",
+          "Stefan Zweig",
+          "Milan Kundera",
+          "Rainer Maria Rilke"
+        ],
+        "explanation": "Kafka había pedido a su amigo Max Brod que quemara todos sus manuscritos; Brod desobedeció y los publicó."
+      }
+    }
+  },
+  {
+    "sourceRef": "09eb13e3d6780b0e",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain français, auteur de « L'Étranger », reçut le prix Nobel de littérature en 1957 ?",
+        "options": [
+          "Jean-Paul Sartre",
+          "Albert Camus",
+          "André Gide",
+          "François Mauriac"
+        ],
+        "explanation": "Camus apprit la nouvelle au restaurant et déclara que ce prix aurait dû revenir à André Malraux."
+      },
+      "en": {
+        "text": "Which French writer, author of 'The Stranger', received the Nobel Prize in Literature in 1957?",
+        "options": [
+          "Jean-Paul Sartre",
+          "Albert Camus",
+          "André Gide",
+          "François Mauriac"
+        ],
+        "explanation": "Camus heard the news in a restaurant and declared the prize should have gone to André Malraux."
+      },
+      "es": {
+        "text": "¿Qué escritor francés, autor de «El extranjero», recibió el Premio Nobel de Literatura en 1957?",
+        "options": [
+          "Jean-Paul Sartre",
+          "Albert Camus",
+          "André Gide",
+          "François Mauriac"
+        ],
+        "explanation": "Camus recibió la noticia en un restaurante y declaró que el premio debería haber sido para André Malraux."
+      }
+    }
+  },
+  {
+    "sourceRef": "8ea673b8a8c7f578",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un tableau représentant le visage d'une personne ?",
+        "options": [
+          "Un paysage",
+          "Un portrait",
+          "Une fresque",
+          "Une esquisse"
+        ],
+        "explanation": "Avant la photographie, le portrait était le seul moyen de garder le visage d'un proche : un luxe réservé aux riches."
+      },
+      "en": {
+        "text": "What do you call a painting depicting a person's face?",
+        "options": [
+          "A landscape",
+          "A portrait",
+          "A fresco",
+          "A sketch"
+        ],
+        "explanation": "Before photography, a portrait was the only way to keep a loved one's face: a luxury reserved for the rich."
+      },
+      "es": {
+        "text": "¿Cómo se llama un cuadro que representa el rostro de una persona?",
+        "options": [
+          "Un paisaje",
+          "Un retrato",
+          "Un fresco",
+          "Un boceto"
+        ],
+        "explanation": "Antes de la fotografía, el retrato era la única forma de conservar el rostro de un ser querido: un lujo de ricos."
+      }
+    }
+  },
+  {
+    "sourceRef": "ecf698ae25be023e",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un tableau représentant des objets inanimés, comme des fruits ou des fleurs ?",
+        "options": [
+          "Un autoportrait",
+          "Une marine",
+          "Une nature morte",
+          "Une miniature"
+        ],
+        "explanation": "En anglais, on dit joliment « still life » — « vie immobile » — plutôt que « nature morte »."
+      },
+      "en": {
+        "text": "What do you call a painting of inanimate objects, such as fruit or flowers?",
+        "options": [
+          "A self-portrait",
+          "A seascape",
+          "A still life",
+          "A miniature"
+        ],
+        "explanation": "English nicely says 'still life', while French calls it 'nature morte' — 'dead nature'."
+      },
+      "es": {
+        "text": "¿Cómo se llama un cuadro que representa objetos inanimados, como frutas o flores?",
+        "options": [
+          "Un autorretrato",
+          "Una marina",
+          "Una naturaleza muerta",
+          "Una miniatura"
+        ],
+        "explanation": "El inglés lo llama amablemente «still life» —«vida quieta»—, mientras el francés dice «nature morte»."
+      }
+    }
+  },
+  {
+    "sourceRef": "3a05e9245c54afd9",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel artiste du pop art a peint en série des boîtes de soupe Campbell ?",
+        "options": [
+          "Andy Warhol",
+          "Keith Haring",
+          "Jean-Michel Basquiat",
+          "David Hockney"
+        ],
+        "explanation": "Warhol mangeait, dit-il, la même soupe Campbell tous les midis depuis vingt ans."
+      },
+      "en": {
+        "text": "Which pop art artist painted Campbell's soup cans in series?",
+        "options": [
+          "Andy Warhol",
+          "Keith Haring",
+          "Jean-Michel Basquiat",
+          "David Hockney"
+        ],
+        "explanation": "Warhol said he had eaten the same Campbell's soup for lunch every day for twenty years."
+      },
+      "es": {
+        "text": "¿Qué artista del pop art pintó en serie latas de sopa Campbell?",
+        "options": [
+          "Andy Warhol",
+          "Keith Haring",
+          "Jean-Michel Basquiat",
+          "David Hockney"
+        ],
+        "explanation": "Warhol decía que llevaba veinte años comiendo la misma sopa Campbell cada mediodía."
+      }
+    }
+  },
+  {
+    "sourceRef": "647bd7a26c28780e",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel muraliste mexicain, époux de Frida Kahlo, couvrit les édifices publics de fresques monumentales ?",
+        "options": [
+          "José Clemente Orozco",
+          "David Alfaro Siqueiros",
+          "Rufino Tamayo",
+          "Diego Rivera"
+        ],
+        "explanation": "Une fresque de Rivera au Rockefeller Center fut détruite en 1934 : il y avait glissé un portrait de Lénine."
+      },
+      "en": {
+        "text": "Which Mexican muralist, husband of Frida Kahlo, covered public buildings with monumental frescoes?",
+        "options": [
+          "José Clemente Orozco",
+          "David Alfaro Siqueiros",
+          "Rufino Tamayo",
+          "Diego Rivera"
+        ],
+        "explanation": "A Rivera mural at Rockefeller Center was destroyed in 1934: he had slipped in a portrait of Lenin."
+      },
+      "es": {
+        "text": "¿Qué muralista mexicano, esposo de Frida Kahlo, cubrió los edificios públicos con frescos monumentales?",
+        "options": [
+          "José Clemente Orozco",
+          "David Alfaro Siqueiros",
+          "Rufino Tamayo",
+          "Diego Rivera"
+        ],
+        "explanation": "Un mural de Rivera en el Rockefeller Center fue destruido en 1934: había colado un retrato de Lenin."
+      }
+    }
+  },
+  {
+    "sourceRef": "11678bb9a8aba2c3",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel mouvement pictural mené par Matisse, aux couleurs pures et violentes, fit scandale au Salon d'automne de 1905 ?",
+        "options": [
+          "Le cubisme",
+          "Le pointillisme",
+          "Le fauvisme",
+          "Le symbolisme"
+        ],
+        "explanation": "Le nom vient d'un critique horrifié qui compara la salle à une « cage aux fauves »."
+      },
+      "en": {
+        "text": "Which painting movement led by Matisse, with its pure, violent colours, caused a scandal at the 1905 Salon d'Automne?",
+        "options": [
+          "Cubism",
+          "Pointillism",
+          "Fauvism",
+          "Symbolism"
+        ],
+        "explanation": "The name comes from a horrified critic who compared the room to a 'cage of wild beasts' (fauves)."
+      },
+      "es": {
+        "text": "¿Qué movimiento pictórico liderado por Matisse, de colores puros y violentos, escandalizó en el Salón de Otoño de 1905?",
+        "options": [
+          "El cubismo",
+          "El puntillismo",
+          "El fauvismo",
+          "El simbolismo"
+        ],
+        "explanation": "El nombre viene de un crítico horrorizado que comparó la sala con una «jaula de fieras» (fauves)."
+      }
+    }
+  },
+  {
+    "sourceRef": "28a2405155302062",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel sculpteur d'origine roumaine a épuré la forme jusqu'à l'essence avec « L'Oiseau dans l'espace » ?",
+        "options": [
+          "Alberto Giacometti",
+          "Henry Moore",
+          "Jean Arp",
+          "Constantin Brancusi"
+        ],
+        "explanation": "En 1926, la douane américaine refusa d'y voir une œuvre d'art et voulut taxer la sculpture… comme du métal brut."
+      },
+      "en": {
+        "text": "Which Romanian-born sculptor refined form to its essence with 'Bird in Space'?",
+        "options": [
+          "Alberto Giacometti",
+          "Henry Moore",
+          "Jean Arp",
+          "Constantin Brancusi"
+        ],
+        "explanation": "In 1926, US customs refused to see it as a work of art and tried to tax the sculpture… as raw metal."
+      },
+      "es": {
+        "text": "¿Qué escultor de origen rumano depuró la forma hasta su esencia con «Pájaro en el espacio»?",
+        "options": [
+          "Alberto Giacometti",
+          "Henry Moore",
+          "Jean Arp",
+          "Constantin Brancusi"
+        ],
+        "explanation": "En 1926, la aduana estadounidense se negó a considerarla una obra de arte y quiso gravar la escultura… como metal en bruto."
+      }
+    }
+  },
+  {
+    "sourceRef": "dbbef829e691e279",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel maître italien du clair-obscur, au tempérament violent, peignit « La Vocation de saint Matthieu » ?",
+        "options": [
+          "Titien",
+          "Raphaël",
+          "Le Tintoret",
+          "Le Caravage"
+        ],
+        "explanation": "Condamné à mort pour avoir tué un homme en duel, le Caravage passa ses dernières années en fuite."
+      },
+      "en": {
+        "text": "Which Italian master of chiaroscuro, with a violent temper, painted 'The Calling of Saint Matthew'?",
+        "options": [
+          "Titian",
+          "Raphael",
+          "Tintoretto",
+          "Caravaggio"
+        ],
+        "explanation": "Sentenced to death for killing a man in a duel, Caravaggio spent his final years on the run."
+      },
+      "es": {
+        "text": "¿Qué maestro italiano del claroscuro, de temperamento violento, pintó «La vocación de san Mateo»?",
+        "options": [
+          "Tiziano",
+          "Rafael",
+          "Tintoretto",
+          "Caravaggio"
+        ],
+        "explanation": "Condenado a muerte por matar a un hombre en duelo, Caravaggio pasó sus últimos años huyendo."
+      }
+    }
+  },
+  {
+    "sourceRef": "c9e7208a751ec12e",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel produit obtient-on en battant longuement de la crème fraîche ?",
+        "options": [
+          "Le beurre",
+          "Le yaourt",
+          "Le fromage blanc",
+          "La crème glacée"
+        ],
+        "explanation": "Battre la crème fait éclater les gouttelettes de gras, qui s'agglomèrent en beurre : une simple mécanique."
+      },
+      "en": {
+        "text": "What product do you get by churning fresh cream for a long time?",
+        "options": [
+          "Butter",
+          "Yoghurt",
+          "Fromage blanc",
+          "Ice cream"
+        ],
+        "explanation": "Churning bursts the fat droplets, which clump together into butter: simple mechanics."
+      },
+      "es": {
+        "text": "¿Qué producto se obtiene batiendo largamente la nata fresca?",
+        "options": [
+          "La mantequilla",
+          "El yogur",
+          "El queso fresco",
+          "El helado"
+        ],
+        "explanation": "Batir la nata rompe las gotitas de grasa, que se aglomeran en mantequilla: pura mecánica."
+      }
+    }
+  },
+  {
+    "sourceRef": "81aac54c84d54066",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle céréale, base de l'alimentation en Asie, pousse dans des champs inondés ?",
+        "options": [
+          "Le blé",
+          "Le riz",
+          "L'orge",
+          "Le seigle"
+        ],
+        "explanation": "Les rizières en terrasses, comme aux Philippines, sont cultivées depuis plus de 2 000 ans."
+      },
+      "en": {
+        "text": "Which cereal, a staple food in Asia, grows in flooded fields?",
+        "options": [
+          "Wheat",
+          "Rice",
+          "Barley",
+          "Rye"
+        ],
+        "explanation": "Terraced rice paddies, like those in the Philippines, have been farmed for more than 2,000 years."
+      },
+      "es": {
+        "text": "¿Qué cereal, base de la alimentación en Asia, crece en campos inundados?",
+        "options": [
+          "El trigo",
+          "El arroz",
+          "La cebada",
+          "El centeno"
+        ],
+        "explanation": "Los arrozales en terrazas, como los de Filipinas, se cultivan desde hace más de 2.000 años."
+      }
+    }
+  },
+  {
+    "sourceRef": "51e8946101df515f",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Avec le lait de quel animal fabrique-t-on le roquefort ?",
+        "options": [
+          "La vache",
+          "La brebis",
+          "La chèvre",
+          "La bufflonne"
+        ],
+        "explanation": "Le roquefort s'affine dans les caves naturelles d'un village de l'Aveyron, parcourues de courants d'air frais."
+      },
+      "en": {
+        "text": "From the milk of which animal is Roquefort made?",
+        "options": [
+          "The cow",
+          "The ewe",
+          "The goat",
+          "The buffalo"
+        ],
+        "explanation": "Roquefort matures in the natural caves of an Aveyron village, crossed by cool air currents."
+      },
+      "es": {
+        "text": "¿Con la leche de qué animal se elabora el roquefort?",
+        "options": [
+          "La vaca",
+          "La oveja",
+          "La cabra",
+          "La búfala"
+        ],
+        "explanation": "El roquefort madura en las cuevas naturales de un pueblo del Aveyron, recorridas por corrientes de aire fresco."
+      }
+    }
+  },
+  {
+    "sourceRef": "db9280298c7f4afa",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle pâtisserie française allongée, en pâte à choux, est fourrée de crème et glacée au chocolat ou au café ?",
+        "options": [
+          "L'éclair",
+          "Le mille-feuille",
+          "Le paris-brest",
+          "La religieuse"
+        ],
+        "explanation": "Son nom viendrait de la vitesse à laquelle on le dévore : « en un éclair »."
+      },
+      "en": {
+        "text": "Which long French pastry, made of choux dough, is filled with cream and glazed with chocolate or coffee?",
+        "options": [
+          "The éclair",
+          "The mille-feuille",
+          "The paris-brest",
+          "The religieuse"
+        ],
+        "explanation": "Its name is said to come from the speed at which it is devoured: 'in a flash' ('éclair' means lightning)."
+      },
+      "es": {
+        "text": "¿Qué pastel francés alargado, de masa choux, va relleno de crema y glaseado de chocolate o café?",
+        "options": [
+          "El éclair",
+          "El milhojas",
+          "El paris-brest",
+          "La religieuse"
+        ],
+        "explanation": "Su nombre vendría de la velocidad a la que se devora: «en un relámpago» («éclair» significa rayo)."
+      }
+    }
+  },
+  {
+    "sourceRef": "a148f6202c69cac7",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel fromage suisse à pâte dure est célèbre pour ses gros trous ?",
+        "options": [
+          "Le gruyère",
+          "Le comté",
+          "L'emmental",
+          "Le beaufort"
+        ],
+        "explanation": "Contrairement à la légende, le vrai gruyère suisse n'a pas de trous : c'est l'emmental qui en a."
+      },
+      "en": {
+        "text": "Which hard Swiss cheese is famous for its large holes?",
+        "options": [
+          "Gruyère",
+          "Comté",
+          "Emmental",
+          "Beaufort"
+        ],
+        "explanation": "Contrary to legend, real Swiss Gruyère has no holes: it is Emmental that has them."
+      },
+      "es": {
+        "text": "¿Qué queso suizo de pasta dura es famoso por sus grandes agujeros?",
+        "options": [
+          "El gruyer",
+          "El comté",
+          "El emmental",
+          "El beaufort"
+        ],
+        "explanation": "Al contrario de la leyenda, el auténtico gruyer suizo no tiene agujeros: es el emmental el que los tiene."
+      }
+    }
+  },
+  {
+    "sourceRef": "80d9432c173fdddd",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle sauce italienne à base de basilic, pignons, ail et parmesan est originaire de Gênes ?",
+        "options": [
+          "La carbonara",
+          "L'arrabbiata",
+          "La puttanesca",
+          "Le pesto"
+        ],
+        "explanation": "« Pesto » vient de « pestare », piler : la recette traditionnelle se prépare au mortier de marbre."
+      },
+      "en": {
+        "text": "Which Italian sauce made of basil, pine nuts, garlic and parmesan comes from Genoa?",
+        "options": [
+          "Carbonara",
+          "Arrabbiata",
+          "Puttanesca",
+          "Pesto"
+        ],
+        "explanation": "'Pesto' comes from 'pestare', to pound: the traditional recipe is made in a marble mortar."
+      },
+      "es": {
+        "text": "¿Qué salsa italiana a base de albahaca, piñones, ajo y parmesano es originaria de Génova?",
+        "options": [
+          "La carbonara",
+          "La arrabbiata",
+          "La puttanesca",
+          "El pesto"
+        ],
+        "explanation": "«Pesto» viene de «pestare», machacar: la receta tradicional se prepara en mortero de mármol."
+      }
+    }
+  },
+  {
+    "sourceRef": "af90b522a387506c",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel mot japonais désigne la « cinquième saveur », celle du bouillon et du parmesan ?",
+        "options": [
+          "L'umami",
+          "Le wasabi",
+          "Le dashi",
+          "Le mirin"
+        ],
+        "explanation": "Identifié en 1908 par un chimiste japonais, l'umami n'a été officiellement reconnu comme saveur qu'à la fin du XXe siècle."
+      },
+      "en": {
+        "text": "Which Japanese word names the 'fifth taste', found in broth and parmesan?",
+        "options": [
+          "Umami",
+          "Wasabi",
+          "Dashi",
+          "Mirin"
+        ],
+        "explanation": "Identified in 1908 by a Japanese chemist, umami was only officially recognised as a taste at the end of the 20th century."
+      },
+      "es": {
+        "text": "¿Qué palabra japonesa designa el «quinto sabor», el del caldo y el parmesano?",
+        "options": [
+          "El umami",
+          "El wasabi",
+          "El dashi",
+          "El mirin"
+        ],
+        "explanation": "Identificado en 1908 por un químico japonés, el umami no fue reconocido oficialmente como sabor hasta finales del siglo XX."
+      }
+    }
+  },
+  {
+    "sourceRef": "592e6e22e56bdd01",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "De quel agrume la clémentine est-elle principalement issue, par croisement avec l'orange ?",
+        "options": [
+          "Le pamplemousse",
+          "Le citron",
+          "La mandarine",
+          "Le cédrat"
+        ],
+        "explanation": "Elle doit son nom au frère Clément, qui repéra l'hybride au début du XXe siècle dans un verger d'Algérie."
+      },
+      "en": {
+        "text": "From which citrus fruit does the clementine mainly derive, crossed with the orange?",
+        "options": [
+          "The grapefruit",
+          "The lemon",
+          "The mandarin",
+          "The citron"
+        ],
+        "explanation": "It owes its name to Brother Clément, who spotted the hybrid in an Algerian orchard in the early 20th century."
+      },
+      "es": {
+        "text": "¿De qué cítrico procede principalmente la clementina, cruzado con la naranja?",
+        "options": [
+          "El pomelo",
+          "El limón",
+          "La mandarina",
+          "La cidra"
+        ],
+        "explanation": "Debe su nombre al hermano Clément, que descubrió el híbrido a principios del siglo XX en un huerto de Argelia."
+      }
+    }
+  },
+  {
+    "sourceRef": "4b15cf09466a1020",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelait-on le souverain tout-puissant de l'Égypte antique ?",
+        "options": [
+          "Le calife",
+          "L'empereur",
+          "Le pharaon",
+          "Le sultan"
+        ],
+        "explanation": "Le mot « pharaon » signifie littéralement « grande maison » : il désignait d'abord le palais, pas le roi."
+      },
+      "en": {
+        "text": "What was the all-powerful ruler of ancient Egypt called?",
+        "options": [
+          "The caliph",
+          "The emperor",
+          "The pharaoh",
+          "The sultan"
+        ],
+        "explanation": "The word 'pharaoh' literally means 'great house': it originally referred to the palace, not the king."
+      },
+      "es": {
+        "text": "¿Cómo se llamaba al soberano todopoderoso del antiguo Egipto?",
+        "options": [
+          "El califa",
+          "El emperador",
+          "El faraón",
+          "El sultán"
+        ],
+        "explanation": "La palabra «faraón» significa literalmente «gran casa»: al principio designaba el palacio, no al rey."
+      }
+    }
+  },
+  {
+    "sourceRef": "1528c04b1ad5a03b",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle épidémie, surnommée la « mort noire », emporta près d'un tiers des Européens au XIVe siècle ?",
+        "options": [
+          "La peste",
+          "Le choléra",
+          "La variole",
+          "La grippe"
+        ],
+        "explanation": "Les médecins portaient un masque au long bec rempli d'herbes aromatiques, croyant filtrer le « mauvais air »."
+      },
+      "en": {
+        "text": "Which epidemic, nicknamed the 'Black Death', carried off nearly a third of Europeans in the 14th century?",
+        "options": [
+          "The plague",
+          "Cholera",
+          "Smallpox",
+          "Influenza"
+        ],
+        "explanation": "Doctors wore a long-beaked mask filled with aromatic herbs, believing it filtered the 'bad air'."
+      },
+      "es": {
+        "text": "¿Qué epidemia, apodada la «muerte negra», se llevó a casi un tercio de los europeos en el siglo XIV?",
+        "options": [
+          "La peste",
+          "El cólera",
+          "La viruela",
+          "La gripe"
+        ],
+        "explanation": "Los médicos llevaban una máscara de largo pico llena de hierbas aromáticas, creyendo filtrar el «mal aire»."
+      }
+    }
+  },
+  {
+    "sourceRef": "851bbe564b8c9c80",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel empire précolombien avait pour capitale Tenochtitlán, bâtie sur un lac ?",
+        "options": [
+          "L'Empire inca",
+          "L'Empire aztèque",
+          "La civilisation maya",
+          "Les Olmèques"
+        ],
+        "explanation": "À l'arrivée des Espagnols, Tenochtitlán comptait plus d'habitants que la plupart des villes d'Europe."
+      },
+      "en": {
+        "text": "Which pre-Columbian empire had Tenochtitlan, built on a lake, as its capital?",
+        "options": [
+          "The Inca Empire",
+          "The Aztec Empire",
+          "The Maya civilisation",
+          "The Olmecs"
+        ],
+        "explanation": "When the Spanish arrived, Tenochtitlan had more inhabitants than most European cities."
+      },
+      "es": {
+        "text": "¿Qué imperio precolombino tuvo como capital Tenochtitlán, construida sobre un lago?",
+        "options": [
+          "El Imperio inca",
+          "El Imperio azteca",
+          "La civilización maya",
+          "Los olmecas"
+        ],
+        "explanation": "A la llegada de los españoles, Tenochtitlán tenía más habitantes que la mayoría de las ciudades de Europa."
+      }
+    }
+  },
+  {
+    "sourceRef": "4a8c413637b84e9b",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "En quelle année les femmes ont-elles obtenu le droit de vote en France ?",
+        "options": [
+          "1918",
+          "1936",
+          "1958",
+          "1944"
+        ],
+        "explanation": "Les Françaises votèrent pour la première fois en 1945, un an après l'ordonnance signée à Alger."
+      },
+      "en": {
+        "text": "In which year did women gain the right to vote in France?",
+        "options": [
+          "1918",
+          "1936",
+          "1958",
+          "1944"
+        ],
+        "explanation": "French women voted for the first time in 1945, a year after the ordinance signed in Algiers."
+      },
+      "es": {
+        "text": "¿En qué año obtuvieron las mujeres el derecho al voto en Francia?",
+        "options": [
+          "1918",
+          "1936",
+          "1958",
+          "1944"
+        ],
+        "explanation": "Las francesas votaron por primera vez en 1945, un año después de la ordenanza firmada en Argel."
+      }
+    }
+  },
+  {
+    "sourceRef": "298708817c21d3cf",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel sens nous permet de percevoir les odeurs ?",
+        "options": [
+          "L'odorat",
+          "Le goût",
+          "L'ouïe",
+          "Le toucher"
+        ],
+        "explanation": "Le nez humain peut distinguer bien plus d'odeurs qu'on ne le croyait : jusqu'à mille milliards, selon une étude."
+      },
+      "en": {
+        "text": "Which sense allows us to perceive smells?",
+        "options": [
+          "Smell",
+          "Taste",
+          "Hearing",
+          "Touch"
+        ],
+        "explanation": "The human nose can distinguish far more odours than once thought: up to a trillion, according to one study."
+      },
+      "es": {
+        "text": "¿Qué sentido nos permite percibir los olores?",
+        "options": [
+          "El olfato",
+          "El gusto",
+          "El oído",
+          "El tacto"
+        ],
+        "explanation": "La nariz humana puede distinguir muchos más olores de lo que se creía: hasta un billón, según un estudio."
+      }
+    }
+  },
+  {
+    "sourceRef": "b986a7f7d9396279",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel astre éclaire nos nuits en réfléchissant la lumière du Soleil ?",
+        "options": [
+          "Vénus",
+          "La Lune",
+          "Mars",
+          "L'étoile Polaire"
+        ],
+        "explanation": "La Lune s'éloigne de la Terre d'environ 4 cm par an, à peu près la vitesse à laquelle poussent les ongles."
+      },
+      "en": {
+        "text": "Which celestial body lights our nights by reflecting the Sun's light?",
+        "options": [
+          "Venus",
+          "The Moon",
+          "Mars",
+          "The North Star"
+        ],
+        "explanation": "The Moon drifts away from Earth by about 4 cm a year, roughly the speed at which fingernails grow."
+      },
+      "es": {
+        "text": "¿Qué astro ilumina nuestras noches reflejando la luz del Sol?",
+        "options": [
+          "Venus",
+          "La Luna",
+          "Marte",
+          "La estrella Polar"
+        ],
+        "explanation": "La Luna se aleja de la Tierra unos 4 cm al año, más o menos la velocidad a la que crecen las uñas."
+      }
+    }
+  },
+  {
+    "sourceRef": "95a6ed0b8e7d278f",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel organe du corps humain consomme à lui seul environ 20 % de notre énergie ?",
+        "options": [
+          "Le cerveau",
+          "Le cœur",
+          "Les muscles",
+          "Le foie"
+        ],
+        "explanation": "Le cerveau ne pèse que 2 % du corps, mais il carbure au glucose en continu, même pendant le sommeil."
+      },
+      "en": {
+        "text": "Which organ of the human body consumes about 20% of our energy all by itself?",
+        "options": [
+          "The brain",
+          "The heart",
+          "The muscles",
+          "The liver"
+        ],
+        "explanation": "The brain weighs only 2% of the body, but it runs on glucose non-stop, even during sleep."
+      },
+      "es": {
+        "text": "¿Qué órgano del cuerpo humano consume por sí solo alrededor del 20 % de nuestra energía?",
+        "options": [
+          "El cerebro",
+          "El corazón",
+          "Los músculos",
+          "El hígado"
+        ],
+        "explanation": "El cerebro pesa solo el 2 % del cuerpo, pero funciona con glucosa sin parar, incluso durante el sueño."
+      }
+    }
+  },
+  {
+    "sourceRef": "195a93c870c1f1f2",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel élément chimique a pour symbole « Na » ?",
+        "options": [
+          "Le nickel",
+          "Le sodium",
+          "L'azote",
+          "Le néodyme"
+        ],
+        "explanation": "« Na » vient du latin « natrium » ; associé au chlore, le sodium forme notre sel de table."
+      },
+      "en": {
+        "text": "Which chemical element has the symbol 'Na'?",
+        "options": [
+          "Nickel",
+          "Sodium",
+          "Nitrogen",
+          "Neodymium"
+        ],
+        "explanation": "'Na' comes from the Latin 'natrium'; combined with chlorine, sodium forms our table salt."
+      },
+      "es": {
+        "text": "¿Qué elemento químico tiene el símbolo «Na»?",
+        "options": [
+          "El níquel",
+          "El sodio",
+          "El nitrógeno",
+          "El neodimio"
+        ],
+        "explanation": "«Na» viene del latín «natrium»; combinado con el cloro, el sodio forma nuestra sal de mesa."
+      }
+    }
+  },
+  {
+    "sourceRef": "8701113ae8e3ae87",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport deux adversaires gantés s'affrontent-ils sur un ring ?",
+        "options": [
+          "L'escrime",
+          "La boxe",
+          "Le taekwondo",
+          "La lutte"
+        ],
+        "explanation": "Les règles modernes de la boxe, dites « du marquis de Queensberry », imposèrent les gants en 1867."
+      },
+      "en": {
+        "text": "In which sport do two gloved opponents face off in a ring?",
+        "options": [
+          "Fencing",
+          "Boxing",
+          "Taekwondo",
+          "Wrestling"
+        ],
+        "explanation": "Boxing's modern rules, known as the 'Marquess of Queensberry rules', made gloves compulsory in 1867."
+      },
+      "es": {
+        "text": "¿En qué deporte dos adversarios con guantes se enfrentan en un cuadrilátero?",
+        "options": [
+          "La esgrima",
+          "El boxeo",
+          "El taekwondo",
+          "La lucha"
+        ],
+        "explanation": "Las reglas modernas del boxeo, del «marqués de Queensberry», impusieron los guantes en 1867."
+      }
+    }
+  },
+  {
+    "sourceRef": "12a282af81908028",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Combien de minutes dure le temps réglementaire d'un match de football ?",
+        "options": [
+          "80",
+          "100",
+          "90",
+          "120"
+        ],
+        "explanation": "Les deux mi-temps de 45 minutes datent de 1866, d'un accord entre deux clubs anglais avant un match."
+      },
+      "en": {
+        "text": "How many minutes does the regulation time of a football match last?",
+        "options": [
+          "80",
+          "100",
+          "90",
+          "120"
+        ],
+        "explanation": "The two 45-minute halves date from 1866, from an agreement between two English clubs before a match."
+      },
+      "es": {
+        "text": "¿Cuántos minutos dura el tiempo reglamentario de un partido de fútbol?",
+        "options": [
+          "80",
+          "100",
+          "90",
+          "120"
+        ],
+        "explanation": "Las dos partes de 45 minutos datan de 1866, de un acuerdo entre dos clubes ingleses antes de un partido."
+      }
+    }
+  },
+  {
+    "sourceRef": "8abdccc433f70d80",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle gymnaste roumaine obtint le tout premier 10 parfait de l'histoire olympique, en 1976 ?",
+        "options": [
+          "Olga Korbut",
+          "Ludmilla Tourischeva",
+          "Nadia Comăneci",
+          "Vera Čáslavská"
+        ],
+        "explanation": "Le tableau d'affichage, prévu pour trois chiffres, dut afficher « 1.00 » : personne n'avait imaginé un 10."
+      },
+      "en": {
+        "text": "Which Romanian gymnast scored the very first perfect 10 in Olympic history, in 1976?",
+        "options": [
+          "Olga Korbut",
+          "Ludmilla Tourischeva",
+          "Nadia Comăneci",
+          "Vera Čáslavská"
+        ],
+        "explanation": "The scoreboard, built for three digits, had to display '1.00': nobody had imagined a 10."
+      },
+      "es": {
+        "text": "¿Qué gimnasta rumana logró el primer 10 perfecto de la historia olímpica, en 1976?",
+        "options": [
+          "Olga Korbut",
+          "Ludmilla Tourischeva",
+          "Nadia Comăneci",
+          "Vera Čáslavská"
+        ],
+        "explanation": "El marcador, previsto para tres dígitos, tuvo que mostrar «1.00»: nadie había imaginado un 10."
+      }
+    }
+  },
+  {
+    "sourceRef": "a2d4da6a552bfc3b",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel jeune faon, ami du lapin Panpan, est le héros d'un classique Disney de 1942 ?",
+        "options": [
+          "Bambi",
+          "Dumbo",
+          "Simba",
+          "Rox"
+        ],
+        "explanation": "Pour animer Bambi, les studios Disney installèrent un vrai faon dans leurs locaux comme modèle vivant."
+      },
+      "en": {
+        "text": "Which young fawn, friend of Thumper the rabbit, is the hero of a 1942 Disney classic?",
+        "options": [
+          "Bambi",
+          "Dumbo",
+          "Simba",
+          "Tod"
+        ],
+        "explanation": "To animate Bambi, the Disney studios kept a real fawn on the premises as a living model."
+      },
+      "es": {
+        "text": "¿Qué joven cervatillo, amigo del conejo Tambor, es el héroe de un clásico de Disney de 1942?",
+        "options": [
+          "Bambi",
+          "Dumbo",
+          "Simba",
+          "Tod"
+        ],
+        "explanation": "Para animar a Bambi, los estudios Disney instalaron un cervatillo real en sus locales como modelo vivo."
+      }
+    }
+  },
+  {
+    "sourceRef": "b60aea4dde9100b2",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel film d'animation de Hayao Miyazaki suit la jeune Chihiro dans un monde d'esprits ?",
+        "options": [
+          "Princesse Mononoké",
+          "Mon voisin Totoro",
+          "Le Voyage de Chihiro",
+          "Le Château ambulant"
+        ],
+        "explanation": "C'est le seul film d'animation dessiné à la main à avoir remporté l'Ours d'or à Berlin."
+      },
+      "en": {
+        "text": "Which Hayao Miyazaki animated film follows young Chihiro into a world of spirits?",
+        "options": [
+          "Princess Mononoke",
+          "My Neighbor Totoro",
+          "Spirited Away",
+          "Howl's Moving Castle"
+        ],
+        "explanation": "It is the only hand-drawn animated film ever to win the Golden Bear in Berlin."
+      },
+      "es": {
+        "text": "¿Qué película de animación de Hayao Miyazaki sigue a la joven Chihiro por un mundo de espíritus?",
+        "options": [
+          "La princesa Mononoke",
+          "Mi vecino Totoro",
+          "El viaje de Chihiro",
+          "El castillo ambulante"
+        ],
+        "explanation": "Es la única película de animación dibujada a mano que ha ganado el Oso de Oro en Berlín."
+      }
+    }
+  },
+  {
+    "sourceRef": "c0371a8c26a0362a",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel acteur reçut un Oscar posthume pour son Joker dans « The Dark Knight » (2008) ?",
+        "options": [
+          "Joaquin Phoenix",
+          "Jack Nicholson",
+          "Jared Leto",
+          "Heath Ledger"
+        ],
+        "explanation": "Ledger s'isola des semaines dans une chambre d'hôtel, tenant un « journal du Joker » pour construire le rôle."
+      },
+      "en": {
+        "text": "Which actor received a posthumous Oscar for his Joker in 'The Dark Knight' (2008)?",
+        "options": [
+          "Joaquin Phoenix",
+          "Jack Nicholson",
+          "Jared Leto",
+          "Heath Ledger"
+        ],
+        "explanation": "Ledger isolated himself for weeks in a hotel room, keeping a 'Joker diary' to build the role."
+      },
+      "es": {
+        "text": "¿Qué actor recibió un Óscar póstumo por su Joker en «El caballero oscuro» (2008)?",
+        "options": [
+          "Joaquin Phoenix",
+          "Jack Nicholson",
+          "Jared Leto",
+          "Heath Ledger"
+        ],
+        "explanation": "Ledger se aisló durante semanas en una habitación de hotel, llevando un «diario del Joker» para construir el papel."
+      }
+    }
+  },
+  {
+    "sourceRef": "7839d9af516fe3ba",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la voix masculine la plus grave ?",
+        "options": [
+          "Le ténor",
+          "La basse",
+          "Le baryton",
+          "Le contre-ténor"
+        ],
+        "explanation": "Les grandes basses russes, dites « octavistes », descendent si bas que leurs notes semblent faire vibrer le sol."
+      },
+      "en": {
+        "text": "What is the lowest male voice type?",
+        "options": [
+          "The tenor",
+          "The bass",
+          "The baritone",
+          "The countertenor"
+        ],
+        "explanation": "The great Russian basses, called 'octavists', sing so low that their notes seem to make the floor vibrate."
+      },
+      "es": {
+        "text": "¿Cuál es la voz masculina más grave?",
+        "options": [
+          "El tenor",
+          "El bajo",
+          "El barítono",
+          "El contratenor"
+        ],
+        "explanation": "Los grandes bajos rusos, llamados «octavistas», cantan tan grave que sus notas parecen hacer vibrar el suelo."
+      }
+    }
+  },
+  {
+    "sourceRef": "8d3df337f8dd07ad",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de touches noires compte un piano standard de 88 touches ?",
+        "options": [
+          "30",
+          "32",
+          "34",
+          "36"
+        ],
+        "explanation": "36 noires et 52 blanches : les noires jouent les dièses et bémols, disposées par groupes de deux et trois."
+      },
+      "en": {
+        "text": "How many black keys are there on a standard 88-key piano?",
+        "options": [
+          "30",
+          "32",
+          "34",
+          "36"
+        ],
+        "explanation": "36 black and 52 white: the black keys play the sharps and flats, arranged in groups of two and three."
+      },
+      "es": {
+        "text": "¿Cuántas teclas negras tiene un piano estándar de 88 teclas?",
+        "options": [
+          "30",
+          "32",
+          "34",
+          "36"
+        ],
+        "explanation": "36 negras y 52 blancas: las negras tocan los sostenidos y bemoles, dispuestas en grupos de dos y tres."
+      }
+    }
+  },
+  {
+    "sourceRef": "37d1a7fd65d81da9",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel petit animal porte sa coquille sur le dos et laisse une trace brillante derrière lui ?",
+        "options": [
+          "L'escargot",
+          "Le ver de terre",
+          "La chenille",
+          "Le mille-pattes"
+        ],
+        "explanation": "L'escargot peut ramper sur le fil d'une lame sans se couper, protégé par son mucus."
+      },
+      "en": {
+        "text": "Which small animal carries its shell on its back and leaves a shiny trail behind it?",
+        "options": [
+          "The snail",
+          "The earthworm",
+          "The caterpillar",
+          "The centipede"
+        ],
+        "explanation": "A snail can crawl along the edge of a blade without cutting itself, protected by its mucus."
+      },
+      "es": {
+        "text": "¿Qué pequeño animal lleva su concha a cuestas y deja un rastro brillante tras de sí?",
+        "options": [
+          "El caracol",
+          "La lombriz",
+          "La oruga",
+          "El ciempiés"
+        ],
+        "explanation": "El caracol puede reptar por el filo de una cuchilla sin cortarse, protegido por su baba."
+      }
+    }
+  },
+  {
+    "sourceRef": "a7779d581036f39a",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel félin, surnommé le « roi des animaux », vit en groupes appelés troupes ?",
+        "options": [
+          "Le tigre",
+          "Le lion",
+          "Le léopard",
+          "Le guépard"
+        ],
+        "explanation": "Chez les lions, ce sont surtout les lionnes qui chassent ; le mâle défend le territoire… et dort jusqu'à 20 h par jour."
+      },
+      "en": {
+        "text": "Which big cat, nicknamed the 'king of beasts', lives in groups called prides?",
+        "options": [
+          "The tiger",
+          "The lion",
+          "The leopard",
+          "The cheetah"
+        ],
+        "explanation": "Among lions, the lionesses do most of the hunting; the male defends the territory… and sleeps up to 20 hours a day."
+      },
+      "es": {
+        "text": "¿Qué felino, apodado el «rey de los animales», vive en grupos llamados manadas?",
+        "options": [
+          "El tigre",
+          "El león",
+          "El leopardo",
+          "El guepardo"
+        ],
+        "explanation": "Entre los leones, son sobre todo las leonas las que cazan; el macho defiende el territorio… y duerme hasta 20 horas al día."
+      }
+    }
+  },
+  {
+    "sourceRef": "2839ff471a8f3f41",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel oiseau détient le record de la plus longue migration, entre l'Arctique et l'Antarctique ?",
+        "options": [
+          "La sterne arctique",
+          "L'albatros hurleur",
+          "L'oie des neiges",
+          "Le puffin fuligineux"
+        ],
+        "explanation": "En parcourant jusqu'à 80 000 km par an, une sterne cumule dans sa vie l'équivalent de trois allers-retours vers la Lune."
+      },
+      "en": {
+        "text": "Which bird holds the record for the longest migration, between the Arctic and the Antarctic?",
+        "options": [
+          "The Arctic tern",
+          "The wandering albatross",
+          "The snow goose",
+          "The sooty shearwater"
+        ],
+        "explanation": "Flying up to 80,000 km a year, a tern covers in its lifetime the equivalent of three round trips to the Moon."
+      },
+      "es": {
+        "text": "¿Qué ave posee el récord de la migración más larga, entre el Ártico y la Antártida?",
+        "options": [
+          "El charrán ártico",
+          "El albatros viajero",
+          "El ganso de las nieves",
+          "La pardela sombría"
+        ],
+        "explanation": "Volando hasta 80.000 km al año, un charrán acumula en su vida el equivalente a tres viajes de ida y vuelta a la Luna."
+      }
+    }
+  },
+  {
+    "sourceRef": "e07a2d199a9091f4",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel appareil de poche réunit aujourd'hui téléphone, appareil photo et accès à Internet ?",
+        "options": [
+          "La tablette",
+          "La console portable",
+          "Le smartphone",
+          "Le GPS"
+        ],
+        "explanation": "Un smartphone actuel est des millions de fois plus puissant que l'ordinateur qui guida Apollo 11 vers la Lune."
+      },
+      "en": {
+        "text": "Which pocket device now combines a phone, a camera and Internet access?",
+        "options": [
+          "The tablet",
+          "The handheld console",
+          "The smartphone",
+          "The GPS"
+        ],
+        "explanation": "A modern smartphone is millions of times more powerful than the computer that guided Apollo 11 to the Moon."
+      },
+      "es": {
+        "text": "¿Qué aparato de bolsillo reúne hoy teléfono, cámara y acceso a Internet?",
+        "options": [
+          "La tableta",
+          "La consola portátil",
+          "El smartphone",
+          "El GPS"
+        ],
+        "explanation": "Un smartphone actual es millones de veces más potente que el ordenador que guio el Apolo 11 a la Luna."
+      }
+    }
+  },
+  {
+    "sourceRef": "c0f7df48a1499850",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel appareil portable, lancé par Sony en 1979, permit pour la première fois d'écouter ses cassettes partout ?",
+        "options": [
+          "Le Discman",
+          "Le transistor",
+          "Le Walkman",
+          "Le juke-box"
+        ],
+        "explanation": "Les premiers Walkman avaient deux prises casque, pour écouter la musique à deux."
+      },
+      "en": {
+        "text": "Which portable device, launched by Sony in 1979, first let people listen to their cassettes anywhere?",
+        "options": [
+          "The Discman",
+          "The transistor radio",
+          "The Walkman",
+          "The jukebox"
+        ],
+        "explanation": "The first Walkmans had two headphone jacks, so two people could listen together."
+      },
+      "es": {
+        "text": "¿Qué aparato portátil, lanzado por Sony en 1979, permitió por primera vez escuchar casetes en cualquier parte?",
+        "options": [
+          "El Discman",
+          "El transistor",
+          "El Walkman",
+          "La gramola"
+        ],
+        "explanation": "Los primeros Walkman tenían dos tomas de auriculares, para escuchar música entre dos."
+      }
+    }
+  },
+  {
+    "sourceRef": "f0b47fbe210e55da",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle mathématicienne du XIXe siècle, fille de Lord Byron, est considérée comme la première programmeuse de l'histoire ?",
+        "options": [
+          "Marie Curie",
+          "Grace Hopper",
+          "Sophie Germain",
+          "Ada Lovelace"
+        ],
+        "explanation": "Elle écrivit en 1843 un algorithme pour une machine… qui ne fut jamais construite de son vivant."
+      },
+      "en": {
+        "text": "Which 19th-century mathematician, daughter of Lord Byron, is considered history's first programmer?",
+        "options": [
+          "Marie Curie",
+          "Grace Hopper",
+          "Sophie Germain",
+          "Ada Lovelace"
+        ],
+        "explanation": "In 1843 she wrote an algorithm for a machine… that was never built in her lifetime."
+      },
+      "es": {
+        "text": "¿Qué matemática del siglo XIX, hija de Lord Byron, es considerada la primera programadora de la historia?",
+        "options": [
+          "Marie Curie",
+          "Grace Hopper",
+          "Sophie Germain",
+          "Ada Lovelace"
+        ],
+        "explanation": "En 1843 escribió un algoritmo para una máquina… que nunca se construyó en vida de ella."
+      }
+    }
+  },
+  {
+    "sourceRef": "28e3a98c8a6e5663",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel désert froid s'étend entre la Mongolie et le nord de la Chine ?",
+        "options": [
+          "Le Kalahari",
+          "Le Gobi",
+          "Le Taklamakan",
+          "Le Karakoum"
+        ],
+        "explanation": "L'hiver, les températures du Gobi peuvent chuter sous les -40 °C ; on y a découvert les premiers œufs de dinosaures."
+      },
+      "en": {
+        "text": "Which cold desert stretches between Mongolia and northern China?",
+        "options": [
+          "The Kalahari",
+          "The Gobi",
+          "The Taklamakan",
+          "The Karakum"
+        ],
+        "explanation": "In winter, Gobi temperatures can drop below -40 °C; the first dinosaur eggs were discovered there."
+      },
+      "es": {
+        "text": "¿Qué desierto frío se extiende entre Mongolia y el norte de China?",
+        "options": [
+          "El Kalahari",
+          "El Gobi",
+          "El Taklamakán",
+          "El Karakum"
+        ],
+        "explanation": "En invierno, las temperaturas del Gobi pueden bajar de los -40 °C; allí se descubrieron los primeros huevos de dinosaurio."
+      }
+    }
+  },
+  {
+    "sourceRef": "e14fe29217001f27",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel fleuve, le plus long d'Asie, traverse la Chine d'ouest en est ?",
+        "options": [
+          "Le Mékong",
+          "Le fleuve Jaune",
+          "Le Gange",
+          "Le Yangzi"
+        ],
+        "explanation": "Le barrage des Trois-Gorges, sur le Yangzi, est la plus grande centrale électrique du monde."
+      },
+      "en": {
+        "text": "Which river, the longest in Asia, crosses China from west to east?",
+        "options": [
+          "The Mekong",
+          "The Yellow River",
+          "The Ganges",
+          "The Yangtze"
+        ],
+        "explanation": "The Three Gorges Dam, on the Yangtze, is the largest power station in the world."
+      },
+      "es": {
+        "text": "¿Qué río, el más largo de Asia, atraviesa China de oeste a este?",
+        "options": [
+          "El Mekong",
+          "El río Amarillo",
+          "El Ganges",
+          "El Yangtsé"
+        ],
+        "explanation": "La presa de las Tres Gargantas, en el Yangtsé, es la mayor central eléctrica del mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "95775645b0b9f975",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de lettres compte l'alphabet latin utilisé en français ?",
+        "options": [
+          "24",
+          "25",
+          "28",
+          "26"
+        ],
+        "explanation": "Les lettres K et W, rares en français, n'apparaissent guère que dans des mots empruntés."
+      },
+      "en": {
+        "text": "How many letters are there in the Latin alphabet used in French?",
+        "options": [
+          "24",
+          "25",
+          "28",
+          "26"
+        ],
+        "explanation": "The letters K and W, rare in French, appear almost only in borrowed words."
+      },
+      "es": {
+        "text": "¿Cuántas letras tiene el alfabeto latino usado en francés?",
+        "options": [
+          "24",
+          "25",
+          "28",
+          "26"
+        ],
+        "explanation": "Las letras K y W, raras en francés, casi solo aparecen en palabras prestadas."
+      }
+    }
+  },
+  {
+    "sourceRef": "cead4e50e23aa05f",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Combien de dents compte la dentition complète d'un adulte, dents de sagesse comprises ?",
+        "options": [
+          "28",
+          "30",
+          "32",
+          "36"
+        ],
+        "explanation": "De plus en plus de personnes naissent sans dents de sagesse : l'évolution semble s'en passer peu à peu."
+      },
+      "en": {
+        "text": "How many teeth are there in a complete adult set, wisdom teeth included?",
+        "options": [
+          "28",
+          "30",
+          "32",
+          "36"
+        ],
+        "explanation": "More and more people are born without wisdom teeth: evolution seems to be phasing them out."
+      },
+      "es": {
+        "text": "¿Cuántos dientes tiene la dentadura completa de un adulto, muelas del juicio incluidas?",
+        "options": [
+          "28",
+          "30",
+          "32",
+          "36"
+        ],
+        "explanation": "Cada vez más personas nacen sin muelas del juicio: la evolución parece ir prescindiendo de ellas."
+      }
+    }
+  },
+  {
+    "sourceRef": "f7dedbf27bac6d13",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel chiffre romain représente le nombre 50 ?",
+        "options": [
+          "C",
+          "D",
+          "X",
+          "L"
+        ],
+        "explanation": "L = 50, C = 100, D = 500 : les Romains n'avaient en revanche aucun symbole pour le zéro."
+      },
+      "en": {
+        "text": "Which Roman numeral represents the number 50?",
+        "options": [
+          "C",
+          "D",
+          "X",
+          "L"
+        ],
+        "explanation": "L = 50, C = 100, D = 500: the Romans, however, had no symbol at all for zero."
+      },
+      "es": {
+        "text": "¿Qué número romano representa el 50?",
+        "options": [
+          "C",
+          "D",
+          "X",
+          "L"
+        ],
+        "explanation": "L = 50, C = 100, D = 500: los romanos, en cambio, no tenían ningún símbolo para el cero."
+      }
+    }
+  }
+]
