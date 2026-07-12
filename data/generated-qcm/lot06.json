@@ -1,0 +1,1718 @@
+[
+  {
+    "sourceRef": "25f50838f1a093ed",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien de secondes compte une minute ?",
+        "options": [
+          "60",
+          "50",
+          "70",
+          "90"
+        ],
+        "explanation": "Cette division par 60 nous vient des Babyloniens, qui comptaient en base 60 il y a 4 000 ans."
+      },
+      "en": {
+        "text": "How many seconds are there in a minute?",
+        "options": [
+          "60",
+          "50",
+          "70",
+          "90"
+        ],
+        "explanation": "This division by 60 comes from the Babylonians, who counted in base 60 four thousand years ago."
+      },
+      "es": {
+        "text": "¿Cuántos segundos tiene un minuto?",
+        "options": [
+          "60",
+          "50",
+          "70",
+          "90"
+        ],
+        "explanation": "Esta división por 60 nos viene de los babilonios, que contaban en base 60 hace 4.000 años."
+      }
+    }
+  },
+  {
+    "sourceRef": "26a83063ea3690e0",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Combien font 12 × 12 ?",
+        "options": [
+          "134",
+          "144",
+          "124",
+          "154"
+        ],
+        "explanation": "144 s'appelle aussi une « grosse » : douze douzaines, une unité encore utilisée dans le commerce."
+      },
+      "en": {
+        "text": "What is 12 × 12?",
+        "options": [
+          "134",
+          "144",
+          "124",
+          "154"
+        ],
+        "explanation": "144 is also called a 'gross': twelve dozens, a unit still used in trade."
+      },
+      "es": {
+        "text": "¿Cuánto es 12 × 12?",
+        "options": [
+          "134",
+          "144",
+          "124",
+          "154"
+        ],
+        "explanation": "144 también se llama una «gruesa»: doce docenas, una unidad aún usada en el comercio."
+      }
+    }
+  },
+  {
+    "sourceRef": "b16d732718626da3",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel monument parisien en fer fut construit pour l'Exposition universelle de 1889 ?",
+        "options": [
+          "L'Arc de triomphe",
+          "Le Panthéon",
+          "L'Obélisque",
+          "La tour Eiffel"
+        ],
+        "explanation": "Prévue pour être démontée après vingt ans, la tour fut sauvée… par son utilité comme antenne de radio."
+      },
+      "en": {
+        "text": "Which iron monument in Paris was built for the 1889 World's Fair?",
+        "options": [
+          "The Arc de Triomphe",
+          "The Panthéon",
+          "The Obelisk",
+          "The Eiffel Tower"
+        ],
+        "explanation": "Meant to be dismantled after twenty years, the tower was saved… by its usefulness as a radio antenna."
+      },
+      "es": {
+        "text": "¿Qué monumento parisino de hierro se construyó para la Exposición Universal de 1889?",
+        "options": [
+          "El Arco de Triunfo",
+          "El Panteón",
+          "El Obelisco",
+          "La torre Eiffel"
+        ],
+        "explanation": "Pensada para desmontarse a los veinte años, la torre se salvó… por su utilidad como antena de radio."
+      }
+    }
+  },
+  {
+    "sourceRef": "1fc275c2ff85f36b",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelait-on les guerriers scandinaves qui sillonnaient les mers sur des drakkars ?",
+        "options": [
+          "Les Gaulois",
+          "Les Huns",
+          "Les Vikings",
+          "Les Mongols"
+        ],
+        "explanation": "Les Vikings ont atteint l'Amérique vers l'an 1000, cinq siècles avant Christophe Colomb."
+      },
+      "en": {
+        "text": "What were the Scandinavian warriors who roamed the seas in longships called?",
+        "options": [
+          "The Gauls",
+          "The Huns",
+          "The Vikings",
+          "The Mongols"
+        ],
+        "explanation": "The Vikings reached America around the year 1000, five centuries before Christopher Columbus."
+      },
+      "es": {
+        "text": "¿Cómo se llamaba a los guerreros escandinavos que surcaban los mares en drakkars?",
+        "options": [
+          "Los galos",
+          "Los hunos",
+          "Los vikingos",
+          "Los mongoles"
+        ],
+        "explanation": "Los vikingos llegaron a América hacia el año 1000, cinco siglos antes que Cristóbal Colón."
+      }
+    }
+  },
+  {
+    "sourceRef": "4b7ae6368af73c9f",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle étoile se trouve au centre de notre système solaire ?",
+        "options": [
+          "La Lune",
+          "Le Soleil",
+          "L'étoile Polaire",
+          "Sirius"
+        ],
+        "explanation": "Le Soleil concentre à lui seul 99,8 % de toute la masse du système solaire."
+      },
+      "en": {
+        "text": "Which star lies at the centre of our solar system?",
+        "options": [
+          "The Moon",
+          "The Sun",
+          "The North Star",
+          "Sirius"
+        ],
+        "explanation": "The Sun alone holds 99.8% of all the mass in the solar system."
+      },
+      "es": {
+        "text": "¿Qué estrella se encuentra en el centro de nuestro sistema solar?",
+        "options": [
+          "La Luna",
+          "El Sol",
+          "La estrella Polar",
+          "Sirio"
+        ],
+        "explanation": "El Sol concentra por sí solo el 99,8 % de toda la masa del sistema solar."
+      }
+    }
+  },
+  {
+    "sourceRef": "5b942f7c51380757",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel organe pompe le sang dans tout le corps ?",
+        "options": [
+          "Le cœur",
+          "Le foie",
+          "Les poumons",
+          "Les reins"
+        ],
+        "explanation": "Le cœur bat environ 100 000 fois par jour, soit près de trois milliards de battements dans une vie."
+      },
+      "en": {
+        "text": "Which organ pumps blood around the whole body?",
+        "options": [
+          "The heart",
+          "The liver",
+          "The lungs",
+          "The kidneys"
+        ],
+        "explanation": "The heart beats about 100,000 times a day, nearly three billion beats in a lifetime."
+      },
+      "es": {
+        "text": "¿Qué órgano bombea la sangre por todo el cuerpo?",
+        "options": [
+          "El corazón",
+          "El hígado",
+          "Los pulmones",
+          "Los riñones"
+        ],
+        "explanation": "El corazón late unas 100.000 veces al día, casi tres mil millones de latidos en una vida."
+      }
+    }
+  },
+  {
+    "sourceRef": "6b348de7959ac89f",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de pattes possède une araignée ?",
+        "options": [
+          "4",
+          "6",
+          "12",
+          "8"
+        ],
+        "explanation": "Avec ses 8 pattes, l'araignée n'est pas un insecte (qui en a 6) mais un arachnide."
+      },
+      "en": {
+        "text": "How many legs does a spider have?",
+        "options": [
+          "4",
+          "6",
+          "12",
+          "8"
+        ],
+        "explanation": "With its 8 legs, a spider is not an insect (which has 6) but an arachnid."
+      },
+      "es": {
+        "text": "¿Cuántas patas tiene una araña?",
+        "options": [
+          "4",
+          "6",
+          "12",
+          "8"
+        ],
+        "explanation": "Con sus 8 patas, la araña no es un insecto (que tiene 6), sino un arácnido."
+      }
+    }
+  },
+  {
+    "sourceRef": "0557a986495f1337",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel pays est surnommé le « pays du Soleil-Levant » ?",
+        "options": [
+          "La Chine",
+          "Le Japon",
+          "La Corée du Sud",
+          "La Thaïlande"
+        ],
+        "explanation": "En japonais, « Nihon » signifie littéralement « origine du soleil »."
+      },
+      "en": {
+        "text": "Which country is nicknamed the 'Land of the Rising Sun'?",
+        "options": [
+          "China",
+          "Japan",
+          "South Korea",
+          "Thailand"
+        ],
+        "explanation": "In Japanese, 'Nihon' literally means 'origin of the sun'."
+      },
+      "es": {
+        "text": "¿Qué país es apodado el «país del Sol Naciente»?",
+        "options": [
+          "China",
+          "Japón",
+          "Corea del Sur",
+          "Tailandia"
+        ],
+        "explanation": "En japonés, «Nihon» significa literalmente «origen del sol»."
+      }
+    }
+  },
+  {
+    "sourceRef": "45978410fbd82377",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la capitale du Royaume-Uni ?",
+        "options": [
+          "Manchester",
+          "Édimbourg",
+          "Londres",
+          "Dublin"
+        ],
+        "explanation": "Le nom de la ville vient de « Londinium », le comptoir fondé par les Romains il y a près de 2 000 ans."
+      },
+      "en": {
+        "text": "What is the capital of the United Kingdom?",
+        "options": [
+          "Manchester",
+          "Edinburgh",
+          "London",
+          "Dublin"
+        ],
+        "explanation": "The city's name comes from 'Londinium', the trading post founded by the Romans nearly 2,000 years ago."
+      },
+      "es": {
+        "text": "¿Cuál es la capital del Reino Unido?",
+        "options": [
+          "Mánchester",
+          "Edimburgo",
+          "Londres",
+          "Dublín"
+        ],
+        "explanation": "El nombre de la ciudad viene de «Londinium», el enclave fundado por los romanos hace casi 2.000 años."
+      }
+    }
+  },
+  {
+    "sourceRef": "aba5a59a15b1647d",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Sur quel continent se trouve le Brésil ?",
+        "options": [
+          "L'Amérique du Nord",
+          "L'Amérique du Sud",
+          "L'Afrique",
+          "L'Océanie"
+        ],
+        "explanation": "Le Brésil couvre à lui seul près de la moitié de la superficie de l'Amérique du Sud."
+      },
+      "en": {
+        "text": "On which continent is Brazil located?",
+        "options": [
+          "North America",
+          "South America",
+          "Africa",
+          "Oceania"
+        ],
+        "explanation": "Brazil alone covers nearly half the land area of South America."
+      },
+      "es": {
+        "text": "¿En qué continente se encuentra Brasil?",
+        "options": [
+          "América del Norte",
+          "América del Sur",
+          "África",
+          "Oceanía"
+        ],
+        "explanation": "Brasil cubre por sí solo casi la mitad de la superficie de América del Sur."
+      }
+    }
+  },
+  {
+    "sourceRef": "fe154c6e2eea8d1a",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Au football, quelle couleur de carton signifie l'expulsion d'un joueur ?",
+        "options": [
+          "Rouge",
+          "Jaune",
+          "Bleu",
+          "Vert"
+        ],
+        "explanation": "L'idée des cartons est née aux JO de 1966, inspirée… des feux de circulation londoniens."
+      },
+      "en": {
+        "text": "In football, which colour card means a player is sent off?",
+        "options": [
+          "Red",
+          "Yellow",
+          "Blue",
+          "Green"
+        ],
+        "explanation": "The idea of cards was born in the 1960s, inspired… by London traffic lights."
+      },
+      "es": {
+        "text": "En el fútbol, ¿qué color de tarjeta significa la expulsión de un jugador?",
+        "options": [
+          "Roja",
+          "Amarilla",
+          "Azul",
+          "Verde"
+        ],
+        "explanation": "La idea de las tarjetas nació en los años 60, inspirada… en los semáforos de Londres."
+      }
+    }
+  },
+  {
+    "sourceRef": "81a26d8fbcb9b914",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Combien de joueurs une équipe de basket-ball aligne-t-elle sur le terrain ?",
+        "options": [
+          "Quatre",
+          "Cinq",
+          "Six",
+          "Sept"
+        ],
+        "explanation": "Le basket fut inventé en 1891 par un professeur qui cherchait un jeu d'intérieur pour l'hiver."
+      },
+      "en": {
+        "text": "How many players does a basketball team field on the court?",
+        "options": [
+          "Four",
+          "Five",
+          "Six",
+          "Seven"
+        ],
+        "explanation": "Basketball was invented in 1891 by a teacher looking for an indoor game for winter."
+      },
+      "es": {
+        "text": "¿Cuántos jugadores alinea un equipo de baloncesto en la cancha?",
+        "options": [
+          "Cuatro",
+          "Cinco",
+          "Seis",
+          "Siete"
+        ],
+        "explanation": "El baloncesto lo inventó en 1891 un profesor que buscaba un juego de interior para el invierno."
+      }
+    }
+  },
+  {
+    "sourceRef": "7a9ef791a076b5de",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel super-héros de Gotham City combat le crime déguisé en chauve-souris ?",
+        "options": [
+          "Superman",
+          "Spider-Man",
+          "Batman",
+          "Iron Man"
+        ],
+        "explanation": "Contrairement à la plupart des super-héros, Batman n'a aucun super-pouvoir : seulement sa fortune et son entraînement."
+      },
+      "en": {
+        "text": "Which Gotham City superhero fights crime dressed as a bat?",
+        "options": [
+          "Superman",
+          "Spider-Man",
+          "Batman",
+          "Iron Man"
+        ],
+        "explanation": "Unlike most superheroes, Batman has no superpowers: only his fortune and his training."
+      },
+      "es": {
+        "text": "¿Qué superhéroe de Gotham City combate el crimen disfrazado de murciélago?",
+        "options": [
+          "Superman",
+          "Spider-Man",
+          "Batman",
+          "Iron Man"
+        ],
+        "explanation": "A diferencia de la mayoría de superhéroes, Batman no tiene superpoderes: solo su fortuna y su entrenamiento."
+      }
+    }
+  },
+  {
+    "sourceRef": "105655d45bcb3aeb",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Dans « La Reine des neiges », comment s'appelle la reine aux pouvoirs de glace ?",
+        "options": [
+          "Anna",
+          "Elsa",
+          "Raiponce",
+          "Vaiana"
+        ],
+        "explanation": "La chanson « Libérée, délivrée » a été traduite dans plus de 40 langues à travers le monde."
+      },
+      "en": {
+        "text": "In 'Frozen', what is the name of the queen with ice powers?",
+        "options": [
+          "Anna",
+          "Elsa",
+          "Rapunzel",
+          "Moana"
+        ],
+        "explanation": "The song 'Let It Go' has been translated into more than 40 languages worldwide."
+      },
+      "es": {
+        "text": "En «Frozen», ¿cómo se llama la reina con poderes de hielo?",
+        "options": [
+          "Anna",
+          "Elsa",
+          "Rapunzel",
+          "Vaiana"
+        ],
+        "explanation": "La canción «Let It Go» se ha traducido a más de 40 idiomas en todo el mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "88ec00ca4f5b147d",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Combien de musiciens compte un trio ?",
+        "options": [
+          "Deux",
+          "Trois",
+          "Quatre",
+          "Cinq"
+        ],
+        "explanation": "Duo, trio, quatuor, quintette… ces mots viennent des nombres italiens et latins."
+      },
+      "en": {
+        "text": "How many musicians are there in a trio?",
+        "options": [
+          "Two",
+          "Three",
+          "Four",
+          "Five"
+        ],
+        "explanation": "Duo, trio, quartet, quintet… these words come from Italian and Latin numbers."
+      },
+      "es": {
+        "text": "¿Cuántos músicos tiene un trío?",
+        "options": [
+          "Dos",
+          "Tres",
+          "Cuatro",
+          "Cinco"
+        ],
+        "explanation": "Dúo, trío, cuarteto, quinteto… estas palabras vienen de los números italianos y latinos."
+      }
+    }
+  },
+  {
+    "sourceRef": "c13a43fc90b399ff",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel grand instrument à cordes frottées se joue assis, l'instrument calé entre les jambes ?",
+        "options": [
+          "Le violon",
+          "L'alto",
+          "Le violoncelle",
+          "La harpe"
+        ],
+        "explanation": "Le violoncelle est réputé être l'instrument dont le timbre se rapproche le plus de la voix humaine."
+      },
+      "en": {
+        "text": "Which large bowed string instrument is played sitting down, held between the legs?",
+        "options": [
+          "The violin",
+          "The viola",
+          "The cello",
+          "The harp"
+        ],
+        "explanation": "The cello is said to be the instrument whose tone is closest to the human voice."
+      },
+      "es": {
+        "text": "¿Qué gran instrumento de cuerda frotada se toca sentado, sujeto entre las piernas?",
+        "options": [
+          "El violín",
+          "La viola",
+          "El violonchelo",
+          "El arpa"
+        ],
+        "explanation": "Se dice que el violonchelo es el instrumento cuyo timbre más se acerca a la voz humana."
+      }
+    }
+  },
+  {
+    "sourceRef": "914e7e508f4f8a98",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel insecte fabrique le miel ?",
+        "options": [
+          "L'abeille",
+          "La guêpe",
+          "Le frelon",
+          "Le bourdon"
+        ],
+        "explanation": "Pour produire un seul kilo de miel, les abeilles d'une ruche parcourent l'équivalent de plusieurs tours du monde."
+      },
+      "en": {
+        "text": "Which insect makes honey?",
+        "options": [
+          "The bee",
+          "The wasp",
+          "The hornet",
+          "The bumblebee"
+        ],
+        "explanation": "To produce a single kilo of honey, the bees of a hive fly the equivalent of several times around the world."
+      },
+      "es": {
+        "text": "¿Qué insecto fabrica la miel?",
+        "options": [
+          "La abeja",
+          "La avispa",
+          "El avispón",
+          "El abejorro"
+        ],
+        "explanation": "Para producir un solo kilo de miel, las abejas de una colmena recorren el equivalente a varias vueltas al mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "58bec2fbecfe371b",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un animal qui ne se nourrit que de plantes ?",
+        "options": [
+          "Un carnivore",
+          "Un omnivore",
+          "Un herbivore",
+          "Un insectivore"
+        ],
+        "explanation": "Certains herbivores géants, comme l'éléphant, mangent jusqu'à 150 kg de végétaux par jour."
+      },
+      "en": {
+        "text": "What do you call an animal that feeds only on plants?",
+        "options": [
+          "A carnivore",
+          "An omnivore",
+          "A herbivore",
+          "An insectivore"
+        ],
+        "explanation": "Some giant herbivores, like the elephant, eat up to 150 kg of plants a day."
+      },
+      "es": {
+        "text": "¿Cómo se llama a un animal que solo se alimenta de plantas?",
+        "options": [
+          "Un carnívoro",
+          "Un omnívoro",
+          "Un herbívoro",
+          "Un insectívoro"
+        ],
+        "explanation": "Algunos herbívoros gigantes, como el elefante, comen hasta 150 kg de vegetales al día."
+      }
+    }
+  },
+  {
+    "sourceRef": "15dbc17b7f9123a1",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel petit appareil sert à déplacer le curseur sur l'écran d'un ordinateur ?",
+        "options": [
+          "Le clavier",
+          "La souris",
+          "L'imprimante",
+          "L'écran"
+        ],
+        "explanation": "La première souris, présentée en 1968, était en bois et n'avait qu'un seul bouton."
+      },
+      "en": {
+        "text": "Which small device is used to move the cursor on a computer screen?",
+        "options": [
+          "The keyboard",
+          "The mouse",
+          "The printer",
+          "The monitor"
+        ],
+        "explanation": "The first mouse, unveiled in 1968, was made of wood and had a single button."
+      },
+      "es": {
+        "text": "¿Qué pequeño dispositivo sirve para mover el cursor en la pantalla de un ordenador?",
+        "options": [
+          "El teclado",
+          "El ratón",
+          "La impresora",
+          "El monitor"
+        ],
+        "explanation": "El primer ratón, presentado en 1968, era de madera y tenía un solo botón."
+      }
+    }
+  },
+  {
+    "sourceRef": "b118ef5835e898d4",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un programme malveillant conçu pour infecter les ordinateurs ?",
+        "options": [
+          "Un pare-feu",
+          "Un pilote",
+          "Un cookie",
+          "Un virus"
+        ],
+        "explanation": "Le premier virus informatique, « Creeper », affichait en 1971 le message : « Attrape-moi si tu peux ! »"
+      },
+      "en": {
+        "text": "What do you call a malicious program designed to infect computers?",
+        "options": [
+          "A firewall",
+          "A driver",
+          "A cookie",
+          "A virus"
+        ],
+        "explanation": "The first computer virus, 'Creeper', displayed in 1971 the message: 'Catch me if you can!'"
+      },
+      "es": {
+        "text": "¿Cómo se llama un programa malicioso diseñado para infectar ordenadores?",
+        "options": [
+          "Un cortafuegos",
+          "Un controlador",
+          "Una cookie",
+          "Un virus"
+        ],
+        "explanation": "El primer virus informático, «Creeper», mostraba en 1971 el mensaje: «¡Atrápame si puedes!»"
+      }
+    }
+  },
+  {
+    "sourceRef": "03ae4f43ca4ceda4",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel légume orange est réputé être bon pour la vue ?",
+        "options": [
+          "La tomate",
+          "La carotte",
+          "La courgette",
+          "La betterave"
+        ],
+        "explanation": "Cette réputation vient d'une rumeur lancée par les Britanniques en 1940 pour cacher l'existence de leurs radars."
+      },
+      "en": {
+        "text": "Which orange vegetable is said to be good for your eyesight?",
+        "options": [
+          "The tomato",
+          "The carrot",
+          "The courgette",
+          "The beetroot"
+        ],
+        "explanation": "That reputation comes from a rumour spread by the British in 1940 to hide the existence of their radar."
+      },
+      "es": {
+        "text": "¿Qué hortaliza naranja tiene fama de ser buena para la vista?",
+        "options": [
+          "El tomate",
+          "La zanahoria",
+          "El calabacín",
+          "La remolacha"
+        ],
+        "explanation": "Esa fama viene de un rumor difundido por los británicos en 1940 para ocultar la existencia de sus radares."
+      }
+    }
+  },
+  {
+    "sourceRef": "f338959229cbeb92",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "De quel fruit le vin est-il traditionnellement issu ?",
+        "options": [
+          "Le raisin",
+          "La pomme",
+          "La poire",
+          "La cerise"
+        ],
+        "explanation": "On produit du vin depuis au moins 8 000 ans : les plus anciennes traces ont été trouvées en Géorgie, dans le Caucase."
+      },
+      "en": {
+        "text": "From which fruit is wine traditionally made?",
+        "options": [
+          "Grapes",
+          "Apples",
+          "Pears",
+          "Cherries"
+        ],
+        "explanation": "Wine has been made for at least 8,000 years: the oldest traces were found in Georgia, in the Caucasus."
+      },
+      "es": {
+        "text": "¿De qué fruta se elabora tradicionalmente el vino?",
+        "options": [
+          "La uva",
+          "La manzana",
+          "La pera",
+          "La cereza"
+        ],
+        "explanation": "Se produce vino desde hace al menos 8.000 años: los restos más antiguos se hallaron en Georgia, en el Cáucaso."
+      }
+    }
+  },
+  {
+    "sourceRef": "b1aa859458929392",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Dans le conte, quel animal se déguise en grand-mère pour tromper une fillette au chaperon rouge ?",
+        "options": [
+          "L'ours",
+          "Le renard",
+          "Le loup",
+          "Le lynx"
+        ],
+        "explanation": "Dans la version de Perrault (1697), le conte finit mal ; ce sont les frères Grimm qui ajoutèrent le chasseur sauveur."
+      },
+      "en": {
+        "text": "In the fairy tale, which animal disguises itself as a grandmother to trick a girl in a red hood?",
+        "options": [
+          "The bear",
+          "The fox",
+          "The wolf",
+          "The lynx"
+        ],
+        "explanation": "In Perrault's version (1697), the tale ends badly; it was the Brothers Grimm who added the rescuing huntsman."
+      },
+      "es": {
+        "text": "En el cuento, ¿qué animal se disfraza de abuela para engañar a una niña de caperuza roja?",
+        "options": [
+          "El oso",
+          "El zorro",
+          "El lobo",
+          "El lince"
+        ],
+        "explanation": "En la versión de Perrault (1697), el cuento acaba mal; fueron los hermanos Grimm quienes añadieron al cazador salvador."
+      }
+    }
+  },
+  {
+    "sourceRef": "4b7dbc34b9ced68d",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel alliage de cuivre et d'étain sert traditionnellement à couler les statues ?",
+        "options": [
+          "Le laiton",
+          "L'acier",
+          "Le bronze",
+          "L'aluminium"
+        ],
+        "explanation": "La technique de la fonte « à la cire perdue » utilisée pour le bronze a plus de 5 000 ans."
+      },
+      "en": {
+        "text": "Which alloy of copper and tin is traditionally used to cast statues?",
+        "options": [
+          "Brass",
+          "Steel",
+          "Bronze",
+          "Aluminium"
+        ],
+        "explanation": "The 'lost-wax' casting technique used for bronze is more than 5,000 years old."
+      },
+      "es": {
+        "text": "¿Qué aleación de cobre y estaño se usa tradicionalmente para fundir estatuas?",
+        "options": [
+          "El latón",
+          "El acero",
+          "El bronce",
+          "El aluminio"
+        ],
+        "explanation": "La técnica de fundición «a la cera perdida» usada para el bronce tiene más de 5.000 años."
+      }
+    }
+  },
+  {
+    "sourceRef": "a7dba0b7e9a72ee9",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle guerre opposa le Nord et le Sud des États-Unis de 1861 à 1865 ?",
+        "options": [
+          "La guerre d'indépendance",
+          "La guerre de Sécession",
+          "La guerre de Cent Ans",
+          "La guerre de 1812"
+        ],
+        "explanation": "Ce conflit reste la guerre la plus meurtrière de l'histoire des États-Unis, avec plus de 600 000 morts."
+      },
+      "en": {
+        "text": "Which war pitted the North against the South of the United States from 1861 to 1865?",
+        "options": [
+          "The War of Independence",
+          "The Civil War",
+          "The Hundred Years' War",
+          "The War of 1812"
+        ],
+        "explanation": "It remains the deadliest war in US history, with more than 600,000 dead."
+      },
+      "es": {
+        "text": "¿Qué guerra enfrentó al Norte y al Sur de Estados Unidos de 1861 a 1865?",
+        "options": [
+          "La guerra de Independencia",
+          "La guerra de Secesión",
+          "La guerra de los Cien Años",
+          "La guerra de 1812"
+        ],
+        "explanation": "Sigue siendo la guerra más mortífera de la historia de EE. UU., con más de 600.000 muertos."
+      }
+    }
+  },
+  {
+    "sourceRef": "daa03d516912425a",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel navigateur génois, parti chercher les Indes, atteignit les Amériques en 1492 ?",
+        "options": [
+          "Christophe Colomb",
+          "Vasco de Gama",
+          "Amerigo Vespucci",
+          "Jacques Cartier"
+        ],
+        "explanation": "Colomb mourut convaincu d'avoir atteint l'Asie ; c'est Vespucci qui donna son prénom au Nouveau Monde."
+      },
+      "en": {
+        "text": "Which Genoese navigator, setting out for the Indies, reached the Americas in 1492?",
+        "options": [
+          "Christopher Columbus",
+          "Vasco da Gama",
+          "Amerigo Vespucci",
+          "Jacques Cartier"
+        ],
+        "explanation": "Columbus died convinced he had reached Asia; it was Vespucci who gave his first name to the New World."
+      },
+      "es": {
+        "text": "¿Qué navegante genovés, que partió en busca de las Indias, llegó a América en 1492?",
+        "options": [
+          "Cristóbal Colón",
+          "Vasco de Gama",
+          "Américo Vespucio",
+          "Jacques Cartier"
+        ],
+        "explanation": "Colón murió convencido de haber llegado a Asia; fue Vespucio quien dio su nombre al Nuevo Mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "041eb58cca3bc9ee",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle vitamine notre peau fabrique-t-elle sous l'effet du soleil ?",
+        "options": [
+          "La vitamine A",
+          "La vitamine C",
+          "La vitamine D",
+          "La vitamine K"
+        ],
+        "explanation": "Quinze à trente minutes de soleil sur les bras suffisent souvent à couvrir les besoins quotidiens."
+      },
+      "en": {
+        "text": "Which vitamin does our skin produce when exposed to sunlight?",
+        "options": [
+          "Vitamin A",
+          "Vitamin C",
+          "Vitamin D",
+          "Vitamin K"
+        ],
+        "explanation": "Fifteen to thirty minutes of sun on the arms is often enough to cover daily needs."
+      },
+      "es": {
+        "text": "¿Qué vitamina fabrica nuestra piel por efecto del sol?",
+        "options": [
+          "La vitamina A",
+          "La vitamina C",
+          "La vitamina D",
+          "La vitamina K"
+        ],
+        "explanation": "Quince a treinta minutos de sol en los brazos suelen bastar para cubrir las necesidades diarias."
+      }
+    }
+  },
+  {
+    "sourceRef": "b6b1318da0eca6fa",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel est l'os le plus long du corps humain ?",
+        "options": [
+          "Le tibia",
+          "L'humérus",
+          "Le fémur",
+          "Le radius"
+        ],
+        "explanation": "Le fémur représente environ un quart de la taille d'une personne et supporte jusqu'à 30 fois le poids du corps."
+      },
+      "en": {
+        "text": "What is the longest bone in the human body?",
+        "options": [
+          "The tibia",
+          "The humerus",
+          "The femur",
+          "The radius"
+        ],
+        "explanation": "The femur is about a quarter of a person's height and can bear up to 30 times the body's weight."
+      },
+      "es": {
+        "text": "¿Cuál es el hueso más largo del cuerpo humano?",
+        "options": [
+          "La tibia",
+          "El húmero",
+          "El fémur",
+          "El radio"
+        ],
+        "explanation": "El fémur representa alrededor de un cuarto de la estatura de una persona y soporta hasta 30 veces el peso del cuerpo."
+      }
+    }
+  },
+  {
+    "sourceRef": "b5b2918571f7c442",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle langue est la langue officielle du Brésil ?",
+        "options": [
+          "L'espagnol",
+          "Le portugais",
+          "Le français",
+          "L'italien"
+        ],
+        "explanation": "Le Brésil est le seul pays lusophone d'Amérique, héritage du traité de Tordesillas de 1494."
+      },
+      "en": {
+        "text": "What is the official language of Brazil?",
+        "options": [
+          "Spanish",
+          "Portuguese",
+          "French",
+          "Italian"
+        ],
+        "explanation": "Brazil is the only Portuguese-speaking country in the Americas, a legacy of the 1494 Treaty of Tordesillas."
+      },
+      "es": {
+        "text": "¿Cuál es el idioma oficial de Brasil?",
+        "options": [
+          "El español",
+          "El portugués",
+          "El francés",
+          "El italiano"
+        ],
+        "explanation": "Brasil es el único país lusófono de América, herencia del Tratado de Tordesillas de 1494."
+      }
+    }
+  },
+  {
+    "sourceRef": "a021f41e7f1c6df3",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel pays nordique est surnommé le « pays des mille lacs » ?",
+        "options": [
+          "La Suède",
+          "La Norvège",
+          "Le Danemark",
+          "La Finlande"
+        ],
+        "explanation": "Le surnom est très en dessous de la réalité : la Finlande compte en fait environ 188 000 lacs."
+      },
+      "en": {
+        "text": "Which Nordic country is nicknamed the 'land of a thousand lakes'?",
+        "options": [
+          "Sweden",
+          "Norway",
+          "Denmark",
+          "Finland"
+        ],
+        "explanation": "The nickname is a huge understatement: Finland actually has about 188,000 lakes."
+      },
+      "es": {
+        "text": "¿Qué país nórdico es apodado el «país de los mil lagos»?",
+        "options": [
+          "Suecia",
+          "Noruega",
+          "Dinamarca",
+          "Finlandia"
+        ],
+        "explanation": "El apodo se queda muy corto: Finlandia tiene en realidad unos 188.000 lagos."
+      }
+    }
+  },
+  {
+    "sourceRef": "5c1c59f2a8bea813",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "En Formule 1, quel drapeau est agité pour signaler la fin de la course ?",
+        "options": [
+          "Le drapeau à damier",
+          "Le drapeau rouge",
+          "Le drapeau bleu",
+          "Le drapeau jaune"
+        ],
+        "explanation": "L'origine du damier noir et blanc reste mystérieuse ; il apparaît dès les courses américaines du début du XXe siècle."
+      },
+      "en": {
+        "text": "In Formula 1, which flag is waved to signal the end of the race?",
+        "options": [
+          "The chequered flag",
+          "The red flag",
+          "The blue flag",
+          "The yellow flag"
+        ],
+        "explanation": "The origin of the black-and-white chequered pattern remains a mystery; it appeared in American races in the early 20th century."
+      },
+      "es": {
+        "text": "En la Fórmula 1, ¿qué bandera se agita para señalar el final de la carrera?",
+        "options": [
+          "La bandera a cuadros",
+          "La bandera roja",
+          "La bandera azul",
+          "La bandera amarilla"
+        ],
+        "explanation": "El origen del damero blanco y negro sigue siendo un misterio; ya aparecía en las carreras estadounidenses de principios del siglo XX."
+      }
+    }
+  },
+  {
+    "sourceRef": "7332e73a45626cd3",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel réalisateur américain a mis en scène « Les Dents de la mer » et « Jurassic Park » ?",
+        "options": [
+          "George Lucas",
+          "Ridley Scott",
+          "Tim Burton",
+          "Steven Spielberg"
+        ],
+        "explanation": "Sur le tournage des « Dents de la mer », le requin mécanique tombait si souvent en panne que Spielberg choisit de le montrer le moins possible."
+      },
+      "en": {
+        "text": "Which American director made 'Jaws' and 'Jurassic Park'?",
+        "options": [
+          "George Lucas",
+          "Ridley Scott",
+          "Tim Burton",
+          "Steven Spielberg"
+        ],
+        "explanation": "On the set of 'Jaws', the mechanical shark broke down so often that Spielberg chose to show it as little as possible."
+      },
+      "es": {
+        "text": "¿Qué director estadounidense dirigió «Tiburón» y «Jurassic Park»?",
+        "options": [
+          "George Lucas",
+          "Ridley Scott",
+          "Tim Burton",
+          "Steven Spielberg"
+        ],
+        "explanation": "En el rodaje de «Tiburón», el tiburón mecánico se averiaba tan a menudo que Spielberg optó por mostrarlo lo menos posible."
+      }
+    }
+  },
+  {
+    "sourceRef": "c9a42a424f298d00",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "À quelle famille d'instruments appartiennent la flûte, la clarinette et le hautbois ?",
+        "options": [
+          "Les cuivres",
+          "Les cordes",
+          "Les percussions",
+          "Les bois"
+        ],
+        "explanation": "On les appelle « bois » même si les flûtes modernes sont en métal : c'est l'origine historique qui compte."
+      },
+      "en": {
+        "text": "To which family of instruments do the flute, clarinet and oboe belong?",
+        "options": [
+          "Brass",
+          "Strings",
+          "Percussion",
+          "Woodwind"
+        ],
+        "explanation": "They are called 'woodwind' even though modern flutes are metal: it is the historical origin that counts."
+      },
+      "es": {
+        "text": "¿A qué familia de instrumentos pertenecen la flauta, el clarinete y el oboe?",
+        "options": [
+          "Los metales",
+          "Las cuerdas",
+          "Las percusiones",
+          "Las maderas"
+        ],
+        "explanation": "Se llaman «maderas» aunque las flautas modernas sean de metal: lo que cuenta es el origen histórico."
+      }
+    }
+  },
+  {
+    "sourceRef": "bcff73fb3555bd1d",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle saison débute à l'équinoxe de mars dans l'hémisphère Nord ?",
+        "options": [
+          "L'hiver",
+          "L'été",
+          "L'automne",
+          "Le printemps"
+        ],
+        "explanation": "À l'équinoxe, le jour et la nuit durent presque exactement 12 heures partout sur Terre."
+      },
+      "en": {
+        "text": "Which season begins at the March equinox in the Northern Hemisphere?",
+        "options": [
+          "Winter",
+          "Summer",
+          "Autumn",
+          "Spring"
+        ],
+        "explanation": "At the equinox, day and night last almost exactly 12 hours everywhere on Earth."
+      },
+      "es": {
+        "text": "¿Qué estación comienza en el equinoccio de marzo en el hemisferio norte?",
+        "options": [
+          "El invierno",
+          "El verano",
+          "El otoño",
+          "La primavera"
+        ],
+        "explanation": "En el equinoccio, el día y la noche duran casi exactamente 12 horas en todo el planeta."
+      }
+    }
+  },
+  {
+    "sourceRef": "076e87c523d87ed0",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle unité sert à mesurer la taille d'un fichier informatique ?",
+        "options": [
+          "Le volt",
+          "Le watt",
+          "L'ampère",
+          "L'octet"
+        ],
+        "explanation": "Un octet regroupe 8 bits ; en anglais, il se dit « byte », d'où les Mo/MB de nos fichiers."
+      },
+      "en": {
+        "text": "Which unit is used to measure the size of a computer file?",
+        "options": [
+          "The volt",
+          "The watt",
+          "The ampere",
+          "The byte"
+        ],
+        "explanation": "A byte groups 8 bits; file sizes stack up from there into KB, MB and GB."
+      },
+      "es": {
+        "text": "¿Qué unidad sirve para medir el tamaño de un archivo informático?",
+        "options": [
+          "El voltio",
+          "El vatio",
+          "El amperio",
+          "El byte"
+        ],
+        "explanation": "Un byte agrupa 8 bits; de ahí salen los KB, MB y GB de nuestros archivos."
+      }
+    }
+  },
+  {
+    "sourceRef": "28e3c093e6a79fa8",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel plat mexicain se compose d'une tortilla de maïs pliée et garnie ?",
+        "options": [
+          "Le taco",
+          "Le burrito",
+          "La quesadilla",
+          "L'enchilada"
+        ],
+        "explanation": "Au Mexique, les tacos se mangent traditionnellement avec les doigts, jamais avec des couverts."
+      },
+      "en": {
+        "text": "Which Mexican dish consists of a folded, filled corn tortilla?",
+        "options": [
+          "The taco",
+          "The burrito",
+          "The quesadilla",
+          "The enchilada"
+        ],
+        "explanation": "In Mexico, tacos are traditionally eaten with the fingers, never with cutlery."
+      },
+      "es": {
+        "text": "¿Qué plato mexicano consiste en una tortilla de maíz doblada y rellena?",
+        "options": [
+          "El taco",
+          "El burrito",
+          "La quesadilla",
+          "La enchilada"
+        ],
+        "explanation": "En México, los tacos se comen tradicionalmente con los dedos, nunca con cubiertos."
+      }
+    }
+  },
+  {
+    "sourceRef": "8ee450f7017260c0",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain-aviateur français est l'auteur du « Petit Prince » ?",
+        "options": [
+          "Albert Camus",
+          "André Malraux",
+          "Romain Gary",
+          "Antoine de Saint-Exupéry"
+        ],
+        "explanation": "« Le Petit Prince » est l'un des livres les plus traduits au monde, disponible dans plus de 500 langues et dialectes."
+      },
+      "en": {
+        "text": "Which French writer-aviator wrote 'The Little Prince'?",
+        "options": [
+          "Albert Camus",
+          "André Malraux",
+          "Romain Gary",
+          "Antoine de Saint-Exupéry"
+        ],
+        "explanation": "'The Little Prince' is one of the most translated books in the world, available in over 500 languages and dialects."
+      },
+      "es": {
+        "text": "¿Qué escritor y aviador francés es el autor de «El Principito»?",
+        "options": [
+          "Albert Camus",
+          "André Malraux",
+          "Romain Gary",
+          "Antoine de Saint-Exupéry"
+        ],
+        "explanation": "«El Principito» es uno de los libros más traducidos del mundo, disponible en más de 500 lenguas y dialectos."
+      }
+    }
+  },
+  {
+    "sourceRef": "26a478fbe0f2d26e",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle bataille de 1066 permit à Guillaume le Conquérant de devenir roi d'Angleterre ?",
+        "options": [
+          "Hastings",
+          "Azincourt",
+          "Bouvines",
+          "Crécy"
+        ],
+        "explanation": "La bataille est racontée en images sur la tapisserie de Bayeux, une broderie de près de 70 mètres de long."
+      },
+      "en": {
+        "text": "Which battle of 1066 enabled William the Conqueror to become King of England?",
+        "options": [
+          "Hastings",
+          "Agincourt",
+          "Bouvines",
+          "Crécy"
+        ],
+        "explanation": "The battle is told in pictures on the Bayeux Tapestry, an embroidery nearly 70 metres long."
+      },
+      "es": {
+        "text": "¿Qué batalla de 1066 permitió a Guillermo el Conquistador convertirse en rey de Inglaterra?",
+        "options": [
+          "Hastings",
+          "Azincourt",
+          "Bouvines",
+          "Crécy"
+        ],
+        "explanation": "La batalla se narra en imágenes en el tapiz de Bayeux, un bordado de casi 70 metros de largo."
+      }
+    }
+  },
+  {
+    "sourceRef": "94d0d3498581dc12",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus petit os du corps humain ?",
+        "options": [
+          "Le marteau",
+          "L'enclume",
+          "L'étrier",
+          "Le scaphoïde"
+        ],
+        "explanation": "Logé dans l'oreille moyenne, l'étrier mesure à peine 3 mm : il transmet les vibrations sonores."
+      },
+      "en": {
+        "text": "What is the smallest bone in the human body?",
+        "options": [
+          "The hammer",
+          "The anvil",
+          "The stirrup",
+          "The scaphoid"
+        ],
+        "explanation": "Housed in the middle ear, the stirrup (stapes) measures barely 3 mm: it transmits sound vibrations."
+      },
+      "es": {
+        "text": "¿Cuál es el hueso más pequeño del cuerpo humano?",
+        "options": [
+          "El martillo",
+          "El yunque",
+          "El estribo",
+          "El escafoides"
+        ],
+        "explanation": "Alojado en el oído medio, el estribo mide apenas 3 mm: transmite las vibraciones sonoras."
+      }
+    }
+  },
+  {
+    "sourceRef": "c2892e30488f3d84",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel mouvement artistique, né à Zurich en 1916, cultivait l'absurde et la provocation ?",
+        "options": [
+          "Le futurisme",
+          "Le fauvisme",
+          "L'expressionnisme",
+          "Le dadaïsme"
+        ],
+        "explanation": "Selon la légende, le nom « Dada » aurait été trouvé en ouvrant un dictionnaire au hasard avec un coupe-papier."
+      },
+      "en": {
+        "text": "Which art movement, born in Zurich in 1916, cultivated absurdity and provocation?",
+        "options": [
+          "Futurism",
+          "Fauvism",
+          "Expressionism",
+          "Dadaism"
+        ],
+        "explanation": "According to legend, the name 'Dada' was found by opening a dictionary at random with a paper knife."
+      },
+      "es": {
+        "text": "¿Qué movimiento artístico, nacido en Zúrich en 1916, cultivaba el absurdo y la provocación?",
+        "options": [
+          "El futurismo",
+          "El fauvismo",
+          "El expresionismo",
+          "El dadaísmo"
+        ],
+        "explanation": "Según la leyenda, el nombre «Dadá» se encontró abriendo un diccionario al azar con un abrecartas."
+      }
+    }
+  },
+  {
+    "sourceRef": "21dc765a85a47c95",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel violoniste virtuose italien du XIXe siècle passait pour avoir « pactisé avec le diable » ?",
+        "options": [
+          "Niccolò Paganini",
+          "Antonio Vivaldi",
+          "Arcangelo Corelli",
+          "Giuseppe Tartini"
+        ],
+        "explanation": "Sa virtuosité semblait si surnaturelle que certains spectateurs juraient voir le diable guider son archet."
+      },
+      "en": {
+        "text": "Which virtuoso Italian violinist of the 19th century was rumoured to have 'made a pact with the devil'?",
+        "options": [
+          "Niccolò Paganini",
+          "Antonio Vivaldi",
+          "Arcangelo Corelli",
+          "Giuseppe Tartini"
+        ],
+        "explanation": "His virtuosity seemed so supernatural that some spectators swore they saw the devil guiding his bow."
+      },
+      "es": {
+        "text": "¿Qué violinista virtuoso italiano del siglo XIX tenía fama de haber «pactado con el diablo»?",
+        "options": [
+          "Niccolò Paganini",
+          "Antonio Vivaldi",
+          "Arcangelo Corelli",
+          "Giuseppe Tartini"
+        ],
+        "explanation": "Su virtuosismo parecía tan sobrenatural que algunos espectadores juraban ver al diablo guiando su arco."
+      }
+    }
+  },
+  {
+    "sourceRef": "06f37b04eff5db43",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel film muet de Charlie Chaplin se déroule pendant la ruée vers l'or du Klondike ?",
+        "options": [
+          "Les Temps modernes",
+          "Le Kid",
+          "Le Dictateur",
+          "La Ruée vers l'or"
+        ],
+        "explanation": "La célèbre scène où Charlot mange sa chaussure utilisait une chaussure… en réglisse."
+      },
+      "en": {
+        "text": "Which silent Charlie Chaplin film is set during the Klondike gold rush?",
+        "options": [
+          "Modern Times",
+          "The Kid",
+          "The Great Dictator",
+          "The Gold Rush"
+        ],
+        "explanation": "The famous scene where the Tramp eats his shoe used a shoe… made of liquorice."
+      },
+      "es": {
+        "text": "¿Qué película muda de Charlie Chaplin transcurre durante la fiebre del oro del Klondike?",
+        "options": [
+          "Tiempos modernos",
+          "El chico",
+          "El gran dictador",
+          "La quimera del oro"
+        ],
+        "explanation": "La famosa escena en la que Charlot se come su zapato usaba un zapato… de regaliz."
+      }
+    }
+  },
+  {
+    "sourceRef": "a337f2300e7eac32",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle algue séchée entoure traditionnellement les makis japonais ?",
+        "options": [
+          "Le wakamé",
+          "Le kombu",
+          "Le nori",
+          "L'agar-agar"
+        ],
+        "explanation": "Le nori est cultivé en mer sur de grands filets, puis pressé et séché en feuilles, comme du papier."
+      },
+      "en": {
+        "text": "Which dried seaweed traditionally wraps Japanese maki rolls?",
+        "options": [
+          "Wakame",
+          "Kombu",
+          "Nori",
+          "Agar-agar"
+        ],
+        "explanation": "Nori is grown at sea on large nets, then pressed and dried into sheets, like paper."
+      },
+      "es": {
+        "text": "¿Qué alga seca envuelve tradicionalmente los makis japoneses?",
+        "options": [
+          "El wakame",
+          "El kombu",
+          "El nori",
+          "El agar-agar"
+        ],
+        "explanation": "El nori se cultiva en el mar sobre grandes redes y luego se prensa y se seca en láminas, como el papel."
+      }
+    }
+  },
+  {
+    "sourceRef": "3ae19568648b5235",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale, perchée à environ 3 600 m d'altitude, est le siège de gouvernement le plus haut du monde ?",
+        "options": [
+          "La Paz",
+          "Quito",
+          "Bogotá",
+          "Katmandou"
+        ],
+        "explanation": "L'altitude y est telle que les habitants utilisent un immense réseau de téléphériques comme transport en commun."
+      },
+      "en": {
+        "text": "Which capital, perched at about 3,600 m above sea level, is the highest seat of government in the world?",
+        "options": [
+          "La Paz",
+          "Quito",
+          "Bogotá",
+          "Kathmandu"
+        ],
+        "explanation": "The altitude is such that residents use a huge network of cable cars as public transport."
+      },
+      "es": {
+        "text": "¿Qué capital, encaramada a unos 3.600 m de altitud, es la sede de gobierno más alta del mundo?",
+        "options": [
+          "La Paz",
+          "Quito",
+          "Bogotá",
+          "Katmandú"
+        ],
+        "explanation": "La altitud es tal que sus habitantes usan una enorme red de teleféricos como transporte público."
+      }
+    }
+  }
+]
