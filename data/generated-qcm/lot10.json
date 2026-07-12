@@ -1,0 +1,1952 @@
+[
+  {
+    "sourceRef": "11b66bbb1f72dd22",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel jeune héros de Roald Dahl gagne un ticket d'or pour visiter une chocolaterie extraordinaire ?",
+        "options": [
+          "Charlie",
+          "James",
+          "Matilda",
+          "Danny"
+        ],
+        "explanation": "Roald Dahl fut, enfant, goûteur pour une chocolaterie : les tablettes arrivaient à son pensionnat par cartons entiers."
+      },
+      "en": {
+        "text": "Which young Roald Dahl hero wins a golden ticket to visit an extraordinary chocolate factory?",
+        "options": [
+          "Charlie",
+          "James",
+          "Matilda",
+          "Danny"
+        ],
+        "explanation": "As a boy, Roald Dahl was a taster for a chocolate factory: bars arrived at his boarding school by the boxful."
+      },
+      "es": {
+        "text": "¿Qué joven héroe de Roald Dahl gana un billete dorado para visitar una fábrica de chocolate extraordinaria?",
+        "options": [
+          "Charlie",
+          "James",
+          "Matilda",
+          "Danny"
+        ],
+        "explanation": "De niño, Roald Dahl fue catador para una fábrica de chocolate: las tabletas llegaban a su internado por cajas."
+      }
+    }
+  },
+  {
+    "sourceRef": "aa7fa277abcfb1e8",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel roi des éléphants, toujours vêtu d'un costume vert, règne sur la ville de Célesteville ?",
+        "options": [
+          "Dumbo",
+          "Babar",
+          "Pom",
+          "Cornélius"
+        ],
+        "explanation": "Babar est né en 1931 d'une histoire que Cécile de Brunhoff racontait à ses fils ; son mari Jean la mit en images."
+      },
+      "en": {
+        "text": "Which elephant king, always dressed in a green suit, reigns over the city of Celesteville?",
+        "options": [
+          "Dumbo",
+          "Babar",
+          "Pom",
+          "Cornelius"
+        ],
+        "explanation": "Babar was born in 1931 from a story Cécile de Brunhoff told her sons; her husband Jean turned it into pictures."
+      },
+      "es": {
+        "text": "¿Qué rey de los elefantes, siempre vestido con un traje verde, reina sobre la ciudad de Celesteville?",
+        "options": [
+          "Dumbo",
+          "Babar",
+          "Pom",
+          "Cornelio"
+        ],
+        "explanation": "Babar nació en 1931 de un cuento que Cécile de Brunhoff narraba a sus hijos; su marido Jean lo ilustró."
+      }
+    }
+  },
+  {
+    "sourceRef": "32e320534aff3714",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel dessinateur belge a créé les Schtroumpfs, petits lutins bleus des champignons ?",
+        "options": [
+          "Peyo",
+          "Hergé",
+          "Franquin",
+          "Morris"
+        ],
+        "explanation": "Le mot « schtroumpf » est né à table : Peyo, cherchant le mot « salière », demanda qu'on lui passe… le « schtroumpf »."
+      },
+      "en": {
+        "text": "Which Belgian cartoonist created the Smurfs, the little blue elves of the mushroom village?",
+        "options": [
+          "Peyo",
+          "Hergé",
+          "Franquin",
+          "Morris"
+        ],
+        "explanation": "The word 'smurf' was born at the table: Peyo, groping for the word 'salt cellar', asked to be passed… the 'schtroumpf'."
+      },
+      "es": {
+        "text": "¿Qué dibujante belga creó a los Pitufos, los duendecillos azules de las setas?",
+        "options": [
+          "Peyo",
+          "Hergé",
+          "Franquin",
+          "Morris"
+        ],
+        "explanation": "La palabra «pitufo» («schtroumpf») nació en la mesa: Peyo, buscando la palabra «salero», pidió que le pasaran… el «schtroumpf»."
+      }
+    }
+  },
+  {
+    "sourceRef": "b64479cf2e7742da",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel maître américain de l'horreur a écrit « Shining » et « Ça » ?",
+        "options": [
+          "H.P. Lovecraft",
+          "Stephen King",
+          "Edgar Allan Poe",
+          "Dean Koontz"
+        ],
+        "explanation": "King jeta le manuscrit de son premier succès, « Carrie », à la poubelle ; sa femme Tabitha l'en ressortit."
+      },
+      "en": {
+        "text": "Which American master of horror wrote 'The Shining' and 'It'?",
+        "options": [
+          "H.P. Lovecraft",
+          "Stephen King",
+          "Edgar Allan Poe",
+          "Dean Koontz"
+        ],
+        "explanation": "King threw the manuscript of his first hit, 'Carrie', into the bin; his wife Tabitha fished it out."
+      },
+      "es": {
+        "text": "¿Qué maestro estadounidense del terror escribió «El resplandor» y «It»?",
+        "options": [
+          "H.P. Lovecraft",
+          "Stephen King",
+          "Edgar Allan Poe",
+          "Dean Koontz"
+        ],
+        "explanation": "King tiró a la basura el manuscrito de su primer éxito, «Carrie»; su esposa Tabitha lo rescató."
+      }
+    }
+  },
+  {
+    "sourceRef": "0fd1f910956132ae",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain argentin, devenu aveugle et directeur de la Bibliothèque nationale, a écrit le recueil « Fictions » ?",
+        "options": [
+          "Jorge Luis Borges",
+          "Julio Cortázar",
+          "Ernesto Sabato",
+          "Adolfo Bioy Casares"
+        ],
+        "explanation": "Borges nota l'ironie du sort : recevoir « d'un coup les livres et la nuit », 800 000 volumes et la cécité."
+      },
+      "en": {
+        "text": "Which Argentine writer, who went blind and directed the National Library, wrote the collection 'Ficciones'?",
+        "options": [
+          "Jorge Luis Borges",
+          "Julio Cortázar",
+          "Ernesto Sabato",
+          "Adolfo Bioy Casares"
+        ],
+        "explanation": "Borges noted fate's irony: receiving 'books and night at once' — 800,000 volumes and blindness."
+      },
+      "es": {
+        "text": "¿Qué escritor argentino, que quedó ciego y dirigió la Biblioteca Nacional, escribió la colección «Ficciones»?",
+        "options": [
+          "Jorge Luis Borges",
+          "Julio Cortázar",
+          "Ernesto Sabato",
+          "Adolfo Bioy Casares"
+        ],
+        "explanation": "Borges señaló la ironía del destino: recibir «a la vez los libros y la noche», 800.000 volúmenes y la ceguera."
+      }
+    }
+  },
+  {
+    "sourceRef": "ca03c0ae12c5592e",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel poète prodige écrivit « Le Bateau ivre » à 17 ans, avant d'abandonner la poésie pour toujours vers 20 ans ?",
+        "options": [
+          "Paul Verlaine",
+          "Arthur Rimbaud",
+          "Alfred de Musset",
+          "Gérard de Nerval"
+        ],
+        "explanation": "Après la poésie, Rimbaud devint explorateur et négociant dans la Corne de l'Afrique, sans plus jamais écrire de vers."
+      },
+      "en": {
+        "text": "Which prodigy poet wrote 'The Drunken Boat' at 17, before abandoning poetry forever at around 20?",
+        "options": [
+          "Paul Verlaine",
+          "Arthur Rimbaud",
+          "Alfred de Musset",
+          "Gérard de Nerval"
+        ],
+        "explanation": "After poetry, Rimbaud became an explorer and trader in the Horn of Africa, never writing verse again."
+      },
+      "es": {
+        "text": "¿Qué poeta prodigio escribió «El barco ebrio» a los 17 años, antes de abandonar la poesía para siempre hacia los 20?",
+        "options": [
+          "Paul Verlaine",
+          "Arthur Rimbaud",
+          "Alfred de Musset",
+          "Gérard de Nerval"
+        ],
+        "explanation": "Tras la poesía, Rimbaud se hizo explorador y comerciante en el Cuerno de África, sin volver a escribir versos."
+      }
+    }
+  },
+  {
+    "sourceRef": "854feb73f67151df",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on le tableau qu'un peintre réalise de lui-même ?",
+        "options": [
+          "Un portrait croisé",
+          "Une effigie",
+          "Un autoportrait",
+          "Un profil"
+        ],
+        "explanation": "Rembrandt s'est peint près d'une centaine de fois, laissant un « journal intime » de tout son visage vieillissant."
+      },
+      "en": {
+        "text": "What do you call a painting an artist makes of himself or herself?",
+        "options": [
+          "A double portrait",
+          "An effigy",
+          "A self-portrait",
+          "A profile"
+        ],
+        "explanation": "Rembrandt painted himself nearly a hundred times, leaving a 'diary' of his whole ageing face."
+      },
+      "es": {
+        "text": "¿Cómo se llama el cuadro que un pintor hace de sí mismo?",
+        "options": [
+          "Un retrato doble",
+          "Una efigie",
+          "Un autorretrato",
+          "Un perfil"
+        ],
+        "explanation": "Rembrandt se pintó casi cien veces, dejando un «diario íntimo» de todo su rostro envejeciendo."
+      }
+    }
+  },
+  {
+    "sourceRef": "eda8f5b83df59e85",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel style architectural médiéval, aux vitraux immenses et aux arcs-boutants, a donné Notre-Dame de Paris ?",
+        "options": [
+          "Le gothique",
+          "Le roman",
+          "Le baroque",
+          "Le byzantin"
+        ],
+        "explanation": "Le mot « gothique » fut d'abord une insulte de la Renaissance, qui jugeait ce style digne des « barbares » Goths."
+      },
+      "en": {
+        "text": "Which medieval architectural style, with huge stained glass and flying buttresses, produced Notre-Dame de Paris?",
+        "options": [
+          "Gothic",
+          "Romanesque",
+          "Baroque",
+          "Byzantine"
+        ],
+        "explanation": "The word 'Gothic' began as a Renaissance insult, deeming the style worthy of the 'barbarian' Goths."
+      },
+      "es": {
+        "text": "¿Qué estilo arquitectónico medieval, de inmensas vidrieras y arbotantes, dio Notre-Dame de París?",
+        "options": [
+          "El gótico",
+          "El románico",
+          "El barroco",
+          "El bizantino"
+        ],
+        "explanation": "La palabra «gótico» fue primero un insulto del Renacimiento, que juzgaba este estilo digno de los «bárbaros» godos."
+      }
+    }
+  },
+  {
+    "sourceRef": "43b968421b29ce5d",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel bâtonnet de bois carbonisé les artistes utilisent-ils pour dessiner en noir profond ?",
+        "options": [
+          "La sanguine",
+          "Le fusain",
+          "Le pastel",
+          "La mine de plomb"
+        ],
+        "explanation": "Le fusain est l'un des plus vieux outils d'art : les artistes de la préhistoire dessinaient déjà au charbon de bois."
+      },
+      "en": {
+        "text": "Which stick of charred wood do artists use to draw in deep black?",
+        "options": [
+          "Sanguine",
+          "Charcoal",
+          "Pastel",
+          "Graphite"
+        ],
+        "explanation": "Charcoal is one of art's oldest tools: prehistoric artists were already drawing with charred wood."
+      },
+      "es": {
+        "text": "¿Qué barrita de madera carbonizada usan los artistas para dibujar en negro profundo?",
+        "options": [
+          "La sanguina",
+          "El carboncillo",
+          "El pastel",
+          "El grafito"
+        ],
+        "explanation": "El carboncillo es una de las herramientas más antiguas del arte: los artistas prehistóricos ya dibujaban con madera quemada."
+      }
+    }
+  },
+  {
+    "sourceRef": "d22830f7ee0f651e",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel maître de l'estampe japonaise a créé « La Grande Vague de Kanagawa » ?",
+        "options": [
+          "Hiroshige",
+          "Utamaro",
+          "Hokusai",
+          "Sesshū"
+        ],
+        "explanation": "Hokusai signa cette vague à 70 ans passés ; il rêvait de vivre jusqu'à 110 ans pour atteindre enfin le « vrai dessin »."
+      },
+      "en": {
+        "text": "Which master of the Japanese print created 'The Great Wave off Kanagawa'?",
+        "options": [
+          "Hiroshige",
+          "Utamaro",
+          "Hokusai",
+          "Sesshū"
+        ],
+        "explanation": "Hokusai made the wave in his seventies; he dreamed of living to 110 to finally achieve 'true drawing'."
+      },
+      "es": {
+        "text": "¿Qué maestro de la estampa japonesa creó «La gran ola de Kanagawa»?",
+        "options": [
+          "Hiroshige",
+          "Utamaro",
+          "Hokusai",
+          "Sesshū"
+        ],
+        "explanation": "Hokusai firmó esa ola pasados los 70 años; soñaba con vivir hasta los 110 para alcanzar por fin el «verdadero dibujo»."
+      }
+    }
+  },
+  {
+    "sourceRef": "49199a7438af5eb4",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel maître flamand du XVe siècle peignit « Le Jardin des délices », triptyque peuplé de créatures fantastiques ?",
+        "options": [
+          "Pieter Bruegel l'Ancien",
+          "Jan van Eyck",
+          "Rogier van der Weyden",
+          "Jérôme Bosch"
+        ],
+        "explanation": "Cinq siècles avant le surréalisme, Bosch peuplait déjà ses panneaux d'hybrides impossibles et de machines infernales."
+      },
+      "en": {
+        "text": "Which 15th-century Flemish master painted 'The Garden of Earthly Delights', a triptych teeming with fantastic creatures?",
+        "options": [
+          "Pieter Bruegel the Elder",
+          "Jan van Eyck",
+          "Rogier van der Weyden",
+          "Hieronymus Bosch"
+        ],
+        "explanation": "Five centuries before Surrealism, Bosch was already filling his panels with impossible hybrids and infernal machines."
+      },
+      "es": {
+        "text": "¿Qué maestro flamenco del siglo XV pintó «El jardín de las delicias», tríptico poblado de criaturas fantásticas?",
+        "options": [
+          "Pieter Bruegel el Viejo",
+          "Jan van Eyck",
+          "Rogier van der Weyden",
+          "El Bosco"
+        ],
+        "explanation": "Cinco siglos antes del surrealismo, El Bosco ya llenaba sus tablas de híbridos imposibles y máquinas infernales."
+      }
+    }
+  },
+  {
+    "sourceRef": "ffb2898e676159ef",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel légume a la réputation de faire pleurer celui qui le coupe ?",
+        "options": [
+          "L'oignon",
+          "Le poireau",
+          "Le navet",
+          "Le radis"
+        ],
+        "explanation": "Couper l'oignon libère un gaz soufré qui irrite les yeux ; le passer sous l'eau froide limite les larmes."
+      },
+      "en": {
+        "text": "Which vegetable is famous for making whoever cuts it cry?",
+        "options": [
+          "The onion",
+          "The leek",
+          "The turnip",
+          "The radish"
+        ],
+        "explanation": "Cutting an onion releases a sulphurous gas that irritates the eyes; rinsing it in cold water limits the tears."
+      },
+      "es": {
+        "text": "¿Qué hortaliza tiene fama de hacer llorar a quien la corta?",
+        "options": [
+          "La cebolla",
+          "El puerro",
+          "El nabo",
+          "El rábano"
+        ],
+        "explanation": "Cortar la cebolla libera un gas sulfuroso que irrita los ojos; pasarla por agua fría limita las lágrimas."
+      }
+    }
+  },
+  {
+    "sourceRef": "6ab4285805b115d4",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel agrume jaune et très acide presse-t-on sur le poisson et les crêpes ?",
+        "options": [
+          "L'orange",
+          "Le citron",
+          "Le pamplemousse",
+          "La mandarine"
+        ],
+        "explanation": "Les marins britanniques embarquaient jadis citrons et limes contre le scorbut, d'où leur surnom de « limeys »."
+      },
+      "en": {
+        "text": "Which very sour yellow citrus fruit is squeezed over fish and pancakes?",
+        "options": [
+          "The orange",
+          "The lemon",
+          "The grapefruit",
+          "The mandarin"
+        ],
+        "explanation": "British sailors once shipped lemons and limes against scurvy, hence their nickname 'limeys'."
+      },
+      "es": {
+        "text": "¿Qué cítrico amarillo y muy ácido se exprime sobre el pescado y los crepes?",
+        "options": [
+          "La naranja",
+          "El limón",
+          "El pomelo",
+          "La mandarina"
+        ],
+        "explanation": "Los marinos británicos embarcaban antaño limones y limas contra el escorbuto, de ahí su apodo de «limeys»."
+      }
+    }
+  },
+  {
+    "sourceRef": "579fba48fecaeda8",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle herbe aromatique fraîche est indispensable au cocktail mojito ?",
+        "options": [
+          "La menthe",
+          "Le basilic",
+          "La coriandre",
+          "L'estragon"
+        ],
+        "explanation": "L'ancêtre du mojito, le « draque », était un remède de marins à base de tafia, citron vert et menthe."
+      },
+      "en": {
+        "text": "Which fresh aromatic herb is essential to the mojito cocktail?",
+        "options": [
+          "Mint",
+          "Basil",
+          "Coriander",
+          "Tarragon"
+        ],
+        "explanation": "The mojito's ancestor, the 'draque', was a sailors' remedy made of raw rum, lime and mint."
+      },
+      "es": {
+        "text": "¿Qué hierba aromática fresca es indispensable en el cóctel mojito?",
+        "options": [
+          "La menta",
+          "La albahaca",
+          "El cilantro",
+          "El estragón"
+        ],
+        "explanation": "El antepasado del mojito, el «draque», era un remedio de marineros a base de aguardiente, lima y menta."
+      }
+    }
+  },
+  {
+    "sourceRef": "5c59d109b37f750e",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle spécialité alsacienne de chou fermenté accompagne saucisses et charcuterie ?",
+        "options": [
+          "La potée",
+          "Le baeckeoffe",
+          "La choucroute",
+          "La flammekueche"
+        ],
+        "explanation": "La fermentation du chou serait venue de Chine par les steppes ; les bâtisseurs de la Grande Muraille en mangeaient déjà."
+      },
+      "en": {
+        "text": "Which Alsatian speciality of fermented cabbage accompanies sausages and cured meats?",
+        "options": [
+          "Potée",
+          "Baeckeoffe",
+          "Sauerkraut",
+          "Flammekueche"
+        ],
+        "explanation": "Cabbage fermentation is said to have come from China across the steppes; the builders of the Great Wall already ate it."
+      },
+      "es": {
+        "text": "¿Qué especialidad alsaciana de col fermentada acompaña salchichas y embutidos?",
+        "options": [
+          "La potée",
+          "El baeckeoffe",
+          "El chucrut",
+          "La flammekueche"
+        ],
+        "explanation": "La fermentación de la col habría llegado de China por las estepas; los constructores de la Gran Muralla ya la comían."
+      }
+    }
+  },
+  {
+    "sourceRef": "2f632e76bb74aaa2",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel fruit asiatique, surnommé le « roi des fruits », est banni de nombreux hôtels et métros à cause de son odeur ?",
+        "options": [
+          "Le durian",
+          "Le jacquier",
+          "Le ramboutan",
+          "Le mangoustan"
+        ],
+        "explanation": "Son odeur mêle, selon les nez, oignon pourri et caramel ; ses amateurs la trouvent divine, les autres insupportable."
+      },
+      "en": {
+        "text": "Which Asian fruit, nicknamed the 'king of fruits', is banned from many hotels and subways because of its smell?",
+        "options": [
+          "The durian",
+          "The jackfruit",
+          "The rambutan",
+          "The mangosteen"
+        ],
+        "explanation": "Its smell blends, depending on the nose, rotten onion and caramel; fans find it divine, others unbearable."
+      },
+      "es": {
+        "text": "¿Qué fruta asiática, apodada el «rey de las frutas», está prohibida en muchos hoteles y metros por su olor?",
+        "options": [
+          "El durián",
+          "La yaca",
+          "El rambután",
+          "El mangostán"
+        ],
+        "explanation": "Su olor mezcla, según la nariz, cebolla podrida y caramelo; sus aficionados lo hallan divino, los demás insoportable."
+      }
+    }
+  },
+  {
+    "sourceRef": "2ca7e8fcb1356156",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel poisson japonais, mortel s'il est mal préparé, ne peut être cuisiné que par des chefs spécialement licenciés ?",
+        "options": [
+          "L'anguille unagi",
+          "Le fugu",
+          "Le thon otoro",
+          "La bonite"
+        ],
+        "explanation": "Sa toxine est 1 200 fois plus puissante que le cyanure ; l'empereur du Japon a interdiction d'en manger."
+      },
+      "en": {
+        "text": "Which Japanese fish, deadly if badly prepared, may only be cooked by specially licensed chefs?",
+        "options": [
+          "Unagi eel",
+          "Fugu",
+          "Otoro tuna",
+          "Bonito"
+        ],
+        "explanation": "Its toxin is 1,200 times more potent than cyanide; the Emperor of Japan is forbidden to eat it."
+      },
+      "es": {
+        "text": "¿Qué pez japonés, mortal si se prepara mal, solo puede ser cocinado por chefs con licencia especial?",
+        "options": [
+          "La anguila unagi",
+          "El fugu",
+          "El atún otoro",
+          "El bonito"
+        ],
+        "explanation": "Su toxina es 1.200 veces más potente que el cianuro; el emperador de Japón tiene prohibido comerlo."
+      }
+    }
+  },
+  {
+    "sourceRef": "e2b9fc9202d803f9",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel appareil de cuisine réchauffe les plats en quelques secondes grâce à des ondes ?",
+        "options": [
+          "Le micro-ondes",
+          "Le grille-pain",
+          "La friteuse",
+          "Le cuiseur vapeur"
+        ],
+        "explanation": "Il fut inventé par accident en 1945, quand un radar fit fondre la barre chocolatée dans la poche d'un ingénieur."
+      },
+      "en": {
+        "text": "Which kitchen appliance reheats dishes in seconds using waves?",
+        "options": [
+          "The microwave",
+          "The toaster",
+          "The deep fryer",
+          "The steamer"
+        ],
+        "explanation": "It was invented by accident in 1945, when a radar melted the chocolate bar in an engineer's pocket."
+      },
+      "es": {
+        "text": "¿Qué electrodoméstico recalienta los platos en segundos mediante ondas?",
+        "options": [
+          "El microondas",
+          "La tostadora",
+          "La freidora",
+          "La vaporera"
+        ],
+        "explanation": "Se inventó por accidente en 1945, cuando un radar derritió la chocolatina en el bolsillo de un ingeniero."
+      }
+    }
+  },
+  {
+    "sourceRef": "7f895459f4af94ca",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle invention Alexander Graham Bell fit-il breveter en 1876 ?",
+        "options": [
+          "Le télégraphe",
+          "Le téléphone",
+          "La radio",
+          "Le phonographe"
+        ],
+        "explanation": "Bell proposa de répondre au téléphone par « Ahoy ! » ; c'est Edison qui imposa le « Hello »."
+      },
+      "en": {
+        "text": "Which invention did Alexander Graham Bell patent in 1876?",
+        "options": [
+          "The telegraph",
+          "The telephone",
+          "The radio",
+          "The phonograph"
+        ],
+        "explanation": "Bell suggested answering the phone with 'Ahoy!'; it was Edison who established 'Hello'."
+      },
+      "es": {
+        "text": "¿Qué invento patentó Alexander Graham Bell en 1876?",
+        "options": [
+          "El telégrafo",
+          "El teléfono",
+          "La radio",
+          "El fonógrafo"
+        ],
+        "explanation": "Bell propuso contestar al teléfono con «¡Ahoy!»; fue Edison quien impuso el «Hello»."
+      }
+    }
+  },
+  {
+    "sourceRef": "8dacdff5ebbfefee",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel format de compression audio, né dans les années 1990, a bouleversé la musique en ligne ?",
+        "options": [
+          "Le WAV",
+          "Le FLAC",
+          "Le MP3",
+          "Le MIDI"
+        ],
+        "explanation": "Ses créateurs testaient la compression sur « Tom's Diner » de Suzanne Vega, devenue la « mère du MP3 »."
+      },
+      "en": {
+        "text": "Which audio compression format, born in the 1990s, upended online music?",
+        "options": [
+          "WAV",
+          "FLAC",
+          "MP3",
+          "MIDI"
+        ],
+        "explanation": "Its creators tested the compression on Suzanne Vega's 'Tom's Diner', making her the 'mother of the MP3'."
+      },
+      "es": {
+        "text": "¿Qué formato de compresión de audio, nacido en los años 90, revolucionó la música en línea?",
+        "options": [
+          "El WAV",
+          "El FLAC",
+          "El MP3",
+          "El MIDI"
+        ],
+        "explanation": "Sus creadores probaban la compresión con «Tom's Diner» de Suzanne Vega, convertida en la «madre del MP3»."
+      }
+    }
+  },
+  {
+    "sourceRef": "6bdcc2317242a206",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel système d'écriture en points saillants, lu du bout des doigts, porte le nom de son inventeur français ?",
+        "options": [
+          "Le morse",
+          "Le sténo",
+          "La cunéiforme",
+          "Le braille"
+        ],
+        "explanation": "Louis Braille inventa son alphabet à 15 ans, en s'inspirant d'un code militaire de « lecture nocturne »."
+      },
+      "en": {
+        "text": "Which writing system of raised dots, read with the fingertips, bears the name of its French inventor?",
+        "options": [
+          "Morse",
+          "Shorthand",
+          "Cuneiform",
+          "Braille"
+        ],
+        "explanation": "Louis Braille invented his alphabet at 15, inspired by a military 'night reading' code."
+      },
+      "es": {
+        "text": "¿Qué sistema de escritura de puntos en relieve, leído con la yema de los dedos, lleva el nombre de su inventor francés?",
+        "options": [
+          "El morse",
+          "La taquigrafía",
+          "La cuneiforme",
+          "El braille"
+        ],
+        "explanation": "Louis Braille inventó su alfabeto a los 15 años, inspirándose en un código militar de «lectura nocturna»."
+      }
+    }
+  },
+  {
+    "sourceRef": "1f91d2ee7c38a1e7",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel langage de programmation créé par Dennis Ritchie dans les années 1970 porte pour tout nom une lettre ?",
+        "options": [
+          "Le langage B",
+          "Le langage D",
+          "Le langage C",
+          "Le langage R"
+        ],
+        "explanation": "Le C s'appelle ainsi car il succédait au langage « B » ; il fait toujours tourner la majorité des systèmes d'exploitation."
+      },
+      "en": {
+        "text": "Which programming language created by Dennis Ritchie in the 1970s has a single letter for a name?",
+        "options": [
+          "The B language",
+          "The D language",
+          "The C language",
+          "The R language"
+        ],
+        "explanation": "C is so named because it succeeded the 'B' language; it still powers most operating systems."
+      },
+      "es": {
+        "text": "¿Qué lenguaje de programación creado por Dennis Ritchie en los años 70 tiene una sola letra por nombre?",
+        "options": [
+          "El lenguaje B",
+          "El lenguaje D",
+          "El lenguaje C",
+          "El lenguaje R"
+        ],
+        "explanation": "El C se llama así porque sucedió al lenguaje «B»; todavía hace funcionar la mayoría de los sistemas operativos."
+      }
+    }
+  },
+  {
+    "sourceRef": "7c9025b356b220cb",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "En quelle année l'URSS lança-t-elle Spoutnik, premier satellite artificiel de l'histoire ?",
+        "options": [
+          "1949",
+          "1961",
+          "1969",
+          "1957"
+        ],
+        "explanation": "Sa petite sphère de 58 cm émettait un « bip-bip » que les radioamateurs du monde entier pouvaient capter."
+      },
+      "en": {
+        "text": "In which year did the USSR launch Sputnik, the first artificial satellite in history?",
+        "options": [
+          "1949",
+          "1961",
+          "1969",
+          "1957"
+        ],
+        "explanation": "Its little 58 cm sphere emitted a 'beep-beep' that amateur radio operators worldwide could pick up."
+      },
+      "es": {
+        "text": "¿En qué año lanzó la URSS el Sputnik, el primer satélite artificial de la historia?",
+        "options": [
+          "1949",
+          "1961",
+          "1969",
+          "1957"
+        ],
+        "explanation": "Su pequeña esfera de 58 cm emitía un «bip-bip» que los radioaficionados de todo el mundo podían captar."
+      }
+    }
+  },
+  {
+    "sourceRef": "7d924d450647742d",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Sur quel continent les plus anciens ancêtres de l'humanité sont-ils apparus ?",
+        "options": [
+          "L'Asie",
+          "L'Afrique",
+          "L'Europe",
+          "L'Amérique du Sud"
+        ],
+        "explanation": "La célèbre « Lucy », vieille de 3,2 millions d'années, fut baptisée d'après une chanson des Beatles écoutée par les chercheurs."
+      },
+      "en": {
+        "text": "On which continent did humanity's oldest ancestors appear?",
+        "options": [
+          "Asia",
+          "Africa",
+          "Europe",
+          "South America"
+        ],
+        "explanation": "The famous 'Lucy', 3.2 million years old, was named after a Beatles song the researchers were playing."
+      },
+      "es": {
+        "text": "¿En qué continente aparecieron los ancestros más antiguos de la humanidad?",
+        "options": [
+          "Asia",
+          "África",
+          "Europa",
+          "América del Sur"
+        ],
+        "explanation": "La famosa «Lucy», de 3,2 millones de años, fue bautizada por una canción de los Beatles que escuchaban los investigadores."
+      }
+    }
+  },
+  {
+    "sourceRef": "e9f2255b42a5ab63",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle fortification de plusieurs milliers de kilomètres fut bâtie pour protéger la Chine des invasions venues du nord ?",
+        "options": [
+          "Le mur d'Hadrien",
+          "La ligne Maginot",
+          "La Grande Muraille",
+          "Le limes romain"
+        ],
+        "explanation": "Contrairement à la légende, elle n'est pas visible à l'œil nu depuis l'espace : trop étroite."
+      },
+      "en": {
+        "text": "Which fortification thousands of kilometres long was built to protect China from invasions from the north?",
+        "options": [
+          "Hadrian's Wall",
+          "The Maginot Line",
+          "The Great Wall",
+          "The Roman limes"
+        ],
+        "explanation": "Contrary to legend, it is not visible to the naked eye from space: it is too narrow."
+      },
+      "es": {
+        "text": "¿Qué fortificación de miles de kilómetros se construyó para proteger China de las invasiones del norte?",
+        "options": [
+          "El muro de Adriano",
+          "La línea Maginot",
+          "La Gran Muralla",
+          "El limes romano"
+        ],
+        "explanation": "Al contrario de la leyenda, no es visible a simple vista desde el espacio: es demasiado estrecha."
+      }
+    }
+  },
+  {
+    "sourceRef": "eacb1226dcdc5a6d",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel surnom donnait-on aux soldats français des tranchées pendant la Première Guerre mondiale ?",
+        "options": [
+          "Les poilus",
+          "Les grognards",
+          "Les bleuets",
+          "Les sans-culottes"
+        ],
+        "explanation": "« Poilu » ne désignait pas la barbe mais le courage : au XIXe siècle, un homme « poilu » était un brave."
+      },
+      "en": {
+        "text": "What nickname was given to the French trench soldiers of the First World War?",
+        "options": [
+          "The 'poilus'",
+          "The 'grognards'",
+          "The 'bleuets'",
+          "The 'sans-culottes'"
+        ],
+        "explanation": "'Poilu' (hairy) referred not to beards but to courage: in the 19th century, a 'hairy' man was a brave one."
+      },
+      "es": {
+        "text": "¿Qué apodo se daba a los soldados franceses de las trincheras durante la Primera Guerra Mundial?",
+        "options": [
+          "Los «poilus»",
+          "Los «grognards»",
+          "Los «bleuets»",
+          "Los «sans-culottes»"
+        ],
+        "explanation": "«Poilu» (peludo) no aludía a la barba sino al valor: en el siglo XIX, un hombre «peludo» era un valiente."
+      }
+    }
+  },
+  {
+    "sourceRef": "c8c1ff6fe94ba622",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel navigateur britannique cartographia le Pacifique et aborda Hawaï, où il trouva la mort en 1779 ?",
+        "options": [
+          "James Cook",
+          "Francis Drake",
+          "Walter Raleigh",
+          "Henry Hudson"
+        ],
+        "explanation": "Cook imposa choucroute et agrumes à ses équipages : presque aucun de ses marins ne mourut du scorbut."
+      },
+      "en": {
+        "text": "Which British navigator charted the Pacific and reached Hawaii, where he met his death in 1779?",
+        "options": [
+          "James Cook",
+          "Francis Drake",
+          "Walter Raleigh",
+          "Henry Hudson"
+        ],
+        "explanation": "Cook forced sauerkraut and citrus on his crews: almost none of his sailors died of scurvy."
+      },
+      "es": {
+        "text": "¿Qué navegante británico cartografió el Pacífico y llegó a Hawái, donde halló la muerte en 1779?",
+        "options": [
+          "James Cook",
+          "Francis Drake",
+          "Walter Raleigh",
+          "Henry Hudson"
+        ],
+        "explanation": "Cook impuso chucrut y cítricos a sus tripulaciones: casi ninguno de sus marineros murió de escorbuto."
+      }
+    }
+  },
+  {
+    "sourceRef": "350de849d92ce848",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument optique permet d'observer les étoiles et les planètes de près ?",
+        "options": [
+          "Le microscope",
+          "Le périscope",
+          "Le télescope",
+          "Le kaléidoscope"
+        ],
+        "explanation": "Le plus grand télescope en construction aura un miroir de 39 m : il verra des planètes autour d'autres étoiles."
+      },
+      "en": {
+        "text": "Which optical instrument lets us observe stars and planets up close?",
+        "options": [
+          "The microscope",
+          "The periscope",
+          "The telescope",
+          "The kaleidoscope"
+        ],
+        "explanation": "The largest telescope under construction will have a 39 m mirror: it will see planets around other stars."
+      },
+      "es": {
+        "text": "¿Qué instrumento óptico permite observar de cerca las estrellas y los planetas?",
+        "options": [
+          "El microscopio",
+          "El periscopio",
+          "El telescopio",
+          "El caleidoscopio"
+        ],
+        "explanation": "El mayor telescopio en construcción tendrá un espejo de 39 m: verá planetas alrededor de otras estrellas."
+      }
+    }
+  },
+  {
+    "sourceRef": "65207fcb61d662d7",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Combien de dents de lait un enfant possède-t-il au total ?",
+        "options": [
+          "16",
+          "20",
+          "24",
+          "28"
+        ],
+        "explanation": "Les 20 dents de lait se forment déjà dans les mâchoires du fœtus, bien avant la naissance."
+      },
+      "en": {
+        "text": "How many milk teeth does a child have in total?",
+        "options": [
+          "16",
+          "20",
+          "24",
+          "28"
+        ],
+        "explanation": "All 20 milk teeth are already forming in the jaws of the foetus, well before birth."
+      },
+      "es": {
+        "text": "¿Cuántos dientes de leche tiene un niño en total?",
+        "options": [
+          "16",
+          "20",
+          "24",
+          "28"
+        ],
+        "explanation": "Los 20 dientes de leche ya se forman en las mandíbulas del feto, mucho antes de nacer."
+      }
+    }
+  },
+  {
+    "sourceRef": "b972c913f4fc919b",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel savant américain, en jouant avec un cerf-volant sous l'orage, inventa le paratonnerre ?",
+        "options": [
+          "Thomas Edison",
+          "Nikola Tesla",
+          "Benjamin Franklin",
+          "Samuel Morse"
+        ],
+        "explanation": "Également homme politique, Franklin est le seul à avoir signé les trois textes fondateurs des États-Unis."
+      },
+      "en": {
+        "text": "Which American scientist, flying a kite in a storm, invented the lightning rod?",
+        "options": [
+          "Thomas Edison",
+          "Nikola Tesla",
+          "Benjamin Franklin",
+          "Samuel Morse"
+        ],
+        "explanation": "Also a statesman, Franklin is the only person to have signed all three founding documents of the United States."
+      },
+      "es": {
+        "text": "¿Qué sabio estadounidense, jugando con una cometa bajo la tormenta, inventó el pararrayos?",
+        "options": [
+          "Thomas Edison",
+          "Nikola Tesla",
+          "Benjamin Franklin",
+          "Samuel Morse"
+        ],
+        "explanation": "También político, Franklin es el único que firmó los tres textos fundacionales de Estados Unidos."
+      }
+    }
+  },
+  {
+    "sourceRef": "fba70c87152c0a81",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Combien d'os compte le squelette d'un humain adulte ?",
+        "options": [
+          "186",
+          "206",
+          "226",
+          "246"
+        ],
+        "explanation": "Un bébé naît avec environ 300 os ; beaucoup fusionnent en grandissant pour n'en laisser que 206."
+      },
+      "en": {
+        "text": "How many bones are there in an adult human skeleton?",
+        "options": [
+          "186",
+          "206",
+          "226",
+          "246"
+        ],
+        "explanation": "A baby is born with about 300 bones; many fuse while growing, leaving only 206."
+      },
+      "es": {
+        "text": "¿Cuántos huesos tiene el esqueleto de un humano adulto?",
+        "options": [
+          "186",
+          "206",
+          "226",
+          "246"
+        ],
+        "explanation": "Un bebé nace con unos 300 huesos; muchos se fusionan al crecer hasta dejar solo 206."
+      }
+    }
+  },
+  {
+    "sourceRef": "424892d0807b7985",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel animal africain à la robe rayée noire et blanche ressemble à un petit cheval ?",
+        "options": [
+          "Le zèbre",
+          "L'okapi",
+          "Le gnou",
+          "L'antilope"
+        ],
+        "explanation": "Comme nos empreintes digitales, les rayures de chaque zèbre forment un motif unique au monde."
+      },
+      "en": {
+        "text": "Which African animal with a black-and-white striped coat looks like a small horse?",
+        "options": [
+          "The zebra",
+          "The okapi",
+          "The wildebeest",
+          "The antelope"
+        ],
+        "explanation": "Like our fingerprints, each zebra's stripes form a pattern unique in the world."
+      },
+      "es": {
+        "text": "¿Qué animal africano de pelaje a rayas blancas y negras se parece a un caballo pequeño?",
+        "options": [
+          "La cebra",
+          "El okapi",
+          "El ñu",
+          "El antílope"
+        ],
+        "explanation": "Como nuestras huellas dactilares, las rayas de cada cebra forman un patrón único en el mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "6a6990b6dcd4d310",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus grand poisson du monde, un géant inoffensif qui se nourrit de plancton ?",
+        "options": [
+          "Le grand requin blanc",
+          "Le requin-baleine",
+          "L'espadon",
+          "Le poisson-lune"
+        ],
+        "explanation": "Malgré ses 18 mètres possibles, le requin-baleine se laisse approcher par les plongeurs sans danger."
+      },
+      "en": {
+        "text": "What is the largest fish in the world, a harmless giant that feeds on plankton?",
+        "options": [
+          "The great white shark",
+          "The whale shark",
+          "The swordfish",
+          "The sunfish"
+        ],
+        "explanation": "Despite reaching up to 18 metres, the whale shark lets divers approach without danger."
+      },
+      "es": {
+        "text": "¿Cuál es el pez más grande del mundo, un gigante inofensivo que se alimenta de plancton?",
+        "options": [
+          "El gran tiburón blanco",
+          "El tiburón ballena",
+          "El pez espada",
+          "El pez luna"
+        ],
+        "explanation": "Pese a alcanzar hasta 18 metros, el tiburón ballena deja que los buceadores se acerquen sin peligro."
+      }
+    }
+  },
+  {
+    "sourceRef": "998609c4a2dffe9f",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle plante carnivore referme ses « mâchoires » en un dixième de seconde sur les insectes ?",
+        "options": [
+          "La drosera",
+          "La sarracénie",
+          "La dionée attrape-mouche",
+          "La népenthès"
+        ],
+        "explanation": "La dionée sait compter : elle ne se referme qu'au deuxième contact, pour ne pas se fermer sur une goutte de pluie."
+      },
+      "en": {
+        "text": "Which carnivorous plant snaps its 'jaws' shut on insects in a tenth of a second?",
+        "options": [
+          "The sundew",
+          "The trumpet pitcher",
+          "The Venus flytrap",
+          "The nepenthes"
+        ],
+        "explanation": "The flytrap can count: it only closes on the second touch, so as not to shut on a raindrop."
+      },
+      "es": {
+        "text": "¿Qué planta carnívora cierra sus «mandíbulas» sobre los insectos en una décima de segundo?",
+        "options": [
+          "La drosera",
+          "La sarracenia",
+          "La venus atrapamoscas",
+          "La nepenthes"
+        ],
+        "explanation": "La atrapamoscas sabe contar: solo se cierra al segundo contacto, para no cerrarse sobre una gota de lluvia."
+      }
+    }
+  },
+  {
+    "sourceRef": "2747100f27b0c9f6",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel sport d'équipe se joue sur la glace, avec des crosses et un palet ?",
+        "options": [
+          "Le curling",
+          "Le hockey sur glace",
+          "Le patinage",
+          "Le bandy"
+        ],
+        "explanation": "Le palet peut dépasser 160 km/h : les gardiens portent près de 20 kg d'équipement de protection."
+      },
+      "en": {
+        "text": "Which team sport is played on ice, with sticks and a puck?",
+        "options": [
+          "Curling",
+          "Ice hockey",
+          "Skating",
+          "Bandy"
+        ],
+        "explanation": "The puck can exceed 160 km/h: goalies wear nearly 20 kg of protective gear."
+      },
+      "es": {
+        "text": "¿Qué deporte de equipo se juega sobre hielo, con palos y un disco?",
+        "options": [
+          "El curling",
+          "El hockey sobre hielo",
+          "El patinaje",
+          "El bandy"
+        ],
+        "explanation": "El disco puede superar los 160 km/h: los porteros llevan casi 20 kg de equipo de protección."
+      }
+    }
+  },
+  {
+    "sourceRef": "26b4c8b2dbb4cbaf",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport tente-t-on de renverser dix quilles avec une boule percée de trous ?",
+        "options": [
+          "La pétanque",
+          "Le curling",
+          "Le bowling",
+          "Le billard"
+        ],
+        "explanation": "Un « strike » sur chaque lancer donne la partie parfaite : 300 points, le graal des quilleurs."
+      },
+      "en": {
+        "text": "In which sport do you try to knock down ten pins with a ball drilled with holes?",
+        "options": [
+          "Pétanque",
+          "Curling",
+          "Bowling",
+          "Billiards"
+        ],
+        "explanation": "A strike on every throw gives the perfect game: 300 points, the bowler's holy grail."
+      },
+      "es": {
+        "text": "¿En qué deporte se intenta derribar diez bolos con una bola perforada con agujeros?",
+        "options": [
+          "La petanca",
+          "El curling",
+          "Los bolos",
+          "El billar"
+        ],
+        "explanation": "Un «strike» en cada lanzamiento da la partida perfecta: 300 puntos, el grial de los jugadores."
+      }
+    }
+  },
+  {
+    "sourceRef": "13ecb67698f1bdc9",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle épreuve enchaîne, dans l'ordre, natation, cyclisme et course à pied ?",
+        "options": [
+          "Le pentathlon",
+          "Le décathlon",
+          "Le biathlon",
+          "Le triathlon"
+        ],
+        "explanation": "Le triathlon est né en Californie dans les années 1970 ; sa version reine, l'Ironman, s'achève par un marathon complet."
+      },
+      "en": {
+        "text": "Which event chains together, in order, swimming, cycling and running?",
+        "options": [
+          "The pentathlon",
+          "The decathlon",
+          "The biathlon",
+          "The triathlon"
+        ],
+        "explanation": "The triathlon was born in California in the 1970s; its ultimate version, the Ironman, ends with a full marathon."
+      },
+      "es": {
+        "text": "¿Qué prueba encadena, en orden, natación, ciclismo y carrera a pie?",
+        "options": [
+          "El pentatlón",
+          "El decatlón",
+          "El biatlón",
+          "El triatlón"
+        ],
+        "explanation": "El triatlón nació en California en los años 70; su versión reina, el Ironman, termina con un maratón completo."
+      }
+    }
+  },
+  {
+    "sourceRef": "e504808be78b0bdb",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel coureur remporta le tout premier Tour de France, en 1903 ?",
+        "options": [
+          "Maurice Garin",
+          "Henri Desgrange",
+          "Louison Bobet",
+          "Gustave Garrigou"
+        ],
+        "explanation": "Surnommé « le petit ramoneur », Garin gagna avec près de 3 heures d'avance — le plus grand écart de l'histoire du Tour."
+      },
+      "en": {
+        "text": "Which rider won the very first Tour de France, in 1903?",
+        "options": [
+          "Maurice Garin",
+          "Henri Desgrange",
+          "Louison Bobet",
+          "Gustave Garrigou"
+        ],
+        "explanation": "Nicknamed 'the little chimney sweep', Garin won by nearly 3 hours — the biggest margin in Tour history."
+      },
+      "es": {
+        "text": "¿Qué corredor ganó el primer Tour de Francia, en 1903?",
+        "options": [
+          "Maurice Garin",
+          "Henri Desgrange",
+          "Louison Bobet",
+          "Gustave Garrigou"
+        ],
+        "explanation": "Apodado «el pequeño deshollinador», Garin ganó con casi 3 horas de ventaja: la mayor diferencia de la historia del Tour."
+      }
+    }
+  },
+  {
+    "sourceRef": "ff8f5a4e2333a14e",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "De quel film d'animation les Minions jaunes sont-ils les fidèles acolytes du méchant Gru ?",
+        "options": [
+          "Madagascar",
+          "L'Âge de glace",
+          "Moi, moche et méchant",
+          "Hôtel Transylvanie"
+        ],
+        "explanation": "Le « langage minion » mélange de vrais mots français, espagnols, italiens et coréens."
+      },
+      "en": {
+        "text": "In which animated film are the yellow Minions the loyal sidekicks of the villain Gru?",
+        "options": [
+          "Madagascar",
+          "Ice Age",
+          "Despicable Me",
+          "Hotel Transylvania"
+        ],
+        "explanation": "'Minionese' mixes real French, Spanish, Italian and Korean words."
+      },
+      "es": {
+        "text": "¿De qué película de animación son los Minions amarillos los fieles secuaces del villano Gru?",
+        "options": [
+          "Madagascar",
+          "Ice Age",
+          "Gru, mi villano favorito",
+          "Hotel Transilvania"
+        ],
+        "explanation": "El «idioma minion» mezcla palabras reales del francés, español, italiano y coreano."
+      }
+    }
+  },
+  {
+    "sourceRef": "bad37fca03733dfd",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle saga culte une voiture DeLorean sert-elle de machine à voyager dans le temps ?",
+        "options": [
+          "Men in Black",
+          "Terminator",
+          "Matrix",
+          "Retour vers le futur"
+        ],
+        "explanation": "Le scénario prévoyait d'abord… un réfrigérateur comme machine temporelle ; la DeLorean fut choisie pour ses portes papillon."
+      },
+      "en": {
+        "text": "In which cult saga does a DeLorean car serve as a time machine?",
+        "options": [
+          "Men in Black",
+          "Terminator",
+          "The Matrix",
+          "Back to the Future"
+        ],
+        "explanation": "The script first imagined… a refrigerator as the time machine; the DeLorean was chosen for its gull-wing doors."
+      },
+      "es": {
+        "text": "¿En qué saga de culto un coche DeLorean sirve de máquina del tiempo?",
+        "options": [
+          "Men in Black",
+          "Terminator",
+          "Matrix",
+          "Regreso al futuro"
+        ],
+        "explanation": "El guion imaginó primero… un frigorífico como máquina del tiempo; la DeLorean fue elegida por sus puertas de alas de gaviota."
+      }
+    }
+  },
+  {
+    "sourceRef": "cd11fb4f1d634884",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel film de science-fiction de Ridley Scott (1982), avec Harrison Ford, traque des androïdes dans un Los Angeles pluvieux ?",
+        "options": [
+          "Alien",
+          "Total Recall",
+          "Minority Report",
+          "Blade Runner"
+        ],
+        "explanation": "Échec au box-office à sa sortie, le film est devenu culte et a défini l'esthétique cyberpunk pour des décennies."
+      },
+      "en": {
+        "text": "Which 1982 Ridley Scott science-fiction film, starring Harrison Ford, hunts androids in a rainy Los Angeles?",
+        "options": [
+          "Alien",
+          "Total Recall",
+          "Minority Report",
+          "Blade Runner"
+        ],
+        "explanation": "A box-office flop on release, the film became a cult classic and defined the cyberpunk aesthetic for decades."
+      },
+      "es": {
+        "text": "¿Qué película de ciencia ficción de Ridley Scott (1982), con Harrison Ford, persigue androides en un Los Ángeles lluvioso?",
+        "options": [
+          "Alien",
+          "Desafío total",
+          "Minority Report",
+          "Blade Runner"
+        ],
+        "explanation": "Fracaso de taquilla en su estreno, la película se volvió de culto y definió la estética cyberpunk durante décadas."
+      }
+    }
+  },
+  {
+    "sourceRef": "857e2bef4273d59d",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel petit instrument à vent, qui tient dans la poche, se joue en soufflant et en aspirant ?",
+        "options": [
+          "L'harmonica",
+          "La flûte de Pan",
+          "L'ocarina",
+          "Le kazoo"
+        ],
+        "explanation": "L'harmonica est allé plus loin que tout autre instrument : un astronaute en joua en orbite dès 1965."
+      },
+      "en": {
+        "text": "Which small wind instrument, which fits in a pocket, is played by blowing and drawing breath?",
+        "options": [
+          "The harmonica",
+          "The pan flute",
+          "The ocarina",
+          "The kazoo"
+        ],
+        "explanation": "The harmonica has travelled further than any other instrument: an astronaut played one in orbit as early as 1965."
+      },
+      "es": {
+        "text": "¿Qué pequeño instrumento de viento, que cabe en el bolsillo, se toca soplando y aspirando?",
+        "options": [
+          "La armónica",
+          "La flauta de pan",
+          "La ocarina",
+          "El kazoo"
+        ],
+        "explanation": "La armónica ha llegado más lejos que cualquier otro instrumento: un astronauta la tocó en órbita ya en 1965."
+      }
+    }
+  },
+  {
+    "sourceRef": "b706776af07b8725",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur polonais, virtuose du piano, repose à Paris… mais son cœur à Varsovie ?",
+        "options": [
+          "Franz Liszt",
+          "Antonín Dvořák",
+          "Frédéric Chopin",
+          "Bedřich Smetana"
+        ],
+        "explanation": "Sa sœur rapporta clandestinement son cœur dans un bocal de cognac, aujourd'hui scellé dans une église de Varsovie."
+      },
+      "en": {
+        "text": "Which Polish composer, a piano virtuoso, rests in Paris… but his heart in Warsaw?",
+        "options": [
+          "Franz Liszt",
+          "Antonín Dvořák",
+          "Frédéric Chopin",
+          "Bedřich Smetana"
+        ],
+        "explanation": "His sister smuggled his heart back in a jar of cognac, now sealed in a Warsaw church."
+      },
+      "es": {
+        "text": "¿Qué compositor polaco, virtuoso del piano, descansa en París… pero su corazón en Varsovia?",
+        "options": [
+          "Franz Liszt",
+          "Antonín Dvořák",
+          "Frédéric Chopin",
+          "Bedřich Smetana"
+        ],
+        "explanation": "Su hermana llevó clandestinamente su corazón en un frasco de coñac, hoy sellado en una iglesia de Varsovia."
+      }
+    }
+  },
+  {
+    "sourceRef": "12bc46e363c3b4ab",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur italien du XIXe siècle a écrit « La Traviata », « Rigoletto » et « Aida » ?",
+        "options": [
+          "Gioachino Rossini",
+          "Gaetano Donizetti",
+          "Vincenzo Bellini",
+          "Giuseppe Verdi"
+        ],
+        "explanation": "Son nom devint un cri patriotique : « Viva Verdi » cachait l'acronyme du futur roi d'Italie unifiée."
+      },
+      "en": {
+        "text": "Which 19th-century Italian composer wrote 'La Traviata', 'Rigoletto' and 'Aida'?",
+        "options": [
+          "Gioachino Rossini",
+          "Gaetano Donizetti",
+          "Vincenzo Bellini",
+          "Giuseppe Verdi"
+        ],
+        "explanation": "His name became a patriotic cry: 'Viva Verdi' concealed the acronym of the future king of a united Italy."
+      },
+      "es": {
+        "text": "¿Qué compositor italiano del siglo XIX escribió «La Traviata», «Rigoletto» y «Aida»?",
+        "options": [
+          "Gioachino Rossini",
+          "Gaetano Donizetti",
+          "Vincenzo Bellini",
+          "Giuseppe Verdi"
+        ],
+        "explanation": "Su nombre se volvió un grito patriótico: «Viva Verdi» escondía el acrónimo del futuro rey de la Italia unificada."
+      }
+    }
+  },
+  {
+    "sourceRef": "bc4e7106c99b061d",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel continent compte le plus grand nombre de pays ?",
+        "options": [
+          "L'Asie",
+          "L'Europe",
+          "L'Amérique du Sud",
+          "L'Afrique"
+        ],
+        "explanation": "L'Afrique compte 54 pays reconnus ; le plus jeune, le Soudan du Sud, est né en 2011."
+      },
+      "en": {
+        "text": "Which continent has the largest number of countries?",
+        "options": [
+          "Asia",
+          "Europe",
+          "South America",
+          "Africa"
+        ],
+        "explanation": "Africa has 54 recognised countries; the youngest, South Sudan, was born in 2011."
+      },
+      "es": {
+        "text": "¿Qué continente tiene el mayor número de países?",
+        "options": [
+          "Asia",
+          "Europa",
+          "América del Sur",
+          "África"
+        ],
+        "explanation": "África tiene 54 países reconocidos; el más joven, Sudán del Sur, nació en 2011."
+      }
+    }
+  },
+  {
+    "sourceRef": "b80dc526abb0bff2",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle mer sépare la côte est de l'Italie des côtes de la Croatie ?",
+        "options": [
+          "La mer Tyrrhénienne",
+          "La mer Ionienne",
+          "La mer Égée",
+          "La mer Adriatique"
+        ],
+        "explanation": "La côte croate de l'Adriatique égrène plus de 1 200 îles et îlots, dont seulement une cinquantaine sont habités."
+      },
+      "en": {
+        "text": "Which sea separates Italy's east coast from the shores of Croatia?",
+        "options": [
+          "The Tyrrhenian Sea",
+          "The Ionian Sea",
+          "The Aegean Sea",
+          "The Adriatic Sea"
+        ],
+        "explanation": "Croatia's Adriatic coast strings together more than 1,200 islands and islets, of which only about fifty are inhabited."
+      },
+      "es": {
+        "text": "¿Qué mar separa la costa este de Italia de las costas de Croacia?",
+        "options": [
+          "El mar Tirreno",
+          "El mar Jónico",
+          "El mar Egeo",
+          "El mar Adriático"
+        ],
+        "explanation": "La costa croata del Adriático encadena más de 1.200 islas e islotes, de los que solo unos cincuenta están habitados."
+      }
+    }
+  },
+  {
+    "sourceRef": "8067fb376d3f7237",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel pays d'Asie centrale est le plus grand pays enclavé du monde, sans aucun accès à l'océan ?",
+        "options": [
+          "La Mongolie",
+          "L'Ouzbékistan",
+          "L'Afghanistan",
+          "Le Kazakhstan"
+        ],
+        "explanation": "Grand comme cinq fois la France, il borde pourtant la mer Caspienne… qui est en réalité un lac géant."
+      },
+      "en": {
+        "text": "Which Central Asian country is the largest landlocked country in the world, with no access to the ocean?",
+        "options": [
+          "Mongolia",
+          "Uzbekistan",
+          "Afghanistan",
+          "Kazakhstan"
+        ],
+        "explanation": "Five times the size of France, it does border the Caspian Sea… which is actually a giant lake."
+      },
+      "es": {
+        "text": "¿Qué país de Asia Central es el país sin litoral más grande del mundo, sin ningún acceso al océano?",
+        "options": [
+          "Mongolia",
+          "Uzbekistán",
+          "Afganistán",
+          "Kazajistán"
+        ],
+        "explanation": "Cinco veces más grande que Francia, bordea sin embargo el mar Caspio… que en realidad es un lago gigante."
+      }
+    }
+  },
+  {
+    "sourceRef": "2a5f443d26834d21",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle couleur obtient-on en mélangeant du rouge et du blanc ?",
+        "options": [
+          "L'orange",
+          "Le rose",
+          "Le violet",
+          "Le bordeaux"
+        ],
+        "explanation": "Le rose n'existe pas dans l'arc-en-ciel : notre cerveau l'invente en mélangeant les signaux du rouge et du bleu-blanc."
+      },
+      "en": {
+        "text": "What colour do you get by mixing red and white?",
+        "options": [
+          "Orange",
+          "Pink",
+          "Purple",
+          "Burgundy"
+        ],
+        "explanation": "Pink does not exist in the rainbow: our brain invents it by blending red and blue-white signals."
+      },
+      "es": {
+        "text": "¿Qué color se obtiene al mezclar rojo y blanco?",
+        "options": [
+          "El naranja",
+          "El rosa",
+          "El violeta",
+          "El burdeos"
+        ],
+        "explanation": "El rosa no existe en el arcoíris: nuestro cerebro lo inventa mezclando las señales del rojo y del azul-blanco."
+      }
+    }
+  },
+  {
+    "sourceRef": "cfc58efdcb4b7b7d",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Combien d'années compte un siècle ?",
+        "options": [
+          "10",
+          "1 000",
+          "100",
+          "50"
+        ],
+        "explanation": "Un millénaire fait 1 000 ans, un siècle 100, une décennie 10… et un lustre, 5 ans seulement."
+      },
+      "en": {
+        "text": "How many years are there in a century?",
+        "options": [
+          "10",
+          "1,000",
+          "100",
+          "50"
+        ],
+        "explanation": "A millennium is 1,000 years, a century 100, a decade 10… and a lustrum, just 5."
+      },
+      "es": {
+        "text": "¿Cuántos años tiene un siglo?",
+        "options": [
+          "10",
+          "1.000",
+          "100",
+          "50"
+        ],
+        "explanation": "Un milenio son 1.000 años, un siglo 100, una década 10… y un lustro, solo 5."
+      }
+    }
+  },
+  {
+    "sourceRef": "a30aaae87e17f269",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle figure de style consiste à exagérer volontairement, comme dans « mourir de rire » ?",
+        "options": [
+          "La métaphore",
+          "La litote",
+          "L'euphémisme",
+          "L'hyperbole"
+        ],
+        "explanation": "Son contraire est la litote, qui dit moins pour suggérer plus : « Va, je ne te hais point » pour « je t'aime »."
+      },
+      "en": {
+        "text": "Which figure of speech consists of deliberate exaggeration, as in 'dying of laughter'?",
+        "options": [
+          "Metaphor",
+          "Litotes",
+          "Euphemism",
+          "Hyperbole"
+        ],
+        "explanation": "Its opposite is litotes, which says less to suggest more: 'not bad at all' for 'excellent'."
+      },
+      "es": {
+        "text": "¿Qué figura retórica consiste en exagerar deliberadamente, como en «morirse de risa»?",
+        "options": [
+          "La metáfora",
+          "La lítotes",
+          "El eufemismo",
+          "La hipérbole"
+        ],
+        "explanation": "Su contrario es la lítotes, que dice menos para sugerir más: «no está nada mal» por «excelente»."
+      }
+    }
+  }
+]
