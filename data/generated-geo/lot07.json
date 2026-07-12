@@ -1,0 +1,842 @@
+[
+  {
+    "sourceRef": "5b82846b3db05f1e",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 13.4125,
+    "lng": 103.867,
+    "translations": {
+      "fr": {
+        "text": "Quelle cité de temples du Cambodge, longtemps engloutie par la jungle, forme le plus grand ensemble religieux du monde ?",
+        "explanation": "Son temple principal figure sur le drapeau du Cambodge — seul monument au monde à avoir cet honneur.",
+        "label": "Angkor",
+        "country": "Cambodge"
+      },
+      "en": {
+        "text": "Which temple city in Cambodia, long swallowed by the jungle, forms the largest religious complex in the world?",
+        "explanation": "Its main temple appears on Cambodia's flag — the only monument in the world with that honour.",
+        "label": "Angkor",
+        "country": "Cambodia"
+      },
+      "es": {
+        "text": "¿Qué ciudad de templos de Camboya, largo tiempo engullida por la jungla, forma el mayor conjunto religioso del mundo?",
+        "explanation": "Su templo principal figura en la bandera de Camboya: el único monumento del mundo con ese honor.",
+        "label": "Angkor",
+        "country": "Camboya"
+      }
+    }
+  },
+  {
+    "sourceRef": "d38ec37278662671",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 38.6431,
+    "lng": 34.8289,
+    "translations": {
+      "fr": {
+        "text": "Quelle région d'Anatolie est célèbre pour ses « cheminées de fée » et ses centaines de montgolfières à l'aube ?",
+        "explanation": "Ses habitants creusèrent des villes souterraines de plusieurs étages, capables d'abriter des milliers de personnes.",
+        "label": "Cappadoce",
+        "country": "Turquie"
+      },
+      "en": {
+        "text": "Which region of Anatolia is famous for its 'fairy chimneys' and its hundreds of hot-air balloons at dawn?",
+        "explanation": "Its inhabitants dug underground cities several storeys deep, able to shelter thousands of people.",
+        "label": "Cappadocia",
+        "country": "Turkey"
+      },
+      "es": {
+        "text": "¿Qué región de Anatolia es famosa por sus «chimeneas de hadas» y sus cientos de globos aerostáticos al amanecer?",
+        "explanation": "Sus habitantes excavaron ciudades subterráneas de varios pisos, capaces de albergar a miles de personas.",
+        "label": "Capadocia",
+        "country": "Turquía"
+      }
+    }
+  },
+  {
+    "sourceRef": "e25e97f5894445de",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 32.5426,
+    "lng": 44.421,
+    "translations": {
+      "fr": {
+        "text": "Quelle cité de Mésopotamie, célèbre pour ses jardins suspendus légendaires, fut la capitale de Nabuchodonosor II ?",
+        "explanation": "Ses jardins suspendus comptent parmi les sept merveilles antiques… mais aucune preuve archéologique n'en a été trouvée.",
+        "label": "Babylone",
+        "country": "Irak"
+      },
+      "en": {
+        "text": "Which Mesopotamian city, famous for its legendary hanging gardens, was the capital of Nebuchadnezzar II?",
+        "explanation": "Its hanging gardens rank among the seven ancient wonders… yet no archaeological proof of them has ever been found.",
+        "label": "Babylon",
+        "country": "Iraq"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Mesopotamia, famosa por sus legendarios jardines colgantes, fue la capital de Nabucodonosor II?",
+        "explanation": "Sus jardines colgantes figuran entre las siete maravillas antiguas… pero jamás se ha hallado prueba arqueológica de ellos.",
+        "label": "Babilonia",
+        "country": "Irak"
+      }
+    }
+  },
+  {
+    "sourceRef": "a138a589d594ea64",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 50.8503,
+    "lng": 2.8858,
+    "translations": {
+      "fr": {
+        "text": "Près de quelle ville des Flandres belges les soldats de 14-18 subirent-ils les premières grandes attaques au gaz de combat ?",
+        "explanation": "Chaque soir depuis 1928, des clairons y sonnent le « Last Post » sous la porte de Menin, en hommage aux disparus.",
+        "label": "Ypres",
+        "country": "Belgique"
+      },
+      "en": {
+        "text": "Near which town in Belgian Flanders did the soldiers of WWI suffer the first large-scale poison-gas attacks?",
+        "explanation": "Every evening since 1928, buglers have sounded the 'Last Post' under the Menin Gate there, honouring the missing.",
+        "label": "Ypres",
+        "country": "Belgium"
+      },
+      "es": {
+        "text": "¿Cerca de qué ciudad del Flandes belga sufrieron los soldados de la Primera Guerra Mundial los primeros grandes ataques con gas?",
+        "explanation": "Cada tarde desde 1928, cornetas tocan allí el «Last Post» bajo la puerta de Menin, en homenaje a los desaparecidos.",
+        "label": "Ypres",
+        "country": "Bélgica"
+      }
+    }
+  },
+  {
+    "sourceRef": "c6a96ab20e76fab6",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 37.5999,
+    "lng": 14.0154,
+    "translations": {
+      "fr": {
+        "text": "Quelle île, la plus grande de la Méditerranée, forme la pointe de la « botte » italienne ?",
+        "explanation": "On y parle encore le sicilien, une langue à part entière mêlant des influences grecques, arabes et normandes.",
+        "label": "Sicile",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which island, the largest in the Mediterranean, sits at the toe of the Italian 'boot'?",
+        "explanation": "Sicilian is still spoken there — a language in its own right blending Greek, Arab and Norman influences.",
+        "label": "Sicily",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué isla, la mayor del Mediterráneo, se sitúa en la punta de la «bota» italiana?",
+        "explanation": "Allí todavía se habla el siciliano, una lengua propia que mezcla influencias griegas, árabes y normandas.",
+        "label": "Sicilia",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "0f69c6e31f13c04b",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 3.2028,
+    "lng": 73.2207,
+    "translations": {
+      "fr": {
+        "text": "Quel archipel de l'océan Indien, aux 1 200 îles coralliennes, est le pays le plus plat du monde ?",
+        "explanation": "Son point culminant ne dépasse pas 2,4 m : le gouvernement a déjà tenu un conseil des ministres… sous l'eau.",
+        "label": "Maldives",
+        "country": "Maldives"
+      },
+      "en": {
+        "text": "Which Indian Ocean archipelago of 1,200 coral islands is the flattest country in the world?",
+        "explanation": "Its highest point is just 2.4 m: the government has even held a cabinet meeting… underwater.",
+        "label": "Maldives",
+        "country": "Maldives"
+      },
+      "es": {
+        "text": "¿Qué archipiélago del océano Índico, con 1.200 islas coralinas, es el país más llano del mundo?",
+        "explanation": "Su punto más alto no supera los 2,4 m: el gobierno llegó a celebrar un consejo de ministros… bajo el agua.",
+        "label": "Maldivas",
+        "country": "Maldivas"
+      }
+    }
+  },
+  {
+    "sourceRef": "876ee5f78dfc0aab",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 25.6872,
+    "lng": 32.6396,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville égyptienne, l'antique Thèbes, aligne sur le Nil les temples géants de Karnak ?",
+        "explanation": "La grande salle de Karnak compte 134 colonnes ; certaines sont si larges que 6 personnes suffisent à peine à les enlacer.",
+        "label": "Louxor",
+        "country": "Égypte"
+      },
+      "en": {
+        "text": "Which Egyptian city, ancient Thebes, lines the Nile with the giant temples of Karnak?",
+        "explanation": "Karnak's great hall has 134 columns; some are so wide that six people can barely link arms around them.",
+        "label": "Luxor",
+        "country": "Egypt"
+      },
+      "es": {
+        "text": "¿Qué ciudad egipcia, la antigua Tebas, alinea junto al Nilo los templos gigantes de Karnak?",
+        "explanation": "La gran sala de Karnak tiene 134 columnas; algunas son tan anchas que seis personas apenas logran abrazarlas.",
+        "label": "Luxor",
+        "country": "Egipto"
+      }
+    }
+  },
+  {
+    "sourceRef": "ac4ba331115d47f6",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "lat": 53.1424,
+    "lng": -7.6921,
+    "translations": {
+      "fr": {
+        "text": "Quel pays celtique, à l'ouest de la Grande-Bretagne, a le trèfle et la harpe pour emblèmes ?",
+        "explanation": "C'est le seul pays au monde dont l'emblème officiel est un instrument de musique.",
+        "label": "Irlande",
+        "country": "Irlande"
+      },
+      "en": {
+        "text": "Which Celtic country, west of Great Britain, has the shamrock and the harp as its emblems?",
+        "explanation": "It is the only country in the world whose official emblem is a musical instrument.",
+        "label": "Ireland",
+        "country": "Ireland"
+      },
+      "es": {
+        "text": "¿Qué país celta, al oeste de Gran Bretaña, tiene el trébol y el arpa como emblemas?",
+        "explanation": "Es el único país del mundo cuyo emblema oficial es un instrumento musical.",
+        "label": "Irlanda",
+        "country": "Irlanda"
+      }
+    }
+  },
+  {
+    "sourceRef": "9f68e21febeeef58",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "easy",
+    "lat": -38.4161,
+    "lng": -63.6167,
+    "translations": {
+      "fr": {
+        "text": "Dans quel pays d'Amérique du Sud le tango est-il né, dans les faubourgs portuaires, avant de conquérir le monde ?",
+        "explanation": "Méprisé à ses débuts, le tango ne fut accepté par la bonne société… qu'après avoir triomphé à Paris.",
+        "label": "Argentine",
+        "country": "Argentine"
+      },
+      "en": {
+        "text": "In which South American country was the tango born, in the port suburbs, before conquering the world?",
+        "explanation": "Scorned at first, the tango was only accepted by high society… after it had triumphed in Paris.",
+        "label": "Argentina",
+        "country": "Argentina"
+      },
+      "es": {
+        "text": "¿En qué país de América del Sur nació el tango, en los arrabales del puerto, antes de conquistar el mundo?",
+        "explanation": "Despreciado en sus inicios, el tango solo fue aceptado por la alta sociedad… tras triunfar en París.",
+        "label": "Argentina",
+        "country": "Argentina"
+      }
+    }
+  },
+  {
+    "sourceRef": "6b58e285fc9432ff",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 46.5405,
+    "lng": 12.1357,
+    "translations": {
+      "fr": {
+        "text": "Quelle station des Dolomites italiennes, hôte des Jeux d'hiver de 1956, est surnommée la « perle des Dolomites » ?",
+        "explanation": "Les JO de 1956 y furent les premiers retransmis en direct à la télévision européenne.",
+        "label": "Cortina d'Ampezzo",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which resort in the Italian Dolomites, host of the 1956 Winter Games, is nicknamed the 'pearl of the Dolomites'?",
+        "explanation": "The 1956 Games there were the first broadcast live on European television.",
+        "label": "Cortina d'Ampezzo",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué estación de los Dolomitas italianos, sede de los Juegos de Invierno de 1956, es apodada la «perla de los Dolomitas»?",
+        "explanation": "Los Juegos de 1956 fueron allí los primeros retransmitidos en directo por la televisión europea.",
+        "label": "Cortina d'Ampezzo",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "7eda317d64d0b9f6",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 19.8968,
+    "lng": -155.5828,
+    "translations": {
+      "fr": {
+        "text": "Quel archipel du Pacifique, où les rois surfaient déjà il y a des siècles, est considéré comme le berceau du surf ?",
+        "explanation": "Les anciens Hawaïens taillaient leurs planches dans des arbres sacrés, après un rituel aux dieux.",
+        "label": "Hawaï",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which Pacific archipelago, where kings were already surfing centuries ago, is regarded as the cradle of surfing?",
+        "explanation": "The ancient Hawaiians carved their boards from sacred trees, after a ritual to the gods.",
+        "label": "Hawaii",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué archipiélago del Pacífico, donde los reyes ya surfeaban hace siglos, se considera la cuna del surf?",
+        "explanation": "Los antiguos hawaianos tallaban sus tablas en árboles sagrados, tras un ritual a los dioses.",
+        "label": "Hawái",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "93819ea26fdc6940",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 45.4064,
+    "lng": 11.8768,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de Vénétie Galilée enseigna-t-il dix-huit ans, qu'il qualifia de « plus belles années » de sa vie ?",
+        "explanation": "Son université conserve encore la chaire en bois depuis laquelle Galilée donnait ses cours.",
+        "label": "Padoue",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which Venetian city did Galileo teach for eighteen years, which he called the 'finest years' of his life?",
+        "explanation": "Its university still preserves the wooden lectern from which Galileo gave his lessons.",
+        "label": "Padua",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué ciudad del Véneto enseñó Galileo dieciocho años, que calificó como los «mejores años» de su vida?",
+        "explanation": "Su universidad conserva todavía la cátedra de madera desde la que Galileo daba sus clases.",
+        "label": "Padua",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "a9b1c25a3e9f54b6",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 55.8811,
+    "lng": 38.1161,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle « cité » secrète proche de Moscou les cosmonautes s'entraînent-ils depuis Gagarine ?",
+        "explanation": "Longtemps absente des cartes soviétiques, elle abrite la plus grande centrifugeuse d'entraînement du monde.",
+        "label": "Cité des étoiles",
+        "country": "Russie"
+      },
+      "en": {
+        "text": "In which secret 'city' near Moscow have cosmonauts trained since Gagarin's day?",
+        "explanation": "Long missing from Soviet maps, it houses the largest training centrifuge in the world.",
+        "label": "Star City",
+        "country": "Russia"
+      },
+      "es": {
+        "text": "¿En qué «ciudad» secreta cercana a Moscú se entrenan los cosmonautas desde los tiempos de Gagarin?",
+        "explanation": "Durante mucho tiempo ausente de los mapas soviéticos, alberga la mayor centrifugadora de entrenamiento del mundo.",
+        "label": "Ciudad de las Estrellas",
+        "country": "Rusia"
+      }
+    }
+  },
+  {
+    "sourceRef": "ab9fd3fd24e4533f",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": -25.3444,
+    "lng": 131.0369,
+    "translations": {
+      "fr": {
+        "text": "Quel monolithe rouge sacré des Aborigènes se dresse au cœur du désert australien ?",
+        "explanation": "Le rocher change de couleur au fil du jour, du ocre au rouge feu ; son ascension est interdite depuis 2019.",
+        "label": "Uluru",
+        "country": "Australie"
+      },
+      "en": {
+        "text": "Which red monolith, sacred to Aboriginal peoples, rises in the heart of the Australian desert?",
+        "explanation": "The rock changes colour through the day, from ochre to fiery red; climbing it has been banned since 2019.",
+        "label": "Uluru",
+        "country": "Australia"
+      },
+      "es": {
+        "text": "¿Qué monolito rojo, sagrado para los aborígenes, se alza en el corazón del desierto australiano?",
+        "explanation": "La roca cambia de color a lo largo del día, del ocre al rojo fuego; escalarla está prohibido desde 2019.",
+        "label": "Uluru",
+        "country": "Australia"
+      }
+    }
+  },
+  {
+    "sourceRef": "fe58b65ea79711ac",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 37.751,
+    "lng": 14.9934,
+    "translations": {
+      "fr": {
+        "text": "Quel volcan sicilien, le plus actif d'Europe, veille sur la ville de Catane ?",
+        "explanation": "Les Grecs y voyaient la forge du dieu Héphaïstos ; ses pentes fertiles portent vignes et pistachiers.",
+        "label": "Etna",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which Sicilian volcano, the most active in Europe, watches over the city of Catania?",
+        "explanation": "The Greeks saw it as the forge of the god Hephaestus; its fertile slopes bear vineyards and pistachio trees.",
+        "label": "Etna",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué volcán siciliano, el más activo de Europa, vigila la ciudad de Catania?",
+        "explanation": "Los griegos veían en él la fragua del dios Hefesto; sus laderas fértiles dan viñedos y pistachos.",
+        "label": "Etna",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "9f41bb6f7cb2e8f3",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": -19.2833,
+    "lng": 22.9,
+    "translations": {
+      "fr": {
+        "text": "Quel delta intérieur du Botswana, qui ne rejoint jamais la mer, inonde chaque année le désert du Kalahari ?",
+        "explanation": "Ses crues arrivent paradoxalement en pleine saison sèche : l'eau met des mois à descendre des pluies d'Angola.",
+        "label": "Delta de l'Okavango",
+        "country": "Botswana"
+      },
+      "en": {
+        "text": "Which inland delta in Botswana, which never reaches the sea, floods the Kalahari Desert every year?",
+        "explanation": "Its floods arrive, paradoxically, in the middle of the dry season: the water takes months to flow down from Angola's rains.",
+        "label": "Okavango Delta",
+        "country": "Botswana"
+      },
+      "es": {
+        "text": "¿Qué delta interior de Botsuana, que nunca llega al mar, inunda cada año el desierto del Kalahari?",
+        "explanation": "Sus crecidas llegan, paradójicamente, en plena estación seca: el agua tarda meses en bajar desde las lluvias de Angola.",
+        "label": "Delta del Okavango",
+        "country": "Botsuana"
+      }
+    }
+  },
+  {
+    "sourceRef": "993ceae9d632f2e4",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "easy",
+    "lat": -32.6532,
+    "lng": -70.0109,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle chaîne de montagnes d'Amérique du Sud, la plus longue du monde, vivent lamas et condors ?",
+        "explanation": "Longue de 7 000 km, la cordillère traverse sept pays, de la Colombie à la Terre de Feu.",
+        "label": "Cordillère des Andes",
+        "country": "Amérique du Sud"
+      },
+      "en": {
+        "text": "In which South American mountain range, the longest in the world, do llamas and condors live?",
+        "explanation": "7,000 km long, the range crosses seven countries, from Colombia to Tierra del Fuego.",
+        "label": "Andes",
+        "country": "South America"
+      },
+      "es": {
+        "text": "¿En qué cordillera de América del Sur, la más larga del mundo, viven llamas y cóndores?",
+        "explanation": "Con 7.000 km de longitud, la cordillera cruza siete países, de Colombia a Tierra del Fuego.",
+        "label": "Cordillera de los Andes",
+        "country": "América del Sur"
+      }
+    }
+  },
+  {
+    "sourceRef": "07b67c50c8416db8",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 44.4184,
+    "lng": 12.2035,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville d'Émilie-Romagne, trois fois capitale d'empire, scintille de mosaïques byzantines dorées ?",
+        "explanation": "Dante y est enterré ; Florence réclame sa dépouille depuis des siècles, en vain.",
+        "label": "Ravenne",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which city in Emilia-Romagna, three times an imperial capital, glitters with golden Byzantine mosaics?",
+        "explanation": "Dante is buried there; Florence has been demanding his remains for centuries, in vain.",
+        "label": "Ravenna",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Emilia-Romaña, tres veces capital imperial, resplandece con mosaicos bizantinos dorados?",
+        "explanation": "Dante está enterrado allí; Florencia reclama sus restos desde hace siglos, en vano.",
+        "label": "Rávena",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "3509a312b717f069",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 43.9493,
+    "lng": 4.8055,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de Provence, célèbre pour son pont inachevé, fut la résidence des papes au XIVe siècle ?",
+        "explanation": "Sept papes s'y succédèrent ; leur palais est le plus grand édifice gothique du monde.",
+        "label": "Avignon",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which Provençal city, famous for its unfinished bridge, was the residence of the popes in the 14th century?",
+        "explanation": "Seven popes reigned there in succession; their palace is the largest Gothic building in the world.",
+        "label": "Avignon",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Provenza, famosa por su puente inacabado, fue la residencia de los papas en el siglo XIV?",
+        "explanation": "Siete papas se sucedieron allí; su palacio es el mayor edificio gótico del mundo.",
+        "label": "Aviñón",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "acbbc25a1e02d117",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 14.6928,
+    "lng": -17.4467,
+    "translations": {
+      "fr": {
+        "text": "Quel pays d'Afrique de l'Ouest, dont la capitale est Dakar, est la patrie de la kora et des griots ?",
+        "explanation": "Les griots y transmettent l'histoire des familles en musique depuis sept siècles, de génération en génération.",
+        "label": "Sénégal",
+        "country": "Sénégal"
+      },
+      "en": {
+        "text": "Which West African country, whose capital is Dakar, is the homeland of the kora and the griots?",
+        "explanation": "For seven centuries, its griots have passed down family histories in music, from generation to generation.",
+        "label": "Senegal",
+        "country": "Senegal"
+      },
+      "es": {
+        "text": "¿Qué país de África Occidental, cuya capital es Dakar, es la patria de la kora y de los griots?",
+        "explanation": "Desde hace siete siglos, sus griots transmiten la historia de las familias en música, de generación en generación.",
+        "label": "Senegal",
+        "country": "Senegal"
+      }
+    }
+  },
+  {
+    "sourceRef": "3a906d4684971d16",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "lat": 41.8719,
+    "lng": 12.5674,
+    "translations": {
+      "fr": {
+        "text": "Dans quel pays en forme de botte savoure-t-on la mozzarella, le risotto et le tiramisu ?",
+        "explanation": "Le pays compte plus de 300 formes de pâtes répertoriées, chacune pensée pour une sauce précise.",
+        "label": "Italie",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which boot-shaped country do people savour mozzarella, risotto and tiramisu?",
+        "explanation": "The country has more than 300 catalogued pasta shapes, each designed for a specific sauce.",
+        "label": "Italy",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué país con forma de bota se saborean la mozzarella, el risotto y el tiramisú?",
+        "explanation": "El país cuenta con más de 300 formas de pasta catalogadas, cada una pensada para una salsa concreta.",
+        "label": "Italia",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "a4225acfc31d91af",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 33.8547,
+    "lng": 35.8623,
+    "translations": {
+      "fr": {
+        "text": "De quel pays du Levant, au cèdre emblématique, le houmous et le taboulé sont-ils des fiertés nationales ?",
+        "explanation": "Le pays détient plusieurs records du monde culinaires, dont le plus grand plat de houmous : plus de 10 tonnes.",
+        "label": "Liban",
+        "country": "Liban"
+      },
+      "en": {
+        "text": "Of which Levantine country, with its emblematic cedar, are hummus and tabbouleh national prides?",
+        "explanation": "The country holds several culinary world records, including the largest dish of hummus: over 10 tonnes.",
+        "label": "Lebanon",
+        "country": "Lebanon"
+      },
+      "es": {
+        "text": "¿De qué país del Levante, con su cedro emblemático, son orgullos nacionales el hummus y el tabulé?",
+        "explanation": "El país posee varios récords mundiales culinarios, incluido el mayor plato de hummus: más de 10 toneladas.",
+        "label": "Líbano",
+        "country": "Líbano"
+      }
+    }
+  },
+  {
+    "sourceRef": "cedebb7e48cbe29e",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 34.6937,
+    "lng": 135.5023,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville japonaise, surnommée la « cuisine du pays », régale de ses takoyaki dans le quartier illuminé de Dotonbori ?",
+        "explanation": "On y pratique le « kuidaore » : l'art de se ruiner… en bonne nourriture.",
+        "label": "Osaka",
+        "country": "Japon"
+      },
+      "en": {
+        "text": "Which Japanese city, nicknamed the 'nation's kitchen', serves its takoyaki in the neon-lit Dotonbori district?",
+        "explanation": "Locals practise 'kuidaore': the art of eating yourself into bankruptcy… on good food.",
+        "label": "Osaka",
+        "country": "Japan"
+      },
+      "es": {
+        "text": "¿Qué ciudad japonesa, apodada la «cocina del país», ofrece sus takoyaki en el iluminado barrio de Dotonbori?",
+        "explanation": "Allí se practica el «kuidaore»: el arte de arruinarse… comiendo bien.",
+        "label": "Osaka",
+        "country": "Japón"
+      }
+    }
+  },
+  {
+    "sourceRef": "4d523ed5994ba2c4",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 46.4526,
+    "lng": 6.5951,
+    "translations": {
+      "fr": {
+        "text": "Sur les rives de quel lac alpin Mary Shelley imagina-t-elle « Frankenstein », lors de l'été pluvieux de 1816 ?",
+        "explanation": "L'éruption du volcan Tambora avait assombri le ciel du monde entier : cloîtrés par la pluie, les écrivains se lancèrent un concours d'histoires effrayantes.",
+        "label": "Lac Léman",
+        "country": "Suisse"
+      },
+      "en": {
+        "text": "On the shores of which Alpine lake did Mary Shelley conceive 'Frankenstein', during the rainy summer of 1816?",
+        "explanation": "The eruption of Mount Tambora had darkened skies worldwide: kept indoors by the rain, the writers held a scary-story contest.",
+        "label": "Lake Geneva",
+        "country": "Switzerland"
+      },
+      "es": {
+        "text": "¿A orillas de qué lago alpino concibió Mary Shelley «Frankenstein», durante el lluvioso verano de 1816?",
+        "explanation": "La erupción del volcán Tambora había oscurecido el cielo del mundo entero: encerrados por la lluvia, los escritores organizaron un concurso de historias de miedo.",
+        "label": "Lago Lemán",
+        "country": "Suiza"
+      }
+    }
+  },
+  {
+    "sourceRef": "71a717a86ae443e8",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 39.2647,
+    "lng": 26.2777,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle île de la mer Égée vécut Sappho, la grande poétesse de l'Antiquité grecque ?",
+        "explanation": "De son œuvre immense, il ne reste qu'un poème complet et des fragments ; Platon la surnommait la « dixième Muse ».",
+        "label": "Lesbos",
+        "country": "Grèce"
+      },
+      "en": {
+        "text": "On which Aegean island did Sappho, the great poetess of Greek antiquity, live?",
+        "explanation": "Of her immense work, only one complete poem and fragments remain; Plato called her the 'tenth Muse'.",
+        "label": "Lesbos",
+        "country": "Greece"
+      },
+      "es": {
+        "text": "¿En qué isla del mar Egeo vivió Safo, la gran poetisa de la Antigüedad griega?",
+        "explanation": "De su inmensa obra solo queda un poema completo y fragmentos; Platón la llamaba la «décima Musa».",
+        "label": "Lesbos",
+        "country": "Grecia"
+      }
+    }
+  },
+  {
+    "sourceRef": "f0e3f5d2ff1c7fe9",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "translations": {
+      "fr": {
+        "text": "Quelle métropole canadienne accueille chaque septembre le TIFF, l'un des plus grands festivals de cinéma du monde ?",
+        "explanation": "Son prix du public est un baromètre des Oscars : de nombreux lauréats y furent d'abord plébiscités.",
+        "label": "Toronto",
+        "country": "Canada"
+      },
+      "en": {
+        "text": "Which Canadian metropolis hosts the TIFF, one of the world's biggest film festivals, every September?",
+        "explanation": "Its audience award is an Oscars barometer: many winners were first acclaimed there.",
+        "label": "Toronto",
+        "country": "Canada"
+      },
+      "es": {
+        "text": "¿Qué metrópoli canadiense acoge cada septiembre el TIFF, uno de los mayores festivales de cine del mundo?",
+        "explanation": "Su premio del público es un barómetro de los Óscar: muchos ganadores fueron aclamados allí primero.",
+        "label": "Toronto",
+        "country": "Canadá"
+      }
+    }
+  },
+  {
+    "sourceRef": "9f6f0a89981ed76f",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "medium",
+    "lat": 60.1699,
+    "lng": 24.9384,
+    "translations": {
+      "fr": {
+        "text": "Quel pays nordique a vu naître les téléphones Nokia et le jeu vidéo Angry Birds ?",
+        "explanation": "Avant les téléphones, Nokia fabriquait du papier, des pneus et des bottes en caoutchouc.",
+        "label": "Finlande",
+        "country": "Finlande"
+      },
+      "en": {
+        "text": "Which Nordic country gave birth to Nokia phones and the video game Angry Birds?",
+        "explanation": "Before phones, Nokia made paper, tyres and rubber boots.",
+        "label": "Finland",
+        "country": "Finland"
+      },
+      "es": {
+        "text": "¿Qué país nórdico vio nacer los teléfonos Nokia y el videojuego Angry Birds?",
+        "explanation": "Antes de los teléfonos, Nokia fabricaba papel, neumáticos y botas de goma.",
+        "label": "Finlandia",
+        "country": "Finlandia"
+      }
+    }
+  },
+  {
+    "sourceRef": "4baf8dd7fccfa455",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": -4.2634,
+    "lng": 15.2429,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale africaine fait face à Kinshasa, sur l'autre rive du fleuve Congo ?",
+        "explanation": "Kinshasa et elle forment la paire de capitales les plus proches du monde : quelques kilomètres de fleuve les séparent.",
+        "label": "Brazzaville",
+        "country": "République du Congo"
+      },
+      "en": {
+        "text": "Which African capital faces Kinshasa, on the opposite bank of the Congo River?",
+        "explanation": "It and Kinshasa form the closest pair of capitals in the world: just a few kilometres of river separate them.",
+        "label": "Brazzaville",
+        "country": "Republic of the Congo"
+      },
+      "es": {
+        "text": "¿Qué capital africana está frente a Kinsasa, en la otra orilla del río Congo?",
+        "explanation": "Ella y Kinsasa forman el par de capitales más cercanas del mundo: solo unos kilómetros de río las separan.",
+        "label": "Brazzaville",
+        "country": "República del Congo"
+      }
+    }
+  },
+  {
+    "sourceRef": "9c591affc7d79325",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 40.6995,
+    "lng": -74.0396,
+    "translations": {
+      "fr": {
+        "text": "Sur quel îlot de la baie de New York douze millions de migrants furent-ils accueillis entre 1892 et 1954 ?",
+        "explanation": "Près de 40 % des Américains actuels comptent au moins un ancêtre passé par cet îlot.",
+        "label": "Ellis Island",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "On which islet in New York Bay were twelve million migrants received between 1892 and 1954?",
+        "explanation": "Nearly 40% of today's Americans have at least one ancestor who passed through this islet.",
+        "label": "Ellis Island",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué islote de la bahía de Nueva York fueron recibidos doce millones de migrantes entre 1892 y 1954?",
+        "explanation": "Casi el 40 % de los estadounidenses actuales tiene al menos un antepasado que pasó por este islote.",
+        "label": "Ellis Island",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "f24f53b796eb9b3e",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 33.3152,
+    "lng": 44.3661,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale du Moyen-Orient, bâtie sur le Tigre, fut le décor des contes des « Mille et Une Nuits » ?",
+        "explanation": "Au IXe siècle, sa « Maison de la sagesse » en faisait la capitale mondiale des sciences et de la traduction.",
+        "label": "Bagdad",
+        "country": "Irak"
+      },
+      "en": {
+        "text": "Which Middle Eastern capital, built on the Tigris, was the setting of the tales of the 'Thousand and One Nights'?",
+        "explanation": "In the 9th century, its 'House of Wisdom' made it the world capital of science and translation.",
+        "label": "Baghdad",
+        "country": "Iraq"
+      },
+      "es": {
+        "text": "¿Qué capital de Oriente Medio, construida sobre el Tigris, fue el escenario de los cuentos de «Las mil y una noches»?",
+        "explanation": "En el siglo IX, su «Casa de la Sabiduría» la convertía en la capital mundial de las ciencias y la traducción.",
+        "label": "Bagdad",
+        "country": "Irak"
+      }
+    }
+  }
+]
