@@ -1,0 +1,1679 @@
+[
+  {
+    "sourceRef": "61c2ae7a6a351004",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien de jours compte une année non bissextile ?",
+        "options": [
+          "365",
+          "364",
+          "366",
+          "360"
+        ],
+        "explanation": "Une année commune dure 365 jours ; tous les quatre ans, un 29 février s'ajoute pour rattraper le retard du calendrier sur le Soleil."
+      },
+      "en": {
+        "text": "How many days are there in a non-leap year?",
+        "options": [
+          "365",
+          "364",
+          "366",
+          "360"
+        ],
+        "explanation": "A common year lasts 365 days; every four years, a 29 February is added to keep the calendar in step with the Sun."
+      },
+      "es": {
+        "text": "¿Cuántos días tiene un año no bisiesto?",
+        "options": [
+          "365",
+          "364",
+          "366",
+          "360"
+        ],
+        "explanation": "Un año común dura 365 días; cada cuatro años se añade un 29 de febrero para que el calendario no se desfase del Sol."
+      }
+    }
+  },
+  {
+    "sourceRef": "83826dd3cba8bffd",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle couleur obtient-on en mélangeant du bleu et du jaune ?",
+        "options": [
+          "Orange",
+          "Violet",
+          "Marron",
+          "Vert"
+        ],
+        "explanation": "Bleu + jaune = vert : c'est l'un des premiers mélanges qu'apprennent les peintres en herbe."
+      },
+      "en": {
+        "text": "What colour do you get by mixing blue and yellow?",
+        "options": [
+          "Orange",
+          "Purple",
+          "Brown",
+          "Green"
+        ],
+        "explanation": "Blue + yellow = green: it is one of the first mixes budding painters learn."
+      },
+      "es": {
+        "text": "¿Qué color se obtiene al mezclar azul y amarillo?",
+        "options": [
+          "Naranja",
+          "Violeta",
+          "Marrón",
+          "Verde"
+        ],
+        "explanation": "Azul + amarillo = verde: es una de las primeras mezclas que aprenden los pintores principiantes."
+      }
+    }
+  },
+  {
+    "sourceRef": "c1b8351bfd76d273",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus grand nombre premier inférieur à 20 ?",
+        "options": [
+          "17",
+          "18",
+          "19",
+          "13"
+        ],
+        "explanation": "19 n'est divisible que par 1 et par lui-même ; 18, lui, se divise par 2, 3, 6 et 9."
+      },
+      "en": {
+        "text": "What is the largest prime number below 20?",
+        "options": [
+          "17",
+          "18",
+          "19",
+          "13"
+        ],
+        "explanation": "19 is divisible only by 1 and itself; 18, on the other hand, divides by 2, 3, 6 and 9."
+      },
+      "es": {
+        "text": "¿Cuál es el mayor número primo menor que 20?",
+        "options": [
+          "17",
+          "18",
+          "19",
+          "13"
+        ],
+        "explanation": "El 19 solo es divisible por 1 y por sí mismo; el 18, en cambio, se divide entre 2, 3, 6 y 9."
+      }
+    }
+  },
+  {
+    "sourceRef": "7ac8e5d0893f81f1",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Qui fut le premier homme à marcher sur la Lune ?",
+        "options": [
+          "Neil Armstrong",
+          "Buzz Aldrin",
+          "Youri Gagarine",
+          "Michael Collins"
+        ],
+        "explanation": "Le 21 juillet 1969, Neil Armstrong posa le pied sur la Lune ; Buzz Aldrin le suivit vingt minutes plus tard."
+      },
+      "en": {
+        "text": "Who was the first man to walk on the Moon?",
+        "options": [
+          "Neil Armstrong",
+          "Buzz Aldrin",
+          "Yuri Gagarin",
+          "Michael Collins"
+        ],
+        "explanation": "On 21 July 1969, Neil Armstrong set foot on the Moon; Buzz Aldrin followed him twenty minutes later."
+      },
+      "es": {
+        "text": "¿Quién fue el primer hombre en pisar la Luna?",
+        "options": [
+          "Neil Armstrong",
+          "Buzz Aldrin",
+          "Yuri Gagarin",
+          "Michael Collins"
+        ],
+        "explanation": "El 21 de julio de 1969, Neil Armstrong pisó la Luna; Buzz Aldrin lo siguió veinte minutos después."
+      }
+    }
+  },
+  {
+    "sourceRef": "d055daff63f2c618",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel paquebot réputé insubmersible a sombré lors de son voyage inaugural en 1912 ?",
+        "options": [
+          "Le Lusitania",
+          "Le Queen Mary",
+          "Le Titanic",
+          "Le Normandie"
+        ],
+        "explanation": "Le Titanic heurta un iceberg dans la nuit du 14 au 15 avril 1912 ; environ 1 500 personnes périrent."
+      },
+      "en": {
+        "text": "Which liner, said to be unsinkable, sank on its maiden voyage in 1912?",
+        "options": [
+          "The Lusitania",
+          "The Queen Mary",
+          "The Titanic",
+          "The Normandie"
+        ],
+        "explanation": "The Titanic struck an iceberg on the night of 14–15 April 1912; about 1,500 people died."
+      },
+      "es": {
+        "text": "¿Qué transatlántico considerado insumergible se hundió en su viaje inaugural en 1912?",
+        "options": [
+          "El Lusitania",
+          "El Queen Mary",
+          "El Titanic",
+          "El Normandie"
+        ],
+        "explanation": "El Titanic chocó contra un iceberg la noche del 14 al 15 de abril de 1912; murieron unas 1.500 personas."
+      }
+    }
+  },
+  {
+    "sourceRef": "82a3bf91b18e5812",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel conquérant macédonien étendit son empire jusqu'à l'Indus au IVe siècle av. J.-C. ?",
+        "options": [
+          "Jules César",
+          "Alexandre le Grand",
+          "Attila",
+          "Hannibal"
+        ],
+        "explanation": "Mort à 32 ans, Alexandre le Grand n'avait jamais perdu une seule bataille."
+      },
+      "en": {
+        "text": "Which Macedonian conqueror extended his empire as far as the Indus in the 4th century BC?",
+        "options": [
+          "Julius Caesar",
+          "Alexander the Great",
+          "Attila",
+          "Hannibal"
+        ],
+        "explanation": "Dead at 32, Alexander the Great had never lost a single battle."
+      },
+      "es": {
+        "text": "¿Qué conquistador macedonio extendió su imperio hasta el Indo en el siglo IV a. C.?",
+        "options": [
+          "Julio César",
+          "Alejandro Magno",
+          "Atila",
+          "Aníbal"
+        ],
+        "explanation": "Muerto a los 32 años, Alejandro Magno jamás perdió una sola batalla."
+      }
+    }
+  },
+  {
+    "sourceRef": "a6d93ba78b3de14c",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle héroïne française a fait lever le siège d'Orléans en 1429 ?",
+        "options": [
+          "Aliénor d'Aquitaine",
+          "Catherine de Médicis",
+          "Anne de Bretagne",
+          "Jeanne d'Arc"
+        ],
+        "explanation": "Jeanne d'Arc avait environ 17 ans lorsqu'elle mena les troupes françaises à Orléans."
+      },
+      "en": {
+        "text": "Which French heroine lifted the siege of Orléans in 1429?",
+        "options": [
+          "Eleanor of Aquitaine",
+          "Catherine de' Medici",
+          "Anne of Brittany",
+          "Joan of Arc"
+        ],
+        "explanation": "Joan of Arc was about 17 years old when she led the French troops at Orléans."
+      },
+      "es": {
+        "text": "¿Qué heroína francesa levantó el asedio de Orleans en 1429?",
+        "options": [
+          "Leonor de Aquitania",
+          "Catalina de Médici",
+          "Ana de Bretaña",
+          "Juana de Arco"
+        ],
+        "explanation": "Juana de Arco tenía unos 17 años cuando lideró a las tropas francesas en Orleans."
+      }
+    }
+  },
+  {
+    "sourceRef": "c87d8849e2017fb5",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel empire avait pour capitale Constantinople jusqu'à sa chute en 1453 ?",
+        "options": [
+          "L'Empire ottoman",
+          "L'Empire byzantin",
+          "L'Empire perse",
+          "L'Empire carolingien"
+        ],
+        "explanation": "Héritier de Rome en Orient, l'Empire byzantin dura plus de mille ans avant la prise de Constantinople par les Ottomans."
+      },
+      "en": {
+        "text": "Which empire had Constantinople as its capital until its fall in 1453?",
+        "options": [
+          "The Ottoman Empire",
+          "The Byzantine Empire",
+          "The Persian Empire",
+          "The Carolingian Empire"
+        ],
+        "explanation": "Heir to Rome in the East, the Byzantine Empire lasted over a thousand years before the Ottomans took Constantinople."
+      },
+      "es": {
+        "text": "¿Qué imperio tuvo Constantinopla como capital hasta su caída en 1453?",
+        "options": [
+          "El Imperio otomano",
+          "El Imperio bizantino",
+          "El Imperio persa",
+          "El Imperio carolingio"
+        ],
+        "explanation": "Heredero de Roma en Oriente, el Imperio bizantino duró más de mil años antes de que los otomanos tomaran Constantinopla."
+      }
+    }
+  },
+  {
+    "sourceRef": "5ea0f5f7f39625ac",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle planète du système solaire est la plus proche du Soleil ?",
+        "options": [
+          "Vénus",
+          "Mars",
+          "Mercure",
+          "Jupiter"
+        ],
+        "explanation": "Mercure boucle son tour du Soleil en 88 jours seulement, mais n'est pourtant pas la planète la plus chaude."
+      },
+      "en": {
+        "text": "Which planet in the solar system is closest to the Sun?",
+        "options": [
+          "Venus",
+          "Mars",
+          "Mercury",
+          "Jupiter"
+        ],
+        "explanation": "Mercury circles the Sun in just 88 days, yet it is not the hottest planet."
+      },
+      "es": {
+        "text": "¿Qué planeta del sistema solar es el más cercano al Sol?",
+        "options": [
+          "Venus",
+          "Marte",
+          "Mercurio",
+          "Júpiter"
+        ],
+        "explanation": "Mercurio da la vuelta al Sol en solo 88 días y, sin embargo, no es el planeta más caliente."
+      }
+    }
+  },
+  {
+    "sourceRef": "e8ca14cd8c2073f7",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "À quelle température l'eau bout-elle au niveau de la mer ?",
+        "options": [
+          "100 °C",
+          "90 °C",
+          "80 °C",
+          "120 °C"
+        ],
+        "explanation": "En altitude, la pression baisse et l'eau bout plus tôt : au sommet de l'Everest, dès 70 °C environ."
+      },
+      "en": {
+        "text": "At what temperature does water boil at sea level?",
+        "options": [
+          "100 °C",
+          "90 °C",
+          "80 °C",
+          "120 °C"
+        ],
+        "explanation": "At altitude, pressure drops and water boils sooner: at the top of Everest, at around 70 °C."
+      },
+      "es": {
+        "text": "¿A qué temperatura hierve el agua a nivel del mar?",
+        "options": [
+          "100 °C",
+          "90 °C",
+          "80 °C",
+          "120 °C"
+        ],
+        "explanation": "En altitud la presión baja y el agua hierve antes: en la cima del Everest, hacia los 70 °C."
+      }
+    }
+  },
+  {
+    "sourceRef": "815bc640d6957259",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel gaz est indispensable à notre respiration ?",
+        "options": [
+          "L'azote",
+          "Le dioxyde de carbone",
+          "L'hélium",
+          "L'oxygène"
+        ],
+        "explanation": "L'oxygène ne représente qu'environ 21 % de l'air ; le reste est surtout de l'azote."
+      },
+      "en": {
+        "text": "Which gas is essential for us to breathe?",
+        "options": [
+          "Nitrogen",
+          "Carbon dioxide",
+          "Helium",
+          "Oxygen"
+        ],
+        "explanation": "Oxygen makes up only about 21% of the air; the rest is mostly nitrogen."
+      },
+      "es": {
+        "text": "¿Qué gas es indispensable para nuestra respiración?",
+        "options": [
+          "El nitrógeno",
+          "El dióxido de carbono",
+          "El helio",
+          "El oxígeno"
+        ],
+        "explanation": "El oxígeno solo representa alrededor del 21 % del aire; el resto es sobre todo nitrógeno."
+      }
+    }
+  },
+  {
+    "sourceRef": "e31e82531321d44e",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel scientifique a découvert la pénicilline en 1928 ?",
+        "options": [
+          "Louis Pasteur",
+          "Alexander Fleming",
+          "Marie Curie",
+          "Robert Koch"
+        ],
+        "explanation": "Fleming découvrit la pénicilline par accident, en observant une moisissure qui avait contaminé ses cultures."
+      },
+      "en": {
+        "text": "Which scientist discovered penicillin in 1928?",
+        "options": [
+          "Louis Pasteur",
+          "Alexander Fleming",
+          "Marie Curie",
+          "Robert Koch"
+        ],
+        "explanation": "Fleming discovered penicillin by accident, noticing a mould that had contaminated his cultures."
+      },
+      "es": {
+        "text": "¿Qué científico descubrió la penicilina en 1928?",
+        "options": [
+          "Louis Pasteur",
+          "Alexander Fleming",
+          "Marie Curie",
+          "Robert Koch"
+        ],
+        "explanation": "Fleming descubrió la penicilina por accidente, al observar un moho que había contaminado sus cultivos."
+      }
+    }
+  },
+  {
+    "sourceRef": "2b3dd73350035f62",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle planète du système solaire est célèbre pour ses anneaux spectaculaires ?",
+        "options": [
+          "Jupiter",
+          "Uranus",
+          "Neptune",
+          "Saturne"
+        ],
+        "explanation": "Les anneaux de Saturne sont faits de milliards de blocs de glace et de roche, parfois gros comme des maisons."
+      },
+      "en": {
+        "text": "Which planet in the solar system is famous for its spectacular rings?",
+        "options": [
+          "Jupiter",
+          "Uranus",
+          "Neptune",
+          "Saturn"
+        ],
+        "explanation": "Saturn's rings are made of billions of chunks of ice and rock, some as big as houses."
+      },
+      "es": {
+        "text": "¿Qué planeta del sistema solar es famoso por sus espectaculares anillos?",
+        "options": [
+          "Júpiter",
+          "Urano",
+          "Neptuno",
+          "Saturno"
+        ],
+        "explanation": "Los anillos de Saturno están hechos de miles de millones de bloques de hielo y roca, algunos tan grandes como casas."
+      }
+    }
+  },
+  {
+    "sourceRef": "6b6280da82ae34b7",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle unité mesure la fréquence d'un phénomène périodique ?",
+        "options": [
+          "Le watt",
+          "Le joule",
+          "Le hertz",
+          "Le pascal"
+        ],
+        "explanation": "Le hertz doit son nom à Heinrich Hertz, premier à prouver l'existence des ondes électromagnétiques."
+      },
+      "en": {
+        "text": "Which unit measures the frequency of a periodic phenomenon?",
+        "options": [
+          "The watt",
+          "The joule",
+          "The hertz",
+          "The pascal"
+        ],
+        "explanation": "The hertz is named after Heinrich Hertz, the first to prove the existence of electromagnetic waves."
+      },
+      "es": {
+        "text": "¿Qué unidad mide la frecuencia de un fenómeno periódico?",
+        "options": [
+          "El vatio",
+          "El julio",
+          "El hercio",
+          "El pascal"
+        ],
+        "explanation": "El hercio debe su nombre a Heinrich Hertz, el primero en demostrar la existencia de las ondas electromagnéticas."
+      }
+    }
+  },
+  {
+    "sourceRef": "1f532c0bc5c652ae",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la capitale de l'Espagne ?",
+        "options": [
+          "Barcelone",
+          "Séville",
+          "Madrid",
+          "Valence"
+        ],
+        "explanation": "Madrid est aussi la capitale la plus haute d'Europe occidentale, perchée à environ 650 m d'altitude."
+      },
+      "en": {
+        "text": "What is the capital of Spain?",
+        "options": [
+          "Barcelona",
+          "Seville",
+          "Madrid",
+          "Valencia"
+        ],
+        "explanation": "Madrid is also the highest capital in Western Europe, sitting at about 650 m above sea level."
+      },
+      "es": {
+        "text": "¿Cuál es la capital de España?",
+        "options": [
+          "Barcelona",
+          "Sevilla",
+          "Madrid",
+          "Valencia"
+        ],
+        "explanation": "Madrid es además la capital más alta de Europa occidental, a unos 650 m de altitud."
+      }
+    }
+  },
+  {
+    "sourceRef": "5a6e14270e52c2fb",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus long fleuve de France ?",
+        "options": [
+          "La Seine",
+          "Le Rhône",
+          "La Garonne",
+          "La Loire"
+        ],
+        "explanation": "Avec ses 1 006 km, la Loire est surnommée le « dernier fleuve sauvage » d'Europe."
+      },
+      "en": {
+        "text": "What is the longest river in France?",
+        "options": [
+          "The Seine",
+          "The Rhône",
+          "The Garonne",
+          "The Loire"
+        ],
+        "explanation": "At 1,006 km, the Loire is nicknamed Europe's 'last wild river'."
+      },
+      "es": {
+        "text": "¿Cuál es el río más largo de Francia?",
+        "options": [
+          "El Sena",
+          "El Ródano",
+          "El Garona",
+          "El Loira"
+        ],
+        "explanation": "Con sus 1.006 km, el Loira es apodado el «último río salvaje» de Europa."
+      }
+    }
+  },
+  {
+    "sourceRef": "784236140b13c970",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Combien d'États composent les États-Unis d'Amérique ?",
+        "options": [
+          "48",
+          "50",
+          "52",
+          "45"
+        ],
+        "explanation": "Les deux derniers États admis, l'Alaska et Hawaï, ont rejoint l'Union la même année : 1959."
+      },
+      "en": {
+        "text": "How many states make up the United States of America?",
+        "options": [
+          "48",
+          "50",
+          "52",
+          "45"
+        ],
+        "explanation": "The last two states admitted, Alaska and Hawaii, joined the Union in the same year: 1959."
+      },
+      "es": {
+        "text": "¿Cuántos estados componen los Estados Unidos de América?",
+        "options": [
+          "48",
+          "50",
+          "52",
+          "45"
+        ],
+        "explanation": "Los dos últimos estados admitidos, Alaska y Hawái, entraron en la Unión el mismo año: 1959."
+      }
+    }
+  },
+  {
+    "sourceRef": "731e0802d696cf6f",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel canal permet aux navires de passer de la Méditerranée à la mer Rouge ?",
+        "options": [
+          "Le canal de Panama",
+          "Le canal de Corinthe",
+          "Le canal de Suez",
+          "Le canal de Kiel"
+        ],
+        "explanation": "Inauguré en 1869, le canal de Suez évite aux navires le long détour par le cap de Bonne-Espérance."
+      },
+      "en": {
+        "text": "Which canal lets ships pass from the Mediterranean to the Red Sea?",
+        "options": [
+          "The Panama Canal",
+          "The Corinth Canal",
+          "The Suez Canal",
+          "The Kiel Canal"
+        ],
+        "explanation": "Opened in 1869, the Suez Canal spares ships the long detour around the Cape of Good Hope."
+      },
+      "es": {
+        "text": "¿Qué canal permite a los barcos pasar del Mediterráneo al mar Rojo?",
+        "options": [
+          "El canal de Panamá",
+          "El canal de Corinto",
+          "El canal de Suez",
+          "El canal de Kiel"
+        ],
+        "explanation": "Inaugurado en 1869, el canal de Suez evita a los barcos el largo rodeo por el cabo de Buena Esperanza."
+      }
+    }
+  },
+  {
+    "sourceRef": "a5530fae20106097",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle mer, la plus salée du monde, peut-on flotter sans effort ?",
+        "options": [
+          "La mer Morte",
+          "La mer Rouge",
+          "La mer Caspienne",
+          "La mer Noire"
+        ],
+        "explanation": "La mer Morte est presque dix fois plus salée que l'océan ; son rivage est aussi le point émergé le plus bas du globe."
+      },
+      "en": {
+        "text": "In which sea, the saltiest in the world, can you float effortlessly?",
+        "options": [
+          "The Dead Sea",
+          "The Red Sea",
+          "The Caspian Sea",
+          "The Black Sea"
+        ],
+        "explanation": "The Dead Sea is almost ten times saltier than the ocean; its shore is also the lowest point on dry land."
+      },
+      "es": {
+        "text": "¿En qué mar, el más salado del mundo, se puede flotar sin esfuerzo?",
+        "options": [
+          "El mar Muerto",
+          "El mar Rojo",
+          "El mar Caspio",
+          "El mar Negro"
+        ],
+        "explanation": "El mar Muerto es casi diez veces más salado que el océano; su orilla es además el punto emergido más bajo del planeta."
+      }
+    }
+  },
+  {
+    "sourceRef": "846a1718d2c0ac34",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport frappe-t-on un volant avec une raquette ?",
+        "options": [
+          "Le squash",
+          "Le tennis de table",
+          "Le badminton",
+          "La pelote basque"
+        ],
+        "explanation": "Le volant de badminton peut dépasser 400 km/h au smash : c'est le projectile le plus rapide du sport."
+      },
+      "en": {
+        "text": "In which sport do you hit a shuttlecock with a racket?",
+        "options": [
+          "Squash",
+          "Table tennis",
+          "Badminton",
+          "Basque pelota"
+        ],
+        "explanation": "A badminton shuttlecock can exceed 400 km/h on a smash: the fastest projectile in sport."
+      },
+      "es": {
+        "text": "¿En qué deporte se golpea un volante con una raqueta?",
+        "options": [
+          "El squash",
+          "El tenis de mesa",
+          "El bádminton",
+          "La pelota vasca"
+        ],
+        "explanation": "El volante de bádminton puede superar los 400 km/h en un remate: es el proyectil más rápido del deporte."
+      }
+    }
+  },
+  {
+    "sourceRef": "82da41c2af5d8aea",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel sport d'équipe se joue dans une piscine avec un ballon ?",
+        "options": [
+          "Le water-polo",
+          "La natation synchronisée",
+          "Le plongeon",
+          "L'aviron"
+        ],
+        "explanation": "Au water-polo, les joueurs n'ont pas le droit de toucher le fond : ils nagent pendant tout le match."
+      },
+      "en": {
+        "text": "Which team sport is played in a pool with a ball?",
+        "options": [
+          "Water polo",
+          "Synchronised swimming",
+          "Diving",
+          "Rowing"
+        ],
+        "explanation": "In water polo, players may not touch the bottom: they swim for the entire match."
+      },
+      "es": {
+        "text": "¿Qué deporte de equipo se juega en una piscina con un balón?",
+        "options": [
+          "El waterpolo",
+          "La natación sincronizada",
+          "Los saltos",
+          "El remo"
+        ],
+        "explanation": "En el waterpolo los jugadores no pueden tocar el fondo: nadan durante todo el partido."
+      }
+    }
+  },
+  {
+    "sourceRef": "a9f9fc6f15d0d2d6",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Combien de sets un joueur doit-il gagner pour remporter un match masculin en Grand Chelem de tennis ?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "explanation": "Les matchs masculins de Grand Chelem se jouent au meilleur des cinq sets : il faut donc en gagner trois."
+      },
+      "en": {
+        "text": "How many sets must a player win to take a men's Grand Slam tennis match?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "explanation": "Men's Grand Slam matches are best of five sets, so a player must win three."
+      },
+      "es": {
+        "text": "¿Cuántos sets debe ganar un jugador para llevarse un partido masculino de Grand Slam de tenis?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "explanation": "Los partidos masculinos de Grand Slam se juegan al mejor de cinco sets: hay que ganar tres."
+      }
+    }
+  },
+  {
+    "sourceRef": "005c9756e2510821",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel cycliste belge, surnommé « le Cannibale », a remporté cinq Tours de France ?",
+        "options": [
+          "Bernard Hinault",
+          "Jacques Anquetil",
+          "Miguel Indurain",
+          "Eddy Merckx"
+        ],
+        "explanation": "Eddy Merckx a gagné environ un tiers de toutes les courses qu'il a disputées, un record inégalé."
+      },
+      "en": {
+        "text": "Which Belgian cyclist, nicknamed 'the Cannibal', won five Tours de France?",
+        "options": [
+          "Bernard Hinault",
+          "Jacques Anquetil",
+          "Miguel Indurain",
+          "Eddy Merckx"
+        ],
+        "explanation": "Eddy Merckx won about a third of all the races he entered, an unmatched record."
+      },
+      "es": {
+        "text": "¿Qué ciclista belga, apodado «el Caníbal», ganó cinco Tours de Francia?",
+        "options": [
+          "Bernard Hinault",
+          "Jacques Anquetil",
+          "Miguel Indurain",
+          "Eddy Merckx"
+        ],
+        "explanation": "Eddy Merckx ganó aproximadamente un tercio de todas las carreras que disputó, un récord inigualado."
+      }
+    }
+  },
+  {
+    "sourceRef": "98c5be32b05f63ad",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Combien y a-t-il de couleurs primaires en peinture ?",
+        "options": [
+          "Deux",
+          "Trois",
+          "Quatre",
+          "Cinq"
+        ],
+        "explanation": "Rouge, bleu et jaune : en les mélangeant, on obtient en théorie toutes les autres couleurs."
+      },
+      "en": {
+        "text": "How many primary colours are there in painting?",
+        "options": [
+          "Two",
+          "Three",
+          "Four",
+          "Five"
+        ],
+        "explanation": "Red, blue and yellow: by mixing them you can, in theory, obtain every other colour."
+      },
+      "es": {
+        "text": "¿Cuántos colores primarios hay en pintura?",
+        "options": [
+          "Dos",
+          "Tres",
+          "Cuatro",
+          "Cinco"
+        ],
+        "explanation": "Rojo, azul y amarillo: mezclándolos se obtienen, en teoría, todos los demás colores."
+      }
+    }
+  },
+  {
+    "sourceRef": "fa0c510559b1920e",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre néerlandais du Siècle d'or a peint « La Jeune Fille à la perle » ?",
+        "options": [
+          "Rembrandt",
+          "Frans Hals",
+          "Johannes Vermeer",
+          "Jan van Eyck"
+        ],
+        "explanation": "Surnommé « la Joconde du Nord », ce tableau de Vermeer ne représente sans doute pas une vraie perle, mais du verre."
+      },
+      "en": {
+        "text": "Which Dutch Golden Age painter created 'Girl with a Pearl Earring'?",
+        "options": [
+          "Rembrandt",
+          "Frans Hals",
+          "Johannes Vermeer",
+          "Jan van Eyck"
+        ],
+        "explanation": "Nicknamed 'the Mona Lisa of the North', Vermeer's painting probably shows not a real pearl but glass."
+      },
+      "es": {
+        "text": "¿Qué pintor neerlandés del Siglo de Oro pintó «La joven de la perla»?",
+        "options": [
+          "Rembrandt",
+          "Frans Hals",
+          "Johannes Vermeer",
+          "Jan van Eyck"
+        ],
+        "explanation": "Apodado «la Mona Lisa del Norte», el cuadro de Vermeer probablemente no muestra una perla real, sino vidrio."
+      }
+    }
+  },
+  {
+    "sourceRef": "815b673bcdb7d5b2",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel ogre vert et grognon vit dans un marais dans un célèbre film d'animation ?",
+        "options": [
+          "Hulk",
+          "Le Grinch",
+          "Gru",
+          "Shrek"
+        ],
+        "explanation": "Sorti en 2001, « Shrek » a remporté le tout premier Oscar du meilleur film d'animation."
+      },
+      "en": {
+        "text": "Which grumpy green ogre lives in a swamp in a famous animated film?",
+        "options": [
+          "Hulk",
+          "The Grinch",
+          "Gru",
+          "Shrek"
+        ],
+        "explanation": "Released in 2001, 'Shrek' won the very first Oscar for Best Animated Feature."
+      },
+      "es": {
+        "text": "¿Qué ogro verde y gruñón vive en un pantano en una famosa película de animación?",
+        "options": [
+          "Hulk",
+          "El Grinch",
+          "Gru",
+          "Shrek"
+        ],
+        "explanation": "Estrenada en 2001, «Shrek» ganó el primer Óscar a la mejor película de animación de la historia."
+      }
+    }
+  },
+  {
+    "sourceRef": "597c058458f3711c",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel poisson-clown, perdu dans l'océan, est recherché par son père dans un film d'animation ?",
+        "options": [
+          "Nemo",
+          "Dory",
+          "Marin",
+          "Bulle"
+        ],
+        "explanation": "Pour « Le Monde de Nemo », les animateurs de Pixar ont suivi des cours de plongée et d'océanographie."
+      },
+      "en": {
+        "text": "Which clownfish, lost in the ocean, is sought by his father in an animated film?",
+        "options": [
+          "Nemo",
+          "Dory",
+          "Marlin",
+          "Bubbles"
+        ],
+        "explanation": "For 'Finding Nemo', Pixar's animators took diving and oceanography classes."
+      },
+      "es": {
+        "text": "¿Qué pez payaso, perdido en el océano, es buscado por su padre en una película de animación?",
+        "options": [
+          "Nemo",
+          "Dory",
+          "Marlin",
+          "Burbuja"
+        ],
+        "explanation": "Para «Buscando a Nemo», los animadores de Pixar tomaron clases de buceo y oceanografía."
+      }
+    }
+  },
+  {
+    "sourceRef": "a23b15d39f0a7ec3",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel acteur incarne le capitaine Jack Sparrow dans « Pirates des Caraïbes » ?",
+        "options": [
+          "Orlando Bloom",
+          "Geoffrey Rush",
+          "Javier Bardem",
+          "Johnny Depp"
+        ],
+        "explanation": "Johnny Depp s'est inspiré du guitariste Keith Richards, qui joue d'ailleurs son père dans la saga."
+      },
+      "en": {
+        "text": "Which actor plays Captain Jack Sparrow in 'Pirates of the Caribbean'?",
+        "options": [
+          "Orlando Bloom",
+          "Geoffrey Rush",
+          "Javier Bardem",
+          "Johnny Depp"
+        ],
+        "explanation": "Johnny Depp based the character on guitarist Keith Richards, who even plays his father in the saga."
+      },
+      "es": {
+        "text": "¿Qué actor interpreta al capitán Jack Sparrow en «Piratas del Caribe»?",
+        "options": [
+          "Orlando Bloom",
+          "Geoffrey Rush",
+          "Javier Bardem",
+          "Johnny Depp"
+        ],
+        "explanation": "Johnny Depp se inspiró en el guitarrista Keith Richards, que además interpreta a su padre en la saga."
+      }
+    }
+  },
+  {
+    "sourceRef": "b0c5e89b7e36ac5f",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Combien de cordes possède une guitare classique ?",
+        "options": [
+          "Quatre",
+          "Cinq",
+          "Six",
+          "Sept"
+        ],
+        "explanation": "Les six cordes de la guitare classique étaient autrefois faites en boyau ; aujourd'hui, en nylon."
+      },
+      "en": {
+        "text": "How many strings does a classical guitar have?",
+        "options": [
+          "Four",
+          "Five",
+          "Six",
+          "Seven"
+        ],
+        "explanation": "The classical guitar's six strings were once made of gut; today they are nylon."
+      },
+      "es": {
+        "text": "¿Cuántas cuerdas tiene una guitarra clásica?",
+        "options": [
+          "Cuatro",
+          "Cinco",
+          "Seis",
+          "Siete"
+        ],
+        "explanation": "Las seis cuerdas de la guitarra clásica se fabricaban antes con tripa; hoy son de nailon."
+      }
+    }
+  },
+  {
+    "sourceRef": "55a5923fc9b8fe7b",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel opéra de Georges Bizet met en scène une cigarière de Séville ?",
+        "options": [
+          "La Traviata",
+          "Aida",
+          "Tosca",
+          "Carmen"
+        ],
+        "explanation": "Accueilli froidement à sa création en 1875, « Carmen » est devenu l'un des opéras les plus joués au monde."
+      },
+      "en": {
+        "text": "Which opera by Georges Bizet features a cigarette-factory girl from Seville?",
+        "options": [
+          "La Traviata",
+          "Aida",
+          "Tosca",
+          "Carmen"
+        ],
+        "explanation": "Coolly received at its 1875 premiere, 'Carmen' became one of the most performed operas in the world."
+      },
+      "es": {
+        "text": "¿Qué ópera de Georges Bizet retrata a una cigarrera de Sevilla?",
+        "options": [
+          "La Traviata",
+          "Aida",
+          "Tosca",
+          "Carmen"
+        ],
+        "explanation": "Recibida con frialdad en su estreno de 1875, «Carmen» se convirtió en una de las óperas más representadas del mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "bda8e083a0b4e3b7",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel grand animal terrestre est célèbre pour sa trompe et sa mémoire ?",
+        "options": [
+          "Le rhinocéros",
+          "L'éléphant",
+          "L'hippopotame",
+          "Le tapir"
+        ],
+        "explanation": "La trompe de l'éléphant compte environ 40 000 muscles, contre à peine plus de 600 dans tout le corps humain."
+      },
+      "en": {
+        "text": "Which large land animal is famous for its trunk and its memory?",
+        "options": [
+          "The rhinoceros",
+          "The elephant",
+          "The hippopotamus",
+          "The tapir"
+        ],
+        "explanation": "An elephant's trunk has about 40,000 muscles, compared with just over 600 in the entire human body."
+      },
+      "es": {
+        "text": "¿Qué gran animal terrestre es famoso por su trompa y su memoria?",
+        "options": [
+          "El rinoceronte",
+          "El elefante",
+          "El hipopótamo",
+          "El tapir"
+        ],
+        "explanation": "La trompa del elefante tiene unos 40.000 músculos, frente a poco más de 600 en todo el cuerpo humano."
+      }
+    }
+  },
+  {
+    "sourceRef": "eb5634a63df52205",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel phénomène lumineux illumine le ciel nocturne des régions polaires ?",
+        "options": [
+          "Un arc-en-ciel",
+          "Un halo solaire",
+          "Une aurore polaire",
+          "Un mirage"
+        ],
+        "explanation": "Les aurores naissent quand des particules du Soleil percutent la haute atmosphère ; leurs couleurs dépendent des gaz touchés."
+      },
+      "en": {
+        "text": "Which light phenomenon illuminates the night sky of the polar regions?",
+        "options": [
+          "A rainbow",
+          "A solar halo",
+          "An aurora",
+          "A mirage"
+        ],
+        "explanation": "Auroras occur when particles from the Sun strike the upper atmosphere; their colours depend on the gases hit."
+      },
+      "es": {
+        "text": "¿Qué fenómeno luminoso ilumina el cielo nocturno de las regiones polares?",
+        "options": [
+          "Un arcoíris",
+          "Un halo solar",
+          "Una aurora polar",
+          "Un espejismo"
+        ],
+        "explanation": "Las auroras surgen cuando partículas del Sol chocan con la alta atmósfera; sus colores dependen de los gases alcanzados."
+      }
+    }
+  },
+  {
+    "sourceRef": "308136b33562255e",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Que signifie le « e » de « e-mail » ?",
+        "options": [
+          "Express",
+          "Électronique",
+          "Externe",
+          "Éphémère"
+        ],
+        "explanation": "Le tout premier e-mail a été envoyé en 1971 par Ray Tomlinson, qui choisit aussi le symbole @."
+      },
+      "en": {
+        "text": "What does the 'e' in 'e-mail' stand for?",
+        "options": [
+          "Express",
+          "Electronic",
+          "External",
+          "Ephemeral"
+        ],
+        "explanation": "The very first e-mail was sent in 1971 by Ray Tomlinson, who also chose the @ symbol."
+      },
+      "es": {
+        "text": "¿Qué significa la «e» de «e-mail»?",
+        "options": [
+          "Express",
+          "Electrónico",
+          "Externo",
+          "Efímero"
+        ],
+        "explanation": "El primer correo electrónico lo envió Ray Tomlinson en 1971, quien también eligió el símbolo @."
+      }
+    }
+  },
+  {
+    "sourceRef": "dcb6ac334900b8a5",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel système d'exploitation pour smartphones est développé par Google ?",
+        "options": [
+          "iOS",
+          "Windows Phone",
+          "Symbian",
+          "Android"
+        ],
+        "explanation": "Chaque version majeure d'Android a longtemps porté un nom de sucrerie : Cupcake, KitKat, Oreo…"
+      },
+      "en": {
+        "text": "Which smartphone operating system is developed by Google?",
+        "options": [
+          "iOS",
+          "Windows Phone",
+          "Symbian",
+          "Android"
+        ],
+        "explanation": "For years, every major Android version bore a dessert name: Cupcake, KitKat, Oreo…"
+      },
+      "es": {
+        "text": "¿Qué sistema operativo para smartphones desarrolla Google?",
+        "options": [
+          "iOS",
+          "Windows Phone",
+          "Symbian",
+          "Android"
+        ],
+        "explanation": "Durante años, cada versión principal de Android llevó nombre de dulce: Cupcake, KitKat, Oreo…"
+      }
+    }
+  },
+  {
+    "sourceRef": "e6ae4247eb034f72",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel ingrédient de base sert à fabriquer le pain ?",
+        "options": [
+          "Le riz",
+          "La farine",
+          "Le maïs",
+          "La pomme de terre"
+        ],
+        "explanation": "Farine, eau, sel et levain : quatre ingrédients suffisent pour faire un pain traditionnel."
+      },
+      "en": {
+        "text": "Which basic ingredient is used to make bread?",
+        "options": [
+          "Rice",
+          "Flour",
+          "Corn",
+          "Potato"
+        ],
+        "explanation": "Flour, water, salt and starter: four ingredients are enough to make a traditional loaf."
+      },
+      "es": {
+        "text": "¿Qué ingrediente básico se usa para hacer el pan?",
+        "options": [
+          "El arroz",
+          "La harina",
+          "El maíz",
+          "La patata"
+        ],
+        "explanation": "Harina, agua, sal y masa madre: cuatro ingredientes bastan para hacer un pan tradicional."
+      }
+    }
+  },
+  {
+    "sourceRef": "ddb3688a4d16b53d",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel fruit est l'ingrédient principal du guacamole ?",
+        "options": [
+          "L'avocat",
+          "La tomate",
+          "Le citron vert",
+          "Le poivron"
+        ],
+        "explanation": "Le mot « guacamole » vient du nahuatl, la langue des Aztèques : « ahuacamolli », sauce à l'avocat."
+      },
+      "en": {
+        "text": "Which fruit is the main ingredient of guacamole?",
+        "options": [
+          "Avocado",
+          "Tomato",
+          "Lime",
+          "Bell pepper"
+        ],
+        "explanation": "The word 'guacamole' comes from Nahuatl, the language of the Aztecs: 'ahuacamolli', avocado sauce."
+      },
+      "es": {
+        "text": "¿Qué fruta es el ingrediente principal del guacamole?",
+        "options": [
+          "El aguacate",
+          "El tomate",
+          "La lima",
+          "El pimiento"
+        ],
+        "explanation": "La palabra «guacamole» viene del náhuatl, la lengua de los aztecas: «ahuacamolli», salsa de aguacate."
+      }
+    }
+  },
+  {
+    "sourceRef": "5fa3100dfd8954f5",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel plat japonais consiste en des nouilles servies dans un grand bol de bouillon ?",
+        "options": [
+          "Les sushis",
+          "Les tempuras",
+          "Le ramen",
+          "Les gyozas"
+        ],
+        "explanation": "Au Japon, aspirer bruyamment ses ramens n'est pas impoli : c'est même un signe d'appréciation."
+      },
+      "en": {
+        "text": "Which Japanese dish consists of noodles served in a large bowl of broth?",
+        "options": [
+          "Sushi",
+          "Tempura",
+          "Ramen",
+          "Gyoza"
+        ],
+        "explanation": "In Japan, loudly slurping your ramen is not rude: it is even a sign of appreciation."
+      },
+      "es": {
+        "text": "¿Qué plato japonés consiste en fideos servidos en un gran tazón de caldo?",
+        "options": [
+          "El sushi",
+          "La tempura",
+          "El ramen",
+          "Las gyozas"
+        ],
+        "explanation": "En Japón, sorber ruidosamente el ramen no es de mala educación: incluso es señal de aprecio."
+      }
+    }
+  },
+  {
+    "sourceRef": "fcc1da5c2c83b14d",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel pantin de bois voit son nez s'allonger chaque fois qu'il ment ?",
+        "options": [
+          "Pinocchio",
+          "Peter Pan",
+          "Oliver Twist",
+          "Le Petit Prince"
+        ],
+        "explanation": "Créé par l'Italien Carlo Collodi en 1881, Pinocchio rêve de devenir un vrai petit garçon."
+      },
+      "en": {
+        "text": "Which wooden puppet's nose grows every time he lies?",
+        "options": [
+          "Pinocchio",
+          "Peter Pan",
+          "Oliver Twist",
+          "The Little Prince"
+        ],
+        "explanation": "Created by the Italian Carlo Collodi in 1881, Pinocchio dreams of becoming a real boy."
+      },
+      "es": {
+        "text": "¿A qué muñeco de madera le crece la nariz cada vez que miente?",
+        "options": [
+          "Pinocho",
+          "Peter Pan",
+          "Oliver Twist",
+          "El Principito"
+        ],
+        "explanation": "Creado por el italiano Carlo Collodi en 1881, Pinocho sueña con convertirse en un niño de verdad."
+      }
+    }
+  },
+  {
+    "sourceRef": "8e265cf0e0f7a639",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Dans une célèbre fable de La Fontaine, quel animal lent finit par battre le lièvre à la course ?",
+        "options": [
+          "L'escargot",
+          "Le hérisson",
+          "La limace",
+          "La tortue"
+        ],
+        "explanation": "« Rien ne sert de courir, il faut partir à point » : la morale de cette fable est passée dans le langage courant."
+      },
+      "en": {
+        "text": "In a famous La Fontaine fable, which slow animal ends up beating the hare in a race?",
+        "options": [
+          "The snail",
+          "The hedgehog",
+          "The slug",
+          "The tortoise"
+        ],
+        "explanation": "'Slow and steady wins the race': the moral of this fable has entered everyday language."
+      },
+      "es": {
+        "text": "En una célebre fábula de La Fontaine, ¿qué animal lento acaba ganando la carrera a la liebre?",
+        "options": [
+          "El caracol",
+          "El erizo",
+          "La babosa",
+          "La tortuga"
+        ],
+        "explanation": "«No sirve de nada correr, hay que salir a tiempo»: la moraleja de esta fábula pasó al lenguaje corriente."
+      }
+    }
+  },
+  {
+    "sourceRef": "496311b017eae402",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain américain a reçu le prix Nobel après « Le Vieil Homme et la Mer » ?",
+        "options": [
+          "John Steinbeck",
+          "Ernest Hemingway",
+          "William Faulkner",
+          "Mark Twain"
+        ],
+        "explanation": "Hemingway écrivait debout, et se vantait de retravailler ses fins de romans des dizaines de fois."
+      },
+      "en": {
+        "text": "Which American writer received the Nobel Prize after 'The Old Man and the Sea'?",
+        "options": [
+          "John Steinbeck",
+          "Ernest Hemingway",
+          "William Faulkner",
+          "Mark Twain"
+        ],
+        "explanation": "Hemingway wrote standing up, and boasted of rewriting his novel endings dozens of times."
+      },
+      "es": {
+        "text": "¿Qué escritor estadounidense recibió el Nobel tras «El viejo y el mar»?",
+        "options": [
+          "John Steinbeck",
+          "Ernest Hemingway",
+          "William Faulkner",
+          "Mark Twain"
+        ],
+        "explanation": "Hemingway escribía de pie y presumía de reescribir los finales de sus novelas decenas de veces."
+      }
+    }
+  },
+  {
+    "sourceRef": "8cc89a67de1543ab",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Combien de mois de l'année comptent 31 jours ?",
+        "options": [
+          "Cinq",
+          "Six",
+          "Sept",
+          "Huit"
+        ],
+        "explanation": "Janvier, mars, mai, juillet, août, octobre et décembre : sept mois comptent 31 jours."
+      },
+      "en": {
+        "text": "How many months of the year have 31 days?",
+        "options": [
+          "Five",
+          "Six",
+          "Seven",
+          "Eight"
+        ],
+        "explanation": "January, March, May, July, August, October and December: seven months have 31 days."
+      },
+      "es": {
+        "text": "¿Cuántos meses del año tienen 31 días?",
+        "options": [
+          "Cinco",
+          "Seis",
+          "Siete",
+          "Ocho"
+        ],
+        "explanation": "Enero, marzo, mayo, julio, agosto, octubre y diciembre: siete meses tienen 31 días."
+      }
+    }
+  },
+  {
+    "sourceRef": "21cc95b86ba82869",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel animal marin, réputé très intelligent, communique par clics et sifflements ?",
+        "options": [
+          "Le dauphin",
+          "Le thon",
+          "La méduse",
+          "L'espadon"
+        ],
+        "explanation": "Chaque dauphin possède un sifflement « signature », un peu comme un prénom qu'il garde toute sa vie."
+      },
+      "en": {
+        "text": "Which sea animal, famed for its intelligence, communicates with clicks and whistles?",
+        "options": [
+          "The dolphin",
+          "The tuna",
+          "The jellyfish",
+          "The swordfish"
+        ],
+        "explanation": "Each dolphin has a 'signature' whistle, a bit like a first name it keeps for life."
+      },
+      "es": {
+        "text": "¿Qué animal marino, famoso por su inteligencia, se comunica con clics y silbidos?",
+        "options": [
+          "El delfín",
+          "El atún",
+          "La medusa",
+          "El pez espada"
+        ],
+        "explanation": "Cada delfín tiene un silbido «firma», un poco como un nombre propio que conserva toda la vida."
+      }
+    }
+  },
+  {
+    "sourceRef": "29b7491fa940fad8",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur allemand est l'auteur des « Concertos brandebourgeois » ?",
+        "options": [
+          "Jean-Sébastien Bach",
+          "Georg Friedrich Haendel",
+          "Franz Schubert",
+          "Johannes Brahms"
+        ],
+        "explanation": "Bach offrit ces six concertos au margrave de Brandebourg, qui ne les fit probablement jamais jouer."
+      },
+      "en": {
+        "text": "Which German composer wrote the 'Brandenburg Concertos'?",
+        "options": [
+          "Johann Sebastian Bach",
+          "George Frideric Handel",
+          "Franz Schubert",
+          "Johannes Brahms"
+        ],
+        "explanation": "Bach presented these six concertos to the Margrave of Brandenburg, who probably never had them performed."
+      },
+      "es": {
+        "text": "¿Qué compositor alemán escribió los «Conciertos de Brandeburgo»?",
+        "options": [
+          "Johann Sebastian Bach",
+          "Georg Friedrich Haendel",
+          "Franz Schubert",
+          "Johannes Brahms"
+        ],
+        "explanation": "Bach regaló estos seis conciertos al margrave de Brandeburgo, quien probablemente nunca los mandó interpretar."
+      }
+    }
+  }
+]
