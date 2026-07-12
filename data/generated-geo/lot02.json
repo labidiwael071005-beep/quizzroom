@@ -116,25 +116,25 @@
     "type": "geo",
     "theme": "histoire",
     "difficulty": "easy",
-    "lat": 29.9792,
-    "lng": 31.1342,
+    "lat": 30.0444,
+    "lng": 31.2357,
     "translations": {
       "fr": {
         "text": "Près de quelle capitale africaine les grandes pyramides de Gizeh dominent-elles le désert ?",
         "explanation": "La grande pyramide de Gizeh est la seule des sept merveilles antiques encore debout.",
-        "label": "Gizeh",
+        "label": "Le Caire",
         "country": "Égypte"
       },
       "en": {
         "text": "Near which African capital do the great Pyramids of Giza tower over the desert?",
         "explanation": "The Great Pyramid of Giza is the only one of the seven ancient wonders still standing.",
-        "label": "Giza",
+        "label": "Cairo",
         "country": "Egypt"
       },
       "es": {
         "text": "¿Cerca de qué capital africana dominan el desierto las grandes pirámides de Guiza?",
         "explanation": "La Gran Pirámide de Guiza es la única de las siete maravillas antiguas que sigue en pie.",
-        "label": "Guiza",
+        "label": "El Cairo",
         "country": "Egipto"
       }
     }
