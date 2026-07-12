@@ -1,0 +1,842 @@
+[
+  {
+    "sourceRef": "78a3797aac0b12a4",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 20.6843,
+    "lng": -88.5678,
+    "translations": {
+      "fr": {
+        "text": "Quelle cité maya du Yucatán dresse la pyramide de Kukulcán, où un serpent d'ombre semble descendre aux équinoxes ?",
+        "explanation": "Un battement de mains face à l'escalier renvoie un écho aigu imitant le chant du quetzal, l'oiseau sacré des Mayas.",
+        "label": "Chichén Itzá",
+        "country": "Mexique"
+      },
+      "en": {
+        "text": "Which Mayan city of the Yucatán raises the pyramid of Kukulcán, where a serpent of shadow seems to descend at the equinoxes?",
+        "explanation": "A handclap in front of the staircase returns a shrill echo imitating the song of the quetzal, the Mayas' sacred bird.",
+        "label": "Chichén Itzá",
+        "country": "Mexico"
+      },
+      "es": {
+        "text": "¿Qué ciudad maya de Yucatán alza la pirámide de Kukulcán, donde una serpiente de sombra parece descender en los equinoccios?",
+        "explanation": "Una palmada frente a la escalinata devuelve un eco agudo que imita el canto del quetzal, el ave sagrada de los mayas.",
+        "label": "Chichén Itzá",
+        "country": "México"
+      }
+    }
+  },
+  {
+    "sourceRef": "bb97b804e89d22df",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 39.6542,
+    "lng": 66.9597,
+    "translations": {
+      "fr": {
+        "text": "Quelle cité de la route de la soie, aux médersas bleues du Régistan, fut la capitale de Tamerlan ?",
+        "explanation": "Tamerlan fit venir des artisans de tout son empire pour en faire, disait-il, « la plus belle ville du monde ».",
+        "label": "Samarcande",
+        "country": "Ouzbékistan"
+      },
+      "en": {
+        "text": "Which Silk Road city, with the blue madrasas of the Registan, was the capital of Tamerlane?",
+        "explanation": "Tamerlane brought in craftsmen from across his empire to make it, he said, 'the most beautiful city in the world'.",
+        "label": "Samarkand",
+        "country": "Uzbekistan"
+      },
+      "es": {
+        "text": "¿Qué ciudad de la Ruta de la Seda, con las madrasas azules del Registán, fue la capital de Tamerlán?",
+        "explanation": "Tamerlán trajo artesanos de todo su imperio para hacer de ella, decía, «la ciudad más bella del mundo».",
+        "label": "Samarcanda",
+        "country": "Uzbekistán"
+      }
+    }
+  },
+  {
+    "sourceRef": "9eb33ce519077aad",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 29.9354,
+    "lng": 52.8916,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale cérémonielle de l'Empire perse fut incendiée par Alexandre le Grand en 330 av. J.-C. ?",
+        "explanation": "Selon la légende, l'incendie aurait été lancé à l'instigation d'une courtisane, Thaïs, au cours d'un banquet.",
+        "label": "Persépolis",
+        "country": "Iran"
+      },
+      "en": {
+        "text": "Which ceremonial capital of the Persian Empire was burned by Alexander the Great in 330 BC?",
+        "explanation": "According to legend, the fire was started at the urging of a courtesan, Thaïs, during a banquet.",
+        "label": "Persepolis",
+        "country": "Iran"
+      },
+      "es": {
+        "text": "¿Qué capital ceremonial del Imperio persa fue incendiada por Alejandro Magno en 330 a. C.?",
+        "explanation": "Según la leyenda, el incendio se inició a instancias de una cortesana, Thais, durante un banquete.",
+        "label": "Persépolis",
+        "country": "Irán"
+      }
+    }
+  },
+  {
+    "sourceRef": "22e2e4cd8c547b22",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 31.7683,
+    "lng": 35.2137,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville sainte des trois grandes religions monothéistes abrite le mur des Lamentations et le Saint-Sépulcre ?",
+        "explanation": "Sa vieille ville d'à peine 1 km² concentre des lieux saints du judaïsme, du christianisme et de l'islam.",
+        "label": "Jérusalem",
+        "country": "Israël"
+      },
+      "en": {
+        "text": "Which holy city of the three great monotheistic religions contains the Western Wall and the Holy Sepulchre?",
+        "explanation": "Its old city of barely 1 km² concentrates holy sites of Judaism, Christianity and Islam.",
+        "label": "Jerusalem",
+        "country": "Israel"
+      },
+      "es": {
+        "text": "¿Qué ciudad santa de las tres grandes religiones monoteístas alberga el Muro de las Lamentaciones y el Santo Sepulcro?",
+        "explanation": "Su ciudad vieja, de apenas 1 km², concentra lugares santos del judaísmo, el cristianismo y el islam.",
+        "label": "Jerusalén",
+        "country": "Israel"
+      }
+    }
+  },
+  {
+    "sourceRef": "4bf32b1637fc73b3",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 36.8528,
+    "lng": 10.3233,
+    "translations": {
+      "fr": {
+        "text": "Quelle cité antique d'Afrique du Nord, patrie d'Hannibal, fut la grande rivale de Rome ?",
+        "explanation": "Après l'avoir rasée en 146 av. J.-C., les Romains la reconstruisirent… pour en faire une de leurs plus grandes villes.",
+        "label": "Carthage",
+        "country": "Tunisie"
+      },
+      "en": {
+        "text": "Which ancient North African city, homeland of Hannibal, was Rome's great rival?",
+        "explanation": "After razing it in 146 BC, the Romans rebuilt it… into one of their greatest cities.",
+        "label": "Carthage",
+        "country": "Tunisia"
+      },
+      "es": {
+        "text": "¿Qué ciudad antigua del norte de África, patria de Aníbal, fue la gran rival de Roma?",
+        "explanation": "Tras arrasarla en 146 a. C., los romanos la reconstruyeron… hasta hacer de ella una de sus mayores ciudades.",
+        "label": "Cartago",
+        "country": "Túnez"
+      }
+    }
+  },
+  {
+    "sourceRef": "675da0fca97f21a4",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "lat": 43.0962,
+    "lng": -79.0377,
+    "translations": {
+      "fr": {
+        "text": "Quelles chutes géantes, à cheval sur la frontière entre les États-Unis et le Canada, attirent des millions de visiteurs ?",
+        "explanation": "Leur débit ferait déborder une piscine olympique en moins d'une seconde ; des funambules les ont traversées sur un câble.",
+        "label": "Chutes du Niagara",
+        "country": "Canada / États-Unis"
+      },
+      "en": {
+        "text": "Which giant falls, straddling the border between the United States and Canada, draw millions of visitors?",
+        "explanation": "Their flow would overfill an Olympic pool in under a second; tightrope walkers have crossed them on a cable.",
+        "label": "Niagara Falls",
+        "country": "Canada / United States"
+      },
+      "es": {
+        "text": "¿Qué cataratas gigantes, a caballo entre Estados Unidos y Canadá, atraen a millones de visitantes?",
+        "explanation": "Su caudal desbordaría una piscina olímpica en menos de un segundo; funámbulos las han cruzado sobre un cable.",
+        "label": "Cataratas del Niágara",
+        "country": "Canadá / Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "35f263b6aca20fbb",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du désert du Nevada scintille de casinos géants le long de son « Strip » ?",
+        "explanation": "La ville est si lumineuse que son faisceau le plus puissant, au sommet d'une pyramide de verre, se voit depuis l'espace.",
+        "label": "Las Vegas",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which Nevada desert city glitters with giant casinos along its 'Strip'?",
+        "explanation": "The city is so bright that its most powerful beam, atop a glass pyramid, can be seen from space.",
+        "label": "Las Vegas",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué ciudad del desierto de Nevada brilla con casinos gigantes a lo largo de su «Strip»?",
+        "explanation": "La ciudad es tan luminosa que su haz más potente, en lo alto de una pirámide de cristal, se ve desde el espacio.",
+        "label": "Las Vegas",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "92c05d8872d5fc6f",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 42.6507,
+    "lng": 18.0944,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville fortifiée croate, « perle de l'Adriatique », servit de décor à Port-Réal dans « Game of Thrones » ?",
+        "explanation": "Ses remparts de 2 km, épais par endroits de 6 m, se parcourent entièrement à pied au-dessus de la mer.",
+        "label": "Dubrovnik",
+        "country": "Croatie"
+      },
+      "en": {
+        "text": "Which walled Croatian city, 'pearl of the Adriatic', served as the setting for King's Landing in 'Game of Thrones'?",
+        "explanation": "Its 2 km of ramparts, up to 6 m thick in places, can be walked in full above the sea.",
+        "label": "Dubrovnik",
+        "country": "Croatia"
+      },
+      "es": {
+        "text": "¿Qué ciudad amurallada croata, «perla del Adriático», sirvió de escenario para Desembarco del Rey en «Juego de tronos»?",
+        "explanation": "Sus murallas de 2 km, de hasta 6 m de grosor en algunos puntos, se recorren enteras a pie sobre el mar.",
+        "label": "Dubrovnik",
+        "country": "Croacia"
+      }
+    }
+  },
+  {
+    "sourceRef": "39a0790685ae3d1f",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 21.3891,
+    "lng": 39.8579,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville d'Arabie saoudite, but du grand pèlerinage annuel de l'islam, est interdite aux non-musulmans ?",
+        "explanation": "Le pèlerinage du hajj y rassemble plus de deux millions de fidèles, l'un des plus grands rassemblements humains du monde.",
+        "label": "La Mecque",
+        "country": "Arabie saoudite"
+      },
+      "en": {
+        "text": "Which Saudi Arabian city, goal of Islam's great annual pilgrimage, is closed to non-Muslims?",
+        "explanation": "The hajj pilgrimage gathers more than two million faithful there, one of the largest human gatherings in the world.",
+        "label": "Mecca",
+        "country": "Saudi Arabia"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Arabia Saudita, meta de la gran peregrinación anual del islam, está vedada a los no musulmanes?",
+        "explanation": "La peregrinación del hach reúne allí a más de dos millones de fieles, una de las mayores concentraciones humanas del mundo.",
+        "label": "La Meca",
+        "country": "Arabia Saudita"
+      }
+    }
+  },
+  {
+    "sourceRef": "1eb416854b7f3f1d",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 50.4372,
+    "lng": 5.9714,
+    "translations": {
+      "fr": {
+        "text": "Sur quel circuit des Ardennes belges se court un Grand Prix mythique, avec son redoutable virage de l'Eau Rouge ?",
+        "explanation": "Le tracé suit les routes vallonnées d'une ville d'eaux voisine — celle-là même qui a donné le mot « spa ».",
+        "label": "Spa-Francorchamps",
+        "country": "Belgique"
+      },
+      "en": {
+        "text": "On which circuit in the Belgian Ardennes is a legendary Grand Prix raced, with its fearsome Eau Rouge corner?",
+        "explanation": "The track follows the rolling roads of a neighbouring spa town — the very one that gave the world the word 'spa'.",
+        "label": "Spa-Francorchamps",
+        "country": "Belgium"
+      },
+      "es": {
+        "text": "¿En qué circuito de las Ardenas belgas se corre un mítico Gran Premio, con su temible curva de Eau Rouge?",
+        "explanation": "El trazado sigue las carreteras onduladas de una ciudad balneario vecina: la misma que dio al mundo la palabra «spa».",
+        "label": "Spa-Francorchamps",
+        "country": "Bélgica"
+      }
+    }
+  },
+  {
+    "sourceRef": "a88706cfb0903fac",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 46.4908,
+    "lng": 9.8355,
+    "translations": {
+      "fr": {
+        "text": "Quelle station huppée des Grisons suisses, berceau du tourisme d'hiver, a accueilli deux fois les Jeux olympiques ?",
+        "explanation": "Le tourisme d'hiver y naquit d'un pari en 1864 : un hôtelier offrit le séjour à ses clients anglais s'ils ne profitaient pas du soleil de décembre.",
+        "label": "Saint-Moritz",
+        "country": "Suisse"
+      },
+      "en": {
+        "text": "Which upscale resort in the Swiss Grisons, cradle of winter tourism, has hosted the Olympic Games twice?",
+        "explanation": "Winter tourism was born there from a bet in 1864: a hotelier offered English guests a free stay if they didn't enjoy the December sun.",
+        "label": "St. Moritz",
+        "country": "Switzerland"
+      },
+      "es": {
+        "text": "¿Qué elegante estación de los Grisones suizos, cuna del turismo de invierno, ha acogido dos veces los Juegos Olímpicos?",
+        "explanation": "El turismo de invierno nació allí de una apuesta en 1864: un hotelero ofreció la estancia gratis a sus clientes ingleses si no disfrutaban del sol de diciembre.",
+        "label": "St. Moritz",
+        "country": "Suiza"
+      }
+    }
+  },
+  {
+    "sourceRef": "c1a39ccf3d6cc0c9",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "easy",
+    "lat": 40.4637,
+    "lng": -3.7492,
+    "translations": {
+      "fr": {
+        "text": "Dans quel pays le « Clásico » oppose-t-il le FC Barcelone au Real Madrid ?",
+        "explanation": "Ce match est l'un des plus regardés de la planète : plus de 500 millions de téléspectateurs certains soirs.",
+        "label": "Espagne",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "In which country does the 'Clásico' pit FC Barcelona against Real Madrid?",
+        "explanation": "It is one of the most watched matches on the planet: over 500 million viewers on some evenings.",
+        "label": "Spain",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿En qué país el «Clásico» enfrenta al FC Barcelona contra el Real Madrid?",
+        "explanation": "Es uno de los partidos más vistos del planeta: más de 500 millones de telespectadores algunas noches.",
+        "label": "España",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "543d349bf10711b6",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": -6.1021,
+    "lng": 105.423,
+    "translations": {
+      "fr": {
+        "text": "Quel volcan indonésien explosa en 1883, dans une détonation entendue à près de 5 000 km ?",
+        "explanation": "L'explosion teinta les couchers de soleil du monde entier pendant des mois — on la retrouve, dit-on, dans le ciel du « Cri » de Munch.",
+        "label": "Krakatoa",
+        "country": "Indonésie"
+      },
+      "en": {
+        "text": "Which Indonesian volcano exploded in 1883, in a detonation heard nearly 5,000 km away?",
+        "explanation": "The blast tinted sunsets worldwide for months — it is said to appear in the sky of Munch's 'The Scream'.",
+        "label": "Krakatoa",
+        "country": "Indonesia"
+      },
+      "es": {
+        "text": "¿Qué volcán indonesio explotó en 1883, en una detonación oída a casi 5.000 km?",
+        "explanation": "La explosión tiñó los atardeceres del mundo entero durante meses; se dice que aparece en el cielo de «El grito» de Munch.",
+        "label": "Krakatoa",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "sourceRef": "c0f2fdd4af8dae22",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 49.7913,
+    "lng": 9.9534,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de Bavière Wilhelm Röntgen découvrit-il les rayons X, en 1895 ?",
+        "explanation": "La première radiographie de l'histoire montre la main de son épouse ; en voyant ses os, elle s'écria : « J'ai vu ma mort ! »",
+        "label": "Wurtzbourg",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which Bavarian city did Wilhelm Röntgen discover X-rays in 1895?",
+        "explanation": "The first X-ray image in history shows his wife's hand; seeing her bones, she cried: 'I have seen my death!'",
+        "label": "Würzburg",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Baviera descubrió Wilhelm Röntgen los rayos X, en 1895?",
+        "explanation": "La primera radiografía de la historia muestra la mano de su esposa; al ver sus huesos, exclamó: «¡He visto mi muerte!»",
+        "label": "Wurzburgo",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "d824295c728a3c18",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 35.8617,
+    "lng": 23.306,
+    "translations": {
+      "fr": {
+        "text": "Au large de quelle petite île grecque des pêcheurs d'éponges remontèrent-ils, en 1901, un mécanisme d'engrenages considéré comme le plus vieux « ordinateur » du monde ?",
+        "explanation": "Ce calculateur astronomique de 2 000 ans prédit éclipses et positions des planètes ; sa complexité ne fut égalée qu'au XIVe siècle.",
+        "label": "Anticythère",
+        "country": "Grèce"
+      },
+      "en": {
+        "text": "Off which small Greek island did sponge divers recover, in 1901, a geared mechanism considered the world's oldest 'computer'?",
+        "explanation": "This 2,000-year-old astronomical calculator predicts eclipses and planetary positions; its complexity was not matched until the 14th century.",
+        "label": "Antikythera",
+        "country": "Greece"
+      },
+      "es": {
+        "text": "¿Frente a qué pequeña isla griega recuperaron unos pescadores de esponjas, en 1901, un mecanismo de engranajes considerado el «ordenador» más antiguo del mundo?",
+        "explanation": "Esta calculadora astronómica de 2.000 años predice eclipses y posiciones planetarias; su complejidad no fue igualada hasta el siglo XIV.",
+        "label": "Anticitera",
+        "country": "Grecia"
+      }
+    }
+  },
+  {
+    "sourceRef": "61aec9803265fd82",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 27.9881,
+    "lng": 86.925,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle chaîne de montagnes d'Asie, la plus haute du monde, rôde le léopard des neiges ?",
+        "explanation": "La chaîne continue de s'élever de quelques millimètres par an, poussée par la collision des plaques indienne et eurasienne.",
+        "label": "Himalaya",
+        "country": "Asie"
+      },
+      "en": {
+        "text": "In which Asian mountain range, the highest in the world, does the snow leopard prowl?",
+        "explanation": "The range keeps rising a few millimetres a year, driven by the collision of the Indian and Eurasian plates.",
+        "label": "Himalayas",
+        "country": "Asia"
+      },
+      "es": {
+        "text": "¿En qué cordillera de Asia, la más alta del mundo, merodea el leopardo de las nieves?",
+        "explanation": "La cordillera sigue elevándose unos milímetros al año, empujada por la colisión de las placas india y euroasiática.",
+        "label": "Himalaya",
+        "country": "Asia"
+      }
+    }
+  },
+  {
+    "sourceRef": "78a24d1a2102aab9",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": -17.9243,
+    "lng": 25.8572,
+    "translations": {
+      "fr": {
+        "text": "Quelles chutes du fleuve Zambèze, entre Zambie et Zimbabwe, sont surnommées « la fumée qui gronde » ?",
+        "explanation": "Leur embrun monte parfois à 400 m et se voit à des dizaines de kilomètres, d'où leur surnom local, « Mosi-oa-Tunya ».",
+        "label": "Chutes Victoria",
+        "country": "Zambie / Zimbabwe"
+      },
+      "en": {
+        "text": "Which falls on the Zambezi River, between Zambia and Zimbabwe, are nicknamed 'the smoke that thunders'?",
+        "explanation": "Their spray sometimes rises 400 m and can be seen from dozens of kilometres away, hence the local name 'Mosi-oa-Tunya'.",
+        "label": "Victoria Falls",
+        "country": "Zambia / Zimbabwe"
+      },
+      "es": {
+        "text": "¿Qué cataratas del río Zambeze, entre Zambia y Zimbabue, son apodadas «el humo que truena»?",
+        "explanation": "Su rocío sube a veces 400 m y se ve a decenas de kilómetros, de ahí su nombre local, «Mosi-oa-Tunya».",
+        "label": "Cataratas Victoria",
+        "country": "Zambia / Zimbabue"
+      }
+    }
+  },
+  {
+    "sourceRef": "b13f99035c6147a5",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 37.8882,
+    "lng": -4.7794,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville d'Andalousie abrite une mosquée-cathédrale célèbre pour sa forêt d'arcades rouges et blanches ?",
+        "explanation": "Au Xe siècle, la ville était l'une des plus grandes du monde, avec ses bibliothèques et ses rues éclairées la nuit.",
+        "label": "Cordoue",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "Which Andalusian city houses a mosque-cathedral famous for its forest of red-and-white arches?",
+        "explanation": "In the 10th century, the city was among the largest in the world, with its libraries and streets lit at night.",
+        "label": "Córdoba",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Andalucía alberga una mezquita-catedral famosa por su bosque de arcos rojos y blancos?",
+        "explanation": "En el siglo X, la ciudad era una de las mayores del mundo, con sus bibliotecas y sus calles iluminadas de noche.",
+        "label": "Córdoba",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "fa6160399baf91f0",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 35.298,
+    "lng": 25.1631,
+    "translations": {
+      "fr": {
+        "text": "Quel palais de Crète, associé au mythe du labyrinthe du Minotaure, révéla les fresques de la civilisation minoenne ?",
+        "explanation": "Ses fresques aux dauphins et ses « jeux du taureau » ont 3 500 ans ; le palais comptait plus de 1 000 pièces.",
+        "label": "Cnossos",
+        "country": "Grèce"
+      },
+      "en": {
+        "text": "Which Cretan palace, linked to the myth of the Minotaur's labyrinth, revealed the frescoes of Minoan civilisation?",
+        "explanation": "Its dolphin frescoes and 'bull-leaping' scenes are 3,500 years old; the palace had more than 1,000 rooms.",
+        "label": "Knossos",
+        "country": "Greece"
+      },
+      "es": {
+        "text": "¿Qué palacio de Creta, asociado al mito del laberinto del Minotauro, reveló los frescos de la civilización minoica?",
+        "explanation": "Sus frescos de delfines y sus escenas de «salto del toro» tienen 3.500 años; el palacio tenía más de 1.000 estancias.",
+        "label": "Cnosos",
+        "country": "Grecia"
+      }
+    }
+  },
+  {
+    "sourceRef": "12eaa917c407cb7b",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 39.3999,
+    "lng": -8.2245,
+    "translations": {
+      "fr": {
+        "text": "Dans quel pays est né le fado, chant mélancolique des tavernes, inscrit au patrimoine de l'UNESCO ?",
+        "explanation": "Le fado chante la « saudade », mot réputé intraduisible mêlant nostalgie, manque et douceur.",
+        "label": "Portugal",
+        "country": "Portugal"
+      },
+      "en": {
+        "text": "In which country was fado born, the melancholy song of the taverns, inscribed on UNESCO's heritage list?",
+        "explanation": "Fado sings of 'saudade', a famously untranslatable word blending nostalgia, longing and sweetness.",
+        "label": "Portugal",
+        "country": "Portugal"
+      },
+      "es": {
+        "text": "¿En qué país nació el fado, canto melancólico de las tabernas, inscrito en el patrimonio de la UNESCO?",
+        "explanation": "El fado canta la «saudade», palabra célebre por intraducible, que mezcla nostalgia, añoranza y dulzura.",
+        "label": "Portugal",
+        "country": "Portugal"
+      }
+    }
+  },
+  {
+    "sourceRef": "84474f523e860ca1",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 49.9456,
+    "lng": 11.5713,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de Bavière accueille chaque été un festival exclusivement consacré aux opéras de Richard Wagner ?",
+        "explanation": "Wagner fit bâtir lui-même le théâtre, avec une fosse d'orchestre cachée ; l'attente pour obtenir des billets se compte en années.",
+        "label": "Bayreuth",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "Which Bavarian town hosts a festival every summer devoted exclusively to the operas of Richard Wagner?",
+        "explanation": "Wagner had the theatre built himself, with a hidden orchestra pit; the wait for tickets is measured in years.",
+        "label": "Bayreuth",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Baviera acoge cada verano un festival dedicado exclusivamente a las óperas de Richard Wagner?",
+        "explanation": "El propio Wagner hizo construir el teatro, con un foso de orquesta oculto; la espera por las entradas se cuenta en años.",
+        "label": "Bayreuth",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "d5cde2c1a23b2580",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "lat": 50.5039,
+    "lng": 4.4699,
+    "translations": {
+      "fr": {
+        "text": "Quel pays d'Europe revendique fièrement la paternité des frites et des gaufres ?",
+        "explanation": "Le pays compte plus de friteries que de communes ; sa frite se cuit traditionnellement en deux bains.",
+        "label": "Belgique",
+        "country": "Belgique"
+      },
+      "en": {
+        "text": "Which European country proudly claims to have invented fries and waffles?",
+        "explanation": "The country has more chip shops than municipalities; its fries are traditionally cooked in two baths.",
+        "label": "Belgium",
+        "country": "Belgium"
+      },
+      "es": {
+        "text": "¿Qué país de Europa reivindica con orgullo la paternidad de las patatas fritas y los gofres?",
+        "explanation": "El país tiene más freidurías que municipios; sus patatas se fríen tradicionalmente en dos baños.",
+        "label": "Bélgica",
+        "country": "Bélgica"
+      }
+    }
+  },
+  {
+    "sourceRef": "fbae050c9a29518b",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 34.0181,
+    "lng": -5.0078,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville impériale du Maroc, au labyrinthe médiéval de 9 000 ruelles, savoure-t-on la pastilla ?",
+        "explanation": "Sa médina est la plus grande zone urbaine sans voitures du monde ; les livraisons s'y font à dos d'âne.",
+        "label": "Fès",
+        "country": "Maroc"
+      },
+      "en": {
+        "text": "In which imperial city of Morocco, a medieval labyrinth of 9,000 alleys, is pastilla savoured?",
+        "explanation": "Its medina is the largest car-free urban area in the world; deliveries are made by donkey.",
+        "label": "Fez",
+        "country": "Morocco"
+      },
+      "es": {
+        "text": "¿En qué ciudad imperial de Marruecos, laberinto medieval de 9.000 callejuelas, se saborea la pastela?",
+        "explanation": "Su medina es la mayor zona urbana sin coches del mundo; los repartos se hacen a lomos de burro.",
+        "label": "Fez",
+        "country": "Marruecos"
+      }
+    }
+  },
+  {
+    "sourceRef": "2e0bc7b8e90e1f01",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 44.7009,
+    "lng": 8.0353,
+    "translations": {
+      "fr": {
+        "text": "Quelle petite ville du Piémont est considérée comme la capitale mondiale de la truffe blanche ?",
+        "explanation": "Sa foire d'automne vend des truffes aux enchères à des prix records : plus de 100 000 euros pour les plus beaux spécimens.",
+        "label": "Alba",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which small Piedmont town is considered the world capital of the white truffle?",
+        "explanation": "Its autumn fair auctions truffles at record prices: over 100,000 euros for the finest specimens.",
+        "label": "Alba",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué pequeña ciudad del Piamonte se considera la capital mundial de la trufa blanca?",
+        "explanation": "Su feria de otoño subasta trufas a precios récord: más de 100.000 euros por los mejores ejemplares.",
+        "label": "Alba",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "49cd141b89e586d7",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "lat": 31.2001,
+    "lng": 29.9187,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville égyptienne abritait la plus célèbre bibliothèque de l'Antiquité, qui ambitionnait de réunir tous les livres du monde ?",
+        "explanation": "Les navires accostant au port devaient prêter leurs livres pour copie… et repartaient parfois avec la copie, l'original restant sur place.",
+        "label": "Alexandrie",
+        "country": "Égypte"
+      },
+      "en": {
+        "text": "Which Egyptian city housed the most famous library of antiquity, which aspired to gather all the books in the world?",
+        "explanation": "Ships docking in the port had to lend their books for copying… and sometimes left with the copy, the original staying behind.",
+        "label": "Alexandria",
+        "country": "Egypt"
+      },
+      "es": {
+        "text": "¿Qué ciudad egipcia albergaba la biblioteca más famosa de la Antigüedad, que aspiraba a reunir todos los libros del mundo?",
+        "explanation": "Los barcos que atracaban en el puerto debían prestar sus libros para copiarlos… y a veces partían con la copia, quedándose allí el original.",
+        "label": "Alejandría",
+        "country": "Egipto"
+      }
+    }
+  },
+  {
+    "sourceRef": "05911836530045cd",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 55.4038,
+    "lng": 10.4024,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville danoise naquit en 1805 Hans Christian Andersen, fils d'un pauvre cordonnier devenu roi du conte ?",
+        "explanation": "Andersen, terrifié d'être enterré vivant, laissait sur sa table de nuit un mot : « Je ne suis qu'en apparence mort ».",
+        "label": "Odense",
+        "country": "Danemark"
+      },
+      "en": {
+        "text": "In which Danish town was Hans Christian Andersen born in 1805, a poor shoemaker's son who became the king of fairy tales?",
+        "explanation": "Andersen, terrified of being buried alive, kept a note on his bedside table: 'I only appear to be dead'.",
+        "label": "Odense",
+        "country": "Denmark"
+      },
+      "es": {
+        "text": "¿En qué ciudad danesa nació en 1805 Hans Christian Andersen, hijo de un pobre zapatero convertido en rey del cuento?",
+        "explanation": "Andersen, aterrado de ser enterrado vivo, dejaba una nota en su mesilla: «Solo estoy muerto en apariencia».",
+        "label": "Odense",
+        "country": "Dinamarca"
+      }
+    }
+  },
+  {
+    "sourceRef": "4f08f25112acd5c8",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "lat": 33.5731,
+    "lng": -7.5898,
+    "translations": {
+      "fr": {
+        "text": "Quelle métropole marocaine donna son titre à un film culte de 1942 avec Humphrey Bogart… entièrement tourné à Hollywood ?",
+        "explanation": "Un café « Rick's », inspiré du film, a fini par ouvrir dans la vraie ville… en 2004, soit 62 ans plus tard.",
+        "label": "Casablanca",
+        "country": "Maroc"
+      },
+      "en": {
+        "text": "Which Moroccan metropolis gave its name to a cult 1942 film with Humphrey Bogart… shot entirely in Hollywood?",
+        "explanation": "A 'Rick's Café' inspired by the film finally opened in the real city… in 2004, 62 years later.",
+        "label": "Casablanca",
+        "country": "Morocco"
+      },
+      "es": {
+        "text": "¿Qué metrópoli marroquí dio título a una película de culto de 1942 con Humphrey Bogart… rodada íntegramente en Hollywood?",
+        "explanation": "Un «Rick's Café» inspirado en la película acabó abriendo en la ciudad real… en 2004, 62 años después.",
+        "label": "Casablanca",
+        "country": "Marruecos"
+      }
+    }
+  },
+  {
+    "sourceRef": "043bfbde3f598ae1",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 12.9716,
+    "lng": 77.5946,
+    "translations": {
+      "fr": {
+        "text": "Quelle mégapole du sud de l'Inde est surnommée la « Silicon Valley indienne » pour ses géants du logiciel ?",
+        "explanation": "Son climat d'altitude, doux toute l'année, lui valait déjà le surnom de « ville des retraités » avant l'explosion de la tech.",
+        "label": "Bangalore",
+        "country": "Inde"
+      },
+      "en": {
+        "text": "Which megacity in southern India is nicknamed the 'Indian Silicon Valley' for its software giants?",
+        "explanation": "Its mild highland climate had already earned it the nickname 'pensioners' paradise' before the tech boom.",
+        "label": "Bangalore",
+        "country": "India"
+      },
+      "es": {
+        "text": "¿Qué megaciudad del sur de la India es apodada la «Silicon Valley india» por sus gigantes del software?",
+        "explanation": "Su clima suave de altitud ya le valía el apodo de «ciudad de los jubilados» antes de la explosión tecnológica.",
+        "label": "Bangalore",
+        "country": "India"
+      }
+    }
+  },
+  {
+    "sourceRef": "db98c03b58d9fa89",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": -15.9254,
+    "lng": -69.3354,
+    "translations": {
+      "fr": {
+        "text": "Quel lac des Andes, le plus haut lac navigable du monde, chevauche le Pérou et la Bolivie ?",
+        "explanation": "Le peuple des Uros y vit sur des îles flottantes entièrement tressées en roseaux, refaites couche par couche.",
+        "label": "Lac Titicaca",
+        "country": "Pérou / Bolivie"
+      },
+      "en": {
+        "text": "Which Andean lake, the highest navigable lake in the world, straddles Peru and Bolivia?",
+        "explanation": "The Uros people live on it on floating islands woven entirely from reeds, rebuilt layer by layer.",
+        "label": "Lake Titicaca",
+        "country": "Peru / Bolivia"
+      },
+      "es": {
+        "text": "¿Qué lago de los Andes, el lago navegable más alto del mundo, se reparte entre Perú y Bolivia?",
+        "explanation": "El pueblo de los uros vive en él sobre islas flotantes tejidas enteramente de totora, rehechas capa a capa.",
+        "label": "Lago Titicaca",
+        "country": "Perú / Bolivia"
+      }
+    }
+  },
+  {
+    "sourceRef": "e1bf687ebd76275c",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 78.2232,
+    "lng": 15.6267,
+    "translations": {
+      "fr": {
+        "text": "Quel archipel arctique norvégien abrite, creusée dans la montagne, la « réserve mondiale de graines » de l'humanité ?",
+        "explanation": "Ce coffre-fort végétal conserve plus d'un million d'échantillons de semences, à l'abri des guerres et des catastrophes.",
+        "label": "Svalbard",
+        "country": "Norvège"
+      },
+      "en": {
+        "text": "Which Norwegian Arctic archipelago houses, dug into the mountain, humanity's 'global seed vault'?",
+        "explanation": "This plant safe holds more than a million seed samples, sheltered from wars and disasters.",
+        "label": "Svalbard",
+        "country": "Norway"
+      },
+      "es": {
+        "text": "¿Qué archipiélago ártico noruego alberga, excavada en la montaña, la «bóveda mundial de semillas» de la humanidad?",
+        "explanation": "Esta caja fuerte vegetal conserva más de un millón de muestras de semillas, a salvo de guerras y catástrofes.",
+        "label": "Svalbard",
+        "country": "Noruega"
+      }
+    }
+  }
+]
