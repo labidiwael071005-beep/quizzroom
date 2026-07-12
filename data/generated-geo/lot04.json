@@ -1,0 +1,870 @@
+[
+  {
+    "sourceRef": "088dcc21346f7f76",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 21.3649,
+    "lng": -157.9507,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle base navale hawaïenne la flotte américaine fut-elle attaquée par surprise le 7 décembre 1941 ?",
+        "explanation": "L'attaque précipita l'entrée des États-Unis dans la Seconde Guerre mondiale, dès le lendemain.",
+        "label": "Pearl Harbor",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "At which Hawaiian naval base was the US fleet attacked by surprise on 7 December 1941?",
+        "explanation": "The attack precipitated the United States' entry into World War II the very next day.",
+        "label": "Pearl Harbor",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué base naval hawaiana fue atacada por sorpresa la flota estadounidense el 7 de diciembre de 1941?",
+        "explanation": "El ataque precipitó la entrada de Estados Unidos en la Segunda Guerra Mundial al día siguiente.",
+        "label": "Pearl Harbor",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "a0c231ed1eeef84d",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 30.3285,
+    "lng": 35.4444,
+    "translations": {
+      "fr": {
+        "text": "Quelle cité antique de Jordanie, taillée dans le grès rose, fut révélée à l'Occident en 1812 ?",
+        "explanation": "Sa façade la plus célèbre, la « Khazneh », apparaît dans « Indiana Jones et la Dernière Croisade ».",
+        "label": "Pétra",
+        "country": "Jordanie"
+      },
+      "en": {
+        "text": "Which ancient city in Jordan, carved into rose-coloured sandstone, was revealed to the West in 1812?",
+        "explanation": "Its most famous façade, the 'Khazneh', appears in 'Indiana Jones and the Last Crusade'.",
+        "label": "Petra",
+        "country": "Jordan"
+      },
+      "es": {
+        "text": "¿Qué ciudad antigua de Jordania, excavada en la arenisca rosa, fue revelada a Occidente en 1812?",
+        "explanation": "Su fachada más famosa, la «Khazneh», aparece en «Indiana Jones y la última cruzada».",
+        "label": "Petra",
+        "country": "Jordania"
+      }
+    }
+  },
+  {
+    "sourceRef": "7703ee5c6cbbefc2",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale d'Amérique latine le révolutionnaire russe Léon Trotski fut-il assassiné en 1940 ?",
+        "explanation": "Trotski y vécut un temps chez les peintres Frida Kahlo et Diego Rivera ; sa maison-forteresse est devenue un musée.",
+        "label": "Mexico",
+        "country": "Mexique"
+      },
+      "en": {
+        "text": "In which Latin American capital was the Russian revolutionary Leon Trotsky assassinated in 1940?",
+        "explanation": "Trotsky stayed for a while with painters Frida Kahlo and Diego Rivera; his fortress-house is now a museum.",
+        "label": "Mexico City",
+        "country": "Mexico"
+      },
+      "es": {
+        "text": "¿En qué capital latinoamericana fue asesinado el revolucionario ruso León Trotski en 1940?",
+        "explanation": "Trotski vivió un tiempo con los pintores Frida Kahlo y Diego Rivera; su casa-fortaleza es hoy un museo.",
+        "label": "Ciudad de México",
+        "country": "México"
+      }
+    }
+  },
+  {
+    "sourceRef": "b0138feb760f7f58",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 39.9576,
+    "lng": 26.2385,
+    "translations": {
+      "fr": {
+        "text": "Sur le site de quelle cité légendaire, en Turquie actuelle, Heinrich Schliemann fouilla-t-il pour retrouver la guerre chantée par Homère ?",
+        "explanation": "Les fouilles ont révélé neuf villes superposées : la cité de la guerre mythique serait l'une des couches intermédiaires.",
+        "label": "Troie",
+        "country": "Turquie"
+      },
+      "en": {
+        "text": "At the site of which legendary city, in present-day Turkey, did Heinrich Schliemann dig to find the war sung by Homer?",
+        "explanation": "The excavations revealed nine superimposed cities: the city of the mythical war is thought to be one of the middle layers.",
+        "label": "Troy",
+        "country": "Turkey"
+      },
+      "es": {
+        "text": "¿En el sitio de qué ciudad legendaria, en la actual Turquía, excavó Heinrich Schliemann buscando la guerra cantada por Homero?",
+        "explanation": "Las excavaciones revelaron nueve ciudades superpuestas: la ciudad de la guerra mítica sería una de las capas intermedias.",
+        "label": "Troya",
+        "country": "Turquía"
+      }
+    }
+  },
+  {
+    "sourceRef": "867b838c30fad72a",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "lat": 43.5528,
+    "lng": 7.0174,
+    "translations": {
+      "fr": {
+        "text": "Quelle station balnéaire de la Côte d'Azur déroule chaque mai son tapis rouge pour un célèbre festival de cinéma ?",
+        "explanation": "La récompense suprême du festival, la Palme d'or, fait référence aux palmiers de la Croisette.",
+        "label": "Cannes",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which French Riviera resort rolls out its red carpet every May for a famous film festival?",
+        "explanation": "The festival's top prize, the Palme d'Or, refers to the palm trees of the Croisette.",
+        "label": "Cannes",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué ciudad costera de la Costa Azul despliega cada mayo su alfombra roja para un famoso festival de cine?",
+        "explanation": "El premio supremo del festival, la Palma de Oro, hace referencia a las palmeras de la Croisette.",
+        "label": "Cannes",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "1b3e14d11815e2da",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "lat": 19.076,
+    "lng": 72.8777,
+    "translations": {
+      "fr": {
+        "text": "Quelle mégapole indienne abrite « Bollywood », l'industrie du film la plus prolifique du monde ?",
+        "explanation": "Bollywood produit plus de 1 000 films par an, bien davantage qu'Hollywood.",
+        "label": "Mumbai",
+        "country": "Inde"
+      },
+      "en": {
+        "text": "Which Indian megacity is home to 'Bollywood', the most prolific film industry in the world?",
+        "explanation": "Bollywood produces more than 1,000 films a year, far more than Hollywood.",
+        "label": "Mumbai",
+        "country": "India"
+      },
+      "es": {
+        "text": "¿Qué megaciudad india alberga «Bollywood», la industria cinematográfica más prolífica del mundo?",
+        "explanation": "Bollywood produce más de 1.000 películas al año, muchas más que Hollywood.",
+        "label": "Bombay",
+        "country": "India"
+      }
+    }
+  },
+  {
+    "sourceRef": "821066d992582f98",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "easy",
+    "lat": -41.2866,
+    "lng": 174.7756,
+    "translations": {
+      "fr": {
+        "text": "Dans quel pays d'Océanie les All Blacks exécutent-ils le haka avant chaque match de rugby ?",
+        "explanation": "Le haka est une danse guerrière maorie ; le plus célèbre, « Ka Mate », raconte une échappée face à la mort.",
+        "label": "Nouvelle-Zélande",
+        "country": "Nouvelle-Zélande"
+      },
+      "en": {
+        "text": "In which Oceanian country do the All Blacks perform the haka before every rugby match?",
+        "explanation": "The haka is a Māori war dance; the most famous, 'Ka Mate', tells of an escape from death.",
+        "label": "New Zealand",
+        "country": "New Zealand"
+      },
+      "es": {
+        "text": "¿En qué país de Oceanía los All Blacks ejecutan el haka antes de cada partido de rugby?",
+        "explanation": "El haka es una danza guerrera maorí; el más famoso, «Ka Mate», narra una huida de la muerte.",
+        "label": "Nueva Zelanda",
+        "country": "Nueva Zelanda"
+      }
+    }
+  },
+  {
+    "sourceRef": "17bfee6e545f9160",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 45.4642,
+    "lng": 9.19,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville du nord de l'Italie l'Inter et l'AC se partagent-ils le même stade, San Siro ?",
+        "explanation": "Le derby qui les oppose est dit « della Madonnina », du nom de la statue dorée qui couronne la cathédrale.",
+        "label": "Milan",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which northern Italian city do Inter and AC share the same stadium, San Siro?",
+        "explanation": "Their derby is called 'della Madonnina', after the golden statue crowning the cathedral.",
+        "label": "Milan",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué ciudad del norte de Italia comparten el Inter y el AC el mismo estadio, San Siro?",
+        "explanation": "Su derbi se llama «della Madonnina», por la estatua dorada que corona la catedral.",
+        "label": "Milán",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "1224aaf01a398f89",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 56.3398,
+    "lng": -2.7967,
+    "translations": {
+      "fr": {
+        "text": "Quelle petite ville écossaise, avec son « Old Course », est considérée comme le berceau du golf ?",
+        "explanation": "On y joue au golf depuis le XVe siècle ; le roi Jacques II l'avait même interdit, car il détournait ses sujets du tir à l'arc.",
+        "label": "St Andrews",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "Which small Scottish town, with its 'Old Course', is regarded as the home of golf?",
+        "explanation": "Golf has been played there since the 15th century; King James II even banned it for distracting his subjects from archery.",
+        "label": "St Andrews",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Qué pequeña ciudad escocesa, con su «Old Course», es considerada la cuna del golf?",
+        "explanation": "Allí se juega al golf desde el siglo XV; el rey Jacobo II llegó a prohibirlo porque distraía a sus súbditos del tiro con arco.",
+        "label": "St Andrews",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "ffd42553ce807f97",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "medium",
+    "lat": 51.7548,
+    "lng": -1.2544,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville anglaise abrite la plus ancienne université du monde anglophone, rivale historique de Cambridge ?",
+        "explanation": "On y enseigne depuis le XIe siècle ; l'université est plus ancienne que l'Empire aztèque.",
+        "label": "Oxford",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "Which English city is home to the oldest university in the English-speaking world, Cambridge's historic rival?",
+        "explanation": "Teaching there dates back to the 11th century; the university is older than the Aztec Empire.",
+        "label": "Oxford",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Qué ciudad inglesa alberga la universidad más antigua del mundo anglófono, rival histórica de Cambridge?",
+        "explanation": "Allí se enseña desde el siglo XI; la universidad es más antigua que el Imperio azteca.",
+        "label": "Oxford",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "35f84ae7999663c6",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 51.2768,
+    "lng": 30.2219,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle localité du nord de l'Ukraine se produisit, en avril 1986, le pire accident nucléaire de l'histoire ?",
+        "explanation": "La zone d'exclusion, vidée de ses habitants, est devenue un refuge inattendu pour les loups, lynx et chevaux sauvages.",
+        "label": "Tchernobyl",
+        "country": "Ukraine"
+      },
+      "en": {
+        "text": "In which town in northern Ukraine did the worst nuclear accident in history occur in April 1986?",
+        "explanation": "The exclusion zone, emptied of its inhabitants, has become an unexpected refuge for wolves, lynx and wild horses.",
+        "label": "Chernobyl",
+        "country": "Ukraine"
+      },
+      "es": {
+        "text": "¿En qué localidad del norte de Ucrania se produjo, en abril de 1986, el peor accidente nuclear de la historia?",
+        "explanation": "La zona de exclusión, vaciada de habitantes, se ha convertido en un refugio inesperado para lobos, linces y caballos salvajes.",
+        "label": "Chernóbil",
+        "country": "Ucrania"
+      }
+    }
+  },
+  {
+    "sourceRef": "af1a6db3d4a71870",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "medium",
+    "lat": 28.5729,
+    "lng": -80.649,
+    "translations": {
+      "fr": {
+        "text": "De quel cap de Floride décollèrent les fusées des missions Apollo vers la Lune ?",
+        "explanation": "Le bâtiment d'assemblage des fusées y est si vaste que des nuages peuvent s'y former à l'intérieur.",
+        "label": "Cap Canaveral",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "From which Florida cape did the rockets of the Apollo missions lift off for the Moon?",
+        "explanation": "The rocket assembly building there is so vast that clouds can form inside it.",
+        "label": "Cape Canaveral",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿De qué cabo de Florida despegaron los cohetes de las misiones Apolo hacia la Luna?",
+        "explanation": "El edificio de ensamblaje de cohetes es tan vasto que pueden formarse nubes en su interior.",
+        "label": "Cabo Cañaveral",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "4fbb2d9b78b04898",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": -20.1338,
+    "lng": -67.4891,
+    "translations": {
+      "fr": {
+        "text": "Quel désert de sel bolivien, le plus grand du monde, se transforme en miroir géant à la saison des pluies ?",
+        "explanation": "Ce miroir naturel est si vaste et si plat qu'il sert à calibrer les satellites d'observation de la Terre.",
+        "label": "Salar d'Uyuni",
+        "country": "Bolivie"
+      },
+      "en": {
+        "text": "Which Bolivian salt flat, the largest in the world, turns into a giant mirror in the rainy season?",
+        "explanation": "This natural mirror is so vast and flat that it is used to calibrate Earth-observation satellites.",
+        "label": "Salar de Uyuni",
+        "country": "Bolivia"
+      },
+      "es": {
+        "text": "¿Qué salar boliviano, el más grande del mundo, se convierte en un espejo gigante en la temporada de lluvias?",
+        "explanation": "Este espejo natural es tan vasto y plano que sirve para calibrar los satélites de observación de la Tierra.",
+        "label": "Salar de Uyuni",
+        "country": "Bolivia"
+      }
+    }
+  },
+  {
+    "sourceRef": "e823ebe23e8fe300",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": 21.4,
+    "lng": -89.5167,
+    "translations": {
+      "fr": {
+        "text": "Au large de quelle péninsule mexicaine s'écrasa, il y a 66 millions d'années, l'astéroïde lié à la disparition des dinosaures ?",
+        "explanation": "Le cratère de Chicxulub, enfoui sous les sédiments, mesure environ 180 km de diamètre.",
+        "label": "Yucatán",
+        "country": "Mexique"
+      },
+      "en": {
+        "text": "Off which Mexican peninsula did the asteroid linked to the dinosaurs' extinction crash 66 million years ago?",
+        "explanation": "The Chicxulub crater, buried under sediment, is about 180 km across.",
+        "label": "Yucatán",
+        "country": "Mexico"
+      },
+      "es": {
+        "text": "¿Frente a qué península mexicana se estrelló, hace 66 millones de años, el asteroide vinculado a la desaparición de los dinosaurios?",
+        "explanation": "El cráter de Chicxulub, enterrado bajo los sedimentos, mide unos 180 km de diámetro.",
+        "label": "Yucatán",
+        "country": "México"
+      }
+    }
+  },
+  {
+    "sourceRef": "fccfebe164bbcaea",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "easy",
+    "lat": -18.7669,
+    "lng": 46.8691,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle grande île de l'océan Indien les lémuriens vivent-ils à l'état sauvage ?",
+        "explanation": "Isolée depuis 88 millions d'années, l'île abrite une faune unique : 90 % de ses espèces n'existent nulle part ailleurs.",
+        "label": "Madagascar",
+        "country": "Madagascar"
+      },
+      "en": {
+        "text": "On which large Indian Ocean island do lemurs live in the wild?",
+        "explanation": "Isolated for 88 million years, the island has unique wildlife: 90% of its species exist nowhere else.",
+        "label": "Madagascar",
+        "country": "Madagascar"
+      },
+      "es": {
+        "text": "¿En qué gran isla del océano Índico viven los lémures en estado salvaje?",
+        "explanation": "Aislada desde hace 88 millones de años, la isla alberga una fauna única: el 90 % de sus especies no existe en ningún otro lugar.",
+        "label": "Madagascar",
+        "country": "Madagascar"
+      }
+    }
+  },
+  {
+    "sourceRef": "c593576cfd71d73f",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": 11.35,
+    "lng": 142.2,
+    "translations": {
+      "fr": {
+        "text": "Quelle fosse océanique du Pacifique abrite le point le plus profond du globe, à près de 11 000 m ?",
+        "explanation": "Si l'on y plongeait l'Everest, son sommet resterait recouvert par plus de 2 000 m d'eau.",
+        "label": "Fosse des Mariannes",
+        "country": "Océan Pacifique"
+      },
+      "en": {
+        "text": "Which Pacific ocean trench contains the deepest point on Earth, at nearly 11,000 m?",
+        "explanation": "If Everest were dropped into it, its summit would still be covered by more than 2,000 m of water.",
+        "label": "Mariana Trench",
+        "country": "Pacific Ocean"
+      },
+      "es": {
+        "text": "¿Qué fosa oceánica del Pacífico alberga el punto más profundo del planeta, a casi 11.000 m?",
+        "explanation": "Si se sumergiera el Everest en ella, su cima quedaría cubierta por más de 2.000 m de agua.",
+        "label": "Fosa de las Marianas",
+        "country": "Océano Pacífico"
+      }
+    }
+  },
+  {
+    "sourceRef": "9ad8e12048db104a",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "easy",
+    "lat": -1.4931,
+    "lng": 35.1439,
+    "translations": {
+      "fr": {
+        "text": "Dans quel pays d'Afrique de l'Est part-on en safari dans la réserve du Masaï Mara ?",
+        "explanation": "Chaque année, plus d'un million de gnous traversent la réserve lors de la grande migration.",
+        "label": "Kenya",
+        "country": "Kenya"
+      },
+      "en": {
+        "text": "In which East African country do visitors go on safari in the Maasai Mara reserve?",
+        "explanation": "Every year, more than a million wildebeest cross the reserve during the great migration.",
+        "label": "Kenya",
+        "country": "Kenya"
+      },
+      "es": {
+        "text": "¿En qué país de África Oriental se hacen safaris por la reserva del Masái Mara?",
+        "explanation": "Cada año, más de un millón de ñus cruzan la reserva durante la gran migración.",
+        "label": "Kenia",
+        "country": "Kenia"
+      }
+    }
+  },
+  {
+    "sourceRef": "12975265c586fa2f",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "lat": 46.948,
+    "lng": 7.4474,
+    "translations": {
+      "fr": {
+        "text": "Quel pays alpin est réputé pour son chocolat, ses montres et sa neutralité ?",
+        "explanation": "Neutre depuis 1815, le pays n'a rejoint l'ONU qu'en 2002, après un vote populaire.",
+        "label": "Suisse",
+        "country": "Suisse"
+      },
+      "en": {
+        "text": "Which Alpine country is famous for its chocolate, its watches and its neutrality?",
+        "explanation": "Neutral since 1815, the country only joined the UN in 2002, after a popular vote.",
+        "label": "Switzerland",
+        "country": "Switzerland"
+      },
+      "es": {
+        "text": "¿Qué país alpino es famoso por su chocolate, sus relojes y su neutralidad?",
+        "explanation": "Neutral desde 1815, el país no ingresó en la ONU hasta 2002, tras una votación popular.",
+        "label": "Suiza",
+        "country": "Suiza"
+      }
+    }
+  },
+  {
+    "sourceRef": "dcf1f85e411add8a",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 45.5019,
+    "lng": -73.5674,
+    "translations": {
+      "fr": {
+        "text": "Quelle métropole canadienne est souvent citée comme la deuxième plus grande ville francophone du monde ?",
+        "explanation": "La ville possède un vaste réseau souterrain, la « ville intérieure », très apprécié pendant les hivers rigoureux.",
+        "label": "Montréal",
+        "country": "Canada"
+      },
+      "en": {
+        "text": "Which Canadian metropolis is often cited as the second-largest French-speaking city in the world?",
+        "explanation": "The city has a vast underground network, the 'indoor city', much appreciated during its harsh winters.",
+        "label": "Montreal",
+        "country": "Canada"
+      },
+      "es": {
+        "text": "¿Qué metrópoli canadiense suele citarse como la segunda ciudad francófona más grande del mundo?",
+        "explanation": "La ciudad posee una vasta red subterránea, la «ciudad interior», muy apreciada durante sus duros inviernos.",
+        "label": "Montreal",
+        "country": "Canadá"
+      }
+    }
+  },
+  {
+    "sourceRef": "36b3ba269d01274e",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 47.4979,
+    "lng": 19.0402,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale d'Europe centrale est née en 1873 de la fusion de deux villes situées de part et d'autre du Danube ?",
+        "explanation": "« Buda », la colline des palais, et « Pest », la plaine commerçante, restent très différentes de caractère.",
+        "label": "Budapest",
+        "country": "Hongrie"
+      },
+      "en": {
+        "text": "Which Central European capital was born in 1873 from the merger of two towns on either side of the Danube?",
+        "explanation": "'Buda', the hill of palaces, and 'Pest', the commercial plain, still have very different characters.",
+        "label": "Budapest",
+        "country": "Hungary"
+      },
+      "es": {
+        "text": "¿Qué capital de Europa Central nació en 1873 de la fusión de dos ciudades situadas a ambos lados del Danubio?",
+        "explanation": "«Buda», la colina de los palacios, y «Pest», la llanura comercial, conservan caracteres muy distintos.",
+        "label": "Budapest",
+        "country": "Hungría"
+      }
+    }
+  },
+  {
+    "sourceRef": "f995ca485f1a5950",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 47.8864,
+    "lng": 106.9057,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale d'Asie centrale, en Mongolie, est réputée être la capitale la plus froide du monde ?",
+        "explanation": "Les températures moyennes de janvier y descendent sous les -20 °C ; beaucoup d'habitants vivent encore en yourte.",
+        "label": "Oulan-Bator",
+        "country": "Mongolie"
+      },
+      "en": {
+        "text": "Which capital in Mongolia is reputed to be the coldest capital city in the world?",
+        "explanation": "Average January temperatures drop below -20 °C; many residents still live in yurts.",
+        "label": "Ulaanbaatar",
+        "country": "Mongolia"
+      },
+      "es": {
+        "text": "¿Qué capital de Mongolia tiene fama de ser la capital más fría del mundo?",
+        "explanation": "Las temperaturas medias de enero bajan de los -20 °C; muchos habitantes aún viven en yurtas.",
+        "label": "Ulán Bator",
+        "country": "Mongolia"
+      }
+    }
+  },
+  {
+    "sourceRef": "08275fc9b6bc7cb2",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": -33.4489,
+    "lng": -70.6693,
+    "translations": {
+      "fr": {
+        "text": "Quel pays d'Amérique du Sud, long ruban de 4 300 km entre les Andes et le Pacifique, ne dépasse jamais 350 km de large ?",
+        "explanation": "Ce pays si étroit concentre pourtant désert aride, vignobles, volcans et glaciers.",
+        "label": "Chili",
+        "country": "Chili"
+      },
+      "en": {
+        "text": "Which South American country, a 4,300 km ribbon between the Andes and the Pacific, is never more than 350 km wide?",
+        "explanation": "Narrow as it is, the country packs in arid desert, vineyards, volcanoes and glaciers.",
+        "label": "Chile",
+        "country": "Chile"
+      },
+      "es": {
+        "text": "¿Qué país de América del Sur, una franja de 4.300 km entre los Andes y el Pacífico, nunca supera los 350 km de ancho?",
+        "explanation": "Pese a su estrechez, el país concentra desierto árido, viñedos, volcanes y glaciares.",
+        "label": "Chile",
+        "country": "Chile"
+      }
+    }
+  },
+  {
+    "sourceRef": "78092d1f56f528b4",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 37.176,
+    "lng": -3.5881,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville d'Andalousie l'Alhambra, palais des derniers rois maures d'Espagne, domine-t-elle la plaine ?",
+        "explanation": "Selon la légende, le dernier sultan pleura en quittant la ville en 1492, au « soupir du Maure ».",
+        "label": "Grenade",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "In which Andalusian city does the Alhambra, palace of Spain's last Moorish kings, overlook the plain?",
+        "explanation": "Legend has it that the last sultan wept as he left the city in 1492, at the 'Moor's sigh'.",
+        "label": "Granada",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Andalucía la Alhambra, palacio de los últimos reyes moros de España, domina la vega?",
+        "explanation": "Cuenta la leyenda que el último sultán lloró al abandonar la ciudad en 1492, en el «suspiro del Moro».",
+        "label": "Granada",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "309689216612e772",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 43.5297,
+    "lng": 5.4474,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de Provence, dominée par la montagne Sainte-Victoire, fut la muse du peintre Paul Cézanne ?",
+        "explanation": "Cézanne peignit la Sainte-Victoire plus de 80 fois, ouvrant la voie au cubisme.",
+        "label": "Aix-en-Provence",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which Provençal city, overlooked by Mont Sainte-Victoire, was the muse of painter Paul Cézanne?",
+        "explanation": "Cézanne painted Sainte-Victoire more than 80 times, paving the way for Cubism.",
+        "label": "Aix-en-Provence",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Provenza, dominada por la montaña Sainte-Victoire, fue la musa del pintor Paul Cézanne?",
+        "explanation": "Cézanne pintó la Sainte-Victoire más de 80 veces, abriendo el camino al cubismo.",
+        "label": "Aix-en-Provence",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "9d8e7eb2370e821c",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "lat": 43.2965,
+    "lng": 5.3698,
+    "translations": {
+      "fr": {
+        "text": "Au large de quelle ville portuaire française se dresse le château d'If, prison d'Edmond Dantès dans « Le Comte de Monte-Cristo » ?",
+        "explanation": "La forteresse existe vraiment : des visiteurs demandent encore à voir la « vraie » cellule du héros de Dumas.",
+        "label": "Marseille",
+        "country": "France"
+      },
+      "en": {
+        "text": "Off which French port city stands the Château d'If, Edmond Dantès' prison in 'The Count of Monte Cristo'?",
+        "explanation": "The fortress really exists: visitors still ask to see the 'real' cell of Dumas' hero.",
+        "label": "Marseille",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Frente a qué ciudad portuaria francesa se alza el castillo de If, prisión de Edmundo Dantés en «El conde de Montecristo»?",
+        "explanation": "La fortaleza existe de verdad: los visitantes aún piden ver la «auténtica» celda del héroe de Dumas.",
+        "label": "Marsella",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "c147bca75b981eac",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "lat": 45.515,
+    "lng": 25.3672,
+    "translations": {
+      "fr": {
+        "text": "Dans quel pays d'Europe de l'Est se trouve la Transylvanie, où Bram Stoker installa son comte Dracula ?",
+        "explanation": "Stoker n'y a jamais mis les pieds : il inventa sa Transylvanie depuis les bibliothèques de Londres.",
+        "label": "Roumanie",
+        "country": "Roumanie"
+      },
+      "en": {
+        "text": "In which Eastern European country lies Transylvania, where Bram Stoker set his Count Dracula?",
+        "explanation": "Stoker never set foot there: he invented his Transylvania from the libraries of London.",
+        "label": "Romania",
+        "country": "Romania"
+      },
+      "es": {
+        "text": "¿En qué país de Europa del Este se encuentra Transilvania, donde Bram Stoker situó a su conde Drácula?",
+        "explanation": "Stoker nunca estuvo allí: inventó su Transilvania desde las bibliotecas de Londres.",
+        "label": "Rumanía",
+        "country": "Rumanía"
+      }
+    }
+  },
+  {
+    "sourceRef": "a675626018c3665d",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 45.0703,
+    "lng": 7.6869,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du Piémont italien est la patrie du chocolat gianduja et du vermouth ?",
+        "explanation": "Le gianduja, mélange de chocolat et de noisettes, y fut inventé quand le cacao vint à manquer sous Napoléon.",
+        "label": "Turin",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which city in Italy's Piedmont is the home of gianduja chocolate and vermouth?",
+        "explanation": "Gianduja, a blend of chocolate and hazelnuts, was invented there when cocoa ran short under Napoleon.",
+        "label": "Turin",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué ciudad del Piamonte italiano es la patria del chocolate gianduja y del vermut?",
+        "explanation": "El gianduja, mezcla de chocolate y avellanas, se inventó allí cuando escaseó el cacao bajo Napoleón.",
+        "label": "Turín",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "612f1aeb49733e2d",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": -12.0464,
+    "lng": -77.0428,
+    "translations": {
+      "fr": {
+        "text": "De quel pays andin le ceviche, poisson cru mariné au citron vert, est-il le plat national ?",
+        "explanation": "Le pays lui consacre même un jour férié : la « journée du ceviche », chaque 28 juin.",
+        "label": "Pérou",
+        "country": "Pérou"
+      },
+      "en": {
+        "text": "Of which Andean country is ceviche, raw fish marinated in lime, the national dish?",
+        "explanation": "The country even devotes a holiday to it: 'Ceviche Day', every 28 June.",
+        "label": "Peru",
+        "country": "Peru"
+      },
+      "es": {
+        "text": "¿De qué país andino es plato nacional el ceviche, pescado crudo marinado en lima?",
+        "explanation": "El país le dedica incluso un día festivo: el «Día del Ceviche», cada 28 de junio.",
+        "label": "Perú",
+        "country": "Perú"
+      }
+    }
+  },
+  {
+    "sourceRef": "55a47a33ec18bdaa",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 17.9714,
+    "lng": -76.7936,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale jamaïcaine Bob Marley a-t-il fait rayonner le reggae dans le monde entier ?",
+        "explanation": "Le reggae y est né à la fin des années 1960 ; il est inscrit au patrimoine immatériel de l'UNESCO depuis 2018.",
+        "label": "Kingston",
+        "country": "Jamaïque"
+      },
+      "en": {
+        "text": "From which Jamaican capital did Bob Marley spread reggae around the world?",
+        "explanation": "Reggae was born there in the late 1960s; it has been on UNESCO's intangible heritage list since 2018.",
+        "label": "Kingston",
+        "country": "Jamaica"
+      },
+      "es": {
+        "text": "¿Desde qué capital jamaicana Bob Marley difundió el reggae por todo el mundo?",
+        "explanation": "El reggae nació allí a finales de los años 60; figura en el patrimonio inmaterial de la UNESCO desde 2018.",
+        "label": "Kingston",
+        "country": "Jamaica"
+      }
+    }
+  },
+  {
+    "sourceRef": "c944f77eb22c7656",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale asiatique se trouve le quartier de Gangnam, rendu mondialement célèbre par un tube de 2012 ?",
+        "explanation": "« Gangnam Style » fut la première vidéo de l'histoire de YouTube à dépasser le milliard de vues.",
+        "label": "Séoul",
+        "country": "Corée du Sud"
+      },
+      "en": {
+        "text": "In which Asian capital is the Gangnam district, made world-famous by a 2012 hit song?",
+        "explanation": "'Gangnam Style' was the first video in YouTube history to pass one billion views.",
+        "label": "Seoul",
+        "country": "South Korea"
+      },
+      "es": {
+        "text": "¿En qué capital asiática se encuentra el barrio de Gangnam, mundialmente famoso por un éxito musical de 2012?",
+        "explanation": "«Gangnam Style» fue el primer vídeo de la historia de YouTube en superar los mil millones de visualizaciones.",
+        "label": "Seúl",
+        "country": "Corea del Sur"
+      }
+    }
+  },
+  {
+    "sourceRef": "a336a3073bddc3c0",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 51.9977,
+    "lng": -0.7407,
+    "translations": {
+      "fr": {
+        "text": "Dans quel manoir anglais Alan Turing et son équipe percèrent-ils le code Enigma pendant la Seconde Guerre mondiale ?",
+        "explanation": "Le travail des décrypteurs y resta secret pendant près de 30 ans, même pour leurs familles.",
+        "label": "Bletchley Park",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "At which English manor did Alan Turing and his team crack the Enigma code during World War II?",
+        "explanation": "The codebreakers' work remained secret for nearly 30 years, even from their families.",
+        "label": "Bletchley Park",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué mansión inglesa Alan Turing y su equipo descifraron el código Enigma durante la Segunda Guerra Mundial?",
+        "explanation": "El trabajo de los descifradores permaneció en secreto casi 30 años, incluso para sus familias.",
+        "label": "Bletchley Park",
+        "country": "Reino Unido"
+      }
+    }
+  }
+]
