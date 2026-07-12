@@ -1,0 +1,842 @@
+[
+  {
+    "sourceRef": "6a9ae59b2d7e589e",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale fédérale américaine le président réside-t-il, à la Maison-Blanche ?",
+        "explanation": "La ville fut dessinée par l'ingénieur français Pierre L'Enfant, sur un plan en damier coupé de grandes avenues.",
+        "label": "Washington",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which US federal capital does the president live, at the White House?",
+        "explanation": "The city was designed by French engineer Pierre L'Enfant, on a grid plan cut by grand avenues.",
+        "label": "Washington",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué capital federal estadounidense reside el presidente, en la Casa Blanca?",
+        "explanation": "La ciudad fue diseñada por el ingeniero francés Pierre L'Enfant, con un plano en cuadrícula cortado por grandes avenidas.",
+        "label": "Washington",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "a06cc8f3a72c66c8",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": -15.965,
+    "lng": -5.7089,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle île perdue de l'Atlantique Sud Napoléon vécut-il son dernier exil, jusqu'en 1821 ?",
+        "explanation": "L'île est si isolée que le courrier vers l'Europe mettait plusieurs mois ; un aéroport n'y a ouvert qu'en 2017.",
+        "label": "Sainte-Hélène",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "On which remote South Atlantic island did Napoleon live out his final exile, until 1821?",
+        "explanation": "The island is so isolated that mail to Europe took several months; an airport only opened there in 2017.",
+        "label": "Saint Helena",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué remota isla del Atlántico Sur vivió Napoleón su último exilio, hasta 1821?",
+        "explanation": "La isla está tan aislada que el correo hacia Europa tardaba varios meses; un aeropuerto no abrió allí hasta 2017.",
+        "label": "Santa Elena",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "4505afda9fb824e3",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 51.1789,
+    "lng": -1.8262,
+    "translations": {
+      "fr": {
+        "text": "Quel monument mégalithique du sud de l'Angleterre aligne ses pierres géantes sur le soleil des solstices ?",
+        "explanation": "Certaines de ses pierres de plusieurs tonnes furent transportées depuis le pays de Galles, à plus de 200 km.",
+        "label": "Stonehenge",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "Which megalithic monument in southern England aligns its giant stones with the solstice sun?",
+        "explanation": "Some of its multi-tonne stones were brought from Wales, more than 200 km away.",
+        "label": "Stonehenge",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Qué monumento megalítico del sur de Inglaterra alinea sus piedras gigantes con el sol de los solsticios?",
+        "explanation": "Algunas de sus piedras de varias toneladas fueron transportadas desde Gales, a más de 200 km.",
+        "label": "Stonehenge",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "9767447cd3f7fa4d",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 43.213,
+    "lng": 2.3491,
+    "translations": {
+      "fr": {
+        "text": "Quelle cité fortifiée du sud de la France, aux 52 tours, fut restaurée au XIXe siècle par Viollet-le-Duc ?",
+        "explanation": "Menacée de démolition en 1849, la cité fut sauvée par une campagne d'écrivains et d'archéologues.",
+        "label": "Carcassonne",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which fortified city in southern France, with its 52 towers, was restored in the 19th century by Viollet-le-Duc?",
+        "explanation": "Threatened with demolition in 1849, the city was saved by a campaign of writers and archaeologists.",
+        "label": "Carcassonne",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué ciudad fortificada del sur de Francia, con 52 torres, fue restaurada en el siglo XIX por Viollet-le-Duc?",
+        "explanation": "Amenazada de demolición en 1849, la ciudad fue salvada por una campaña de escritores y arqueólogos.",
+        "label": "Carcasona",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "c51d0f190d6339f0",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 1.3521,
+    "lng": 103.8198,
+    "translations": {
+      "fr": {
+        "text": "Quelle cité-État d'Asie du Sud-Est, réputée pour sa propreté, marie gratte-ciel et jardins futuristes ?",
+        "explanation": "On y trouve des « super-arbres » métalliques de 50 m de haut, couverts de plantes et illuminés la nuit.",
+        "label": "Singapour",
+        "country": "Singapour"
+      },
+      "en": {
+        "text": "Which Southeast Asian city-state, famed for its cleanliness, blends skyscrapers with futuristic gardens?",
+        "explanation": "It features 50-metre metal 'supertrees', covered in plants and lit up at night.",
+        "label": "Singapore",
+        "country": "Singapore"
+      },
+      "es": {
+        "text": "¿Qué ciudad-Estado del Sudeste Asiático, famosa por su limpieza, combina rascacielos con jardines futuristas?",
+        "explanation": "Allí se alzan «superárboles» metálicos de 50 m de altura, cubiertos de plantas e iluminados de noche.",
+        "label": "Singapur",
+        "country": "Singapur"
+      }
+    }
+  },
+  {
+    "sourceRef": "c229fd5112b77f36",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "lat": 52.1326,
+    "lng": 5.2913,
+    "translations": {
+      "fr": {
+        "text": "Quel pays européen est célèbre pour ses tulipes, ses moulins à vent et ses millions de vélos ?",
+        "explanation": "Environ un tiers du pays se trouve sous le niveau de la mer, protégé par des digues et des polders.",
+        "label": "Pays-Bas",
+        "country": "Pays-Bas"
+      },
+      "en": {
+        "text": "Which European country is famous for its tulips, its windmills and its millions of bicycles?",
+        "explanation": "About a third of the country lies below sea level, protected by dykes and polders.",
+        "label": "Netherlands",
+        "country": "Netherlands"
+      },
+      "es": {
+        "text": "¿Qué país europeo es famoso por sus tulipanes, sus molinos de viento y sus millones de bicicletas?",
+        "explanation": "Alrededor de un tercio del país está bajo el nivel del mar, protegido por diques y pólderes.",
+        "label": "Países Bajos",
+        "country": "Países Bajos"
+      }
+    }
+  },
+  {
+    "sourceRef": "7e70f57008fd2e34",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "lat": 8.9824,
+    "lng": -79.5199,
+    "translations": {
+      "fr": {
+        "text": "Quel pays d'Amérique centrale est traversé par un canal reliant l'Atlantique au Pacifique ?",
+        "explanation": "Le canal fonctionne avec des écluses géantes alimentées par l'eau douce d'un lac artificiel.",
+        "label": "Panama",
+        "country": "Panama"
+      },
+      "en": {
+        "text": "Which Central American country is crossed by a canal linking the Atlantic to the Pacific?",
+        "explanation": "The canal works with giant locks fed by fresh water from an artificial lake.",
+        "label": "Panama",
+        "country": "Panama"
+      },
+      "es": {
+        "text": "¿Qué país de América Central está atravesado por un canal que une el Atlántico con el Pacífico?",
+        "explanation": "El canal funciona con esclusas gigantes alimentadas por el agua dulce de un lago artificial.",
+        "label": "Panamá",
+        "country": "Panamá"
+      }
+    }
+  },
+  {
+    "sourceRef": "0ded350b43fbd640",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "lat": 45.4215,
+    "lng": -75.6972,
+    "translations": {
+      "fr": {
+        "text": "Quel pays d'Amérique du Nord, deuxième plus vaste du monde, arbore une feuille d'érable sur son drapeau ?",
+        "explanation": "Le pays compte plus de deux millions de lacs, soit plus que tous les autres pays réunis.",
+        "label": "Canada",
+        "country": "Canada"
+      },
+      "en": {
+        "text": "Which North American country, the second largest in the world, bears a maple leaf on its flag?",
+        "explanation": "The country has more than two million lakes, more than all other countries combined.",
+        "label": "Canada",
+        "country": "Canada"
+      },
+      "es": {
+        "text": "¿Qué país de América del Norte, el segundo más vasto del mundo, luce una hoja de arce en su bandera?",
+        "explanation": "El país tiene más de dos millones de lagos, más que todos los demás países juntos.",
+        "label": "Canadá",
+        "country": "Canadá"
+      }
+    }
+  },
+  {
+    "sourceRef": "833374412ade780d",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": -34.6037,
+    "lng": -58.3816,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale sud-américaine se joue le bouillant derby entre Boca Juniors et River Plate ?",
+        "explanation": "Ce « superclásico » est réputé l'un des matchs les plus intenses du monde ; le stade de Boca vibre littéralement.",
+        "label": "Buenos Aires",
+        "country": "Argentine"
+      },
+      "en": {
+        "text": "In which South American capital is the fiery derby between Boca Juniors and River Plate played?",
+        "explanation": "This 'superclásico' is reputed to be one of the most intense matches in the world; Boca's stadium literally shakes.",
+        "label": "Buenos Aires",
+        "country": "Argentina"
+      },
+      "es": {
+        "text": "¿En qué capital sudamericana se juega el ardiente derbi entre Boca Juniors y River Plate?",
+        "explanation": "Este «superclásico» tiene fama de ser uno de los partidos más intensos del mundo; el estadio de Boca literalmente vibra.",
+        "label": "Buenos Aires",
+        "country": "Argentina"
+      }
+    }
+  },
+  {
+    "sourceRef": "c9a65461d37d0e69",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 46.5197,
+    "lng": 6.6323,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville suisse, au bord du Léman, abrite le siège du Comité international olympique ?",
+        "explanation": "La ville est officiellement « capitale olympique » et accueille aussi le Tribunal arbitral du sport.",
+        "label": "Lausanne",
+        "country": "Suisse"
+      },
+      "en": {
+        "text": "Which Swiss city on Lake Geneva is home to the headquarters of the International Olympic Committee?",
+        "explanation": "The city is officially the 'Olympic Capital' and also hosts the Court of Arbitration for Sport.",
+        "label": "Lausanne",
+        "country": "Switzerland"
+      },
+      "es": {
+        "text": "¿Qué ciudad suiza, a orillas del lago Lemán, alberga la sede del Comité Olímpico Internacional?",
+        "explanation": "La ciudad es oficialmente la «capital olímpica» y acoge también el Tribunal de Arbitraje Deportivo.",
+        "label": "Lausana",
+        "country": "Suiza"
+      }
+    }
+  },
+  {
+    "sourceRef": "65a15a83785732ff",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 28.6139,
+    "lng": 77.209,
+    "translations": {
+      "fr": {
+        "text": "Dans quel pays d'Asie du Sud le cricket déchaîne-t-il plus d'un milliard de passionnés ?",
+        "explanation": "La finale de la Coupe du monde de cricket y attire plus de téléspectateurs que le Super Bowl américain.",
+        "label": "Inde",
+        "country": "Inde"
+      },
+      "en": {
+        "text": "In which South Asian country does cricket thrill more than a billion fans?",
+        "explanation": "The Cricket World Cup final draws more viewers there than the American Super Bowl.",
+        "label": "India",
+        "country": "India"
+      },
+      "es": {
+        "text": "¿En qué país del sur de Asia el críquet apasiona a más de mil millones de aficionados?",
+        "explanation": "La final del Mundial de críquet atrae allí a más telespectadores que la Super Bowl estadounidense.",
+        "label": "India",
+        "country": "India"
+      }
+    }
+  },
+  {
+    "sourceRef": "b16970cf384b6385",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 53.0138,
+    "lng": 18.5984,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville polonaise naquit en 1473 Nicolas Copernic, qui plaça le Soleil au centre de l'Univers ?",
+        "explanation": "Sa maison natale en briques gothiques est aujourd'hui un musée ; la ville est aussi célèbre pour son pain d'épices.",
+        "label": "Toruń",
+        "country": "Pologne"
+      },
+      "en": {
+        "text": "In which Polish city was Nicolaus Copernicus, who placed the Sun at the centre of the Universe, born in 1473?",
+        "explanation": "His Gothic brick birthplace is now a museum; the city is also famous for its gingerbread.",
+        "label": "Toruń",
+        "country": "Poland"
+      },
+      "es": {
+        "text": "¿En qué ciudad polaca nació en 1473 Nicolás Copérnico, quien puso el Sol en el centro del Universo?",
+        "explanation": "Su casa natal de ladrillo gótico es hoy un museo; la ciudad también es famosa por su pan de jengibre.",
+        "label": "Toruń",
+        "country": "Polonia"
+      }
+    }
+  },
+  {
+    "sourceRef": "c70e7114f19f6c6a",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "medium",
+    "lat": -24.5,
+    "lng": -69.25,
+    "translations": {
+      "fr": {
+        "text": "Dans quel désert chilien, le plus aride du monde, sont installés les plus grands télescopes de la planète ?",
+        "explanation": "Certaines de ses stations météo n'ont jamais enregistré une seule goutte de pluie.",
+        "label": "Désert d'Atacama",
+        "country": "Chili"
+      },
+      "en": {
+        "text": "In which Chilean desert, the driest in the world, are the planet's largest telescopes installed?",
+        "explanation": "Some of its weather stations have never recorded a single drop of rain.",
+        "label": "Atacama Desert",
+        "country": "Chile"
+      },
+      "es": {
+        "text": "¿En qué desierto chileno, el más árido del mundo, están instalados los telescopios más grandes del planeta?",
+        "explanation": "Algunas de sus estaciones meteorológicas jamás han registrado una sola gota de lluvia.",
+        "label": "Desierto de Atacama",
+        "country": "Chile"
+      }
+    }
+  },
+  {
+    "sourceRef": "02044d47bfe5ee33",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": -8.5833,
+    "lng": 119.4833,
+    "translations": {
+      "fr": {
+        "text": "Dans quel pays d'Asie du Sud-Est vit le plus grand lézard du monde, un varan de 3 mètres ?",
+        "explanation": "Ce dragon ne vit que sur quelques îles de l'archipel ; sa salive contient un venin qui affaiblit ses proies.",
+        "label": "Indonésie",
+        "country": "Indonésie"
+      },
+      "en": {
+        "text": "In which Southeast Asian country does the world's largest lizard, a 3-metre monitor, live?",
+        "explanation": "This dragon lives on only a few islands of the archipelago; its saliva carries venom that weakens its prey.",
+        "label": "Indonesia",
+        "country": "Indonesia"
+      },
+      "es": {
+        "text": "¿En qué país del Sudeste Asiático vive el lagarto más grande del mundo, un varano de 3 metros?",
+        "explanation": "Este dragón solo vive en unas pocas islas del archipiélago; su saliva contiene un veneno que debilita a sus presas.",
+        "label": "Indonesia",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "sourceRef": "4c8c833e81101959",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 35.3606,
+    "lng": 138.7274,
+    "translations": {
+      "fr": {
+        "text": "Quel volcan sacré, au cône enneigé presque parfait, est le point culminant du Japon ?",
+        "explanation": "Des centaines de milliers de pèlerins et randonneurs gravissent ses pentes chaque été, souvent de nuit pour voir l'aube.",
+        "label": "Mont Fuji",
+        "country": "Japon"
+      },
+      "en": {
+        "text": "Which sacred volcano, with its almost perfect snowy cone, is the highest point in Japan?",
+        "explanation": "Hundreds of thousands of pilgrims and hikers climb its slopes every summer, often at night to see the dawn.",
+        "label": "Mount Fuji",
+        "country": "Japan"
+      },
+      "es": {
+        "text": "¿Qué volcán sagrado, de cono nevado casi perfecto, es el punto más alto de Japón?",
+        "explanation": "Cientos de miles de peregrinos y senderistas suben sus laderas cada verano, a menudo de noche para ver el amanecer.",
+        "label": "Monte Fuji",
+        "country": "Japón"
+      }
+    }
+  },
+  {
+    "sourceRef": "5fe0bd2a2ed6f197",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": -24.7275,
+    "lng": 15.3356,
+    "translations": {
+      "fr": {
+        "text": "Quel désert côtier d'Afrique australe, considéré comme le plus vieux du monde, plonge ses dunes rouges dans l'Atlantique ?",
+        "explanation": "Ses dunes comptent parmi les plus hautes du monde ; la brume océanique y abreuve scarabées et lézards.",
+        "label": "Désert du Namib",
+        "country": "Namibie"
+      },
+      "en": {
+        "text": "Which coastal desert in southern Africa, considered the oldest in the world, plunges its red dunes into the Atlantic?",
+        "explanation": "Its dunes are among the highest in the world; ocean fog waters its beetles and lizards.",
+        "label": "Namib Desert",
+        "country": "Namibia"
+      },
+      "es": {
+        "text": "¿Qué desierto costero de África austral, considerado el más antiguo del mundo, hunde sus dunas rojas en el Atlántico?",
+        "explanation": "Sus dunas están entre las más altas del mundo; la niebla oceánica da de beber a sus escarabajos y lagartos.",
+        "label": "Desierto del Namib",
+        "country": "Namibia"
+      }
+    }
+  },
+  {
+    "sourceRef": "c1783788307dfeb0",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 51.2093,
+    "lng": 3.2247,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville flamande aux canaux médiévaux est surnommée la « Venise du Nord » ?",
+        "explanation": "Grand port au Moyen Âge, la ville s'endormit quand son accès à la mer s'ensabla… ce qui préserva son décor intact.",
+        "label": "Bruges",
+        "country": "Belgique"
+      },
+      "en": {
+        "text": "Which Flemish city with medieval canals is nicknamed the 'Venice of the North'?",
+        "explanation": "A great port in the Middle Ages, the city fell asleep when its sea access silted up… which preserved its setting intact.",
+        "label": "Bruges",
+        "country": "Belgium"
+      },
+      "es": {
+        "text": "¿Qué ciudad flamenca de canales medievales es apodada la «Venecia del Norte»?",
+        "explanation": "Gran puerto en la Edad Media, la ciudad se adormeció cuando su acceso al mar se llenó de arena… lo que preservó su decorado intacto.",
+        "label": "Brujas",
+        "country": "Bélgica"
+      }
+    }
+  },
+  {
+    "sourceRef": "6f95d0408f317d9d",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 43.3188,
+    "lng": 11.3308,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville toscane, rivale historique de Florence, court le « Palio » sur sa place en forme de coquillage ?",
+        "explanation": "Cette course de chevaux à cru entre quartiers dure à peine 90 secondes, pour une année de fierté.",
+        "label": "Sienne",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which Tuscan city, Florence's historic rival, runs the 'Palio' on its shell-shaped square?",
+        "explanation": "This bareback horse race between districts lasts barely 90 seconds, for a whole year of pride.",
+        "label": "Siena",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué ciudad toscana, rival histórica de Florencia, corre el «Palio» en su plaza en forma de concha?",
+        "explanation": "Esta carrera de caballos a pelo entre barrios dura apenas 90 segundos, por todo un año de orgullo.",
+        "label": "Siena",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "5736f3f11ab7bed9",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 48.1351,
+    "lng": 11.582,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de Bavière se tient chaque automne la plus grande fête de la bière du monde ?",
+        "explanation": "La fête est née en 1810… d'un mariage princier ; on y sert la bière dans des chopes d'un litre.",
+        "label": "Munich",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which Bavarian city is the world's biggest beer festival held every autumn?",
+        "explanation": "The festival began in 1810… with a princely wedding; beer is served there in one-litre steins.",
+        "label": "Munich",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Baviera se celebra cada otoño la mayor fiesta de la cerveza del mundo?",
+        "explanation": "La fiesta nació en 1810… de una boda principesca; la cerveza se sirve en jarras de un litro.",
+        "label": "Múnich",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "2018e50633fedbe7",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 23.1136,
+    "lng": -82.3666,
+    "translations": {
+      "fr": {
+        "text": "Quel pays des Caraïbes, célèbre pour ses vieilles voitures américaines et ses cigares, est le berceau du son et de la salsa ?",
+        "explanation": "Les voitures américaines des années 1950, entretenues avec ingéniosité, y roulent toujours faute d'importations.",
+        "label": "Cuba",
+        "country": "Cuba"
+      },
+      "en": {
+        "text": "Which Caribbean country, famous for its old American cars and its cigars, is the cradle of son and salsa?",
+        "explanation": "American cars from the 1950s, kept going with great ingenuity, still run there for lack of imports.",
+        "label": "Cuba",
+        "country": "Cuba"
+      },
+      "es": {
+        "text": "¿Qué país del Caribe, famoso por sus viejos coches americanos y sus puros, es la cuna del son y de la salsa?",
+        "explanation": "Los coches americanos de los años 50, mantenidos con gran ingenio, siguen circulando allí a falta de importaciones.",
+        "label": "Cuba",
+        "country": "Cuba"
+      }
+    }
+  },
+  {
+    "sourceRef": "61be31e24320f090",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 51.3397,
+    "lng": 12.3731,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de Saxe Jean-Sébastien Bach dirigea-t-il le chœur de Saint-Thomas pendant 27 ans ?",
+        "explanation": "Bach y composa une cantate par semaine, tout en donnant des cours de latin aux petits choristes.",
+        "label": "Leipzig",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which Saxon city did Johann Sebastian Bach direct the St Thomas choir for 27 years?",
+        "explanation": "Bach composed a cantata a week there, while also teaching Latin to the young choristers.",
+        "label": "Leipzig",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Sajonia dirigió Johann Sebastian Bach el coro de Santo Tomás durante 27 años?",
+        "explanation": "Bach componía allí una cantata por semana, mientras daba clases de latín a los pequeños coristas.",
+        "label": "Leipzig",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "3a92ab18ac9e765e",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "lat": 51.3811,
+    "lng": -2.359,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville thermale anglaise, chère à Jane Austen, est célèbre pour ses bains romains et ses façades géorgiennes ?",
+        "explanation": "Jane Austen y situa deux de ses romans ; la ville célèbre chaque année un festival en costumes d'époque.",
+        "label": "Bath",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "Which English spa town, dear to Jane Austen, is famous for its Roman baths and Georgian façades?",
+        "explanation": "Jane Austen set two of her novels there; the town celebrates a period-costume festival every year.",
+        "label": "Bath",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Qué ciudad termal inglesa, querida por Jane Austen, es famosa por sus baños romanos y sus fachadas georgianas?",
+        "explanation": "Jane Austen situó allí dos de sus novelas; la ciudad celebra cada año un festival con trajes de época.",
+        "label": "Bath",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "2e7392be942c3a12",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 10.391,
+    "lng": -75.4794,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville fortifiée des Caraïbes colombiennes inspira à Gabriel García Márquez « L'Amour aux temps du choléra » ?",
+        "explanation": "Ses remparts furent bâtis pour repousser les pirates ; García Márquez y possédait une maison face à la mer.",
+        "label": "Carthagène",
+        "country": "Colombie"
+      },
+      "en": {
+        "text": "Which walled city on Colombia's Caribbean coast inspired Gabriel García Márquez's 'Love in the Time of Cholera'?",
+        "explanation": "Its ramparts were built to repel pirates; García Márquez owned a house there facing the sea.",
+        "label": "Cartagena",
+        "country": "Colombia"
+      },
+      "es": {
+        "text": "¿Qué ciudad amurallada del Caribe colombiano inspiró a Gabriel García Márquez «El amor en los tiempos del cólera»?",
+        "explanation": "Sus murallas se construyeron para repeler a los piratas; García Márquez tenía allí una casa frente al mar.",
+        "label": "Cartagena",
+        "country": "Colombia"
+      }
+    }
+  },
+  {
+    "sourceRef": "ebd5540e02aaec6a",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "lat": 47.1625,
+    "lng": 19.5033,
+    "translations": {
+      "fr": {
+        "text": "De quel pays d'Europe centrale le goulasch, ragoût de bœuf au paprika, est-il le plat national ?",
+        "explanation": "À l'origine, c'était la soupe des bouviers des grandes plaines, cuite au chaudron sur le feu de camp.",
+        "label": "Hongrie",
+        "country": "Hongrie"
+      },
+      "en": {
+        "text": "Of which Central European country is goulash, a beef and paprika stew, the national dish?",
+        "explanation": "It began as the soup of the great-plains cattle herders, cooked in a cauldron over a campfire.",
+        "label": "Hungary",
+        "country": "Hungary"
+      },
+      "es": {
+        "text": "¿De qué país de Europa Central es plato nacional el gulash, estofado de ternera con pimentón?",
+        "explanation": "En su origen era la sopa de los boyeros de las grandes llanuras, cocida en caldero sobre la hoguera.",
+        "label": "Hungría",
+        "country": "Hungría"
+      }
+    }
+  },
+  {
+    "sourceRef": "4e32393af32129bd",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 43.3183,
+    "lng": -1.9812,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville basque espagnole est réputée pour ses « pintxos » et l'une des plus fortes densités d'étoiles Michelin au monde ?",
+        "explanation": "La ville cultive aussi des « sociétés gastronomiques » privées, où l'on cuisine entre amis depuis le XIXe siècle.",
+        "label": "Saint-Sébastien",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "Which Spanish Basque city is famed for its 'pintxos' and one of the highest densities of Michelin stars in the world?",
+        "explanation": "The city also nurtures private 'gastronomic societies', where friends have cooked together since the 19th century.",
+        "label": "San Sebastián",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿Qué ciudad vasca española es famosa por sus «pintxos» y una de las mayores densidades de estrellas Michelin del mundo?",
+        "explanation": "La ciudad cultiva además «sociedades gastronómicas» privadas, donde se cocina entre amigos desde el siglo XIX.",
+        "label": "San Sebastián",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "262ae7baa00980a6",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 22.5431,
+    "lng": 114.0579,
+    "translations": {
+      "fr": {
+        "text": "Quelle mégapole du sud de la Chine, simple bourg de pêcheurs en 1980, est devenue la capitale mondiale du matériel électronique ?",
+        "explanation": "Sa croissance fut si rapide qu'elle est passée d'environ 30 000 habitants à plus de 17 millions en 40 ans.",
+        "label": "Shenzhen",
+        "country": "Chine"
+      },
+      "en": {
+        "text": "Which megacity in southern China, a mere fishing town in 1980, has become the world capital of electronics hardware?",
+        "explanation": "Its growth was so fast that it went from about 30,000 inhabitants to more than 17 million in 40 years.",
+        "label": "Shenzhen",
+        "country": "China"
+      },
+      "es": {
+        "text": "¿Qué megaciudad del sur de China, simple pueblo pesquero en 1980, se ha convertido en la capital mundial del hardware electrónico?",
+        "explanation": "Su crecimiento fue tan rápido que pasó de unos 30.000 habitantes a más de 17 millones en 40 años.",
+        "label": "Shenzhen",
+        "country": "China"
+      }
+    }
+  },
+  {
+    "sourceRef": "88208a17ac1309c3",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 45.965,
+    "lng": 63.305,
+    "translations": {
+      "fr": {
+        "text": "De quel cosmodrome des steppes kazakhes Youri Gagarine s'élança-t-il vers l'espace en 1961 ?",
+        "explanation": "C'est toujours le plus grand site de lancement du monde ; la Russie le loue au Kazakhstan depuis 1994.",
+        "label": "Baïkonour",
+        "country": "Kazakhstan"
+      },
+      "en": {
+        "text": "From which cosmodrome in the Kazakh steppes did Yuri Gagarin launch into space in 1961?",
+        "explanation": "It is still the largest launch site in the world; Russia has leased it from Kazakhstan since 1994.",
+        "label": "Baikonur",
+        "country": "Kazakhstan"
+      },
+      "es": {
+        "text": "¿Desde qué cosmódromo de las estepas kazajas despegó Yuri Gagarin hacia el espacio en 1961?",
+        "explanation": "Sigue siendo el mayor sitio de lanzamiento del mundo; Rusia se lo alquila a Kazajistán desde 1994.",
+        "label": "Baikonur",
+        "country": "Kazajistán"
+      }
+    }
+  },
+  {
+    "sourceRef": "68155125c02a9e81",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 42.5063,
+    "lng": 1.5218,
+    "translations": {
+      "fr": {
+        "text": "Quel micro-État niché dans les Pyrénées vit du ski et du commerce détaxé, entre la France et l'Espagne ?",
+        "explanation": "Ce pays sans aéroport ni train a deux coprinces : le président français et un évêque catalan.",
+        "label": "Andorre",
+        "country": "Andorre"
+      },
+      "en": {
+        "text": "Which microstate nestled in the Pyrenees lives off skiing and duty-free trade, between France and Spain?",
+        "explanation": "This country with no airport or railway has two co-princes: the French president and a Catalan bishop.",
+        "label": "Andorra",
+        "country": "Andorra"
+      },
+      "es": {
+        "text": "¿Qué microestado enclavado en los Pirineos vive del esquí y del comercio libre de impuestos, entre Francia y España?",
+        "explanation": "Este país sin aeropuerto ni tren tiene dos copríncipes: el presidente francés y un obispo catalán.",
+        "label": "Andorra",
+        "country": "Andorra"
+      }
+    }
+  },
+  {
+    "sourceRef": "46119dcf0b397d3e",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "lat": 40.6461,
+    "lng": -111.498,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle station de ski de l'Utah se tient chaque janvier le festival de Sundance, temple du cinéma indépendant ?",
+        "explanation": "Le festival fut relancé par Robert Redford, qui le baptisa du nom de son personnage de hors-la-loi.",
+        "label": "Park City",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which Utah ski resort is the Sundance Festival, temple of independent cinema, held every January?",
+        "explanation": "The festival was relaunched by Robert Redford, who named it after his outlaw character.",
+        "label": "Park City",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué estación de esquí de Utah se celebra cada enero el festival de Sundance, templo del cine independiente?",
+        "explanation": "El festival fue relanzado por Robert Redford, quien lo bautizó con el nombre de su personaje forajido.",
+        "label": "Park City",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "ce5e6c983897456f",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 36.8938,
+    "lng": 27.2877,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle île grecque du Dodécanèse naquit Hippocrate, considéré comme le père de la médecine ?",
+        "explanation": "On y montre encore le « platane d'Hippocrate », sous lequel il aurait enseigné à ses élèves.",
+        "label": "Cos",
+        "country": "Grèce"
+      },
+      "en": {
+        "text": "On which Greek island of the Dodecanese was Hippocrates, regarded as the father of medicine, born?",
+        "explanation": "Visitors are still shown the 'plane tree of Hippocrates', under which he is said to have taught his students.",
+        "label": "Kos",
+        "country": "Greece"
+      },
+      "es": {
+        "text": "¿En qué isla griega del Dodecaneso nació Hipócrates, considerado el padre de la medicina?",
+        "explanation": "Aún se muestra allí el «plátano de Hipócrates», bajo el cual habría enseñado a sus alumnos.",
+        "label": "Cos",
+        "country": "Grecia"
+      }
+    }
+  }
+]
