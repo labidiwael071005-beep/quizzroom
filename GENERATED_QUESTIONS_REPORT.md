@@ -32,31 +32,36 @@ entre langues).
 
 ## 2. État actuel (vagues en cours)
 
-- **Questions générées et insérées : 220** (4 lots QCM = 160 + 2 lots Géo = 60).
-- **Total en base : 671** questions (les ~451 préexistantes sont conservées).
-- **Traductions équilibrées** : `fr = en = es = 671`.
-- **Difficulté `hard`** renforcée : 42 → **141** au total ; chaque thème a désormais ≥ 8 en `hard`.
-- **Type géo** : 26 → **86** (les nouvelles géo sont « anecdote » et thématisées par sujet).
+- **Questions générées et insérées : 448** (7 lots QCM = 316 + 5 lots Géo = 132).
+- **Total en base : 899** questions (les ~451 préexistantes sont conservées).
+- **Traductions équilibrées** : `fr = en = es = 899`.
+- **Difficulté `easy` rééquilibrée** : les lots 05-07 QCM sont majoritairement easy
+  grand public → easy = **381**, medium = 327, hard = 191.
+- **Type géo** : 26 → **177** (toutes les nouvelles géo sont « anecdote » et thématisées).
+- **Correction** : la géo `b6966ed6c0054551` (pyramides de Gizeh) demandait une capitale
+  mais avait pour label « Gizeh » → corrigée en **Le Caire** (30.0444, 31.2357) dans le
+  lot ET en base (script ponctuel `scripts/fix-cairo-label.js`, le hash géo ne dépendant
+  que du texte FR, le sourceRef est inchangé).
 
-Lots produits à ce jour : `generated-qcm/lot01-04.json`, `generated-geo/lot01-02.json`.
+Lots produits à ce jour : `generated-qcm/lot01-07.json`, `generated-geo/lot01-05.json`.
 
-Répartition thème × difficulté (source `check:questions`) :
+Répartition thème × difficulté (source `check:questions`, base complète) :
 
 ```
-theme             easy  medium    hard
-art                  6      15      11
-cinema              29      11       9
-gastronomie         10       8       8
-general             36      17      13
-geo                  0      26       0   ← thème legacy des 26 anciennes géo (medium)
-geographie          38      20      11
-histoire            32      36      16
-litterature          6      13       8
-musique             29      10       9
-nature              30      32       8
-science             29      18      14
-sport               14      13      10
-tech                26      10      10
+theme             easy  medium    hard     total
+art                  9      20      17        46
+cinema              37      16      11        64
+gastronomie         18      15      13        46
+general             44      17      14        75
+geo                  0      26       0        26   ← thème legacy des 26 anciennes géo (medium)
+geographie          56      37      15       108
+histoire            40      49      27       116
+litterature         10      19      13        42
+musique             34      19      15        68
+nature              42      41      13        96
+science             39      30      24        93
+sport               21      24      16        61
+tech                31      14      13        58
 ```
 
 Note : le thème `geo` (easy/hard à 0) correspond aux 26 **anciennes** questions
@@ -80,10 +85,11 @@ au `sourceRef`.
 
 ## 4. Priorités restantes pour les prochaines vagues
 
-Pour atteindre la cible (~1500–2000 nouvelles), continuer en renforçant :
-- la difficulté **hard** partout (encore la plus légère : 85 au total) ;
-- **gastronomie**, **litterature**, **art**, **sport** (thèmes les moins fournis) ;
-- diversifier les sous-sujets pour éviter tout doublon sémantique avec l'existant.
+Pour atteindre la cible (~1500–2000 nouvelles ; on en est à 448), continuer en renforçant :
+- **litterature**, **art**, **gastronomie** (thèmes les moins fournis : 42-46 chacun) ;
+- garder l'équilibre easy/medium/hard atteint (≈ 42/36/21 %) — ne plus sur-forcer easy ;
+- reprendre à **lot08** (QCM) et **lot06** (Géo) ; relire les lots existants avant
+  rédaction pour éviter tout doublon sémantique (sujets ET lieux-réponses déjà utilisés).
 
 ## 5. Vérification au redémarrage
 
