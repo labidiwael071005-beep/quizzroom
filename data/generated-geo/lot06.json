@@ -1,0 +1,842 @@
+[
+  {
+    "sourceRef": "7b05e481ff1489ad",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "lat": 49.4431,
+    "lng": 1.0993,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville normande, à la cathédrale peinte par Monet, naquit Gustave Flaubert, l'auteur de « Madame Bovary » ?",
+        "explanation": "Lors de son procès pour immoralité en 1857, Flaubert fut acquitté… la même année où Baudelaire fut condamné.",
+        "label": "Rouen",
+        "country": "France"
+      },
+      "en": {
+        "text": "In which Norman city, whose cathedral Monet painted, was Gustave Flaubert, author of 'Madame Bovary', born?",
+        "explanation": "At his 1857 trial for immorality, Flaubert was acquitted… the same year Baudelaire was convicted.",
+        "label": "Rouen",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En qué ciudad normanda, cuya catedral pintó Monet, nació Gustave Flaubert, autor de «Madame Bovary»?",
+        "explanation": "En su juicio por inmoralidad en 1857, Flaubert fue absuelto… el mismo año en que Baudelaire fue condenado.",
+        "label": "Ruan",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "4da36dc3050c0092",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 38.4,
+    "lng": 20.68,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle île de la mer Ionienne la légende situe-t-elle le royaume d'Ulysse, où Pénélope l'attendit vingt ans ?",
+        "explanation": "L'île existe bel et bien ; des archéologues y cherchent toujours le « vrai » palais du héros d'Homère.",
+        "label": "Ithaque",
+        "country": "Grèce"
+      },
+      "en": {
+        "text": "On which Ionian island does legend place the kingdom of Odysseus, where Penelope waited twenty years for him?",
+        "explanation": "The island really exists; archaeologists are still searching there for the 'real' palace of Homer's hero.",
+        "label": "Ithaca",
+        "country": "Greece"
+      },
+      "es": {
+        "text": "¿En qué isla del mar Jónico sitúa la leyenda el reino de Ulises, donde Penélope lo esperó veinte años?",
+        "explanation": "La isla existe de verdad; los arqueólogos aún buscan allí el «auténtico» palacio del héroe de Homero.",
+        "label": "Ítaca",
+        "country": "Grecia"
+      }
+    }
+  },
+  {
+    "sourceRef": "603336d472cd746f",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 53.8306,
+    "lng": -1.9557,
+    "translations": {
+      "fr": {
+        "text": "Dans quel village des landes du Yorkshire vécurent les sœurs Brontë, auteures de « Jane Eyre » et des « Hauts de Hurlevent » ?",
+        "explanation": "Les trois sœurs publièrent d'abord sous des pseudonymes masculins : Currer, Ellis et Acton Bell.",
+        "label": "Haworth",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which Yorkshire moorland village did the Brontë sisters, authors of 'Jane Eyre' and 'Wuthering Heights', live?",
+        "explanation": "The three sisters first published under male pseudonyms: Currer, Ellis and Acton Bell.",
+        "label": "Haworth",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué pueblo de los páramos de Yorkshire vivieron las hermanas Brontë, autoras de «Jane Eyre» y «Cumbres borrascosas»?",
+        "explanation": "Las tres hermanas publicaron primero bajo seudónimos masculinos: Currer, Ellis y Acton Bell.",
+        "label": "Haworth",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "e4431244e26a5203",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 49.0756,
+    "lng": 1.5333,
+    "translations": {
+      "fr": {
+        "text": "Dans quel village normand Claude Monet cultiva-t-il le jardin au pont japonais qu'il peignit sans relâche ?",
+        "explanation": "Monet dessina lui-même son bassin aux nymphéas ; il dut demander une autorisation préfectorale pour détourner le ru.",
+        "label": "Giverny",
+        "country": "France"
+      },
+      "en": {
+        "text": "In which Norman village did Claude Monet tend the garden with the Japanese bridge that he painted tirelessly?",
+        "explanation": "Monet designed his water-lily pond himself; he had to seek official permission to divert the local stream.",
+        "label": "Giverny",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En qué pueblo normando cultivó Claude Monet el jardín del puente japonés que pintó sin descanso?",
+        "explanation": "Monet diseñó él mismo su estanque de nenúfares; tuvo que pedir permiso oficial para desviar el arroyo local.",
+        "label": "Giverny",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "bfdef96a76b83962",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 52.0116,
+    "lng": 4.3571,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville néerlandaise, célèbre pour sa faïence bleue, Johannes Vermeer passa-t-il toute sa vie ?",
+        "explanation": "On ne connaît qu'environ 35 tableaux de Vermeer ; il en peignait à peine deux ou trois par an.",
+        "label": "Delft",
+        "country": "Pays-Bas"
+      },
+      "en": {
+        "text": "In which Dutch city, famous for its blue pottery, did Johannes Vermeer spend his entire life?",
+        "explanation": "Only about 35 Vermeer paintings are known; he painted barely two or three a year.",
+        "label": "Delft",
+        "country": "Netherlands"
+      },
+      "es": {
+        "text": "¿En qué ciudad neerlandesa, famosa por su cerámica azul, pasó toda su vida Johannes Vermeer?",
+        "explanation": "Solo se conocen unos 35 cuadros de Vermeer; pintaba apenas dos o tres al año.",
+        "label": "Delft",
+        "country": "Países Bajos"
+      }
+    }
+  },
+  {
+    "sourceRef": "2e3e85fc77c51973",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 43.9298,
+    "lng": 2.148,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville épiscopale du Tarn, en briques rouges, abrite le plus grand musée consacré à son enfant Toulouse-Lautrec ?",
+        "explanation": "Sa cathédrale fortifiée, Sainte-Cécile, est le plus grand édifice de briques du monde.",
+        "label": "Albi",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which red-brick episcopal city in the Tarn houses the largest museum devoted to its native son Toulouse-Lautrec?",
+        "explanation": "Its fortified cathedral, Sainte-Cécile, is the largest brick building in the world.",
+        "label": "Albi",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué ciudad episcopal del Tarn, de ladrillo rojo, alberga el mayor museo dedicado a su hijo Toulouse-Lautrec?",
+        "explanation": "Su catedral fortificada, Sainte-Cécile, es el mayor edificio de ladrillo del mundo.",
+        "label": "Albi",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "49513048a1f7e5fb",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": -27.1127,
+    "lng": -109.3497,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle île du Pacifique, l'une des plus isolées du monde, près de 900 statues géantes fixent-elles l'horizon ?",
+        "explanation": "Les moaïs, sculptés dans du tuf volcanique, étaient « marchés » debout jusqu'à leur plateforme, selon les expériences récentes.",
+        "label": "Île de Pâques",
+        "country": "Chili"
+      },
+      "en": {
+        "text": "On which Pacific island, one of the most isolated in the world, do nearly 900 giant statues gaze at the horizon?",
+        "explanation": "The moai, carved from volcanic tuff, were 'walked' upright to their platforms, according to recent experiments.",
+        "label": "Easter Island",
+        "country": "Chile"
+      },
+      "es": {
+        "text": "¿En qué isla del Pacífico, una de las más aisladas del mundo, casi 900 estatuas gigantes contemplan el horizonte?",
+        "explanation": "Los moáis, tallados en toba volcánica, eran «caminados» de pie hasta sus plataformas, según experimentos recientes.",
+        "label": "Isla de Pascua",
+        "country": "Chile"
+      }
+    }
+  },
+  {
+    "sourceRef": "c906a64ae95526fc",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 49.0403,
+    "lng": 3.96,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville française, dont l'avenue principale cache des kilomètres de caves, est considérée comme la capitale du vin à bulles ?",
+        "explanation": "Sous son avenue la plus célèbre dorment plus de 200 millions de bouteilles, dans 110 km de galeries de craie.",
+        "label": "Épernay",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which French town, whose main avenue conceals kilometres of cellars, is considered the capital of sparkling wine?",
+        "explanation": "Beneath its most famous avenue sleep more than 200 million bottles, in 110 km of chalk galleries.",
+        "label": "Épernay",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué ciudad francesa, cuya avenida principal esconde kilómetros de bodegas, se considera la capital del vino espumoso?",
+        "explanation": "Bajo su avenida más famosa duermen más de 200 millones de botellas, en 110 km de galerías de creta.",
+        "label": "Épernay",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "0222ef07f2b27fe1",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 35.1856,
+    "lng": 33.3823,
+    "translations": {
+      "fr": {
+        "text": "De quel pays insulaire de Méditerranée orientale vient le halloumi, fromage qui ne fond pas au gril ?",
+        "explanation": "Sa texture élastique vient d'un caillé chauffé puis plié ; on le sert grillé avec de la menthe.",
+        "label": "Chypre",
+        "country": "Chypre"
+      },
+      "en": {
+        "text": "From which island country in the eastern Mediterranean does halloumi, the cheese that doesn't melt on the grill, come?",
+        "explanation": "Its springy texture comes from curd that is heated then folded; it is served grilled with mint.",
+        "label": "Cyprus",
+        "country": "Cyprus"
+      },
+      "es": {
+        "text": "¿De qué país insular del Mediterráneo oriental viene el halloumi, el queso que no se derrite a la parrilla?",
+        "explanation": "Su textura elástica viene de una cuajada calentada y plegada; se sirve a la parrilla con menta.",
+        "label": "Chipre",
+        "country": "Chipre"
+      }
+    }
+  },
+  {
+    "sourceRef": "c142004756b53dea",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 9.0054,
+    "lng": 38.7636,
+    "translations": {
+      "fr": {
+        "text": "De quel pays d'Afrique de l'Est le café est-il originaire, découvert selon la légende par un berger nommé Kaldi ?",
+        "explanation": "Kaldi aurait remarqué que ses chèvres dansaient après avoir brouté les baies rouges d'un arbuste.",
+        "label": "Éthiopie",
+        "country": "Éthiopie"
+      },
+      "en": {
+        "text": "From which East African country does coffee originate, discovered according to legend by a goatherd named Kaldi?",
+        "explanation": "Kaldi is said to have noticed his goats dancing after nibbling the red berries of a shrub.",
+        "label": "Ethiopia",
+        "country": "Ethiopia"
+      },
+      "es": {
+        "text": "¿De qué país de África Oriental es originario el café, descubierto según la leyenda por un pastor llamado Kaldi?",
+        "explanation": "Kaldi habría notado que sus cabras bailaban tras mordisquear las bayas rojas de un arbusto.",
+        "label": "Etiopía",
+        "country": "Etiopía"
+      }
+    }
+  },
+  {
+    "sourceRef": "5943f9907d9622e3",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "lat": 34.0209,
+    "lng": -6.8416,
+    "translations": {
+      "fr": {
+        "text": "Dans quel pays du Maghreb sert-on le thé à la menthe dans de petits verres, versé de très haut ?",
+        "explanation": "Verser de haut n'est pas du spectacle : la mousse ainsi formée est signe d'un thé bien préparé.",
+        "label": "Maroc",
+        "country": "Maroc"
+      },
+      "en": {
+        "text": "In which Maghreb country is mint tea served in small glasses, poured from high above?",
+        "explanation": "Pouring from a height is not just for show: the foam it creates is the sign of a well-made tea.",
+        "label": "Morocco",
+        "country": "Morocco"
+      },
+      "es": {
+        "text": "¿En qué país del Magreb se sirve el té con menta en vasitos, vertido desde muy alto?",
+        "explanation": "Verterlo desde lo alto no es puro espectáculo: la espuma que se forma es señal de un té bien preparado.",
+        "label": "Marruecos",
+        "country": "Marruecos"
+      }
+    }
+  },
+  {
+    "sourceRef": "6ef053f6eccc629f",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 20.9101,
+    "lng": 107.1839,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle baie du Vietnam des milliers de pitons calcaires coiffés de jungle émergent-ils des eaux émeraude ?",
+        "explanation": "Son nom signifie « la baie du dragon descendant » : la légende veut qu'un dragon ait sculpté les îlots de sa queue.",
+        "label": "Baie d'Halong",
+        "country": "Vietnam"
+      },
+      "en": {
+        "text": "In which Vietnamese bay do thousands of jungle-topped limestone pillars rise from emerald waters?",
+        "explanation": "Its name means 'bay of the descending dragon': legend has it a dragon carved the islets with its tail.",
+        "label": "Ha Long Bay",
+        "country": "Vietnam"
+      },
+      "es": {
+        "text": "¿En qué bahía de Vietnam miles de pitones calcáreos coronados de jungla emergen de aguas esmeralda?",
+        "explanation": "Su nombre significa «bahía del dragón descendente»: la leyenda dice que un dragón esculpió los islotes con su cola.",
+        "label": "Bahía de Halong",
+        "country": "Vietnam"
+      }
+    }
+  },
+  {
+    "sourceRef": "f5b6b38fc289d959",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 31.3156,
+    "lng": 35.3536,
+    "translations": {
+      "fr": {
+        "text": "Quelle forteresse perchée au-dessus de la mer Morte fut le dernier bastion des insurgés juifs face aux Romains, en 73 apr. J.-C. ?",
+        "explanation": "Les Romains construisirent une rampe d'assaut colossale, toujours visible aujourd'hui, pour atteindre le plateau.",
+        "label": "Massada",
+        "country": "Israël"
+      },
+      "en": {
+        "text": "Which fortress perched above the Dead Sea was the last bastion of the Jewish rebels against the Romans, in 73 AD?",
+        "explanation": "The Romans built a colossal assault ramp, still visible today, to reach the plateau.",
+        "label": "Masada",
+        "country": "Israel"
+      },
+      "es": {
+        "text": "¿Qué fortaleza encaramada sobre el mar Muerto fue el último bastión de los insurgentes judíos frente a los romanos, en el 73 d. C.?",
+        "explanation": "Los romanos construyeron una colosal rampa de asalto, aún visible hoy, para alcanzar la meseta.",
+        "label": "Masada",
+        "country": "Israel"
+      }
+    }
+  },
+  {
+    "sourceRef": "239809ead117103b",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 49.9929,
+    "lng": 8.2473,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville rhénane Gutenberg imprima-t-il sa célèbre Bible vers 1455 ?",
+        "explanation": "Ruiné par un procès contre son financier, Gutenberg perdit son atelier juste après avoir achevé sa Bible.",
+        "label": "Mayence",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which Rhineland city did Gutenberg print his famous Bible around 1455?",
+        "explanation": "Ruined by a lawsuit brought by his financier, Gutenberg lost his workshop just after completing his Bible.",
+        "label": "Mainz",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué ciudad renana imprimió Gutenberg su famosa Biblia hacia 1455?",
+        "explanation": "Arruinado por un pleito con su financiero, Gutenberg perdió su taller justo después de terminar su Biblia.",
+        "label": "Maguncia",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "c6e5c9b741e43868",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "medium",
+    "lat": 55.9533,
+    "lng": -3.1883,
+    "translations": {
+      "fr": {
+        "text": "Près de quelle capitale écossaise naquit en 1996 la brebis Dolly, premier mammifère cloné ?",
+        "explanation": "Dolly fut clonée à partir d'une cellule de glande mammaire, d'où son nom en hommage à la chanteuse Dolly Parton.",
+        "label": "Édimbourg",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "Near which Scottish capital was Dolly the sheep, the first cloned mammal, born in 1996?",
+        "explanation": "Dolly was cloned from a mammary gland cell, hence her name honouring the singer Dolly Parton.",
+        "label": "Edinburgh",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Cerca de qué capital escocesa nació en 1996 la oveja Dolly, el primer mamífero clonado?",
+        "explanation": "Dolly fue clonada a partir de una célula de glándula mamaria, de ahí su nombre en homenaje a la cantante Dolly Parton.",
+        "label": "Edimburgo",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "eccddb431b5ad59e",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 11.5833,
+    "lng": 165.3833,
+    "translations": {
+      "fr": {
+        "text": "Quel atoll des îles Marshall, théâtre d'essais nucléaires américains, a donné son nom à un maillot de bain ?",
+        "explanation": "En 1946, le couturier Louis Réard choisit ce nom en promettant un effet aussi « explosif » que les essais du moment.",
+        "label": "Bikini",
+        "country": "Îles Marshall"
+      },
+      "en": {
+        "text": "Which atoll in the Marshall Islands, site of American nuclear tests, gave its name to a swimsuit?",
+        "explanation": "In 1946, designer Louis Réard chose the name, promising an effect as 'explosive' as the tests of the day.",
+        "label": "Bikini",
+        "country": "Marshall Islands"
+      },
+      "es": {
+        "text": "¿Qué atolón de las islas Marshall, escenario de pruebas nucleares estadounidenses, dio su nombre a un traje de baño?",
+        "explanation": "En 1946, el modisto Louis Réard eligió el nombre prometiendo un efecto tan «explosivo» como las pruebas del momento.",
+        "label": "Bikini",
+        "country": "Islas Marshall"
+      }
+    }
+  },
+  {
+    "sourceRef": "30066bfc09957c50",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 53.5,
+    "lng": 108,
+    "translations": {
+      "fr": {
+        "text": "Quel lac de Sibérie, le plus profond du monde, renferme à lui seul un cinquième de l'eau douce liquide de la planète ?",
+        "explanation": "Profond de 1 642 m, il gèle si fort l'hiver qu'on y traçait autrefois des voies ferrées sur la glace.",
+        "label": "Lac Baïkal",
+        "country": "Russie"
+      },
+      "en": {
+        "text": "Which Siberian lake, the deepest in the world, holds a fifth of the planet's liquid fresh water all by itself?",
+        "explanation": "1,642 m deep, it freezes so hard in winter that railway tracks were once laid across its ice.",
+        "label": "Lake Baikal",
+        "country": "Russia"
+      },
+      "es": {
+        "text": "¿Qué lago de Siberia, el más profundo del mundo, contiene por sí solo una quinta parte del agua dulce líquida del planeta?",
+        "explanation": "Con 1.642 m de profundidad, se congela tanto en invierno que antaño se tendían vías férreas sobre su hielo.",
+        "label": "Lago Baikal",
+        "country": "Rusia"
+      }
+    }
+  },
+  {
+    "sourceRef": "74a408cb9c76cfc3",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": -23.9884,
+    "lng": 31.5547,
+    "translations": {
+      "fr": {
+        "text": "Quel grand parc national d'Afrique du Sud, à la frontière du Mozambique, permet d'observer les « Big Five » ?",
+        "explanation": "Grand comme la Belgique, le parc emploie des brigades anti-braconnage assistées de chiens pisteurs et de drones.",
+        "label": "Parc Kruger",
+        "country": "Afrique du Sud"
+      },
+      "en": {
+        "text": "Which great South African national park, on the Mozambique border, lets visitors spot the 'Big Five'?",
+        "explanation": "As big as Belgium, the park runs anti-poaching brigades assisted by tracker dogs and drones.",
+        "label": "Kruger Park",
+        "country": "South Africa"
+      },
+      "es": {
+        "text": "¿Qué gran parque nacional de Sudáfrica, en la frontera con Mozambique, permite observar a los «Cinco Grandes»?",
+        "explanation": "Tan grande como Bélgica, el parque cuenta con brigadas antifurtivos asistidas por perros rastreadores y drones.",
+        "label": "Parque Kruger",
+        "country": "Sudáfrica"
+      }
+    }
+  },
+  {
+    "sourceRef": "14d936536bebac73",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "easy",
+    "lat": -75.2509,
+    "lng": -0.0713,
+    "translations": {
+      "fr": {
+        "text": "Sur quel continent glacé, sans habitants permanents, les manchots empereurs couvent-ils en plein hiver ?",
+        "explanation": "Les mâles couvent l'œuf unique sur leurs pattes pendant deux mois, par -60 °C, sans manger.",
+        "label": "Antarctique",
+        "country": "Antarctique"
+      },
+      "en": {
+        "text": "On which frozen continent, with no permanent inhabitants, do emperor penguins brood in the depths of winter?",
+        "explanation": "The males incubate the single egg on their feet for two months, at -60 °C, without eating.",
+        "label": "Antarctica",
+        "country": "Antarctica"
+      },
+      "es": {
+        "text": "¿En qué continente helado, sin habitantes permanentes, incuban los pingüinos emperador en pleno invierno?",
+        "explanation": "Los machos incuban el único huevo sobre sus patas durante dos meses, a -60 °C, sin comer.",
+        "label": "Antártida",
+        "country": "Antártida"
+      }
+    }
+  },
+  {
+    "sourceRef": "cf8865166ab90412",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 44.1741,
+    "lng": 5.2786,
+    "translations": {
+      "fr": {
+        "text": "Quel sommet provençal au pierrier lunaire, surnommé le « Géant de Provence », est une ascension mythique du Tour de France ?",
+        "explanation": "Le vent y a été mesuré à plus de 300 km/h ; le coureur britannique Tom Simpson y perdit la vie en 1967.",
+        "label": "Mont Ventoux",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which Provençal summit with its moonlike scree, nicknamed the 'Giant of Provence', is a legendary Tour de France climb?",
+        "explanation": "Winds there have been measured at over 300 km/h; British rider Tom Simpson lost his life on it in 1967.",
+        "label": "Mont Ventoux",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué cumbre provenzal de pedregal lunar, apodada el «Gigante de Provenza», es una ascensión mítica del Tour de Francia?",
+        "explanation": "Allí se han medido vientos de más de 300 km/h; el ciclista británico Tom Simpson perdió la vida en ella en 1967.",
+        "label": "Mont Ventoux",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "ab03dd6e9694fe18",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 42.8125,
+    "lng": -1.6458,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de Navarre des coureurs vêtus de blanc et de rouge affrontent-ils les taureaux lâchés dans les rues, chaque juillet ?",
+        "explanation": "Ernest Hemingway, habitué des fêtes de la San Fermín, les rendit mondialement célèbres dans « Le soleil se lève aussi ».",
+        "label": "Pampelune",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "In which Navarrese city do runners dressed in white and red face bulls released into the streets every July?",
+        "explanation": "Ernest Hemingway, a regular at the San Fermín festival, made it world-famous in 'The Sun Also Rises'.",
+        "label": "Pamplona",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿En qué ciudad navarra corredores vestidos de blanco y rojo se enfrentan cada julio a los toros sueltos por las calles?",
+        "explanation": "Ernest Hemingway, asiduo de los Sanfermines, los hizo mundialmente famosos en «Fiesta».",
+        "label": "Pamplona",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "bb2cb7eeabb6945c",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 36.1627,
+    "lng": -86.7816,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du Tennessee, surnommée « Music City », est la capitale mondiale de la musique country ?",
+        "explanation": "Son émission de radio « Grand Ole Opry », lancée en 1925, est la plus ancienne encore diffusée aux États-Unis.",
+        "label": "Nashville",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which Tennessee city, nicknamed 'Music City', is the world capital of country music?",
+        "explanation": "Its radio show 'Grand Ole Opry', launched in 1925, is the longest-running broadcast still on air in the United States.",
+        "label": "Nashville",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Tennessee, apodada «Music City», es la capital mundial de la música country?",
+        "explanation": "Su programa de radio «Grand Ole Opry», lanzado en 1925, es el más antiguo que sigue emitiéndose en Estados Unidos.",
+        "label": "Nashville",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "55e5b227824f057a",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 40.8448,
+    "lng": -73.8648,
+    "translations": {
+      "fr": {
+        "text": "Dans quel arrondissement de New York le hip-hop est-il né en 1973, lors d'une fête d'immeuble animée par DJ Kool Herc ?",
+        "explanation": "Kool Herc eut l'idée de boucler les passages instrumentaux des disques : le « break » qui fit danser les premiers b-boys.",
+        "label": "Le Bronx",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which New York borough was hip-hop born in 1973, at a building party hosted by DJ Kool Herc?",
+        "explanation": "Kool Herc had the idea of looping records' instrumental passages: the 'break' that got the first b-boys dancing.",
+        "label": "The Bronx",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué distrito de Nueva York nació el hip-hop en 1973, en una fiesta de edificio animada por DJ Kool Herc?",
+        "explanation": "Kool Herc tuvo la idea de repetir en bucle los pasajes instrumentales de los discos: el «break» que hizo bailar a los primeros b-boys.",
+        "label": "El Bronx",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "051230c889780d55",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "lat": 30.9189,
+    "lng": -6.8934,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville marocaine, porte du désert, abrite les studios géants où furent tournés « Gladiator » et « Game of Thrones » ?",
+        "explanation": "Ses studios comptent parmi les plus vastes du monde ; des décors de péplums y restent plantés dans le désert.",
+        "label": "Ouarzazate",
+        "country": "Maroc"
+      },
+      "en": {
+        "text": "Which Moroccan city, gateway to the desert, hosts the giant studios where 'Gladiator' and 'Game of Thrones' were filmed?",
+        "explanation": "Its studios are among the largest in the world; epic-film sets still stand planted in the desert.",
+        "label": "Ouarzazate",
+        "country": "Morocco"
+      },
+      "es": {
+        "text": "¿Qué ciudad marroquí, puerta del desierto, alberga los estudios gigantes donde se rodaron «Gladiator» y «Juego de tronos»?",
+        "explanation": "Sus estudios están entre los más vastos del mundo; decorados de superproducciones siguen plantados en el desierto.",
+        "label": "Uarzazat",
+        "country": "Marruecos"
+      }
+    }
+  },
+  {
+    "sourceRef": "e67ef6c00cdc28a0",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 59.437,
+    "lng": 24.7536,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale balte, pionnière de l'État numérique, a vu naître Skype et le vote en ligne ?",
+        "explanation": "Dans ce pays, on peut presque tout faire en ligne — sauf se marier, divorcer et acheter une maison.",
+        "label": "Tallinn",
+        "country": "Estonie"
+      },
+      "en": {
+        "text": "Which Baltic capital, a pioneer of digital government, gave birth to Skype and online voting?",
+        "explanation": "In this country you can do almost everything online — except marry, divorce and buy a house.",
+        "label": "Tallinn",
+        "country": "Estonia"
+      },
+      "es": {
+        "text": "¿Qué capital báltica, pionera del Estado digital, vio nacer Skype y el voto por Internet?",
+        "explanation": "En ese país casi todo puede hacerse en línea, salvo casarse, divorciarse y comprar una casa.",
+        "label": "Tallin",
+        "country": "Estonia"
+      }
+    }
+  },
+  {
+    "sourceRef": "24e3308c64f66bcf",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 71.7069,
+    "lng": -42.6043,
+    "translations": {
+      "fr": {
+        "text": "Quelle île géante de l'Atlantique Nord, recouverte de glace, est un territoire autonome du Danemark ?",
+        "explanation": "Son nom signifie « terre verte » : un coup de marketing d'Erik le Rouge pour attirer des colons vikings.",
+        "label": "Groenland",
+        "country": "Danemark"
+      },
+      "en": {
+        "text": "Which giant ice-covered island in the North Atlantic is an autonomous territory of Denmark?",
+        "explanation": "Its name means 'green land': a marketing ploy by Erik the Red to attract Viking settlers.",
+        "label": "Greenland",
+        "country": "Denmark"
+      },
+      "es": {
+        "text": "¿Qué isla gigante del Atlántico Norte, cubierta de hielo, es un territorio autónomo de Dinamarca?",
+        "explanation": "Su nombre significa «tierra verde»: una jugada de marketing de Erik el Rojo para atraer colonos vikingos.",
+        "label": "Groenlandia",
+        "country": "Dinamarca"
+      }
+    }
+  },
+  {
+    "sourceRef": "c7097eae60d66ec8",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "lat": 49.6116,
+    "lng": 6.1319,
+    "translations": {
+      "fr": {
+        "text": "Quel petit pays, enclavé entre la France, l'Allemagne et la Belgique, partage son nom avec sa capitale ?",
+        "explanation": "Depuis 2020, tous les transports en commun y sont gratuits — une première mondiale à l'échelle d'un pays.",
+        "label": "Luxembourg",
+        "country": "Luxembourg"
+      },
+      "en": {
+        "text": "Which small country, wedged between France, Germany and Belgium, shares its name with its capital?",
+        "explanation": "Since 2020, all public transport there has been free — a world first at the scale of a country.",
+        "label": "Luxembourg",
+        "country": "Luxembourg"
+      },
+      "es": {
+        "text": "¿Qué pequeño país, enclavado entre Francia, Alemania y Bélgica, comparte nombre con su capital?",
+        "explanation": "Desde 2020, todo el transporte público es allí gratuito: una primicia mundial a escala de un país.",
+        "label": "Luxemburgo",
+        "country": "Luxemburgo"
+      }
+    }
+  },
+  {
+    "sourceRef": "100cb812e14bfd13",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 29.6525,
+    "lng": 91.1721,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale du Tibet, perchée à 3 650 m d'altitude, est dominée par le palais du Potala aux mille pièces ?",
+        "explanation": "Le Potala, ancienne résidence des dalaï-lamas, compte 13 étages… mais aucun ascenseur.",
+        "label": "Lhassa",
+        "country": "Chine"
+      },
+      "en": {
+        "text": "Which Tibetan capital, perched at 3,650 m, is dominated by the thousand-room Potala Palace?",
+        "explanation": "The Potala, former residence of the Dalai Lamas, has 13 floors… but no lift.",
+        "label": "Lhasa",
+        "country": "China"
+      },
+      "es": {
+        "text": "¿Qué capital del Tíbet, encaramada a 3.650 m de altitud, está dominada por el palacio de Potala y sus mil salas?",
+        "explanation": "El Potala, antigua residencia de los dalái lamas, tiene 13 pisos… pero ningún ascensor.",
+        "label": "Lhasa",
+        "country": "China"
+      }
+    }
+  },
+  {
+    "sourceRef": "a97b3f9292c12786",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 61.1153,
+    "lng": 10.4662,
+    "translations": {
+      "fr": {
+        "text": "Quel pays scandinave, berceau du ski moderne, a donné au monde le mot « slalom » ?",
+        "explanation": "« Slalom » vient du norvégien « slalåm », la « piste en pente » ; des skis vieux de 4 000 ans y ont été retrouvés dans les tourbières.",
+        "label": "Norvège",
+        "country": "Norvège"
+      },
+      "en": {
+        "text": "Which Scandinavian country, cradle of modern skiing, gave the world the word 'slalom'?",
+        "explanation": "'Slalom' comes from the Norwegian 'slalåm', the 'sloping track'; 4,000-year-old skis have been found in its peat bogs.",
+        "label": "Norway",
+        "country": "Norway"
+      },
+      "es": {
+        "text": "¿Qué país escandinavo, cuna del esquí moderno, dio al mundo la palabra «eslalon»?",
+        "explanation": "«Eslalon» viene del noruego «slalåm», la «pista en pendiente»; en sus turberas se han hallado esquís de 4.000 años.",
+        "label": "Noruega",
+        "country": "Noruega"
+      }
+    }
+  },
+  {
+    "sourceRef": "d6e9843fa9705dc1",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "lat": 47.6162,
+    "lng": 1.517,
+    "translations": {
+      "fr": {
+        "text": "Dans quel pays s'égrènent les châteaux de la Loire, dont Chambord et ses 426 pièces ?",
+        "explanation": "L'escalier à double révolution de Chambord, où deux personnes se voient sans se croiser, est attribué à Léonard de Vinci.",
+        "label": "France",
+        "country": "France"
+      },
+      "en": {
+        "text": "In which country are the Loire castles strung out, including Chambord with its 426 rooms?",
+        "explanation": "Chambord's double-helix staircase, where two people can see each other without ever meeting, is attributed to Leonardo da Vinci.",
+        "label": "France",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En qué país se suceden los castillos del Loira, entre ellos Chambord y sus 426 estancias?",
+        "explanation": "La escalera de doble hélice de Chambord, donde dos personas se ven sin cruzarse, se atribuye a Leonardo da Vinci.",
+        "label": "Francia",
+        "country": "Francia"
+      }
+    }
+  }
+]
