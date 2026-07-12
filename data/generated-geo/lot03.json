@@ -1,0 +1,842 @@
+[
+  {
+    "sourceRef": "7187141ae0aeb808",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "lat": 48.853,
+    "lng": 2.3499,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale européenne un incendie a-t-il ravagé la cathédrale Notre-Dame en avril 2019 ?",
+        "explanation": "La flèche s'est effondrée en direct devant des millions de téléspectateurs ; la cathédrale a rouvert en 2024.",
+        "label": "Paris",
+        "country": "France"
+      },
+      "en": {
+        "text": "In which European capital did a fire ravage Notre-Dame cathedral in April 2019?",
+        "explanation": "The spire collapsed live in front of millions of viewers; the cathedral reopened in 2024.",
+        "label": "Paris",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En qué capital europea un incendio arrasó la catedral de Notre-Dame en abril de 2019?",
+        "explanation": "La aguja se derrumbó en directo ante millones de espectadores; la catedral reabrió en 2024.",
+        "label": "París",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "b9eff41eea48ae54",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "lat": 38.7223,
+    "lng": -9.1393,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale portugaise est célèbre pour ses tramways jaunes et son quartier de l'Alfama ?",
+        "explanation": "Bâtie sur sept collines comme Rome, cette ville fut presque entièrement détruite par un séisme en 1755.",
+        "label": "Lisbonne",
+        "country": "Portugal"
+      },
+      "en": {
+        "text": "Which Portuguese capital is famous for its yellow trams and its Alfama district?",
+        "explanation": "Built on seven hills like Rome, the city was almost entirely destroyed by an earthquake in 1755.",
+        "label": "Lisbon",
+        "country": "Portugal"
+      },
+      "es": {
+        "text": "¿Qué capital portuguesa es famosa por sus tranvías amarillos y su barrio de la Alfama?",
+        "explanation": "Construida sobre siete colinas como Roma, la ciudad quedó casi destruida por un terremoto en 1755.",
+        "label": "Lisboa",
+        "country": "Portugal"
+      }
+    }
+  },
+  {
+    "sourceRef": "3f8b9b3e04b18390",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "lat": 50.8503,
+    "lng": 4.3517,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale belge peut-on admirer l'Atomium et le Manneken-Pis ?",
+        "explanation": "L'Atomium représente un cristal de fer agrandi 165 milliards de fois, construit pour l'Exposition universelle de 1958.",
+        "label": "Bruxelles",
+        "country": "Belgique"
+      },
+      "en": {
+        "text": "In which Belgian capital can you admire the Atomium and the Manneken-Pis?",
+        "explanation": "The Atomium depicts an iron crystal magnified 165 billion times, built for the 1958 World's Fair.",
+        "label": "Brussels",
+        "country": "Belgium"
+      },
+      "es": {
+        "text": "¿En qué capital belga se pueden admirar el Atomium y el Manneken-Pis?",
+        "explanation": "El Atomium representa un cristal de hierro ampliado 165.000 millones de veces, construido para la Exposición Universal de 1958.",
+        "label": "Bruselas",
+        "country": "Bélgica"
+      }
+    }
+  },
+  {
+    "sourceRef": "5fdae5c1d507b51d",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "lat": 45.764,
+    "lng": 4.8357,
+    "translations": {
+      "fr": {
+        "text": "De quelle ville française les frères Lumière, pionniers du cinéma, étaient-ils originaires ?",
+        "explanation": "Leur tout premier film, tourné en 1895, montre simplement la sortie des ouvriers de leur usine.",
+        "label": "Lyon",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which French city were the Lumière brothers, pioneers of cinema, from?",
+        "explanation": "Their very first film, shot in 1895, simply shows workers leaving their factory.",
+        "label": "Lyon",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿De qué ciudad francesa eran originarios los hermanos Lumière, pioneros del cine?",
+        "explanation": "Su primera película, rodada en 1895, muestra simplemente a los obreros saliendo de su fábrica.",
+        "label": "Lyon",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "f6260739499f03d9",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du Massachusetts accueille depuis 1897 le plus ancien marathon annuel du monde ?",
+        "explanation": "Ce marathon se court le « Patriots' Day », un lundi d'avril férié en Nouvelle-Angleterre.",
+        "label": "Boston",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which Massachusetts city has hosted the world's oldest annual marathon since 1897?",
+        "explanation": "The race is run on Patriots' Day, a Monday holiday in April in New England.",
+        "label": "Boston",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Massachusetts acoge desde 1897 el maratón anual más antiguo del mundo?",
+        "explanation": "La carrera se disputa el «Patriots' Day», un lunes festivo de abril en Nueva Inglaterra.",
+        "label": "Boston",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "4d4ec6fe15c7cb3e",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 35.0477,
+    "lng": -90.026,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville du Tennessee se visite Graceland, la demeure d'Elvis Presley ?",
+        "explanation": "Graceland est l'une des maisons privées les plus visitées des États-Unis, avec plus de 500 000 visiteurs par an.",
+        "label": "Memphis",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which Tennessee city can you visit Graceland, Elvis Presley's home?",
+        "explanation": "Graceland is one of the most visited private homes in the United States, with over 500,000 visitors a year.",
+        "label": "Memphis",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Tennessee se visita Graceland, la mansión de Elvis Presley?",
+        "explanation": "Graceland es una de las casas privadas más visitadas de Estados Unidos, con más de 500.000 visitantes al año.",
+        "label": "Memphis",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "b97996e62da59dd2",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 47.8095,
+    "lng": 13.055,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville autrichienne Wolfgang Amadeus Mozart est-il né en 1756 ?",
+        "explanation": "La ville célèbre son enfant prodige jusque dans ses confiseries : les fameuses « Mozartkugeln ».",
+        "label": "Salzbourg",
+        "country": "Autriche"
+      },
+      "en": {
+        "text": "In which Austrian city was Wolfgang Amadeus Mozart born in 1756?",
+        "explanation": "The city celebrates its child prodigy even in its sweets: the famous 'Mozartkugeln'.",
+        "label": "Salzburg",
+        "country": "Austria"
+      },
+      "es": {
+        "text": "¿En qué ciudad austríaca nació Wolfgang Amadeus Mozart en 1756?",
+        "explanation": "La ciudad celebra a su niño prodigio hasta en sus dulces: las famosas «Mozartkugeln».",
+        "label": "Salzburgo",
+        "country": "Austria"
+      }
+    }
+  },
+  {
+    "sourceRef": "580f13f932a6f5b3",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "medium",
+    "lat": 52.2053,
+    "lng": 0.1218,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville universitaire anglaise Isaac Newton étudia-t-il et enseigna-t-il au Trinity College ?",
+        "explanation": "Un pommier planté devant le Trinity College serait un descendant de l'arbre qui inspira sa théorie de la gravitation.",
+        "label": "Cambridge",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which English university city did Isaac Newton study and teach at Trinity College?",
+        "explanation": "An apple tree planted outside Trinity College is said to descend from the tree that inspired his theory of gravitation.",
+        "label": "Cambridge",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué ciudad universitaria inglesa estudió y enseñó Isaac Newton en el Trinity College?",
+        "explanation": "Un manzano plantado ante el Trinity College sería descendiente del árbol que inspiró su teoría de la gravitación.",
+        "label": "Cambridge",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "8fdd21f6d95e9520",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 33.6773,
+    "lng": -106.4754,
+    "translations": {
+      "fr": {
+        "text": "Dans quel État américain eut lieu l'essai « Trinity », première explosion nucléaire de l'histoire, en juillet 1945 ?",
+        "explanation": "La chaleur de l'explosion vitrifia le sable du désert, créant un minéral vert baptisé « trinitite ».",
+        "label": "Nouveau-Mexique",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which US state did the 'Trinity' test, the first nuclear explosion in history, take place in July 1945?",
+        "explanation": "The heat of the blast vitrified the desert sand, creating a green mineral named 'trinitite'.",
+        "label": "New Mexico",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué estado de EE. UU. tuvo lugar la prueba «Trinity», la primera explosión nuclear de la historia, en julio de 1945?",
+        "explanation": "El calor de la explosión vitrificó la arena del desierto, creando un mineral verde llamado «trinitita».",
+        "label": "Nuevo México",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "598d39b8da12c71d",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 32.7503,
+    "lng": 129.8779,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville portuaire japonaise fut la seconde frappée par une bombe atomique, le 9 août 1945 ?",
+        "explanation": "Longtemps seul port du Japon ouvert aux étrangers, la ville commerçait déjà avec les Européens au XVIIe siècle.",
+        "label": "Nagasaki",
+        "country": "Japon"
+      },
+      "en": {
+        "text": "Which Japanese port city was the second struck by an atomic bomb, on 9 August 1945?",
+        "explanation": "For centuries Japan's only port open to foreigners, the city was already trading with Europeans in the 17th century.",
+        "label": "Nagasaki",
+        "country": "Japan"
+      },
+      "es": {
+        "text": "¿Qué ciudad portuaria japonesa fue la segunda golpeada por una bomba atómica, el 9 de agosto de 1945?",
+        "explanation": "Durante siglos único puerto de Japón abierto a los extranjeros, la ciudad ya comerciaba con los europeos en el siglo XVII.",
+        "label": "Nagasaki",
+        "country": "Japón"
+      }
+    }
+  },
+  {
+    "sourceRef": "f1f180094c7e2cde",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 38.1531,
+    "lng": 23.964,
+    "translations": {
+      "fr": {
+        "text": "De quelle plaine grecque un messager serait-il parti en 490 av. J.-C. pour annoncer une victoire à Athènes, donnant son nom à une célèbre course ?",
+        "explanation": "Selon la légende, Philippidès courut environ 40 km d'une traite pour annoncer la victoire… avant de s'effondrer.",
+        "label": "Marathon",
+        "country": "Grèce"
+      },
+      "en": {
+        "text": "From which Greek plain is a messenger said to have run in 490 BC to announce a victory in Athens, giving his route's name to a famous race?",
+        "explanation": "According to legend, Pheidippides ran about 40 km without stopping to announce the victory… before collapsing.",
+        "label": "Marathon",
+        "country": "Greece"
+      },
+      "es": {
+        "text": "¿De qué llanura griega habría partido un mensajero en 490 a. C. para anunciar una victoria en Atenas, dando su nombre a una célebre carrera?",
+        "explanation": "Según la leyenda, Filípides corrió unos 40 km sin parar para anunciar la victoria… antes de desplomarse.",
+        "label": "Maratón",
+        "country": "Grecia"
+      }
+    }
+  },
+  {
+    "sourceRef": "76c5bf3887063b3f",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "easy",
+    "lat": 30.5728,
+    "lng": 104.0668,
+    "translations": {
+      "fr": {
+        "text": "Dans quel pays d'Asie le panda géant, emblème national, vit-il à l'état sauvage ?",
+        "explanation": "Un panda adulte passe jusqu'à 14 heures par jour à manger du bambou, parfois plus de 20 kg quotidiens.",
+        "label": "Chine",
+        "country": "Chine"
+      },
+      "en": {
+        "text": "In which Asian country does the giant panda, a national emblem, live in the wild?",
+        "explanation": "An adult panda spends up to 14 hours a day eating bamboo, sometimes more than 20 kg daily.",
+        "label": "China",
+        "country": "China"
+      },
+      "es": {
+        "text": "¿En qué país de Asia vive en estado salvaje el panda gigante, emblema nacional?",
+        "explanation": "Un panda adulto pasa hasta 14 horas al día comiendo bambú, a veces más de 20 kg diarios.",
+        "label": "China",
+        "country": "China"
+      }
+    }
+  },
+  {
+    "sourceRef": "0a9815c2729e4f65",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": -0.9538,
+    "lng": -90.9656,
+    "translations": {
+      "fr": {
+        "text": "Sur quel archipel équatorien Charles Darwin observa-t-il en 1835 les espèces qui inspirèrent sa théorie de l'évolution ?",
+        "explanation": "Les becs différents des pinsons de chaque île mirent Darwin sur la piste de la sélection naturelle.",
+        "label": "Îles Galápagos",
+        "country": "Équateur"
+      },
+      "en": {
+        "text": "On which Ecuadorian archipelago did Charles Darwin observe, in 1835, the species that inspired his theory of evolution?",
+        "explanation": "The different beaks of the finches on each island put Darwin on the trail of natural selection.",
+        "label": "Galápagos Islands",
+        "country": "Ecuador"
+      },
+      "es": {
+        "text": "¿En qué archipiélago ecuatoriano observó Charles Darwin en 1835 las especies que inspiraron su teoría de la evolución?",
+        "explanation": "Los picos distintos de los pinzones de cada isla pusieron a Darwin tras la pista de la selección natural.",
+        "label": "Islas Galápagos",
+        "country": "Ecuador"
+      }
+    }
+  },
+  {
+    "sourceRef": "873fd258a21939eb",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": 5.9701,
+    "lng": -62.5362,
+    "translations": {
+      "fr": {
+        "text": "Quelle chute d'eau, la plus haute du monde, plonge de près de 1 000 mètres au cœur de la jungle vénézuélienne ?",
+        "explanation": "Elle doit son nom à l'aviateur américain Jimmie Angel, dont l'avion s'écrasa au sommet en 1937.",
+        "label": "Salto Ángel",
+        "country": "Venezuela"
+      },
+      "en": {
+        "text": "Which waterfall, the highest in the world, plunges nearly 1,000 metres in the heart of the Venezuelan jungle?",
+        "explanation": "It is named after American aviator Jimmie Angel, whose plane crash-landed on the summit in 1937.",
+        "label": "Angel Falls",
+        "country": "Venezuela"
+      },
+      "es": {
+        "text": "¿Qué cascada, la más alta del mundo, se precipita casi 1.000 metros en plena selva venezolana?",
+        "explanation": "Debe su nombre al aviador estadounidense Jimmie Angel, cuyo avión se estrelló en la cima en 1937.",
+        "label": "Salto Ángel",
+        "country": "Venezuela"
+      }
+    }
+  },
+  {
+    "sourceRef": "775d4481400f870e",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "lat": 47.322,
+    "lng": 5.0415,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de Bourgogne est mondialement réputée pour sa moutarde ?",
+        "explanation": "Paradoxe : l'essentiel des graines de moutarde utilisées aujourd'hui pour ce condiment vient… du Canada.",
+        "label": "Dijon",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which Burgundy city is world-famous for its mustard?",
+        "explanation": "Paradox: most of the mustard seeds used today for this condiment come… from Canada.",
+        "label": "Dijon",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Borgoña es mundialmente famosa por su mostaza?",
+        "explanation": "Paradoja: la mayor parte de las semillas de mostaza usadas hoy para este condimento viene… de Canadá.",
+        "label": "Dijon",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "60452aa873a43727",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 13.7563,
+    "lng": 100.5018,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale d'Asie du Sud-Est déguste-t-on le pad thaï dans la rue et sur les marchés flottants ?",
+        "explanation": "Le pad thaï fut popularisé dans les années 1940 par le gouvernement, pour économiser le riz après la guerre.",
+        "label": "Bangkok",
+        "country": "Thaïlande"
+      },
+      "en": {
+        "text": "In which Southeast Asian capital do people enjoy pad thai in the streets and on floating markets?",
+        "explanation": "Pad thai was popularised in the 1940s by the government, to save rice after the war.",
+        "label": "Bangkok",
+        "country": "Thailand"
+      },
+      "es": {
+        "text": "¿En qué capital del Sudeste Asiático se degusta el pad thai en la calle y en los mercados flotantes?",
+        "explanation": "El pad thai fue popularizado en los años 40 por el gobierno, para ahorrar arroz tras la guerra.",
+        "label": "Bangkok",
+        "country": "Tailandia"
+      }
+    }
+  },
+  {
+    "sourceRef": "9f9eed1cdb911e2b",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 43.6767,
+    "lng": 4.6278,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de Provence, avec ses arènes romaines, inspira à Van Gogh plus de 300 œuvres en à peine plus d'un an ?",
+        "explanation": "C'est là que Van Gogh peignit « La Chambre » et les « Tournesols », et qu'il partagea un temps une maison jaune avec Gauguin.",
+        "label": "Arles",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which Provençal town, with its Roman arena, inspired more than 300 works by Van Gogh in just over a year?",
+        "explanation": "It is where Van Gogh painted 'The Bedroom' and the 'Sunflowers', and briefly shared a yellow house with Gauguin.",
+        "label": "Arles",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Provenza, con su anfiteatro romano, inspiró a Van Gogh más de 300 obras en poco más de un año?",
+        "explanation": "Allí Van Gogh pintó «El dormitorio» y los «Girasoles», y compartió un tiempo una casa amarilla con Gauguin.",
+        "label": "Arlés",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "10076665783c02fd",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 50.0865,
+    "lng": 14.4114,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale d'Europe centrale le pont Charles, bordé de statues, enjambe-t-il la Vltava ?",
+        "explanation": "Commencé en 1357, le pont aurait été consolidé avec du mortier… additionné d'œufs, selon la légende locale.",
+        "label": "Prague",
+        "country": "Tchéquie"
+      },
+      "en": {
+        "text": "In which Central European capital does the statue-lined Charles Bridge span the Vltava?",
+        "explanation": "Begun in 1357, the bridge is said to have been strengthened with mortar… mixed with eggs, according to local legend.",
+        "label": "Prague",
+        "country": "Czechia"
+      },
+      "es": {
+        "text": "¿En qué capital de Europa Central el puente de Carlos, flanqueado de estatuas, cruza el Moldava?",
+        "explanation": "Iniciado en 1357, el puente se habría reforzado con mortero… mezclado con huevos, según la leyenda local.",
+        "label": "Praga",
+        "country": "Chequia"
+      }
+    }
+  },
+  {
+    "sourceRef": "3aef797493dc1981",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 48.6361,
+    "lng": -1.5115,
+    "translations": {
+      "fr": {
+        "text": "Quelle abbaye normande, perchée sur un îlot rocheux, se retrouve encerclée par la mer aux grandes marées ?",
+        "explanation": "Les marées y sont parmi les plus fortes d'Europe : la mer peut monter, dit-on, « à la vitesse d'un cheval au galop ».",
+        "label": "Mont-Saint-Michel",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which Norman abbey, perched on a rocky islet, becomes surrounded by the sea at high spring tides?",
+        "explanation": "The tides there are among the strongest in Europe: the sea is said to rise 'as fast as a galloping horse'.",
+        "label": "Mont-Saint-Michel",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué abadía normanda, encaramada en un islote rocoso, queda rodeada por el mar durante las grandes mareas?",
+        "explanation": "Sus mareas están entre las más fuertes de Europa: se dice que el mar sube «a la velocidad de un caballo al galope».",
+        "label": "Monte Saint-Michel",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "710bd92ccc8db101",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 44.4952,
+    "lng": 34.1663,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville balnéaire de Crimée Churchill, Roosevelt et Staline se partagèrent-ils l'Europe d'après-guerre, en février 1945 ?",
+        "explanation": "La conférence se tint au palais de Livadia, ancienne résidence d'été des tsars.",
+        "label": "Yalta",
+        "country": "Ukraine"
+      },
+      "en": {
+        "text": "In which Crimean seaside town did Churchill, Roosevelt and Stalin divide up post-war Europe in February 1945?",
+        "explanation": "The conference was held at the Livadia Palace, the former summer residence of the tsars.",
+        "label": "Yalta",
+        "country": "Ukraine"
+      },
+      "es": {
+        "text": "¿En qué ciudad costera de Crimea se repartieron Churchill, Roosevelt y Stalin la Europa de posguerra, en febrero de 1945?",
+        "explanation": "La conferencia se celebró en el palacio de Livadia, antigua residencia de verano de los zares.",
+        "label": "Yalta",
+        "country": "Ucrania"
+      }
+    }
+  },
+  {
+    "sourceRef": "1f0658e54a7a6cdf",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 50.7156,
+    "lng": 4.3986,
+    "translations": {
+      "fr": {
+        "text": "Près de quelle localité belge Napoléon subit-il sa défaite finale, le 18 juin 1815 ?",
+        "explanation": "Une butte artificielle surmontée d'un lion de fonte, érigée par les Néerlandais, domine aujourd'hui le champ de bataille.",
+        "label": "Waterloo",
+        "country": "Belgique"
+      },
+      "en": {
+        "text": "Near which Belgian town did Napoleon suffer his final defeat, on 18 June 1815?",
+        "explanation": "An artificial mound topped with a cast-iron lion, raised by the Dutch, now overlooks the battlefield.",
+        "label": "Waterloo",
+        "country": "Belgium"
+      },
+      "es": {
+        "text": "¿Cerca de qué localidad belga sufrió Napoleón su derrota definitiva, el 18 de junio de 1815?",
+        "explanation": "Un montículo artificial coronado por un león de hierro fundido, erigido por los neerlandeses, domina hoy el campo de batalla.",
+        "label": "Waterloo",
+        "country": "Bélgica"
+      }
+    }
+  },
+  {
+    "sourceRef": "6ca71d879ed03ee6",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 45.0494,
+    "lng": 1.1768,
+    "translations": {
+      "fr": {
+        "text": "Quelle grotte de Dordogne, découverte par quatre adolescents en 1940, abrite des peintures vieilles d'environ 18 000 ans ?",
+        "explanation": "Fermée au public dès 1963 pour protéger les peintures, elle se visite aujourd'hui via des répliques fidèles.",
+        "label": "Lascaux",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which cave in the Dordogne, discovered by four teenagers in 1940, holds paintings around 18,000 years old?",
+        "explanation": "Closed to the public in 1963 to protect the paintings, it can now be visited through faithful replicas.",
+        "label": "Lascaux",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué cueva de la Dordoña, descubierta por cuatro adolescentes en 1940, alberga pinturas de unos 18.000 años?",
+        "explanation": "Cerrada al público desde 1963 para proteger las pinturas, hoy se visita a través de réplicas fieles.",
+        "label": "Lascaux",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "0fb1adcaba4dd8bc",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "easy",
+    "lat": 64.1466,
+    "lng": -21.9426,
+    "translations": {
+      "fr": {
+        "text": "Quel pays insulaire de l'Atlantique Nord est surnommé la « terre de glace et de feu » pour ses glaciers et ses volcans ?",
+        "explanation": "Le pays chauffe la plupart de ses maisons grâce à la géothermie, l'énergie de ses volcans.",
+        "label": "Islande",
+        "country": "Islande"
+      },
+      "en": {
+        "text": "Which North Atlantic island country is nicknamed the 'land of ice and fire' for its glaciers and volcanoes?",
+        "explanation": "The country heats most of its homes with geothermal energy, the power of its volcanoes.",
+        "label": "Iceland",
+        "country": "Iceland"
+      },
+      "es": {
+        "text": "¿Qué país insular del Atlántico Norte es apodado la «tierra de hielo y fuego» por sus glaciares y volcanes?",
+        "explanation": "El país calienta la mayoría de sus casas con energía geotérmica, la fuerza de sus volcanes.",
+        "label": "Islandia",
+        "country": "Islandia"
+      }
+    }
+  },
+  {
+    "sourceRef": "d3b2a3b6843b4545",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 47.9556,
+    "lng": 0.1967,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville française se dispute chaque année une mythique course automobile d'endurance de 24 heures ?",
+        "explanation": "Créée en 1923, l'épreuve imposait autrefois aux pilotes de traverser la piste en courant pour rejoindre leur voiture.",
+        "label": "Le Mans",
+        "country": "France"
+      },
+      "en": {
+        "text": "In which French city is a legendary 24-hour endurance motor race held every year?",
+        "explanation": "Created in 1923, the race once required drivers to sprint across the track to reach their cars.",
+        "label": "Le Mans",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En qué ciudad francesa se disputa cada año una mítica carrera automovilística de resistencia de 24 horas?",
+        "explanation": "Creada en 1923, la prueba obligaba antaño a los pilotos a cruzar la pista corriendo para llegar a sus coches.",
+        "label": "Le Mans",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "080eef1832a57da8",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 47.674,
+    "lng": -122.1215,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de l'État de Washington Microsoft a-t-il installé son siège mondial ?",
+        "explanation": "Le campus de Microsoft y est si vaste qu'il possède son propre réseau de navettes, surnommées les « Connector ».",
+        "label": "Redmond",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which Washington State city has Microsoft set up its world headquarters?",
+        "explanation": "Microsoft's campus there is so vast it has its own shuttle network, nicknamed the 'Connector'.",
+        "label": "Redmond",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué ciudad del estado de Washington instaló Microsoft su sede mundial?",
+        "explanation": "El campus de Microsoft es tan vasto que tiene su propia red de lanzaderas, apodadas «Connector».",
+        "label": "Redmond",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "c83e7a3554702ce3",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 49.4482,
+    "lng": -2.5895,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle île anglo-normande Victor Hugo, en exil, acheva-t-il « Les Misérables » ?",
+        "explanation": "Depuis sa maison de Hauteville House, Hugo écrivait debout, face à la mer… et à la côte française qu'il apercevait au loin.",
+        "label": "Guernesey",
+        "country": "Îles Anglo-Normandes"
+      },
+      "en": {
+        "text": "On which Channel Island did Victor Hugo, in exile, complete 'Les Misérables'?",
+        "explanation": "From his home at Hauteville House, Hugo wrote standing up, facing the sea… and the French coast he could glimpse in the distance.",
+        "label": "Guernsey",
+        "country": "Channel Islands"
+      },
+      "es": {
+        "text": "¿En qué isla anglonormanda terminó Victor Hugo, en el exilio, «Los miserables»?",
+        "explanation": "Desde su casa de Hauteville House, Hugo escribía de pie, frente al mar… y a la costa francesa que divisaba a lo lejos.",
+        "label": "Guernsey",
+        "country": "Islas del Canal"
+      }
+    }
+  },
+  {
+    "sourceRef": "3ebe853ce2d017de",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 50.7374,
+    "lng": 7.0982,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville allemande, au bord du Rhin, Ludwig van Beethoven est-il né en 1770 ?",
+        "explanation": "Sa maison natale est aujourd'hui un musée qui conserve ses cornets acoustiques, témoins de sa surdité croissante.",
+        "label": "Bonn",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which German city on the Rhine was Ludwig van Beethoven born in 1770?",
+        "explanation": "His birthplace is now a museum preserving his ear trumpets, witnesses to his growing deafness.",
+        "label": "Bonn",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué ciudad alemana a orillas del Rin nació Ludwig van Beethoven en 1770?",
+        "explanation": "Su casa natal es hoy un museo que conserva sus trompetillas acústicas, testigos de su sordera creciente.",
+        "label": "Bonn",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "b0a3f7d94f34318b",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 45.9237,
+    "lng": 6.8694,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle station des Alpes françaises, au pied du mont Blanc, eurent lieu les premiers Jeux olympiques d'hiver, en 1924 ?",
+        "explanation": "À l'époque, l'événement s'appelait « Semaine internationale des sports d'hiver » ; il ne fut baptisé JO qu'après coup.",
+        "label": "Chamonix",
+        "country": "France"
+      },
+      "en": {
+        "text": "In which French Alpine resort, at the foot of Mont Blanc, were the first Winter Olympic Games held in 1924?",
+        "explanation": "At the time, the event was called the 'International Winter Sports Week'; it was only named Olympics retroactively.",
+        "label": "Chamonix",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En qué estación de los Alpes franceses, al pie del Mont Blanc, se celebraron los primeros Juegos Olímpicos de Invierno, en 1924?",
+        "explanation": "Entonces el evento se llamaba «Semana Internacional de Deportes de Invierno»; solo después se le reconoció como JJ. OO.",
+        "label": "Chamonix",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "5cbfd97ec0563250",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "easy",
+    "lat": 36.1069,
+    "lng": -112.1129,
+    "translations": {
+      "fr": {
+        "text": "Quelle immense gorge de l'Arizona, creusée par le fleuve Colorado, attire des millions de visiteurs chaque année ?",
+        "explanation": "Par endroits profond de plus de 1 800 m, il expose près de deux milliards d'années d'histoire de la Terre.",
+        "label": "Grand Canyon",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which immense Arizona gorge, carved by the Colorado River, draws millions of visitors every year?",
+        "explanation": "More than 1,800 m deep in places, it exposes nearly two billion years of Earth's history.",
+        "label": "Grand Canyon",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué inmensa garganta de Arizona, excavada por el río Colorado, atrae a millones de visitantes cada año?",
+        "explanation": "Con más de 1.800 m de profundidad en algunos puntos, expone casi dos mil millones de años de historia de la Tierra.",
+        "label": "Gran Cañón",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "afd46590f068c204",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "medium",
+    "lat": 51.4769,
+    "lng": -0.0005,
+    "translations": {
+      "fr": {
+        "text": "Dans quel quartier de l'est de Londres l'Observatoire royal définit-il le méridien zéro du globe ?",
+        "explanation": "On peut s'y prendre en photo un pied dans l'hémisphère Est, l'autre dans l'hémisphère Ouest.",
+        "label": "Greenwich",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which east London district does the Royal Observatory define the world's prime meridian?",
+        "explanation": "Visitors can be photographed with one foot in the Eastern Hemisphere and the other in the Western.",
+        "label": "Greenwich",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué barrio del este de Londres el Observatorio Real define el meridiano cero del planeta?",
+        "explanation": "Allí uno puede fotografiarse con un pie en el hemisferio oriental y el otro en el occidental.",
+        "label": "Greenwich",
+        "country": "Reino Unido"
+      }
+    }
+  }
+]
