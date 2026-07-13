@@ -11,8 +11,8 @@ entre langues).
 | Élément | Rôle |
 |---|---|
 | `scripts/lib/qhash.js` | Calcule le `sourceRef` = SHA-256 (16 car.) **stable de la version FR** (QCM : texte + options ; Géo : texte). Source de vérité unique du dédoublonnage. |
-| `data/generated-qcm/lotNN.json` | Lots de ~40 QCM. |
-| `data/generated-geo/lotNN.json` | Lots de ~30 questions géo « anecdote ». |
+| `data/generated-qcm/lotNN.json` | Lots de QCM (40 pour lot01-10, **80** à partir de lot11). |
+| `data/generated-geo/lotNN.json` | Lots de questions géo « anecdote » (30 pour lot01-08, **50** à partir de lot09). |
 | `scripts/stamp-lots.js` (`npm run stamp:lots`) | Injecte/rafraîchit le `sourceRef` dans chaque lot et **détecte les doublons stricts FR**. |
 | `scripts/seed-generated.js` (`npm run seed:generated`) | Insertion **idempotente** : valide la forme, saute les `sourceRef` déjà en base, crée sinon la `Question` + ses 3 `QuestionTranslation`. |
 | `scripts/check-questions.js` (`npm run check:questions`) | Contrôle qualité : répartition, matrice thème × difficulté, repérage des trous, alertes cohérence. |
@@ -32,37 +32,40 @@ entre langues).
 
 ## 2. État actuel (vagues en cours)
 
-- **Questions générées et insérées : 686** (10 lots QCM = 464 + 8 lots Géo = 222).
-- **Total en base : 1137** questions (les ~451 préexistantes sont conservées).
-- **Traductions équilibrées** : `fr = en = es = 1137`.
-- **Difficultés équilibrées** : easy = **442**, medium = 422, hard = 273 (≈ 39/37/24 %).
-- **Type géo** : 26 → **267** (toutes les nouvelles géo sont « anecdote » et thématisées).
-- **Thèmes faibles renforcés** (lots 08-10 + géo 06-08) : litterature 42→71, art 46→69,
-  gastronomie 46→74, tech 58→73.
-- **Correction** : la géo `b6966ed6c0054551` (pyramides de Gizeh) demandait une capitale
-  mais avait pour label « Gizeh » → corrigée en **Le Caire** (30.0444, 31.2357) dans le
-  lot ET en base (script ponctuel `scripts/fix-cairo-label.js`, le hash géo ne dépendant
-  que du texte FR, le sourceRef est inchangé).
+- **Questions générées et insérées : 1206** (14 lots QCM = **765** + 12 lots Géo = **441**).
+- **Total en base : 1657** questions (les ~451 préexistantes — dont 26 géo legacy et
+  10 « pixel » — sont conservées).
+- **Traductions équilibrées** : `fr = en = es = 1657`.
+- **Difficultés (base complète)** : easy = **528**, medium = 681, hard = 448.
+  Sur les 1206 *générées* seules : medium = 522, hard = 406, easy = 278.
+- **Type géo** : 26 → **467** (toutes les nouvelles géo sont « anecdote » et thématisées).
+- **Session turbo (lots QCM 11-14 + Géo 09-12)** : **+520 questions** (320 QCM à 80/lot,
+  200 Géo à 50/lot), avec priorité aux thèmes faibles — general 24→64, cinema 39→82,
+  tech 39→83, musique 47→96, art 56→96.
+- **Zéro doublon** : `stamp:lots` confirme 0 collision de hash FR sur les 1206 lots ;
+  `seed:generated` relancé → *0 créées, 1206 ignorées* (idempotence vérifiée).
+- **Correction historique** : la géo `b6966ed6c0054551` (pyramides de Gizeh) demandait une
+  capitale mais avait pour label « Gizeh » → corrigée en **Le Caire** (30.0444, 31.2357).
 
-Lots produits à ce jour : `generated-qcm/lot01-10.json`, `generated-geo/lot01-08.json`.
+Lots produits à ce jour : `generated-qcm/lot01-14.json`, `generated-geo/lot01-12.json`.
 
 Répartition thème × difficulté (source `check:questions`, base complète) :
 
 ```
 theme             easy  medium    hard     total
-art                 13      28      28        69
-cinema              40      21      15        76
-gastronomie         27      26      21        74
-general             48      20      16        84
+art                 19      47      43       109
+cinema              45      44      30       119
+gastronomie         36      55      33       124
+general             60      41      23       124
 geo                  0      26       0        26   ← thème legacy des 26 anciennes géo (medium)
-geographie          62      47      21       130
-histoire            45      64      34       143
-litterature         17      30      24        71
-musique             37      25      21        83
-nature              50      50      18       118
-science             43      35      33       111
-sport               26      30      23        79
-tech                34      20      19        73
+geographie          70      68      36       174
+histoire            49      82      55       186
+litterature         22      51      43       116
+musique             47      46      39       132
+nature              61      71      31       163
+science             46      56      53       155
+sport               31      49      32       112
+tech                42      45      30       117
 ```
 
 Note : le thème `geo` (easy/hard à 0) correspond aux 26 **anciennes** questions
@@ -86,15 +89,17 @@ au `sourceRef`.
 
 ## 4. Priorités restantes pour les prochaines vagues
 
-Pour atteindre la cible (~1500–2000 nouvelles ; on en est à 686), continuer :
-- thèmes désormais bien équilibrés (69-143 chacun hors legacy `geo`) — répartir
-  uniformément, avec un léger plus pour **art**, **litterature**, **tech**, **cinema** ;
-- garder l'équilibre easy/medium/hard atteint (≈ 39/37/24 %) ;
-- reprendre à **lot11** (QCM) et **lot09** (Géo) ; relire les lots existants avant
+Pour poursuivre au-delà des 1206 générées, continuer :
+- thèmes désormais tous ≥ 82 hors legacy `geo` (base : 109-186 chacun) — répartir
+  uniformément ; les plus légers en *générés* restent **general** (64), **cinema** (82),
+  **tech** (83) et **sport** (95) ;
+- rééquilibrer un peu vers **easy** (les lots récents penchent medium/hard) ;
+- reprendre à **lot15** (QCM) et **lot13** (Géo) ; relire les lots existants avant
   rédaction pour éviter tout doublon sémantique (sujets ET lieux-réponses déjà utilisés —
-  attention notamment aux réutilisations pays/ville : ex. Kingston puis Jamaïque).
+  attention aux réutilisations pays/ville, ex. Kingston puis Jamaïque). L'inventaire des
+  réponses/labels déjà pris se reconstruit en 1 commande node sur `data/generated-*`.
 
 ## 5. Vérification au redémarrage
 
 Au boot du serveur, le log doit afficher une hausse cohérente :
-`🌍 Traductions par langue : fr=561, en=561, es=561` (et croissant à chaque vague).
+`🌍 Traductions par langue : fr=1657, en=1657, es=1657` (et croissant à chaque vague).
