@@ -1,0 +1,3122 @@
+[
+  {
+    "sourceRef": "f1888169649717ec",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel insecte fabrique de la soie en s'enroulant dans un cocon avant de devenir papillon ?",
+        "options": [
+          "Le ver à soie",
+          "L'araignée",
+          "La fourmi",
+          "La libellule"
+        ],
+        "explanation": "Un seul cocon peut fournir un fil ininterrompu de près d'un kilomètre, dévidé avec soin dans l'eau chaude."
+      },
+      "en": {
+        "text": "Which insect makes silk by wrapping itself in a cocoon before turning into a moth?",
+        "options": [
+          "The silkworm",
+          "The spider",
+          "The ant",
+          "The dragonfly"
+        ],
+        "explanation": "A single cocoon can yield an unbroken thread nearly a kilometre long, carefully unwound in warm water."
+      },
+      "es": {
+        "text": "¿Qué insecto fabrica seda enrollándose en un capullo antes de convertirse en mariposa?",
+        "options": [
+          "El gusano de seda",
+          "La araña",
+          "La hormiga",
+          "La libélula"
+        ],
+        "explanation": "Un solo capullo puede dar un hilo continuo de casi un kilómetro, devanado con cuidado en agua caliente."
+      }
+    }
+  },
+  {
+    "sourceRef": "f1f81f740801c6e3",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel animal, surnommé « vaisseau du désert », stocke des réserves de graisse dans sa bosse ?",
+        "options": [
+          "Le lama",
+          "Le chameau",
+          "Le buffle",
+          "L'âne"
+        ],
+        "explanation": "Contrairement à la croyance, sa bosse ne contient pas d'eau mais de la graisse, qu'il transforme peu à peu en énergie."
+      },
+      "en": {
+        "text": "Which animal, nicknamed the 'ship of the desert', stores fat reserves in its hump?",
+        "options": [
+          "The llama",
+          "The camel",
+          "The buffalo",
+          "The donkey"
+        ],
+        "explanation": "Contrary to belief, its hump holds not water but fat, which it slowly turns into energy."
+      },
+      "es": {
+        "text": "¿Qué animal, apodado 'barco del desierto', almacena reservas de grasa en su joroba?",
+        "options": [
+          "La llama",
+          "El camello",
+          "El búfalo",
+          "El burro"
+        ],
+        "explanation": "Al contrario de lo que se cree, su joroba no contiene agua sino grasa, que convierte poco a poco en energía."
+      }
+    }
+  },
+  {
+    "sourceRef": "002aa6c20e35368c",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel étrange mammifère à bec de canard pond des œufs, alors qu'il allaite ses petits ?",
+        "options": [
+          "Le kangourou",
+          "Le tatou",
+          "L'ornithorynque",
+          "Le paresseux"
+        ],
+        "explanation": "Quand les premiers spécimens arrivèrent en Europe, les savants crurent à un canular fabriqué de morceaux d'animaux cousus ensemble."
+      },
+      "en": {
+        "text": "Which strange duck-billed mammal lays eggs, yet nurses its young with milk?",
+        "options": [
+          "The kangaroo",
+          "The armadillo",
+          "The platypus",
+          "The sloth"
+        ],
+        "explanation": "When the first specimens reached Europe, scholars suspected a hoax stitched together from bits of different animals."
+      },
+      "es": {
+        "text": "¿Qué extraño mamífero con pico de pato pone huevos, aunque amamanta a sus crías?",
+        "options": [
+          "El canguro",
+          "El armadillo",
+          "El ornitorrinco",
+          "El perezoso"
+        ],
+        "explanation": "Cuando los primeros ejemplares llegaron a Europa, los sabios sospecharon un engaño cosido con trozos de distintos animales."
+      }
+    }
+  },
+  {
+    "sourceRef": "00e19578f8b35e15",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel reptile change la couleur de sa peau et fait bouger ses deux yeux indépendamment ?",
+        "options": [
+          "L'iguane",
+          "Le gecko",
+          "Le varan",
+          "Le caméléon"
+        ],
+        "explanation": "Sa langue, plus longue que son corps, jaillit en une fraction de seconde pour attraper un insecte à distance."
+      },
+      "en": {
+        "text": "Which reptile changes the colour of its skin and moves its two eyes independently?",
+        "options": [
+          "The iguana",
+          "The gecko",
+          "The monitor lizard",
+          "The chameleon"
+        ],
+        "explanation": "Its tongue, longer than its body, shoots out in a fraction of a second to snatch an insect from afar."
+      },
+      "es": {
+        "text": "¿Qué reptil cambia el color de su piel y mueve sus dos ojos de forma independiente?",
+        "options": [
+          "La iguana",
+          "El gecko",
+          "El varano",
+          "El camaleón"
+        ],
+        "explanation": "Su lengua, más larga que su cuerpo, sale disparada en una fracción de segundo para atrapar un insecto a distancia."
+      }
+    }
+  },
+  {
+    "sourceRef": "2f9338c8ff24bfd3",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un animal qui se nourrit exclusivement de viande ?",
+        "options": [
+          "Un carnivore",
+          "Un herbivore",
+          "Un frugivore",
+          "Un granivore"
+        ],
+        "explanation": "Beaucoup de ces animaux possèdent de longues canines pointues, idéales pour saisir et déchirer leur proie."
+      },
+      "en": {
+        "text": "What do you call an animal that feeds exclusively on meat?",
+        "options": [
+          "A carnivore",
+          "A herbivore",
+          "A frugivore",
+          "A granivore"
+        ],
+        "explanation": "Many such animals have long, pointed canine teeth, ideal for seizing and tearing their prey."
+      },
+      "es": {
+        "text": "¿Cómo se llama un animal que se alimenta exclusivamente de carne?",
+        "options": [
+          "Un carnívoro",
+          "Un herbívoro",
+          "Un frugívoro",
+          "Un granívoro"
+        ],
+        "explanation": "Muchos de estos animales tienen largos colmillos puntiagudos, ideales para agarrar y desgarrar a su presa."
+      }
+    }
+  },
+  {
+    "sourceRef": "5995b71e0c8856b2",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un animal qui mange à la fois des plantes et de la viande, comme l'ours ou l'homme ?",
+        "options": [
+          "Un carnivore",
+          "Un omnivore",
+          "Un herbivore",
+          "Un insectivore"
+        ],
+        "explanation": "Cette souplesse alimentaire est un atout : elle permet de survivre là où une seule ressource viendrait à manquer."
+      },
+      "en": {
+        "text": "What do you call an animal that eats both plants and meat, like the bear or humans?",
+        "options": [
+          "A carnivore",
+          "An omnivore",
+          "A herbivore",
+          "An insectivore"
+        ],
+        "explanation": "This dietary flexibility is an advantage: it allows survival where a single food source might run short."
+      },
+      "es": {
+        "text": "¿Cómo se llama un animal que come tanto plantas como carne, como el oso o el ser humano?",
+        "options": [
+          "Un carnívoro",
+          "Un omnívoro",
+          "Un herbívoro",
+          "Un insectívoro"
+        ],
+        "explanation": "Esta flexibilidad alimentaria es una ventaja: permite sobrevivir donde un solo recurso podría escasear."
+      }
+    }
+  },
+  {
+    "sourceRef": "7d3b08c8e21c9012",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel oiseau nocturne peut tourner la tête de plus de deux cents degrés pour regarder derrière lui ?",
+        "options": [
+          "Le faucon",
+          "Le corbeau",
+          "La chouette",
+          "Le perroquet"
+        ],
+        "explanation": "Ses yeux sont si gros qu'ils ne peuvent pas bouger dans leurs orbites : pour compenser, elle fait pivoter tout son cou."
+      },
+      "en": {
+        "text": "Which nocturnal bird can turn its head more than two hundred degrees to look behind it?",
+        "options": [
+          "The falcon",
+          "The crow",
+          "The owl",
+          "The parrot"
+        ],
+        "explanation": "Its eyes are so large they cannot move in their sockets: to make up for it, it swivels its whole neck."
+      },
+      "es": {
+        "text": "¿Qué ave nocturna puede girar la cabeza más de doscientos grados para mirar detrás de sí?",
+        "options": [
+          "El halcón",
+          "El cuervo",
+          "El búho",
+          "El loro"
+        ],
+        "explanation": "Sus ojos son tan grandes que no pueden moverse en las órbitas: para compensarlo, gira todo el cuello."
+      }
+    }
+  },
+  {
+    "sourceRef": "cba6700514657c67",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel gros mammifère africain passe ses journées à demi immergé dans l'eau pour protéger sa peau du soleil ?",
+        "options": [
+          "Le rhinocéros",
+          "Le buffle",
+          "Le tapir",
+          "L'hippopotame"
+        ],
+        "explanation": "Sa peau sécrète une sorte de « sueur » rougeâtre, longtemps prise pour du sang, qui agit comme une crème solaire naturelle."
+      },
+      "en": {
+        "text": "Which large African mammal spends its days half-submerged in water to shield its skin from the sun?",
+        "options": [
+          "The rhinoceros",
+          "The buffalo",
+          "The tapir",
+          "The hippopotamus"
+        ],
+        "explanation": "Its skin secretes a reddish kind of 'sweat', long mistaken for blood, that works like a natural sunscreen."
+      },
+      "es": {
+        "text": "¿Qué gran mamífero africano pasa el día medio sumergido en el agua para proteger su piel del sol?",
+        "options": [
+          "El rinoceronte",
+          "El búfalo",
+          "El tapir",
+          "El hipopótamo"
+        ],
+        "explanation": "Su piel segrega una especie de 'sudor' rojizo, mucho tiempo confundido con sangre, que actúa como protector solar natural."
+      }
+    }
+  },
+  {
+    "sourceRef": "4875447307ce3c1f",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel animal marin en forme de cloche, dépourvu de cerveau et d'os, peut piquer avec ses filaments ?",
+        "options": [
+          "La méduse",
+          "L'oursin",
+          "L'éponge",
+          "L'anémone"
+        ],
+        "explanation": "Certaines espèces sont presque immortelles : elles peuvent, en cas de danger, revenir à un stade juvénile et recommencer leur vie."
+      },
+      "en": {
+        "text": "Which bell-shaped sea creature, with no brain and no bones, can sting with its filaments?",
+        "options": [
+          "The jellyfish",
+          "The sea urchin",
+          "The sponge",
+          "The anemone"
+        ],
+        "explanation": "Some species are almost immortal: in danger, they can revert to a juvenile stage and start their life over."
+      },
+      "es": {
+        "text": "¿Qué animal marino en forma de campana, sin cerebro ni huesos, puede picar con sus filamentos?",
+        "options": [
+          "La medusa",
+          "El erizo de mar",
+          "La esponja",
+          "La anémona"
+        ],
+        "explanation": "Algunas especies son casi inmortales: ante el peligro, pueden volver a un estado juvenil y empezar su vida de nuevo."
+      }
+    }
+  },
+  {
+    "sourceRef": "f2f1d8a0f910327a",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel oiseau de proie est l'animal le plus rapide du monde lorsqu'il fond en piqué sur sa cible ?",
+        "options": [
+          "L'aigle royal",
+          "Le faucon pèlerin",
+          "Le martinet",
+          "Le vautour"
+        ],
+        "explanation": "En plongée, il dépasse les trois cents kilomètres à l'heure ; ses narines sont conçues pour ne pas être écrasées par le vent."
+      },
+      "en": {
+        "text": "Which bird of prey is the fastest animal in the world when it dives onto its target?",
+        "options": [
+          "The golden eagle",
+          "The peregrine falcon",
+          "The swift",
+          "The vulture"
+        ],
+        "explanation": "In a dive it tops three hundred kilometres per hour; its nostrils are shaped so the rushing air does not crush them."
+      },
+      "es": {
+        "text": "¿Qué ave rapaz es el animal más veloz del mundo cuando se lanza en picado sobre su objetivo?",
+        "options": [
+          "El águila real",
+          "El halcón peregrino",
+          "El vencejo",
+          "El buitre"
+        ],
+        "explanation": "En picado supera los trescientos kilómetros por hora; sus fosas nasales están hechas para que el viento no las aplaste."
+      }
+    }
+  },
+  {
+    "sourceRef": "adef8ab2065931ac",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel minuscule oiseau bat des ailes si vite qu'il peut voler sur place et même à reculons ?",
+        "options": [
+          "Le moineau",
+          "La mésange",
+          "Le colibri",
+          "Le rouge-gorge"
+        ],
+        "explanation": "Son cœur bat des centaines de fois par minute ; la nuit, il ralentit tout son corps pour économiser une énergie folle."
+      },
+      "en": {
+        "text": "Which tiny bird beats its wings so fast it can hover in place and even fly backwards?",
+        "options": [
+          "The sparrow",
+          "The tit",
+          "The hummingbird",
+          "The robin"
+        ],
+        "explanation": "Its heart beats hundreds of times a minute; at night it slows its whole body to save its enormous energy."
+      },
+      "es": {
+        "text": "¿Qué diminuta ave bate las alas tan rápido que puede volar en el sitio e incluso hacia atrás?",
+        "options": [
+          "El gorrión",
+          "El herrerillo",
+          "El colibrí",
+          "El petirrojo"
+        ],
+        "explanation": "Su corazón late cientos de veces por minuto; de noche ralentiza todo su cuerpo para ahorrar una energía enorme."
+      }
+    }
+  },
+  {
+    "sourceRef": "91f9f64b3c748ff8",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel conifère de montagne, chose rare chez les résineux, perd toutes ses aiguilles à l'automne ?",
+        "options": [
+          "Le sapin",
+          "L'épicéa",
+          "Le pin",
+          "Le mélèze"
+        ],
+        "explanation": "En octobre, ses aiguilles virent à l'or avant de tomber, teintant des versants entiers de montagne d'une lumière cuivrée."
+      },
+      "en": {
+        "text": "Which mountain conifer, rare among evergreens, loses all its needles in autumn?",
+        "options": [
+          "The fir",
+          "The spruce",
+          "The pine",
+          "The larch"
+        ],
+        "explanation": "In October its needles turn gold before falling, tinting whole mountainsides with a coppery light."
+      },
+      "es": {
+        "text": "¿Qué conífera de montaña, algo raro entre las resinosas, pierde todas sus agujas en otoño?",
+        "options": [
+          "El abeto",
+          "La pícea",
+          "El pino",
+          "El alerce"
+        ],
+        "explanation": "En octubre sus agujas se vuelven doradas antes de caer, tiñendo laderas enteras con una luz cobriza."
+      }
+    }
+  },
+  {
+    "sourceRef": "b1f220c69451a18b",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Grâce à quel organe les poissons prélèvent-ils l'oxygène dissous dans l'eau pour respirer ?",
+        "options": [
+          "Les branchies",
+          "Les poumons",
+          "Les nageoires",
+          "Les écailles"
+        ],
+        "explanation": "L'eau entre par la bouche et ressort en frôlant ces fines lamelles très irriguées, où le sang capte l'oxygène au passage."
+      },
+      "en": {
+        "text": "With which organ do fish take the oxygen dissolved in water to breathe?",
+        "options": [
+          "The gills",
+          "The lungs",
+          "The fins",
+          "The scales"
+        ],
+        "explanation": "Water enters through the mouth and flows out past these thin, blood-rich plates, where the blood grabs the oxygen on the way."
+      },
+      "es": {
+        "text": "¿Con qué órgano toman los peces el oxígeno disuelto en el agua para respirar?",
+        "options": [
+          "Las branquias",
+          "Los pulmones",
+          "Las aletas",
+          "Las escamas"
+        ],
+        "explanation": "El agua entra por la boca y sale rozando estas finas láminas muy irrigadas, donde la sangre capta el oxígeno al pasar."
+      }
+    }
+  },
+  {
+    "sourceRef": "475028945902abd3",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on le petit du cheval ?",
+        "options": [
+          "Le veau",
+          "Le poulain",
+          "L'agneau",
+          "Le chevreau"
+        ],
+        "explanation": "Il se dresse et court dès ses premières heures de vie, un réflexe hérité des ancêtres sauvages exposés aux prédateurs."
+      },
+      "en": {
+        "text": "What do you call a baby horse?",
+        "options": [
+          "A calf",
+          "A foal",
+          "A lamb",
+          "A kid"
+        ],
+        "explanation": "It stands and runs within its first hours of life, a reflex inherited from wild ancestors exposed to predators."
+      },
+      "es": {
+        "text": "¿Cómo se llama la cría del caballo?",
+        "options": [
+          "El ternero",
+          "El potro",
+          "El cordero",
+          "El cabrito"
+        ],
+        "explanation": "Se pone de pie y corre en sus primeras horas de vida, un reflejo heredado de los ancestros salvajes expuestos a depredadores."
+      }
+    }
+  },
+  {
+    "sourceRef": "91e343f298307efa",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus grand des grands singes, vivant dans les forêts d'Afrique centrale ?",
+        "options": [
+          "Le chimpanzé",
+          "Le gibbon",
+          "Le gorille",
+          "Le macaque"
+        ],
+        "explanation": "Malgré sa force impressionnante, il est surtout végétarien et paisible, se nourrissant de feuilles, de tiges et de fruits."
+      },
+      "en": {
+        "text": "Which is the largest of the great apes, living in the forests of Central Africa?",
+        "options": [
+          "The chimpanzee",
+          "The gibbon",
+          "The gorilla",
+          "The macaque"
+        ],
+        "explanation": "Despite its impressive strength, it is mostly vegetarian and peaceful, feeding on leaves, stems and fruit."
+      },
+      "es": {
+        "text": "¿Cuál es el mayor de los grandes simios, que vive en las selvas de África central?",
+        "options": [
+          "El chimpancé",
+          "El gibón",
+          "El gorila",
+          "El macaco"
+        ],
+        "explanation": "Pese a su fuerza impresionante, es sobre todo vegetariano y pacífico, alimentándose de hojas, tallos y frutas."
+      }
+    }
+  },
+  {
+    "sourceRef": "800c37b02d8c1102",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel grand rapace des Andes, à la vaste envergure, plane des heures sans battre des ailes ?",
+        "options": [
+          "L'albatros",
+          "Le pélican",
+          "Le flamant",
+          "Le condor"
+        ],
+        "explanation": "Il exploite les courants d'air chaud pour s'élever en spirale, économisant ses forces sur des centaines de kilomètres."
+      },
+      "en": {
+        "text": "Which great Andean bird of prey, with a huge wingspan, glides for hours without flapping?",
+        "options": [
+          "The albatross",
+          "The pelican",
+          "The flamingo",
+          "The condor"
+        ],
+        "explanation": "It rides rising columns of warm air to spiral upward, saving its strength over hundreds of kilometres."
+      },
+      "es": {
+        "text": "¿Qué gran ave rapaz de los Andes, de amplia envergadura, planea horas sin batir las alas?",
+        "options": [
+          "El albatros",
+          "El pelícano",
+          "El flamenco",
+          "El cóndor"
+        ],
+        "explanation": "Aprovecha las corrientes de aire cálido para elevarse en espiral, ahorrando fuerzas a lo largo de cientos de kilómetros."
+      }
+    }
+  },
+  {
+    "sourceRef": "10549dd37bb7958a",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle grande fleur jaune tourne sa corolle pour suivre le soleil au fil de la journée ?",
+        "options": [
+          "Le tournesol",
+          "La tulipe",
+          "Le coquelicot",
+          "La marguerite"
+        ],
+        "explanation": "Ce mouvement, appelé héliotropisme, s'observe surtout chez les jeunes plants ; adultes, ils finissent tournés vers l'est."
+      },
+      "en": {
+        "text": "Which large yellow flower turns its head to follow the sun through the day?",
+        "options": [
+          "The sunflower",
+          "The tulip",
+          "The poppy",
+          "The daisy"
+        ],
+        "explanation": "This movement, called heliotropism, is seen mostly in young plants; grown, they end up facing east."
+      },
+      "es": {
+        "text": "¿Qué gran flor amarilla gira su corola para seguir al sol a lo largo del día?",
+        "options": [
+          "El girasol",
+          "El tulipán",
+          "La amapola",
+          "La margarita"
+        ],
+        "explanation": "Este movimiento, llamado heliotropismo, se observa sobre todo en plantas jóvenes; ya adultas, acaban mirando al este."
+      }
+    }
+  },
+  {
+    "sourceRef": "ba56384ff35423ba",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel arbre méditerranéen à l'écorce épaisse et souple fournit la matière des bouchons de liège ?",
+        "options": [
+          "L'olivier",
+          "Le chêne-liège",
+          "Le cyprès",
+          "L'eucalyptus"
+        ],
+        "explanation": "On récolte son écorce à la main tous les neuf ans environ, sans abattre l'arbre, qui reforme peu à peu sa précieuse enveloppe."
+      },
+      "en": {
+        "text": "Which Mediterranean tree with thick, springy bark provides the material for cork stoppers?",
+        "options": [
+          "The olive tree",
+          "The cork oak",
+          "The cypress",
+          "The eucalyptus"
+        ],
+        "explanation": "Its bark is stripped by hand about every nine years, without felling the tree, which slowly regrows its precious layer."
+      },
+      "es": {
+        "text": "¿Qué árbol mediterráneo de corteza gruesa y flexible proporciona la materia de los tapones de corcho?",
+        "options": [
+          "El olivo",
+          "El alcornoque",
+          "El ciprés",
+          "El eucalipto"
+        ],
+        "explanation": "Su corteza se recoge a mano cada nueve años aproximadamente, sin talar el árbol, que rehace poco a poco su preciosa capa."
+      }
+    }
+  },
+  {
+    "sourceRef": "07c22c5f656e6674",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel savant anglais formula les trois lois du mouvement et la loi de la gravitation universelle ?",
+        "options": [
+          "Galilée",
+          "Johannes Kepler",
+          "Isaac Newton",
+          "Nicolas Copernic"
+        ],
+        "explanation": "Il partagea la découverte du calcul infinitésimal avec Leibniz, ce qui déclencha entre eux une célèbre et âpre querelle."
+      },
+      "en": {
+        "text": "Which English scholar formulated the three laws of motion and the law of universal gravitation?",
+        "options": [
+          "Galileo",
+          "Johannes Kepler",
+          "Isaac Newton",
+          "Nicolaus Copernicus"
+        ],
+        "explanation": "He shared the discovery of calculus with Leibniz, which set off a famous and bitter quarrel between them."
+      },
+      "es": {
+        "text": "¿Qué sabio inglés formuló las tres leyes del movimiento y la ley de la gravitación universal?",
+        "options": [
+          "Galileo",
+          "Johannes Kepler",
+          "Isaac Newton",
+          "Nicolás Copérnico"
+        ],
+        "explanation": "Compartió el descubrimiento del cálculo infinitesimal con Leibniz, lo que desató entre ellos una célebre y agria disputa."
+      }
+    }
+  },
+  {
+    "sourceRef": "c10a155cb49e731a",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel astronome polonais proposa que la Terre tourne autour du Soleil, et non l'inverse ?",
+        "options": [
+          "Ptolémée",
+          "Galilée",
+          "Tycho Brahe",
+          "Nicolas Copernic"
+        ],
+        "explanation": "Prudent, il ne fit publier son livre révolutionnaire qu'à la toute fin de sa vie, l'aurait-il reçu, dit-on, sur son lit de mort."
+      },
+      "en": {
+        "text": "Which Polish astronomer proposed that the Earth orbits the Sun, rather than the other way round?",
+        "options": [
+          "Ptolemy",
+          "Galileo",
+          "Tycho Brahe",
+          "Nicolaus Copernicus"
+        ],
+        "explanation": "Cautious, he only had his revolutionary book published at the very end of his life, reportedly receiving it on his deathbed."
+      },
+      "es": {
+        "text": "¿Qué astrónomo polaco propuso que la Tierra gira en torno al Sol, y no al revés?",
+        "options": [
+          "Ptolomeo",
+          "Galileo",
+          "Tycho Brahe",
+          "Nicolás Copérnico"
+        ],
+        "explanation": "Prudente, solo hizo publicar su libro revolucionario al final de su vida, recibiéndolo, según se cuenta, en su lecho de muerte."
+      }
+    }
+  },
+  {
+    "sourceRef": "e2349b0c78fc3398",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel astronome italien perfectionna la lunette et découvrit les quatre grosses lunes de Jupiter ?",
+        "options": [
+          "Galilée",
+          "Isaac Newton",
+          "Johannes Kepler",
+          "Edmond Halley"
+        ],
+        "explanation": "Condamné pour avoir soutenu que la Terre bouge, il aurait murmuré, dit la légende : « Et pourtant, elle tourne. »"
+      },
+      "en": {
+        "text": "Which Italian astronomer improved the telescope and discovered the four large moons of Jupiter?",
+        "options": [
+          "Galileo",
+          "Isaac Newton",
+          "Johannes Kepler",
+          "Edmond Halley"
+        ],
+        "explanation": "Condemned for holding that the Earth moves, he is said to have muttered: 'And yet it moves.'"
+      },
+      "es": {
+        "text": "¿Qué astrónomo italiano perfeccionó el telescopio y descubrió las cuatro grandes lunas de Júpiter?",
+        "options": [
+          "Galileo",
+          "Isaac Newton",
+          "Johannes Kepler",
+          "Edmond Halley"
+        ],
+        "explanation": "Condenado por sostener que la Tierra se mueve, habría murmurado, según la leyenda: 'Y sin embargo, se mueve.'"
+      }
+    }
+  },
+  {
+    "sourceRef": "9bab4f65089ffe03",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle force invisible attire les objets vers le sol et les fait tomber ?",
+        "options": [
+          "Le magnétisme",
+          "La gravité",
+          "L'inertie",
+          "La friction"
+        ],
+        "explanation": "Sur la Lune, elle est six fois plus faible que sur Terre : c'est pourquoi les astronautes y avançaient par grands bonds."
+      },
+      "en": {
+        "text": "Which invisible force pulls objects towards the ground and makes them fall?",
+        "options": [
+          "Magnetism",
+          "Gravity",
+          "Inertia",
+          "Friction"
+        ],
+        "explanation": "On the Moon it is six times weaker than on Earth: that is why astronauts moved there in great bounds."
+      },
+      "es": {
+        "text": "¿Qué fuerza invisible atrae los objetos hacia el suelo y los hace caer?",
+        "options": [
+          "El magnetismo",
+          "La gravedad",
+          "La inercia",
+          "La fricción"
+        ],
+        "explanation": "En la Luna es seis veces más débil que en la Tierra: por eso los astronautas avanzaban allí a grandes saltos."
+      }
+    }
+  },
+  {
+    "sourceRef": "3f66179a4d3c2601",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel état de la matière n'a ni forme ni volume propres et occupe tout l'espace disponible ?",
+        "options": [
+          "Le solide",
+          "Le liquide",
+          "Le gaz",
+          "Le cristal"
+        ],
+        "explanation": "Comprimé, il se laisse réduire fortement, car ses particules, très espacées, ont beaucoup de vide à combler entre elles."
+      },
+      "en": {
+        "text": "Which state of matter has neither its own shape nor volume, filling all the space available?",
+        "options": [
+          "Solid",
+          "Liquid",
+          "Gas",
+          "Crystal"
+        ],
+        "explanation": "Under pressure it can be squeezed a great deal, because its widely spaced particles have much empty space to close up."
+      },
+      "es": {
+        "text": "¿Qué estado de la materia no tiene forma ni volumen propios y ocupa todo el espacio disponible?",
+        "options": [
+          "El sólido",
+          "El líquido",
+          "El gas",
+          "El cristal"
+        ],
+        "explanation": "Comprimido, se puede reducir mucho, pues sus partículas, muy separadas, tienen mucho vacío que llenar entre sí."
+      }
+    }
+  },
+  {
+    "sourceRef": "6b832e9ffff8c211",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel quatrième état de la matière, gaz ionisé, compose les étoiles et éclaire les tubes néon ?",
+        "options": [
+          "Le solide",
+          "Le liquide",
+          "Le cristal",
+          "Le plasma"
+        ],
+        "explanation": "C'est en réalité l'état le plus répandu de la matière visible dans l'univers, car les étoiles en sont entièrement faites."
+      },
+      "en": {
+        "text": "Which fourth state of matter, an ionised gas, makes up the stars and lights up neon tubes?",
+        "options": [
+          "Solid",
+          "Liquid",
+          "Crystal",
+          "Plasma"
+        ],
+        "explanation": "It is in fact the most common state of visible matter in the universe, since the stars are entirely made of it."
+      },
+      "es": {
+        "text": "¿Qué cuarto estado de la materia, un gas ionizado, compone las estrellas e ilumina los tubos de neón?",
+        "options": [
+          "El sólido",
+          "El líquido",
+          "El cristal",
+          "El plasma"
+        ],
+        "explanation": "Es en realidad el estado más común de la materia visible del universo, pues las estrellas están hechas enteramente de él."
+      }
+    }
+  },
+  {
+    "sourceRef": "806106a784a33edb",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel organe, en forme de haricot et présent par deux, filtre le sang et produit l'urine ?",
+        "options": [
+          "Le rein",
+          "L'estomac",
+          "Le poumon",
+          "La rate"
+        ],
+        "explanation": "En une seule journée, la paire filtre l'équivalent d'environ cent quatre-vingts litres de liquide, dont la quasi-totalité est réabsorbée."
+      },
+      "en": {
+        "text": "Which bean-shaped organ, present in pairs, filters the blood and produces urine?",
+        "options": [
+          "The kidney",
+          "The stomach",
+          "The lung",
+          "The spleen"
+        ],
+        "explanation": "In a single day, the pair filters about one hundred and eighty litres of fluid, nearly all of which is reabsorbed."
+      },
+      "es": {
+        "text": "¿Qué órgano, con forma de judía y presente por pares, filtra la sangre y produce la orina?",
+        "options": [
+          "El riñón",
+          "El estómago",
+          "El pulmón",
+          "El bazo"
+        ],
+        "explanation": "En un solo día, el par filtra unos ciento ochenta litros de líquido, casi todo el cual se reabsorbe."
+      }
+    }
+  },
+  {
+    "sourceRef": "56443d9a74808647",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument mesure la pression de l'air et aide à prévoir le beau ou le mauvais temps ?",
+        "options": [
+          "L'hygromètre",
+          "Le baromètre",
+          "L'anémomètre",
+          "Le sismographe"
+        ],
+        "explanation": "Une chute rapide de la pression annonce souvent l'arrivée d'une tempête, ce que les marins guettaient anxieusement autrefois."
+      },
+      "en": {
+        "text": "Which instrument measures air pressure and helps forecast fair or foul weather?",
+        "options": [
+          "The hygrometer",
+          "The barometer",
+          "The anemometer",
+          "The seismograph"
+        ],
+        "explanation": "A rapid drop in pressure often heralds a storm, something sailors of old watched for anxiously."
+      },
+      "es": {
+        "text": "¿Qué instrumento mide la presión del aire y ayuda a prever el buen o mal tiempo?",
+        "options": [
+          "El higrómetro",
+          "El barómetro",
+          "El anemómetro",
+          "El sismógrafo"
+        ],
+        "explanation": "Una caída rápida de la presión suele anunciar la llegada de una tormenta, algo que los marineros de antaño vigilaban con inquietud."
+      }
+    }
+  },
+  {
+    "sourceRef": "ad33f25116192b2a",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle particule chargée négativement gravite autour du noyau de l'atome ?",
+        "options": [
+          "Le proton",
+          "Le neutron",
+          "L'électron",
+          "Le photon"
+        ],
+        "explanation": "C'est le déplacement de ces particules dans un fil de métal qui constitue le courant électrique de nos maisons."
+      },
+      "en": {
+        "text": "Which negatively charged particle orbits the nucleus of an atom?",
+        "options": [
+          "The proton",
+          "The neutron",
+          "The electron",
+          "The photon"
+        ],
+        "explanation": "It is the movement of these particles along a metal wire that makes up the electric current in our homes."
+      },
+      "es": {
+        "text": "¿Qué partícula con carga negativa gira alrededor del núcleo del átomo?",
+        "options": [
+          "El protón",
+          "El neutrón",
+          "El electrón",
+          "El fotón"
+        ],
+        "explanation": "Es el desplazamiento de estas partículas por un hilo de metal lo que constituye la corriente eléctrica de nuestras casas."
+      }
+    }
+  },
+  {
+    "sourceRef": "5c91acdc9a8b29ec",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle particule du noyau atomique ne porte aucune charge électrique ?",
+        "options": [
+          "L'électron",
+          "L'ion",
+          "Le proton",
+          "Le neutron"
+        ],
+        "explanation": "Sa découverte, plus tardive que celle de ses voisins, ouvrit la voie à la maîtrise de l'énergie nucléaire."
+      },
+      "en": {
+        "text": "Which particle in the atomic nucleus carries no electric charge?",
+        "options": [
+          "The electron",
+          "The ion",
+          "The proton",
+          "The neutron"
+        ],
+        "explanation": "Its discovery, later than that of its neighbours, opened the way to harnessing nuclear energy."
+      },
+      "es": {
+        "text": "¿Qué partícula del núcleo atómico no lleva ninguna carga eléctrica?",
+        "options": [
+          "El electrón",
+          "El ion",
+          "El protón",
+          "El neutrón"
+        ],
+        "explanation": "Su descubrimiento, más tardío que el de sus vecinos, abrió el camino al dominio de la energía nuclear."
+      }
+    }
+  },
+  {
+    "sourceRef": "1d4c617758f75a17",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle est l'unité de mesure de la force dans le système international ?",
+        "options": [
+          "Le newton",
+          "Le joule",
+          "Le watt",
+          "Le pascal"
+        ],
+        "explanation": "Elle porte le nom du savant qui découvrit la gravitation ; il faut environ un de ces unités pour tenir une pomme dans la main."
+      },
+      "en": {
+        "text": "What is the unit of force in the international system?",
+        "options": [
+          "The newton",
+          "The joule",
+          "The watt",
+          "The pascal"
+        ],
+        "explanation": "It is named after the scholar who uncovered gravitation; it takes about one of these units to hold an apple in your hand."
+      },
+      "es": {
+        "text": "¿Cuál es la unidad de medida de la fuerza en el sistema internacional?",
+        "options": [
+          "El newton",
+          "El julio",
+          "El vatio",
+          "El pascal"
+        ],
+        "explanation": "Lleva el nombre del sabio que descubrió la gravitación; hace falta cerca de una de estas unidades para sostener una manzana en la mano."
+      }
+    }
+  },
+  {
+    "sourceRef": "df7029df232e3e7d",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle unité du système international mesure l'énergie et le travail ?",
+        "options": [
+          "Le newton",
+          "Le joule",
+          "Le volt",
+          "Le hertz"
+        ],
+        "explanation": "Elle honore un brasseur anglais passionné de physique, qui montra le lien entre la chaleur et le mouvement."
+      },
+      "en": {
+        "text": "Which unit of the international system measures energy and work?",
+        "options": [
+          "The newton",
+          "The joule",
+          "The volt",
+          "The hertz"
+        ],
+        "explanation": "It honours an English brewer keen on physics, who showed the link between heat and motion."
+      },
+      "es": {
+        "text": "¿Qué unidad del sistema internacional mide la energía y el trabajo?",
+        "options": [
+          "El newton",
+          "El julio",
+          "El voltio",
+          "El hercio"
+        ],
+        "explanation": "Rinde homenaje a un cervecero inglés apasionado de la física, que mostró el vínculo entre el calor y el movimiento."
+      }
+    }
+  },
+  {
+    "sourceRef": "d8efe605b2f7217f",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle unité mesure la puissance, c'est-à-dire l'énergie consommée par seconde ?",
+        "options": [
+          "L'ampère",
+          "Le volt",
+          "Le watt",
+          "Le newton"
+        ],
+        "explanation": "Elle porte le nom de l'ingénieur qui perfectionna la machine à vapeur ; on la lit sur toutes nos ampoules et nos appareils."
+      },
+      "en": {
+        "text": "Which unit measures power, that is the energy used per second?",
+        "options": [
+          "The ampere",
+          "The volt",
+          "The watt",
+          "The newton"
+        ],
+        "explanation": "It is named after the engineer who improved the steam engine; you read it on every light bulb and appliance."
+      },
+      "es": {
+        "text": "¿Qué unidad mide la potencia, es decir la energía consumida por segundo?",
+        "options": [
+          "El amperio",
+          "El voltio",
+          "El vatio",
+          "El newton"
+        ],
+        "explanation": "Lleva el nombre del ingeniero que perfeccionó la máquina de vapor; se lee en todas nuestras bombillas y aparatos."
+      }
+    }
+  },
+  {
+    "sourceRef": "913ee9b75ef233ac",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel physicien néo-zélandais, en « cassant » l'atome, est considéré comme le père de la physique nucléaire ?",
+        "options": [
+          "Niels Bohr",
+          "J.J. Thomson",
+          "Marie Curie",
+          "Ernest Rutherford"
+        ],
+        "explanation": "En bombardant une fine feuille d'or, il comprit que l'atome est presque vide, avec un minuscule noyau concentrant sa masse."
+      },
+      "en": {
+        "text": "Which New Zealand physicist, by 'splitting' the atom, is considered the father of nuclear physics?",
+        "options": [
+          "Niels Bohr",
+          "J.J. Thomson",
+          "Marie Curie",
+          "Ernest Rutherford"
+        ],
+        "explanation": "By bombarding a thin gold foil, he realised the atom is mostly empty, with a tiny nucleus holding its mass."
+      },
+      "es": {
+        "text": "¿Qué físico neozelandés, al 'romper' el átomo, es considerado el padre de la física nuclear?",
+        "options": [
+          "Niels Bohr",
+          "J.J. Thomson",
+          "Marie Curie",
+          "Ernest Rutherford"
+        ],
+        "explanation": "Al bombardear una fina lámina de oro, comprendió que el átomo está casi vacío, con un minúsculo núcleo que concentra su masa."
+      }
+    }
+  },
+  {
+    "sourceRef": "75a7bb715f885d0a",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle scientifique découvrit le radium et fut la première personne à recevoir deux prix Nobel ?",
+        "options": [
+          "Marie Curie",
+          "Rosalind Franklin",
+          "Lise Meitner",
+          "Dorothy Hodgkin"
+        ],
+        "explanation": "Ses carnets de laboratoire sont encore si radioactifs qu'ils sont conservés dans des coffres plombés, à manipuler avec précaution."
+      },
+      "en": {
+        "text": "Which scientist discovered radium and was the first person to receive two Nobel Prizes?",
+        "options": [
+          "Marie Curie",
+          "Rosalind Franklin",
+          "Lise Meitner",
+          "Dorothy Hodgkin"
+        ],
+        "explanation": "Her lab notebooks are still so radioactive that they are kept in lead-lined boxes, to be handled with care."
+      },
+      "es": {
+        "text": "¿Qué científica descubrió el radio y fue la primera persona en recibir dos premios Nobel?",
+        "options": [
+          "Marie Curie",
+          "Rosalind Franklin",
+          "Lise Meitner",
+          "Dorothy Hodgkin"
+        ],
+        "explanation": "Sus cuadernos de laboratorio siguen tan radiactivos que se guardan en cajas plomadas, para manejarse con cuidado."
+      }
+    }
+  },
+  {
+    "sourceRef": "58028165f48bdfd8",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment nomme-t-on le passage d'un liquide à l'état de vapeur sous l'effet de la chaleur ?",
+        "options": [
+          "La condensation",
+          "L'évaporation",
+          "La fusion",
+          "La solidification"
+        ],
+        "explanation": "C'est ce phénomène qui, à l'échelle de la planète, soulève l'eau des océans pour former les nuages puis la pluie."
+      },
+      "en": {
+        "text": "What do you call the change of a liquid into vapour under the effect of heat?",
+        "options": [
+          "Condensation",
+          "Evaporation",
+          "Melting",
+          "Freezing"
+        ],
+        "explanation": "It is this process that, on a planetary scale, lifts water from the oceans to form clouds and then rain."
+      },
+      "es": {
+        "text": "¿Cómo se llama el paso de un líquido al estado de vapor por efecto del calor?",
+        "options": [
+          "La condensación",
+          "La evaporación",
+          "La fusión",
+          "La solidificación"
+        ],
+        "explanation": "Es este fenómeno el que, a escala planetaria, levanta el agua de los océanos para formar las nubes y luego la lluvia."
+      }
+    }
+  },
+  {
+    "sourceRef": "f726d1ad1070774e",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment nomme-t-on le passage direct d'un solide à l'état gazeux, sans passer par le liquide ?",
+        "options": [
+          "La fusion",
+          "L'ébullition",
+          "La sublimation",
+          "La condensation"
+        ],
+        "explanation": "La glace carbonique en offre l'exemple : elle fume et disparaît sans laisser de flaque, produisant un épais brouillard de spectacle."
+      },
+      "en": {
+        "text": "What do you call the direct change of a solid into gas, without passing through the liquid state?",
+        "options": [
+          "Melting",
+          "Boiling",
+          "Sublimation",
+          "Condensation"
+        ],
+        "explanation": "Dry ice is a good example: it smokes and vanishes without leaving a puddle, producing the thick fog used in shows."
+      },
+      "es": {
+        "text": "¿Cómo se llama el paso directo de un sólido al estado gaseoso, sin pasar por el líquido?",
+        "options": [
+          "La fusión",
+          "La ebullición",
+          "La sublimación",
+          "La condensación"
+        ],
+        "explanation": "El hielo seco es un buen ejemplo: humea y desaparece sin dejar charco, produciendo la espesa niebla de los espectáculos."
+      }
+    }
+  },
+  {
+    "sourceRef": "610d7985bdebf0bf",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel médecin de la Grèce antique est considéré comme le père de la médecine occidentale ?",
+        "options": [
+          "Pythagore",
+          "Galien",
+          "Aristote",
+          "Hippocrate"
+        ],
+        "explanation": "Le serment que prêtent encore aujourd'hui les nouveaux médecins porte son nom, symbole d'une éthique vieille de deux mille ans."
+      },
+      "en": {
+        "text": "Which physician of ancient Greece is regarded as the father of Western medicine?",
+        "options": [
+          "Pythagoras",
+          "Galen",
+          "Aristotle",
+          "Hippocrates"
+        ],
+        "explanation": "The oath still taken by new doctors today bears his name, a symbol of ethics two thousand years old."
+      },
+      "es": {
+        "text": "¿Qué médico de la antigua Grecia es considerado el padre de la medicina occidental?",
+        "options": [
+          "Pitágoras",
+          "Galeno",
+          "Aristóteles",
+          "Hipócrates"
+        ],
+        "explanation": "El juramento que aún prestan hoy los nuevos médicos lleva su nombre, símbolo de una ética de dos mil años."
+      }
+    }
+  },
+  {
+    "sourceRef": "dc0fa947f8fa47e5",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien de joueurs compte une équipe de volley-ball sur le terrain ?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "11"
+        ],
+        "explanation": "Les joueurs tournent d'une position à chaque fois qu'ils reprennent le service, un ballet réglé au millimètre."
+      },
+      "en": {
+        "text": "How many players make up a volleyball team on the court?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "11"
+        ],
+        "explanation": "The players rotate one position each time they win back the serve, a ballet timed to the millimetre."
+      },
+      "es": {
+        "text": "¿Cuántos jugadores tiene un equipo de voleibol en la pista?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "11"
+        ],
+        "explanation": "Los jugadores rotan una posición cada vez que recuperan el saque, un ballet medido al milímetro."
+      }
+    }
+  },
+  {
+    "sourceRef": "1cc5484377c9eddd",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport marque-t-on un « touchdown » en portant le ballon dans la zone adverse ?",
+        "options": [
+          "Le rugby",
+          "Le football américain",
+          "Le base-ball",
+          "Le hockey"
+        ],
+        "explanation": "Le ballon, ovale et pointu, est parfois surnommé « le cochon de cuir » car il fut jadis fabriqué avec une vessie de porc."
+      },
+      "en": {
+        "text": "In which sport do you score a 'touchdown' by carrying the ball into the opponent's zone?",
+        "options": [
+          "Rugby",
+          "American football",
+          "Baseball",
+          "Hockey"
+        ],
+        "explanation": "The pointed, oval ball is sometimes nicknamed the 'pigskin', as it was once made from a pig's bladder."
+      },
+      "es": {
+        "text": "¿En qué deporte se anota un 'touchdown' llevando el balón a la zona rival?",
+        "options": [
+          "El rugby",
+          "El fútbol americano",
+          "El béisbol",
+          "El hockey"
+        ],
+        "explanation": "El balón, ovalado y puntiagudo, se apoda a veces 'piel de cerdo', pues antaño se hacía con una vejiga de cerdo."
+      }
+    }
+  },
+  {
+    "sourceRef": "07e69d22c6a7f5e4",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel sport oppose deux équipes qui se renvoient un ballon par-dessus un filet, pieds nus dans le sable ?",
+        "options": [
+          "Le handball",
+          "Le water-polo",
+          "Le beach-volley",
+          "Le tennis"
+        ],
+        "explanation": "Devenu discipline olympique en 1996, il se joue à deux contre deux, sous le soleil et souvent en musique."
+      },
+      "en": {
+        "text": "Which sport pits two teams sending a ball over a net, barefoot in the sand?",
+        "options": [
+          "Handball",
+          "Water polo",
+          "Beach volleyball",
+          "Tennis"
+        ],
+        "explanation": "An Olympic sport since 1996, it is played two against two, under the sun and often to music."
+      },
+      "es": {
+        "text": "¿Qué deporte enfrenta a dos equipos que se pasan un balón por encima de una red, descalzos en la arena?",
+        "options": [
+          "El balonmano",
+          "El waterpolo",
+          "El vóley playa",
+          "El tenis"
+        ],
+        "explanation": "Deporte olímpico desde 1996, se juega dos contra dos, bajo el sol y a menudo con música."
+      }
+    }
+  },
+  {
+    "sourceRef": "965a1e0630793f62",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport de combat japonais cherche-t-on à projeter l'adversaire au sol grâce à des prises ?",
+        "options": [
+          "Le karaté",
+          "L'escrime",
+          "La boxe",
+          "Le judo"
+        ],
+        "explanation": "Son fondateur voulait une « voie de la souplesse » : utiliser la force de l'autre plutôt que de s'y opposer de front."
+      },
+      "en": {
+        "text": "In which Japanese combat sport do you try to throw your opponent to the ground with holds?",
+        "options": [
+          "Karate",
+          "Fencing",
+          "Boxing",
+          "Judo"
+        ],
+        "explanation": "Its founder wanted a 'gentle way': using the other's strength rather than meeting it head-on."
+      },
+      "es": {
+        "text": "¿En qué deporte de combate japonés se busca proyectar al adversario al suelo mediante llaves?",
+        "options": [
+          "El kárate",
+          "La esgrima",
+          "El boxeo",
+          "El judo"
+        ],
+        "explanation": "Su fundador quería una 'vía de la flexibilidad': usar la fuerza del otro en vez de oponerse de frente."
+      }
+    }
+  },
+  {
+    "sourceRef": "c649f18432cb26de",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel art martial d'origine coréenne, désormais olympique, met l'accent sur les coups de pied sautés et rapides ?",
+        "options": [
+          "Le taekwondo",
+          "Le judo",
+          "L'aïkido",
+          "Le kung-fu"
+        ],
+        "explanation": "Son nom signifie mot à mot « la voie du pied et du poing », résumant tout un art de frapper avec le corps entier."
+      },
+      "en": {
+        "text": "Which Korean martial art, now Olympic, stresses fast, jumping kicks?",
+        "options": [
+          "Taekwondo",
+          "Judo",
+          "Aikido",
+          "Kung fu"
+        ],
+        "explanation": "Its name means, word for word, 'the way of the foot and fist', summing up an art of striking with the whole body."
+      },
+      "es": {
+        "text": "¿Qué arte marcial de origen coreano, ya olímpico, hace hincapié en las patadas saltadas y veloces?",
+        "options": [
+          "El taekwondo",
+          "El judo",
+          "El aikido",
+          "El kung-fu"
+        ],
+        "explanation": "Su nombre significa, palabra por palabra, 'la vía del pie y del puño', resumiendo un arte de golpear con todo el cuerpo."
+      }
+    }
+  },
+  {
+    "sourceRef": "5b7e1a5ec421bd73",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport utilise-t-on tour à tour un fleuret, une épée ou un sabre ?",
+        "options": [
+          "Le tir à l'arc",
+          "L'escrime",
+          "Le javelot",
+          "Le tir sportif"
+        ],
+        "explanation": "Chaque arme a ses règles : au fleuret, seul le tronc compte, tandis qu'au sabre, la touche vaut sur tout le haut du corps."
+      },
+      "en": {
+        "text": "In which sport do you use, in turn, a foil, an épée or a sabre?",
+        "options": [
+          "Archery",
+          "Fencing",
+          "Javelin",
+          "Target shooting"
+        ],
+        "explanation": "Each weapon has its rules: with the foil only the torso counts, while with the sabre a hit lands on the whole upper body."
+      },
+      "es": {
+        "text": "¿En qué deporte se usa por turnos un florete, una espada o un sable?",
+        "options": [
+          "El tiro con arco",
+          "La esgrima",
+          "La jabalina",
+          "El tiro deportivo"
+        ],
+        "explanation": "Cada arma tiene sus reglas: en florete solo cuenta el torso, mientras que en sable el toque vale en toda la parte superior del cuerpo."
+      }
+    }
+  },
+  {
+    "sourceRef": "2d5fd25fa8de820b",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel tournoi du Grand Chelem de tennis se dispute sur la terre battue rouge de Paris ?",
+        "options": [
+          "Wimbledon",
+          "L'US Open",
+          "Roland-Garros",
+          "L'Open d'Australie"
+        ],
+        "explanation": "La terre battue, lente et glissante, use les joueurs sur de longs échanges et donne lieu aux plus interminables des matchs."
+      },
+      "en": {
+        "text": "Which tennis Grand Slam tournament is played on the red clay of Paris?",
+        "options": [
+          "Wimbledon",
+          "The US Open",
+          "Roland-Garros",
+          "The Australian Open"
+        ],
+        "explanation": "Clay, slow and slippery, wears players down over long rallies and produces the most endless of matches."
+      },
+      "es": {
+        "text": "¿Qué torneo de Grand Slam de tenis se disputa sobre la tierra batida roja de París?",
+        "options": [
+          "Wimbledon",
+          "El US Open",
+          "Roland Garros",
+          "El Abierto de Australia"
+        ],
+        "explanation": "La tierra batida, lenta y resbaladiza, desgasta a los jugadores en largos peloteos y da lugar a los partidos más interminables."
+      }
+    }
+  },
+  {
+    "sourceRef": "22be5732161e7e23",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Dans un match de tennis en trois manches gagnantes, combien de sets faut-il remporter pour gagner ?",
+        "options": [
+          "4",
+          "3",
+          "1",
+          "2"
+        ],
+        "explanation": "Les grands tournois masculins se jouent parfois en cinq manches, ce qui peut allonger un match sur plusieurs heures."
+      },
+      "en": {
+        "text": "In a best-of-three tennis match, how many sets must you win to take the match?",
+        "options": [
+          "4",
+          "3",
+          "1",
+          "2"
+        ],
+        "explanation": "The major men's tournaments are sometimes played best-of-five, which can stretch a match over several hours."
+      },
+      "es": {
+        "text": "En un partido de tenis al mejor de tres, ¿cuántos sets hay que ganar para llevarse el partido?",
+        "options": [
+          "4",
+          "3",
+          "1",
+          "2"
+        ],
+        "explanation": "Los grandes torneos masculinos se juegan a veces al mejor de cinco, lo que puede alargar un partido varias horas."
+      }
+    }
+  },
+  {
+    "sourceRef": "af659d9c6dfbdef2",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel maillot distingue, sur le Tour de France, le meilleur grimpeur de la course ?",
+        "options": [
+          "Le maillot à pois",
+          "Le maillot jaune",
+          "Le maillot vert",
+          "Le maillot blanc"
+        ],
+        "explanation": "Ses pois rouges rappelleraient l'emballage d'une marque de chocolat qui sponsorisait autrefois ce classement de la montagne."
+      },
+      "en": {
+        "text": "Which jersey marks out, in the Tour de France, the race's best climber?",
+        "options": [
+          "The polka-dot jersey",
+          "The yellow jersey",
+          "The green jersey",
+          "The white jersey"
+        ],
+        "explanation": "Its red dots are said to recall the wrapper of a chocolate brand that once sponsored this mountain classification."
+      },
+      "es": {
+        "text": "¿Qué maillot distingue, en el Tour de Francia, al mejor escalador de la carrera?",
+        "options": [
+          "El maillot de lunares",
+          "El maillot amarillo",
+          "El maillot verde",
+          "El maillot blanco"
+        ],
+        "explanation": "Sus lunares rojos recordarían el envoltorio de una marca de chocolate que antaño patrocinaba esta clasificación de la montaña."
+      }
+    }
+  },
+  {
+    "sourceRef": "9d02966430b1144f",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel sport d'hiver consiste à faire glisser de lourdes pierres polies sur la glace vers une cible ?",
+        "options": [
+          "Le hockey",
+          "Le curling",
+          "La luge",
+          "Le bobsleigh"
+        ],
+        "explanation": "Des coéquipiers balaient frénétiquement la glace devant la pierre pour la faire glisser plus loin et infléchir sa course."
+      },
+      "en": {
+        "text": "Which winter sport involves sliding heavy polished stones across the ice towards a target?",
+        "options": [
+          "Hockey",
+          "Curling",
+          "Luge",
+          "Bobsleigh"
+        ],
+        "explanation": "Teammates frantically sweep the ice in front of the stone to make it glide further and bend its path."
+      },
+      "es": {
+        "text": "¿Qué deporte de invierno consiste en deslizar pesadas piedras pulidas sobre el hielo hacia una diana?",
+        "options": [
+          "El hockey",
+          "El curling",
+          "El luge",
+          "El bobsleigh"
+        ],
+        "explanation": "Los compañeros barren frenéticamente el hielo ante la piedra para que se deslice más lejos y modificar su trayectoria."
+      }
+    }
+  },
+  {
+    "sourceRef": "ac306e5dbcde9f20",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel sport d'hiver combine le ski de fond et le tir à la carabine ?",
+        "options": [
+          "Le pentathlon",
+          "Le triathlon",
+          "Le biathlon",
+          "Le décathlon"
+        ],
+        "explanation": "Tout l'art consiste à calmer son cœur qui s'emballe après l'effort du ski, pour viser juste au pas de tir."
+      },
+      "en": {
+        "text": "Which winter sport combines cross-country skiing and rifle shooting?",
+        "options": [
+          "Pentathlon",
+          "Triathlon",
+          "Biathlon",
+          "Decathlon"
+        ],
+        "explanation": "The whole art lies in calming a racing heart after the effort of skiing, in order to aim true at the shooting range."
+      },
+      "es": {
+        "text": "¿Qué deporte de invierno combina el esquí de fondo y el tiro con carabina?",
+        "options": [
+          "El pentatlón",
+          "El triatlón",
+          "El biatlón",
+          "El decatlón"
+        ],
+        "explanation": "Todo el arte está en calmar el corazón desbocado tras el esfuerzo del esquí, para apuntar con precisión en el puesto de tiro."
+      }
+    }
+  },
+  {
+    "sourceRef": "f0134f0058bdc54d",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien d'épreuves différentes composent le décathlon en athlétisme ?",
+        "options": [
+          "5",
+          "7",
+          "12",
+          "10"
+        ],
+        "explanation": "Réparties sur deux jours, elles vont du sprint au lancer en passant par le saut : le vainqueur est souvent sacré « meilleur athlète du monde »."
+      },
+      "en": {
+        "text": "How many different events make up the decathlon in athletics?",
+        "options": [
+          "5",
+          "7",
+          "12",
+          "10"
+        ],
+        "explanation": "Spread over two days, they range from sprinting to throwing to jumping: the winner is often crowned 'world's greatest athlete'."
+      },
+      "es": {
+        "text": "¿Cuántas pruebas distintas componen el decatlón en atletismo?",
+        "options": [
+          "5",
+          "7",
+          "12",
+          "10"
+        ],
+        "explanation": "Repartidas en dos días, van del sprint al lanzamiento pasando por el salto: al ganador se le suele coronar 'mejor atleta del mundo'."
+      }
+    }
+  },
+  {
+    "sourceRef": "d6b47c35fb3fdb62",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport un gardien tente-t-il d'arrêter au pied des tirs envoyés dans un but ?",
+        "options": [
+          "Le football",
+          "Le basket",
+          "Le golf",
+          "Le tennis"
+        ],
+        "explanation": "C'est le sport le plus pratiqué et le plus regardé de la planète, réunissant des milliards de spectateurs lors de sa Coupe du monde."
+      },
+      "en": {
+        "text": "In which sport does a goalkeeper try to stop, with the feet, shots aimed at a goal?",
+        "options": [
+          "Football",
+          "Basketball",
+          "Golf",
+          "Tennis"
+        ],
+        "explanation": "It is the most played and most watched sport on the planet, drawing billions of viewers for its World Cup."
+      },
+      "es": {
+        "text": "¿En qué deporte un portero intenta detener con el pie los disparos enviados a una portería?",
+        "options": [
+          "El fútbol",
+          "El baloncesto",
+          "El golf",
+          "El tenis"
+        ],
+        "explanation": "Es el deporte más practicado y visto del planeta, reuniendo a miles de millones de espectadores en su Copa del Mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "0986aa67cd627069",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel sport américain se joue avec une batte, un gant et des bases à parcourir dans le bon ordre ?",
+        "options": [
+          "Le cricket",
+          "Le base-ball",
+          "Le hockey",
+          "Le rugby"
+        ],
+        "explanation": "Un match n'a pas de temps limité : en théorie, il pourrait durer indéfiniment tant qu'aucune équipe ne l'emporte."
+      },
+      "en": {
+        "text": "Which American sport is played with a bat, a glove and bases to run in the right order?",
+        "options": [
+          "Cricket",
+          "Baseball",
+          "Hockey",
+          "Rugby"
+        ],
+        "explanation": "A game has no time limit: in theory it could last forever, as long as neither team pulls ahead."
+      },
+      "es": {
+        "text": "¿Qué deporte estadounidense se juega con un bate, un guante y bases que recorrer en el orden correcto?",
+        "options": [
+          "El críquet",
+          "El béisbol",
+          "El hockey",
+          "El rugby"
+        ],
+        "explanation": "Un partido no tiene tiempo límite: en teoría podría durar para siempre, mientras ningún equipo se imponga."
+      }
+    }
+  },
+  {
+    "sourceRef": "5af73a290315d7d7",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle course cycliste de trois semaines, autour d'un pays européen, est la plus célèbre au monde ?",
+        "options": [
+          "Le Giro",
+          "La Vuelta",
+          "Le Tour de France",
+          "Paris-Roubaix"
+        ],
+        "explanation": "Le leader du classement y porte un maillot jaune, couleur choisie jadis pour rappeler le papier du journal qui organisait la course."
+      },
+      "en": {
+        "text": "Which three-week cycling race, around a European country, is the most famous in the world?",
+        "options": [
+          "The Giro",
+          "The Vuelta",
+          "The Tour de France",
+          "Paris-Roubaix"
+        ],
+        "explanation": "The overall leader wears a yellow jersey, a colour chosen long ago to recall the paper of the newspaper that ran the race."
+      },
+      "es": {
+        "text": "¿Qué carrera ciclista de tres semanas, alrededor de un país europeo, es la más famosa del mundo?",
+        "options": [
+          "El Giro",
+          "La Vuelta",
+          "El Tour de Francia",
+          "La París-Roubaix"
+        ],
+        "explanation": "El líder de la general viste un maillot amarillo, color elegido antaño para recordar el papel del periódico que organizaba la carrera."
+      }
+    }
+  },
+  {
+    "sourceRef": "f06c8a26d8023536",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport nautique se tient-on debout sur une planche tractée par une voile mobile ?",
+        "options": [
+          "Le surf",
+          "L'aviron",
+          "Le canoë",
+          "La planche à voile"
+        ],
+        "explanation": "Le sportif tient lui-même la voile et l'incline pour capter le vent, ce qui exige un vrai sens de l'équilibre et de la lecture des rafales."
+      },
+      "en": {
+        "text": "In which water sport do you stand on a board pulled along by a movable sail?",
+        "options": [
+          "Surfing",
+          "Rowing",
+          "Canoeing",
+          "Windsurfing"
+        ],
+        "explanation": "The athlete holds the sail and tilts it to catch the wind, which demands real balance and a feel for reading the gusts."
+      },
+      "es": {
+        "text": "¿En qué deporte náutico se permanece de pie sobre una tabla tirada por una vela móvil?",
+        "options": [
+          "El surf",
+          "El remo",
+          "El piragüismo",
+          "El windsurf"
+        ],
+        "explanation": "El deportista sostiene la vela y la inclina para captar el viento, lo que exige verdadero equilibrio y saber leer las rachas."
+      }
+    }
+  },
+  {
+    "sourceRef": "9601c3ba3c5c4068",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel géant du commerce en ligne, fondé par Jeff Bezos, débuta en ne vendant que des livres ?",
+        "options": [
+          "Amazon",
+          "eBay",
+          "Alibaba",
+          "Netflix"
+        ],
+        "explanation": "Le fondateur choisit le nom d'un fleuve immense pour signifier son ambition démesurée, dès l'époque où il expédiait ses colis d'un garage."
+      },
+      "en": {
+        "text": "Which online commerce giant, founded by Jeff Bezos, started out selling only books?",
+        "options": [
+          "Amazon",
+          "eBay",
+          "Alibaba",
+          "Netflix"
+        ],
+        "explanation": "The founder chose the name of a vast river to signal his boundless ambition, back when he shipped parcels from a garage."
+      },
+      "es": {
+        "text": "¿Qué gigante del comercio en línea, fundado por Jeff Bezos, empezó vendiendo solo libros?",
+        "options": [
+          "Amazon",
+          "eBay",
+          "Alibaba",
+          "Netflix"
+        ],
+        "explanation": "El fundador eligió el nombre de un río inmenso para señalar su ambición desmedida, cuando aún enviaba paquetes desde un garaje."
+      }
+    }
+  },
+  {
+    "sourceRef": "45481b319556b7c7",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle application de messagerie au logo vert, rachetée par Facebook, permet d'échanger des messages gratuits ?",
+        "options": [
+          "Skype",
+          "WhatsApp",
+          "Zoom",
+          "Slack"
+        ],
+        "explanation": "Son nom est un jeu de mots avec l'expression anglaise « What's up ? », que l'on pourrait traduire par « Quoi de neuf ? »."
+      },
+      "en": {
+        "text": "Which green-logo messaging app, bought by Facebook, lets people exchange free messages?",
+        "options": [
+          "Skype",
+          "WhatsApp",
+          "Zoom",
+          "Slack"
+        ],
+        "explanation": "Its name is a pun on the phrase 'What's up?', the everyday way of asking how things are going."
+      },
+      "es": {
+        "text": "¿Qué aplicación de mensajería de logo verde, comprada por Facebook, permite intercambiar mensajes gratis?",
+        "options": [
+          "Skype",
+          "WhatsApp",
+          "Zoom",
+          "Slack"
+        ],
+        "explanation": "Su nombre es un juego de palabras con la expresión inglesa 'What's up?', que equivale a '¿Qué hay de nuevo?'."
+      }
+    }
+  },
+  {
+    "sourceRef": "116d63996004459a",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel terme désigne l'ensemble des serveurs distants qui stockent nos données et les rendent accessibles partout ?",
+        "options": [
+          "Le disque dur",
+          "La mémoire vive",
+          "Le cloud",
+          "Le processeur"
+        ],
+        "explanation": "L'image du « nuage » cache une réalité très concrète : d'immenses entrepôts remplis de machines, gourmands en électricité."
+      },
+      "en": {
+        "text": "Which term refers to the network of remote servers that store our data and make it available everywhere?",
+        "options": [
+          "The hard drive",
+          "The RAM",
+          "The cloud",
+          "The processor"
+        ],
+        "explanation": "The image of a 'cloud' hides a very concrete reality: huge warehouses full of machines, hungry for electricity."
+      },
+      "es": {
+        "text": "¿Qué término designa el conjunto de servidores remotos que almacenan nuestros datos y los hacen accesibles en todas partes?",
+        "options": [
+          "El disco duro",
+          "La memoria RAM",
+          "La nube",
+          "El procesador"
+        ],
+        "explanation": "La imagen de la 'nube' oculta una realidad muy concreta: enormes almacenes llenos de máquinas, ávidas de electricidad."
+      }
+    }
+  },
+  {
+    "sourceRef": "eed95a4296e6084f",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment nomme-t-on le réseau mondial qui relie des milliards d'ordinateurs et d'appareils entre eux ?",
+        "options": [
+          "Le Bluetooth",
+          "L'Ethernet",
+          "Le Wi-Fi",
+          "Internet"
+        ],
+        "explanation": "On le confond souvent avec le Web, mais ce dernier n'est qu'un service parmi d'autres circulant sur ce vaste réseau."
+      },
+      "en": {
+        "text": "What do you call the worldwide network linking billions of computers and devices together?",
+        "options": [
+          "Bluetooth",
+          "Ethernet",
+          "Wi-Fi",
+          "The Internet"
+        ],
+        "explanation": "It is often confused with the Web, but the Web is just one service among many travelling over this vast network."
+      },
+      "es": {
+        "text": "¿Cómo se llama la red mundial que conecta miles de millones de ordenadores y aparatos entre sí?",
+        "options": [
+          "El Bluetooth",
+          "El Ethernet",
+          "El Wi-Fi",
+          "Internet"
+        ],
+        "explanation": "Se confunde a menudo con la Web, pero esta es solo un servicio más entre los que circulan por esta vasta red."
+      }
+    }
+  },
+  {
+    "sourceRef": "9d7b7e85b5790370",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle technologie sans fil à courte portée relie une oreillette ou une enceinte à un téléphone ?",
+        "options": [
+          "Le Bluetooth",
+          "Le GPS",
+          "Le Wi-Fi",
+          "Le NFC"
+        ],
+        "explanation": "Son nom rend hommage à un roi viking qui unifia des peuples, comme la technologie unit des appareils différents."
+      },
+      "en": {
+        "text": "Which short-range wireless technology links an earpiece or speaker to a phone?",
+        "options": [
+          "Bluetooth",
+          "GPS",
+          "Wi-Fi",
+          "NFC"
+        ],
+        "explanation": "Its name honours a Viking king who united peoples, just as the technology unites different devices."
+      },
+      "es": {
+        "text": "¿Qué tecnología inalámbrica de corto alcance conecta un auricular o altavoz a un teléfono?",
+        "options": [
+          "El Bluetooth",
+          "El GPS",
+          "El Wi-Fi",
+          "El NFC"
+        ],
+        "explanation": "Su nombre rinde homenaje a un rey vikingo que unificó pueblos, como la tecnología une aparatos distintos."
+      }
+    }
+  },
+  {
+    "sourceRef": "9d4a4bb9c2fbd769",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on une image ou une vidéo drôle, souvent détournée, partagée en masse sur internet ?",
+        "options": [
+          "Un spam",
+          "Un mème",
+          "Un pop-up",
+          "Un avatar"
+        ],
+        "explanation": "Le mot fut inventé par un biologiste pour désigner une idée qui se propage de cerveau en cerveau, comme un gène culturel."
+      },
+      "en": {
+        "text": "What do you call a funny image or video, often remixed, shared en masse on the internet?",
+        "options": [
+          "A spam",
+          "A meme",
+          "A pop-up",
+          "An avatar"
+        ],
+        "explanation": "The word was coined by a biologist for an idea that spreads from mind to mind, like a cultural gene."
+      },
+      "es": {
+        "text": "¿Cómo se llama una imagen o vídeo gracioso, a menudo modificado, compartido en masa en internet?",
+        "options": [
+          "Un spam",
+          "Un meme",
+          "Un pop-up",
+          "Un avatar"
+        ],
+        "explanation": "La palabra la acuñó un biólogo para designar una idea que se propaga de cerebro en cerebro, como un gen cultural."
+      }
+    }
+  },
+  {
+    "sourceRef": "ab0d18aa3130c6c4",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle entreprise fabrique les processeurs graphiques très recherchés pour les jeux vidéo et l'intelligence artificielle ?",
+        "options": [
+          "Intel",
+          "Cisco",
+          "Nvidia",
+          "Oracle"
+        ],
+        "explanation": "Conçues à l'origine pour afficher des images de jeux, ses puces se sont révélées idéales pour entraîner les intelligences artificielles."
+      },
+      "en": {
+        "text": "Which company makes the graphics processors highly sought after for video games and artificial intelligence?",
+        "options": [
+          "Intel",
+          "Cisco",
+          "Nvidia",
+          "Oracle"
+        ],
+        "explanation": "Designed originally to render game images, its chips turned out to be ideal for training artificial intelligences."
+      },
+      "es": {
+        "text": "¿Qué empresa fabrica los procesadores gráficos muy codiciados para los videojuegos y la inteligencia artificial?",
+        "options": [
+          "Intel",
+          "Cisco",
+          "Nvidia",
+          "Oracle"
+        ],
+        "explanation": "Diseñados en origen para mostrar imágenes de juegos, sus chips resultaron ideales para entrenar inteligencias artificiales."
+      }
+    }
+  },
+  {
+    "sourceRef": "5e898302dbe55919",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel assistant vocal, activé par la voix, équipe les iPhone de la marque Apple ?",
+        "options": [
+          "Alexa",
+          "Cortana",
+          "Bixby",
+          "Siri"
+        ],
+        "explanation": "L'assistant fut d'abord une application indépendante, rachetée par Apple avant d'être intégrée directement au téléphone."
+      },
+      "en": {
+        "text": "Which voice assistant, activated by speaking, is built into Apple's iPhones?",
+        "options": [
+          "Alexa",
+          "Cortana",
+          "Bixby",
+          "Siri"
+        ],
+        "explanation": "The assistant was first a standalone app, bought by Apple before being built straight into the phone."
+      },
+      "es": {
+        "text": "¿Qué asistente de voz, activado por la voz, equipa los iPhone de la marca Apple?",
+        "options": [
+          "Alexa",
+          "Cortana",
+          "Bixby",
+          "Siri"
+        ],
+        "explanation": "El asistente fue primero una aplicación independiente, comprada por Apple antes de integrarse directamente en el teléfono."
+      }
+    }
+  },
+  {
+    "sourceRef": "82e4e9ad4413b24f",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment nomme-t-on un courrier électronique non sollicité, envoyé en masse à des fins publicitaires ?",
+        "options": [
+          "Le spam",
+          "Le phishing",
+          "Le cache",
+          "Le pilote"
+        ],
+        "explanation": "Le mot vient d'un sketch comique où le nom d'un jambon en conserve était répété à l'infini, jusqu'à envahir toute la conversation."
+      },
+      "en": {
+        "text": "What do you call an unsolicited email, sent en masse for advertising purposes?",
+        "options": [
+          "Spam",
+          "Phishing",
+          "Cache",
+          "Driver"
+        ],
+        "explanation": "The word comes from a comedy sketch where the name of a tinned ham was repeated endlessly, until it swamped the whole conversation."
+      },
+      "es": {
+        "text": "¿Cómo se llama un correo electrónico no solicitado, enviado en masa con fines publicitarios?",
+        "options": [
+          "El spam",
+          "El phishing",
+          "La caché",
+          "El controlador"
+        ],
+        "explanation": "La palabra viene de un sketch cómico donde el nombre de un jamón en lata se repetía sin fin, hasta invadir toda la conversación."
+      }
+    }
+  },
+  {
+    "sourceRef": "81d86b99687ef30a",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle méthode de fraude consiste à imiter un site de confiance pour voler mots de passe et codes bancaires ?",
+        "options": [
+          "Le chiffrement",
+          "L'hameçonnage",
+          "La sauvegarde",
+          "Le formatage"
+        ],
+        "explanation": "Le nom, image de la pêche, évoque l'appât lancé au hasard : le fraudeur envoie des milliers de messages, guettant qui « mordra »."
+      },
+      "en": {
+        "text": "Which fraud method mimics a trusted website to steal passwords and bank details?",
+        "options": [
+          "Encryption",
+          "Phishing",
+          "Backing up",
+          "Formatting"
+        ],
+        "explanation": "The name, an image of fishing, evokes bait cast at random: the fraudster sends thousands of messages, watching for who will 'bite'."
+      },
+      "es": {
+        "text": "¿Qué método de fraude consiste en imitar un sitio de confianza para robar contraseñas y datos bancarios?",
+        "options": [
+          "El cifrado",
+          "El phishing",
+          "La copia de seguridad",
+          "El formateo"
+        ],
+        "explanation": "El nombre, imagen de la pesca, evoca el cebo lanzado al azar: el estafador envía miles de mensajes, atento a quién 'picará'."
+      }
+    }
+  },
+  {
+    "sourceRef": "ddeb6080ff9aa042",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel petit maître Jedi de « Star Wars », aux longues oreilles vertes, parle en inversant l'ordre de ses phrases ?",
+        "options": [
+          "Yoda",
+          "Chewbacca",
+          "R2-D2",
+          "Jabba"
+        ],
+        "explanation": "Sa façon si particulière de tordre la syntaxe est devenue un jeu populaire, imité et parodié dans le monde entier."
+      },
+      "en": {
+        "text": "Which small green Jedi master in 'Star Wars', with long ears, speaks by reversing the order of his sentences?",
+        "options": [
+          "Yoda",
+          "Chewbacca",
+          "R2-D2",
+          "Jabba"
+        ],
+        "explanation": "His peculiar way of twisting sentence order has become a popular game, imitated and parodied the world over."
+      },
+      "es": {
+        "text": "¿Qué pequeño maestro Jedi de 'Star Wars', de largas orejas verdes, habla invirtiendo el orden de sus frases?",
+        "options": [
+          "Yoda",
+          "Chewbacca",
+          "R2-D2",
+          "Jabba"
+        ],
+        "explanation": "Su peculiar manera de retorcer la sintaxis se ha vuelto un juego popular, imitado y parodiado en todo el mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "3ef2568c22dd1768",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel réalisateur britannique est célèbre pour les films à énigmes « Inception » et « Interstellar » ?",
+        "options": [
+          "Ridley Scott",
+          "Christopher Nolan",
+          "Denis Villeneuve",
+          "James Cameron"
+        ],
+        "explanation": "Amoureux de la pellicule, il tourne encore ses films sur film argentique et privilégie les décors réels aux images de synthèse."
+      },
+      "en": {
+        "text": "Which British director is famous for the puzzle films 'Inception' and 'Interstellar'?",
+        "options": [
+          "Ridley Scott",
+          "Christopher Nolan",
+          "Denis Villeneuve",
+          "James Cameron"
+        ],
+        "explanation": "A lover of celluloid, he still shoots his films on photographic film and favours real sets over computer imagery."
+      },
+      "es": {
+        "text": "¿Qué director británico es célebre por las películas de enigmas 'Origen' e 'Interstellar'?",
+        "options": [
+          "Ridley Scott",
+          "Christopher Nolan",
+          "Denis Villeneuve",
+          "James Cameron"
+        ],
+        "explanation": "Enamorado del celuloide, aún rueda sus películas en película fotográfica y prefiere los decorados reales a las imágenes de síntesis."
+      }
+    }
+  },
+  {
+    "sourceRef": "9230b5575ba45a86",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel film sud-coréen remporta en 2020 l'Oscar du meilleur film, une première pour un long métrage non anglophone ?",
+        "options": [
+          "Old Boy",
+          "Mother",
+          "Parasite",
+          "Snowpiercer"
+        ],
+        "explanation": "L'histoire, qui oppose une famille pauvre à une famille riche, se joue en partie dans une maison d'architecte devenue mythique."
+      },
+      "en": {
+        "text": "Which South Korean film won the 2020 Oscar for Best Picture, a first for a non-English-language feature?",
+        "options": [
+          "Old Boy",
+          "Mother",
+          "Parasite",
+          "Snowpiercer"
+        ],
+        "explanation": "The story, pitting a poor family against a rich one, plays out partly in an architect's house that has become iconic."
+      },
+      "es": {
+        "text": "¿Qué película surcoreana ganó en 2020 el Óscar a la mejor película, algo inédito para un filme en lengua no inglesa?",
+        "options": [
+          "Old Boy",
+          "Mother",
+          "Parásitos",
+          "Rompenieves"
+        ],
+        "explanation": "La historia, que enfrenta a una familia pobre con una rica, transcurre en parte en una casa de arquitecto vuelta icónica."
+      }
+    }
+  },
+  {
+    "sourceRef": "6c6ddfc3b48c054e",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel lapin gris et malicieux des dessins animés Warner croque des carottes en lançant « Quoi d'neuf, Docteur ? »",
+        "options": [
+          "Titi",
+          "Droopy",
+          "Donald",
+          "Bugs Bunny"
+        ],
+        "explanation": "Sa désinvolture, carotte au bec et l'œil moqueur, s'inspirait, dit-on, de la nonchalance d'un acteur célèbre de l'époque."
+      },
+      "en": {
+        "text": "Which mischievous grey rabbit of the Warner cartoons munches carrots while asking 'What's up, Doc?'",
+        "options": [
+          "Tweety",
+          "Droopy",
+          "Donald",
+          "Bugs Bunny"
+        ],
+        "explanation": "His breezy manner, carrot in mouth and a mocking eye, was said to be modelled on the nonchalance of a famous actor of the time."
+      },
+      "es": {
+        "text": "¿Qué conejo gris y travieso de los dibujos de Warner mordisquea zanahorias soltando '¿Qué hay de nuevo, viejo?'",
+        "options": [
+          "Piolín",
+          "Droopy",
+          "Donald",
+          "Bugs Bunny"
+        ],
+        "explanation": "Su desenfado, zanahoria en boca y mirada burlona, se inspiraba, según dicen, en la indolencia de un actor famoso de la época."
+      }
+    }
+  },
+  {
+    "sourceRef": "2fb44bbf15d9b501",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel film de 1994 suit un homme simple et bon à travers de grands moments de l'histoire américaine ?",
+        "options": [
+          "Forrest Gump",
+          "Rain Man",
+          "Big",
+          "Philadelphia"
+        ],
+        "explanation": "La célèbre plume qui ouvre et referme le film flotta réellement au gré du vent, guidée plus tard par ordinateur."
+      },
+      "en": {
+        "text": "Which 1994 film follows a simple, kind-hearted man through great moments of American history?",
+        "options": [
+          "Forrest Gump",
+          "Rain Man",
+          "Big",
+          "Philadelphia"
+        ],
+        "explanation": "The famous feather that opens and closes the film really drifted on the wind, later guided by computer."
+      },
+      "es": {
+        "text": "¿Qué película de 1994 sigue a un hombre sencillo y bondadoso a través de grandes momentos de la historia estadounidense?",
+        "options": [
+          "Forrest Gump",
+          "Rain Man",
+          "Big",
+          "Philadelphia"
+        ],
+        "explanation": "La famosa pluma que abre y cierra la película flotó de verdad al viento, guiada después por ordenador."
+      }
+    }
+  },
+  {
+    "sourceRef": "e42692f1fbe323d2",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel réalisateur espagnol, maître du mélodrame coloré, signa « Tout sur ma mère » et « Volver » ?",
+        "options": [
+          "Luis Buñuel",
+          "Pedro Almodóvar",
+          "Alejandro Amenábar",
+          "Carlos Saura"
+        ],
+        "explanation": "Ses films aux rouges éclatants et aux héroïnes fortes ont fait de sa ville d'adoption un décor de cinéma à part entière."
+      },
+      "en": {
+        "text": "Which Spanish director, a master of colourful melodrama, made 'All About My Mother' and 'Volver'?",
+        "options": [
+          "Luis Buñuel",
+          "Pedro Almodóvar",
+          "Alejandro Amenábar",
+          "Carlos Saura"
+        ],
+        "explanation": "His films of vivid reds and strong heroines have turned his adopted city into a film set in its own right."
+      },
+      "es": {
+        "text": "¿Qué director español, maestro del melodrama colorido, firmó 'Todo sobre mi madre' y 'Volver'?",
+        "options": [
+          "Luis Buñuel",
+          "Pedro Almodóvar",
+          "Alejandro Amenábar",
+          "Carlos Saura"
+        ],
+        "explanation": "Sus películas de rojos vivos y heroínas fuertes han convertido su ciudad de adopción en un escenario de cine por derecho propio."
+      }
+    }
+  },
+  {
+    "sourceRef": "326d7a6c810afb07",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel fut le tout premier long métrage d'animation de l'histoire, réalisé par Walt Disney en 1937 ?",
+        "options": [
+          "Pinocchio",
+          "Fantasia",
+          "Blanche-Neige et les Sept Nains",
+          "Bambi"
+        ],
+        "explanation": "Beaucoup prédisaient un échec, surnommant le projet « la folie de Disney » ; le film fut au contraire un triomphe mondial."
+      },
+      "en": {
+        "text": "What was the very first animated feature film in history, made by Walt Disney in 1937?",
+        "options": [
+          "Pinocchio",
+          "Fantasia",
+          "Snow White and the Seven Dwarfs",
+          "Bambi"
+        ],
+        "explanation": "Many predicted failure, calling the project 'Disney's folly'; instead the film became a worldwide triumph."
+      },
+      "es": {
+        "text": "¿Cuál fue el primer largometraje de animación de la historia, realizado por Walt Disney en 1937?",
+        "options": [
+          "Pinocho",
+          "Fantasía",
+          "Blancanieves y los siete enanitos",
+          "Bambi"
+        ],
+        "explanation": "Muchos predecían un fracaso, apodando el proyecto 'la locura de Disney'; en cambio, la película fue un triunfo mundial."
+      }
+    }
+  },
+  {
+    "sourceRef": "a7ee6d853dd20610",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle jeune héroïne d'une saga d'action combat dans une arène, l'arc à la main, dans « Hunger Games » ?",
+        "options": [
+          "Hermione",
+          "Lara Croft",
+          "Rey",
+          "Katniss"
+        ],
+        "explanation": "Son geste de trois doigts levés, emprunté au film, a été repris comme signe de révolte dans plusieurs manifestations réelles."
+      },
+      "en": {
+        "text": "Which young action-saga heroine fights in an arena, bow in hand, in 'The Hunger Games'?",
+        "options": [
+          "Hermione",
+          "Lara Croft",
+          "Rey",
+          "Katniss"
+        ],
+        "explanation": "Her raised three-finger gesture, borrowed from the film, was later adopted as a sign of revolt in several real protests."
+      },
+      "es": {
+        "text": "¿Qué joven heroína de una saga de acción combate en una arena, arco en mano, en 'Los juegos del hambre'?",
+        "options": [
+          "Hermione",
+          "Lara Croft",
+          "Rey",
+          "Katniss"
+        ],
+        "explanation": "Su gesto de tres dedos alzados, tomado de la película, se adoptó luego como signo de rebeldía en varias protestas reales."
+      }
+    }
+  },
+  {
+    "sourceRef": "3c8913164f5ba7a1",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel réalisateur mexicain, amoureux des créatures fantastiques, remporta l'Oscar pour « La Forme de l'eau » ?",
+        "options": [
+          "Guillermo del Toro",
+          "Alfonso Cuarón",
+          "Alejandro Iñárritu",
+          "Robert Rodriguez"
+        ],
+        "explanation": "Passionné de monstres depuis l'enfance, il conserve une maison entière remplie de figurines et de créatures grandeur nature."
+      },
+      "en": {
+        "text": "Which Mexican director, in love with fantastical creatures, won the Oscar for 'The Shape of Water'?",
+        "options": [
+          "Guillermo del Toro",
+          "Alfonso Cuarón",
+          "Alejandro Iñárritu",
+          "Robert Rodriguez"
+        ],
+        "explanation": "A monster enthusiast since childhood, he keeps a whole house filled with figurines and life-size creatures."
+      },
+      "es": {
+        "text": "¿Qué director mexicano, enamorado de las criaturas fantásticas, ganó el Óscar por 'La forma del agua'?",
+        "options": [
+          "Guillermo del Toro",
+          "Alfonso Cuarón",
+          "Alejandro Iñárritu",
+          "Robert Rodriguez"
+        ],
+        "explanation": "Aficionado a los monstruos desde niño, conserva una casa entera llena de figuras y criaturas a tamaño real."
+      }
+    }
+  },
+  {
+    "sourceRef": "1846bb6a013b5160",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Combien de touches noires compte une octave sur un clavier de piano ?",
+        "options": [
+          "7",
+          "5",
+          "6",
+          "8"
+        ],
+        "explanation": "Groupées par deux puis par trois, elles forment un motif qui se répète et permet de se repérer à l'aveugle sur tout le clavier."
+      },
+      "en": {
+        "text": "How many black keys are there in one octave on a piano keyboard?",
+        "options": [
+          "7",
+          "5",
+          "6",
+          "8"
+        ],
+        "explanation": "Grouped in twos and then threes, they form a pattern that repeats and lets you find your place blind across the keyboard."
+      },
+      "es": {
+        "text": "¿Cuántas teclas negras hay en una octava de un teclado de piano?",
+        "options": [
+          "7",
+          "5",
+          "6",
+          "8"
+        ],
+        "explanation": "Agrupadas de dos en dos y de tres en tres, forman un patrón que se repite y permite orientarse a ciegas por todo el teclado."
+      }
+    }
+  },
+  {
+    "sourceRef": "18e6da012da35cc2",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument à vent en bois, muni d'une anche double, donne le « la » à tout l'orchestre avant le concert ?",
+        "options": [
+          "La flûte",
+          "La clarinette",
+          "Le hautbois",
+          "Le basson"
+        ],
+        "explanation": "On lui confie cette note de référence car sa sonorité, stable et perçante, s'entend nettement de tous les pupitres."
+      },
+      "en": {
+        "text": "Which double-reed woodwind instrument gives the 'A' to the whole orchestra before a concert?",
+        "options": [
+          "The flute",
+          "The clarinet",
+          "The oboe",
+          "The bassoon"
+        ],
+        "explanation": "It is trusted with this reference note because its steady, piercing tone can be heard clearly from every section."
+      },
+      "es": {
+        "text": "¿Qué instrumento de viento madera, con lengüeta doble, da el 'la' a toda la orquesta antes del concierto?",
+        "options": [
+          "La flauta",
+          "El clarinete",
+          "El oboe",
+          "El fagot"
+        ],
+        "explanation": "Se le confía esta nota de referencia porque su sonoridad, estable y penetrante, se oye con nitidez desde todos los atriles."
+      }
+    }
+  },
+  {
+    "sourceRef": "e210d196c4f3603c",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel groupe suédois des années 1970 chanta « Dancing Queen » et « Waterloo » ?",
+        "options": [
+          "Roxette",
+          "Ace of Base",
+          "A-ha",
+          "ABBA"
+        ],
+        "explanation": "Leur nom est formé des initiales des quatre membres ; ils remportèrent la gloire en gagnant un célèbre concours de la chanson européenne."
+      },
+      "en": {
+        "text": "Which Swedish band of the 1970s sang 'Dancing Queen' and 'Waterloo'?",
+        "options": [
+          "Roxette",
+          "Ace of Base",
+          "A-ha",
+          "ABBA"
+        ],
+        "explanation": "Their name is made of the four members' initials; they shot to fame by winning a famous European song contest."
+      },
+      "es": {
+        "text": "¿Qué grupo sueco de los años 1970 cantó 'Dancing Queen' y 'Waterloo'?",
+        "options": [
+          "Roxette",
+          "Ace of Base",
+          "A-ha",
+          "ABBA"
+        ],
+        "explanation": "Su nombre está formado por las iniciales de los cuatro miembros; saltaron a la fama al ganar un famoso concurso de la canción europea."
+      }
+    }
+  },
+  {
+    "sourceRef": "705a74f7cbf785d7",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur autrichien mourut jeune en laissant une œuvre restée célèbre sous le nom de « Symphonie inachevée » ?",
+        "options": [
+          "Franz Schubert",
+          "Gustav Mahler",
+          "Anton Bruckner",
+          "Joseph Haydn"
+        ],
+        "explanation": "Il composa des centaines de mélodies en une vie très brève, souvent au piano, entouré d'amis lors de soirées portant son nom."
+      },
+      "en": {
+        "text": "Which Austrian composer died young, leaving a work famous as the 'Unfinished Symphony'?",
+        "options": [
+          "Franz Schubert",
+          "Gustav Mahler",
+          "Anton Bruckner",
+          "Joseph Haydn"
+        ],
+        "explanation": "He composed hundreds of songs in a very short life, often at the piano, surrounded by friends at evenings that bear his name."
+      },
+      "es": {
+        "text": "¿Qué compositor austríaco murió joven dejando una obra célebre como 'Sinfonía inacabada'?",
+        "options": [
+          "Franz Schubert",
+          "Gustav Mahler",
+          "Anton Bruckner",
+          "Joseph Haydn"
+        ],
+        "explanation": "Compuso cientos de melodías en una vida muy breve, a menudo al piano, rodeado de amigos en veladas que llevan su nombre."
+      }
+    }
+  },
+  {
+    "sourceRef": "8724fc7b01a62029",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel grand instrument à cordes pincées, de forme triangulaire, se joue assis, incliné contre l'épaule ?",
+        "options": [
+          "Le luth",
+          "La harpe",
+          "La mandoline",
+          "La cithare"
+        ],
+        "explanation": "Elle compte souvent quarante-sept cordes et sept pédales, que le musicien actionne des pieds pour changer les notes en un instant."
+      },
+      "en": {
+        "text": "Which large plucked-string instrument, triangular in shape, is played seated, tilted against the shoulder?",
+        "options": [
+          "The lute",
+          "The harp",
+          "The mandolin",
+          "The zither"
+        ],
+        "explanation": "It often has forty-seven strings and seven pedals, which the player works with the feet to change notes in an instant."
+      },
+      "es": {
+        "text": "¿Qué gran instrumento de cuerda pulsada, de forma triangular, se toca sentado, inclinado contra el hombro?",
+        "options": [
+          "El laúd",
+          "El arpa",
+          "La mandolina",
+          "La cítara"
+        ],
+        "explanation": "Suele tener cuarenta y siete cuerdas y siete pedales, que el músico acciona con los pies para cambiar las notas al instante."
+      }
+    }
+  },
+  {
+    "sourceRef": "76e257427dfb02d9",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel style musical afro-américain, né dans les églises, mêle chant puissant, chœurs et ferveur religieuse ?",
+        "options": [
+          "Le blues",
+          "Le jazz",
+          "Le gospel",
+          "Le reggae"
+        ],
+        "explanation": "Ses chants d'espérance, nés dans les communautés du Sud des États-Unis, ont profondément nourri toute la musique populaire moderne."
+      },
+      "en": {
+        "text": "Which African-American musical style, born in the churches, blends powerful singing, choirs and religious fervour?",
+        "options": [
+          "Blues",
+          "Jazz",
+          "Gospel",
+          "Reggae"
+        ],
+        "explanation": "Its songs of hope, born in the communities of the American South, deeply nourished all of modern popular music."
+      },
+      "es": {
+        "text": "¿Qué estilo musical afroamericano, nacido en las iglesias, mezcla canto potente, coros y fervor religioso?",
+        "options": [
+          "El blues",
+          "El jazz",
+          "El gospel",
+          "El reggae"
+        ],
+        "explanation": "Sus cantos de esperanza, nacidos en las comunidades del sur de Estados Unidos, nutrieron profundamente toda la música popular moderna."
+      }
+    }
+  },
+  {
+    "sourceRef": "b48d54cb95de2b0b",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel groupe de rock britannique des années 1960, rival des Beatles, chanta « Satisfaction » ?",
+        "options": [
+          "The Kinks",
+          "The Who",
+          "The Animals",
+          "The Rolling Stones"
+        ],
+        "explanation": "Leur logo, une langue tirée sur des lèvres rouges, est devenu l'un des emblèmes les plus reconnaissables de l'histoire du rock."
+      },
+      "en": {
+        "text": "Which British rock band of the 1960s, rivals of the Beatles, sang 'Satisfaction'?",
+        "options": [
+          "The Kinks",
+          "The Who",
+          "The Animals",
+          "The Rolling Stones"
+        ],
+        "explanation": "Their logo, a tongue sticking out over red lips, became one of the most recognisable emblems in rock history."
+      },
+      "es": {
+        "text": "¿Qué grupo de rock británico de los años 1960, rival de los Beatles, cantó 'Satisfaction'?",
+        "options": [
+          "The Kinks",
+          "The Who",
+          "The Animals",
+          "The Rolling Stones"
+        ],
+        "explanation": "Su logo, una lengua fuera sobre unos labios rojos, se volvió uno de los emblemas más reconocibles de la historia del rock."
+      }
+    }
+  },
+  {
+    "sourceRef": "81444c88b9394014",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle danse de salon à trois temps, née à Vienne, fait tournoyer les couples sur la piste ?",
+        "options": [
+          "La valse",
+          "Le tango",
+          "La polka",
+          "La mazurka"
+        ],
+        "explanation": "Jugée scandaleuse à ses débuts, car elle rapprochait trop les partenaires, elle devint la danse reine des bals du XIXᵉ siècle."
+      },
+      "en": {
+        "text": "Which ballroom dance in three time, born in Vienna, sends couples whirling across the floor?",
+        "options": [
+          "The waltz",
+          "The tango",
+          "The polka",
+          "The mazurka"
+        ],
+        "explanation": "Thought scandalous at first, for bringing partners too close, it became the queen of nineteenth-century ballrooms."
+      },
+      "es": {
+        "text": "¿Qué baile de salón a tres tiempos, nacido en Viena, hace girar a las parejas por la pista?",
+        "options": [
+          "El vals",
+          "El tango",
+          "La polca",
+          "La mazurca"
+        ],
+        "explanation": "Juzgado escandaloso al principio, por acercar demasiado a las parejas, se convirtió en el rey de los bailes del siglo XIX."
+      }
+    }
+  },
+  {
+    "sourceRef": "8b0fd685dce1c7fc",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument de percussion est formé de deux disques de métal que l'on entrechoque ?",
+        "options": [
+          "Les timbales",
+          "Les cymbales",
+          "Le triangle",
+          "Le xylophone"
+        ],
+        "explanation": "Dans l'orchestre, leur choc éclatant souligne les grands moments : un seul coup, bien placé, peut faire sursauter toute une salle."
+      },
+      "en": {
+        "text": "Which percussion instrument is made of two metal discs clashed together?",
+        "options": [
+          "The timpani",
+          "The cymbals",
+          "The triangle",
+          "The xylophone"
+        ],
+        "explanation": "In the orchestra, their bright clash underlines the great moments: a single well-placed hit can make a whole hall jump."
+      },
+      "es": {
+        "text": "¿Qué instrumento de percusión está formado por dos discos de metal que se entrechocan?",
+        "options": [
+          "Los timbales",
+          "Los platillos",
+          "El triángulo",
+          "El xilófono"
+        ],
+        "explanation": "En la orquesta, su choque brillante subraya los grandes momentos: un solo golpe bien puesto puede sobresaltar a toda una sala."
+      }
+    }
+  }
+]
