@@ -1,0 +1,3122 @@
+[
+  {
+    "sourceRef": "7d298ebcc7b6c703",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre néerlandais du XVIIᵉ siècle, maître de l'ombre et de la lumière, peignit « La Ronde de nuit » ?",
+        "options": [
+          "Rembrandt",
+          "Johannes Vermeer",
+          "Frans Hals",
+          "Jan Steen"
+        ],
+        "explanation": "Le tableau, longtemps assombri par un vernis vieilli, fut appelé « ronde de nuit » alors qu'il représente en réalité une scène de jour."
+      },
+      "en": {
+        "text": "Which 17th-century Dutch painter, a master of light and shadow, painted 'The Night Watch'?",
+        "options": [
+          "Rembrandt",
+          "Johannes Vermeer",
+          "Frans Hals",
+          "Jan Steen"
+        ],
+        "explanation": "The painting, long darkened by aged varnish, was called 'night watch' although it actually shows a daytime scene."
+      },
+      "es": {
+        "text": "¿Qué pintor neerlandés del siglo XVII, maestro de la luz y la sombra, pintó 'La ronda de noche'?",
+        "options": [
+          "Rembrandt",
+          "Johannes Vermeer",
+          "Frans Hals",
+          "Jan Steen"
+        ],
+        "explanation": "El cuadro, mucho tiempo oscurecido por un barniz viejo, fue llamado 'ronda de noche' aunque en realidad muestra una escena de día."
+      }
+    }
+  },
+  {
+    "sourceRef": "efcad3f09ede5f47",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel petit portrait de Léonard de Vinci, au sourire énigmatique, est l'œuvre la plus visitée du Louvre ?",
+        "options": [
+          "La Liberté",
+          "La Joconde",
+          "L'Angélus",
+          "L'Olympia"
+        ],
+        "explanation": "Son vol en 1911 la rendit mondialement célèbre : pendant deux ans, les foules vinrent contempler le mur vide où elle manquait."
+      },
+      "en": {
+        "text": "Which small portrait by Leonardo da Vinci, with an enigmatic smile, is the most visited work in the Louvre?",
+        "options": [
+          "Liberty",
+          "The Mona Lisa",
+          "The Angelus",
+          "Olympia"
+        ],
+        "explanation": "Its theft in 1911 made it world-famous: for two years, crowds came to gaze at the empty wall where it was missing."
+      },
+      "es": {
+        "text": "¿Qué pequeño retrato de Leonardo da Vinci, de sonrisa enigmática, es la obra más visitada del Louvre?",
+        "options": [
+          "La Libertad",
+          "La Gioconda",
+          "El Ángelus",
+          "Olympia"
+        ],
+        "explanation": "Su robo en 1911 la hizo mundialmente famosa: durante dos años, las multitudes vinieron a contemplar el muro vacío donde faltaba."
+      }
+    }
+  },
+  {
+    "sourceRef": "83b2a983c63e4dcc",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel mouvement artistique des années 1960 reproduisit des objets de consommation courante, comme les boîtes de soupe ?",
+        "options": [
+          "Le minimalisme",
+          "Le land art",
+          "Le pop art",
+          "Le cubisme"
+        ],
+        "explanation": "Ses artistes puisaient dans la publicité et la bande dessinée, brouillant volontairement la frontière entre art noble et culture de masse."
+      },
+      "en": {
+        "text": "Which 1960s art movement reproduced everyday consumer objects, such as soup cans?",
+        "options": [
+          "Minimalism",
+          "Land art",
+          "Pop art",
+          "Cubism"
+        ],
+        "explanation": "Its artists drew on advertising and comics, deliberately blurring the line between high art and mass culture."
+      },
+      "es": {
+        "text": "¿Qué movimiento artístico de los años 1960 reprodujo objetos de consumo corriente, como las latas de sopa?",
+        "options": [
+          "El minimalismo",
+          "El land art",
+          "El pop art",
+          "El cubismo"
+        ],
+        "explanation": "Sus artistas bebían de la publicidad y el cómic, difuminando a propósito la frontera entre el arte culto y la cultura de masas."
+      }
+    }
+  },
+  {
+    "sourceRef": "683d0ce3e516e9e8",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle célèbre statue de marbre de Michel-Ange, à Florence, représente un jeune héros biblique nu tenant sa fronde ?",
+        "options": [
+          "Le Penseur",
+          "Le Moïse",
+          "L'Apollon",
+          "Le David"
+        ],
+        "explanation": "Sculptée dans un bloc que d'autres avaient jugé inutilisable, la statue de plus de cinq mètres passa des années à l'abandon avant que le maître ne s'en empare."
+      },
+      "en": {
+        "text": "Which famous marble statue by Michelangelo, in Florence, shows a nude young biblical hero holding his sling?",
+        "options": [
+          "The Thinker",
+          "Moses",
+          "Apollo",
+          "David"
+        ],
+        "explanation": "Carved from a block others had judged useless, the statue of over five metres lay abandoned for years before the master seized it."
+      },
+      "es": {
+        "text": "¿Qué famosa estatua de mármol de Miguel Ángel, en Florencia, representa a un joven héroe bíblico desnudo sosteniendo su honda?",
+        "options": [
+          "El Pensador",
+          "Moisés",
+          "Apolo",
+          "David"
+        ],
+        "explanation": "Tallada de un bloque que otros habían juzgado inservible, la estatua de más de cinco metros pasó años abandonada antes de que el maestro la tomara."
+      }
+    }
+  },
+  {
+    "sourceRef": "065b9e4d74de4b63",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle couleur profonde, très prisée à la Renaissance, était fabriquée à partir de la pierre précieuse du lapis-lazuli ?",
+        "options": [
+          "Le bleu outremer",
+          "Le rouge carmin",
+          "Le vert-de-gris",
+          "Le jaune de Naples"
+        ],
+        "explanation": "Cette pierre, venue de lointaines mines d'Afghanistan, coûtait si cher qu'on la réservait souvent au manteau de la Vierge dans les tableaux."
+      },
+      "en": {
+        "text": "Which deep colour, prized in the Renaissance, was made from the precious stone lapis lazuli?",
+        "options": [
+          "Ultramarine blue",
+          "Carmine red",
+          "Verdigris",
+          "Naples yellow"
+        ],
+        "explanation": "This stone, from distant mines in Afghanistan, was so costly it was often reserved for the Virgin's cloak in paintings."
+      },
+      "es": {
+        "text": "¿Qué color profundo, muy apreciado en el Renacimiento, se fabricaba a partir de la piedra preciosa del lapislázuli?",
+        "options": [
+          "El azul ultramar",
+          "El rojo carmín",
+          "El cardenillo",
+          "El amarillo de Nápoles"
+        ],
+        "explanation": "Esta piedra, de lejanas minas de Afganistán, costaba tanto que se reservaba a menudo para el manto de la Virgen en los cuadros."
+      }
+    }
+  },
+  {
+    "sourceRef": "bd636d42b9084d22",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel architecte de la Renaissance conçut l'immense dôme de la cathédrale de Florence, prouesse d'ingénierie ?",
+        "options": [
+          "Donatello",
+          "Filippo Brunelleschi",
+          "Lorenzo Ghiberti",
+          "Leon Battista Alberti"
+        ],
+        "explanation": "Il bâtit sa coupole sans échafaudage central, en montant deux coques emboîtées, secret qu'il garda jalousement de ses rivaux."
+      },
+      "en": {
+        "text": "Which Renaissance architect designed the huge dome of Florence Cathedral, a feat of engineering?",
+        "options": [
+          "Donatello",
+          "Filippo Brunelleschi",
+          "Lorenzo Ghiberti",
+          "Leon Battista Alberti"
+        ],
+        "explanation": "He built his dome without central scaffolding, raising two nested shells, a secret he jealously kept from his rivals."
+      },
+      "es": {
+        "text": "¿Qué arquitecto del Renacimiento diseñó la enorme cúpula de la catedral de Florencia, una proeza de ingeniería?",
+        "options": [
+          "Donatello",
+          "Filippo Brunelleschi",
+          "Lorenzo Ghiberti",
+          "Leon Battista Alberti"
+        ],
+        "explanation": "Construyó su cúpula sin andamiaje central, levantando dos cáscaras encajadas, secreto que guardó celosamente de sus rivales."
+      }
+    }
+  },
+  {
+    "sourceRef": "5777cb350021b488",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on une œuvre sculptée dont les figures ressortent légèrement d'un fond plat, sans en être détachées ?",
+        "options": [
+          "Un buste",
+          "Un moulage",
+          "Un bas-relief",
+          "Une statue"
+        ],
+        "explanation": "Les Égyptiens et les Romains couvraient de ces images en relief les murs de leurs temples pour raconter batailles et légendes."
+      },
+      "en": {
+        "text": "What do you call a carved work whose figures stand slightly out from a flat background, without detaching from it?",
+        "options": [
+          "A bust",
+          "A cast",
+          "A bas-relief",
+          "A statue"
+        ],
+        "explanation": "The Egyptians and Romans covered their temple walls with such raised images to tell of battles and legends."
+      },
+      "es": {
+        "text": "¿Cómo se llama una obra esculpida cuyas figuras sobresalen ligeramente de un fondo plano, sin separarse de él?",
+        "options": [
+          "Un busto",
+          "Un molde",
+          "Un bajorrelieve",
+          "Una estatua"
+        ],
+        "explanation": "Egipcios y romanos cubrían con estas imágenes en relieve los muros de sus templos para narrar batallas y leyendas."
+      }
+    }
+  },
+  {
+    "sourceRef": "660ecd73302bc9d7",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre français, maître du néoclassicisme, immortalisa le « Sacre de Napoléon » dans une toile immense ?",
+        "options": [
+          "Eugène Delacroix",
+          "Théodore Géricault",
+          "Jean-Auguste-Dominique Ingres",
+          "Jacques-Louis David"
+        ],
+        "explanation": "Sur la toile, il représenta la mère de l'empereur assise en tribune, alors qu'elle avait en réalité boudé la cérémonie."
+      },
+      "en": {
+        "text": "Which French painter, a master of Neoclassicism, immortalised the 'Coronation of Napoleon' in a vast canvas?",
+        "options": [
+          "Eugène Delacroix",
+          "Théodore Géricault",
+          "Jean-Auguste-Dominique Ingres",
+          "Jacques-Louis David"
+        ],
+        "explanation": "On the canvas he showed the emperor's mother seated in the stands, although she had in fact snubbed the ceremony."
+      },
+      "es": {
+        "text": "¿Qué pintor francés, maestro del neoclasicismo, inmortalizó la 'Coronación de Napoleón' en un lienzo inmenso?",
+        "options": [
+          "Eugène Delacroix",
+          "Théodore Géricault",
+          "Jean-Auguste-Dominique Ingres",
+          "Jacques-Louis David"
+        ],
+        "explanation": "En el lienzo representó a la madre del emperador sentada en la tribuna, aunque en realidad ella había desdeñado la ceremonia."
+      }
+    }
+  },
+  {
+    "sourceRef": "0862b5a7e3411dee",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre romantique français représenta le drame d'un naufrage dans « Le Radeau de la Méduse » ?",
+        "options": [
+          "Théodore Géricault",
+          "Gustave Courbet",
+          "Camille Corot",
+          "Eugène Delacroix"
+        ],
+        "explanation": "Pour peindre au plus juste, il visita des morgues et fit construire une maquette du radeau d'après les récits des survivants."
+      },
+      "en": {
+        "text": "Which French Romantic painter depicted the tragedy of a shipwreck in 'The Raft of the Medusa'?",
+        "options": [
+          "Théodore Géricault",
+          "Gustave Courbet",
+          "Camille Corot",
+          "Eugène Delacroix"
+        ],
+        "explanation": "To paint it truly, he visited morgues and had a model of the raft built from the survivors' accounts."
+      },
+      "es": {
+        "text": "¿Qué pintor romántico francés representó el drama de un naufragio en 'La balsa de la Medusa'?",
+        "options": [
+          "Théodore Géricault",
+          "Gustave Courbet",
+          "Camille Corot",
+          "Eugène Delacroix"
+        ],
+        "explanation": "Para pintarlo con fidelidad, visitó depósitos de cadáveres e hizo construir una maqueta de la balsa según los relatos de los supervivientes."
+      }
+    }
+  },
+  {
+    "sourceRef": "8bfbd6e141d0ee64",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel courant artistique du XIXᵉ siècle, mené par Courbet, voulut peindre la réalité ordinaire sans l'idéaliser ?",
+        "options": [
+          "Le romantisme",
+          "Le réalisme",
+          "Le symbolisme",
+          "L'académisme"
+        ],
+        "explanation": "En peignant de simples casseurs de pierres à la taille des héros mythologiques, le peintre choqua un public habitué aux nobles sujets."
+      },
+      "en": {
+        "text": "Which 19th-century art movement, led by Courbet, sought to paint ordinary reality without idealising it?",
+        "options": [
+          "Romanticism",
+          "Realism",
+          "Symbolism",
+          "Academicism"
+        ],
+        "explanation": "By painting plain stone-breakers on the scale of mythological heroes, the painter shocked a public used to noble subjects."
+      },
+      "es": {
+        "text": "¿Qué corriente artística del siglo XIX, liderada por Courbet, quiso pintar la realidad ordinaria sin idealizarla?",
+        "options": [
+          "El romanticismo",
+          "El realismo",
+          "El simbolismo",
+          "El academicismo"
+        ],
+        "explanation": "Al pintar a simples picapedreros al tamaño de héroes mitológicos, el pintor escandalizó a un público habituado a los temas nobles."
+      }
+    }
+  },
+  {
+    "sourceRef": "075d30a97e2326f2",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel poète italien de la Renaissance écrivit la grande épopée « La Jérusalem délivrée » ?",
+        "options": [
+          "Pétrarque",
+          "Boccace",
+          "Le Tasse",
+          "L'Arioste"
+        ],
+        "explanation": "Tourmenté et fragile, le poète fut un temps enfermé, ce qui nourrit sa légende d'artiste maudit auprès des romantiques."
+      },
+      "en": {
+        "text": "Which Italian Renaissance poet wrote the great epic 'Jerusalem Delivered'?",
+        "options": [
+          "Petrarch",
+          "Boccaccio",
+          "Tasso",
+          "Ariosto"
+        ],
+        "explanation": "Tormented and fragile, the poet was confined for a time, which fed his legend as a doomed artist among the Romantics."
+      },
+      "es": {
+        "text": "¿Qué poeta italiano del Renacimiento escribió la gran epopeya 'La Jerusalén liberada'?",
+        "options": [
+          "Petrarca",
+          "Boccaccio",
+          "Torcuato Tasso",
+          "Ariosto"
+        ],
+        "explanation": "Atormentado y frágil, el poeta estuvo un tiempo recluido, lo que alimentó su leyenda de artista maldito entre los románticos."
+      }
+    }
+  },
+  {
+    "sourceRef": "aeb1c5f8dc55e146",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel conte met en scène une princesse plongée dans un sommeil de cent ans après s'être piquée à un fuseau ?",
+        "options": [
+          "La Belle au bois dormant",
+          "Cendrillon",
+          "Blanche-Neige",
+          "Peau d'Âne"
+        ],
+        "explanation": "Dans les versions les plus anciennes, l'histoire était bien plus sombre que le conte adouci que l'on raconte aux enfants aujourd'hui."
+      },
+      "en": {
+        "text": "Which fairy tale features a princess plunged into a hundred-year sleep after pricking herself on a spindle?",
+        "options": [
+          "Sleeping Beauty",
+          "Cinderella",
+          "Snow White",
+          "Donkeyskin"
+        ],
+        "explanation": "In the oldest versions, the story was far darker than the softened tale told to children today."
+      },
+      "es": {
+        "text": "¿Qué cuento muestra a una princesa sumida en un sueño de cien años tras pincharse con un huso?",
+        "options": [
+          "La Bella Durmiente",
+          "Cenicienta",
+          "Blancanieves",
+          "Piel de Asno"
+        ],
+        "explanation": "En las versiones más antiguas, la historia era mucho más oscura que el cuento suavizado que se cuenta hoy a los niños."
+      }
+    }
+  },
+  {
+    "sourceRef": "62bbe76efa538339",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain britannique créa Oliver Twist et David Copperfield, dépeignant le Londres des pauvres ?",
+        "options": [
+          "William Thackeray",
+          "Charles Dickens",
+          "Thomas Hardy",
+          "Anthony Trollope"
+        ],
+        "explanation": "Il publiait ses romans en feuilletons, chapitre après chapitre, tenant tout un public en haleine d'un numéro à l'autre."
+      },
+      "en": {
+        "text": "Which British writer created Oliver Twist and David Copperfield, portraying the London of the poor?",
+        "options": [
+          "William Thackeray",
+          "Charles Dickens",
+          "Thomas Hardy",
+          "Anthony Trollope"
+        ],
+        "explanation": "He published his novels in instalments, chapter by chapter, keeping a whole public in suspense from one issue to the next."
+      },
+      "es": {
+        "text": "¿Qué escritor británico creó a Oliver Twist y David Copperfield, retratando el Londres de los pobres?",
+        "options": [
+          "William Thackeray",
+          "Charles Dickens",
+          "Thomas Hardy",
+          "Anthony Trollope"
+        ],
+        "explanation": "Publicaba sus novelas por entregas, capítulo a capítulo, manteniendo en vilo a todo un público de un número a otro."
+      }
+    }
+  },
+  {
+    "sourceRef": "bfc97f7a50fb39f0",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel poète russe, mort en duel à trente-sept ans, est l'auteur d'« Eugène Onéguine » ?",
+        "options": [
+          "Nicolas Gogol",
+          "Ivan Tourgueniev",
+          "Mikhaïl Lermontov",
+          "Alexandre Pouchkine"
+        ],
+        "explanation": "Considéré comme le père de la littérature russe moderne, il tomba lors d'un duel provoqué par des rumeurs sur son épouse."
+      },
+      "en": {
+        "text": "Which Russian poet, killed in a duel at thirty-seven, wrote 'Eugene Onegin'?",
+        "options": [
+          "Nikolai Gogol",
+          "Ivan Turgenev",
+          "Mikhail Lermontov",
+          "Alexander Pushkin"
+        ],
+        "explanation": "Regarded as the father of modern Russian literature, he fell in a duel provoked by rumours about his wife."
+      },
+      "es": {
+        "text": "¿Qué poeta ruso, muerto en un duelo a los treinta y siete años, es el autor de 'Eugenio Oneguin'?",
+        "options": [
+          "Nikolái Gógol",
+          "Iván Turguénev",
+          "Mijaíl Lérmontov",
+          "Aleksandr Pushkin"
+        ],
+        "explanation": "Considerado el padre de la literatura rusa moderna, cayó en un duelo provocado por rumores sobre su esposa."
+      }
+    }
+  },
+  {
+    "sourceRef": "9f0b4861bc740ee1",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel romancier américain peignit la misère des fermiers ruinés pendant la Grande Dépression dans « Les Raisins de la colère » ?",
+        "options": [
+          "John Steinbeck",
+          "William Faulkner",
+          "John Dos Passos",
+          "Sinclair Lewis"
+        ],
+        "explanation": "Il sillonna lui-même les routes de l'exode avec les familles pauvres qu'il décrivit, pour puiser la vérité de son roman dans le réel."
+      },
+      "en": {
+        "text": "Which American novelist depicted the plight of ruined farmers during the Great Depression in 'The Grapes of Wrath'?",
+        "options": [
+          "John Steinbeck",
+          "William Faulkner",
+          "John Dos Passos",
+          "Sinclair Lewis"
+        ],
+        "explanation": "He travelled the migrant roads himself with the poor families he described, to draw his novel's truth from real life."
+      },
+      "es": {
+        "text": "¿Qué novelista estadounidense retrató la miseria de los granjeros arruinados durante la Gran Depresión en 'Las uvas de la ira'?",
+        "options": [
+          "John Steinbeck",
+          "William Faulkner",
+          "John Dos Passos",
+          "Sinclair Lewis"
+        ],
+        "explanation": "Recorrió él mismo los caminos del éxodo con las familias pobres que describió, para extraer la verdad de su novela de la vida real."
+      }
+    }
+  },
+  {
+    "sourceRef": "f8c6af87177dc407",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle poétesse de la Grèce antique chanta l'amour depuis l'île de Lesbos, admirée comme la « dixième Muse » ?",
+        "options": [
+          "Corinne",
+          "Sappho",
+          "Aspasie",
+          "Télésilla"
+        ],
+        "explanation": "De son œuvre immense, seuls des fragments nous sont parvenus, sauvés parfois d'anciens papyrus recyclés en emballages."
+      },
+      "en": {
+        "text": "Which poet of ancient Greece sang of love from the island of Lesbos, admired as the 'tenth Muse'?",
+        "options": [
+          "Corinna",
+          "Sappho",
+          "Aspasia",
+          "Telesilla"
+        ],
+        "explanation": "Of her vast work only fragments survive, sometimes rescued from old papyri reused as packaging."
+      },
+      "es": {
+        "text": "¿Qué poetisa de la antigua Grecia cantó al amor desde la isla de Lesbos, admirada como la 'décima Musa'?",
+        "options": [
+          "Corina",
+          "Safo",
+          "Aspasia",
+          "Telesila"
+        ],
+        "explanation": "De su inmensa obra solo nos han llegado fragmentos, rescatados a veces de viejos papiros reutilizados como embalajes."
+      }
+    }
+  },
+  {
+    "sourceRef": "aa5bf73c96d35bb2",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain irlandais, dandy plein d'esprit, écrivit « Le Portrait de Dorian Gray » ?",
+        "options": [
+          "George Bernard Shaw",
+          "Bram Stoker",
+          "Oscar Wilde",
+          "W.B. Yeats"
+        ],
+        "explanation": "Réputé pour ses réparties cinglantes, il aurait déclaré à la douane : « Je n'ai rien à déclarer, sinon mon génie. »"
+      },
+      "en": {
+        "text": "Which Irish writer, a witty dandy, wrote 'The Picture of Dorian Gray'?",
+        "options": [
+          "George Bernard Shaw",
+          "Bram Stoker",
+          "Oscar Wilde",
+          "W.B. Yeats"
+        ],
+        "explanation": "Famed for his cutting quips, he is said to have told customs: 'I have nothing to declare but my genius.'"
+      },
+      "es": {
+        "text": "¿Qué escritor irlandés, dandi lleno de ingenio, escribió 'El retrato de Dorian Gray'?",
+        "options": [
+          "George Bernard Shaw",
+          "Bram Stoker",
+          "Oscar Wilde",
+          "W.B. Yeats"
+        ],
+        "explanation": "Célebre por sus réplicas mordaces, habría declarado en la aduana: 'No tengo nada que declarar salvo mi genio.'"
+      }
+    }
+  },
+  {
+    "sourceRef": "d70429874fa0bb35",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel conteur danois écrivit « La Petite Sirène » et « Le Vilain Petit Canard » ?",
+        "options": [
+          "Les frères Grimm",
+          "Charles Perrault",
+          "Carlo Collodi",
+          "Hans Christian Andersen"
+        ],
+        "explanation": "Fils d'un cordonnier pauvre, il connut une enfance misérable, ce qui inspira ses contes où de petits êtres rêvent d'un autre destin."
+      },
+      "en": {
+        "text": "Which Danish storyteller wrote 'The Little Mermaid' and 'The Ugly Duckling'?",
+        "options": [
+          "The Brothers Grimm",
+          "Charles Perrault",
+          "Carlo Collodi",
+          "Hans Christian Andersen"
+        ],
+        "explanation": "Son of a poor shoemaker, he had a wretched childhood, which inspired his tales of small beings dreaming of another fate."
+      },
+      "es": {
+        "text": "¿Qué narrador danés escribió 'La Sirenita' y 'El patito feo'?",
+        "options": [
+          "Los hermanos Grimm",
+          "Charles Perrault",
+          "Carlo Collodi",
+          "Hans Christian Andersen"
+        ],
+        "explanation": "Hijo de un zapatero pobre, tuvo una infancia miserable, que inspiró sus cuentos de seres pequeños que sueñan con otro destino."
+      }
+    }
+  },
+  {
+    "sourceRef": "4cdd7f039fedcad2",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel romancier britannique imagina un futur où les humains sont fabriqués en usine, dans « Le Meilleur des mondes » ?",
+        "options": [
+          "Aldous Huxley",
+          "H.G. Wells",
+          "George Orwell",
+          "Ray Bradbury"
+        ],
+        "explanation": "Dans sa société sans douleur, on gouverne les esprits par le plaisir et une drogue apaisante, plutôt que par la peur et la contrainte."
+      },
+      "en": {
+        "text": "Which British novelist imagined a future where humans are made in factories, in 'Brave New World'?",
+        "options": [
+          "Aldous Huxley",
+          "H.G. Wells",
+          "George Orwell",
+          "Ray Bradbury"
+        ],
+        "explanation": "In his painless society, minds are ruled by pleasure and a soothing drug, rather than by fear and force."
+      },
+      "es": {
+        "text": "¿Qué novelista británico imaginó un futuro donde los humanos se fabrican en fábricas, en 'Un mundo feliz'?",
+        "options": [
+          "Aldous Huxley",
+          "H.G. Wells",
+          "George Orwell",
+          "Ray Bradbury"
+        ],
+        "explanation": "En su sociedad sin dolor, se gobiernan las mentes con el placer y una droga tranquilizadora, más que con el miedo y la coacción."
+      }
+    }
+  },
+  {
+    "sourceRef": "ff92f359264c0330",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel poète et dramaturge allemand écrivit « Faust », l'histoire d'un savant qui vend son âme au diable ?",
+        "options": [
+          "Friedrich Schiller",
+          "Johann Wolfgang von Goethe",
+          "Heinrich Heine",
+          "Gotthold Lessing"
+        ],
+        "explanation": "Il travailla à ce chef-d'œuvre pendant près de soixante ans, l'achevant peu avant sa mort, comme le sommet de toute une vie."
+      },
+      "en": {
+        "text": "Which German poet and playwright wrote 'Faust', the story of a scholar who sells his soul to the devil?",
+        "options": [
+          "Friedrich Schiller",
+          "Johann Wolfgang von Goethe",
+          "Heinrich Heine",
+          "Gotthold Lessing"
+        ],
+        "explanation": "He worked on this masterpiece for nearly sixty years, finishing it shortly before his death, as the summit of a whole life."
+      },
+      "es": {
+        "text": "¿Qué poeta y dramaturgo alemán escribió 'Fausto', la historia de un sabio que vende su alma al diablo?",
+        "options": [
+          "Friedrich Schiller",
+          "Johann Wolfgang von Goethe",
+          "Heinrich Heine",
+          "Gotthold Lessing"
+        ],
+        "explanation": "Trabajó en esta obra maestra durante casi sesenta años, terminándola poco antes de morir, como la cumbre de toda una vida."
+      }
+    }
+  },
+  {
+    "sourceRef": "5c4013ea065769e0",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel philosophe français des Lumières écrivit le conte satirique « Candide », dont le héros veut « cultiver son jardin » ?",
+        "options": [
+          "Jean-Jacques Rousseau",
+          "Denis Diderot",
+          "Voltaire",
+          "Montesquieu"
+        ],
+        "explanation": "Ses écrits mordants lui valurent l'exil et la prison, mais aussi une gloire immense dans toute l'Europe éclairée."
+      },
+      "en": {
+        "text": "Which French Enlightenment philosopher wrote the satirical tale 'Candide', whose hero wants to 'cultivate his garden'?",
+        "options": [
+          "Jean-Jacques Rousseau",
+          "Denis Diderot",
+          "Voltaire",
+          "Montesquieu"
+        ],
+        "explanation": "His biting writings earned him exile and prison, but also immense fame across all of enlightened Europe."
+      },
+      "es": {
+        "text": "¿Qué filósofo francés de la Ilustración escribió el cuento satírico 'Cándido', cuyo héroe quiere 'cultivar su jardín'?",
+        "options": [
+          "Jean-Jacques Rousseau",
+          "Denis Diderot",
+          "Voltaire",
+          "Montesquieu"
+        ],
+        "explanation": "Sus escritos mordaces le valieron el exilio y la cárcel, pero también una fama inmensa en toda la Europa ilustrada."
+      }
+    }
+  },
+  {
+    "sourceRef": "02befeb98df0c960",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel poète anglais du XVIIᵉ siècle, devenu aveugle, dicta l'épopée « Le Paradis perdu » ?",
+        "options": [
+          "John Donne",
+          "Alexander Pope",
+          "Geoffrey Chaucer",
+          "John Milton"
+        ],
+        "explanation": "Privé de la vue, il composait ses vers la nuit dans sa tête, puis les dictait chaque matin à ses filles ou à ses secrétaires."
+      },
+      "en": {
+        "text": "Which 17th-century English poet, having gone blind, dictated the epic 'Paradise Lost'?",
+        "options": [
+          "John Donne",
+          "Alexander Pope",
+          "Geoffrey Chaucer",
+          "John Milton"
+        ],
+        "explanation": "Deprived of sight, he composed his verses at night in his head, then dictated them each morning to his daughters or secretaries."
+      },
+      "es": {
+        "text": "¿Qué poeta inglés del siglo XVII, ya ciego, dictó la epopeya 'El paraíso perdido'?",
+        "options": [
+          "John Donne",
+          "Alexander Pope",
+          "Geoffrey Chaucer",
+          "John Milton"
+        ],
+        "explanation": "Privado de la vista, componía sus versos de noche en su cabeza, y los dictaba cada mañana a sus hijas o secretarios."
+      }
+    }
+  },
+  {
+    "sourceRef": "dc9d2acb955c18fc",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel légume vert allongé entre, avec la tomate et l'aubergine, dans la ratatouille provençale ?",
+        "options": [
+          "La courgette",
+          "Le concombre",
+          "Le poireau",
+          "L'asperge"
+        ],
+        "explanation": "On la cueille souvent jeune et tendre ; laissée sur pied, elle grossit jusqu'à devenir une énorme courge à la chair filandreuse."
+      },
+      "en": {
+        "text": "Which long green vegetable goes, with tomato and aubergine, into a Provençal ratatouille?",
+        "options": [
+          "The courgette",
+          "The cucumber",
+          "The leek",
+          "The asparagus"
+        ],
+        "explanation": "It is often picked young and tender; left on the plant, it swells into a huge marrow with stringy flesh."
+      },
+      "es": {
+        "text": "¿Qué verdura verde alargada entra, junto al tomate y la berenjena, en el pisto provenzal?",
+        "options": [
+          "El calabacín",
+          "El pepino",
+          "El puerro",
+          "El espárrago"
+        ],
+        "explanation": "Se cosecha a menudo joven y tierno; si se deja en la planta, engorda hasta volverse un enorme calabacín de carne fibrosa."
+      }
+    }
+  },
+  {
+    "sourceRef": "c6daab9f9542ae2e",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel plat italien est fait de fines couches de pâte, de sauce à la viande et de fromage, superposées et gratinées ?",
+        "options": [
+          "Les raviolis",
+          "Les lasagnes",
+          "Les gnocchis",
+          "Les tortellinis"
+        ],
+        "explanation": "On en a retrouvé des recettes dès le Moyen Âge ; certaines cités italiennes se disputent encore l'honneur d'en avoir inventé la version d'origine."
+      },
+      "en": {
+        "text": "Which Italian dish is made of thin layers of pasta, meat sauce and cheese, stacked and baked?",
+        "options": [
+          "Ravioli",
+          "Lasagne",
+          "Gnocchi",
+          "Tortellini"
+        ],
+        "explanation": "Recipes date back to the Middle Ages; some Italian cities still argue over the honour of inventing the original version."
+      },
+      "es": {
+        "text": "¿Qué plato italiano se hace con finas capas de pasta, salsa de carne y queso, superpuestas y gratinadas?",
+        "options": [
+          "Los raviolis",
+          "La lasaña",
+          "Los ñoquis",
+          "Los tortellini"
+        ],
+        "explanation": "Hay recetas desde la Edad Media; algunas ciudades italianas aún se disputan el honor de haber inventado la versión original."
+      }
+    }
+  },
+  {
+    "sourceRef": "82cb99f03037105a",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel fromage à pâte molle et croûte fleurie blanche, coulant à cœur, est une fierté de la Normandie ?",
+        "options": [
+          "Le comté",
+          "Le cantal",
+          "Le camembert",
+          "Le reblochon"
+        ],
+        "explanation": "La légende attribue sa recette à une fermière qui l'aurait mise au point durant la Révolution, avec l'aide d'un prêtre en fuite."
+      },
+      "en": {
+        "text": "Which soft cheese with a white bloomy rind, runny at the centre, is a pride of Normandy?",
+        "options": [
+          "Comté",
+          "Cantal",
+          "Camembert",
+          "Reblochon"
+        ],
+        "explanation": "Legend credits its recipe to a farmwoman said to have perfected it during the Revolution, with the help of a priest on the run."
+      },
+      "es": {
+        "text": "¿Qué queso de pasta blanda y corteza blanca florida, cremoso por dentro, es un orgullo de Normandía?",
+        "options": [
+          "El comté",
+          "El cantal",
+          "El camembert",
+          "El reblochon"
+        ],
+        "explanation": "La leyenda atribuye su receta a una granjera que la habría perfeccionado durante la Revolución, con la ayuda de un cura fugitivo."
+      }
+    }
+  },
+  {
+    "sourceRef": "77c7a9dbfb30b5cd",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle échelle mesure la force piquante des piments, du poivron doux au piment brûlant ?",
+        "options": [
+          "L'échelle de Mohs",
+          "L'échelle de Beaufort",
+          "L'échelle de Richter",
+          "L'échelle de Scoville"
+        ],
+        "explanation": "À l'origine, on mesurait le piquant en diluant le piment dans de l'eau sucrée, jusqu'à ce que des goûteurs ne sentent plus rien."
+      },
+      "en": {
+        "text": "Which scale measures the heat of chilli peppers, from the mild bell pepper to the fiery chilli?",
+        "options": [
+          "The Mohs scale",
+          "The Beaufort scale",
+          "The Richter scale",
+          "The Scoville scale"
+        ],
+        "explanation": "Originally the heat was gauged by diluting the pepper in sugar water until tasters could feel nothing more."
+      },
+      "es": {
+        "text": "¿Qué escala mide el picor de los chiles, del pimiento dulce al ají ardiente?",
+        "options": [
+          "La escala de Mohs",
+          "La escala de Beaufort",
+          "La escala de Richter",
+          "La escala de Scoville"
+        ],
+        "explanation": "En origen el picor se medía diluyendo el chile en agua azucarada, hasta que los catadores no sentían nada más."
+      }
+    }
+  },
+  {
+    "sourceRef": "778df5f65d8fbfbf",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "De quel animal provient le jambon que l'on tranche finement pour les sandwichs ?",
+        "options": [
+          "Le porc",
+          "Le bœuf",
+          "L'agneau",
+          "Le poulet"
+        ],
+        "explanation": "Certains jambons crus sont salés puis séchés à l'air pendant des mois, voire des années, pour développer tout leur parfum."
+      },
+      "en": {
+        "text": "From which animal does the ham that we thinly slice for sandwiches come?",
+        "options": [
+          "The pig",
+          "The cow",
+          "The lamb",
+          "The chicken"
+        ],
+        "explanation": "Some cured hams are salted then air-dried for months, even years, to develop their full flavour."
+      },
+      "es": {
+        "text": "¿De qué animal proviene el jamón que se corta en finas lonchas para los bocadillos?",
+        "options": [
+          "El cerdo",
+          "La vaca",
+          "El cordero",
+          "El pollo"
+        ],
+        "explanation": "Algunos jamones curados se salan y luego se secan al aire durante meses, incluso años, para desarrollar todo su aroma."
+      }
+    }
+  },
+  {
+    "sourceRef": "7a04ff8ebd75e4d7",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel dessert glacé italien, plus dense et onctueux que la crème glacée, se décline en pistache ou stracciatella ?",
+        "options": [
+          "Le sorbet",
+          "Le gelato",
+          "Le granité",
+          "Le semifreddo"
+        ],
+        "explanation": "Battu plus lentement, il contient moins d'air et se sert un peu moins froid, ce qui en révèle davantage les arômes en bouche."
+      },
+      "en": {
+        "text": "Which Italian frozen dessert, denser and creamier than ice cream, comes in pistachio or stracciatella?",
+        "options": [
+          "Sorbet",
+          "Gelato",
+          "Granita",
+          "Semifreddo"
+        ],
+        "explanation": "Churned more slowly, it holds less air and is served a touch less cold, which brings out more of its flavour in the mouth."
+      },
+      "es": {
+        "text": "¿Qué postre helado italiano, más denso y cremoso que el helado corriente, se hace de pistacho o stracciatella?",
+        "options": [
+          "El sorbete",
+          "El gelato",
+          "El granizado",
+          "El semifrío"
+        ],
+        "explanation": "Batido más despacio, contiene menos aire y se sirve algo menos frío, lo que realza más su aroma en la boca."
+      }
+    }
+  },
+  {
+    "sourceRef": "14e7f8173ceb659e",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle soupe espagnole froide, à base de tomates crues, de concombre et de poivron, se déguste l'été ?",
+        "options": [
+          "La bouillabaisse",
+          "Le minestrone",
+          "Le gaspacho",
+          "Le velouté"
+        ],
+        "explanation": "Née de la cuisine paysanne d'Andalousie, elle permettait de se rafraîchir et de se nourrir avec de simples restes de pain et de légumes."
+      },
+      "en": {
+        "text": "Which cold Spanish soup, made of raw tomatoes, cucumber and pepper, is enjoyed in summer?",
+        "options": [
+          "Bouillabaisse",
+          "Minestrone",
+          "Gazpacho",
+          "Velouté"
+        ],
+        "explanation": "Born of Andalusian peasant cooking, it let people cool down and eat well from simple leftovers of bread and vegetables."
+      },
+      "es": {
+        "text": "¿Qué sopa española fría, a base de tomates crudos, pepino y pimiento, se toma en verano?",
+        "options": [
+          "La bullabesa",
+          "El minestrone",
+          "El gazpacho",
+          "La crema"
+        ],
+        "explanation": "Nacida de la cocina campesina de Andalucía, permitía refrescarse y alimentarse con simples restos de pan y verduras."
+      }
+    }
+  },
+  {
+    "sourceRef": "31ed5b88168d36c8",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel condiment jaune et piquant, fait de graines broyées, accompagne traditionnellement les hot-dogs ?",
+        "options": [
+          "Le ketchup",
+          "La sauce soja",
+          "Le relish",
+          "La moutarde"
+        ],
+        "explanation": "Sa force vient d'une réaction chimique qui ne se déclenche qu'au contact de l'eau, libérant alors son piquant en montant au nez."
+      },
+      "en": {
+        "text": "Which yellow, pungent condiment, made from ground seeds, traditionally goes with hot dogs?",
+        "options": [
+          "Ketchup",
+          "Soy sauce",
+          "Relish",
+          "Mustard"
+        ],
+        "explanation": "Its bite comes from a chemical reaction triggered only by contact with water, which then releases its sharpness up the nose."
+      },
+      "es": {
+        "text": "¿Qué condimento amarillo y picante, hecho de semillas molidas, acompaña tradicionalmente a los perritos calientes?",
+        "options": [
+          "El kétchup",
+          "La salsa de soja",
+          "El relish",
+          "La mostaza"
+        ],
+        "explanation": "Su fuerza viene de una reacción química que solo se activa al contacto con el agua, liberando entonces su picor que sube a la nariz."
+      }
+    }
+  },
+  {
+    "sourceRef": "cda2de6f32d02520",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel plat vietnamien est une soupe de nouilles de riz dans un bouillon parfumé, souvent servie avec du bœuf ?",
+        "options": [
+          "Le pho",
+          "Le pad thaï",
+          "Le laksa",
+          "Le bibimbap"
+        ],
+        "explanation": "Le bouillon mijote de longues heures avec des épices grillées ; chacun l'assaisonne à sa guise d'herbes fraîches et de citron vert."
+      },
+      "en": {
+        "text": "Which Vietnamese dish is a rice-noodle soup in a fragrant broth, often served with beef?",
+        "options": [
+          "Pho",
+          "Pad thai",
+          "Laksa",
+          "Bibimbap"
+        ],
+        "explanation": "The broth simmers for long hours with roasted spices; each diner seasons it to taste with fresh herbs and lime."
+      },
+      "es": {
+        "text": "¿Qué plato vietnamita es una sopa de fideos de arroz en un caldo aromático, a menudo servida con ternera?",
+        "options": [
+          "El pho",
+          "El pad thai",
+          "El laksa",
+          "El bibimbap"
+        ],
+        "explanation": "El caldo se cuece a fuego lento largas horas con especias tostadas; cada comensal lo sazona a su gusto con hierbas frescas y lima."
+      }
+    }
+  },
+  {
+    "sourceRef": "8c2b6ee59f3d29c6",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle pâtisserie française ronde et légère, faite de deux coques colorées, cache une fine ganache ?",
+        "options": [
+          "Le chou",
+          "Le macaron",
+          "Le financier",
+          "Le cannelé"
+        ],
+        "explanation": "Fragile et capricieux, il demande une cuisson parfaite pour former la petite collerette qui fait la fierté des pâtissiers."
+      },
+      "en": {
+        "text": "Which round, light French pastry, made of two coloured shells, hides a thin ganache?",
+        "options": [
+          "The choux bun",
+          "The macaron",
+          "The financier",
+          "The cannelé"
+        ],
+        "explanation": "Fragile and temperamental, it needs perfect baking to form the little frilly foot that is the pride of pastry chefs."
+      },
+      "es": {
+        "text": "¿Qué pastelito francés redondo y ligero, hecho de dos tapas de colores, esconde una fina ganache?",
+        "options": [
+          "El profiterol",
+          "El macaron",
+          "El financier",
+          "El canelé"
+        ],
+        "explanation": "Frágil y caprichoso, exige una cocción perfecta para formar el pequeño pie rizado que enorgullece a los pasteleros."
+      }
+    }
+  },
+  {
+    "sourceRef": "85ee84c69f0cb4e7",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel fromage italien à pâte dure, affiné de longs mois, se râpe volontiers sur les pâtes ?",
+        "options": [
+          "La mozzarella",
+          "Le mascarpone",
+          "Le parmesan",
+          "La burrata"
+        ],
+        "explanation": "Chaque meule, marquée et numérotée, peut vieillir plusieurs années ; les banques italiennes en acceptent même comme garantie de prêt."
+      },
+      "en": {
+        "text": "Which hard Italian cheese, aged for long months, is happily grated over pasta?",
+        "options": [
+          "Mozzarella",
+          "Mascarpone",
+          "Parmesan",
+          "Burrata"
+        ],
+        "explanation": "Each wheel, branded and numbered, can age several years; Italian banks even accept them as loan collateral."
+      },
+      "es": {
+        "text": "¿Qué queso italiano de pasta dura, curado largos meses, se ralla con gusto sobre la pasta?",
+        "options": [
+          "La mozzarella",
+          "El mascarpone",
+          "El parmesano",
+          "La burrata"
+        ],
+        "explanation": "Cada rueda, marcada y numerada, puede envejecer varios años; los bancos italianos las aceptan incluso como garantía de préstamo."
+      }
+    }
+  },
+  {
+    "sourceRef": "a19c0d334d759cd8",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel petit fruit à coque, cœur de la célèbre pâte à tartiner au chocolat, pousse sur le noisetier ?",
+        "options": [
+          "L'amande",
+          "La noix",
+          "La pistache",
+          "La noisette"
+        ],
+        "explanation": "Une seule marque de pâte à tartiner en consomme une part si énorme qu'elle pèse à elle seule sur les récoltes mondiales."
+      },
+      "en": {
+        "text": "Which small nut, the heart of the famous chocolate spread, grows on the hazel tree?",
+        "options": [
+          "The almond",
+          "The walnut",
+          "The pistachio",
+          "The hazelnut"
+        ],
+        "explanation": "A single spread brand uses such a huge share of them that it alone weighs on world harvests."
+      },
+      "es": {
+        "text": "¿Qué pequeño fruto seco, corazón de la famosa crema de chocolate para untar, crece en el avellano?",
+        "options": [
+          "La almendra",
+          "La nuez",
+          "El pistacho",
+          "La avellana"
+        ],
+        "explanation": "Una sola marca de crema para untar consume una parte tan enorme que ella sola influye en las cosechas mundiales."
+      }
+    }
+  },
+  {
+    "sourceRef": "a5a1b3c2b887c649",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus haut sommet du monde, dressé dans la chaîne de l'Himalaya ?",
+        "options": [
+          "L'Everest",
+          "Le K2",
+          "Le Mont Blanc",
+          "L'Aconcagua"
+        ],
+        "explanation": "À son sommet, l'air est si pauvre en oxygène que le corps humain, laissé à lui-même, ne peut y survivre longtemps."
+      },
+      "en": {
+        "text": "What is the highest peak in the world, rising in the Himalayan range?",
+        "options": [
+          "Everest",
+          "K2",
+          "Mont Blanc",
+          "Aconcagua"
+        ],
+        "explanation": "At its summit the air is so poor in oxygen that the human body, left to itself, cannot survive there for long."
+      },
+      "es": {
+        "text": "¿Cuál es la cumbre más alta del mundo, erguida en la cordillera del Himalaya?",
+        "options": [
+          "El Everest",
+          "El K2",
+          "El Mont Blanc",
+          "El Aconcagua"
+        ],
+        "explanation": "En su cima el aire es tan pobre en oxígeno que el cuerpo humano, librado a sí mismo, no puede sobrevivir mucho tiempo."
+      }
+    }
+  },
+  {
+    "sourceRef": "6f90da571dfb7799",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel pays d'Amérique du Sud, en forme de long ruban, s'étire sur près de la moitié de la côte pacifique du continent ?",
+        "options": [
+          "L'Argentine",
+          "Le Chili",
+          "Le Pérou",
+          "L'Équateur"
+        ],
+        "explanation": "Long de plus de quatre mille kilomètres mais large de moins de deux cents en moyenne, il traverse déserts, forêts et glaciers."
+      },
+      "en": {
+        "text": "Which South American country, shaped like a long ribbon, stretches along nearly half the continent's Pacific coast?",
+        "options": [
+          "Argentina",
+          "Chile",
+          "Peru",
+          "Ecuador"
+        ],
+        "explanation": "Over four thousand kilometres long but under two hundred wide on average, it crosses deserts, forests and glaciers."
+      },
+      "es": {
+        "text": "¿Qué país de América del Sur, con forma de larga cinta, se extiende por casi la mitad de la costa pacífica del continente?",
+        "options": [
+          "Argentina",
+          "Chile",
+          "Perú",
+          "Ecuador"
+        ],
+        "explanation": "Con más de cuatro mil kilómetros de largo pero menos de doscientos de ancho de media, cruza desiertos, bosques y glaciares."
+      }
+    }
+  },
+  {
+    "sourceRef": "7e6c00f2e1bc51d9",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus grand lac d'eau douce d'Amérique du Nord, partagé entre le Canada et les États-Unis ?",
+        "options": [
+          "Le lac Michigan",
+          "Le Grand Lac Salé",
+          "Le lac Supérieur",
+          "Le lac Huron"
+        ],
+        "explanation": "Il contient à lui seul assez d'eau douce pour recouvrir les deux Amériques d'une couche de plusieurs dizaines de centimètres."
+      },
+      "en": {
+        "text": "What is the largest freshwater lake in North America, shared by Canada and the United States?",
+        "options": [
+          "Lake Michigan",
+          "The Great Salt Lake",
+          "Lake Superior",
+          "Lake Huron"
+        ],
+        "explanation": "It alone holds enough fresh water to cover both Americas under a layer several tens of centimetres deep."
+      },
+      "es": {
+        "text": "¿Cuál es el mayor lago de agua dulce de América del Norte, compartido por Canadá y los Estados Unidos?",
+        "options": [
+          "El lago Míchigan",
+          "El Gran Lago Salado",
+          "El lago Superior",
+          "El lago Hurón"
+        ],
+        "explanation": "Él solo contiene bastante agua dulce para cubrir ambas Américas bajo una capa de varias decenas de centímetros."
+      }
+    }
+  },
+  {
+    "sourceRef": "73558b40d3f2bb39",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel pays d'Afrique, traversé par le Nil, abrite les pyramides de Gizeh et le Sphinx ?",
+        "options": [
+          "Le Soudan",
+          "La Libye",
+          "L'Éthiopie",
+          "L'Égypte"
+        ],
+        "explanation": "Presque toute sa population vit serrée le long du fleuve et de son delta, le reste du pays étant occupé par le désert."
+      },
+      "en": {
+        "text": "Which African country, crossed by the Nile, is home to the Giza pyramids and the Sphinx?",
+        "options": [
+          "Sudan",
+          "Libya",
+          "Ethiopia",
+          "Egypt"
+        ],
+        "explanation": "Almost its entire population lives crowded along the river and its delta, the rest of the country being taken up by desert."
+      },
+      "es": {
+        "text": "¿Qué país de África, atravesado por el Nilo, alberga las pirámides de Guiza y la Esfinge?",
+        "options": [
+          "Sudán",
+          "Libia",
+          "Etiopía",
+          "Egipto"
+        ],
+        "explanation": "Casi toda su población vive apretada a lo largo del río y su delta, ocupando el desierto el resto del país."
+      }
+    }
+  },
+  {
+    "sourceRef": "6d912efa0dfd0a49",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel pays d'Europe, formé de milliers d'îles baignées par la mer Égée, a pour capitale Athènes ?",
+        "options": [
+          "La Grèce",
+          "La Croatie",
+          "La Turquie",
+          "L'Italie"
+        ],
+        "explanation": "Malgré ses milliers d'îles, seules quelques centaines sont habitées, les autres n'offrant que des rochers arides battus par le vent."
+      },
+      "en": {
+        "text": "Which European country, made of thousands of islands in the Aegean Sea, has Athens as its capital?",
+        "options": [
+          "Greece",
+          "Croatia",
+          "Turkey",
+          "Italy"
+        ],
+        "explanation": "Despite its thousands of islands, only a few hundred are inhabited, the rest offering just arid, wind-beaten rocks."
+      },
+      "es": {
+        "text": "¿Qué país de Europa, formado por miles de islas bañadas por el mar Egeo, tiene por capital Atenas?",
+        "options": [
+          "Grecia",
+          "Croacia",
+          "Turquía",
+          "Italia"
+        ],
+        "explanation": "Pese a sus miles de islas, solo unos cientos están habitadas, ofreciendo las demás solo rocas áridas batidas por el viento."
+      }
+    }
+  },
+  {
+    "sourceRef": "1d7d5d334e6b0d7e",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel immense État américain, le plus vaste du pays, fut acheté à la Russie en 1867 ?",
+        "options": [
+          "Le Texas",
+          "L'Alaska",
+          "Le Montana",
+          "Le Nevada"
+        ],
+        "explanation": "L'achat, jugé absurde à l'époque et surnommé « la folie » de son artisan, se révéla une affaire en or après la découverte d'or et de pétrole."
+      },
+      "en": {
+        "text": "Which huge American state, the largest in the country, was bought from Russia in 1867?",
+        "options": [
+          "Texas",
+          "Alaska",
+          "Montana",
+          "Nevada"
+        ],
+        "explanation": "The purchase, thought absurd at the time and mocked as its architect's 'folly', proved a goldmine after gold and oil were found."
+      },
+      "es": {
+        "text": "¿Qué inmenso estado estadounidense, el más vasto del país, se compró a Rusia en 1867?",
+        "options": [
+          "Texas",
+          "Alaska",
+          "Montana",
+          "Nevada"
+        ],
+        "explanation": "La compra, juzgada absurda entonces y apodada 'la locura' de su artífice, resultó un chollo tras hallarse oro y petróleo."
+      }
+    }
+  },
+  {
+    "sourceRef": "ba6ece59a0fe40a9",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle chaîne de montagnes forme une frontière naturelle entre la France et l'Espagne ?",
+        "options": [
+          "Les Alpes",
+          "Les Vosges",
+          "Les Pyrénées",
+          "Le Jura"
+        ],
+        "explanation": "Nichée entre les deux pays, une minuscule principauté vit du commerce et du ski, blottie tout au cœur de ces montagnes."
+      },
+      "en": {
+        "text": "Which mountain range forms a natural border between France and Spain?",
+        "options": [
+          "The Alps",
+          "The Vosges",
+          "The Pyrenees",
+          "The Jura"
+        ],
+        "explanation": "Tucked between the two countries, a tiny principality lives off trade and skiing, nestled at the very heart of these mountains."
+      },
+      "es": {
+        "text": "¿Qué cordillera forma una frontera natural entre Francia y España?",
+        "options": [
+          "Los Alpes",
+          "Los Vosgos",
+          "Los Pirineos",
+          "El Jura"
+        ],
+        "explanation": "Enclavado entre ambos países, un minúsculo principado vive del comercio y del esquí, acurrucado en el corazón de estas montañas."
+      }
+    }
+  },
+  {
+    "sourceRef": "3e88dde3d6e565a9",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle chaîne de montagnes, la plus haute d'Europe occidentale, sépare la France, la Suisse et l'Italie ?",
+        "options": [
+          "Les Carpates",
+          "Les Apennins",
+          "Les Pyrénées",
+          "Les Alpes"
+        ],
+        "explanation": "Un tunnel routier de plus de onze kilomètres les traverse de part en part, reliant deux vallées jadis coupées l'une de l'autre l'hiver."
+      },
+      "en": {
+        "text": "Which mountain range, the highest in Western Europe, separates France, Switzerland and Italy?",
+        "options": [
+          "The Carpathians",
+          "The Apennines",
+          "The Pyrenees",
+          "The Alps"
+        ],
+        "explanation": "A road tunnel of over eleven kilometres runs right through them, linking two valleys once cut off from each other in winter."
+      },
+      "es": {
+        "text": "¿Qué cordillera, la más alta de Europa occidental, separa Francia, Suiza e Italia?",
+        "options": [
+          "Los Cárpatos",
+          "Los Apeninos",
+          "Los Pirineos",
+          "Los Alpes"
+        ],
+        "explanation": "Un túnel de carretera de más de once kilómetros los atraviesa de lado a lado, uniendo dos valles antes aislados en invierno."
+      }
+    }
+  },
+  {
+    "sourceRef": "2dc150fd2cd36592",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle petite république d'Amérique centrale, sans armée depuis 1948, est réputée pour sa biodiversité exceptionnelle ?",
+        "options": [
+          "Le Costa Rica",
+          "Le Nicaragua",
+          "Le Honduras",
+          "Le Panama"
+        ],
+        "explanation": "Grande comme une région, elle abriterait pourtant près de cinq pour cent de toutes les espèces vivantes connues sur Terre."
+      },
+      "en": {
+        "text": "Which small Central American republic, without an army since 1948, is famed for its exceptional biodiversity?",
+        "options": [
+          "Costa Rica",
+          "Nicaragua",
+          "Honduras",
+          "Panama"
+        ],
+        "explanation": "No bigger than a region, it is said to shelter nearly five percent of all the living species known on Earth."
+      },
+      "es": {
+        "text": "¿Qué pequeña república de América Central, sin ejército desde 1948, es famosa por su excepcional biodiversidad?",
+        "options": [
+          "Costa Rica",
+          "Nicaragua",
+          "Honduras",
+          "Panamá"
+        ],
+        "explanation": "Del tamaño de una región, albergaría sin embargo casi el cinco por ciento de todas las especies vivas conocidas en la Tierra."
+      }
+    }
+  },
+  {
+    "sourceRef": "32fc0dd236258598",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel pays d'Afrique australe, en grande partie couvert par le désert du Kalahari, a pour capitale Gaborone ?",
+        "options": [
+          "La Namibie",
+          "Le Botswana",
+          "La Zambie",
+          "Le Zimbabwe"
+        ],
+        "explanation": "Chaque année, les pluies transforment une de ses régions en un immense delta intérieur où affluent éléphants, lions et oiseaux."
+      },
+      "en": {
+        "text": "Which southern African country, largely covered by the Kalahari Desert, has Gaborone as its capital?",
+        "options": [
+          "Namibia",
+          "Botswana",
+          "Zambia",
+          "Zimbabwe"
+        ],
+        "explanation": "Each year, the rains turn one of its regions into a vast inland delta where elephants, lions and birds gather."
+      },
+      "es": {
+        "text": "¿Qué país del sur de África, cubierto en gran parte por el desierto del Kalahari, tiene por capital Gaborone?",
+        "options": [
+          "Namibia",
+          "Botsuana",
+          "Zambia",
+          "Zimbabue"
+        ],
+        "explanation": "Cada año, las lluvias convierten una de sus regiones en un inmenso delta interior donde acuden elefantes, leones y aves."
+      }
+    }
+  },
+  {
+    "sourceRef": "847c9f2e69038e6e",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel fleuve d'Afrique centrale, deuxième du continent par sa longueur, franchit l'équateur à deux reprises ?",
+        "options": [
+          "Le Niger",
+          "Le Zambèze",
+          "Le Congo",
+          "Le Sénégal"
+        ],
+        "explanation": "Traversant deux fois l'équateur, il connaît toujours une saison des pluies quelque part sur son bassin, ce qui lui assure un débit puissant et régulier."
+      },
+      "en": {
+        "text": "Which Central African river, the continent's second longest, crosses the equator twice?",
+        "options": [
+          "The Niger",
+          "The Zambezi",
+          "The Congo",
+          "The Senegal"
+        ],
+        "explanation": "Crossing the equator twice, it always has a rainy season somewhere in its basin, giving it a powerful, steady flow."
+      },
+      "es": {
+        "text": "¿Qué río de África central, el segundo del continente por su longitud, cruza el ecuador dos veces?",
+        "options": [
+          "El Níger",
+          "El Zambeze",
+          "El Congo",
+          "El Senegal"
+        ],
+        "explanation": "Al cruzar dos veces el ecuador, siempre tiene una temporada de lluvias en algún punto de su cuenca, lo que le da un caudal potente y regular."
+      }
+    }
+  },
+  {
+    "sourceRef": "b4cc635b71dca27e",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel pays, à cheval sur l'Europe et l'Asie, a pour plus grande ville Istanbul, traversée par un détroit ?",
+        "options": [
+          "La Russie",
+          "La Géorgie",
+          "La Grèce",
+          "La Turquie"
+        ],
+        "explanation": "Un pont franchit le détroit qui coupe sa plus grande ville en deux : on peut y prendre son petit-déjeuner sur un continent et déjeuner sur l'autre."
+      },
+      "en": {
+        "text": "Which country, straddling Europe and Asia, has as its largest city Istanbul, split by a strait?",
+        "options": [
+          "Russia",
+          "Georgia",
+          "Greece",
+          "Turkey"
+        ],
+        "explanation": "A bridge spans the strait that cuts its biggest city in two: one can have breakfast on one continent and lunch on the other."
+      },
+      "es": {
+        "text": "¿Qué país, a caballo entre Europa y Asia, tiene como mayor ciudad Estambul, atravesada por un estrecho?",
+        "options": [
+          "Rusia",
+          "Georgia",
+          "Grecia",
+          "Turquía"
+        ],
+        "explanation": "Un puente cruza el estrecho que parte en dos su mayor ciudad: se puede desayunar en un continente y almorzar en el otro."
+      }
+    }
+  },
+  {
+    "sourceRef": "23f453cbd9b45b4e",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel roi de France fut jugé puis guillotiné en 1793, pendant la Révolution ?",
+        "options": [
+          "Louis XVI",
+          "Louis XIV",
+          "Charles X",
+          "Henri IV"
+        ],
+        "explanation": "Passionné de serrurerie, il fabriquait des cadenas pour se détendre, loin des affaires d'un royaume qu'il peinait à gouverner."
+      },
+      "en": {
+        "text": "Which king of France was tried and then guillotined in 1793, during the Revolution?",
+        "options": [
+          "Louis XVI",
+          "Louis XIV",
+          "Charles X",
+          "Henri IV"
+        ],
+        "explanation": "Keen on locksmithing, he made padlocks to relax, far from the affairs of a kingdom he struggled to govern."
+      },
+      "es": {
+        "text": "¿Qué rey de Francia fue juzgado y luego guillotinado en 1793, durante la Revolución?",
+        "options": [
+          "Luis XVI",
+          "Luis XIV",
+          "Carlos X",
+          "Enrique IV"
+        ],
+        "explanation": "Aficionado a la cerrajería, fabricaba candados para relajarse, lejos de los asuntos de un reino que le costaba gobernar."
+      }
+    }
+  },
+  {
+    "sourceRef": "cfddff9a05d9e3ec",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel conquérant fonda au XIIIᵉ siècle l'un des plus vastes empires de l'histoire, unifiant les tribus mongoles ?",
+        "options": [
+          "Attila",
+          "Gengis Khan",
+          "Tamerlan",
+          "Kubilaï Khan"
+        ],
+        "explanation": "Son empire s'étendit d'un bout à l'autre de l'Asie ; l'emplacement de sa tombe reste, aujourd'hui encore, un mystère jalousement gardé."
+      },
+      "en": {
+        "text": "Which conqueror founded, in the 13th century, one of history's largest empires, uniting the Mongol tribes?",
+        "options": [
+          "Attila",
+          "Genghis Khan",
+          "Tamerlane",
+          "Kublai Khan"
+        ],
+        "explanation": "His empire stretched across Asia; the location of his grave remains, even today, a jealously guarded mystery."
+      },
+      "es": {
+        "text": "¿Qué conquistador fundó en el siglo XIII uno de los mayores imperios de la historia, uniendo a las tribus mongolas?",
+        "options": [
+          "Atila",
+          "Gengis Kan",
+          "Tamerlán",
+          "Kublai Kan"
+        ],
+        "explanation": "Su imperio se extendió de un extremo a otro de Asia; la ubicación de su tumba sigue siendo hoy un misterio celosamente guardado."
+      }
+    }
+  },
+  {
+    "sourceRef": "a0c44216e073588d",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle civilisation antique inventa la démocratie dans la cité d'Athènes ?",
+        "options": [
+          "Les Romains",
+          "Les Perses",
+          "Les Grecs",
+          "Les Égyptiens"
+        ],
+        "explanation": "Leur démocratie restait limitée : femmes, esclaves et étrangers en étaient exclus, seuls votaient les citoyens masculins libres."
+      },
+      "en": {
+        "text": "Which ancient civilisation invented democracy in the city of Athens?",
+        "options": [
+          "The Romans",
+          "The Persians",
+          "The Greeks",
+          "The Egyptians"
+        ],
+        "explanation": "Their democracy stayed limited: women, slaves and foreigners were excluded, and only free male citizens could vote."
+      },
+      "es": {
+        "text": "¿Qué civilización antigua inventó la democracia en la ciudad de Atenas?",
+        "options": [
+          "Los romanos",
+          "Los persas",
+          "Los griegos",
+          "Los egipcios"
+        ],
+        "explanation": "Su democracia seguía siendo limitada: mujeres, esclavos y extranjeros quedaban excluidos, y solo votaban los ciudadanos varones libres."
+      }
+    }
+  },
+  {
+    "sourceRef": "78eea3b8116fbd97",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle guerre mondiale, de 1939 à 1945, opposa les Alliés aux forces de l'Axe ?",
+        "options": [
+          "La guerre froide",
+          "La guerre de Corée",
+          "La Première Guerre mondiale",
+          "La Seconde Guerre mondiale"
+        ],
+        "explanation": "Ce conflit reste le plus meurtrier de l'histoire ; il s'acheva par la reddition sans conditions des dernières puissances de l'Axe."
+      },
+      "en": {
+        "text": "Which world war, from 1939 to 1945, pitted the Allies against the Axis powers?",
+        "options": [
+          "The Cold War",
+          "The Korean War",
+          "The First World War",
+          "The Second World War"
+        ],
+        "explanation": "This conflict remains the deadliest in history; it ended with the unconditional surrender of the last Axis powers."
+      },
+      "es": {
+        "text": "¿Qué guerra mundial, de 1939 a 1945, enfrentó a los Aliados con las fuerzas del Eje?",
+        "options": [
+          "La guerra fría",
+          "La guerra de Corea",
+          "La Primera Guerra Mundial",
+          "La Segunda Guerra Mundial"
+        ],
+        "explanation": "Este conflicto sigue siendo el más mortífero de la historia; terminó con la rendición incondicional de las últimas potencias del Eje."
+      }
+    }
+  },
+  {
+    "sourceRef": "c0b4bd44c961b487",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "En quelle année Christophe Colomb atteignit-il pour la première fois les Amériques ?",
+        "options": [
+          "1492",
+          "1453",
+          "1517",
+          "1607"
+        ],
+        "explanation": "Persuadé jusqu'à sa mort d'avoir atteint les Indes par l'ouest, il ne sut jamais qu'il avait abordé un continent inconnu des Européens."
+      },
+      "en": {
+        "text": "In which year did Christopher Columbus first reach the Americas?",
+        "options": [
+          "1492",
+          "1453",
+          "1517",
+          "1607"
+        ],
+        "explanation": "Convinced until his death that he had reached the Indies from the west, he never knew he had landed on a continent unknown to Europeans."
+      },
+      "es": {
+        "text": "¿En qué año llegó Cristóbal Colón por primera vez a las Américas?",
+        "options": [
+          "1492",
+          "1453",
+          "1517",
+          "1607"
+        ],
+        "explanation": "Convencido hasta su muerte de haber llegado a las Indias por el oeste, nunca supo que había arribado a un continente desconocido para los europeos."
+      }
+    }
+  },
+  {
+    "sourceRef": "c22e51ec76dfecda",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel empereur romain, réputé cruel, aurait « regardé Rome brûler » lors du grand incendie de la ville ?",
+        "options": [
+          "Caligula",
+          "Néron",
+          "Commode",
+          "Tibère"
+        ],
+        "explanation": "La légende le montre jouant de la musique face aux flammes ; les historiens doutent, mais l'image a traversé les siècles."
+      },
+      "en": {
+        "text": "Which Roman emperor, reputed to be cruel, is said to have 'watched Rome burn' during the great fire of the city?",
+        "options": [
+          "Caligula",
+          "Nero",
+          "Commodus",
+          "Tiberius"
+        ],
+        "explanation": "Legend shows him playing music before the flames; historians doubt it, but the image has crossed the centuries."
+      },
+      "es": {
+        "text": "¿Qué emperador romano, de fama cruel, habría 'contemplado arder Roma' durante el gran incendio de la ciudad?",
+        "options": [
+          "Calígula",
+          "Nerón",
+          "Cómodo",
+          "Tiberio"
+        ],
+        "explanation": "La leyenda lo muestra tocando música ante las llamas; los historiadores lo dudan, pero la imagen ha atravesado los siglos."
+      }
+    }
+  },
+  {
+    "sourceRef": "b28be1a2739dc412",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle période de renouveau des arts et des sciences débuta en Italie au XVᵉ siècle ?",
+        "options": [
+          "Les Lumières",
+          "L'Antiquité",
+          "La Renaissance",
+          "La Belle Époque"
+        ],
+        "explanation": "Redécouvrant les auteurs de l'Antiquité, ses artistes replacèrent l'homme au centre du monde, après des siècles tournés vers le seul divin."
+      },
+      "en": {
+        "text": "Which period of renewal in the arts and sciences began in Italy in the 15th century?",
+        "options": [
+          "The Enlightenment",
+          "Antiquity",
+          "The Renaissance",
+          "The Belle Époque"
+        ],
+        "explanation": "Rediscovering the writers of Antiquity, its artists put humankind back at the centre of the world, after centuries turned only towards the divine."
+      },
+      "es": {
+        "text": "¿Qué período de renovación de las artes y las ciencias comenzó en Italia en el siglo XV?",
+        "options": [
+          "La Ilustración",
+          "La Antigüedad",
+          "El Renacimiento",
+          "La Belle Époque"
+        ],
+        "explanation": "Al redescubrir a los autores de la Antigüedad, sus artistas devolvieron al ser humano al centro del mundo, tras siglos vueltos solo hacia lo divino."
+      }
+    }
+  },
+  {
+    "sourceRef": "b3c81669d9c8b651",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle bataille de 1805, surnommée « bataille des Trois Empereurs », vit Napoléon écraser Russes et Autrichiens ?",
+        "options": [
+          "Iéna",
+          "Wagram",
+          "Marengo",
+          "Austerlitz"
+        ],
+        "explanation": "Napoléon y aurait attiré l'ennemi sur un lac gelé avant de faire tirer au canon sur la glace, engloutissant des colonnes entières."
+      },
+      "en": {
+        "text": "Which 1805 battle, nicknamed the 'Battle of the Three Emperors', saw Napoleon crush the Russians and Austrians?",
+        "options": [
+          "Jena",
+          "Wagram",
+          "Marengo",
+          "Austerlitz"
+        ],
+        "explanation": "Napoleon is said to have lured the enemy onto a frozen lake before firing cannon at the ice, swallowing whole columns."
+      },
+      "es": {
+        "text": "¿Qué batalla de 1805, apodada 'batalla de los Tres Emperadores', vio a Napoleón aplastar a rusos y austríacos?",
+        "options": [
+          "Jena",
+          "Wagram",
+          "Marengo",
+          "Austerlitz"
+        ],
+        "explanation": "Napoleón habría atraído al enemigo sobre un lago helado antes de disparar cañones contra el hielo, tragándose columnas enteras."
+      }
+    }
+  },
+  {
+    "sourceRef": "d3d6a2c119768b9e",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel système de ségrégation raciale, en vigueur en Afrique du Sud, fut aboli au début des années 1990 ?",
+        "options": [
+          "L'apartheid",
+          "Le servage",
+          "Le protectorat",
+          "Le mandat"
+        ],
+        "explanation": "Emprisonné pendant vingt-sept ans pour s'y être opposé, un homme en sortit pour devenir le premier président élu au suffrage de tous."
+      },
+      "en": {
+        "text": "Which system of racial segregation, in force in South Africa, was abolished in the early 1990s?",
+        "options": [
+          "Apartheid",
+          "Serfdom",
+          "The protectorate",
+          "The mandate"
+        ],
+        "explanation": "Imprisoned for twenty-seven years for opposing it, one man walked free to become the first president elected by all."
+      },
+      "es": {
+        "text": "¿Qué sistema de segregación racial, vigente en Sudáfrica, fue abolido a principios de los años 1990?",
+        "options": [
+          "El apartheid",
+          "La servidumbre",
+          "El protectorado",
+          "El mandato"
+        ],
+        "explanation": "Encarcelado veintisiete años por oponerse a él, un hombre salió libre para convertirse en el primer presidente elegido por todos."
+      }
+    }
+  },
+  {
+    "sourceRef": "aa69976d942e2ed9",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel président des États-Unis proclama l'abolition de l'esclavage pendant la guerre de Sécession ?",
+        "options": [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "Franklin Roosevelt"
+        ],
+        "explanation": "Homme du peuple né dans une cabane en rondins, il fut assassiné dans un théâtre quelques jours après la fin de la guerre."
+      },
+      "en": {
+        "text": "Which US president proclaimed the abolition of slavery during the Civil War?",
+        "options": [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "Franklin Roosevelt"
+        ],
+        "explanation": "A man of the people born in a log cabin, he was assassinated in a theatre a few days after the war ended."
+      },
+      "es": {
+        "text": "¿Qué presidente de los Estados Unidos proclamó la abolición de la esclavitud durante la guerra de Secesión?",
+        "options": [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "Franklin Roosevelt"
+        ],
+        "explanation": "Hombre del pueblo nacido en una cabaña de troncos, fue asesinado en un teatro pocos días después del fin de la guerra."
+      }
+    }
+  },
+  {
+    "sourceRef": "e777496a3c1d7022",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle dynastie franque, aux souverains surnommés les « rois fainéants », précéda celle de Charlemagne ?",
+        "options": [
+          "Les Capétiens",
+          "Les Valois",
+          "Les Mérovingiens",
+          "Les Bourbons"
+        ],
+        "explanation": "Ses derniers rois, réduits à l'ombre, se laissaient conduire d'un domaine à l'autre dans un char tiré par des bœufs, tandis que d'autres gouvernaient."
+      },
+      "en": {
+        "text": "Which Frankish dynasty, whose rulers were nicknamed the 'do-nothing kings', came before Charlemagne's?",
+        "options": [
+          "The Capetians",
+          "The Valois",
+          "The Merovingians",
+          "The Bourbons"
+        ],
+        "explanation": "Its last kings, reduced to shadows, were carted from estate to estate in an ox-drawn wagon, while others actually ruled."
+      },
+      "es": {
+        "text": "¿Qué dinastía franca, cuyos soberanos eran apodados los 'reyes holgazanes', precedió a la de Carlomagno?",
+        "options": [
+          "Los Capetos",
+          "Los Valois",
+          "Los Merovingios",
+          "Los Borbones"
+        ],
+        "explanation": "Sus últimos reyes, reducidos a la sombra, eran llevados de finca en finca en un carro tirado por bueyes, mientras otros gobernaban."
+      }
+    }
+  },
+  {
+    "sourceRef": "56b897f18daabe8a",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel événement du 14 juillet 1789 marqua le début symbolique de la Révolution française ?",
+        "options": [
+          "Le sacre de Napoléon",
+          "La fuite à Varennes",
+          "La Terreur",
+          "La prise de la Bastille"
+        ],
+        "explanation": "La vieille forteresse ne détenait alors que sept prisonniers, mais elle symbolisait à elle seule l'arbitraire du pouvoir royal."
+      },
+      "en": {
+        "text": "Which event of 14 July 1789 marked the symbolic start of the French Revolution?",
+        "options": [
+          "Napoleon's coronation",
+          "The flight to Varennes",
+          "The Terror",
+          "The storming of the Bastille"
+        ],
+        "explanation": "The old fortress held only seven prisoners at the time, yet it alone symbolised the arbitrary power of the king."
+      },
+      "es": {
+        "text": "¿Qué acontecimiento del 14 de julio de 1789 marcó el inicio simbólico de la Revolución francesa?",
+        "options": [
+          "La coronación de Napoleón",
+          "La huida a Varennes",
+          "El Terror",
+          "La toma de la Bastilla"
+        ],
+        "explanation": "La vieja fortaleza solo retenía entonces a siete presos, pero ella sola simbolizaba la arbitrariedad del poder real."
+      }
+    }
+  },
+  {
+    "sourceRef": "1a5db4e7d6e0bb27",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle molécule, présente dans chaque cellule, porte l'information génétique héréditaire ?",
+        "options": [
+          "L'ADN",
+          "Le glucose",
+          "L'hémoglobine",
+          "Le collagène"
+        ],
+        "explanation": "Déroulée et mise bout à bout, celle d'une seule personne pourrait, dit-on, s'étirer sur des milliards de kilomètres."
+      },
+      "en": {
+        "text": "Which molecule, present in every cell, carries hereditary genetic information?",
+        "options": [
+          "DNA",
+          "Glucose",
+          "Haemoglobin",
+          "Collagen"
+        ],
+        "explanation": "Unwound and laid end to end, that of a single person could, it is said, stretch over billions of kilometres."
+      },
+      "es": {
+        "text": "¿Qué molécula, presente en cada célula, porta la información genética hereditaria?",
+        "options": [
+          "El ADN",
+          "La glucosa",
+          "La hemoglobina",
+          "El colágeno"
+        ],
+        "explanation": "Desenrollado y puesto de extremo a extremo, el de una sola persona podría, según se dice, extenderse miles de millones de kilómetros."
+      }
+    }
+  },
+  {
+    "sourceRef": "6e176d38cdce4b44",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel savant, avec James Watson, décrivit en 1953 la structure en double hélice de l'ADN ?",
+        "options": [
+          "Gregor Mendel",
+          "Francis Crick",
+          "Louis Pasteur",
+          "Charles Darwin"
+        ],
+        "explanation": "Leur découverte s'appuya, en partie sans qu'elle le sache, sur les clichés d'une chimiste dont le rôle ne fut reconnu que bien plus tard."
+      },
+      "en": {
+        "text": "Which scientist, with James Watson, described in 1953 the double-helix structure of DNA?",
+        "options": [
+          "Gregor Mendel",
+          "Francis Crick",
+          "Louis Pasteur",
+          "Charles Darwin"
+        ],
+        "explanation": "Their discovery relied, partly without her knowledge, on the images of a chemist whose role was only recognised much later."
+      },
+      "es": {
+        "text": "¿Qué científico, junto a James Watson, describió en 1953 la estructura en doble hélice del ADN?",
+        "options": [
+          "Gregor Mendel",
+          "Francis Crick",
+          "Louis Pasteur",
+          "Charles Darwin"
+        ],
+        "explanation": "Su descubrimiento se apoyó, en parte sin que ella lo supiera, en las imágenes de una química cuyo papel solo se reconoció mucho después."
+      }
+    }
+  },
+  {
+    "sourceRef": "d6f1e4bcb67f426e",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel savant français mit au point le vaccin contre la rage et la technique de conservation qui porte son nom ?",
+        "options": [
+          "Antoine Lavoisier",
+          "Claude Bernard",
+          "Louis Pasteur",
+          "Ampère"
+        ],
+        "explanation": "Il testa son vaccin pour la première fois sur un jeune garçon mordu par un chien enragé, prenant un immense risque qui sauva l'enfant."
+      },
+      "en": {
+        "text": "Which French scientist developed the rabies vaccine and the preservation method that bears his name?",
+        "options": [
+          "Antoine Lavoisier",
+          "Claude Bernard",
+          "Louis Pasteur",
+          "André-Marie Ampère"
+        ],
+        "explanation": "He first tested his vaccine on a young boy bitten by a rabid dog, taking a huge risk that saved the child."
+      },
+      "es": {
+        "text": "¿Qué científico francés desarrolló la vacuna contra la rabia y la técnica de conservación que lleva su nombre?",
+        "options": [
+          "Antoine Lavoisier",
+          "Claude Bernard",
+          "Louis Pasteur",
+          "André-Marie Ampère"
+        ],
+        "explanation": "Probó su vacuna por primera vez en un niño mordido por un perro rabioso, corriendo un enorme riesgo que salvó al pequeño."
+      }
+    }
+  },
+  {
+    "sourceRef": "7169b089cecccb66",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel savant français, considéré comme le père de la chimie moderne, fut guillotiné pendant la Révolution ?",
+        "options": [
+          "Blaise Pascal",
+          "Joseph Fourier",
+          "Gay-Lussac",
+          "Antoine Lavoisier"
+        ],
+        "explanation": "Il montra que rien ne se perd ni ne se crée dans une réaction ; le juge qui le condamna aurait lancé : « La République n'a pas besoin de savants. »"
+      },
+      "en": {
+        "text": "Which French scientist, regarded as the father of modern chemistry, was guillotined during the Revolution?",
+        "options": [
+          "Blaise Pascal",
+          "Joseph Fourier",
+          "Gay-Lussac",
+          "Antoine Lavoisier"
+        ],
+        "explanation": "He showed that nothing is lost or created in a reaction; the judge who condemned him reportedly said: 'The Republic has no need of scholars.'"
+      },
+      "es": {
+        "text": "¿Qué científico francés, considerado el padre de la química moderna, fue guillotinado durante la Revolución?",
+        "options": [
+          "Blaise Pascal",
+          "Joseph Fourier",
+          "Gay-Lussac",
+          "Antoine Lavoisier"
+        ],
+        "explanation": "Demostró que nada se pierde ni se crea en una reacción; el juez que lo condenó habría dicho: 'La República no necesita sabios.'"
+      }
+    }
+  },
+  {
+    "sourceRef": "4cd35eef1dd4a5e1",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle unité mesure l'intensité du courant électrique qui circule dans un fil ?",
+        "options": [
+          "L'ampère",
+          "Le volt",
+          "Le watt",
+          "L'ohm"
+        ],
+        "explanation": "Elle porte le nom d'un physicien français qui posa les bases de l'étude des liens entre électricité et magnétisme."
+      },
+      "en": {
+        "text": "Which unit measures the intensity of the electric current flowing through a wire?",
+        "options": [
+          "The ampere",
+          "The volt",
+          "The watt",
+          "The ohm"
+        ],
+        "explanation": "It is named after a French physicist who laid the foundations for the study of links between electricity and magnetism."
+      },
+      "es": {
+        "text": "¿Qué unidad mide la intensidad de la corriente eléctrica que circula por un hilo?",
+        "options": [
+          "El amperio",
+          "El voltio",
+          "El vatio",
+          "El ohmio"
+        ],
+        "explanation": "Lleva el nombre de un físico francés que sentó las bases del estudio de los vínculos entre electricidad y magnetismo."
+      }
+    }
+  },
+  {
+    "sourceRef": "1895bf70c7f34379",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle unité mesure la tension électrique, c'est-à-dire la différence de potentiel entre deux points ?",
+        "options": [
+          "L'ampère",
+          "Le volt",
+          "Le joule",
+          "Le hertz"
+        ],
+        "explanation": "Elle honore l'inventeur de la première pile électrique, un empilement de disques de métal qui produisait un courant continu."
+      },
+      "en": {
+        "text": "Which unit measures electric tension, that is the difference in potential between two points?",
+        "options": [
+          "The ampere",
+          "The volt",
+          "The joule",
+          "The hertz"
+        ],
+        "explanation": "It honours the inventor of the first electric battery, a stack of metal discs that produced a steady current."
+      },
+      "es": {
+        "text": "¿Qué unidad mide la tensión eléctrica, es decir la diferencia de potencial entre dos puntos?",
+        "options": [
+          "El amperio",
+          "El voltio",
+          "El julio",
+          "El hercio"
+        ],
+        "explanation": "Rinde homenaje al inventor de la primera pila eléctrica, un apilamiento de discos de metal que producía una corriente continua."
+      }
+    }
+  },
+  {
+    "sourceRef": "9f3853c2ce43dc52",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel élément chimique, de symbole Fe, est le principal composant de l'acier ?",
+        "options": [
+          "Le cuivre",
+          "L'aluminium",
+          "Le fer",
+          "Le plomb"
+        ],
+        "explanation": "Il forme aussi le cœur brûlant de notre planète et donne au sang sa couleur rouge, en transportant l'oxygène dans le corps."
+      },
+      "en": {
+        "text": "Which chemical element, symbol Fe, is the main component of steel?",
+        "options": [
+          "Copper",
+          "Aluminium",
+          "Iron",
+          "Lead"
+        ],
+        "explanation": "It also forms the burning core of our planet and gives blood its red colour, carrying oxygen through the body."
+      },
+      "es": {
+        "text": "¿Qué elemento químico, de símbolo Fe, es el componente principal del acero?",
+        "options": [
+          "El cobre",
+          "El aluminio",
+          "El hierro",
+          "El plomo"
+        ],
+        "explanation": "Forma también el núcleo ardiente de nuestro planeta y da a la sangre su color rojo, transportando el oxígeno por el cuerpo."
+      }
+    }
+  },
+  {
+    "sourceRef": "64e1b828730f0935",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de chromosomes compte une cellule humaine normale ?",
+        "options": [
+          "23",
+          "48",
+          "64",
+          "46"
+        ],
+        "explanation": "Ils vont par paires : chacun de nos parents nous en transmet une moitié, ce qui mêle à parts égales leurs héritages en chacun de nous."
+      },
+      "en": {
+        "text": "How many chromosomes are there in a normal human cell?",
+        "options": [
+          "23",
+          "48",
+          "64",
+          "46"
+        ],
+        "explanation": "They come in pairs: each of our parents passes on half, blending their legacies in equal parts within each of us."
+      },
+      "es": {
+        "text": "¿Cuántos cromosomas tiene una célula humana normal?",
+        "options": [
+          "23",
+          "48",
+          "64",
+          "46"
+        ],
+        "explanation": "Van por pares: cada uno de nuestros padres nos transmite una mitad, mezclando a partes iguales sus herencias en cada uno de nosotros."
+      }
+    }
+  },
+  {
+    "sourceRef": "7c19a27f45670ce8",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la planète la plus éloignée du Soleil dans notre système solaire ?",
+        "options": [
+          "Neptune",
+          "Uranus",
+          "Saturne",
+          "Mars"
+        ],
+        "explanation": "Si lointaine qu'elle met environ cent soixante-cinq années terrestres à faire un seul tour du Soleil, elle fut découverte par le calcul avant d'être observée."
+      },
+      "en": {
+        "text": "Which is the planet farthest from the Sun in our solar system?",
+        "options": [
+          "Neptune",
+          "Uranus",
+          "Saturn",
+          "Mars"
+        ],
+        "explanation": "So distant that it takes about one hundred and sixty-five Earth years to circle the Sun once, it was found by calculation before being seen."
+      },
+      "es": {
+        "text": "¿Cuál es el planeta más alejado del Sol en nuestro sistema solar?",
+        "options": [
+          "Neptuno",
+          "Urano",
+          "Saturno",
+          "Marte"
+        ],
+        "explanation": "Tan lejano que tarda unos ciento sesenta y cinco años terrestres en dar una vuelta al Sol, se descubrió por el cálculo antes de observarse."
+      }
+    }
+  },
+  {
+    "sourceRef": "0ec2b0fe34acf158",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on la traînée lumineuse laissée par une poussière d'espace qui brûle en entrant dans l'atmosphère ?",
+        "options": [
+          "Une comète",
+          "Une étoile filante",
+          "Une nébuleuse",
+          "Une supernova"
+        ],
+        "explanation": "Certaines nuits, la Terre traverse un nuage de ces poussières, offrant des pluies d'étoiles filantes que l'on guette pour faire un vœu."
+      },
+      "en": {
+        "text": "What do you call the streak of light left by a speck of space dust burning up as it enters the atmosphere?",
+        "options": [
+          "A comet",
+          "A shooting star",
+          "A nebula",
+          "A supernova"
+        ],
+        "explanation": "On some nights the Earth crosses a cloud of this dust, offering showers of shooting stars that people watch to make a wish."
+      },
+      "es": {
+        "text": "¿Cómo se llama el rastro luminoso que deja una mota de polvo espacial al arder entrando en la atmósfera?",
+        "options": [
+          "Un cometa",
+          "Una estrella fugaz",
+          "Una nebulosa",
+          "Una supernova"
+        ],
+        "explanation": "Algunas noches, la Tierra cruza una nube de este polvo, ofreciendo lluvias de estrellas fugaces que se observan para pedir un deseo."
+      }
+    }
+  },
+  {
+    "sourceRef": "b73be9320bb24a58",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument grossit les objets minuscules, invisibles à l'œil nu, comme les cellules et les microbes ?",
+        "options": [
+          "Le télescope",
+          "Le périscope",
+          "Le microscope",
+          "Le kaléidoscope"
+        ],
+        "explanation": "C'est en observant une goutte d'eau croupie qu'un drapier néerlandais découvrit, ébahi, tout un monde grouillant de vie invisible."
+      },
+      "en": {
+        "text": "Which instrument magnifies tiny objects, invisible to the naked eye, such as cells and microbes?",
+        "options": [
+          "The telescope",
+          "The periscope",
+          "The microscope",
+          "The kaleidoscope"
+        ],
+        "explanation": "It was by looking at a drop of stagnant water that a Dutch cloth merchant discovered, amazed, a whole world teeming with invisible life."
+      },
+      "es": {
+        "text": "¿Qué instrumento aumenta los objetos minúsculos, invisibles a simple vista, como las células y los microbios?",
+        "options": [
+          "El telescopio",
+          "El periscopio",
+          "El microscopio",
+          "El caleidoscopio"
+        ],
+        "explanation": "Fue observando una gota de agua estancada que un pañero neerlandés descubrió, asombrado, todo un mundo rebosante de vida invisible."
+      }
+    }
+  },
+  {
+    "sourceRef": "d04bf81a795b2d28",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel savant italien inventa la pile électrique, premier dispositif à produire un courant continu ?",
+        "options": [
+          "Luigi Galvani",
+          "André-Marie Ampère",
+          "Michael Faraday",
+          "Alessandro Volta"
+        ],
+        "explanation": "Il empila des disques de deux métaux séparés par du carton imbibé, prouvant que l'électricité pouvait venir de la chimie, et non des seuls animaux."
+      },
+      "en": {
+        "text": "Which Italian scientist invented the electric battery, the first device to produce a steady current?",
+        "options": [
+          "Luigi Galvani",
+          "André-Marie Ampère",
+          "Michael Faraday",
+          "Alessandro Volta"
+        ],
+        "explanation": "He stacked discs of two metals separated by soaked cardboard, proving electricity could come from chemistry, not only from animals."
+      },
+      "es": {
+        "text": "¿Qué científico italiano inventó la pila eléctrica, el primer dispositivo capaz de producir una corriente continua?",
+        "options": [
+          "Luigi Galvani",
+          "André-Marie Ampère",
+          "Michael Faraday",
+          "Alessandro Volta"
+        ],
+        "explanation": "Apiló discos de dos metales separados por cartón empapado, probando que la electricidad podía venir de la química, y no solo de los animales."
+      }
+    }
+  },
+  {
+    "sourceRef": "8de301d9e42279d2",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel rongeur bâtisseur construit des barrages de branches et de boue sur les rivières ?",
+        "options": [
+          "Le castor",
+          "Le ragondin",
+          "La loutre",
+          "Le rat musqué"
+        ],
+        "explanation": "Ses barrages créent des étangs qui abritent quantité d'autres espèces ; on le surnomme parfois l'« ingénieur des rivières »."
+      },
+      "en": {
+        "text": "Which builder rodent constructs dams of branches and mud across rivers?",
+        "options": [
+          "The beaver",
+          "The coypu",
+          "The otter",
+          "The muskrat"
+        ],
+        "explanation": "Its dams create ponds that shelter many other species; it is sometimes called the 'engineer of the rivers'."
+      },
+      "es": {
+        "text": "¿Qué roedor constructor levanta presas de ramas y barro sobre los ríos?",
+        "options": [
+          "El castor",
+          "El coipo",
+          "La nutria",
+          "La rata almizclera"
+        ],
+        "explanation": "Sus presas crean estanques que albergan muchas otras especies; a veces se le llama el 'ingeniero de los ríos'."
+      }
+    }
+  },
+  {
+    "sourceRef": "ba3b16ce8f6b9ff6",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel grand herbivore d'Afrique et d'Asie porte une ou deux cornes dressées sur son museau ?",
+        "options": [
+          "Le buffle",
+          "Le rhinocéros",
+          "Le tapir",
+          "Le gnou"
+        ],
+        "explanation": "Sa corne n'est pas de l'os mais de la même matière que nos ongles ; c'est pourtant ce qui, tristement, le condamne au braconnage."
+      },
+      "en": {
+        "text": "Which large herbivore of Africa and Asia bears one or two horns standing on its snout?",
+        "options": [
+          "The buffalo",
+          "The rhinoceros",
+          "The tapir",
+          "The wildebeest"
+        ],
+        "explanation": "Its horn is not bone but the same material as our nails; yet it is this that sadly condemns it to poaching."
+      },
+      "es": {
+        "text": "¿Qué gran herbívoro de África y Asia lleva uno o dos cuernos erguidos sobre el hocico?",
+        "options": [
+          "El búfalo",
+          "El rinoceronte",
+          "El tapir",
+          "El ñu"
+        ],
+        "explanation": "Su cuerno no es hueso sino la misma materia que nuestras uñas; sin embargo, es esto lo que, tristemente, lo condena a la caza furtiva."
+      }
+    }
+  },
+  {
+    "sourceRef": "ae4dcc46cb5364e2",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel grand oiseau coureur d'Australie, incapable de voler, est le deuxième plus grand du monde ?",
+        "options": [
+          "Le nandou",
+          "Le casoar",
+          "L'émeu",
+          "Le kiwi"
+        ],
+        "explanation": "C'est le mâle qui couve les œufs vert foncé, puis élève seul les petits pendant des mois, un rôle rare dans le monde animal."
+      },
+      "en": {
+        "text": "Which large flightless running bird of Australia is the second tallest in the world?",
+        "options": [
+          "The rhea",
+          "The cassowary",
+          "The emu",
+          "The kiwi"
+        ],
+        "explanation": "It is the male that broods the dark-green eggs, then raises the chicks alone for months, a rare role in the animal world."
+      },
+      "es": {
+        "text": "¿Qué gran ave corredora de Australia, incapaz de volar, es la segunda más alta del mundo?",
+        "options": [
+          "El ñandú",
+          "El casuario",
+          "El emú",
+          "El kiwi"
+        ],
+        "explanation": "Es el macho quien incuba los huevos verde oscuro y luego cría solo a las crías durante meses, un papel raro en el mundo animal."
+      }
+    }
+  },
+  {
+    "sourceRef": "5dbebbfa896b2b75",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle plante grasse du désert stocke l'eau dans ses tiges épaisses et se protège par des épines ?",
+        "options": [
+          "La fougère",
+          "Le bambou",
+          "Le lierre",
+          "Le cactus"
+        ],
+        "explanation": "Ses épines sont des feuilles transformées : réduites à des piquants, elles perdent moins d'eau et découragent les animaux assoiffés."
+      },
+      "en": {
+        "text": "Which desert succulent stores water in its thick stems and protects itself with spines?",
+        "options": [
+          "The fern",
+          "The bamboo",
+          "The ivy",
+          "The cactus"
+        ],
+        "explanation": "Its spines are transformed leaves: reduced to prickles, they lose less water and deter thirsty animals."
+      },
+      "es": {
+        "text": "¿Qué planta suculenta del desierto almacena agua en sus tallos gruesos y se protege con espinas?",
+        "options": [
+          "El helecho",
+          "El bambú",
+          "La hiedra",
+          "El cactus"
+        ],
+        "explanation": "Sus espinas son hojas transformadas: reducidas a púas, pierden menos agua y disuaden a los animales sedientos."
+      }
+    }
+  },
+  {
+    "sourceRef": "0ebe1065d2c18e78",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel arbre robuste produit les glands dont raffolent les écureuils et les sangliers ?",
+        "options": [
+          "Le chêne",
+          "Le bouleau",
+          "Le saule",
+          "Le peuplier"
+        ],
+        "explanation": "Certains vivent plusieurs siècles ; on en connaît qui ont vu passer, à l'ombre de leurs branches, des dizaines de générations d'humains."
+      },
+      "en": {
+        "text": "Which sturdy tree produces the acorns that squirrels and wild boar love?",
+        "options": [
+          "The oak",
+          "The birch",
+          "The willow",
+          "The poplar"
+        ],
+        "explanation": "Some live for centuries; a few are known to have watched, in the shade of their branches, dozens of human generations pass."
+      },
+      "es": {
+        "text": "¿Qué árbol robusto produce las bellotas que encantan a las ardillas y los jabalíes?",
+        "options": [
+          "El roble",
+          "El abedul",
+          "El sauce",
+          "El álamo"
+        ],
+        "explanation": "Algunos viven varios siglos; se conocen unos que han visto pasar, a la sombra de sus ramas, decenas de generaciones de humanos."
+      }
+    }
+  },
+  {
+    "sourceRef": "98c01e4a6629471f",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un animal actif surtout la nuit, qui dort le jour, comme le hibou ou le hérisson ?",
+        "options": [
+          "Un animal diurne",
+          "Un animal nocturne",
+          "Un animal migrateur",
+          "Un animal hibernant"
+        ],
+        "explanation": "Beaucoup possèdent de grands yeux ou une ouïe très fine pour se repérer dans l'obscurité, là où d'autres seraient aveugles."
+      },
+      "en": {
+        "text": "What do you call an animal active mainly at night, sleeping by day, like the owl or the hedgehog?",
+        "options": [
+          "A diurnal animal",
+          "A nocturnal animal",
+          "A migratory animal",
+          "A hibernating animal"
+        ],
+        "explanation": "Many have large eyes or very sharp hearing to find their way in the dark, where others would be blind."
+      },
+      "es": {
+        "text": "¿Cómo se llama un animal activo sobre todo de noche, que duerme de día, como el búho o el erizo?",
+        "options": [
+          "Un animal diurno",
+          "Un animal nocturno",
+          "Un animal migratorio",
+          "Un animal que hiberna"
+        ],
+        "explanation": "Muchos tienen ojos grandes o un oído muy fino para orientarse en la oscuridad, donde otros estarían ciegos."
+      }
+    }
+  },
+  {
+    "sourceRef": "a4b6377197e6d013",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel amphibien commence sa vie sous forme de têtard, dans l'eau, avant de développer quatre pattes ?",
+        "options": [
+          "Le lézard",
+          "L'escargot",
+          "La grenouille",
+          "La tortue"
+        ],
+        "explanation": "Le têtard, d'abord muni de branchies comme un poisson, absorbe peu à peu sa queue en grandissant et développe des poumons pour respirer à l'air."
+      },
+      "en": {
+        "text": "Which amphibian begins life as a tadpole, in water, before growing four legs?",
+        "options": [
+          "The lizard",
+          "The snail",
+          "The frog",
+          "The turtle"
+        ],
+        "explanation": "The tadpole, first fitted with gills like a fish, gradually absorbs its tail as it grows and develops lungs to breathe air."
+      },
+      "es": {
+        "text": "¿Qué anfibio comienza su vida como renacuajo, en el agua, antes de desarrollar cuatro patas?",
+        "options": [
+          "El lagarto",
+          "El caracol",
+          "La rana",
+          "La tortuga"
+        ],
+        "explanation": "El renacuajo, provisto al principio de branquias como un pez, absorbe poco a poco su cola al crecer y desarrolla pulmones para respirar aire."
+      }
+    }
+  },
+  {
+    "sourceRef": "dac68e33502d837d",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle fleur, emblème des Pays-Bas, fut jadis si prisée qu'elle provoqua une folie spéculative au XVIIᵉ siècle ?",
+        "options": [
+          "La rose",
+          "La jonquille",
+          "L'orchidée",
+          "La tulipe"
+        ],
+        "explanation": "Un seul bulbe rare pouvait alors s'échanger contre une maison ; puis les prix s'effondrèrent d'un coup, ruinant bien des spéculateurs."
+      },
+      "en": {
+        "text": "Which flower, emblem of the Netherlands, was once so prized it caused a speculative frenzy in the 17th century?",
+        "options": [
+          "The rose",
+          "The daffodil",
+          "The orchid",
+          "The tulip"
+        ],
+        "explanation": "A single rare bulb could then be traded for a house; then prices crashed overnight, ruining many a speculator."
+      },
+      "es": {
+        "text": "¿Qué flor, emblema de los Países Bajos, fue antaño tan apreciada que provocó una fiebre especulativa en el siglo XVII?",
+        "options": [
+          "La rosa",
+          "El narciso",
+          "La orquídea",
+          "El tulipán"
+        ],
+        "explanation": "Un solo bulbo raro podía cambiarse entonces por una casa; luego los precios se hundieron de golpe, arruinando a muchos especuladores."
+      }
+    }
+  },
+  {
+    "sourceRef": "7146bdf9aebd569e",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on le grand voyage saisonnier de certains oiseaux vers des régions plus chaudes ?",
+        "options": [
+          "La migration",
+          "La mue",
+          "L'hibernation",
+          "La nidification"
+        ],
+        "explanation": "Certaines espèces parcourent chaque année des dizaines de milliers de kilomètres, se guidant sur le soleil, les étoiles et le champ magnétique de la Terre."
+      },
+      "en": {
+        "text": "What do you call the great seasonal journey of certain birds towards warmer regions?",
+        "options": [
+          "Migration",
+          "Moulting",
+          "Hibernation",
+          "Nesting"
+        ],
+        "explanation": "Some species travel tens of thousands of kilometres each year, steering by the sun, the stars and the Earth's magnetic field."
+      },
+      "es": {
+        "text": "¿Cómo se llama el gran viaje estacional de ciertas aves hacia regiones más cálidas?",
+        "options": [
+          "La migración",
+          "La muda",
+          "La hibernación",
+          "La nidificación"
+        ],
+        "explanation": "Algunas especies recorren cada año decenas de miles de kilómetros, guiándose por el sol, las estrellas y el campo magnético de la Tierra."
+      }
+    }
+  },
+  {
+    "sourceRef": "ca5283a1fc15da8c",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel grand ours blanc vit sur la banquise de l'Arctique et chasse le phoque ?",
+        "options": [
+          "L'ours brun",
+          "L'ours polaire",
+          "Le panda",
+          "L'ours noir"
+        ],
+        "explanation": "Sous sa fourrure blanche, sa peau est en réalité noire, ce qui l'aide à capter et retenir la moindre chaleur du soleil polaire."
+      },
+      "en": {
+        "text": "Which great white bear lives on the Arctic sea ice and hunts seals?",
+        "options": [
+          "The brown bear",
+          "The polar bear",
+          "The panda",
+          "The black bear"
+        ],
+        "explanation": "Beneath its white fur, its skin is actually black, which helps it capture and hold every bit of the polar sun's warmth."
+      },
+      "es": {
+        "text": "¿Qué gran oso blanco vive sobre la banquisa del Ártico y caza focas?",
+        "options": [
+          "El oso pardo",
+          "El oso polar",
+          "El panda",
+          "El oso negro"
+        ],
+        "explanation": "Bajo su pelaje blanco, su piel es en realidad negra, lo que le ayuda a captar y retener el menor calor del sol polar."
+      }
+    }
+  }
+]
