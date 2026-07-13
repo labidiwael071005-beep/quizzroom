@@ -1,0 +1,3122 @@
+[
+  {
+    "sourceRef": "ad7692234ac7af8e",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle échelle logarithmique, imaginée en 1935, servit longtemps à mesurer la puissance des séismes ?",
+        "options": [
+          "L'échelle de Richter",
+          "L'échelle de Beaufort",
+          "L'échelle de Mohs",
+          "L'échelle de Kelvin"
+        ],
+        "explanation": "Charles Richter mit son échelle au point en Californie ; il détestait qu'on la surnomme « son » échelle, car un collègue l'avait aidé."
+      },
+      "en": {
+        "text": "Which logarithmic scale, devised in 1935, was long used to measure the power of earthquakes?",
+        "options": [
+          "The Richter scale",
+          "The Beaufort scale",
+          "The Mohs scale",
+          "The Kelvin scale"
+        ],
+        "explanation": "Charles Richter developed it in California; he hated it being called 'his' scale, since a colleague had helped him."
+      },
+      "es": {
+        "text": "¿Qué escala logarítmica, ideada en 1935, se usó mucho tiempo para medir la potencia de los terremotos?",
+        "options": [
+          "La escala de Richter",
+          "La escala de Beaufort",
+          "La escala de Mohs",
+          "La escala de Kelvin"
+        ],
+        "explanation": "Charles Richter la desarrolló en California; odiaba que la llamaran 'su' escala, pues un colega le había ayudado."
+      }
+    }
+  },
+  {
+    "sourceRef": "cdf1edae088e516a",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle échelle classe la dureté des minéraux, du talc friable au diamant inrayable ?",
+        "options": [
+          "L'échelle de Richter",
+          "L'échelle de Beaufort",
+          "L'échelle de Mohs",
+          "L'échelle de Celsius"
+        ],
+        "explanation": "Le géologue Friedrich Mohs testait ses cailloux en essayant de les rayer les uns avec les autres, sans le moindre appareil."
+      },
+      "en": {
+        "text": "Which scale ranks the hardness of minerals, from crumbly talc to unscratchable diamond?",
+        "options": [
+          "The Richter scale",
+          "The Beaufort scale",
+          "The Mohs scale",
+          "The Celsius scale"
+        ],
+        "explanation": "Geologist Friedrich Mohs tested his rocks by trying to scratch them against one another, without any instrument."
+      },
+      "es": {
+        "text": "¿Qué escala clasifica la dureza de los minerales, del frágil talco al indomable diamante?",
+        "options": [
+          "La escala de Richter",
+          "La escala de Beaufort",
+          "La escala de Mohs",
+          "La escala de Celsius"
+        ],
+        "explanation": "El geólogo Friedrich Mohs probaba sus piedras intentando rayarlas entre sí, sin ningún aparato."
+      }
+    }
+  },
+  {
+    "sourceRef": "b44536cd6aa1991a",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien de cases compte un échiquier ?",
+        "options": [
+          "64",
+          "100",
+          "81",
+          "49"
+        ],
+        "explanation": "Une vieille légende veut qu'on ait demandé un grain de blé sur la première case, puis le double à chaque case : de quoi ruiner un royaume."
+      },
+      "en": {
+        "text": "How many squares does a chessboard have?",
+        "options": [
+          "64",
+          "100",
+          "81",
+          "49"
+        ],
+        "explanation": "An old legend has someone asking for one grain of wheat on the first square, then double on each: enough to bankrupt a kingdom."
+      },
+      "es": {
+        "text": "¿Cuántas casillas tiene un tablero de ajedrez?",
+        "options": [
+          "64",
+          "100",
+          "81",
+          "49"
+        ],
+        "explanation": "Una vieja leyenda cuenta que se pidió un grano de trigo en la primera casilla y el doble en cada una: suficiente para arruinar un reino."
+      }
+    }
+  },
+  {
+    "sourceRef": "e8653e42a4e42a4a",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle couleur obtient-on en mélangeant du rouge et du bleu ?",
+        "options": [
+          "L'orange",
+          "Le violet",
+          "Le vert",
+          "Le marron"
+        ],
+        "explanation": "Le violet fut longtemps la couleur des empereurs romains, car le pigment tiré d'un coquillage coûtait une fortune."
+      },
+      "en": {
+        "text": "Which colour do you get by mixing red and blue?",
+        "options": [
+          "Orange",
+          "Purple",
+          "Green",
+          "Brown"
+        ],
+        "explanation": "Purple was long the colour of Roman emperors, because the dye drawn from a sea snail cost a fortune."
+      },
+      "es": {
+        "text": "¿Qué color se obtiene mezclando rojo y azul?",
+        "options": [
+          "Naranja",
+          "Violeta",
+          "Verde",
+          "Marrón"
+        ],
+        "explanation": "El violeta fue mucho tiempo el color de los emperadores romanos, pues el pigmento sacado de un caracol marino costaba una fortuna."
+      }
+    }
+  },
+  {
+    "sourceRef": "23eb682cadf2520e",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Dans l'alphabet grec, quelle lettre vient juste après alpha ?",
+        "options": [
+          "Gamma",
+          "Delta",
+          "Oméga",
+          "Bêta"
+        ],
+        "explanation": "C'est en collant « alpha » et « bêta » qu'on a formé le mot « alphabet », qui date de l'Antiquité."
+      },
+      "en": {
+        "text": "In the Greek alphabet, which letter comes right after alpha?",
+        "options": [
+          "Gamma",
+          "Delta",
+          "Omega",
+          "Beta"
+        ],
+        "explanation": "It is by joining 'alpha' and 'beta' that the word 'alphabet' was formed, back in Antiquity."
+      },
+      "es": {
+        "text": "En el alfabeto griego, ¿qué letra viene justo después de alfa?",
+        "options": [
+          "Gamma",
+          "Delta",
+          "Omega",
+          "Beta"
+        ],
+        "explanation": "Uniendo 'alfa' y 'beta' se formó la palabra 'alfabeto', que viene de la Antigüedad."
+      }
+    }
+  },
+  {
+    "sourceRef": "2f414a2afa07af1e",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle lettre grecque, dernière de l'alphabet, symbolise souvent la fin d'une chose ?",
+        "options": [
+          "Oméga",
+          "Sigma",
+          "Zêta",
+          "Pi"
+        ],
+        "explanation": "« Je suis l'alpha et l'oméga » : l'expression, tirée d'un texte ancien, désigne le commencement et la fin."
+      },
+      "en": {
+        "text": "Which Greek letter, the last of the alphabet, often symbolises the end of something?",
+        "options": [
+          "Omega",
+          "Sigma",
+          "Zeta",
+          "Pi"
+        ],
+        "explanation": "'I am the alpha and the omega': the phrase, from an ancient text, means the beginning and the end."
+      },
+      "es": {
+        "text": "¿Qué letra griega, última del alfabeto, simboliza a menudo el final de algo?",
+        "options": [
+          "Omega",
+          "Sigma",
+          "Zeta",
+          "Pi"
+        ],
+        "explanation": "'Yo soy el alfa y la omega': la frase, de un texto antiguo, designa el principio y el fin."
+      }
+    }
+  },
+  {
+    "sourceRef": "dcf2445f181f5c10",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "En chiffres romains, que vaut la lettre D ?",
+        "options": [
+          "100",
+          "500",
+          "50",
+          "1000"
+        ],
+        "explanation": "Le D vient d'un ancien symbole coupé en deux : la moitié d'un signe qui valait mille."
+      },
+      "en": {
+        "text": "In Roman numerals, what is the value of the letter D?",
+        "options": [
+          "100",
+          "500",
+          "50",
+          "1000"
+        ],
+        "explanation": "The D comes from an old symbol cut in two: half of a sign that stood for a thousand."
+      },
+      "es": {
+        "text": "En números romanos, ¿cuánto vale la letra D?",
+        "options": [
+          "100",
+          "500",
+          "50",
+          "1000"
+        ],
+        "explanation": "La D viene de un antiguo símbolo cortado en dos: la mitad de un signo que valía mil."
+      }
+    }
+  },
+  {
+    "sourceRef": "a3ae89d0d7e565ff",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Combien d'unités compte une douzaine ?",
+        "options": [
+          "10",
+          "6",
+          "12",
+          "20"
+        ],
+        "explanation": "Les œufs se vendent souvent par douzaine, un héritage des systèmes de comptage sur les phalanges, qui vont jusqu'à douze."
+      },
+      "en": {
+        "text": "How many units are there in a dozen?",
+        "options": [
+          "10",
+          "6",
+          "12",
+          "20"
+        ],
+        "explanation": "Eggs are often sold by the dozen, a legacy of finger-joint counting systems that go up to twelve."
+      },
+      "es": {
+        "text": "¿Cuántas unidades tiene una docena?",
+        "options": [
+          "10",
+          "6",
+          "12",
+          "20"
+        ],
+        "explanation": "Los huevos suelen venderse por docena, herencia de los sistemas de conteo con las falanges, que llegan hasta doce."
+      }
+    }
+  },
+  {
+    "sourceRef": "307575df897abdfe",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien de minutes compte une journée complète de 24 heures ?",
+        "options": [
+          "1440",
+          "1200",
+          "720",
+          "3600"
+        ],
+        "explanation": "3600, l'un des mauvais choix, est en réalité le nombre de secondes dans une seule heure."
+      },
+      "en": {
+        "text": "How many minutes are there in a full 24-hour day?",
+        "options": [
+          "1440",
+          "1200",
+          "720",
+          "3600"
+        ],
+        "explanation": "3600, one of the wrong choices, is actually the number of seconds in a single hour."
+      },
+      "es": {
+        "text": "¿Cuántos minutos tiene un día completo de 24 horas?",
+        "options": [
+          "1440",
+          "1200",
+          "720",
+          "3600"
+        ],
+        "explanation": "3600, una de las opciones falsas, es en realidad el número de segundos de una sola hora."
+      }
+    }
+  },
+  {
+    "sourceRef": "bd3baf0fb86157f2",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de zéros compte un milliard écrit en toutes lettres (échelle courte) ?",
+        "options": [
+          "6",
+          "12",
+          "3",
+          "9"
+        ],
+        "explanation": "Anglais et français ne s'accordent pas toujours : le « billion » anglais vaut mille fois moins que l'ancien « billion » de la longue échelle."
+      },
+      "en": {
+        "text": "How many zeros are there in a billion (short scale)?",
+        "options": [
+          "6",
+          "12",
+          "3",
+          "9"
+        ],
+        "explanation": "English and French don't always agree: the English 'billion' is a thousand times smaller than the old long-scale 'billion'."
+      },
+      "es": {
+        "text": "¿Cuántos ceros tiene un billón en la escala corta (mil millones)?",
+        "options": [
+          "6",
+          "12",
+          "3",
+          "9"
+        ],
+        "explanation": "Inglés y español no coinciden: el 'billion' inglés equivale a mil millones, no al billón español."
+      }
+    }
+  },
+  {
+    "sourceRef": "478d127af4c1cbb9",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel mot français de sept lettres réunit à lui seul les cinq voyelles a, e, i, o et u ?",
+        "options": [
+          "Aérien",
+          "Oiseaux",
+          "Voyelle",
+          "Aïeule"
+        ],
+        "explanation": "« Oiseaux » est souvent cité comme le plus court mot courant contenant toutes les voyelles, l'y en moins."
+      },
+      "en": {
+        "text": "Which seven-letter French word gathers all five vowels a, e, i, o and u on its own?",
+        "options": [
+          "Aérien",
+          "Oiseaux",
+          "Voyelle",
+          "Aïeule"
+        ],
+        "explanation": "'Oiseaux' (birds) is often cited as the shortest common word containing all the vowels, minus the y."
+      },
+      "es": {
+        "text": "¿Qué palabra francesa de siete letras reúne ella sola las cinco vocales a, e, i, o y u?",
+        "options": [
+          "Aérien",
+          "Oiseaux",
+          "Voyelle",
+          "Aïeule"
+        ],
+        "explanation": "'Oiseaux' (pájaros) se cita a menudo como la palabra corriente más corta que contiene todas las vocales, salvo la y."
+      }
+    }
+  },
+  {
+    "sourceRef": "36d4a887f6ea2d5b",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel est le seul nombre premier qui soit aussi un nombre pair ?",
+        "options": [
+          "1",
+          "0",
+          "2",
+          "4"
+        ],
+        "explanation": "Tous les autres pairs sont divisibles par deux, ce qui les disqualifie ; le 2 est donc l'exception solitaire des nombres premiers."
+      },
+      "en": {
+        "text": "Which is the only prime number that is also even?",
+        "options": [
+          "1",
+          "0",
+          "2",
+          "4"
+        ],
+        "explanation": "Every other even number is divisible by two, which rules it out; so 2 is the lone exception among primes."
+      },
+      "es": {
+        "text": "¿Cuál es el único número primo que además es par?",
+        "options": [
+          "1",
+          "0",
+          "2",
+          "4"
+        ],
+        "explanation": "Todos los demás pares son divisibles entre dos, lo que los descarta; el 2 es la excepción solitaria entre los primos."
+      }
+    }
+  },
+  {
+    "sourceRef": "23c3975b9611024e",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un polygone qui possède douze côtés ?",
+        "options": [
+          "Un dodécagone",
+          "Un décagone",
+          "Un hexagone",
+          "Un octogone"
+        ],
+        "explanation": "Le préfixe « dodéca » vient du grec « douze » ; on le retrouve dans le dodécaèdre, un dé à douze faces."
+      },
+      "en": {
+        "text": "What do you call a polygon with twelve sides?",
+        "options": [
+          "A dodecagon",
+          "A decagon",
+          "A hexagon",
+          "An octagon"
+        ],
+        "explanation": "The prefix 'dodeca' comes from the Greek for twelve; you meet it again in the dodecahedron, a twelve-faced die."
+      },
+      "es": {
+        "text": "¿Cómo se llama un polígono que tiene doce lados?",
+        "options": [
+          "Un dodecágono",
+          "Un decágono",
+          "Un hexágono",
+          "Un octógono"
+        ],
+        "explanation": "El prefijo 'dodeca' viene del griego 'doce'; reaparece en el dodecaedro, un dado de doce caras."
+      }
+    }
+  },
+  {
+    "sourceRef": "fbdb608c643b2cc6",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Combien de côtés possède un octogone ?",
+        "options": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "explanation": "Le panneau stop de nombreux pays a la forme d'un octogone, reconnaissable même quand on n'en lit pas le texte."
+      },
+      "en": {
+        "text": "How many sides does an octagon have?",
+        "options": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "explanation": "The stop sign in many countries is shaped like an octagon, recognisable even when you can't read its text."
+      },
+      "es": {
+        "text": "¿Cuántos lados tiene un octógono?",
+        "options": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "explanation": "La señal de stop de muchos países tiene forma de octógono, reconocible aunque no se lea su texto."
+      }
+    }
+  },
+  {
+    "sourceRef": "28f5e2d0491ce41f",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de degrés mesure un demi-tour complet ?",
+        "options": [
+          "90",
+          "270",
+          "360",
+          "180"
+        ],
+        "explanation": "On doit ce découpage en 360 degrés aux Babyloniens, qui comptaient volontiers en base soixante."
+      },
+      "en": {
+        "text": "How many degrees are there in a half-turn?",
+        "options": [
+          "90",
+          "270",
+          "360",
+          "180"
+        ],
+        "explanation": "We owe the division of the circle into 360 degrees to the Babylonians, who liked to count in base sixty."
+      },
+      "es": {
+        "text": "¿Cuántos grados mide una media vuelta completa?",
+        "options": [
+          "90",
+          "270",
+          "360",
+          "180"
+        ],
+        "explanation": "Debemos la división del círculo en 360 grados a los babilonios, que contaban a gusto en base sesenta."
+      }
+    }
+  },
+  {
+    "sourceRef": "e33f1fb103ca97e9",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment nomme-t-on la peur maladive des araignées ?",
+        "options": [
+          "L'arachnophobie",
+          "La claustrophobie",
+          "L'agoraphobie",
+          "L'acrophobie"
+        ],
+        "explanation": "Le mot vient d'Arachné, une tisserande de la mythologie grecque changée en araignée pour avoir défié une déesse."
+      },
+      "en": {
+        "text": "What is the medical name for a morbid fear of spiders?",
+        "options": [
+          "Arachnophobia",
+          "Claustrophobia",
+          "Agoraphobia",
+          "Acrophobia"
+        ],
+        "explanation": "The word comes from Arachne, a weaver in Greek myth turned into a spider for daring to challenge a goddess."
+      },
+      "es": {
+        "text": "¿Cómo se llama el miedo enfermizo a las arañas?",
+        "options": [
+          "Aracnofobia",
+          "Claustrofobia",
+          "Agorafobia",
+          "Acrofobia"
+        ],
+        "explanation": "La palabra viene de Aracne, una tejedora de la mitología griega convertida en araña por desafiar a una diosa."
+      }
+    }
+  },
+  {
+    "sourceRef": "25a1a8403d140b8b",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment nomme-t-on la peur du vide et des hauteurs ?",
+        "options": [
+          "La claustrophobie",
+          "L'hydrophobie",
+          "L'acrophobie",
+          "L'aérophobie"
+        ],
+        "explanation": "Le préfixe « acro » signifie « sommet » en grec ; on le retrouve dans « acrobate », celui qui marche en hauteur."
+      },
+      "en": {
+        "text": "What is the name for the fear of heights and empty space?",
+        "options": [
+          "Claustrophobia",
+          "Hydrophobia",
+          "Acrophobia",
+          "Aerophobia"
+        ],
+        "explanation": "The prefix 'acro' means 'peak' in Greek; you find it again in 'acrobat', one who moves up high."
+      },
+      "es": {
+        "text": "¿Cómo se llama el miedo a las alturas y al vacío?",
+        "options": [
+          "Claustrofobia",
+          "Hidrofobia",
+          "Acrofobia",
+          "Aerofobia"
+        ],
+        "explanation": "El prefijo 'acro' significa 'cima' en griego; reaparece en 'acróbata', el que se mueve en las alturas."
+      }
+    }
+  },
+  {
+    "sourceRef": "df34af972eafbf7f",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Dans le système international, quel préfixe désigne un facteur mille milliards (10¹²) ?",
+        "options": [
+          "Giga",
+          "Téra",
+          "Méga",
+          "Péta"
+        ],
+        "explanation": "« Téra » vient du grec « teras », le monstre : de quoi rappeler la taille vertigineuse des nombres qu'il désigne."
+      },
+      "en": {
+        "text": "In the international system, which prefix means a factor of a trillion (10¹²)?",
+        "options": [
+          "Giga",
+          "Tera",
+          "Mega",
+          "Peta"
+        ],
+        "explanation": "'Tera' comes from the Greek 'teras', meaning monster: a nod to the dizzying size of the numbers it labels."
+      },
+      "es": {
+        "text": "En el sistema internacional, ¿qué prefijo designa un factor de un billón (10¹²)?",
+        "options": [
+          "Giga",
+          "Tera",
+          "Mega",
+          "Peta"
+        ],
+        "explanation": "'Tera' viene del griego 'teras', monstruo: un guiño al tamaño vertiginoso de los números que designa."
+      }
+    }
+  },
+  {
+    "sourceRef": "593e20544863a07c",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel préfixe du système international désigne un milliardième (10⁻⁹) ?",
+        "options": [
+          "Micro",
+          "Milli",
+          "Pico",
+          "Nano"
+        ],
+        "explanation": "« Nano » vient du grec « nanos », le nain ; les nanotechnologies manipulent la matière à l'échelle de l'atome."
+      },
+      "en": {
+        "text": "Which international-system prefix means a billionth (10⁻⁹)?",
+        "options": [
+          "Micro",
+          "Milli",
+          "Pico",
+          "Nano"
+        ],
+        "explanation": "'Nano' comes from the Greek 'nanos', a dwarf; nanotechnology handles matter at the scale of the atom."
+      },
+      "es": {
+        "text": "¿Qué prefijo del sistema internacional designa una milmillonésima (10⁻⁹)?",
+        "options": [
+          "Micro",
+          "Mili",
+          "Pico",
+          "Nano"
+        ],
+        "explanation": "'Nano' viene del griego 'nanos', enano; la nanotecnología manipula la materia a escala del átomo."
+      }
+    }
+  },
+  {
+    "sourceRef": "30eb84138b35f5ba",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien de jours compte le mois de février lors d'une année bissextile ?",
+        "options": [
+          "29",
+          "28",
+          "30",
+          "31"
+        ],
+        "explanation": "Le jour ajouté sert à rattraper le petit quart de jour que la Terre met en trop pour tourner autour du Soleil."
+      },
+      "en": {
+        "text": "How many days does February have in a leap year?",
+        "options": [
+          "29",
+          "28",
+          "30",
+          "31"
+        ],
+        "explanation": "The extra day makes up for the small quarter-day the Earth takes beyond 365 to orbit the Sun."
+      },
+      "es": {
+        "text": "¿Cuántos días tiene febrero en un año bisiesto?",
+        "options": [
+          "29",
+          "28",
+          "30",
+          "31"
+        ],
+        "explanation": "El día añadido compensa el pequeño cuarto de día que la Tierra tarda de más en girar alrededor del Sol."
+      }
+    }
+  },
+  {
+    "sourceRef": "625f73ffcf73ffbf",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Combien de cartes compte un jeu classique, jokers exclus ?",
+        "options": [
+          "48",
+          "60",
+          "52",
+          "54"
+        ],
+        "explanation": "Certains y voient un calendrier caché : 52 cartes comme les semaines de l'année, et quatre couleurs comme les saisons."
+      },
+      "en": {
+        "text": "How many cards are there in a standard deck, jokers aside?",
+        "options": [
+          "48",
+          "60",
+          "52",
+          "54"
+        ],
+        "explanation": "Some see a hidden calendar in it: 52 cards like the weeks of the year, and four suits like the seasons."
+      },
+      "es": {
+        "text": "¿Cuántas cartas tiene una baraja clásica, sin contar los comodines?",
+        "options": [
+          "48",
+          "60",
+          "52",
+          "54"
+        ],
+        "explanation": "Algunos ven un calendario oculto: 52 cartas como las semanas del año, y cuatro palos como las estaciones."
+      }
+    }
+  },
+  {
+    "sourceRef": "67b5921338de3035",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle unité mesure la quantité d'information et vaut huit bits ?",
+        "options": [
+          "Le hertz",
+          "Le pixel",
+          "Le watt",
+          "L'octet"
+        ],
+        "explanation": "Le mot anglais « byte » fut choisi exprès différent de « bite » (mordre) pour éviter toute confusion à l'écrit."
+      },
+      "en": {
+        "text": "Which unit measures information and equals eight bits?",
+        "options": [
+          "The hertz",
+          "The pixel",
+          "The watt",
+          "The byte"
+        ],
+        "explanation": "The word 'byte' was deliberately spelled unlike 'bite' to avoid any confusion in writing."
+      },
+      "es": {
+        "text": "¿Qué unidad mide la cantidad de información y equivale a ocho bits?",
+        "options": [
+          "El hercio",
+          "El píxel",
+          "El vatio",
+          "El byte (octeto)"
+        ],
+        "explanation": "La palabra inglesa 'byte' se escribió a propósito distinta de 'bite' (morder) para evitar confusiones."
+      }
+    }
+  },
+  {
+    "sourceRef": "383bda5610d51a85",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle saga un anneau unique doit être détruit dans une montagne de feu ?",
+        "options": [
+          "Le Seigneur des anneaux",
+          "Le Hobbit",
+          "Le Monde de Narnia",
+          "À la croisée des mondes"
+        ],
+        "explanation": "Peter Jackson tourna la trilogie entière en une seule fois en Nouvelle-Zélande, sur près de 450 décors."
+      },
+      "en": {
+        "text": "In which saga must a single ring be destroyed in a mountain of fire?",
+        "options": [
+          "The Lord of the Rings",
+          "The Hobbit",
+          "The Chronicles of Narnia",
+          "His Dark Materials"
+        ],
+        "explanation": "Peter Jackson shot the entire trilogy in one go in New Zealand, across nearly 450 sets."
+      },
+      "es": {
+        "text": "¿En qué saga un anillo único debe destruirse en una montaña de fuego?",
+        "options": [
+          "El Señor de los Anillos",
+          "El Hobbit",
+          "Las Crónicas de Narnia",
+          "La materia oscura"
+        ],
+        "explanation": "Peter Jackson rodó la trilogía entera de una sola vez en Nueva Zelanda, en casi 450 escenarios."
+      }
+    }
+  },
+  {
+    "sourceRef": "56d36efd4e91751d",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel studio d'animation japonais a réalisé « Mon voisin Totoro » ?",
+        "options": [
+          "Toei Animation",
+          "Le studio Ghibli",
+          "Pixar",
+          "DreamWorks"
+        ],
+        "explanation": "Le nom « Ghibli » vient d'un mot désignant un vent chaud du désert : le studio voulait souffler un vent nouveau sur l'animation."
+      },
+      "en": {
+        "text": "Which Japanese animation studio made 'My Neighbour Totoro'?",
+        "options": [
+          "Toei Animation",
+          "Studio Ghibli",
+          "Pixar",
+          "DreamWorks"
+        ],
+        "explanation": "The name 'Ghibli' comes from a word for a hot desert wind: the studio meant to blow a fresh wind through animation."
+      },
+      "es": {
+        "text": "¿Qué estudio de animación japonés realizó 'Mi vecino Totoro'?",
+        "options": [
+          "Toei Animation",
+          "Studio Ghibli",
+          "Pixar",
+          "DreamWorks"
+        ],
+        "explanation": "El nombre 'Ghibli' viene de una palabra para un viento cálido del desierto: el estudio quería soplar un viento nuevo en la animación."
+      }
+    }
+  },
+  {
+    "sourceRef": "91268a716de06219",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel film de Stanley Kubrick, sorti en 1968, met en scène l'ordinateur rebelle HAL 9000 ?",
+        "options": [
+          "Blade Runner",
+          "Solaris",
+          "2001, l'Odyssée de l'espace",
+          "Alien"
+        ],
+        "explanation": "Les lettres HAL suivent d'un cran, dans l'alphabet, les lettres IBM : une coïncidence toujours démentie par les auteurs."
+      },
+      "en": {
+        "text": "Which 1968 Stanley Kubrick film features the rebellious computer HAL 9000?",
+        "options": [
+          "Blade Runner",
+          "Solaris",
+          "2001: A Space Odyssey",
+          "Alien"
+        ],
+        "explanation": "The letters HAL each sit one step before IBM in the alphabet: a coincidence the authors always denied."
+      },
+      "es": {
+        "text": "¿Qué película de Stanley Kubrick, de 1968, muestra al ordenador rebelde HAL 9000?",
+        "options": [
+          "Blade Runner",
+          "Solaris",
+          "2001: Una odisea del espacio",
+          "Alien"
+        ],
+        "explanation": "Las letras HAL están una posición antes que IBM en el alfabeto: una coincidencia siempre negada por los autores."
+      }
+    }
+  },
+  {
+    "sourceRef": "7811c06c6f444b43",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Dans « Le Roi lion », comment se nomme le jeune lion héritier du trône ?",
+        "options": [
+          "Mufasa",
+          "Scar",
+          "Timon",
+          "Simba"
+        ],
+        "explanation": "« Simba » signifie tout simplement « lion » en swahili, une langue d'Afrique de l'Est où se déroule l'histoire."
+      },
+      "en": {
+        "text": "In 'The Lion King', what is the name of the young lion heir to the throne?",
+        "options": [
+          "Mufasa",
+          "Scar",
+          "Timon",
+          "Simba"
+        ],
+        "explanation": "'Simba' simply means 'lion' in Swahili, an East African language spoken where the story unfolds."
+      },
+      "es": {
+        "text": "En 'El Rey León', ¿cómo se llama el joven león heredero del trono?",
+        "options": [
+          "Mufasa",
+          "Scar",
+          "Timón",
+          "Simba"
+        ],
+        "explanation": "'Simba' significa sencillamente 'león' en suajili, una lengua de África oriental donde transcurre la historia."
+      }
+    }
+  },
+  {
+    "sourceRef": "e4bd1d5dae40fa9c",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel film d'animation Pixar suit un petit robot nettoyeur resté seul sur une Terre abandonnée ?",
+        "options": [
+          "WALL-E",
+          "Robots",
+          "Les Indestructibles",
+          "Là-haut"
+        ],
+        "explanation": "Le héros ne prononce presque aucun mot : ses émotions passent surtout par le son de ses moteurs et de ses yeux mécaniques."
+      },
+      "en": {
+        "text": "Which Pixar film follows a little cleaning robot left alone on an abandoned Earth?",
+        "options": [
+          "WALL-E",
+          "Robots",
+          "The Incredibles",
+          "Up"
+        ],
+        "explanation": "The hero speaks almost no words: his feelings come through mainly in the sound of his motors and mechanical eyes."
+      },
+      "es": {
+        "text": "¿Qué película de Pixar sigue a un robot de limpieza solo en una Tierra abandonada?",
+        "options": [
+          "WALL-E",
+          "Robots",
+          "Los Increíbles",
+          "Up"
+        ],
+        "explanation": "El héroe casi no dice palabra: sus emociones se expresan sobre todo en el sonido de sus motores y ojos mecánicos."
+      }
+    }
+  },
+  {
+    "sourceRef": "c94fffe4c6e0213d",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel acteur américain incarne « l'homme sans nom » dans les westerns de Sergio Leone ?",
+        "options": [
+          "John Wayne",
+          "Clint Eastwood",
+          "Charles Bronson",
+          "Lee Van Cleef"
+        ],
+        "explanation": "Payé peu pour un western italien méprisé à l'époque, l'acteur en fit le tremplin d'une carrière immense."
+      },
+      "en": {
+        "text": "Which American actor plays 'the man with no name' in Sergio Leone's westerns?",
+        "options": [
+          "John Wayne",
+          "Clint Eastwood",
+          "Charles Bronson",
+          "Lee Van Cleef"
+        ],
+        "explanation": "Paid little for an Italian western looked down on at the time, he turned it into the springboard of a huge career."
+      },
+      "es": {
+        "text": "¿Qué actor estadounidense encarna al 'hombre sin nombre' en los westerns de Sergio Leone?",
+        "options": [
+          "John Wayne",
+          "Clint Eastwood",
+          "Charles Bronson",
+          "Lee Van Cleef"
+        ],
+        "explanation": "Mal pagado por un western italiano despreciado entonces, lo convirtió en el trampolín de una carrera enorme."
+      }
+    }
+  },
+  {
+    "sourceRef": "fb630d9420e59515",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel réalisateur signa « Pulp Fiction », film culte de 1994 aux histoires entremêlées ?",
+        "options": [
+          "Martin Scorsese",
+          "David Lynch",
+          "Quentin Tarantino",
+          "Joel Coen"
+        ],
+        "explanation": "Avant de tourner, le cinéaste travaillait dans un vidéoclub, où il avala des milliers de films en guise d'école."
+      },
+      "en": {
+        "text": "Which director made 'Pulp Fiction', the cult 1994 film of interwoven stories?",
+        "options": [
+          "Martin Scorsese",
+          "David Lynch",
+          "Quentin Tarantino",
+          "Joel Coen"
+        ],
+        "explanation": "Before shooting, the filmmaker worked in a video store, where he devoured thousands of films as his film school."
+      },
+      "es": {
+        "text": "¿Qué director firmó 'Pulp Fiction', filme de culto de 1994 de historias entrelazadas?",
+        "options": [
+          "Martin Scorsese",
+          "David Lynch",
+          "Quentin Tarantino",
+          "Joel Coen"
+        ],
+        "explanation": "Antes de rodar, el cineasta trabajaba en un videoclub, donde devoró miles de películas como escuela."
+      }
+    }
+  },
+  {
+    "sourceRef": "5c2910904b25a459",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel super-héros new-yorkais, capable de tisser des toiles, est l'alter ego de Peter Parker ?",
+        "options": [
+          "Superman",
+          "Iron Man",
+          "Daredevil",
+          "Spider-Man"
+        ],
+        "explanation": "Son créateur voulait un héros adolescent ordinaire, avec des soucis d'argent et de cœur, ce qui était neuf pour l'époque."
+      },
+      "en": {
+        "text": "Which web-slinging New York superhero is the alter ego of Peter Parker?",
+        "options": [
+          "Superman",
+          "Iron Man",
+          "Daredevil",
+          "Spider-Man"
+        ],
+        "explanation": "His creator wanted an ordinary teenage hero with money and love troubles, which was a fresh idea back then."
+      },
+      "es": {
+        "text": "¿Qué superhéroe neoyorquino, capaz de tejer telarañas, es el alter ego de Peter Parker?",
+        "options": [
+          "Superman",
+          "Iron Man",
+          "Daredevil",
+          "Spider-Man"
+        ],
+        "explanation": "Su creador quería un héroe adolescente corriente, con problemas de dinero y de amor, algo nuevo para la época."
+      }
+    }
+  },
+  {
+    "sourceRef": "bac0cc77147b99da",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel film de James Cameron, sorti en 2009, se déroule sur la lune luxuriante de Pandora ?",
+        "options": [
+          "Avatar",
+          "Interstellar",
+          "Dune",
+          "Prometheus"
+        ],
+        "explanation": "Le réalisateur avait écrit le scénario dès les années 1990, mais attendit que la technologie soit prête à filmer sa jungle bleue."
+      },
+      "en": {
+        "text": "Which 2009 James Cameron film is set on the lush moon of Pandora?",
+        "options": [
+          "Avatar",
+          "Interstellar",
+          "Dune",
+          "Prometheus"
+        ],
+        "explanation": "The director had written the script back in the 1990s but waited until technology could film his blue jungle."
+      },
+      "es": {
+        "text": "¿Qué película de James Cameron, de 2009, transcurre en la exuberante luna de Pandora?",
+        "options": [
+          "Avatar",
+          "Interstellar",
+          "Dune",
+          "Prometheus"
+        ],
+        "explanation": "El director había escrito el guion ya en los años 1990, pero esperó a que la tecnología pudiera filmar su jungla azul."
+      }
+    }
+  },
+  {
+    "sourceRef": "c6458f74bd0bc123",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel réalisateur italien signa « La Dolce Vita » et « Huit et demi » ?",
+        "options": [
+          "Michelangelo Antonioni",
+          "Federico Fellini",
+          "Luchino Visconti",
+          "Vittorio De Sica"
+        ],
+        "explanation": "Son nom a donné l'adjectif « fellinien », pour décrire une scène onirique, foisonnante et un peu baroque."
+      },
+      "en": {
+        "text": "Which Italian director made 'La Dolce Vita' and 'Eight and a Half'?",
+        "options": [
+          "Michelangelo Antonioni",
+          "Federico Fellini",
+          "Luchino Visconti",
+          "Vittorio De Sica"
+        ],
+        "explanation": "His name gave us the adjective 'Fellini-esque', for a scene that is dreamlike, teeming and a touch baroque."
+      },
+      "es": {
+        "text": "¿Qué director italiano firmó 'La Dolce Vita' y 'Ocho y medio'?",
+        "options": [
+          "Michelangelo Antonioni",
+          "Federico Fellini",
+          "Luchino Visconti",
+          "Vittorio De Sica"
+        ],
+        "explanation": "Su nombre dio el adjetivo 'felliniano', para describir una escena onírica, desbordante y algo barroca."
+      }
+    }
+  },
+  {
+    "sourceRef": "96b76d8a809f7ec5",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Dans « Retour vers le futur », quelle voiture est transformée en machine à voyager dans le temps ?",
+        "options": [
+          "Une Ferrari",
+          "Une Cadillac",
+          "Une DeLorean",
+          "une Ford Mustang"
+        ],
+        "explanation": "La vraie DeLorean, avec ses portes en ailes de mouette, fut un échec commercial ; le film la rendit immortelle."
+      },
+      "en": {
+        "text": "In 'Back to the Future', which car is turned into a time machine?",
+        "options": [
+          "A Ferrari",
+          "A Cadillac",
+          "A DeLorean",
+          "A Ford Mustang"
+        ],
+        "explanation": "The real DeLorean, with its gull-wing doors, was a commercial flop; the film made it immortal."
+      },
+      "es": {
+        "text": "En 'Regreso al futuro', ¿qué coche se transforma en máquina del tiempo?",
+        "options": [
+          "Un Ferrari",
+          "Un Cadillac",
+          "Un DeLorean",
+          "Un Ford Mustang"
+        ],
+        "explanation": "El verdadero DeLorean, con sus puertas de ala de gaviota, fue un fracaso comercial; la película lo hizo inmortal."
+      }
+    }
+  },
+  {
+    "sourceRef": "7d1948239b166d13",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel film de 1993 ressuscite des dinosaures dans un parc à thème sur une île ?",
+        "options": [
+          "King Kong",
+          "Godzilla",
+          "Jumanji",
+          "Jurassic Park"
+        ],
+        "explanation": "Pour les gros plans, l'équipe mêla marionnettes grandeur nature et images de synthèse, encore balbutiantes à l'époque."
+      },
+      "en": {
+        "text": "Which 1993 film brings dinosaurs back to life in an island theme park?",
+        "options": [
+          "King Kong",
+          "Godzilla",
+          "Jumanji",
+          "Jurassic Park"
+        ],
+        "explanation": "For the close-ups, the crew blended life-size puppets with computer imagery, still in its infancy back then."
+      },
+      "es": {
+        "text": "¿Qué película de 1993 resucita dinosaurios en un parque temático de una isla?",
+        "options": [
+          "King Kong",
+          "Godzilla",
+          "Jumanji",
+          "Jurassic Park"
+        ],
+        "explanation": "Para los primeros planos, el equipo combinó marionetas a tamaño real con imágenes de síntesis, aún incipientes entonces."
+      }
+    }
+  },
+  {
+    "sourceRef": "43c88c63fa0aaf0e",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel acteur américain incarne le boxeur Rocky Balboa dont il a aussi écrit l'histoire ?",
+        "options": [
+          "Sylvester Stallone",
+          "Robert De Niro",
+          "Al Pacino",
+          "Bruce Willis"
+        ],
+        "explanation": "Fauché, il refusa de vendre son scénario s'il ne jouait pas le rôle-titre : un pari qui changea sa vie."
+      },
+      "en": {
+        "text": "Which American actor plays the boxer Rocky Balboa, whose story he also wrote?",
+        "options": [
+          "Sylvester Stallone",
+          "Robert De Niro",
+          "Al Pacino",
+          "Bruce Willis"
+        ],
+        "explanation": "Broke at the time, he refused to sell his script unless he played the lead: a gamble that changed his life."
+      },
+      "es": {
+        "text": "¿Qué actor estadounidense encarna al boxeador Rocky Balboa, cuya historia también escribió?",
+        "options": [
+          "Sylvester Stallone",
+          "Robert De Niro",
+          "Al Pacino",
+          "Bruce Willis"
+        ],
+        "explanation": "Sin dinero, se negó a vender su guion si no interpretaba el papel principal: una apuesta que cambió su vida."
+      }
+    }
+  },
+  {
+    "sourceRef": "b15e143206f6444a",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel film de 1999 des sœurs Wachowski oppose l'humanité à des machines dans un monde simulé ?",
+        "options": [
+          "Tron",
+          "Matrix",
+          "Inception",
+          "Terminator"
+        ],
+        "explanation": "L'effet où la caméra tourne autour d'un personnage figé en plein saut fut surnommé « bullet time »."
+      },
+      "en": {
+        "text": "Which 1999 film by the Wachowskis pits humanity against machines in a simulated world?",
+        "options": [
+          "Tron",
+          "The Matrix",
+          "Inception",
+          "Terminator"
+        ],
+        "explanation": "The effect where the camera circles a character frozen mid-jump was nicknamed 'bullet time'."
+      },
+      "es": {
+        "text": "¿Qué película de 1999 de las Wachowski enfrenta a la humanidad con máquinas en un mundo simulado?",
+        "options": [
+          "Tron",
+          "Matrix",
+          "Inception",
+          "Terminator"
+        ],
+        "explanation": "El efecto en que la cámara gira en torno a un personaje congelado en pleno salto se apodó 'bullet time'."
+      }
+    }
+  },
+  {
+    "sourceRef": "ed0c9c6561334a78",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel cinéaste danois fonda le mouvement Dogme95, prônant un cinéma dépouillé d'artifices ?",
+        "options": [
+          "Carl Dreyer",
+          "Nicolas Winding Refn",
+          "Lars von Trier",
+          "Thomas Vinterberg"
+        ],
+        "explanation": "Le manifeste interdisait décors rapportés, musique ajoutée et caméra sur pied : tout devait être filmé « pour de vrai »."
+      },
+      "en": {
+        "text": "Which Danish filmmaker founded the Dogme95 movement, calling for cinema stripped of artifice?",
+        "options": [
+          "Carl Dreyer",
+          "Nicolas Winding Refn",
+          "Lars von Trier",
+          "Thomas Vinterberg"
+        ],
+        "explanation": "The manifesto banned added sets, added music and tripods: everything had to be filmed 'for real'."
+      },
+      "es": {
+        "text": "¿Qué cineasta danés fundó el movimiento Dogma95, que abogaba por un cine despojado de artificios?",
+        "options": [
+          "Carl Dreyer",
+          "Nicolas Winding Refn",
+          "Lars von Trier",
+          "Thomas Vinterberg"
+        ],
+        "explanation": "El manifiesto prohibía decorados añadidos, música incorporada y trípode: todo debía filmarse 'de verdad'."
+      }
+    }
+  },
+  {
+    "sourceRef": "88466fa701ec7ef5",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Dans quel film d'animation Disney une jeune fille aux longs cheveux magiques est enfermée dans une tour ?",
+        "options": [
+          "La Belle au bois dormant",
+          "Blanche-Neige",
+          "La Reine des neiges",
+          "Raiponce"
+        ],
+        "explanation": "Le conte d'origine, signé des frères Grimm, tire son nom d'une plante potagère que réclamait la mère de l'héroïne."
+      },
+      "en": {
+        "text": "In which Disney animated film is a girl with long magic hair locked in a tower?",
+        "options": [
+          "Sleeping Beauty",
+          "Snow White",
+          "Frozen",
+          "Tangled"
+        ],
+        "explanation": "The original tale by the Brothers Grimm takes its name from a garden plant the heroine's mother craved."
+      },
+      "es": {
+        "text": "¿En qué película de animación de Disney una joven de largo cabello mágico está encerrada en una torre?",
+        "options": [
+          "La Bella Durmiente",
+          "Blancanieves",
+          "Frozen",
+          "Enredados (Rapunzel)"
+        ],
+        "explanation": "El cuento original, de los hermanos Grimm, toma su nombre de una planta de huerta que ansiaba la madre de la heroína."
+      }
+    }
+  },
+  {
+    "sourceRef": "a2a51c58d1ceb754",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Que signifie le sigle « USB » présent sur nos câbles et nos clés ?",
+        "options": [
+          "Universal Serial Bus",
+          "United System Backup",
+          "Ultra Speed Byte",
+          "User Serial Board"
+        ],
+        "explanation": "Le connecteur fut conçu pour être branché sans réfléchir… mais on le retourne souvent deux fois avant de trouver le bon sens."
+      },
+      "en": {
+        "text": "What does the acronym 'USB', found on our cables and drives, stand for?",
+        "options": [
+          "Universal Serial Bus",
+          "United System Backup",
+          "Ultra Speed Byte",
+          "User Serial Board"
+        ],
+        "explanation": "The connector was meant to be plugged in without thinking… yet we often flip it twice before finding the right way."
+      },
+      "es": {
+        "text": "¿Qué significa la sigla 'USB' que aparece en nuestros cables y memorias?",
+        "options": [
+          "Universal Serial Bus",
+          "United System Backup",
+          "Ultra Speed Byte",
+          "User Serial Board"
+        ],
+        "explanation": "El conector se diseñó para enchufarlo sin pensar… pero solemos girarlo dos veces antes de acertar."
+      }
+    }
+  },
+  {
+    "sourceRef": "328f3f0873980ca9",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle entreprise a créé le système d'exploitation Windows ?",
+        "options": [
+          "Apple",
+          "Microsoft",
+          "IBM",
+          "Google"
+        ],
+        "explanation": "Le nom « Windows », les fenêtres, remplaça un projet baptisé au départ « Interface Manager », jugé trop terne."
+      },
+      "en": {
+        "text": "Which company created the Windows operating system?",
+        "options": [
+          "Apple",
+          "Microsoft",
+          "IBM",
+          "Google"
+        ],
+        "explanation": "The name 'Windows' replaced a project first called 'Interface Manager', which sounded far too dull."
+      },
+      "es": {
+        "text": "¿Qué empresa creó el sistema operativo Windows?",
+        "options": [
+          "Apple",
+          "Microsoft",
+          "IBM",
+          "Google"
+        ],
+        "explanation": "El nombre 'Windows' (ventanas) sustituyó a un proyecto llamado al principio 'Interface Manager', juzgado demasiado soso."
+      }
+    }
+  },
+  {
+    "sourceRef": "d1afe97c77464674",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel réseau social, symbolisé par un oiseau bleu, fut rebaptisé « X » ?",
+        "options": [
+          "Snapchat",
+          "LinkedIn",
+          "Twitter",
+          "TikTok"
+        ],
+        "explanation": "Publier un message court y était appelé « tweet », le gazouillis de l'oiseau, avant que le logo ne change."
+      },
+      "en": {
+        "text": "Which social network, symbolised by a blue bird, was renamed 'X'?",
+        "options": [
+          "Snapchat",
+          "LinkedIn",
+          "Twitter",
+          "TikTok"
+        ],
+        "explanation": "Posting a short message there was called a 'tweet', the bird's chirp, before the logo was changed."
+      },
+      "es": {
+        "text": "¿Qué red social, simbolizada por un pájaro azul, fue rebautizada como 'X'?",
+        "options": [
+          "Snapchat",
+          "LinkedIn",
+          "Twitter",
+          "TikTok"
+        ],
+        "explanation": "Publicar un mensaje corto allí se llamaba 'tuit', el gorjeo del pájaro, antes de que cambiara el logotipo."
+      }
+    }
+  },
+  {
+    "sourceRef": "0e41c9210c2a72fa",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on le plus petit point coloré qui compose une image sur un écran ?",
+        "options": [
+          "Le bit",
+          "Le vecteur",
+          "L'octet",
+          "Le pixel"
+        ],
+        "explanation": "Le mot « pixel » est la contraction de « picture element », l'élément d'image en anglais."
+      },
+      "en": {
+        "text": "What is the smallest coloured dot that makes up an image on a screen called?",
+        "options": [
+          "The bit",
+          "The vector",
+          "The byte",
+          "The pixel"
+        ],
+        "explanation": "The word 'pixel' is a squeezing-together of 'picture element'."
+      },
+      "es": {
+        "text": "¿Cómo se llama el punto de color más pequeño que compone una imagen en una pantalla?",
+        "options": [
+          "El bit",
+          "El vector",
+          "El byte",
+          "El píxel"
+        ],
+        "explanation": "La palabra 'píxel' es la contracción del inglés 'picture element', elemento de imagen."
+      }
+    }
+  },
+  {
+    "sourceRef": "16672d6716ad1884",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "En quelle année Tim Berners-Lee mit-il au point, au CERN, le tout premier navigateur web ?",
+        "options": [
+          "1990",
+          "1983",
+          "1995",
+          "2000"
+        ],
+        "explanation": "Le premier site du monde, expliquant ce qu'était le Web, tournait sur son ordinateur avec un mot : « Ne pas éteindre. »"
+      },
+      "en": {
+        "text": "In which year did Tim Berners-Lee build the very first web browser at CERN?",
+        "options": [
+          "1990",
+          "1983",
+          "1995",
+          "2000"
+        ],
+        "explanation": "The world's first website, explaining what the Web was, ran on his computer with a note: 'Do not power down.'"
+      },
+      "es": {
+        "text": "¿En qué año creó Tim Berners-Lee, en el CERN, el primer navegador web?",
+        "options": [
+          "1990",
+          "1983",
+          "1995",
+          "2000"
+        ],
+        "explanation": "El primer sitio web del mundo, que explicaba qué era la Web, funcionaba en su ordenador con una nota: 'No apagar'."
+      }
+    }
+  },
+  {
+    "sourceRef": "e6d6692ace42d10a",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel cofondateur d'Apple présenta le tout premier iPhone sur scène en 2007 ?",
+        "options": [
+          "Bill Gates",
+          "Steve Jobs",
+          "Steve Wozniak",
+          "Tim Cook"
+        ],
+        "explanation": "Lors de la démonstration, plusieurs prototypes défaillants étaient cachés en coulisses au cas où l'un planterait."
+      },
+      "en": {
+        "text": "Which Apple co-founder unveiled the very first iPhone on stage in 2007?",
+        "options": [
+          "Bill Gates",
+          "Steve Jobs",
+          "Steve Wozniak",
+          "Tim Cook"
+        ],
+        "explanation": "During the demo, several backup prototypes were hidden backstage in case one crashed."
+      },
+      "es": {
+        "text": "¿Qué cofundador de Apple presentó en escena el primer iPhone en 2007?",
+        "options": [
+          "Bill Gates",
+          "Steve Jobs",
+          "Steve Wozniak",
+          "Tim Cook"
+        ],
+        "explanation": "Durante la demostración, varios prototipos de reserva estaban ocultos tras el escenario por si uno fallaba."
+      }
+    }
+  },
+  {
+    "sourceRef": "66a8b6490504dfae",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel préfixe informatique désigne environ mille milliards d'octets ?",
+        "options": [
+          "Le mégaoctet",
+          "Le gigaoctet",
+          "Le téraoctet",
+          "Le kilooctet"
+        ],
+        "explanation": "Un seul téraoctet pourrait contenir des centaines de milliers de photos : de quoi rendre jaloux les disquettes d'autrefois."
+      },
+      "en": {
+        "text": "Which computing prefix stands for about a trillion bytes?",
+        "options": [
+          "The megabyte",
+          "The gigabyte",
+          "The terabyte",
+          "The kilobyte"
+        ],
+        "explanation": "A single terabyte could hold hundreds of thousands of photos: enough to make the old floppy disks jealous."
+      },
+      "es": {
+        "text": "¿Qué prefijo informático designa cerca de un billón de bytes?",
+        "options": [
+          "El megabyte",
+          "El gigabyte",
+          "El terabyte",
+          "El kilobyte"
+        ],
+        "explanation": "Un solo terabyte podría guardar cientos de miles de fotos: para poner celosos a los viejos disquetes."
+      }
+    }
+  },
+  {
+    "sourceRef": "39430ad45c4af942",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle machine électromécanique, conçue autour d'Alan Turing, aida à casser le code Enigma ?",
+        "options": [
+          "Colossus",
+          "ENIAC",
+          "UNIVAC",
+          "La Bombe"
+        ],
+        "explanation": "Ces travaux secrets, révélés bien plus tard, auraient raccourci la Seconde Guerre mondiale de plusieurs années."
+      },
+      "en": {
+        "text": "Which electromechanical machine, built around Alan Turing, helped crack the Enigma code?",
+        "options": [
+          "Colossus",
+          "ENIAC",
+          "UNIVAC",
+          "The Bombe"
+        ],
+        "explanation": "This secret work, revealed much later, is said to have shortened the Second World War by several years."
+      },
+      "es": {
+        "text": "¿Qué máquina electromecánica, ideada en torno a Alan Turing, ayudó a romper el código Enigma?",
+        "options": [
+          "Colossus",
+          "ENIAC",
+          "UNIVAC",
+          "La Bombe"
+        ],
+        "explanation": "Ese trabajo secreto, revelado mucho después, habría acortado la Segunda Guerra Mundial varios años."
+      }
+    }
+  },
+  {
+    "sourceRef": "132bc3ed7d2242f4",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel ordinateur d'IBM battit le champion du monde d'échecs Garry Kasparov en 1997 ?",
+        "options": [
+          "Deep Blue",
+          "Watson",
+          "ENIAC",
+          "Colossus"
+        ],
+        "explanation": "Kasparov, vaincu, soupçonna un instant un humain caché derrière la machine, tant certains coups le déroutèrent."
+      },
+      "en": {
+        "text": "Which IBM computer beat world chess champion Garry Kasparov in 1997?",
+        "options": [
+          "Deep Blue",
+          "Watson",
+          "ENIAC",
+          "Colossus"
+        ],
+        "explanation": "Kasparov, defeated, briefly suspected a hidden human behind the machine, so puzzling did some moves seem."
+      },
+      "es": {
+        "text": "¿Qué ordenador de IBM venció al campeón mundial de ajedrez Garry Kaspárov en 1997?",
+        "options": [
+          "Deep Blue",
+          "Watson",
+          "ENIAC",
+          "Colossus"
+        ],
+        "explanation": "Kaspárov, derrotado, sospechó un instante de un humano oculto tras la máquina, de lo desconcertantes que eran algunas jugadas."
+      }
+    }
+  },
+  {
+    "sourceRef": "e62d26bb25aabdd3",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle touche du clavier efface le caractère situé juste à gauche du curseur ?",
+        "options": [
+          "Entrée",
+          "Retour arrière",
+          "Majuscule",
+          "Tabulation"
+        ],
+        "explanation": "Sur les machines à écrire, cette même touche reculait physiquement le chariot d'un cran pour corriger."
+      },
+      "en": {
+        "text": "Which keyboard key deletes the character just to the left of the cursor?",
+        "options": [
+          "Enter",
+          "Backspace",
+          "Shift",
+          "Tab"
+        ],
+        "explanation": "On typewriters, this same key physically pushed the carriage back one notch to correct a mistake."
+      },
+      "es": {
+        "text": "¿Qué tecla del teclado borra el carácter situado justo a la izquierda del cursor?",
+        "options": [
+          "Intro",
+          "Retroceso",
+          "Mayúsculas",
+          "Tabulador"
+        ],
+        "explanation": "En las máquinas de escribir, esa misma tecla retrocedía físicamente el carro un paso para corregir."
+      }
+    }
+  },
+  {
+    "sourceRef": "d1bacf2e54f3f66d",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel protocole, signalé par un petit cadenas, chiffre les échanges entre un navigateur et un site ?",
+        "options": [
+          "Le FTP",
+          "Le SMTP",
+          "Le HTTPS",
+          "Le DNS"
+        ],
+        "explanation": "Le « s » ajouté signifie « secure » : sans lui, un mot de passe circulerait en clair sur le réseau."
+      },
+      "en": {
+        "text": "Which protocol, marked by a small padlock, encrypts exchanges between a browser and a website?",
+        "options": [
+          "FTP",
+          "SMTP",
+          "HTTPS",
+          "DNS"
+        ],
+        "explanation": "The added 's' stands for 'secure': without it, a password would travel across the network in plain text."
+      },
+      "es": {
+        "text": "¿Qué protocolo, señalado por un pequeño candado, cifra los intercambios entre un navegador y un sitio?",
+        "options": [
+          "FTP",
+          "SMTP",
+          "HTTPS",
+          "DNS"
+        ],
+        "explanation": "La 's' añadida significa 'secure': sin ella, una contraseña viajaría en claro por la red."
+      }
+    }
+  },
+  {
+    "sourceRef": "b25e8ee17984ac64",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un logiciel malveillant qui chiffre vos fichiers pour exiger une rançon ?",
+        "options": [
+          "Un pare-feu",
+          "Un cookie",
+          "Un pilote",
+          "Un rançongiciel"
+        ],
+        "explanation": "Le mot anglais « ransomware » soude « ransom » (rançon) et « software » : le crime numérique version prise d'otage."
+      },
+      "en": {
+        "text": "What is a malicious program that encrypts your files to demand a ransom called?",
+        "options": [
+          "A firewall",
+          "A cookie",
+          "A driver",
+          "Ransomware"
+        ],
+        "explanation": "The word 'ransomware' welds 'ransom' and 'software': a digital crime in the style of a hostage-taking."
+      },
+      "es": {
+        "text": "¿Cómo se llama un programa malicioso que cifra tus archivos para exigir un rescate?",
+        "options": [
+          "Un cortafuegos",
+          "Una cookie",
+          "Un controlador",
+          "Un ransomware"
+        ],
+        "explanation": "La palabra inglesa 'ransomware' une 'ransom' (rescate) y 'software': el crimen digital en versión secuestro."
+      }
+    }
+  },
+  {
+    "sourceRef": "6b8dd0f56d221de9",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle entreprise japonaise a créé la console de jeu PlayStation ?",
+        "options": [
+          "Sony",
+          "Nintendo",
+          "Sega",
+          "Microsoft"
+        ],
+        "explanation": "La console naquit d'un projet avorté avec Nintendo ; froissé, le partenaire éconduit décida de se lancer seul."
+      },
+      "en": {
+        "text": "Which Japanese company created the PlayStation games console?",
+        "options": [
+          "Sony",
+          "Nintendo",
+          "Sega",
+          "Microsoft"
+        ],
+        "explanation": "The console grew out of a failed project with Nintendo; snubbed, the jilted partner decided to go it alone."
+      },
+      "es": {
+        "text": "¿Qué empresa japonesa creó la consola de videojuegos PlayStation?",
+        "options": [
+          "Sony",
+          "Nintendo",
+          "Sega",
+          "Microsoft"
+        ],
+        "explanation": "La consola nació de un proyecto frustrado con Nintendo; dolido, el socio rechazado decidió lanzarse solo."
+      }
+    }
+  },
+  {
+    "sourceRef": "5cfb9c3f01fb3a7c",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment nomme-t-on le petit fichier qu'un site dépose pour reconnaître un visiteur ?",
+        "options": [
+          "Un pixel",
+          "Un cookie",
+          "Un octet",
+          "Un cache"
+        ],
+        "explanation": "Le terme vient d'une image américaine, le « magic cookie », un jeton d'échange transmis sans être modifié."
+      },
+      "en": {
+        "text": "What is the small file a website leaves to recognise a visitor called?",
+        "options": [
+          "A pixel",
+          "A cookie",
+          "A byte",
+          "A cache"
+        ],
+        "explanation": "The term comes from an American image, the 'magic cookie', a token passed along without being changed."
+      },
+      "es": {
+        "text": "¿Cómo se llama el pequeño archivo que un sitio deja para reconocer a un visitante?",
+        "options": [
+          "Un píxel",
+          "Una cookie",
+          "Un byte",
+          "Una caché"
+        ],
+        "explanation": "El término viene de una imagen estadounidense, la 'magic cookie', un testigo que se pasa sin modificarlo."
+      }
+    }
+  },
+  {
+    "sourceRef": "84a3ce443cabef29",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel format d'image très répandu sur le web gère la transparence sans perte de qualité ?",
+        "options": [
+          "Le JPEG",
+          "Le PDF",
+          "Le PNG",
+          "Le MP3"
+        ],
+        "explanation": "Le PNG fut créé pour remplacer un format concurrent, alors soumis à un brevet qui agaçait les développeurs."
+      },
+      "en": {
+        "text": "Which image format, common on the web, handles transparency without loss of quality?",
+        "options": [
+          "JPEG",
+          "PDF",
+          "PNG",
+          "MP3"
+        ],
+        "explanation": "PNG was created to replace a rival format then bound by a patent that annoyed developers."
+      },
+      "es": {
+        "text": "¿Qué formato de imagen, muy común en la web, gestiona la transparencia sin pérdida de calidad?",
+        "options": [
+          "JPEG",
+          "PDF",
+          "PNG",
+          "MP3"
+        ],
+        "explanation": "El PNG se creó para sustituir a un formato rival, sujeto entonces a una patente que molestaba a los desarrolladores."
+      }
+    }
+  },
+  {
+    "sourceRef": "621c51ba2f2d2d0c",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel système d'exploitation libre, à la mascotte en forme de manchot, fut créé par Linus Torvalds ?",
+        "options": [
+          "macOS",
+          "Windows",
+          "Unix",
+          "Linux"
+        ],
+        "explanation": "Le manchot Tux fut choisi parce que Torvalds aurait, dit-on, été mordu par l'un de ces oiseaux dans un zoo."
+      },
+      "en": {
+        "text": "Which free operating system, with a penguin mascot, was created by Linus Torvalds?",
+        "options": [
+          "macOS",
+          "Windows",
+          "Unix",
+          "Linux"
+        ],
+        "explanation": "The penguin Tux was chosen because Torvalds is said to have been nipped by one of the birds at a zoo."
+      },
+      "es": {
+        "text": "¿Qué sistema operativo libre, con una mascota en forma de pingüino, creó Linus Torvalds?",
+        "options": [
+          "macOS",
+          "Windows",
+          "Unix",
+          "Linux"
+        ],
+        "explanation": "El pingüino Tux se eligió porque, según se cuenta, a Torvalds le mordió una de esas aves en un zoo."
+      }
+    }
+  },
+  {
+    "sourceRef": "dcc3f7822c39f73b",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien de cordes possède un violon classique ?",
+        "options": [
+          "4",
+          "6",
+          "5",
+          "7"
+        ],
+        "explanation": "Les quatre cordes, accordées de quinte en quinte, portent des noms de notes : sol, ré, la et mi."
+      },
+      "en": {
+        "text": "How many strings does a classical violin have?",
+        "options": [
+          "4",
+          "6",
+          "5",
+          "7"
+        ],
+        "explanation": "The four strings, tuned in fifths, are named after notes: G, D, A and E."
+      },
+      "es": {
+        "text": "¿Cuántas cuerdas tiene un violín clásico?",
+        "options": [
+          "4",
+          "6",
+          "5",
+          "7"
+        ],
+        "explanation": "Las cuatro cuerdas, afinadas por quintas, llevan nombres de notas: sol, re, la y mi."
+      }
+    }
+  },
+  {
+    "sourceRef": "2d402d72c4b8bcea",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument à touches et à soufflet se joue en l'écartant et en le refermant ?",
+        "options": [
+          "L'orgue",
+          "L'accordéon",
+          "Le clavecin",
+          "Le célesta"
+        ],
+        "explanation": "Surnommé « le piano à bretelles », il accompagne aussi bien le bal musette que le tango argentin."
+      },
+      "en": {
+        "text": "Which keyed instrument with a bellows is played by pulling it apart and pushing it back?",
+        "options": [
+          "The organ",
+          "The accordion",
+          "The harpsichord",
+          "The celesta"
+        ],
+        "explanation": "Nicknamed the 'squeezebox', it accompanies both the French dance hall and the Argentine tango."
+      },
+      "es": {
+        "text": "¿Qué instrumento de teclas y fuelle se toca separándolo y cerrándolo?",
+        "options": [
+          "El órgano",
+          "El acordeón",
+          "El clavecín",
+          "La celesta"
+        ],
+        "explanation": "Apodado el 'piano de tirantes', acompaña tanto el baile popular como el tango argentino."
+      }
+    }
+  },
+  {
+    "sourceRef": "c123f338a615d18f",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel groupe britannique enregistra l'album culte « The Dark Side of the Moon » ?",
+        "options": [
+          "Led Zeppelin",
+          "The Who",
+          "Pink Floyd",
+          "Genesis"
+        ],
+        "explanation": "La pochette, un prisme dispersant la lumière, est devenue l'une des images les plus reproduites du rock."
+      },
+      "en": {
+        "text": "Which British band recorded the cult album 'The Dark Side of the Moon'?",
+        "options": [
+          "Led Zeppelin",
+          "The Who",
+          "Pink Floyd",
+          "Genesis"
+        ],
+        "explanation": "The cover, a prism splitting light, has become one of the most reproduced images in rock."
+      },
+      "es": {
+        "text": "¿Qué grupo británico grabó el álbum de culto 'The Dark Side of the Moon'?",
+        "options": [
+          "Led Zeppelin",
+          "The Who",
+          "Pink Floyd",
+          "Genesis"
+        ],
+        "explanation": "La portada, un prisma que dispersa la luz, se ha convertido en una de las imágenes más reproducidas del rock."
+      }
+    }
+  },
+  {
+    "sourceRef": "532c720b3ed65eb7",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument à six cordes existe en version sèche et en version électrique ?",
+        "options": [
+          "Le violon",
+          "La harpe",
+          "Le banjo",
+          "La guitare"
+        ],
+        "explanation": "L'électrique naquit du besoin de se faire entendre dans les grands orchestres de jazz, où l'acoustique se noyait."
+      },
+      "en": {
+        "text": "Which six-string instrument comes in both acoustic and electric versions?",
+        "options": [
+          "The violin",
+          "The harp",
+          "The banjo",
+          "The guitar"
+        ],
+        "explanation": "The electric version was born from the need to be heard in big jazz bands, where the acoustic one drowned."
+      },
+      "es": {
+        "text": "¿Qué instrumento de seis cuerdas existe en versión acústica y eléctrica?",
+        "options": [
+          "El violín",
+          "El arpa",
+          "El banjo",
+          "La guitarra"
+        ],
+        "explanation": "La eléctrica nació de la necesidad de oírse en las grandes orquestas de jazz, donde la acústica se perdía."
+      }
+    }
+  },
+  {
+    "sourceRef": "f3d59e7af1bdb67e",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle chanteuse américaine est surnommée la « Reine de la soul » ?",
+        "options": [
+          "Aretha Franklin",
+          "Whitney Houston",
+          "Diana Ross",
+          "Tina Turner"
+        ],
+        "explanation": "Sa reprise de « Respect » devint un hymne : elle y épelait le mot, transformant une chanson d'amour en cri de dignité."
+      },
+      "en": {
+        "text": "Which American singer is nicknamed the 'Queen of Soul'?",
+        "options": [
+          "Aretha Franklin",
+          "Whitney Houston",
+          "Diana Ross",
+          "Tina Turner"
+        ],
+        "explanation": "Her cover of 'Respect' became an anthem: she spelled out the word, turning a love song into a cry for dignity."
+      },
+      "es": {
+        "text": "¿Qué cantante estadounidense es apodada la 'Reina del soul'?",
+        "options": [
+          "Aretha Franklin",
+          "Whitney Houston",
+          "Diana Ross",
+          "Tina Turner"
+        ],
+        "explanation": "Su versión de 'Respect' se volvió un himno: deletreaba la palabra, convirtiendo una canción de amor en grito de dignidad."
+      }
+    }
+  },
+  {
+    "sourceRef": "552c71be5d04e856",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur russe écrivit le ballet « Le Lac des cygnes » ?",
+        "options": [
+          "Sergueï Prokofiev",
+          "Piotr Tchaïkovski",
+          "Sergueï Rachmaninov",
+          "Alexandre Borodine"
+        ],
+        "explanation": "Sa création fut d'abord un échec ; le succès mondial ne vint qu'après la mort du compositeur, avec une nouvelle mise en scène."
+      },
+      "en": {
+        "text": "Which Russian composer wrote the ballet 'Swan Lake'?",
+        "options": [
+          "Sergei Prokofiev",
+          "Pyotr Tchaikovsky",
+          "Sergei Rachmaninoff",
+          "Alexander Borodin"
+        ],
+        "explanation": "Its premiere was a flop; worldwide success came only after the composer's death, with a new staging."
+      },
+      "es": {
+        "text": "¿Qué compositor ruso escribió el ballet 'El lago de los cisnes'?",
+        "options": [
+          "Serguéi Prokófiev",
+          "Piotr Chaikovski",
+          "Serguéi Rajmáninov",
+          "Aleksandr Borodín"
+        ],
+        "explanation": "Su estreno fue un fracaso; el éxito mundial solo llegó tras la muerte del compositor, con una nueva puesta en escena."
+      }
+    }
+  },
+  {
+    "sourceRef": "31c275b9a6ea5fe3",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel chanteur américain, pionnier du rock and roll, est surnommé « The King » ?",
+        "options": [
+          "Chuck Berry",
+          "Buddy Holly",
+          "Elvis Presley",
+          "Little Richard"
+        ],
+        "explanation": "Sa maison de Memphis, Graceland, reçoit chaque année des centaines de milliers de visiteurs, comme un lieu de pèlerinage."
+      },
+      "en": {
+        "text": "Which American singer, a rock and roll pioneer, is nicknamed 'The King'?",
+        "options": [
+          "Chuck Berry",
+          "Buddy Holly",
+          "Elvis Presley",
+          "Little Richard"
+        ],
+        "explanation": "His Memphis home, Graceland, draws hundreds of thousands of visitors each year, like a place of pilgrimage."
+      },
+      "es": {
+        "text": "¿Qué cantante estadounidense, pionero del rock and roll, es apodado 'The King'?",
+        "options": [
+          "Chuck Berry",
+          "Buddy Holly",
+          "Elvis Presley",
+          "Little Richard"
+        ],
+        "explanation": "Su casa de Memphis, Graceland, recibe cada año a cientos de miles de visitantes, como lugar de peregrinación."
+      }
+    }
+  },
+  {
+    "sourceRef": "e1f393f59e52af06",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de touches, blanches et noires, compte un piano standard ?",
+        "options": [
+          "61",
+          "76",
+          "100",
+          "88"
+        ],
+        "explanation": "Les touches noires, groupées par deux et par trois, servent de repères pour se retrouver sans regarder le clavier."
+      },
+      "en": {
+        "text": "How many keys, white and black, does a standard piano have?",
+        "options": [
+          "61",
+          "76",
+          "100",
+          "88"
+        ],
+        "explanation": "The black keys, grouped in twos and threes, act as landmarks to find your place without looking at the keyboard."
+      },
+      "es": {
+        "text": "¿Cuántas teclas, blancas y negras, tiene un piano estándar?",
+        "options": [
+          "61",
+          "76",
+          "100",
+          "88"
+        ],
+        "explanation": "Las teclas negras, agrupadas de dos en dos y de tres en tres, sirven de guía para orientarse sin mirar el teclado."
+      }
+    }
+  },
+  {
+    "sourceRef": "c85930e46971bae6",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument à vent en cuivre s'allonge et se raccourcit grâce à une coulisse ?",
+        "options": [
+          "Le trombone",
+          "Le tuba",
+          "Le cor",
+          "Le saxophone"
+        ],
+        "explanation": "En glissant la coulisse, le musicien change la longueur du tube et donc la note, sans le moindre piston."
+      },
+      "en": {
+        "text": "Which brass wind instrument lengthens and shortens by means of a slide?",
+        "options": [
+          "The trombone",
+          "The tuba",
+          "The horn",
+          "The saxophone"
+        ],
+        "explanation": "By sliding the tube, the player changes its length, and so the note, without a single valve."
+      },
+      "es": {
+        "text": "¿Qué instrumento de viento metal se alarga y se acorta mediante una vara?",
+        "options": [
+          "El trombón",
+          "La tuba",
+          "La trompa",
+          "El saxofón"
+        ],
+        "explanation": "Al deslizar la vara, el músico cambia la longitud del tubo, y por tanto la nota, sin ningún pistón."
+      }
+    }
+  },
+  {
+    "sourceRef": "fd85129842c288bb",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur baroque allemand composa l'oratorio « Le Messie » et son célèbre « Alléluia » ?",
+        "options": [
+          "Georg Philipp Telemann",
+          "Georg Friedrich Haendel",
+          "Henry Purcell",
+          "Arcangelo Corelli"
+        ],
+        "explanation": "La légende veut qu'un roi, ému, se soit levé pendant l'Alléluia, obligeant toute la cour à l'imiter debout."
+      },
+      "en": {
+        "text": "Which German Baroque composer wrote the oratorio 'Messiah' and its famous 'Hallelujah'?",
+        "options": [
+          "Georg Philipp Telemann",
+          "George Frideric Handel",
+          "Henry Purcell",
+          "Arcangelo Corelli"
+        ],
+        "explanation": "Legend says a moved king stood up during the Hallelujah, forcing the whole court to rise as well."
+      },
+      "es": {
+        "text": "¿Qué compositor barroco alemán compuso el oratorio 'El Mesías' y su célebre 'Aleluya'?",
+        "options": [
+          "Georg Philipp Telemann",
+          "Georg Friedrich Händel",
+          "Henry Purcell",
+          "Arcangelo Corelli"
+        ],
+        "explanation": "La leyenda cuenta que un rey emocionado se levantó durante el Aleluya, obligando a toda la corte a imitarlo de pie."
+      }
+    }
+  },
+  {
+    "sourceRef": "aef26aa1e79c210f",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel objet le chef d'orchestre tient-il en main pour battre la mesure ?",
+        "options": [
+          "Un archet",
+          "Une partition",
+          "Une baguette",
+          "Un métronome"
+        ],
+        "explanation": "Autrefois, on battait la mesure avec une grande canne frappée au sol ; un chef s'en blessa le pied et en mourut."
+      },
+      "en": {
+        "text": "What does an orchestra conductor hold to beat time?",
+        "options": [
+          "A bow",
+          "A score",
+          "A baton",
+          "A metronome"
+        ],
+        "explanation": "Time was once beaten with a large staff struck on the floor; one conductor injured his foot with it and died of it."
+      },
+      "es": {
+        "text": "¿Qué objeto sostiene el director de orquesta para marcar el compás?",
+        "options": [
+          "Un arco",
+          "Una partitura",
+          "Una batuta",
+          "Un metrónomo"
+        ],
+        "explanation": "Antaño se marcaba el compás con un gran bastón golpeado contra el suelo; un director se hirió el pie con él y murió."
+      }
+    }
+  },
+  {
+    "sourceRef": "819ea9f3557bdb52",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel groupe de rock irlandais, mené par Bono, sortit l'album « The Joshua Tree » ?",
+        "options": [
+          "The Cranberries",
+          "Coldplay",
+          "R.E.M.",
+          "U2"
+        ],
+        "explanation": "Le nom du groupe évoque un avion espion, mais les membres aiment dire qu'il se prête à mille interprétations."
+      },
+      "en": {
+        "text": "Which Irish rock band, led by Bono, released the album 'The Joshua Tree'?",
+        "options": [
+          "The Cranberries",
+          "Coldplay",
+          "R.E.M.",
+          "U2"
+        ],
+        "explanation": "The band's name recalls a spy plane, though the members like to say it lends itself to a thousand readings."
+      },
+      "es": {
+        "text": "¿Qué grupo de rock irlandés, liderado por Bono, publicó el álbum 'The Joshua Tree'?",
+        "options": [
+          "The Cranberries",
+          "Coldplay",
+          "R.E.M.",
+          "U2"
+        ],
+        "explanation": "El nombre del grupo evoca un avión espía, aunque sus miembros gustan de decir que admite mil interpretaciones."
+      }
+    }
+  },
+  {
+    "sourceRef": "f8bd05272bb64f38",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel terme italien, sur une partition, indique de jouer « très fort » ?",
+        "options": [
+          "Fortissimo",
+          "Pianissimo",
+          "Crescendo",
+          "Andante"
+        ],
+        "explanation": "Toute la terminologie musicale nous vient d'Italie, berceau de l'opéra, où l'on nota très tôt les nuances."
+      },
+      "en": {
+        "text": "Which Italian term on a score tells you to play 'very loud'?",
+        "options": [
+          "Fortissimo",
+          "Pianissimo",
+          "Crescendo",
+          "Andante"
+        ],
+        "explanation": "All this musical vocabulary comes from Italy, cradle of opera, where dynamics were written down very early."
+      },
+      "es": {
+        "text": "¿Qué término italiano, en una partitura, indica tocar 'muy fuerte'?",
+        "options": [
+          "Fortissimo",
+          "Pianissimo",
+          "Crescendo",
+          "Andante"
+        ],
+        "explanation": "Todo el vocabulario musical viene de Italia, cuna de la ópera, donde muy pronto se anotaron los matices."
+      }
+    }
+  },
+  {
+    "sourceRef": "5b435a3e6de940d4",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un ensemble de quatre musiciens qui jouent ensemble ?",
+        "options": [
+          "Un duo",
+          "Un trio",
+          "Un quintette",
+          "Un quatuor"
+        ],
+        "explanation": "Le quatuor à cordes, deux violons, un alto et un violoncelle, est l'une des formations les plus prisées de la musique de chambre."
+      },
+      "en": {
+        "text": "What do you call a group of four musicians playing together?",
+        "options": [
+          "A duo",
+          "A trio",
+          "A quintet",
+          "A quartet"
+        ],
+        "explanation": "The string quartet, two violins, a viola and a cello, is one of the most treasured line-ups in chamber music."
+      },
+      "es": {
+        "text": "¿Cómo se llama un conjunto de cuatro músicos que tocan juntos?",
+        "options": [
+          "Un dúo",
+          "Un trío",
+          "Un quinteto",
+          "Un cuarteto"
+        ],
+        "explanation": "El cuarteto de cuerda, dos violines, una viola y un violonchelo, es una de las formaciones más apreciadas de la música de cámara."
+      }
+    }
+  },
+  {
+    "sourceRef": "a671326287fbb499",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel mouvement du début du XXᵉ siècle, mené par Picasso et Braque, décompose les objets en facettes géométriques ?",
+        "options": [
+          "Le futurisme",
+          "Le cubisme",
+          "Le réalisme",
+          "Le pointillisme"
+        ],
+        "explanation": "Le nom vient d'un critique qui, moqueur, parla de petits « cubes » : l'insulte est devenue une fierté."
+      },
+      "en": {
+        "text": "Which early 20th-century movement, led by Picasso and Braque, breaks objects into geometric facets?",
+        "options": [
+          "Futurism",
+          "Cubism",
+          "Realism",
+          "Pointillism"
+        ],
+        "explanation": "The name came from a mocking critic who spoke of little 'cubes': the insult turned into a badge of pride."
+      },
+      "es": {
+        "text": "¿Qué movimiento de principios del siglo XX, liderado por Picasso y Braque, descompone los objetos en facetas geométricas?",
+        "options": [
+          "El futurismo",
+          "El cubismo",
+          "El realismo",
+          "El puntillismo"
+        ],
+        "explanation": "El nombre viene de un crítico burlón que habló de pequeños 'cubos': el insulto se convirtió en orgullo."
+      }
+    }
+  },
+  {
+    "sourceRef": "952fb3ae365eaee6",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle célèbre statue grecque en marbre, exposée au Louvre, représente une déesse dépourvue de bras ?",
+        "options": [
+          "La Victoire de Samothrace",
+          "Le Discobole",
+          "La Vénus de Milo",
+          "La Pietà"
+        ],
+        "explanation": "Découverte par un paysan sur une île grecque, elle arriva à Paris sans ses bras, jamais retrouvés depuis."
+      },
+      "en": {
+        "text": "Which famous Greek marble statue in the Louvre shows a goddess with no arms?",
+        "options": [
+          "The Winged Victory of Samothrace",
+          "The Discobolus",
+          "The Venus de Milo",
+          "The Pietà"
+        ],
+        "explanation": "Found by a farmer on a Greek island, she reached Paris without her arms, never recovered since."
+      },
+      "es": {
+        "text": "¿Qué famosa estatua griega de mármol, expuesta en el Louvre, representa a una diosa sin brazos?",
+        "options": [
+          "La Victoria de Samotracia",
+          "El Discóbolo",
+          "La Venus de Milo",
+          "La Piedad"
+        ],
+        "explanation": "Hallada por un campesino en una isla griega, llegó a París sin sus brazos, jamás recuperados."
+      }
+    }
+  },
+  {
+    "sourceRef": "3ddc7afcbaee631b",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel architecte américain conçut le musée Guggenheim de New York, tout en rampe en spirale ?",
+        "options": [
+          "Le Corbusier",
+          "Mies van der Rohe",
+          "Frank Gehry",
+          "Frank Lloyd Wright"
+        ],
+        "explanation": "L'architecte imaginait le visiteur montant en ascenseur, puis descendant lentement la spirale en découvrant les œuvres."
+      },
+      "en": {
+        "text": "Which American architect designed New York's Guggenheim Museum, built as a spiral ramp?",
+        "options": [
+          "Le Corbusier",
+          "Mies van der Rohe",
+          "Frank Gehry",
+          "Frank Lloyd Wright"
+        ],
+        "explanation": "The architect pictured the visitor riding up by lift, then slowly walking down the spiral, discovering the works."
+      },
+      "es": {
+        "text": "¿Qué arquitecto estadounidense diseñó el museo Guggenheim de Nueva York, con su rampa en espiral?",
+        "options": [
+          "Le Corbusier",
+          "Mies van der Rohe",
+          "Frank Gehry",
+          "Frank Lloyd Wright"
+        ],
+        "explanation": "El arquitecto imaginaba al visitante subiendo en ascensor y bajando después despacio por la espiral, descubriendo las obras."
+      }
+    }
+  },
+  {
+    "sourceRef": "b2df70e6dc229eea",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle technique de peinture ancienne délaie les pigments dans un jaune d'œuf ?",
+        "options": [
+          "La tempera",
+          "La gouache",
+          "L'acrylique",
+          "Le pastel"
+        ],
+        "explanation": "Avant l'invention de la peinture à l'huile, la tempera dominait ; elle sèche vite et donne des couleurs mates et lumineuses."
+      },
+      "en": {
+        "text": "Which old painting technique mixes pigments into an egg yolk?",
+        "options": [
+          "Tempera",
+          "Gouache",
+          "Acrylic",
+          "Pastel"
+        ],
+        "explanation": "Before oil paint was invented, tempera ruled; it dries fast and gives matte, luminous colours."
+      },
+      "es": {
+        "text": "¿Qué antigua técnica de pintura diluye los pigmentos en una yema de huevo?",
+        "options": [
+          "El temple (témpera)",
+          "El gouache",
+          "El acrílico",
+          "El pastel"
+        ],
+        "explanation": "Antes de inventarse la pintura al óleo, el temple dominaba; seca rápido y da colores mates y luminosos."
+      }
+    }
+  },
+  {
+    "sourceRef": "473dcc87d0065a1b",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "De quelle couleur est le célèbre carré peint par Kazimir Malevitch sur fond blanc ?",
+        "options": [
+          "Rouge",
+          "Noir",
+          "Bleu",
+          "Blanc"
+        ],
+        "explanation": "En 1915, ce simple carré sombre fit scandale : l'artiste y voyait le « point zéro » de la peinture."
+      },
+      "en": {
+        "text": "What colour is the famous square painted by Kazimir Malevich on a white background?",
+        "options": [
+          "Red",
+          "Black",
+          "Blue",
+          "White"
+        ],
+        "explanation": "In 1915 this plain dark square caused a scandal: the artist saw in it the 'zero point' of painting."
+      },
+      "es": {
+        "text": "¿De qué color es el célebre cuadrado pintado por Kazimir Malévich sobre fondo blanco?",
+        "options": [
+          "Rojo",
+          "Negro",
+          "Azul",
+          "Blanco"
+        ],
+        "explanation": "En 1915 ese simple cuadrado oscuro fue un escándalo: el artista veía en él el 'punto cero' de la pintura."
+      }
+    }
+  },
+  {
+    "sourceRef": "a9296590712b3901",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre espagnol du XVIIᵉ siècle peignit « Les Ménines », énigme de miroirs et de regards ?",
+        "options": [
+          "Francisco de Goya",
+          "Bartolomé Murillo",
+          "Diego Vélasquez",
+          "Francisco de Zurbarán"
+        ],
+        "explanation": "L'artiste s'est représenté lui-même dans le tableau, pinceau à la main, comme s'il peignait la scène que l'on regarde."
+      },
+      "en": {
+        "text": "Which 17th-century Spanish painter created 'Las Meninas', a riddle of mirrors and gazes?",
+        "options": [
+          "Francisco de Goya",
+          "Bartolomé Murillo",
+          "Diego Velázquez",
+          "Francisco de Zurbarán"
+        ],
+        "explanation": "The artist painted himself into the picture, brush in hand, as if painting the very scene we are looking at."
+      },
+      "es": {
+        "text": "¿Qué pintor español del siglo XVII creó 'Las Meninas', enigma de espejos y miradas?",
+        "options": [
+          "Francisco de Goya",
+          "Bartolomé Murillo",
+          "Diego Velázquez",
+          "Francisco de Zurbarán"
+        ],
+        "explanation": "El artista se retrató a sí mismo en el cuadro, pincel en mano, como si pintara la escena que contemplamos."
+      }
+    }
+  },
+  {
+    "sourceRef": "470f858543c167d7",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle école d'art et de design allemande, fondée en 1919 par Walter Gropius, marqua le XXᵉ siècle ?",
+        "options": [
+          "Le Werkbund",
+          "La Sécession",
+          "Le Blaue Reiter",
+          "Le Bauhaus"
+        ],
+        "explanation": "Fermée par le pouvoir nazi en 1933, l'école essaima : ses maîtres exilés diffusèrent ses idées jusqu'aux États-Unis."
+      },
+      "en": {
+        "text": "Which German art and design school, founded in 1919 by Walter Gropius, shaped the 20th century?",
+        "options": [
+          "The Werkbund",
+          "The Secession",
+          "Der Blaue Reiter",
+          "The Bauhaus"
+        ],
+        "explanation": "Shut down by the Nazi regime in 1933, the school scattered: its exiled masters spread its ideas as far as the United States."
+      },
+      "es": {
+        "text": "¿Qué escuela alemana de arte y diseño, fundada en 1919 por Walter Gropius, marcó el siglo XX?",
+        "options": [
+          "La Werkbund",
+          "La Secesión",
+          "Der Blaue Reiter",
+          "La Bauhaus"
+        ],
+        "explanation": "Cerrada por el régimen nazi en 1933, la escuela se dispersó: sus maestros exiliados difundieron sus ideas hasta Estados Unidos."
+      }
+    }
+  },
+  {
+    "sourceRef": "e2cae4b75aa904e0",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Sur quel support de bois tendu de tissu le peintre applique-t-il d'ordinaire la peinture à l'huile ?",
+        "options": [
+          "La toile",
+          "Le vitrail",
+          "La mosaïque",
+          "La tapisserie"
+        ],
+        "explanation": "Avant la toile, on peignait surtout sur des panneaux de bois, plus lourds et sensibles aux fentes du temps."
+      },
+      "en": {
+        "text": "On which wooden support stretched with fabric does a painter usually apply oil paint?",
+        "options": [
+          "The canvas",
+          "The stained glass",
+          "The mosaic",
+          "The tapestry"
+        ],
+        "explanation": "Before canvas, artists mostly painted on wooden panels, heavier and prone to cracking over time."
+      },
+      "es": {
+        "text": "¿Sobre qué soporte de madera tensado con tela aplica el pintor habitualmente el óleo?",
+        "options": [
+          "El lienzo",
+          "La vidriera",
+          "El mosaico",
+          "El tapiz"
+        ],
+        "explanation": "Antes del lienzo se pintaba sobre todo en tablas de madera, más pesadas y propensas a agrietarse con el tiempo."
+      }
+    }
+  },
+  {
+    "sourceRef": "30ac45ab0487e77d",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel sculpteur suisse est célèbre pour ses silhouettes humaines filiformes et étirées ?",
+        "options": [
+          "Auguste Rodin",
+          "Alberto Giacometti",
+          "Constantin Brancusi",
+          "Alexander Calder"
+        ],
+        "explanation": "Ses figures squelettiques, marchant seules, sont devenues un symbole de la fragilité de l'homme d'après-guerre."
+      },
+      "en": {
+        "text": "Which Swiss sculptor is famous for his thread-thin, stretched human figures?",
+        "options": [
+          "Auguste Rodin",
+          "Alberto Giacometti",
+          "Constantin Brancusi",
+          "Alexander Calder"
+        ],
+        "explanation": "His skeletal figures, walking alone, became a symbol of the fragility of post-war humankind."
+      },
+      "es": {
+        "text": "¿Qué escultor suizo es célebre por sus siluetas humanas filiformes y estiradas?",
+        "options": [
+          "Auguste Rodin",
+          "Alberto Giacometti",
+          "Constantin Brancusi",
+          "Alexander Calder"
+        ],
+        "explanation": "Sus figuras esqueléticas, caminando solas, se volvieron un símbolo de la fragilidad del hombre de posguerra."
+      }
+    }
+  },
+  {
+    "sourceRef": "a2b2fefd25c02f2f",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel artiste américain inventa les « mobiles », sculptures suspendues qui bougent au moindre souffle ?",
+        "options": [
+          "Marcel Duchamp",
+          "Claes Oldenburg",
+          "Alexander Calder",
+          "Richard Serra"
+        ],
+        "explanation": "C'est un ami artiste qui baptisa ces œuvres « mobiles », par jeu de mots avec un autre sens du terme en français."
+      },
+      "en": {
+        "text": "Which American artist invented the 'mobiles', hanging sculptures that move at the slightest breath?",
+        "options": [
+          "Marcel Duchamp",
+          "Claes Oldenburg",
+          "Alexander Calder",
+          "Richard Serra"
+        ],
+        "explanation": "A fellow artist named these works 'mobiles', a pun on another meaning of the word in French."
+      },
+      "es": {
+        "text": "¿Qué artista estadounidense inventó los 'móviles', esculturas suspendidas que se mueven con el menor soplo?",
+        "options": [
+          "Marcel Duchamp",
+          "Claes Oldenburg",
+          "Alexander Calder",
+          "Richard Serra"
+        ],
+        "explanation": "Un amigo artista bautizó estas obras como 'móviles', jugando con otro sentido de la palabra en francés."
+      }
+    }
+  },
+  {
+    "sourceRef": "56680ebfbfda37a1",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre autrichien recouvrit d'or son célèbre tableau « Le Baiser » ?",
+        "options": [
+          "Egon Schiele",
+          "Oskar Kokoschka",
+          "Vassily Kandinsky",
+          "Gustav Klimt"
+        ],
+        "explanation": "Fils d'orfèvre, l'artiste appliquait de véritables feuilles d'or, un savoir-faire hérité de l'atelier familial."
+      },
+      "en": {
+        "text": "Which Austrian painter covered his famous picture 'The Kiss' in gold?",
+        "options": [
+          "Egon Schiele",
+          "Oskar Kokoschka",
+          "Wassily Kandinsky",
+          "Gustav Klimt"
+        ],
+        "explanation": "The son of a goldsmith, the artist applied real gold leaf, a craft learned in the family workshop."
+      },
+      "es": {
+        "text": "¿Qué pintor austríaco cubrió de oro su famoso cuadro 'El beso'?",
+        "options": [
+          "Egon Schiele",
+          "Oskar Kokoschka",
+          "Vasili Kandinsky",
+          "Gustav Klimt"
+        ],
+        "explanation": "Hijo de un orfebre, el artista aplicaba auténtico pan de oro, un oficio aprendido en el taller familiar."
+      }
+    }
+  },
+  {
+    "sourceRef": "e5d7172bd5e930cf",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel art consiste à assembler de petits fragments de verre ou de pierre colorée pour former une image ?",
+        "options": [
+          "La mosaïque",
+          "Le vitrail",
+          "La gravure",
+          "La fresque"
+        ],
+        "explanation": "Les Romains en couvraient sols et murs ; certaines mosaïques antiques comptent des millions de minuscules éclats."
+      },
+      "en": {
+        "text": "Which art assembles small fragments of glass or coloured stone to form an image?",
+        "options": [
+          "Mosaic",
+          "Stained glass",
+          "Engraving",
+          "Fresco"
+        ],
+        "explanation": "The Romans covered floors and walls with it; some ancient mosaics contain millions of tiny chips."
+      },
+      "es": {
+        "text": "¿Qué arte consiste en unir pequeños fragmentos de vidrio o piedra de colores para formar una imagen?",
+        "options": [
+          "El mosaico",
+          "La vidriera",
+          "El grabado",
+          "El fresco"
+        ],
+        "explanation": "Los romanos cubrían con él suelos y paredes; algunos mosaicos antiguos tienen millones de diminutas teselas."
+      }
+    }
+  }
+]
