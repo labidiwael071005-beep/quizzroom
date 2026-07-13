@@ -1,0 +1,1402 @@
+[
+  {
+    "sourceRef": "dcc5a8579cd02072",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 45.6959,
+    "lng": -0.329,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du sud-ouest de la France a donné son nom à une eau-de-vie de vin vieillie de longues années en fûts de chêne ?",
+        "explanation": "La part du précieux alcool qui s'évapore des fûts, environ deux pour cent par an, est joliment appelée « la part des anges ».",
+        "label": "Cognac",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which town in south-western France gave its name to a wine spirit aged for many years in oak barrels?",
+        "explanation": "The share of the precious spirit that evaporates from the barrels, about two percent a year, is charmingly called 'the angels' share'.",
+        "label": "Cognac",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué población del suroeste de Francia dio su nombre a un aguardiente de vino envejecido largos años en barricas de roble?",
+        "explanation": "La parte del precioso licor que se evapora de las barricas, cerca del dos por ciento al año, se llama con gracia 'la parte de los ángeles'.",
+        "label": "Cognac",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "7a3aeb650ad44d9f",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 44.6471,
+    "lng": 10.9252,
+    "translations": {
+      "fr": {
+        "text": "De quelle ville d'Émilie-Romagne provient le vinaigre balsamique traditionnel, vieilli des années dans une série de fûts de bois ?",
+        "explanation": "Le plus vieux peut mûrir un quart de siècle et se déguste alors goutte à goutte, presque comme un sirop précieux.",
+        "label": "Modène",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "From which city of Emilia-Romagna comes traditional balsamic vinegar, aged for years in a series of wooden casks?",
+        "explanation": "The oldest can mature for a quarter of a century and is then tasted drop by drop, almost like a precious syrup.",
+        "label": "Modena",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿De qué ciudad de Emilia-Romaña procede el vinagre balsámico tradicional, envejecido años en una serie de barriles de madera?",
+        "explanation": "El más viejo puede madurar un cuarto de siglo y se degusta entonces gota a gota, casi como un jarabe precioso.",
+        "label": "Módena",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "79ab679d59183c55",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 46.5836,
+    "lng": 7.0827,
+    "translations": {
+      "fr": {
+        "text": "Quel village médiéval perché de Suisse a donné son nom à un fromage à pâte dure, fondu dans la fondue ?",
+        "explanation": "Le vrai fromage n'a pas de trous, contrairement à l'image que l'on s'en fait : ce sont d'autres variétés suisses qui en présentent.",
+        "label": "Gruyères",
+        "country": "Suisse"
+      },
+      "en": {
+        "text": "Which perched medieval village of Switzerland gave its name to a hard cheese, melted in fondue?",
+        "explanation": "The real cheese has no holes, contrary to popular belief: it is other Swiss varieties that show them.",
+        "label": "Gruyères",
+        "country": "Switzerland"
+      },
+      "es": {
+        "text": "¿Qué pueblo medieval encaramado de Suiza dio su nombre a un queso de pasta dura, fundido en la fondue?",
+        "explanation": "El queso auténtico no tiene agujeros, al contrario de lo que se cree: son otras variedades suizas las que los muestran.",
+        "label": "Gruyères",
+        "country": "Suiza"
+      }
+    }
+  },
+  {
+    "sourceRef": "fbcb84d14e51e32c",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 41.1579,
+    "lng": -8.6291,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du nord du Portugal a donné son nom à un vin doux muté, vieilli dans des chais le long de son fleuve ?",
+        "explanation": "Les fûts descendaient jadis le fleuve sur des barques à voile carrée, chargées jusqu'au ras de l'eau.",
+        "label": "Porto",
+        "country": "Portugal"
+      },
+      "en": {
+        "text": "Which city in northern Portugal gave its name to a sweet fortified wine, aged in cellars along its river?",
+        "explanation": "The barrels once floated down the river on flat, square-sailed boats, loaded almost to the waterline.",
+        "label": "Porto",
+        "country": "Portugal"
+      },
+      "es": {
+        "text": "¿Qué ciudad del norte de Portugal dio su nombre a un vino dulce generoso, envejecido en bodegas a lo largo de su río?",
+        "explanation": "Las barricas bajaban antaño por el río en barcas de vela cuadrada, cargadas casi hasta el borde del agua.",
+        "label": "Oporto",
+        "country": "Portugal"
+      }
+    }
+  },
+  {
+    "sourceRef": "fb847097022f7bc1",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 52.0115,
+    "lng": 4.7104,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville des Pays-Bas tient un marché historique au fromage et a donné son nom à une meule jaune à pâte pressée ?",
+        "explanation": "Sur la place, des porteurs en chapeau de paille coloré transportent encore les meules sur des civières de bois, à l'ancienne.",
+        "label": "Gouda",
+        "country": "Pays-Bas"
+      },
+      "en": {
+        "text": "Which Dutch town holds a historic cheese market and gave its name to a yellow pressed-curd wheel?",
+        "explanation": "On the square, porters in colourful straw hats still carry the wheels on wooden barrows, the old-fashioned way.",
+        "label": "Gouda",
+        "country": "Netherlands"
+      },
+      "es": {
+        "text": "¿Qué ciudad de los Países Bajos celebra un mercado histórico del queso y dio su nombre a una rueda amarilla de pasta prensada?",
+        "explanation": "En la plaza, mozos con sombreros de paja de colores aún transportan las ruedas en angarillas de madera, a la antigua.",
+        "label": "Gouda",
+        "country": "Países Bajos"
+      }
+    }
+  },
+  {
+    "sourceRef": "fef7fc70df216e9a",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 51.281,
+    "lng": -2.766,
+    "translations": {
+      "fr": {
+        "text": "Quel village du sud-ouest de l'Angleterre, célèbre pour ses gorges calcaires, a donné son nom au fromage le plus consommé au monde ?",
+        "explanation": "On l'affinait autrefois dans les grottes fraîches des gorges voisines, à température constante toute l'année.",
+        "label": "Cheddar",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "Which village in south-west England, famous for its limestone gorge, gave its name to the world's most eaten cheese?",
+        "explanation": "It was once matured in the cool caves of the nearby gorge, at a steady temperature all year round.",
+        "label": "Cheddar",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Qué pueblo del suroeste de Inglaterra, famoso por su garganta caliza, dio su nombre al queso más consumido del mundo?",
+        "explanation": "Antaño se curaba en las frescas cuevas de la garganta vecina, a temperatura constante todo el año.",
+        "label": "Cheddar",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "506458fc1735bb15",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 36.685,
+    "lng": -6.1261,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville d'Andalousie a donné son nom à un vin blanc muté, vieilli selon la méthode des soleras ?",
+        "explanation": "Dans ce système, on ne vide jamais complètement les fûts : le vin jeune se mêle sans cesse au plus vieux, gardant un style constant.",
+        "label": "Jerez de la Frontera",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "Which town in Andalusia gave its name to a fortified white wine, aged by the solera method?",
+        "explanation": "In this system the barrels are never fully emptied: young wine constantly blends with older wine, keeping a steady style.",
+        "label": "Jerez de la Frontera",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Andalucía dio su nombre a un vino blanco generoso, envejecido por el método de soleras?",
+        "explanation": "En este sistema nunca se vacían del todo las botas: el vino joven se mezcla sin cesar con el más viejo, manteniendo un estilo constante.",
+        "label": "Jerez de la Frontera",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "bbb088fa8754d025",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 34.6901,
+    "lng": 135.1955,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville portuaire du Japon a donné son nom à un bœuf de luxe, à la viande finement persillée de graisse ?",
+        "explanation": "On raconte, à tort ou à raison, que les bêtes sont massées et écoutent de la musique pour attendrir leur chair.",
+        "label": "Kobe",
+        "country": "Japon"
+      },
+      "en": {
+        "text": "Which Japanese port city gave its name to a luxury beef, its meat finely marbled with fat?",
+        "explanation": "It is said, rightly or not, that the cattle are massaged and played music to tenderise their flesh.",
+        "label": "Kobe",
+        "country": "Japan"
+      },
+      "es": {
+        "text": "¿Qué ciudad portuaria de Japón dio su nombre a una carne de vacuno de lujo, finamente veteada de grasa?",
+        "explanation": "Se cuenta, con razón o sin ella, que a las reses se las masajea y se les pone música para ablandar su carne.",
+        "label": "Kobe",
+        "country": "Japón"
+      }
+    }
+  },
+  {
+    "sourceRef": "3e0fef5d5e7879ec",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 49.7384,
+    "lng": 13.3736,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de Bohême a donné son nom à un type de bière blonde, claire et légèrement amère, aujourd'hui la plus imitée du monde ?",
+        "explanation": "Sa brasserie inventa en 1842 cette bière dorée et limpide, à une époque où la plupart des bières étaient encore troubles et brunes.",
+        "label": "Plzeň",
+        "country": "Tchéquie"
+      },
+      "en": {
+        "text": "Which Bohemian city gave its name to a pale, clear, slightly bitter lager, now the most imitated in the world?",
+        "explanation": "Its brewery invented this golden, crystal-clear beer in 1842, at a time when most beers were still cloudy and brown.",
+        "label": "Pilsen",
+        "country": "Czechia"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Bohemia dio su nombre a un tipo de cerveza rubia, clara y algo amarga, hoy la más imitada del mundo?",
+        "explanation": "Su fábrica inventó en 1842 esta cerveza dorada y cristalina, cuando la mayoría de las cervezas eran aún turbias y oscuras.",
+        "label": "Pilsen",
+        "country": "Chequia"
+      }
+    }
+  },
+  {
+    "sourceRef": "65872b894f80189d",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 52.8092,
+    "lng": -0.627,
+    "translations": {
+      "fr": {
+        "text": "Dans quel hameau anglais Isaac Newton, réfugié pendant une épidémie, vit-il tomber la pomme qui inspira sa loi de la gravitation ?",
+        "explanation": "Un pommier présenté comme le descendant de l'arbre historique pousse toujours devant la maison familiale du savant.",
+        "label": "Woolsthorpe",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which English hamlet did Isaac Newton, sheltering during an epidemic, watch the apple fall that inspired his law of gravitation?",
+        "explanation": "An apple tree said to descend from the historic one still grows in front of the scholar's family home.",
+        "label": "Woolsthorpe",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué aldea inglesa vio Isaac Newton, refugiado durante una epidemia, caer la manzana que inspiró su ley de la gravitación?",
+        "explanation": "Un manzano presentado como descendiente del árbol histórico crece aún frente a la casa familiar del sabio.",
+        "label": "Woolsthorpe",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "cb6757ad6f4a8706",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 52.1601,
+    "lng": 4.497,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle plus ancienne université des Pays-Bas, où étudia Rembrandt, vit le jour le premier condensateur électrique de l'histoire ?",
+        "explanation": "L'appareil pouvait stocker une décharge si violente qu'un savant fit sursauter d'un coup, dit-on, une file de moines se tenant par la main.",
+        "label": "Leyde",
+        "country": "Pays-Bas"
+      },
+      "en": {
+        "text": "In which oldest university city of the Netherlands, where Rembrandt studied, was the first electrical capacitor in history invented?",
+        "explanation": "The device could store a jolt so violent that a scientist reportedly made a whole line of hand-holding monks leap at once.",
+        "label": "Leiden",
+        "country": "Netherlands"
+      },
+      "es": {
+        "text": "¿En qué universidad más antigua de los Países Bajos, donde estudió Rembrandt, nació el primer condensador eléctrico de la historia?",
+        "explanation": "El aparato podía almacenar una descarga tan violenta que un científico hizo saltar a la vez, se dice, a una fila de monjes cogidos de la mano.",
+        "label": "Leiden",
+        "country": "Países Bajos"
+      }
+    }
+  },
+  {
+    "sourceRef": "d0ccccf72dec86a0",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "medium",
+    "lat": 46.948,
+    "lng": 7.4474,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville suisse Albert Einstein, employé au bureau des brevets, publia-t-il en 1905 ses articles qui bouleversèrent la physique ?",
+        "explanation": "Il travaillait le jour à examiner des inventions, et griffonnait ses idées de génie sur des feuilles cachées dans son tiroir.",
+        "label": "Berne",
+        "country": "Suisse"
+      },
+      "en": {
+        "text": "In which Swiss city did Albert Einstein, a patent-office clerk, publish in 1905 the papers that overturned physics?",
+        "explanation": "By day he examined inventions, and jotted his flashes of genius on sheets hidden in his desk drawer.",
+        "label": "Bern",
+        "country": "Switzerland"
+      },
+      "es": {
+        "text": "¿En qué ciudad suiza publicó Albert Einstein, empleado en la oficina de patentes, en 1905 los artículos que revolucionaron la física?",
+        "explanation": "De día examinaba inventos, y garabateaba sus ideas geniales en hojas escondidas en su cajón.",
+        "label": "Berna",
+        "country": "Suiza"
+      }
+    }
+  },
+  {
+    "sourceRef": "c2abe5a0dbef38e7",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 59.8586,
+    "lng": 17.6389,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville universitaire de Suède Carl von Linné classa-t-il les espèces vivantes et Anders Celsius conçut-il son échelle de température ?",
+        "explanation": "Linné donna à chaque plante et animal un nom en deux mots latins, système si pratique qu'on l'emploie encore aujourd'hui.",
+        "label": "Uppsala",
+        "country": "Suède"
+      },
+      "en": {
+        "text": "In which Swedish university town did Carl Linnaeus classify living species and Anders Celsius devise his temperature scale?",
+        "explanation": "Linnaeus gave each plant and animal a two-word Latin name, a system so handy it is still used today.",
+        "label": "Uppsala",
+        "country": "Sweden"
+      },
+      "es": {
+        "text": "¿En qué ciudad universitaria de Suecia clasificó Carl von Linneo las especies vivas y concibió Anders Celsius su escala de temperatura?",
+        "explanation": "Linneo dio a cada planta y animal un nombre en dos palabras latinas, sistema tan práctico que aún se usa hoy.",
+        "label": "Upsala",
+        "country": "Suecia"
+      }
+    }
+  },
+  {
+    "sourceRef": "99af04a43f5f0833",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 51.5413,
+    "lng": 9.9158,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville universitaire allemande fut, autour de Gauss puis Hilbert, la capitale mondiale des mathématiques ?",
+        "explanation": "Sur une porte de la ville, une plaque cite fièrement les prix Nobel qui y étudièrent, avant que le régime nazi ne disperse ce foyer de savoirs.",
+        "label": "Göttingen",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "Which German university town was, around Gauss and then Hilbert, the world capital of mathematics?",
+        "explanation": "A plaque on a city gate proudly lists the Nobel laureates who studied there, before the Nazi regime scattered this hub of learning.",
+        "label": "Göttingen",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿Qué ciudad universitaria alemana fue, en torno a Gauss y luego Hilbert, la capital mundial de las matemáticas?",
+        "explanation": "En una puerta de la ciudad, una placa cita con orgullo a los Nobel que allí estudiaron, antes de que el régimen nazi dispersara este foco de saber.",
+        "label": "Göttingen",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "651d090810a2d74b",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "medium",
+    "lat": 34.1478,
+    "lng": -118.1445,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de Californie le Jet Propulsion Laboratory pilote-t-il les robots explorateurs envoyés sur Mars ?",
+        "explanation": "Chaque atterrissage se joue dans le silence : à cette distance, un signal met de longues minutes à revenir, et les ingénieurs ne peuvent qu'attendre.",
+        "label": "Pasadena",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which California city does the Jet Propulsion Laboratory pilot the exploration robots sent to Mars?",
+        "explanation": "Every landing hangs on silence: at that distance a signal takes long minutes to return, and the engineers can only wait.",
+        "label": "Pasadena",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué ciudad de California pilota el Jet Propulsion Laboratory los robots exploradores enviados a Marte?",
+        "explanation": "Cada aterrizaje se juega en el silencio: a esa distancia una señal tarda largos minutos en volver, y los ingenieros solo pueden esperar.",
+        "label": "Pasadena",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "33b2720347ee7fb0",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 49.1951,
+    "lng": 16.6068,
+    "translations": {
+      "fr": {
+        "text": "Dans le jardin d'un monastère de quelle ville tchèque Gregor Mendel découvrit-il les lois de l'hérédité en cultivant des pois ?",
+        "explanation": "Ses résultats, publiés dans une revue obscure, restèrent ignorés de son vivant et ne furent redécouverts que des décennies plus tard.",
+        "label": "Brno",
+        "country": "Tchéquie"
+      },
+      "en": {
+        "text": "In the garden of a monastery in which Czech city did Gregor Mendel uncover the laws of heredity by growing peas?",
+        "explanation": "His findings, published in an obscure journal, went unnoticed in his lifetime and were only rediscovered decades later.",
+        "label": "Brno",
+        "country": "Czechia"
+      },
+      "es": {
+        "text": "¿En el jardín de un monasterio de qué ciudad checa descubrió Gregor Mendel las leyes de la herencia cultivando guisantes?",
+        "explanation": "Sus resultados, publicados en una revista oscura, pasaron desapercibidos en vida y solo se redescubrieron décadas después.",
+        "label": "Brno",
+        "country": "Chequia"
+      }
+    }
+  },
+  {
+    "sourceRef": "e21ba9b7f2b666ce",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "medium",
+    "lat": 37.0755,
+    "lng": 15.2866,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle cité antique de Sicile le savant Archimède conçut-il ses machines de guerre et poussa-t-il, dit-on, son cri « Eurêka ! » ?",
+        "explanation": "Il aurait trouvé la solution d'un problème dans son bain, saisissant d'un coup pourquoi l'eau débordait selon le volume du corps immergé.",
+        "label": "Syracuse",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which ancient Sicilian city did the scholar Archimedes design his war machines and reportedly cry out 'Eureka!'?",
+        "explanation": "He is said to have found a solution in his bath, grasping at once why the water rose in step with the volume of the body dipped in it.",
+        "label": "Syracuse",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué ciudad antigua de Sicilia ideó el sabio Arquímedes sus máquinas de guerra y lanzó, según se dice, su grito '¡Eureka!'?",
+        "explanation": "Habría hallado la solución de un problema en su baño, comprendiendo de golpe por qué el agua subía según el volumen del cuerpo sumergido.",
+        "label": "Siracusa",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "abd7d8204c33062d",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 44.4949,
+    "lng": 11.3426,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville d'Italie, siège de la plus ancienne université d'Europe, Luigi Galvani fit-il tressaillir des pattes de grenouille grâce à l'électricité ?",
+        "explanation": "Ses expériences donnèrent l'idée du roman « Frankenstein » et laissèrent leur trace dans le mot « galvaniser ».",
+        "label": "Bologne",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which Italian city, home to Europe's oldest university, did Luigi Galvani make frog legs twitch with electricity?",
+        "explanation": "His experiments sparked the idea for the novel 'Frankenstein' and left their mark in the word 'galvanise'.",
+        "label": "Bologna",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Italia, sede de la universidad más antigua de Europa, hizo Luigi Galvani estremecerse patas de rana con electricidad?",
+        "explanation": "Sus experimentos inspiraron la idea de la novela 'Frankenstein' y dejaron su huella en la palabra 'galvanizar'.",
+        "label": "Bolonia",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "63ea77da3c0634fe",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "easy",
+    "lat": 51.434,
+    "lng": -0.214,
+    "translations": {
+      "fr": {
+        "text": "Dans quel quartier de Londres se joue, sur gazon, le plus ancien tournoi de tennis du monde ?",
+        "explanation": "La tradition y veut que les joueurs soient vêtus de blanc et que le public déguste des fraises à la crème entre deux matchs.",
+        "label": "Wimbledon",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which district of London is the world's oldest tennis tournament played, on grass?",
+        "explanation": "Tradition there has players dressed in white and spectators eating strawberries and cream between matches.",
+        "label": "Wimbledon",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué barrio de Londres se juega, sobre hierba, el torneo de tenis más antiguo del mundo?",
+        "explanation": "La tradición exige allí que los jugadores vistan de blanco y que el público coma fresas con nata entre partidos.",
+        "label": "Wimbledon",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "2cb7fb550490d849",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 33.4735,
+    "lng": -82.0105,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de Géorgie se dispute chaque printemps le Masters de golf, sur un parcours fleuri d'azalées ?",
+        "explanation": "Le vainqueur y reçoit, plutôt qu'un trophée, une veste verte qu'il doit rendre au club l'année suivante.",
+        "label": "Augusta",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which Georgia city is the Masters golf tournament held each spring, on a course lined with azaleas?",
+        "explanation": "The winner there receives, instead of a trophy, a green jacket that must be returned to the club the following year.",
+        "label": "Augusta",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Georgia se disputa cada primavera el Masters de golf, en un campo florido de azaleas?",
+        "explanation": "El ganador recibe allí, en lugar de un trofeo, una chaqueta verde que debe devolver al club al año siguiente.",
+        "label": "Augusta",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "53ca191de56e862f",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": -37.8136,
+    "lng": 144.9631,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville australienne se dispute, en janvier, le premier tournoi du Grand Chelem de tennis de l'année ?",
+        "explanation": "La chaleur y est parfois si écrasante que le règlement prévoit d'interrompre les matchs quand le bitume devient une fournaise.",
+        "label": "Melbourne",
+        "country": "Australie"
+      },
+      "en": {
+        "text": "In which Australian city is the year's first tennis Grand Slam tournament held, in January?",
+        "explanation": "The heat there can be so crushing that the rules allow matches to be halted when the courts turn into a furnace.",
+        "label": "Melbourne",
+        "country": "Australia"
+      },
+      "es": {
+        "text": "¿En qué ciudad australiana se disputa, en enero, el primer torneo de Grand Slam de tenis del año?",
+        "explanation": "El calor allí puede ser tan agobiante que el reglamento permite detener los partidos cuando el asfalto se vuelve un horno.",
+        "label": "Melbourne",
+        "country": "Australia"
+      }
+    }
+  },
+  {
+    "sourceRef": "cee6d0c31c1d41ce",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 39.7684,
+    "lng": -86.1581,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de l'Indiana accueille chaque année une célèbre course automobile de 500 miles sur un anneau d'asphalte ?",
+        "explanation": "Le vainqueur y célèbre sa victoire d'une manière unique : en buvant une bouteille de lait, une tradition vieille de près d'un siècle.",
+        "label": "Indianapolis",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which Indiana city hosts a famous 500-mile motor race each year on an oval of asphalt?",
+        "explanation": "The winner there celebrates in a unique way: by drinking a bottle of milk, a tradition almost a century old.",
+        "label": "Indianapolis",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Indiana acoge cada año una famosa carrera automovilística de 500 millas en un óvalo de asfalto?",
+        "explanation": "El ganador celebra allí de un modo único: bebiendo una botella de leche, una tradición de casi un siglo.",
+        "label": "Indianápolis",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "d0db7fe643d7854d",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 45.6156,
+    "lng": 9.2811,
+    "translations": {
+      "fr": {
+        "text": "Sur quel circuit rapide, dans un parc royal près de Milan, se court le Grand Prix automobile d'Italie ?",
+        "explanation": "Les virages y sont si peu nombreux et les lignes droites si longues que les moteurs y hurlent à plein régime, pour le bonheur des passionnés.",
+        "label": "Monza",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "On which fast circuit, in a royal park near Milan, is the Italian motor-racing Grand Prix run?",
+        "explanation": "It has so few corners and such long straights that the engines scream at full throttle, to the delight of fans.",
+        "label": "Monza",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué rápido circuito, en un parque real cerca de Milán, se corre el Gran Premio de automovilismo de Italia?",
+        "explanation": "Tiene tan pocas curvas y rectas tan largas que los motores rugen a pleno régimen, para deleite de los aficionados.",
+        "label": "Monza",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "3d5bf882664ee0b3",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 0.67,
+    "lng": 35.51,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle petite ville des hauts plateaux du Kenya, perchée à plus de deux mille mètres, s'entraînent tant de champions de course de fond ?",
+        "explanation": "L'altitude raréfie l'air et pousse le corps à fabriquer plus de globules rouges, un avantage précieux le jour de la course.",
+        "label": "Iten",
+        "country": "Kenya"
+      },
+      "en": {
+        "text": "In which small town on the highlands of Kenya, perched above two thousand metres, do so many long-distance running champions train?",
+        "explanation": "The altitude thins the air and pushes the body to make more red blood cells, a precious edge on race day.",
+        "label": "Iten",
+        "country": "Kenya"
+      },
+      "es": {
+        "text": "¿En qué pequeña ciudad de las tierras altas de Kenia, encaramada a más de dos mil metros, entrenan tantos campeones de fondo?",
+        "explanation": "La altitud enrarece el aire y empuja al cuerpo a fabricar más glóbulos rojos, una ventaja valiosa el día de la carrera.",
+        "label": "Iten",
+        "country": "Kenia"
+      }
+    }
+  },
+  {
+    "sourceRef": "f65a5e91e50d42ef",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 25.2854,
+    "lng": 51.531,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale du Qatar accueillit, dans des stades climatisés en plein désert, la Coupe du monde de football de 2022 ?",
+        "explanation": "Pour échapper à la chaleur, le tournoi fut exceptionnellement disputé en hiver, une première dans l'histoire de la compétition.",
+        "label": "Doha",
+        "country": "Qatar"
+      },
+      "en": {
+        "text": "Which capital of Qatar hosted the 2022 football World Cup in air-conditioned stadiums in the desert?",
+        "explanation": "To escape the heat, the tournament was exceptionally played in winter, a first in the competition's history.",
+        "label": "Doha",
+        "country": "Qatar"
+      },
+      "es": {
+        "text": "¿Qué capital de Catar acogió, en estadios climatizados en pleno desierto, la Copa del Mundo de fútbol de 2022?",
+        "explanation": "Para escapar del calor, el torneo se disputó excepcionalmente en invierno, una primicia en la historia de la competición.",
+        "label": "Doha",
+        "country": "Catar"
+      }
+    }
+  },
+  {
+    "sourceRef": "62c2c8895ab85935",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 52.9625,
+    "lng": 6.5236,
+    "translations": {
+      "fr": {
+        "text": "Sur quel circuit des Pays-Bas, surnommé « la cathédrale » par les pilotes, se court une manche mythique du championnat de moto ?",
+        "explanation": "La course s'y tient depuis 1925 sans presque jamais s'interrompre, ce qui en fait l'un des rendez-vous les plus anciens du sport moto.",
+        "label": "Assen",
+        "country": "Pays-Bas"
+      },
+      "en": {
+        "text": "On which circuit in the Netherlands, nicknamed 'the cathedral' by riders, is a legendary round of the motorcycle championship held?",
+        "explanation": "The race has been held there since 1925 with barely a break, making it one of the oldest fixtures in motorcycle sport.",
+        "label": "Assen",
+        "country": "Netherlands"
+      },
+      "es": {
+        "text": "¿En qué circuito de los Países Bajos, apodado 'la catedral' por los pilotos, se corre una cita mítica del campeonato de motociclismo?",
+        "explanation": "La carrera se celebra allí desde 1925 casi sin interrupción, lo que la hace una de las citas más antiguas del motociclismo.",
+        "label": "Assen",
+        "country": "Países Bajos"
+      }
+    }
+  },
+  {
+    "sourceRef": "0e6b1a39ca83cbb1",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "easy",
+    "lat": 36.4864,
+    "lng": -118.5658,
+    "translations": {
+      "fr": {
+        "text": "Quel parc national de Californie protège les arbres les plus massifs de la planète, dont le géant nommé « General Sherman » ?",
+        "explanation": "Ce n'est pas le plus haut des arbres, mais le plus volumineux : à lui seul, son tronc pèserait autant que dix baleines bleues.",
+        "label": "Parc national de Sequoia",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which national park in California protects the most massive trees on the planet, including the giant named 'General Sherman'?",
+        "explanation": "It is not the tallest of trees, but the bulkiest: its trunk alone is said to weigh as much as ten blue whales.",
+        "label": "Sequoia National Park",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué parque nacional de California protege los árboles más voluminosos del planeta, entre ellos el gigante llamado 'General Sherman'?",
+        "explanation": "No es el árbol más alto, sino el de mayor volumen: solo su tronco pesaría tanto como diez ballenas azules.",
+        "label": "Parque Nacional de Secuoyas",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "d0207eb5428a1c4b",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": -25.6953,
+    "lng": -54.4367,
+    "translations": {
+      "fr": {
+        "text": "À la frontière de l'Argentine et du Brésil, quel ensemble de centaines de chutes d'eau s'étire dans la jungle en un immense fer à cheval ?",
+        "explanation": "Devant la plus grande gorge, appelée « la gorge du diable », le grondement de l'eau couvre entièrement la voix humaine.",
+        "label": "Iguazú",
+        "country": "Argentine"
+      },
+      "en": {
+        "text": "On the border of Argentina and Brazil, which set of hundreds of waterfalls stretches through the jungle in a vast horseshoe?",
+        "explanation": "Before the largest gorge, called the 'Devil's Throat', the roar of the water completely drowns the human voice.",
+        "label": "Iguazú",
+        "country": "Argentina"
+      },
+      "es": {
+        "text": "En la frontera de Argentina y Brasil, ¿qué conjunto de cientos de cascadas se extiende por la selva en una inmensa herradura?",
+        "explanation": "Ante la mayor garganta, llamada 'la garganta del diablo', el estruendo del agua cubre por completo la voz humana.",
+        "label": "Iguazú",
+        "country": "Argentina"
+      }
+    }
+  },
+  {
+    "sourceRef": "bc50f81624675938",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 37.9203,
+    "lng": 29.121,
+    "translations": {
+      "fr": {
+        "text": "Quelles terrasses d'un blanc éclatant, dans le sud-ouest de la Turquie, forment des bassins d'eau chaude en gradins de calcaire ?",
+        "explanation": "Son nom local signifie « château de coton », tant les vasques immaculées évoquent, de loin, des flocons empilés.",
+        "label": "Pamukkale",
+        "country": "Turquie"
+      },
+      "en": {
+        "text": "Which dazzling white terraces, in south-western Turkey, form warm pools in tiers of limestone?",
+        "explanation": "Its local name means 'cotton castle', so much do the pure white basins look, from afar, like heaped-up tufts.",
+        "label": "Pamukkale",
+        "country": "Turkey"
+      },
+      "es": {
+        "text": "¿Qué terrazas de un blanco deslumbrante, en el suroeste de Turquía, forman piscinas de agua caliente en gradas de caliza?",
+        "explanation": "Su nombre local significa 'castillo de algodón', de lo que las cuencas inmaculadas parecen, de lejos, copos amontonados.",
+        "label": "Pamukkale",
+        "country": "Turquía"
+      }
+    }
+  },
+  {
+    "sourceRef": "18d34386a9861063",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": 17.316,
+    "lng": -87.535,
+    "translations": {
+      "fr": {
+        "text": "Quel gigantesque gouffre marin parfaitement circulaire, au large du Belize, attire les plongeurs par son bleu profond ?",
+        "explanation": "C'est une grotte effondrée, née à l'époque glaciaire quand le niveau des mers était bien plus bas, puis engloutie par l'océan.",
+        "label": "Grand Trou bleu",
+        "country": "Belize"
+      },
+      "en": {
+        "text": "Which huge, perfectly circular marine sinkhole, off the coast of Belize, draws divers with its deep blue?",
+        "explanation": "It is a collapsed cave, formed in the ice age when sea levels were far lower, then swallowed by the ocean.",
+        "label": "Great Blue Hole",
+        "country": "Belize"
+      },
+      "es": {
+        "text": "¿Qué enorme sumidero marino perfectamente circular, frente a Belice, atrae a los buceadores por su azul profundo?",
+        "explanation": "Es una cueva hundida, formada en la edad de hielo cuando el nivel del mar era mucho más bajo, y luego tragada por el océano.",
+        "label": "Gran Agujero Azul",
+        "country": "Belice"
+      }
+    }
+  },
+  {
+    "sourceRef": "5ae679cfec138c87",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 29.317,
+    "lng": 110.479,
+    "translations": {
+      "fr": {
+        "text": "Quels pitons de grès vertigineux et dressés, dans le sud de la Chine, auraient inspiré les montagnes flottantes du film « Avatar » ?",
+        "explanation": "Souvent noyés dans la brume, ces piliers semblent flotter dans le vide, reliés par des passerelles suspendues au bord du vertige.",
+        "label": "Zhangjiajie",
+        "country": "Chine"
+      },
+      "en": {
+        "text": "Which dizzying, upright sandstone pillars in southern China are said to have inspired the floating mountains of the film 'Avatar'?",
+        "explanation": "Often lost in mist, the pillars seem to hover in mid-air, linked by walkways slung on the edge of vertigo.",
+        "label": "Zhangjiajie",
+        "country": "China"
+      },
+      "es": {
+        "text": "¿Qué vertiginosos pilares de arenisca erguidos, en el sur de China, habrían inspirado las montañas flotantes de la película 'Avatar'?",
+        "explanation": "A menudo envueltos en bruma, los pilares parecen flotar en el vacío, unidos por pasarelas colgadas al borde del vértigo.",
+        "label": "Zhangjiajie",
+        "country": "China"
+      }
+    }
+  },
+  {
+    "sourceRef": "29ff681a295d46bd",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 69.6492,
+    "lng": 18.9553,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du nord de la Norvège, bien au-delà du cercle polaire, est un haut lieu d'observation des aurores boréales ?",
+        "explanation": "En hiver, le soleil n'y paraît plus pendant des semaines : c'est la longue nuit polaire, idéale pour admirer les voiles verts du ciel.",
+        "label": "Tromsø",
+        "country": "Norvège"
+      },
+      "en": {
+        "text": "Which town in northern Norway, well beyond the Arctic Circle, is a prime spot for watching the northern lights?",
+        "explanation": "In winter the sun does not appear there for weeks: it is the long polar night, ideal for admiring the sky's green veils.",
+        "label": "Tromsø",
+        "country": "Norway"
+      },
+      "es": {
+        "text": "¿Qué ciudad del norte de Noruega, muy por encima del círculo polar, es un lugar destacado para observar las auroras boreales?",
+        "explanation": "En invierno el sol no aparece allí durante semanas: es la larga noche polar, ideal para admirar los velos verdes del cielo.",
+        "label": "Tromsø",
+        "country": "Noruega"
+      }
+    }
+  },
+  {
+    "sourceRef": "52b8d0d726155679",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": 21.9497,
+    "lng": 89.1833,
+    "translations": {
+      "fr": {
+        "text": "Quelle immense forêt de mangroves, dans le delta du Gange, abrite les derniers tigres réputés nager entre les racines ?",
+        "explanation": "Les pêcheurs y portent parfois un masque sur la nuque : le tigre, disent-ils, attaquant de dos, hésite devant un second « visage ».",
+        "label": "Sundarbans",
+        "country": "Bangladesh"
+      },
+      "en": {
+        "text": "Which vast mangrove forest, in the delta of the Ganges, shelters the last tigers famed for swimming among the roots?",
+        "explanation": "Fishermen there sometimes wear a mask on the back of the head: the tiger, they say, attacks from behind and hesitates at a second 'face'.",
+        "label": "Sundarbans",
+        "country": "Bangladesh"
+      },
+      "es": {
+        "text": "¿Qué inmenso bosque de manglares, en el delta del Ganges, alberga a los últimos tigres famosos por nadar entre las raíces?",
+        "explanation": "Los pescadores llevan a veces una máscara en la nuca: el tigre, dicen, ataca por la espalda y duda ante un segundo 'rostro'.",
+        "label": "Sundarbans",
+        "country": "Bangladés"
+      }
+    }
+  },
+  {
+    "sourceRef": "59664170af427cf9",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": -17.6667,
+    "lng": -57,
+    "translations": {
+      "fr": {
+        "text": "Quelle vaste zone humide d'Amérique du Sud, inondée à la saison des pluies, offre l'un des meilleurs endroits au monde pour observer le jaguar ?",
+        "explanation": "Plus étendue que le delta de l'Okavango, elle se transforme chaque année en une mer d'eau douce parsemée d'îlots grouillants de vie.",
+        "label": "Pantanal",
+        "country": "Brésil"
+      },
+      "en": {
+        "text": "Which vast South American wetland, flooded in the rainy season, offers one of the world's best places to watch the jaguar?",
+        "explanation": "Larger than the Okavango Delta, it turns each year into a sea of fresh water dotted with islets teeming with life.",
+        "label": "Pantanal",
+        "country": "Brazil"
+      },
+      "es": {
+        "text": "¿Qué vasto humedal de América del Sur, inundado en la temporada de lluvias, ofrece uno de los mejores lugares del mundo para ver al jaguar?",
+        "explanation": "Más extenso que el delta del Okavango, se transforma cada año en un mar de agua dulce salpicado de islotes rebosantes de vida.",
+        "label": "Pantanal",
+        "country": "Brasil"
+      }
+    }
+  },
+  {
+    "sourceRef": "5d6513387533017e",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 50.8543,
+    "lng": 0.573,
+    "translations": {
+      "fr": {
+        "text": "Près de quelle ville du sud de l'Angleterre Guillaume le Conquérant remporta-t-il en 1066 la bataille qui lui ouvrit le trône ?",
+        "explanation": "Une immense tapisserie brodée, longue de près de soixante-dix mètres, raconte cette conquête comme une bande dessinée médiévale.",
+        "label": "Hastings",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "Near which town in southern England did William the Conqueror win, in 1066, the battle that opened the throne to him?",
+        "explanation": "A huge embroidered tapestry, almost seventy metres long, tells this conquest like a medieval comic strip.",
+        "label": "Hastings",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Cerca de qué ciudad del sur de Inglaterra ganó Guillermo el Conquistador, en 1066, la batalla que le abrió el trono?",
+        "explanation": "Un enorme tapiz bordado, de casi setenta metros de largo, narra esta conquista como una historieta medieval.",
+        "label": "Hastings",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "749a4c9917301d2d",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 49.1596,
+    "lng": 5.3841,
+    "translations": {
+      "fr": {
+        "text": "Autour de quelle ville de l'est de la France se déroula, en 1916, l'une des plus longues et meurtrières batailles de la Grande Guerre ?",
+        "explanation": "« On ne passe pas » devint le mot d'ordre des défenseurs, résumant des mois de combats acharnés pour quelques collines.",
+        "label": "Verdun",
+        "country": "France"
+      },
+      "en": {
+        "text": "Around which city in eastern France did one of the longest, deadliest battles of the Great War take place in 1916?",
+        "explanation": "'They shall not pass' became the defenders' watchword, summing up months of fierce fighting over a few hills.",
+        "label": "Verdun",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En torno a qué ciudad del este de Francia se desarrolló, en 1916, una de las batallas más largas y mortíferas de la Gran Guerra?",
+        "explanation": "'No pasarán' se volvió la consigna de los defensores, resumiendo meses de combates encarnizados por unas pocas colinas.",
+        "label": "Verdun",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "a9a71e517bc2b65d",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 39.8309,
+    "lng": -77.2311,
+    "translations": {
+      "fr": {
+        "text": "Près de quelle ville de Pennsylvanie se joua la bataille décisive de la guerre de Sécession, suivie d'un célèbre discours de Lincoln ?",
+        "explanation": "Le président y prononça un discours de deux minutes à peine, resté l'un des plus célèbres de toute l'histoire américaine.",
+        "label": "Gettysburg",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Near which town in Pennsylvania was the decisive battle of the American Civil War fought, followed by a famous Lincoln speech?",
+        "explanation": "The president delivered there a speech barely two minutes long, which remains one of the most famous in all American history.",
+        "label": "Gettysburg",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Cerca de qué ciudad de Pensilvania se libró la batalla decisiva de la guerra de Secesión, seguida de un célebre discurso de Lincoln?",
+        "explanation": "El presidente pronunció allí un discurso de apenas dos minutos, que sigue siendo uno de los más famosos de toda la historia estadounidense.",
+        "label": "Gettysburg",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "12903c1b2f011415",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 43.8563,
+    "lng": 18.4131,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville des Balkans l'assassinat d'un archiduc, en 1914, déclencha-t-il l'engrenage de la Première Guerre mondiale ?",
+        "explanation": "Le tireur agit presque par hasard : la voiture de l'archiduc s'était trompée de chemin et s'était arrêtée juste devant lui.",
+        "label": "Sarajevo",
+        "country": "Bosnie-Herzégovine"
+      },
+      "en": {
+        "text": "In which Balkan city did the assassination of an archduke, in 1914, set off the chain of events leading to the First World War?",
+        "explanation": "The gunman acted almost by chance: the archduke's car had taken a wrong turn and stopped right in front of him.",
+        "label": "Sarajevo",
+        "country": "Bosnia and Herzegovina"
+      },
+      "es": {
+        "text": "¿En qué ciudad de los Balcanes el asesinato de un archiduque, en 1914, desató el engranaje de la Primera Guerra Mundial?",
+        "explanation": "El pistolero actuó casi por azar: el coche del archiduque se había equivocado de camino y se detuvo justo ante él.",
+        "label": "Sarajevo",
+        "country": "Bosnia y Herzegovina"
+      }
+    }
+  },
+  {
+    "sourceRef": "ea763a9b2f069439",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 36.181,
+    "lng": -6.035,
+    "translations": {
+      "fr": {
+        "text": "Au large de quel cap du sud de l'Espagne l'amiral Nelson vainquit-il, en 1805, les flottes française et espagnole réunies ?",
+        "explanation": "Nelson y transmit un signal célèbre à ses marins avant l'assaut : « L'Angleterre attend que chacun fasse son devoir. »",
+        "label": "Cap Trafalgar",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "Off which cape in southern Spain did Admiral Nelson defeat, in 1805, the combined French and Spanish fleets?",
+        "explanation": "Nelson flew a famous signal to his sailors before the assault: 'England expects that every man will do his duty.'",
+        "label": "Cape Trafalgar",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿Frente a qué cabo del sur de España venció el almirante Nelson, en 1805, a las flotas francesa y española unidas?",
+        "explanation": "Nelson izó una célebre señal a sus marineros antes del asalto: 'Inglaterra espera que cada hombre cumpla con su deber.'",
+        "label": "Cabo Trafalgar",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "65d4e9bbb62e4e0f",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 51.444,
+    "lng": -0.567,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle prairie au bord de la Tamise le roi Jean d'Angleterre apposa-t-il en 1215 son sceau sur la Grande Charte ?",
+        "explanation": "Ce texte, arraché par des barons révoltés, limita pour la première fois le pouvoir du roi et inspira bien plus tard les droits fondamentaux.",
+        "label": "Runnymede",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which meadow by the Thames did King John of England set his seal on the Magna Carta in 1215?",
+        "explanation": "This text, wrung from him by rebellious barons, limited the king's power for the first time and later inspired basic rights.",
+        "label": "Runnymede",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué pradera a orillas del Támesis puso el rey Juan de Inglaterra su sello en la Carta Magna en 1215?",
+        "explanation": "Este texto, arrancado por barones rebeldes, limitó por primera vez el poder del rey e inspiró mucho después los derechos fundamentales.",
+        "label": "Runnymede",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "38da94e35ebd832c",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "lat": 39.9526,
+    "lng": -75.1652,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville américaine fut signée, en 1776, la Déclaration d'indépendance des États-Unis ?",
+        "explanation": "Une cloche fêlée, aujourd'hui muette, y est devenue le symbole de la liberté et attire des foules de visiteurs.",
+        "label": "Philadelphie",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which American city was the United States Declaration of Independence signed, in 1776?",
+        "explanation": "A cracked, now-silent bell there became the symbol of liberty and draws crowds of visitors.",
+        "label": "Philadelphia",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué ciudad estadounidense se firmó, en 1776, la Declaración de Independencia de los Estados Unidos?",
+        "explanation": "Una campana agrietada, hoy muda, se volvió allí el símbolo de la libertad y atrae multitudes de visitantes.",
+        "label": "Filadelfia",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "16beca663930bc1b",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 51.8667,
+    "lng": 12.65,
+    "translations": {
+      "fr": {
+        "text": "Sur la porte d'une église de quelle ville allemande Martin Luther aurait-il placardé ses 95 thèses en 1517, lançant la Réforme ?",
+        "explanation": "L'imprimerie, encore récente, diffusa ses idées à travers l'Europe en quelques semaines, ce qu'aucune protestation n'avait connu auparavant.",
+        "label": "Wittenberg",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "On the door of a church in which German town is Martin Luther said to have posted his 95 theses in 1517, launching the Reformation?",
+        "explanation": "The then-new printing press spread his ideas across Europe in weeks, something no protest had ever achieved before.",
+        "label": "Wittenberg",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En la puerta de una iglesia de qué ciudad alemana habría clavado Martín Lutero sus 95 tesis en 1517, iniciando la Reforma?",
+        "explanation": "La imprenta, aún reciente, difundió sus ideas por Europa en semanas, algo que ninguna protesta había logrado antes.",
+        "label": "Wittenberg",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "6e98e4ee57985f18",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 64.1466,
+    "lng": -21.9426,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la capitale la plus septentrionale du monde, chauffée par l'énergie géothermique d'une île volcanique ?",
+        "explanation": "L'eau chaude jaillie du sous-sol y alimente maisons et piscines, si bien que la ville ne dégage presque aucune fumée de chauffage.",
+        "label": "Reykjavik",
+        "country": "Islande"
+      },
+      "en": {
+        "text": "What is the northernmost capital in the world, heated by the geothermal energy of a volcanic island?",
+        "explanation": "Hot water gushing from underground supplies homes and pools there, so the city gives off almost no heating smoke.",
+        "label": "Reykjavik",
+        "country": "Iceland"
+      },
+      "es": {
+        "text": "¿Cuál es la capital más septentrional del mundo, calentada por la energía geotérmica de una isla volcánica?",
+        "explanation": "El agua caliente que brota del subsuelo abastece casas y piscinas, de modo que la ciudad casi no emite humo de calefacción.",
+        "label": "Reikiavik",
+        "country": "Islandia"
+      }
+    }
+  },
+  {
+    "sourceRef": "09d97a2eed6cbc77",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": -54.8019,
+    "lng": -68.303,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville d'Argentine, tout au sud du continent, est surnommée « la ville du bout du monde » ?",
+        "explanation": "De son port partent la plupart des navires en route pour l'Antarctique, à quelques jours de mer seulement vers le sud.",
+        "label": "Ushuaia",
+        "country": "Argentine"
+      },
+      "en": {
+        "text": "Which city in Argentina, at the very south of the continent, is nicknamed 'the city at the end of the world'?",
+        "explanation": "From its harbour set out most of the ships bound for Antarctica, only a few days' sailing further south.",
+        "label": "Ushuaia",
+        "country": "Argentina"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Argentina, en el extremo sur del continente, es apodada 'la ciudad del fin del mundo'?",
+        "explanation": "De su puerto parten la mayoría de los barcos rumbo a la Antártida, a solo unos días de navegación hacia el sur.",
+        "label": "Ushuaia",
+        "country": "Argentina"
+      }
+    }
+  },
+  {
+    "sourceRef": "9c0dd86830076fe5",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 36.1408,
+    "lng": -5.3536,
+    "translations": {
+      "fr": {
+        "text": "Quel rocher britannique, à la pointe sud de l'Espagne, garde l'entrée de la mer Méditerranée ?",
+        "explanation": "Une colonie de singes, seuls primates sauvages d'Europe, y vit en liberté ; la légende dit qu'ils partiront le jour où le rocher changera de mains.",
+        "label": "Gibraltar",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "Which British rock, at the southern tip of Spain, guards the entrance to the Mediterranean Sea?",
+        "explanation": "A colony of monkeys, Europe's only wild primates, lives free there; legend says they will leave the day the rock changes hands.",
+        "label": "Gibraltar",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Qué peñón británico, en el extremo sur de España, guarda la entrada al mar Mediterráneo?",
+        "explanation": "Una colonia de monos, los únicos primates salvajes de Europa, vive libre allí; la leyenda dice que se irán el día que el peñón cambie de manos.",
+        "label": "Gibraltar",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "795511b67613ca4d",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 16.7735,
+    "lng": -3.0074,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du Mali, aux portes du Sahara, était jadis un carrefour légendaire du commerce de l'or, du sel et des livres ?",
+        "explanation": "Son nom est devenu, dans plusieurs langues, synonyme d'un lieu si lointain qu'on doute presque de son existence.",
+        "label": "Tombouctou",
+        "country": "Mali"
+      },
+      "en": {
+        "text": "Which city in Mali, at the gates of the Sahara, was once a legendary crossroads of the gold, salt and book trades?",
+        "explanation": "Its name has become, in several languages, a byword for a place so far away that one almost doubts it exists.",
+        "label": "Timbuktu",
+        "country": "Mali"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Malí, a las puertas del Sahara, fue antaño un cruce legendario del comercio del oro, la sal y los libros?",
+        "explanation": "Su nombre se ha vuelto, en varias lenguas, sinónimo de un lugar tan lejano que casi se duda de su existencia.",
+        "label": "Tombuctú",
+        "country": "Malí"
+      }
+    }
+  },
+  {
+    "sourceRef": "e29586a03f926f1d",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 51.1694,
+    "lng": 71.4491,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale d'Asie centrale, bâtie en pleine steppe et hérissée de tours futuristes, est l'une des plus froides du monde ?",
+        "explanation": "La ville fut désignée capitale à la place d'une autre, puis remodelée de fond en comble en quelques années, à coups de gratte-ciel audacieux.",
+        "label": "Astana",
+        "country": "Kazakhstan"
+      },
+      "en": {
+        "text": "Which Central Asian capital, built in the open steppe and studded with futuristic towers, is one of the coldest in the world?",
+        "explanation": "The city was chosen as capital in place of another, then wholly remodelled within a few years, with bold skyscrapers.",
+        "label": "Astana",
+        "country": "Kazakhstan"
+      },
+      "es": {
+        "text": "¿Qué capital de Asia central, construida en plena estepa y erizada de torres futuristas, es una de las más frías del mundo?",
+        "explanation": "La ciudad fue designada capital en lugar de otra, y luego remodelada por completo en pocos años, a golpe de audaces rascacielos.",
+        "label": "Astaná",
+        "country": "Kazajistán"
+      }
+    }
+  },
+  {
+    "sourceRef": "15b4819f0d86c644",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 45.9763,
+    "lng": 7.6586,
+    "translations": {
+      "fr": {
+        "text": "Quel sommet pyramidal des Alpes, à la frontière italo-suisse, orne l'emballage d'un célèbre chocolat triangulaire ?",
+        "explanation": "Sa silhouette isolée et parfaite en a fait l'une des montagnes les plus photographiées et les plus meurtrières pour les alpinistes.",
+        "label": "Cervin",
+        "country": "Suisse"
+      },
+      "en": {
+        "text": "Which pyramid-shaped Alpine peak, on the Italian-Swiss border, adorns the wrapper of a famous triangular chocolate?",
+        "explanation": "Its lone, perfect outline has made it one of the most photographed and, for climbers, deadliest of mountains.",
+        "label": "Matterhorn",
+        "country": "Switzerland"
+      },
+      "es": {
+        "text": "¿Qué cumbre piramidal de los Alpes, en la frontera italo-suiza, adorna el envoltorio de un famoso chocolate triangular?",
+        "explanation": "Su silueta solitaria y perfecta la ha vuelto una de las montañas más fotografiadas y, para los alpinistas, más mortíferas.",
+        "label": "Cervino",
+        "country": "Suiza"
+      }
+    }
+  },
+  {
+    "sourceRef": "fc567f922df33a9b",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 62,
+    "lng": -6.79,
+    "translations": {
+      "fr": {
+        "text": "Quel archipel isolé de l'Atlantique Nord, entre l'Islande et la Norvège, compte plus de moutons que d'habitants ?",
+        "explanation": "Le brouillard y est si fréquent qu'on a un temps installé des caméras sur des moutons pour cartographier ces îles verdoyantes.",
+        "label": "Îles Féroé",
+        "country": "Danemark"
+      },
+      "en": {
+        "text": "Which remote North Atlantic archipelago, between Iceland and Norway, counts more sheep than people?",
+        "explanation": "Fog is so common there that cameras were once strapped to sheep to map these green, treeless islands.",
+        "label": "Faroe Islands",
+        "country": "Denmark"
+      },
+      "es": {
+        "text": "¿Qué archipiélago aislado del Atlántico Norte, entre Islandia y Noruega, tiene más ovejas que habitantes?",
+        "explanation": "La niebla es tan frecuente allí que se llegaron a colocar cámaras sobre ovejas para cartografiar estas islas verdes.",
+        "label": "Islas Feroe",
+        "country": "Dinamarca"
+      }
+    }
+  },
+  {
+    "sourceRef": "00bb22aeb01a6443",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 36.5323,
+    "lng": -116.9325,
+    "translations": {
+      "fr": {
+        "text": "Quelle vallée désertique de Californie détient le record de la température de l'air la plus élevée jamais mesurée sur Terre ?",
+        "explanation": "En été, le sol y devient si brûlant qu'on pourrait presque y cuire un œuf ; son point le plus bas se trouve sous le niveau de la mer.",
+        "label": "Vallée de la Mort",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which desert valley in California holds the record for the highest air temperature ever measured on Earth?",
+        "explanation": "In summer the ground grows so hot you could almost fry an egg on it; its lowest point lies below sea level.",
+        "label": "Death Valley",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué valle desértico de California ostenta el récord de la temperatura del aire más alta jamás medida en la Tierra?",
+        "explanation": "En verano el suelo se pone tan ardiente que casi se podría freír un huevo; su punto más bajo está bajo el nivel del mar.",
+        "label": "Valle de la Muerte",
+        "country": "Estados Unidos"
+      }
+    }
+  }
+]
