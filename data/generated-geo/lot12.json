@@ -1,0 +1,1402 @@
+[
+  {
+    "sourceRef": "1ac74a5e27fe9940",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 47.4467,
+    "lng": 12.3924,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle station des Alpes autrichiennes se court la descente à skis la plus redoutée du monde, sur une pente vertigineuse ?",
+        "explanation": "Certains passages sont si raides que les skieurs y décollent sur plusieurs dizaines de mètres, frôlant les cent kilomètres à l'heure.",
+        "label": "Kitzbühel",
+        "country": "Autriche"
+      },
+      "en": {
+        "text": "In which resort of the Austrian Alps is the world's most feared downhill ski race run, on a dizzying slope?",
+        "explanation": "Some sections are so steep that skiers take off over tens of metres, brushing a hundred kilometres an hour.",
+        "label": "Kitzbühel",
+        "country": "Austria"
+      },
+      "es": {
+        "text": "¿En qué estación de los Alpes austríacos se corre el descenso de esquí más temido del mundo, en una pendiente vertiginosa?",
+        "explanation": "Algunos tramos son tan empinados que los esquiadores despegan varias decenas de metros, rozando los cien kilómetros por hora.",
+        "label": "Kitzbühel",
+        "country": "Austria"
+      }
+    }
+  },
+  {
+    "sourceRef": "9a51001cdd2b212d",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 42.7003,
+    "lng": -74.9235,
+    "translations": {
+      "fr": {
+        "text": "Dans quel petit village de l'État de New York se trouve le temple de la renommée du base-ball américain ?",
+        "explanation": "On y a longtemps raconté que ce sport y était né, une jolie légende démentie depuis, mais qui a fixé là son sanctuaire.",
+        "label": "Cooperstown",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which small village in New York State is the American baseball hall of fame located?",
+        "explanation": "It was long claimed the sport was born there, a pretty legend since disproved, but which fixed its shrine in the town.",
+        "label": "Cooperstown",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué pequeño pueblo del estado de Nueva York se encuentra el templo de la fama del béisbol estadounidense?",
+        "explanation": "Mucho tiempo se contó que allí nació este deporte, una bonita leyenda ya desmentida, pero que fijó allí su santuario.",
+        "label": "Cooperstown",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "a4ae4f475d45b3cc",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 52.0733,
+    "lng": -1.0147,
+    "translations": {
+      "fr": {
+        "text": "Sur quel ancien aérodrome anglais se courut, en 1950, le tout premier Grand Prix de la Formule 1 moderne ?",
+        "explanation": "Les circuits d'après-guerre naquirent souvent sur d'anciennes pistes militaires, dont les longues bandes de béton étaient toutes trouvées.",
+        "label": "Silverstone",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "On which former English airfield was the very first modern Formula 1 Grand Prix run, in 1950?",
+        "explanation": "Post-war circuits often grew on old military runways, whose long strips of concrete were already there for the taking.",
+        "label": "Silverstone",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué antiguo aeródromo inglés se corrió, en 1950, el primer Gran Premio de la Fórmula 1 moderna?",
+        "explanation": "Los circuitos de posguerra nacieron a menudo sobre viejas pistas militares, cuyas largas franjas de hormigón ya estaban allí.",
+        "label": "Silverstone",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "726ad0c03b1efc3e",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 51.0447,
+    "lng": -114.0719,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de l'Ouest canadien, aux portes des Rocheuses, accueillit les Jeux olympiques d'hiver de 1988 ?",
+        "explanation": "Une équipe de bobsleigh venue d'un pays tropical y fit sensation, inspirant plus tard une comédie restée célèbre.",
+        "label": "Calgary",
+        "country": "Canada"
+      },
+      "en": {
+        "text": "Which city of western Canada, at the gates of the Rockies, hosted the 1988 Winter Olympics?",
+        "explanation": "A bobsleigh team from a tropical country caused a sensation there, later inspiring a famous comedy.",
+        "label": "Calgary",
+        "country": "Canada"
+      },
+      "es": {
+        "text": "¿Qué ciudad del oeste de Canadá, a las puertas de las Rocosas, acogió los Juegos Olímpicos de invierno de 1988?",
+        "explanation": "Un equipo de bobsleigh de un país tropical causó sensación allí, inspirando después una famosa comedia.",
+        "label": "Calgary",
+        "country": "Canadá"
+      }
+    }
+  },
+  {
+    "sourceRef": "9c59428cbb634006",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 43.0618,
+    "lng": 141.3545,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du nord du Japon fut la première d'Asie à accueillir les Jeux olympiques d'hiver, en 1972 ?",
+        "explanation": "Réputée pour ses hivers neigeux, la ville organise chaque année un immense festival où l'on sculpte de gigantesques statues de glace.",
+        "label": "Sapporo",
+        "country": "Japon"
+      },
+      "en": {
+        "text": "Which city in northern Japan was the first in Asia to host the Winter Olympics, in 1972?",
+        "explanation": "Famed for its snowy winters, the city holds a huge festival each year where giant statues are carved from ice.",
+        "label": "Sapporo",
+        "country": "Japan"
+      },
+      "es": {
+        "text": "¿Qué ciudad del norte de Japón fue la primera de Asia en acoger los Juegos Olímpicos de invierno, en 1972?",
+        "explanation": "Famosa por sus inviernos nevados, la ciudad celebra cada año un enorme festival donde se esculpen gigantescas estatuas de hielo.",
+        "label": "Sapporo",
+        "country": "Japón"
+      }
+    }
+  },
+  {
+    "sourceRef": "7254579e9571a9af",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": -34.9011,
+    "lng": -56.1645,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale d'Amérique du Sud se disputa, en 1930, la toute première Coupe du monde de football ?",
+        "explanation": "Le pays hôte, qui célébrait le centenaire de son indépendance, remporta le tournoi, offrant la fête à tout un peuple.",
+        "label": "Montevideo",
+        "country": "Uruguay"
+      },
+      "en": {
+        "text": "In which South American capital was the very first football World Cup played, in 1930?",
+        "explanation": "The host country, celebrating the centenary of its independence, won the tournament, giving a whole people cause to rejoice.",
+        "label": "Montevideo",
+        "country": "Uruguay"
+      },
+      "es": {
+        "text": "¿En qué capital de América del Sur se disputó, en 1930, la primera Copa del Mundo de fútbol?",
+        "explanation": "El país anfitrión, que celebraba el centenario de su independencia, ganó el torneo, dando fiesta a todo un pueblo.",
+        "label": "Montevideo",
+        "country": "Uruguay"
+      }
+    }
+  },
+  {
+    "sourceRef": "fb65d3523c24ab84",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 29.1852,
+    "lng": -81.0709,
+    "translations": {
+      "fr": {
+        "text": "Sur quel grand anneau incliné de Floride se court la plus prestigieuse course de stock-cars des États-Unis ?",
+        "explanation": "Contrairement à la plupart des grandes courses, celle-ci ouvre et non clôt la saison, ce qui en fait un événement à part.",
+        "label": "Daytona Beach",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "On which great banked oval in Florida is the most prestigious stock-car race in the United States run?",
+        "explanation": "Unlike most great races, this one opens rather than closes the season, which makes it a special event.",
+        "label": "Daytona Beach",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué gran óvalo peraltado de Florida se corre la carrera de stock-cars más prestigiosa de los Estados Unidos?",
+        "explanation": "A diferencia de la mayoría de las grandes carreras, esta abre y no cierra la temporada, lo que la hace un evento especial.",
+        "label": "Daytona Beach",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "8ba6ba7c2e8b8c2c",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 51.4816,
+    "lng": -3.1791,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale du pays de Galles se dresse un stade au toit rétractable, véritable temple du rugby gallois ?",
+        "explanation": "Les soirs de match, la ville entière chante ; l'hymne gallois y résonne comme une prière avant chaque grand affrontement.",
+        "label": "Cardiff",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which capital of Wales stands a stadium with a retractable roof, a true temple of Welsh rugby?",
+        "explanation": "On match nights the whole city sings; the Welsh anthem rings out there like a prayer before each great clash.",
+        "label": "Cardiff",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué capital de Gales se alza un estadio de techo retráctil, verdadero templo del rugby galés?",
+        "explanation": "Las noches de partido toda la ciudad canta; el himno galés resuena allí como una plegaria antes de cada gran choque.",
+        "label": "Cardiff",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "bf9ceaaf1d6f86e3",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 43.5855,
+    "lng": 39.7231,
+    "translations": {
+      "fr": {
+        "text": "Quelle station balnéaire russe de la mer Noire, au climat étonnamment doux, accueillit les Jeux olympiques d'hiver de 2014 ?",
+        "explanation": "On y skiait en montagne pendant qu'à quelques kilomètres, au bord de la mer, l'air restait presque printanier.",
+        "label": "Sotchi",
+        "country": "Russie"
+      },
+      "en": {
+        "text": "Which Russian Black Sea resort, with a surprisingly mild climate, hosted the 2014 Winter Olympics?",
+        "explanation": "People skied in the mountains there while, a few kilometres away by the sea, the air stayed almost spring-like.",
+        "label": "Sochi",
+        "country": "Russia"
+      },
+      "es": {
+        "text": "¿Qué balneario ruso del mar Negro, de clima sorprendentemente suave, acogió los Juegos Olímpicos de invierno de 2014?",
+        "explanation": "Se esquiaba en la montaña mientras, a pocos kilómetros, junto al mar, el aire seguía casi primaveral.",
+        "label": "Sochi",
+        "country": "Rusia"
+      }
+    }
+  },
+  {
+    "sourceRef": "1ff9a0320aed4364",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 44.8654,
+    "lng": 15.582,
+    "translations": {
+      "fr": {
+        "text": "Quel parc naturel de Croatie enchaîne seize lacs turquoise reliés par des cascades, au cœur d'une forêt épaisse ?",
+        "explanation": "L'eau y sculpte lentement des barrages de calcaire, si fragiles qu'on ne peut marcher que sur des passerelles suspendues au-dessus.",
+        "label": "Plitvice",
+        "country": "Croatie"
+      },
+      "en": {
+        "text": "Which nature park in Croatia links sixteen turquoise lakes joined by waterfalls, deep in a thick forest?",
+        "explanation": "The water there slowly sculpts limestone dams, so fragile that visitors may only walk on boardwalks suspended above.",
+        "label": "Plitvice",
+        "country": "Croatia"
+      },
+      "es": {
+        "text": "¿Qué parque natural de Croacia encadena dieciséis lagos turquesa unidos por cascadas, en el corazón de un bosque espeso?",
+        "explanation": "El agua esculpe allí lentamente presas de caliza, tan frágiles que solo se puede caminar por pasarelas suspendidas por encima.",
+        "label": "Plitvice",
+        "country": "Croacia"
+      }
+    }
+  },
+  {
+    "sourceRef": "5ee71e964df2dd66",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": -2.3333,
+    "lng": 34.8333,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle vaste plaine herbeuse de Tanzanie des millions de gnous et de zèbres migrent-ils chaque année en quête d'herbe fraîche ?",
+        "explanation": "Leur traversée des rivières, guettée par les crocodiles, est l'un des spectacles les plus saisissants du monde sauvage.",
+        "label": "Serengeti",
+        "country": "Tanzanie"
+      },
+      "en": {
+        "text": "On which vast grassy plain of Tanzania do millions of wildebeest and zebra migrate each year in search of fresh grass?",
+        "explanation": "Their river crossings, watched by crocodiles, are among the most gripping spectacles in the wild world.",
+        "label": "Serengeti",
+        "country": "Tanzania"
+      },
+      "es": {
+        "text": "¿En qué vasta llanura herbosa de Tanzania migran cada año millones de ñus y cebras en busca de hierba fresca?",
+        "explanation": "Su cruce de los ríos, acechado por los cocodrilos, es uno de los espectáculos más impresionantes del mundo salvaje.",
+        "label": "Serengeti",
+        "country": "Tanzania"
+      }
+    }
+  },
+  {
+    "sourceRef": "0c0df83eee2501db",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": -50.9423,
+    "lng": -73.4068,
+    "translations": {
+      "fr": {
+        "text": "Quel parc de la Patagonie chilienne dresse trois tours de granit au-dessus de lacs glaciaires d'un turquoise laiteux ?",
+        "explanation": "Le vent y souffle avec une telle force que les marcheurs doivent parfois s'arc-bouter pour ne pas être renversés.",
+        "label": "Torres del Paine",
+        "country": "Chili"
+      },
+      "en": {
+        "text": "Which park in Chilean Patagonia raises three granite towers above glacial lakes of a milky turquoise?",
+        "explanation": "The wind blows there with such force that hikers must sometimes brace themselves to keep from being knocked over.",
+        "label": "Torres del Paine",
+        "country": "Chile"
+      },
+      "es": {
+        "text": "¿Qué parque de la Patagonia chilena alza tres torres de granito sobre lagos glaciares de un turquesa lechoso?",
+        "explanation": "El viento sopla allí con tal fuerza que los excursionistas deben a veces afianzarse para no ser derribados.",
+        "label": "Torres del Paine",
+        "country": "Chile"
+      }
+    }
+  },
+  {
+    "sourceRef": "2256bd744d2a387f",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": -1.05,
+    "lng": 29.6667,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle forêt dense et brumeuse d'Ouganda vit près de la moitié des derniers gorilles de montagne du monde ?",
+        "explanation": "Son nom local signifie « l'impénétrable » ; on n'y approche les gorilles qu'à pied, en file, après des heures de marche dans la boue.",
+        "label": "Bwindi",
+        "country": "Ouganda"
+      },
+      "en": {
+        "text": "In which dense, misty forest of Uganda lives nearly half of the world's last mountain gorillas?",
+        "explanation": "Its local name means 'the impenetrable'; the gorillas are approached only on foot, in single file, after hours of walking in mud.",
+        "label": "Bwindi",
+        "country": "Uganda"
+      },
+      "es": {
+        "text": "¿En qué bosque denso y brumoso de Uganda vive casi la mitad de los últimos gorilas de montaña del mundo?",
+        "explanation": "Su nombre local significa 'el impenetrable'; a los gorilas solo se llega a pie, en fila, tras horas de caminata por el barro.",
+        "label": "Bwindi",
+        "country": "Uganda"
+      }
+    }
+  },
+  {
+    "sourceRef": "71fe5b6500ade2b4",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": -44.6414,
+    "lng": 167.8974,
+    "translations": {
+      "fr": {
+        "text": "Quel fjord spectaculaire de Nouvelle-Zélande, aux falaises plongeant dans la mer, se couvre de cascades les jours de pluie ?",
+        "explanation": "C'est l'un des lieux les plus arrosés de la planète : après une averse, des centaines de chutes d'eau dévalent soudain ses parois.",
+        "label": "Milford Sound",
+        "country": "Nouvelle-Zélande"
+      },
+      "en": {
+        "text": "Which spectacular New Zealand fjord, its cliffs plunging into the sea, fills with waterfalls on rainy days?",
+        "explanation": "It is one of the wettest places on Earth: after a downpour, hundreds of waterfalls suddenly cascade down its walls.",
+        "label": "Milford Sound",
+        "country": "New Zealand"
+      },
+      "es": {
+        "text": "¿Qué fiordo espectacular de Nueva Zelanda, con acantilados que se hunden en el mar, se cubre de cascadas los días de lluvia?",
+        "explanation": "Es uno de los lugares más lluviosos del planeta: tras un aguacero, cientos de cascadas se precipitan de repente por sus paredes.",
+        "label": "Milford Sound",
+        "country": "Nueva Zelanda"
+      }
+    }
+  },
+  {
+    "sourceRef": "4a9ab678f8dc5272",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": 2.2667,
+    "lng": -73.7833,
+    "translations": {
+      "fr": {
+        "text": "Quelle rivière de Colombie se pare, à une certaine saison, de rouge, de jaune et de vert grâce à des plantes aquatiques ?",
+        "explanation": "Surnommée « la rivière aux cinq couleurs », elle ne dévoile ses teintes vives que quelques semaines par an, entre saison sèche et saison des pluies.",
+        "label": "Caño Cristales",
+        "country": "Colombie"
+      },
+      "en": {
+        "text": "Which river in Colombia turns, at a certain season, red, yellow and green thanks to aquatic plants?",
+        "explanation": "Nicknamed 'the river of five colours', it reveals its vivid hues only a few weeks a year, between the dry and rainy seasons.",
+        "label": "Caño Cristales",
+        "country": "Colombia"
+      },
+      "es": {
+        "text": "¿Qué río de Colombia se tiñe, en cierta temporada, de rojo, amarillo y verde gracias a plantas acuáticas?",
+        "explanation": "Apodado 'el río de los cinco colores', solo revela sus tonos vivos unas pocas semanas al año, entre la temporada seca y la de lluvias.",
+        "label": "Caño Cristales",
+        "country": "Colombia"
+      }
+    }
+  },
+  {
+    "sourceRef": "33e5fe9f6797c1ec",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 32.7796,
+    "lng": -106.1717,
+    "translations": {
+      "fr": {
+        "text": "Quel désert du Nouveau-Mexique est fait de dunes d'un blanc éclatant, composées non de sable mais de gypse ?",
+        "explanation": "Le gypse, rare à ciel ouvert car soluble dans l'eau, forme ici la plus grande étendue de dunes blanches de la planète.",
+        "label": "White Sands",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which desert in New Mexico is made of dazzling white dunes, composed not of sand but of gypsum?",
+        "explanation": "Gypsum, rare in the open because it dissolves in water, forms here the largest field of white dunes on the planet.",
+        "label": "White Sands",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué desierto de Nuevo México está hecho de dunas de un blanco deslumbrante, compuestas no de arena sino de yeso?",
+        "explanation": "El yeso, raro al aire libre por ser soluble en agua, forma aquí la mayor extensión de dunas blancas del planeta.",
+        "label": "White Sands",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "d56c642fa57959ff",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": 12.4634,
+    "lng": 53.8237,
+    "translations": {
+      "fr": {
+        "text": "Quelle île isolée du Yémen, dans l'océan Indien, abrite d'étranges arbres en forme de parasol dont la résine rouge ressemble à du sang ?",
+        "explanation": "Coupée du continent depuis des millions d'années, l'île a vu évoluer des espèces uniques, à tel point qu'on la surnomme la « Galápagos de l'océan Indien ».",
+        "label": "Socotra",
+        "country": "Yémen"
+      },
+      "en": {
+        "text": "Which remote Yemeni island, in the Indian Ocean, shelters strange umbrella-shaped trees whose red resin looks like blood?",
+        "explanation": "Cut off from the mainland for millions of years, the island evolved unique species, so much so that it is called the 'Galápagos of the Indian Ocean'.",
+        "label": "Socotra",
+        "country": "Yemen"
+      },
+      "es": {
+        "text": "¿Qué isla aislada de Yemen, en el océano Índico, alberga extraños árboles en forma de sombrilla cuya resina roja parece sangre?",
+        "explanation": "Aislada del continente desde hace millones de años, la isla vio evolucionar especies únicas, tanto que se la llama la 'Galápagos del Índico'.",
+        "label": "Socotra",
+        "country": "Yemen"
+      }
+    }
+  },
+  {
+    "sourceRef": "6b0f019539804511",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": -2.486,
+    "lng": -43.1276,
+    "translations": {
+      "fr": {
+        "text": "Quel désert de dunes blanches du nord-est du Brésil se remplit, à la saison des pluies, de milliers de lagons bleu-vert ?",
+        "explanation": "L'eau, piégée entre les dunes sur un sous-sol imperméable, y forme des piscines naturelles où l'on peut même voir nager des poissons.",
+        "label": "Lençóis Maranhenses",
+        "country": "Brésil"
+      },
+      "en": {
+        "text": "Which white-dune desert of north-eastern Brazil fills, in the rainy season, with thousands of blue-green lagoons?",
+        "explanation": "The water, trapped between the dunes on an impermeable floor, forms natural pools where one can even see fish swimming.",
+        "label": "Lençóis Maranhenses",
+        "country": "Brazil"
+      },
+      "es": {
+        "text": "¿Qué desierto de dunas blancas del noreste de Brasil se llena, en la temporada de lluvias, de miles de lagunas azul verdosas?",
+        "explanation": "El agua, atrapada entre las dunas sobre un suelo impermeable, forma piscinas naturales donde hasta se ven nadar peces.",
+        "label": "Lençóis Maranhenses",
+        "country": "Brasil"
+      }
+    }
+  },
+  {
+    "sourceRef": "8be0d924549c00a9",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 37.2387,
+    "lng": -76.5077,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de Virginie l'armée britannique capitula-t-elle en 1781, scellant l'indépendance des États-Unis ?",
+        "explanation": "Lors de la reddition, la musique britannique aurait joué un air intitulé « Le monde à l'envers », tant la défaite semblait inconcevable.",
+        "label": "Yorktown",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which town of Virginia did the British army surrender in 1781, sealing the independence of the United States?",
+        "explanation": "At the surrender, the British band is said to have played a tune called 'The World Turned Upside Down', so unthinkable did the defeat feel.",
+        "label": "Yorktown",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué localidad de Virginia capituló el ejército británico en 1781, sellando la independencia de los Estados Unidos?",
+        "explanation": "En la rendición, la banda británica habría tocado una tonada llamada 'El mundo al revés', de lo inconcebible que parecía la derrota.",
+        "label": "Yorktown",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "03819762feedcf46",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 50.4631,
+    "lng": 2.14,
+    "translations": {
+      "fr": {
+        "text": "Près de quel village du nord de la France les archers anglais écrasèrent-ils la chevalerie française dans la boue, en 1415 ?",
+        "explanation": "Alourdis par leurs armures, les chevaliers s'enlisèrent dans un champ détrempé, offrant des cibles faciles aux archers ennemis.",
+        "label": "Azincourt",
+        "country": "France"
+      },
+      "en": {
+        "text": "Near which village in northern France did English archers crush the French knights in the mud, in 1415?",
+        "explanation": "Weighed down by their armour, the knights bogged down in a waterlogged field, offering easy targets to the enemy archers.",
+        "label": "Azincourt",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Cerca de qué aldea del norte de Francia aplastaron los arqueros ingleses a la caballería francesa en el barro, en 1415?",
+        "explanation": "Cargados con sus armaduras, los caballeros se atascaron en un campo encharcado, ofreciendo blancos fáciles a los arqueros enemigos.",
+        "label": "Azincourt",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "4af9f044b900a3cc",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale du Moyen-Orient Churchill, Roosevelt et Staline se réunirent-ils pour la première fois, en 1943 ?",
+        "explanation": "Par crainte d'un attentat, l'un des dirigeants logea directement dans l'enceinte de l'ambassade d'un allié, évitant tout trajet en ville.",
+        "label": "Téhéran",
+        "country": "Iran"
+      },
+      "en": {
+        "text": "In which Middle Eastern capital did Churchill, Roosevelt and Stalin meet for the first time, in 1943?",
+        "explanation": "Fearing an attack, one of the leaders stayed inside the grounds of an ally's embassy, avoiding any trip across the city.",
+        "label": "Tehran",
+        "country": "Iran"
+      },
+      "es": {
+        "text": "¿En qué capital de Oriente Medio se reunieron por primera vez Churchill, Roosevelt y Stalin, en 1943?",
+        "explanation": "Por temor a un atentado, uno de los líderes se alojó dentro del recinto de la embajada de un aliado, evitando todo trayecto por la ciudad.",
+        "label": "Teherán",
+        "country": "Irán"
+      }
+    }
+  },
+  {
+    "sourceRef": "51c7572d08555ee6",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 57.4772,
+    "lng": -4.0947,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle lande d'Écosse la dernière grande bataille livrée sur le sol britannique écrasa-t-elle les clans en 1746 ?",
+        "explanation": "La défaite sonna le glas d'un monde : on y interdit ensuite le port du tartan et de la cornemuse, pour briser l'esprit des clans.",
+        "label": "Culloden",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "On which Scottish moor did the last great battle fought on British soil crush the clans in 1746?",
+        "explanation": "The defeat tolled the bell for a whole world: the wearing of tartan and the bagpipes were then banned, to break the clans' spirit.",
+        "label": "Culloden",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué páramo de Escocia la última gran batalla librada en suelo británico aplastó a los clanes en 1746?",
+        "explanation": "La derrota selló el fin de todo un mundo: luego se prohibió llevar el tartán y la gaita, para quebrar el espíritu de los clanes.",
+        "label": "Culloden",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "2c1781400237a0f6",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 38.7961,
+    "lng": 22.5361,
+    "translations": {
+      "fr": {
+        "text": "Dans quel étroit défilé de Grèce trois cents Spartiates résistèrent-ils héroïquement à l'immense armée perse ?",
+        "explanation": "Averti qu'une pluie de flèches perses cacherait le soleil, un guerrier aurait répondu qu'on se battrait alors « à l'ombre ».",
+        "label": "Thermopyles",
+        "country": "Grèce"
+      },
+      "en": {
+        "text": "In which narrow pass of Greece did three hundred Spartans heroically resist the vast Persian army?",
+        "explanation": "Warned that a rain of Persian arrows would blot out the sun, a warrior is said to have replied that they would then fight 'in the shade'.",
+        "label": "Thermopylae",
+        "country": "Greece"
+      },
+      "es": {
+        "text": "¿En qué estrecho desfiladero de Grecia resistieron heroicamente trescientos espartanos al inmenso ejército persa?",
+        "explanation": "Advertido de que una lluvia de flechas persas taparía el sol, un guerrero habría respondido que entonces lucharían 'a la sombra'.",
+        "label": "Termópilas",
+        "country": "Grecia"
+      }
+    }
+  },
+  {
+    "sourceRef": "341e7ff86680e448",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": -7.1638,
+    "lng": -78.5003,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville des Andes péruviennes le conquistador Pizarro captura-t-il l'empereur inca Atahualpa, en 1532 ?",
+        "explanation": "Pour sa rançon, l'empereur promit de remplir une salle d'or ; on la remplit, mais on l'exécuta malgré tout, changeant le sort d'un empire.",
+        "label": "Cajamarca",
+        "country": "Pérou"
+      },
+      "en": {
+        "text": "In which city of the Peruvian Andes did the conquistador Pizarro capture the Inca emperor Atahualpa, in 1532?",
+        "explanation": "For his ransom the emperor promised to fill a room with gold; it was filled, yet he was executed anyway, changing an empire's fate.",
+        "label": "Cajamarca",
+        "country": "Peru"
+      },
+      "es": {
+        "text": "¿En qué ciudad de los Andes peruanos capturó el conquistador Pizarro al emperador inca Atahualpa, en 1532?",
+        "explanation": "Por su rescate, el emperador prometió llenar una sala de oro; se llenó, pero lo ejecutaron igualmente, cambiando el destino de un imperio.",
+        "label": "Cajamarca",
+        "country": "Perú"
+      }
+    }
+  },
+  {
+    "sourceRef": "1b95641d14a77057",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 14.1667,
+    "lng": 38.9,
+    "translations": {
+      "fr": {
+        "text": "Près de quelle ville d'Éthiopie une armée africaine infligea-t-elle, en 1896, une défaite retentissante aux troupes coloniales italiennes ?",
+        "explanation": "Cette victoire rare d'un royaume africain contre une puissance européenne préserva l'indépendance du pays, un cas presque unique sur le continent.",
+        "label": "Adoua",
+        "country": "Éthiopie"
+      },
+      "en": {
+        "text": "Near which town in Ethiopia did an African army inflict, in 1896, a resounding defeat on the Italian colonial troops?",
+        "explanation": "This rare victory of an African kingdom over a European power preserved the country's independence, almost unique on the continent.",
+        "label": "Adwa",
+        "country": "Ethiopia"
+      },
+      "es": {
+        "text": "¿Cerca de qué ciudad de Etiopía infligió un ejército africano, en 1896, una sonada derrota a las tropas coloniales italianas?",
+        "explanation": "Esta rara victoria de un reino africano sobre una potencia europea preservó la independencia del país, algo casi único en el continente.",
+        "label": "Adua",
+        "country": "Etiopía"
+      }
+    }
+  },
+  {
+    "sourceRef": "d2eeb98e68b2e8c0",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 23.8,
+    "lng": 88.25,
+    "translations": {
+      "fr": {
+        "text": "Près de quel village du Bengale une victoire de 1757 ouvrit-elle à une compagnie marchande britannique la conquête de l'Inde ?",
+        "explanation": "La bataille se joua moins par les armes que par la trahison : un chef de l'armée locale, acheté d'avance, retint ses troupes au moment décisif.",
+        "label": "Plassey",
+        "country": "Inde"
+      },
+      "en": {
+        "text": "Near which village in Bengal did a victory in 1757 open India's conquest to a British trading company?",
+        "explanation": "The battle was decided less by arms than by betrayal: a leader of the local army, bought in advance, held back his troops at the crucial moment.",
+        "label": "Plassey",
+        "country": "India"
+      },
+      "es": {
+        "text": "¿Cerca de qué aldea de Bengala una victoria de 1757 abrió a una compañía mercantil británica la conquista de la India?",
+        "explanation": "La batalla se decidió menos por las armas que por la traición: un jefe del ejército local, comprado de antemano, retuvo a sus tropas en el momento decisivo.",
+        "label": "Plassey",
+        "country": "India"
+      }
+    }
+  },
+  {
+    "sourceRef": "5e76750945fbbada",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 43.9424,
+    "lng": 12.4578,
+    "translations": {
+      "fr": {
+        "text": "Quelle minuscule république, perchée sur un mont et entièrement enclavée dans l'Italie, se dit la plus ancienne du monde ?",
+        "explanation": "Selon la légende, elle fut fondée par un tailleur de pierre fuyant les persécutions, il y a plus de mille sept cents ans.",
+        "label": "Saint-Marin",
+        "country": "Saint-Marin"
+      },
+      "en": {
+        "text": "Which tiny republic, perched on a mountain and entirely enclosed within Italy, claims to be the oldest in the world?",
+        "explanation": "According to legend, it was founded by a stonecutter fleeing persecution, more than seventeen hundred years ago.",
+        "label": "San Marino",
+        "country": "San Marino"
+      },
+      "es": {
+        "text": "¿Qué minúscula república, encaramada en un monte y enteramente enclavada en Italia, se dice la más antigua del mundo?",
+        "explanation": "Según la leyenda, fue fundada por un cantero que huía de la persecución, hace más de mil setecientos años.",
+        "label": "San Marino",
+        "country": "San Marino"
+      }
+    }
+  },
+  {
+    "sourceRef": "29bee2a6ee4d3594",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 47.141,
+    "lng": 9.5209,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale d'une principauté alpine, coincée entre la Suisse et l'Autriche, est l'une des plus petites d'Europe ?",
+        "explanation": "Le minuscule pays, sans aéroport ni armée, est si peu peuplé qu'on pourrait, dit-on, le louer en entier pour une soirée.",
+        "label": "Vaduz",
+        "country": "Liechtenstein"
+      },
+      "en": {
+        "text": "Which capital of an Alpine principality, wedged between Switzerland and Austria, is one of the smallest in Europe?",
+        "explanation": "The tiny country, with no airport or army, is so sparsely peopled that it could, it is said, be rented whole for an evening.",
+        "label": "Vaduz",
+        "country": "Liechtenstein"
+      },
+      "es": {
+        "text": "¿Qué capital de un principado alpino, encajado entre Suiza y Austria, es una de las más pequeñas de Europa?",
+        "explanation": "El diminuto país, sin aeropuerto ni ejército, está tan poco poblado que se podría, según dicen, alquilar entero por una noche.",
+        "label": "Vaduz",
+        "country": "Liechtenstein"
+      }
+    }
+  },
+  {
+    "sourceRef": "da0e6a07a2bf59c1",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 71.1725,
+    "lng": 25.7844,
+    "translations": {
+      "fr": {
+        "text": "Quel cap de Norvège, souvent présenté comme le point le plus septentrional d'Europe, plonge dans l'océan Arctique ?",
+        "explanation": "En été, le soleil n'y descend jamais sous l'horizon : c'est le pays du « soleil de minuit », qui brille en pleine nuit.",
+        "label": "Cap Nord",
+        "country": "Norvège"
+      },
+      "en": {
+        "text": "Which cape in Norway, often presented as the northernmost point of Europe, plunges into the Arctic Ocean?",
+        "explanation": "In summer the sun never sinks below the horizon there: it is the land of the 'midnight sun', shining in the dead of night.",
+        "label": "North Cape",
+        "country": "Norway"
+      },
+      "es": {
+        "text": "¿Qué cabo de Noruega, presentado a menudo como el punto más septentrional de Europa, se hunde en el océano Ártico?",
+        "explanation": "En verano el sol nunca baja del horizonte allí: es la tierra del 'sol de medianoche', que brilla en plena noche.",
+        "label": "Cabo Norte",
+        "country": "Noruega"
+      }
+    }
+  },
+  {
+    "sourceRef": "bf6029e3b5c822d5",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": -55.9833,
+    "lng": -67.2667,
+    "translations": {
+      "fr": {
+        "text": "Quel cap, à la pointe extrême de l'Amérique du Sud, terrorisait jadis les marins par ses tempêtes et ses naufrages ?",
+        "explanation": "Franchir ce passage était un tel exploit que les marins gagnaient le droit de porter un anneau à l'oreille et de poser un pied sur la table.",
+        "label": "Cap Horn",
+        "country": "Chili"
+      },
+      "en": {
+        "text": "Which cape, at the far tip of South America, once terrified sailors with its storms and shipwrecks?",
+        "explanation": "Rounding this passage was such a feat that sailors earned the right to wear an earring and to rest one foot on the table.",
+        "label": "Cape Horn",
+        "country": "Chile"
+      },
+      "es": {
+        "text": "¿Qué cabo, en el extremo de América del Sur, aterrorizaba antaño a los marineros por sus tormentas y naufragios?",
+        "explanation": "Doblar este paso era tal hazaña que los marineros ganaban el derecho a llevar un aro en la oreja y a apoyar un pie en la mesa.",
+        "label": "Cabo de Hornos",
+        "country": "Chile"
+      }
+    }
+  },
+  {
+    "sourceRef": "1352f066adc2ef27",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 5.1431,
+    "lng": -60.7625,
+    "translations": {
+      "fr": {
+        "text": "Quel plateau-montagne aux parois verticales, à la frontière du Venezuela, inspira le roman « Le Monde perdu » ?",
+        "explanation": "Isolé du monde par ses falaises abruptes, son sommet plat abrite des plantes et des animaux que l'on ne trouve nulle part ailleurs.",
+        "label": "Mont Roraima",
+        "country": "Venezuela"
+      },
+      "en": {
+        "text": "Which flat-topped mountain with vertical walls, on the border of Venezuela, inspired the novel 'The Lost World'?",
+        "explanation": "Cut off from the world by its sheer cliffs, its flat summit shelters plants and animals found nowhere else.",
+        "label": "Mount Roraima",
+        "country": "Venezuela"
+      },
+      "es": {
+        "text": "¿Qué montaña de cima plana y paredes verticales, en la frontera de Venezuela, inspiró la novela 'El mundo perdido'?",
+        "explanation": "Aislada del mundo por sus acantilados verticales, su cima plana alberga plantas y animales que no se hallan en ningún otro lugar.",
+        "label": "Monte Roraima",
+        "country": "Venezuela"
+      }
+    }
+  },
+  {
+    "sourceRef": "788ff149316968da",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 40.821,
+    "lng": 14.426,
+    "translations": {
+      "fr": {
+        "text": "Quel volcan encore actif domine la baie de Naples et ensevelit jadis une cité romaine entière sous ses cendres ?",
+        "explanation": "Les habitants de la région vivent sous sa menace ; les volcanologues surveillent son réveil possible qui mettrait en danger des millions de personnes.",
+        "label": "Vésuve",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which still-active volcano looms over the Bay of Naples and once buried an entire Roman city under its ash?",
+        "explanation": "The people of the region live under its threat; volcanologists watch for its possible reawakening, which would endanger millions.",
+        "label": "Vesuvius",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué volcán aún activo domina la bahía de Nápoles y sepultó antaño una ciudad romana entera bajo sus cenizas?",
+        "explanation": "Los habitantes de la región viven bajo su amenaza; los vulcanólogos vigilan su posible despertar, que pondría en peligro a millones.",
+        "label": "Vesubio",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "a56d80ed908052fd",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 11.6558,
+    "lng": 42.4131,
+    "translations": {
+      "fr": {
+        "text": "Quel lac salé de Djibouti, encroûté de sel étincelant, marque le point le plus bas du continent africain ?",
+        "explanation": "Des caravanes de dromadaires viennent encore y découper des plaques de sel, chargées ensuite à dos de bête à travers le désert.",
+        "label": "Lac Assal",
+        "country": "Djibouti"
+      },
+      "en": {
+        "text": "Which salt lake in Djibouti, crusted with glittering salt, marks the lowest point of the African continent?",
+        "explanation": "Camel caravans still come to cut slabs of salt there, then loaded onto the animals' backs across the desert.",
+        "label": "Lake Assal",
+        "country": "Djibouti"
+      },
+      "es": {
+        "text": "¿Qué lago salado de Yibuti, con costra de sal reluciente, marca el punto más bajo del continente africano?",
+        "explanation": "Caravanas de dromedarios aún vienen a cortar allí placas de sal, cargadas luego a lomos de los animales por el desierto.",
+        "label": "Lago Assal",
+        "country": "Yibuti"
+      }
+    }
+  },
+  {
+    "sourceRef": "414afa53176078b8",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "lat": 57.3229,
+    "lng": -4.4244,
+    "translations": {
+      "fr": {
+        "text": "Dans quel long lac d'Écosse, aux eaux profondes et sombres, une légende place un mystérieux monstre marin ?",
+        "explanation": "Une célèbre photo censée montrer la créature fut, des décennies plus tard, révélée comme un canular réalisé avec un jouet.",
+        "label": "Loch Ness",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which long Scottish lake, with deep, dark waters, does legend place a mysterious sea monster?",
+        "explanation": "A famous photo said to show the creature was, decades later, revealed as a hoax made with a toy.",
+        "label": "Loch Ness",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué largo lago de Escocia, de aguas profundas y oscuras, sitúa una leyenda a un misterioso monstruo marino?",
+        "explanation": "Una famosa foto que supuestamente mostraba a la criatura fue, décadas después, revelada como un engaño hecho con un juguete.",
+        "label": "Lago Ness",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "d7e2fafe4f5f8164",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 43.47,
+    "lng": 11.3,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle région vallonnée de Toscane produit-on un célèbre vin rouge, jadis vendu dans une bouteille entourée de paille ?",
+        "explanation": "Un coq noir orne encore les bouteilles du domaine historique, souvenir d'une vieille légende sur la façon dont deux cités se partagèrent la région.",
+        "label": "Chianti",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which hilly region of Tuscany is a famous red wine produced, once sold in a straw-wrapped bottle?",
+        "explanation": "A black rooster still marks the bottles of the historic area, a nod to an old legend about how two cities divided the region.",
+        "label": "Chianti",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué región ondulada de la Toscana se produce un famoso vino tinto, antaño vendido en una botella envuelta en paja?",
+        "explanation": "Un gallo negro marca aún las botellas de la zona histórica, recuerdo de una vieja leyenda sobre cómo dos ciudades se repartieron la región.",
+        "label": "Chianti",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "33814ab2c381204d",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 38.5025,
+    "lng": -122.2654,
+    "translations": {
+      "fr": {
+        "text": "Quelle vallée ensoleillée de Californie est devenue la plus prestigieuse région viticole des États-Unis ?",
+        "explanation": "Sa réputation explosa en 1976 quand, lors d'une dégustation à l'aveugle à Paris, ses vins devancèrent de grands crus français, au grand dam des jurés.",
+        "label": "Napa Valley",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which sunny valley in California has become the most prestigious wine region in the United States?",
+        "explanation": "Its fame exploded in 1976 when, at a blind tasting in Paris, its wines beat great French growths, to the dismay of the judges.",
+        "label": "Napa Valley",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué valle soleado de California se ha convertido en la región vinícola más prestigiosa de los Estados Unidos?",
+        "explanation": "Su fama estalló en 1976 cuando, en una cata a ciegas en París, sus vinos superaron a grandes caldos franceses, para pesar de los jueces.",
+        "label": "Valle de Napa",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "f140637c57a38d92",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": -32.8895,
+    "lng": -68.8458,
+    "translations": {
+      "fr": {
+        "text": "Au pied des Andes, quelle région d'Argentine produit le vin rouge malbec le plus réputé du pays ?",
+        "explanation": "L'eau de fonte des neiges andines, canalisée dans les vignes, permet de cultiver la vigne dans une région pourtant presque désertique.",
+        "label": "Mendoza",
+        "country": "Argentine"
+      },
+      "en": {
+        "text": "At the foot of the Andes, which region of Argentina produces the country's most renowned Malbec red wine?",
+        "explanation": "Meltwater from the Andean snows, channelled through the vineyards, allows the vine to be grown in an otherwise near-desert region.",
+        "label": "Mendoza",
+        "country": "Argentina"
+      },
+      "es": {
+        "text": "Al pie de los Andes, ¿qué región de Argentina produce el vino tinto malbec más renombrado del país?",
+        "explanation": "El agua del deshielo de las nieves andinas, canalizada por los viñedos, permite cultivar la vid en una región casi desértica.",
+        "label": "Mendoza",
+        "country": "Argentina"
+      }
+    }
+  },
+  {
+    "sourceRef": "ee4a1995787fcb44",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 46.2,
+    "lng": 5.22,
+    "translations": {
+      "fr": {
+        "text": "Quelle région de l'est de la France est réputée pour ses volailles fines aux pattes bleues, seules à porter une appellation protégée ?",
+        "explanation": "Élevés en plein air et nourris de maïs et de lait, ces poulets triomphent chaque année dans un concours où les plus beaux valent une petite fortune.",
+        "label": "Bresse",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which region of eastern France is famed for its fine blue-legged poultry, the only such birds with a protected label?",
+        "explanation": "Raised outdoors and fed maize and milk, these chickens triumph each year in a contest where the finest fetch a small fortune.",
+        "label": "Bresse",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué región del este de Francia es famosa por sus finas aves de patas azules, las únicas con una denominación protegida?",
+        "explanation": "Criados al aire libre y alimentados con maíz y leche, estos pollos triunfan cada año en un concurso donde los mejores valen una pequeña fortuna.",
+        "label": "Bresse",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "955f3148cdf8f843",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 7.2906,
+    "lng": 80.6337,
+    "translations": {
+      "fr": {
+        "text": "Autour de quelle ancienne cité royale des montagnes du Sri Lanka s'étendent de vastes plantations du thé jadis appelé « de Ceylan » ?",
+        "explanation": "Les cueilleuses y récoltent à la main, panier au dos, uniquement le bourgeon et les deux jeunes feuilles, gage des thés les plus fins.",
+        "label": "Kandy",
+        "country": "Sri Lanka"
+      },
+      "en": {
+        "text": "Around which former royal city in the mountains of Sri Lanka do vast plantations of the tea once called 'Ceylon' stretch?",
+        "explanation": "Pickers there harvest by hand, basket on back, only the bud and the two youngest leaves, the mark of the finest teas.",
+        "label": "Kandy",
+        "country": "Sri Lanka"
+      },
+      "es": {
+        "text": "¿En torno a qué antigua ciudad real de las montañas de Sri Lanka se extienden vastas plantaciones del té antes llamado 'de Ceilán'?",
+        "explanation": "Las recolectoras cosechan a mano, cesta a la espalda, solo el brote y las dos hojas más jóvenes, sello de los tés más finos.",
+        "label": "Kandy",
+        "country": "Sri Lanka"
+      }
+    }
+  },
+  {
+    "sourceRef": "b937b74cc33cc920",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 41.345,
+    "lng": 1.7,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle région viticole de Catalogne produit-on le cava, vin espagnol effervescent élaboré comme le champagne ?",
+        "explanation": "Les bouteilles vieillissent des mois couchées dans d'immenses caves creusées sous terre, tournées régulièrement pour clarifier le vin.",
+        "label": "Penedès",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "In which wine region of Catalonia is cava produced, the sparkling Spanish wine made like champagne?",
+        "explanation": "The bottles age for months lying down in vast underground cellars, turned regularly to clarify the wine.",
+        "label": "Penedès",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿En qué región vinícola de Cataluña se produce el cava, vino español espumoso elaborado como el champán?",
+        "explanation": "Las botellas envejecen meses tumbadas en enormes cavas excavadas bajo tierra, giradas con regularidad para clarificar el vino.",
+        "label": "Penedès",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "64e15c5b15177bbe",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 48.12,
+    "lng": 21.41,
+    "translations": {
+      "fr": {
+        "text": "Quelle région du nord-est de la Hongrie produit un vin doux doré, jadis surnommé « le vin des rois et le roi des vins » ?",
+        "explanation": "Sa douceur vient d'un champignon qui dessèche les raisins sur pied, concentrant leur sucre, un heureux accident devenu un art.",
+        "label": "Tokaj",
+        "country": "Hongrie"
+      },
+      "en": {
+        "text": "Which region of north-eastern Hungary produces a golden sweet wine, once dubbed 'the wine of kings and the king of wines'?",
+        "explanation": "Its sweetness comes from a fungus that shrivels the grapes on the vine, concentrating their sugar, a happy accident turned into an art.",
+        "label": "Tokaj",
+        "country": "Hungary"
+      },
+      "es": {
+        "text": "¿Qué región del noreste de Hungría produce un vino dulce dorado, antaño apodado 'el vino de los reyes y el rey de los vinos'?",
+        "explanation": "Su dulzor viene de un hongo que reseca las uvas en la cepa, concentrando su azúcar, un feliz accidente convertido en arte.",
+        "label": "Tokaj",
+        "country": "Hungría"
+      }
+    }
+  },
+  {
+    "sourceRef": "a463a53a6522292f",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 17.0732,
+    "lng": -96.7266,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du sud du Mexique est réputée pour son mole, une sauce complexe mêlant piments et chocolat ?",
+        "explanation": "Certaines recettes de cette sauce mêlent plus de trente ingrédients, mijotés des heures, et se transmettent précieusement de génération en génération.",
+        "label": "Oaxaca",
+        "country": "Mexique"
+      },
+      "en": {
+        "text": "Which city in southern Mexico is famed for its mole, a complex sauce blending chillies and chocolate?",
+        "explanation": "Some recipes for this sauce mix over thirty ingredients, simmered for hours, and are handed down carefully from generation to generation.",
+        "label": "Oaxaca",
+        "country": "Mexico"
+      },
+      "es": {
+        "text": "¿Qué ciudad del sur de México es famosa por su mole, una salsa compleja que mezcla chiles y chocolate?",
+        "explanation": "Algunas recetas de esta salsa mezclan más de treinta ingredientes, cocidos a fuego lento durante horas, y se transmiten con celo de generación en generación.",
+        "label": "Oaxaca",
+        "country": "México"
+      }
+    }
+  },
+  {
+    "sourceRef": "fb485d2d73f930f6",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "easy",
+    "lat": 51.1441,
+    "lng": -2.7145,
+    "translations": {
+      "fr": {
+        "text": "Quel village anglais du Somerset accueille chaque été, dans une ferme, l'un des plus grands festivals de musique en plein air du monde ?",
+        "explanation": "Le champ où il se tient redevient un pâturage le reste de l'année ; les vaches y broutent là où, l'été, des centaines de milliers de festivaliers campent.",
+        "label": "Glastonbury",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "Which English village in Somerset hosts, on a farm each summer, one of the largest open-air music festivals in the world?",
+        "explanation": "The field where it is held becomes pasture again the rest of the year; cows graze where, in summer, hundreds of thousands camp.",
+        "label": "Glastonbury",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Qué pueblo inglés de Somerset acoge cada verano, en una granja, uno de los mayores festivales de música al aire libre del mundo?",
+        "explanation": "El campo donde se celebra vuelve a ser pasto el resto del año; las vacas pacen donde, en verano, acampan cientos de miles de personas.",
+        "label": "Glastonbury",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "e9b52f75295f4367",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 61.87,
+    "lng": 28.88,
+    "translations": {
+      "fr": {
+        "text": "Dans quel château médiéval de Finlande, bâti sur une île, se tient chaque été un célèbre festival d'opéra en plein air ?",
+        "explanation": "Les chanteurs y affrontent les caprices du climat nordique, mais bénéficient d'une acoustique et d'un décor de pierre uniques au monde.",
+        "label": "Savonlinna",
+        "country": "Finlande"
+      },
+      "en": {
+        "text": "In which medieval castle in Finland, built on an island, is a famous open-air opera festival held each summer?",
+        "explanation": "Singers there brave the whims of the northern climate, but enjoy an acoustic and a stone setting unlike anywhere else.",
+        "label": "Savonlinna",
+        "country": "Finland"
+      },
+      "es": {
+        "text": "¿En qué castillo medieval de Finlandia, construido en una isla, se celebra cada verano un famoso festival de ópera al aire libre?",
+        "explanation": "Los cantantes desafían allí los caprichos del clima nórdico, pero disfrutan de una acústica y un decorado de piedra únicos en el mundo.",
+        "label": "Savonlinna",
+        "country": "Finlandia"
+      }
+    }
+  },
+  {
+    "sourceRef": "e3cc804067b6f11a",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 51.4969,
+    "lng": 11.9688,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville d'Allemagne, sur la rivière Saale, naquit le compositeur baroque Georg Friedrich Haendel ?",
+        "explanation": "Son père le destinait au droit et voyait la musique d'un mauvais œil ; l'enfant, dit-on, s'exerçait en cachette sur un petit clavecin au grenier.",
+        "label": "Halle",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which German city, on the river Saale, was the Baroque composer George Frideric Handel born?",
+        "explanation": "His father meant him for the law and frowned on music; the boy, it is said, practised in secret on a small harpsichord in the attic.",
+        "label": "Halle",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Alemania, a orillas del río Saale, nació el compositor barroco Georg Friedrich Händel?",
+        "explanation": "Su padre lo destinaba al derecho y veía mal la música; el niño, según se dice, practicaba a escondidas en un pequeño clavecín del desván.",
+        "label": "Halle",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "ec20b2f01642d132",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 43.8159,
+    "lng": 7.7761,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de la Riviera italienne accueille chaque année un célèbre festival de la chanson qui inspira le concours Eurovision ?",
+        "explanation": "Créé dans un casino en 1951, ce festival donna l'idée aux organisateurs européens de lancer, quelques années plus tard, un concours à l'échelle du continent.",
+        "label": "Sanremo",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which city on the Italian Riviera hosts each year a famous song festival that inspired the Eurovision contest?",
+        "explanation": "Created in a casino in 1951, this festival gave European organisers the idea to launch, a few years later, a continent-wide contest.",
+        "label": "Sanremo",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué ciudad de la Riviera italiana acoge cada año un famoso festival de la canción que inspiró el concurso de Eurovisión?",
+        "explanation": "Creado en un casino en 1951, este festival dio a los organizadores europeos la idea de lanzar, años después, un concurso a escala continental.",
+        "label": "Sanremo",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "4e015c56e593d20b",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 41.7,
+    "lng": -74.88,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle petite localité de l'État de New York, sur une ferme, se tint en 1969 le mythique festival de rock de Woodstock ?",
+        "explanation": "Le festival, prévu ailleurs, dut se replier sur ce champ au dernier moment ; il porte pourtant le nom d'une autre ville, à des kilomètres de là.",
+        "label": "Bethel",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which small town in New York State, on a farm, was the legendary Woodstock rock festival held in 1969?",
+        "explanation": "The festival, planned elsewhere, had to fall back on this field at the last moment; yet it bears the name of another town, kilometres away.",
+        "label": "Bethel",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué pequeña localidad del estado de Nueva York, en una granja, se celebró en 1969 el mítico festival de rock de Woodstock?",
+        "explanation": "El festival, previsto en otro lugar, tuvo que replegarse a este campo en el último momento; sin embargo, lleva el nombre de otra ciudad, a kilómetros de distancia.",
+        "label": "Bethel",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "ab8e2c208f04f5f9",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 33.9519,
+    "lng": -83.3576,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville universitaire de Géorgie, aux États-Unis, naquirent les groupes de rock R.E.M. et les B-52's ?",
+        "explanation": "Sa scène musicale bouillonnante, née autour du campus dans les années 1980, en fit un foyer inattendu du rock alternatif américain.",
+        "label": "Athens",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which university town of Georgia, in the United States, were the rock bands R.E.M. and the B-52's born?",
+        "explanation": "Its bubbling music scene, born around the campus in the 1980s, made it an unexpected hotbed of American alternative rock.",
+        "label": "Athens",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué ciudad universitaria de Georgia, en Estados Unidos, nacieron los grupos de rock R.E.M. y los B-52's?",
+        "explanation": "Su bullente escena musical, nacida en torno al campus en los años 1980, la hizo un foco inesperado del rock alternativo estadounidense.",
+        "label": "Athens",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "ff98e728e1259116",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 54.0167,
+    "lng": 9.3667,
+    "translations": {
+      "fr": {
+        "text": "Quel petit village du nord de l'Allemagne se transforme chaque été en capitale mondiale du heavy metal, envahi par des dizaines de milliers de fans ?",
+        "explanation": "Le temps du festival, ce hameau agricole de quelques centaines d'habitants voit sa population multipliée par plus de cent.",
+        "label": "Wacken",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "Which small village in northern Germany turns each summer into the world capital of heavy metal, overrun by tens of thousands of fans?",
+        "explanation": "For the length of the festival, this farming hamlet of a few hundred souls sees its population multiplied more than a hundredfold.",
+        "label": "Wacken",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿Qué pequeño pueblo del norte de Alemania se transforma cada verano en la capital mundial del heavy metal, invadido por decenas de miles de fans?",
+        "explanation": "Durante el festival, esta aldea agrícola de unos cientos de habitantes ve su población multiplicada por más de cien.",
+        "label": "Wacken",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "0cbb497f11e1eee0",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 31.5085,
+    "lng": -9.7595,
+    "translations": {
+      "fr": {
+        "text": "Quel port fortifié du Maroc, balayé par les vents de l'Atlantique, accueille un grand festival de musique gnaoua ?",
+        "explanation": "Ses remparts et ses ruelles blanches et bleues attirèrent aussi bien les hippies des années 1960 que, plus tard, les équipes de grandes séries télévisées.",
+        "label": "Essaouira",
+        "country": "Maroc"
+      },
+      "en": {
+        "text": "Which fortified port of Morocco, swept by Atlantic winds, hosts a great festival of Gnawa music?",
+        "explanation": "Its ramparts and white-and-blue lanes drew both the hippies of the 1960s and, later, the crews of major television series.",
+        "label": "Essaouira",
+        "country": "Morocco"
+      },
+      "es": {
+        "text": "¿Qué puerto fortificado de Marruecos, barrido por los vientos del Atlántico, acoge un gran festival de música gnawa?",
+        "explanation": "Sus murallas y callejuelas blancas y azules atrajeron tanto a los hippies de los años 1960 como, más tarde, a los equipos de grandes series de televisión.",
+        "label": "Essaouira",
+        "country": "Marruecos"
+      }
+    }
+  }
+]
