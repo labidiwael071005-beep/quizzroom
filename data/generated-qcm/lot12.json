@@ -1,0 +1,3122 @@
+[
+  {
+    "sourceRef": "56a1580a299455cd",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la monnaie officielle du Japon ?",
+        "options": [
+          "Le yen",
+          "Le won",
+          "Le yuan",
+          "La roupie"
+        ],
+        "explanation": "Le mot « yen » signifie « rond » : il désignait la forme des pièces, jadis carrées puis arrondies à l'occidentale."
+      },
+      "en": {
+        "text": "What is the official currency of Japan?",
+        "options": [
+          "The yen",
+          "The won",
+          "The yuan",
+          "The rupee"
+        ],
+        "explanation": "The word 'yen' means 'round': it referred to the shape of the coins, once square, then rounded in the Western style."
+      },
+      "es": {
+        "text": "¿Cuál es la moneda oficial de Japón?",
+        "options": [
+          "El yen",
+          "El won",
+          "El yuan",
+          "La rupia"
+        ],
+        "explanation": "La palabra 'yen' significa 'redondo': aludía a la forma de las monedas, antes cuadradas y luego redondeadas al estilo occidental."
+      }
+    }
+  },
+  {
+    "sourceRef": "546b7b5a8a6d915c",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle figure de style attribue des sentiments humains à un objet ou un animal ?",
+        "options": [
+          "La métaphore",
+          "La personnification",
+          "La comparaison",
+          "L'allitération"
+        ],
+        "explanation": "Quand La Fontaine fait parler un corbeau et un renard, il use de personnification pour glisser une leçon aux hommes."
+      },
+      "en": {
+        "text": "Which figure of speech gives human feelings to an object or an animal?",
+        "options": [
+          "Metaphor",
+          "Personification",
+          "Simile",
+          "Alliteration"
+        ],
+        "explanation": "When La Fontaine has a crow and a fox speak, he uses personification to slip a lesson to human readers."
+      },
+      "es": {
+        "text": "¿Qué figura literaria atribuye sentimientos humanos a un objeto o un animal?",
+        "options": [
+          "La metáfora",
+          "La personificación",
+          "El símil",
+          "La aliteración"
+        ],
+        "explanation": "Cuando La Fontaine hace hablar a un cuervo y a un zorro, usa la personificación para deslizar una lección a los hombres."
+      }
+    }
+  },
+  {
+    "sourceRef": "b7c99a9bf65a0708",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle figure de style répète un même son de consonne pour créer un effet, comme dans « les serpents qui sifflent » ?",
+        "options": [
+          "L'assonance",
+          "La métaphore",
+          "L'allitération",
+          "La litote"
+        ],
+        "explanation": "Le vers de Racine « Pour qui sont ces serpents qui sifflent sur vos têtes ? » est l'exemple d'allitération le plus cité en classe."
+      },
+      "en": {
+        "text": "Which figure of speech repeats the same consonant sound for effect, as in 'the hissing snakes'?",
+        "options": [
+          "Assonance",
+          "Metaphor",
+          "Alliteration",
+          "Litotes"
+        ],
+        "explanation": "Racine's line about hissing serpents is the most quoted example of alliteration in French classrooms."
+      },
+      "es": {
+        "text": "¿Qué figura literaria repite un mismo sonido consonante para crear un efecto, como en 'las serpientes que silban'?",
+        "options": [
+          "La asonancia",
+          "La metáfora",
+          "La aliteración",
+          "La lítotes"
+        ],
+        "explanation": "El verso de Racine sobre las serpientes que silban es el ejemplo de aliteración más citado en las aulas."
+      }
+    }
+  },
+  {
+    "sourceRef": "8a3951c83c8d0219",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un mot qui se lit de la même façon dans les deux sens, comme « kayak » ?",
+        "options": [
+          "Un anagramme",
+          "Un homonyme",
+          "Un pléonasme",
+          "Un palindrome"
+        ],
+        "explanation": "La phrase « Ésope reste ici et se repose » se lit à l'identique de gauche à droite et de droite à gauche."
+      },
+      "en": {
+        "text": "What do you call a word that reads the same both ways, like 'kayak'?",
+        "options": [
+          "An anagram",
+          "A homonym",
+          "A pleonasm",
+          "A palindrome"
+        ],
+        "explanation": "The phrase 'Was it a car or a cat I saw?' reads identically left to right and right to left."
+      },
+      "es": {
+        "text": "¿Cómo se llama una palabra que se lee igual en ambos sentidos, como 'kayak'?",
+        "options": [
+          "Un anagrama",
+          "Un homónimo",
+          "Un pleonasmo",
+          "Un palíndromo"
+        ],
+        "explanation": "La frase 'Dábale arroz a la zorra el abad' se lee igual de izquierda a derecha y de derecha a izquierda."
+      }
+    }
+  },
+  {
+    "sourceRef": "13f03f717cc49a13",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment nomme-t-on l'expression « monter en haut », qui répète inutilement une même idée ?",
+        "options": [
+          "Un pléonasme",
+          "Un oxymore",
+          "Un euphémisme",
+          "Un paradoxe"
+        ],
+        "explanation": "« Au jour d'aujourd'hui » est un pléonasme si courant que peu de gens remarquent qu'il dit trois fois « ce jour »."
+      },
+      "en": {
+        "text": "What is the phrase 'to climb up', which needlessly repeats the same idea, called?",
+        "options": [
+          "A pleonasm",
+          "An oxymoron",
+          "A euphemism",
+          "A paradox"
+        ],
+        "explanation": "'Free gift' is such a common pleonasm that few people notice a gift is, by definition, free."
+      },
+      "es": {
+        "text": "¿Cómo se llama la expresión 'subir arriba', que repite inútilmente una misma idea?",
+        "options": [
+          "Un pleonasmo",
+          "Un oxímoron",
+          "Un eufemismo",
+          "Una paradoja"
+        ],
+        "explanation": "'Salir afuera' es un pleonasmo tan común que poca gente nota que ya se dice todo con 'salir'."
+      }
+    }
+  },
+  {
+    "sourceRef": "c74e2e0b830acb09",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment nomme-t-on une figure qui réunit deux mots contradictoires, comme « une obscure clarté » ?",
+        "options": [
+          "Le pléonasme",
+          "L'oxymore",
+          "L'hyperbole",
+          "La métonymie"
+        ],
+        "explanation": "Le vers « Cette obscure clarté qui tombe des étoiles », de Corneille, est l'oxymore le plus célèbre de la langue française."
+      },
+      "en": {
+        "text": "What do you call a figure joining two contradictory words, like 'a dark brightness'?",
+        "options": [
+          "Pleonasm",
+          "Oxymoron",
+          "Hyperbole",
+          "Metonymy"
+        ],
+        "explanation": "Corneille's line about a 'dark brightness falling from the stars' is the most famous oxymoron in French."
+      },
+      "es": {
+        "text": "¿Cómo se llama una figura que une dos palabras contradictorias, como 'una oscura claridad'?",
+        "options": [
+          "El pleonasmo",
+          "El oxímoron",
+          "La hipérbole",
+          "La metonimia"
+        ],
+        "explanation": "El verso de Corneille sobre 'esa oscura claridad que cae de las estrellas' es el oxímoron más célebre en francés."
+      }
+    }
+  },
+  {
+    "sourceRef": "cbcf0b984f23150f",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment nomme-t-on le signe « & », utilisé pour dire « et » ?",
+        "options": [
+          "L'astérisque",
+          "Le dièse",
+          "L'esperluette",
+          "Le tilde"
+        ],
+        "explanation": "Le signe est né de la fusion des lettres « e » et « t » du mot latin « et », qu'un copiste pressé aurait liées d'un trait."
+      },
+      "en": {
+        "text": "What is the sign '&', used to mean 'and', called?",
+        "options": [
+          "The asterisk",
+          "The hash",
+          "The ampersand",
+          "The tilde"
+        ],
+        "explanation": "The sign was born from merging the letters 'e' and 't' of the Latin word 'et', tied together by a hurried scribe."
+      },
+      "es": {
+        "text": "¿Cómo se llama el signo '&', usado para decir 'y'?",
+        "options": [
+          "El asterisco",
+          "La almohadilla",
+          "El ampersand",
+          "La tilde"
+        ],
+        "explanation": "El signo nació de fundir las letras 'e' y 't' de la palabra latina 'et', unidas de un trazo por un copista apresurado."
+      }
+    }
+  },
+  {
+    "sourceRef": "860f1048592bf13c",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un groupe de loups qui chassent ensemble ?",
+        "options": [
+          "Une harde",
+          "Un banc",
+          "Un essaim",
+          "Une meute"
+        ],
+        "explanation": "Au sein de la meute, la hiérarchie se lit dans mille détails : posture, regard, place au repas ou lors du sommeil."
+      },
+      "en": {
+        "text": "What do you call a group of wolves hunting together?",
+        "options": [
+          "A herd",
+          "A school",
+          "A swarm",
+          "A pack"
+        ],
+        "explanation": "Within the pack, hierarchy shows in a thousand details: posture, gaze, place at meals or at rest."
+      },
+      "es": {
+        "text": "¿Cómo se llama un grupo de lobos que cazan juntos?",
+        "options": [
+          "Una manada de ciervos",
+          "Un banco",
+          "Un enjambre",
+          "Una manada de lobos"
+        ],
+        "explanation": "Dentro de la manada, la jerarquía se lee en mil detalles: postura, mirada, lugar en la comida o al dormir."
+      }
+    }
+  },
+  {
+    "sourceRef": "673120935033f915",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un grand groupe de poissons nageant ensemble ?",
+        "options": [
+          "Un banc",
+          "Une meute",
+          "Un vol",
+          "Un troupeau"
+        ],
+        "explanation": "En serrant les rangs, les poissons brouillent la vue des prédateurs, qui peinent à viser une proie dans la masse mouvante."
+      },
+      "en": {
+        "text": "What do you call a large group of fish swimming together?",
+        "options": [
+          "A school",
+          "A pack",
+          "A flock",
+          "A herd"
+        ],
+        "explanation": "By closing ranks, the fish confuse predators, who struggle to fix on one prey in the shifting mass."
+      },
+      "es": {
+        "text": "¿Cómo se llama un gran grupo de peces que nadan juntos?",
+        "options": [
+          "Un banco",
+          "Una manada",
+          "Una bandada",
+          "Un rebaño"
+        ],
+        "explanation": "Al cerrar filas, los peces confunden a los depredadores, que apenas logran fijar una presa en la masa cambiante."
+      }
+    }
+  },
+  {
+    "sourceRef": "9238e348b09db2fd",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la monnaie officielle des États-Unis ?",
+        "options": [
+          "L'euro",
+          "Le dollar",
+          "La livre",
+          "Le peso"
+        ],
+        "explanation": "Le symbole du dollar, un S barré, viendrait d'une ancienne monnaie espagnole, le « peso », largement utilisée dans les colonies."
+      },
+      "en": {
+        "text": "What is the official currency of the United States?",
+        "options": [
+          "The euro",
+          "The dollar",
+          "The pound",
+          "The peso"
+        ],
+        "explanation": "The dollar's symbol, a crossed S, is thought to come from the old Spanish 'peso', widely used in the colonies."
+      },
+      "es": {
+        "text": "¿Cuál es la moneda oficial de los Estados Unidos?",
+        "options": [
+          "El euro",
+          "El dólar",
+          "La libra",
+          "El peso"
+        ],
+        "explanation": "El símbolo del dólar, una S cruzada, vendría de una antigua moneda española, el 'peso', muy usada en las colonias."
+      }
+    }
+  },
+  {
+    "sourceRef": "e0bb801325a29d46",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Dans le système binaire utilisé par les ordinateurs, quels sont les deux seuls chiffres employés ?",
+        "options": [
+          "1 et 2",
+          "0 et 9",
+          "0 et 1",
+          "1 et 10"
+        ],
+        "explanation": "Tout, dans une machine, se ramène à ces deux états : le courant passe ou ne passe pas, oui ou non."
+      },
+      "en": {
+        "text": "In the binary system used by computers, which are the only two digits employed?",
+        "options": [
+          "1 and 2",
+          "0 and 9",
+          "0 and 1",
+          "1 and 10"
+        ],
+        "explanation": "Everything in a machine boils down to these two states: current flows or it doesn't, yes or no."
+      },
+      "es": {
+        "text": "En el sistema binario que usan los ordenadores, ¿cuáles son los dos únicos dígitos empleados?",
+        "options": [
+          "1 y 2",
+          "0 y 9",
+          "0 y 1",
+          "1 y 10"
+        ],
+        "explanation": "Todo, en una máquina, se reduce a esos dos estados: la corriente pasa o no pasa, sí o no."
+      }
+    }
+  },
+  {
+    "sourceRef": "751749b401447c1a",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un angle qui mesure exactement 90 degrés ?",
+        "options": [
+          "Un angle droit",
+          "Un angle aigu",
+          "Un angle obtus",
+          "Un angle plat"
+        ],
+        "explanation": "On le repère à l'équerre, ou en pliant deux fois une feuille de papier : le coin obtenu est un angle droit parfait."
+      },
+      "en": {
+        "text": "What do you call an angle measuring exactly 90 degrees?",
+        "options": [
+          "A right angle",
+          "An acute angle",
+          "An obtuse angle",
+          "A straight angle"
+        ],
+        "explanation": "You spot it with a set square, or by folding a sheet of paper twice: the corner you get is a perfect right angle."
+      },
+      "es": {
+        "text": "¿Cómo se llama un ángulo que mide exactamente 90 grados?",
+        "options": [
+          "Un ángulo recto",
+          "Un ángulo agudo",
+          "Un ángulo obtuso",
+          "Un ángulo llano"
+        ],
+        "explanation": "Se reconoce con la escuadra, o doblando dos veces una hoja de papel: la esquina obtenida es un ángulo recto perfecto."
+      }
+    }
+  },
+  {
+    "sourceRef": "81e564253bc922f8",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un angle qui mesure moins de 90 degrés ?",
+        "options": [
+          "Un angle obtus",
+          "Un angle aigu",
+          "Un angle droit",
+          "Un angle plat"
+        ],
+        "explanation": "Le mot « aigu » évoque la pointe : plus l'angle est fermé, plus il pique, comme la pointe d'un crayon."
+      },
+      "en": {
+        "text": "What do you call an angle measuring less than 90 degrees?",
+        "options": [
+          "An obtuse angle",
+          "An acute angle",
+          "A right angle",
+          "A straight angle"
+        ],
+        "explanation": "The word 'acute' suggests sharpness: the more closed the angle, the sharper it looks, like a pencil point."
+      },
+      "es": {
+        "text": "¿Cómo se llama un ángulo que mide menos de 90 grados?",
+        "options": [
+          "Un ángulo obtuso",
+          "Un ángulo agudo",
+          "Un ángulo recto",
+          "Un ángulo llano"
+        ],
+        "explanation": "La palabra 'agudo' evoca la punta: cuanto más cerrado está el ángulo, más pincha, como la punta de un lápiz."
+      }
+    }
+  },
+  {
+    "sourceRef": "fefda45edb4d9356",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle figure géométrique n'a ni côté ni angle ?",
+        "options": [
+          "Le triangle",
+          "Le losange",
+          "Le cercle",
+          "Le carré"
+        ],
+        "explanation": "Tous ses points sont à égale distance du centre : cette perfection en a fait, chez les Anciens, le symbole de l'infini."
+      },
+      "en": {
+        "text": "Which geometric shape has neither sides nor angles?",
+        "options": [
+          "The triangle",
+          "The rhombus",
+          "The circle",
+          "The square"
+        ],
+        "explanation": "All its points lie the same distance from the centre: that perfection made it, for the ancients, a symbol of the infinite."
+      },
+      "es": {
+        "text": "¿Qué figura geométrica no tiene ni lados ni ángulos?",
+        "options": [
+          "El triángulo",
+          "El rombo",
+          "El círculo",
+          "El cuadrado"
+        ],
+        "explanation": "Todos sus puntos están a igual distancia del centro: esa perfección lo convirtió, para los antiguos, en símbolo de lo infinito."
+      }
+    }
+  },
+  {
+    "sourceRef": "d15ca49053a1f445",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de secondes compte une heure entière ?",
+        "options": [
+          "60",
+          "600",
+          "7200",
+          "3600"
+        ],
+        "explanation": "On multiplie soixante minutes par soixante secondes : ce goût pour le nombre soixante nous vient des astronomes de Babylone."
+      },
+      "en": {
+        "text": "How many seconds are there in a whole hour?",
+        "options": [
+          "60",
+          "600",
+          "7200",
+          "3600"
+        ],
+        "explanation": "You multiply sixty minutes by sixty seconds: our taste for the number sixty comes from the astronomers of Babylon."
+      },
+      "es": {
+        "text": "¿Cuántos segundos tiene una hora entera?",
+        "options": [
+          "60",
+          "600",
+          "7200",
+          "3600"
+        ],
+        "explanation": "Se multiplican sesenta minutos por sesenta segundos: ese gusto por el número sesenta viene de los astrónomos de Babilonia."
+      }
+    }
+  },
+  {
+    "sourceRef": "0cf2c4abe522a370",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel entier naturel n'est ni un nombre premier, ni un nombre composé ?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "5"
+        ],
+        "explanation": "Le nombre 1 n'a qu'un seul diviseur, lui-même : il fait bande à part, ni premier, ni composé, dans la théorie des nombres."
+      },
+      "en": {
+        "text": "Which natural whole number is neither prime nor composite?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "5"
+        ],
+        "explanation": "The number 1 has only one divisor, itself: it stands apart, neither prime nor composite, in number theory."
+      },
+      "es": {
+        "text": "¿Qué número entero natural no es ni primo ni compuesto?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "5"
+        ],
+        "explanation": "El número 1 tiene un solo divisor, él mismo: queda aparte, ni primo ni compuesto, en la teoría de números."
+      }
+    }
+  },
+  {
+    "sourceRef": "5481e8a3ee710aff",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle unité de température place son zéro au « zéro absolu », la plus basse possible ?",
+        "options": [
+          "Le degré Celsius",
+          "Le kelvin",
+          "Le degré Fahrenheit",
+          "Le degré Réaumur"
+        ],
+        "explanation": "À cette température, environ moins 273 degrés Celsius, les atomes cessent presque de s'agiter : le froid ne peut aller plus loin."
+      },
+      "en": {
+        "text": "Which temperature unit sets its zero at 'absolute zero', the lowest possible?",
+        "options": [
+          "The degree Celsius",
+          "The kelvin",
+          "The degree Fahrenheit",
+          "The degree Réaumur"
+        ],
+        "explanation": "At that temperature, about minus 273 degrees Celsius, atoms almost stop moving: cold can go no further."
+      },
+      "es": {
+        "text": "¿Qué unidad de temperatura sitúa su cero en el 'cero absoluto', el más bajo posible?",
+        "options": [
+          "El grado Celsius",
+          "El kelvin",
+          "El grado Fahrenheit",
+          "El grado Réaumur"
+        ],
+        "explanation": "A esa temperatura, unos 273 grados Celsius bajo cero, los átomos casi dejan de agitarse: el frío no puede ir más allá."
+      }
+    }
+  },
+  {
+    "sourceRef": "f969ba502bb60e01",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment nomme-t-on un polygone régulier à cinq côtés ?",
+        "options": [
+          "L'hexagone",
+          "L'heptagone",
+          "Le pentagone",
+          "Le tétragone"
+        ],
+        "explanation": "Le siège de l'armée américaine, bâti en forme de pentagone, a donné son nom courant à toute l'institution."
+      },
+      "en": {
+        "text": "What do you call a regular polygon with five sides?",
+        "options": [
+          "The hexagon",
+          "The heptagon",
+          "The pentagon",
+          "The tetragon"
+        ],
+        "explanation": "The headquarters of the US army, built in this five-sided shape, gave its everyday name to the whole institution."
+      },
+      "es": {
+        "text": "¿Cómo se llama un polígono regular de cinco lados?",
+        "options": [
+          "El hexágono",
+          "El heptágono",
+          "El pentágono",
+          "El tetrágono"
+        ],
+        "explanation": "La sede del ejército estadounidense, construida con esta forma de cinco lados, dio su nombre corriente a toda la institución."
+      }
+    }
+  },
+  {
+    "sourceRef": "d11c277cde8541ee",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel fromage italien frais, blanc et filé à la main, garnit la pizza margherita ?",
+        "options": [
+          "La ricotta",
+          "Le gorgonzola",
+          "Le provolone",
+          "La mozzarella"
+        ],
+        "explanation": "La plus réputée est faite de lait de bufflonne ; la pizza margherita imite, dit-on, les trois couleurs du drapeau italien."
+      },
+      "en": {
+        "text": "Which fresh, white, hand-pulled Italian cheese tops the margherita pizza?",
+        "options": [
+          "Ricotta",
+          "Gorgonzola",
+          "Provolone",
+          "Mozzarella"
+        ],
+        "explanation": "The finest is made from buffalo milk; the margherita pizza is said to echo the three colours of the Italian flag."
+      },
+      "es": {
+        "text": "¿Qué queso italiano fresco, blanco e hilado a mano cubre la pizza margarita?",
+        "options": [
+          "La ricotta",
+          "El gorgonzola",
+          "El provolone",
+          "La mozzarella"
+        ],
+        "explanation": "La más apreciada se hace con leche de búfala; se dice que la pizza margarita imita los tres colores de la bandera italiana."
+      }
+    }
+  },
+  {
+    "sourceRef": "e8f7c7eda8d97e47",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle semoule de blé, roulée puis cuite à la vapeur, forme la base du couscous ?",
+        "options": [
+          "La semoule",
+          "Le riz",
+          "Le maïs",
+          "L'orge"
+        ],
+        "explanation": "Rouler les grains à la main est un savoir-faire transmis de mère en fille, aujourd'hui reconnu au patrimoine de l'humanité."
+      },
+      "en": {
+        "text": "Which wheat semolina, rolled and then steamed, forms the base of couscous?",
+        "options": [
+          "Semolina",
+          "Rice",
+          "Maize",
+          "Barley"
+        ],
+        "explanation": "Rolling the grains by hand is a craft passed from mother to daughter, now recognised as heritage of humanity."
+      },
+      "es": {
+        "text": "¿Qué sémola de trigo, enrollada y luego cocida al vapor, forma la base del cuscús?",
+        "options": [
+          "La sémola",
+          "El arroz",
+          "El maíz",
+          "La cebada"
+        ],
+        "explanation": "Enrollar los granos a mano es un saber transmitido de madre a hija, hoy reconocido como patrimonio de la humanidad."
+      }
+    }
+  },
+  {
+    "sourceRef": "5cfcaad1df7edc11",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle épice rouge, tirée d'un piment doux séché et moulu, colore le goulash hongrois ?",
+        "options": [
+          "Le curcuma",
+          "Le paprika",
+          "Le cumin",
+          "La cannelle"
+        ],
+        "explanation": "Un savant hongrois isola la vitamine C à partir de ce piment, découverte qui lui valut le prix Nobel."
+      },
+      "en": {
+        "text": "Which red spice, made from a dried, ground sweet pepper, colours Hungarian goulash?",
+        "options": [
+          "Turmeric",
+          "Paprika",
+          "Cumin",
+          "Cinnamon"
+        ],
+        "explanation": "A Hungarian scientist isolated vitamin C from this pepper, a discovery that earned him the Nobel Prize."
+      },
+      "es": {
+        "text": "¿Qué especia roja, hecha de un pimiento dulce seco y molido, da color al gulasch húngaro?",
+        "options": [
+          "La cúrcuma",
+          "El pimentón",
+          "El comino",
+          "La canela"
+        ],
+        "explanation": "Un científico húngaro aisló la vitamina C a partir de este pimiento, descubrimiento que le valió el Premio Nobel."
+      }
+    }
+  },
+  {
+    "sourceRef": "f78e3f476c4e80b7",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle épice, faite de l'écorce enroulée d'un arbre, parfume les desserts et le vin chaud ?",
+        "options": [
+          "La muscade",
+          "Le gingembre",
+          "La cannelle",
+          "La cardamome"
+        ],
+        "explanation": "Si précieuse jadis qu'on se battait pour ses routes commerciales, elle valait autrefois plus cher, à poids égal, que l'or."
+      },
+      "en": {
+        "text": "Which spice, made from the rolled bark of a tree, flavours desserts and mulled wine?",
+        "options": [
+          "Nutmeg",
+          "Ginger",
+          "Cinnamon",
+          "Cardamom"
+        ],
+        "explanation": "Once so prized that people fought over its trade routes, it was worth more than gold by weight."
+      },
+      "es": {
+        "text": "¿Qué especia, hecha de la corteza enrollada de un árbol, perfuma los postres y el vino caliente?",
+        "options": [
+          "La nuez moscada",
+          "El jengibre",
+          "La canela",
+          "El cardamomo"
+        ],
+        "explanation": "Antaño tan preciada que se luchaba por sus rutas comerciales, valía más que el oro a igual peso."
+      }
+    }
+  },
+  {
+    "sourceRef": "988a262f0092e4e0",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel condiment japonais, pâte verte et très piquante, accompagne traditionnellement les sushis ?",
+        "options": [
+          "Le miso",
+          "Le soja",
+          "Le gingembre",
+          "Le wasabi"
+        ],
+        "explanation": "Sa fraîcheur monte au nez plutôt que de brûler la langue ; hors du Japon, il est souvent imité avec du raifort teinté."
+      },
+      "en": {
+        "text": "Which Japanese condiment, a green and very pungent paste, traditionally accompanies sushi?",
+        "options": [
+          "Miso",
+          "Soy",
+          "Ginger",
+          "Wasabi"
+        ],
+        "explanation": "Its sharpness rushes to the nose rather than burning the tongue; outside Japan it is often faked with tinted horseradish."
+      },
+      "es": {
+        "text": "¿Qué condimento japonés, una pasta verde y muy picante, acompaña tradicionalmente al sushi?",
+        "options": [
+          "El miso",
+          "La soja",
+          "El jengibre",
+          "El wasabi"
+        ],
+        "explanation": "Su frescor sube a la nariz en vez de quemar la lengua; fuera de Japón se imita a menudo con rábano picante teñido."
+      }
+    }
+  },
+  {
+    "sourceRef": "e5e9562c5e29838f",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel fromage bleu italien, doux et crémeux, tire son nom d'une ville de Lombardie ?",
+        "options": [
+          "Le gorgonzola",
+          "Le parmesan",
+          "Le pecorino",
+          "Le taleggio"
+        ],
+        "explanation": "La légende raconte qu'un fromager distrait laissa reposer son caillé une nuit de trop, et découvrit par hasard ses veines bleues."
+      },
+      "en": {
+        "text": "Which mild, creamy Italian blue cheese takes its name from a town in Lombardy?",
+        "options": [
+          "Gorgonzola",
+          "Parmesan",
+          "Pecorino",
+          "Taleggio"
+        ],
+        "explanation": "Legend says a distracted cheesemaker let his curd rest one night too many, and stumbled upon its blue veins by chance."
+      },
+      "es": {
+        "text": "¿Qué queso azul italiano, suave y cremoso, toma su nombre de una ciudad de Lombardía?",
+        "options": [
+          "El gorgonzola",
+          "El parmesano",
+          "El pecorino",
+          "El taleggio"
+        ],
+        "explanation": "La leyenda cuenta que un quesero distraído dejó reposar la cuajada una noche de más y halló por azar sus vetas azules."
+      }
+    }
+  },
+  {
+    "sourceRef": "e4704f9d734e8886",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel produit sucré et doré les abeilles fabriquent-elles à partir du nectar des fleurs ?",
+        "options": [
+          "La mélasse",
+          "Le miel",
+          "Le sirop",
+          "La cire"
+        ],
+        "explanation": "Une abeille ne produit dans toute sa vie qu'une infime part d'une cuillère à café : chaque pot est le fruit d'un travail collectif immense."
+      },
+      "en": {
+        "text": "Which sweet, golden product do bees make from the nectar of flowers?",
+        "options": [
+          "Molasses",
+          "Honey",
+          "Syrup",
+          "Wax"
+        ],
+        "explanation": "One bee makes only a tiny fraction of a teaspoon in its whole life: each jar is the fruit of an immense collective effort."
+      },
+      "es": {
+        "text": "¿Qué producto dulce y dorado fabrican las abejas a partir del néctar de las flores?",
+        "options": [
+          "La melaza",
+          "La miel",
+          "El jarabe",
+          "La cera"
+        ],
+        "explanation": "Una abeja produce en toda su vida solo una ínfima parte de una cucharadita: cada tarro es fruto de un enorme trabajo colectivo."
+      }
+    }
+  },
+  {
+    "sourceRef": "ee6aeeb9b967c8cb",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle pâte, faite de graines de sésame broyées, entre dans la préparation du houmous ?",
+        "options": [
+          "La harissa",
+          "Le tzatziki",
+          "Le tahini",
+          "Le guacamole"
+        ],
+        "explanation": "On la retrouve du Proche-Orient à l'Asie ; mélangée à du sucre, elle devient la fameuse halva, friandise fondante."
+      },
+      "en": {
+        "text": "Which paste, made from ground sesame seeds, goes into hummus?",
+        "options": [
+          "Harissa",
+          "Tzatziki",
+          "Tahini",
+          "Guacamole"
+        ],
+        "explanation": "Found from the Middle East to Asia; mixed with sugar, it becomes the famous halva, a melting sweet."
+      },
+      "es": {
+        "text": "¿Qué pasta, hecha de semillas de sésamo molidas, entra en la preparación del hummus?",
+        "options": [
+          "La harissa",
+          "El tzatziki",
+          "El tahini",
+          "El guacamole"
+        ],
+        "explanation": "Se encuentra de Oriente Próximo a Asia; mezclada con azúcar, se convierte en el famoso halva, un dulce que se deshace en la boca."
+      }
+    }
+  },
+  {
+    "sourceRef": "32ac376a8df7f808",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel plat japonais associe du poisson cru posé sur une petite boule de riz vinaigré ?",
+        "options": [
+          "Le ramen",
+          "La tempura",
+          "Le yakitori",
+          "Le sushi"
+        ],
+        "explanation": "À l'origine, le riz servait surtout à conserver le poisson par fermentation ; on le jetait avant de manger, à l'inverse d'aujourd'hui."
+      },
+      "en": {
+        "text": "Which Japanese dish pairs raw fish placed on a small ball of vinegared rice?",
+        "options": [
+          "Ramen",
+          "Tempura",
+          "Yakitori",
+          "Sushi"
+        ],
+        "explanation": "Originally the rice mainly preserved the fish through fermentation; it was thrown away before eating, unlike today."
+      },
+      "es": {
+        "text": "¿Qué plato japonés une pescado crudo colocado sobre una pequeña bola de arroz avinagrado?",
+        "options": [
+          "El ramen",
+          "La tempura",
+          "El yakitori",
+          "El sushi"
+        ],
+        "explanation": "En origen el arroz servía sobre todo para conservar el pescado por fermentación; se tiraba antes de comer, al revés que hoy."
+      }
+    }
+  },
+  {
+    "sourceRef": "ec61c9f67c4ba1b2",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel légume vert en forme de petit arbre appartient à la famille du chou ?",
+        "options": [
+          "Le brocoli",
+          "L'épinard",
+          "Le poireau",
+          "La courgette"
+        ],
+        "explanation": "Cultivé depuis l'Antiquité par les Romains, il tire son nom de l'italien « braccio », le bras, à cause de ses tiges ramifiées."
+      },
+      "en": {
+        "text": "Which green vegetable shaped like a little tree belongs to the cabbage family?",
+        "options": [
+          "Broccoli",
+          "Spinach",
+          "Leek",
+          "Courgette"
+        ],
+        "explanation": "Grown since Antiquity by the Romans, its name comes from the Italian 'braccio', arm, because of its branching stems."
+      },
+      "es": {
+        "text": "¿Qué verdura verde con forma de arbolito pertenece a la familia de la col?",
+        "options": [
+          "El brócoli",
+          "La espinaca",
+          "El puerro",
+          "El calabacín"
+        ],
+        "explanation": "Cultivado desde la Antigüedad por los romanos, su nombre viene del italiano 'braccio', brazo, por sus tallos ramificados."
+      }
+    }
+  },
+  {
+    "sourceRef": "c2e34661cf23cf39",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel fruit tropical à chair juteuse pousse au sommet d'une plante à rosette, couronné d'un panache de feuilles ?",
+        "options": [
+          "La mangue",
+          "L'ananas",
+          "La papaye",
+          "La goyave"
+        ],
+        "explanation": "Rapporté d'Amérique, il devint en Europe un tel objet de luxe qu'on le louait comme décoration de table sans le manger."
+      },
+      "en": {
+        "text": "Which juicy tropical fruit grows atop a rosette plant, crowned with a tuft of leaves?",
+        "options": [
+          "Mango",
+          "Pineapple",
+          "Papaya",
+          "Guava"
+        ],
+        "explanation": "Brought back from the Americas, it became such a luxury in Europe that it was rented as a table decoration without being eaten."
+      },
+      "es": {
+        "text": "¿Qué fruta tropical de pulpa jugosa crece en lo alto de una planta en roseta, coronada por un penacho de hojas?",
+        "options": [
+          "El mango",
+          "La piña",
+          "La papaya",
+          "La guayaba"
+        ],
+        "explanation": "Traída de América, se volvió en Europa un lujo tal que se alquilaba como adorno de mesa sin llegar a comerse."
+      }
+    }
+  },
+  {
+    "sourceRef": "d7249fa88b9f40d7",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel alcool anisé, qui se trouble quand on y verse de l'eau, est typique du sud de la France ?",
+        "options": [
+          "Le cognac",
+          "Le calvados",
+          "Le pastis",
+          "L'armagnac"
+        ],
+        "explanation": "Il occupa la place de l'absinthe, interdite au début du XXᵉ siècle, et devint le compagnon des parties de pétanque au soleil."
+      },
+      "en": {
+        "text": "Which anise-flavoured spirit that turns cloudy when water is added is typical of southern France?",
+        "options": [
+          "Cognac",
+          "Calvados",
+          "Pastis",
+          "Armagnac"
+        ],
+        "explanation": "It took the place of absinthe, banned in the early 20th century, and became the companion of sunny games of pétanque."
+      },
+      "es": {
+        "text": "¿Qué licor anisado, que se enturbia al añadirle agua, es típico del sur de Francia?",
+        "options": [
+          "El coñac",
+          "El calvados",
+          "El pastís",
+          "El armañac"
+        ],
+        "explanation": "Ocupó el lugar de la absenta, prohibida a principios del siglo XX, y se volvió el compañero de las partidas de petanca al sol."
+      }
+    }
+  },
+  {
+    "sourceRef": "8c657324c8f3a800",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel pain long et croustillant est devenu un symbole de la France dans le monde entier ?",
+        "options": [
+          "La brioche",
+          "La fougasse",
+          "La ciabatta",
+          "La baguette"
+        ],
+        "explanation": "Son savoir-faire artisanal, de la fermentation à la cuisson, a été inscrit au patrimoine culturel immatériel de l'humanité."
+      },
+      "en": {
+        "text": "Which long, crusty bread has become a symbol of France around the world?",
+        "options": [
+          "Brioche",
+          "Fougasse",
+          "Ciabatta",
+          "The baguette"
+        ],
+        "explanation": "The craft of making it, from fermentation to baking, has been listed as intangible cultural heritage of humanity."
+      },
+      "es": {
+        "text": "¿Qué pan largo y crujiente se ha convertido en un símbolo de Francia en todo el mundo?",
+        "options": [
+          "El brioche",
+          "La fougasse",
+          "La ciabatta",
+          "La baguette"
+        ],
+        "explanation": "El saber hacerlo, de la fermentación a la cocción, ha sido inscrito como patrimonio cultural inmaterial de la humanidad."
+      }
+    }
+  },
+  {
+    "sourceRef": "0f81ec158766414e",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle sauce froide, montée à partir de jaune d'œuf et d'huile, accompagne frites et poissons ?",
+        "options": [
+          "La mayonnaise",
+          "La béchamel",
+          "La vinaigrette",
+          "La hollandaise"
+        ],
+        "explanation": "Son secret tient à l'émulsion : en fouettant, on disperse l'huile en gouttelettes minuscules que le jaune d'œuf retient prisonnières."
+      },
+      "en": {
+        "text": "Which cold sauce, whipped from egg yolk and oil, goes with chips and fish?",
+        "options": [
+          "Mayonnaise",
+          "Béchamel",
+          "Vinaigrette",
+          "Hollandaise"
+        ],
+        "explanation": "Its secret is emulsion: whisking scatters the oil into tiny droplets that the egg yolk holds captive."
+      },
+      "es": {
+        "text": "¿Qué salsa fría, montada a partir de yema de huevo y aceite, acompaña patatas fritas y pescados?",
+        "options": [
+          "La mayonesa",
+          "La bechamel",
+          "La vinagreta",
+          "La holandesa"
+        ],
+        "explanation": "Su secreto está en la emulsión: al batir se dispersa el aceite en gotas minúsculas que la yema retiene prisioneras."
+      }
+    }
+  },
+  {
+    "sourceRef": "885693e9ba42c502",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel plat italien consiste en fines tranches de bœuf ou de poisson cru, arrosées d'huile et de citron ?",
+        "options": [
+          "Le risotto",
+          "Le carpaccio",
+          "Le minestrone",
+          "L'osso-buco"
+        ],
+        "explanation": "Le plat fut inventé à Venise et baptisé du nom d'un peintre, en clin d'œil aux rouges éclatants de ses toiles."
+      },
+      "en": {
+        "text": "Which Italian dish consists of thin slices of raw beef or fish, dressed with oil and lemon?",
+        "options": [
+          "Risotto",
+          "Carpaccio",
+          "Minestrone",
+          "Osso buco"
+        ],
+        "explanation": "The dish was invented in Venice and named after a painter, in a nod to the vivid reds of his canvases."
+      },
+      "es": {
+        "text": "¿Qué plato italiano consiste en finas lonchas de ternera o pescado crudo, aliñadas con aceite y limón?",
+        "options": [
+          "El risotto",
+          "El carpaccio",
+          "El minestrone",
+          "El osobuco"
+        ],
+        "explanation": "El plato se inventó en Venecia y se bautizó con el nombre de un pintor, guiño a los rojos vivos de sus lienzos."
+      }
+    }
+  },
+  {
+    "sourceRef": "33964a76740a1134",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle spécialité coréenne de chou fermenté et pimenté accompagne presque tous les repas ?",
+        "options": [
+          "Le tofu",
+          "Le miso",
+          "Le kimchi",
+          "Le tempeh"
+        ],
+        "explanation": "Chaque automne, les familles préparent ensemble d'énormes réserves lors d'un rituel convivial classé au patrimoine de l'humanité."
+      },
+      "en": {
+        "text": "Which Korean speciality of fermented, spiced cabbage accompanies almost every meal?",
+        "options": [
+          "Tofu",
+          "Miso",
+          "Kimchi",
+          "Tempeh"
+        ],
+        "explanation": "Each autumn, families prepare huge stocks together in a friendly ritual listed as heritage of humanity."
+      },
+      "es": {
+        "text": "¿Qué especialidad coreana de col fermentada y picante acompaña casi todas las comidas?",
+        "options": [
+          "El tofu",
+          "El miso",
+          "El kimchi",
+          "El tempeh"
+        ],
+        "explanation": "Cada otoño, las familias preparan juntas enormes reservas en un ritual festivo declarado patrimonio de la humanidad."
+      }
+    }
+  },
+  {
+    "sourceRef": "99c1747b2c132b8f",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus long fleuve d'Amérique du Sud, qui traverse la forêt du Brésil ?",
+        "options": [
+          "Le Paraná",
+          "L'Orénoque",
+          "Le Rio Grande",
+          "L'Amazone"
+        ],
+        "explanation": "Il rejette tant d'eau douce dans l'océan qu'on peut la boire à des dizaines de kilomètres au large, avant même de voir la côte."
+      },
+      "en": {
+        "text": "What is the longest river in South America, crossing the forests of Brazil?",
+        "options": [
+          "The Paraná",
+          "The Orinoco",
+          "The Rio Grande",
+          "The Amazon"
+        ],
+        "explanation": "It pours out so much fresh water that you can drink it dozens of kilometres offshore, before the coast even comes into view."
+      },
+      "es": {
+        "text": "¿Cuál es el río más largo de América del Sur, que atraviesa la selva de Brasil?",
+        "options": [
+          "El Paraná",
+          "El Orinoco",
+          "El Río Grande",
+          "El Amazonas"
+        ],
+        "explanation": "Vierte tanta agua dulce en el océano que se puede beber a decenas de kilómetros de la costa, antes incluso de avistarla."
+      }
+    }
+  },
+  {
+    "sourceRef": "facbacc1798b9ad0",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la plus haute chaîne de montagnes du monde, dressée en Asie ?",
+        "options": [
+          "L'Himalaya",
+          "Les Andes",
+          "Les Rocheuses",
+          "Les Alpes"
+        ],
+        "explanation": "Ses sommets grandissent encore de quelques millimètres par an, poussés par la lente collision de deux plaques continentales."
+      },
+      "en": {
+        "text": "What is the highest mountain range in the world, rising in Asia?",
+        "options": [
+          "The Himalayas",
+          "The Andes",
+          "The Rockies",
+          "The Alps"
+        ],
+        "explanation": "Its peaks still grow a few millimetres a year, pushed up by the slow collision of two continental plates."
+      },
+      "es": {
+        "text": "¿Cuál es la cadena montañosa más alta del mundo, erguida en Asia?",
+        "options": [
+          "El Himalaya",
+          "Los Andes",
+          "Las Rocosas",
+          "Los Alpes"
+        ],
+        "explanation": "Sus cumbres aún crecen unos milímetros al año, empujadas por la lenta colisión de dos placas continentales."
+      }
+    }
+  },
+  {
+    "sourceRef": "e74cb0c68fd2af57",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle cordillère longe toute la côte ouest de l'Amérique du Sud, du Venezuela au Chili ?",
+        "options": [
+          "Les Rocheuses",
+          "Les Andes",
+          "L'Atlas",
+          "L'Oural"
+        ],
+        "explanation": "C'est la plus longue chaîne de montagnes émergée de la planète, s'étirant sur près de sept mille kilomètres."
+      },
+      "en": {
+        "text": "Which mountain range runs the whole west coast of South America, from Venezuela to Chile?",
+        "options": [
+          "The Rockies",
+          "The Andes",
+          "The Atlas",
+          "The Urals"
+        ],
+        "explanation": "It is the longest above-water mountain range on the planet, stretching nearly seven thousand kilometres."
+      },
+      "es": {
+        "text": "¿Qué cordillera recorre toda la costa oeste de América del Sur, de Venezuela a Chile?",
+        "options": [
+          "Las Rocosas",
+          "Los Andes",
+          "El Atlas",
+          "Los Urales"
+        ],
+        "explanation": "Es la cadena montañosa emergida más larga del planeta, extendiéndose casi siete mil kilómetros."
+      }
+    }
+  },
+  {
+    "sourceRef": "cc15052b1f5ad182",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus petit des océans, gelé et situé tout autour du pôle Nord ?",
+        "options": [
+          "L'océan Indien",
+          "L'océan Austral",
+          "L'océan Arctique",
+          "L'océan Atlantique"
+        ],
+        "explanation": "Sa banquise, qui fond et se reforme au fil des saisons, a longtemps interdit tout passage aux navires venus d'Europe."
+      },
+      "en": {
+        "text": "Which is the smallest ocean, frozen and lying all around the North Pole?",
+        "options": [
+          "The Indian Ocean",
+          "The Southern Ocean",
+          "The Arctic Ocean",
+          "The Atlantic Ocean"
+        ],
+        "explanation": "Its sea ice, melting and reforming with the seasons, long barred any passage to ships coming from Europe."
+      },
+      "es": {
+        "text": "¿Cuál es el más pequeño de los océanos, helado y situado alrededor del polo Norte?",
+        "options": [
+          "El océano Índico",
+          "El océano Austral",
+          "El océano Ártico",
+          "El océano Atlántico"
+        ],
+        "explanation": "Su banquisa, que se funde y rehace con las estaciones, vedó mucho tiempo el paso a los barcos venidos de Europa."
+      }
+    }
+  },
+  {
+    "sourceRef": "ae73670a9382b93f",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle mer intérieure, entre l'Europe et l'Asie, est en réalité le plus grand lac salé du monde ?",
+        "options": [
+          "La mer Noire",
+          "La mer Rouge",
+          "La mer Baltique",
+          "La mer Caspienne"
+        ],
+        "explanation": "Cinq pays se partagent ses rives, et l'on y pêche l'esturgeon dont les œufs deviennent le caviar le plus recherché."
+      },
+      "en": {
+        "text": "Which inland sea, between Europe and Asia, is actually the largest salt lake in the world?",
+        "options": [
+          "The Black Sea",
+          "The Red Sea",
+          "The Baltic Sea",
+          "The Caspian Sea"
+        ],
+        "explanation": "Five countries share its shores, and it yields the sturgeon whose eggs become the most sought-after caviar."
+      },
+      "es": {
+        "text": "¿Qué mar interior, entre Europa y Asia, es en realidad el mayor lago salado del mundo?",
+        "options": [
+          "El mar Negro",
+          "El mar Rojo",
+          "El mar Báltico",
+          "El mar Caspio"
+        ],
+        "explanation": "Cinco países comparten sus orillas, y en él se pesca el esturión cuyas huevas se vuelven el caviar más codiciado."
+      }
+    }
+  },
+  {
+    "sourceRef": "3c8119d280b2c245",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus grand pays d'Amérique du Sud par sa superficie ?",
+        "options": [
+          "Le Brésil",
+          "L'Argentine",
+          "Le Pérou",
+          "La Colombie"
+        ],
+        "explanation": "Il occupe à lui seul près de la moitié du continent et partage une frontière avec presque tous ses voisins."
+      },
+      "en": {
+        "text": "What is the largest country in South America by area?",
+        "options": [
+          "Brazil",
+          "Argentina",
+          "Peru",
+          "Colombia"
+        ],
+        "explanation": "It alone takes up nearly half the continent and shares a border with almost all its neighbours."
+      },
+      "es": {
+        "text": "¿Cuál es el país más grande de América del Sur por su superficie?",
+        "options": [
+          "Brasil",
+          "Argentina",
+          "Perú",
+          "Colombia"
+        ],
+        "explanation": "Ocupa por sí solo casi la mitad del continente y comparte frontera con casi todos sus vecinos."
+      }
+    }
+  },
+  {
+    "sourceRef": "a78a02805b8ddd10",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la capitale de la Turquie, souvent confondue à tort avec Istanbul ?",
+        "options": [
+          "Izmir",
+          "Ankara",
+          "Bursa",
+          "Antalya"
+        ],
+        "explanation": "La capitale fut déplacée dans les années 1920, loin de la côte, pour affirmer le nouveau visage moderne du pays."
+      },
+      "en": {
+        "text": "What is the capital of Turkey, often wrongly confused with Istanbul?",
+        "options": [
+          "Izmir",
+          "Ankara",
+          "Bursa",
+          "Antalya"
+        ],
+        "explanation": "The capital was moved inland in the 1920s, away from the coast, to assert the country's new modern face."
+      },
+      "es": {
+        "text": "¿Cuál es la capital de Turquía, a menudo confundida por error con Estambul?",
+        "options": [
+          "Esmirna",
+          "Ankara",
+          "Bursa",
+          "Antalya"
+        ],
+        "explanation": "La capital se trasladó al interior en los años 1920, lejos de la costa, para afirmar el nuevo rostro moderno del país."
+      }
+    }
+  },
+  {
+    "sourceRef": "734a54365ddaead7",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel fleuve traverse la ville de Paris ?",
+        "options": [
+          "La Loire",
+          "Le Rhône",
+          "La Seine",
+          "La Garonne"
+        ],
+        "explanation": "Ses quais et ses ponts, au cœur de la capitale, sont inscrits au patrimoine mondial de l'humanité."
+      },
+      "en": {
+        "text": "Which river flows through the city of Paris?",
+        "options": [
+          "The Loire",
+          "The Rhône",
+          "The Seine",
+          "The Garonne"
+        ],
+        "explanation": "Its quays and bridges, in the heart of the capital, are listed as World Heritage of humanity."
+      },
+      "es": {
+        "text": "¿Qué río atraviesa la ciudad de París?",
+        "options": [
+          "El Loira",
+          "El Ródano",
+          "El Sena",
+          "El Garona"
+        ],
+        "explanation": "Sus muelles y puentes, en el corazón de la capital, están inscritos como Patrimonio Mundial de la humanidad."
+      }
+    }
+  },
+  {
+    "sourceRef": "4604d8f3088e1cc2",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel fleuve, le plus long d'Europe, se jette dans la mer Caspienne ?",
+        "options": [
+          "Le Danube",
+          "Le Rhin",
+          "Le Dniepr",
+          "La Volga"
+        ],
+        "explanation": "Véritable colonne vertébrale de la Russie, il est célébré dans les chants populaires comme une figure maternelle."
+      },
+      "en": {
+        "text": "Which river, the longest in Europe, empties into the Caspian Sea?",
+        "options": [
+          "The Danube",
+          "The Rhine",
+          "The Dnieper",
+          "The Volga"
+        ],
+        "explanation": "A true backbone of Russia, it is celebrated in folk songs as a motherly figure."
+      },
+      "es": {
+        "text": "¿Qué río, el más largo de Europa, desemboca en el mar Caspio?",
+        "options": [
+          "El Danubio",
+          "El Rin",
+          "El Dniéper",
+          "El Volga"
+        ],
+        "explanation": "Verdadera columna vertebral de Rusia, es celebrado en las canciones populares como una figura maternal."
+      }
+    }
+  },
+  {
+    "sourceRef": "ad958d7e394b6331",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel fleuve traverse la ville de Londres ?",
+        "options": [
+          "La Tamise",
+          "Le Rhin",
+          "La Seine",
+          "Le Danube"
+        ],
+        "explanation": "Un immense barrage mobile protège la ville des marées ; ses ailes d'acier se relèvent en cas de tempête pour bloquer les flots."
+      },
+      "en": {
+        "text": "Which river flows through the city of London?",
+        "options": [
+          "The Thames",
+          "The Rhine",
+          "The Seine",
+          "The Danube"
+        ],
+        "explanation": "A huge movable barrier protects the city from the tides; its steel gates rise during storms to hold back the water."
+      },
+      "es": {
+        "text": "¿Qué río atraviesa la ciudad de Londres?",
+        "options": [
+          "El Támesis",
+          "El Rin",
+          "El Sena",
+          "El Danubio"
+        ],
+        "explanation": "Una enorme barrera móvil protege la ciudad de las mareas; sus compuertas de acero se alzan en tormenta para frenar las aguas."
+      }
+    }
+  },
+  {
+    "sourceRef": "cf7071d2e68a8294",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel petit royaume est entièrement enclavé à l'intérieur de l'Afrique du Sud ?",
+        "options": [
+          "L'Eswatini",
+          "Le Lesotho",
+          "Le Botswana",
+          "La Namibie"
+        ],
+        "explanation": "Perché en altitude, c'est l'un des rares pays du monde dont tout le territoire se trouve à plus de mille mètres."
+      },
+      "en": {
+        "text": "Which small kingdom lies entirely enclosed within South Africa?",
+        "options": [
+          "Eswatini",
+          "Lesotho",
+          "Botswana",
+          "Namibia"
+        ],
+        "explanation": "Perched at altitude, it is one of the few countries whose entire territory sits above a thousand metres."
+      },
+      "es": {
+        "text": "¿Qué pequeño reino está enteramente enclavado dentro de Sudáfrica?",
+        "options": [
+          "Esuatini",
+          "Lesoto",
+          "Botsuana",
+          "Namibia"
+        ],
+        "explanation": "Encaramado en altura, es uno de los pocos países cuyo territorio entero se sitúa por encima de los mil metros."
+      }
+    }
+  },
+  {
+    "sourceRef": "3fa737980790dab0",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle péninsule forme la pointe sud-ouest de l'Europe, partagée par l'Espagne et le Portugal ?",
+        "options": [
+          "La péninsule des Balkans",
+          "La péninsule scandinave",
+          "La péninsule Ibérique",
+          "La péninsule anatolienne"
+        ],
+        "explanation": "Séparée du reste du continent par la barrière des Pyrénées, elle regarde à la fois l'Atlantique et la Méditerranée."
+      },
+      "en": {
+        "text": "Which peninsula forms the south-west tip of Europe, shared by Spain and Portugal?",
+        "options": [
+          "The Balkan Peninsula",
+          "The Scandinavian Peninsula",
+          "The Iberian Peninsula",
+          "The Anatolian Peninsula"
+        ],
+        "explanation": "Cut off from the rest of the continent by the barrier of the Pyrenees, it faces both the Atlantic and the Mediterranean."
+      },
+      "es": {
+        "text": "¿Qué península forma el extremo suroeste de Europa, compartida por España y Portugal?",
+        "options": [
+          "La península balcánica",
+          "La península escandinava",
+          "La península ibérica",
+          "La península de Anatolia"
+        ],
+        "explanation": "Separada del resto del continente por la barrera de los Pirineos, mira a la vez al Atlántico y al Mediterráneo."
+      }
+    }
+  },
+  {
+    "sourceRef": "90119f8cb63d8b3b",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel vaste pays d'Asie du Sud, en forme de losange, dépasse le milliard d'habitants ?",
+        "options": [
+          "La Chine",
+          "Le Pakistan",
+          "Le Bangladesh",
+          "L'Inde"
+        ],
+        "explanation": "On y parle des centaines de langues ; les billets de banque en affichent une dizaine côte à côte pour être compris de tous."
+      },
+      "en": {
+        "text": "Which vast, diamond-shaped country of South Asia has over a billion inhabitants?",
+        "options": [
+          "China",
+          "Pakistan",
+          "Bangladesh",
+          "India"
+        ],
+        "explanation": "Hundreds of languages are spoken there; banknotes show about a dozen side by side so everyone can read them."
+      },
+      "es": {
+        "text": "¿Qué vasto país del sur de Asia, con forma de rombo, supera los mil millones de habitantes?",
+        "options": [
+          "China",
+          "Pakistán",
+          "Bangladés",
+          "India"
+        ],
+        "explanation": "Se hablan allí cientos de lenguas; los billetes muestran una decena juntas para que todos puedan leerlos."
+      }
+    }
+  },
+  {
+    "sourceRef": "9146cdb840d86d37",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle mer sans côtes, délimitée par des courants au milieu de l'Atlantique, est tapissée d'algues flottantes ?",
+        "options": [
+          "La mer des Sargasses",
+          "La mer de Corail",
+          "La mer Baltique",
+          "La mer d'Aral"
+        ],
+        "explanation": "Les anguilles d'Europe traversent tout l'océan pour venir s'y reproduire, dans un mystère que la science perce à peine."
+      },
+      "en": {
+        "text": "Which shoreless sea, bounded by currents in the middle of the Atlantic, is carpeted with floating seaweed?",
+        "options": [
+          "The Sargasso Sea",
+          "The Coral Sea",
+          "The Baltic Sea",
+          "The Aral Sea"
+        ],
+        "explanation": "European eels cross the whole ocean to breed there, in a mystery science is only beginning to unravel."
+      },
+      "es": {
+        "text": "¿Qué mar sin costas, delimitado por corrientes en medio del Atlántico, está cubierto de algas flotantes?",
+        "options": [
+          "El mar de los Sargazos",
+          "El mar del Coral",
+          "El mar Báltico",
+          "El mar de Aral"
+        ],
+        "explanation": "Las anguilas de Europa cruzan todo el océano para reproducirse allí, en un misterio que la ciencia apenas empieza a desvelar."
+      }
+    }
+  },
+  {
+    "sourceRef": "a6a2ff7b47121170",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle immense baie glacée s'enfonce dans le nord du Canada, gelée une grande partie de l'année ?",
+        "options": [
+          "La baie de Fundy",
+          "La baie d'Hudson",
+          "Le golfe du Mexique",
+          "La baie de Baffin"
+        ],
+        "explanation": "Un navigateur anglais y chercha un passage vers l'Asie ; abandonné par son équipage révolté, il y disparut à jamais."
+      },
+      "en": {
+        "text": "Which vast icy bay reaches deep into northern Canada, frozen much of the year?",
+        "options": [
+          "The Bay of Fundy",
+          "Hudson Bay",
+          "The Gulf of Mexico",
+          "Baffin Bay"
+        ],
+        "explanation": "An English navigator sought a passage to Asia there; abandoned by his mutinous crew, he vanished forever."
+      },
+      "es": {
+        "text": "¿Qué inmensa bahía helada se adentra en el norte de Canadá, congelada gran parte del año?",
+        "options": [
+          "La bahía de Fundy",
+          "La bahía de Hudson",
+          "El golfo de México",
+          "La bahía de Baffin"
+        ],
+        "explanation": "Un navegante inglés buscó allí un paso hacia Asia; abandonado por su tripulación amotinada, desapareció para siempre."
+      }
+    }
+  },
+  {
+    "sourceRef": "8ca3ac82164a7893",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel sommet des Andes argentines est le plus haut de tout l'hémisphère occidental ?",
+        "options": [
+          "Le Chimborazo",
+          "Le Huascarán",
+          "L'Aconcagua",
+          "L'Ojos del Salado"
+        ],
+        "explanation": "Malgré ses près de sept mille mètres, on peut en atteindre le sommet sans matériel d'escalade, ce qui attire des marcheurs du monde entier."
+      },
+      "en": {
+        "text": "Which peak of the Argentine Andes is the highest in the entire Western Hemisphere?",
+        "options": [
+          "Chimborazo",
+          "Huascarán",
+          "Aconcagua",
+          "Ojos del Salado"
+        ],
+        "explanation": "Despite nearly seven thousand metres, its summit can be reached without climbing gear, drawing walkers from around the world."
+      },
+      "es": {
+        "text": "¿Qué cumbre de los Andes argentinos es la más alta de todo el hemisferio occidental?",
+        "options": [
+          "El Chimborazo",
+          "El Huascarán",
+          "El Aconcagua",
+          "El Ojos del Salado"
+        ],
+        "explanation": "Pese a sus casi siete mil metros, se puede alcanzar su cima sin equipo de escalada, lo que atrae a montañeros de todo el mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "69d603baca892e44",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle reine d'Angleterre, dernière des Tudor, régna sur un âge d'or au XVIᵉ siècle ?",
+        "options": [
+          "Marie Stuart",
+          "Victoria",
+          "Anne",
+          "Élisabeth Iʳᵉ"
+        ],
+        "explanation": "Surnommée la « reine vierge », elle refusa de se marier, disant être déjà l'épouse de son royaume."
+      },
+      "en": {
+        "text": "Which Queen of England, the last of the Tudors, reigned over a golden age in the 16th century?",
+        "options": [
+          "Mary Stuart",
+          "Victoria",
+          "Anne",
+          "Elizabeth I"
+        ],
+        "explanation": "Nicknamed the 'Virgin Queen', she refused to marry, saying she was already wedded to her kingdom."
+      },
+      "es": {
+        "text": "¿Qué reina de Inglaterra, la última de los Tudor, reinó sobre una edad de oro en el siglo XVI?",
+        "options": [
+          "María Estuardo",
+          "Victoria",
+          "Ana",
+          "Isabel I"
+        ],
+        "explanation": "Apodada la 'reina virgen', se negó a casarse, diciendo que ya estaba desposada con su reino."
+      }
+    }
+  },
+  {
+    "sourceRef": "7f44421a4733ef56",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel général carthaginois traversa les Alpes avec des éléphants pour attaquer Rome ?",
+        "options": [
+          "Hannibal",
+          "Scipion",
+          "Hamilcar",
+          "Pyrrhus"
+        ],
+        "explanation": "Il fit passer ses éléphants par des cols enneigés, exploit resté légendaire, même si peu de bêtes survécurent à la traversée."
+      },
+      "en": {
+        "text": "Which Carthaginian general crossed the Alps with elephants to attack Rome?",
+        "options": [
+          "Hannibal",
+          "Scipio",
+          "Hamilcar",
+          "Pyrrhus"
+        ],
+        "explanation": "He led his elephants over snowy passes, a feat that became legend, though few of the beasts survived the crossing."
+      },
+      "es": {
+        "text": "¿Qué general cartaginés cruzó los Alpes con elefantes para atacar Roma?",
+        "options": [
+          "Aníbal",
+          "Escipión",
+          "Amílcar",
+          "Pirro"
+        ],
+        "explanation": "Hizo pasar sus elefantes por puertos nevados, hazaña legendaria, aunque pocas bestias sobrevivieron a la travesía."
+      }
+    }
+  },
+  {
+    "sourceRef": "0d0ddfedf8fbde3d",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel traité, signé en 1919, mit officiellement fin à la Première Guerre mondiale ?",
+        "options": [
+          "Le traité de Vienne",
+          "Le traité de Versailles",
+          "Le traité de Trianon",
+          "Le traité de Brest-Litovsk"
+        ],
+        "explanation": "Il fut signé dans la galerie des Glaces d'un château français, là même où l'Empire allemand avait été proclamé en 1871."
+      },
+      "en": {
+        "text": "Which treaty, signed in 1919, officially ended the First World War?",
+        "options": [
+          "The Treaty of Vienna",
+          "The Treaty of Versailles",
+          "The Treaty of Trianon",
+          "The Treaty of Brest-Litovsk"
+        ],
+        "explanation": "It was signed in the Hall of Mirrors of a French palace, the very place where the German Empire had been proclaimed in 1871."
+      },
+      "es": {
+        "text": "¿Qué tratado, firmado en 1919, puso fin oficialmente a la Primera Guerra Mundial?",
+        "options": [
+          "El Tratado de Viena",
+          "El Tratado de Versalles",
+          "El Tratado de Trianón",
+          "El Tratado de Brest-Litovsk"
+        ],
+        "explanation": "Se firmó en la galería de los Espejos de un palacio francés, el mismo lugar donde se había proclamado el Imperio alemán en 1871."
+      }
+    }
+  },
+  {
+    "sourceRef": "0fbeaff7df179e86",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "En quelle année débuta la Première Guerre mondiale ?",
+        "options": [
+          "1905",
+          "1912",
+          "1914",
+          "1918"
+        ],
+        "explanation": "L'étincelle fut l'assassinat d'un archiduc à Sarajevo, qui enflamma en quelques semaines un continent bardé d'alliances."
+      },
+      "en": {
+        "text": "In which year did the First World War begin?",
+        "options": [
+          "1905",
+          "1912",
+          "1914",
+          "1918"
+        ],
+        "explanation": "The spark was the assassination of an archduke in Sarajevo, which within weeks set ablaze a continent bristling with alliances."
+      },
+      "es": {
+        "text": "¿En qué año comenzó la Primera Guerra Mundial?",
+        "options": [
+          "1905",
+          "1912",
+          "1914",
+          "1918"
+        ],
+        "explanation": "La chispa fue el asesinato de un archiduque en Sarajevo, que en pocas semanas incendió un continente lleno de alianzas."
+      }
+    }
+  },
+  {
+    "sourceRef": "ecf3d58d839cab98",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel mur, symbole de la guerre froide, tomba en 1989 sous les coups de la foule ?",
+        "options": [
+          "Le mur d'Hadrien",
+          "Le mur des Lamentations",
+          "La Grande Muraille",
+          "Le mur de Berlin"
+        ],
+        "explanation": "Dans la nuit de sa chute, des habitants s'attaquèrent au béton au marteau ; on les surnomma les « piverts du mur »."
+      },
+      "en": {
+        "text": "Which wall, a symbol of the Cold War, fell in 1989 under the blows of the crowd?",
+        "options": [
+          "Hadrian's Wall",
+          "The Western Wall",
+          "The Great Wall",
+          "The Berlin Wall"
+        ],
+        "explanation": "On the night it fell, residents attacked the concrete with hammers; they were nicknamed the 'wall woodpeckers'."
+      },
+      "es": {
+        "text": "¿Qué muro, símbolo de la guerra fría, cayó en 1989 bajo los golpes de la multitud?",
+        "options": [
+          "El muro de Adriano",
+          "El Muro de las Lamentaciones",
+          "La Gran Muralla",
+          "El Muro de Berlín"
+        ],
+        "explanation": "La noche de su caída, vecinos atacaron el hormigón a martillazos; se les apodó los 'pájaros carpinteros del muro'."
+      }
+    }
+  },
+  {
+    "sourceRef": "656f8964aa742507",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel roi anglais fonda l'Église anglicane après avoir rompu avec le pape de Rome ?",
+        "options": [
+          "Henri VIII",
+          "Édouard VI",
+          "Jacques Iᵉʳ",
+          "Charles Iᵉʳ"
+        ],
+        "explanation": "Il rompit avec Rome pour pouvoir divorcer, et se maria six fois : le sort de ses épouses est resté dans toutes les mémoires."
+      },
+      "en": {
+        "text": "Which English king founded the Anglican Church after breaking with the pope in Rome?",
+        "options": [
+          "Henry VIII",
+          "Edward VI",
+          "James I",
+          "Charles I"
+        ],
+        "explanation": "He broke with Rome so he could divorce, and married six times: the fate of his wives has never been forgotten."
+      },
+      "es": {
+        "text": "¿Qué rey inglés fundó la Iglesia anglicana tras romper con el papa de Roma?",
+        "options": [
+          "Enrique VIII",
+          "Eduardo VI",
+          "Jacobo I",
+          "Carlos I"
+        ],
+        "explanation": "Rompió con Roma para poder divorciarse, y se casó seis veces: el destino de sus esposas quedó en la memoria de todos."
+      }
+    }
+  },
+  {
+    "sourceRef": "1a8fac9eb9287c64",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel explorateur portugais contourna l'Afrique pour atteindre les Indes par la mer en 1498 ?",
+        "options": [
+          "Fernand de Magellan",
+          "Vasco de Gama",
+          "Bartolomeu Dias",
+          "Pedro Cabral"
+        ],
+        "explanation": "L'ouverture de cette route maritime des épices fit basculer le commerce mondial, jusque-là aux mains des marchands terrestres."
+      },
+      "en": {
+        "text": "Which Portuguese explorer sailed around Africa to reach India by sea in 1498?",
+        "options": [
+          "Ferdinand Magellan",
+          "Vasco da Gama",
+          "Bartolomeu Dias",
+          "Pedro Cabral"
+        ],
+        "explanation": "Opening this sea route for spices upended world trade, until then in the hands of overland merchants."
+      },
+      "es": {
+        "text": "¿Qué explorador portugués rodeó África para llegar a la India por mar en 1498?",
+        "options": [
+          "Fernando de Magallanes",
+          "Vasco de Gama",
+          "Bartolomeu Dias",
+          "Pedro Cabral"
+        ],
+        "explanation": "La apertura de esta ruta marítima de las especias trastocó el comercio mundial, hasta entonces en manos de mercaderes terrestres."
+      }
+    }
+  },
+  {
+    "sourceRef": "58de3230fbbf6558",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "En quelle année un homme marcha-t-il pour la première fois sur la Lune ?",
+        "options": [
+          "1957",
+          "1961",
+          "1969",
+          "1975"
+        ],
+        "explanation": "Des centaines de millions de téléspectateurs suivirent l'événement en direct, les yeux rivés sur des images tremblantes en noir et blanc."
+      },
+      "en": {
+        "text": "In which year did a human first walk on the Moon?",
+        "options": [
+          "1957",
+          "1961",
+          "1969",
+          "1975"
+        ],
+        "explanation": "Hundreds of millions of viewers followed the event live, eyes fixed on flickering black-and-white images."
+      },
+      "es": {
+        "text": "¿En qué año caminó un ser humano por primera vez sobre la Luna?",
+        "options": [
+          "1957",
+          "1961",
+          "1969",
+          "1975"
+        ],
+        "explanation": "Cientos de millones de espectadores siguieron el acontecimiento en directo, con los ojos fijos en imágenes temblorosas en blanco y negro."
+      }
+    }
+  },
+  {
+    "sourceRef": "487d1d6379aa852b",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle dynastie chinoise fit bâtir une grande partie de la Cité interdite de Pékin ?",
+        "options": [
+          "Les Han",
+          "Les Tang",
+          "Les Qing",
+          "Les Ming"
+        ],
+        "explanation": "On raconte qu'aucun oiseau ne devait survoler le toit de l'empereur : la légende dit qu'ils étaient dressés à l'éviter."
+      },
+      "en": {
+        "text": "Which Chinese dynasty built much of Beijing's Forbidden City?",
+        "options": [
+          "The Han",
+          "The Tang",
+          "The Qing",
+          "The Ming"
+        ],
+        "explanation": "It is said no bird was to fly over the emperor's roof: legend claims they were trained to avoid it."
+      },
+      "es": {
+        "text": "¿Qué dinastía china mandó construir gran parte de la Ciudad Prohibida de Pekín?",
+        "options": [
+          "Los Han",
+          "Los Tang",
+          "Los Qing",
+          "Los Ming"
+        ],
+        "explanation": "Se cuenta que ningún pájaro debía sobrevolar el techo del emperador: la leyenda dice que se les adiestraba para evitarlo."
+      }
+    }
+  },
+  {
+    "sourceRef": "1d86b1ea80f15aed",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel empereur romain fit du christianisme une religion tolérée par l'édit de Milan, en 313 ?",
+        "options": [
+          "Constantin",
+          "Néron",
+          "Dioclétien",
+          "Auguste"
+        ],
+        "explanation": "Il aurait vu, dit la légende, une croix dans le ciel avant une bataille, avec ces mots : « par ce signe, tu vaincras »."
+      },
+      "en": {
+        "text": "Which Roman emperor made Christianity a tolerated religion with the Edict of Milan in 313?",
+        "options": [
+          "Constantine",
+          "Nero",
+          "Diocletian",
+          "Augustus"
+        ],
+        "explanation": "Legend says he saw a cross in the sky before a battle, with the words: 'by this sign, you shall conquer'."
+      },
+      "es": {
+        "text": "¿Qué emperador romano hizo del cristianismo una religión tolerada con el edicto de Milán, en 313?",
+        "options": [
+          "Constantino",
+          "Nerón",
+          "Diocleciano",
+          "Augusto"
+        ],
+        "explanation": "Según la leyenda, vio una cruz en el cielo antes de una batalla, con las palabras: 'con este signo, vencerás'."
+      }
+    }
+  },
+  {
+    "sourceRef": "608d56b600f50e90",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle guerre opposa la France et l'Angleterre pendant plus d'un siècle au Moyen Âge ?",
+        "options": [
+          "La guerre des Deux-Roses",
+          "La guerre de Cent Ans",
+          "La guerre de Trente Ans",
+          "La guerre de Sécession"
+        ],
+        "explanation": "Elle dura en réalité cent seize ans, entrecoupée de trêves ; c'est au cours de ce conflit qu'apparut Jeanne d'Arc."
+      },
+      "en": {
+        "text": "Which war set France against England for over a century in the Middle Ages?",
+        "options": [
+          "The Wars of the Roses",
+          "The Hundred Years' War",
+          "The Thirty Years' War",
+          "The Civil War"
+        ],
+        "explanation": "It actually lasted a hundred and sixteen years, broken by truces; it was during this conflict that Joan of Arc appeared."
+      },
+      "es": {
+        "text": "¿Qué guerra enfrentó a Francia e Inglaterra durante más de un siglo en la Edad Media?",
+        "options": [
+          "La guerra de las Dos Rosas",
+          "La guerra de los Cien Años",
+          "La guerra de los Treinta Años",
+          "La guerra de Secesión"
+        ],
+        "explanation": "Duró en realidad ciento dieciséis años, con treguas de por medio; durante este conflicto apareció Juana de Arco."
+      }
+    }
+  },
+  {
+    "sourceRef": "5d4b545b65f8c1b1",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel penseur florentin de la Renaissance écrivit le traité politique « Le Prince » ?",
+        "options": [
+          "Dante Alighieri",
+          "Laurent de Médicis",
+          "Nicolas Machiavel",
+          "Jérôme Savonarole"
+        ],
+        "explanation": "Son nom est devenu un adjectif désignant la ruse politique, alors que son livre se voulait surtout un manuel lucide du pouvoir."
+      },
+      "en": {
+        "text": "Which Florentine Renaissance thinker wrote the political treatise 'The Prince'?",
+        "options": [
+          "Dante Alighieri",
+          "Lorenzo de' Medici",
+          "Niccolò Machiavelli",
+          "Girolamo Savonarola"
+        ],
+        "explanation": "His name became an adjective for political cunning, though his book was meant above all as a clear-eyed manual of power."
+      },
+      "es": {
+        "text": "¿Qué pensador florentino del Renacimiento escribió el tratado político 'El Príncipe'?",
+        "options": [
+          "Dante Alighieri",
+          "Lorenzo de Médici",
+          "Nicolás Maquiavelo",
+          "Girolamo Savonarola"
+        ],
+        "explanation": "Su nombre se volvió un adjetivo para la astucia política, aunque su libro pretendía ser sobre todo un lúcido manual del poder."
+      }
+    }
+  },
+  {
+    "sourceRef": "50f31f2fd6f55d5a",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel pharaon fit édifier la plus grande des pyramides de Gizeh ?",
+        "options": [
+          "Khéphren",
+          "Mykérinos",
+          "Djéser",
+          "Khéops"
+        ],
+        "explanation": "Sa pyramide resta le plus haut édifice construit par l'homme durant près de quatre mille ans, jusqu'aux cathédrales médiévales."
+      },
+      "en": {
+        "text": "Which pharaoh had the largest of the Giza pyramids built?",
+        "options": [
+          "Khafre",
+          "Menkaure",
+          "Djoser",
+          "Khufu"
+        ],
+        "explanation": "His pyramid remained the tallest structure built by humans for nearly four thousand years, until the medieval cathedrals."
+      },
+      "es": {
+        "text": "¿Qué faraón mandó erigir la mayor de las pirámides de Guiza?",
+        "options": [
+          "Kefrén",
+          "Micerino",
+          "Zóser",
+          "Keops"
+        ],
+        "explanation": "Su pirámide siguió siendo la construcción humana más alta durante casi cuatro mil años, hasta las catedrales medievales."
+      }
+    }
+  },
+  {
+    "sourceRef": "0a92e2ea294a5a68",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle bataille navale de 1805 vit l'amiral Nelson vaincre les flottes française et espagnole ?",
+        "options": [
+          "Trafalgar",
+          "Lépante",
+          "Actium",
+          "Salamine"
+        ],
+        "explanation": "Nelson y trouva la mort au sommet de sa victoire ; son corps fut, dit-on, ramené au port conservé dans un tonneau d'alcool."
+      },
+      "en": {
+        "text": "Which naval battle of 1805 saw Admiral Nelson defeat the French and Spanish fleets?",
+        "options": [
+          "Trafalgar",
+          "Lepanto",
+          "Actium",
+          "Salamis"
+        ],
+        "explanation": "Nelson died there at the height of his victory; his body was reportedly brought back to port preserved in a cask of spirits."
+      },
+      "es": {
+        "text": "¿Qué batalla naval de 1805 vio al almirante Nelson vencer a las flotas francesa y española?",
+        "options": [
+          "Trafalgar",
+          "Lepanto",
+          "Accio",
+          "Salamina"
+        ],
+        "explanation": "Nelson murió allí en la cima de su victoria; su cuerpo fue, según se cuenta, llevado a puerto conservado en un barril de licor."
+      }
+    }
+  },
+  {
+    "sourceRef": "29fd5eda10d52c62",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel empire, dirigé par des sultans, s'empara de Constantinople en 1453, mettant fin à l'Empire byzantin ?",
+        "options": [
+          "L'Empire perse",
+          "L'Empire ottoman",
+          "L'Empire mongol",
+          "L'Empire moghol"
+        ],
+        "explanation": "Pour prendre la ville, le sultan fit transporter ses navires par voie de terre, sur des rondins graissés, afin de contourner ses défenses."
+      },
+      "en": {
+        "text": "Which empire, ruled by sultans, seized Constantinople in 1453, ending the Byzantine Empire?",
+        "options": [
+          "The Persian Empire",
+          "The Ottoman Empire",
+          "The Mongol Empire",
+          "The Mughal Empire"
+        ],
+        "explanation": "To take the city, the sultan had his ships hauled overland on greased logs, to slip past its defences."
+      },
+      "es": {
+        "text": "¿Qué imperio, dirigido por sultanes, tomó Constantinopla en 1453, poniendo fin al Imperio bizantino?",
+        "options": [
+          "El Imperio persa",
+          "El Imperio otomano",
+          "El Imperio mongol",
+          "El Imperio mogol"
+        ],
+        "explanation": "Para tomar la ciudad, el sultán hizo transportar sus barcos por tierra, sobre troncos engrasados, para sortear sus defensas."
+      }
+    }
+  },
+  {
+    "sourceRef": "e1f5921fd5bc01a4",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel roman de George Orwell met en scène une ferme où les animaux renversent l'homme, avant de reproduire sa tyrannie ?",
+        "options": [
+          "La Ferme des animaux",
+          "1984",
+          "Le Meilleur des mondes",
+          "Fahrenheit 451"
+        ],
+        "explanation": "La devise « tous les animaux sont égaux » y est bientôt complétée d'un cynique « mais certains le sont plus que d'autres »."
+      },
+      "en": {
+        "text": "Which George Orwell novel features a farm where animals overthrow man, then repeat his tyranny?",
+        "options": [
+          "Animal Farm",
+          "1984",
+          "Brave New World",
+          "Fahrenheit 451"
+        ],
+        "explanation": "The motto 'all animals are equal' is soon crowned by a cynical 'but some are more equal than others'."
+      },
+      "es": {
+        "text": "¿Qué novela de George Orwell muestra una granja donde los animales derrocan al hombre y repiten luego su tiranía?",
+        "options": [
+          "Rebelión en la granja",
+          "1984",
+          "Un mundo feliz",
+          "Fahrenheit 451"
+        ],
+        "explanation": "El lema 'todos los animales son iguales' se completa pronto con un cínico 'pero algunos son más iguales que otros'."
+      }
+    }
+  },
+  {
+    "sourceRef": "4fabd22a875076cb",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle romancière anglaise écrivit « Orgueil et Préjugés » ?",
+        "options": [
+          "Virginia Woolf",
+          "Jane Austen",
+          "George Eliot",
+          "Mary Shelley"
+        ],
+        "explanation": "Elle publia d'abord ses romans anonymement, signés « par une dame », comme il était mal vu qu'une femme écrive alors."
+      },
+      "en": {
+        "text": "Which English novelist wrote 'Pride and Prejudice'?",
+        "options": [
+          "Virginia Woolf",
+          "Jane Austen",
+          "George Eliot",
+          "Mary Shelley"
+        ],
+        "explanation": "She first published her novels anonymously, signed 'by a lady', as it was frowned upon for a woman to write back then."
+      },
+      "es": {
+        "text": "¿Qué novelista inglesa escribió 'Orgullo y prejuicio'?",
+        "options": [
+          "Virginia Woolf",
+          "Jane Austen",
+          "George Eliot",
+          "Mary Shelley"
+        ],
+        "explanation": "Publicó primero sus novelas de forma anónima, firmadas 'por una dama', pues mal se veía entonces que una mujer escribiera."
+      }
+    }
+  },
+  {
+    "sourceRef": "cc56bbb67512b705",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel dramaturge de la Grèce antique écrivit la tragédie « Œdipe roi » ?",
+        "options": [
+          "Euripide",
+          "Aristophane",
+          "Sophocle",
+          "Eschyle"
+        ],
+        "explanation": "On lui prête plus de cent vingt pièces, dont seulement sept nous sont parvenues, sauvées par le hasard des copies."
+      },
+      "en": {
+        "text": "Which playwright of ancient Greece wrote the tragedy 'Oedipus Rex'?",
+        "options": [
+          "Euripides",
+          "Aristophanes",
+          "Sophocles",
+          "Aeschylus"
+        ],
+        "explanation": "He is credited with over a hundred and twenty plays, of which only seven survive, saved by the chance of copying."
+      },
+      "es": {
+        "text": "¿Qué dramaturgo de la antigua Grecia escribió la tragedia 'Edipo rey'?",
+        "options": [
+          "Eurípides",
+          "Aristófanes",
+          "Sófocles",
+          "Esquilo"
+        ],
+        "explanation": "Se le atribuyen más de ciento veinte obras, de las que solo siete han llegado hasta nosotros, salvadas por el azar de las copias."
+      }
+    }
+  },
+  {
+    "sourceRef": "8aa7a4731d98a22f",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle autrice britannique a écrit les aventures du jeune sorcier Harry Potter ?",
+        "options": [
+          "Roald Dahl",
+          "C.S. Lewis",
+          "J.R.R. Tolkien",
+          "J.K. Rowling"
+        ],
+        "explanation": "Elle rédigea les premières pages dans des cafés, sur des bouts de papier, alors qu'elle élevait seule sa fille."
+      },
+      "en": {
+        "text": "Which British author wrote the adventures of the young wizard Harry Potter?",
+        "options": [
+          "Roald Dahl",
+          "C.S. Lewis",
+          "J.R.R. Tolkien",
+          "J.K. Rowling"
+        ],
+        "explanation": "She wrote the first pages in cafés, on scraps of paper, while raising her daughter alone."
+      },
+      "es": {
+        "text": "¿Qué autora británica escribió las aventuras del joven mago Harry Potter?",
+        "options": [
+          "Roald Dahl",
+          "C.S. Lewis",
+          "J.R.R. Tolkien",
+          "J.K. Rowling"
+        ],
+        "explanation": "Escribió las primeras páginas en cafeterías, en trozos de papel, mientras criaba sola a su hija."
+      }
+    }
+  },
+  {
+    "sourceRef": "9ef6bebe87277ed7",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain français est l'auteur du roman « Madame Bovary » ?",
+        "options": [
+          "Gustave Flaubert",
+          "Honoré de Balzac",
+          "Émile Zola",
+          "Guy de Maupassant"
+        ],
+        "explanation": "Poursuivi en justice pour « immoralité » à la parution, il fut acquitté, et le procès fit la fortune du livre."
+      },
+      "en": {
+        "text": "Which French writer is the author of the novel 'Madame Bovary'?",
+        "options": [
+          "Gustave Flaubert",
+          "Honoré de Balzac",
+          "Émile Zola",
+          "Guy de Maupassant"
+        ],
+        "explanation": "Prosecuted for 'immorality' when it appeared, he was acquitted, and the trial made the book's fortune."
+      },
+      "es": {
+        "text": "¿Qué escritor francés es el autor de la novela 'Madame Bovary'?",
+        "options": [
+          "Gustave Flaubert",
+          "Honoré de Balzac",
+          "Émile Zola",
+          "Guy de Maupassant"
+        ],
+        "explanation": "Procesado por 'inmoralidad' cuando apareció, fue absuelto, y el juicio hizo la fortuna del libro."
+      }
+    }
+  },
+  {
+    "sourceRef": "00c29923c7b677fa",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain britannique créa l'agent secret James Bond dans ses romans d'espionnage ?",
+        "options": [
+          "John le Carré",
+          "Ian Fleming",
+          "Graham Greene",
+          "Agatha Christie"
+        ],
+        "explanation": "Ancien officier du renseignement pendant la guerre, il puisa dans ses souvenirs pour donner vie à l'espion au numéro 007."
+      },
+      "en": {
+        "text": "Which British writer created the secret agent James Bond in his spy novels?",
+        "options": [
+          "John le Carré",
+          "Ian Fleming",
+          "Graham Greene",
+          "Agatha Christie"
+        ],
+        "explanation": "A former wartime intelligence officer, he drew on his memories to bring the spy numbered 007 to life."
+      },
+      "es": {
+        "text": "¿Qué escritor británico creó al agente secreto James Bond en sus novelas de espionaje?",
+        "options": [
+          "John le Carré",
+          "Ian Fleming",
+          "Graham Greene",
+          "Agatha Christie"
+        ],
+        "explanation": "Antiguo oficial de inteligencia durante la guerra, se sirvió de sus recuerdos para dar vida al espía con el número 007."
+      }
+    }
+  },
+  {
+    "sourceRef": "c953983813c040e9",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel roman de Victor Hugo raconte l'histoire de Quasimodo, le sonneur de cloches bossu ?",
+        "options": [
+          "Les Misérables",
+          "Le Bossu",
+          "Notre-Dame de Paris",
+          "Germinal"
+        ],
+        "explanation": "Le succès du livre sauva la cathédrale, alors délabrée, en réveillant l'intérêt du public pour ce chef-d'œuvre gothique."
+      },
+      "en": {
+        "text": "Which Victor Hugo novel tells the story of Quasimodo, the hunchbacked bell-ringer?",
+        "options": [
+          "Les Misérables",
+          "The Hunchback",
+          "The Hunchback of Notre-Dame",
+          "Germinal"
+        ],
+        "explanation": "The book's success saved the then-crumbling cathedral by reviving public interest in this Gothic masterpiece."
+      },
+      "es": {
+        "text": "¿Qué novela de Victor Hugo cuenta la historia de Quasimodo, el campanero jorobado?",
+        "options": [
+          "Los miserables",
+          "El jorobado",
+          "Nuestra Señora de París",
+          "Germinal"
+        ],
+        "explanation": "El éxito del libro salvó la catedral, entonces ruinosa, al despertar el interés del público por esta obra maestra gótica."
+      }
+    }
+  },
+  {
+    "sourceRef": "15484a866673d25c",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain irlandais est l'auteur d'« Ulysse », vaste roman se déroulant en une seule journée à Dublin ?",
+        "options": [
+          "Oscar Wilde",
+          "Samuel Beckett",
+          "W.B. Yeats",
+          "James Joyce"
+        ],
+        "explanation": "La ville célèbre chaque 16 juin le « Bloomsday », date exacte à laquelle se déroule l'errance de son héros."
+      },
+      "en": {
+        "text": "Which Irish writer is the author of 'Ulysses', a vast novel set over a single day in Dublin?",
+        "options": [
+          "Oscar Wilde",
+          "Samuel Beckett",
+          "W.B. Yeats",
+          "James Joyce"
+        ],
+        "explanation": "The city celebrates 'Bloomsday' every 16 June, the exact date on which its hero's wanderings take place."
+      },
+      "es": {
+        "text": "¿Qué escritor irlandés es el autor de 'Ulises', vasta novela que transcurre en un solo día en Dublín?",
+        "options": [
+          "Oscar Wilde",
+          "Samuel Beckett",
+          "W.B. Yeats",
+          "James Joyce"
+        ],
+        "explanation": "La ciudad celebra cada 16 de junio el 'Bloomsday', la fecha exacta en que se desarrolla el vagar de su héroe."
+      }
+    }
+  },
+  {
+    "sourceRef": "722fb053a21e9f08",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain français dépeignit toute la société de son époque dans la fresque « La Comédie humaine » ?",
+        "options": [
+          "Honoré de Balzac",
+          "Gustave Flaubert",
+          "Stendhal",
+          "Guy de Maupassant"
+        ],
+        "explanation": "Grand buveur de café, il en avalait, dit-on, des dizaines de tasses par nuit pour tenir ses folles cadences d'écriture."
+      },
+      "en": {
+        "text": "Which French writer portrayed the whole society of his era in the vast fresco 'The Human Comedy'?",
+        "options": [
+          "Honoré de Balzac",
+          "Gustave Flaubert",
+          "Stendhal",
+          "Guy de Maupassant"
+        ],
+        "explanation": "A heavy coffee drinker, he is said to have downed dozens of cups a night to keep up his wild writing pace."
+      },
+      "es": {
+        "text": "¿Qué escritor francés retrató toda la sociedad de su época en el vasto fresco 'La comedia humana'?",
+        "options": [
+          "Honoré de Balzac",
+          "Gustave Flaubert",
+          "Stendhal",
+          "Guy de Maupassant"
+        ],
+        "explanation": "Gran bebedor de café, tomaba, según se dice, decenas de tazas por noche para sostener su desenfrenado ritmo de escritura."
+      }
+    }
+  },
+  {
+    "sourceRef": "59575176fd8f6679",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle héroïne d'un roman de Tolstoï se jette sous un train, emportée par une passion interdite ?",
+        "options": [
+          "Emma Bovary",
+          "Anna Karénine",
+          "Nana",
+          "Thérèse Raquin"
+        ],
+        "explanation": "L'écrivain ouvre son roman par une phrase restée célèbre sur les familles heureuses, toutes semblables, et les malheureuses, chacune à sa façon."
+      },
+      "en": {
+        "text": "Which heroine of a Tolstoy novel throws herself under a train, carried away by a forbidden passion?",
+        "options": [
+          "Emma Bovary",
+          "Anna Karenina",
+          "Nana",
+          "Thérèse Raquin"
+        ],
+        "explanation": "The writer opens his novel with a famous line about happy families, all alike, and unhappy ones, each unhappy in its own way."
+      },
+      "es": {
+        "text": "¿Qué heroína de una novela de Tolstói se arroja bajo un tren, arrastrada por una pasión prohibida?",
+        "options": [
+          "Emma Bovary",
+          "Anna Karénina",
+          "Nana",
+          "Thérèse Raquin"
+        ],
+        "explanation": "El escritor abre su novela con una frase célebre sobre las familias felices, todas iguales, y las infelices, cada una a su modo."
+      }
+    }
+  },
+  {
+    "sourceRef": "26e75a4dff63ebb9",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel héros grec voyage dix ans pour rentrer chez lui, dans le poème « L'Odyssée » ?",
+        "options": [
+          "Achille",
+          "Hector",
+          "Ulysse",
+          "Persée"
+        ],
+        "explanation": "Pour résister au chant des sirènes, il se fit attacher au mât de son navire, oreilles ouvertes mais mains liées."
+      },
+      "en": {
+        "text": "Which Greek hero travels ten years to return home, in the poem 'The Odyssey'?",
+        "options": [
+          "Achilles",
+          "Hector",
+          "Odysseus",
+          "Perseus"
+        ],
+        "explanation": "To resist the sirens' song, he had himself tied to his ship's mast, ears open but hands bound."
+      },
+      "es": {
+        "text": "¿Qué héroe griego viaja diez años para volver a casa, en el poema 'La Odisea'?",
+        "options": [
+          "Aquiles",
+          "Héctor",
+          "Ulises",
+          "Perseo"
+        ],
+        "explanation": "Para resistir el canto de las sirenas, se hizo atar al mástil de su barco, con los oídos abiertos pero las manos atadas."
+      }
+    }
+  },
+  {
+    "sourceRef": "89c275f051ed0a42",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain américain peignit les années folles et leur luxe dans « Gatsby le Magnifique » ?",
+        "options": [
+          "John Steinbeck",
+          "William Faulkner",
+          "Ernest Hemingway",
+          "F. Scott Fitzgerald"
+        ],
+        "explanation": "Le livre connut un succès modeste de son vivant ; ce n'est que des décennies plus tard qu'il devint un classique."
+      },
+      "en": {
+        "text": "Which American writer captured the Roaring Twenties and their luxury in 'The Great Gatsby'?",
+        "options": [
+          "John Steinbeck",
+          "William Faulkner",
+          "Ernest Hemingway",
+          "F. Scott Fitzgerald"
+        ],
+        "explanation": "The book was only a modest success in his lifetime; it became a classic only decades later."
+      },
+      "es": {
+        "text": "¿Qué escritor estadounidense retrató los locos años veinte y su lujo en 'El gran Gatsby'?",
+        "options": [
+          "John Steinbeck",
+          "William Faulkner",
+          "Ernest Hemingway",
+          "F. Scott Fitzgerald"
+        ],
+        "explanation": "El libro tuvo un éxito modesto en vida del autor; solo se convirtió en un clásico décadas después."
+      }
+    }
+  },
+  {
+    "sourceRef": "1434077b5730471b",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel dramaturge espagnol du Siècle d'or écrivit des centaines de pièces, dont « Fuente Ovejuna » ?",
+        "options": [
+          "Lope de Vega",
+          "Calderón de la Barca",
+          "Tirso de Molina",
+          "Luis de Góngora"
+        ],
+        "explanation": "On lui prête une fécondité stupéfiante, plusieurs centaines de comédies, au point qu'un contemporain le surnomma « le monstre de la nature »."
+      },
+      "en": {
+        "text": "Which Spanish Golden Age playwright wrote hundreds of plays, including 'Fuenteovejuna'?",
+        "options": [
+          "Lope de Vega",
+          "Calderón de la Barca",
+          "Tirso de Molina",
+          "Luis de Góngora"
+        ],
+        "explanation": "He is credited with astonishing output, several hundred plays, so much that a contemporary dubbed him 'the monster of nature'."
+      },
+      "es": {
+        "text": "¿Qué dramaturgo español del Siglo de Oro escribió cientos de obras, entre ellas 'Fuenteovejuna'?",
+        "options": [
+          "Lope de Vega",
+          "Calderón de la Barca",
+          "Tirso de Molina",
+          "Luis de Góngora"
+        ],
+        "explanation": "Se le atribuye una fecundidad asombrosa, varios cientos de comedias, tanto que un contemporáneo lo apodó 'el monstruo de la naturaleza'."
+      }
+    }
+  },
+  {
+    "sourceRef": "d18dfdb4f2f318ad",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel roman de Jules Verne suit le flegmatique Phileas Fogg dans un pari fou autour du globe ?",
+        "options": [
+          "Voyage au centre de la Terre",
+          "Le Tour du monde en quatre-vingts jours",
+          "Vingt mille lieues sous les mers",
+          "L'Île mystérieuse"
+        ],
+        "explanation": "En rattrapant un fuseau horaire à son insu, le héros gagne un jour entier, ce qui lui permet de remporter son pari in extremis."
+      },
+      "en": {
+        "text": "Which Jules Verne novel follows the unflappable Phileas Fogg in a wild bet around the globe?",
+        "options": [
+          "Journey to the Centre of the Earth",
+          "Around the World in Eighty Days",
+          "Twenty Thousand Leagues Under the Sea",
+          "The Mysterious Island"
+        ],
+        "explanation": "By unknowingly gaining a time zone, the hero picks up a whole extra day, letting him win his bet at the last moment."
+      },
+      "es": {
+        "text": "¿Qué novela de Julio Verne sigue al flemático Phileas Fogg en una apuesta descabellada alrededor del globo?",
+        "options": [
+          "Viaje al centro de la Tierra",
+          "La vuelta al mundo en ochenta días",
+          "Veinte mil leguas de viaje submarino",
+          "La isla misteriosa"
+        ],
+        "explanation": "Al ganar sin saberlo un huso horario, el héroe recupera un día entero, lo que le permite ganar su apuesta en el último momento."
+      }
+    }
+  },
+  {
+    "sourceRef": "2d096924c39f4022",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle écrivaine anglaise imagina le savant Victor Frankenstein et sa créature, lors d'un été pluvieux au bord d'un lac ?",
+        "options": [
+          "Jane Austen",
+          "Emily Brontë",
+          "Mary Shelley",
+          "George Eliot"
+        ],
+        "explanation": "Elle n'avait pas vingt ans quand, mise au défi d'écrire une histoire de fantômes, elle inventa ce mythe moderne."
+      },
+      "en": {
+        "text": "Which English writer dreamed up the scientist Victor Frankenstein and his creature, during a rainy summer by a lake?",
+        "options": [
+          "Jane Austen",
+          "Emily Brontë",
+          "Mary Shelley",
+          "George Eliot"
+        ],
+        "explanation": "She was not yet twenty when, challenged to write a ghost story, she invented this modern myth."
+      },
+      "es": {
+        "text": "¿Qué escritora inglesa imaginó al científico Victor Frankenstein y su criatura, durante un verano lluvioso junto a un lago?",
+        "options": [
+          "Jane Austen",
+          "Emily Brontë",
+          "Mary Shelley",
+          "George Eliot"
+        ],
+        "explanation": "No tenía aún veinte años cuando, retada a escribir una historia de fantasmas, inventó este mito moderno."
+      }
+    }
+  }
+]
