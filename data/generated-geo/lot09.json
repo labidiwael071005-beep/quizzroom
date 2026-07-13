@@ -1,0 +1,1402 @@
+[
+  {
+    "sourceRef": "33a14eb7e9a26a4e",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "lat": 34.1341,
+    "lng": -118.3215,
+    "translations": {
+      "fr": {
+        "text": "Quel quartier de Los Angeles, dont un panneau géant domine une colline, est le berceau mondial du 7ᵉ art et de la cérémonie des Oscars ?",
+        "explanation": "Le fameux panneau annonçait à l'origine un lotissement immobilier et devait être démonté au bout de dix-huit mois.",
+        "label": "Hollywood",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which district of Los Angeles, with a giant sign on a hillside, is the world cradle of cinema and home of the Oscars?",
+        "explanation": "The famous sign originally advertised a housing development and was meant to be taken down after eighteen months.",
+        "label": "Hollywood",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué barrio de Los Ángeles, con un cartel gigante sobre una colina, es la cuna mundial del cine y sede de los Óscar?",
+        "explanation": "El famoso cartel anunciaba en origen una urbanización y debía desmontarse a los dieciocho meses.",
+        "label": "Hollywood",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "96a673fe6f252fe0",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "lat": -41.2865,
+    "lng": 174.7762,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale néo-zélandaise abrite les studios d'effets spéciaux où fut mise en images la trilogie du « Seigneur des anneaux » ?",
+        "explanation": "La ville venteuse est surnommée « Wellywood » par ses habitants, fiers de leur industrie du cinéma.",
+        "label": "Wellington",
+        "country": "Nouvelle-Zélande"
+      },
+      "en": {
+        "text": "Which New Zealand capital is home to the special-effects studios that brought 'The Lord of the Rings' trilogy to the screen?",
+        "explanation": "The windy city is nicknamed 'Wellywood' by locals, proud of their film industry.",
+        "label": "Wellington",
+        "country": "New Zealand"
+      },
+      "es": {
+        "text": "¿Qué capital neozelandesa alberga los estudios de efectos especiales que llevaron a la pantalla la trilogía de 'El Señor de los Anillos'?",
+        "explanation": "La ventosa ciudad es apodada 'Wellywood' por sus habitantes, orgullosos de su industria del cine.",
+        "label": "Wellington",
+        "country": "Nueva Zelanda"
+      }
+    }
+  },
+  {
+    "sourceRef": "4dbb8c9872c3a8bc",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "lat": 46.167,
+    "lng": 8.7943,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville du sud de la Suisse un festival projette-t-il chaque été des films sur un écran géant, en plein air, sur la Piazza Grande ?",
+        "explanation": "Près de huit mille spectateurs s'y rassemblent à la nuit tombée, faisant de cette place l'une des plus grandes salles de cinéma du monde.",
+        "label": "Locarno",
+        "country": "Suisse"
+      },
+      "en": {
+        "text": "In which town of southern Switzerland does a festival screen films each summer on a giant open-air screen in the Piazza Grande?",
+        "explanation": "Nearly eight thousand viewers gather there after dark, making the square one of the world's largest cinemas.",
+        "label": "Locarno",
+        "country": "Switzerland"
+      },
+      "es": {
+        "text": "¿En qué ciudad del sur de Suiza un festival proyecta cada verano películas en una pantalla gigante al aire libre, en la Piazza Grande?",
+        "explanation": "Casi ocho mil espectadores se reúnen allí al anochecer, haciendo de la plaza uno de los mayores cines del mundo.",
+        "label": "Locarno",
+        "country": "Suiza"
+      }
+    }
+  },
+  {
+    "sourceRef": "afa6c58e8835916b",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "lat": 36.998,
+    "lng": -110.0985,
+    "translations": {
+      "fr": {
+        "text": "Quelle vallée désertique de l'Ouest américain, hérissée de buttes de grès rouge, servit de décor aux westerns de John Ford ?",
+        "explanation": "Le réalisateur y tourna tant de films que la silhouette de ses rochers est devenue, à elle seule, le symbole du Far West.",
+        "label": "Monument Valley",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which desert valley of the American West, bristling with red sandstone buttes, was the backdrop for John Ford's westerns?",
+        "explanation": "The director shot so many films there that the outline of its rocks became, on its own, the symbol of the Wild West.",
+        "label": "Monument Valley",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué valle desértico del Oeste americano, erizado de mesetas de arenisca roja, sirvió de escenario a los westerns de John Ford?",
+        "explanation": "El director rodó allí tantas películas que la silueta de sus rocas se convirtió, por sí sola, en el símbolo del Lejano Oeste.",
+        "label": "Monument Valley",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "bab2bfd89cc749a9",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "lat": 49.36,
+    "lng": 0.0756,
+    "translations": {
+      "fr": {
+        "text": "Quelle station balnéaire de la côte normande accueille chaque automne un festival dédié au cinéma américain ?",
+        "explanation": "Les planches de sa promenade portent les noms de vedettes d'Hollywood, comme une allée des étoiles au bord de la Manche.",
+        "label": "Deauville",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which seaside resort on the Normandy coast hosts a festival devoted to American cinema each autumn?",
+        "explanation": "The boards of its boardwalk bear the names of Hollywood stars, like a walk of fame by the English Channel.",
+        "label": "Deauville",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué balneario de la costa de Normandía acoge cada otoño un festival dedicado al cine estadounidense?",
+        "explanation": "Las tablas de su paseo llevan nombres de estrellas de Hollywood, como un paseo de la fama junto al canal de la Mancha.",
+        "label": "Deauville",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "1458e4e699ccbdc2",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "lat": 22.3193,
+    "lng": 114.1694,
+    "translations": {
+      "fr": {
+        "text": "Quel territoire du sud de la Chine, ancienne colonie britannique, devint la capitale du cinéma d'arts martiaux et lança Bruce Lee et John Woo ?",
+        "explanation": "On y produisit dans les années 1980 tant de films que la ville fut surnommée « le Hollywood de l'Orient ».",
+        "label": "Hong Kong",
+        "country": "Hong Kong"
+      },
+      "en": {
+        "text": "Which southern Chinese territory, a former British colony, became the capital of martial-arts cinema and launched Bruce Lee and John Woo?",
+        "explanation": "So many films were made there in the 1980s that the city was nicknamed 'the Hollywood of the East'.",
+        "label": "Hong Kong",
+        "country": "Hong Kong"
+      },
+      "es": {
+        "text": "¿Qué territorio del sur de China, antigua colonia británica, se convirtió en la capital del cine de artes marciales y lanzó a Bruce Lee y John Woo?",
+        "explanation": "Se produjeron allí tantas películas en los años 1980 que la ciudad fue apodada 'el Hollywood de Oriente'.",
+        "label": "Hong Kong",
+        "country": "Hong Kong"
+      }
+    }
+  },
+  {
+    "sourceRef": "33c9306c287073b3",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "lat": 36.84,
+    "lng": -2.4679,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville côtière du sud-est de l'Espagne, dont le désert voisin de Tabernas est unique en Europe, accueillit les westerns spaghetti de Sergio Leone ?",
+        "explanation": "Ce coin d'Andalousie, sec et rocailleux, imitait à merveille l'Arizona sans quitter le Vieux Continent.",
+        "label": "Almería",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "Which coastal city of south-east Spain, whose nearby Tabernas desert is unique in Europe, hosted Sergio Leone's spaghetti westerns?",
+        "explanation": "This dry, rocky corner of Andalusia mimicked Arizona to perfection without ever leaving the Old Continent.",
+        "label": "Almería",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿Qué ciudad costera del sureste de España, cuyo cercano desierto de Tabernas es único en Europa, acogió los spaghetti westerns de Sergio Leone?",
+        "explanation": "Ese rincón de Andalucía, seco y rocoso, imitaba a la perfección Arizona sin salir del Viejo Continente.",
+        "label": "Almería",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "4e7ce4655eeb5891",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "lat": 29.5324,
+    "lng": 35.4206,
+    "translations": {
+      "fr": {
+        "text": "Quel désert de grès rouge et de granit du sud de la Jordanie servit de décor à « Lawrence d'Arabie » puis à de nombreux films de science-fiction ?",
+        "explanation": "Ses paysages martiens ont si souvent doublé une autre planète qu'on le surnomme parfois « la vallée de la Lune ».",
+        "label": "Wadi Rum",
+        "country": "Jordanie"
+      },
+      "en": {
+        "text": "Which desert of red sandstone and granite in southern Jordan served as the setting for 'Lawrence of Arabia' and many science-fiction films?",
+        "explanation": "Its Martian landscapes have doubled for another planet so often that it is sometimes called 'the Valley of the Moon'.",
+        "label": "Wadi Rum",
+        "country": "Jordan"
+      },
+      "es": {
+        "text": "¿Qué desierto de arenisca roja y granito del sur de Jordania sirvió de escenario a 'Lawrence de Arabia' y a muchas películas de ciencia ficción?",
+        "explanation": "Sus paisajes marcianos han doblado a otro planeta tantas veces que a veces se le llama 'el valle de la Luna'.",
+        "label": "Wadi Rum",
+        "country": "Jordania"
+      }
+    }
+  },
+  {
+    "sourceRef": "66c1283d8828ae91",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "lat": 52.3906,
+    "lng": 13.0645,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville allemande proche de Berlin abrite Babelsberg, plus ancien grand studio de cinéma du monde, où fut tourné « Metropolis » ?",
+        "explanation": "Ouvert dès 1912, le studio vit passer aussi bien le cinéma expressionniste que les productions internationales d'aujourd'hui.",
+        "label": "Potsdam",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "Which German city near Berlin is home to Babelsberg, the world's oldest large film studio, where 'Metropolis' was shot?",
+        "explanation": "Opened as early as 1912, the studio hosted both Expressionist cinema and today's international productions.",
+        "label": "Potsdam",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿Qué ciudad alemana cercana a Berlín alberga Babelsberg, el estudio de cine grande más antiguo del mundo, donde se rodó 'Metrópolis'?",
+        "explanation": "Abierto ya en 1912, el estudio vio pasar tanto el cine expresionista como las producciones internacionales de hoy.",
+        "label": "Potsdam",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "c53d257b22f9b013",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "medium",
+    "lat": 37.323,
+    "lng": -122.0322,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de Californie abrite le siège d'Apple, un anneau de verre surnommé « le vaisseau spatial » ?",
+        "explanation": "Le bâtiment circulaire est ceint d'un verre courbe si vaste que des employés s'y sont cognés en le prenant pour un passage.",
+        "label": "Cupertino",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which California city is home to Apple's headquarters, a glass ring nicknamed 'the spaceship'?",
+        "explanation": "The round building is wrapped in curved glass so vast that employees have walked into it, mistaking it for an opening.",
+        "label": "Cupertino",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué ciudad de California alberga la sede de Apple, un anillo de vidrio apodado 'la nave espacial'?",
+        "explanation": "El edificio circular está envuelto en un vidrio curvo tan vasto que empleados han chocado con él, creyéndolo un paso.",
+        "label": "Cupertino",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "7ad3bb49cf9886d9",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "medium",
+    "lat": 51.4416,
+    "lng": 5.4697,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville des Pays-Bas vit naître Philips, géant de l'ampoule électrique puis de l'électronique grand public ?",
+        "explanation": "Le club de football local, comme la ville tout entière, doit son essor à cette entreprise fondée en 1891.",
+        "label": "Eindhoven",
+        "country": "Pays-Bas"
+      },
+      "en": {
+        "text": "Which city in the Netherlands saw the birth of Philips, giant of the light bulb and then of consumer electronics?",
+        "explanation": "The local football club, like the whole town, owes its rise to this company founded in 1891.",
+        "label": "Eindhoven",
+        "country": "Netherlands"
+      },
+      "es": {
+        "text": "¿Qué ciudad de los Países Bajos vio nacer a Philips, gigante de la bombilla y luego de la electrónica de consumo?",
+        "explanation": "El club de fútbol local, como toda la ciudad, debe su auge a esta empresa fundada en 1891.",
+        "label": "Eindhoven",
+        "country": "Países Bajos"
+      }
+    }
+  },
+  {
+    "sourceRef": "fe29c9f0e3b60a57",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 45.4677,
+    "lng": 7.877,
+    "translations": {
+      "fr": {
+        "text": "Quelle petite ville du Piémont fut la capitale d'Olivetti, pionnier italien de la machine à écrire puis de l'ordinateur ?",
+        "explanation": "Son usine, pensée pour le bien-être des ouvriers, est aujourd'hui inscrite au patrimoine mondial comme modèle d'urbanisme industriel.",
+        "label": "Ivrea",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which small town in Piedmont was the capital of Olivetti, Italy's pioneer of the typewriter and then the computer?",
+        "explanation": "Its factory, designed for the workers' well-being, is now a World Heritage site as a model of industrial town planning.",
+        "label": "Ivrea",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué pequeña ciudad del Piamonte fue la capital de Olivetti, pionera italiana de la máquina de escribir y luego del ordenador?",
+        "explanation": "Su fábrica, pensada para el bienestar de los obreros, es hoy Patrimonio Mundial como modelo de urbanismo industrial.",
+        "label": "Ivrea",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "ec9522d227b8648d",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "medium",
+    "lat": 37.4419,
+    "lng": -122.143,
+    "translations": {
+      "fr": {
+        "text": "Dans le garage de quelle ville californienne, considéré comme le berceau de la Silicon Valley, Hewlett et Packard fondèrent-ils leur entreprise en 1939 ?",
+        "explanation": "Le modeste garage a été classé monument historique, avec sur une plaque la mention « lieu de naissance de la Silicon Valley ».",
+        "label": "Palo Alto",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In the garage of which California city, seen as the birthplace of Silicon Valley, did Hewlett and Packard found their company in 1939?",
+        "explanation": "The humble garage is a listed landmark, marked by a plaque reading 'birthplace of Silicon Valley'.",
+        "label": "Palo Alto",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En el garaje de qué ciudad de California, considerado la cuna de Silicon Valley, fundaron Hewlett y Packard su empresa en 1939?",
+        "explanation": "El humilde garaje está catalogado como monumento, con una placa que reza 'lugar de nacimiento de Silicon Valley'.",
+        "label": "Palo Alto",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "e0c0772a8b3a2365",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 53.4808,
+    "lng": -2.2426,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville industrielle du nord de l'Angleterre vit fonctionner en 1948 le premier ordinateur capable de garder un programme en mémoire, surnommé « Baby » ?",
+        "explanation": "Cette ancienne capitale du coton fut aussi le lieu où l'on identifia le noyau de l'atome, quelques décennies plus tôt.",
+        "label": "Manchester",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "Which industrial city in northern England ran, in 1948, the first computer able to hold a program in memory, nicknamed 'Baby'?",
+        "explanation": "This former cotton capital was also where the nucleus of the atom was identified, a few decades earlier.",
+        "label": "Manchester",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Qué ciudad industrial del norte de Inglaterra hizo funcionar en 1948 el primer ordenador capaz de guardar un programa en memoria, apodado 'Baby'?",
+        "explanation": "Esta antigua capital del algodón fue también donde se identificó el núcleo del átomo, unas décadas antes.",
+        "label": "Manchester",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "c8f6a511a6deaa38",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 24.8138,
+    "lng": 120.9675,
+    "translations": {
+      "fr": {
+        "text": "Quel pôle industriel de l'ouest de Taïwan produit à lui seul une large part des puces électroniques les plus avancées de la planète ?",
+        "explanation": "Le monde entier dépend de ses usines : une simple panne d'électricité y suffit à ébranler l'industrie mondiale.",
+        "label": "Hsinchu",
+        "country": "Taïwan"
+      },
+      "en": {
+        "text": "Which industrial hub in western Taiwan produces, on its own, a large share of the planet's most advanced electronic chips?",
+        "explanation": "The whole world depends on its factories: a mere power cut there is enough to rattle global industry.",
+        "label": "Hsinchu",
+        "country": "Taiwan"
+      },
+      "es": {
+        "text": "¿Qué polo industrial del oeste de Taiwán produce, por sí solo, buena parte de los chips electrónicos más avanzados del planeta?",
+        "explanation": "El mundo entero depende de sus fábricas: un simple corte de luz allí basta para sacudir la industria mundial.",
+        "label": "Hsinchu",
+        "country": "Taiwán"
+      }
+    }
+  },
+  {
+    "sourceRef": "b4a282619b02907c",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "medium",
+    "lat": 37.2636,
+    "lng": 127.0286,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de Corée du Sud abrite le gigantesque complexe de recherche de Samsung Electronics ?",
+        "explanation": "Le groupe pèse tant dans l'économie du pays qu'on parle parfois, avec un brin d'ironie, de « République de Samsung ».",
+        "label": "Suwon",
+        "country": "Corée du Sud"
+      },
+      "en": {
+        "text": "Which city in South Korea houses the vast research complex of Samsung Electronics?",
+        "explanation": "The group weighs so heavily on the country's economy that people sometimes half-jokingly speak of the 'Republic of Samsung'.",
+        "label": "Suwon",
+        "country": "South Korea"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Corea del Sur alberga el enorme complejo de investigación de Samsung Electronics?",
+        "explanation": "El grupo pesa tanto en la economía del país que a veces se habla, medio en broma, de la 'República de Samsung'.",
+        "label": "Suwon",
+        "country": "Corea del Sur"
+      }
+    }
+  },
+  {
+    "sourceRef": "cce603fd4cfc25a5",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "medium",
+    "lat": 43.6236,
+    "lng": 7.0492,
+    "translations": {
+      "fr": {
+        "text": "Quel technopôle de la Côte d'Azur, créé dans les années 1970 au milieu des pins, est le plus grand parc scientifique d'Europe ?",
+        "explanation": "Son fondateur rêvait d'un « quartier latin aux champs », mêlant chercheurs, entreprises et nature.",
+        "label": "Sophia Antipolis",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which technology park on the French Riviera, created in the 1970s among the pines, is the largest science park in Europe?",
+        "explanation": "Its founder dreamed of a 'Latin Quarter in the fields', blending researchers, companies and nature.",
+        "label": "Sophia Antipolis",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué tecnópolis de la Costa Azul, creada en los años 1970 entre los pinos, es el mayor parque científico de Europa?",
+        "explanation": "Su fundador soñaba con un 'barrio latino en el campo', mezclando investigadores, empresas y naturaleza.",
+        "label": "Sophia Antipolis",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "20a3b62c9b954e87",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "medium",
+    "lat": 32.0853,
+    "lng": 34.7818,
+    "translations": {
+      "fr": {
+        "text": "Quelle métropole côtière d'Israël, surnommée la « Silicon Wadi », concentre l'une des plus fortes densités de start-up au monde ?",
+        "explanation": "Le pays est parfois appelé la « nation start-up » tant y foisonnent les jeunes pousses de la haute technologie.",
+        "label": "Tel-Aviv",
+        "country": "Israël"
+      },
+      "en": {
+        "text": "Which coastal metropolis of Israel, nicknamed 'Silicon Wadi', holds one of the world's highest densities of start-ups?",
+        "explanation": "The country is sometimes called the 'start-up nation', so thick is it with young high-tech firms.",
+        "label": "Tel-Aviv",
+        "country": "Israel"
+      },
+      "es": {
+        "text": "¿Qué metrópolis costera de Israel, apodada 'Silicon Wadi', reúne una de las mayores densidades de start-ups del mundo?",
+        "explanation": "Al país se le llama a veces la 'nación start-up', de tantas empresas jóvenes de alta tecnología que alberga.",
+        "label": "Tel Aviv",
+        "country": "Israel"
+      }
+    }
+  },
+  {
+    "sourceRef": "a73940ede6082075",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "easy",
+    "lat": 29.9511,
+    "lng": -90.0715,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville du sud des États-Unis, berceau du jazz, Louis Armstrong grandit-il au son des fanfares de rue ?",
+        "explanation": "Ses funérailles s'y célèbrent en musique : on part au son des marches tristes, on revient en dansant sur des airs joyeux.",
+        "label": "La Nouvelle-Orléans",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which southern US city, the cradle of jazz, did Louis Armstrong grow up to the sound of street brass bands?",
+        "explanation": "Funerals there are set to music: the crowd leaves to sad marches, then dances home to joyful tunes.",
+        "label": "New Orleans",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué ciudad del sur de Estados Unidos, cuna del jazz, creció Louis Armstrong al son de las charangas callejeras?",
+        "explanation": "Allí los funerales se celebran con música: se parte al son de marchas tristes y se vuelve bailando aires alegres.",
+        "label": "Nueva Orleans",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "7008da85688f2768",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 37.3891,
+    "lng": -5.9845,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville d'Andalousie est le berceau du flamenco et le cadre choisi par Bizet pour l'opéra « Carmen » ?",
+        "explanation": "Sa fabrique de tabac, où travaille l'héroïne de l'opéra, existait bel et bien et employait des milliers de femmes.",
+        "label": "Séville",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "Which city of Andalusia is the cradle of flamenco and the setting Bizet chose for the opera 'Carmen'?",
+        "explanation": "Its tobacco factory, where the opera's heroine works, really existed and employed thousands of women.",
+        "label": "Seville",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Andalucía es la cuna del flamenco y el escenario que Bizet eligió para la ópera 'Carmen'?",
+        "explanation": "Su fábrica de tabaco, donde trabaja la heroína de la ópera, existió de verdad y empleaba a miles de mujeres.",
+        "label": "Sevilla",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "d80c160dc20cf63d",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 46.4312,
+    "lng": 6.9107,
+    "translations": {
+      "fr": {
+        "text": "Au bord de quel lac, dans une ville suisse célèbre pour son festival de jazz, un incendie inspira à Deep Purple « Smoke on the Water » ?",
+        "explanation": "Le fameux riff décrit la fumée qui s'étalait sur l'eau après l'incendie d'un casino, en 1971.",
+        "label": "Montreux",
+        "country": "Suisse"
+      },
+      "en": {
+        "text": "On the shore of which lake, in a Swiss town famous for its jazz festival, did a fire inspire Deep Purple's 'Smoke on the Water'?",
+        "explanation": "The famous riff describes the smoke spreading over the water after a casino burned down in 1971.",
+        "label": "Montreux",
+        "country": "Switzerland"
+      },
+      "es": {
+        "text": "¿A orillas de qué lago, en una ciudad suiza famosa por su festival de jazz, un incendio inspiró 'Smoke on the Water' de Deep Purple?",
+        "explanation": "El célebre riff describe el humo que se extendía sobre el agua tras el incendio de un casino, en 1971.",
+        "label": "Montreux",
+        "country": "Suiza"
+      }
+    }
+  },
+  {
+    "sourceRef": "63da70c530580c48",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 40.8518,
+    "lng": 14.2681,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du sud de l'Italie, au pied d'un volcan, vit naître la chanson « O sole mio » et l'usage populaire de la mandoline ?",
+        "explanation": "Sa chanson la plus célèbre parle du soleil, mais fut composée, dit-on, sous un ciel gris et pluvieux d'Odessa.",
+        "label": "Naples",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which city in southern Italy, at the foot of a volcano, gave birth to the song 'O sole mio' and the popular use of the mandolin?",
+        "explanation": "Its most famous song is about the sun, yet was reportedly composed under the grey, rainy skies of Odessa.",
+        "label": "Naples",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué ciudad del sur de Italia, al pie de un volcán, vio nacer la canción 'O sole mio' y el uso popular de la mandolina?",
+        "explanation": "Su canción más famosa habla del sol, pero se compuso, según dicen, bajo el cielo gris y lluvioso de Odesa.",
+        "label": "Nápoles",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "e3bc0b7eb97c0e40",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville pluvieuse du nord-ouest américain vit naître le grunge et les groupes Nirvana et Pearl Jam ?",
+        "explanation": "Jimi Hendrix y grandit également ; la ville, tournée vers l'océan Pacifique, cultive un rock brut et mélancolique.",
+        "label": "Seattle",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which rainy city of the American northwest gave birth to grunge and the bands Nirvana and Pearl Jam?",
+        "explanation": "Jimi Hendrix grew up there too; the city, facing the Pacific, nurtures a raw, melancholy kind of rock.",
+        "label": "Seattle",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué ciudad lluviosa del noroeste de Estados Unidos vio nacer el grunge y a los grupos Nirvana y Pearl Jam?",
+        "explanation": "Jimi Hendrix también creció allí; la ciudad, asomada al Pacífico, cultiva un rock crudo y melancólico.",
+        "label": "Seattle",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "8c3f85e509d39411",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 51.4545,
+    "lng": -2.5879,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville portuaire de l'ouest de l'Angleterre vit naître le trip-hop et le groupe Massive Attack ?",
+        "explanation": "La ville est aussi connue pour ses graffitis, dont ceux d'un artiste masqué qui y aurait fait ses premières armes.",
+        "label": "Bristol",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "Which port city of western England gave birth to trip-hop and the band Massive Attack?",
+        "explanation": "The city is also known for its graffiti, including that of a masked artist said to have started out there.",
+        "label": "Bristol",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Qué ciudad portuaria del oeste de Inglaterra vio nacer el trip-hop y al grupo Massive Attack?",
+        "explanation": "La ciudad también es conocida por sus grafitis, entre ellos los de un artista enmascarado que allí habría empezado.",
+        "label": "Bristol",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "3369b32fc60bd0e6",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 45.1335,
+    "lng": 10.0225,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de Lombardie Antonio Stradivari fabriqua-t-il ses violons, aujourd'hui les plus chers du monde ?",
+        "explanation": "Le secret de leur son, peut-être caché dans le vernis ou le bois, résiste encore aux analyses des chercheurs.",
+        "label": "Crémone",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which city of Lombardy did Antonio Stradivari make his violins, today the most expensive in the world?",
+        "explanation": "The secret of their sound, perhaps hidden in the varnish or the wood, still defies researchers' analyses.",
+        "label": "Cremona",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Lombardía fabricó Antonio Stradivari sus violines, hoy los más caros del mundo?",
+        "explanation": "El secreto de su sonido, quizá oculto en el barniz o la madera, aún resiste los análisis de los investigadores.",
+        "label": "Cremona",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "a00ccc1ccd14b0ca",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 38.9089,
+    "lng": 1.4328,
+    "translations": {
+      "fr": {
+        "text": "Quelle île des Baléares est devenue la capitale mondiale de la musique électronique et des nuits de fête ?",
+        "explanation": "Le jour, l'île offre des criques paisibles et des villages blancs, à mille lieues de l'agitation de ses clubs nocturnes.",
+        "label": "Ibiza",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "Which island of the Balearics has become the world capital of electronic music and party nights?",
+        "explanation": "By day, the island offers quiet coves and white villages, a world away from the frenzy of its night clubs.",
+        "label": "Ibiza",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿Qué isla de las Baleares se ha convertido en la capital mundial de la música electrónica y las noches de fiesta?",
+        "explanation": "De día, la isla ofrece calas tranquilas y pueblos blancos, a mil leguas del bullicio de sus clubes nocturnos.",
+        "label": "Ibiza",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "aff16e3cea35391d",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 6.5244,
+    "lng": 3.3792,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle métropole du Nigeria le musicien Fela Kuti inventa-t-il l'afrobeat, mêlant jazz, funk et rythmes africains ?",
+        "explanation": "Sa musique, arme politique contre le pouvoir, lui valut autant l'adulation des foules que les foudres de l'armée.",
+        "label": "Lagos",
+        "country": "Nigeria"
+      },
+      "en": {
+        "text": "In which metropolis of Nigeria did the musician Fela Kuti invent Afrobeat, blending jazz, funk and African rhythms?",
+        "explanation": "His music, a political weapon against those in power, earned him both the crowds' adoration and the army's wrath.",
+        "label": "Lagos",
+        "country": "Nigeria"
+      },
+      "es": {
+        "text": "¿En qué metrópolis de Nigeria el músico Fela Kuti inventó el afrobeat, mezclando jazz, funk y ritmos africanos?",
+        "explanation": "Su música, arma política contra el poder, le valió tanto la adoración de las multitudes como la ira del ejército.",
+        "label": "Lagos",
+        "country": "Nigeria"
+      }
+    }
+  },
+  {
+    "sourceRef": "5bbd18fb8f0c0cd0",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 48.3,
+    "lng": 1.246,
+    "translations": {
+      "fr": {
+        "text": "Dans quel village de la Beauce Marcel Proust passait-il ses vacances d'enfant, lui inspirant le décor de « Du côté de chez Swann » ?",
+        "explanation": "Le célèbre goût de la madeleine trempée dans le thé serait un souvenir de ces séjours chez sa tante.",
+        "label": "Illiers",
+        "country": "France"
+      },
+      "en": {
+        "text": "In which village of the Beauce did Marcel Proust spend his childhood holidays, inspiring the setting of 'Swann's Way'?",
+        "explanation": "The famous taste of the madeleine dipped in tea is said to be a memory of those stays at his aunt's house.",
+        "label": "Illiers",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En qué pueblo de la Beauce pasaba Marcel Proust sus vacaciones de niño, inspirándole el escenario de 'Por el camino de Swann'?",
+        "explanation": "El famoso sabor de la magdalena mojada en té sería un recuerdo de aquellas estancias en casa de su tía.",
+        "label": "Illiers",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "328ffc91bca3456e",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "lat": 45.4384,
+    "lng": 10.9916,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville italienne Shakespeare situa-t-il les amours tragiques de Roméo et Juliette ?",
+        "explanation": "Un balcon de pierre y attire les visiteurs, qui laissent des lettres d'amour sur ses murs, bien qu'il ne date pas de l'époque du drame.",
+        "label": "Vérone",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which Italian city did Shakespeare set the tragic love of Romeo and Juliet?",
+        "explanation": "A stone balcony there draws visitors, who leave love letters on its walls, though it does not date from the drama's time.",
+        "label": "Verona",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué ciudad italiana situó Shakespeare los amores trágicos de Romeo y Julieta?",
+        "explanation": "Un balcón de piedra atrae allí a los visitantes, que dejan cartas de amor en sus muros, aunque no date de la época del drama.",
+        "label": "Verona",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "2c58424d5f9d5821",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 54.07,
+    "lng": 37.525,
+    "translations": {
+      "fr": {
+        "text": "Dans quel domaine familial, au sud de Moscou, Léon Tolstoï écrivit-il « Guerre et Paix » et « Anna Karénine » ?",
+        "explanation": "L'écrivain, épris de simplicité, y est enterré sans pierre ni croix, sous un simple tertre d'herbe qu'il avait choisi enfant.",
+        "label": "Iasnaïa Poliana",
+        "country": "Russie"
+      },
+      "en": {
+        "text": "On which family estate, south of Moscow, did Leo Tolstoy write 'War and Peace' and 'Anna Karenina'?",
+        "explanation": "The writer, in love with simplicity, lies buried there with no stone or cross, under a plain grass mound he had chosen as a child.",
+        "label": "Yasnaya Polyana",
+        "country": "Russia"
+      },
+      "es": {
+        "text": "¿En qué finca familiar, al sur de Moscú, escribió León Tolstói 'Guerra y paz' y 'Anna Karénina'?",
+        "explanation": "El escritor, enamorado de la sencillez, yace allí sin lápida ni cruz, bajo un simple montículo de hierba que eligió de niño.",
+        "label": "Yásnaia Poliana",
+        "country": "Rusia"
+      }
+    }
+  },
+  {
+    "sourceRef": "2b1d60490fc74cc3",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "lat": 50.9795,
+    "lng": 11.3235,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville allemande Goethe et Schiller vécurent-ils, faisant d'elle un foyer du classicisme littéraire ?",
+        "explanation": "Une statue les représente côte à côte : Schiller, le plus grand des deux, y a été légèrement rapetissé pour égaler son ami.",
+        "label": "Weimar",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which German city did Goethe and Schiller live, making it a home of literary classicism?",
+        "explanation": "A statue shows them side by side: Schiller, the taller of the two, was slightly shrunk there to match his friend.",
+        "label": "Weimar",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué ciudad alemana vivieron Goethe y Schiller, convirtiéndola en un hogar del clasicismo literario?",
+        "explanation": "Una estatua los muestra codo con codo: a Schiller, el más alto, se le rebajó un poco allí para igualar a su amigo.",
+        "label": "Weimar",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "6a282af64585479d",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 42.4604,
+    "lng": -71.3489,
+    "translations": {
+      "fr": {
+        "text": "Près de quel étang du Massachusetts Henry David Thoreau vécut-il deux ans en ermite pour écrire « Walden » ?",
+        "explanation": "Il n'y était pourtant pas si isolé : il rentrait parfois dîner en ville et rapportait son linge à laver chez sa mère.",
+        "label": "Concord",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Near which pond in Massachusetts did Henry David Thoreau live for two years as a hermit to write 'Walden'?",
+        "explanation": "He was not so cut off, though: he sometimes walked into town for dinner and brought his laundry home to his mother.",
+        "label": "Concord",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Cerca de qué estanque de Massachusetts vivió Henry David Thoreau dos años como ermitaño para escribir 'Walden'?",
+        "explanation": "No estaba tan aislado, sin embargo: a veces iba al pueblo a cenar y llevaba la ropa a lavar a casa de su madre.",
+        "label": "Concord",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "ba06b380da207efd",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 54.4597,
+    "lng": -3.0244,
+    "translations": {
+      "fr": {
+        "text": "Dans quel village du Lake District le poète William Wordsworth composa-t-il ses vers en admirant un champ de jonquilles ?",
+        "explanation": "Son poème sur ces fleurs dorées « dansant dans la brise » est l'un des plus appris par cœur de toute la poésie anglaise.",
+        "label": "Grasmere",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which village of the Lake District did the poet William Wordsworth compose his verse while gazing at a field of daffodils?",
+        "explanation": "His poem about those golden flowers 'dancing in the breeze' is among the most memorised in all English poetry.",
+        "label": "Grasmere",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué pueblo del Distrito de los Lagos compuso el poeta William Wordsworth sus versos contemplando un campo de narcisos?",
+        "explanation": "Su poema sobre esas flores doradas 'bailando en la brisa' es de los más memorizados de toda la poesía inglesa.",
+        "label": "Grasmere",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "864d12d2e6d13fbe",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 10.5921,
+    "lng": -74.1935,
+    "translations": {
+      "fr": {
+        "text": "Quel village de la côte caraïbe de Colombie, ville natale de Gabriel García Márquez, inspira le Macondo de « Cent ans de solitude » ?",
+        "explanation": "L'écrivain disait avoir trouvé le ton de son roman en se souvenant de la façon dont sa grand-mère racontait l'invraisemblable d'un air très sérieux.",
+        "label": "Aracataca",
+        "country": "Colombie"
+      },
+      "en": {
+        "text": "Which village on Colombia's Caribbean coast, the birthplace of Gabriel García Márquez, inspired the Macondo of 'One Hundred Years of Solitude'?",
+        "explanation": "The writer said he found his novel's tone by recalling how his grandmother told the wildest tales with a perfectly straight face.",
+        "label": "Aracataca",
+        "country": "Colombia"
+      },
+      "es": {
+        "text": "¿Qué pueblo de la costa caribeña de Colombia, ciudad natal de Gabriel García Márquez, inspiró el Macondo de 'Cien años de soledad'?",
+        "explanation": "El escritor decía haber hallado el tono de su novela recordando cómo su abuela contaba lo inverosímil con la cara más seria.",
+        "label": "Aracataca",
+        "country": "Colombia"
+      }
+    }
+  },
+  {
+    "sourceRef": "3bbe3e716947bd9b",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "lat": 39.7084,
+    "lng": -91.3585,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du Missouri, au bord du Mississippi, inspira à Mark Twain les aventures de Tom Sawyer et Huckleberry Finn ?",
+        "explanation": "L'écrivain fut pilote de bateau à vapeur sur le fleuve ; son pseudonyme même vient d'un cri de sondeur signalant deux brasses de fond.",
+        "label": "Hannibal",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which town in Missouri, on the banks of the Mississippi, inspired Mark Twain's adventures of Tom Sawyer and Huckleberry Finn?",
+        "explanation": "The writer was a steamboat pilot on the river; his very pen name comes from a leadsman's call marking two fathoms of depth.",
+        "label": "Hannibal",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Misuri, a orillas del Misisipi, inspiró a Mark Twain las aventuras de Tom Sawyer y Huckleberry Finn?",
+        "explanation": "El escritor fue piloto de barco de vapor en el río; su seudónimo viene de un grito de sondeo que marcaba dos brazas de fondo.",
+        "label": "Hannibal",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "5aa228abaf23d7c8",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "lat": 39.46,
+    "lng": -3.61,
+    "translations": {
+      "fr": {
+        "text": "Sur la colline de quel village de Castille-La Manche s'alignent les moulins à vent que Don Quichotte prit pour des géants ?",
+        "explanation": "Le héros de Cervantès y charge un moulin lance en avant, persuadé d'affronter un colosse aux longs bras qui tournoient.",
+        "label": "Consuegra",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "On the hill of which village in Castile-La Mancha stand the windmills that Don Quixote mistook for giants?",
+        "explanation": "Cervantes's hero charges a mill lance-first, convinced he is fighting a colossus with long, whirling arms.",
+        "label": "Consuegra",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿En la colina de qué pueblo de Castilla-La Mancha se alinean los molinos de viento que Don Quijote tomó por gigantes?",
+        "explanation": "El héroe de Cervantes carga contra un molino, lanza en ristre, convencido de enfrentar a un coloso de largos brazos que giran.",
+        "label": "Consuegra",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "92f0b0f6b41a70ad",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 39.8628,
+    "lng": -4.0273,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville espagnole, perchée au-dessus d'un fleuve encaissé, le Greco peignit-il « L'Enterrement du comte d'Orgaz » ?",
+        "explanation": "Le peintre, né en Crète, y adopta un style aux corps étirés et aux couleurs irréelles, très en avance sur son temps.",
+        "label": "Tolède",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "In which Spanish city, perched above a deep river gorge, did El Greco paint 'The Burial of the Count of Orgaz'?",
+        "explanation": "The Crete-born painter developed there a style of stretched bodies and unreal colours, far ahead of his time.",
+        "label": "Toledo",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿En qué ciudad española, encaramada sobre un río encajonado, pintó el Greco 'El entierro del conde de Orgaz'?",
+        "explanation": "El pintor, nacido en Creta, adoptó allí un estilo de cuerpos estirados y colores irreales, muy adelantado a su tiempo.",
+        "label": "Toledo",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "f4e62514f7ee0d7e",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 51.2194,
+    "lng": 4.4025,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville portuaire de Flandre le peintre baroque Pierre Paul Rubens tenait-il son immense atelier ?",
+        "explanation": "Sa production était si abondante qu'une armée d'assistants peignait sous sa direction, l'artiste ne retouchant souvent que les visages.",
+        "label": "Anvers",
+        "country": "Belgique"
+      },
+      "en": {
+        "text": "In which Flemish port city did the Baroque painter Peter Paul Rubens keep his vast workshop?",
+        "explanation": "His output was so huge that an army of assistants painted under his direction, the artist often retouching only the faces.",
+        "label": "Antwerp",
+        "country": "Belgium"
+      },
+      "es": {
+        "text": "¿En qué ciudad portuaria de Flandes tenía su enorme taller el pintor barroco Pedro Pablo Rubens?",
+        "explanation": "Su producción era tan abundante que un ejército de ayudantes pintaba bajo su dirección, retocando el artista a menudo solo los rostros.",
+        "label": "Amberes",
+        "country": "Bélgica"
+      }
+    }
+  },
+  {
+    "sourceRef": "bb9726224b40316d",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 49.07,
+    "lng": 2.17,
+    "translations": {
+      "fr": {
+        "text": "Dans quel village au nord de Paris Vincent van Gogh passa-t-il ses derniers mois, peignant l'église et les champs de blé sous les corbeaux ?",
+        "explanation": "Le peintre y produisit près de quatre-vingts toiles en soixante-dix jours, avant d'y mourir et d'y être enterré près de son frère.",
+        "label": "Auvers-sur-Oise",
+        "country": "France"
+      },
+      "en": {
+        "text": "In which village north of Paris did Vincent van Gogh spend his last months, painting the church and the wheat fields under crows?",
+        "explanation": "The painter produced nearly eighty canvases there in seventy days, before dying and being buried beside his brother.",
+        "label": "Auvers-sur-Oise",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En qué pueblo al norte de París pasó Vincent van Gogh sus últimos meses, pintando la iglesia y los trigales bajo los cuervos?",
+        "explanation": "El pintor produjo allí casi ochenta lienzos en setenta días, antes de morir y ser enterrado junto a su hermano.",
+        "label": "Auvers-sur-Oise",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "4dcaad85582e90cd",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 51.0504,
+    "lng": 13.7373,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville allemande au bord de l'Elbe, surnommée la « Florence du Nord », abrite la Voûte verte et une galerie de maîtres anciens ?",
+        "explanation": "Rasée par les bombardements en 1945, elle reconstruisit pierre par pierre son église baroque, achevée seulement en 2005.",
+        "label": "Dresde",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "Which German city on the Elbe, nicknamed 'Florence on the Elbe', houses the Green Vault and a gallery of old masters?",
+        "explanation": "Flattened by bombing in 1945, it rebuilt its Baroque church stone by stone, finished only in 2005.",
+        "label": "Dresden",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿Qué ciudad alemana a orillas del Elba, apodada la 'Florencia del Elba', alberga la Bóveda Verde y una galería de maestros antiguos?",
+        "explanation": "Arrasada por los bombardeos en 1945, reconstruyó piedra a piedra su iglesia barroca, terminada solo en 2005.",
+        "label": "Dresde",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "8765b082f7fc9ab3",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 48.0794,
+    "lng": 7.3585,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville d'Alsace le musée Unterlinden conserve-t-il le bouleversant retable d'Issenheim ?",
+        "explanation": "Le peintre Grünewald y montra un Christ couvert de plaies, œuvre destinée à réconforter des malades atteints du « mal des ardents ».",
+        "label": "Colmar",
+        "country": "France"
+      },
+      "en": {
+        "text": "In which Alsatian city does the Unterlinden Museum keep the harrowing Isenheim Altarpiece?",
+        "explanation": "The painter Grünewald showed a Christ covered in sores, a work meant to comfort the sick struck by 'St Anthony's fire'.",
+        "label": "Colmar",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Alsacia conserva el museo Unterlinden el estremecedor retablo de Isenheim?",
+        "explanation": "El pintor Grünewald mostró allí un Cristo cubierto de llagas, obra pensada para consolar a enfermos del 'fuego de San Antonio'.",
+        "label": "Colmar",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "bdac56fb7d41b967",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 50.0647,
+    "lng": 19.945,
+    "translations": {
+      "fr": {
+        "text": "Quelle ancienne capitale royale de Pologne conserve « La Dame à l'hermine », l'un des rares portraits de Léonard de Vinci ?",
+        "explanation": "Le tableau échappa de justesse au pillage nazi, caché puis retrouvé, ce qui ajoute à son aura de survivante.",
+        "label": "Cracovie",
+        "country": "Pologne"
+      },
+      "en": {
+        "text": "Which former royal capital of Poland keeps 'The Lady with an Ermine', one of Leonardo da Vinci's rare portraits?",
+        "explanation": "The painting narrowly escaped Nazi looting, hidden and then recovered, which adds to its aura of a survivor.",
+        "label": "Krakow",
+        "country": "Poland"
+      },
+      "es": {
+        "text": "¿Qué antigua capital real de Polonia conserva 'La dama del armiño', uno de los raros retratos de Leonardo da Vinci?",
+        "explanation": "El cuadro escapó por poco del saqueo nazi, oculto y luego recuperado, lo que añade a su aura de superviviente.",
+        "label": "Cracovia",
+        "country": "Polonia"
+      }
+    }
+  },
+  {
+    "sourceRef": "99fddc2f0f424352",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 57.7211,
+    "lng": 10.5883,
+    "translations": {
+      "fr": {
+        "text": "Quelle pointe de sable tout au nord du Danemark attira les peintres pour sa lumière dorée et la rencontre de deux mers ?",
+        "explanation": "Au bout de la langue de sable, on peut poser un pied dans chaque mer, là où leurs vagues se heurtent sans se mélanger.",
+        "label": "Skagen",
+        "country": "Danemark"
+      },
+      "en": {
+        "text": "Which sandy point at the very north of Denmark drew painters for its golden light and the meeting of two seas?",
+        "explanation": "At the tip of the sandspit you can set a foot in each sea, where their waves clash without ever mixing.",
+        "label": "Skagen",
+        "country": "Denmark"
+      },
+      "es": {
+        "text": "¿Qué punta de arena en el extremo norte de Dinamarca atrajo a los pintores por su luz dorada y el encuentro de dos mares?",
+        "explanation": "En el extremo de la lengua de arena se puede poner un pie en cada mar, donde sus olas chocan sin mezclarse.",
+        "label": "Skagen",
+        "country": "Dinamarca"
+      }
+    }
+  },
+  {
+    "sourceRef": "54df9e99cca76330",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 43.7262,
+    "lng": 12.6365,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle cité des Marches, joyau de la Renaissance italienne, naquit le peintre Raphaël ?",
+        "explanation": "Le palais ducal qui domine la ville était réputé si raffiné qu'on le décrivait comme « une ville en forme de palais ».",
+        "label": "Urbino",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which city of the Marche region, a jewel of the Italian Renaissance, was the painter Raphael born?",
+        "explanation": "The ducal palace crowning the town was thought so refined that it was described as 'a city in the shape of a palace'.",
+        "label": "Urbino",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué ciudad de las Marcas, joya del Renacimiento italiano, nació el pintor Rafael?",
+        "explanation": "El palacio ducal que corona la ciudad era tan refinado que se le describía como 'una ciudad en forma de palacio'.",
+        "label": "Urbino",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "2bef8b87abbee545",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": -17.6509,
+    "lng": -149.426,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle île du Pacifique Paul Gauguin peignit-il ses toiles aux couleurs vives, loin de l'Europe qu'il fuyait ?",
+        "explanation": "Il envoya de là-bas des tableaux qui firent scandale à Paris, où l'on trouvait ses couleurs et ses sujets bien trop audacieux.",
+        "label": "Tahiti",
+        "country": "Polynésie française"
+      },
+      "en": {
+        "text": "On which Pacific island did Paul Gauguin paint his vividly coloured canvases, far from the Europe he was fleeing?",
+        "explanation": "From there he sent paintings that caused a scandal in Paris, where his colours and subjects were found far too bold.",
+        "label": "Tahiti",
+        "country": "French Polynesia"
+      },
+      "es": {
+        "text": "¿En qué isla del Pacífico pintó Paul Gauguin sus lienzos de colores vivos, lejos de la Europa que huía?",
+        "explanation": "Desde allí envió cuadros que escandalizaron París, donde sus colores y temas se juzgaban demasiado atrevidos.",
+        "label": "Tahití",
+        "country": "Polinesia Francesa"
+      }
+    }
+  },
+  {
+    "sourceRef": "783cfac7d8985f79",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 44.8015,
+    "lng": 10.3279,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville d'Émilie-Romagne a donné son nom à un fromage à pâte dure et à un jambon cru parmi les plus réputés d'Italie ?",
+        "explanation": "Le vrai fromage porte un nom protégé : chaque meule est marquée au feu et inspectée en la frappant, pour écouter si la pâte « sonne » juste.",
+        "label": "Parme",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which city of Emilia-Romagna gave its name to a hard cheese and a cured ham among the most famous in Italy?",
+        "explanation": "The real cheese has a protected name: each wheel is fire-branded and inspected by tapping it, to hear whether the paste 'rings' true.",
+        "label": "Parma",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Emilia-Romaña dio nombre a un queso de pasta dura y a un jamón curado entre los más famosos de Italia?",
+        "explanation": "El queso auténtico tiene nombre protegido: cada rueda se marca a fuego y se inspecciona golpeándola, para oír si la pasta 'suena' bien.",
+        "label": "Parma",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "ac39283bbe10bcb1",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "lat": 44.8378,
+    "lng": -0.5792,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du sud-ouest de la France a donné son nom à l'un des vignobles rouges les plus prestigieux du monde ?",
+        "explanation": "Ses grands crus étaient déjà classés en 1855, à la demande d'un empereur qui voulait présenter les meilleurs vins à une exposition universelle.",
+        "label": "Bordeaux",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which city in south-western France gave its name to one of the world's most prestigious red wine regions?",
+        "explanation": "Its great growths were already ranked in 1855, at the request of an emperor keen to show off the finest wines at a world's fair.",
+        "label": "Bordeaux",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué ciudad del suroeste de Francia dio su nombre a uno de los viñedos tintos más prestigiosos del mundo?",
+        "explanation": "Sus grandes vinos ya se clasificaron en 1855, a petición de un emperador que quería lucir los mejores caldos en una exposición universal.",
+        "label": "Burdeos",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "a83a0525b9d2e9b8",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 20.883,
+    "lng": -103.836,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de l'ouest du Mexique a donné son nom à une eau-de-vie tirée de l'agave bleu ?",
+        "explanation": "Les champs d'agaves bleus qui l'entourent, alignés à perte de vue, sont inscrits au patrimoine mondial de l'humanité.",
+        "label": "Tequila",
+        "country": "Mexique"
+      },
+      "en": {
+        "text": "Which town in western Mexico gave its name to a spirit distilled from blue agave?",
+        "explanation": "The surrounding fields of blue agave, lined up as far as the eye can see, are a World Heritage site.",
+        "label": "Tequila",
+        "country": "Mexico"
+      },
+      "es": {
+        "text": "¿Qué población del oeste de México dio su nombre a un aguardiente destilado del agave azul?",
+        "explanation": "Los campos de agave azul que la rodean, alineados hasta el horizonte, son Patrimonio de la Humanidad.",
+        "label": "Tequila",
+        "country": "México"
+      }
+    }
+  },
+  {
+    "sourceRef": "a0379d59b383af75",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 43.98,
+    "lng": 2.984,
+    "translations": {
+      "fr": {
+        "text": "Dans les caves fraîches et humides de quel village de l'Aveyron affine-t-on un célèbre fromage bleu de brebis ?",
+        "explanation": "Les moisissures bleues se développent dans des grottes naturelles parcourues de courants d'air appelés « fleurines ».",
+        "label": "Roquefort-sur-Soulzon",
+        "country": "France"
+      },
+      "en": {
+        "text": "In the cool, damp cellars of which village in the Aveyron is a famous blue sheep's-milk cheese matured?",
+        "explanation": "The blue moulds grow in natural caves crossed by draughts of air known as 'fleurines'.",
+        "label": "Roquefort-sur-Soulzon",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En las cuevas frescas y húmedas de qué pueblo del Aveyron se cura un famoso queso azul de oveja?",
+        "explanation": "Los mohos azules se desarrollan en grutas naturales atravesadas por corrientes de aire llamadas 'fleurines'.",
+        "label": "Roquefort-sur-Soulzon",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "3967a2441abf5f47",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 27.036,
+    "lng": 88.2627,
+    "translations": {
+      "fr": {
+        "text": "Sur les contreforts himalayens de quelle région de l'Inde cultive-t-on un thé noir parfumé, surnommé le « champagne des thés » ?",
+        "explanation": "Un petit train à vapeur, classé au patrimoine mondial, grimpe encore en lacets jusqu'à ces plantations d'altitude.",
+        "label": "Darjeeling",
+        "country": "Inde"
+      },
+      "en": {
+        "text": "On the Himalayan foothills of which region of India is a fragrant black tea, nicknamed the 'champagne of teas', grown?",
+        "explanation": "A little steam train, a World Heritage site, still climbs in zigzags up to these high-altitude plantations.",
+        "label": "Darjeeling",
+        "country": "India"
+      },
+      "es": {
+        "text": "¿En las estribaciones himalayas de qué región de la India se cultiva un té negro aromático, apodado el 'champán de los tés'?",
+        "explanation": "Un pequeño tren de vapor, Patrimonio Mundial, todavía sube en zigzag hasta estas plantaciones de altura.",
+        "label": "Darjeeling",
+        "country": "India"
+      }
+    }
+  }
+]
