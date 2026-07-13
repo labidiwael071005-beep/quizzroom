@@ -1,0 +1,1402 @@
+[
+  {
+    "sourceRef": "0d703689e7c44ddf",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 48.447,
+    "lng": 2.605,
+    "translations": {
+      "fr": {
+        "text": "Dans quel village en lisière de la forêt de Fontainebleau une école de paysagistes vint-elle peindre sur le motif au XIXᵉ siècle ?",
+        "explanation": "Ces peintres délaissèrent l'atelier pour installer leur chevalet dehors, ouvrant la voie aux impressionnistes qui les suivirent.",
+        "label": "Barbizon",
+        "country": "France"
+      },
+      "en": {
+        "text": "In which village on the edge of the Fontainebleau forest did a school of landscape painters come to paint from life in the 19th century?",
+        "explanation": "These painters left the studio to set up their easels outdoors, paving the way for the Impressionists who followed.",
+        "label": "Barbizon",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En qué pueblo al borde del bosque de Fontainebleau vino una escuela de paisajistas a pintar del natural en el siglo XIX?",
+        "explanation": "Estos pintores dejaron el taller para instalar su caballete al aire libre, abriendo el camino a los impresionistas que les siguieron.",
+        "label": "Barbizon",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "bd1f441dca99aed4",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 43.3172,
+    "lng": -2.6793,
+    "translations": {
+      "fr": {
+        "text": "Le bombardement de quelle petite ville basque, en 1937, inspira-t-il à Picasso l'une de ses toiles les plus bouleversantes ?",
+        "explanation": "Le peintre refusa que sa toile revienne dans son pays tant que la liberté n'y serait pas rétablie ; elle n'y arriva que des décennies plus tard.",
+        "label": "Guernica",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "The bombing of which small Basque town, in 1937, inspired one of Picasso's most harrowing paintings?",
+        "explanation": "The painter refused to let his canvas return to his country until freedom was restored there; it arrived only decades later.",
+        "label": "Guernica",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿El bombardeo de qué pequeña villa vasca, en 1937, inspiró a Picasso uno de sus lienzos más estremecedores?",
+        "explanation": "El pintor se negó a que su lienzo volviera a su país hasta que se restaurara la libertad; solo llegó décadas después.",
+        "label": "Guernica",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "26bcbf8c40e910ba",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 52.3874,
+    "lng": 4.6462,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville des Pays-Bas le peintre Frans Hals brossa-t-il ses portraits de gardes civiques éclatants de vie et de rires ?",
+        "explanation": "Son coup de pinceau vif et enlevé, saisissant l'instant d'un sourire, fascinera bien plus tard les impressionnistes.",
+        "label": "Haarlem",
+        "country": "Pays-Bas"
+      },
+      "en": {
+        "text": "In which Dutch town did the painter Frans Hals brush his portraits of civic guards, bursting with life and laughter?",
+        "explanation": "His quick, dashing brushwork, catching the instant of a smile, would fascinate the Impressionists much later.",
+        "label": "Haarlem",
+        "country": "Netherlands"
+      },
+      "es": {
+        "text": "¿En qué ciudad de los Países Bajos pintó Frans Hals sus retratos de guardias cívicas rebosantes de vida y de risas?",
+        "explanation": "Su pincelada ágil y suelta, que atrapa el instante de una sonrisa, fascinaría mucho después a los impresionistas.",
+        "label": "Haarlem",
+        "country": "Países Bajos"
+      }
+    }
+  },
+  {
+    "sourceRef": "ae600ea84a5dbe30",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 43.7102,
+    "lng": 7.262,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de la Côte d'Azur Henri Matisse passa-t-il ses dernières années, décorant de bout en bout une petite chapelle ?",
+        "explanation": "Âgé et cloué au lit, il découpait des formes dans du papier coloré à l'aide de grands ciseaux, inventant un art nouveau à partir de presque rien.",
+        "label": "Nice",
+        "country": "France"
+      },
+      "en": {
+        "text": "In which city on the French Riviera did Henri Matisse spend his last years, decorating a small chapel from top to bottom?",
+        "explanation": "Old and bedridden, he cut shapes from coloured paper with large scissors, inventing a new art out of almost nothing.",
+        "label": "Nice",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En qué ciudad de la Costa Azul pasó Henri Matisse sus últimos años, decorando de cabo a rabo una pequeña capilla?",
+        "explanation": "Anciano y postrado en cama, recortaba formas en papel de colores con grandes tijeras, inventando un arte nuevo casi de la nada.",
+        "label": "Niza",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "699e2dc7c53e194f",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 43.0707,
+    "lng": 12.6196,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville d'Ombrie Giotto peignit-il des fresques racontant la vie du saint qui prêchait aux oiseaux ?",
+        "explanation": "En donnant à ses personnages des visages et des émotions humaines, le peintre annonça, dès le Moyen Âge, la Renaissance à venir.",
+        "label": "Assise",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which town of Umbria did Giotto paint frescoes telling the life of the saint who preached to the birds?",
+        "explanation": "By giving his figures human faces and feelings, the painter foreshadowed, back in the Middle Ages, the coming Renaissance.",
+        "label": "Assisi",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Umbría pintó Giotto frescos que narran la vida del santo que predicaba a los pájaros?",
+        "explanation": "Al dar a sus figuras rostros y emociones humanas, el pintor anunció, ya en la Edad Media, el Renacimiento por venir.",
+        "label": "Asís",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "62a84624861b1e7e",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 56.9496,
+    "lng": 24.1052,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale d'un pays balte possède l'un des plus riches ensembles d'immeubles Art nouveau d'Europe ?",
+        "explanation": "Des façades entières s'y ornent de visages, de masques et de créatures de pierre, œuvre de bâtisseurs du début du XXᵉ siècle.",
+        "label": "Riga",
+        "country": "Lettonie"
+      },
+      "en": {
+        "text": "Which capital of a Baltic country holds one of the richest collections of Art Nouveau buildings in Europe?",
+        "explanation": "Whole façades there are adorned with faces, masks and stone creatures, the work of builders of the early 20th century.",
+        "label": "Riga",
+        "country": "Latvia"
+      },
+      "es": {
+        "text": "¿Qué capital de un país báltico posee uno de los conjuntos más ricos de edificios Art Nouveau de Europa?",
+        "explanation": "Fachadas enteras se adornan allí con rostros, máscaras y criaturas de piedra, obra de constructores de principios del siglo XX.",
+        "label": "Riga",
+        "country": "Letonia"
+      }
+    }
+  },
+  {
+    "sourceRef": "31a2269798ee8f6f",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 36.7213,
+    "lng": -4.4214,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville d'Andalousie, au bord de la Méditerranée, naquit le peintre Pablo Picasso ?",
+        "explanation": "Enfant prodige, il savait, disait son père, dessiner avant de parler ; sa ville natale lui consacre aujourd'hui un grand musée.",
+        "label": "Málaga",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "In which city of Andalusia, on the shore of the Mediterranean, was the painter Pablo Picasso born?",
+        "explanation": "A child prodigy, he could draw, said his father, before he could speak; his hometown now devotes a great museum to him.",
+        "label": "Málaga",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Andalucía, a orillas del Mediterráneo, nació el pintor Pablo Picasso?",
+        "explanation": "Niño prodigio, sabía, decía su padre, dibujar antes de hablar; su ciudad natal le dedica hoy un gran museo.",
+        "label": "Málaga",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "f6676a584bc054d3",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 47.5596,
+    "lng": 7.5886,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de Suisse, au bord du Rhin, accueille chaque année la plus grande foire d'art contemporain du monde ?",
+        "explanation": "Sa foire est devenue si prestigieuse qu'elle a essaimé sur d'autres continents, exportant son nom jusqu'à Miami et Hong Kong.",
+        "label": "Bâle",
+        "country": "Suisse"
+      },
+      "en": {
+        "text": "Which Swiss city, on the banks of the Rhine, hosts the world's largest contemporary art fair each year?",
+        "explanation": "Its fair grew so prestigious that it spread to other continents, exporting its name as far as Miami and Hong Kong.",
+        "label": "Basel",
+        "country": "Switzerland"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Suiza, a orillas del Rin, acoge cada año la mayor feria de arte contemporáneo del mundo?",
+        "explanation": "Su feria se volvió tan prestigiosa que se extendió a otros continentes, exportando su nombre hasta Miami y Hong Kong.",
+        "label": "Basilea",
+        "country": "Suiza"
+      }
+    }
+  },
+  {
+    "sourceRef": "bc88a34faa71c1ff",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 45.1564,
+    "lng": 10.7914,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle cité lombarde, entourée de lacs artificiels, Mantegna peignit-il en trompe-l'œil une « Chambre des époux » au plafond ouvert sur le ciel ?",
+        "explanation": "Il y perça, en peinture, un faux oculus d'où des angelots et des personnages semblent se pencher pour observer les visiteurs en contrebas.",
+        "label": "Mantoue",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which Lombard city, ringed by man-made lakes, did Mantegna paint a trompe-l'œil 'Bridal Chamber' with a ceiling open to the sky?",
+        "explanation": "In paint he pierced a false oculus, from which cherubs and figures seem to lean down to watch the visitors below.",
+        "label": "Mantua",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué ciudad lombarda, rodeada de lagos artificiales, pintó Mantegna en trampantojo una 'Cámara de los esposos' con el techo abierto al cielo?",
+        "explanation": "Abrió allí, con pintura, un falso óculo del que angelotes y figuras parecen asomarse para observar a los visitantes de abajo.",
+        "label": "Mantua",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "3efe8176da9489b3",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "lat": 32.9297,
+    "lng": 10.4518,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle région désertique du sud de la Tunisie furent tournées les scènes de la planète natale de Luke Skywalker dans « Star Wars » ?",
+        "explanation": "Le nom de cette planète désertique fut directement emprunté à celui de la ville voisine où logeait l'équipe de tournage.",
+        "label": "Tataouine",
+        "country": "Tunisie"
+      },
+      "en": {
+        "text": "In which desert region of southern Tunisia were the scenes of Luke Skywalker's home planet in 'Star Wars' filmed?",
+        "explanation": "The name of that desert planet was borrowed directly from the nearby town where the film crew was staying.",
+        "label": "Tataouine",
+        "country": "Tunisia"
+      },
+      "es": {
+        "text": "¿En qué región desértica del sur de Túnez se rodaron las escenas del planeta natal de Luke Skywalker en 'Star Wars'?",
+        "explanation": "El nombre de ese planeta desértico se tomó directamente de la ciudad vecina donde se alojaba el equipo de rodaje.",
+        "label": "Tataouine",
+        "country": "Túnez"
+      }
+    }
+  },
+  {
+    "sourceRef": "8c74bb2b1405bb9e",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "lat": 54.5973,
+    "lng": -5.9301,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale d'Irlande du Nord furent installés les studios de la série « Game of Thrones » ?",
+        "explanation": "Les paysages verts et brumeux des alentours servirent de décor aux contrées du Nord, gardées par un mur de glace imaginaire.",
+        "label": "Belfast",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which capital of Northern Ireland were the studios of the series 'Game of Thrones' set up?",
+        "explanation": "The green, misty landscapes nearby served as the backdrop for the northern lands, guarded by an imaginary wall of ice.",
+        "label": "Belfast",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué capital de Irlanda del Norte se instalaron los estudios de la serie 'Juego de Tronos'?",
+        "explanation": "Los paisajes verdes y brumosos de los alrededores sirvieron de escenario a las tierras del Norte, guardadas por un muro de hielo imaginario.",
+        "label": "Belfast",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "a89948ab15b0c065",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "lat": 32.0809,
+    "lng": -81.0912,
+    "translations": {
+      "fr": {
+        "text": "Sur un banc de quel parc d'une ville de Géorgie Forrest Gump raconte-t-il sa vie en attendant l'autobus ?",
+        "explanation": "Le fameux banc n'existait que pour le film ; il fut ensuite déplacé dans un musée local pour éviter que les touristes ne bloquent la rue.",
+        "label": "Savannah",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "On a park bench in which city of Georgia does Forrest Gump tell his life story while waiting for the bus?",
+        "explanation": "The famous bench existed only for the film; it was later moved to a local museum to stop tourists blocking the street.",
+        "label": "Savannah",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En el banco de un parque de qué ciudad de Georgia cuenta Forrest Gump su vida mientras espera el autobús?",
+        "explanation": "El famoso banco solo existía para la película; luego se trasladó a un museo local para que los turistas no bloquearan la calle.",
+        "label": "Savannah",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "3ea38b77be6632c7",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "lat": 40.6664,
+    "lng": 16.6043,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville du sud de l'Italie, aux habitations troglodytes creusées dans la roche, furent tournés de nombreux films bibliques et un James Bond ?",
+        "explanation": "Longtemps abandonnées et jugées insalubres, ses grottes habitées ont été réhabilitées et sont aujourd'hui inscrites au patrimoine mondial.",
+        "label": "Matera",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which city of southern Italy, with cave dwellings carved into the rock, were many biblical films and a James Bond shot?",
+        "explanation": "Long abandoned and deemed unfit to live in, its inhabited caves have been restored and are now a World Heritage site.",
+        "label": "Matera",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué ciudad del sur de Italia, con viviendas trogloditas excavadas en la roca, se rodaron muchas películas bíblicas y un James Bond?",
+        "explanation": "Mucho tiempo abandonadas y consideradas insalubres, sus cuevas habitadas se han rehabilitado y hoy son Patrimonio Mundial.",
+        "label": "Matera",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "2493ed8f0a1baa7a",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "lat": 35.9375,
+    "lng": 14.3754,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle île de la Méditerranée, surnommée le « mini-Hollywood » de l'Europe pour ses tournages, furent filmés « Gladiator » et « Troie » ?",
+        "explanation": "Un grand bassin construit au bord de la mer pour les scènes maritimes y sert encore aujourd'hui aux productions du monde entier.",
+        "label": "Malte",
+        "country": "Malte"
+      },
+      "en": {
+        "text": "On which Mediterranean island, nicknamed Europe's 'mini-Hollywood' for its shoots, were 'Gladiator' and 'Troy' filmed?",
+        "explanation": "A large seaside water tank built for marine scenes is still used there today by productions from around the world.",
+        "label": "Malta",
+        "country": "Malta"
+      },
+      "es": {
+        "text": "¿En qué isla del Mediterráneo, apodada el 'mini-Hollywood' de Europa por sus rodajes, se filmaron 'Gladiator' y 'Troya'?",
+        "explanation": "Un gran estanque construido junto al mar para las escenas marinas se sigue usando allí hoy por producciones de todo el mundo.",
+        "label": "Malta",
+        "country": "Malta"
+      }
+    }
+  },
+  {
+    "sourceRef": "93d31c9a02104cae",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "lat": 50.232,
+    "lng": 12.871,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville thermale de Bohême, aux façades colorées le long d'une rivière, accueille le plus ancien festival de cinéma d'Europe centrale ?",
+        "explanation": "Ses sources chaudes attirèrent jadis rois, compositeurs et écrivains ; on y « boit la cure » dans de petites tasses au long bec.",
+        "label": "Karlovy Vary",
+        "country": "Tchéquie"
+      },
+      "en": {
+        "text": "Which Bohemian spa town, with colourful façades along a river, hosts the oldest film festival in Central Europe?",
+        "explanation": "Its hot springs once drew kings, composers and writers; visitors 'take the cure' from little cups with long spouts.",
+        "label": "Karlovy Vary",
+        "country": "Czechia"
+      },
+      "es": {
+        "text": "¿Qué ciudad balneario de Bohemia, de fachadas coloridas a lo largo de un río, acoge el festival de cine más antiguo de Europa central?",
+        "explanation": "Sus aguas termales atrajeron antaño a reyes, compositores y escritores; se 'toma la cura' en tacitas de largo pitorro.",
+        "label": "Karlovy Vary",
+        "country": "Chequia"
+      }
+    }
+  },
+  {
+    "sourceRef": "cc917c2ae6fe7a6c",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "lat": 24.5854,
+    "lng": 73.7125,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville-lac du Rajasthan, aux palais blancs semblant flotter sur l'eau, fut tourné le James Bond « Octopussy » ?",
+        "explanation": "L'un de ses palais, bâti sur une île au milieu du lac, a été transformé en hôtel de luxe où l'on n'accède qu'en barque.",
+        "label": "Udaipur",
+        "country": "Inde"
+      },
+      "en": {
+        "text": "In which lake city of Rajasthan, with white palaces seeming to float on the water, was the James Bond film 'Octopussy' shot?",
+        "explanation": "One of its palaces, built on an island in the middle of the lake, has become a luxury hotel reachable only by boat.",
+        "label": "Udaipur",
+        "country": "India"
+      },
+      "es": {
+        "text": "¿En qué ciudad-lago de Rajastán, con palacios blancos que parecen flotar sobre el agua, se rodó el James Bond 'Octopussy'?",
+        "explanation": "Uno de sus palacios, construido en una isla en medio del lago, se ha convertido en un hotel de lujo al que solo se llega en barca.",
+        "label": "Udaipur",
+        "country": "India"
+      }
+    }
+  },
+  {
+    "sourceRef": "f6f0b308726708ff",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "lat": 52.913,
+    "lng": -4.098,
+    "translations": {
+      "fr": {
+        "text": "Dans quel étrange village d'inspiration italienne, au pays de Galles, fut tournée la série culte « Le Prisonnier » ?",
+        "explanation": "Son créateur, un architecte fantasque, y assembla pendant cinquante ans des bâtiments colorés pour prouver qu'on peut bâtir en beauté sans gâcher un paysage.",
+        "label": "Portmeirion",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which strange Italian-style village, in Wales, was the cult series 'The Prisoner' filmed?",
+        "explanation": "Its creator, a whimsical architect, spent fifty years assembling colourful buildings there to prove one can build beautifully without spoiling a landscape.",
+        "label": "Portmeirion",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué extraño pueblo de inspiración italiana, en Gales, se rodó la serie de culto 'El prisionero'?",
+        "explanation": "Su creador, un arquitecto fantasioso, pasó cincuenta años reuniendo allí edificios coloridos para probar que se puede construir con belleza sin estropear un paisaje.",
+        "label": "Portmeirion",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "99e0ed95567d89c3",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "lat": 44.5902,
+    "lng": -104.7146,
+    "translations": {
+      "fr": {
+        "text": "Quelle butte volcanique du Wyoming, aux parois profondément striées, sert de lieu de rendez-vous avec les extraterrestres dans « Rencontres du troisième type » ?",
+        "explanation": "Ce piton, sacré pour plusieurs peuples amérindiens, fut le tout premier site classé « monument national » des États-Unis.",
+        "label": "Devils Tower",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which volcanic butte in Wyoming, with deeply grooved sides, is the meeting place with aliens in 'Close Encounters of the Third Kind'?",
+        "explanation": "This tower, sacred to several Native American peoples, was the very first site declared a 'national monument' in the United States.",
+        "label": "Devils Tower",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué cerro volcánico de Wyoming, de laderas profundamente estriadas, sirve de punto de encuentro con los extraterrestres en 'Encuentros en la tercera fase'?",
+        "explanation": "Este pitón, sagrado para varios pueblos amerindios, fue el primer lugar declarado 'monumento nacional' de los Estados Unidos.",
+        "label": "Devils Tower",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "4f3e26383b5dc4cf",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "medium",
+    "lat": 37.3861,
+    "lng": -122.0839,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de la baie de San Francisco abrite le « Googleplex », siège du géant de la recherche en ligne ?",
+        "explanation": "Sur son campus, les employés circulent à vélos multicolores prêtés par l'entreprise, entre toboggans et salles de sieste.",
+        "label": "Mountain View",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which city in the San Francisco Bay is home to the 'Googleplex', headquarters of the online search giant?",
+        "explanation": "On its campus, employees ride around on multicoloured company bikes, between slides and nap rooms.",
+        "label": "Mountain View",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué ciudad de la bahía de San Francisco alberga el 'Googleplex', sede del gigante de la búsqueda en línea?",
+        "explanation": "En su campus, los empleados circulan en bicicletas multicolores prestadas por la empresa, entre toboganes y salas de siesta.",
+        "label": "Mountain View",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "3a987888dff64453",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "medium",
+    "lat": 37.453,
+    "lng": -122.1817,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de Californie se dresse le siège de Meta, la maison mère du réseau social Facebook ?",
+        "explanation": "Le panneau d'entrée du campus affiche encore, à son revers, le logo de l'entreprise qui occupait les lieux auparavant, comme un rappel d'humilité.",
+        "label": "Menlo Park",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which California city stands the headquarters of Meta, the parent company of the social network Facebook?",
+        "explanation": "The campus entrance sign still bears, on its reverse, the logo of the company that occupied the site before, as a reminder to stay humble.",
+        "label": "Menlo Park",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué ciudad de California se alza la sede de Meta, la matriz de la red social Facebook?",
+        "explanation": "El cartel de entrada del campus muestra aún, en su reverso, el logo de la empresa que ocupaba el lugar antes, como recordatorio de humildad.",
+        "label": "Menlo Park",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "c77e772279ca2078",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "medium",
+    "lat": 43.6047,
+    "lng": 1.4442,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville rose du sud de la France, capitale européenne de l'aéronautique, assemble les avions de ligne Airbus ?",
+        "explanation": "Les plus gros tronçons d'avion y arrivent par convois de nuit qui traversent lentement villages et petites routes, sous les yeux des curieux.",
+        "label": "Toulouse",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which pink-brick city in southern France, Europe's capital of aeronautics, assembles Airbus airliners?",
+        "explanation": "The largest aircraft sections arrive there in night convoys that slowly cross villages and back roads, watched by onlookers.",
+        "label": "Toulouse",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué ciudad rosada del sur de Francia, capital europea de la aeronáutica, ensambla los aviones de línea Airbus?",
+        "explanation": "Las mayores secciones de avión llegan allí en convoyes nocturnos que cruzan despacio pueblos y carreteras, ante la mirada de los curiosos.",
+        "label": "Toulouse",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "d4575a13848cffd6",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 17.385,
+    "lng": 78.4867,
+    "translations": {
+      "fr": {
+        "text": "Quelle grande ville du sud de l'Inde, rivale de Bangalore, est devenue un pôle majeur des services informatiques et des logiciels ?",
+        "explanation": "Réputée pour ses perles et son diamant géant vendu jadis à des rois, la ville s'est réinventée en capitale du numérique.",
+        "label": "Hyderabad",
+        "country": "Inde"
+      },
+      "en": {
+        "text": "Which large city in southern India, a rival of Bangalore, has become a major hub for IT services and software?",
+        "explanation": "Famed for its pearls and a giant diamond once sold to kings, the city has reinvented itself as a capital of the digital world.",
+        "label": "Hyderabad",
+        "country": "India"
+      },
+      "es": {
+        "text": "¿Qué gran ciudad del sur de la India, rival de Bangalore, se ha convertido en un importante polo de servicios informáticos y software?",
+        "explanation": "Famosa por sus perlas y un diamante gigante vendido antaño a reyes, la ciudad se reinventó como capital de lo digital.",
+        "label": "Hyderabad",
+        "country": "India"
+      }
+    }
+  },
+  {
+    "sourceRef": "f64ffe912728d422",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 30.2741,
+    "lng": 120.1551,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de l'est de la Chine, célèbre pour son lac et ses jardins, le géant du commerce en ligne Alibaba a-t-il son siège ?",
+        "explanation": "Son lac, chanté par les poètes depuis mille ans, inspira des générations de peintres avant de côtoyer les tours de la nouvelle économie.",
+        "label": "Hangzhou",
+        "country": "Chine"
+      },
+      "en": {
+        "text": "In which city of eastern China, famous for its lake and gardens, does the online commerce giant Alibaba have its headquarters?",
+        "explanation": "Its lake, praised by poets for a thousand years, inspired generations of painters before standing beside the towers of the new economy.",
+        "label": "Hangzhou",
+        "country": "China"
+      },
+      "es": {
+        "text": "¿En qué ciudad del este de China, famosa por su lago y sus jardines, tiene su sede el gigante del comercio en línea Alibaba?",
+        "explanation": "Su lago, cantado por los poetas desde hace mil años, inspiró a generaciones de pintores antes de convivir con las torres de la nueva economía.",
+        "label": "Hangzhou",
+        "country": "China"
+      }
+    }
+  },
+  {
+    "sourceRef": "e53edd7ead350442",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "medium",
+    "lat": 45.1885,
+    "lng": 5.7245,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville des Alpes françaises, cernée par les montagnes, est un grand centre de recherche sur les micro et nanotechnologies ?",
+        "explanation": "Un téléphérique aux cabines rondes, surnommées « les bulles », relie le cœur de la ville à un fort perché, offrant une vue sur les sommets.",
+        "label": "Grenoble",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which city in the French Alps, ringed by mountains, is a major research hub for micro and nanotechnology?",
+        "explanation": "A cable car with round cabins, nicknamed 'the bubbles', links the city centre to a perched fort, offering a view of the peaks.",
+        "label": "Grenoble",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué ciudad de los Alpes franceses, rodeada de montañas, es un gran centro de investigación en micro y nanotecnología?",
+        "explanation": "Un teleférico de cabinas redondas, apodadas 'las burbujas', une el centro de la ciudad con un fuerte encaramado, con vistas a las cumbres.",
+        "label": "Grenoble",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "0ecb774b6c55fdd0",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 43.4643,
+    "lng": -80.5204,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de l'Ontario, berceau de l'ancien roi du smartphone à clavier BlackBerry, est un pôle technologique du Canada ?",
+        "explanation": "Sa jeune université y forme tant d'ingénieurs que les géants du numérique viennent y recruter directement sur les bancs des amphithéâtres.",
+        "label": "Waterloo",
+        "country": "Canada"
+      },
+      "en": {
+        "text": "Which city in Ontario, birthplace of the former keyboard-smartphone king BlackBerry, is a technology hub of Canada?",
+        "explanation": "Its young university trains so many engineers that digital giants come to recruit them straight from the lecture halls.",
+        "label": "Waterloo",
+        "country": "Canada"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Ontario, cuna del antiguo rey del teléfono con teclado BlackBerry, es un polo tecnológico de Canadá?",
+        "explanation": "Su joven universidad forma a tantos ingenieros que los gigantes digitales acuden a reclutarlos directamente en las aulas.",
+        "label": "Waterloo",
+        "country": "Canadá"
+      }
+    }
+  },
+  {
+    "sourceRef": "57cf25d45f54bf3e",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "medium",
+    "lat": 47.3769,
+    "lng": 8.5417,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de Suisse, au bord de son lac, abrite le plus grand centre d'ingénierie de Google en dehors des États-Unis ?",
+        "explanation": "La ville figure régulièrement en tête des classements mondiaux de la qualité de vie, ce qui aide à y attirer des ingénieurs du monde entier.",
+        "label": "Zurich",
+        "country": "Suisse"
+      },
+      "en": {
+        "text": "Which Swiss city, on the shore of its lake, houses Google's largest engineering centre outside the United States?",
+        "explanation": "The city regularly tops world rankings for quality of life, which helps attract engineers from all over the globe.",
+        "label": "Zurich",
+        "country": "Switzerland"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Suiza, a orillas de su lago, alberga el mayor centro de ingeniería de Google fuera de los Estados Unidos?",
+        "explanation": "La ciudad encabeza a menudo las clasificaciones mundiales de calidad de vida, lo que ayuda a atraer ingenieros de todo el mundo.",
+        "label": "Zúrich",
+        "country": "Suiza"
+      }
+    }
+  },
+  {
+    "sourceRef": "133cd1b6e6a0559c",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 37.42,
+    "lng": 127.1265,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville satellite au sud de Séoul est devenue le principal pôle des jeux vidéo et des start-up de Corée du Sud ?",
+        "explanation": "Le pays y déploie les connexions à internet parmi les plus rapides du monde, socle d'une culture du jeu en ligne devenue sport national.",
+        "label": "Seongnam",
+        "country": "Corée du Sud"
+      },
+      "en": {
+        "text": "Which satellite city south of Seoul has become South Korea's main hub for video games and start-ups?",
+        "explanation": "The country rolls out there some of the fastest internet connections in the world, the base of an online-gaming culture turned national sport.",
+        "label": "Seongnam",
+        "country": "South Korea"
+      },
+      "es": {
+        "text": "¿Qué ciudad satélite al sur de Seúl se ha convertido en el principal polo de videojuegos y start-ups de Corea del Sur?",
+        "explanation": "El país despliega allí algunas de las conexiones a internet más rápidas del mundo, base de una cultura del juego en línea vuelta deporte nacional.",
+        "label": "Seongnam",
+        "country": "Corea del Sur"
+      }
+    }
+  },
+  {
+    "sourceRef": "2a68e5e285bf6015",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle grande ville américaine, au bord du lac Michigan, le blues du Sud s'électrifia avant que n'y naisse la house music ?",
+        "explanation": "Les migrants venus du Sud rural y branchèrent leurs guitares sur des amplis pour se faire entendre dans les clubs bruyants de la ville.",
+        "label": "Chicago",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which large American city, on the shore of Lake Michigan, did Southern blues go electric before house music was born there?",
+        "explanation": "Migrants from the rural South plugged their guitars into amplifiers there to be heard in the city's noisy clubs.",
+        "label": "Chicago",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué gran ciudad estadounidense, a orillas del lago Míchigan, se electrificó el blues del Sur antes de nacer allí la música house?",
+        "explanation": "Los migrantes venidos del Sur rural conectaron allí sus guitarras a amplificadores para oírse en los ruidosos clubes de la ciudad.",
+        "label": "Chicago",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "6abf65e237580c02",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 36.5271,
+    "lng": -6.2886,
+    "translations": {
+      "fr": {
+        "text": "Quelle ancienne ville portuaire d'Andalousie, l'une des plus vieilles d'Europe, est réputée pour son carnaval chanté et ses formes de flamenco ?",
+        "explanation": "Presque entièrement entourée par la mer, la ville fut fondée, dit-on, par des marins phéniciens il y a près de trois mille ans.",
+        "label": "Cadix",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "Which old port city of Andalusia, one of the oldest in Europe, is famed for its sung carnival and its forms of flamenco?",
+        "explanation": "Almost entirely surrounded by the sea, the city was founded, it is said, by Phoenician sailors nearly three thousand years ago.",
+        "label": "Cádiz",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿Qué antigua ciudad portuaria de Andalucía, una de las más viejas de Europa, es famosa por su carnaval cantado y sus formas de flamenco?",
+        "explanation": "Casi enteramente rodeada por el mar, la ciudad fue fundada, según se dice, por marinos fenicios hace casi tres mil años.",
+        "label": "Cádiz",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "b5fc6f3631e8bd14",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": -12.9714,
+    "lng": -38.5014,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du nord-est du Brésil, première capitale du pays, est le berceau de la musique afro-brésilienne et de ses grandes percussions ?",
+        "explanation": "Au son des tambours, son carnaval de rue rassemble des foules immenses derrière des camions-scènes qui font danser toute la ville.",
+        "label": "Salvador de Bahia",
+        "country": "Brésil"
+      },
+      "en": {
+        "text": "Which city in north-eastern Brazil, the country's first capital, is the cradle of Afro-Brazilian music and its great drumming?",
+        "explanation": "To the beat of drums, its street carnival draws huge crowds behind stage-trucks that set the whole city dancing.",
+        "label": "Salvador de Bahia",
+        "country": "Brazil"
+      },
+      "es": {
+        "text": "¿Qué ciudad del noreste de Brasil, primera capital del país, es la cuna de la música afrobrasileña y de sus grandes percusiones?",
+        "explanation": "Al son de los tambores, su carnaval callejero reúne a inmensas multitudes tras camiones-escenario que hacen bailar a toda la ciudad.",
+        "label": "Salvador de Bahía",
+        "country": "Brasil"
+      }
+    }
+  },
+  {
+    "sourceRef": "29dbfec8f3f2ad04",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 50.974,
+    "lng": 10.321,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de Thuringe, au pied d'un château fort perché, naquit le compositeur Jean-Sébastien Bach ?",
+        "explanation": "Dans ce même château, un célèbre réformateur traduisit jadis la Bible en allemand, marquant durablement la langue du pays.",
+        "label": "Eisenach",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which town of Thuringia, at the foot of a perched castle, was the composer Johann Sebastian Bach born?",
+        "explanation": "In that same castle a famous reformer once translated the Bible into German, leaving a lasting mark on the country's language.",
+        "label": "Eisenach",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Turingia, al pie de un castillo encaramado, nació el compositor Johann Sebastian Bach?",
+        "explanation": "En ese mismo castillo un célebre reformador tradujo antaño la Biblia al alemán, marcando de forma duradera la lengua del país.",
+        "label": "Eisenach",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "83a09af70d722f37",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 43.9102,
+    "lng": 12.9132,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville côtière d'Italie, qui lui consacre chaque été un festival lyrique, naquit le compositeur Gioachino Rossini ?",
+        "explanation": "Réputé aussi gourmet que génial, il composait, dit-on, à toute vitesse, quitte à recopier des passages entiers d'un opéra à l'autre.",
+        "label": "Pesaro",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which coastal city of Italy, which devotes an opera festival to him each summer, was the composer Gioachino Rossini born?",
+        "explanation": "Said to be as much a gourmet as a genius, he composed, it is claimed, at lightning speed, even recycling whole passages from one opera to another.",
+        "label": "Pesaro",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué ciudad costera de Italia, que le dedica cada verano un festival lírico, nació el compositor Gioachino Rossini?",
+        "explanation": "Tan gourmet como genial, componía, según se dice, a toda velocidad, incluso reciclando pasajes enteros de una ópera a otra.",
+        "label": "Pesaro",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "92cbc2a15d8c320b",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 52.153,
+    "lng": 1.603,
+    "translations": {
+      "fr": {
+        "text": "Dans quel petit port de la côte est de l'Angleterre le compositeur Benjamin Britten fonda-t-il son célèbre festival de musique ?",
+        "explanation": "La mer voisine, rude et grise, hante toute son œuvre, jusqu'à son opéra sur un pêcheur solitaire rejeté par son village.",
+        "label": "Aldeburgh",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which small port on the east coast of England did the composer Benjamin Britten found his famous music festival?",
+        "explanation": "The nearby sea, harsh and grey, haunts all his work, right up to his opera about a lonely fisherman shunned by his village.",
+        "label": "Aldeburgh",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué pequeño puerto de la costa este de Inglaterra fundó el compositor Benjamin Britten su famoso festival de música?",
+        "explanation": "El mar vecino, áspero y gris, impregna toda su obra, hasta su ópera sobre un pescador solitario rechazado por su pueblo.",
+        "label": "Aldeburgh",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "82a482e8776118e3",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 53.5511,
+    "lng": 9.9937,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle grande ville portuaire d'Allemagne les Beatles firent-ils leurs classes dans les clubs enfumés avant de devenir célèbres ?",
+        "explanation": "Ils y jouaient des nuits entières, parfois huit heures d'affilée, ce qui forgea leur endurance et leur répertoire hors du commun.",
+        "label": "Hambourg",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which large German port city did the Beatles cut their teeth in smoky clubs before becoming famous?",
+        "explanation": "They played there through whole nights, sometimes eight hours at a stretch, which forged their extraordinary stamina and repertoire.",
+        "label": "Hamburg",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué gran ciudad portuaria de Alemania se curtieron los Beatles en clubes llenos de humo antes de hacerse famosos?",
+        "explanation": "Tocaban allí noches enteras, a veces ocho horas seguidas, lo que forjó su extraordinaria resistencia y repertorio.",
+        "label": "Hamburgo",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "c666c1aca2a704b5",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 55.6415,
+    "lng": 12.0803,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du Danemark, ancienne capitale royale à la cathédrale de brique, accueille l'un des plus grands festivals de rock d'Europe du Nord ?",
+        "explanation": "Une grande partie des bénéfices du festival est reversée à des associations, ce qui en fait un événement autant caritatif que musical.",
+        "label": "Roskilde",
+        "country": "Danemark"
+      },
+      "en": {
+        "text": "Which Danish town, a former royal capital with a brick cathedral, hosts one of the largest rock festivals in Northern Europe?",
+        "explanation": "Much of the festival's profit is given to charities, making it as much a charitable as a musical event.",
+        "label": "Roskilde",
+        "country": "Denmark"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Dinamarca, antigua capital real con catedral de ladrillo, acoge uno de los mayores festivales de rock del norte de Europa?",
+        "explanation": "Gran parte de los beneficios del festival se dona a asociaciones, lo que lo hace tan benéfico como musical.",
+        "label": "Roskilde",
+        "country": "Dinamarca"
+      }
+    }
+  },
+  {
+    "sourceRef": "00ce18f5debac009",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 33.7206,
+    "lng": -116.2156,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle vallée désertique du sud de la Californie se tient, chaque printemps, le grand festival de musique de Coachella ?",
+        "explanation": "Une immense sculpture colorée y accueille les festivaliers ; d'année en année, l'événement est devenu une vitrine de la mode autant que de la musique.",
+        "label": "Indio",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which desert valley of southern California is the great Coachella music festival held each spring?",
+        "explanation": "A huge colourful sculpture greets festival-goers there; year after year, the event has become a showcase of fashion as much as music.",
+        "label": "Indio",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué valle desértico del sur de California se celebra, cada primavera, el gran festival de música de Coachella?",
+        "explanation": "Una enorme escultura colorida recibe allí a los asistentes; año tras año, el evento se ha vuelto un escaparate de la moda tanto como de la música.",
+        "label": "Indio",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "67a6ee71276f721f",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 46.644,
+    "lng": 1.96,
+    "translations": {
+      "fr": {
+        "text": "Dans le domaine de quel village du Berry la romancière George Sand reçut-elle Chopin, Balzac et Delacroix ?",
+        "explanation": "Cette femme de lettres portait un nom de plume masculin et s'habillait parfois en homme pour accéder à des lieux interdits aux femmes de son temps.",
+        "label": "Nohant",
+        "country": "France"
+      },
+      "en": {
+        "text": "On the estate of which village in the Berry did the novelist George Sand welcome Chopin, Balzac and Delacroix?",
+        "explanation": "This woman of letters used a man's pen name and sometimes dressed as a man to enter places barred to women of her time.",
+        "label": "Nohant",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En la finca de qué pueblo del Berry recibió la novelista George Sand a Chopin, Balzac y Delacroix?",
+        "explanation": "Esta mujer de letras usaba un seudónimo masculino y a veces vestía de hombre para acceder a lugares vedados a las mujeres de su tiempo.",
+        "label": "Nohant",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "e0d4a6ce6259b2a8",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 53.8655,
+    "lng": 10.6866,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville hanséatique d'Allemagne, aux portes de brique, Thomas Mann situa-t-il le lent déclin d'une famille de marchands dans « Les Buddenbrook » ?",
+        "explanation": "La ville, gênée d'y être dépeinte sans complaisance, mit longtemps avant de célébrer l'écrivain qui l'avait pourtant rendue célèbre.",
+        "label": "Lübeck",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which Hanseatic city of Germany, with its brick gates, did Thomas Mann set the slow decline of a merchant family in 'Buddenbrooks'?",
+        "explanation": "The city, uneasy at being portrayed so unflinchingly, took a long time to celebrate the writer who had made it famous.",
+        "label": "Lübeck",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué ciudad hanseática de Alemania, de puertas de ladrillo, situó Thomas Mann el lento declive de una familia de comerciantes en 'Los Buddenbrook'?",
+        "explanation": "La ciudad, incómoda por ser retratada sin complacencia, tardó mucho en celebrar al escritor que la había hecho famosa.",
+        "label": "Lübeck",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "c2eced01fb6869a5",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 47.2362,
+    "lng": 38.8969,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville portuaire du sud de la Russie, au bord de la mer d'Azov, naquit l'écrivain et dramaturge Anton Tchekhov ?",
+        "explanation": "Médecin de formation, il aimait dire que la médecine était son épouse et la littérature sa maîtresse.",
+        "label": "Taganrog",
+        "country": "Russie"
+      },
+      "en": {
+        "text": "In which port city of southern Russia, on the Sea of Azov, was the writer and playwright Anton Chekhov born?",
+        "explanation": "A doctor by training, he liked to say that medicine was his wife and literature his mistress.",
+        "label": "Taganrog",
+        "country": "Russia"
+      },
+      "es": {
+        "text": "¿En qué ciudad portuaria del sur de Rusia, a orillas del mar de Azov, nació el escritor y dramaturgo Antón Chéjov?",
+        "explanation": "Médico de formación, le gustaba decir que la medicina era su esposa y la literatura su amante.",
+        "label": "Taganrog",
+        "country": "Rusia"
+      }
+    }
+  },
+  {
+    "sourceRef": "39c30600cefd152c",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "lat": 42.5195,
+    "lng": -70.8967,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville du Massachusetts, tristement célèbre pour ses procès de sorcellerie, Nathaniel Hawthorne situa-t-il plusieurs de ses récits ?",
+        "explanation": "L'écrivain, dont un aïeul avait été juge lors de ces procès, ajouta, dit-on, une lettre à son nom pour prendre ses distances avec cette mémoire honteuse.",
+        "label": "Salem",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which town of Massachusetts, notorious for its witch trials, did Nathaniel Hawthorne set several of his tales?",
+        "explanation": "The writer, one of whose forebears had been a judge at those trials, is said to have added a letter to his name to distance himself from that shameful memory.",
+        "label": "Salem",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Massachusetts, tristemente famosa por sus juicios de brujería, situó Nathaniel Hawthorne varios de sus relatos?",
+        "explanation": "El escritor, uno de cuyos antepasados había sido juez en aquellos juicios, habría añadido una letra a su apellido para distanciarse de esa memoria vergonzosa.",
+        "label": "Salem",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "8a827d8c74363805",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 51.2802,
+    "lng": 1.0789,
+    "translations": {
+      "fr": {
+        "text": "Vers quelle ville cathédrale du sud-est de l'Angleterre cheminent les pèlerins conteurs de Geoffrey Chaucer ?",
+        "explanation": "Chaque pèlerin y raconte une histoire pour tromper l'ennui de la route, ce qui donne une fresque savoureuse de toute la société médiévale.",
+        "label": "Cantorbéry",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "Towards which cathedral city of south-east England do Geoffrey Chaucer's storytelling pilgrims travel?",
+        "explanation": "Each pilgrim tells a tale to pass the tedium of the road, giving a rich, lively picture of all of medieval society.",
+        "label": "Canterbury",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Hacia qué ciudad catedralicia del sureste de Inglaterra caminan los peregrinos cuentacuentos de Geoffrey Chaucer?",
+        "explanation": "Cada peregrino cuenta allí una historia para engañar el tedio del camino, lo que ofrece un sabroso retrato de toda la sociedad medieval.",
+        "label": "Canterbury",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "1a8280082ff39ac7",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 45.6495,
+    "lng": 13.7768,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville portuaire du nord-est de l'Italie l'écrivain irlandais James Joyce vécut-il longtemps en enseignant l'anglais ?",
+        "explanation": "Carrefour de langues et de peuples, la ville, longtemps rattachée à un empire voisin, imprégna profondément son œuvre cosmopolite.",
+        "label": "Trieste",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which port city of north-eastern Italy did the Irish writer James Joyce live for years while teaching English?",
+        "explanation": "A crossroads of languages and peoples, the city, long tied to a neighbouring empire, deeply steeped his cosmopolitan work.",
+        "label": "Trieste",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué ciudad portuaria del noreste de Italia vivió mucho tiempo el escritor irlandés James Joyce enseñando inglés?",
+        "explanation": "Cruce de lenguas y pueblos, la ciudad, largo tiempo ligada a un imperio vecino, impregnó profundamente su obra cosmopolita.",
+        "label": "Trieste",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "624e8ecfa2537c70",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "lat": 38.7979,
+    "lng": -9.3907,
+    "translations": {
+      "fr": {
+        "text": "Quel village portugais aux palais romantiques, niché dans des collines boisées près de Lisbonne, émerveilla le poète Byron ?",
+        "explanation": "Le poète le décrivit comme un « éden glorieux » ; ses palais colorés, perchés dans la brume, semblent tout droit sortis d'un conte.",
+        "label": "Sintra",
+        "country": "Portugal"
+      },
+      "en": {
+        "text": "Which Portuguese town of romantic palaces, nestled in wooded hills near Lisbon, amazed the poet Byron?",
+        "explanation": "The poet described it as a 'glorious Eden'; its colourful palaces, perched in the mist, look straight out of a fairy tale.",
+        "label": "Sintra",
+        "country": "Portugal"
+      },
+      "es": {
+        "text": "¿Qué villa portuguesa de palacios románticos, anidada en colinas boscosas cerca de Lisboa, maravilló al poeta Byron?",
+        "explanation": "El poeta la describió como un 'edén glorioso'; sus palacios coloridos, encaramados en la bruma, parecen salidos de un cuento.",
+        "label": "Sintra",
+        "country": "Portugal"
+      }
+    }
+  },
+  {
+    "sourceRef": "3a86f844c5e44a63",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 51.15,
+    "lng": -0.99,
+    "translations": {
+      "fr": {
+        "text": "Dans quel village du Hampshire, dans une maison de brique, Jane Austen écrivit-elle et révisa-t-elle ses grands romans ?",
+        "explanation": "Une porte grinçante de la maison ne fut jamais réparée : elle prévenait la romancière de l'arrivée d'un visiteur, le temps de cacher ses pages.",
+        "label": "Chawton",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which village of Hampshire, in a brick house, did Jane Austen write and revise her great novels?",
+        "explanation": "A creaking door in the house was never fixed: it warned the novelist of a visitor's arrival, giving her time to hide her pages.",
+        "label": "Chawton",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué pueblo de Hampshire, en una casa de ladrillo, escribió y revisó Jane Austen sus grandes novelas?",
+        "explanation": "Una puerta chirriante de la casa nunca se arregló: avisaba a la novelista de la llegada de una visita, dándole tiempo a esconder sus páginas.",
+        "label": "Chawton",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "c3105cf575fde1fc",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 48.411,
+    "lng": -1.75,
+    "translations": {
+      "fr": {
+        "text": "Dans le château de quel bourg breton l'écrivain Chateaubriand passa-t-il une enfance solitaire et mélancolique ?",
+        "explanation": "Le soir, l'enfant devait traverser seul de longs couloirs obscurs pour gagner sa chambre, au sommet d'une tour, ce qui nourrit son goût du romantisme.",
+        "label": "Combourg",
+        "country": "France"
+      },
+      "en": {
+        "text": "In the castle of which Breton town did the writer Chateaubriand spend a lonely, melancholy childhood?",
+        "explanation": "At night the boy had to cross long dark corridors alone to reach his room at the top of a tower, feeding his taste for the Romantic.",
+        "label": "Combourg",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En el castillo de qué localidad bretona pasó el escritor Chateaubriand una infancia solitaria y melancólica?",
+        "explanation": "De noche, el niño debía cruzar solo largos pasillos oscuros para llegar a su cuarto, en lo alto de una torre, lo que nutrió su gusto por el romanticismo.",
+        "label": "Combourg",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "ebdabc1c96edf941",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 53.2367,
+    "lng": -2.3085,
+    "translations": {
+      "fr": {
+        "text": "Où se dresse, dans la campagne anglaise du Cheshire, l'un des plus anciens grands radiotélescopes du monde, qui suivit les premières sondes spatiales ?",
+        "explanation": "Sa gigantesque antenne orientable capta les signaux des toutes premières machines lancées vers la Lune, en pleine course à l'espace.",
+        "label": "Jodrell Bank",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "Where, in the English countryside of Cheshire, stands one of the world's oldest great radio telescopes, which tracked the first space probes?",
+        "explanation": "Its giant steerable dish caught the signals of the very first machines launched towards the Moon, at the height of the space race.",
+        "label": "Jodrell Bank",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Dónde se alza, en la campiña inglesa de Cheshire, uno de los mayores radiotelescopios más antiguos del mundo, que siguió las primeras sondas espaciales?",
+        "explanation": "Su gigantesca antena orientable captó las señales de las primeras máquinas lanzadas hacia la Luna, en plena carrera espacial.",
+        "label": "Jodrell Bank",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "6ce9ffebca2cc6c6",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 18.3444,
+    "lng": -66.7527,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle île des Caraïbes se trouvait un gigantesque radiotélescope niché dans une cuvette naturelle, effondré en 2020 ?",
+        "explanation": "Son antenne, longtemps la plus grande du monde, servit de décor à des films et envoya vers l'espace un message destiné à d'éventuelles civilisations.",
+        "label": "Arecibo",
+        "country": "Porto Rico"
+      },
+      "en": {
+        "text": "On which Caribbean island stood a giant radio telescope set in a natural basin, which collapsed in 2020?",
+        "explanation": "Its dish, long the largest in the world, appeared as a film set and beamed into space a message meant for any listening civilisations.",
+        "label": "Arecibo",
+        "country": "Puerto Rico"
+      },
+      "es": {
+        "text": "¿En qué isla del Caribe se hallaba un gigantesco radiotelescopio encajado en una cuenca natural, derrumbado en 2020?",
+        "explanation": "Su antena, mucho tiempo la mayor del mundo, sirvió de escenario a películas y envió al espacio un mensaje destinado a posibles civilizaciones.",
+        "label": "Arecibo",
+        "country": "Puerto Rico"
+      }
+    }
+  },
+  {
+    "sourceRef": "40fd1db5cd04a250",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "medium",
+    "lat": 19.8207,
+    "lng": -155.4681,
+    "translations": {
+      "fr": {
+        "text": "Au sommet de quel volcan endormi de Hawaï, souvent au-dessus des nuages, se dressent de grands observatoires astronomiques ?",
+        "explanation": "L'air y est si pur et si sec que le ciel nocturne y compte parmi les plus limpides de la planète, un trésor pour les astronomes.",
+        "label": "Mauna Kea",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "On the summit of which dormant Hawaiian volcano, often above the clouds, do great astronomical observatories stand?",
+        "explanation": "The air there is so pure and dry that the night sky is among the clearest on the planet, a treasure for astronomers.",
+        "label": "Mauna Kea",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En la cima de qué volcán dormido de Hawái, a menudo por encima de las nubes, se alzan grandes observatorios astronómicos?",
+        "explanation": "El aire allí es tan puro y seco que el cielo nocturno figura entre los más límpidos del planeta, un tesoro para los astrónomos.",
+        "label": "Mauna Kea",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "3cbe9620aafa88be",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 49.8728,
+    "lng": 8.6512,
+    "translations": {
+      "fr": {
+        "text": "Depuis quelle ville allemande le centre de contrôle de l'Agence spatiale européenne pilote-t-il ses sondes à travers le système solaire ?",
+        "explanation": "C'est de là qu'une équipe fit atterrir, pour la première fois de l'histoire, un petit robot sur la surface glacée d'une comète.",
+        "label": "Darmstadt",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "From which German city does the control centre of the European Space Agency pilot its probes across the solar system?",
+        "explanation": "It was from here that a team landed, for the first time in history, a small robot on the icy surface of a comet.",
+        "label": "Darmstadt",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿Desde qué ciudad alemana pilota el centro de control de la Agencia Espacial Europea sus sondas a través del sistema solar?",
+        "explanation": "Fue desde aquí que un equipo posó, por primera vez en la historia, un pequeño robot sobre la superficie helada de un cometa.",
+        "label": "Darmstadt",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "a904fa3cf1c833d9",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 42.9369,
+    "lng": 0.1411,
+    "translations": {
+      "fr": {
+        "text": "Sur quel sommet des Pyrénées, accessible par téléphérique, un observatoire cartographia la Lune en détail avant les missions Apollo ?",
+        "explanation": "Ses cartes lunaires, parmi les plus précises de leur temps, aidèrent la NASA à choisir où poser ses astronautes en toute sécurité.",
+        "label": "Pic du Midi",
+        "country": "France"
+      },
+      "en": {
+        "text": "On which peak of the Pyrenees, reachable by cable car, did an observatory map the Moon in detail before the Apollo missions?",
+        "explanation": "Its lunar maps, among the most accurate of their time, helped NASA choose where to land its astronauts safely.",
+        "label": "Pic du Midi",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En qué cumbre de los Pirineos, accesible en teleférico, cartografió un observatorio la Luna en detalle antes de las misiones Apolo?",
+        "explanation": "Sus mapas lunares, de los más precisos de su tiempo, ayudaron a la NASA a elegir dónde posar a sus astronautas con seguridad.",
+        "label": "Pic du Midi",
+        "country": "Francia"
+      }
+    }
+  }
+]
