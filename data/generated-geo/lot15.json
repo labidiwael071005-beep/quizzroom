@@ -1,0 +1,1402 @@
+[
+  {
+    "sourceRef": "7f3d74ab6b002045",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "lat": 49.3752,
+    "lng": 10.179,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville médiévale de Bavière, aux remparts intacts et aux maisons colorées, inspira des décors de villages de contes chez Disney ?",
+        "explanation": "Épargnée par les destructions, elle offre l'une des rares vieilles villes d'Allemagne restées presque entières depuis le Moyen Âge.",
+        "label": "Rothenburg",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "Which medieval Bavarian town, with intact ramparts and colourful houses, inspired fairy-tale village sets at Disney?",
+        "explanation": "Spared from destruction, it offers one of the few old towns in Germany to have survived nearly whole since the Middle Ages.",
+        "label": "Rothenburg",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿Qué ciudad medieval de Baviera, de murallas intactas y casas coloridas, inspiró decorados de aldeas de cuento en Disney?",
+        "explanation": "Salvada de las destrucciones, ofrece uno de los pocos cascos antiguos de Alemania conservados casi enteros desde la Edad Media.",
+        "label": "Rothenburg",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "78e9b2130af69525",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "lat": 47.5622,
+    "lng": 13.6493,
+    "translations": {
+      "fr": {
+        "text": "Quel village autrichien au bord d'un lac, copié à l'identique en Chine, aurait inspiré le royaume gelé d'un film Disney ?",
+        "explanation": "Si prisé des visiteurs qu'il en croule sous les foules, il a dû limiter les cars de touristes venus photographier ses maisons se mirant dans l'eau.",
+        "label": "Hallstatt",
+        "country": "Autriche"
+      },
+      "en": {
+        "text": "Which Austrian village on a lake, copied identically in China, is said to have inspired the frozen kingdom of a Disney film?",
+        "explanation": "So beloved of visitors that it groans under the crowds, it has had to limit the tour buses coming to photograph its houses mirrored in the water.",
+        "label": "Hallstatt",
+        "country": "Austria"
+      },
+      "es": {
+        "text": "¿Qué pueblo austríaco a orillas de un lago, copiado idéntico en China, habría inspirado el reino helado de una película Disney?",
+        "explanation": "Tan querido por los visitantes que se colapsa de gente, ha tenido que limitar los autobuses de turistas que vienen a fotografiar sus casas reflejadas en el agua.",
+        "label": "Hallstatt",
+        "country": "Austria"
+      }
+    }
+  },
+  {
+    "sourceRef": "f1620ec880549803",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "lat": 37.238,
+    "lng": -5.105,
+    "translations": {
+      "fr": {
+        "text": "Dans les arènes de quelle ville d'Andalousie fut tournée une spectaculaire scène de combat de « Game of Thrones » ?",
+        "explanation": "Habituées aux corridas, ses arènes de brique rouge se transformèrent le temps d'un tournage en fosse aux dragons de la série.",
+        "label": "Osuna",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "In the bullring of which town in Andalusia was a spectacular fighting scene of 'Game of Thrones' filmed?",
+        "explanation": "Used to bullfights, its red-brick arena was turned for a shoot into the dragon pit of the series.",
+        "label": "Osuna",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿En la plaza de toros de qué ciudad de Andalucía se rodó una espectacular escena de combate de 'Juego de Tronos'?",
+        "explanation": "Acostumbrada a las corridas, su plaza de ladrillo rojo se transformó durante un rodaje en el foso de dragones de la serie.",
+        "label": "Osuna",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "cb445b4519066dd9",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "lat": 63.4194,
+    "lng": -19.006,
+    "translations": {
+      "fr": {
+        "text": "Près de quel village d'Islande, aux plages de sable noir et aux aiguilles rocheuses, furent tournés de nombreux films et séries ?",
+        "explanation": "Ses paysages irréels, entre glace et lave, servent souvent de décor à des mondes imaginaires, tant leur beauté semble venir d'une autre planète.",
+        "label": "Vík",
+        "country": "Islande"
+      },
+      "en": {
+        "text": "Near which village in Iceland, with black sand beaches and rock spires, were many films and series filmed?",
+        "explanation": "Its unreal landscapes, between ice and lava, often serve as sets for imaginary worlds, so otherworldly does their beauty seem.",
+        "label": "Vík",
+        "country": "Iceland"
+      },
+      "es": {
+        "text": "¿Cerca de qué pueblo de Islandia, de playas de arena negra y agujas rocosas, se rodaron numerosas películas y series?",
+        "explanation": "Sus paisajes irreales, entre hielo y lava, sirven a menudo de escenario a mundos imaginarios, de tan sobrenatural que parece su belleza.",
+        "label": "Vík",
+        "country": "Islandia"
+      }
+    }
+  },
+  {
+    "sourceRef": "d1f02cdeb680b157",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "lat": 55.4157,
+    "lng": -1.7057,
+    "translations": {
+      "fr": {
+        "text": "Dans la cour de quel château du Northumberland Harry Potter apprend-il à voler sur un balai au cinéma ?",
+        "explanation": "Habité par la même famille depuis plus de sept siècles, ce château est l'un des plus vastes encore occupés d'Angleterre.",
+        "label": "Alnwick",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In the courtyard of which Northumberland castle does Harry Potter learn to fly on a broomstick in the films?",
+        "explanation": "Lived in by the same family for over seven centuries, this castle is one of the largest still occupied in England.",
+        "label": "Alnwick",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En el patio de qué castillo de Northumberland aprende Harry Potter a volar en escoba en el cine?",
+        "explanation": "Habitado por la misma familia desde hace más de siete siglos, este castillo es uno de los mayores aún ocupados de Inglaterra.",
+        "label": "Alnwick",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "213d9bcfa5aa7c5a",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "lat": 30.3096,
+    "lng": -104.0207,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle petite ville du désert texan, devenue repaire d'artistes, furent tournés « Géant » et « No Country for Old Men » ?",
+        "explanation": "Ses habitants observent parfois d'étranges lueurs dansant à l'horizon la nuit, un mystère lumineux jamais tout à fait expliqué.",
+        "label": "Marfa",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which small town of the Texas desert, now an artists' haven, were 'Giant' and 'No Country for Old Men' filmed?",
+        "explanation": "Its residents sometimes see strange lights dancing on the horizon at night, a luminous mystery never quite explained.",
+        "label": "Marfa",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué pequeña ciudad del desierto de Texas, hoy refugio de artistas, se rodaron 'Gigante' y 'No es país para viejos'?",
+        "explanation": "Sus habitantes observan a veces extrañas luces bailando en el horizonte por la noche, un misterio luminoso nunca del todo explicado.",
+        "label": "Marfa",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "ecf3fd4c4c67177c",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "lat": 31.0996,
+    "lng": -4.0114,
+    "translations": {
+      "fr": {
+        "text": "Sur quelles grandes dunes dorées du sud-est du Maroc furent tournées de nombreuses scènes de désert de films hollywoodiens ?",
+        "explanation": "Certaines de ses dunes dépassent cent cinquante mètres de haut ; au coucher du soleil, leur sable prend des teintes rouges et orangées irréelles.",
+        "label": "Merzouga",
+        "country": "Maroc"
+      },
+      "en": {
+        "text": "On which great golden dunes of south-eastern Morocco were many desert scenes of Hollywood films shot?",
+        "explanation": "Some of its dunes rise over one hundred and fifty metres; at sunset, their sand takes on unreal red and orange hues.",
+        "label": "Merzouga",
+        "country": "Morocco"
+      },
+      "es": {
+        "text": "¿En qué grandes dunas doradas del sureste de Marruecos se rodaron numerosas escenas de desierto de películas de Hollywood?",
+        "explanation": "Algunas de sus dunas superan los ciento cincuenta metros; al atardecer, su arena adquiere tonos rojos y anaranjados irreales.",
+        "label": "Merzouga",
+        "country": "Marruecos"
+      }
+    }
+  },
+  {
+    "sourceRef": "b2d71691f989fe9e",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "lat": 35.1796,
+    "lng": 129.0756,
+    "translations": {
+      "fr": {
+        "text": "Quelle grande ville portuaire de Corée du Sud accueille le plus grand festival de cinéma d'Asie ?",
+        "explanation": "Le succès mondial du cinéma coréen, du film d'horreur au drame primé, a fait de cette ville une vitrine incontournable du septième art asiatique.",
+        "label": "Busan",
+        "country": "Corée du Sud"
+      },
+      "en": {
+        "text": "Which large port city of South Korea hosts the biggest film festival in Asia?",
+        "explanation": "The worldwide success of Korean cinema, from horror to award-winning drama, has made this city a key showcase of Asian film.",
+        "label": "Busan",
+        "country": "South Korea"
+      },
+      "es": {
+        "text": "¿Qué gran ciudad portuaria de Corea del Sur acoge el mayor festival de cine de Asia?",
+        "explanation": "El éxito mundial del cine coreano, del terror al drama premiado, ha hecho de esta ciudad un escaparate clave del séptimo arte asiático.",
+        "label": "Busan",
+        "country": "Corea del Sur"
+      }
+    }
+  },
+  {
+    "sourceRef": "ad4f8a614195dd10",
+    "type": "geo",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "lat": 45.8992,
+    "lng": 6.1294,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville des Alpes françaises, au bord d'un lac aux eaux limpides, accueille le plus grand festival du film d'animation au monde ?",
+        "explanation": "Chaque année, le public y lance sur l'écran des avions en papier avant les projections, une tradition bruyante et joyeuse propre au festival.",
+        "label": "Annecy",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which town in the French Alps, on a lake of crystal-clear water, hosts the largest animated film festival in the world?",
+        "explanation": "Each year the audience there throws paper planes at the screen before screenings, a noisy, joyful tradition unique to the festival.",
+        "label": "Annecy",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué ciudad de los Alpes franceses, a orillas de un lago de aguas cristalinas, acoge el mayor festival de cine de animación del mundo?",
+        "explanation": "Cada año el público lanza aviones de papel a la pantalla antes de las proyecciones, una tradición ruidosa y alegre propia del festival.",
+        "label": "Annecy",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "0133f4d9ffde80ca",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 52.59,
+    "lng": -1.41,
+    "translations": {
+      "fr": {
+        "text": "Sur quel champ de bataille anglais le roi Richard III perdit-il la vie et la couronne en 1485, mettant fin à la guerre des Deux-Roses ?",
+        "explanation": "Ses ossements furent retrouvés en 2012 sous un parking, identifiés grâce à l'ADN d'un lointain descendant : un roi enfoui sous le bitume.",
+        "label": "Bosworth",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "On which English battlefield did King Richard III lose his life and crown in 1485, ending the Wars of the Roses?",
+        "explanation": "His bones were found in 2012 beneath a car park, identified by the DNA of a distant descendant: a king buried under tarmac.",
+        "label": "Bosworth",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué campo de batalla inglés perdió el rey Ricardo III la vida y la corona en 1485, poniendo fin a la guerra de las Dos Rosas?",
+        "explanation": "Sus huesos se hallaron en 2012 bajo un aparcamiento, identificados por el ADN de un lejano descendiente: un rey enterrado bajo el asfalto.",
+        "label": "Bosworth",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "a1e82a631e3a0c8b",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 38.4333,
+    "lng": 21.85,
+    "translations": {
+      "fr": {
+        "text": "Au large de quel golfe de Grèce une flotte chrétienne écrasa-t-elle la marine ottomane lors d'une grande bataille navale de 1571 ?",
+        "explanation": "Un jeune soldat espagnol y perdit l'usage de la main gauche ; devenu écrivain, il s'en enorgueillit toute sa vie : c'était l'auteur de « Don Quichotte ».",
+        "label": "Lépante",
+        "country": "Grèce"
+      },
+      "en": {
+        "text": "Off which gulf of Greece did a Christian fleet crush the Ottoman navy in a great naval battle of 1571?",
+        "explanation": "A young Spanish soldier there lost the use of his left hand; later a writer, he took pride in it all his life: it was the author of 'Don Quixote'.",
+        "label": "Lepanto",
+        "country": "Greece"
+      },
+      "es": {
+        "text": "¿Frente a qué golfo de Grecia una flota cristiana aplastó a la marina otomana en una gran batalla naval de 1571?",
+        "explanation": "Un joven soldado español perdió allí el uso de la mano izquierda; ya escritor, se enorgulleció de ello toda su vida: era el autor de 'Don Quijote'.",
+        "label": "Lepanto",
+        "country": "Grecia"
+      }
+    }
+  },
+  {
+    "sourceRef": "7b04ae0d41819673",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 53.4869,
+    "lng": 20.0872,
+    "translations": {
+      "fr": {
+        "text": "Près de quel village de Pologne les chevaliers Teutoniques subirent-ils en 1410 une défaite écrasante face aux Polonais et Lituaniens ?",
+        "explanation": "Cette victoire, longtemps célébrée comme un symbole national, opposa des dizaines de milliers de combattants, un affrontement colossal pour l'époque.",
+        "label": "Grunwald",
+        "country": "Pologne"
+      },
+      "en": {
+        "text": "Near which Polish village did the Teutonic Knights suffer a crushing defeat in 1410 at the hands of the Poles and Lithuanians?",
+        "explanation": "This victory, long celebrated as a national symbol, pitted tens of thousands of fighters against each other, a colossal clash for the time.",
+        "label": "Grunwald",
+        "country": "Poland"
+      },
+      "es": {
+        "text": "¿Cerca de qué aldea de Polonia sufrieron los caballeros teutónicos, en 1410, una derrota aplastante ante polacos y lituanos?",
+        "explanation": "Esta victoria, celebrada mucho tiempo como símbolo nacional, enfrentó a decenas de miles de combatientes, un choque colosal para la época.",
+        "label": "Grunwald",
+        "country": "Polonia"
+      }
+    }
+  },
+  {
+    "sourceRef": "3651c4ffc63f74e4",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 50.582,
+    "lng": 3.19,
+    "translations": {
+      "fr": {
+        "text": "Près de quel village du nord de la France le roi Philippe Auguste remporta-t-il en 1214 une victoire fondatrice pour son royaume ?",
+        "explanation": "On raconte que le roi, un instant renversé de cheval, fut sauvé par son armure et l'ardeur de ses chevaliers, avant de sceller son triomphe.",
+        "label": "Bouvines",
+        "country": "France"
+      },
+      "en": {
+        "text": "Near which village in northern France did King Philip Augustus win, in 1214, a victory that helped found his kingdom?",
+        "explanation": "It is said the king, briefly thrown from his horse, was saved by his armour and the fury of his knights, before sealing his triumph.",
+        "label": "Bouvines",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Cerca de qué aldea del norte de Francia obtuvo el rey Felipe Augusto, en 1214, una victoria fundacional para su reino?",
+        "explanation": "Se cuenta que el rey, un instante derribado del caballo, fue salvado por su armadura y el ardor de sus caballeros, antes de sellar su triunfo.",
+        "label": "Bouvines",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "0b060993e468f1b4",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 51.254,
+    "lng": 12.14,
+    "translations": {
+      "fr": {
+        "text": "Près de quelle ville de Saxe le roi de Suède Gustave-Adolphe trouva-t-il la mort lors d'une bataille de la guerre de Trente Ans ?",
+        "explanation": "Ce roi guerrier, surnommé le « Lion du Nord », révolutionna l'art militaire par ses canons légers et ses manœuvres rapides.",
+        "label": "Lützen",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "Near which town in Saxony did the Swedish king Gustavus Adolphus meet his death in a battle of the Thirty Years' War?",
+        "explanation": "This warrior king, nicknamed the 'Lion of the North', revolutionised the art of war with his light cannon and swift manoeuvres.",
+        "label": "Lützen",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿Cerca de qué ciudad de Sajonia halló la muerte el rey de Suecia Gustavo Adolfo en una batalla de la guerra de los Treinta Años?",
+        "explanation": "Este rey guerrero, apodado el 'León del Norte', revolucionó el arte militar con sus cañones ligeros y sus maniobras rápidas.",
+        "label": "Lützen",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "5747a2740104b4bb",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 45.5703,
+    "lng": -107.429,
+    "translations": {
+      "fr": {
+        "text": "Près de quelle rivière du Montana le général Custer et ses soldats furent-ils anéantis par les Sioux et les Cheyennes en 1876 ?",
+        "explanation": "Persuadé de sa supériorité, l'officier attaqua un immense campement sans attendre de renforts : de sa colonne, presque personne ne survécut.",
+        "label": "Little Bighorn",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Near which river in Montana were General Custer and his soldiers wiped out by the Sioux and Cheyenne in 1876?",
+        "explanation": "Convinced of his superiority, the officer attacked a huge camp without waiting for reinforcements: of his column, almost no one survived.",
+        "label": "Little Bighorn",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Cerca de qué río de Montana fueron aniquilados el general Custer y sus soldados por los sioux y los cheyenes en 1876?",
+        "explanation": "Convencido de su superioridad, el oficial atacó un enorme campamento sin esperar refuerzos: de su columna, casi nadie sobrevivió.",
+        "label": "Little Bighorn",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "a288afcd4d060dab",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 41.306,
+    "lng": 16.133,
+    "translations": {
+      "fr": {
+        "text": "Près de quel village du sud-est de l'Italie le général Hannibal anéantit-il l'armée romaine en 216 avant notre ère, en l'encerclant ?",
+        "explanation": "Sa manœuvre d'encerclement total est encore étudiée dans les écoles militaires comme un chef-d'œuvre de tactique, deux mille ans plus tard.",
+        "label": "Cannae",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Near which village of south-eastern Italy did the general Hannibal annihilate the Roman army in 216 BC by encircling it?",
+        "explanation": "His manoeuvre of total encirclement is still studied in military schools as a masterpiece of tactics, two thousand years on.",
+        "label": "Cannae",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Cerca de qué aldea del sureste de Italia aniquiló el general Aníbal al ejército romano en 216 a. C., rodeándolo?",
+        "explanation": "Su maniobra de cerco total se estudia aún en las escuelas militares como una obra maestra de táctica, dos mil años después.",
+        "label": "Cannas",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "836e38ba2e616c7c",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 47.537,
+    "lng": 4.5,
+    "translations": {
+      "fr": {
+        "text": "Sur le site de quelle bataille de Gaule le chef gaulois Vercingétorix se rendit-il à Jules César en 52 avant notre ère ?",
+        "explanation": "Assiégé derrière une double ligne de fortifications, l'armée gauloise affamée dut capituler ; son chef jeta ses armes aux pieds du vainqueur.",
+        "label": "Alésia",
+        "country": "France"
+      },
+      "en": {
+        "text": "On the site of which battle in Gaul did the Gaulish chief Vercingetorix surrender to Julius Caesar in 52 BC?",
+        "explanation": "Besieged behind a double line of fortifications, the starving Gaulish army had to capitulate; its chief threw his weapons at the victor's feet.",
+        "label": "Alesia",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En el emplazamiento de qué batalla de la Galia se rindió el caudillo galo Vercingétorix a Julio César en el 52 a. C.?",
+        "explanation": "Sitiado tras una doble línea de fortificaciones, el hambriento ejército galo tuvo que capitular; su jefe arrojó sus armas a los pies del vencedor.",
+        "label": "Alesia",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "7a8637749e2061eb",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 36.3,
+    "lng": 9.45,
+    "translations": {
+      "fr": {
+        "text": "Sur quel champ de bataille d'Afrique du Nord le général romain Scipion vainquit-il définitivement Hannibal en 202 avant notre ère ?",
+        "explanation": "Le Romain retourna contre lui l'arme favorite du Carthaginois : effrayés par des trompettes, ses éléphants se retournèrent contre leurs propres rangs.",
+        "label": "Zama",
+        "country": "Tunisie"
+      },
+      "en": {
+        "text": "On which North African battlefield did the Roman general Scipio finally defeat Hannibal in 202 BC?",
+        "explanation": "The Roman turned the Carthaginian's favourite weapon against him: scared by trumpets, his elephants charged back into their own ranks.",
+        "label": "Zama",
+        "country": "Tunisia"
+      },
+      "es": {
+        "text": "¿En qué campo de batalla del norte de África venció definitivamente el general romano Escipión a Aníbal en el 202 a. C.?",
+        "explanation": "El romano volvió contra él el arma favorita del cartaginés: asustados por trompetas, sus elefantes cargaron contra sus propias filas.",
+        "label": "Zama",
+        "country": "Túnez"
+      }
+    }
+  },
+  {
+    "sourceRef": "498b37633746beb9",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 38.92,
+    "lng": 100.45,
+    "translations": {
+      "fr": {
+        "text": "Quelles montagnes de l'ouest de la Chine, striées de rouge, de jaune et de vert, ressemblent à un arc-en-ciel de roche ?",
+        "explanation": "Ces couches colorées, empilées puis soulevées et érodées pendant des millions d'années, révèlent la longue histoire de la Terre à ciel ouvert.",
+        "label": "Zhangye",
+        "country": "Chine"
+      },
+      "en": {
+        "text": "Which mountains of western China, streaked with red, yellow and green, look like a rainbow of rock?",
+        "explanation": "These coloured layers, stacked then lifted and eroded over millions of years, reveal the long history of the Earth in the open.",
+        "label": "Zhangye",
+        "country": "China"
+      },
+      "es": {
+        "text": "¿Qué montañas del oeste de China, veteadas de rojo, amarillo y verde, parecen un arcoíris de roca?",
+        "explanation": "Estas capas de colores, apiladas y luego levantadas y erosionadas durante millones de años, revelan la larga historia de la Tierra a cielo abierto.",
+        "label": "Zhangye",
+        "country": "China"
+      }
+    }
+  },
+  {
+    "sourceRef": "201d2ae8451ca0d8",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 37.593,
+    "lng": -112.1871,
+    "translations": {
+      "fr": {
+        "text": "Quel parc de l'Utah hérisse ses amphithéâtres de milliers de cheminées de fée orange, appelées « hoodoos » ?",
+        "explanation": "Ces colonnes fragiles, sculptées par le gel qui fend la roche nuit après nuit, s'effritent sans cesse : le paysage change à l'échelle d'une vie.",
+        "label": "Bryce Canyon",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which park in Utah bristles its amphitheatres with thousands of orange rock pillars called 'hoodoos'?",
+        "explanation": "These fragile columns, carved by frost splitting the rock night after night, keep crumbling: the landscape changes within a lifetime.",
+        "label": "Bryce Canyon",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué parque de Utah eriza sus anfiteatros con miles de chimeneas de hadas anaranjadas, llamadas 'hoodoos'?",
+        "explanation": "Estas columnas frágiles, talladas por la helada que hiende la roca noche tras noche, se desmoronan sin cesar: el paisaje cambia en el lapso de una vida.",
+        "label": "Bryce Canyon",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "07e308bfbca80995",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 26.0173,
+    "lng": 76.5026,
+    "translations": {
+      "fr": {
+        "text": "Dans quel parc du Rajasthan, autour d'un ancien fort en ruine, peut-on observer des tigres du Bengale à l'état sauvage ?",
+        "explanation": "Les tigres y arpentent parfois les vestiges d'anciens palais envahis par la jungle, offrant des scènes dignes d'un livre d'aventures.",
+        "label": "Ranthambore",
+        "country": "Inde"
+      },
+      "en": {
+        "text": "In which park of Rajasthan, around a ruined old fort, can one watch Bengal tigers in the wild?",
+        "explanation": "The tigers there sometimes prowl the remains of old palaces overgrown by the jungle, offering scenes worthy of an adventure book.",
+        "label": "Ranthambore",
+        "country": "India"
+      },
+      "es": {
+        "text": "¿En qué parque de Rajastán, en torno a un viejo fuerte en ruinas, se pueden observar tigres de Bengala en libertad?",
+        "explanation": "Los tigres recorren a veces los restos de antiguos palacios invadidos por la jungla, ofreciendo escenas dignas de un libro de aventuras.",
+        "label": "Ranthambore",
+        "country": "India"
+      }
+    }
+  },
+  {
+    "sourceRef": "80daaecb6529592a",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": 14.2417,
+    "lng": 40.3,
+    "translations": {
+      "fr": {
+        "text": "Quel site volcanique d'Éthiopie, l'un des lieux les plus chauds de la planète, étale des mares acides jaunes, vertes et orangées ?",
+        "explanation": "Ce décor irréel de sel et de soufre, dépourvu de toute vie, ressemble tant à une autre planète qu'on y teste parfois du matériel destiné à Mars.",
+        "label": "Dallol",
+        "country": "Éthiopie"
+      },
+      "en": {
+        "text": "Which volcanic site in Ethiopia, one of the hottest places on the planet, spreads out yellow, green and orange acid pools?",
+        "explanation": "This unreal scene of salt and sulphur, devoid of all life, so resembles another planet that gear bound for Mars is sometimes tested there.",
+        "label": "Dallol",
+        "country": "Ethiopia"
+      },
+      "es": {
+        "text": "¿Qué lugar volcánico de Etiopía, uno de los más calurosos del planeta, despliega charcas ácidas amarillas, verdes y anaranjadas?",
+        "explanation": "Este decorado irreal de sal y azufre, sin vida alguna, se parece tanto a otro planeta que a veces se prueban allí equipos destinados a Marte.",
+        "label": "Dallol",
+        "country": "Etiopía"
+      }
+    }
+  },
+  {
+    "sourceRef": "941afd1a72a8ceeb",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": 10.1927,
+    "lng": 118.9105,
+    "translations": {
+      "fr": {
+        "text": "Quel archipel des Philippines, aux lagons émeraude cernés de falaises calcaires, est souvent élu parmi les plus belles îles du monde ?",
+        "explanation": "On y navigue entre des îlots pointus émergeant d'une eau translucide, découvrant lagons cachés et grottes accessibles seulement à marée basse.",
+        "label": "Palawan",
+        "country": "Philippines"
+      },
+      "en": {
+        "text": "Which archipelago of the Philippines, with emerald lagoons ringed by limestone cliffs, is often voted among the world's most beautiful islands?",
+        "explanation": "One sails there between pointed islets rising from translucent water, finding hidden lagoons and caves reachable only at low tide.",
+        "label": "Palawan",
+        "country": "Philippines"
+      },
+      "es": {
+        "text": "¿Qué archipiélago de Filipinas, de lagunas esmeralda rodeadas de acantilados calizos, es elegido a menudo entre las islas más bellas del mundo?",
+        "explanation": "Se navega entre islotes puntiagudos que emergen de aguas translúcidas, descubriendo lagunas ocultas y cuevas accesibles solo con marea baja.",
+        "label": "Palawan",
+        "country": "Filipinas"
+      }
+    }
+  },
+  {
+    "sourceRef": "7ee23198e2d9d4d3",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": 64.0784,
+    "lng": -16.2306,
+    "translations": {
+      "fr": {
+        "text": "Sur quel lagon glaciaire d'Islande flottent des icebergs bleus détachés d'un glacier, avant de gagner l'océan ?",
+        "explanation": "Emportés par le courant jusqu'à une plage de sable noir voisine, ces blocs de glace scintillent comme des diamants échoués sur le rivage.",
+        "label": "Jökulsárlón",
+        "country": "Islande"
+      },
+      "en": {
+        "text": "On which glacial lagoon in Iceland do blue icebergs, broken off a glacier, float before reaching the ocean?",
+        "explanation": "Carried by the current to a nearby black sand beach, these blocks of ice sparkle like diamonds stranded on the shore.",
+        "label": "Jökulsárlón",
+        "country": "Iceland"
+      },
+      "es": {
+        "text": "¿En qué laguna glaciar de Islandia flotan icebergs azules desprendidos de un glaciar, antes de llegar al océano?",
+        "explanation": "Arrastrados por la corriente hasta una playa de arena negra cercana, estos bloques de hielo brillan como diamantes varados en la orilla.",
+        "label": "Jökulsárlón",
+        "country": "Islandia"
+      }
+    }
+  },
+  {
+    "sourceRef": "e12e8b6cf19b22c6",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": -22.7,
+    "lng": 113.6667,
+    "translations": {
+      "fr": {
+        "text": "Le long de quelle barrière de corail de l'ouest de l'Australie peut-on nager aux côtés des paisibles requins-baleines ?",
+        "explanation": "Contrairement à la plus célèbre barrière du pays, à l'est, celle-ci borde presque la plage : on plonge dans les récifs à quelques mètres du sable.",
+        "label": "Ningaloo",
+        "country": "Australie"
+      },
+      "en": {
+        "text": "Along which coral reef of western Australia can one swim beside the gentle whale sharks?",
+        "explanation": "Unlike the country's most famous reef, in the east, this one hugs the shore: you dive into the coral just metres from the sand.",
+        "label": "Ningaloo",
+        "country": "Australia"
+      },
+      "es": {
+        "text": "¿A lo largo de qué arrecife de coral del oeste de Australia se puede nadar junto a los apacibles tiburones ballena?",
+        "explanation": "A diferencia del arrecife más famoso del país, al este, este casi bordea la playa: se bucea en el coral a pocos metros de la arena.",
+        "label": "Ningaloo",
+        "country": "Australia"
+      }
+    }
+  },
+  {
+    "sourceRef": "47192d6d173514e5",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": 56.4319,
+    "lng": -6.3419,
+    "translations": {
+      "fr": {
+        "text": "Quelle grotte marine d'une île écossaise, aux impressionnantes colonnes de basalte hexagonales, inspira une ouverture à Mendelssohn ?",
+        "explanation": "Le ressac qui s'y engouffre y produit un grondement musical, comme si la mer jouait de l'orgue dans une cathédrale de pierre.",
+        "label": "Grotte de Fingal",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "Which sea cave on a Scottish island, with striking hexagonal basalt columns, inspired an overture by Mendelssohn?",
+        "explanation": "The surf rushing into it makes a musical booming, as if the sea were playing an organ in a cathedral of stone.",
+        "label": "Fingal's Cave",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Qué cueva marina de una isla escocesa, con impresionantes columnas de basalto hexagonales, inspiró una obertura a Mendelssohn?",
+        "explanation": "El oleaje que se cuela en ella produce un retumbar musical, como si el mar tocara un órgano en una catedral de piedra.",
+        "label": "Cueva de Fingal",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "19df6b62d341fa1e",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": 4.6378,
+    "lng": -75.4869,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle vallée verdoyante de Colombie s'élancent les plus grands palmiers du monde, dépassant soixante mètres de haut ?",
+        "explanation": "Ces palmiers filiformes, arbre national du pays, poussent bien plus haut que la forêt de brume qui les entoure, comme des colonnes crevant les nuages.",
+        "label": "Vallée de Cocora",
+        "country": "Colombie"
+      },
+      "en": {
+        "text": "In which lush valley of Colombia do the world's tallest palm trees soar, topping sixty metres?",
+        "explanation": "These slender palms, the country's national tree, grow far above the surrounding cloud forest, like columns piercing the clouds.",
+        "label": "Cocora Valley",
+        "country": "Colombia"
+      },
+      "es": {
+        "text": "¿En qué valle verde de Colombia se elevan las palmeras más altas del mundo, superando los sesenta metros?",
+        "explanation": "Estas palmeras filiformes, árbol nacional del país, crecen muy por encima del bosque de niebla que las rodea, como columnas que atraviesan las nubes.",
+        "label": "Valle de Cocora",
+        "country": "Colombia"
+      }
+    }
+  },
+  {
+    "sourceRef": "db1a9ac13d2e8d58",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 19.7633,
+    "lng": 96.0785,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale de Birmanie, bâtie de toutes pièces au milieu du pays, est réputée pour ses larges avenues restées quasi désertes ?",
+        "explanation": "Inaugurée en secret dans les années 2000, elle compte des routes à seize voies où ne circulent parfois que quelques rares véhicules.",
+        "label": "Naypyidaw",
+        "country": "Birmanie"
+      },
+      "en": {
+        "text": "Which capital of Myanmar, built from scratch in the middle of the country, is famed for wide avenues that stay nearly empty?",
+        "explanation": "Unveiled in secret in the 2000s, it has sixteen-lane roads on which sometimes only a few rare vehicles move.",
+        "label": "Naypyidaw",
+        "country": "Myanmar"
+      },
+      "es": {
+        "text": "¿Qué capital de Birmania, construida de la nada en el centro del país, es famosa por sus amplias avenidas casi desiertas?",
+        "explanation": "Inaugurada en secreto en los años 2000, tiene carreteras de dieciséis carriles por las que a veces circulan solo unos pocos vehículos.",
+        "label": "Naypyidaw",
+        "country": "Birmania"
+      }
+    }
+  },
+  {
+    "sourceRef": "92ca6ffb086514aa",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": -15.7939,
+    "lng": -47.8828,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale du Brésil, dessinée en forme d'avion et bâtie en trois ans à peine, fut inaugurée en 1960 ?",
+        "explanation": "On la voulut au cœur du pays, loin de la côte, pour attirer la population vers l'intérieur ; ses bâtiments aux courbes audacieuses sont l'œuvre d'un célèbre architecte.",
+        "label": "Brasília",
+        "country": "Brésil"
+      },
+      "en": {
+        "text": "Which capital of Brazil, laid out in the shape of an aeroplane and built in barely three years, was inaugurated in 1960?",
+        "explanation": "It was placed in the heart of the country, far from the coast, to draw people inland; its boldly curving buildings are the work of a famous architect.",
+        "label": "Brasília",
+        "country": "Brazil"
+      },
+      "es": {
+        "text": "¿Qué capital de Brasil, trazada en forma de avión y construida en apenas tres años, se inauguró en 1960?",
+        "explanation": "Se situó en el corazón del país, lejos de la costa, para atraer a la población al interior; sus edificios de curvas audaces son obra de un famoso arquitecto.",
+        "label": "Brasilia",
+        "country": "Brasil"
+      }
+    }
+  },
+  {
+    "sourceRef": "af136cf07947f5be",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 65.75,
+    "lng": -169.05,
+    "translations": {
+      "fr": {
+        "text": "Entre quelles deux petites îles du détroit de Béring, séparées de quatre kilomètres, passe la ligne de changement de date ?",
+        "explanation": "L'une appartient aux États-Unis, l'autre à la Russie : d'une île à l'autre, on saute presque une journée entière, hier d'un côté, demain de l'autre.",
+        "label": "Îles Diomède",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Between which two small islands of the Bering Strait, just four kilometres apart, does the date line pass?",
+        "explanation": "One belongs to the United States, the other to Russia: from island to island you jump almost a whole day, yesterday on one side, tomorrow on the other.",
+        "label": "Diomede Islands",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Entre qué dos pequeñas islas del estrecho de Bering, separadas por cuatro kilómetros, pasa la línea de cambio de fecha?",
+        "explanation": "Una pertenece a los Estados Unidos, la otra a Rusia: de una isla a otra se salta casi un día entero, ayer de un lado, mañana del otro.",
+        "label": "Islas Diómedes",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "0375db914c3f4906",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": -37.1052,
+    "lng": -12.2777,
+    "translations": {
+      "fr": {
+        "text": "Quelle île volcanique de l'Atlantique Sud, à des milliers de kilomètres de tout, est l'archipel habité le plus isolé du monde ?",
+        "explanation": "Ses quelques centaines d'habitants n'ont ni aéroport ni port en eau profonde ; le ravitaillement n'arrive que par bateau, plusieurs jours de mer durant.",
+        "label": "Tristan da Cunha",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "Which volcanic island of the South Atlantic, thousands of kilometres from anywhere, is the most isolated inhabited archipelago in the world?",
+        "explanation": "Its few hundred inhabitants have neither an airport nor a deep-water harbour; supplies arrive only by boat, several days' sailing away.",
+        "label": "Tristan da Cunha",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Qué isla volcánica del Atlántico Sur, a miles de kilómetros de todo, es el archipiélago habitado más aislado del mundo?",
+        "explanation": "Sus pocos cientos de habitantes no tienen aeropuerto ni puerto de aguas profundas; el abastecimiento solo llega por barco, a varios días de navegación.",
+        "label": "Tristán de Acuña",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "9d6049fbd635b926",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 38.789,
+    "lng": 15.213,
+    "translations": {
+      "fr": {
+        "text": "Quel petit volcan insulaire d'Italie, en éruption quasi permanente, est surnommé le « phare de la Méditerranée » ?",
+        "explanation": "La nuit, ses gerbes de lave incandescente guidaient jadis les marins ; toutes les quelques minutes, il crache un panache rougeoyant vers le ciel.",
+        "label": "Stromboli",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which small island volcano of Italy, in near-constant eruption, is nicknamed the 'lighthouse of the Mediterranean'?",
+        "explanation": "At night its bursts of glowing lava once guided sailors; every few minutes it spits a red-hot plume towards the sky.",
+        "label": "Stromboli",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué pequeño volcán insular de Italia, en erupción casi permanente, es apodado el 'faro del Mediterráneo'?",
+        "explanation": "De noche, sus chorros de lava incandescente guiaban antaño a los marineros; cada pocos minutos escupe un penacho al rojo vivo hacia el cielo.",
+        "label": "Stromboli",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "e6066308a44bbc42",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 45,
+    "lng": 60,
+    "translations": {
+      "fr": {
+        "text": "Quelle grande mer intérieure d'Asie centrale, jadis parmi les plus vastes du monde, a presque disparu à cause de l'irrigation ?",
+        "explanation": "Détournée pour arroser des champs de coton, l'eau s'est retirée sur des dizaines de kilomètres, laissant des bateaux échoués en plein désert.",
+        "label": "Mer d'Aral",
+        "country": "Ouzbékistan"
+      },
+      "en": {
+        "text": "Which large inland sea of Central Asia, once among the largest in the world, has nearly vanished because of irrigation?",
+        "explanation": "Diverted to water cotton fields, the water withdrew for tens of kilometres, leaving ships stranded in the middle of the desert.",
+        "label": "Aral Sea",
+        "country": "Uzbekistan"
+      },
+      "es": {
+        "text": "¿Qué gran mar interior de Asia central, antaño entre los más vastos del mundo, casi ha desaparecido por la irrigación?",
+        "explanation": "Desviada para regar campos de algodón, el agua se retiró decenas de kilómetros, dejando barcos varados en pleno desierto.",
+        "label": "Mar de Aral",
+        "country": "Uzbekistán"
+      }
+    }
+  },
+  {
+    "sourceRef": "54cd0394c7af88ab",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 14.8386,
+    "lng": -17.235,
+    "translations": {
+      "fr": {
+        "text": "Quel lac du Sénégal doit sa couleur rose vif à des micro-organismes et à sa très forte teneur en sel ?",
+        "explanation": "Sa salinité rivalise avec celle de la mer Morte ; les récolteurs y flottent sans effort tout en détachant le sel du fond à la perche.",
+        "label": "Lac Retba",
+        "country": "Sénégal"
+      },
+      "en": {
+        "text": "Which lake in Senegal owes its bright pink colour to micro-organisms and its very high salt content?",
+        "explanation": "Its saltiness rivals that of the Dead Sea; harvesters float there effortlessly while prising the salt from the bottom with poles.",
+        "label": "Lake Retba",
+        "country": "Senegal"
+      },
+      "es": {
+        "text": "¿Qué lago de Senegal debe su color rosa vivo a microorganismos y a su altísimo contenido en sal?",
+        "explanation": "Su salinidad rivaliza con la del mar Muerto; los recolectores flotan allí sin esfuerzo mientras despegan la sal del fondo con pértigas.",
+        "label": "Lago Retba",
+        "country": "Senegal"
+      }
+    }
+  },
+  {
+    "sourceRef": "5a13049c1630ec5a",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 47.4211,
+    "lng": 10.9853,
+    "translations": {
+      "fr": {
+        "text": "Quel sommet, point culminant de l'Allemagne, se dresse à la frontière autrichienne, coiffé d'une station d'observation ?",
+        "explanation": "Un train à crémaillère et un téléphérique vertigineux y grimpent ; par temps clair, on aperçoit du sommet quatre pays d'un seul regard.",
+        "label": "Zugspitze",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "Which peak, the highest point of Germany, rises on the Austrian border, crowned with an observation station?",
+        "explanation": "A rack railway and a dizzying cable car climb it; on a clear day, from the summit, four countries can be seen at a single glance.",
+        "label": "Zugspitze",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿Qué cumbre, punto más alto de Alemania, se alza en la frontera austríaca, coronada por una estación de observación?",
+        "explanation": "Un tren de cremallera y un teleférico vertiginoso la escalan; en día claro, desde la cima se ven cuatro países de una sola mirada.",
+        "label": "Zugspitze",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "7f23afa96991a5f2",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": -34.3568,
+    "lng": 18.474,
+    "translations": {
+      "fr": {
+        "text": "Quel cap rocheux, près de la pointe sud de l'Afrique, fut longtemps un jalon redouté des marins faisant route vers les Indes ?",
+        "explanation": "Un navigateur l'appela d'abord le « cap des Tempêtes » ; on le rebaptisa d'un nom plus rassurant pour ne pas effrayer les équipages.",
+        "label": "Cap de Bonne-Espérance",
+        "country": "Afrique du Sud"
+      },
+      "en": {
+        "text": "Which rocky cape, near the southern tip of Africa, was long a dreaded landmark for sailors bound for the Indies?",
+        "explanation": "A navigator first named it the 'Cape of Storms'; it was renamed with a more reassuring name so as not to frighten the crews.",
+        "label": "Cape of Good Hope",
+        "country": "South Africa"
+      },
+      "es": {
+        "text": "¿Qué cabo rocoso, cerca del extremo sur de África, fue mucho tiempo un hito temido por los marineros rumbo a las Indias?",
+        "explanation": "Un navegante lo llamó primero el 'cabo de las Tormentas'; se rebautizó con un nombre más tranquilizador para no asustar a las tripulaciones.",
+        "label": "Cabo de Buena Esperanza",
+        "country": "Sudáfrica"
+      }
+    }
+  },
+  {
+    "sourceRef": "6f292b204b88df76",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 48.1667,
+    "lng": 7.2975,
+    "translations": {
+      "fr": {
+        "text": "Quel village d'Alsace, aux maisons à colombages fleuries, est une étape phare de la route des vins et du riesling ?",
+        "explanation": "Ses ruelles pavées, presque intactes depuis le Moyen Âge, ont inspiré, dit-on, le décor d'un célèbre film d'animation japonais.",
+        "label": "Riquewihr",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which Alsatian village, with flower-decked half-timbered houses, is a highlight of the wine route and of Riesling?",
+        "explanation": "Its cobbled lanes, almost unchanged since the Middle Ages, are said to have inspired the setting of a famous Japanese animated film.",
+        "label": "Riquewihr",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué pueblo de Alsacia, de casas de entramado floridas, es una etapa clave de la ruta del vino y del riesling?",
+        "explanation": "Sus callejuelas empedradas, casi intactas desde la Edad Media, habrían inspirado el decorado de una famosa película de animación japonesa.",
+        "label": "Riquewihr",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "afdf9b4d24644e32",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 45.5333,
+    "lng": 9.4,
+    "translations": {
+      "fr": {
+        "text": "Quelle petite ville près de Milan a donné son nom à un fromage bleu italien onctueux et crémeux ?",
+        "explanation": "On raconte que ce fromage servait de halte aux vaches fatiguées lors de la transhumance, d'où le surnom local de « fromage des vaches lasses ».",
+        "label": "Gorgonzola",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which small town near Milan gave its name to a smooth, creamy Italian blue cheese?",
+        "explanation": "It is said the cheese was made where tired cows rested during the seasonal move, hence the local nickname 'cheese of the weary cows'.",
+        "label": "Gorgonzola",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué pequeña ciudad cerca de Milán dio su nombre a un queso azul italiano untuoso y cremoso?",
+        "explanation": "Se cuenta que este queso se hacía donde descansaban las vacas cansadas en la trashumancia, de ahí el apodo local de 'queso de las vacas cansadas'.",
+        "label": "Gorgonzola",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "1d33ee1b78d4dad2",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 26.2006,
+    "lng": 92.9376,
+    "translations": {
+      "fr": {
+        "text": "Quelle région du nord-est de l'Inde, traversée par le Brahmapoutre, produit un thé noir corsé au goût malté ?",
+        "explanation": "Ses plantations, parmi les plus vastes du monde, s'étendent dans une plaine chaude et humide où la mousson gonfle chaque année le grand fleuve.",
+        "label": "Assam",
+        "country": "Inde"
+      },
+      "en": {
+        "text": "Which region of north-eastern India, crossed by the Brahmaputra, produces a strong black tea with a malty taste?",
+        "explanation": "Its plantations, among the largest in the world, spread across a hot, humid plain where the monsoon swells the great river each year.",
+        "label": "Assam",
+        "country": "India"
+      },
+      "es": {
+        "text": "¿Qué región del noreste de la India, atravesada por el Brahmaputra, produce un té negro fuerte de sabor malteado?",
+        "explanation": "Sus plantaciones, de las mayores del mundo, se extienden por una llanura cálida y húmeda donde el monzón hincha cada año el gran río.",
+        "label": "Assam",
+        "country": "India"
+      }
+    }
+  },
+  {
+    "sourceRef": "758329c74535e2aa",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 42.2871,
+    "lng": -2.5396,
+    "translations": {
+      "fr": {
+        "text": "Quelle région du nord de l'Espagne, le long de l'Èbre, produit le vin rouge le plus réputé du pays ?",
+        "explanation": "Ses vins vieillissent en fûts de chêne américain, qui leur donnent des notes vanillées reconnaissables entre toutes.",
+        "label": "La Rioja",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "Which region of northern Spain, along the Ebro, produces the country's most renowned red wine?",
+        "explanation": "Its wines age in American oak barrels, which give them vanilla notes recognisable among all others.",
+        "label": "La Rioja",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿Qué región del norte de España, a lo largo del Ebro, produce el vino tinto más renombrado del país?",
+        "explanation": "Sus vinos envejecen en barricas de roble americano, que les dan notas de vainilla reconocibles entre todas.",
+        "label": "La Rioja",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "51219cd1bc3ff3da",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "lat": 50.1109,
+    "lng": 8.6821,
+    "translations": {
+      "fr": {
+        "text": "Quelle grande ville d'Allemagne, au bord du Main, a donné son nom à une fine saucisse fumée servie dans les hot-dogs ?",
+        "explanation": "Émigrée aux États-Unis avec les Allemands du XIXᵉ siècle, la saucisse y devint, glissée dans un pain, l'un des symboles de la restauration rapide.",
+        "label": "Francfort",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "Which large German city, on the river Main, gave its name to a thin smoked sausage served in hot dogs?",
+        "explanation": "Emigrating to the United States with 19th-century Germans, the sausage there became, tucked into a bun, one of the symbols of fast food.",
+        "label": "Frankfurt",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿Qué gran ciudad de Alemania, a orillas del Meno, dio su nombre a una fina salchicha ahumada servida en los perritos calientes?",
+        "explanation": "Emigrada a los Estados Unidos con los alemanes del siglo XIX, la salchicha se volvió allí, metida en un pan, uno de los símbolos de la comida rápida.",
+        "label": "Fráncfort",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "58dc13f33ddc3bc4",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 46.605,
+    "lng": 7.098,
+    "translations": {
+      "fr": {
+        "text": "Dans quel village de Suisse une célèbre fabrique produit du chocolat au lait fondant depuis plus d'un siècle ?",
+        "explanation": "C'est en ajoutant du lait condensé au cacao qu'un pionnier suisse inventa le chocolat au lait, doux et crémeux, qui conquit le monde entier.",
+        "label": "Broc",
+        "country": "Suisse"
+      },
+      "en": {
+        "text": "In which Swiss village has a famous factory been producing melting milk chocolate for over a century?",
+        "explanation": "It was by adding condensed milk to cocoa that a Swiss pioneer invented milk chocolate, soft and creamy, which conquered the whole world.",
+        "label": "Broc",
+        "country": "Switzerland"
+      },
+      "es": {
+        "text": "¿En qué pueblo de Suiza una famosa fábrica produce chocolate con leche fundente desde hace más de un siglo?",
+        "explanation": "Fue al añadir leche condensada al cacao que un pionero suizo inventó el chocolate con leche, suave y cremoso, que conquistó el mundo entero.",
+        "label": "Broc",
+        "country": "Suiza"
+      }
+    }
+  },
+  {
+    "sourceRef": "24f10a43608c8792",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": -12.0464,
+    "lng": -77.0428,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale d'Amérique du Sud est réputée pour son ceviche, poisson cru mariné dans le jus de citron vert ?",
+        "explanation": "Sa cuisine, mêlant héritages indien, espagnol, africain, chinois et japonais, en a fait l'une des grandes capitales gastronomiques du monde.",
+        "label": "Lima",
+        "country": "Pérou"
+      },
+      "en": {
+        "text": "Which South American capital is famed for its ceviche, raw fish marinated in lime juice?",
+        "explanation": "Its cuisine, blending Indigenous, Spanish, African, Chinese and Japanese heritage, has made it one of the great food capitals of the world.",
+        "label": "Lima",
+        "country": "Peru"
+      },
+      "es": {
+        "text": "¿Qué capital de América del Sur es famosa por su ceviche, pescado crudo marinado en zumo de lima?",
+        "explanation": "Su cocina, mezcla de herencias indígena, española, africana, china y japonesa, la ha hecho una de las grandes capitales gastronómicas del mundo.",
+        "label": "Lima",
+        "country": "Perú"
+      }
+    }
+  },
+  {
+    "sourceRef": "f1943308e36c87bd",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "lat": 52.9548,
+    "lng": -1.1581,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du centre de l'Angleterre, proche de la forêt de Sherwood, est liée à la légende d'un archers hors-la-loi au grand cœur ?",
+        "explanation": "Un vieux chêne de la forêt voisine, censé avoir abrité le hors-la-loi et sa bande, attire encore les curieux venus toucher son tronc vénérable.",
+        "label": "Nottingham",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "Which city of central England, near Sherwood Forest, is tied to the legend of a big-hearted outlaw archer?",
+        "explanation": "An ancient oak in the nearby forest, said to have sheltered the outlaw and his band, still draws visitors to touch its venerable trunk.",
+        "label": "Nottingham",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿Qué ciudad del centro de Inglaterra, cerca del bosque de Sherwood, está ligada a la leyenda de un arquero forajido de gran corazón?",
+        "explanation": "Un viejo roble del bosque cercano, que habría cobijado al forajido y su banda, atrae aún a los curiosos que vienen a tocar su venerable tronco.",
+        "label": "Nottingham",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "7947b74b56518fbe",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 43.548,
+    "lng": 11.041,
+    "translations": {
+      "fr": {
+        "text": "Dans quel bourg perché de Toscane l'écrivain Boccace, auteur du « Décaméron », passa-t-il ses dernières années ?",
+        "explanation": "Ce village médiéval de brique rose, resté presque intact, semble tout droit sorti des récits pleins de vie de l'écrivain.",
+        "label": "Certaldo",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which hilltop town of Tuscany did the writer Boccaccio, author of the 'Decameron', spend his last years?",
+        "explanation": "This medieval village of pink brick, almost untouched, seems to step straight out of the writer's lively tales.",
+        "label": "Certaldo",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué villa encaramada de la Toscana pasó el escritor Boccaccio, autor del 'Decamerón', sus últimos años?",
+        "explanation": "Esta aldea medieval de ladrillo rosado, casi intacta, parece salida directamente de los relatos llenos de vida del escritor.",
+        "label": "Certaldo",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "de5e0cef1d55560b",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 57.06,
+    "lng": 28.92,
+    "translations": {
+      "fr": {
+        "text": "Dans quel domaine familial de Russie le poète Alexandre Pouchkine, exilé, écrivit-il une partie de son « Eugène Onéguine » ?",
+        "explanation": "Assigné à résidence loin de la capitale, il y trouva, dans la solitude de la campagne, l'inspiration d'une œuvre au cœur de la littérature russe.",
+        "label": "Mikhaïlovskoïe",
+        "country": "Russie"
+      },
+      "en": {
+        "text": "On which Russian family estate did the exiled poet Alexander Pushkin write part of his 'Eugene Onegin'?",
+        "explanation": "Confined far from the capital, he found there, in the solitude of the countryside, the inspiration for a work at the heart of Russian literature.",
+        "label": "Mikhaylovskoye",
+        "country": "Russia"
+      },
+      "es": {
+        "text": "¿En qué finca familiar de Rusia escribió el poeta Aleksandr Pushkin, exiliado, parte de su 'Eugenio Oneguin'?",
+        "explanation": "Confinado lejos de la capital, halló allí, en la soledad del campo, la inspiración de una obra en el corazón de la literatura rusa.",
+        "label": "Mijáilovskoye",
+        "country": "Rusia"
+      }
+    }
+  },
+  {
+    "sourceRef": "75914968d8f0f5d5",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 31.5271,
+    "lng": -87.3247,
+    "translations": {
+      "fr": {
+        "text": "Quelle petite ville d'Alabama inspira le décor du roman « Ne tirez pas sur l'oiseau moqueur » de Harper Lee ?",
+        "explanation": "L'autrice s'inspira aussi de son ami d'enfance, un garçon curieux et imaginatif, qui devint lui-même un célèbre écrivain américain.",
+        "label": "Monroeville",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which small town in Alabama inspired the setting of Harper Lee's novel 'To Kill a Mockingbird'?",
+        "explanation": "The author also drew on her childhood friend, a curious, imaginative boy who himself became a famous American writer.",
+        "label": "Monroeville",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué pequeña ciudad de Alabama inspiró el escenario de la novela 'Matar a un ruiseñor' de Harper Lee?",
+        "explanation": "La autora se inspiró también en su amigo de infancia, un niño curioso e imaginativo que llegó a ser un famoso escritor estadounidense.",
+        "label": "Monroeville",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "39b9261c586a0a4f",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 53.1,
+    "lng": -9.7,
+    "translations": {
+      "fr": {
+        "text": "Sur quel archipel isolé de l'ouest de l'Irlande le dramaturge John Synge puisa-t-il l'inspiration de ses pièces ?",
+        "explanation": "Un écrivain lui conseilla d'aller y vivre et d'écouter parler ses habitants : le rude parler des pêcheurs nourrit toute son œuvre.",
+        "label": "Îles d'Aran",
+        "country": "Irlande"
+      },
+      "en": {
+        "text": "On which remote archipelago of western Ireland did the playwright John Synge find inspiration for his plays?",
+        "explanation": "A writer advised him to go and live there and listen to the people speak: the rough talk of the fishermen fed all his work.",
+        "label": "Aran Islands",
+        "country": "Ireland"
+      },
+      "es": {
+        "text": "¿En qué archipiélago aislado del oeste de Irlanda halló el dramaturgo John Synge la inspiración de sus obras?",
+        "explanation": "Un escritor le aconsejó ir a vivir allí y escuchar hablar a sus habitantes: el habla ruda de los pescadores nutrió toda su obra.",
+        "label": "Islas Aran",
+        "country": "Irlanda"
+      }
+    }
+  },
+  {
+    "sourceRef": "36558d9680056e92",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 48.95,
+    "lng": 1.99,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle maison au bord de la Seine l'écrivain Émile Zola réunissait-il ses amis pour de fameuses soirées littéraires ?",
+        "explanation": "Passionné de photographie, il y prit des milliers de clichés de sa vie quotidienne, laissant un témoignage rare sur son époque.",
+        "label": "Médan",
+        "country": "France"
+      },
+      "en": {
+        "text": "In which house by the Seine did the writer Émile Zola gather his friends for famous literary evenings?",
+        "explanation": "A keen photographer, he took thousands of pictures of his daily life there, leaving a rare record of his era.",
+        "label": "Médan",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En qué casa a orillas del Sena reunía el escritor Émile Zola a sus amigos para célebres veladas literarias?",
+        "explanation": "Apasionado de la fotografía, tomó allí miles de imágenes de su vida cotidiana, dejando un testimonio raro sobre su época.",
+        "label": "Médan",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "5b125f1a0e9cb5e2",
+    "type": "geo",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "lat": 40.656,
+    "lng": -4.7003,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de Castille, ceinte d'un rempart médiéval intact, naquit la grande mystique et femme de lettres sainte Thérèse ?",
+        "explanation": "Ses murailles dorées, hérissées de dizaines de tours rondes, comptent parmi les fortifications médiévales les mieux conservées d'Europe.",
+        "label": "Ávila",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "In which city of Castile, girdled by an intact medieval wall, was the great mystic and woman of letters Saint Teresa born?",
+        "explanation": "Its golden ramparts, bristling with dozens of round towers, are among the best-preserved medieval fortifications in Europe.",
+        "label": "Ávila",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Castilla, ceñida por una muralla medieval intacta, nació la gran mística y mujer de letras santa Teresa?",
+        "explanation": "Sus murallas doradas, erizadas de decenas de torres redondas, están entre las fortificaciones medievales mejor conservadas de Europa.",
+        "label": "Ávila",
+        "country": "España"
+      }
+    }
+  }
+]
