@@ -1,0 +1,1402 @@
+[
+  {
+    "sourceRef": "3dc5d0435df524aa",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 38.7508,
+    "lng": -9.3944,
+    "translations": {
+      "fr": {
+        "text": "Sur quel circuit de la Riviera portugaise, près de son casino, se courut longtemps le Grand Prix du Portugal de Formule 1 ?",
+        "explanation": "La station attirait déjà têtes couronnées et espions durant la Seconde Guerre mondiale, dans une atmosphère qui inspira les premiers romans de James Bond.",
+        "label": "Estoril",
+        "country": "Portugal"
+      },
+      "en": {
+        "text": "On which circuit of the Portuguese Riviera, near its casino, was the Portuguese Formula 1 Grand Prix long held?",
+        "explanation": "The resort already drew crowned heads and spies during the Second World War, in an atmosphere that inspired the first James Bond novels.",
+        "label": "Estoril",
+        "country": "Portugal"
+      },
+      "es": {
+        "text": "¿En qué circuito de la Riviera portuguesa, cerca de su casino, se corrió mucho tiempo el Gran Premio de Portugal de Fórmula 1?",
+        "explanation": "El balneario ya atraía a testas coronadas y espías durante la Segunda Guerra Mundial, en un ambiente que inspiró las primeras novelas de James Bond.",
+        "label": "Estoril",
+        "country": "Portugal"
+      }
+    }
+  },
+  {
+    "sourceRef": "3b054657e6412ef1",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 46.605,
+    "lng": 7.922,
+    "translations": {
+      "fr": {
+        "text": "Dans quel village suisse sans voitures, au pied de l'Eiger, se court la plus longue descente de ski de la Coupe du monde ?",
+        "explanation": "La piste dévale plus de quatre kilomètres ; les skieurs y ont le temps de reprendre leur souffle, chose rare dans une descente.",
+        "label": "Wengen",
+        "country": "Suisse"
+      },
+      "en": {
+        "text": "In which car-free Swiss village, at the foot of the Eiger, is the longest downhill ski race of the World Cup run?",
+        "explanation": "The run plunges over four kilometres; skiers even have time to catch their breath, a rare thing in a downhill.",
+        "label": "Wengen",
+        "country": "Switzerland"
+      },
+      "es": {
+        "text": "¿En qué pueblo suizo sin coches, al pie del Eiger, se corre el descenso de esquí más largo de la Copa del Mundo?",
+        "explanation": "La pista se precipita más de cuatro kilómetros; los esquiadores hasta tienen tiempo de recobrar el aliento, algo raro en un descenso.",
+        "label": "Wengen",
+        "country": "Suiza"
+      }
+    }
+  },
+  {
+    "sourceRef": "791fc97099815ef6",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 39.1031,
+    "lng": -84.512,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de l'Ohio se dispute l'un des plus anciens tournois de tennis sur surface dure des États-Unis ?",
+        "explanation": "Épreuve traditionnelle de préparation à l'un des grands rendez-vous du tennis, elle se joue en plein été, sous une chaleur souvent écrasante.",
+        "label": "Cincinnati",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which city of Ohio is one of the oldest hard-court tennis tournaments in the United States held?",
+        "explanation": "A traditional warm-up for one of tennis's biggest events, it is played in high summer, under often crushing heat.",
+        "label": "Cincinnati",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Ohio se disputa uno de los torneos de tenis en pista dura más antiguos de los Estados Unidos?",
+        "explanation": "Prueba tradicional de preparación para una de las grandes citas del tenis, se juega en pleno verano, bajo un calor a menudo agobiante.",
+        "label": "Cincinnati",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "b44f4e3a3fdcdfc4",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 51.4926,
+    "lng": 7.4517,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de la Ruhr un immense « mur jaune » de supporters debout fait vibrer l'un des plus grands stades d'Allemagne ?",
+        "explanation": "Cette tribune, la plus vaste d'Europe pour spectateurs debout, réunit à elle seule près de vingt-cinq mille supporters à chaque match.",
+        "label": "Dortmund",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which city of the Ruhr does a huge 'yellow wall' of standing fans make one of Germany's largest stadiums roar?",
+        "explanation": "This terrace, the biggest in Europe for standing spectators, alone holds nearly twenty-five thousand fans at every match.",
+        "label": "Dortmund",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué ciudad del Ruhr un inmenso 'muro amarillo' de aficionados de pie hace vibrar uno de los mayores estadios de Alemania?",
+        "explanation": "Esta grada, la más amplia de Europa para espectadores de pie, reúne por sí sola a casi veinticinco mil aficionados en cada partido.",
+        "label": "Dortmund",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "8f00ce1afdc472d7",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 46.9645,
+    "lng": 11.0072,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle station autrichienne, sur un glacier, s'ouvre traditionnellement chaque année la Coupe du monde de ski alpin ?",
+        "explanation": "Skier là en octobre, alors que les vallées sont encore vertes, n'est possible que grâce à la glace éternelle du sommet.",
+        "label": "Sölden",
+        "country": "Autriche"
+      },
+      "en": {
+        "text": "In which Austrian resort, on a glacier, does the Alpine skiing World Cup traditionally open each year?",
+        "explanation": "Skiing there in October, while the valleys are still green, is possible only thanks to the eternal ice of the summit.",
+        "label": "Sölden",
+        "country": "Austria"
+      },
+      "es": {
+        "text": "¿En qué estación austríaca, sobre un glaciar, se inaugura tradicionalmente cada año la Copa del Mundo de esquí alpino?",
+        "explanation": "Esquiar allí en octubre, cuando los valles aún están verdes, solo es posible gracias al hielo eterno de la cumbre.",
+        "label": "Sölden",
+        "country": "Austria"
+      }
+    }
+  },
+  {
+    "sourceRef": "cfc4b6f4d30a8823",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 56.2833,
+    "lng": -3.75,
+    "translations": {
+      "fr": {
+        "text": "Sur quel parcours de golf réputé d'Écosse, aux collines verdoyantes, la Ryder Cup se disputa-t-elle en 2014 ?",
+        "explanation": "Le golf naquit en Écosse au Moyen Âge ; un roi l'interdit même un temps, craignant qu'il ne détourne ses sujets de l'entraînement au tir à l'arc.",
+        "label": "Gleneagles",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "On which famous Scottish golf course, amid green hills, was the Ryder Cup contested in 2014?",
+        "explanation": "Golf arose in Scotland in the Middle Ages; a king even banned it for a time, fearing it would distract his subjects from archery practice.",
+        "label": "Gleneagles",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué famoso campo de golf de Escocia, entre colinas verdes, se disputó la Ryder Cup en 2014?",
+        "explanation": "El golf nació en Escocia en la Edad Media; un rey hasta lo prohibió un tiempo, temiendo que distrajera a sus súbditos del tiro con arco.",
+        "label": "Gleneagles",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "dacde1a235512a01",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 49.1936,
+    "lng": 2.4707,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville française, célèbre aussi pour sa crème et son château, se courent de grandes courses de chevaux sur gazon ?",
+        "explanation": "Ses écuries et son domaine boisé abritent aussi un musée du cheval, où l'on présente parfois de spectaculaires numéros de dressage.",
+        "label": "Chantilly",
+        "country": "France"
+      },
+      "en": {
+        "text": "In which French town, famous too for its cream and its château, are great horse races run on grass?",
+        "explanation": "Its stables and wooded estate also house a horse museum, where spectacular dressage displays are sometimes shown.",
+        "label": "Chantilly",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En qué ciudad francesa, célebre también por su crema y su castillo, se corren grandes carreras de caballos sobre hierba?",
+        "explanation": "Sus cuadras y su finca boscosa albergan también un museo del caballo, donde a veces se ofrecen espectaculares números de doma.",
+        "label": "Chantilly",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "6823833fd28875a4",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": -16.5,
+    "lng": -68.15,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle capitale d'Amérique du Sud, perchée à près de quatre mille mètres, les footballeurs étrangers manquent-ils cruellement d'air en jouant ?",
+        "explanation": "L'altitude y raréfie tant l'oxygène que les équipes visiteuses arrivent parfois plusieurs jours à l'avance pour s'acclimater, souvent en vain.",
+        "label": "La Paz",
+        "country": "Bolivie"
+      },
+      "en": {
+        "text": "In which South American capital, perched at nearly four thousand metres, do visiting footballers cruelly gasp for air while playing?",
+        "explanation": "The altitude thins the oxygen so much that away teams sometimes arrive days early to acclimatise, often in vain.",
+        "label": "La Paz",
+        "country": "Bolivia"
+      },
+      "es": {
+        "text": "¿En qué capital de América del Sur, encaramada a casi cuatro mil metros, los futbolistas extranjeros se quedan sin aire al jugar?",
+        "explanation": "La altitud enrarece tanto el oxígeno que los equipos visitantes llegan a veces días antes para aclimatarse, a menudo en vano.",
+        "label": "La Paz",
+        "country": "Bolivia"
+      }
+    }
+  },
+  {
+    "sourceRef": "4ba55f7323164ba9",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 22.5726,
+    "lng": 88.3639,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle grande ville de l'est de l'Inde le stade des « Eden Gardens » vibre-t-il pour d'immenses foules de cricket ?",
+        "explanation": "Ce sport, hérité des Britanniques, y déchaîne des passions comparables à celles du football ailleurs, remplissant les gradins de dizaines de milliers de fervents.",
+        "label": "Calcutta",
+        "country": "Inde"
+      },
+      "en": {
+        "text": "In which large city of eastern India does the 'Eden Gardens' stadium roar for immense crowds of cricket?",
+        "explanation": "This sport, inherited from the British, stirs passions there like football elsewhere, filling the stands with tens of thousands of devotees.",
+        "label": "Kolkata",
+        "country": "India"
+      },
+      "es": {
+        "text": "¿En qué gran ciudad del este de la India el estadio de los 'Eden Gardens' vibra ante inmensas multitudes de críquet?",
+        "explanation": "Este deporte, heredado de los británicos, desata allí pasiones comparables a las del fútbol en otros lugares, llenando las gradas de decenas de miles de fieles.",
+        "label": "Calcuta",
+        "country": "India"
+      }
+    }
+  },
+  {
+    "sourceRef": "bfbb7aab44bd10d9",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 60.3913,
+    "lng": 5.3221,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville portuaire de Norvège le compositeur Edvard Grieg vécut-il, dans une villa surplombant un fjord ?",
+        "explanation": "Il travaillait dans une minuscule cabane au bord de l'eau, où il avait épinglé la statuette d'une grenouille qu'il caressait, dit-on, pour se porter chance.",
+        "label": "Bergen",
+        "country": "Norvège"
+      },
+      "en": {
+        "text": "In which Norwegian port city did the composer Edvard Grieg live, in a villa overlooking a fjord?",
+        "explanation": "He worked in a tiny hut by the water, where he had pinned up a little frog figurine that he reportedly stroked for luck.",
+        "label": "Bergen",
+        "country": "Norway"
+      },
+      "es": {
+        "text": "¿En qué ciudad portuaria de Noruega vivió el compositor Edvard Grieg, en una villa sobre un fiordo?",
+        "explanation": "Trabajaba en una diminuta cabaña junto al agua, donde había clavado una ranita de figura que, según se dice, acariciaba para tener suerte.",
+        "label": "Bergen",
+        "country": "Noruega"
+      }
+    }
+  },
+  {
+    "sourceRef": "a266f2e0bccca5f7",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 60.4736,
+    "lng": 25.09,
+    "translations": {
+      "fr": {
+        "text": "Près de quel lac de Finlande le compositeur Jean Sibelius s'installa-t-il, exigeant le plus grand silence pour composer ?",
+        "explanation": "Ses puissantes symphonies puisent dans les forêts et les légendes de son pays, dont il devint le héros musical national.",
+        "label": "Järvenpää",
+        "country": "Finlande"
+      },
+      "en": {
+        "text": "Near which lake in Finland did the composer Jean Sibelius settle, demanding utter silence to compose?",
+        "explanation": "His powerful symphonies draw on the forests and legends of his country, of which he became the national musical hero.",
+        "label": "Järvenpää",
+        "country": "Finland"
+      },
+      "es": {
+        "text": "¿Cerca de qué lago de Finlandia se instaló el compositor Jean Sibelius, exigiendo el mayor silencio para componer?",
+        "explanation": "Sus poderosas sinfonías beben de los bosques y las leyendas de su país, del que se convirtió en el héroe musical nacional.",
+        "label": "Järvenpää",
+        "country": "Finlandia"
+      }
+    }
+  },
+  {
+    "sourceRef": "ba4fd84a1e9cea59",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 47.8457,
+    "lng": 16.5197,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville d'Autriche le compositeur Joseph Haydn servit-il des décennies durant à la cour d'une riche famille princière ?",
+        "explanation": "Ses musiciens, retenus loin de chez eux, lui inspirèrent une symphonie où chacun souffle sa bougie et s'en va, jusqu'à laisser la scène vide : le prince comprit le message.",
+        "label": "Eisenstadt",
+        "country": "Autriche"
+      },
+      "en": {
+        "text": "In which town of Austria did the composer Joseph Haydn serve for decades at the court of a rich princely family?",
+        "explanation": "His musicians, kept far from home, inspired a symphony in which each blows out his candle and leaves, until the stage stands empty: the prince took the hint.",
+        "label": "Eisenstadt",
+        "country": "Austria"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Austria sirvió el compositor Joseph Haydn durante décadas en la corte de una rica familia principesca?",
+        "explanation": "Sus músicos, retenidos lejos de casa, le inspiraron una sinfonía en la que cada uno apaga su vela y se va, hasta dejar el escenario vacío: el príncipe captó el mensaje.",
+        "label": "Eisenstadt",
+        "country": "Austria"
+      }
+    }
+  },
+  {
+    "sourceRef": "57955d793abc39ea",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": -8.0476,
+    "lng": -34.877,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du nord-est du Brésil est le berceau du frevo, musique et danse endiablées de son carnaval ?",
+        "explanation": "Les danseurs y virevoltent avec de petites ombrelles colorées, à l'origine de simples parapluies détournés en accessoires de fête.",
+        "label": "Recife",
+        "country": "Brésil"
+      },
+      "en": {
+        "text": "Which city of north-eastern Brazil is the cradle of frevo, the frenzied music and dance of its carnival?",
+        "explanation": "Dancers there whirl with small colourful parasols, born as plain umbrellas turned into festive props.",
+        "label": "Recife",
+        "country": "Brazil"
+      },
+      "es": {
+        "text": "¿Qué ciudad del noreste de Brasil es la cuna del frevo, música y danza endiabladas de su carnaval?",
+        "explanation": "Los bailarines giran allí con pequeñas sombrillas de colores, nacidas de simples paraguas convertidos en accesorios de fiesta.",
+        "label": "Recife",
+        "country": "Brasil"
+      }
+    }
+  },
+  {
+    "sourceRef": "202b1df8c3ce77a8",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 34.7448,
+    "lng": -87.6675,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle petite ville d'Alabama des studios légendaires enregistrèrent-ils tant de tubes soul et rock qu'on parle d'un « son » unique ?",
+        "explanation": "Des artistes du monde entier y accoururent, persuadés qu'une magie particulière flottait sur les rives du fleuve tout proche.",
+        "label": "Muscle Shoals",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which small town of Alabama did legendary studios record so many soul and rock hits that people speak of a unique 'sound'?",
+        "explanation": "Artists from around the world flocked there, convinced that a special magic hung over the banks of the nearby river.",
+        "label": "Muscle Shoals",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué pequeña ciudad de Alabama unos estudios legendarios grabaron tantos éxitos de soul y rock que se habla de un 'sonido' único?",
+        "explanation": "Artistas de todo el mundo acudieron allí, convencidos de que una magia especial flotaba sobre las orillas del río cercano.",
+        "label": "Muscle Shoals",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "543e0f17251b1576",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 20.0247,
+    "lng": -75.8219,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de l'est de Cuba naquirent le son cubain et une riche tradition de chansons à guitare ?",
+        "explanation": "Son carnaval, aux tambours et aux cornets, mêle les héritages africains et espagnols de l'île en un tourbillon de rythmes.",
+        "label": "Santiago de Cuba",
+        "country": "Cuba"
+      },
+      "en": {
+        "text": "In which city of eastern Cuba were the Cuban son and a rich tradition of guitar songs born?",
+        "explanation": "Its carnival, with drums and horns, blends the island's African and Spanish heritage in a whirl of rhythms.",
+        "label": "Santiago de Cuba",
+        "country": "Cuba"
+      },
+      "es": {
+        "text": "¿En qué ciudad del este de Cuba nacieron el son cubano y una rica tradición de canciones con guitarra?",
+        "explanation": "Su carnaval, con tambores y cornetas, mezcla las herencias africana y española de la isla en un torbellino de ritmos.",
+        "label": "Santiago de Cuba",
+        "country": "Cuba"
+      }
+    }
+  },
+  {
+    "sourceRef": "c9582c094e79dbba",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "hard",
+    "lat": 47.9496,
+    "lng": 8.5017,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle petite ville allemande, aux sources du Danube, se tient l'un des plus anciens festivals de musique contemporaine ?",
+        "explanation": "On y crée des œuvres si nouvelles que le public découvre parfois des instruments inventés pour l'occasion, aux sonorités jamais entendues.",
+        "label": "Donaueschingen",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which small German town, at the source of the Danube, is one of the oldest festivals of contemporary music held?",
+        "explanation": "Works so new are premiered there that audiences sometimes discover instruments invented for the occasion, with sounds never heard before.",
+        "label": "Donaueschingen",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué pequeña ciudad alemana, en las fuentes del Danubio, se celebra uno de los festivales más antiguos de música contemporánea?",
+        "explanation": "Allí se estrenan obras tan nuevas que el público descubre a veces instrumentos inventados para la ocasión, de sonoridades jamás oídas.",
+        "label": "Donaueschingen",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "073a0d8f55040c00",
+    "type": "geo",
+    "theme": "musique",
+    "difficulty": "medium",
+    "lat": 40.2033,
+    "lng": -8.4103,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville universitaire du Portugal les étudiants chantent-ils un fado grave, vêtus de longues capes noires ?",
+        "explanation": "À la différence de celui de la capitale, ce fado est traditionnellement chanté par des hommes, souvent le soir, dans les ruelles pentues de la vieille ville.",
+        "label": "Coimbra",
+        "country": "Portugal"
+      },
+      "en": {
+        "text": "In which university city of Portugal do students sing a solemn fado, dressed in long black capes?",
+        "explanation": "Unlike that of the capital, this fado is traditionally sung by men, often at night, in the steep lanes of the old town.",
+        "label": "Coimbra",
+        "country": "Portugal"
+      },
+      "es": {
+        "text": "¿En qué ciudad universitaria de Portugal cantan los estudiantes un fado grave, vestidos con largas capas negras?",
+        "explanation": "A diferencia del de la capital, este fado lo cantan tradicionalmente hombres, a menudo de noche, en las callejuelas empinadas del casco viejo.",
+        "label": "Coimbra",
+        "country": "Portugal"
+      }
+    }
+  },
+  {
+    "sourceRef": "06e837b72295f856",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 52.0967,
+    "lng": 5.7739,
+    "translations": {
+      "fr": {
+        "text": "Dans quel village des Pays-Bas, au cœur d'un parc national, un musée conserve la deuxième plus grande collection de van Gogh au monde ?",
+        "explanation": "Le musée fut fondé par une femme passionnée qui acheta des dizaines de toiles du peintre alors qu'il était encore méprisé et peu coté.",
+        "label": "Otterlo",
+        "country": "Pays-Bas"
+      },
+      "en": {
+        "text": "In which Dutch village, in the heart of a national park, does a museum hold the world's second-largest collection of van Gogh?",
+        "explanation": "The museum was founded by a passionate woman who bought dozens of the painter's canvases while he was still scorned and cheap.",
+        "label": "Otterlo",
+        "country": "Netherlands"
+      },
+      "es": {
+        "text": "¿En qué pueblo de los Países Bajos, en el corazón de un parque nacional, conserva un museo la segunda mayor colección de van Gogh del mundo?",
+        "explanation": "El museo lo fundó una mujer apasionada que compró decenas de lienzos del pintor cuando aún era despreciado y poco cotizado.",
+        "label": "Otterlo",
+        "country": "Países Bajos"
+      }
+    }
+  },
+  {
+    "sourceRef": "93c8d0c6a3ff1f2c",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 42.4864,
+    "lng": 2.748,
+    "translations": {
+      "fr": {
+        "text": "Dans quel village des Pyrénées, surnommé la « Mecque du cubisme », Picasso et Braque peignirent-ils côte à côte ?",
+        "explanation": "Attirés par sa lumière et ses cerisiers, de nombreux peintres y séjournèrent, au point qu'un musée y rassemble aujourd'hui leurs œuvres.",
+        "label": "Céret",
+        "country": "France"
+      },
+      "en": {
+        "text": "In which village of the Pyrenees, nicknamed the 'Mecca of Cubism', did Picasso and Braque paint side by side?",
+        "explanation": "Drawn by its light and its cherry trees, many painters stayed there, so much so that a museum now gathers their works.",
+        "label": "Céret",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En qué pueblo de los Pirineos, apodado 'la Meca del cubismo', pintaron Picasso y Braque codo con codo?",
+        "explanation": "Atraídos por su luz y sus cerezos, muchos pintores se alojaron allí, tanto que un museo reúne hoy sus obras.",
+        "label": "Céret",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "6aebec57aa422fb4",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 38.0817,
+    "lng": 13.2919,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de Sicile une cathédrale scintille de mosaïques d'or byzantines couvrant des milliers de mètres carrés ?",
+        "explanation": "Ces murs d'or racontent toute la Bible en images ; la lumière des cierges y faisait autrefois danser des reflets dans la pénombre.",
+        "label": "Monreale",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which town of Sicily does a cathedral glitter with Byzantine gold mosaics covering thousands of square metres?",
+        "explanation": "These golden walls tell the whole Bible in pictures; candlelight once made reflections dance across them in the gloom.",
+        "label": "Monreale",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Sicilia una catedral reluce con mosaicos de oro bizantinos que cubren miles de metros cuadrados?",
+        "explanation": "Estos muros de oro cuentan toda la Biblia en imágenes; la luz de las velas hacía antaño bailar reflejos en la penumbra.",
+        "label": "Monreale",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "2416b11bcc74f775",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 51.8397,
+    "lng": 12.2306,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville d'Allemagne se dresse le bâtiment emblématique de l'école du Bauhaus, aux façades de verre et d'acier ?",
+        "explanation": "Ses créateurs y appliquèrent leur credo : la forme suit la fonction ; tout y est épuré, du mobilier aux poignées de porte.",
+        "label": "Dessau",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which city of Germany stands the iconic building of the Bauhaus school, with its glass and steel façades?",
+        "explanation": "Its creators applied their creed there: form follows function; everything is stripped down, from the furniture to the door handles.",
+        "label": "Dessau",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Alemania se alza el edificio emblemático de la escuela Bauhaus, de fachadas de vidrio y acero?",
+        "explanation": "Sus creadores aplicaron allí su credo: la forma sigue a la función; todo es depurado, del mobiliario a los pomos de las puertas.",
+        "label": "Dessau",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "d2436908d94549d5",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 47.5,
+    "lng": 8.7241,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville industrielle de Suisse un ancien mécène réunit-il une collection privée d'impressionnistes parmi les plus belles au monde ?",
+        "explanation": "Discrète et longtemps cachée dans sa demeure, la collection ne s'ouvrit au public qu'après sa mort, révélant des trésors insoupçonnés.",
+        "label": "Winterthour",
+        "country": "Suisse"
+      },
+      "en": {
+        "text": "In which industrial city of Switzerland did a former patron gather a private collection of Impressionists among the finest in the world?",
+        "explanation": "Discreet and long hidden in his home, the collection opened to the public only after his death, revealing unsuspected treasures.",
+        "label": "Winterthur",
+        "country": "Switzerland"
+      },
+      "es": {
+        "text": "¿En qué ciudad industrial de Suiza un antiguo mecenas reunió una colección privada de impresionistas entre las más bellas del mundo?",
+        "explanation": "Discreta y mucho tiempo oculta en su casa, la colección se abrió al público solo tras su muerte, revelando tesoros insospechados.",
+        "label": "Winterthur",
+        "country": "Suiza"
+      }
+    }
+  },
+  {
+    "sourceRef": "aa2431f44823d625",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 43.572,
+    "lng": 12.14,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle petite ville de Toscane le peintre Piero della Francesca laissa-t-il une fresque de la Résurrection admirée dans le monde entier ?",
+        "explanation": "On raconte que la beauté de cette fresque sauva la ville : un soldat, chargé de la bombarder pendant la guerre, aurait refusé d'y toucher.",
+        "label": "Sansepolcro",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "In which small Tuscan town did the painter Piero della Francesca leave a fresco of the Resurrection admired around the world?",
+        "explanation": "It is said the fresco's beauty saved the town: a soldier ordered to shell it during the war reportedly refused to touch it.",
+        "label": "Sansepolcro",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿En qué pequeña ciudad de la Toscana dejó el pintor Piero della Francesca un fresco de la Resurrección admirado en todo el mundo?",
+        "explanation": "Se cuenta que la belleza del fresco salvó la ciudad: un soldado encargado de bombardearla durante la guerra se habría negado a tocarla.",
+        "label": "Sansepolcro",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "e9886788fe840212",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "medium",
+    "lat": 48.4477,
+    "lng": 1.4886,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de la Beauce possède une cathédrale gothique célèbre pour ses immenses vitraux d'un bleu profond unique ?",
+        "explanation": "Le secret de ce « bleu de Chartres » a longtemps intrigué : les verriers médiévaux gardaient jalousement leurs recettes de couleurs.",
+        "label": "Chartres",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which town of the Beauce has a Gothic cathedral famous for its vast windows of a unique deep blue?",
+        "explanation": "The secret of this 'Chartres blue' long puzzled experts: medieval glassmakers jealously guarded their colour recipes.",
+        "label": "Chartres",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué ciudad de la Beauce posee una catedral gótica famosa por sus enormes vidrieras de un azul profundo único?",
+        "explanation": "El secreto de este 'azul de Chartres' intrigó mucho tiempo: los vidrieros medievales guardaban celosamente sus recetas de colores.",
+        "label": "Chartres",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "7871c3e9094875c3",
+    "type": "geo",
+    "theme": "art",
+    "difficulty": "hard",
+    "lat": 50.7753,
+    "lng": 6.0839,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de Rhénanie Charlemagne fit-il bâtir une chapelle octogonale, ornée de mosaïques et de marbres rapportés d'Italie ?",
+        "explanation": "Pendant des siècles, les rois de Germanie y furent couronnés, assis sur un trône de pierre d'une austère simplicité, encore visible aujourd'hui.",
+        "label": "Aix-la-Chapelle",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In which Rhineland city did Charlemagne have an octagonal chapel built, adorned with mosaics and marble brought from Italy?",
+        "explanation": "For centuries the kings of Germany were crowned there, seated on a stone throne of austere simplicity, still visible today.",
+        "label": "Aachen",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Renania mandó Carlomagno construir una capilla octogonal, adornada con mosaicos y mármoles traídos de Italia?",
+        "explanation": "Durante siglos los reyes de Germania fueron coronados allí, sentados en un trono de piedra de austera sencillez, aún visible hoy.",
+        "label": "Aquisgrán",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "0c13d5acdf576041",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "medium",
+    "lat": 60.2055,
+    "lng": 24.6559,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville de Finlande, voisine d'Helsinki, le géant du téléphone Nokia eut-il longtemps son siège ?",
+        "explanation": "L'entreprise débuta au XIXᵉ siècle en fabriquant du papier, puis des bottes en caoutchouc, avant de devenir un pionnier du téléphone mobile.",
+        "label": "Espoo",
+        "country": "Finlande"
+      },
+      "en": {
+        "text": "In which city of Finland, next to Helsinki, did the phone giant Nokia long have its headquarters?",
+        "explanation": "The company began in the 19th century making paper, then rubber boots, before becoming a pioneer of the mobile phone.",
+        "label": "Espoo",
+        "country": "Finland"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Finlandia, vecina de Helsinki, tuvo mucho tiempo su sede el gigante del teléfono Nokia?",
+        "explanation": "La empresa empezó en el siglo XIX fabricando papel, luego botas de goma, antes de volverse pionera del teléfono móvil.",
+        "label": "Espoo",
+        "country": "Finlandia"
+      }
+    }
+  },
+  {
+    "sourceRef": "1d0a8815374e8c55",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 46.7712,
+    "lng": 23.6236,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de Transylvanie, en Roumanie, est devenue un grand centre de développement de logiciels d'Europe de l'Est ?",
+        "explanation": "Ses nombreux étudiants en informatique attirent les entreprises du monde entier, faisant de cette ville historique un pôle numérique inattendu.",
+        "label": "Cluj-Napoca",
+        "country": "Roumanie"
+      },
+      "en": {
+        "text": "Which city of Transylvania, in Romania, has become a major software development hub of Eastern Europe?",
+        "explanation": "Its many computing students draw companies from around the world, making this historic city an unexpected digital hub.",
+        "label": "Cluj-Napoca",
+        "country": "Romania"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Transilvania, en Rumanía, se ha convertido en un gran centro de desarrollo de software de Europa del Este?",
+        "explanation": "Sus numerosos estudiantes de informática atraen a empresas de todo el mundo, haciendo de esta ciudad histórica un polo digital inesperado.",
+        "label": "Cluj-Napoca",
+        "country": "Rumanía"
+      }
+    }
+  },
+  {
+    "sourceRef": "39d62e16691f5884",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": -27.5954,
+    "lng": -48.548,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville insulaire du sud du Brésil, aux plages réputées, est surnommée « l'île de la Silicon » pour ses start-up ?",
+        "explanation": "Ses jeunes entreprises profitent d'un cadre de vie enviable, entre surf et technologie, pour attirer les talents du pays.",
+        "label": "Florianópolis",
+        "country": "Brésil"
+      },
+      "en": {
+        "text": "Which island city of southern Brazil, with its famed beaches, is nicknamed 'Silicon Island' for its start-ups?",
+        "explanation": "Its young companies enjoy an enviable setting, between surf and technology, to attract the country's talent.",
+        "label": "Florianópolis",
+        "country": "Brazil"
+      },
+      "es": {
+        "text": "¿Qué ciudad insular del sur de Brasil, de playas famosas, es apodada 'la isla del Silicio' por sus start-ups?",
+        "explanation": "Sus empresas jóvenes aprovechan un entorno envidiable, entre surf y tecnología, para atraer el talento del país.",
+        "label": "Florianópolis",
+        "country": "Brasil"
+      }
+    }
+  },
+  {
+    "sourceRef": "db0b27bcf96a2682",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": -1.2864,
+    "lng": 36.8172,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale d'Afrique de l'Est, surnommée la « Silicon Savannah », est un pôle d'innovation pour le paiement par téléphone ?",
+        "explanation": "Un système de paiement par mobile y a permis à des millions de personnes sans compte bancaire d'envoyer de l'argent d'un simple SMS.",
+        "label": "Nairobi",
+        "country": "Kenya"
+      },
+      "en": {
+        "text": "Which East African capital, nicknamed the 'Silicon Savannah', is an innovation hub for payment by phone?",
+        "explanation": "A mobile payment system there let millions of people without a bank account send money with a simple text message.",
+        "label": "Nairobi",
+        "country": "Kenya"
+      },
+      "es": {
+        "text": "¿Qué capital de África oriental, apodada la 'Sabana del Silicio', es un polo de innovación para el pago por teléfono?",
+        "explanation": "Un sistema de pago por móvil permitió allí a millones de personas sin cuenta bancaria enviar dinero con un simple mensaje de texto.",
+        "label": "Nairobi",
+        "country": "Kenia"
+      }
+    }
+  },
+  {
+    "sourceRef": "c3f9389f69e285c8",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "medium",
+    "lat": 20.6597,
+    "lng": -103.3496,
+    "translations": {
+      "fr": {
+        "text": "Quelle grande ville du Mexique, berceau de la tequila et du mariachi, est aussi surnommée la « Silicon Valley » du pays ?",
+        "explanation": "Ses usines d'électronique, installées dès les années 1960, en font l'un des principaux centres technologiques d'Amérique latine.",
+        "label": "Guadalajara",
+        "country": "Mexique"
+      },
+      "en": {
+        "text": "Which large city of Mexico, cradle of tequila and mariachi, is also nicknamed the country's 'Silicon Valley'?",
+        "explanation": "Its electronics factories, set up as early as the 1960s, make it one of the main technology centres in Latin America.",
+        "label": "Guadalajara",
+        "country": "Mexico"
+      },
+      "es": {
+        "text": "¿Qué gran ciudad de México, cuna del tequila y el mariachi, es apodada también la 'Silicon Valley' del país?",
+        "explanation": "Sus fábricas de electrónica, instaladas ya en los años 1960, la hacen uno de los principales centros tecnológicos de América Latina.",
+        "label": "Guadalajara",
+        "country": "México"
+      }
+    }
+  },
+  {
+    "sourceRef": "3bbb7c22a4549a91",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 33.5904,
+    "lng": 130.4017,
+    "translations": {
+      "fr": {
+        "text": "Quelle grande ville du sud du Japon, désignée « ville de start-up », attire de jeunes entrepreneurs par ses aides et son cadre de vie ?",
+        "explanation": "Plus jeune en moyenne que le reste du pays, elle multiplie les mesures pour retenir sa jeunesse et éviter le vieillissement du Japon.",
+        "label": "Fukuoka",
+        "country": "Japon"
+      },
+      "en": {
+        "text": "Which large city of southern Japan, designated a 'start-up city', draws young entrepreneurs with its aid and quality of life?",
+        "explanation": "Younger on average than the rest of the country, it keeps launching measures to retain its youth and stave off Japan's ageing.",
+        "label": "Fukuoka",
+        "country": "Japan"
+      },
+      "es": {
+        "text": "¿Qué gran ciudad del sur de Japón, designada 'ciudad de start-ups', atrae a jóvenes emprendedores por sus ayudas y su calidad de vida?",
+        "explanation": "Más joven de media que el resto del país, multiplica las medidas para retener a su juventud y evitar el envejecimiento de Japón.",
+        "label": "Fukuoka",
+        "country": "Japón"
+      }
+    }
+  },
+  {
+    "sourceRef": "6df44ea6ec59f8f1",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 36.3504,
+    "lng": 127.3845,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de Corée du Sud, surnommée la « cité de la science », regroupe de nombreux instituts de recherche et laboratoires publics ?",
+        "explanation": "Un train à très grande vitesse la relie à la capitale en moins d'une heure, faisant de cette cité savante un satellite du pays tout entier.",
+        "label": "Daejeon",
+        "country": "Corée du Sud"
+      },
+      "en": {
+        "text": "Which city of South Korea, nicknamed the 'science city', gathers many research institutes and public laboratories?",
+        "explanation": "A high-speed train links it to the capital in under an hour, making this city of learning a satellite of the whole country.",
+        "label": "Daejeon",
+        "country": "South Korea"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Corea del Sur, apodada la 'ciudad de la ciencia', reúne numerosos institutos de investigación y laboratorios públicos?",
+        "explanation": "Un tren de alta velocidad la une a la capital en menos de una hora, haciendo de esta ciudad del saber un satélite de todo el país.",
+        "label": "Daejeon",
+        "country": "Corea del Sur"
+      }
+    }
+  },
+  {
+    "sourceRef": "15c09a31d93a1f5a",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 47.1662,
+    "lng": 8.5155,
+    "translations": {
+      "fr": {
+        "text": "Quelle petite ville de Suisse, aux impôts très bas, est surnommée la « Crypto Valley » pour ses entreprises de cryptomonnaie ?",
+        "explanation": "On peut y régler certains services publics en monnaie numérique, une première qui a attiré des dizaines de jeunes pousses du secteur.",
+        "label": "Zoug",
+        "country": "Suisse"
+      },
+      "en": {
+        "text": "Which small Swiss town, with very low taxes, is nicknamed 'Crypto Valley' for its cryptocurrency firms?",
+        "explanation": "Some public services can be paid there in digital currency, a first that drew dozens of young companies in the sector.",
+        "label": "Zug",
+        "country": "Switzerland"
+      },
+      "es": {
+        "text": "¿Qué pequeña ciudad de Suiza, de impuestos muy bajos, es apodada la 'Crypto Valley' por sus empresas de criptomonedas?",
+        "explanation": "Allí se pueden pagar ciertos servicios públicos en moneda digital, una primicia que atrajo a decenas de start-ups del sector.",
+        "label": "Zug",
+        "country": "Suiza"
+      }
+    }
+  },
+  {
+    "sourceRef": "083b30daa86f1f22",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": -24.6272,
+    "lng": -70.4042,
+    "translations": {
+      "fr": {
+        "text": "Sur quel sommet du désert d'Atacama, au Chili, l'Europe a-t-elle installé l'un des plus grands télescopes optiques du monde ?",
+        "explanation": "Le ciel y est si sec et si pur que les astronomes le comptent parmi les meilleurs endroits de la planète pour scruter l'univers.",
+        "label": "Paranal",
+        "country": "Chili"
+      },
+      "en": {
+        "text": "On which peak of the Atacama Desert, in Chile, has Europe installed one of the largest optical telescopes in the world?",
+        "explanation": "The sky there is so dry and pure that astronomers rank it among the best places on the planet to scan the universe.",
+        "label": "Paranal",
+        "country": "Chile"
+      },
+      "es": {
+        "text": "¿En qué cumbre del desierto de Atacama, en Chile, ha instalado Europa uno de los mayores telescopios ópticos del mundo?",
+        "explanation": "El cielo allí es tan seco y puro que los astrónomos lo cuentan entre los mejores lugares del planeta para escrutar el universo.",
+        "label": "Paranal",
+        "country": "Chile"
+      }
+    }
+  },
+  {
+    "sourceRef": "3cf3e48ad4404cfa",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 38.4331,
+    "lng": -79.8398,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle vallée reculée de Virginie-Occidentale, où les ondes radio sont strictement limitées, se dresse un immense radiotélescope orientable ?",
+        "explanation": "Autour de lui, une vaste zone de silence radio interdit téléphones et fours à micro-ondes, pour ne pas brouiller ses écoutes de l'univers.",
+        "label": "Green Bank",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which remote valley of West Virginia, where radio waves are strictly limited, stands a huge steerable radio telescope?",
+        "explanation": "Around it a vast radio-quiet zone bans phones and microwave ovens, so as not to jam its listening to the universe.",
+        "label": "Green Bank",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué valle apartado de Virginia Occidental, donde las ondas de radio están muy limitadas, se alza un inmenso radiotelescopio orientable?",
+        "explanation": "A su alrededor, una vasta zona de silencio radioeléctrico prohíbe teléfonos y microondas, para no interferir su escucha del universo.",
+        "label": "Green Bank",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "6bfd7694b93ecf90",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 36.4267,
+    "lng": 137.3153,
+    "translations": {
+      "fr": {
+        "text": "Sous quelle montagne du Japon un gigantesque réservoir souterrain traque-t-il les insaisissables particules appelées neutrinos ?",
+        "explanation": "Enfouie sous des centaines de mètres de roche, la cuve d'eau ultrapure capte les rarissimes éclairs de lumière produits au passage de ces particules fantômes.",
+        "label": "Kamioka",
+        "country": "Japon"
+      },
+      "en": {
+        "text": "Under which mountain in Japan does a giant underground tank hunt for the elusive particles called neutrinos?",
+        "explanation": "Buried under hundreds of metres of rock, the tank of ultrapure water catches the rare flashes of light made as these ghostly particles pass.",
+        "label": "Kamioka",
+        "country": "Japan"
+      },
+      "es": {
+        "text": "¿Bajo qué montaña de Japón un gigantesco depósito subterráneo rastrea las esquivas partículas llamadas neutrinos?",
+        "explanation": "Enterrado bajo cientos de metros de roca, el tanque de agua ultrapura capta los rarísimos destellos de luz producidos al pasar estas partículas fantasma.",
+        "label": "Kamioka",
+        "country": "Japón"
+      }
+    }
+  },
+  {
+    "sourceRef": "464391ef5d8ead56",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 78.925,
+    "lng": 11.93,
+    "translations": {
+      "fr": {
+        "text": "Quelle station de recherche, l'une des plus septentrionales du monde, étudie le climat de l'Arctique depuis un archipel norvégien ?",
+        "explanation": "Le froid y est si vif qu'il faut parfois déneiger les instruments à la main ; l'ours polaire rôde, obligeant les scientifiques à sortir armés.",
+        "label": "Ny-Ålesund",
+        "country": "Norvège"
+      },
+      "en": {
+        "text": "Which research station, one of the northernmost in the world, studies the Arctic climate from a Norwegian archipelago?",
+        "explanation": "The cold there is so sharp that instruments must sometimes be dug out by hand; the polar bear roams, forcing scientists to go out armed.",
+        "label": "Ny-Ålesund",
+        "country": "Norway"
+      },
+      "es": {
+        "text": "¿Qué estación de investigación, una de las más septentrionales del mundo, estudia el clima del Ártico desde un archipiélago noruego?",
+        "explanation": "El frío es tan intenso que a veces hay que desenterrar los instrumentos a mano; el oso polar merodea, obligando a los científicos a salir armados.",
+        "label": "Ny-Ålesund",
+        "country": "Noruega"
+      }
+    }
+  },
+  {
+    "sourceRef": "e1295f3e4b88b621",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 50.5247,
+    "lng": 6.8836,
+    "translations": {
+      "fr": {
+        "text": "Dans l'Eifel allemand, quel village abrite l'un des plus grands radiotélescopes orientables d'Europe, niché au creux d'une vallée ?",
+        "explanation": "On l'a installé dans ce vallon exprès pour que les collines alentour le protègent des ondes parasites émises par les villes.",
+        "label": "Effelsberg",
+        "country": "Allemagne"
+      },
+      "en": {
+        "text": "In the German Eifel, which village is home to one of the largest steerable radio telescopes in Europe, nestled in a valley?",
+        "explanation": "It was placed in this hollow on purpose so that the surrounding hills would shield it from the stray waves given off by cities.",
+        "label": "Effelsberg",
+        "country": "Germany"
+      },
+      "es": {
+        "text": "En el Eifel alemán, ¿qué pueblo alberga uno de los mayores radiotelescopios orientables de Europa, encajado en un valle?",
+        "explanation": "Se instaló en esta hondonada a propósito para que las colinas de alrededor lo protegieran de las ondas parásitas de las ciudades.",
+        "label": "Effelsberg",
+        "country": "Alemania"
+      }
+    }
+  },
+  {
+    "sourceRef": "409cfe18d96747b8",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "medium",
+    "lat": 37.755,
+    "lng": 26.977,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle île grecque de la mer Égée naquit le mathématicien Pythagore, célèbre pour son théorème sur les triangles ?",
+        "explanation": "Un long tunnel y fut creusé dans l'Antiquité, attaqué des deux côtés à la fois : les deux équipes se rejoignirent presque parfaitement au milieu.",
+        "label": "Samos",
+        "country": "Grèce"
+      },
+      "en": {
+        "text": "On which Greek island of the Aegean Sea was the mathematician Pythagoras, famed for his theorem on triangles, born?",
+        "explanation": "A long tunnel was dug there in antiquity, attacked from both ends at once: the two teams met almost perfectly in the middle.",
+        "label": "Samos",
+        "country": "Greece"
+      },
+      "es": {
+        "text": "¿En qué isla griega del mar Egeo nació el matemático Pitágoras, famoso por su teorema sobre los triángulos?",
+        "explanation": "Allí se excavó un largo túnel en la antigüedad, atacado por ambos extremos a la vez: los dos equipos se encontraron casi perfectamente en el medio.",
+        "label": "Samos",
+        "country": "Grecia"
+      }
+    }
+  },
+  {
+    "sourceRef": "a8fd3341791f87da",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "medium",
+    "lat": 51.9692,
+    "lng": 5.6654,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville universitaire des Pays-Bas est mondialement réputée pour ses recherches en agronomie et en alimentation ?",
+        "explanation": "On y invente des tomates poussant sans terre et des viandes cultivées en laboratoire, imaginant la nourriture des générations futures.",
+        "label": "Wageningen",
+        "country": "Pays-Bas"
+      },
+      "en": {
+        "text": "Which university town in the Netherlands is world-renowned for its research in agronomy and food?",
+        "explanation": "Tomatoes grown without soil and lab-cultured meat are devised there, imagining the food of future generations.",
+        "label": "Wageningen",
+        "country": "Netherlands"
+      },
+      "es": {
+        "text": "¿Qué ciudad universitaria de los Países Bajos es mundialmente famosa por su investigación en agronomía y alimentación?",
+        "explanation": "Allí se inventan tomates que crecen sin tierra y carnes cultivadas en laboratorio, imaginando la comida de las generaciones futuras.",
+        "label": "Wageningen",
+        "country": "Países Bajos"
+      }
+    }
+  },
+  {
+    "sourceRef": "a546f5511e10eecb",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 55.7047,
+    "lng": 13.191,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville universitaire du sud de la Suède se dresse une source de neutrons parmi les plus puissantes du monde ?",
+        "explanation": "En bombardant la matière de neutrons, les chercheurs y observent la structure des matériaux comme avec un microscope géant.",
+        "label": "Lund",
+        "country": "Suède"
+      },
+      "en": {
+        "text": "In which university town of southern Sweden stands a neutron source among the most powerful in the world?",
+        "explanation": "By bombarding matter with neutrons, researchers there observe the structure of materials as though with a giant microscope.",
+        "label": "Lund",
+        "country": "Sweden"
+      },
+      "es": {
+        "text": "¿En qué ciudad universitaria del sur de Suecia se alza una fuente de neutrones entre las más potentes del mundo?",
+        "explanation": "Al bombardear la materia con neutrones, los investigadores observan allí la estructura de los materiales como con un microscopio gigante.",
+        "label": "Lund",
+        "country": "Suecia"
+      }
+    }
+  },
+  {
+    "sourceRef": "44339559d1280089",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 42.355,
+    "lng": -3.517,
+    "translations": {
+      "fr": {
+        "text": "Dans les grottes de quel site du nord de l'Espagne a-t-on retrouvé quelques-uns des plus anciens fossiles humains d'Europe ?",
+        "explanation": "Une tranchée creusée pour un ancien chemin de fer y a livré, par hasard, un trésor de restes vieux de centaines de milliers d'années.",
+        "label": "Atapuerca",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "In the caves of which site in northern Spain were some of the oldest human fossils in Europe found?",
+        "explanation": "A trench dug for an old railway there yielded, by chance, a trove of remains hundreds of thousands of years old.",
+        "label": "Atapuerca",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿En las cuevas de qué yacimiento del norte de España se hallaron algunos de los fósiles humanos más antiguos de Europa?",
+        "explanation": "Una trinchera excavada para un antiguo ferrocarril entregó allí, por azar, un tesoro de restos de cientos de miles de años.",
+        "label": "Atapuerca",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "e8e8c778a78cb935",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 44.5375,
+    "lng": -0.355,
+    "translations": {
+      "fr": {
+        "text": "Quel village du Bordelais produit un vin blanc liquoreux et doré, issu de raisins concentrés par un champignon ?",
+        "explanation": "Ce champignon, qui ratatine les grains et paraît les gâter, est en réalité une bénédiction : on l'appelle joliment la « pourriture noble ».",
+        "label": "Sauternes",
+        "country": "France"
+      },
+      "en": {
+        "text": "Which village of the Bordeaux region produces a sweet, golden white wine, from grapes concentrated by a fungus?",
+        "explanation": "This fungus, which shrivels the grapes and seems to spoil them, is really a blessing: it is charmingly called 'noble rot'.",
+        "label": "Sauternes",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Qué pueblo de la región de Burdeos produce un vino blanco dulce y dorado, de uvas concentradas por un hongo?",
+        "explanation": "Este hongo, que arruga los granos y parece estropearlos, es en realidad una bendición: se le llama con gracia la 'podredumbre noble'.",
+        "label": "Sauternes",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "87df3b357a74987a",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 42.793,
+    "lng": 13.093,
+    "translations": {
+      "fr": {
+        "text": "Quelle petite ville d'Ombrie a donné son nom, en italien, au métier de charcutier, tant sa tradition de salaisons est réputée ?",
+        "explanation": "Ses artisans travaillent aussi la truffe noire des collines voisines, l'un des trésors les plus recherchés de la cuisine italienne.",
+        "label": "Norcia",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which small town of Umbria gave its name, in Italian, to the trade of pork butcher, so famed is its curing tradition?",
+        "explanation": "Its craftsmen also work the black truffle of the nearby hills, one of the most sought-after treasures of Italian cooking.",
+        "label": "Norcia",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué pequeña ciudad de Umbría dio su nombre, en italiano, al oficio de charcutero, de tan famosa que es su tradición de embutidos?",
+        "explanation": "Sus artesanos trabajan también la trufa negra de las colinas vecinas, uno de los tesoros más codiciados de la cocina italiana.",
+        "label": "Norcia",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "bdbd47b826c67175",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 40.6405,
+    "lng": -8.6538,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville portugaise, sillonnée de canaux parcourus de barques colorées, est réputée pour ses « ovos moles », douceurs aux jaunes d'œufs ?",
+        "explanation": "Ces friandises, jadis préparées par des religieuses, se présentent dans de fines coques évoquant coquillages et poissons de la mer voisine.",
+        "label": "Aveiro",
+        "country": "Portugal"
+      },
+      "en": {
+        "text": "Which Portuguese town, threaded with canals plied by colourful boats, is famed for its 'ovos moles', egg-yolk sweets?",
+        "explanation": "These treats, once made by nuns, come in thin shells shaped like the shells and fish of the nearby sea.",
+        "label": "Aveiro",
+        "country": "Portugal"
+      },
+      "es": {
+        "text": "¿Qué ciudad portuguesa, surcada por canales con barcas de colores, es famosa por sus 'ovos moles', dulces de yema de huevo?",
+        "explanation": "Estos dulces, antaño hechos por monjas, se presentan en finas cáscaras que evocan conchas y peces del mar cercano.",
+        "label": "Aveiro",
+        "country": "Portugal"
+      }
+    }
+  },
+  {
+    "sourceRef": "1c7b3ea2b2d55273",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 5.0703,
+    "lng": -75.5138,
+    "translations": {
+      "fr": {
+        "text": "Autour de quelle ville de la région du café, en Colombie, s'étagent à flanc de montagne des plantations réputées dans le monde entier ?",
+        "explanation": "La cueillette se fait à la main, cerise par cerise, sur des pentes si raides que la mule reste souvent le meilleur moyen de transport.",
+        "label": "Manizales",
+        "country": "Colombie"
+      },
+      "en": {
+        "text": "Around which city of the coffee region, in Colombia, do world-famous plantations climb the mountainsides?",
+        "explanation": "The harvest is done by hand, cherry by cherry, on slopes so steep that the mule often remains the best means of transport.",
+        "label": "Manizales",
+        "country": "Colombia"
+      },
+      "es": {
+        "text": "¿En torno a qué ciudad de la región del café, en Colombia, se escalonan en la ladera plantaciones famosas en todo el mundo?",
+        "explanation": "La recolección se hace a mano, cereza por cereza, en laderas tan empinadas que la mula sigue siendo a menudo el mejor transporte.",
+        "label": "Manizales",
+        "country": "Colombia"
+      }
+    }
+  },
+  {
+    "sourceRef": "74605e49ed13916b",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 23.1291,
+    "lng": 113.2644,
+    "translations": {
+      "fr": {
+        "text": "De quelle grande ville du sud de la Chine viennent les « dim sum », petites bouchées variées servies à la vapeur avec le thé ?",
+        "explanation": "La coutume, qui remonte aux maisons de thé de la route de la soie, veut qu'on tapote la table de deux doigts pour remercier celui qui vous ressert.",
+        "label": "Canton",
+        "country": "Chine"
+      },
+      "en": {
+        "text": "From which large city of southern China do 'dim sum' come, varied little morsels steamed and served with tea?",
+        "explanation": "The custom, dating to the tea houses of the Silk Road, has diners tap the table with two fingers to thank whoever refills their cup.",
+        "label": "Guangzhou",
+        "country": "China"
+      },
+      "es": {
+        "text": "¿De qué gran ciudad del sur de China vienen los 'dim sum', pequeños bocados variados servidos al vapor con el té?",
+        "explanation": "La costumbre, que se remonta a las casas de té de la ruta de la seda, hace que se golpee la mesa con dos dedos para agradecer a quien te sirve.",
+        "label": "Cantón",
+        "country": "China"
+      }
+    }
+  },
+  {
+    "sourceRef": "a3e58859849fa2b6",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "lat": 38.1157,
+    "lng": 13.3615,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale de la Sicile est réputée pour sa cuisine de rue, comme les « arancini », boulettes de riz frites ?",
+        "explanation": "Ses marchés animés, aux cris des vendeurs et aux étals débordants, rappellent par leur atmosphère les souks du monde arabe voisin.",
+        "label": "Palerme",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Which capital of Sicily is famed for its street food, such as 'arancini', fried rice balls?",
+        "explanation": "Its lively markets, with hawkers' cries and overflowing stalls, recall in their atmosphere the souks of the nearby Arab world.",
+        "label": "Palermo",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Qué capital de Sicilia es famosa por su comida callejera, como los 'arancini', bolas de arroz fritas?",
+        "explanation": "Sus mercados animados, con gritos de vendedores y puestos rebosantes, recuerdan por su ambiente los zocos del cercano mundo árabe.",
+        "label": "Palermo",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "a41d913a59b4a119",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 34.8844,
+    "lng": 135.7996,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du Japon, près de Kyoto, est réputée depuis des siècles pour son thé vert matcha finement moulu ?",
+        "explanation": "Sa poudre d'un vert éclatant, fouettée dans l'eau chaude jusqu'à mousser, est au cœur de la cérémonie du thé, art de la lenteur et de l'attention.",
+        "label": "Uji",
+        "country": "Japon"
+      },
+      "en": {
+        "text": "Which town in Japan, near Kyoto, has for centuries been famed for its finely ground matcha green tea?",
+        "explanation": "Its vivid green powder, whisked in hot water until it froths, lies at the heart of the tea ceremony, an art of slowness and attention.",
+        "label": "Uji",
+        "country": "Japan"
+      },
+      "es": {
+        "text": "¿Qué ciudad de Japón, cerca de Kioto, es famosa desde hace siglos por su té verde matcha finamente molido?",
+        "explanation": "Su polvo de un verde vivo, batido en agua caliente hasta espumar, es el corazón de la ceremonia del té, arte de la lentitud y la atención.",
+        "label": "Uji",
+        "country": "Japón"
+      }
+    }
+  },
+  {
+    "sourceRef": "b8d5b2cf35854a74",
+    "type": "geo",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "lat": 19.0414,
+    "lng": -98.2063,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville coloniale du Mexique revendique l'invention du « mole poblano » et de « chiles en nogada » aux couleurs du drapeau ?",
+        "explanation": "Ses façades sont couvertes de carreaux de faïence peints, un art hérité de l'Espagne qui a fait la renommée de ses églises et de ses cuisines.",
+        "label": "Puebla",
+        "country": "Mexique"
+      },
+      "en": {
+        "text": "Which colonial city of Mexico claims to have invented 'mole poblano' and 'chiles en nogada' in the flag's colours?",
+        "explanation": "Its façades are covered with painted ceramic tiles, an art inherited from Spain that made its churches and kitchens famous.",
+        "label": "Puebla",
+        "country": "Mexico"
+      },
+      "es": {
+        "text": "¿Qué ciudad colonial de México reivindica la invención del 'mole poblano' y los 'chiles en nogada' con los colores de la bandera?",
+        "explanation": "Sus fachadas están cubiertas de azulejos pintados, un arte heredado de España que dio fama a sus iglesias y a sus cocinas.",
+        "label": "Puebla",
+        "country": "México"
+      }
+    }
+  }
+]
