@@ -1,0 +1,3122 @@
+[
+  {
+    "sourceRef": "63a50ecd338c7093",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel art assemble des morceaux de verre coloré et fondu dans une fenêtre d'église, pour laisser passer la lumière ?",
+        "options": [
+          "Le vitrail",
+          "La mosaïque",
+          "La tapisserie",
+          "La sculpture"
+        ],
+        "explanation": "Les grandes cathédrales gothiques en firent de véritables bibles de lumière : les fidèles, souvent illettrés, y lisaient les histoires saintes en images."
+      },
+      "en": {
+        "text": "Which art assembles pieces of coloured, fused glass in a church window, to let the light through?",
+        "options": [
+          "Stained glass",
+          "Mosaic",
+          "Tapestry",
+          "Sculpture"
+        ],
+        "explanation": "The great Gothic cathedrals turned it into bibles of light: the faithful, often illiterate, read the holy stories there in pictures."
+      },
+      "es": {
+        "text": "¿Qué arte ensambla trozos de vidrio de colores fundido en una ventana de iglesia, para dejar pasar la luz?",
+        "options": [
+          "La vidriera",
+          "El mosaico",
+          "El tapiz",
+          "La escultura"
+        ],
+        "explanation": "Las grandes catedrales góticas las convirtieron en biblias de luz: los fieles, a menudo analfabetos, leían allí las historias sagradas en imágenes."
+      }
+    }
+  },
+  {
+    "sourceRef": "283c951df7d8aaf0",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre français composa ses tableaux à partir de milliers de petits points de couleur, technique dite du pointillisme ?",
+        "options": [
+          "Claude Monet",
+          "Georges Seurat",
+          "Paul Cézanne",
+          "Camille Pissarro"
+        ],
+        "explanation": "Il misait sur l'œil du spectateur : à distance, les points juxtaposés se mêlent et forment des teintes que la palette n'aurait su rendre."
+      },
+      "en": {
+        "text": "Which French painter built his pictures from thousands of tiny dots of colour, the technique known as pointillism?",
+        "options": [
+          "Claude Monet",
+          "Georges Seurat",
+          "Paul Cézanne",
+          "Camille Pissarro"
+        ],
+        "explanation": "He relied on the viewer's eye: from afar, the side-by-side dots blend into hues the palette could not have mixed."
+      },
+      "es": {
+        "text": "¿Qué pintor francés compuso sus cuadros con miles de puntitos de color, la técnica llamada puntillismo?",
+        "options": [
+          "Claude Monet",
+          "Georges Seurat",
+          "Paul Cézanne",
+          "Camille Pissarro"
+        ],
+        "explanation": "Contaba con el ojo del espectador: de lejos, los puntos yuxtapuestos se funden en tonos que la paleta no habría logrado."
+      }
+    }
+  },
+  {
+    "sourceRef": "067724ed1c569cc8",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel sculpteur du baroque italien réalisa la spectaculaire « Extase de sainte Thérèse », baignée de rayons dorés ?",
+        "options": [
+          "Donatello",
+          "Antonio Canova",
+          "Le Bernin",
+          "Benvenuto Cellini"
+        ],
+        "explanation": "Génie du marbre, il donnait à la pierre la mollesse de la chair et l'illusion du mouvement, jusqu'aux plis d'un drapé qui semble flotter."
+      },
+      "en": {
+        "text": "Which sculptor of the Italian Baroque made the spectacular 'Ecstasy of Saint Teresa', bathed in golden rays?",
+        "options": [
+          "Donatello",
+          "Antonio Canova",
+          "Bernini",
+          "Benvenuto Cellini"
+        ],
+        "explanation": "A genius in marble, he gave stone the softness of flesh and the illusion of motion, down to the folds of a drapery that seems to float."
+      },
+      "es": {
+        "text": "¿Qué escultor del barroco italiano realizó el espectacular 'Éxtasis de Santa Teresa', bañado en rayos dorados?",
+        "options": [
+          "Donatello",
+          "Antonio Canova",
+          "Bernini",
+          "Benvenuto Cellini"
+        ],
+        "explanation": "Genio del mármol, daba a la piedra la blandura de la carne y la ilusión del movimiento, hasta los pliegues de un paño que parece flotar."
+      }
+    }
+  },
+  {
+    "sourceRef": "970b5f9e18c9f764",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre français, figure de l'impressionnisme, peignit d'innombrables « Nymphéas » dans son jardin d'eau ?",
+        "options": [
+          "Auguste Renoir",
+          "Edgar Degas",
+          "Camille Pissarro",
+          "Claude Monet"
+        ],
+        "explanation": "À la fin de sa vie, presque aveugle, il continua de peindre ses bassins de nénuphars, sur des toiles immenses aujourd'hui exposées en rond."
+      },
+      "en": {
+        "text": "Which French painter, a leading Impressionist, painted countless 'Water Lilies' in his water garden?",
+        "options": [
+          "Auguste Renoir",
+          "Edgar Degas",
+          "Camille Pissarro",
+          "Claude Monet"
+        ],
+        "explanation": "Late in life, nearly blind, he kept painting his lily ponds on huge canvases now displayed in the round."
+      },
+      "es": {
+        "text": "¿Qué pintor francés, figura del impresionismo, pintó innumerables 'Nenúfares' en su jardín acuático?",
+        "options": [
+          "Auguste Renoir",
+          "Edgar Degas",
+          "Camille Pissarro",
+          "Claude Monet"
+        ],
+        "explanation": "Al final de su vida, casi ciego, siguió pintando sus estanques de nenúfares en lienzos enormes hoy expuestos en círculo."
+      }
+    }
+  },
+  {
+    "sourceRef": "190c913410f3b4f7",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "De quelle couleur dominante est la « période » mélancolique du jeune Picasso, marquée par la pauvreté et la tristesse ?",
+        "options": [
+          "Bleue",
+          "Rouge",
+          "Verte",
+          "Jaune"
+        ],
+        "explanation": "Après cette période sombre vint une « période rose », plus tendre, peuplée d'acrobates et de personnages de cirque."
+      },
+      "en": {
+        "text": "What dominant colour marks the melancholy 'period' of the young Picasso, shaped by poverty and sadness?",
+        "options": [
+          "Blue",
+          "Red",
+          "Green",
+          "Yellow"
+        ],
+        "explanation": "After this dark period came a 'rose period', gentler, peopled with acrobats and circus figures."
+      },
+      "es": {
+        "text": "¿De qué color dominante es la 'época' melancólica del joven Picasso, marcada por la pobreza y la tristeza?",
+        "options": [
+          "Azul",
+          "Roja",
+          "Verde",
+          "Amarilla"
+        ],
+        "explanation": "Tras esa época oscura llegó una 'época rosa', más tierna, poblada de acróbatas y personajes de circo."
+      }
+    }
+  },
+  {
+    "sourceRef": "bed32d0c445ab9a7",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre espagnol dénonça les horreurs de la guerre dans sa série « Les Désastres » et « Tres de Mayo » ?",
+        "options": [
+          "Bartolomé Murillo",
+          "Francisco de Goya",
+          "El Greco",
+          "Francisco de Zurbarán"
+        ],
+        "explanation": "Devenu sourd, il couvrit les murs de sa maison de « peintures noires » d'une force hallucinée, gardées longtemps pour lui seul."
+      },
+      "en": {
+        "text": "Which Spanish painter denounced the horrors of war in his series 'The Disasters' and 'The Third of May'?",
+        "options": [
+          "Bartolomé Murillo",
+          "Francisco de Goya",
+          "El Greco",
+          "Francisco de Zurbarán"
+        ],
+        "explanation": "Having gone deaf, he covered the walls of his house with 'black paintings' of hallucinatory power, long kept for himself alone."
+      },
+      "es": {
+        "text": "¿Qué pintor español denunció los horrores de la guerra en su serie 'Los Desastres' y 'El tres de mayo'?",
+        "options": [
+          "Bartolomé Murillo",
+          "Francisco de Goya",
+          "El Greco",
+          "Francisco de Zurbarán"
+        ],
+        "explanation": "Ya sordo, cubrió las paredes de su casa con 'pinturas negras' de fuerza alucinada, guardadas mucho tiempo solo para él."
+      }
+    }
+  },
+  {
+    "sourceRef": "0a80b77defffb820",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel artiste russe, pionnier de l'art abstrait, comparait ses toiles colorées à des symphonies et à des « improvisations » ?",
+        "options": [
+          "Kazimir Malevitch",
+          "Marc Chagall",
+          "Vassily Kandinsky",
+          "Alexandre Rodtchenko"
+        ],
+        "explanation": "Il affirmait « voir » les sons et « entendre » les couleurs, un mélange des sens qui nourrit toute sa quête vers la peinture pure."
+      },
+      "en": {
+        "text": "Which Russian artist, a pioneer of abstract art, likened his colourful canvases to symphonies and 'improvisations'?",
+        "options": [
+          "Kazimir Malevich",
+          "Marc Chagall",
+          "Wassily Kandinsky",
+          "Alexander Rodchenko"
+        ],
+        "explanation": "He claimed to 'see' sounds and 'hear' colours, a mingling of the senses that fed his whole quest toward pure painting."
+      },
+      "es": {
+        "text": "¿Qué artista ruso, pionero del arte abstracto, comparaba sus lienzos coloridos con sinfonías e 'improvisaciones'?",
+        "options": [
+          "Kazimir Malévich",
+          "Marc Chagall",
+          "Vasili Kandinski",
+          "Aleksandr Rodchenko"
+        ],
+        "explanation": "Afirmaba 'ver' los sonidos y 'oír' los colores, una mezcla de sentidos que nutrió toda su búsqueda hacia la pintura pura."
+      }
+    }
+  },
+  {
+    "sourceRef": "d421368bb497ea35",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre d'origine biélorusse peignit des villages, des violonistes et des amoureux flottant dans le ciel ?",
+        "options": [
+          "Vassily Kandinsky",
+          "Chaïm Soutine",
+          "Amedeo Modigliani",
+          "Marc Chagall"
+        ],
+        "explanation": "Ses figures défient la pesanteur, planant au-dessus des toits ; ses grands vitraux colorés ornent aujourd'hui des cathédrales et des synagogues."
+      },
+      "en": {
+        "text": "Which painter of Belarusian origin painted villages, fiddlers and lovers floating in the sky?",
+        "options": [
+          "Wassily Kandinsky",
+          "Chaïm Soutine",
+          "Amedeo Modigliani",
+          "Marc Chagall"
+        ],
+        "explanation": "His figures defy gravity, drifting above the rooftops; his great coloured stained-glass windows now adorn cathedrals and synagogues."
+      },
+      "es": {
+        "text": "¿Qué pintor de origen bielorruso pintó aldeas, violinistas y enamorados flotando en el cielo?",
+        "options": [
+          "Vasili Kandinski",
+          "Chaïm Soutine",
+          "Amedeo Modigliani",
+          "Marc Chagall"
+        ],
+        "explanation": "Sus figuras desafían la gravedad, flotando sobre los tejados; sus grandes vidrieras de colores adornan hoy catedrales y sinagogas."
+      }
+    }
+  },
+  {
+    "sourceRef": "8964a827f1ec6f49",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un tableau qui représente un décor de campagne, de mer ou de ville, sans personnage central ?",
+        "options": [
+          "Un paysage",
+          "Un portrait",
+          "Une nature morte",
+          "Un autoportrait"
+        ],
+        "explanation": "Longtemps jugé mineur, ce genre devint majeur avec les impressionnistes, sortis peindre en plein air le jeu changeant de la lumière."
+      },
+      "en": {
+        "text": "What do you call a painting depicting countryside, sea or a town, with no central figure?",
+        "options": [
+          "A landscape",
+          "A portrait",
+          "A still life",
+          "A self-portrait"
+        ],
+        "explanation": "Long thought minor, this genre became major with the Impressionists, who went outdoors to paint the shifting play of light."
+      },
+      "es": {
+        "text": "¿Cómo se llama un cuadro que representa un entorno de campo, mar o ciudad, sin un personaje central?",
+        "options": [
+          "Un paisaje",
+          "Un retrato",
+          "Una naturaleza muerta",
+          "Un autorretrato"
+        ],
+        "explanation": "Mucho tiempo tenido por menor, este género se volvió mayor con los impresionistas, que salieron a pintar al aire libre el juego cambiante de la luz."
+      }
+    }
+  },
+  {
+    "sourceRef": "dae5463735fedcd9",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle technique consiste à coller des morceaux de papier, de tissu ou d'objets divers sur une surface pour composer une œuvre ?",
+        "options": [
+          "La gravure",
+          "Le collage",
+          "Le moulage",
+          "Le pochoir"
+        ],
+        "explanation": "Popularisée par les cubistes, qui y intégrèrent des bouts de journaux et d'étiquettes, elle brouilla la frontière entre le peint et le réel."
+      },
+      "en": {
+        "text": "Which technique consists of gluing pieces of paper, cloth or various objects onto a surface to make a work?",
+        "options": [
+          "Engraving",
+          "Collage",
+          "Casting",
+          "Stencilling"
+        ],
+        "explanation": "Made popular by the Cubists, who worked in scraps of newspaper and labels, it blurred the line between the painted and the real."
+      },
+      "es": {
+        "text": "¿Qué técnica consiste en pegar trozos de papel, tela u objetos diversos sobre una superficie para componer una obra?",
+        "options": [
+          "El grabado",
+          "El collage",
+          "El moldeado",
+          "La plantilla"
+        ],
+        "explanation": "Popularizada por los cubistas, que incorporaron trozos de periódico y etiquetas, difuminó la frontera entre lo pintado y lo real."
+      }
+    }
+  },
+  {
+    "sourceRef": "bb00b6fa940dc462",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre florentin de la Renaissance peignit « Le Printemps » et « La Naissance de Vénus » ?",
+        "options": [
+          "Le Titien",
+          "Raphaël",
+          "Sandro Botticelli",
+          "Giorgione"
+        ],
+        "explanation": "Sous l'influence d'un moine prêcheur, il aurait brûlé lui-même certaines de ses œuvres profanes, jugées trop païennes."
+      },
+      "en": {
+        "text": "Which Florentine Renaissance painter created 'Primavera' and 'The Birth of Venus'?",
+        "options": [
+          "Titian",
+          "Raphael",
+          "Sandro Botticelli",
+          "Giorgione"
+        ],
+        "explanation": "Under the sway of a preaching friar, he is said to have burned some of his own worldly works, judged too pagan."
+      },
+      "es": {
+        "text": "¿Qué pintor florentino del Renacimiento pintó 'La primavera' y 'El nacimiento de Venus'?",
+        "options": [
+          "Tiziano",
+          "Rafael",
+          "Sandro Botticelli",
+          "Giorgione"
+        ],
+        "explanation": "Bajo la influencia de un fraile predicador, habría quemado él mismo algunas de sus obras profanas, juzgadas demasiado paganas."
+      }
+    }
+  },
+  {
+    "sourceRef": "56376ca24b67eabf",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre vénitien de la Renaissance, maître de la couleur, réalisa d'innombrables portraits de rois, de papes et de déesses ?",
+        "options": [
+          "Le Tintoret",
+          "Paolo Véronèse",
+          "Giovanni Bellini",
+          "Le Titien"
+        ],
+        "explanation": "Il vécut très vieux et peignit jusqu'à ses derniers jours, appliquant parfois la peinture directement aux doigts pour plus de vibration."
+      },
+      "en": {
+        "text": "Which Venetian Renaissance painter, a master of colour, made countless portraits of kings, popes and goddesses?",
+        "options": [
+          "Tintoretto",
+          "Paolo Veronese",
+          "Giovanni Bellini",
+          "Titian"
+        ],
+        "explanation": "He lived to a great age and painted to his last days, at times applying paint straight with his fingers for more life."
+      },
+      "es": {
+        "text": "¿Qué pintor veneciano del Renacimiento, maestro del color, hizo innumerables retratos de reyes, papas y diosas?",
+        "options": [
+          "El Tintoretto",
+          "Paolo Veronés",
+          "Giovanni Bellini",
+          "Tiziano"
+        ],
+        "explanation": "Vivió muy anciano y pintó hasta sus últimos días, aplicando a veces la pintura directamente con los dedos para más vibración."
+      }
+    }
+  },
+  {
+    "sourceRef": "ca5a7b669317617d",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on le dessin rapide qu'un artiste trace pour préparer une œuvre plus aboutie ?",
+        "options": [
+          "Un croquis",
+          "Un chef-d'œuvre",
+          "Un moulage",
+          "Un vitrail"
+        ],
+        "explanation": "Les carnets des grands maîtres, couverts de ces esquisses jetées à la hâte, en disent souvent plus long que leurs tableaux achevés."
+      },
+      "en": {
+        "text": "What do you call the quick drawing an artist makes to prepare a more finished work?",
+        "options": [
+          "A sketch",
+          "A masterpiece",
+          "A cast",
+          "A stained-glass window"
+        ],
+        "explanation": "The notebooks of the great masters, covered with such hastily thrown-off sketches, often tell more than their finished paintings."
+      },
+      "es": {
+        "text": "¿Cómo se llama el dibujo rápido que un artista traza para preparar una obra más acabada?",
+        "options": [
+          "Un boceto",
+          "Una obra maestra",
+          "Un molde",
+          "Una vidriera"
+        ],
+        "explanation": "Los cuadernos de los grandes maestros, llenos de estos apuntes trazados deprisa, dicen a menudo más que sus cuadros terminados."
+      }
+    }
+  },
+  {
+    "sourceRef": "c85df3a549adff30",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel style décoratif du XVIIIᵉ siècle succéda au baroque avec des courbes légères, des coquillages et des tons pastel ?",
+        "options": [
+          "Le style gothique",
+          "Le rococo",
+          "Le style roman",
+          "Le néoclassicisme"
+        ],
+        "explanation": "Son nom mêle « rocaille » et « baroque » ; il fut d'abord une moquerie, avant de désigner tout un art de vivre raffiné et gracieux."
+      },
+      "en": {
+        "text": "Which 18th-century decorative style followed the Baroque with light curves, shells and pastel tones?",
+        "options": [
+          "Gothic",
+          "Rococo",
+          "Romanesque",
+          "Neoclassicism"
+        ],
+        "explanation": "Its name blends 'rocaille' and 'baroque'; it was first a jibe, before naming a whole refined, graceful way of life."
+      },
+      "es": {
+        "text": "¿Qué estilo decorativo del siglo XVIII sucedió al barroco con curvas ligeras, conchas y tonos pastel?",
+        "options": [
+          "El gótico",
+          "El rococó",
+          "El románico",
+          "El neoclasicismo"
+        ],
+        "explanation": "Su nombre mezcla 'rocalla' y 'barroco'; fue primero una burla, antes de designar todo un arte de vivir refinado y grácil."
+      }
+    }
+  },
+  {
+    "sourceRef": "b09112a40de07963",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel artiste catalan surréaliste peignit des paysages oniriques peuplés de formes flottantes, d'étoiles et de lunes ?",
+        "options": [
+          "Antoni Tàpies",
+          "Juan Gris",
+          "Joan Miró",
+          "Salvador Dalí"
+        ],
+        "explanation": "Son langage de signes simples, entre le rêve et l'enfance, orne aujourd'hui affiches, logos et façades du monde entier."
+      },
+      "en": {
+        "text": "Which Catalan Surrealist painted dreamlike landscapes peopled with floating shapes, stars and moons?",
+        "options": [
+          "Antoni Tàpies",
+          "Juan Gris",
+          "Joan Miró",
+          "Salvador Dalí"
+        ],
+        "explanation": "His language of simple signs, between dream and childhood, now adorns posters, logos and façades around the world."
+      },
+      "es": {
+        "text": "¿Qué artista catalán surrealista pintó paisajes oníricos poblados de formas flotantes, estrellas y lunas?",
+        "options": [
+          "Antoni Tàpies",
+          "Juan Gris",
+          "Joan Miró",
+          "Salvador Dalí"
+        ],
+        "explanation": "Su lenguaje de signos sencillos, entre el sueño y la infancia, adorna hoy carteles, logotipos y fachadas de todo el mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "b8252a94dbb89f6b",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on une sculpture représentant seulement la tête et le haut des épaules d'une personne ?",
+        "options": [
+          "Une statue équestre",
+          "Un gisant",
+          "Une cariatide",
+          "Un buste"
+        ],
+        "explanation": "Les Romains en peuplaient leurs demeures pour honorer ancêtres et empereurs ; on lit encore sur ces visages de marbre toute une galerie de caractères."
+      },
+      "en": {
+        "text": "What do you call a sculpture showing only the head and upper shoulders of a person?",
+        "options": [
+          "An equestrian statue",
+          "A recumbent effigy",
+          "A caryatid",
+          "A bust"
+        ],
+        "explanation": "The Romans filled their homes with them to honour ancestors and emperors; these marble faces still show a whole gallery of characters."
+      },
+      "es": {
+        "text": "¿Cómo se llama una escultura que representa solo la cabeza y la parte alta de los hombros de una persona?",
+        "options": [
+          "Una estatua ecuestre",
+          "Un yacente",
+          "Una cariátide",
+          "Un busto"
+        ],
+        "explanation": "Los romanos llenaban con ellos sus casas para honrar a antepasados y emperadores; en estos rostros de mármol se lee toda una galería de caracteres."
+      }
+    }
+  },
+  {
+    "sourceRef": "acf431174295e411",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel grand instrument à vent en cuivre, le plus grave de sa famille, s'enroule autour du corps du musicien ?",
+        "options": [
+          "Le tuba",
+          "La trompette",
+          "Le cor",
+          "Le trombone"
+        ],
+        "explanation": "Sa profondeur assoit l'harmonie de l'orchestre et des fanfares ; sans lui, la musique manquerait de fondations, comme une maison sans cave."
+      },
+      "en": {
+        "text": "Which large brass wind instrument, the lowest of its family, wraps around the player's body?",
+        "options": [
+          "The tuba",
+          "The trumpet",
+          "The horn",
+          "The trombone"
+        ],
+        "explanation": "Its depth grounds the harmony of the orchestra and brass bands; without it, the music would lack foundations, like a house with no cellar."
+      },
+      "es": {
+        "text": "¿Qué gran instrumento de viento metal, el más grave de su familia, se enrolla en torno al cuerpo del músico?",
+        "options": [
+          "La tuba",
+          "La trompeta",
+          "La trompa",
+          "El trombón"
+        ],
+        "explanation": "Su profundidad asienta la armonía de la orquesta y las charangas; sin él, la música carecería de cimientos, como una casa sin sótano."
+      }
+    }
+  },
+  {
+    "sourceRef": "15c6a31b34d27431",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un passage joué par un seul instrument, mis en avant et souvent virtuose ?",
+        "options": [
+          "Un chœur",
+          "Un solo",
+          "Un tutti",
+          "Un canon"
+        ],
+        "explanation": "Dans le jazz, chaque musicien s'y lance à son tour dans une improvisation, sous les encouragements du public et de ses partenaires."
+      },
+      "en": {
+        "text": "What do you call a passage played by a single instrument, brought to the fore and often virtuosic?",
+        "options": [
+          "A chorus",
+          "A solo",
+          "A tutti",
+          "A canon"
+        ],
+        "explanation": "In jazz, each musician launches into an improvisation there in turn, cheered on by the audience and their bandmates."
+      },
+      "es": {
+        "text": "¿Cómo se llama un pasaje tocado por un solo instrumento, destacado y a menudo virtuoso?",
+        "options": [
+          "Un coro",
+          "Un solo",
+          "Un tutti",
+          "Un canon"
+        ],
+        "explanation": "En el jazz, cada músico se lanza allí por turnos a una improvisación, animado por el público y sus compañeros."
+      }
+    }
+  },
+  {
+    "sourceRef": "8ada9620aac574d1",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur allemand du baroque, incroyablement prolifique, était l'ami de Bach et de Haendel ?",
+        "options": [
+          "Dietrich Buxtehude",
+          "Johann Pachelbel",
+          "Georg Philipp Telemann",
+          "Heinrich Schütz"
+        ],
+        "explanation": "On lui prête tant d'œuvres qu'on n'a jamais pu toutes les compter : il composait, dit-on, plus vite que les copistes ne recopiaient."
+      },
+      "en": {
+        "text": "Which incredibly prolific German Baroque composer was a friend of Bach and Handel?",
+        "options": [
+          "Dietrich Buxtehude",
+          "Johann Pachelbel",
+          "Georg Philipp Telemann",
+          "Heinrich Schütz"
+        ],
+        "explanation": "So many works are credited to him that none has ever counted them all: he composed, it is said, faster than copyists could copy."
+      },
+      "es": {
+        "text": "¿Qué compositor alemán del barroco, increíblemente prolífico, era amigo de Bach y de Händel?",
+        "options": [
+          "Dietrich Buxtehude",
+          "Johann Pachelbel",
+          "Georg Philipp Telemann",
+          "Heinrich Schütz"
+        ],
+        "explanation": "Se le atribuyen tantas obras que nunca se han podido contar todas: componía, según se dice, más rápido de lo que los copistas copiaban."
+      }
+    }
+  },
+  {
+    "sourceRef": "4ba2d8c8f00f50e1",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur russe écrivit « Pierre et le Loup », conte où chaque personnage est joué par un instrument ?",
+        "options": [
+          "Dmitri Chostakovitch",
+          "Modeste Moussorgski",
+          "Nikolaï Rimski-Korsakov",
+          "Sergueï Prokofiev"
+        ],
+        "explanation": "L'oiseau y est une flûte, le canard un hautbois, le loup des cors : une manière géniale d'apprendre l'orchestre aux enfants."
+      },
+      "en": {
+        "text": "Which Russian composer wrote 'Peter and the Wolf', a tale where each character is played by an instrument?",
+        "options": [
+          "Dmitri Shostakovich",
+          "Modest Mussorgsky",
+          "Nikolai Rimsky-Korsakov",
+          "Sergei Prokofiev"
+        ],
+        "explanation": "The bird is a flute, the duck an oboe, the wolf horns: a brilliant way to teach children the orchestra."
+      },
+      "es": {
+        "text": "¿Qué compositor ruso escribió 'Pedro y el lobo', cuento donde cada personaje lo toca un instrumento?",
+        "options": [
+          "Dmitri Shostakóvich",
+          "Modest Músorgski",
+          "Nikolái Rimski-Kórsakov",
+          "Serguéi Prokófiev"
+        ],
+        "explanation": "El pájaro es una flauta, el pato un oboe, el lobo unas trompas: una manera genial de enseñar la orquesta a los niños."
+      }
+    }
+  },
+  {
+    "sourceRef": "fd11f0e6513f40fa",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel style musical rapide et parlé, né à New York dans les années 1970, est au cœur de la culture hip-hop ?",
+        "options": [
+          "Le rap",
+          "Le funk",
+          "Le disco",
+          "La soul"
+        ],
+        "explanation": "Ses premiers artistes déclamaient sur des morceaux passés par des disc-jockeys qui faisaient tourner les disques à la main, inventant le « scratch »."
+      },
+      "en": {
+        "text": "Which fast, spoken musical style, born in New York in the 1970s, lies at the heart of hip-hop culture?",
+        "options": [
+          "Rap",
+          "Funk",
+          "Disco",
+          "Soul"
+        ],
+        "explanation": "Its first artists chanted over tracks spun by DJs who turned the records by hand, inventing the 'scratch'."
+      },
+      "es": {
+        "text": "¿Qué estilo musical rápido y hablado, nacido en Nueva York en los años 1970, es el corazón de la cultura hip-hop?",
+        "options": [
+          "El rap",
+          "El funk",
+          "El disco",
+          "El soul"
+        ],
+        "explanation": "Sus primeros artistas recitaban sobre temas puestos por disc-jockeys que giraban los discos a mano, inventando el 'scratch'."
+      }
+    }
+  },
+  {
+    "sourceRef": "b1faf5d6c4a5acac",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel genre musical, né dans les clubs des années 1970, faisait danser sur des rythmes réguliers et des boules à facettes ?",
+        "options": [
+          "Le punk",
+          "Le disco",
+          "Le grunge",
+          "Le blues"
+        ],
+        "explanation": "Un célèbre film mit un acteur en costume blanc au centre de la piste, gravant pour toujours ses poses dansantes dans l'imaginaire collectif."
+      },
+      "en": {
+        "text": "Which musical genre, born in the clubs of the 1970s, set people dancing to steady beats under mirror balls?",
+        "options": [
+          "Punk",
+          "Disco",
+          "Grunge",
+          "Blues"
+        ],
+        "explanation": "A famous film put an actor in a white suit at the centre of the floor, fixing his dance poses forever in the popular imagination."
+      },
+      "es": {
+        "text": "¿Qué género musical, nacido en los clubes de los años 1970, hacía bailar con ritmos regulares y bolas de espejos?",
+        "options": [
+          "El punk",
+          "El disco",
+          "El grunge",
+          "El blues"
+        ],
+        "explanation": "Una famosa película puso a un actor de traje blanco en el centro de la pista, grabando para siempre sus poses de baile en el imaginario colectivo."
+      }
+    }
+  },
+  {
+    "sourceRef": "d4fd3ddb675c2db5",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur hongrois recueillit des milliers de chants populaires et composa des « Danses roumaines » ?",
+        "options": [
+          "Zoltán Kodály",
+          "Franz Liszt",
+          "Béla Bartók",
+          "György Ligeti"
+        ],
+        "explanation": "Muni d'un phonographe à cylindres, il parcourut les villages pour enregistrer des mélodies paysannes qui, sans lui, se seraient perdues."
+      },
+      "en": {
+        "text": "Which Hungarian composer collected thousands of folk songs and wrote 'Romanian Dances'?",
+        "options": [
+          "Zoltán Kodály",
+          "Franz Liszt",
+          "Béla Bartók",
+          "György Ligeti"
+        ],
+        "explanation": "Armed with a cylinder phonograph, he roamed the villages to record peasant tunes that, without him, would have been lost."
+      },
+      "es": {
+        "text": "¿Qué compositor húngaro recogió miles de canciones populares y compuso 'Danzas rumanas'?",
+        "options": [
+          "Zoltán Kodály",
+          "Franz Liszt",
+          "Béla Bartók",
+          "György Ligeti"
+        ],
+        "explanation": "Provisto de un fonógrafo de cilindros, recorrió las aldeas para grabar melodías campesinas que, sin él, se habrían perdido."
+      }
+    }
+  },
+  {
+    "sourceRef": "dd29485bf408173b",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur autrichien, maître de la symphonie et du quatuor, fut surnommé affectueusement « papa Haydn » ?",
+        "options": [
+          "Antonio Salieri",
+          "Christoph Gluck",
+          "Wolfgang Amadeus Mozart",
+          "Joseph Haydn"
+        ],
+        "explanation": "Il glissa dans l'une de ses symphonies un coup d'orchestre soudain et tonitruant, pour réveiller, dit-on, les auditeurs assoupis."
+      },
+      "en": {
+        "text": "Which Austrian composer, a master of the symphony and the quartet, was fondly nicknamed 'Papa Haydn'?",
+        "options": [
+          "Antonio Salieri",
+          "Christoph Gluck",
+          "Wolfgang Amadeus Mozart",
+          "Joseph Haydn"
+        ],
+        "explanation": "He slipped into one of his symphonies a sudden, thunderous orchestral chord, to wake, it is said, dozing listeners."
+      },
+      "es": {
+        "text": "¿Qué compositor austríaco, maestro de la sinfonía y el cuarteto, fue apodado con cariño 'papá Haydn'?",
+        "options": [
+          "Antonio Salieri",
+          "Christoph Gluck",
+          "Wolfgang Amadeus Mozart",
+          "Joseph Haydn"
+        ],
+        "explanation": "Deslizó en una de sus sinfonías un acorde orquestal repentino y atronador, para despertar, según se dice, a los oyentes adormilados."
+      }
+    }
+  },
+  {
+    "sourceRef": "b8fb32bc174f24fb",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on la partie chantée d'une chanson qui revient à l'identique après chaque couplet ?",
+        "options": [
+          "Le refrain",
+          "Le couplet",
+          "Le pont",
+          "L'introduction"
+        ],
+        "explanation": "C'est souvent la partie la plus facile à retenir, que le public reprend en chœur ; les compositeurs le soignent pour que la chanson « accroche »."
+      },
+      "en": {
+        "text": "What do you call the sung part of a song that returns unchanged after each verse?",
+        "options": [
+          "The chorus",
+          "The verse",
+          "The bridge",
+          "The intro"
+        ],
+        "explanation": "It is often the easiest part to remember, which the audience sings back; writers polish it so the song will 'stick'."
+      },
+      "es": {
+        "text": "¿Cómo se llama la parte cantada de una canción que vuelve igual después de cada estrofa?",
+        "options": [
+          "El estribillo",
+          "La estrofa",
+          "El puente",
+          "La introducción"
+        ],
+        "explanation": "Suele ser la parte más fácil de recordar, que el público corea; los compositores la cuidan para que la canción 'enganche'."
+      }
+    }
+  },
+  {
+    "sourceRef": "a6e852eac53f6cc6",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument de percussion accordé, fait de lames de bois frappées avec des baguettes, tinte clairement ?",
+        "options": [
+          "Le tambour",
+          "Le xylophone",
+          "Les maracas",
+          "Le triangle"
+        ],
+        "explanation": "Son cousin aux lames de métal, plus doux et cristallin, s'appelle le vibraphone, très prisé dans le jazz."
+      },
+      "en": {
+        "text": "Which tuned percussion instrument, made of wooden bars struck with mallets, rings out clearly?",
+        "options": [
+          "The drum",
+          "The xylophone",
+          "The maracas",
+          "The triangle"
+        ],
+        "explanation": "Its metal-barred cousin, softer and more crystalline, is called the vibraphone, much prized in jazz."
+      },
+      "es": {
+        "text": "¿Qué instrumento de percusión afinado, hecho de láminas de madera golpeadas con baquetas, suena con claridad?",
+        "options": [
+          "El tambor",
+          "El xilófono",
+          "Las maracas",
+          "El triángulo"
+        ],
+        "explanation": "Su primo de láminas de metal, más suave y cristalino, se llama vibráfono, muy apreciado en el jazz."
+      }
+    }
+  },
+  {
+    "sourceRef": "212d7c27ed7050d8",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur allemand du romantisme composa un « Requiem allemand » et quatre grandes symphonies ?",
+        "options": [
+          "Anton Bruckner",
+          "Gustav Mahler",
+          "Johannes Brahms",
+          "Robert Schumann"
+        ],
+        "explanation": "Perfectionniste jusqu'au tourment, il attendit plus de vingt ans avant d'oser publier sa première symphonie, écrasé par l'ombre de Beethoven."
+      },
+      "en": {
+        "text": "Which German Romantic composer wrote a 'German Requiem' and four great symphonies?",
+        "options": [
+          "Anton Bruckner",
+          "Gustav Mahler",
+          "Johannes Brahms",
+          "Robert Schumann"
+        ],
+        "explanation": "A perfectionist to the point of torment, he waited over twenty years before daring to publish his first symphony, crushed by Beethoven's shadow."
+      },
+      "es": {
+        "text": "¿Qué compositor alemán del romanticismo compuso un 'Réquiem alemán' y cuatro grandes sinfonías?",
+        "options": [
+          "Anton Bruckner",
+          "Gustav Mahler",
+          "Johannes Brahms",
+          "Robert Schumann"
+        ],
+        "explanation": "Perfeccionista hasta el tormento, esperó más de veinte años antes de atreverse a publicar su primera sinfonía, aplastado por la sombra de Beethoven."
+      }
+    }
+  },
+  {
+    "sourceRef": "eedfbff3125a07e3",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel groupe de rock britannique connut un succès mondial avec le morceau « Stairway to Heaven » ?",
+        "options": [
+          "Deep Purple",
+          "The Who",
+          "Cream",
+          "Led Zeppelin"
+        ],
+        "explanation": "Le groupe refusa longtemps que ce titre passe à la radio en entier, tant il tenait à ce qu'on l'écoute d'un bloc, du début à la fin."
+      },
+      "en": {
+        "text": "Which British rock band scored a worldwide hit with the track 'Stairway to Heaven'?",
+        "options": [
+          "Deep Purple",
+          "The Who",
+          "Cream",
+          "Led Zeppelin"
+        ],
+        "explanation": "The band long refused to let the song play in full on the radio, so keen were they that it be heard as one piece, start to finish."
+      },
+      "es": {
+        "text": "¿Qué grupo de rock británico logró un éxito mundial con el tema 'Stairway to Heaven'?",
+        "options": [
+          "Deep Purple",
+          "The Who",
+          "Cream",
+          "Led Zeppelin"
+        ],
+        "explanation": "El grupo se negó mucho tiempo a que la canción sonara entera en la radio, de lo mucho que querían que se oyera de un tirón, de principio a fin."
+      }
+    }
+  },
+  {
+    "sourceRef": "14d228a07993bccf",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel petit objet plat, appelé aussi plectre, sert à pincer les cordes d'une guitare ?",
+        "options": [
+          "Le médiator",
+          "L'archet",
+          "La baguette",
+          "Le capodastre"
+        ],
+        "explanation": "Chaque guitariste a ses préférences d'épaisseur et de matière : un simple bout de plastique change la couleur du son."
+      },
+      "en": {
+        "text": "Which small flat object, also called a plectrum, is used to pluck the strings of a guitar?",
+        "options": [
+          "The pick",
+          "The bow",
+          "The stick",
+          "The capo"
+        ],
+        "explanation": "Every guitarist has preferences of thickness and material: a mere scrap of plastic changes the colour of the sound."
+      },
+      "es": {
+        "text": "¿Qué pequeño objeto plano, llamado también plectro, sirve para pulsar las cuerdas de una guitarra?",
+        "options": [
+          "La púa",
+          "El arco",
+          "La baqueta",
+          "La cejilla"
+        ],
+        "explanation": "Cada guitarrista tiene sus preferencias de grosor y material: un simple trozo de plástico cambia el color del sonido."
+      }
+    }
+  },
+  {
+    "sourceRef": "d8078c666eb3769e",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on le chant religieux médiéval à une seule voix, sans accompagnement, dit « grégorien » ?",
+        "options": [
+          "L'oratorio",
+          "Le plain-chant",
+          "Le madrigal",
+          "La cantate"
+        ],
+        "explanation": "Pour transmettre ces mélodies, les moines inventèrent une écriture par points et signes, ancêtre de notre portée musicale."
+      },
+      "en": {
+        "text": "What do you call the single-voice, unaccompanied medieval church chant known as 'Gregorian'?",
+        "options": [
+          "The oratorio",
+          "Plainchant",
+          "The madrigal",
+          "The cantata"
+        ],
+        "explanation": "To pass on these melodies, monks invented a writing of dots and signs, the ancestor of our musical staff."
+      },
+      "es": {
+        "text": "¿Cómo se llama el canto religioso medieval a una sola voz, sin acompañamiento, llamado 'gregoriano'?",
+        "options": [
+          "El oratorio",
+          "El canto llano",
+          "El madrigal",
+          "La cantata"
+        ],
+        "explanation": "Para transmitir estas melodías, los monjes inventaron una escritura de puntos y signos, antepasada de nuestro pentagrama."
+      }
+    }
+  },
+  {
+    "sourceRef": "8660b361bc469718",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Dans quel jeu de réflexion l'objectif est de mettre le roi adverse « échec et mat » ?",
+        "options": [
+          "Les échecs",
+          "Les dames",
+          "Le backgammon",
+          "Le tarot"
+        ],
+        "explanation": "Le nombre de parties possibles y dépasse, dit-on, le nombre d'atomes de l'univers : deux joueurs ne rejouent presque jamais la même."
+      },
+      "en": {
+        "text": "In which thinking game is the aim to put the opponent's king in 'checkmate'?",
+        "options": [
+          "Chess",
+          "Draughts",
+          "Backgammon",
+          "Dominoes"
+        ],
+        "explanation": "The number of possible games is said to exceed the number of atoms in the universe: two players almost never repeat the same one."
+      },
+      "es": {
+        "text": "¿En qué juego de estrategia el objetivo es poner al rey rival en 'jaque mate'?",
+        "options": [
+          "El ajedrez",
+          "Las damas",
+          "El backgammon",
+          "El dominó"
+        ],
+        "explanation": "El número de partidas posibles supera, según se dice, el número de átomos del universo: dos jugadores casi nunca repiten la misma."
+      }
+    }
+  },
+  {
+    "sourceRef": "66128eb02671b396",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel jeu de plateau d'origine asiatique se joue avec des pierres noires et blanches, pour encercler le plus de territoire ?",
+        "options": [
+          "Le shogi",
+          "Le go",
+          "Le mah-jong",
+          "Les échecs"
+        ],
+        "explanation": "Malgré ses règles très simples, il resta longtemps un défi pour les ordinateurs, jusqu'à ce qu'une intelligence artificielle batte les meilleurs maîtres."
+      },
+      "en": {
+        "text": "Which board game of Asian origin is played with black and white stones, to surround the most territory?",
+        "options": [
+          "Shogi",
+          "Go",
+          "Mahjong",
+          "Chess"
+        ],
+        "explanation": "Despite its very simple rules, it long stumped computers, until an artificial intelligence beat the greatest masters."
+      },
+      "es": {
+        "text": "¿Qué juego de mesa de origen asiático se juega con piedras negras y blancas, para rodear el mayor territorio?",
+        "options": [
+          "El shogi",
+          "El go",
+          "El mahjong",
+          "El ajedrez"
+        ],
+        "explanation": "Pese a sus reglas muy sencillas, desafió mucho tiempo a los ordenadores, hasta que una inteligencia artificial venció a los mejores maestros."
+      }
+    }
+  },
+  {
+    "sourceRef": "8f2fdf8eb31c024a",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel sport d'hiver consiste à dévaler une piste glacée allongé sur une petite luge, tête la première ?",
+        "options": [
+          "Le bobsleigh",
+          "La luge",
+          "Le skeleton",
+          "Le curling"
+        ],
+        "explanation": "Le visage à quelques centimètres de la glace, le pilote file à plus de cent trente kilomètres à l'heure sans aucune protection autour de lui."
+      },
+      "en": {
+        "text": "Which winter sport involves racing down an icy track lying head-first on a small sled?",
+        "options": [
+          "Bobsleigh",
+          "Luge",
+          "Skeleton",
+          "Curling"
+        ],
+        "explanation": "Face just centimetres from the ice, the rider hurtles at over a hundred and thirty kilometres an hour with nothing around them for protection."
+      },
+      "es": {
+        "text": "¿Qué deporte de invierno consiste en bajar una pista helada tumbado en un pequeño trineo, de cabeza?",
+        "options": [
+          "El bobsleigh",
+          "El luge",
+          "El skeleton",
+          "El curling"
+        ],
+        "explanation": "Con la cara a pocos centímetros del hielo, el piloto se lanza a más de ciento treinta kilómetros por hora sin protección a su alrededor."
+      }
+    }
+  },
+  {
+    "sourceRef": "404402e0523d0155",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel sport d'hiver se pratique à plusieurs, dans un engin profilé et fermé lancé sur une piste de glace ?",
+        "options": [
+          "La luge",
+          "Le skeleton",
+          "Le patinage",
+          "Le bobsleigh"
+        ],
+        "explanation": "Le départ est décisif : l'équipage pousse l'engin de toutes ses forces avant de sauter à bord, chaque centième de seconde comptant."
+      },
+      "en": {
+        "text": "Which winter sport is done in teams, in a streamlined enclosed craft launched down an ice track?",
+        "options": [
+          "Luge",
+          "Skeleton",
+          "Skating",
+          "Bobsleigh"
+        ],
+        "explanation": "The start is decisive: the crew shoves the craft with all their might before leaping aboard, every hundredth of a second counting."
+      },
+      "es": {
+        "text": "¿Qué deporte de invierno se practica en equipo, en un aparato aerodinámico y cerrado lanzado por una pista de hielo?",
+        "options": [
+          "El luge",
+          "El skeleton",
+          "El patinaje",
+          "El bobsleigh"
+        ],
+        "explanation": "La salida es decisiva: la tripulación empuja el aparato con todas sus fuerzas antes de saltar dentro, contando cada centésima de segundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "4cbcb27f60e4d65b",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on, au bowling, le fait de renverser les dix quilles d'un seul lancer ?",
+        "options": [
+          "Un strike",
+          "Un spare",
+          "Un split",
+          "Un gutter"
+        ],
+        "explanation": "En réussir plusieurs d'affilée fait grimper le score en cascade, car chaque strike ajoute aussi les points des lancers suivants."
+      },
+      "en": {
+        "text": "In bowling, what do you call knocking down all ten pins with a single throw?",
+        "options": [
+          "A strike",
+          "A spare",
+          "A split",
+          "A gutter"
+        ],
+        "explanation": "Landing several in a row makes the score climb in a cascade, since each strike also adds the points of the following throws."
+      },
+      "es": {
+        "text": "En los bolos, ¿cómo se llama derribar los diez bolos de un solo lanzamiento?",
+        "options": [
+          "Un strike",
+          "Un spare",
+          "Un split",
+          "Un gutter"
+        ],
+        "explanation": "Lograr varios seguidos hace subir la puntuación en cascada, pues cada strike suma también los puntos de los lanzamientos siguientes."
+      }
+    }
+  },
+  {
+    "sourceRef": "f91e373a3fdee6db",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport de précision lance-t-on de petites fléchettes vers une cible ronde et numérotée ?",
+        "options": [
+          "Le tir à l'arc",
+          "Les fléchettes",
+          "La pétanque",
+          "Le curling"
+        ],
+        "explanation": "Né dans les pubs britanniques, ce jeu de comptoir est devenu un sport télévisé où le fameux « double vingt » vaut le maximum de points."
+      },
+      "en": {
+        "text": "In which precision sport do you throw small darts at a round, numbered target?",
+        "options": [
+          "Archery",
+          "Darts",
+          "Pétanque",
+          "Curling"
+        ],
+        "explanation": "Born in British pubs, this bar game became a televised sport where the famous 'double twenty' is worth the most points."
+      },
+      "es": {
+        "text": "¿En qué deporte de precisión se lanzan pequeños dardos hacia una diana redonda y numerada?",
+        "options": [
+          "El tiro con arco",
+          "Los dardos",
+          "La petanca",
+          "El curling"
+        ],
+        "explanation": "Nacido en los pubs británicos, este juego de barra se volvió deporte televisado donde el famoso 'doble veinte' vale la máxima puntuación."
+      }
+    }
+  },
+  {
+    "sourceRef": "c81c0d1108140d76",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Que reçoit un joueur de football, en avertissement pour une faute, avant l'exclusion ?",
+        "options": [
+          "Un corner",
+          "Un penalty",
+          "Un carton jaune",
+          "Une touche"
+        ],
+        "explanation": "Deux avertissements dans le même match valent une exclusion : l'arbitre montre alors le carton de la couleur du danger."
+      },
+      "en": {
+        "text": "What does a footballer receive, as a warning for a foul, before being sent off?",
+        "options": [
+          "A corner",
+          "A penalty",
+          "A yellow card",
+          "A throw-in"
+        ],
+        "explanation": "Two warnings in the same match add up to a sending-off: the referee then shows the card of the colour of danger."
+      },
+      "es": {
+        "text": "¿Qué recibe un futbolista, como advertencia por una falta, antes de la expulsión?",
+        "options": [
+          "Un córner",
+          "Un penalti",
+          "Una tarjeta amarilla",
+          "Un saque de banda"
+        ],
+        "explanation": "Dos advertencias en el mismo partido equivalen a una expulsión: el árbitro muestra entonces la tarjeta del color del peligro."
+      }
+    }
+  },
+  {
+    "sourceRef": "a2d0a4cdebca9833",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on, au football, un tir accordé face au seul gardien après une faute commise dans la surface ?",
+        "options": [
+          "Un corner",
+          "Une touche",
+          "Un coup franc",
+          "Un penalty"
+        ],
+        "explanation": "Le tireur part largement favori, mais la pression est immense : rater ce duel presque gagné d'avance reste l'un des pires cauchemars du joueur."
+      },
+      "en": {
+        "text": "In football, what do you call a shot awarded against the goalkeeper alone after a foul in the box?",
+        "options": [
+          "A corner",
+          "A throw-in",
+          "A free kick",
+          "A penalty"
+        ],
+        "explanation": "The taker is a strong favourite, but the pressure is immense: missing this near-certain duel remains one of a player's worst nightmares."
+      },
+      "es": {
+        "text": "En el fútbol, ¿cómo se llama un disparo concedido ante el portero solo, tras una falta dentro del área?",
+        "options": [
+          "Un córner",
+          "Un saque de banda",
+          "Un tiro libre",
+          "Un penalti"
+        ],
+        "explanation": "El lanzador parte muy favorito, pero la presión es enorme: fallar este duelo casi ganado de antemano es una de las peores pesadillas del jugador."
+      }
+    }
+  },
+  {
+    "sourceRef": "d27f831815eae771",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle discipline olympique enchaîne cinq épreuves : escrime, natation, équitation, tir et course à pied ?",
+        "options": [
+          "Le pentathlon moderne",
+          "Le décathlon",
+          "L'heptathlon",
+          "Le triathlon"
+        ],
+        "explanation": "Elle fut imaginée pour représenter les qualités d'un officier de cavalerie idéal, censé savoir se battre, nager, monter, tirer et courir."
+      },
+      "en": {
+        "text": "Which Olympic discipline links five events: fencing, swimming, riding, shooting and running?",
+        "options": [
+          "Modern pentathlon",
+          "Decathlon",
+          "Heptathlon",
+          "Triathlon"
+        ],
+        "explanation": "It was devised to represent the skills of an ideal cavalry officer, meant to fight, swim, ride, shoot and run."
+      },
+      "es": {
+        "text": "¿Qué disciplina olímpica encadena cinco pruebas: esgrima, natación, equitación, tiro y carrera a pie?",
+        "options": [
+          "El pentatlón moderno",
+          "El decatlón",
+          "El heptatlón",
+          "El triatlón"
+        ],
+        "explanation": "Se ideó para representar las cualidades de un oficial de caballería ideal, que debía saber luchar, nadar, montar, disparar y correr."
+      }
+    }
+  },
+  {
+    "sourceRef": "943bcca35ab41531",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel sport de raquette, en plein essor, se joue à quatre sur un petit court vitré où la balle rebondit sur les parois ?",
+        "options": [
+          "Le squash",
+          "Le padel",
+          "Le tennis",
+          "Le badminton"
+        ],
+        "explanation": "Inventé au Mexique dans les années 1960, il séduit par sa convivialité : ses règles simples permettent de s'amuser dès la première partie."
+      },
+      "en": {
+        "text": "Which fast-growing racket sport is played four at a time on a small glass court where the ball rebounds off the walls?",
+        "options": [
+          "Squash",
+          "Padel",
+          "Tennis",
+          "Badminton"
+        ],
+        "explanation": "Invented in Mexico in the 1960s, it charms by its friendliness: its simple rules let people enjoy it from the very first game."
+      },
+      "es": {
+        "text": "¿Qué deporte de raqueta, en pleno auge, se juega de cuatro en una pequeña pista acristalada donde la pelota rebota en las paredes?",
+        "options": [
+          "El squash",
+          "El pádel",
+          "El tenis",
+          "El bádminton"
+        ],
+        "explanation": "Inventado en México en los años 1960, seduce por su carácter social: sus reglas sencillas permiten disfrutar desde la primera partida."
+      }
+    }
+  },
+  {
+    "sourceRef": "b4e5f0db26755469",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel sport de combat, olympique, se pratique pieds nus sur un tapis, en cherchant à faire tomber l'adversaire sur le dos ?",
+        "options": [
+          "La boxe",
+          "L'escrime",
+          "La lutte",
+          "Le tir"
+        ],
+        "explanation": "C'est l'un des plus anciens sports de l'humanité : on le pratiquait déjà lors des tout premiers Jeux de la Grèce antique."
+      },
+      "en": {
+        "text": "Which Olympic combat sport is practised barefoot on a mat, trying to force the opponent onto their back?",
+        "options": [
+          "Boxing",
+          "Fencing",
+          "Wrestling",
+          "Shooting"
+        ],
+        "explanation": "It is one of humanity's oldest sports: it was already practised at the very first Games of ancient Greece."
+      },
+      "es": {
+        "text": "¿Qué deporte de combate, olímpico, se practica descalzo sobre un tapiz, buscando derribar al adversario de espaldas?",
+        "options": [
+          "El boxeo",
+          "La esgrima",
+          "La lucha",
+          "El tiro"
+        ],
+        "explanation": "Es uno de los deportes más antiguos de la humanidad: ya se practicaba en los primerísimos Juegos de la antigua Grecia."
+      }
+    }
+  },
+  {
+    "sourceRef": "a02a7c57d0b71f82",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de joueurs composent une équipe de base-ball sur le terrain, en défense ?",
+        "options": [
+          "11",
+          "7",
+          "10",
+          "9"
+        ],
+        "explanation": "Chacun occupe un poste précis, du lanceur au receveur ; le lanceur, pièce maîtresse, peut décider à lui seul du sort d'une rencontre."
+      },
+      "en": {
+        "text": "How many players make up a baseball team on the field, on defence?",
+        "options": [
+          "11",
+          "7",
+          "10",
+          "9"
+        ],
+        "explanation": "Each holds a set position, from pitcher to catcher; the pitcher, the key player, can decide the fate of a game alone."
+      },
+      "es": {
+        "text": "¿Cuántos jugadores forman un equipo de béisbol en el campo, en defensa?",
+        "options": [
+          "11",
+          "7",
+          "10",
+          "9"
+        ],
+        "explanation": "Cada uno ocupa una posición precisa, del lanzador al receptor; el lanzador, pieza clave, puede decidir por sí solo la suerte de un partido."
+      }
+    }
+  },
+  {
+    "sourceRef": "5b5f0f78864ef605",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel pilote automobile allemand remporta sept titres de champion du monde de Formule 1 ?",
+        "options": [
+          "Michael Schumacher",
+          "Sebastian Vettel",
+          "Niki Lauda",
+          "Nico Rosberg"
+        ],
+        "explanation": "Réputé pour sa maîtrise sous la pluie, il transformait des conditions cauchemardesques en démonstrations, gagnant là où d'autres renonçaient."
+      },
+      "en": {
+        "text": "Which German racing driver won seven Formula 1 world championship titles?",
+        "options": [
+          "Michael Schumacher",
+          "Sebastian Vettel",
+          "Niki Lauda",
+          "Nico Rosberg"
+        ],
+        "explanation": "Famed for his mastery in the rain, he turned nightmarish conditions into showcases, winning where others gave up."
+      },
+      "es": {
+        "text": "¿Qué piloto de automovilismo alemán ganó siete títulos de campeón del mundo de Fórmula 1?",
+        "options": [
+          "Michael Schumacher",
+          "Sebastian Vettel",
+          "Niki Lauda",
+          "Nico Rosberg"
+        ],
+        "explanation": "Famoso por su dominio bajo la lluvia, convertía condiciones de pesadilla en exhibiciones, ganando donde otros se rendían."
+      }
+    }
+  },
+  {
+    "sourceRef": "5b758f5260f960be",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on la célèbre course cycliste d'un jour, sur les pavés du nord de la France, surnommée « l'Enfer du Nord » ?",
+        "options": [
+          "Milan-San Remo",
+          "Paris-Roubaix",
+          "Le Tour des Flandres",
+          "Liège-Bastogne-Liège"
+        ],
+        "explanation": "Ses secteurs pavés, hérités d'anciennes routes minières, secouent tant les coureurs que finir couvert de boue y est déjà une victoire."
+      },
+      "en": {
+        "text": "What is the famous one-day cycling race on the cobbles of northern France, nicknamed the 'Hell of the North'?",
+        "options": [
+          "Milan-San Remo",
+          "Paris-Roubaix",
+          "The Tour of Flanders",
+          "Liège-Bastogne-Liège"
+        ],
+        "explanation": "Its cobbled sectors, left from old mining roads, shake the riders so hard that finishing caked in mud is already a victory."
+      },
+      "es": {
+        "text": "¿Cómo se llama la famosa carrera ciclista de un día, sobre los adoquines del norte de Francia, apodada 'el Infierno del Norte'?",
+        "options": [
+          "Milán-San Remo",
+          "París-Roubaix",
+          "El Tour de Flandes",
+          "Lieja-Bastoña-Lieja"
+        ],
+        "explanation": "Sus tramos de adoquines, herencia de antiguas rutas mineras, sacuden tanto a los corredores que acabar cubierto de barro ya es una victoria."
+      }
+    }
+  },
+  {
+    "sourceRef": "5339b11462e0354f",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel sport de précision consiste à propulser une flèche vers une cible à l'aide d'un arc ?",
+        "options": [
+          "Le javelot",
+          "Les fléchettes",
+          "Le tir à l'arc",
+          "La sarbacane"
+        ],
+        "explanation": "Discipline olympique, il exige un calme parfait : les meilleurs archers apprennent à décocher entre deux battements de cœur pour ne pas trembler."
+      },
+      "en": {
+        "text": "Which precision sport involves sending an arrow towards a target with a bow?",
+        "options": [
+          "Javelin",
+          "Darts",
+          "Archery",
+          "Blowpipe"
+        ],
+        "explanation": "An Olympic discipline, it demands perfect calm: the best archers learn to loose between two heartbeats so as not to tremble."
+      },
+      "es": {
+        "text": "¿Qué deporte de precisión consiste en lanzar una flecha hacia una diana con un arco?",
+        "options": [
+          "La jabalina",
+          "Los dardos",
+          "El tiro con arco",
+          "La cerbatana"
+        ],
+        "explanation": "Disciplina olímpica, exige una calma perfecta: los mejores arqueros aprenden a soltar entre dos latidos para no temblar."
+      }
+    }
+  },
+  {
+    "sourceRef": "f0656a914968d8ea",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on l'exploit d'un golfeur qui envoie la balle directement dans le trou dès le premier coup ?",
+        "options": [
+          "Un birdie",
+          "Un par",
+          "Un bogey",
+          "Un trou en un"
+        ],
+        "explanation": "Si rare qu'il tient presque du miracle, il se produit surtout sur les trous courts et fait, par tradition, la fierté de toute une vie de golfeur."
+      },
+      "en": {
+        "text": "What do you call a golfer's feat of sending the ball straight into the hole on the very first shot?",
+        "options": [
+          "A birdie",
+          "A par",
+          "A bogey",
+          "A hole-in-one"
+        ],
+        "explanation": "So rare it borders on a miracle, it happens mostly on short holes and is, by tradition, the pride of a whole golfing life."
+      },
+      "es": {
+        "text": "¿Cómo se llama la hazaña de un golfista que mete la bola directamente en el hoyo al primer golpe?",
+        "options": [
+          "Un birdie",
+          "Un par",
+          "Un bogey",
+          "Un hoyo en uno"
+        ],
+        "explanation": "Tan raro que roza el milagro, ocurre sobre todo en los hoyos cortos y es, por tradición, el orgullo de toda una vida de golfista."
+      }
+    }
+  },
+  {
+    "sourceRef": "14893984d89967f4",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un mot formé des initiales d'un groupe de mots, comme « OVNI » ou « laser » ?",
+        "options": [
+          "Un acronyme",
+          "Un palindrome",
+          "Un synonyme",
+          "Une anagramme"
+        ],
+        "explanation": "Certains sont si répandus qu'on oublie qu'ils sont des sigles : « laser » signifie à l'origine une longue phrase savante sur la lumière."
+      },
+      "en": {
+        "text": "What do you call a word formed from the initials of a group of words, like 'UFO' or 'laser'?",
+        "options": [
+          "An acronym",
+          "A palindrome",
+          "A synonym",
+          "An anagram"
+        ],
+        "explanation": "Some are so common we forget they are abbreviations: 'laser' originally stands for a long scientific phrase about light."
+      },
+      "es": {
+        "text": "¿Cómo se llama una palabra formada por las iniciales de un grupo de palabras, como 'OVNI' o 'láser'?",
+        "options": [
+          "Un acrónimo",
+          "Un palíndromo",
+          "Un sinónimo",
+          "Un anagrama"
+        ],
+        "explanation": "Algunos son tan comunes que olvidamos que son siglas: 'láser' significa en origen una larga frase científica sobre la luz."
+      }
+    }
+  },
+  {
+    "sourceRef": "d96ca6f45727a45f",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un mot obtenu en mélangeant les lettres d'un autre, comme « chien » et « niche » ?",
+        "options": [
+          "Un palindrome",
+          "Une anagramme",
+          "Un acronyme",
+          "Un homophone"
+        ],
+        "explanation": "Des écrivains s'en amusent pour cacher un vrai nom ; certains auteurs ont même bâti leur pseudonyme en réarrangeant les lettres du leur."
+      },
+      "en": {
+        "text": "What do you call a word made by rearranging the letters of another, like 'listen' and 'silent'?",
+        "options": [
+          "A palindrome",
+          "An anagram",
+          "An acronym",
+          "A homophone"
+        ],
+        "explanation": "Writers play with them to hide a real name; some authors even built their pen name by rearranging the letters of their own."
+      },
+      "es": {
+        "text": "¿Cómo se llama una palabra obtenida al mezclar las letras de otra, como 'roma' y 'amor'?",
+        "options": [
+          "Un palíndromo",
+          "Un anagrama",
+          "Un acrónimo",
+          "Un homófono"
+        ],
+        "explanation": "Los escritores juegan con ellos para ocultar un nombre real; algunos autores hasta crearon su seudónimo reordenando las letras del suyo."
+      }
+    }
+  },
+  {
+    "sourceRef": "55a5c0d6110eadd0",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on deux mots qui se prononcent de la même façon mais s'écrivent différemment, comme « ver » et « verre » ?",
+        "options": [
+          "Des antonymes",
+          "Des synonymes",
+          "Des homophones",
+          "Des palindromes"
+        ],
+        "explanation": "Le français en regorge, source de fautes et de jeux de mots : « saint », « sein », « ceint » et « seing » se disent tous pareil."
+      },
+      "en": {
+        "text": "What do you call two words pronounced the same but spelled differently, like 'sea' and 'see'?",
+        "options": [
+          "Antonyms",
+          "Synonyms",
+          "Homophones",
+          "Palindromes"
+        ],
+        "explanation": "English is full of them, a source of mistakes and puns: 'their', 'there' and 'they're' all sound alike."
+      },
+      "es": {
+        "text": "¿Cómo se llaman dos palabras que se pronuncian igual pero se escriben distinto, como 'vaca' y 'baca'?",
+        "options": [
+          "Antónimos",
+          "Sinónimos",
+          "Homófonos",
+          "Palíndromos"
+        ],
+        "explanation": "El español tiene muchos, fuente de faltas y juegos de palabras: 'hola' y 'ola' suenan igual pero significan cosas muy distintas."
+      }
+    }
+  },
+  {
+    "sourceRef": "e562a2fd9eaa15ff",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on une comparaison sans mot de liaison, comme « cet homme est un lion » ?",
+        "options": [
+          "La comparaison",
+          "La litote",
+          "L'ironie",
+          "La métaphore"
+        ],
+        "explanation": "Elle rapproche deux mondes sans prévenir : là où la comparaison dit « comme », elle fusionne directement les images pour frapper l'esprit."
+      },
+      "en": {
+        "text": "What do you call a comparison with no linking word, as in 'this man is a lion'?",
+        "options": [
+          "The simile",
+          "Litotes",
+          "Irony",
+          "The metaphor"
+        ],
+        "explanation": "It joins two worlds without warning: where the simile says 'like', it fuses the images directly to strike the mind."
+      },
+      "es": {
+        "text": "¿Cómo se llama una comparación sin palabra de enlace, como 'este hombre es un león'?",
+        "options": [
+          "El símil",
+          "La lítotes",
+          "La ironía",
+          "La metáfora"
+        ],
+        "explanation": "Une dos mundos sin avisar: donde el símil dice 'como', ella funde directamente las imágenes para impactar la mente."
+      }
+    }
+  },
+  {
+    "sourceRef": "8c11ccbb9ab031f9",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on une atténuation qui dit moins pour suggérer plus, comme « ce n'est pas mauvais » ?",
+        "options": [
+          "La litote",
+          "L'hyperbole",
+          "Le pléonasme",
+          "La rime"
+        ],
+        "explanation": "La plus célèbre du théâtre français, « Va, je ne te hais point », signifie en réalité, sous la retenue des mots, un aveu d'amour brûlant."
+      },
+      "en": {
+        "text": "What do you call an understatement that says less to suggest more, like 'not bad at all'?",
+        "options": [
+          "Litotes",
+          "Hyperbole",
+          "Pleonasm",
+          "Rhyme"
+        ],
+        "explanation": "The most famous in French theatre, 'Go, I do not hate you', in fact hides, beneath its restraint, a burning avowal of love."
+      },
+      "es": {
+        "text": "¿Cómo se llama una atenuación que dice menos para sugerir más, como 'no está nada mal'?",
+        "options": [
+          "La lítotes",
+          "La hipérbole",
+          "El pleonasmo",
+          "La rima"
+        ],
+        "explanation": "La más célebre del teatro francés, 'Ve, no te odio', esconde en realidad, bajo la contención, una ardiente declaración de amor."
+      }
+    }
+  },
+  {
+    "sourceRef": "262eea2b977fbe01",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un poème de quatorze vers, très pratiqué à la Renaissance ?",
+        "options": [
+          "Une ode",
+          "Un sonnet",
+          "Une fable",
+          "Une ballade"
+        ],
+        "explanation": "Sa forme fixe, deux quatrains suivis de deux tercets, imposait aux poètes une gymnastique dont ils tiraient souvent leurs plus beaux vers."
+      },
+      "en": {
+        "text": "What do you call a fourteen-line poem, widely practised in the Renaissance?",
+        "options": [
+          "An ode",
+          "A sonnet",
+          "A fable",
+          "A ballad"
+        ],
+        "explanation": "Its fixed form, two quatrains then two tercets, forced poets into a discipline from which they often drew their finest lines."
+      },
+      "es": {
+        "text": "¿Cómo se llama un poema de catorce versos, muy practicado en el Renacimiento?",
+        "options": [
+          "Una oda",
+          "Un soneto",
+          "Una fábula",
+          "Una balada"
+        ],
+        "explanation": "Su forma fija, dos cuartetos y dos tercetos, imponía a los poetas una gimnasia de la que a menudo salían sus versos más bellos."
+      }
+    }
+  },
+  {
+    "sourceRef": "63c172a83a059ddb",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel court poème japonais de trois vers évoque souvent la nature en dix-sept syllabes ?",
+        "options": [
+          "Le sonnet",
+          "La ballade",
+          "Le haïku",
+          "L'épopée"
+        ],
+        "explanation": "L'art y est de suggérer sans expliquer : en quelques mots, il saisit un instant fugace, comme le plongeon d'une grenouille dans un vieil étang."
+      },
+      "en": {
+        "text": "Which short Japanese poem of three lines often evokes nature in seventeen syllables?",
+        "options": [
+          "The sonnet",
+          "The ballad",
+          "The haiku",
+          "The epic"
+        ],
+        "explanation": "The art lies in suggesting without explaining: in a few words it seizes a fleeting instant, like a frog's plunge into an old pond."
+      },
+      "es": {
+        "text": "¿Qué breve poema japonés de tres versos evoca a menudo la naturaleza en diecisiete sílabas?",
+        "options": [
+          "El soneto",
+          "La balada",
+          "El haiku",
+          "La epopeya"
+        ],
+        "explanation": "El arte está en sugerir sin explicar: en pocas palabras capta un instante fugaz, como el salto de una rana a un viejo estanque."
+      }
+    }
+  },
+  {
+    "sourceRef": "0d503130d38ec58d",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on le repas que l'on prend habituellement au milieu de la journée ?",
+        "options": [
+          "Le dîner",
+          "Le goûter",
+          "Le souper",
+          "Le déjeuner"
+        ],
+        "explanation": "Les horaires et les noms des repas varient d'un pays à l'autre : ce qui est un léger encas ici peut être ailleurs le repas principal de la journée."
+      },
+      "en": {
+        "text": "What do you call the meal usually eaten in the middle of the day?",
+        "options": [
+          "Dinner",
+          "The afternoon snack",
+          "Supper",
+          "Lunch"
+        ],
+        "explanation": "Meal times and names vary from country to country: what is a light snack here may elsewhere be the main meal of the day."
+      },
+      "es": {
+        "text": "¿Cómo se llama la comida que se toma habitualmente a mediodía?",
+        "options": [
+          "La cena",
+          "La merienda",
+          "La cena ligera",
+          "El almuerzo"
+        ],
+        "explanation": "Los horarios y nombres de las comidas varían de un país a otro: lo que aquí es un tentempié puede ser en otro lugar la comida principal del día."
+      }
+    }
+  },
+  {
+    "sourceRef": "dd5ad4283bf72798",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un raisonnement en trois propositions dont une conclusion, cher aux logiciens de l'Antiquité ?",
+        "options": [
+          "Le syllogisme",
+          "Le paradoxe",
+          "Le dilemme",
+          "L'énigme"
+        ],
+        "explanation": "Le plus fameux résume toute la logique en trois lignes : tous les hommes sont mortels, or un philosophe est un homme, donc il est mortel."
+      },
+      "en": {
+        "text": "What do you call a reasoning in three statements, one a conclusion, prized by ancient logicians?",
+        "options": [
+          "The syllogism",
+          "The paradox",
+          "The dilemma",
+          "The riddle"
+        ],
+        "explanation": "The most famous sums up all logic in three lines: all men are mortal, a philosopher is a man, therefore he is mortal."
+      },
+      "es": {
+        "text": "¿Cómo se llama un razonamiento en tres proposiciones, una de ellas conclusión, apreciado por los lógicos de la antigüedad?",
+        "options": [
+          "El silogismo",
+          "La paradoja",
+          "El dilema",
+          "El enigma"
+        ],
+        "explanation": "El más famoso resume toda la lógica en tres líneas: todos los hombres son mortales, un filósofo es un hombre, luego es mortal."
+      }
+    }
+  },
+  {
+    "sourceRef": "b2f73b3d59349c01",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un recueil de cartes géographiques réunies en un livre ?",
+        "options": [
+          "Un dictionnaire",
+          "Un atlas",
+          "Un almanach",
+          "Un annuaire"
+        ],
+        "explanation": "Le nom vient d'un géant de la mythologie grecque, condamné à porter la voûte du ciel sur ses épaules pour l'éternité."
+      },
+      "en": {
+        "text": "What do you call a collection of maps gathered in a book?",
+        "options": [
+          "A dictionary",
+          "An atlas",
+          "An almanac",
+          "A directory"
+        ],
+        "explanation": "The name comes from a giant of Greek myth, condemned to hold up the vault of the sky on his shoulders for all eternity."
+      },
+      "es": {
+        "text": "¿Cómo se llama una colección de mapas reunidos en un libro?",
+        "options": [
+          "Un diccionario",
+          "Un atlas",
+          "Un almanaque",
+          "Un directorio"
+        ],
+        "explanation": "El nombre viene de un gigante de la mitología griega, condenado a sostener la bóveda del cielo sobre sus hombros por toda la eternidad."
+      }
+    }
+  },
+  {
+    "sourceRef": "afa6d3618760bd8b",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un angle qui mesure plus de 90 degrés mais moins de 180 ?",
+        "options": [
+          "Un angle aigu",
+          "Un angle droit",
+          "Un angle obtus",
+          "Un angle plat"
+        ],
+        "explanation": "Le mot « obtus » signifie « émoussé » : l'angle y semble largement ouvert, moins pointu qu'un angle aigu, comme une lame usée."
+      },
+      "en": {
+        "text": "What do you call an angle measuring more than 90 degrees but less than 180?",
+        "options": [
+          "An acute angle",
+          "A right angle",
+          "An obtuse angle",
+          "A straight angle"
+        ],
+        "explanation": "The word 'obtuse' means 'blunt': the angle looks wide open, less sharp than an acute one, like a worn blade."
+      },
+      "es": {
+        "text": "¿Cómo se llama un ángulo que mide más de 90 grados pero menos de 180?",
+        "options": [
+          "Un ángulo agudo",
+          "Un ángulo recto",
+          "Un ángulo obtuso",
+          "Un ángulo llano"
+        ],
+        "explanation": "La palabra 'obtuso' significa 'romo': el ángulo parece muy abierto, menos puntiagudo que uno agudo, como una hoja gastada."
+      }
+    }
+  },
+  {
+    "sourceRef": "b908cedacc45e78c",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un quadrilatère dont les quatre côtés sont égaux et les quatre angles droits ?",
+        "options": [
+          "Le rectangle",
+          "Le losange",
+          "Le trapèze",
+          "Le carré"
+        ],
+        "explanation": "C'est un cas particulier à la fois du rectangle et du losange : il réunit à lui seul leurs deux propriétés, égalité des côtés et angles droits."
+      },
+      "en": {
+        "text": "What do you call a quadrilateral whose four sides are equal and whose four angles are right angles?",
+        "options": [
+          "The rectangle",
+          "The rhombus",
+          "The trapezium",
+          "The square"
+        ],
+        "explanation": "It is a special case of both the rectangle and the rhombus: it alone combines their two properties, equal sides and right angles."
+      },
+      "es": {
+        "text": "¿Cómo se llama un cuadrilátero cuyos cuatro lados son iguales y sus cuatro ángulos rectos?",
+        "options": [
+          "El rectángulo",
+          "El rombo",
+          "El trapecio",
+          "El cuadrado"
+        ],
+        "explanation": "Es un caso particular del rectángulo y del rombo a la vez: reúne él solo sus dos propiedades, lados iguales y ángulos rectos."
+      }
+    }
+  },
+  {
+    "sourceRef": "f8b44df4a10d9151",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain italien du XIVᵉ siècle écrivit « Le Décaméron », recueil de cent histoires contées en dix jours ?",
+        "options": [
+          "Boccace",
+          "Pétrarque",
+          "L'Arioste",
+          "Le Tasse"
+        ],
+        "explanation": "Ses conteurs fuient une épidémie de peste et se réfugient à la campagne, où ils s'égaient de récits tour à tour drôles, grivois et tragiques."
+      },
+      "en": {
+        "text": "Which 14th-century Italian writer wrote the 'Decameron', a collection of a hundred tales told over ten days?",
+        "options": [
+          "Boccaccio",
+          "Petrarch",
+          "Ariosto",
+          "Tasso"
+        ],
+        "explanation": "His storytellers flee a plague and take refuge in the countryside, cheering themselves with tales by turns funny, bawdy and tragic."
+      },
+      "es": {
+        "text": "¿Qué escritor italiano del siglo XIV escribió el 'Decamerón', colección de cien historias contadas en diez días?",
+        "options": [
+          "Boccaccio",
+          "Petrarca",
+          "Ariosto",
+          "Tasso"
+        ],
+        "explanation": "Sus narradores huyen de una peste y se refugian en el campo, donde se alegran con relatos por turnos divertidos, picantes y trágicos."
+      }
+    }
+  },
+  {
+    "sourceRef": "f236477b1b05b182",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel poète italien de la Renaissance chanta son amour idéalisé pour une certaine Laure dans son « Canzoniere » ?",
+        "options": [
+          "Dante",
+          "Pétrarque",
+          "Boccace",
+          "Le Tasse"
+        ],
+        "explanation": "On lui doit la forme du sonnet telle qu'elle inspira toute l'Europe ; son amour, dit-on, ne fut jamais partagé, mais nourrit des centaines de poèmes."
+      },
+      "en": {
+        "text": "Which Italian Renaissance poet sang his idealised love for a certain Laura in his 'Canzoniere'?",
+        "options": [
+          "Dante",
+          "Petrarch",
+          "Boccaccio",
+          "Tasso"
+        ],
+        "explanation": "We owe him the form of the sonnet as it inspired all Europe; his love, it is said, was never returned, yet fed hundreds of poems."
+      },
+      "es": {
+        "text": "¿Qué poeta italiano del Renacimiento cantó su amor idealizado por una tal Laura en su 'Cancionero'?",
+        "options": [
+          "Dante",
+          "Petrarca",
+          "Boccaccio",
+          "Tasso"
+        ],
+        "explanation": "Le debemos la forma del soneto tal como inspiró a toda Europa; su amor, según se dice, nunca fue correspondido, pero nutrió cientos de poemas."
+      }
+    }
+  },
+  {
+    "sourceRef": "7aaf47473c66dcf0",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain russe écrivit la pièce « La Cerisaie » et de nombreuses nouvelles au ton doux-amer ?",
+        "options": [
+          "Nicolas Gogol",
+          "Maxime Gorki",
+          "Anton Tchekhov",
+          "Ivan Tourgueniev"
+        ],
+        "explanation": "Médecin de métier, il disait soigner ses patients le jour et écrire la nuit, portant sur les êtres un regard à la fois lucide et plein de tendresse."
+      },
+      "en": {
+        "text": "Which Russian writer wrote the play 'The Cherry Orchard' and many bittersweet short stories?",
+        "options": [
+          "Nikolai Gogol",
+          "Maxim Gorky",
+          "Anton Chekhov",
+          "Ivan Turgenev"
+        ],
+        "explanation": "A doctor by trade, he said he treated patients by day and wrote by night, viewing people with a gaze at once clear-eyed and full of tenderness."
+      },
+      "es": {
+        "text": "¿Qué escritor ruso escribió la obra 'El jardín de los cerezos' y numerosos relatos de tono agridulce?",
+        "options": [
+          "Nikolái Gógol",
+          "Máximo Gorki",
+          "Antón Chéjov",
+          "Iván Turguénev"
+        ],
+        "explanation": "Médico de profesión, decía curar a sus pacientes de día y escribir de noche, mirando a las personas con ojos lúcidos y llenos de ternura."
+      }
+    }
+  },
+  {
+    "sourceRef": "2e0f89bfa3ef2a40",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain britannique imagina le pays de Narnia, où l'on entre par le fond d'une armoire ?",
+        "options": [
+          "Roald Dahl",
+          "Lewis Carroll",
+          "J.R.R. Tolkien",
+          "C.S. Lewis"
+        ],
+        "explanation": "Ami proche de Tolkien, il partageait avec lui la passion des mondes imaginaires ; les deux hommes se lisaient leurs récits dans un pub d'Oxford."
+      },
+      "en": {
+        "text": "Which British writer dreamed up the land of Narnia, entered through the back of a wardrobe?",
+        "options": [
+          "Roald Dahl",
+          "Lewis Carroll",
+          "J.R.R. Tolkien",
+          "C.S. Lewis"
+        ],
+        "explanation": "A close friend of Tolkien, he shared his passion for imaginary worlds; the two men read their tales to each other in an Oxford pub."
+      },
+      "es": {
+        "text": "¿Qué escritor británico imaginó el país de Narnia, al que se entra por el fondo de un armario?",
+        "options": [
+          "Roald Dahl",
+          "Lewis Carroll",
+          "J.R.R. Tolkien",
+          "C.S. Lewis"
+        ],
+        "explanation": "Amigo íntimo de Tolkien, compartía su pasión por los mundos imaginarios; ambos se leían sus relatos en un pub de Oxford."
+      }
+    }
+  },
+  {
+    "sourceRef": "7716e4d5c516394e",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain américain, maître de l'épouvante et du récit policier, écrivit « Le Corbeau » et « Le Chat noir » ?",
+        "options": [
+          "Edgar Allan Poe",
+          "H.P. Lovecraft",
+          "Bram Stoker",
+          "Nathaniel Hawthorne"
+        ],
+        "explanation": "On lui attribue l'invention du roman policier moderne, avec un détective raisonneur bien avant Sherlock Holmes."
+      },
+      "en": {
+        "text": "Which American writer, a master of horror and detective fiction, wrote 'The Raven' and 'The Black Cat'?",
+        "options": [
+          "Edgar Allan Poe",
+          "H.P. Lovecraft",
+          "Bram Stoker",
+          "Nathaniel Hawthorne"
+        ],
+        "explanation": "He is credited with inventing the modern detective story, with a reasoning sleuth well before Sherlock Holmes."
+      },
+      "es": {
+        "text": "¿Qué escritor estadounidense, maestro del terror y del relato policíaco, escribió 'El cuervo' y 'El gato negro'?",
+        "options": [
+          "Edgar Allan Poe",
+          "H.P. Lovecraft",
+          "Bram Stoker",
+          "Nathaniel Hawthorne"
+        ],
+        "explanation": "Se le atribuye la invención del relato policíaco moderno, con un detective razonador mucho antes que Sherlock Holmes."
+      }
+    }
+  },
+  {
+    "sourceRef": "7d171092910be02c",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain irlandais écrivit la pièce de théâtre de l'absurde « En attendant Godot » ?",
+        "options": [
+          "James Joyce",
+          "Samuel Beckett",
+          "Oscar Wilde",
+          "George Bernard Shaw"
+        ],
+        "explanation": "Dans sa pièce, deux vagabonds attendent un personnage qui ne vient jamais ; à la question de savoir qui il est, l'auteur répondait ne rien en savoir."
+      },
+      "en": {
+        "text": "Which Irish writer wrote the absurdist play 'Waiting for Godot'?",
+        "options": [
+          "James Joyce",
+          "Samuel Beckett",
+          "Oscar Wilde",
+          "George Bernard Shaw"
+        ],
+        "explanation": "In his play, two tramps wait for a character who never comes; asked who he was, the author said he did not know."
+      },
+      "es": {
+        "text": "¿Qué escritor irlandés escribió la obra de teatro del absurdo 'Esperando a Godot'?",
+        "options": [
+          "James Joyce",
+          "Samuel Beckett",
+          "Oscar Wilde",
+          "George Bernard Shaw"
+        ],
+        "explanation": "En su obra, dos vagabundos esperan a un personaje que nunca llega; al preguntarle quién era, el autor respondía no saberlo."
+      }
+    }
+  },
+  {
+    "sourceRef": "bec1d37b56ac83fe",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain français du XVIIᵉ siècle écrivit des « Fables » mettant en scène des animaux pour instruire les hommes ?",
+        "options": [
+          "Molière",
+          "Charles Perrault",
+          "Jean de La Fontaine",
+          "Nicolas Boileau"
+        ],
+        "explanation": "Sous les traits d'un corbeau vaniteux ou d'une cigale imprévoyante, il croquait les travers de la cour et des puissants de son temps."
+      },
+      "en": {
+        "text": "Which 17th-century French writer wrote 'Fables' using animals to teach lessons to people?",
+        "options": [
+          "Molière",
+          "Charles Perrault",
+          "Jean de La Fontaine",
+          "Nicolas Boileau"
+        ],
+        "explanation": "Under the guise of a vain crow or a heedless grasshopper, he sketched the failings of the court and the powerful of his time."
+      },
+      "es": {
+        "text": "¿Qué escritor francés del siglo XVII escribió 'Fábulas' con animales para instruir a los hombres?",
+        "options": [
+          "Molière",
+          "Charles Perrault",
+          "Jean de La Fontaine",
+          "Nicolas Boileau"
+        ],
+        "explanation": "Bajo la figura de un cuervo vanidoso o una cigarra imprevisora, retrataba los defectos de la corte y los poderosos de su tiempo."
+      }
+    }
+  },
+  {
+    "sourceRef": "fdc9b0daed48897b",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel conte met en scène une petite fille aux cheveux d'or qui goûte la soupe et essaie les lits de trois ours ?",
+        "options": [
+          "Cendrillon",
+          "Alice au pays des merveilles",
+          "Blanche-Neige",
+          "Boucle d'or"
+        ],
+        "explanation": "L'héroïne teste tout par trois : trop chaud, trop froid, puis « juste comme il faut », une trouvaille qui ravit les enfants depuis des générations."
+      },
+      "en": {
+        "text": "Which tale features a golden-haired little girl who tastes the porridge and tries the beds of three bears?",
+        "options": [
+          "Cinderella",
+          "Alice in Wonderland",
+          "Snow White",
+          "Goldilocks"
+        ],
+        "explanation": "The heroine tests everything in threes: too hot, too cold, then 'just right', a device that has delighted children for generations."
+      },
+      "es": {
+        "text": "¿Qué cuento muestra a una niña de cabellos de oro que prueba la sopa y las camas de tres osos?",
+        "options": [
+          "Cenicienta",
+          "Alicia en el país de las maravillas",
+          "Blancanieves",
+          "Ricitos de Oro"
+        ],
+        "explanation": "La heroína lo prueba todo de tres en tres: demasiado caliente, demasiado frío, y luego 'justo como debe ser', un hallazgo que encanta a los niños desde hace generaciones."
+      }
+    }
+  },
+  {
+    "sourceRef": "e2fe467d0612ecc8",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel dramaturge français du XVIIᵉ siècle écrivit les tragédies « Phèdre » et « Andromaque » ?",
+        "options": [
+          "Jean Racine",
+          "Pierre Corneille",
+          "Molière",
+          "Voltaire"
+        ],
+        "explanation": "Ses vers, d'une musique parfaite, expriment des passions dévorantes dans un cadre d'une rigueur extrême, tout en douze syllabes et bienséance."
+      },
+      "en": {
+        "text": "Which 17th-century French playwright wrote the tragedies 'Phèdre' and 'Andromaque'?",
+        "options": [
+          "Jean Racine",
+          "Pierre Corneille",
+          "Molière",
+          "Voltaire"
+        ],
+        "explanation": "His verse, of perfect music, voices devouring passions within an extremely strict frame, all in twelve syllables and propriety."
+      },
+      "es": {
+        "text": "¿Qué dramaturgo francés del siglo XVII escribió las tragedias 'Fedra' y 'Andrómaca'?",
+        "options": [
+          "Jean Racine",
+          "Pierre Corneille",
+          "Molière",
+          "Voltaire"
+        ],
+        "explanation": "Sus versos, de música perfecta, expresan pasiones devoradoras en un marco de extremo rigor, todo en doce sílabas y decoro."
+      }
+    }
+  },
+  {
+    "sourceRef": "a26f4a2b6b3fdfe9",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle écrivaine chilienne connut un succès mondial avec le roman « La Maison aux esprits » ?",
+        "options": [
+          "Gabriela Mistral",
+          "Isabel Allende",
+          "Marcela Serrano",
+          "Violeta Parra"
+        ],
+        "explanation": "Le roman naquit d'une longue lettre qu'elle écrivait à son grand-père mourant, sans imaginer qu'elle deviendrait une saga familiale universelle."
+      },
+      "en": {
+        "text": "Which Chilean writer won worldwide success with the novel 'The House of the Spirits'?",
+        "options": [
+          "Gabriela Mistral",
+          "Isabel Allende",
+          "Marcela Serrano",
+          "Violeta Parra"
+        ],
+        "explanation": "The novel grew from a long letter she was writing to her dying grandfather, never imagining it would become a universal family saga."
+      },
+      "es": {
+        "text": "¿Qué escritora chilena logró un éxito mundial con la novela 'La casa de los espíritus'?",
+        "options": [
+          "Gabriela Mistral",
+          "Isabel Allende",
+          "Marcela Serrano",
+          "Violeta Parra"
+        ],
+        "explanation": "La novela nació de una larga carta que escribía a su abuelo moribundo, sin imaginar que se convertiría en una saga familiar universal."
+      }
+    }
+  },
+  {
+    "sourceRef": "fd67948b9d998b1d",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel écrivain russe écrivit le roman satirique inachevé « Les Âmes mortes » ?",
+        "options": [
+          "Léon Tolstoï",
+          "Anton Tchekhov",
+          "Nicolas Gogol",
+          "Alexandre Pouchkine"
+        ],
+        "explanation": "Tourmenté par la religion à la fin de sa vie, il jeta au feu la suite de son chef-d'œuvre, dont il ne reste que des fragments."
+      },
+      "en": {
+        "text": "Which Russian writer wrote the unfinished satirical novel 'Dead Souls'?",
+        "options": [
+          "Leo Tolstoy",
+          "Anton Chekhov",
+          "Nikolai Gogol",
+          "Alexander Pushkin"
+        ],
+        "explanation": "Tormented by religion late in life, he threw the sequel to his masterpiece into the fire, and only fragments remain."
+      },
+      "es": {
+        "text": "¿Qué escritor ruso escribió la novela satírica inacabada 'Almas muertas'?",
+        "options": [
+          "León Tolstói",
+          "Antón Chéjov",
+          "Nikolái Gógol",
+          "Aleksandr Pushkin"
+        ],
+        "explanation": "Atormentado por la religión al final de su vida, arrojó al fuego la continuación de su obra maestra, de la que solo quedan fragmentos."
+      }
+    }
+  },
+  {
+    "sourceRef": "9180e2f00e7c7574",
+    "type": "qcm",
+    "theme": "litterature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel personnage de Rudyard Kipling est un petit garçon élevé par des loups au cœur de la jungle indienne ?",
+        "options": [
+          "Tarzan",
+          "Peter Pan",
+          "Robin",
+          "Mowgli"
+        ],
+        "explanation": "Il apprend la loi de la jungle auprès d'un ours et d'une panthère noire, qui lui enseignent, chacun à sa façon, l'art de survivre parmi les fauves."
+      },
+      "en": {
+        "text": "Which Rudyard Kipling character is a little boy raised by wolves in the heart of the Indian jungle?",
+        "options": [
+          "Tarzan",
+          "Peter Pan",
+          "Robin",
+          "Mowgli"
+        ],
+        "explanation": "He learns the law of the jungle from a bear and a black panther, who each in their way teach him the art of surviving among wild beasts."
+      },
+      "es": {
+        "text": "¿Qué personaje de Rudyard Kipling es un niño criado por lobos en el corazón de la selva india?",
+        "options": [
+          "Tarzán",
+          "Peter Pan",
+          "Robin",
+          "Mowgli"
+        ],
+        "explanation": "Aprende la ley de la selva de un oso y una pantera negra, que cada uno a su modo le enseñan el arte de sobrevivir entre las fieras."
+      }
+    }
+  },
+  {
+    "sourceRef": "1f4ccb856d6d4485",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel aliment rouge, souvent pris pour un légume, est en réalité un fruit et forme la base de la sauce tomate ?",
+        "options": [
+          "La tomate",
+          "Le poivron",
+          "La betterave",
+          "Le radis"
+        ],
+        "explanation": "Rapportée d'Amérique, elle fut d'abord cultivée en Europe comme plante ornementale, qu'on croyait vénéneuse avant d'oser la manger."
+      },
+      "en": {
+        "text": "Which red food, often taken for a vegetable, is in fact a fruit and forms the base of tomato sauce?",
+        "options": [
+          "The tomato",
+          "The pepper",
+          "The beetroot",
+          "The radish"
+        ],
+        "explanation": "Brought back from the Americas, it was first grown in Europe as an ornamental plant, thought poisonous before anyone dared eat it."
+      },
+      "es": {
+        "text": "¿Qué alimento rojo, a menudo tomado por una verdura, es en realidad una fruta y es la base de la salsa de tomate?",
+        "options": [
+          "El tomate",
+          "El pimiento",
+          "La remolacha",
+          "El rábano"
+        ],
+        "explanation": "Traído de América, se cultivó primero en Europa como planta ornamental, que se creía venenosa antes de atreverse a comerla."
+      }
+    }
+  },
+  {
+    "sourceRef": "38a6c6cc2757b467",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel plat italien de riz crémeux, cuit lentement en ajoutant le bouillon peu à peu, se décline aux champignons ou au safran ?",
+        "options": [
+          "Le minestrone",
+          "Le risotto",
+          "La polenta",
+          "Les gnocchis"
+        ],
+        "explanation": "Le secret est de remuer sans cesse : le grain libère son amidon et enrobe le plat d'une onctuosité crémeuse, sans la moindre crème."
+      },
+      "en": {
+        "text": "Which Italian dish of creamy rice, cooked slowly by adding stock little by little, comes with mushrooms or saffron?",
+        "options": [
+          "Minestrone",
+          "Risotto",
+          "Polenta",
+          "Gnocchi"
+        ],
+        "explanation": "The secret is constant stirring: the grain releases its starch and coats the dish in a creamy smoothness, without any cream at all."
+      },
+      "es": {
+        "text": "¿Qué plato italiano de arroz cremoso, cocido despacio añadiendo el caldo poco a poco, se hace con setas o azafrán?",
+        "options": [
+          "El minestrone",
+          "El risotto",
+          "La polenta",
+          "Los ñoquis"
+        ],
+        "explanation": "El secreto es remover sin cesar: el grano libera su almidón y envuelve el plato en una untuosidad cremosa, sin nada de nata."
+      }
+    }
+  },
+  {
+    "sourceRef": "9eb36015e0cef9ee",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle épice jaune vif, tirée d'une racine broyée, colore le curry et donne sa teinte au riz ?",
+        "options": [
+          "Le gingembre",
+          "Le cumin",
+          "Le curcuma",
+          "La coriandre"
+        ],
+        "explanation": "Sa couleur est si tenace qu'elle tache durablement les doigts et les tissus ; on l'a longtemps utilisée comme teinture avant la cuisine."
+      },
+      "en": {
+        "text": "Which bright yellow spice, from a ground root, colours curry and gives rice its tint?",
+        "options": [
+          "Ginger",
+          "Cumin",
+          "Turmeric",
+          "Coriander"
+        ],
+        "explanation": "Its colour is so stubborn that it lastingly stains fingers and cloth; it was long used as a dye before the kitchen."
+      },
+      "es": {
+        "text": "¿Qué especia de un amarillo vivo, sacada de una raíz molida, da color al curry y tiñe el arroz?",
+        "options": [
+          "El jengibre",
+          "El comino",
+          "La cúrcuma",
+          "El cilantro"
+        ],
+        "explanation": "Su color es tan tenaz que mancha de forma duradera dedos y telas; se usó mucho tiempo como tinte antes que en la cocina."
+      }
+    }
+  },
+  {
+    "sourceRef": "72b0a857493a0145",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel fruit violet à noyau, sucré et juteux, devient un « pruneau » une fois séché ?",
+        "options": [
+          "La cerise",
+          "L'abricot",
+          "La figue",
+          "La prune"
+        ],
+        "explanation": "Séchée, elle se conserve des mois sans perdre ses sucres ; les marins et les voyageurs d'autrefois en emportaient comme réserve d'énergie."
+      },
+      "en": {
+        "text": "Which purple stone fruit, sweet and juicy, becomes a 'prune' once dried?",
+        "options": [
+          "The cherry",
+          "The apricot",
+          "The fig",
+          "The plum"
+        ],
+        "explanation": "Dried, it keeps for months without losing its sugars; sailors and travellers of old carried it as an energy store."
+      },
+      "es": {
+        "text": "¿Qué fruta morada con hueso, dulce y jugosa, se convierte en 'ciruela pasa' una vez seca?",
+        "options": [
+          "La cereza",
+          "El albaricoque",
+          "El higo",
+          "La ciruela"
+        ],
+        "explanation": "Seca, se conserva meses sin perder sus azúcares; marineros y viajeros de antaño la llevaban como reserva de energía."
+      }
+    }
+  },
+  {
+    "sourceRef": "76920804ea9ab6e0",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle pâte italienne longue et fine se sert souvent « à la bolognaise » ou « à la carbonara » ?",
+        "options": [
+          "Les spaghettis",
+          "Les raviolis",
+          "Les gnocchis",
+          "Les tortellinis"
+        ],
+        "explanation": "En Italie, il est mal vu de les couper ou de les manger à la cuillère : on les enroule sur la fourchette, patiemment, bouchée après bouchée."
+      },
+      "en": {
+        "text": "Which long, thin Italian pasta is often served 'bolognese' or 'carbonara'?",
+        "options": [
+          "Spaghetti",
+          "Ravioli",
+          "Gnocchi",
+          "Tortellini"
+        ],
+        "explanation": "In Italy it is frowned upon to cut them or eat them with a spoon: you twirl them on the fork, patiently, mouthful after mouthful."
+      },
+      "es": {
+        "text": "¿Qué pasta italiana larga y fina se sirve a menudo 'a la boloñesa' o 'a la carbonara'?",
+        "options": [
+          "Los espaguetis",
+          "Los raviolis",
+          "Los ñoquis",
+          "Los tortellini"
+        ],
+        "explanation": "En Italia se ve mal cortarlos o comerlos con cuchara: se enrollan en el tenedor, con paciencia, bocado a bocado."
+      }
+    }
+  },
+  {
+    "sourceRef": "e35ef7d32db65206",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel mets de luxe, servi en fines perles noires ou grises, est composé d'œufs d'esturgeon salés ?",
+        "options": [
+          "Le foie gras",
+          "Le caviar",
+          "Le homard",
+          "La truffe"
+        ],
+        "explanation": "On le déguste traditionnellement à la cuillère de nacre, car le métal, dit-on, en altère le goût subtil et iodé."
+      },
+      "en": {
+        "text": "Which luxury delicacy, served as fine black or grey pearls, is made of salted sturgeon eggs?",
+        "options": [
+          "Foie gras",
+          "Caviar",
+          "Lobster",
+          "Truffle"
+        ],
+        "explanation": "It is traditionally eaten with a mother-of-pearl spoon, since metal is said to spoil its subtle, briny taste."
+      },
+      "es": {
+        "text": "¿Qué manjar de lujo, servido en finas perlas negras o grises, se compone de huevas de esturión saladas?",
+        "options": [
+          "El foie gras",
+          "El caviar",
+          "La langosta",
+          "La trufa"
+        ],
+        "explanation": "Se degusta tradicionalmente con cuchara de nácar, pues el metal, según se dice, altera su sabor sutil y yodado."
+      }
+    }
+  },
+  {
+    "sourceRef": "f4857bc07f2b5317",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle boisson chaude et mousseuse, faite à partir de cacao, réchauffe volontiers les soirs d'hiver ?",
+        "options": [
+          "Le café",
+          "La tisane",
+          "Le chocolat chaud",
+          "Le cidre"
+        ],
+        "explanation": "Les Aztèques buvaient déjà une boisson au cacao, mais amère et épicée, bien loin de la douceur sucrée que nous connaissons aujourd'hui."
+      },
+      "en": {
+        "text": "Which warm, frothy drink, made from cocoa, gladly warms up winter evenings?",
+        "options": [
+          "Coffee",
+          "Herbal tea",
+          "Hot chocolate",
+          "Cider"
+        ],
+        "explanation": "The Aztecs already drank a cocoa beverage, but bitter and spiced, far from the sweet mildness we know today."
+      },
+      "es": {
+        "text": "¿Qué bebida caliente y espumosa, hecha a partir de cacao, reconforta las noches de invierno?",
+        "options": [
+          "El café",
+          "La infusión",
+          "El chocolate caliente",
+          "La sidra"
+        ],
+        "explanation": "Los aztecas ya bebían una bebida de cacao, pero amarga y especiada, muy lejos del dulzor azucarado que conocemos hoy."
+      }
+    }
+  },
+  {
+    "sourceRef": "39dbb632f79d4815",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel plat mexicain consiste en une galette de maïs roulée, garnie et nappée de sauce, souvent gratinée ?",
+        "options": [
+          "Le guacamole",
+          "La quesadilla",
+          "Le burrito",
+          "L'enchilada"
+        ],
+        "explanation": "Son nom vient du verbe espagnol signifiant « pimenter » : la galette, trempée dans une sauce au piment, en tire tout son caractère."
+      },
+      "en": {
+        "text": "Which Mexican dish is a rolled corn tortilla, filled and covered with sauce, often baked with cheese?",
+        "options": [
+          "Guacamole",
+          "Quesadilla",
+          "Burrito",
+          "Enchilada"
+        ],
+        "explanation": "Its name comes from the Spanish verb meaning 'to season with chilli': the tortilla, dipped in chilli sauce, gets all its character from it."
+      },
+      "es": {
+        "text": "¿Qué plato mexicano es una tortilla de maíz enrollada, rellena y bañada en salsa, a menudo gratinada?",
+        "options": [
+          "El guacamole",
+          "La quesadilla",
+          "El burrito",
+          "La enchilada"
+        ],
+        "explanation": "Su nombre viene del verbo español 'enchilar': la tortilla, sumergida en salsa de chile, saca de ahí todo su carácter."
+      }
+    }
+  },
+  {
+    "sourceRef": "13bfc05179f43952",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel fromage français à pâte persillée, veiné de bleu, est affiné dans les caves humides d'Auvergne ?",
+        "options": [
+          "La fourme d'Ambert",
+          "Le comté",
+          "Le beaufort",
+          "Le cantal"
+        ],
+        "explanation": "Sa forme haute et cylindrique le distingue au premier coup d'œil ; on raconte que les druides gaulois l'appréciaient déjà lors de leurs banquets."
+      },
+      "en": {
+        "text": "Which French blue-veined cheese is matured in the damp cellars of the Auvergne?",
+        "options": [
+          "Fourme d'Ambert",
+          "Comté",
+          "Beaufort",
+          "Cantal"
+        ],
+        "explanation": "Its tall cylindrical shape sets it apart at a glance; the Gaulish druids are said to have already enjoyed it at their feasts."
+      },
+      "es": {
+        "text": "¿Qué queso francés de pasta azul, veteado, se cura en las cuevas húmedas de Auvernia?",
+        "options": [
+          "La fourme d'Ambert",
+          "El comté",
+          "El beaufort",
+          "El cantal"
+        ],
+        "explanation": "Su forma alta y cilíndrica lo distingue a primera vista; se cuenta que los druidas galos ya lo apreciaban en sus banquetes."
+      }
+    }
+  },
+  {
+    "sourceRef": "50d6a05179490bb4",
+    "type": "qcm",
+    "theme": "gastronomie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel plat de pâtes farcies, en forme de petits coussins, se sert souvent avec une sauce tomate ou une crème ?",
+        "options": [
+          "Les lasagnes",
+          "Les raviolis",
+          "Les macaronis",
+          "Les spaghettis"
+        ],
+        "explanation": "On en trouve des cousins dans le monde entier, des « dumplings » chinois aux « pierogi » polonais : l'idée de cacher une farce dans la pâte est universelle."
+      },
+      "en": {
+        "text": "Which stuffed pasta dish, shaped like little cushions, is often served with tomato sauce or cream?",
+        "options": [
+          "Lasagne",
+          "Ravioli",
+          "Macaroni",
+          "Spaghetti"
+        ],
+        "explanation": "Cousins are found the world over, from Chinese dumplings to Polish pierogi: the idea of hiding a filling in dough is universal."
+      },
+      "es": {
+        "text": "¿Qué plato de pasta rellena, en forma de pequeños cojines, se sirve a menudo con salsa de tomate o nata?",
+        "options": [
+          "La lasaña",
+          "Los raviolis",
+          "Los macarrones",
+          "Los espaguetis"
+        ],
+        "explanation": "Se hallan primos por todo el mundo, de los 'dumplings' chinos a los 'pierogi' polacos: la idea de esconder un relleno en la masa es universal."
+      }
+    }
+  }
+]
