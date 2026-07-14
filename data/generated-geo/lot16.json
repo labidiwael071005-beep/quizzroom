@@ -1,0 +1,1402 @@
+[
+  {
+    "sourceRef": "9ff949a76aa12885",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 41.2132,
+    "lng": -124.0046,
+    "translations": {
+      "fr": {
+        "text": "Quel parc national du nord de la Californie protège les arbres les plus hauts du monde, dépassant cent mètres ?",
+        "explanation": "Certains de ces géants étaient déjà debout du temps de l'Empire romain ; leur cime se perd si haut qu'on peine à la distinguer depuis le sol.",
+        "label": "Parc national de Redwood",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which national park in northern California protects the tallest trees in the world, over a hundred metres high?",
+        "explanation": "Some of these giants were already standing in Roman times; their crowns rise so high they can barely be made out from the ground.",
+        "label": "Redwood National Park",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué parque nacional del norte de California protege los árboles más altos del mundo, de más de cien metros?",
+        "explanation": "Algunos de estos gigantes ya estaban en pie en tiempos del Imperio romano; su copa se pierde tan alto que apenas se distingue desde el suelo.",
+        "label": "Parque Nacional Redwood",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "3ef159209c44da19",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 52.9715,
+    "lng": -9.4309,
+    "translations": {
+      "fr": {
+        "text": "Quelles hautes falaises de l'ouest de l'Irlande, plongeant à pic dans l'Atlantique, abritent des colonies de macareux ?",
+        "explanation": "Battues par les vents et les embruns, elles servent souvent de décor à des films, tant leur beauté sauvage semble hors du temps.",
+        "label": "Falaises de Moher",
+        "country": "Irlande"
+      },
+      "en": {
+        "text": "Which high cliffs of western Ireland, plunging sheer into the Atlantic, shelter colonies of puffins?",
+        "explanation": "Battered by wind and spray, they often serve as a film backdrop, so timeless does their wild beauty seem.",
+        "label": "Cliffs of Moher",
+        "country": "Ireland"
+      },
+      "es": {
+        "text": "¿Qué altos acantilados del oeste de Irlanda, que se hunden a pico en el Atlántico, albergan colonias de frailecillos?",
+        "explanation": "Batidos por los vientos y la espuma, sirven a menudo de escenario de películas, de tan atemporal que parece su belleza salvaje.",
+        "label": "Acantilados de Moher",
+        "country": "Irlanda"
+      }
+    }
+  },
+  {
+    "sourceRef": "e241638aa44c3df2",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": -8.55,
+    "lng": 119.489,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle île d'Indonésie vit le plus grand lézard du monde, un varan géant à la morsure dangereuse ?",
+        "explanation": "Ce reptile de plusieurs mètres peut abattre un buffle : sa salive grouille de bactéries, et l'on a même découvert qu'il est légèrement venimeux.",
+        "label": "Komodo",
+        "country": "Indonésie"
+      },
+      "en": {
+        "text": "On which island of Indonesia lives the largest lizard in the world, a giant monitor with a dangerous bite?",
+        "explanation": "This reptile of several metres can bring down a buffalo: its saliva teems with bacteria, and it was even found to be mildly venomous.",
+        "label": "Komodo",
+        "country": "Indonesia"
+      },
+      "es": {
+        "text": "¿En qué isla de Indonesia vive el lagarto más grande del mundo, un varano gigante de mordedura peligrosa?",
+        "explanation": "Este reptil de varios metros puede abatir a un búfalo: su saliva rebosa de bacterias, y se descubrió que es incluso levemente venenoso.",
+        "label": "Komodo",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "sourceRef": "28c7794aca226f90",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": -38.1368,
+    "lng": 176.2497,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle région volcanique de Nouvelle-Zélande jaillissent geysers et mares de boue bouillonnante, dans une odeur de soufre ?",
+        "explanation": "Le peuple maori y cuit encore ses aliments dans la vapeur naturelle du sol et se baigne dans des sources chaudes depuis des générations.",
+        "label": "Rotorua",
+        "country": "Nouvelle-Zélande"
+      },
+      "en": {
+        "text": "In which volcanic region of New Zealand do geysers and bubbling mud pools erupt, amid a smell of sulphur?",
+        "explanation": "The Maori people still cook their food in the ground's natural steam and bathe in hot springs there, as they have for generations.",
+        "label": "Rotorua",
+        "country": "New Zealand"
+      },
+      "es": {
+        "text": "¿En qué región volcánica de Nueva Zelanda brotan géiseres y charcas de barro burbujeante, entre olor a azufre?",
+        "explanation": "El pueblo maorí cuece aún sus alimentos en el vapor natural del suelo y se baña en fuentes termales desde hace generaciones.",
+        "label": "Rotorua",
+        "country": "Nueva Zelanda"
+      }
+    }
+  },
+  {
+    "sourceRef": "9202cee8aca49bb0",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": 17.59,
+    "lng": 106.283,
+    "translations": {
+      "fr": {
+        "text": "Dans quel parc du Vietnam se cache la plus grande grotte du monde, assez vaste pour abriter un gratte-ciel et sa propre forêt ?",
+        "explanation": "Découverte par hasard par un habitant abrité de la pluie, elle ne fut explorée que bien plus tard : des nuages s'y forment sous sa voûte immense.",
+        "label": "Phong Nha",
+        "country": "Vietnam"
+      },
+      "en": {
+        "text": "In which park of Vietnam hides the largest cave in the world, vast enough to hold a skyscraper and its own forest?",
+        "explanation": "Found by chance by a local sheltering from the rain, it was only explored much later: clouds even form beneath its immense vault.",
+        "label": "Phong Nha",
+        "country": "Vietnam"
+      },
+      "es": {
+        "text": "¿En qué parque de Vietnam se oculta la mayor cueva del mundo, tan vasta que cabe un rascacielos y su propio bosque?",
+        "explanation": "Hallada por azar por un lugareño que se refugiaba de la lluvia, solo se exploró mucho después: hasta se forman nubes bajo su inmensa bóveda.",
+        "label": "Phong Nha",
+        "country": "Vietnam"
+      }
+    }
+  },
+  {
+    "sourceRef": "949bc9e4075dab0b",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": -12.8375,
+    "lng": 132.838,
+    "translations": {
+      "fr": {
+        "text": "Quel grand parc du nord de l'Australie, riche en crocodiles et en peintures rupestres aborigènes, s'inonde à la saison des pluies ?",
+        "explanation": "Ses parois rocheuses portent des peintures vieilles de dizaines de milliers d'années, parmi les plus anciennes traces d'art de l'humanité.",
+        "label": "Kakadu",
+        "country": "Australie"
+      },
+      "en": {
+        "text": "Which large park in northern Australia, rich in crocodiles and Aboriginal rock paintings, floods in the rainy season?",
+        "explanation": "Its rock walls bear paintings tens of thousands of years old, among the oldest traces of art in human history.",
+        "label": "Kakadu",
+        "country": "Australia"
+      },
+      "es": {
+        "text": "¿Qué gran parque del norte de Australia, rico en cocodrilos y pinturas rupestres aborígenes, se inunda en la temporada de lluvias?",
+        "explanation": "Sus paredes rocosas lucen pinturas de decenas de miles de años, entre las huellas de arte más antiguas de la humanidad.",
+        "label": "Kakadu",
+        "country": "Australia"
+      }
+    }
+  },
+  {
+    "sourceRef": "a4765fa1d309a37a",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "medium",
+    "lat": 36.8619,
+    "lng": -111.3743,
+    "translations": {
+      "fr": {
+        "text": "Quel étroit canyon de grès de l'Arizona, sculpté par les crues soudaines, laisse filtrer des rais de lumière entre ses parois ondulées ?",
+        "explanation": "Sacré pour le peuple navajo qui en garde l'accès, il n'est parcouru que quelques heures par jour, quand le soleil s'y engouffre juste comme il faut.",
+        "label": "Antelope Canyon",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which narrow sandstone canyon of Arizona, carved by flash floods, lets shafts of light filter between its wavy walls?",
+        "explanation": "Sacred to the Navajo people who guard its access, it is walked only a few hours a day, when the sun pours in just right.",
+        "label": "Antelope Canyon",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué estrecho cañón de arenisca de Arizona, tallado por crecidas repentinas, deja filtrar haces de luz entre sus paredes onduladas?",
+        "explanation": "Sagrado para el pueblo navajo que guarda su acceso, solo se recorre unas horas al día, cuando el sol entra justo como debe.",
+        "label": "Antelope Canyon",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "71b00954ceaa1a34",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": -9.4167,
+    "lng": 46.4167,
+    "translations": {
+      "fr": {
+        "text": "Sur quel atoll isolé de l'océan Indien vit l'une des dernières grandes populations de tortues géantes sauvages ?",
+        "explanation": "Protégé par son éloignement, ce lagon presque intact abrite plus de tortues géantes que n'importe quel autre endroit de la planète.",
+        "label": "Aldabra",
+        "country": "Seychelles"
+      },
+      "en": {
+        "text": "On which remote atoll of the Indian Ocean lives one of the last great populations of wild giant tortoises?",
+        "explanation": "Protected by its remoteness, this almost untouched lagoon shelters more giant tortoises than anywhere else on the planet.",
+        "label": "Aldabra",
+        "country": "Seychelles"
+      },
+      "es": {
+        "text": "¿En qué atolón aislado del océano Índico vive una de las últimas grandes poblaciones de tortugas gigantes salvajes?",
+        "explanation": "Protegida por su lejanía, esta laguna casi intacta alberga más tortugas gigantes que cualquier otro lugar del planeta.",
+        "label": "Aldabra",
+        "country": "Seychelles"
+      }
+    }
+  },
+  {
+    "sourceRef": "2fee16be46765ae4",
+    "type": "geo",
+    "theme": "nature",
+    "difficulty": "hard",
+    "lat": 63.63,
+    "lng": -19.62,
+    "translations": {
+      "fr": {
+        "text": "Quel volcan islandais, au nom presque imprononçable, paralysa le trafic aérien européen par son immense nuage de cendres en 2010 ?",
+        "explanation": "Ses fines cendres de verre, dangereuses pour les moteurs d'avion, clouèrent au sol des millions de voyageurs pendant plusieurs jours.",
+        "label": "Eyjafjallajökull",
+        "country": "Islande"
+      },
+      "en": {
+        "text": "Which Icelandic volcano, with an almost unpronounceable name, paralysed European air traffic with its huge ash cloud in 2010?",
+        "explanation": "Its fine glassy ash, dangerous to aircraft engines, grounded millions of travellers for several days.",
+        "label": "Eyjafjallajökull",
+        "country": "Iceland"
+      },
+      "es": {
+        "text": "¿Qué volcán islandés, de nombre casi impronunciable, paralizó el tráfico aéreo europeo con su inmensa nube de cenizas en 2010?",
+        "explanation": "Sus finas cenizas de vidrio, peligrosas para los motores de avión, dejaron en tierra a millones de viajeros durante varios días.",
+        "label": "Eyjafjallajökull",
+        "country": "Islandia"
+      }
+    }
+  },
+  {
+    "sourceRef": "806fa2c5532c6b93",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 46.5802,
+    "lng": 0.3404,
+    "translations": {
+      "fr": {
+        "text": "Près de quelle ville de France Charles Martel arrêta-t-il en 732 l'avancée des armées venues d'Espagne ?",
+        "explanation": "Cette bataille, longtemps vue comme un tournant de l'histoire européenne, valut à son vainqueur le surnom de « Martel », le marteau.",
+        "label": "Poitiers",
+        "country": "France"
+      },
+      "en": {
+        "text": "Near which city of France did Charles Martel halt in 732 the advance of the armies coming from Spain?",
+        "explanation": "This battle, long seen as a turning point in European history, earned its victor the nickname 'Martel', the hammer.",
+        "label": "Poitiers",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿Cerca de qué ciudad de Francia detuvo Carlos Martel en 732 el avance de los ejércitos venidos de España?",
+        "explanation": "Esta batalla, vista mucho tiempo como un giro de la historia europea, valió a su vencedor el apodo de 'Martel', el martillo.",
+        "label": "Poitiers",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "c6e80870df963f9a",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 37.376,
+    "lng": -78.7959,
+    "translations": {
+      "fr": {
+        "text": "Dans quel village de Virginie le général sudiste Lee se rendit-il en 1865, mettant fin à la guerre de Sécession ?",
+        "explanation": "Le vainqueur laissa aux vaincus leurs chevaux et leurs armes de poing, un geste de clémence pour tenter de réconcilier un pays déchiré.",
+        "label": "Appomattox",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which Virginia village did the Confederate general Lee surrender in 1865, ending the American Civil War?",
+        "explanation": "The victor let the defeated keep their horses and sidearms, a gesture of mercy meant to reconcile a torn country.",
+        "label": "Appomattox",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué aldea de Virginia se rindió el general sudista Lee en 1865, poniendo fin a la guerra de Secesión?",
+        "explanation": "El vencedor dejó a los vencidos sus caballos y sus armas de mano, un gesto de clemencia para intentar reconciliar a un país desgarrado.",
+        "label": "Appomattox",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "9aa6de775a958c2b",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 38.934,
+    "lng": 20.758,
+    "translations": {
+      "fr": {
+        "text": "Au large de quel promontoire de Grèce Octave écrasa-t-il la flotte d'Antoine et Cléopâtre en 31 avant notre ère ?",
+        "explanation": "Cette victoire fit de lui le maître unique de Rome ; il devint bientôt Auguste, premier empereur, tournant décisif de l'histoire antique.",
+        "label": "Actium",
+        "country": "Grèce"
+      },
+      "en": {
+        "text": "Off which promontory of Greece did Octavian crush the fleet of Antony and Cleopatra in 31 BC?",
+        "explanation": "This victory made him sole master of Rome; he soon became Augustus, the first emperor, a decisive turn in ancient history.",
+        "label": "Actium",
+        "country": "Greece"
+      },
+      "es": {
+        "text": "¿Frente a qué promontorio de Grecia aplastó Octaviano la flota de Antonio y Cleopatra en el 31 a. C.?",
+        "explanation": "Esta victoria lo hizo dueño único de Roma; pronto se volvió Augusto, primer emperador, un giro decisivo de la historia antigua.",
+        "label": "Accio",
+        "country": "Grecia"
+      }
+    }
+  },
+  {
+    "sourceRef": "a7c3f86af6f32cf4",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 52.4,
+    "lng": -0.99,
+    "translations": {
+      "fr": {
+        "text": "Sur quel champ de bataille d'Angleterre l'armée du Parlement écrasa-t-elle les troupes royalistes de Charles Iᵉʳ en 1645 ?",
+        "explanation": "Cette défaite scella le sort du roi, qui fut plus tard jugé et décapité, un fait sans précédent dans l'histoire de la monarchie anglaise.",
+        "label": "Naseby",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "On which battlefield in England did the Parliament's army crush the Royalist troops of Charles I in 1645?",
+        "explanation": "This defeat sealed the fate of the king, who was later tried and beheaded, an event unheard of in the history of the English monarchy.",
+        "label": "Naseby",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué campo de batalla de Inglaterra aplastó el ejército del Parlamento a las tropas realistas de Carlos I en 1645?",
+        "explanation": "Esta derrota selló la suerte del rey, luego juzgado y decapitado, un hecho sin precedentes en la historia de la monarquía inglesa.",
+        "label": "Naseby",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "3d4a234420214a24",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 55.52,
+    "lng": 35.82,
+    "translations": {
+      "fr": {
+        "text": "Près de quel village à l'ouest de Moscou se livra en 1812 la sanglante bataille qui ouvrit à Napoléon la route de la capitale russe ?",
+        "explanation": "Victoire coûteuse et sans lendemain : Moscou, trouvée déserte puis incendiée, força bientôt la Grande Armée à une retraite désastreuse dans le froid.",
+        "label": "Borodino",
+        "country": "Russie"
+      },
+      "en": {
+        "text": "Near which village west of Moscow was fought, in 1812, the bloody battle that opened Napoleon's road to the Russian capital?",
+        "explanation": "A costly, hollow victory: Moscow, found deserted then burned, soon forced the Grande Armée into a disastrous retreat through the cold.",
+        "label": "Borodino",
+        "country": "Russia"
+      },
+      "es": {
+        "text": "¿Cerca de qué aldea al oeste de Moscú se libró en 1812 la sangrienta batalla que abrió a Napoleón el camino a la capital rusa?",
+        "explanation": "Victoria costosa y sin futuro: Moscú, hallada desierta y luego incendiada, obligó pronto a la Grande Armée a una retirada desastrosa en el frío.",
+        "label": "Borodinó",
+        "country": "Rusia"
+      }
+    }
+  },
+  {
+    "sourceRef": "6a0a94ed1b5ddda8",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 28.2072,
+    "lng": -177.3735,
+    "translations": {
+      "fr": {
+        "text": "Autour de quel atoll isolé du Pacifique se joua en 1942 une bataille navale décisive entre les États-Unis et le Japon ?",
+        "explanation": "Grâce au décryptage des messages ennemis, les Américains tendirent un piège et coulèrent quatre porte-avions, renversant le cours de la guerre du Pacifique.",
+        "label": "Midway",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Around which remote Pacific atoll was a decisive naval battle fought in 1942 between the United States and Japan?",
+        "explanation": "By cracking enemy messages, the Americans laid a trap and sank four aircraft carriers, turning the tide of the Pacific war.",
+        "label": "Midway",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En torno a qué atolón aislado del Pacífico se libró en 1942 una batalla naval decisiva entre los Estados Unidos y Japón?",
+        "explanation": "Al descifrar los mensajes enemigos, los estadounidenses tendieron una trampa y hundieron cuatro portaaviones, cambiando el curso de la guerra del Pacífico.",
+        "label": "Midway",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "7143fb09e6f0a00b",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 30.83,
+    "lng": 28.95,
+    "translations": {
+      "fr": {
+        "text": "Près de quelle localité côtière d'Égypte les Alliés stoppèrent-ils en 1942 l'avancée allemande vers le canal de Suez ?",
+        "explanation": "Cette victoire dans le désert, remportée après un déluge d'artillerie, marqua un tournant de la guerre en Afrique du Nord.",
+        "label": "El-Alamein",
+        "country": "Égypte"
+      },
+      "en": {
+        "text": "Near which coastal town of Egypt did the Allies halt in 1942 the German advance towards the Suez Canal?",
+        "explanation": "This desert victory, won after a barrage of artillery, marked a turning point of the war in North Africa.",
+        "label": "El Alamein",
+        "country": "Egypt"
+      },
+      "es": {
+        "text": "¿Cerca de qué localidad costera de Egipto detuvieron los Aliados en 1942 el avance alemán hacia el canal de Suez?",
+        "explanation": "Esta victoria en el desierto, lograda tras un diluvio de artillería, marcó un giro de la guerra en el norte de África.",
+        "label": "El Alamein",
+        "country": "Egipto"
+      }
+    }
+  },
+  {
+    "sourceRef": "69556f2681ac4745",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 51.9851,
+    "lng": 5.8987,
+    "translations": {
+      "fr": {
+        "text": "Près de quelle ville des Pays-Bas une audacieuse opération aéroportée alliée échoua-t-elle en 1944, faute d'un pont pris à temps ?",
+        "explanation": "L'échec de ce « pont trop loin » retarda la libération et laissa la population locale affronter un hiver de famine terrible.",
+        "label": "Arnhem",
+        "country": "Pays-Bas"
+      },
+      "en": {
+        "text": "Near which city of the Netherlands did a daring Allied airborne operation fail in 1944, for want of a bridge taken in time?",
+        "explanation": "The failure of this 'bridge too far' delayed liberation and left the local people to face a terrible winter of famine.",
+        "label": "Arnhem",
+        "country": "Netherlands"
+      },
+      "es": {
+        "text": "¿Cerca de qué ciudad de los Países Bajos fracasó en 1944 una audaz operación aerotransportada aliada, por falta de un puente tomado a tiempo?",
+        "explanation": "El fracaso de este 'puente lejano' retrasó la liberación y dejó a la población local ante un terrible invierno de hambruna.",
+        "label": "Arnhem",
+        "country": "Países Bajos"
+      }
+    }
+  },
+  {
+    "sourceRef": "78debad28703382c",
+    "type": "geo",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "lat": 40.21,
+    "lng": 26.41,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle péninsule de Turquie une campagne alliée désastreuse, en 1915, forgea l'identité nationale de l'Australie et de la Nouvelle-Zélande ?",
+        "explanation": "Chaque année, le 25 avril, ces deux pays commémorent le sacrifice de leurs soldats, dans un jour de mémoire devenu sacré à l'autre bout du monde.",
+        "label": "Gallipoli",
+        "country": "Turquie"
+      },
+      "en": {
+        "text": "On which peninsula of Turkey did a disastrous Allied campaign, in 1915, forge the national identity of Australia and New Zealand?",
+        "explanation": "Each year on 25 April, these two countries remember the sacrifice of their soldiers, a day of memory grown sacred at the other end of the world.",
+        "label": "Gallipoli",
+        "country": "Turkey"
+      },
+      "es": {
+        "text": "¿En qué península de Turquía una desastrosa campaña aliada, en 1915, forjó la identidad nacional de Australia y Nueva Zelanda?",
+        "explanation": "Cada 25 de abril, estos dos países recuerdan el sacrificio de sus soldados, en un día de memoria vuelto sagrado en el otro extremo del mundo.",
+        "label": "Galípoli",
+        "country": "Turquía"
+      }
+    }
+  },
+  {
+    "sourceRef": "65d260a4ad52f7c5",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 5.175,
+    "lng": -59.4833,
+    "translations": {
+      "fr": {
+        "text": "Quelle spectaculaire chute d'eau de la jungle du Guyana, l'une des plus puissantes du monde, plonge d'un seul jet de plus de deux cents mètres ?",
+        "explanation": "Perdue au cœur d'une forêt presque inaccessible, elle n'a jamais été harnachée : son débit colossal dévale librement, hors du temps.",
+        "label": "Chutes Kaieteur",
+        "country": "Guyana"
+      },
+      "en": {
+        "text": "Which spectacular waterfall in the jungle of Guyana, among the most powerful in the world, drops in a single leap of over two hundred metres?",
+        "explanation": "Lost deep in an almost unreachable forest, it has never been harnessed: its colossal flow tumbles free, out of time.",
+        "label": "Kaieteur Falls",
+        "country": "Guyana"
+      },
+      "es": {
+        "text": "¿Qué espectacular cascada de la selva de Guyana, de las más caudalosas del mundo, se precipita de un solo salto de más de doscientos metros?",
+        "explanation": "Perdida en el corazón de una selva casi inaccesible, nunca se ha aprovechado: su caudal colosal cae libre, fuera del tiempo.",
+        "label": "Cataratas Kaieteur",
+        "country": "Guyana"
+      }
+    }
+  },
+  {
+    "sourceRef": "54ae9a2b568c3c65",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 42.9446,
+    "lng": -122.109,
+    "translations": {
+      "fr": {
+        "text": "Quel lac de l'Oregon, le plus profond des États-Unis, niché dans un volcan effondré, est réputé pour son bleu intense ?",
+        "explanation": "Alimenté seulement par la pluie et la neige, sans rivière pour le troubler, il compte parmi les eaux les plus limpides de la planète.",
+        "label": "Lac Crater",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which lake in Oregon, the deepest in the United States, cradled in a collapsed volcano, is famed for its intense blue?",
+        "explanation": "Fed only by rain and snow, with no river to cloud it, it is among the clearest waters on the planet.",
+        "label": "Crater Lake",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué lago de Oregón, el más profundo de los Estados Unidos, anidado en un volcán hundido, es famoso por su azul intenso?",
+        "explanation": "Alimentado solo por la lluvia y la nieve, sin río que lo enturbie, figura entre las aguas más límpidas del planeta.",
+        "label": "Lago del Cráter",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "d74ee1e72d8efd69",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": 63.0692,
+    "lng": -151.007,
+    "translations": {
+      "fr": {
+        "text": "Quel sommet enneigé de l'Alaska, autrefois appelé mont McKinley, est le point culminant de l'Amérique du Nord ?",
+        "explanation": "Son nom d'origine, rendu officiel il y a peu, signifie « le Grand » dans la langue d'un peuple autochtone de la région.",
+        "label": "Denali",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which snowy peak in Alaska, once called Mount McKinley, is the highest point in North America?",
+        "explanation": "Its original name, made official not long ago, means 'the Great One' in the language of a native people of the region.",
+        "label": "Denali",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué cumbre nevada de Alaska, antes llamada monte McKinley, es el punto más alto de América del Norte?",
+        "explanation": "Su nombre original, oficializado hace poco, significa 'el Grande' en la lengua de un pueblo nativo de la región.",
+        "label": "Denali",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "212a15cef8a75438",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": -1.4692,
+    "lng": -78.8175,
+    "translations": {
+      "fr": {
+        "text": "Quel volcan de l'Équateur, du fait du renflement de la Terre à l'équateur, a son sommet le plus éloigné du centre de la planète ?",
+        "explanation": "Moins haut que l'Everest depuis le niveau de la mer, il le dépasse pourtant si l'on mesure la distance jusqu'au cœur de la Terre.",
+        "label": "Chimborazo",
+        "country": "Équateur"
+      },
+      "en": {
+        "text": "Which volcano in Ecuador has, because of the Earth's bulge at the equator, its summit the farthest from the planet's centre?",
+        "explanation": "Lower than Everest measured from sea level, it nevertheless surpasses it if one measures the distance to the Earth's core.",
+        "label": "Chimborazo",
+        "country": "Ecuador"
+      },
+      "es": {
+        "text": "¿Qué volcán de Ecuador tiene, por el abultamiento de la Tierra en el ecuador, su cima más alejada del centro del planeta?",
+        "explanation": "Más bajo que el Everest medido desde el nivel del mar, lo supera sin embargo si se mide la distancia hasta el núcleo de la Tierra.",
+        "label": "Chimborazo",
+        "country": "Ecuador"
+      }
+    }
+  },
+  {
+    "sourceRef": "2a202c790afd2da0",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "lat": -50.495,
+    "lng": -73.1377,
+    "translations": {
+      "fr": {
+        "text": "Quel gigantesque glacier de Patagonie argentine, encore en croissance, se rompt spectaculairement dans un lac, dans un fracas de glace ?",
+        "explanation": "Sa langue de glace avance parfois jusqu'à barrer un bras du lac ; l'eau s'accumule, puis fait céder un pont de glace dans un effondrement grandiose.",
+        "label": "Perito Moreno",
+        "country": "Argentine"
+      },
+      "en": {
+        "text": "Which giant glacier of Argentine Patagonia, still growing, breaks off spectacularly into a lake with a roar of ice?",
+        "explanation": "Its tongue of ice sometimes advances until it dams an arm of the lake; water builds up, then bursts an ice bridge in a grand collapse.",
+        "label": "Perito Moreno",
+        "country": "Argentina"
+      },
+      "es": {
+        "text": "¿Qué gigantesco glaciar de la Patagonia argentina, aún en crecimiento, se rompe espectacularmente en un lago, con un estruendo de hielo?",
+        "explanation": "Su lengua de hielo avanza a veces hasta cerrar un brazo del lago; el agua se acumula y hace ceder un puente de hielo en un derrumbe grandioso.",
+        "label": "Perito Moreno",
+        "country": "Argentina"
+      }
+    }
+  },
+  {
+    "sourceRef": "f94d2856ea31bdc2",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 46.83,
+    "lng": 17.72,
+    "translations": {
+      "fr": {
+        "text": "Quel grand lac de Hongrie, surnommé la « mer hongroise », est le plus vaste lac d'Europe centrale ?",
+        "explanation": "Peu profond, il se réchauffe vite l'été et gèle l'hiver ; les habitants d'un pays sans côte y viennent goûter aux plaisirs de la plage.",
+        "label": "Lac Balaton",
+        "country": "Hongrie"
+      },
+      "en": {
+        "text": "Which large lake in Hungary, nicknamed the 'Hungarian sea', is the biggest lake in Central Europe?",
+        "explanation": "Shallow, it warms fast in summer and freezes in winter; the people of a landlocked country come there to enjoy the pleasures of the beach.",
+        "label": "Lake Balaton",
+        "country": "Hungary"
+      },
+      "es": {
+        "text": "¿Qué gran lago de Hungría, apodado el 'mar húngaro', es el lago más vasto de Europa central?",
+        "explanation": "Poco profundo, se calienta rápido en verano y se hiela en invierno; los habitantes de un país sin costa acuden a disfrutar de la playa.",
+        "label": "Lago Balatón",
+        "country": "Hungría"
+      }
+    }
+  },
+  {
+    "sourceRef": "87ca0e37511a2669",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 2.5,
+    "lng": 101,
+    "translations": {
+      "fr": {
+        "text": "Par quel détroit d'Asie du Sud-Est, l'un des plus fréquentés du monde, transite une grande partie du commerce maritime entre l'Europe et l'Extrême-Orient ?",
+        "explanation": "Long et resserré, il fut longtemps le repaire de pirates ; aujourd'hui, des milliers de navires y défilent chaque année en un ballet ininterrompu.",
+        "label": "Détroit de Malacca",
+        "country": "Malaisie"
+      },
+      "en": {
+        "text": "Through which Southeast Asian strait, one of the busiest in the world, passes much of the sea trade between Europe and the Far East?",
+        "explanation": "Long and narrow, it was long a haunt of pirates; today thousands of ships file through it each year in an unbroken procession.",
+        "label": "Strait of Malacca",
+        "country": "Malaysia"
+      },
+      "es": {
+        "text": "¿Por qué estrecho del Sudeste Asiático, uno de los más transitados del mundo, pasa gran parte del comercio marítimo entre Europa y el Extremo Oriente?",
+        "explanation": "Largo y angosto, fue mucho tiempo guarida de piratas; hoy miles de barcos desfilan por él cada año en un ballet ininterrumpido.",
+        "label": "Estrecho de Malaca",
+        "country": "Malasia"
+      }
+    }
+  },
+  {
+    "sourceRef": "7d819308876c1984",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": 38.9,
+    "lng": 82.2,
+    "translations": {
+      "fr": {
+        "text": "Quel vaste désert de sable de l'ouest de la Chine, l'un des plus arides du monde, porte un nom évoquant un lieu « dont on ne revient pas » ?",
+        "explanation": "Ses dunes mouvantes recouvrirent d'anciennes cités de la route de la soie, dont on retrouve parfois les ruines émergeant du sable.",
+        "label": "Taklamakan",
+        "country": "Chine"
+      },
+      "en": {
+        "text": "Which vast sand desert of western China, among the most arid in the world, bears a name evoking a place 'you do not come back from'?",
+        "explanation": "Its shifting dunes buried ancient Silk Road cities, whose ruins are sometimes found emerging from the sand.",
+        "label": "Taklamakan",
+        "country": "China"
+      },
+      "es": {
+        "text": "¿Qué vasto desierto de arena del oeste de China, de los más áridos del mundo, lleva un nombre que evoca un lugar 'del que no se vuelve'?",
+        "explanation": "Sus dunas móviles cubrieron antiguas ciudades de la ruta de la seda, cuyas ruinas se hallan a veces emergiendo de la arena.",
+        "label": "Taklamakán",
+        "country": "China"
+      }
+    }
+  },
+  {
+    "sourceRef": "546b2dd13856d43b",
+    "type": "geo",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "lat": -4.0833,
+    "lng": 137.1833,
+    "translations": {
+      "fr": {
+        "text": "Quel sommet enneigé de Nouvelle-Guinée, en Indonésie, est le point culminant de l'Océanie malgré sa position tropicale ?",
+        "explanation": "Chose rare sous ces latitudes, ses hauteurs portaient encore récemment des glaciers, qui fondent aujourd'hui à vue d'œil.",
+        "label": "Puncak Jaya",
+        "country": "Indonésie"
+      },
+      "en": {
+        "text": "Which snowy peak of New Guinea, in Indonesia, is the highest point of Oceania despite its tropical position?",
+        "explanation": "Rare at these latitudes, its heights bore glaciers until recently, which are now melting before our eyes.",
+        "label": "Puncak Jaya",
+        "country": "Indonesia"
+      },
+      "es": {
+        "text": "¿Qué cumbre nevada de Nueva Guinea, en Indonesia, es el punto más alto de Oceanía pese a su posición tropical?",
+        "explanation": "Algo raro en estas latitudes, sus alturas lucían glaciares hasta hace poco, que hoy se derriten a ojos vistas.",
+        "label": "Puncak Jaya",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "sourceRef": "c48d14ea0590d3e6",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "medium",
+    "lat": 30.4,
+    "lng": 130.97,
+    "translations": {
+      "fr": {
+        "text": "Depuis quelle île du sud du Japon, aux plages de sable, décollent les fusées de l'agence spatiale japonaise ?",
+        "explanation": "Ses habitants disent, avec fierté, vivre sur « le plus beau pas de tir du monde », entre lagons turquoise et forêts subtropicales.",
+        "label": "Tanegashima",
+        "country": "Japon"
+      },
+      "en": {
+        "text": "From which island of southern Japan, with sandy beaches, do the rockets of the Japanese space agency lift off?",
+        "explanation": "Its residents proudly say they live at 'the most beautiful launch site in the world', between turquoise lagoons and subtropical forests.",
+        "label": "Tanegashima",
+        "country": "Japan"
+      },
+      "es": {
+        "text": "¿Desde qué isla del sur de Japón, de playas de arena, despegan los cohetes de la agencia espacial japonesa?",
+        "explanation": "Sus habitantes dicen con orgullo vivir en 'la plataforma de lanzamiento más bella del mundo', entre lagunas turquesa y bosques subtropicales.",
+        "label": "Tanegashima",
+        "country": "Japón"
+      }
+    }
+  },
+  {
+    "sourceRef": "acee227d61903e1e",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 13.72,
+    "lng": 80.23,
+    "translations": {
+      "fr": {
+        "text": "Depuis quelle île de la côte est de l'Inde partent les fusées qui envoyèrent des sondes vers la Lune et Mars ?",
+        "explanation": "Le pays y réussit l'exploit d'atteindre l'orbite de Mars du premier coup, pour un budget bien inférieur à celui de certains films de science-fiction.",
+        "label": "Sriharikota",
+        "country": "Inde"
+      },
+      "en": {
+        "text": "From which island off India's east coast do the rockets take off that sent probes towards the Moon and Mars?",
+        "explanation": "The country there pulled off reaching Mars orbit at the first attempt, for a budget far below that of some science-fiction films.",
+        "label": "Sriharikota",
+        "country": "India"
+      },
+      "es": {
+        "text": "¿Desde qué isla de la costa este de la India parten los cohetes que enviaron sondas hacia la Luna y Marte?",
+        "explanation": "El país logró allí la hazaña de alcanzar la órbita de Marte al primer intento, con un presupuesto muy inferior al de algunas películas de ciencia ficción.",
+        "label": "Sriharikota",
+        "country": "India"
+      }
+    }
+  },
+  {
+    "sourceRef": "87bf5520ec7c07ca",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": -75.1,
+    "lng": 123.33,
+    "translations": {
+      "fr": {
+        "text": "Quelle base scientifique franco-italienne, isolée sur le haut plateau glacé de l'Antarctique, sert à étudier la vie en conditions extrêmes ?",
+        "explanation": "En plein hiver, la nuit y dure des mois et la température plonge sous les moins quatre-vingts degrés : un huis clos comparé à un voyage vers Mars.",
+        "label": "Concordia",
+        "country": "Antarctique"
+      },
+      "en": {
+        "text": "Which French-Italian research base, isolated on the high icy plateau of Antarctica, is used to study life in extreme conditions?",
+        "explanation": "In midwinter, the night lasts for months and the temperature drops below minus eighty degrees: a confinement likened to a journey to Mars.",
+        "label": "Concordia",
+        "country": "Antarctica"
+      },
+      "es": {
+        "text": "¿Qué base científica franco-italiana, aislada en la alta meseta helada de la Antártida, sirve para estudiar la vida en condiciones extremas?",
+        "explanation": "En pleno invierno, la noche dura meses y la temperatura baja de los ochenta grados bajo cero: un encierro comparado con un viaje a Marte.",
+        "label": "Concordia",
+        "country": "Antártida"
+      }
+    }
+  },
+  {
+    "sourceRef": "c6d99f73f0a9adc1",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 51.3312,
+    "lng": 0.053,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle maison de campagne du Kent Charles Darwin écrivit-il « L'Origine des espèces » et mena-t-il ses expériences ?",
+        "explanation": "Il y observait tout, jusqu'aux vers de terre de son jardin, arpentant chaque jour un même sentier pour réfléchir, qu'il appelait son « allée de la pensée ».",
+        "label": "Down House",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "In which country house in Kent did Charles Darwin write 'On the Origin of Species' and carry out his experiments?",
+        "explanation": "He observed everything there, down to the earthworms of his garden, walking the same path each day to think, which he called his 'thinking path'.",
+        "label": "Down House",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué casa de campo de Kent escribió Charles Darwin 'El origen de las especies' y llevó a cabo sus experimentos?",
+        "explanation": "Observaba allí todo, hasta las lombrices de su jardín, recorriendo cada día un mismo sendero para pensar, que llamaba su 'sendero del pensamiento'.",
+        "label": "Down House",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "84c0b3e8870091b5",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 43.708,
+    "lng": 5.758,
+    "translations": {
+      "fr": {
+        "text": "Sur quel site du sud de la France construit-on ITER, un réacteur expérimental cherchant à reproduire l'énergie du Soleil ?",
+        "explanation": "En fusionnant des noyaux d'hydrogène comme le fait notre étoile, on espère une source d'énergie quasi inépuisable ; le défi occupe des milliers de chercheurs.",
+        "label": "Cadarache",
+        "country": "France"
+      },
+      "en": {
+        "text": "At which site in southern France is ITER being built, an experimental reactor seeking to reproduce the energy of the Sun?",
+        "explanation": "By fusing hydrogen nuclei as our star does, one hopes for a near-inexhaustible energy source; the challenge keeps thousands of researchers busy.",
+        "label": "Cadarache",
+        "country": "France"
+      },
+      "es": {
+        "text": "¿En qué emplazamiento del sur de Francia se construye ITER, un reactor experimental que busca reproducir la energía del Sol?",
+        "explanation": "Al fusionar núcleos de hidrógeno como hace nuestra estrella, se espera una fuente de energía casi inagotable; el reto ocupa a miles de investigadores.",
+        "label": "Cadarache",
+        "country": "Francia"
+      }
+    }
+  },
+  {
+    "sourceRef": "f51baa14fa489b2d",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 42.42,
+    "lng": 13.514,
+    "translations": {
+      "fr": {
+        "text": "Sous quel massif montagneux d'Italie un immense laboratoire souterrain traque-t-il les particules fantômes venues du cosmos ?",
+        "explanation": "Enfouis sous plus d'un kilomètre de roche, ses détecteurs sont protégés des rayonnements qui, en surface, brouilleraient leurs mesures délicates.",
+        "label": "Gran Sasso",
+        "country": "Italie"
+      },
+      "en": {
+        "text": "Under which mountain massif of Italy does a huge underground laboratory hunt for the ghostly particles from the cosmos?",
+        "explanation": "Buried under more than a kilometre of rock, its detectors are shielded from the radiation that, at the surface, would blur their delicate readings.",
+        "label": "Gran Sasso",
+        "country": "Italy"
+      },
+      "es": {
+        "text": "¿Bajo qué macizo montañoso de Italia un inmenso laboratorio subterráneo rastrea las partículas fantasma venidas del cosmos?",
+        "explanation": "Enterrados bajo más de un kilómetro de roca, sus detectores están protegidos de las radiaciones que, en superficie, enturbiarían sus delicadas mediciones.",
+        "label": "Gran Sasso",
+        "country": "Italia"
+      }
+    }
+  },
+  {
+    "sourceRef": "72df45b699756628",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 67.8558,
+    "lng": 20.2253,
+    "translations": {
+      "fr": {
+        "text": "Depuis quelle ville du grand nord de la Suède lance-t-on des fusées-sondes et des ballons pour étudier la haute atmosphère et les aurores ?",
+        "explanation": "Bâtie autour d'une mine de fer, la ville s'enfonce peu à peu à cause des galeries creusées sous elle ; on la déplace, quartier par quartier, un peu plus loin.",
+        "label": "Kiruna",
+        "country": "Suède"
+      },
+      "en": {
+        "text": "From which town in the far north of Sweden are sounding rockets and balloons launched to study the upper atmosphere and the auroras?",
+        "explanation": "Built around an iron mine, the town is slowly sinking because of the tunnels dug beneath it; it is being moved, district by district, a little further off.",
+        "label": "Kiruna",
+        "country": "Sweden"
+      },
+      "es": {
+        "text": "¿Desde qué ciudad del extremo norte de Suecia se lanzan cohetes sonda y globos para estudiar la alta atmósfera y las auroras?",
+        "explanation": "Construida en torno a una mina de hierro, la ciudad se hunde poco a poco por las galerías excavadas bajo ella; se la traslada, barrio a barrio, un poco más lejos.",
+        "label": "Kiruna",
+        "country": "Suecia"
+      }
+    }
+  },
+  {
+    "sourceRef": "0ba17ff18795414e",
+    "type": "geo",
+    "theme": "science",
+    "difficulty": "hard",
+    "lat": 28.757,
+    "lng": -17.885,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle île des Canaries, aux cieux protégés de toute pollution lumineuse, se dressent de grands télescopes profitant de l'air pur de l'Atlantique ?",
+        "explanation": "L'éclairage y est strictement réglementé pour préserver la noirceur du ciel ; on y observe les étoiles depuis un sommet souvent au-dessus des nuages.",
+        "label": "La Palma",
+        "country": "Espagne"
+      },
+      "en": {
+        "text": "On which Canary Island, its skies shielded from all light pollution, do great telescopes stand, enjoying the pure Atlantic air?",
+        "explanation": "Lighting there is strictly regulated to keep the sky dark; the stars are observed from a peak often above the clouds.",
+        "label": "La Palma",
+        "country": "Spain"
+      },
+      "es": {
+        "text": "¿En qué isla de Canarias, con cielos protegidos de toda contaminación lumínica, se alzan grandes telescopios que aprovechan el aire puro del Atlántico?",
+        "explanation": "El alumbrado está allí muy regulado para preservar la oscuridad del cielo; se observan las estrellas desde una cima a menudo por encima de las nubes.",
+        "label": "La Palma",
+        "country": "España"
+      }
+    }
+  },
+  {
+    "sourceRef": "d9ed72a7adf3ae1f",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 31.2304,
+    "lng": 121.4737,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle métropole chinoise, la plus peuplée du pays, se dispute un grand tournoi de tennis en salle chaque automne ?",
+        "explanation": "Sa silhouette hérissée de gratte-ciel futuristes, dont une tour qui se tord sur elle-même, symbolise l'essor vertigineux de la Chine moderne.",
+        "label": "Shanghai",
+        "country": "Chine"
+      },
+      "en": {
+        "text": "In which Chinese metropolis, the country's most populous, is a major indoor tennis tournament held each autumn?",
+        "explanation": "Its skyline bristling with futuristic towers, one of them twisting on itself, symbolises the dizzying rise of modern China.",
+        "label": "Shanghai",
+        "country": "China"
+      },
+      "es": {
+        "text": "¿En qué metrópolis china, la más poblada del país, se disputa cada otoño un gran torneo de tenis bajo techo?",
+        "explanation": "Su silueta erizada de rascacielos futuristas, uno de ellos que se retuerce sobre sí mismo, simboliza el vertiginoso auge de la China moderna.",
+        "label": "Shanghái",
+        "country": "China"
+      }
+    }
+  },
+  {
+    "sourceRef": "d8590ce727d95661",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 52.3888,
+    "lng": 4.5409,
+    "translations": {
+      "fr": {
+        "text": "Sur quel circuit des Pays-Bas, tracé au milieu des dunes battues par la mer, se court le Grand Prix de Formule 1 néerlandais ?",
+        "explanation": "Le sable qui envahit parfois la piste rend les trajectoires imprévisibles ; les virages relevés, eux, propulsent les voitures comme sur un anneau de vélodrome.",
+        "label": "Zandvoort",
+        "country": "Pays-Bas"
+      },
+      "en": {
+        "text": "On which circuit in the Netherlands, laid out among sea-battered dunes, is the Dutch Formula 1 Grand Prix run?",
+        "explanation": "The sand that sometimes blows onto the track makes lines unpredictable; the banked corners, meanwhile, sling the cars round as on a velodrome.",
+        "label": "Zandvoort",
+        "country": "Netherlands"
+      },
+      "es": {
+        "text": "¿En qué circuito de los Países Bajos, trazado entre dunas batidas por el mar, se corre el Gran Premio de Fórmula 1 neerlandés?",
+        "explanation": "La arena que a veces invade la pista hace imprevisibles las trayectorias; las curvas peraltadas, en cambio, lanzan los coches como en un velódromo.",
+        "label": "Zandvoort",
+        "country": "Países Bajos"
+      }
+    }
+  },
+  {
+    "sourceRef": "81b84418d28c8fda",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 14.7167,
+    "lng": -17.4677,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale d'Afrique de l'Ouest donna longtemps son nom à un célèbre rallye-raid partant de Paris à travers le Sahara ?",
+        "explanation": "La course finissait jadis sur la plage de cette ville, au terme de milliers de kilomètres de dunes ; elle se dispute aujourd'hui sur un autre continent.",
+        "label": "Dakar",
+        "country": "Sénégal"
+      },
+      "en": {
+        "text": "Which West African capital long gave its name to a famous rally-raid setting off from Paris across the Sahara?",
+        "explanation": "The race once ended on this city's beach, after thousands of kilometres of dunes; it is now held on another continent.",
+        "label": "Dakar",
+        "country": "Senegal"
+      },
+      "es": {
+        "text": "¿Qué capital de África occidental dio mucho tiempo su nombre a un famoso rally-raid que partía de París a través del Sahara?",
+        "explanation": "La carrera terminaba antaño en la playa de esta ciudad, tras miles de kilómetros de dunas; hoy se disputa en otro continente.",
+        "label": "Dakar",
+        "country": "Senegal"
+      }
+    }
+  },
+  {
+    "sourceRef": "9243230af9ee39db",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 47.2692,
+    "lng": 11.4041,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du Tyrol autrichien, encerclée de montagnes, accueillit deux fois les Jeux olympiques d'hiver, en 1964 et 1976 ?",
+        "explanation": "Un petit toit doré, joyau de sa vieille ville, brille au soleil depuis le Moyen Âge et veille sur les foules venues admirer les skieurs.",
+        "label": "Innsbruck",
+        "country": "Autriche"
+      },
+      "en": {
+        "text": "Which town of the Austrian Tyrol, ringed by mountains, hosted the Winter Olympics twice, in 1964 and 1976?",
+        "explanation": "A little golden roof, jewel of its old town, has glittered in the sun since the Middle Ages and watches over the crowds come to admire the skiers.",
+        "label": "Innsbruck",
+        "country": "Austria"
+      },
+      "es": {
+        "text": "¿Qué ciudad del Tirol austríaco, rodeada de montañas, acogió dos veces los Juegos Olímpicos de invierno, en 1964 y 1976?",
+        "explanation": "Un pequeño tejado dorado, joya de su casco antiguo, brilla al sol desde la Edad Media y vela por las multitudes que vienen a admirar a los esquiadores.",
+        "label": "Innsbruck",
+        "country": "Austria"
+      }
+    }
+  },
+  {
+    "sourceRef": "001b2184cf6f49d5",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 36.6485,
+    "lng": 138.1948,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du centre du Japon, entourée de sommets enneigés, accueillit les Jeux olympiques d'hiver de 1998 ?",
+        "explanation": "Ses montagnes abritent aussi un célèbre parc où des macaques se baignent, l'hiver, dans des sources chaudes fumantes, sous les flocons.",
+        "label": "Nagano",
+        "country": "Japon"
+      },
+      "en": {
+        "text": "Which city in central Japan, surrounded by snowy peaks, hosted the 1998 Winter Olympics?",
+        "explanation": "Its mountains also hold a famous park where macaques bathe, in winter, in steaming hot springs beneath the falling snow.",
+        "label": "Nagano",
+        "country": "Japan"
+      },
+      "es": {
+        "text": "¿Qué ciudad del centro de Japón, rodeada de cumbres nevadas, acogió los Juegos Olímpicos de invierno de 1998?",
+        "explanation": "Sus montañas albergan también un famoso parque donde macacos se bañan, en invierno, en humeantes fuentes termales bajo la nieve.",
+        "label": "Nagano",
+        "country": "Japón"
+      }
+    }
+  },
+  {
+    "sourceRef": "1278973672a0ba36",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 61.006,
+    "lng": 14.539,
+    "translations": {
+      "fr": {
+        "text": "Depuis quelle ville de Suède part la plus longue course populaire de ski de fond du monde, longue de près de quatre-vingt-dix kilomètres ?",
+        "explanation": "Elle commémore la fuite à skis d'un futur roi au XVIᵉ siècle ; des dizaines de milliers de fondeurs s'élancent aujourd'hui sur ses traces.",
+        "label": "Mora",
+        "country": "Suède"
+      },
+      "en": {
+        "text": "From which town in Sweden does the world's longest popular cross-country ski race start, nearly ninety kilometres long?",
+        "explanation": "It commemorates the ski flight of a future king in the 16th century; tens of thousands of skiers now set off in his tracks.",
+        "label": "Mora",
+        "country": "Sweden"
+      },
+      "es": {
+        "text": "¿Desde qué ciudad de Suecia parte la carrera popular de esquí de fondo más larga del mundo, de casi noventa kilómetros?",
+        "explanation": "Conmemora la huida en esquís de un futuro rey en el siglo XVI; decenas de miles de esquiadores se lanzan hoy tras sus huellas.",
+        "label": "Mora",
+        "country": "Suecia"
+      }
+    }
+  },
+  {
+    "sourceRef": "b59de057ed7bad88",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "medium",
+    "lat": 38.2527,
+    "lng": -85.7585,
+    "translations": {
+      "fr": {
+        "text": "Dans quelle ville du Kentucky se court chaque printemps un célèbre Derby de chevaux, où le public arbore de grands chapeaux fleuris ?",
+        "explanation": "La course dure à peine deux minutes, mais la fête, elle, s'étale sur des jours, entre juleps à la menthe, chapeaux extravagants et vieille chanson entonnée en chœur.",
+        "label": "Louisville",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "In which Kentucky city is a famous horse Derby run each spring, where spectators sport large flowery hats?",
+        "explanation": "The race lasts barely two minutes, but the party spreads over days, between mint juleps, extravagant hats and an old song sung in chorus.",
+        "label": "Louisville",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿En qué ciudad de Kentucky se corre cada primavera un famoso Derby de caballos, donde el público luce grandes sombreros floridos?",
+        "explanation": "La carrera dura apenas dos minutos, pero la fiesta se extiende días, entre juleps de menta, sombreros extravagantes y una vieja canción cantada a coro.",
+        "label": "Louisville",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "ab6223d72ff2fd62",
+    "type": "geo",
+    "theme": "sport",
+    "difficulty": "hard",
+    "lat": 54.2361,
+    "lng": -4.5481,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle île entre l'Angleterre et l'Irlande se court, sur routes ouvertes, l'une des courses de moto les plus dangereuses du monde ?",
+        "explanation": "Les pilotes y frôlent murs et haies à plus de trois cents kilomètres à l'heure ; ses tragédies répétées n'ont jamais découragé les passionnés.",
+        "label": "Île de Man",
+        "country": "Royaume-Uni"
+      },
+      "en": {
+        "text": "On which island between England and Ireland is one of the world's most dangerous motorcycle races run, on open roads?",
+        "explanation": "Riders there brush walls and hedges at over three hundred kilometres an hour; its repeated tragedies have never deterred the enthusiasts.",
+        "label": "Isle of Man",
+        "country": "United Kingdom"
+      },
+      "es": {
+        "text": "¿En qué isla entre Inglaterra e Irlanda se corre, en carreteras abiertas, una de las carreras de moto más peligrosas del mundo?",
+        "explanation": "Los pilotos rozan allí muros y setos a más de trescientos kilómetros por hora; sus repetidas tragedias nunca han disuadido a los apasionados.",
+        "label": "Isla de Man",
+        "country": "Reino Unido"
+      }
+    }
+  },
+  {
+    "sourceRef": "f9f80e119f14a159",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 40.4406,
+    "lng": -79.9959,
+    "translations": {
+      "fr": {
+        "text": "Quelle ancienne ville de l'acier de Pennsylvanie s'est réinventée en pôle de la robotique et des voitures autonomes ?",
+        "explanation": "Autour de son université réputée, les usines à charbon ont cédé la place aux laboratoires : la ville troqua la fumée des hauts-fourneaux pour les algorithmes.",
+        "label": "Pittsburgh",
+        "country": "États-Unis"
+      },
+      "en": {
+        "text": "Which former steel city of Pennsylvania has reinvented itself as a hub of robotics and self-driving cars?",
+        "explanation": "Around its renowned university, coal-fired plants gave way to laboratories: the city traded the smoke of blast furnaces for algorithms.",
+        "label": "Pittsburgh",
+        "country": "United States"
+      },
+      "es": {
+        "text": "¿Qué antigua ciudad del acero de Pensilvania se ha reinventado como polo de la robótica y los coches autónomos?",
+        "explanation": "En torno a su prestigiosa universidad, las fábricas de carbón cedieron el paso a los laboratorios: la ciudad cambió el humo de los altos hornos por los algoritmos.",
+        "label": "Pittsburgh",
+        "country": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "sourceRef": "5487463225bf5d44",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 30.5728,
+    "lng": 104.0668,
+    "translations": {
+      "fr": {
+        "text": "Quelle grande ville de l'ouest de la Chine, célèbre pour ses pandas, est aussi un pôle montant du jeu vidéo et de la tech ?",
+        "explanation": "Réputée pour son art de vivre plus détendu que les métropoles côtières, elle attire une jeunesse créative dans ses innombrables maisons de thé.",
+        "label": "Chengdu",
+        "country": "Chine"
+      },
+      "en": {
+        "text": "Which large city of western China, famous for its pandas, is also a rising hub of video games and tech?",
+        "explanation": "Known for a more relaxed way of life than the coastal metropolises, it draws creative youth into its countless tea houses.",
+        "label": "Chengdu",
+        "country": "China"
+      },
+      "es": {
+        "text": "¿Qué gran ciudad del oeste de China, famosa por sus pandas, es también un polo emergente del videojuego y la tecnología?",
+        "explanation": "Conocida por un estilo de vida más relajado que las metrópolis costeras, atrae a una juventud creativa a sus innumerables casas de té.",
+        "label": "Chengdu",
+        "country": "China"
+      }
+    }
+  },
+  {
+    "sourceRef": "85344f55c4ba1c94",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 28.4595,
+    "lng": 77.0266,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville satellite de New Delhi, sortie de terre en quelques décennies, concentre sièges et centres d'appels de multinationales ?",
+        "explanation": "Ses tours de verre s'élèvent parfois à côté de villages et de champs, contraste saisissant entre l'Inde traditionnelle et son visage ultramoderne.",
+        "label": "Gurugram",
+        "country": "Inde"
+      },
+      "en": {
+        "text": "Which satellite city of New Delhi, risen from the ground in a few decades, gathers headquarters and call centres of multinationals?",
+        "explanation": "Its glass towers sometimes rise beside villages and fields, a striking contrast between traditional India and its ultramodern face.",
+        "label": "Gurugram",
+        "country": "India"
+      },
+      "es": {
+        "text": "¿Qué ciudad satélite de Nueva Delhi, surgida de la nada en pocas décadas, reúne sedes y centros de llamadas de multinacionales?",
+        "explanation": "Sus torres de vidrio se alzan a veces junto a aldeas y campos, un contraste llamativo entre la India tradicional y su rostro ultramoderno.",
+        "label": "Gurugram",
+        "country": "India"
+      }
+    }
+  },
+  {
+    "sourceRef": "0b4cbdc71c7decef",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 31.2518,
+    "lng": 34.7913,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville du désert du Néguev, en Israël, est devenue une capitale mondiale de la cybersécurité ?",
+        "explanation": "L'armée y a installé ses unités de haute technologie, autour desquelles fleurissent start-up et laboratoires spécialisés dans la défense informatique.",
+        "label": "Beer-Sheva",
+        "country": "Israël"
+      },
+      "en": {
+        "text": "Which city of the Negev desert, in Israel, has become a world capital of cybersecurity?",
+        "explanation": "The army settled its high-tech units there, around which start-ups and laboratories specialising in cyber-defence flourish.",
+        "label": "Beersheba",
+        "country": "Israel"
+      },
+      "es": {
+        "text": "¿Qué ciudad del desierto del Néguev, en Israel, se ha convertido en una capital mundial de la ciberseguridad?",
+        "explanation": "El ejército instaló allí sus unidades de alta tecnología, en torno a las cuales florecen start-ups y laboratorios de ciberdefensa.",
+        "label": "Beerseba",
+        "country": "Israel"
+      }
+    }
+  },
+  {
+    "sourceRef": "1e7303e8a2789108",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 51.1079,
+    "lng": 17.0385,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville de l'ouest de la Pologne, aux nombreux ponts et îlots, est devenue un grand pôle des services informatiques ?",
+        "explanation": "Ses habitants cachent dans ses rues des centaines de petites statuettes de nains de bronze, jeu de piste amusant devenu un symbole de la ville.",
+        "label": "Wrocław",
+        "country": "Pologne"
+      },
+      "en": {
+        "text": "Which city of western Poland, with its many bridges and islets, has become a major hub of IT services?",
+        "explanation": "Its people hide hundreds of little bronze dwarf figurines in its streets, an amusing treasure hunt that has become a symbol of the city.",
+        "label": "Wrocław",
+        "country": "Poland"
+      },
+      "es": {
+        "text": "¿Qué ciudad del oeste de Polonia, de numerosos puentes e islotes, se ha convertido en un gran polo de servicios informáticos?",
+        "explanation": "Sus habitantes esconden en sus calles cientos de estatuillas de enanos de bronce, una divertida búsqueda del tesoro vuelta símbolo de la ciudad.",
+        "label": "Wrocław",
+        "country": "Polonia"
+      }
+    }
+  },
+  {
+    "sourceRef": "6f87a3d14c22ebfd",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": -1.9536,
+    "lng": 30.0606,
+    "translations": {
+      "fr": {
+        "text": "Quelle capitale du Rwanda, réputée pour sa propreté et ses ambitions numériques, veut devenir un pôle technologique de l'Afrique ?",
+        "explanation": "Des drones y livrent du sang et des médicaments aux hôpitaux isolés, survolant collines et vallées là où les routes manquent.",
+        "label": "Kigali",
+        "country": "Rwanda"
+      },
+      "en": {
+        "text": "Which capital of Rwanda, known for its cleanliness and digital ambitions, wants to become a technology hub of Africa?",
+        "explanation": "Drones there deliver blood and medicine to remote hospitals, flying over hills and valleys where roads are lacking.",
+        "label": "Kigali",
+        "country": "Rwanda"
+      },
+      "es": {
+        "text": "¿Qué capital de Ruanda, conocida por su limpieza y ambiciones digitales, quiere ser un polo tecnológico de África?",
+        "explanation": "Allí, drones llevan sangre y medicinas a hospitales aislados, sobrevolando colinas y valles donde faltan las carreteras.",
+        "label": "Kigali",
+        "country": "Ruanda"
+      }
+    }
+  },
+  {
+    "sourceRef": "8264dd2b5afc9e6e",
+    "type": "geo",
+    "theme": "tech",
+    "difficulty": "hard",
+    "lat": 37.3894,
+    "lng": 126.643,
+    "translations": {
+      "fr": {
+        "text": "Quelle ville nouvelle de Corée du Sud, bâtie sur des terres gagnées sur la mer, se veut une « ville intelligente » ultra-connectée ?",
+        "explanation": "Ses capteurs surveillent tout, du trafic aux déchets aspirés par des tuyaux souterrains ; une vitrine du futur, parfois jugée un peu froide et déserte.",
+        "label": "Songdo",
+        "country": "Corée du Sud"
+      },
+      "en": {
+        "text": "Which new city of South Korea, built on land reclaimed from the sea, aims to be an ultra-connected 'smart city'?",
+        "explanation": "Its sensors monitor everything, from traffic to rubbish sucked away by underground pipes; a showcase of the future, sometimes felt to be a bit cold and empty.",
+        "label": "Songdo",
+        "country": "South Korea"
+      },
+      "es": {
+        "text": "¿Qué ciudad nueva de Corea del Sur, construida sobre terrenos ganados al mar, quiere ser una 'ciudad inteligente' ultraconectada?",
+        "explanation": "Sus sensores lo vigilan todo, del tráfico a la basura aspirada por tuberías subterráneas; un escaparate del futuro, a veces juzgado algo frío y desierto.",
+        "label": "Songdo",
+        "country": "Corea del Sur"
+      }
+    }
+  }
+]
