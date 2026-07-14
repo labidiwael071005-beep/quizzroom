@@ -1,0 +1,3122 @@
+[
+  {
+    "sourceRef": "0d5d47e437801696",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la monnaie officielle du Royaume-Uni ?",
+        "options": [
+          "La livre sterling",
+          "L'euro",
+          "Le dollar",
+          "Le franc"
+        ],
+        "explanation": "Le mot « sterling » viendrait d'anciennes pièces d'argent marquées d'une petite étoile, gage de leur pureté."
+      },
+      "en": {
+        "text": "What is the official currency of the United Kingdom?",
+        "options": [
+          "The pound sterling",
+          "The euro",
+          "The dollar",
+          "The franc"
+        ],
+        "explanation": "The word 'sterling' is thought to come from old silver coins marked with a little star, a sign of their purity."
+      },
+      "es": {
+        "text": "¿Cuál es la moneda oficial del Reino Unido?",
+        "options": [
+          "La libra esterlina",
+          "El euro",
+          "El dólar",
+          "El franco"
+        ],
+        "explanation": "La palabra 'esterlina' vendría de antiguas monedas de plata marcadas con una estrellita, señal de su pureza."
+      }
+    }
+  },
+  {
+    "sourceRef": "14bafdcda426eb55",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle couleur obtient-on en mélangeant du jaune et du rouge ?",
+        "options": [
+          "Le vert",
+          "L'orange",
+          "Le violet",
+          "Le marron"
+        ],
+        "explanation": "L'orange doit son nom au fruit : longtemps, on a désigné cette couleur autrement, avant que l'agrume ne s'impose."
+      },
+      "en": {
+        "text": "Which colour do you get by mixing yellow and red?",
+        "options": [
+          "Green",
+          "Orange",
+          "Purple",
+          "Brown"
+        ],
+        "explanation": "Orange takes its name from the fruit: for a long time the colour was called otherwise, before the citrus won out."
+      },
+      "es": {
+        "text": "¿Qué color se obtiene mezclando amarillo y rojo?",
+        "options": [
+          "Verde",
+          "Naranja",
+          "Violeta",
+          "Marrón"
+        ],
+        "explanation": "El naranja debe su nombre a la fruta: mucho tiempo se llamó de otro modo al color, antes de imponerse el cítrico."
+      }
+    }
+  },
+  {
+    "sourceRef": "6080202453750e00",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un mot de sens contraire à un autre, comme « chaud » et « froid » ?",
+        "options": [
+          "Un synonyme",
+          "Un homonyme",
+          "Un antonyme",
+          "Un paronyme"
+        ],
+        "explanation": "Le préfixe « anti » signifie « contre » : on le retrouve dans une foule de mots désignant l'opposition."
+      },
+      "en": {
+        "text": "What do you call a word opposite in meaning to another, like 'hot' and 'cold'?",
+        "options": [
+          "A synonym",
+          "A homonym",
+          "An antonym",
+          "A paronym"
+        ],
+        "explanation": "The prefix 'anti' means 'against': you find it in a host of words for opposition."
+      },
+      "es": {
+        "text": "¿Cómo se llama una palabra de sentido contrario a otra, como 'caliente' y 'frío'?",
+        "options": [
+          "Un sinónimo",
+          "Un homónimo",
+          "Un antónimo",
+          "Un parónimo"
+        ],
+        "explanation": "El prefijo 'anti' significa 'contra': se encuentra en multitud de palabras que expresan oposición."
+      }
+    }
+  },
+  {
+    "sourceRef": "778a9655f51f4b84",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on deux mots de même sens, comme « vélo » et « bicyclette » ?",
+        "options": [
+          "Des antonymes",
+          "Des homonymes",
+          "Des anagrammes",
+          "Des synonymes"
+        ],
+        "explanation": "Aucune langue n'a de synonymes parfaits : deux mots proches gardent toujours une petite nuance qui les distingue."
+      },
+      "en": {
+        "text": "What do you call two words with the same meaning, like 'bike' and 'bicycle'?",
+        "options": [
+          "Antonyms",
+          "Homonyms",
+          "Anagrams",
+          "Synonyms"
+        ],
+        "explanation": "No language has perfect synonyms: two close words always keep a small shade of difference."
+      },
+      "es": {
+        "text": "¿Cómo se llaman dos palabras de igual sentido, como 'bici' y 'bicicleta'?",
+        "options": [
+          "Antónimos",
+          "Homónimos",
+          "Anagramas",
+          "Sinónimos"
+        ],
+        "explanation": "Ninguna lengua tiene sinónimos perfectos: dos palabras cercanas guardan siempre un pequeño matiz que las distingue."
+      }
+    }
+  },
+  {
+    "sourceRef": "fbb20445234d1e7a",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien de minutes durent trois quarts d'heure ?",
+        "options": [
+          "45",
+          "30",
+          "40",
+          "50"
+        ],
+        "explanation": "Un quart d'heure vaut quinze minutes ; trois quarts en font donc quarante-cinq, soit les trois quarts d'un cadran."
+      },
+      "en": {
+        "text": "How many minutes are there in three quarters of an hour?",
+        "options": [
+          "45",
+          "30",
+          "40",
+          "50"
+        ],
+        "explanation": "A quarter of an hour is fifteen minutes; three quarters therefore make forty-five, three-quarters of the way round a clock."
+      },
+      "es": {
+        "text": "¿Cuántos minutos dura tres cuartos de hora?",
+        "options": [
+          "45",
+          "30",
+          "40",
+          "50"
+        ],
+        "explanation": "Un cuarto de hora son quince minutos; tres cuartos hacen por tanto cuarenta y cinco, tres cuartos de la esfera del reloj."
+      }
+    }
+  },
+  {
+    "sourceRef": "dd7045db8df36073",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment nomme-t-on la peur maladive des espaces clos, comme un ascenseur ?",
+        "options": [
+          "L'agoraphobie",
+          "La claustrophobie",
+          "L'acrophobie",
+          "L'arachnophobie"
+        ],
+        "explanation": "Le mot vient du latin « claustrum », le lieu fermé, qui a aussi donné « cloître »."
+      },
+      "en": {
+        "text": "What is the morbid fear of enclosed spaces, like a lift, called?",
+        "options": [
+          "Agoraphobia",
+          "Claustrophobia",
+          "Acrophobia",
+          "Arachnophobia"
+        ],
+        "explanation": "The word comes from the Latin 'claustrum', a closed place, which also gave us 'cloister'."
+      },
+      "es": {
+        "text": "¿Cómo se llama el miedo enfermizo a los espacios cerrados, como un ascensor?",
+        "options": [
+          "Agorafobia",
+          "Claustrofobia",
+          "Acrofobia",
+          "Aracnofobia"
+        ],
+        "explanation": "La palabra viene del latín 'claustrum', el lugar cerrado, que también dio 'claustro'."
+      }
+    }
+  },
+  {
+    "sourceRef": "203d989ef9cd3bff",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment nomme-t-on la peur des grands espaces ouverts et de la foule ?",
+        "options": [
+          "La claustrophobie",
+          "L'hydrophobie",
+          "L'agoraphobie",
+          "La xénophobie"
+        ],
+        "explanation": "Le mot vient de l'« agora », la grande place publique des cités grecques où se pressait la foule."
+      },
+      "en": {
+        "text": "What is the fear of wide open spaces and crowds called?",
+        "options": [
+          "Claustrophobia",
+          "Hydrophobia",
+          "Agoraphobia",
+          "Xenophobia"
+        ],
+        "explanation": "The word comes from the 'agora', the great public square of Greek cities where the crowd gathered."
+      },
+      "es": {
+        "text": "¿Cómo se llama el miedo a los grandes espacios abiertos y a la multitud?",
+        "options": [
+          "Claustrofobia",
+          "Hidrofobia",
+          "Agorafobia",
+          "Xenofobia"
+        ],
+        "explanation": "La palabra viene del 'ágora', la gran plaza pública de las ciudades griegas donde se agolpaba la multitud."
+      }
+    }
+  },
+  {
+    "sourceRef": "6d6bf80df168e772",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de mois compte une année ?",
+        "options": [
+          "10",
+          "24",
+          "13",
+          "12"
+        ],
+        "explanation": "Le calendrier romain en comptait dix au départ ; c'est en ajoutant janvier et février qu'on est passé à douze."
+      },
+      "en": {
+        "text": "How many months are there in a year?",
+        "options": [
+          "10",
+          "24",
+          "13",
+          "12"
+        ],
+        "explanation": "The Roman calendar first had ten; it was by adding January and February that we reached twelve."
+      },
+      "es": {
+        "text": "¿Cuántos meses tiene un año?",
+        "options": [
+          "10",
+          "24",
+          "13",
+          "12"
+        ],
+        "explanation": "El calendario romano tenía al principio diez; fue al añadir enero y febrero que se llegó a doce."
+      }
+    }
+  },
+  {
+    "sourceRef": "04c00d80e2a8585a",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien d'heures s'écoulent en deux journées complètes ?",
+        "options": [
+          "48",
+          "36",
+          "60",
+          "72"
+        ],
+        "explanation": "Une journée compte vingt-quatre heures ; deux journées en font donc le double, quarante-huit."
+      },
+      "en": {
+        "text": "How many hours pass in two full days?",
+        "options": [
+          "48",
+          "36",
+          "60",
+          "72"
+        ],
+        "explanation": "A day has twenty-four hours; two days therefore make double that, forty-eight."
+      },
+      "es": {
+        "text": "¿Cuántas horas transcurren en dos días completos?",
+        "options": [
+          "48",
+          "36",
+          "60",
+          "72"
+        ],
+        "explanation": "Un día tiene veinticuatro horas; dos días hacen por tanto el doble, cuarenta y ocho."
+      }
+    }
+  },
+  {
+    "sourceRef": "1efae23361408aa4",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "En chiffres romains, quel symbole représente le nombre cinq ?",
+        "options": [
+          "X",
+          "V",
+          "C",
+          "I"
+        ],
+        "explanation": "On pense que le V figure une main ouverte, les cinq doigts écartés, et que le X en représente deux, poignet contre poignet."
+      },
+      "en": {
+        "text": "In Roman numerals, which symbol stands for the number five?",
+        "options": [
+          "X",
+          "V",
+          "C",
+          "I"
+        ],
+        "explanation": "The V is thought to depict an open hand, five fingers spread, and the X two of them, wrist against wrist."
+      },
+      "es": {
+        "text": "En números romanos, ¿qué símbolo representa el número cinco?",
+        "options": [
+          "X",
+          "V",
+          "C",
+          "I"
+        ],
+        "explanation": "Se cree que la V representa una mano abierta, con los cinco dedos, y la X dos de ellas, muñeca contra muñeca."
+      }
+    }
+  },
+  {
+    "sourceRef": "560db199297ecfae",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "En chiffres romains, quel symbole représente le nombre dix ?",
+        "options": [
+          "V",
+          "L",
+          "X",
+          "C"
+        ],
+        "explanation": "Le X barre à lui seul la dizaine ; en le combinant, les Romains écrivaient tous les nombres sans le zéro, qu'ils ignoraient."
+      },
+      "en": {
+        "text": "In Roman numerals, which symbol stands for the number ten?",
+        "options": [
+          "V",
+          "L",
+          "X",
+          "C"
+        ],
+        "explanation": "The X alone marks the ten; by combining it, the Romans wrote every number without the zero, which they did not know."
+      },
+      "es": {
+        "text": "En números romanos, ¿qué símbolo representa el número diez?",
+        "options": [
+          "V",
+          "L",
+          "X",
+          "C"
+        ],
+        "explanation": "La X marca por sí sola la decena; combinándola, los romanos escribían todos los números sin el cero, que desconocían."
+      }
+    }
+  },
+  {
+    "sourceRef": "f945c075e888aef2",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un polygone qui possède sept côtés ?",
+        "options": [
+          "Un hexagone",
+          "Un octogone",
+          "Un pentagone",
+          "Un heptagone"
+        ],
+        "explanation": "Le préfixe grec « hepta » signifie sept ; construire un tel polygone parfait à la règle et au compas est impossible."
+      },
+      "en": {
+        "text": "What do you call a polygon with seven sides?",
+        "options": [
+          "A hexagon",
+          "An octagon",
+          "A pentagon",
+          "A heptagon"
+        ],
+        "explanation": "The Greek prefix 'hepta' means seven; building a perfect one with ruler and compass alone is impossible."
+      },
+      "es": {
+        "text": "¿Cómo se llama un polígono que tiene siete lados?",
+        "options": [
+          "Un hexágono",
+          "Un octógono",
+          "Un pentágono",
+          "Un heptágono"
+        ],
+        "explanation": "El prefijo griego 'hepta' significa siete; construir uno perfecto solo con regla y compás es imposible."
+      }
+    }
+  },
+  {
+    "sourceRef": "897c0afcceea89e4",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un polygone qui possède dix côtés ?",
+        "options": [
+          "Un décagone",
+          "Un octogone",
+          "Un pentagone",
+          "Un dodécagone"
+        ],
+        "explanation": "« Déca » signifie dix en grec, comme dans « décennie », une période de dix ans."
+      },
+      "en": {
+        "text": "What do you call a polygon with ten sides?",
+        "options": [
+          "A decagon",
+          "An octagon",
+          "A pentagon",
+          "A dodecagon"
+        ],
+        "explanation": "'Deca' means ten in Greek, as in 'decade', a span of ten years."
+      },
+      "es": {
+        "text": "¿Cómo se llama un polígono que tiene diez lados?",
+        "options": [
+          "Un decágono",
+          "Un octógono",
+          "Un pentágono",
+          "Un dodecágono"
+        ],
+        "explanation": "'Deca' significa diez en griego, como en 'década', un período de diez años."
+      }
+    }
+  },
+  {
+    "sourceRef": "9a9df6553a3cb0fc",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment nomme-t-on le tout premier repas pris le matin ?",
+        "options": [
+          "Le déjeuner",
+          "Le petit-déjeuner",
+          "Le goûter",
+          "Le dîner"
+        ],
+        "explanation": "Le mot signifie littéralement « rompre le jeûne » de la nuit, comme le « breakfast » anglais."
+      },
+      "en": {
+        "text": "What do you call the very first meal taken in the morning?",
+        "options": [
+          "Lunch",
+          "Breakfast",
+          "The snack",
+          "Dinner"
+        ],
+        "explanation": "The word literally means to 'break the fast' of the night, the very sense of 'break-fast'."
+      },
+      "es": {
+        "text": "¿Cómo se llama la primera comida que se toma por la mañana?",
+        "options": [
+          "El almuerzo",
+          "El desayuno",
+          "La merienda",
+          "La cena"
+        ],
+        "explanation": "La palabra 'desayuno' significa literalmente romper el 'ayuno' de la noche, como el 'breakfast' inglés."
+      }
+    }
+  },
+  {
+    "sourceRef": "dc6ca97ac0430ba1",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un texte entièrement écrit à la main ?",
+        "options": [
+          "Un imprimé",
+          "Un tapuscrit",
+          "Un manuscrit",
+          "Un dactylogramme"
+        ],
+        "explanation": "Le mot vient du latin « manus », la main, et « scriptum », écrit ; les moines copistes en produisaient de superbes au Moyen Âge."
+      },
+      "en": {
+        "text": "What do you call a text written entirely by hand?",
+        "options": [
+          "A printout",
+          "A typescript",
+          "A manuscript",
+          "A dactylogram"
+        ],
+        "explanation": "The word comes from the Latin 'manus', hand, and 'scriptum', written; monk copyists made superb ones in the Middle Ages."
+      },
+      "es": {
+        "text": "¿Cómo se llama un texto escrito enteramente a mano?",
+        "options": [
+          "Un impreso",
+          "Un mecanoscrito",
+          "Un manuscrito",
+          "Un dactilograma"
+        ],
+        "explanation": "La palabra viene del latín 'manus', mano, y 'scriptum', escrito; los monjes copistas hacían soberbios en la Edad Media."
+      }
+    }
+  },
+  {
+    "sourceRef": "79c8cebcfa4571a3",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle unité de distance vaut mille mètres ?",
+        "options": [
+          "Le décamètre",
+          "L'hectomètre",
+          "Le mille marin",
+          "Le kilomètre"
+        ],
+        "explanation": "Le préfixe « kilo » vient du grec « khilioi », mille ; on le retrouve dans le kilogramme, mille grammes."
+      },
+      "en": {
+        "text": "Which unit of distance equals a thousand metres?",
+        "options": [
+          "The decametre",
+          "The hectometre",
+          "The nautical mile",
+          "The kilometre"
+        ],
+        "explanation": "The prefix 'kilo' comes from the Greek 'khilioi', thousand; you meet it again in the kilogram, a thousand grams."
+      },
+      "es": {
+        "text": "¿Qué unidad de distancia equivale a mil metros?",
+        "options": [
+          "El decámetro",
+          "El hectómetro",
+          "La milla náutica",
+          "El kilómetro"
+        ],
+        "explanation": "El prefijo 'kilo' viene del griego 'khilioi', mil; reaparece en el kilogramo, mil gramos."
+      }
+    }
+  },
+  {
+    "sourceRef": "0b51b8e3c36bfba4",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel préfixe du système métrique désigne un centième d'une unité ?",
+        "options": [
+          "Centi",
+          "Milli",
+          "Déca",
+          "Kilo"
+        ],
+        "explanation": "On le retrouve dans le centimètre, centième de mètre ; le mot vient du latin « centum », cent."
+      },
+      "en": {
+        "text": "Which metric prefix means a hundredth of a unit?",
+        "options": [
+          "Centi",
+          "Milli",
+          "Deca",
+          "Kilo"
+        ],
+        "explanation": "You meet it in the centimetre, a hundredth of a metre; the word comes from the Latin 'centum', hundred."
+      },
+      "es": {
+        "text": "¿Qué prefijo del sistema métrico designa una centésima de una unidad?",
+        "options": [
+          "Centi",
+          "Mili",
+          "Deca",
+          "Kilo"
+        ],
+        "explanation": "Se encuentra en el centímetro, centésima de metro; la palabra viene del latín 'centum', cien."
+      }
+    }
+  },
+  {
+    "sourceRef": "c06a6356c8b56722",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel préfixe du système métrique désigne un dixième d'une unité ?",
+        "options": [
+          "Centi",
+          "Déci",
+          "Déca",
+          "Hecto"
+        ],
+        "explanation": "Attention à ne pas le confondre avec « déca », qui multiplie par dix : « déci » divise par dix, comme dans décilitre."
+      },
+      "en": {
+        "text": "Which metric prefix means a tenth of a unit?",
+        "options": [
+          "Centi",
+          "Deci",
+          "Deca",
+          "Hecto"
+        ],
+        "explanation": "Do not confuse it with 'deca', which multiplies by ten: 'deci' divides by ten, as in decilitre."
+      },
+      "es": {
+        "text": "¿Qué prefijo del sistema métrico designa una décima de una unidad?",
+        "options": [
+          "Centi",
+          "Deci",
+          "Deca",
+          "Hecto"
+        ],
+        "explanation": "No hay que confundirlo con 'deca', que multiplica por diez: 'deci' divide entre diez, como en decilitro."
+      }
+    }
+  },
+  {
+    "sourceRef": "0eed2bd766ab3897",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle est, approximativement, la forme de la planète Terre ?",
+        "options": [
+          "Un cube",
+          "Un disque plat",
+          "Une sphère",
+          "Une pyramide"
+        ],
+        "explanation": "Elle est en réalité un peu aplatie aux pôles et renflée à l'équateur, à cause de sa rotation sur elle-même."
+      },
+      "en": {
+        "text": "What is, roughly, the shape of planet Earth?",
+        "options": [
+          "A cube",
+          "A flat disc",
+          "A sphere",
+          "A pyramid"
+        ],
+        "explanation": "It is in fact slightly flattened at the poles and bulging at the equator, because of its spin on itself."
+      },
+      "es": {
+        "text": "¿Cuál es, aproximadamente, la forma del planeta Tierra?",
+        "options": [
+          "Un cubo",
+          "Un disco plano",
+          "Una esfera",
+          "Una pirámide"
+        ],
+        "explanation": "En realidad está algo aplanada en los polos y abultada en el ecuador, a causa de su rotación sobre sí misma."
+      }
+    }
+  },
+  {
+    "sourceRef": "4639ff87ffbe0d8f",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un dessin qui exagère les traits d'une personne pour la tourner en dérision ?",
+        "options": [
+          "Une esquisse",
+          "Une nature morte",
+          "Une fresque",
+          "Une caricature"
+        ],
+        "explanation": "Le mot vient de l'italien « caricare », charger : le dessinateur « charge » les traits pour amuser ou critiquer."
+      },
+      "en": {
+        "text": "What do you call a drawing that exaggerates a person's features to mock them?",
+        "options": [
+          "A sketch",
+          "A still life",
+          "A fresco",
+          "A caricature"
+        ],
+        "explanation": "The word comes from the Italian 'caricare', to load: the artist 'loads' the features to amuse or to criticise."
+      },
+      "es": {
+        "text": "¿Cómo se llama un dibujo que exagera los rasgos de una persona para ridiculizarla?",
+        "options": [
+          "Un boceto",
+          "Una naturaleza muerta",
+          "Un fresco",
+          "Una caricatura"
+        ],
+        "explanation": "La palabra viene del italiano 'caricare', cargar: el dibujante 'carga' los rasgos para divertir o criticar."
+      }
+    }
+  },
+  {
+    "sourceRef": "2138d95e8afed591",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on la collection et l'étude des timbres-poste ?",
+        "options": [
+          "La philatélie",
+          "La numismatique",
+          "L'héraldique",
+          "La cartographie"
+        ],
+        "explanation": "Le mot fut inventé au XIXᵉ siècle à partir du grec « ami de ce qui est exempté de taxe », car le timbre acquitte le port."
+      },
+      "en": {
+        "text": "What do you call the collecting and study of postage stamps?",
+        "options": [
+          "Philately",
+          "Numismatics",
+          "Heraldry",
+          "Cartography"
+        ],
+        "explanation": "The word was coined in the 19th century from the Greek for 'lover of what is tax-free', since the stamp pays the postage."
+      },
+      "es": {
+        "text": "¿Cómo se llama el coleccionismo y estudio de los sellos de correos?",
+        "options": [
+          "La filatelia",
+          "La numismática",
+          "La heráldica",
+          "La cartografía"
+        ],
+        "explanation": "La palabra se acuñó en el siglo XIX del griego 'amigo de lo exento de tasa', pues el sello paga el franqueo."
+      }
+    }
+  },
+  {
+    "sourceRef": "cec2dec88324a4f1",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on la collection et l'étude des pièces de monnaie ?",
+        "options": [
+          "La philatélie",
+          "La numismatique",
+          "La généalogie",
+          "L'astronomie"
+        ],
+        "explanation": "Une pièce ancienne raconte souvent toute une époque : le profil d'un souverain, une date, un symbole de pouvoir."
+      },
+      "en": {
+        "text": "What do you call the collecting and study of coins?",
+        "options": [
+          "Philately",
+          "Numismatics",
+          "Genealogy",
+          "Astronomy"
+        ],
+        "explanation": "An old coin often tells a whole era: a ruler's profile, a date, a symbol of power."
+      },
+      "es": {
+        "text": "¿Cómo se llama el coleccionismo y estudio de las monedas?",
+        "options": [
+          "La filatelia",
+          "La numismática",
+          "La genealogía",
+          "La astronomía"
+        ],
+        "explanation": "Una moneda antigua cuenta a menudo toda una época: el perfil de un soberano, una fecha, un símbolo de poder."
+      }
+    }
+  },
+  {
+    "sourceRef": "1b797f0dd7d5f199",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel ouvrage recense les mots d'une langue et donne leur définition ?",
+        "options": [
+          "Un atlas",
+          "Un annuaire",
+          "Un dictionnaire",
+          "Un agenda"
+        ],
+        "explanation": "Le premier grand dictionnaire de l'Académie française mit près de soixante ans à être achevé."
+      },
+      "en": {
+        "text": "Which book lists the words of a language and gives their definitions?",
+        "options": [
+          "An atlas",
+          "A directory",
+          "A dictionary",
+          "A diary"
+        ],
+        "explanation": "The first great dictionary of the French Academy took nearly sixty years to complete."
+      },
+      "es": {
+        "text": "¿Qué obra recopila las palabras de una lengua y da su definición?",
+        "options": [
+          "Un atlas",
+          "Un directorio",
+          "Un diccionario",
+          "Una agenda"
+        ],
+        "explanation": "El primer gran diccionario de la Academia Francesa tardó casi sesenta años en completarse."
+      }
+    }
+  },
+  {
+    "sourceRef": "9f08faa0d2c63cfe",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de secondes compte une minute ?",
+        "options": [
+          "100",
+          "10",
+          "30",
+          "60"
+        ],
+        "explanation": "Ce découpage en soixante, hérité des Babyloniens, se retrouve partout dans notre mesure du temps et des angles."
+      },
+      "en": {
+        "text": "How many seconds are there in one minute?",
+        "options": [
+          "100",
+          "10",
+          "30",
+          "60"
+        ],
+        "explanation": "This division into sixty, inherited from the Babylonians, appears throughout our measurement of time and angles."
+      },
+      "es": {
+        "text": "¿Cuántos segundos tiene un minuto?",
+        "options": [
+          "100",
+          "10",
+          "30",
+          "60"
+        ],
+        "explanation": "Esta división en sesenta, heredada de los babilonios, aparece en toda nuestra medida del tiempo y de los ángulos."
+      }
+    }
+  },
+  {
+    "sourceRef": "1e586a68f7840edc",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel personnage de Disney est un canard colérique vêtu d'une vareuse de marin ?",
+        "options": [
+          "Donald",
+          "Dingo",
+          "Pluto",
+          "Riri"
+        ],
+        "explanation": "Sa voix nasillarde et grognon, très difficile à imiter, fut longtemps assurée par un même comédien pendant des décennies."
+      },
+      "en": {
+        "text": "Which Disney character is a hot-tempered duck dressed in a sailor's top?",
+        "options": [
+          "Donald",
+          "Goofy",
+          "Pluto",
+          "Huey"
+        ],
+        "explanation": "His nasal, grumpy voice, very hard to imitate, was long provided by the same actor over decades."
+      },
+      "es": {
+        "text": "¿Qué personaje de Disney es un pato colérico vestido con una marinera?",
+        "options": [
+          "Donald",
+          "Goofy",
+          "Pluto",
+          "Juanito"
+        ],
+        "explanation": "Su voz nasal y gruñona, muy difícil de imitar, la puso durante décadas un mismo actor."
+      }
+    }
+  },
+  {
+    "sourceRef": "8a9eb0308e232aa2",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel film d'animation Pixar met en scène les émotions qui s'agitent dans la tête d'une fillette ?",
+        "options": [
+          "Coco",
+          "Vice-versa",
+          "Rebelle",
+          "Là-haut"
+        ],
+        "explanation": "Joie, Tristesse, Peur, Colère et Dégoût y pilotent la jeune héroïne depuis une salle de contrôle imaginaire."
+      },
+      "en": {
+        "text": "Which Pixar film stages the emotions bustling inside a young girl's head?",
+        "options": [
+          "Coco",
+          "Inside Out",
+          "Brave",
+          "Up"
+        ],
+        "explanation": "Joy, Sadness, Fear, Anger and Disgust steer the young heroine from an imaginary control room."
+      },
+      "es": {
+        "text": "¿Qué película de Pixar muestra las emociones que se agitan en la cabeza de una niña?",
+        "options": [
+          "Coco",
+          "Del revés (Inside Out)",
+          "Brave",
+          "Up"
+        ],
+        "explanation": "Alegría, Tristeza, Miedo, Ira y Asco pilotan a la joven heroína desde una sala de control imaginaria."
+      }
+    }
+  },
+  {
+    "sourceRef": "b546e1eddf8c923b",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel film d'animation Pixar suit un vieux monsieur qui s'envole dans sa maison tirée par des ballons ?",
+        "options": [
+          "Coco",
+          "Ratatouille",
+          "Là-haut",
+          "Cars"
+        ],
+        "explanation": "Sa scène d'ouverture, qui résume sans un mot toute une vie de couple, est saluée comme l'un des plus beaux moments du cinéma d'animation."
+      },
+      "en": {
+        "text": "Which Pixar film follows an old man who flies off in his house pulled by balloons?",
+        "options": [
+          "Coco",
+          "Ratatouille",
+          "Up",
+          "Cars"
+        ],
+        "explanation": "Its opening scene, which sums up a whole married life without a word, is hailed as one of the finest moments in animation."
+      },
+      "es": {
+        "text": "¿Qué película de Pixar sigue a un anciano que se eleva en su casa tirada por globos?",
+        "options": [
+          "Coco",
+          "Ratatouille",
+          "Up",
+          "Cars"
+        ],
+        "explanation": "Su escena inicial, que resume sin una palabra toda una vida en pareja, es aclamada como uno de los mejores momentos de la animación."
+      }
+    }
+  },
+  {
+    "sourceRef": "856e9821a7fb3623",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel cinéaste américain, perfectionniste légendaire, réalisa « Orange mécanique » et « Shining » ?",
+        "options": [
+          "Alfred Hitchcock",
+          "Ridley Scott",
+          "David Fincher",
+          "Stanley Kubrick"
+        ],
+        "explanation": "Il exigeait parfois des dizaines de prises pour un même plan, épuisant ses acteurs jusqu'à obtenir l'émotion exacte qu'il cherchait."
+      },
+      "en": {
+        "text": "Which American filmmaker, a legendary perfectionist, directed 'A Clockwork Orange' and 'The Shining'?",
+        "options": [
+          "Alfred Hitchcock",
+          "Ridley Scott",
+          "David Fincher",
+          "Stanley Kubrick"
+        ],
+        "explanation": "He sometimes demanded dozens of takes for a single shot, wearing out his actors until he got the exact emotion he sought."
+      },
+      "es": {
+        "text": "¿Qué cineasta estadounidense, perfeccionista legendario, dirigió 'La naranja mecánica' y 'El resplandor'?",
+        "options": [
+          "Alfred Hitchcock",
+          "Ridley Scott",
+          "David Fincher",
+          "Stanley Kubrick"
+        ],
+        "explanation": "A veces exigía decenas de tomas para un solo plano, agotando a sus actores hasta lograr la emoción exacta que buscaba."
+      }
+    }
+  },
+  {
+    "sourceRef": "7588f115db97d084",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Dans « Toy Story », quel jouet astronaute crie « Vers l'infini et au-delà » ?",
+        "options": [
+          "Buzz l'Éclair",
+          "Rex",
+          "Zurg",
+          "M. Patate"
+        ],
+        "explanation": "Son nom rend hommage à un véritable astronaute, le deuxième homme à avoir marché sur la Lune."
+      },
+      "en": {
+        "text": "In 'Toy Story', which astronaut toy shouts 'To infinity and beyond'?",
+        "options": [
+          "Buzz Lightyear",
+          "Rex",
+          "Zurg",
+          "Mr Potato Head"
+        ],
+        "explanation": "His name honours a real astronaut, the second man to have walked on the Moon."
+      },
+      "es": {
+        "text": "En 'Toy Story', ¿qué juguete astronauta grita 'Hasta el infinito y más allá'?",
+        "options": [
+          "Buzz Lightyear",
+          "Rex",
+          "Zurg",
+          "Señor Cara de Papa"
+        ],
+        "explanation": "Su nombre rinde homenaje a un astronauta real, el segundo hombre en pisar la Luna."
+      }
+    }
+  },
+  {
+    "sourceRef": "97ef32742b9baac1",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel film musical de 1939, avec Judy Garland, suit une fillette et son chien sur une route de briques jaunes ?",
+        "options": [
+          "Mary Poppins",
+          "Le Magicien d'Oz",
+          "Peter Pan",
+          "Chantons sous la pluie"
+        ],
+        "explanation": "Le film bascule du noir et blanc à la couleur au moment où l'héroïne pénètre dans le pays merveilleux, un effet saisissant pour l'époque."
+      },
+      "en": {
+        "text": "Which 1939 musical film, with Judy Garland, follows a girl and her dog on a yellow brick road?",
+        "options": [
+          "Mary Poppins",
+          "The Wizard of Oz",
+          "Peter Pan",
+          "Singin' in the Rain"
+        ],
+        "explanation": "The film switches from black and white to colour as the heroine enters the wonderland, a striking effect for the time."
+      },
+      "es": {
+        "text": "¿Qué película musical de 1939, con Judy Garland, sigue a una niña y su perro por un camino de baldosas amarillas?",
+        "options": [
+          "Mary Poppins",
+          "El mago de Oz",
+          "Peter Pan",
+          "Cantando bajo la lluvia"
+        ],
+        "explanation": "La película pasa del blanco y negro al color cuando la heroína entra en el país maravilloso, un efecto impactante para la época."
+      }
+    }
+  },
+  {
+    "sourceRef": "69479b0aa1021296",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel cinéaste japonais fonda le studio Ghibli et réalisa « Princesse Mononoké » ?",
+        "options": [
+          "Isao Takahata",
+          "Satoshi Kon",
+          "Hayao Miyazaki",
+          "Mamoru Hosoda"
+        ],
+        "explanation": "Réputé pour dessiner lui-même des milliers d'images, il a plusieurs fois annoncé sa retraite avant de revenir, incapable de cesser de créer."
+      },
+      "en": {
+        "text": "Which Japanese filmmaker co-founded Studio Ghibli and directed 'Princess Mononoke'?",
+        "options": [
+          "Isao Takahata",
+          "Satoshi Kon",
+          "Hayao Miyazaki",
+          "Mamoru Hosoda"
+        ],
+        "explanation": "Known for drawing thousands of frames himself, he has announced his retirement several times, only to return, unable to stop creating."
+      },
+      "es": {
+        "text": "¿Qué cineasta japonés cofundó el estudio Ghibli y dirigió 'La princesa Mononoke'?",
+        "options": [
+          "Isao Takahata",
+          "Satoshi Kon",
+          "Hayao Miyazaki",
+          "Mamoru Hosoda"
+        ],
+        "explanation": "Conocido por dibujar él mismo miles de fotogramas, ha anunciado su retiro varias veces, solo para volver, incapaz de dejar de crear."
+      }
+    }
+  },
+  {
+    "sourceRef": "354106a65b40437c",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel film Disney de 1994 se déroule dans la savane africaine autour d'un lionceau nommé Simba ?",
+        "options": [
+          "Tarzan",
+          "Madagascar",
+          "Le Livre de la jungle",
+          "Le Roi lion"
+        ],
+        "explanation": "Sa scène d'ouverture, où l'on présente le lionceau au soleil levant, est devenue l'une des images les plus reprises du cinéma d'animation."
+      },
+      "en": {
+        "text": "Which 1994 Disney film is set on the African savannah around a lion cub named Simba?",
+        "options": [
+          "Tarzan",
+          "Madagascar",
+          "The Jungle Book",
+          "The Lion King"
+        ],
+        "explanation": "Its opening scene, presenting the cub at sunrise, has become one of the most reused images in animated cinema."
+      },
+      "es": {
+        "text": "¿Qué película de Disney de 1994 transcurre en la sabana africana en torno a un cachorro de león llamado Simba?",
+        "options": [
+          "Tarzán",
+          "Madagascar",
+          "El libro de la selva",
+          "El Rey León"
+        ],
+        "explanation": "Su escena inicial, en que se presenta al cachorro al amanecer, se ha vuelto una de las imágenes más repetidas de la animación."
+      }
+    }
+  },
+  {
+    "sourceRef": "2b491653b8d5c9a1",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel réalisateur franco-polonais signa « Le Pianiste » et « Rosemary's Baby » ?",
+        "options": [
+          "Roman Polanski",
+          "Francis Ford Coppola",
+          "Miloš Forman",
+          "Woody Allen"
+        ],
+        "explanation": "Son cinéma, marqué par l'enfermement et la peur, puise en partie dans une jeunesse traversée par les épreuves de la guerre."
+      },
+      "en": {
+        "text": "Which French-Polish director made 'The Pianist' and 'Rosemary's Baby'?",
+        "options": [
+          "Roman Polanski",
+          "Francis Ford Coppola",
+          "Miloš Forman",
+          "Woody Allen"
+        ],
+        "explanation": "His cinema, marked by confinement and fear, draws partly on a youth shaped by the ordeals of war."
+      },
+      "es": {
+        "text": "¿Qué director franco-polaco firmó 'El pianista' y 'La semilla del diablo'?",
+        "options": [
+          "Roman Polanski",
+          "Francis Ford Coppola",
+          "Miloš Forman",
+          "Woody Allen"
+        ],
+        "explanation": "Su cine, marcado por el encierro y el miedo, bebe en parte de una juventud atravesada por las penurias de la guerra."
+      }
+    }
+  },
+  {
+    "sourceRef": "74469b631f51f879",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel film de Martin Scorsese, sorti en 1990, dépeint l'ascension et la chute d'un gangster italo-américain ?",
+        "options": [
+          "Casino",
+          "Les Affranchis",
+          "Scarface",
+          "Le Parrain"
+        ],
+        "explanation": "Le réalisateur y utilise une longue prise sans coupure pour suivre son héros à travers les cuisines d'un restaurant, morceau de bravoure resté célèbre."
+      },
+      "en": {
+        "text": "Which Martin Scorsese film, released in 1990, depicts the rise and fall of an Italian-American gangster?",
+        "options": [
+          "Casino",
+          "Goodfellas",
+          "Scarface",
+          "The Godfather"
+        ],
+        "explanation": "The director uses one long unbroken shot to follow his hero through a restaurant's kitchens, a celebrated bravura piece."
+      },
+      "es": {
+        "text": "¿Qué película de Martin Scorsese, estrenada en 1990, retrata el ascenso y la caída de un gánster ítalo-americano?",
+        "options": [
+          "Casino",
+          "Uno de los nuestros",
+          "Scarface",
+          "El Padrino"
+        ],
+        "explanation": "El director usa un largo plano sin cortes para seguir a su héroe por las cocinas de un restaurante, un célebre alarde técnico."
+      }
+    }
+  },
+  {
+    "sourceRef": "de17e5a5b6fa50ef",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel petit robot astromécano bleu et blanc, tout en bips, accompagne les héros de « Star Wars » ?",
+        "options": [
+          "C-3PO",
+          "BB-8",
+          "R2-D2",
+          "K-2SO"
+        ],
+        "explanation": "Il ne prononce aucun mot, seulement des sifflements et des bips, mais son langage est parfaitement compris de ses compagnons."
+      },
+      "en": {
+        "text": "Which small blue-and-white astromech droid, all beeps, accompanies the heroes of 'Star Wars'?",
+        "options": [
+          "C-3PO",
+          "BB-8",
+          "R2-D2",
+          "K-2SO"
+        ],
+        "explanation": "It speaks no words, only whistles and beeps, yet its language is perfectly understood by its companions."
+      },
+      "es": {
+        "text": "¿Qué pequeño droide astromecánico azul y blanco, todo pitidos, acompaña a los héroes de 'Star Wars'?",
+        "options": [
+          "C-3PO",
+          "BB-8",
+          "R2-D2",
+          "K-2SO"
+        ],
+        "explanation": "No dice ninguna palabra, solo silbidos y pitidos, pero su lenguaje lo entienden perfectamente sus compañeros."
+      }
+    }
+  },
+  {
+    "sourceRef": "f5b85fc85f25f4f1",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle comédie musicale de 2016 suit deux amoureux, une actrice et un pianiste de jazz, à Los Angeles ?",
+        "options": [
+          "Chicago",
+          "Moulin Rouge",
+          "West Side Story",
+          "La La Land"
+        ],
+        "explanation": "Lors d'une célèbre cérémonie, on l'annonça par erreur comme meilleur film avant de rectifier en direct au profit d'un autre."
+      },
+      "en": {
+        "text": "Which 2016 musical follows two lovers, an actress and a jazz pianist, in Los Angeles?",
+        "options": [
+          "Chicago",
+          "Moulin Rouge",
+          "West Side Story",
+          "La La Land"
+        ],
+        "explanation": "At a famous ceremony it was wrongly announced as best picture before a live correction in favour of another film."
+      },
+      "es": {
+        "text": "¿Qué musical de 2016 sigue a dos enamorados, una actriz y un pianista de jazz, en Los Ángeles?",
+        "options": [
+          "Chicago",
+          "Moulin Rouge",
+          "West Side Story",
+          "La La Land"
+        ],
+        "explanation": "En una célebre gala se anunció por error como mejor película antes de una corrección en directo a favor de otra."
+      }
+    }
+  },
+  {
+    "sourceRef": "020aefe93211594f",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel cinéaste suédois réalisa « Le Septième Sceau », où un chevalier joue aux échecs avec la Mort ?",
+        "options": [
+          "Ingmar Bergman",
+          "Roy Andersson",
+          "Bo Widerberg",
+          "Victor Sjöström"
+        ],
+        "explanation": "Cette partie d'échecs sur une plage grise est devenue l'une des images les plus parodiées de toute l'histoire du cinéma."
+      },
+      "en": {
+        "text": "Which Swedish filmmaker directed 'The Seventh Seal', in which a knight plays chess with Death?",
+        "options": [
+          "Ingmar Bergman",
+          "Roy Andersson",
+          "Bo Widerberg",
+          "Victor Sjöström"
+        ],
+        "explanation": "That chess game on a grey beach has become one of the most parodied images in the whole history of cinema."
+      },
+      "es": {
+        "text": "¿Qué cineasta sueco dirigió 'El séptimo sello', donde un caballero juega al ajedrez con la Muerte?",
+        "options": [
+          "Ingmar Bergman",
+          "Roy Andersson",
+          "Bo Widerberg",
+          "Victor Sjöström"
+        ],
+        "explanation": "Esa partida de ajedrez en una playa gris se ha vuelto una de las imágenes más parodiadas de toda la historia del cine."
+      }
+    }
+  },
+  {
+    "sourceRef": "f92bf6ca1bb812da",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel film d'animation de 2013 met en scène deux sœurs, Anna et Elsa, dans un royaume figé par les glaces ?",
+        "options": [
+          "Vaiana",
+          "La Reine des neiges",
+          "Rebelle",
+          "Encanto"
+        ],
+        "explanation": "Sa chanson-phare, traduite dans des dizaines de langues, fut chantée par des enfants du monde entier jusqu'à l'exaspération de bien des parents."
+      },
+      "en": {
+        "text": "Which 2013 animated film features two sisters, Anna and Elsa, in a kingdom frozen by ice?",
+        "options": [
+          "Moana",
+          "Frozen",
+          "Brave",
+          "Encanto"
+        ],
+        "explanation": "Its signature song, translated into dozens of languages, was sung by children the world over, to many a parent's exasperation."
+      },
+      "es": {
+        "text": "¿Qué película de animación de 2013 muestra a dos hermanas, Anna y Elsa, en un reino congelado por el hielo?",
+        "options": [
+          "Vaiana",
+          "Frozen",
+          "Brave",
+          "Encanto"
+        ],
+        "explanation": "Su canción estrella, traducida a decenas de lenguas, la cantaron niños de todo el mundo hasta la exasperación de muchos padres."
+      }
+    }
+  },
+  {
+    "sourceRef": "16ea188994c0e992",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Dans quel film d'animation Robin Williams prête-t-il sa voix à un génie bleu sorti d'une lampe magique ?",
+        "options": [
+          "Hercule",
+          "Le Bossu de Notre-Dame",
+          "Aladdin",
+          "Mulan"
+        ],
+        "explanation": "L'acteur improvisa tant de répliques que les animateurs durent dessiner d'après ses trouvailles, réinventant le personnage au fil de l'enregistrement."
+      },
+      "en": {
+        "text": "In which animated film does Robin Williams voice a blue genie sprung from a magic lamp?",
+        "options": [
+          "Hercules",
+          "The Hunchback of Notre-Dame",
+          "Aladdin",
+          "Mulan"
+        ],
+        "explanation": "The actor improvised so many lines that the animators had to draw from his inventions, reshaping the character as recording went on."
+      },
+      "es": {
+        "text": "¿En qué película de animación pone Robin Williams su voz a un genio azul salido de una lámpara mágica?",
+        "options": [
+          "Hércules",
+          "El jorobado de Notre Dame",
+          "Aladdín",
+          "Mulán"
+        ],
+        "explanation": "El actor improvisó tantas frases que los animadores tuvieron que dibujar según sus ocurrencias, rehaciendo al personaje durante la grabación."
+      }
+    }
+  },
+  {
+    "sourceRef": "1eedddaad11587e5",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel film de 2019 raconte les origines d'un célèbre ennemi masqué de Batman ?",
+        "options": [
+          "Watchmen",
+          "Venom",
+          "Logan",
+          "Joker"
+        ],
+        "explanation": "Pour incarner ce personnage, l'acteur perdit énormément de poids et travailla longuement un rire à la fois inquiétant et douloureux."
+      },
+      "en": {
+        "text": "Which 2019 film tells the origins of a famous masked enemy of Batman?",
+        "options": [
+          "Watchmen",
+          "Venom",
+          "Logan",
+          "Joker"
+        ],
+        "explanation": "To play the character, the actor lost a great deal of weight and long rehearsed a laugh at once unsettling and pained."
+      },
+      "es": {
+        "text": "¿Qué película de 2019 cuenta los orígenes de un famoso enemigo enmascarado de Batman?",
+        "options": [
+          "Watchmen",
+          "Venom",
+          "Logan",
+          "Joker"
+        ],
+        "explanation": "Para encarnar al personaje, el actor perdió muchísimo peso y ensayó largamente una risa a la vez inquietante y dolorosa."
+      }
+    }
+  },
+  {
+    "sourceRef": "7e4f57b0727ae30a",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel cinéaste taïwanais réalisa « Tigre et Dragon » puis « Le Secret de Brokeback Mountain » ?",
+        "options": [
+          "Ang Lee",
+          "John Woo",
+          "Wong Kar-wai",
+          "Zhang Yimou"
+        ],
+        "explanation": "À l'aise dans tous les genres, du film d'arts martiaux au western intimiste, il navigue entre cinéma d'Orient et d'Occident avec une rare souplesse."
+      },
+      "en": {
+        "text": "Which Taiwanese filmmaker directed 'Crouching Tiger, Hidden Dragon' and then 'Brokeback Mountain'?",
+        "options": [
+          "Ang Lee",
+          "John Woo",
+          "Wong Kar-wai",
+          "Zhang Yimou"
+        ],
+        "explanation": "At ease in every genre, from martial arts to intimate western, he moves between Eastern and Western cinema with rare ease."
+      },
+      "es": {
+        "text": "¿Qué cineasta taiwanés dirigió 'Tigre y dragón' y luego 'Brokeback Mountain'?",
+        "options": [
+          "Ang Lee",
+          "John Woo",
+          "Wong Kar-wai",
+          "Zhang Yimou"
+        ],
+        "explanation": "Cómodo en todos los géneros, del cine de artes marciales al western íntimo, transita entre el cine de Oriente y Occidente con rara soltura."
+      }
+    }
+  },
+  {
+    "sourceRef": "f59177875fe3bd79",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel film de 1994, adapté de Stephen King, suit l'amitié de deux détenus dans la prison de Shawshank ?",
+        "options": [
+          "La Ligne verte",
+          "Les Évadés",
+          "Le Prophète",
+          "Un condamné à mort s'est échappé"
+        ],
+        "explanation": "Échec à sa sortie en salles, le film devint peu à peu, grâce à la télévision et à la vidéo, l'un des plus aimés de tous les temps."
+      },
+      "en": {
+        "text": "Which 1994 film, adapted from Stephen King, follows the friendship of two inmates in Shawshank prison?",
+        "options": [
+          "The Green Mile",
+          "The Shawshank Redemption",
+          "A Prophet",
+          "A Man Escaped"
+        ],
+        "explanation": "A flop on release, the film slowly became, thanks to television and video, one of the best-loved of all time."
+      },
+      "es": {
+        "text": "¿Qué película de 1994, adaptada de Stephen King, sigue la amistad de dos presos en la cárcel de Shawshank?",
+        "options": [
+          "La milla verde",
+          "Cadena perpetua",
+          "Un profeta",
+          "Un condenado a muerte se ha escapado"
+        ],
+        "explanation": "Fracaso en su estreno, la película se volvió poco a poco, gracias a la televisión y el vídeo, una de las más queridas de todos los tiempos."
+      }
+    }
+  },
+  {
+    "sourceRef": "6caf053fd9d3fbd0",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel inventeur farfelu en pâte à modeler vit avec son chien Gromit dans les films en volume d'Aardman ?",
+        "options": [
+          "Shaun",
+          "Feathers",
+          "Wallace",
+          "Preston"
+        ],
+        "explanation": "Chaque seconde de ces films demande de bouger des figurines image par image ; quelques secondes peuvent occuper une journée entière de travail."
+      },
+      "en": {
+        "text": "Which zany clay inventor lives with his dog Gromit in the Aardman stop-motion films?",
+        "options": [
+          "Shaun",
+          "Feathers",
+          "Wallace",
+          "Preston"
+        ],
+        "explanation": "Every second of these films means moving figurines frame by frame; a few seconds can take a whole day's work."
+      },
+      "es": {
+        "text": "¿Qué disparatado inventor de plastilina vive con su perro Gromit en las películas de animación de Aardman?",
+        "options": [
+          "Shaun",
+          "Feathers",
+          "Wallace",
+          "Preston"
+        ],
+        "explanation": "Cada segundo de estas películas exige mover figuritas fotograma a fotograma; unos segundos pueden llevar un día entero de trabajo."
+      }
+    }
+  },
+  {
+    "sourceRef": "8f3e5f9d04a1b8bf",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel réalisateur mexicain remporta l'Oscar de la mise en scène pour « Gravity » puis pour « Roma » ?",
+        "options": [
+          "Guillermo del Toro",
+          "Alejandro Iñárritu",
+          "Robert Rodriguez",
+          "Alfonso Cuarón"
+        ],
+        "explanation": "Pour « Roma », inspiré de son enfance, il assura lui-même l'image, réalisant un film en noir et blanc d'une précision maniaque."
+      },
+      "en": {
+        "text": "Which Mexican director won the directing Oscar for 'Gravity' and then for 'Roma'?",
+        "options": [
+          "Guillermo del Toro",
+          "Alejandro Iñárritu",
+          "Robert Rodriguez",
+          "Alfonso Cuarón"
+        ],
+        "explanation": "For 'Roma', inspired by his childhood, he shot the film himself, making a black-and-white picture of meticulous precision."
+      },
+      "es": {
+        "text": "¿Qué director mexicano ganó el Óscar a la dirección por 'Gravity' y luego por 'Roma'?",
+        "options": [
+          "Guillermo del Toro",
+          "Alejandro Iñárritu",
+          "Robert Rodriguez",
+          "Alfonso Cuarón"
+        ],
+        "explanation": "Para 'Roma', inspirada en su infancia, se encargó él mismo de la fotografía, logrando una película en blanco y negro de meticulosa precisión."
+      }
+    }
+  },
+  {
+    "sourceRef": "ef329e400bd37822",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle entreprise fondée par Elon Musk fabrique des voitures électriques haut de gamme ?",
+        "options": [
+          "Tesla",
+          "Ford",
+          "Toyota",
+          "Renault"
+        ],
+        "explanation": "La marque doit son nom à un inventeur serbo-américain, pionnier du courant alternatif à la fin du XIXᵉ siècle."
+      },
+      "en": {
+        "text": "Which company founded by Elon Musk makes high-end electric cars?",
+        "options": [
+          "Tesla",
+          "Ford",
+          "Toyota",
+          "Renault"
+        ],
+        "explanation": "The brand owes its name to a Serbian-American inventor, a pioneer of alternating current in the late 19th century."
+      },
+      "es": {
+        "text": "¿Qué empresa fundada por Elon Musk fabrica coches eléctricos de gama alta?",
+        "options": [
+          "Tesla",
+          "Ford",
+          "Toyota",
+          "Renault"
+        ],
+        "explanation": "La marca debe su nombre a un inventor serbio-estadounidense, pionero de la corriente alterna a finales del siglo XIX."
+      }
+    }
+  },
+  {
+    "sourceRef": "fdc8e973bbe5b77c",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel réseau social professionnel sert à publier son parcours et à chercher un emploi ?",
+        "options": [
+          "Instagram",
+          "LinkedIn",
+          "TikTok",
+          "Reddit"
+        ],
+        "explanation": "Contrairement aux autres réseaux, on s'y présente sous son vrai nom et son vrai métier, comme un curriculum vivant."
+      },
+      "en": {
+        "text": "Which professional social network is used to post your career and look for a job?",
+        "options": [
+          "Instagram",
+          "LinkedIn",
+          "TikTok",
+          "Reddit"
+        ],
+        "explanation": "Unlike other networks, you appear there under your real name and real job, like a living résumé."
+      },
+      "es": {
+        "text": "¿Qué red social profesional sirve para publicar tu trayectoria y buscar empleo?",
+        "options": [
+          "Instagram",
+          "LinkedIn",
+          "TikTok",
+          "Reddit"
+        ],
+        "explanation": "A diferencia de otras redes, allí te presentas con tu nombre y oficio reales, como un currículum vivo."
+      }
+    }
+  },
+  {
+    "sourceRef": "7d78ef98f3839dba",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle application d'appels vidéo est devenue incontournable pendant les confinements ?",
+        "options": [
+          "Photoshop",
+          "Excel",
+          "Zoom",
+          "Spotify"
+        ],
+        "explanation": "Son usage explosa si vite que son nom devint un verbe courant : on se « zoomait » entre collègues, amis ou familles."
+      },
+      "en": {
+        "text": "Which video-call app became essential during the lockdowns?",
+        "options": [
+          "Photoshop",
+          "Excel",
+          "Zoom",
+          "Spotify"
+        ],
+        "explanation": "Its use exploded so fast that its name became a common verb: people 'zoomed' with colleagues, friends or family."
+      },
+      "es": {
+        "text": "¿Qué aplicación de videollamadas se volvió imprescindible durante los confinamientos?",
+        "options": [
+          "Photoshop",
+          "Excel",
+          "Zoom",
+          "Spotify"
+        ],
+        "explanation": "Su uso creció tan rápido que su nombre se volvió un verbo común: la gente se 'zoomeaba' con colegas, amigos o familiares."
+      }
+    }
+  },
+  {
+    "sourceRef": "947cb9ccd55b67a8",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel service de streaming au logo rouge diffuse séries et films par abonnement ?",
+        "options": [
+          "Spotify",
+          "YouTube",
+          "Twitch",
+          "Netflix"
+        ],
+        "explanation": "L'entreprise débuta en louant des DVD envoyés par la poste, avant de tout miser sur la diffusion en ligne."
+      },
+      "en": {
+        "text": "Which red-logo streaming service delivers series and films by subscription?",
+        "options": [
+          "Spotify",
+          "YouTube",
+          "Twitch",
+          "Netflix"
+        ],
+        "explanation": "The company started by renting out DVDs sent by post, before betting everything on online streaming."
+      },
+      "es": {
+        "text": "¿Qué servicio de streaming de logo rojo ofrece series y películas por suscripción?",
+        "options": [
+          "Spotify",
+          "YouTube",
+          "Twitch",
+          "Netflix"
+        ],
+        "explanation": "La empresa empezó alquilando DVD enviados por correo, antes de apostarlo todo a la difusión en línea."
+      }
+    }
+  },
+  {
+    "sourceRef": "227b26db745e2802",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel langage de programmation, très répandu, promettait à l'origine « écrire une fois, exécuter partout » ?",
+        "options": [
+          "Java",
+          "Ruby",
+          "Swift",
+          "Pascal"
+        ],
+        "explanation": "Ne pas le confondre avec un autre langage au nom proche, utilisé surtout dans les pages web : ce sont deux technologies distinctes."
+      },
+      "en": {
+        "text": "Which widely used programming language originally promised 'write once, run anywhere'?",
+        "options": [
+          "Java",
+          "Ruby",
+          "Swift",
+          "Pascal"
+        ],
+        "explanation": "Do not confuse it with another language of similar name, used mainly in web pages: they are two distinct technologies."
+      },
+      "es": {
+        "text": "¿Qué lenguaje de programación, muy extendido, prometía en origen 'escribir una vez, ejecutar en todas partes'?",
+        "options": [
+          "Java",
+          "Ruby",
+          "Swift",
+          "Pascal"
+        ],
+        "explanation": "No hay que confundirlo con otro lenguaje de nombre parecido, usado sobre todo en las páginas web: son dos tecnologías distintas."
+      }
+    }
+  },
+  {
+    "sourceRef": "8f46f2c9655060d9",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un programme qui converse en langage naturel pour répondre à vos questions ?",
+        "options": [
+          "Un pare-feu",
+          "Un agent conversationnel",
+          "Un compilateur",
+          "Un pilote"
+        ],
+        "explanation": "Le premier du genre, dans les années 1960, imitait un psychologue en renvoyant les phrases sous forme de questions, et déjà certains s'y attachaient."
+      },
+      "en": {
+        "text": "What do you call a program that converses in natural language to answer your questions?",
+        "options": [
+          "A firewall",
+          "A chatbot",
+          "A compiler",
+          "A driver"
+        ],
+        "explanation": "The first of its kind, in the 1960s, mimicked a psychologist by turning sentences into questions, and already some grew attached to it."
+      },
+      "es": {
+        "text": "¿Cómo se llama un programa que conversa en lenguaje natural para responder a tus preguntas?",
+        "options": [
+          "Un cortafuegos",
+          "Un agente conversacional",
+          "Un compilador",
+          "Un controlador"
+        ],
+        "explanation": "El primero de su clase, en los años 1960, imitaba a un psicólogo devolviendo las frases como preguntas, y ya algunos se encariñaban con él."
+      }
+    }
+  },
+  {
+    "sourceRef": "09fca235530c7839",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle monnaie numérique, créée en 2009, s'échange sans banque grâce à un registre partagé ?",
+        "options": [
+          "L'euro",
+          "Le dollar",
+          "Le bitcoin",
+          "Le jeton de casino"
+        ],
+        "explanation": "Ses toutes premières unités auraient servi à acheter deux pizzas ; à ce cours, ce repas serait devenu l'un des plus chers de l'histoire."
+      },
+      "en": {
+        "text": "Which digital currency, created in 2009, is traded without a bank thanks to a shared ledger?",
+        "options": [
+          "The euro",
+          "The dollar",
+          "Bitcoin",
+          "The casino chip"
+        ],
+        "explanation": "Its very first units are said to have bought two pizzas; at later prices, that meal would be among the costliest in history."
+      },
+      "es": {
+        "text": "¿Qué moneda digital, creada en 2009, se intercambia sin banco gracias a un registro compartido?",
+        "options": [
+          "El euro",
+          "El dólar",
+          "El bitcoin",
+          "La ficha de casino"
+        ],
+        "explanation": "Sus primerísimas unidades habrían servido para comprar dos pizzas; a cotizaciones posteriores, esa comida sería de las más caras de la historia."
+      }
+    }
+  },
+  {
+    "sourceRef": "5615002877712652",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel mathématicien britannique est considéré comme un père de l'informatique et de l'intelligence artificielle ?",
+        "options": [
+          "Charles Babbage",
+          "Claude Shannon",
+          "John von Neumann",
+          "Alan Turing"
+        ],
+        "explanation": "Il imagina un test pour savoir si une machine peut « penser » : dialoguer avec elle sans deviner si l'on parle à un humain."
+      },
+      "en": {
+        "text": "Which British mathematician is regarded as a father of computing and artificial intelligence?",
+        "options": [
+          "Charles Babbage",
+          "Claude Shannon",
+          "John von Neumann",
+          "Alan Turing"
+        ],
+        "explanation": "He devised a test for whether a machine can 'think': to converse with it without telling whether one is talking to a human."
+      },
+      "es": {
+        "text": "¿Qué matemático británico es considerado un padre de la informática y de la inteligencia artificial?",
+        "options": [
+          "Charles Babbage",
+          "Claude Shannon",
+          "John von Neumann",
+          "Alan Turing"
+        ],
+        "explanation": "Ideó una prueba para saber si una máquina puede 'pensar': dialogar con ella sin adivinar si se habla con un humano."
+      }
+    }
+  },
+  {
+    "sourceRef": "c18b3b380aa92e98",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel appareil transforme la voix en signal électrique pour l'enregistrer ou l'amplifier ?",
+        "options": [
+          "Le microphone",
+          "Le haut-parleur",
+          "L'écran",
+          "Le clavier"
+        ],
+        "explanation": "Il fonctionne à l'envers du haut-parleur : l'un capte le son et le change en électricité, l'autre fait le chemin inverse."
+      },
+      "en": {
+        "text": "Which device turns the voice into an electric signal to record or amplify it?",
+        "options": [
+          "The microphone",
+          "The loudspeaker",
+          "The screen",
+          "The keyboard"
+        ],
+        "explanation": "It works the opposite way to a loudspeaker: one catches sound and turns it into electricity, the other does the reverse."
+      },
+      "es": {
+        "text": "¿Qué aparato transforma la voz en señal eléctrica para grabarla o amplificarla?",
+        "options": [
+          "El micrófono",
+          "El altavoz",
+          "La pantalla",
+          "El teclado"
+        ],
+        "explanation": "Funciona al revés que el altavoz: uno capta el sonido y lo vuelve electricidad, el otro hace el camino inverso."
+      }
+    }
+  },
+  {
+    "sourceRef": "f44ebed3d5739f4a",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel appareil reproduit sur papier un document créé sur ordinateur ?",
+        "options": [
+          "Le scanner",
+          "L'imprimante",
+          "Le routeur",
+          "Le modem"
+        ],
+        "explanation": "Les modèles à jet d'encre projettent des gouttelettes microscopiques, plus fines qu'un cheveu, pour composer chaque lettre."
+      },
+      "en": {
+        "text": "Which device reproduces on paper a document created on a computer?",
+        "options": [
+          "The scanner",
+          "The printer",
+          "The router",
+          "The modem"
+        ],
+        "explanation": "Inkjet models spray microscopic droplets, finer than a hair, to build up each letter."
+      },
+      "es": {
+        "text": "¿Qué aparato reproduce en papel un documento creado en el ordenador?",
+        "options": [
+          "El escáner",
+          "La impresora",
+          "El router",
+          "El módem"
+        ],
+        "explanation": "Los modelos de inyección lanzan gotitas microscópicas, más finas que un cabello, para componer cada letra."
+      }
+    }
+  },
+  {
+    "sourceRef": "7435c4d5ef8df12a",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel composant est souvent surnommé « le cerveau » de l'ordinateur, car il exécute les calculs ?",
+        "options": [
+          "Le disque dur",
+          "L'écran",
+          "Le processeur",
+          "Le clavier"
+        ],
+        "explanation": "Il chauffe tellement en travaillant qu'un ventilateur ou un circuit d'eau doit sans cesse le rafraîchir pour l'empêcher de fondre."
+      },
+      "en": {
+        "text": "Which component is often nicknamed the 'brain' of the computer, because it runs the calculations?",
+        "options": [
+          "The hard drive",
+          "The screen",
+          "The processor",
+          "The keyboard"
+        ],
+        "explanation": "It heats up so much while working that a fan or water loop must constantly cool it to keep it from melting."
+      },
+      "es": {
+        "text": "¿Qué componente se apoda a menudo el 'cerebro' del ordenador, porque ejecuta los cálculos?",
+        "options": [
+          "El disco duro",
+          "La pantalla",
+          "El procesador",
+          "El teclado"
+        ],
+        "explanation": "Se calienta tanto al trabajar que un ventilador o un circuito de agua debe enfriarlo sin cesar para que no se funda."
+      }
+    }
+  },
+  {
+    "sourceRef": "a5b2378f8d471d9a",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle loi observe que le nombre de transistors sur une puce double environ tous les deux ans ?",
+        "options": [
+          "La loi d'Ohm",
+          "La loi de Murphy",
+          "La loi de Metcalfe",
+          "La loi de Moore"
+        ],
+        "explanation": "Simple constat au départ, elle est devenue un objectif que l'industrie s'efforce de tenir, poussant sans cesse la miniaturisation."
+      },
+      "en": {
+        "text": "Which law observes that the number of transistors on a chip roughly doubles every two years?",
+        "options": [
+          "Ohm's law",
+          "Murphy's law",
+          "Metcalfe's law",
+          "Moore's law"
+        ],
+        "explanation": "First a mere observation, it became a target the industry strives to meet, endlessly pushing miniaturisation."
+      },
+      "es": {
+        "text": "¿Qué ley observa que el número de transistores de un chip se duplica aproximadamente cada dos años?",
+        "options": [
+          "La ley de Ohm",
+          "La ley de Murphy",
+          "La ley de Metcalfe",
+          "La ley de Moore"
+        ],
+        "explanation": "Al principio una simple constatación, se volvió un objetivo que la industria se esfuerza en cumplir, empujando sin cesar la miniaturización."
+      }
+    }
+  },
+  {
+    "sourceRef": "7d2aa47e2653eb65",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel type de mémoire, rapide mais volatile, perd toutes ses données quand on éteint l'ordinateur ?",
+        "options": [
+          "La mémoire vive (RAM)",
+          "Le disque dur",
+          "La clé USB",
+          "Le DVD"
+        ],
+        "explanation": "C'est l'établi de travail de la machine : plus il est vaste, plus l'ordinateur peut jongler avec de nombreuses tâches à la fois."
+      },
+      "en": {
+        "text": "Which type of memory, fast but volatile, loses all its data when the computer is switched off?",
+        "options": [
+          "RAM",
+          "The hard drive",
+          "The USB stick",
+          "The DVD"
+        ],
+        "explanation": "It is the machine's workbench: the larger it is, the more tasks the computer can juggle at once."
+      },
+      "es": {
+        "text": "¿Qué tipo de memoria, rápida pero volátil, pierde todos sus datos al apagar el ordenador?",
+        "options": [
+          "La memoria RAM",
+          "El disco duro",
+          "La memoria USB",
+          "El DVD"
+        ],
+        "explanation": "Es la mesa de trabajo de la máquina: cuanto más amplia, más tareas puede manejar el ordenador a la vez."
+      }
+    }
+  },
+  {
+    "sourceRef": "09fa245d3d388276",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel petit boîtier relie une maison à internet et diffuse le signal Wi-Fi ?",
+        "options": [
+          "L'écran",
+          "Le routeur",
+          "La souris",
+          "L'imprimante"
+        ],
+        "explanation": "Son nom vient de l'anglais « route » : il aiguille les données vers le bon appareil, comme un carrefour du réseau domestique."
+      },
+      "en": {
+        "text": "Which small box links a home to the internet and broadcasts the Wi-Fi signal?",
+        "options": [
+          "The screen",
+          "The router",
+          "The mouse",
+          "The printer"
+        ],
+        "explanation": "Its name comes from 'route': it steers data to the right device, like a crossroads of the home network."
+      },
+      "es": {
+        "text": "¿Qué pequeña caja conecta una casa a internet y difunde la señal Wi-Fi?",
+        "options": [
+          "La pantalla",
+          "El router",
+          "El ratón",
+          "La impresora"
+        ],
+        "explanation": "Su nombre viene del inglés 'route': encamina los datos al aparato correcto, como un cruce de la red doméstica."
+      }
+    }
+  },
+  {
+    "sourceRef": "9e86d857a257b9ce",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle entreprise conçut le célèbre baladeur numérique iPod à molette ?",
+        "options": [
+          "Sony",
+          "Samsung",
+          "Apple",
+          "Microsoft"
+        ],
+        "explanation": "Son slogan promettait « mille chansons dans votre poche », une révolution à l'époque des lecteurs à disque."
+      },
+      "en": {
+        "text": "Which company designed the famous iPod digital music player with a click wheel?",
+        "options": [
+          "Sony",
+          "Samsung",
+          "Apple",
+          "Microsoft"
+        ],
+        "explanation": "Its slogan promised 'a thousand songs in your pocket', a revolution in the days of disc players."
+      },
+      "es": {
+        "text": "¿Qué empresa diseñó el famoso reproductor de música iPod con rueda táctil?",
+        "options": [
+          "Sony",
+          "Samsung",
+          "Apple",
+          "Microsoft"
+        ],
+        "explanation": "Su eslogan prometía 'mil canciones en tu bolsillo', una revolución en la época de los reproductores de disco."
+      }
+    }
+  },
+  {
+    "sourceRef": "b441b95ee7dabd00",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un registre de transactions, partagé et infalsifiable, à la base des cryptomonnaies ?",
+        "options": [
+          "Le tableur",
+          "Le cookie",
+          "Le pare-feu",
+          "La chaîne de blocs"
+        ],
+        "explanation": "Chaque nouveau bloc est lié au précédent par un calcul : modifier une seule donnée ancienne romprait toute la chaîne, ce qui rend la fraude quasi impossible."
+      },
+      "en": {
+        "text": "What do you call a shared, tamper-proof ledger of transactions, at the heart of cryptocurrencies?",
+        "options": [
+          "The spreadsheet",
+          "The cookie",
+          "The firewall",
+          "The blockchain"
+        ],
+        "explanation": "Each new block is tied to the previous one by a calculation: changing a single old entry would break the whole chain, making fraud nearly impossible."
+      },
+      "es": {
+        "text": "¿Cómo se llama un registro de transacciones, compartido e infalsificable, base de las criptomonedas?",
+        "options": [
+          "La hoja de cálculo",
+          "La cookie",
+          "El cortafuegos",
+          "La cadena de bloques"
+        ],
+        "explanation": "Cada bloque nuevo se enlaza al anterior con un cálculo: alterar un solo dato antiguo rompería toda la cadena, lo que hace casi imposible el fraude."
+      }
+    }
+  },
+  {
+    "sourceRef": "32609743879c8259",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel langage sert à mettre en forme les pages web : couleurs, polices et mise en page ?",
+        "options": [
+          "Le CSS",
+          "Le SQL",
+          "Le JSON",
+          "Le HTML"
+        ],
+        "explanation": "Il travaille en tandem avec le langage qui structure le contenu : l'un pose les fondations, l'autre choisit la décoration."
+      },
+      "en": {
+        "text": "Which language is used to style web pages: colours, fonts and layout?",
+        "options": [
+          "CSS",
+          "SQL",
+          "JSON",
+          "HTML"
+        ],
+        "explanation": "It works hand in hand with the language that structures the content: one lays the foundations, the other chooses the decor."
+      },
+      "es": {
+        "text": "¿Qué lenguaje sirve para dar forma a las páginas web: colores, fuentes y maquetación?",
+        "options": [
+          "El CSS",
+          "El SQL",
+          "El JSON",
+          "El HTML"
+        ],
+        "explanation": "Trabaja en tándem con el lenguaje que estructura el contenido: uno pone los cimientos, el otro elige la decoración."
+      }
+    }
+  },
+  {
+    "sourceRef": "c2a8cd49d98c1a2b",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel appareil tactile plat, plus grand qu'un téléphone, sert à lire et à naviguer sur internet ?",
+        "options": [
+          "Le clavier",
+          "La tablette",
+          "La souris",
+          "Le scanner"
+        ],
+        "explanation": "Son ancêtre fut imaginé dès les années 1960 dans des films de science-fiction, bien avant que la technologie ne le rende possible."
+      },
+      "en": {
+        "text": "Which flat touchscreen device, bigger than a phone, is used to read and browse the internet?",
+        "options": [
+          "The keyboard",
+          "The tablet",
+          "The mouse",
+          "The scanner"
+        ],
+        "explanation": "Its ancestor was imagined as early as the 1960s in science-fiction films, long before technology made it possible."
+      },
+      "es": {
+        "text": "¿Qué aparato táctil plano, más grande que un teléfono, sirve para leer y navegar por internet?",
+        "options": [
+          "El teclado",
+          "La tableta",
+          "El ratón",
+          "El escáner"
+        ],
+        "explanation": "Su antepasado se imaginó ya en los años 1960 en películas de ciencia ficción, mucho antes de que la tecnología lo hiciera posible."
+      }
+    }
+  },
+  {
+    "sourceRef": "7b1f65c7822176fb",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle entreprise chinoise a lancé l'application de vidéos courtes TikTok ?",
+        "options": [
+          "Tencent",
+          "Huawei",
+          "ByteDance",
+          "Xiaomi"
+        ],
+        "explanation": "L'application repose sur un algorithme de recommandation si efficace qu'il devine vos goûts en quelques minutes de visionnage."
+      },
+      "en": {
+        "text": "Which Chinese company launched the short-video app TikTok?",
+        "options": [
+          "Tencent",
+          "Huawei",
+          "ByteDance",
+          "Xiaomi"
+        ],
+        "explanation": "The app runs on a recommendation algorithm so effective it can guess your tastes within a few minutes of viewing."
+      },
+      "es": {
+        "text": "¿Qué empresa china lanzó la aplicación de vídeos cortos TikTok?",
+        "options": [
+          "Tencent",
+          "Huawei",
+          "ByteDance",
+          "Xiaomi"
+        ],
+        "explanation": "La aplicación se basa en un algoritmo de recomendación tan eficaz que adivina tus gustos en pocos minutos de visionado."
+      }
+    }
+  },
+  {
+    "sourceRef": "9b526ffa18de824f",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel objet portable au poignet compte les pas et mesure le rythme cardiaque ?",
+        "options": [
+          "La calculatrice",
+          "Le talkie-walkie",
+          "La montre connectée",
+          "Le baladeur"
+        ],
+        "explanation": "Ses minuscules capteurs suivent le corps toute la journée, transformant chaque poignet en petit laboratoire de santé."
+      },
+      "en": {
+        "text": "Which wearable device on the wrist counts steps and measures the heart rate?",
+        "options": [
+          "The calculator",
+          "The walkie-talkie",
+          "The smartwatch",
+          "The music player"
+        ],
+        "explanation": "Its tiny sensors track the body all day, turning every wrist into a small health laboratory."
+      },
+      "es": {
+        "text": "¿Qué aparato portátil en la muñeca cuenta los pasos y mide el ritmo cardíaco?",
+        "options": [
+          "La calculadora",
+          "El walkie-talkie",
+          "El reloj inteligente",
+          "El reproductor de música"
+        ],
+        "explanation": "Sus diminutos sensores siguen el cuerpo todo el día, convirtiendo cada muñeca en un pequeño laboratorio de salud."
+      }
+    }
+  },
+  {
+    "sourceRef": "1b5a9336de7dd103",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre espagnol surréaliste peignit des montres molles qui fondent dans « La Persistance de la mémoire » ?",
+        "options": [
+          "Salvador Dalí",
+          "Joan Miró",
+          "René Magritte",
+          "Max Ernst"
+        ],
+        "explanation": "Célèbre pour sa moustache pointue et ses mises en scène extravagantes, il se disait lui-même un génie et le clamait volontiers."
+      },
+      "en": {
+        "text": "Which Spanish Surrealist painted soft, melting watches in 'The Persistence of Memory'?",
+        "options": [
+          "Salvador Dalí",
+          "Joan Miró",
+          "René Magritte",
+          "Max Ernst"
+        ],
+        "explanation": "Famous for his pointed moustache and extravagant showmanship, he called himself a genius and gladly proclaimed it."
+      },
+      "es": {
+        "text": "¿Qué pintor español surrealista pintó relojes blandos que se derriten en 'La persistencia de la memoria'?",
+        "options": [
+          "Salvador Dalí",
+          "Joan Miró",
+          "René Magritte",
+          "Max Ernst"
+        ],
+        "explanation": "Famoso por su bigote puntiagudo y sus puestas en escena extravagantes, se llamaba a sí mismo un genio y lo proclamaba con gusto."
+      }
+    }
+  },
+  {
+    "sourceRef": "3ea754922f2ec95c",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre belge surréaliste peignit une pipe sous-titrée « Ceci n'est pas une pipe » ?",
+        "options": [
+          "Paul Delvaux",
+          "René Magritte",
+          "James Ensor",
+          "Salvador Dalí"
+        ],
+        "explanation": "Son idée : l'image d'une pipe n'est pas une pipe, mais sa représentation, un jeu troublant entre les mots et les choses."
+      },
+      "en": {
+        "text": "Which Belgian Surrealist painted a pipe captioned 'This is not a pipe'?",
+        "options": [
+          "Paul Delvaux",
+          "René Magritte",
+          "James Ensor",
+          "Salvador Dalí"
+        ],
+        "explanation": "His point: the image of a pipe is not a pipe, but its representation, an unsettling game between words and things."
+      },
+      "es": {
+        "text": "¿Qué pintor belga surrealista pintó una pipa con la leyenda 'Esto no es una pipa'?",
+        "options": [
+          "Paul Delvaux",
+          "René Magritte",
+          "James Ensor",
+          "Salvador Dalí"
+        ],
+        "explanation": "Su idea: la imagen de una pipa no es una pipa, sino su representación, un inquietante juego entre las palabras y las cosas."
+      }
+    }
+  },
+  {
+    "sourceRef": "f07273885f2ee550",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel style architectural, né en Italie, se reconnaît à ses courbes, ses dorures et sa profusion d'ornements ?",
+        "options": [
+          "Le style roman",
+          "Le minimalisme",
+          "Le baroque",
+          "Le style gothique"
+        ],
+        "explanation": "Son nom viendrait d'un mot portugais désignant une perle irrégulière : longtemps péjoratif, il évoquait un excès jugé de mauvais goût."
+      },
+      "en": {
+        "text": "Which architectural style, born in Italy, is known for its curves, gilding and profusion of ornament?",
+        "options": [
+          "Romanesque",
+          "Minimalism",
+          "Baroque",
+          "Gothic"
+        ],
+        "explanation": "Its name is thought to come from a Portuguese word for an irregular pearl: long derogatory, it suggested an excess seen as bad taste."
+      },
+      "es": {
+        "text": "¿Qué estilo arquitectónico, nacido en Italia, se reconoce por sus curvas, dorados y profusión de ornamentos?",
+        "options": [
+          "El románico",
+          "El minimalismo",
+          "El barroco",
+          "El gótico"
+        ],
+        "explanation": "Su nombre vendría de una palabra portuguesa para una perla irregular: largo tiempo peyorativo, sugería un exceso de mal gusto."
+      }
+    }
+  },
+  {
+    "sourceRef": "ebc2d43072833dc8",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelles colonnes grecques se reconnaissent à leur chapiteau orné de deux volutes en spirale ?",
+        "options": [
+          "Les colonnes doriques",
+          "Les colonnes toscanes",
+          "Les colonnes corinthiennes",
+          "Les colonnes ioniques"
+        ],
+        "explanation": "Les Grecs distinguaient trois grands ordres : le dorique, sobre et robuste, l'ionique aux volutes, et le corinthien aux feuilles d'acanthe."
+      },
+      "en": {
+        "text": "Which Greek columns are recognised by their capital adorned with two spiral scrolls?",
+        "options": [
+          "Doric columns",
+          "Tuscan columns",
+          "Corinthian columns",
+          "Ionic columns"
+        ],
+        "explanation": "The Greeks distinguished three main orders: the plain, sturdy Doric, the scrolled Ionic, and the Corinthian with acanthus leaves."
+      },
+      "es": {
+        "text": "¿Qué columnas griegas se reconocen por su capitel adornado con dos volutas en espiral?",
+        "options": [
+          "Las columnas dóricas",
+          "Las columnas toscanas",
+          "Las columnas corintias",
+          "Las columnas jónicas"
+        ],
+        "explanation": "Los griegos distinguían tres grandes órdenes: el dórico, sobrio y robusto, el jónico de volutas, y el corintio de hojas de acanto."
+      }
+    }
+  },
+  {
+    "sourceRef": "8b0b45bdb383afb4",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre autrichien, élève de Klimt, peignit des corps anguleux et tourmentés au début du XXᵉ siècle ?",
+        "options": [
+          "Egon Schiele",
+          "Oskar Kokoschka",
+          "Ernst Ludwig Kirchner",
+          "Emil Nolde"
+        ],
+        "explanation": "Sa carrière fulgurante s'arrêta net à vingt-huit ans, emporté par la grande épidémie de grippe de 1918, quelques jours après son épouse."
+      },
+      "en": {
+        "text": "Which Austrian painter, a pupil of Klimt, painted angular, tormented bodies in the early 20th century?",
+        "options": [
+          "Egon Schiele",
+          "Oskar Kokoschka",
+          "Ernst Ludwig Kirchner",
+          "Emil Nolde"
+        ],
+        "explanation": "His meteoric career ended abruptly at twenty-eight, carried off by the great flu epidemic of 1918, days after his wife."
+      },
+      "es": {
+        "text": "¿Qué pintor austríaco, alumno de Klimt, pintó cuerpos angulosos y atormentados a principios del siglo XX?",
+        "options": [
+          "Egon Schiele",
+          "Oskar Kokoschka",
+          "Ernst Ludwig Kirchner",
+          "Emil Nolde"
+        ],
+        "explanation": "Su carrera fulgurante se cortó de golpe a los veintiocho años, arrebatado por la gran epidemia de gripe de 1918, días después que su esposa."
+      }
+    }
+  },
+  {
+    "sourceRef": "9d46aadff1a180b8",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel artiste américain du pop art peignit des scènes de bande dessinée agrandies, criblées de petits points ?",
+        "options": [
+          "Robert Rauschenberg",
+          "Roy Lichtenstein",
+          "Jasper Johns",
+          "Keith Haring"
+        ],
+        "explanation": "Ses points imitent la trame d'impression bon marché des vieux comics, transformant l'art populaire en tableau de musée."
+      },
+      "en": {
+        "text": "Which American pop artist painted enlarged comic-book scenes riddled with little dots?",
+        "options": [
+          "Robert Rauschenberg",
+          "Roy Lichtenstein",
+          "Jasper Johns",
+          "Keith Haring"
+        ],
+        "explanation": "His dots mimic the cheap printing screen of old comics, turning popular art into a museum picture."
+      },
+      "es": {
+        "text": "¿Qué artista estadounidense del pop art pintó escenas de cómic ampliadas, plagadas de puntitos?",
+        "options": [
+          "Robert Rauschenberg",
+          "Roy Lichtenstein",
+          "Jasper Johns",
+          "Keith Haring"
+        ],
+        "explanation": "Sus puntos imitan la trama de impresión barata de los viejos cómics, convirtiendo el arte popular en un cuadro de museo."
+      }
+    }
+  },
+  {
+    "sourceRef": "3348283a8eb62316",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Avec quel outil pointu le graveur creuse-t-il des sillons dans une plaque de métal ou de bois ?",
+        "options": [
+          "Le pinceau",
+          "La spatule",
+          "Le burin",
+          "Le rouleau"
+        ],
+        "explanation": "L'expression « avoir de la patience de bénédictin » convient au graveur : un seul sillon raté peut gâcher des heures de travail minutieux."
+      },
+      "en": {
+        "text": "With which pointed tool does an engraver cut grooves into a metal or wood plate?",
+        "options": [
+          "The brush",
+          "The spatula",
+          "The burin",
+          "The roller"
+        ],
+        "explanation": "Engraving takes monk-like patience: a single slipped groove can ruin hours of painstaking work."
+      },
+      "es": {
+        "text": "¿Con qué herramienta puntiaguda el grabador excava surcos en una plancha de metal o madera?",
+        "options": [
+          "El pincel",
+          "La espátula",
+          "El buril",
+          "El rodillo"
+        ],
+        "explanation": "El grabado exige una paciencia de monje: un solo surco fallido puede arruinar horas de minucioso trabajo."
+      }
+    }
+  },
+  {
+    "sourceRef": "9def64ec0e013486",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle technique d'impression dessine sur une pierre calcaire au crayon gras, exploitant que l'eau et le gras se repoussent ?",
+        "options": [
+          "La gravure sur bois",
+          "La sérigraphie",
+          "La pointe sèche",
+          "La lithographie"
+        ],
+        "explanation": "Elle permit de tirer des affiches en couleurs à grande échelle ; les artistes de la Belle Époque en firent un art à part entière."
+      },
+      "en": {
+        "text": "Which printing technique draws on a limestone with a greasy crayon, using the fact that water and grease repel?",
+        "options": [
+          "Woodcut",
+          "Screen printing",
+          "Drypoint",
+          "Lithography"
+        ],
+        "explanation": "It allowed colour posters to be printed on a large scale; the artists of the Belle Époque made it an art in its own right."
+      },
+      "es": {
+        "text": "¿Qué técnica de impresión dibuja sobre una piedra caliza con lápiz graso, aprovechando que el agua y la grasa se repelen?",
+        "options": [
+          "La xilografía",
+          "La serigrafía",
+          "La punta seca",
+          "La litografía"
+        ],
+        "explanation": "Permitió tirar carteles en color a gran escala; los artistas de la Belle Époque la convirtieron en un arte por derecho propio."
+      }
+    }
+  },
+  {
+    "sourceRef": "d7731fdd433d3243",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre anglais du romantisme peignit des tempêtes et des levers de soleil noyés de lumière et de brume ?",
+        "options": [
+          "William Turner",
+          "John Constable",
+          "Thomas Gainsborough",
+          "William Blake"
+        ],
+        "explanation": "Il se serait fait attacher au mât d'un navire en pleine tempête pour mieux observer et peindre le déchaînement des éléments."
+      },
+      "en": {
+        "text": "Which English Romantic painter painted storms and sunrises drowned in light and mist?",
+        "options": [
+          "William Turner",
+          "John Constable",
+          "Thomas Gainsborough",
+          "William Blake"
+        ],
+        "explanation": "He is said to have had himself tied to a ship's mast in a storm, the better to observe and paint the fury of the elements."
+      },
+      "es": {
+        "text": "¿Qué pintor inglés del romanticismo pintó tormentas y amaneceres ahogados en luz y bruma?",
+        "options": [
+          "William Turner",
+          "John Constable",
+          "Thomas Gainsborough",
+          "William Blake"
+        ],
+        "explanation": "Se habría hecho atar al mástil de un barco en plena tormenta para observar y pintar mejor el desatarse de los elementos."
+      }
+    }
+  },
+  {
+    "sourceRef": "e9adacbd7b45d90d",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel mouvement artistique italien du début du XXᵉ siècle célébrait la vitesse, les machines et la modernité ?",
+        "options": [
+          "Le romantisme",
+          "Le futurisme",
+          "Le réalisme",
+          "L'impressionnisme"
+        ],
+        "explanation": "Ses artistes voulaient représenter le mouvement lui-même, peignant par exemple un chien en marche avec une multitude de pattes floues."
+      },
+      "en": {
+        "text": "Which early 20th-century Italian art movement celebrated speed, machines and modernity?",
+        "options": [
+          "Romanticism",
+          "Futurism",
+          "Realism",
+          "Impressionism"
+        ],
+        "explanation": "Its artists wanted to depict movement itself, painting, for instance, a walking dog with a blur of many legs."
+      },
+      "es": {
+        "text": "¿Qué movimiento artístico italiano de principios del siglo XX celebraba la velocidad, las máquinas y la modernidad?",
+        "options": [
+          "El romanticismo",
+          "El futurismo",
+          "El realismo",
+          "El impresionismo"
+        ],
+        "explanation": "Sus artistas querían representar el movimiento mismo, pintando por ejemplo un perro caminando con una multitud de patas borrosas."
+      }
+    }
+  },
+  {
+    "sourceRef": "6679616ad08c693a",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel matériau blanc et froid, extrait de carrières, sert à sculpter des statues comme le David de Michel-Ange ?",
+        "options": [
+          "Le plâtre",
+          "Le béton",
+          "Le marbre",
+          "L'argile"
+        ],
+        "explanation": "Le sculpteur disait « libérer » la figure déjà présente dans le bloc, en enlevant seulement la pierre de trop."
+      },
+      "en": {
+        "text": "Which cold white material, quarried from the ground, is used to carve statues like Michelangelo's David?",
+        "options": [
+          "Plaster",
+          "Concrete",
+          "Marble",
+          "Clay"
+        ],
+        "explanation": "The sculptor spoke of 'freeing' the figure already inside the block, by removing only the excess stone."
+      },
+      "es": {
+        "text": "¿Qué material blanco y frío, extraído de canteras, sirve para esculpir estatuas como el David de Miguel Ángel?",
+        "options": [
+          "El yeso",
+          "El hormigón",
+          "El mármol",
+          "La arcilla"
+        ],
+        "explanation": "El escultor decía 'liberar' la figura ya presente en el bloque, quitando solo la piedra sobrante."
+      }
+    }
+  },
+  {
+    "sourceRef": "9f59b52f59f6fe46",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle matière, façonnée humide puis durcie par la cuisson, sert à fabriquer poteries et céramiques ?",
+        "options": [
+          "Le verre",
+          "Le bronze",
+          "Le marbre",
+          "L'argile"
+        ],
+        "explanation": "Parmi les plus vieux objets façonnés par l'homme, certaines poteries d'argile cuite ont plus de vingt mille ans."
+      },
+      "en": {
+        "text": "Which material, shaped wet then hardened by firing, is used to make pottery and ceramics?",
+        "options": [
+          "Glass",
+          "Bronze",
+          "Marble",
+          "Clay"
+        ],
+        "explanation": "Among the oldest objects shaped by humans, some fired-clay pots are more than twenty thousand years old."
+      },
+      "es": {
+        "text": "¿Qué material, moldeado húmedo y luego endurecido por la cocción, sirve para hacer cerámica y alfarería?",
+        "options": [
+          "El vidrio",
+          "El bronce",
+          "El mármol",
+          "La arcilla"
+        ],
+        "explanation": "Entre los objetos más antiguos moldeados por el hombre, algunas vasijas de arcilla cocida tienen más de veinte mil años."
+      }
+    }
+  },
+  {
+    "sourceRef": "279dca1d5c1f88ac",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre flamand du XVᵉ siècle est réputé pour le minutieux « Retable de l'Agneau mystique » ?",
+        "options": [
+          "Jan van Eyck",
+          "Rogier van der Weyden",
+          "Hans Memling",
+          "Robert Campin"
+        ],
+        "explanation": "Pionnier de la peinture à l'huile, il obtenait des détails d'une finesse inouïe, jusqu'au reflet d'une fenêtre dans une perle."
+      },
+      "en": {
+        "text": "Which 15th-century Flemish painter is famed for the meticulous 'Ghent Altarpiece' of the Mystic Lamb?",
+        "options": [
+          "Jan van Eyck",
+          "Rogier van der Weyden",
+          "Hans Memling",
+          "Robert Campin"
+        ],
+        "explanation": "A pioneer of oil painting, he achieved details of astonishing fineness, down to a window reflected in a pearl."
+      },
+      "es": {
+        "text": "¿Qué pintor flamenco del siglo XV es famoso por el minucioso 'Retablo del Cordero místico'?",
+        "options": [
+          "Jan van Eyck",
+          "Rogier van der Weyden",
+          "Hans Memling",
+          "Robert Campin"
+        ],
+        "explanation": "Pionero de la pintura al óleo, lograba detalles de una finura asombrosa, hasta el reflejo de una ventana en una perla."
+      }
+    }
+  },
+  {
+    "sourceRef": "90382260555a308d",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel peintre flamand du XVIᵉ siècle représenta des scènes de villages, de moissons et de proverbes populaires ?",
+        "options": [
+          "Antoine Van Dyck",
+          "Pieter Bruegel l'Ancien",
+          "Jacob Jordaens",
+          "Frans Snyders"
+        ],
+        "explanation": "Dans un seul tableau, il illustra plus de cent proverbes flamands en autant de petites scènes cocasses cachées parmi la foule."
+      },
+      "en": {
+        "text": "Which 16th-century Flemish painter depicted village scenes, harvests and popular proverbs?",
+        "options": [
+          "Anthony van Dyck",
+          "Pieter Bruegel the Elder",
+          "Jacob Jordaens",
+          "Frans Snyders"
+        ],
+        "explanation": "In a single painting he illustrated over a hundred Flemish proverbs as so many droll little scenes hidden in the crowd."
+      },
+      "es": {
+        "text": "¿Qué pintor flamenco del siglo XVI representó escenas de aldeas, cosechas y refranes populares?",
+        "options": [
+          "Antoon van Dyck",
+          "Pieter Bruegel el Viejo",
+          "Jacob Jordaens",
+          "Frans Snyders"
+        ],
+        "explanation": "En un solo cuadro ilustró más de cien refranes flamencos como otras tantas escenitas cómicas escondidas entre la multitud."
+      }
+    }
+  },
+  {
+    "sourceRef": "e54ed4135540f322",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle peinture à séchage rapide, à base de résine plastique, s'est répandue chez les artistes au XXᵉ siècle ?",
+        "options": [
+          "L'huile",
+          "La fresque",
+          "L'acrylique",
+          "L'aquarelle"
+        ],
+        "explanation": "Elle sèche en quelques minutes, là où la peinture à l'huile met parfois des mois, ce qui a changé la façon de travailler des peintres."
+      },
+      "en": {
+        "text": "Which fast-drying paint, based on plastic resin, spread among artists in the 20th century?",
+        "options": [
+          "Oil",
+          "Fresco",
+          "Acrylic",
+          "Watercolour"
+        ],
+        "explanation": "It dries in minutes, where oil paint can take months, which changed the way painters work."
+      },
+      "es": {
+        "text": "¿Qué pintura de secado rápido, a base de resina plástica, se extendió entre los artistas en el siglo XX?",
+        "options": [
+          "El óleo",
+          "El fresco",
+          "El acrílico",
+          "La acuarela"
+        ],
+        "explanation": "Se seca en minutos, donde el óleo tarda a veces meses, lo que cambió la forma de trabajar de los pintores."
+      }
+    }
+  },
+  {
+    "sourceRef": "a4f363fe9ef59ee1",
+    "type": "qcm",
+    "theme": "art",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on l'art de la belle écriture, très développé en Asie et dans le monde arabe ?",
+        "options": [
+          "La typographie",
+          "L'enluminure",
+          "La sérigraphie",
+          "La calligraphie"
+        ],
+        "explanation": "En Extrême-Orient, un simple caractère tracé au pinceau est jugé comme une œuvre à part entière, reflet de l'âme de celui qui l'écrit."
+      },
+      "en": {
+        "text": "What do you call the art of beautiful writing, highly developed in Asia and the Arab world?",
+        "options": [
+          "Typography",
+          "Illumination",
+          "Screen printing",
+          "Calligraphy"
+        ],
+        "explanation": "In the Far East, a single character brushed on paper is judged a full work of art, a mirror of the writer's soul."
+      },
+      "es": {
+        "text": "¿Cómo se llama el arte de la bella escritura, muy desarrollado en Asia y el mundo árabe?",
+        "options": [
+          "La tipografía",
+          "La iluminación",
+          "La serigrafía",
+          "La caligrafía"
+        ],
+        "explanation": "En Extremo Oriente, un solo carácter trazado con pincel se juzga una obra en sí misma, reflejo del alma de quien lo escribe."
+      }
+    }
+  }
+]
