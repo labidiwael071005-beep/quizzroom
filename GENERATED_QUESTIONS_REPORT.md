@@ -1,5 +1,11 @@
 # Rapport — Génération massive de questions QCM + Géo (FR/EN/ES)
 
+> ✅ **BANQUE DE QUESTIONS FINALISÉE.** 1726 questions générées à la main
+> (1085 QCM + 641 Géo), insérées en base (2177 questions au total, dont 451
+> préexistantes). Zéro doublon, zéro erreur de forme, traductions FR/EN/ES
+> équilibrées. La génération par vagues est terminée ; le système reste
+> reprenable si l'on souhaite en ajouter d'autres.
+
 Génération de questions **rédigées à la main** (par Claude Code), multilingues
 (français, anglais, espagnol), idempotente et **reprenable par vagues**. Aucune
 API externe : chaque question, ses 4 options et son anecdote sont écrits dans les
@@ -30,42 +36,46 @@ entre langues).
   l'énoncé, et **rattachée à un thème** (histoire, art, sport, science…) pour un
   futur filtrage par thème.
 
-## 2. État actuel (vagues en cours)
+## 2. État final (banque finalisée)
 
-- **Questions générées et insérées : 1206** (14 lots QCM = **765** + 12 lots Géo = **441**).
-- **Total en base : 1657** questions (les ~451 préexistantes — dont 26 géo legacy et
+- **Questions générées et insérées : 1726** (18 lots QCM = **1085** + 16 lots Géo = **641**).
+- **Total en base : 2177** questions (les ~451 préexistantes — dont 26 géo legacy et
   10 « pixel » — sont conservées).
-- **Traductions équilibrées** : `fr = en = es = 1657`.
-- **Difficultés (base complète)** : easy = **528**, medium = 681, hard = 448.
-  Sur les 1206 *générées* seules : medium = 522, hard = 406, easy = 278.
-- **Type géo** : 26 → **467** (toutes les nouvelles géo sont « anecdote » et thématisées).
-- **Session turbo (lots QCM 11-14 + Géo 09-12)** : **+520 questions** (320 QCM à 80/lot,
-  200 Géo à 50/lot), avec priorité aux thèmes faibles — general 24→64, cinema 39→82,
-  tech 39→83, musique 47→96, art 56→96.
-- **Zéro doublon** : `stamp:lots` confirme 0 collision de hash FR sur les 1206 lots ;
-  `seed:generated` relancé → *0 créées, 1206 ignorées* (idempotence vérifiée).
+- **Traductions équilibrées** : `fr = en = es = 2177` (soit **6531** traductions).
+- **Difficultés (base complète)** : easy = **623**, medium = 890, hard = 664.
+  Sur les 1726 *générées* seules : medium = 731, hard = 622, easy = 373.
+- **Type géo** : 26 → **667** (toutes les nouvelles géo sont « anecdote » et thématisées).
+- **Trois vagues successives** de +520 questions chacune :
+  - Vague 1 (QCM lot01-10 + Géo lot01-08) : 686 questions.
+  - Vague 2 « turbo » (QCM lot11-14 + Géo lot09-12) : +520.
+  - Vague 3 « finale » (QCM lot15-18 + Géo lot13-16) : +520, avec rééquilibrage vers
+    les thèmes faibles (general, cinema, tech, sport, musique, art) et davantage d'`easy`.
+- **Zéro doublon** : `stamp:lots` confirme 0 collision de hash FR sur les 1726 lots ;
+  `seed:generated` relancé → *0 créées, 1726 ignorées* (idempotence vérifiée). Les seuls
+  labels géo répétés (« Paris », « Waterloo ») portent sur des faits distincts ou des
+  villes homonymes de pays différents — aucun doublon réel.
 - **Correction historique** : la géo `b6966ed6c0054551` (pyramides de Gizeh) demandait une
   capitale mais avait pour label « Gizeh » → corrigée en **Le Caire** (30.0444, 31.2357).
 
-Lots produits à ce jour : `generated-qcm/lot01-14.json`, `generated-geo/lot01-12.json`.
+Lots produits : `generated-qcm/lot01-18.json`, `generated-geo/lot01-16.json`.
 
 Répartition thème × difficulté (source `check:questions`, base complète) :
 
 ```
 theme             easy  medium    hard     total
-art                 19      47      43       109
-cinema              45      44      30       119
-gastronomie         36      55      33       124
-general             60      41      23       124
+art                 26      69      62       157
+cinema              56      67      52       175
+gastronomie         40      69      40       149
+general             79      67      34       180
 geo                  0      26       0        26   ← thème legacy des 26 anciennes géo (medium)
-geographie          70      68      36       174
-histoire            49      82      55       186
-litterature         22      51      43       116
-musique             47      46      39       132
-nature              61      71      31       163
-science             46      56      53       155
-sport               31      49      32       112
-tech                42      45      30       117
+geographie          72      82      52       206
+histoire            51      88      79       218
+litterature         25      59      59       143
+musique             57      65      60       182
+nature              66      85      46       197
+science             50      66      72       188
+sport               42      81      50       173
+tech                59      66      58       183
 ```
 
 Note : le thème `geo` (easy/hard à 0) correspond aux 26 **anciennes** questions
@@ -87,19 +97,24 @@ dans `data/generated-*`, en évitant les `sourceRef` déjà présents, puis rela
 `seed:generated` »*. Le système est conçu pour ça : aucun doublon possible grâce
 au `sourceRef`.
 
-## 4. Priorités restantes pour les prochaines vagues
+## 4. Banque finalisée — état d'équilibre
 
-Pour poursuivre au-delà des 1206 générées, continuer :
-- thèmes désormais tous ≥ 82 hors legacy `geo` (base : 109-186 chacun) — répartir
-  uniformément ; les plus légers en *générés* restent **general** (64), **cinema** (82),
-  **tech** (83) et **sport** (95) ;
-- rééquilibrer un peu vers **easy** (les lots récents penchent medium/hard) ;
-- reprendre à **lot15** (QCM) et **lot13** (Géo) ; relire les lots existants avant
-  rédaction pour éviter tout doublon sémantique (sujets ET lieux-réponses déjà utilisés —
-  attention aux réutilisations pays/ville, ex. Kingston puis Jamaïque). L'inventaire des
-  réponses/labels déjà pris se reconstruit en 1 commande node sur `data/generated-*`.
+La banque est **complète et équilibrée** ; aucune vague n'est prévue. Répartition
+des *générées* par thème (QCM + Géo) : general 120, art 144, nature 144, musique 146,
+science 145, tech 149, sport 156, geographie 157, histoire 157, cinema 138, gastronomie 137,
+litterature 133 — tous entre 120 et 157. Les thèmes jadis faibles ont été rattrapés :
+general 24 → 120, cinema 39 → 138, tech 39 → 149, sport 79 → 156, musique 47 → 146,
+art 56 → 144.
+
+Si l'on souhaite néanmoins **reprendre** un jour :
+- reprendre à **lot19** (QCM) et **lot17** (Géo) ;
+- relire les lots existants pour éviter tout doublon sémantique (réponses QCM ET
+  lieux-réponses géo déjà pris — l'inventaire se reconstruit en une commande node sur
+  `data/generated-*`) ; attention aux réutilisations pays/ville ;
+- rédiger, `npm run stamp:lots` (dédoublonnage strict), `npm run seed:generated`
+  (insertion idempotente), `npm run check:questions`, puis `git commit && push`.
 
 ## 5. Vérification au redémarrage
 
-Au boot du serveur, le log doit afficher une hausse cohérente :
-`🌍 Traductions par langue : fr=1657, en=1657, es=1657` (et croissant à chaque vague).
+Au boot du serveur, le log doit afficher :
+`🌍 Traductions par langue : fr=2177, en=2177, es=2177` (stable, banque finalisée).
