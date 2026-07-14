@@ -1,0 +1,3122 @@
+[
+  {
+    "sourceRef": "a793dca51b337d56",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien de joueurs compte une équipe de handball sur le terrain, gardien compris ?",
+        "options": [
+          "7",
+          "6",
+          "5",
+          "11"
+        ],
+        "explanation": "Le handball fut inventé au début du XXᵉ siècle, en partie pour offrir aux écoliers un sport d'équipe praticable en salle l'hiver."
+      },
+      "en": {
+        "text": "How many players make up a handball team on the court, goalkeeper included?",
+        "options": [
+          "7",
+          "6",
+          "5",
+          "11"
+        ],
+        "explanation": "Handball was invented in the early 20th century, partly to give schoolchildren an indoor team sport for the winter."
+      },
+      "es": {
+        "text": "¿Cuántos jugadores tiene un equipo de balonmano en la pista, incluido el portero?",
+        "options": [
+          "7",
+          "6",
+          "5",
+          "11"
+        ],
+        "explanation": "El balonmano se inventó a principios del siglo XX, en parte para dar a los escolares un deporte de equipo bajo techo en invierno."
+      }
+    }
+  },
+  {
+    "sourceRef": "a2443b7854173c08",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Combien de bases un joueur de base-ball doit-il toucher, dans l'ordre, pour marquer un point ?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "explanation": "Faire le tour des quatre bases d'un seul coup, sur une balle envoyée hors du terrain, s'appelle un « coup de circuit »."
+      },
+      "en": {
+        "text": "How many bases must a baseball player touch, in order, to score a run?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "explanation": "Rounding all four bases in one go, on a ball hit out of the field, is called a 'home run'."
+      },
+      "es": {
+        "text": "¿Cuántas bases debe tocar, en orden, un jugador de béisbol para anotar una carrera?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "explanation": "Recorrer las cuatro bases de una vez, con una bola lanzada fuera del campo, se llama un 'jonrón'."
+      }
+    }
+  },
+  {
+    "sourceRef": "e9122c94e985ffe9",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel sport de raquette se joue sur une table, avec une petite balle légère et un filet bas ?",
+        "options": [
+          "Le badminton",
+          "Le squash",
+          "Le tennis de table",
+          "Le padel"
+        ],
+        "explanation": "Né comme un jeu de salon dans l'Angleterre victorienne, il se jouait d'abord avec des livres en guise de filet et un bouchon comme balle."
+      },
+      "en": {
+        "text": "Which racket sport is played on a table, with a small light ball and a low net?",
+        "options": [
+          "Badminton",
+          "Squash",
+          "Table tennis",
+          "Padel"
+        ],
+        "explanation": "Born as a parlour game in Victorian England, it was first played with books for a net and a cork for a ball."
+      },
+      "es": {
+        "text": "¿Qué deporte de raqueta se juega sobre una mesa, con una pelotita ligera y una red baja?",
+        "options": [
+          "El bádminton",
+          "El squash",
+          "El tenis de mesa",
+          "El pádel"
+        ],
+        "explanation": "Nacido como juego de salón en la Inglaterra victoriana, se jugaba al principio con libros a modo de red y un corcho como pelota."
+      }
+    }
+  },
+  {
+    "sourceRef": "eaf90a07bc5f7e3a",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel sport de raquette se pratique dans un court fermé, en renvoyant la balle contre un mur frontal ?",
+        "options": [
+          "Le tennis",
+          "Le padel",
+          "Le jeu de paume",
+          "Le squash"
+        ],
+        "explanation": "La balle rebondit peu, ce qui oblige à courir sans cesse : quelques minutes d'échange suffisent à épuiser les joueurs."
+      },
+      "en": {
+        "text": "Which racket sport is played in an enclosed court, hitting the ball against a front wall?",
+        "options": [
+          "Tennis",
+          "Padel",
+          "Real tennis",
+          "Squash"
+        ],
+        "explanation": "The ball bounces little, forcing constant running: a few minutes of rally are enough to exhaust the players."
+      },
+      "es": {
+        "text": "¿Qué deporte de raqueta se practica en una cancha cerrada, golpeando la pelota contra una pared frontal?",
+        "options": [
+          "El tenis",
+          "El pádel",
+          "El juego de pelota",
+          "El squash"
+        ],
+        "explanation": "La pelota rebota poco, lo que obliga a correr sin cesar: unos minutos de peloteo bastan para agotar a los jugadores."
+      }
+    }
+  },
+  {
+    "sourceRef": "09754cf0b8e50484",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien de joueurs compte une équipe de rugby à XV sur le terrain ?",
+        "options": [
+          "15",
+          "13",
+          "11",
+          "7"
+        ],
+        "explanation": "Il existe aussi une version à sept joueurs, plus rapide et aérée, devenue discipline olympique."
+      },
+      "en": {
+        "text": "How many players make up a rugby union team on the field?",
+        "options": [
+          "15",
+          "13",
+          "11",
+          "7"
+        ],
+        "explanation": "There is also a seven-a-side version, faster and more open, which has become an Olympic sport."
+      },
+      "es": {
+        "text": "¿Cuántos jugadores tiene un equipo de rugby a XV en el campo?",
+        "options": [
+          "15",
+          "13",
+          "11",
+          "7"
+        ],
+        "explanation": "Existe también una versión de siete jugadores, más rápida y abierta, que se ha vuelto disciplina olímpica."
+      }
+    }
+  },
+  {
+    "sourceRef": "aed1967bb255ce5e",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment nomme-t-on, au football, l'exploit d'un joueur qui marque trois buts dans un même match ?",
+        "options": [
+          "Un doublé",
+          "Un triplé",
+          "Un penalty",
+          "Un corner"
+        ],
+        "explanation": "L'expression anglaise « coup du chapeau » viendrait du cricket, où un joueur réussissant un exploit gagnait autrefois un chapeau neuf."
+      },
+      "en": {
+        "text": "What is a footballer's feat of scoring three goals in one match called?",
+        "options": [
+          "A brace",
+          "A hat-trick",
+          "A penalty",
+          "A corner"
+        ],
+        "explanation": "The term 'hat-trick' is said to come from cricket, where a player achieving a feat once won a new hat."
+      },
+      "es": {
+        "text": "¿Cómo se llama, en el fútbol, la hazaña de un jugador que marca tres goles en un mismo partido?",
+        "options": [
+          "Un doblete",
+          "Un triplete",
+          "Un penalti",
+          "Un córner"
+        ],
+        "explanation": "El término inglés 'hat-trick' vendría del críquet, donde un jugador que lograba una proeza ganaba antaño un sombrero nuevo."
+      }
+    }
+  },
+  {
+    "sourceRef": "ff8d07622fa40173",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle discipline d'athlétisme consiste à bondir le plus loin possible dans un bac à sable après une course d'élan ?",
+        "options": [
+          "Le triple saut",
+          "Le saut à la perche",
+          "Le saut en longueur",
+          "Le lancer du poids"
+        ],
+        "explanation": "L'athlète prend son appel juste avant une planche : le moindre centimètre au-delà et le saut est annulé."
+      },
+      "en": {
+        "text": "Which athletics event involves leaping as far as possible into a sandpit after a run-up?",
+        "options": [
+          "The triple jump",
+          "The pole vault",
+          "The long jump",
+          "The shot put"
+        ],
+        "explanation": "The athlete takes off just before a board: a single centimetre over it and the jump is disallowed."
+      },
+      "es": {
+        "text": "¿Qué disciplina de atletismo consiste en saltar lo más lejos posible a un foso de arena tras una carrera de impulso?",
+        "options": [
+          "El triple salto",
+          "El salto con pértiga",
+          "El salto de longitud",
+          "El lanzamiento de peso"
+        ],
+        "explanation": "El atleta bate justo antes de una tabla: un solo centímetro más allá y el salto se anula."
+      }
+    }
+  },
+  {
+    "sourceRef": "f282d7b56433a4f1",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle discipline d'athlétisme consiste à franchir une barre le plus haut possible, en retombant sur le dos ?",
+        "options": [
+          "Le saut en longueur",
+          "Le triple saut",
+          "Le lancer du disque",
+          "Le saut en hauteur"
+        ],
+        "explanation": "Une technique révolutionnaire, consistant à passer la barre dos en avant, fut inventée par un athlète et porte encore son nom."
+      },
+      "en": {
+        "text": "Which athletics event involves clearing a bar as high as possible, landing on the back?",
+        "options": [
+          "The long jump",
+          "The triple jump",
+          "The discus",
+          "The high jump"
+        ],
+        "explanation": "A revolutionary technique of going over the bar back-first was invented by one athlete and still bears his name."
+      },
+      "es": {
+        "text": "¿Qué disciplina de atletismo consiste en franquear una barra lo más alta posible, cayendo de espaldas?",
+        "options": [
+          "El salto de longitud",
+          "El triple salto",
+          "El lanzamiento de disco",
+          "El salto de altura"
+        ],
+        "explanation": "Una técnica revolucionaria, pasar la barra de espaldas, la inventó un atleta y aún lleva su nombre."
+      }
+    }
+  },
+  {
+    "sourceRef": "6a46f1bf28f2cfdb",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle discipline utilise une longue tige souple pour se propulser au-dessus d'une barre à plusieurs mètres de hauteur ?",
+        "options": [
+          "Le saut à la perche",
+          "Le saut en hauteur",
+          "Le lancer du javelot",
+          "Le triple saut"
+        ],
+        "explanation": "La perche, jadis rigide, est aujourd'hui en fibre de verre et se plie comme un ressort pour catapulter l'athlète vers le ciel."
+      },
+      "en": {
+        "text": "Which event uses a long flexible pole to launch oneself over a bar several metres high?",
+        "options": [
+          "The pole vault",
+          "The high jump",
+          "The javelin",
+          "The triple jump"
+        ],
+        "explanation": "The pole, once rigid, is now made of fibreglass and bends like a spring to catapult the athlete skyward."
+      },
+      "es": {
+        "text": "¿Qué disciplina usa una larga vara flexible para impulsarse por encima de una barra a varios metros de altura?",
+        "options": [
+          "El salto con pértiga",
+          "El salto de altura",
+          "El lanzamiento de jabalina",
+          "El triple salto"
+        ],
+        "explanation": "La pértiga, antes rígida, es hoy de fibra de vidrio y se dobla como un muelle para catapultar al atleta hacia el cielo."
+      }
+    }
+  },
+  {
+    "sourceRef": "a3e402d89a412327",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Aux échecs, quelle pièce peut se déplacer d'autant de cases que l'on veut, en ligne droite comme en diagonale ?",
+        "options": [
+          "La tour",
+          "La dame",
+          "Le cavalier",
+          "Le pion"
+        ],
+        "explanation": "C'est la pièce la plus puissante de l'échiquier ; elle n'a pourtant gagné toute sa mobilité qu'au Moyen Âge tardif."
+      },
+      "en": {
+        "text": "In chess, which piece can move any number of squares, in a straight line or diagonally?",
+        "options": [
+          "The rook",
+          "The queen",
+          "The knight",
+          "The pawn"
+        ],
+        "explanation": "It is the most powerful piece on the board; yet it only gained its full mobility in the late Middle Ages."
+      },
+      "es": {
+        "text": "En el ajedrez, ¿qué pieza puede moverse cuantas casillas quiera, en línea recta o en diagonal?",
+        "options": [
+          "La torre",
+          "La dama",
+          "El caballo",
+          "El peón"
+        ],
+        "explanation": "Es la pieza más poderosa del tablero; sin embargo, solo ganó toda su movilidad a finales de la Edad Media."
+      }
+    }
+  },
+  {
+    "sourceRef": "964ccfa779f404a5",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Aux échecs, quelle pièce doit-on protéger à tout prix, car sa capture met fin à la partie ?",
+        "options": [
+          "La dame",
+          "La tour",
+          "Le roi",
+          "Le cavalier"
+        ],
+        "explanation": "On ne le prend jamais vraiment : la partie s'arrête dès qu'il est menacé sans échappatoire, ce qu'on appelle « échec et mat »."
+      },
+      "en": {
+        "text": "In chess, which piece must be protected at all costs, since its capture ends the game?",
+        "options": [
+          "The queen",
+          "The rook",
+          "The king",
+          "The knight"
+        ],
+        "explanation": "It is never actually taken: the game ends as soon as it is threatened with no escape, which is called 'checkmate'."
+      },
+      "es": {
+        "text": "En el ajedrez, ¿qué pieza hay que proteger a toda costa, ya que su captura termina la partida?",
+        "options": [
+          "La dama",
+          "La torre",
+          "El rey",
+          "El caballo"
+        ],
+        "explanation": "Nunca se captura de verdad: la partida acaba en cuanto queda amenazado sin escapatoria, lo que se llama 'jaque mate'."
+      }
+    }
+  },
+  {
+    "sourceRef": "1cb1c15eb76a1d57",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on l'ensemble des disciplines de course, de saut et de lancer ?",
+        "options": [
+          "La gymnastique",
+          "Le triathlon",
+          "Le biathlon",
+          "L'athlétisme"
+        ],
+        "explanation": "On le surnomme le « sport-roi » des Jeux olympiques : ses épreuves reines, comme le cent mètres, attirent les plus grandes foules."
+      },
+      "en": {
+        "text": "What do you call the collection of running, jumping and throwing disciplines?",
+        "options": [
+          "Gymnastics",
+          "Triathlon",
+          "Biathlon",
+          "Athletics"
+        ],
+        "explanation": "It is nicknamed the 'king sport' of the Olympics: its flagship events, like the hundred metres, draw the biggest crowds."
+      },
+      "es": {
+        "text": "¿Cómo se llama el conjunto de las disciplinas de carrera, salto y lanzamiento?",
+        "options": [
+          "La gimnasia",
+          "El triatlón",
+          "El biatlón",
+          "El atletismo"
+        ],
+        "explanation": "Se le apoda el 'deporte rey' de los Juegos Olímpicos: sus pruebas estrella, como los cien metros, atraen a las mayores multitudes."
+      }
+    }
+  },
+  {
+    "sourceRef": "9e8d5f71aacdadc6",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel sprinteur jamaïcain détient les records du monde du 100 et du 200 mètres ?",
+        "options": [
+          "Usain Bolt",
+          "Carl Lewis",
+          "Yohan Blake",
+          "Asafa Powell"
+        ],
+        "explanation": "On raconte qu'il aurait couru l'un de ses records en ralentissant sur la fin pour saluer le public, laissant imaginer un temps encore plus fou."
+      },
+      "en": {
+        "text": "Which Jamaican sprinter holds the world records in the 100 and 200 metres?",
+        "options": [
+          "Usain Bolt",
+          "Carl Lewis",
+          "Yohan Blake",
+          "Asafa Powell"
+        ],
+        "explanation": "He is said to have run one of his records while easing off at the end to salute the crowd, hinting at an even wilder possible time."
+      },
+      "es": {
+        "text": "¿Qué velocista jamaicano posee los récords del mundo de 100 y 200 metros?",
+        "options": [
+          "Usain Bolt",
+          "Carl Lewis",
+          "Yohan Blake",
+          "Asafa Powell"
+        ],
+        "explanation": "Se cuenta que corrió uno de sus récords aflojando al final para saludar al público, dejando imaginar un tiempo aún más increíble."
+      }
+    }
+  },
+  {
+    "sourceRef": "424dac635a694c7e",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport nautique une équipe rame à l'unisson, assise dos à la ligne d'arrivée ?",
+        "options": [
+          "Le canoë",
+          "L'aviron",
+          "La voile",
+          "Le kayak"
+        ],
+        "explanation": "Les rameurs avancent en regardant vers l'arrière ; c'est le barreur, face à eux, qui donne le cap et le rythme."
+      },
+      "en": {
+        "text": "In which water sport does a crew row in unison, seated with their backs to the finish line?",
+        "options": [
+          "Canoeing",
+          "Rowing",
+          "Sailing",
+          "Kayaking"
+        ],
+        "explanation": "The rowers move facing backwards; it is the coxswain, facing them, who sets the course and the rhythm."
+      },
+      "es": {
+        "text": "¿En qué deporte náutico una tripulación rema al unísono, sentada de espaldas a la línea de meta?",
+        "options": [
+          "El piragüismo",
+          "El remo",
+          "La vela",
+          "El kayak"
+        ],
+        "explanation": "Los remeros avanzan mirando hacia atrás; es el timonel, frente a ellos, quien marca el rumbo y el ritmo."
+      }
+    }
+  },
+  {
+    "sourceRef": "99ce400bd9cb4b56",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport enchaîne-t-on des figures acrobatiques sur une poutre, au sol et aux barres ?",
+        "options": [
+          "La danse",
+          "L'escalade",
+          "La gymnastique",
+          "Le patinage"
+        ],
+        "explanation": "La poutre ne mesure que dix centimètres de large : y réaliser des saltos exige un équilibre et un sang-froid stupéfiants."
+      },
+      "en": {
+        "text": "In which sport do you perform acrobatic figures on a beam, on the floor and on bars?",
+        "options": [
+          "Dance",
+          "Climbing",
+          "Gymnastics",
+          "Skating"
+        ],
+        "explanation": "The beam is only ten centimetres wide: performing somersaults on it demands astonishing balance and nerve."
+      },
+      "es": {
+        "text": "¿En qué deporte se encadenan figuras acrobáticas sobre una barra de equilibrio, en el suelo y en las barras?",
+        "options": [
+          "La danza",
+          "La escalada",
+          "La gimnasia",
+          "El patinaje"
+        ],
+        "explanation": "La barra de equilibrio mide solo diez centímetros de ancho: hacer saltos mortales en ella exige un equilibrio y una sangre fría asombrosos."
+      }
+    }
+  },
+  {
+    "sourceRef": "a483e9d5c290389a",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle épreuve de ski alpin consiste à dévaler une piste le plus vite possible, sans slalom serré ?",
+        "options": [
+          "Le slalom",
+          "Le fond",
+          "Le saut",
+          "La descente"
+        ],
+        "explanation": "Les skieurs y frôlent les cent trente kilomètres à l'heure ; une chute à cette vitesse peut projeter l'athlète sur des dizaines de mètres."
+      },
+      "en": {
+        "text": "Which Alpine skiing event involves racing down a slope as fast as possible, without tight turns?",
+        "options": [
+          "The slalom",
+          "Cross-country",
+          "The jump",
+          "The downhill"
+        ],
+        "explanation": "Skiers there brush a hundred and thirty kilometres an hour; a fall at that speed can hurl the athlete tens of metres."
+      },
+      "es": {
+        "text": "¿Qué prueba de esquí alpino consiste en bajar una pista lo más rápido posible, sin virajes cerrados?",
+        "options": [
+          "El eslalon",
+          "El fondo",
+          "El salto",
+          "El descenso"
+        ],
+        "explanation": "Los esquiadores rozan allí los ciento treinta kilómetros por hora; una caída a esa velocidad puede lanzar al atleta decenas de metros."
+      }
+    }
+  },
+  {
+    "sourceRef": "3c24854ab7b50ddd",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel art martial brésilien mêle combat, danse acrobatique et musique au son du berimbau ?",
+        "options": [
+          "La capoeira",
+          "Le jiu-jitsu",
+          "Le muay-thaï",
+          "Le sambo"
+        ],
+        "explanation": "Né chez les esclaves qui dissimulaient leur entraînement au combat sous les apparences d'une danse, il se pratique en cercle, au chant."
+      },
+      "en": {
+        "text": "Which Brazilian martial art blends combat, acrobatic dance and music to the sound of the berimbau?",
+        "options": [
+          "Capoeira",
+          "Jiu-jitsu",
+          "Muay Thai",
+          "Sambo"
+        ],
+        "explanation": "Born among enslaved people who hid their fight training as a dance, it is practised in a circle, to singing."
+      },
+      "es": {
+        "text": "¿Qué arte marcial brasileño mezcla combate, danza acrobática y música al son del berimbau?",
+        "options": [
+          "La capoeira",
+          "El jiu-jitsu",
+          "El muay thai",
+          "El sambo"
+        ],
+        "explanation": "Nacido entre los esclavos que ocultaban su entrenamiento de combate como una danza, se practica en círculo, con canto."
+      }
+    }
+  },
+  {
+    "sourceRef": "2e853016be802ec1",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Dans quel sport un jockey léger monte un cheval lancé à pleine vitesse sur une piste ?",
+        "options": [
+          "Le polo",
+          "Les courses hippiques",
+          "Le rodéo",
+          "Le dressage"
+        ],
+        "explanation": "Les jockeys comptent parmi les sportifs les plus légers du monde : chaque kilo en moins peut faire gagner de précieuses fractions de seconde."
+      },
+      "en": {
+        "text": "In which sport does a light jockey ride a horse galloping at full speed on a track?",
+        "options": [
+          "Polo",
+          "Horse racing",
+          "Rodeo",
+          "Dressage"
+        ],
+        "explanation": "Jockeys are among the lightest athletes in the world: every kilo saved can win precious fractions of a second."
+      },
+      "es": {
+        "text": "¿En qué deporte un jinete ligero monta un caballo lanzado a toda velocidad por una pista?",
+        "options": [
+          "El polo",
+          "Las carreras de caballos",
+          "El rodeo",
+          "La doma"
+        ],
+        "explanation": "Los jinetes están entre los deportistas más ligeros del mundo: cada kilo de menos puede ganar valiosas fracciones de segundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "b319020b59874187",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel sport de glisse se pratique debout sur une planche, en équilibre sur les vagues de l'océan ?",
+        "options": [
+          "L'aviron",
+          "La plongée",
+          "Le surf",
+          "Le ski nautique"
+        ],
+        "explanation": "Les anciens Polynésiens le pratiquaient déjà il y a des siècles, et leurs rois se distinguaient par des planches réservées à leur usage."
+      },
+      "en": {
+        "text": "Which board sport is practised standing up, balancing on the waves of the ocean?",
+        "options": [
+          "Rowing",
+          "Diving",
+          "Surfing",
+          "Waterskiing"
+        ],
+        "explanation": "The ancient Polynesians already practised it centuries ago, and their kings were set apart by boards reserved for their own use."
+      },
+      "es": {
+        "text": "¿Qué deporte de deslizamiento se practica de pie sobre una tabla, en equilibrio sobre las olas del océano?",
+        "options": [
+          "El remo",
+          "El buceo",
+          "El surf",
+          "El esquí acuático"
+        ],
+        "explanation": "Los antiguos polinesios ya lo practicaban hace siglos, y sus reyes se distinguían por tablas reservadas a su uso."
+      }
+    }
+  },
+  {
+    "sourceRef": "7804a887cb347209",
+    "type": "qcm",
+    "theme": "sport",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Sur quelle surface glacée se joue le hockey sur glace, avec un palet et des crosses ?",
+        "options": [
+          "Une piste",
+          "Une patinoire",
+          "Un ring",
+          "Un tatami"
+        ],
+        "explanation": "Le palet, un disque de caoutchouc durci, file parfois à plus de cent cinquante kilomètres à l'heure lors d'un tir puissant."
+      },
+      "en": {
+        "text": "On which icy surface is ice hockey played, with a puck and sticks?",
+        "options": [
+          "A track",
+          "A rink",
+          "A ring",
+          "A mat"
+        ],
+        "explanation": "The puck, a disc of hardened rubber, sometimes flies at over a hundred and fifty kilometres an hour on a powerful shot."
+      },
+      "es": {
+        "text": "¿En qué superficie helada se juega el hockey sobre hielo, con un disco y sticks?",
+        "options": [
+          "Una pista de atletismo",
+          "Una pista de hielo",
+          "Un ring",
+          "Un tatami"
+        ],
+        "explanation": "El disco, de caucho endurecido, vuela a veces a más de ciento cincuenta kilómetros por hora en un disparo potente."
+      }
+    }
+  },
+  {
+    "sourceRef": "05264cf61450ceec",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument à vent tout en longueur se joue en bouchant des trous, et compte parmi les plus anciens du monde ?",
+        "options": [
+          "La flûte",
+          "Le tuba",
+          "La clarinette",
+          "Le cor"
+        ],
+        "explanation": "On en a retrouvé, taillées dans des os d'oiseau ou d'animal, vieilles de plus de trente mille ans."
+      },
+      "en": {
+        "text": "Which long wind instrument is played by covering holes, and is among the oldest in the world?",
+        "options": [
+          "The flute",
+          "The tuba",
+          "The clarinet",
+          "The horn"
+        ],
+        "explanation": "Some, carved from bird or animal bone, have been found that are more than thirty thousand years old."
+      },
+      "es": {
+        "text": "¿Qué instrumento de viento alargado se toca tapando agujeros, y es de los más antiguos del mundo?",
+        "options": [
+          "La flauta",
+          "La tuba",
+          "El clarinete",
+          "La trompa"
+        ],
+        "explanation": "Se han hallado algunas, talladas en hueso de ave o de animal, de más de treinta mil años."
+      }
+    }
+  },
+  {
+    "sourceRef": "cc5ac7f3792ac9e4",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument à clavier de l'époque baroque, ancêtre du piano, pince les cordes au lieu de les frapper ?",
+        "options": [
+          "L'orgue",
+          "Le clavecin",
+          "Le célesta",
+          "L'harmonium"
+        ],
+        "explanation": "Impossible d'y jouer plus ou moins fort selon la force du doigt : cette limite poussa plus tard à inventer le piano, capable de nuances."
+      },
+      "en": {
+        "text": "Which Baroque keyboard instrument, an ancestor of the piano, plucks the strings instead of striking them?",
+        "options": [
+          "The organ",
+          "The harpsichord",
+          "The celesta",
+          "The harmonium"
+        ],
+        "explanation": "You cannot play louder or softer by pressing harder: this limit later spurred the invention of the piano, capable of dynamics."
+      },
+      "es": {
+        "text": "¿Qué instrumento de teclado de la época barroca, antepasado del piano, pulsa las cuerdas en vez de golpearlas?",
+        "options": [
+          "El órgano",
+          "El clavecín",
+          "La celesta",
+          "El armonio"
+        ],
+        "explanation": "No se puede tocar más o menos fuerte según la fuerza del dedo: esa limitación impulsó luego a inventar el piano, capaz de matices."
+      }
+    }
+  },
+  {
+    "sourceRef": "204b190523a99637",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle note de musique vient juste après « do » dans la gamme ?",
+        "options": [
+          "Fa",
+          "Si",
+          "Ré",
+          "Mi"
+        ],
+        "explanation": "Les noms des notes viennent des premières syllabes d'un chant latin ancien ; « do » y remplaça plus tard le « ut » d'origine."
+      },
+      "en": {
+        "text": "Which musical note comes right after 'do' in the scale?",
+        "options": [
+          "Fa",
+          "Ti",
+          "Re",
+          "Mi"
+        ],
+        "explanation": "The names of the notes come from the first syllables of an old Latin hymn; 'do' later replaced the original 'ut'."
+      },
+      "es": {
+        "text": "¿Qué nota musical viene justo después de 'do' en la escala?",
+        "options": [
+          "Fa",
+          "Si",
+          "Re",
+          "Mi"
+        ],
+        "explanation": "Los nombres de las notas vienen de las primeras sílabas de un antiguo himno latino; 'do' sustituyó después al 'ut' original."
+      }
+    }
+  },
+  {
+    "sourceRef": "048d2f490712f39b",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle voix de femme, la plus aiguë, tient souvent le rôle principal dans un opéra ?",
+        "options": [
+          "L'alto",
+          "Le ténor",
+          "La basse",
+          "La soprano"
+        ],
+        "explanation": "Certaines atteignent des notes si hautes qu'on les surnomme « colorature » ; leurs vocalises acrobatiques font partie des moments les plus attendus."
+      },
+      "en": {
+        "text": "Which highest female voice often takes the leading role in an opera?",
+        "options": [
+          "The alto",
+          "The tenor",
+          "The bass",
+          "The soprano"
+        ],
+        "explanation": "Some reach notes so high they are called 'coloratura'; their acrobatic runs are among the most eagerly awaited moments."
+      },
+      "es": {
+        "text": "¿Qué voz femenina, la más aguda, suele tener el papel principal en una ópera?",
+        "options": [
+          "La contralto",
+          "El tenor",
+          "El bajo",
+          "La soprano"
+        ],
+        "explanation": "Algunas alcanzan notas tan altas que se las llama 'de coloratura'; sus acrobáticas vocalizaciones están entre los momentos más esperados."
+      }
+    }
+  },
+  {
+    "sourceRef": "60fb3599e55a0aee",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle voix d'homme se situe entre le ténor, aigu, et la basse, grave ?",
+        "options": [
+          "Le baryton",
+          "Le contre-ténor",
+          "L'alto",
+          "Le soprano"
+        ],
+        "explanation": "C'est la tessiture masculine la plus répandue ; beaucoup de chanteurs de variété y trouvent naturellement leur voix."
+      },
+      "en": {
+        "text": "Which male voice lies between the high tenor and the low bass?",
+        "options": [
+          "The baritone",
+          "The countertenor",
+          "The alto",
+          "The soprano"
+        ],
+        "explanation": "It is the most common male range; many popular singers naturally find their voice there."
+      },
+      "es": {
+        "text": "¿Qué voz masculina se sitúa entre el tenor, agudo, y el bajo, grave?",
+        "options": [
+          "El barítono",
+          "El contratenor",
+          "La contralto",
+          "El soprano"
+        ],
+        "explanation": "Es la tesitura masculina más común; muchos cantantes de música popular encuentran allí de forma natural su voz."
+      }
+    }
+  },
+  {
+    "sourceRef": "c045e40ff0d4cdf0",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur allemand écrivit le colossal cycle d'opéras « L'Anneau du Nibelung » ?",
+        "options": [
+          "Johannes Brahms",
+          "Richard Wagner",
+          "Anton Bruckner",
+          "Richard Strauss"
+        ],
+        "explanation": "Il fit bâtir un théâtre sur mesure pour ses œuvres, dont la fosse d'orchestre cachée plonge la salle dans une pénombre totale."
+      },
+      "en": {
+        "text": "Which German composer wrote the colossal opera cycle 'The Ring of the Nibelung'?",
+        "options": [
+          "Johannes Brahms",
+          "Richard Wagner",
+          "Anton Bruckner",
+          "Richard Strauss"
+        ],
+        "explanation": "He had a theatre built to measure for his works, its hidden orchestra pit plunging the hall into total gloom."
+      },
+      "es": {
+        "text": "¿Qué compositor alemán escribió el colosal ciclo de óperas 'El anillo del nibelungo'?",
+        "options": [
+          "Johannes Brahms",
+          "Richard Wagner",
+          "Anton Bruckner",
+          "Richard Strauss"
+        ],
+        "explanation": "Mandó construir un teatro a medida para sus obras, con un foso de orquesta oculto que sume la sala en una penumbra total."
+      }
+    }
+  },
+  {
+    "sourceRef": "beac03bce8a56219",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel compositeur italien signa les opéras « La Bohème » et « Madame Butterfly » ?",
+        "options": [
+          "Gioachino Rossini",
+          "Gaetano Donizetti",
+          "Giacomo Puccini",
+          "Vincenzo Bellini"
+        ],
+        "explanation": "Il mourut avant d'avoir achevé son dernier opéra ; lors de la première, le chef s'arrêta là où s'était arrêtée la plume du maître."
+      },
+      "en": {
+        "text": "Which Italian composer wrote the operas 'La Bohème' and 'Madama Butterfly'?",
+        "options": [
+          "Gioachino Rossini",
+          "Gaetano Donizetti",
+          "Giacomo Puccini",
+          "Vincenzo Bellini"
+        ],
+        "explanation": "He died before finishing his last opera; at the premiere, the conductor stopped where the master's pen had stopped."
+      },
+      "es": {
+        "text": "¿Qué compositor italiano firmó las óperas 'La Bohème' y 'Madama Butterfly'?",
+        "options": [
+          "Gioachino Rossini",
+          "Gaetano Donizetti",
+          "Giacomo Puccini",
+          "Vincenzo Bellini"
+        ],
+        "explanation": "Murió antes de terminar su última ópera; en el estreno, el director se detuvo donde se había detenido la pluma del maestro."
+      }
+    }
+  },
+  {
+    "sourceRef": "65268889b57242d0",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel grand instrument à tuyaux, souvent installé dans les églises, se joue avec les mains et les pieds ?",
+        "options": [
+          "Le piano",
+          "Le clavecin",
+          "L'harmonium",
+          "L'orgue"
+        ],
+        "explanation": "Certains, immenses, comptent des milliers de tuyaux, du plus petit comme un crayon au plus grand comme un tronc d'arbre."
+      },
+      "en": {
+        "text": "Which large pipe instrument, often installed in churches, is played with both hands and feet?",
+        "options": [
+          "The piano",
+          "The harpsichord",
+          "The harmonium",
+          "The organ"
+        ],
+        "explanation": "Some huge ones have thousands of pipes, from the smallest like a pencil to the largest like a tree trunk."
+      },
+      "es": {
+        "text": "¿Qué gran instrumento de tubos, instalado a menudo en las iglesias, se toca con las manos y los pies?",
+        "options": [
+          "El piano",
+          "El clavecín",
+          "El armonio",
+          "El órgano"
+        ],
+        "explanation": "Algunos, enormes, tienen miles de tubos, del más pequeño como un lápiz al más grande como un tronco de árbol."
+      }
+    }
+  },
+  {
+    "sourceRef": "707bb4639758f6a0",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel terme italien indique, sur une partition, d'accélérer progressivement le tempo ?",
+        "options": [
+          "Accelerando",
+          "Rallentando",
+          "Legato",
+          "Pianissimo"
+        ],
+        "explanation": "En musique, presque toutes ces indications sont en italien, héritage des compositeurs de la péninsule qui codifièrent l'écriture des nuances."
+      },
+      "en": {
+        "text": "Which Italian term on a score means to gradually speed up the tempo?",
+        "options": [
+          "Accelerando",
+          "Rallentando",
+          "Legato",
+          "Pianissimo"
+        ],
+        "explanation": "In music, almost all such markings are in Italian, a legacy of the peninsula's composers who codified how to write dynamics."
+      },
+      "es": {
+        "text": "¿Qué término italiano indica, en una partitura, acelerar progresivamente el tempo?",
+        "options": [
+          "Accelerando",
+          "Rallentando",
+          "Legato",
+          "Pianissimo"
+        ],
+        "explanation": "En música, casi todas estas indicaciones están en italiano, herencia de los compositores de la península que codificaron la escritura de los matices."
+      }
+    }
+  },
+  {
+    "sourceRef": "1d7b9ad34cf1da03",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel terme italien indique de jouer les notes de façon détachée et piquée, sans les lier ?",
+        "options": [
+          "Legato",
+          "Staccato",
+          "Crescendo",
+          "Forte"
+        ],
+        "explanation": "Il se note par un petit point au-dessus de chaque note : l'exécutant doit alors les rendre brèves, comme des gouttes détachées."
+      },
+      "en": {
+        "text": "Which Italian term means to play notes short and detached, without joining them?",
+        "options": [
+          "Legato",
+          "Staccato",
+          "Crescendo",
+          "Forte"
+        ],
+        "explanation": "It is marked by a small dot above each note: the player must then make them brief, like separate droplets."
+      },
+      "es": {
+        "text": "¿Qué término italiano indica tocar las notas de forma separada y picada, sin ligarlas?",
+        "options": [
+          "Legato",
+          "Staccato",
+          "Crescendo",
+          "Forte"
+        ],
+        "explanation": "Se marca con un puntito encima de cada nota: el intérprete debe hacerlas breves, como gotas sueltas."
+      }
+    }
+  },
+  {
+    "sourceRef": "8440c8e49a70fee0",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel terme italien indique de jouer les notes liées entre elles, sans les détacher ?",
+        "options": [
+          "Staccato",
+          "Pizzicato",
+          "Legato",
+          "Sforzando"
+        ],
+        "explanation": "Sur la partition, un trait courbe relie les notes concernées, invitant à les enchaîner d'un même souffle ou d'un même coup d'archet."
+      },
+      "en": {
+        "text": "Which Italian term means to play notes smoothly joined, without detaching them?",
+        "options": [
+          "Staccato",
+          "Pizzicato",
+          "Legato",
+          "Sforzando"
+        ],
+        "explanation": "On the score a curved line links the notes concerned, inviting the player to run them together in one breath or bow stroke."
+      },
+      "es": {
+        "text": "¿Qué término italiano indica tocar las notas ligadas entre sí, sin separarlas?",
+        "options": [
+          "Staccato",
+          "Pizzicato",
+          "Legato",
+          "Sforzando"
+        ],
+        "explanation": "En la partitura una línea curva une las notas afectadas, invitando a encadenarlas en un mismo aliento o golpe de arco."
+      }
+    }
+  },
+  {
+    "sourceRef": "56189a862be52c30",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un ensemble de trois musiciens jouant ensemble ?",
+        "options": [
+          "Un duo",
+          "Un quatuor",
+          "Un quintette",
+          "Un trio"
+        ],
+        "explanation": "Le trio pour piano, violon et violoncelle est l'une des formations les plus riches de la musique de chambre."
+      },
+      "en": {
+        "text": "What do you call a group of three musicians playing together?",
+        "options": [
+          "A duo",
+          "A quartet",
+          "A quintet",
+          "A trio"
+        ],
+        "explanation": "The piano trio, for piano, violin and cello, is one of the richest line-ups in chamber music."
+      },
+      "es": {
+        "text": "¿Cómo se llama un conjunto de tres músicos que tocan juntos?",
+        "options": [
+          "Un dúo",
+          "Un cuarteto",
+          "Un quinteto",
+          "Un trío"
+        ],
+        "explanation": "El trío para piano, violín y violonchelo es una de las formaciones más ricas de la música de cámara."
+      }
+    }
+  },
+  {
+    "sourceRef": "3035f67b78a2fee4",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel signe, placé au début d'une portée, fixe la hauteur des notes qui vont suivre ?",
+        "options": [
+          "La clé",
+          "La croche",
+          "Le dièse",
+          "Le soupir"
+        ],
+        "explanation": "La plus courante, la clé de sol, dessine une élégante spirale dont le centre indique justement où se trouve la note « sol »."
+      },
+      "en": {
+        "text": "Which sign, placed at the start of a staff, sets the pitch of the notes that follow?",
+        "options": [
+          "The clef",
+          "The quaver",
+          "The sharp",
+          "The rest"
+        ],
+        "explanation": "The most common, the treble clef, draws an elegant spiral whose centre marks exactly where the note 'G' lies."
+      },
+      "es": {
+        "text": "¿Qué signo, colocado al inicio de un pentagrama, fija la altura de las notas que siguen?",
+        "options": [
+          "La clave",
+          "La corchea",
+          "El sostenido",
+          "El silencio"
+        ],
+        "explanation": "La más común, la clave de sol, dibuja una elegante espiral cuyo centro marca justamente dónde está la nota 'sol'."
+      }
+    }
+  },
+  {
+    "sourceRef": "6a70aff7a0f4719e",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel signe musical, en forme de croisillon, élève une note d'un demi-ton ?",
+        "options": [
+          "Le bémol",
+          "Le dièse",
+          "Le bécarre",
+          "Le soupir"
+        ],
+        "explanation": "Le symbole informatique du « hashtag » lui ressemble beaucoup, au point qu'on les confond parfois, bien qu'ils soient légèrement différents."
+      },
+      "en": {
+        "text": "Which musical sign, shaped like a lattice, raises a note by a semitone?",
+        "options": [
+          "The flat",
+          "The sharp",
+          "The natural",
+          "The rest"
+        ],
+        "explanation": "The computer 'hashtag' symbol looks much like it, so much so that they are sometimes confused, though they differ slightly."
+      },
+      "es": {
+        "text": "¿Qué signo musical, en forma de rejilla, sube una nota un semitono?",
+        "options": [
+          "El bemol",
+          "El sostenido",
+          "El becuadro",
+          "El silencio"
+        ],
+        "explanation": "El símbolo informático del 'hashtag' se le parece mucho, hasta el punto de confundirse a veces, aunque difieren ligeramente."
+      }
+    }
+  },
+  {
+    "sourceRef": "a33d2d8ec73f75ca",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel signe musical abaisse une note d'un demi-ton ?",
+        "options": [
+          "Le dièse",
+          "Le bécarre",
+          "Le bémol",
+          "Le point d'orgue"
+        ],
+        "explanation": "Sa forme arrondie rappelle un « b » ; il vient d'ailleurs de l'ancienne notation d'un si « mou », par opposition à un si « dur »."
+      },
+      "en": {
+        "text": "Which musical sign lowers a note by a semitone?",
+        "options": [
+          "The sharp",
+          "The natural",
+          "The flat",
+          "The fermata"
+        ],
+        "explanation": "Its rounded shape recalls a 'b'; it in fact comes from the old notation of a 'soft' B, as opposed to a 'hard' one."
+      },
+      "es": {
+        "text": "¿Qué signo musical baja una nota un semitono?",
+        "options": [
+          "El sostenido",
+          "El becuadro",
+          "El bemol",
+          "El calderón"
+        ],
+        "explanation": "Su forma redondeada recuerda una 'b'; procede de hecho de la antigua notación de un si 'blando', frente a uno 'duro'."
+      }
+    }
+  },
+  {
+    "sourceRef": "18a8442e0e5e5aeb",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel style musical jamaïcain, au rythme balancé, fut popularisé dans le monde par Bob Marley ?",
+        "options": [
+          "Le ska",
+          "Le calypso",
+          "La salsa",
+          "Le reggae"
+        ],
+        "explanation": "Sa guitare joue à contretemps, sur le deuxième et le quatrième temps, ce qui donne à cette musique son balancement si reconnaissable."
+      },
+      "en": {
+        "text": "Which Jamaican musical style, with its swaying rhythm, was made famous worldwide by Bob Marley?",
+        "options": [
+          "Ska",
+          "Calypso",
+          "Salsa",
+          "Reggae"
+        ],
+        "explanation": "Its guitar plays off the beat, on the second and fourth counts, which gives this music its unmistakable sway."
+      },
+      "es": {
+        "text": "¿Qué estilo musical jamaicano, de ritmo cadencioso, popularizó en el mundo Bob Marley?",
+        "options": [
+          "El ska",
+          "El calipso",
+          "La salsa",
+          "El reggae"
+        ],
+        "explanation": "Su guitarra toca a contratiempo, en el segundo y cuarto tiempo, lo que da a esta música su balanceo tan reconocible."
+      }
+    }
+  },
+  {
+    "sourceRef": "daf350f8ef5d3d22",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel chanteur britannique, au piano et aux lunettes extravagantes, interpréta « Rocket Man » ?",
+        "options": [
+          "Elton John",
+          "David Bowie",
+          "Rod Stewart",
+          "Phil Collins"
+        ],
+        "explanation": "Il porta, dit-on, plus de mille paires de lunettes différentes sur scène, dont certaines s'allumaient ou affichaient son nom."
+      },
+      "en": {
+        "text": "Which British singer, at the piano and in extravagant glasses, performed 'Rocket Man'?",
+        "options": [
+          "Elton John",
+          "David Bowie",
+          "Rod Stewart",
+          "Phil Collins"
+        ],
+        "explanation": "He wore, it is said, more than a thousand different pairs of glasses on stage, some of which lit up or spelled out his name."
+      },
+      "es": {
+        "text": "¿Qué cantante británico, al piano y con gafas extravagantes, interpretó 'Rocket Man'?",
+        "options": [
+          "Elton John",
+          "David Bowie",
+          "Rod Stewart",
+          "Phil Collins"
+        ],
+        "explanation": "Llevó, según se dice, más de mil pares de gafas distintas en escena, algunas de las cuales se encendían o mostraban su nombre."
+      }
+    }
+  },
+  {
+    "sourceRef": "9c76d71339997572",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument à cordes, le plus grand et le plus grave de la famille des cordes frottées, se joue debout ?",
+        "options": [
+          "Le violoncelle",
+          "La contrebasse",
+          "L'alto",
+          "La harpe"
+        ],
+        "explanation": "En jazz, on la pince souvent avec les doigts plutôt qu'avec l'archet, pour marquer la pulsation grave qui fait danser le morceau."
+      },
+      "en": {
+        "text": "Which string instrument, the largest and lowest of the bowed strings, is played standing up?",
+        "options": [
+          "The cello",
+          "The double bass",
+          "The viola",
+          "The harp"
+        ],
+        "explanation": "In jazz it is often plucked with the fingers rather than bowed, to mark the deep pulse that makes the piece swing."
+      },
+      "es": {
+        "text": "¿Qué instrumento de cuerda, el mayor y más grave de la familia de cuerda frotada, se toca de pie?",
+        "options": [
+          "El violonchelo",
+          "El contrabajo",
+          "La viola",
+          "El arpa"
+        ],
+        "explanation": "En el jazz se pulsa a menudo con los dedos en vez de con el arco, para marcar el pulso grave que hace bailar el tema."
+      }
+    }
+  },
+  {
+    "sourceRef": "c45c9e805af2b8b6",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument à soufflet, cousin de l'accordéon, donne au tango argentin son âme mélancolique ?",
+        "options": [
+          "L'harmonica",
+          "L'orgue",
+          "Le bandonéon",
+          "La cornemuse"
+        ],
+        "explanation": "Conçu à l'origine en Allemagne pour accompagner les offices religieux, il traversa l'océan pour devenir l'âme des cabarets de Buenos Aires."
+      },
+      "en": {
+        "text": "Which bellows instrument, a cousin of the accordion, gives the Argentine tango its melancholy soul?",
+        "options": [
+          "The harmonica",
+          "The organ",
+          "The bandoneon",
+          "The bagpipes"
+        ],
+        "explanation": "Originally made in Germany to accompany church services, it crossed the ocean to become the soul of Buenos Aires cabarets."
+      },
+      "es": {
+        "text": "¿Qué instrumento de fuelle, primo del acordeón, da al tango argentino su alma melancólica?",
+        "options": [
+          "La armónica",
+          "El órgano",
+          "El bandoneón",
+          "La gaita"
+        ],
+        "explanation": "Creado en origen en Alemania para acompañar oficios religiosos, cruzó el océano para volverse el alma de los cabarés de Buenos Aires."
+      }
+    }
+  },
+  {
+    "sourceRef": "60f5254887f862af",
+    "type": "qcm",
+    "theme": "musique",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel objet, oscillant à un rythme réglable, aide les musiciens à garder un tempo régulier ?",
+        "options": [
+          "Le diapason",
+          "L'archet",
+          "La baguette",
+          "Le métronome"
+        ],
+        "explanation": "Le premier modèle mécanique, à balancier, fut breveté au début du XIXᵉ siècle ; son tic-tac obstiné agace autant qu'il rend service."
+      },
+      "en": {
+        "text": "Which device, ticking at an adjustable rate, helps musicians keep a steady tempo?",
+        "options": [
+          "The tuning fork",
+          "The bow",
+          "The baton",
+          "The metronome"
+        ],
+        "explanation": "The first mechanical model, with a pendulum, was patented in the early 19th century; its stubborn ticking annoys as much as it helps."
+      },
+      "es": {
+        "text": "¿Qué objeto, que oscila a un ritmo ajustable, ayuda a los músicos a mantener un tempo regular?",
+        "options": [
+          "El diapasón",
+          "El arco",
+          "La batuta",
+          "El metrónomo"
+        ],
+        "explanation": "El primer modelo mecánico, de péndulo, se patentó a principios del siglo XIX; su tictac obstinado molesta tanto como ayuda."
+      }
+    }
+  },
+  {
+    "sourceRef": "5ad81a6c135a1a57",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle grande encyclopédie en ligne, écrite par des bénévoles, est consultable gratuitement dans des centaines de langues ?",
+        "explanation": "N'importe qui peut y corriger une page, ce qui la rend à la fois vivante et parfois imparfaite ; une armée de bénévoles veille sur son exactitude.",
+        "options": [
+          "Wikipédia",
+          "Google",
+          "Firefox",
+          "Windows"
+        ]
+      },
+      "en": {
+        "text": "Which large online encyclopaedia, written by volunteers, is freely available in hundreds of languages?",
+        "explanation": "Anyone can correct a page, which makes it both alive and sometimes imperfect; an army of volunteers watches over its accuracy.",
+        "options": [
+          "Wikipedia",
+          "Google",
+          "Firefox",
+          "Windows"
+        ]
+      },
+      "es": {
+        "text": "¿Qué gran enciclopedia en línea, escrita por voluntarios, se consulta gratis en cientos de lenguas?",
+        "explanation": "Cualquiera puede corregir una página, lo que la hace viva y a veces imperfecta; un ejército de voluntarios vela por su exactitud.",
+        "options": [
+          "Wikipedia",
+          "Google",
+          "Firefox",
+          "Windows"
+        ]
+      }
+    }
+  },
+  {
+    "sourceRef": "c4f5cbf1a98c9eb3",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel navigateur web à l'icône de renard de feu enroulé autour du globe est développé par Mozilla ?",
+        "options": [
+          "Chrome",
+          "Firefox",
+          "Safari",
+          "Edge"
+        ],
+        "explanation": "Il est libre et gratuit : chacun peut examiner son code, une philosophie d'ouverture rare chez les logiciels grand public."
+      },
+      "en": {
+        "text": "Which web browser, with an icon of a fiery fox wrapped around the globe, is developed by Mozilla?",
+        "options": [
+          "Chrome",
+          "Firefox",
+          "Safari",
+          "Edge"
+        ],
+        "explanation": "It is free and open: anyone can inspect its code, a philosophy of openness rare among mainstream software."
+      },
+      "es": {
+        "text": "¿Qué navegador web, con un icono de zorro de fuego enroscado al globo, desarrolla Mozilla?",
+        "options": [
+          "Chrome",
+          "Firefox",
+          "Safari",
+          "Edge"
+        ],
+        "explanation": "Es libre y gratuito: cualquiera puede examinar su código, una filosofía de apertura rara en el software de gran público."
+      }
+    }
+  },
+  {
+    "sourceRef": "d1251093233bc64d",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel navigateur web, très répandu dans le monde, est développé par Google ?",
+        "options": [
+          "Firefox",
+          "Opera",
+          "Chrome",
+          "Safari"
+        ],
+        "explanation": "Son nom, qui signifie « chrome » en anglais, désigne aussi l'habillage autour d'une fenêtre : ici, il se veut le plus discret possible."
+      },
+      "en": {
+        "text": "Which web browser, very widely used worldwide, is developed by Google?",
+        "options": [
+          "Firefox",
+          "Opera",
+          "Chrome",
+          "Safari"
+        ],
+        "explanation": "Its name also means the framing around a window: here, it aims to be as unobtrusive as possible."
+      },
+      "es": {
+        "text": "¿Qué navegador web, muy extendido en el mundo, desarrolla Google?",
+        "options": [
+          "Firefox",
+          "Opera",
+          "Chrome",
+          "Safari"
+        ],
+        "explanation": "Su nombre designa también el marco alrededor de una ventana: aquí, pretende ser lo más discreto posible."
+      }
+    }
+  },
+  {
+    "sourceRef": "3912f6ae9f07bfa7",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on l'adresse unique d'un site, tapée dans la barre du navigateur, comme « www.exemple.com » ?",
+        "options": [
+          "Le pixel",
+          "Le cache",
+          "Le cookie",
+          "L'URL"
+        ],
+        "explanation": "Derrière ces mots familiers se cache une suite de chiffres, l'adresse réelle du serveur, qu'un annuaire du réseau traduit pour nous."
+      },
+      "en": {
+        "text": "What do you call a site's unique address, typed into the browser bar, like 'www.example.com'?",
+        "options": [
+          "The pixel",
+          "The cache",
+          "The cookie",
+          "The URL"
+        ],
+        "explanation": "Behind these familiar words hides a string of numbers, the server's real address, which a network directory translates for us."
+      },
+      "es": {
+        "text": "¿Cómo se llama la dirección única de un sitio, escrita en la barra del navegador, como 'www.ejemplo.com'?",
+        "options": [
+          "El píxel",
+          "La caché",
+          "La cookie",
+          "La URL"
+        ],
+        "explanation": "Tras estas palabras familiares se oculta una serie de números, la dirección real del servidor, que un directorio de la red traduce por nosotros."
+      }
+    }
+  },
+  {
+    "sourceRef": "46651947f9a0eb42",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Que désigne le sigle « IA », employé pour les machines qui imitent certaines capacités de l'esprit humain ?",
+        "options": [
+          "Intelligence artificielle",
+          "Information avancée",
+          "Interface active",
+          "Interaction automatique"
+        ],
+        "explanation": "L'expression fut forgée lors d'une célèbre conférence d'été en 1956, où quelques chercheurs pensaient résoudre le problème en quelques semaines."
+      },
+      "en": {
+        "text": "What does the abbreviation 'AI' stand for, used for machines that imitate certain powers of the human mind?",
+        "options": [
+          "Artificial intelligence",
+          "Advanced information",
+          "Active interface",
+          "Automatic interaction"
+        ],
+        "explanation": "The term was coined at a famous summer conference in 1956, where a few researchers thought they would crack the problem in weeks."
+      },
+      "es": {
+        "text": "¿Qué designa la sigla 'IA', empleada para las máquinas que imitan ciertas capacidades de la mente humana?",
+        "options": [
+          "Inteligencia artificial",
+          "Información avanzada",
+          "Interfaz activa",
+          "Interacción automática"
+        ],
+        "explanation": "El término se acuñó en una célebre conferencia de verano en 1956, donde unos investigadores creían resolver el problema en unas semanas."
+      }
+    }
+  },
+  {
+    "sourceRef": "6a0dbeb128890568",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel réseau social de partage de photos, racheté par Facebook, popularisa les filtres et les « stories » ?",
+        "options": [
+          "Pinterest",
+          "Instagram",
+          "Flickr",
+          "Tumblr"
+        ],
+        "explanation": "À ses débuts, toutes les photos y étaient carrées, un clin d'œil aux vieux appareils photo instantanés qu'évoque déjà son logo."
+      },
+      "en": {
+        "text": "Which photo-sharing social network, bought by Facebook, popularised filters and 'stories'?",
+        "options": [
+          "Pinterest",
+          "Instagram",
+          "Flickr",
+          "Tumblr"
+        ],
+        "explanation": "At the start all its photos were square, a nod to the old instant cameras that its very logo recalls."
+      },
+      "es": {
+        "text": "¿Qué red social para compartir fotos, comprada por Facebook, popularizó los filtros y las 'stories'?",
+        "options": [
+          "Pinterest",
+          "Instagram",
+          "Flickr",
+          "Tumblr"
+        ],
+        "explanation": "Al principio todas sus fotos eran cuadradas, un guiño a las viejas cámaras instantáneas que ya evoca su logotipo."
+      }
+    }
+  },
+  {
+    "sourceRef": "62c3fbc4c47fb863",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel objet, posé dans le salon, commande la musique ou la lumière de la maison à la voix ?",
+        "options": [
+          "L'imprimante",
+          "Le clavier",
+          "L'enceinte connectée",
+          "La webcam"
+        ],
+        "explanation": "Toujours à l'écoute d'un mot déclencheur, elle a soulevé des débats sur la vie privée : que fait-elle des sons captés dans nos foyers ?"
+      },
+      "en": {
+        "text": "Which device, sitting in the living room, controls the home's music or lights by voice?",
+        "options": [
+          "The printer",
+          "The keyboard",
+          "The smart speaker",
+          "The webcam"
+        ],
+        "explanation": "Always listening for a wake word, it has stirred debates on privacy: what does it do with the sounds caught in our homes?"
+      },
+      "es": {
+        "text": "¿Qué objeto, colocado en el salón, controla la música o la luz de la casa con la voz?",
+        "options": [
+          "La impresora",
+          "El teclado",
+          "El altavoz inteligente",
+          "La webcam"
+        ],
+        "explanation": "Siempre atento a una palabra clave, ha suscitado debates sobre la privacidad: ¿qué hace con los sonidos captados en nuestros hogares?"
+      }
+    }
+  },
+  {
+    "sourceRef": "6084aec8c9ae4fd3",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on l'ensemble des objets du quotidien connectés à internet : montres, thermostats, ampoules ?",
+        "options": [
+          "Le cloud",
+          "Le métavers",
+          "Le darknet",
+          "L'internet des objets"
+        ],
+        "explanation": "On imagine déjà des réfrigérateurs qui commandent seuls les courses, mais chaque objet connecté est aussi une porte de plus pour les pirates."
+      },
+      "en": {
+        "text": "What do you call the collection of everyday objects connected to the internet: watches, thermostats, bulbs?",
+        "options": [
+          "The cloud",
+          "The metaverse",
+          "The darknet",
+          "The Internet of Things"
+        ],
+        "explanation": "People already imagine fridges that order the groceries themselves, but every connected object is also one more door for hackers."
+      },
+      "es": {
+        "text": "¿Cómo se llama el conjunto de objetos cotidianos conectados a internet: relojes, termostatos, bombillas?",
+        "options": [
+          "La nube",
+          "El metaverso",
+          "La darknet",
+          "El internet de las cosas"
+        ],
+        "explanation": "Ya se imaginan neveras que hacen solas la compra, pero cada objeto conectado es también una puerta más para los piratas."
+      }
+    }
+  },
+  {
+    "sourceRef": "7c320c465db0563b",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on la technologie qui superpose des images virtuelles au monde réel, vu à travers un téléphone ?",
+        "options": [
+          "La réalité augmentée",
+          "La réalité virtuelle",
+          "L'hologramme",
+          "Le clonage"
+        ],
+        "explanation": "Un jeu où l'on chassait des créatures virtuelles dans les rues en fit soudain une technologie connue de tous, poussant les foules dehors."
+      },
+      "en": {
+        "text": "What do you call the technology that overlays virtual images onto the real world, seen through a phone?",
+        "options": [
+          "Augmented reality",
+          "Virtual reality",
+          "The hologram",
+          "Cloning"
+        ],
+        "explanation": "A game of chasing virtual creatures through the streets suddenly made it a technology known to all, sending crowds outdoors."
+      },
+      "es": {
+        "text": "¿Cómo se llama la tecnología que superpone imágenes virtuales al mundo real, visto a través de un teléfono?",
+        "options": [
+          "La realidad aumentada",
+          "La realidad virtual",
+          "El holograma",
+          "La clonación"
+        ],
+        "explanation": "Un juego de cazar criaturas virtuales por las calles la convirtió de golpe en una tecnología conocida por todos, sacando a la gente a la calle."
+      }
+    }
+  },
+  {
+    "sourceRef": "5361d5dfe66fc711",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on la copie de sécurité de ses fichiers, réalisée en cas de panne ou de perte ?",
+        "options": [
+          "Le formatage",
+          "La sauvegarde",
+          "Le chiffrement",
+          "La compression"
+        ],
+        "explanation": "La règle des professionnels tient en trois nombres : trois copies, sur deux supports différents, dont une conservée ailleurs."
+      },
+      "en": {
+        "text": "What do you call the security copy of your files, made in case of failure or loss?",
+        "options": [
+          "Formatting",
+          "The backup",
+          "Encryption",
+          "Compression"
+        ],
+        "explanation": "The professionals' rule is three numbers: three copies, on two different media, one of them kept somewhere else."
+      },
+      "es": {
+        "text": "¿Cómo se llama la copia de seguridad de los archivos, hecha por si hay avería o pérdida?",
+        "options": [
+          "El formateo",
+          "La copia de seguridad",
+          "El cifrado",
+          "La compresión"
+        ],
+        "explanation": "La regla de los profesionales cabe en tres números: tres copias, en dos soportes distintos, una de ellas guardada en otro lugar."
+      }
+    }
+  },
+  {
+    "sourceRef": "6ab5872b5f01e307",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel appareil photographie un document papier pour le transformer en fichier numérique ?",
+        "options": [
+          "Le routeur",
+          "Le clavier",
+          "Le scanner",
+          "Le haut-parleur"
+        ],
+        "explanation": "Une barre lumineuse glisse le long de la feuille, ligne par ligne, comme un œil qui lirait la page pour la recopier en mémoire."
+      },
+      "en": {
+        "text": "Which device photographs a paper document to turn it into a digital file?",
+        "options": [
+          "The router",
+          "The keyboard",
+          "The scanner",
+          "The loudspeaker"
+        ],
+        "explanation": "A bar of light glides down the sheet, line by line, like an eye reading the page to copy it into memory."
+      },
+      "es": {
+        "text": "¿Qué aparato fotografía un documento en papel para convertirlo en un archivo digital?",
+        "options": [
+          "El router",
+          "El teclado",
+          "El escáner",
+          "El altavoz"
+        ],
+        "explanation": "Una barra de luz se desliza por la hoja, línea a línea, como un ojo que leyera la página para copiarla en la memoria."
+      }
+    }
+  },
+  {
+    "sourceRef": "1096c29f1fc8cd7e",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel format de fichier compressé regroupe plusieurs documents dans une seule archive plus légère ?",
+        "options": [
+          "Le PDF",
+          "Le MP4",
+          "Le TXT",
+          "Le ZIP"
+        ],
+        "explanation": "Il repère les répétitions dans les données et les note une seule fois, un peu comme abréger un long texte sans en perdre le sens."
+      },
+      "en": {
+        "text": "Which compressed file format bundles several documents into a single, lighter archive?",
+        "options": [
+          "PDF",
+          "MP4",
+          "TXT",
+          "ZIP"
+        ],
+        "explanation": "It spots repetitions in the data and records them just once, rather like shortening a long text without losing its meaning."
+      },
+      "es": {
+        "text": "¿Qué formato de archivo comprimido reúne varios documentos en un solo fichero más ligero?",
+        "options": [
+          "El PDF",
+          "El MP4",
+          "El TXT",
+          "El ZIP"
+        ],
+        "explanation": "Detecta las repeticiones en los datos y las anota una sola vez, algo así como abreviar un texto largo sin perder su sentido."
+      }
+    }
+  },
+  {
+    "sourceRef": "323973e38ca79711",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un logiciel qui protège l'ordinateur en filtrant les connexions entrantes et sortantes ?",
+        "options": [
+          "Le pare-feu",
+          "Le navigateur",
+          "Le tableur",
+          "Le lecteur"
+        ],
+        "explanation": "Son nom, emprunté aux murs coupe-feu des bâtiments, dit bien son rôle : dresser une barrière contre ce qui menace de se propager."
+      },
+      "en": {
+        "text": "What do you call software that protects the computer by filtering incoming and outgoing connections?",
+        "options": [
+          "The firewall",
+          "The browser",
+          "The spreadsheet",
+          "The media player"
+        ],
+        "explanation": "Its name, borrowed from the fire walls of buildings, says its role well: to raise a barrier against what threatens to spread."
+      },
+      "es": {
+        "text": "¿Cómo se llama un programa que protege el ordenador filtrando las conexiones entrantes y salientes?",
+        "options": [
+          "El cortafuegos",
+          "El navegador",
+          "La hoja de cálculo",
+          "El reproductor"
+        ],
+        "explanation": "Su nombre, tomado de los muros cortafuegos de los edificios, dice bien su papel: alzar una barrera contra lo que amenaza con propagarse."
+      }
+    }
+  },
+  {
+    "sourceRef": "9405d07b0638892e",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel petit appareil sans fil permet de changer de chaîne et de régler le son d'une télévision à distance ?",
+        "options": [
+          "La souris",
+          "La télécommande",
+          "La manette",
+          "Le clavier"
+        ],
+        "explanation": "Les premiers modèles reliés par un fil furent surnommés « le paresseux » ; on chercha vite à s'affranchir de ce câble encombrant."
+      },
+      "en": {
+        "text": "Which small wireless device lets you change channels and set the sound of a television from afar?",
+        "options": [
+          "The mouse",
+          "The remote control",
+          "The gamepad",
+          "The keyboard"
+        ],
+        "explanation": "The first wired models were nicknamed 'the lazy bones'; people soon sought to be free of that cumbersome cable."
+      },
+      "es": {
+        "text": "¿Qué pequeño aparato inalámbrico permite cambiar de canal y ajustar el sonido de un televisor a distancia?",
+        "options": [
+          "El ratón",
+          "El mando a distancia",
+          "El mando de juego",
+          "El teclado"
+        ],
+        "explanation": "Los primeros modelos con cable se apodaban 'el perezoso'; pronto se buscó librarse de ese cable estorboso."
+      }
+    }
+  },
+  {
+    "sourceRef": "6f82875e7f90ab55",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on le magasin en ligne d'où l'on télécharge des applications sur son téléphone ?",
+        "options": [
+          "Le navigateur",
+          "Le pare-feu",
+          "La boutique d'applications",
+          "Le tableur"
+        ],
+        "explanation": "Elle a créé un métier nouveau : des créateurs du monde entier y vendent leurs programmes, parfois écrits seuls dans leur chambre."
+      },
+      "en": {
+        "text": "What do you call the online store from which you download apps onto your phone?",
+        "options": [
+          "The browser",
+          "The firewall",
+          "The app store",
+          "The spreadsheet"
+        ],
+        "explanation": "It created a new trade: makers around the world sell their programs there, sometimes written alone in their bedroom."
+      },
+      "es": {
+        "text": "¿Cómo se llama la tienda en línea desde la que se descargan aplicaciones al teléfono?",
+        "options": [
+          "El navegador",
+          "El cortafuegos",
+          "La tienda de aplicaciones",
+          "La hoja de cálculo"
+        ],
+        "explanation": "Creó un oficio nuevo: creadores de todo el mundo venden allí sus programas, a veces escritos solos en su habitación."
+      }
+    }
+  },
+  {
+    "sourceRef": "8954684b3982e8a4",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel moteur de recherche est de loin le plus utilisé en Chine, où d'autres services étrangers sont bloqués ?",
+        "options": [
+          "Yandex",
+          "Bing",
+          "DuckDuckGo",
+          "Baidu"
+        ],
+        "explanation": "Chaque grande région du monde a souvent son champion local : là où l'un domine, un autre règne derrière ses propres frontières."
+      },
+      "en": {
+        "text": "Which search engine is by far the most used in China, where other foreign services are blocked?",
+        "options": [
+          "Yandex",
+          "Bing",
+          "DuckDuckGo",
+          "Baidu"
+        ],
+        "explanation": "Each big region of the world often has its local champion: where one dominates, another reigns behind its own borders."
+      },
+      "es": {
+        "text": "¿Qué motor de búsqueda es con diferencia el más usado en China, donde otros servicios extranjeros están bloqueados?",
+        "options": [
+          "Yandex",
+          "Bing",
+          "DuckDuckGo",
+          "Baidu"
+        ],
+        "explanation": "Cada gran región del mundo suele tener su campeón local: donde uno domina, otro reina tras sus propias fronteras."
+      }
+    }
+  },
+  {
+    "sourceRef": "0f40180b533ed3d5",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel poisson-clown, héros d'un film Pixar, traverse tout l'océan pour retrouver son fils Nemo ?",
+        "options": [
+          "Marin",
+          "Gill",
+          "Bloat",
+          "Dory"
+        ],
+        "explanation": "Sa compagne de voyage, un poisson bleu à la mémoire très courte, oublie sans cesse ce qu'elle vient de dire, pour le plus grand plaisir des spectateurs."
+      },
+      "en": {
+        "text": "Which clownfish, hero of a Pixar film, crosses the whole ocean to find his son Nemo?",
+        "options": [
+          "Marlin",
+          "Gill",
+          "Bloat",
+          "Dory"
+        ],
+        "explanation": "His travelling companion, a blue fish with a very short memory, keeps forgetting what she has just said, to the delight of viewers."
+      },
+      "es": {
+        "text": "¿Qué pez payaso, héroe de una película de Pixar, cruza todo el océano para encontrar a su hijo Nemo?",
+        "options": [
+          "Marlin",
+          "Gill",
+          "Bloat",
+          "Dory"
+        ],
+        "explanation": "Su compañera de viaje, un pez azul de memoria muy corta, olvida sin cesar lo que acaba de decir, para deleite de los espectadores."
+      }
+    }
+  },
+  {
+    "sourceRef": "76f6c627d3f183c2",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel film de Steven Spielberg, en noir et blanc, dépeint le sauvetage de Juifs par un industriel pendant la guerre ?",
+        "options": [
+          "Le Pianiste",
+          "La Liste de Schindler",
+          "La Vie est belle",
+          "Le Journal d'Anne Frank"
+        ],
+        "explanation": "Une seule touche de couleur traverse le film : le manteau rouge d'une petite fille, que le spectateur suit du regard dans la foule grise."
+      },
+      "en": {
+        "text": "Which black-and-white Steven Spielberg film depicts an industrialist saving Jews during the war?",
+        "options": [
+          "The Pianist",
+          "Schindler's List",
+          "Life Is Beautiful",
+          "The Diary of Anne Frank"
+        ],
+        "explanation": "A single touch of colour runs through the film: the red coat of a little girl, whom the viewer follows through the grey crowd."
+      },
+      "es": {
+        "text": "¿Qué película de Steven Spielberg, en blanco y negro, retrata el rescate de judíos por un industrial durante la guerra?",
+        "options": [
+          "El pianista",
+          "La lista de Schindler",
+          "La vida es bella",
+          "El diario de Ana Frank"
+        ],
+        "explanation": "Un solo toque de color recorre la película: el abrigo rojo de una niña, a quien el espectador sigue con la mirada entre la multitud gris."
+      }
+    }
+  },
+  {
+    "sourceRef": "12e24bb0551433a1",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel réalisateur italien signa « Le Bon, la Brute et le Truand » et « Il était une fois dans l'Ouest » ?",
+        "options": [
+          "Dario Argento",
+          "Bernardo Bertolucci",
+          "Sergio Leone",
+          "Vittorio De Sica"
+        ],
+        "explanation": "Ses gros plans sur des regards, tenus d'interminables secondes avant que les balles ne sifflent, ont redéfini l'art de la tension au cinéma."
+      },
+      "en": {
+        "text": "Which Italian director made 'The Good, the Bad and the Ugly' and 'Once Upon a Time in the West'?",
+        "options": [
+          "Dario Argento",
+          "Bernardo Bertolucci",
+          "Sergio Leone",
+          "Vittorio De Sica"
+        ],
+        "explanation": "His close-ups on eyes, held for endless seconds before the bullets fly, redefined the art of tension in cinema."
+      },
+      "es": {
+        "text": "¿Qué director italiano firmó 'El bueno, el feo y el malo' y 'Hasta que llegó su hora'?",
+        "options": [
+          "Dario Argento",
+          "Bernardo Bertolucci",
+          "Sergio Leone",
+          "Vittorio De Sica"
+        ],
+        "explanation": "Sus primeros planos de miradas, sostenidos interminables segundos antes de que silben las balas, redefinieron el arte de la tensión en el cine."
+      }
+    }
+  },
+  {
+    "sourceRef": "c34c3ed0f78105c3",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel film d'animation Pixar de 2017 célèbre la fête des morts mexicaine à travers un jeune garçon musicien ?",
+        "options": [
+          "Vaiana",
+          "Encanto",
+          "Rebelle",
+          "Coco"
+        ],
+        "explanation": "Ses créateurs passèrent des années à étudier les traditions mexicaines, jusqu'aux fleurs orange qui guident les âmes vers les vivants."
+      },
+      "en": {
+        "text": "Which 2017 Pixar animated film celebrates the Mexican Day of the Dead through a young musician boy?",
+        "options": [
+          "Moana",
+          "Encanto",
+          "Brave",
+          "Coco"
+        ],
+        "explanation": "Its makers spent years studying Mexican traditions, down to the orange flowers that guide souls back to the living."
+      },
+      "es": {
+        "text": "¿Qué película de animación de Pixar de 2017 celebra el Día de Muertos mexicano a través de un joven músico?",
+        "options": [
+          "Vaiana",
+          "Encanto",
+          "Brave",
+          "Coco"
+        ],
+        "explanation": "Sus creadores pasaron años estudiando las tradiciones mexicanas, hasta las flores naranjas que guían a las almas hacia los vivos."
+      }
+    }
+  },
+  {
+    "sourceRef": "301c82ec900a6144",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle actrice suédoise, star mystérieuse d'Hollywood, aurait dit vouloir simplement « qu'on la laisse seule » ?",
+        "options": [
+          "Greta Garbo",
+          "Ingrid Bergman",
+          "Marlene Dietrich",
+          "Grace Kelly"
+        ],
+        "explanation": "Retirée du cinéma à trente-six ans, elle vécut ensuite loin des caméras, entretenant à jamais son aura d'énigme."
+      },
+      "en": {
+        "text": "Which Swedish actress, a mysterious Hollywood star, is said to have wished simply 'to be left alone'?",
+        "options": [
+          "Greta Garbo",
+          "Ingrid Bergman",
+          "Marlene Dietrich",
+          "Grace Kelly"
+        ],
+        "explanation": "Retired from film at thirty-six, she then lived far from the cameras, forever nurturing her aura of enigma."
+      },
+      "es": {
+        "text": "¿Qué actriz sueca, misteriosa estrella de Hollywood, habría dicho que solo quería 'que la dejaran sola'?",
+        "options": [
+          "Greta Garbo",
+          "Ingrid Bergman",
+          "Marlene Dietrich",
+          "Grace Kelly"
+        ],
+        "explanation": "Retirada del cine a los treinta y seis años, vivió luego lejos de las cámaras, alimentando para siempre su aura de enigma."
+      }
+    }
+  },
+  {
+    "sourceRef": "33a716872cb9fb8b",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel cinéaste espagnol surréaliste, ami de Dalí, réalisa le film « Un chien andalou » ?",
+        "options": [
+          "Pedro Almodóvar",
+          "Luis Buñuel",
+          "Carlos Saura",
+          "Víctor Erice"
+        ],
+        "explanation": "Ce film muet s'ouvre sur une image si choquante qu'elle est restée l'une des plus célèbres et dérangeantes de l'histoire du cinéma."
+      },
+      "en": {
+        "text": "Which Spanish Surrealist filmmaker, a friend of Dalí, made the film 'Un Chien Andalou'?",
+        "options": [
+          "Pedro Almodóvar",
+          "Luis Buñuel",
+          "Carlos Saura",
+          "Víctor Erice"
+        ],
+        "explanation": "This silent film opens on an image so shocking that it remains one of the most famous and disturbing in the history of cinema."
+      },
+      "es": {
+        "text": "¿Qué cineasta español surrealista, amigo de Dalí, realizó la película 'Un perro andaluz'?",
+        "options": [
+          "Pedro Almodóvar",
+          "Luis Buñuel",
+          "Carlos Saura",
+          "Víctor Erice"
+        ],
+        "explanation": "Esta película muda se abre con una imagen tan impactante que sigue siendo una de las más famosas e inquietantes de la historia del cine."
+      }
+    }
+  },
+  {
+    "sourceRef": "8c7b7326d66d4388",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel film d'animation français de 1998 raconte les aventures de Kirikou, un tout petit héros d'Afrique ?",
+        "options": [
+          "Azur et Asmar",
+          "Persepolis",
+          "Kirikou et la Sorcière",
+          "Les Triplettes de Belleville"
+        ],
+        "explanation": "Son héros minuscule mais rusé triomphe non par la force, mais par l'intelligence et la générosité, un message rare dans les films d'aventures."
+      },
+      "en": {
+        "text": "Which 1998 French animated film tells the adventures of Kirikou, a tiny African hero?",
+        "options": [
+          "Azur & Asmar",
+          "Persepolis",
+          "Kirikou and the Sorceress",
+          "The Triplets of Belleville"
+        ],
+        "explanation": "Its tiny but cunning hero triumphs not by force, but by intelligence and generosity, a rare message in adventure films."
+      },
+      "es": {
+        "text": "¿Qué película de animación francesa de 1998 cuenta las aventuras de Kirikú, un diminuto héroe de África?",
+        "options": [
+          "Azur y Asmar",
+          "Persépolis",
+          "Kirikú y la bruja",
+          "Bienvenidos a Belleville"
+        ],
+        "explanation": "Su héroe minúsculo pero astuto triunfa no por la fuerza, sino por la inteligencia y la generosidad, un mensaje raro en el cine de aventuras."
+      }
+    }
+  },
+  {
+    "sourceRef": "cd929c7b90b91ff2",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel film de 1985 suit une bande d'enfants partis à la recherche d'un trésor de pirate pour sauver leur quartier ?",
+        "options": [
+          "Stand by Me",
+          "Jumanji",
+          "E.T.",
+          "Les Goonies"
+        ],
+        "explanation": "Le film fut tourné dans l'ordre chronologique, chose rare, pour que l'émerveillement des jeunes acteurs devant les décors reste vrai à l'écran."
+      },
+      "en": {
+        "text": "Which 1985 film follows a band of kids hunting for pirate treasure to save their neighbourhood?",
+        "options": [
+          "Stand by Me",
+          "Jumanji",
+          "E.T.",
+          "The Goonies"
+        ],
+        "explanation": "The film was shot in chronological order, a rare choice, so the young actors' wonder at the sets would ring true on screen."
+      },
+      "es": {
+        "text": "¿Qué película de 1985 sigue a una pandilla de niños en busca de un tesoro pirata para salvar su barrio?",
+        "options": [
+          "Cuenta conmigo",
+          "Jumanji",
+          "E.T.",
+          "Los Goonies"
+        ],
+        "explanation": "La película se rodó en orden cronológico, algo raro, para que el asombro de los jóvenes actores ante los decorados fuera real en pantalla."
+      }
+    }
+  },
+  {
+    "sourceRef": "63c3899b53aa4033",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel film musical de 1965, tourné en Autriche, suit une gouvernante qui chante avec sept enfants ?",
+        "options": [
+          "La Mélodie du bonheur",
+          "My Fair Lady",
+          "Cabaret",
+          "Chantons sous la pluie"
+        ],
+        "explanation": "Tiré d'une histoire vraie, il montre une famille fuyant l'Autriche par les montagnes ; ses chansons sont chantées dans le monde entier."
+      },
+      "en": {
+        "text": "Which 1965 musical, filmed in Austria, follows a governess who sings with seven children?",
+        "options": [
+          "The Sound of Music",
+          "My Fair Lady",
+          "Cabaret",
+          "Singin' in the Rain"
+        ],
+        "explanation": "Based on a true story, it shows a family fleeing Austria over the mountains; its songs are sung the world over."
+      },
+      "es": {
+        "text": "¿Qué musical de 1965, rodado en Austria, sigue a una institutriz que canta con siete niños?",
+        "options": [
+          "Sonrisas y lágrimas",
+          "My Fair Lady",
+          "Cabaret",
+          "Cantando bajo la lluvia"
+        ],
+        "explanation": "Basado en una historia real, muestra a una familia huyendo de Austria por las montañas; sus canciones se cantan en todo el mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "8a9ad49c706ec831",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel réalisateur néo-zélandais dirigea la trilogie du « Seigneur des anneaux » dans son pays natal ?",
+        "options": [
+          "James Cameron",
+          "Peter Jackson",
+          "Zack Snyder",
+          "Ridley Scott"
+        ],
+        "explanation": "Le succès des films transforma tant le tourisme du pays qu'on y voit encore des panneaux annonçant fièrement « la Terre du Milieu »."
+      },
+      "en": {
+        "text": "Which New Zealand director made the 'Lord of the Rings' trilogy in his home country?",
+        "options": [
+          "James Cameron",
+          "Peter Jackson",
+          "Zack Snyder",
+          "Ridley Scott"
+        ],
+        "explanation": "The films' success so transformed the country's tourism that signs there still proudly announce 'Middle-earth'."
+      },
+      "es": {
+        "text": "¿Qué director neozelandés dirigió la trilogía de 'El Señor de los Anillos' en su país natal?",
+        "options": [
+          "James Cameron",
+          "Peter Jackson",
+          "Zack Snyder",
+          "Ridley Scott"
+        ],
+        "explanation": "El éxito de las películas transformó tanto el turismo del país que aún se ven carteles que anuncian con orgullo 'la Tierra Media'."
+      }
+    }
+  },
+  {
+    "sourceRef": "d5db511aefce7804",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel long métrage de 1995 fut le tout premier film entièrement réalisé en images de synthèse, signé Pixar ?",
+        "options": [
+          "Shrek",
+          "Fourmiz",
+          "Toy Story",
+          "Le Géant de fer"
+        ],
+        "explanation": "Rien qu'à animer la fourrure ou les reflets, les ordinateurs de l'époque mettaient des heures pour une seule image du film."
+      },
+      "en": {
+        "text": "Which 1995 feature was the very first film made entirely with computer imagery, by Pixar?",
+        "options": [
+          "Shrek",
+          "Antz",
+          "Toy Story",
+          "The Iron Giant"
+        ],
+        "explanation": "Just to render fur or reflections, the computers of the day took hours for a single frame of the film."
+      },
+      "es": {
+        "text": "¿Qué largometraje de 1995 fue la primera película hecha enteramente con imágenes de síntesis, de Pixar?",
+        "options": [
+          "Shrek",
+          "Hormigaz",
+          "Toy Story",
+          "El gigante de hierro"
+        ],
+        "explanation": "Solo para animar el pelaje o los reflejos, los ordenadores de la época tardaban horas en un solo fotograma de la película."
+      }
+    }
+  },
+  {
+    "sourceRef": "392a3f46c0078831",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel chat gris de dessin animé pourchasse sans fin la souris Jerry, sans jamais l'attraper ?",
+        "options": [
+          "Titi",
+          "Sylvestre",
+          "Garfield",
+          "Tom"
+        ],
+        "explanation": "Ces courts métrages, presque sans dialogue, se comprennent partout dans le monde ; leurs poursuites déchaînées les rendent universels."
+      },
+      "en": {
+        "text": "Which grey cartoon cat endlessly chases the mouse Jerry, but never catches him?",
+        "options": [
+          "Tweety",
+          "Sylvester",
+          "Garfield",
+          "Tom"
+        ],
+        "explanation": "These almost wordless shorts are understood everywhere in the world; their frantic chases make them universal."
+      },
+      "es": {
+        "text": "¿Qué gato gris de dibujos animados persigue sin fin al ratón Jerry, sin atraparlo nunca?",
+        "options": [
+          "Piolín",
+          "Silvestre",
+          "Garfield",
+          "Tom"
+        ],
+        "explanation": "Estos cortos, casi sin diálogo, se entienden en todo el mundo; sus persecuciones desenfrenadas los hacen universales."
+      }
+    }
+  },
+  {
+    "sourceRef": "5f39e3ac5d448882",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Combien font six multiplié par sept ?",
+        "options": [
+          "42",
+          "36",
+          "48",
+          "49"
+        ],
+        "explanation": "Ce résultat est resté célèbre grâce à un roman de science-fiction, où il est présenté comme la réponse à la « grande question » de l'univers."
+      },
+      "en": {
+        "text": "What is six multiplied by seven?",
+        "options": [
+          "42",
+          "36",
+          "48",
+          "49"
+        ],
+        "explanation": "This result became famous thanks to a science-fiction novel, where it is given as the answer to the 'great question' of the universe."
+      },
+      "es": {
+        "text": "¿Cuánto es seis multiplicado por siete?",
+        "options": [
+          "42",
+          "36",
+          "48",
+          "49"
+        ],
+        "explanation": "Este resultado se hizo célebre por una novela de ciencia ficción, donde se presenta como la respuesta a la 'gran pregunta' del universo."
+      }
+    }
+  },
+  {
+    "sourceRef": "7c91e2410867b77b",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on le résultat d'une multiplication ?",
+        "options": [
+          "La somme",
+          "Le produit",
+          "La différence",
+          "Le quotient"
+        ],
+        "explanation": "Chaque opération a son mot : la somme pour l'addition, la différence pour la soustraction, le produit pour la multiplication, le quotient pour la division."
+      },
+      "en": {
+        "text": "What do you call the result of a multiplication?",
+        "options": [
+          "The sum",
+          "The product",
+          "The difference",
+          "The quotient"
+        ],
+        "explanation": "Each operation has its word: sum for addition, difference for subtraction, product for multiplication, quotient for division."
+      },
+      "es": {
+        "text": "¿Cómo se llama el resultado de una multiplicación?",
+        "options": [
+          "La suma",
+          "El producto",
+          "La diferencia",
+          "El cociente"
+        ],
+        "explanation": "Cada operación tiene su palabra: suma para la adición, diferencia para la resta, producto para la multiplicación, cociente para la división."
+      }
+    }
+  },
+  {
+    "sourceRef": "dbc714ca0db01a73",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on le résultat d'une addition ?",
+        "options": [
+          "Le produit",
+          "Le quotient",
+          "La somme",
+          "Le reste"
+        ],
+        "explanation": "On la représente parfois par un grand sigma grec, un « S » majuscule stylisé pour « somme », dans les formules mathématiques."
+      },
+      "en": {
+        "text": "What do you call the result of an addition?",
+        "options": [
+          "The product",
+          "The quotient",
+          "The sum",
+          "The remainder"
+        ],
+        "explanation": "It is sometimes shown by a large Greek sigma, a stylised capital 'S' for 'sum', in mathematical formulas."
+      },
+      "es": {
+        "text": "¿Cómo se llama el resultado de una suma?",
+        "options": [
+          "El producto",
+          "El cociente",
+          "La suma",
+          "El resto"
+        ],
+        "explanation": "A veces se representa con una gran sigma griega, una 'S' mayúscula estilizada para 'suma', en las fórmulas matemáticas."
+      }
+    }
+  },
+  {
+    "sourceRef": "d5e48e644ae30a6a",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on le résultat d'une division ?",
+        "options": [
+          "Le produit",
+          "La somme",
+          "Le facteur",
+          "Le quotient"
+        ],
+        "explanation": "Quand la division ne tombe pas juste, ce qui subsiste porte un autre nom : le reste, ce petit surplus qui refuse de se partager."
+      },
+      "en": {
+        "text": "What do you call the result of a division?",
+        "options": [
+          "The product",
+          "The sum",
+          "The factor",
+          "The quotient"
+        ],
+        "explanation": "When a division does not come out even, what is left over has another name: the remainder, that little surplus that refuses to be shared."
+      },
+      "es": {
+        "text": "¿Cómo se llama el resultado de una división?",
+        "options": [
+          "El producto",
+          "La suma",
+          "El factor",
+          "El cociente"
+        ],
+        "explanation": "Cuando la división no es exacta, lo que sobra tiene otro nombre: el resto, ese pequeño excedente que se niega a repartirse."
+      }
+    }
+  },
+  {
+    "sourceRef": "6b2ea0b334205028",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel jour de la semaine vient juste après le lundi ?",
+        "options": [
+          "Le mardi",
+          "Le dimanche",
+          "Le mercredi",
+          "Le jeudi"
+        ],
+        "explanation": "Les noms des jours viennent des astres : mardi, jour de Mars ; mercredi, de Mercure ; jeudi, de Jupiter, un héritage de l'astronomie ancienne."
+      },
+      "en": {
+        "text": "Which day of the week comes right after Monday?",
+        "options": [
+          "Tuesday",
+          "Sunday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "explanation": "The names of the days come from the heavens: Tuesday from a god of war, Wednesday, Thursday and more echo old gods and planets."
+      },
+      "es": {
+        "text": "¿Qué día de la semana viene justo después del lunes?",
+        "options": [
+          "El martes",
+          "El domingo",
+          "El miércoles",
+          "El jueves"
+        ],
+        "explanation": "Los nombres de los días vienen de los astros: martes, día de Marte; miércoles, de Mercurio; jueves, de Júpiter, herencia de la antigua astronomía."
+      }
+    }
+  },
+  {
+    "sourceRef": "c41659d7d989f27b",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Combien de lettres compte l'alphabet grec ?",
+        "options": [
+          "26",
+          "24",
+          "28",
+          "20"
+        ],
+        "explanation": "Il commence par alpha et finit par oméga : de là vient l'expression « de l'alpha à l'oméga », pour dire « du début à la fin »."
+      },
+      "en": {
+        "text": "How many letters are there in the Greek alphabet?",
+        "options": [
+          "26",
+          "24",
+          "28",
+          "20"
+        ],
+        "explanation": "It begins with alpha and ends with omega: hence the phrase 'from alpha to omega', to mean 'from beginning to end'."
+      },
+      "es": {
+        "text": "¿Cuántas letras tiene el alfabeto griego?",
+        "options": [
+          "26",
+          "24",
+          "28",
+          "20"
+        ],
+        "explanation": "Empieza por alfa y acaba en omega: de ahí la expresión 'del alfa a la omega', para decir 'del principio al fin'."
+      }
+    }
+  },
+  {
+    "sourceRef": "bbe797bb0fdba73d",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on le court texte de présentation placé au tout début d'un livre, avant le récit ?",
+        "options": [
+          "L'index",
+          "Le glossaire",
+          "La préface",
+          "L'épilogue"
+        ],
+        "explanation": "Elle est parfois écrite par une autre personne que l'auteur, un ami ou un spécialiste, pour éclairer ou recommander l'ouvrage."
+      },
+      "en": {
+        "text": "What do you call the short introductory text at the very start of a book, before the story?",
+        "options": [
+          "The index",
+          "The glossary",
+          "The preface",
+          "The epilogue"
+        ],
+        "explanation": "It is sometimes written by someone other than the author, a friend or an expert, to shed light on or recommend the book."
+      },
+      "es": {
+        "text": "¿Cómo se llama el breve texto de presentación colocado al principio de un libro, antes del relato?",
+        "options": [
+          "El índice",
+          "El glosario",
+          "El prefacio",
+          "El epílogo"
+        ],
+        "explanation": "A veces la escribe alguien distinto del autor, un amigo o un experto, para iluminar o recomendar la obra."
+      }
+    }
+  },
+  {
+    "sourceRef": "f2e53fe04b8ff0a2",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un nombre entier qui n'est divisible que par 1 et par lui-même ?",
+        "options": [
+          "Un nombre pair",
+          "Un nombre composé",
+          "Un nombre décimal",
+          "Un nombre premier"
+        ],
+        "explanation": "Il en existe une infinité, mais ils se font de plus en plus rares à mesure qu'on avance, comme des pépites disséminées dans les grands nombres."
+      },
+      "en": {
+        "text": "What do you call a whole number divisible only by 1 and by itself?",
+        "options": [
+          "An even number",
+          "A composite number",
+          "A decimal number",
+          "A prime number"
+        ],
+        "explanation": "There are infinitely many, but they grow rarer as you go higher, like nuggets scattered among the large numbers."
+      },
+      "es": {
+        "text": "¿Cómo se llama un número entero que solo es divisible entre 1 y entre sí mismo?",
+        "options": [
+          "Un número par",
+          "Un número compuesto",
+          "Un número decimal",
+          "Un número primo"
+        ],
+        "explanation": "Hay infinitos, pero se vuelven más raros a medida que se avanza, como pepitas dispersas entre los grandes números."
+      }
+    }
+  },
+  {
+    "sourceRef": "a54a68ac50481151",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle couleur résulte du mélange de toutes les couleurs de la lumière ?",
+        "options": [
+          "Le blanc",
+          "Le noir",
+          "Le gris",
+          "Le marron"
+        ],
+        "explanation": "Un prisme fait le chemin inverse : il décompose la lumière blanche en un arc-en-ciel, révélant les couleurs cachées qui la composent."
+      },
+      "en": {
+        "text": "Which colour results from mixing all the colours of light together?",
+        "options": [
+          "White",
+          "Black",
+          "Grey",
+          "Brown"
+        ],
+        "explanation": "A prism does the reverse: it splits white light into a rainbow, revealing the hidden colours that make it up."
+      },
+      "es": {
+        "text": "¿Qué color resulta de mezclar todos los colores de la luz?",
+        "options": [
+          "El blanco",
+          "El negro",
+          "El gris",
+          "El marrón"
+        ],
+        "explanation": "Un prisma hace el camino inverso: descompone la luz blanca en un arcoíris, revelando los colores ocultos que la componen."
+      }
+    }
+  },
+  {
+    "sourceRef": "b16a11da1306d351",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle unité de température est la plus couramment utilisée au quotidien en Europe ?",
+        "options": [
+          "Le degré Fahrenheit",
+          "Le degré Celsius",
+          "Le kelvin",
+          "Le degré Réaumur"
+        ],
+        "explanation": "Son échelle place le zéro à la glace fondante et cent à l'eau bouillante, un choix simple qui en fit le standard de la vie courante."
+      },
+      "en": {
+        "text": "Which temperature unit is most commonly used in everyday life in Europe?",
+        "options": [
+          "The degree Fahrenheit",
+          "The degree Celsius",
+          "The kelvin",
+          "The degree Réaumur"
+        ],
+        "explanation": "Its scale sets zero at melting ice and a hundred at boiling water, a simple choice that made it the everyday standard."
+      },
+      "es": {
+        "text": "¿Qué unidad de temperatura es la más usada a diario en Europa?",
+        "options": [
+          "El grado Fahrenheit",
+          "El grado Celsius",
+          "El kelvin",
+          "El grado Réaumur"
+        ],
+        "explanation": "Su escala pone el cero en el hielo que se funde y el cien en el agua que hierve, una elección sencilla que la hizo el estándar cotidiano."
+      }
+    }
+  },
+  {
+    "sourceRef": "996ca186843f7aba",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un solide qui possède six faces carrées identiques ?",
+        "options": [
+          "Une pyramide",
+          "Un cylindre",
+          "Un cube",
+          "Un cône"
+        ],
+        "explanation": "On le retrouve partout, du dé à jouer au morceau de sucre : sa forme régulière lui permet de s'empiler à la perfection."
+      },
+      "en": {
+        "text": "What do you call a solid with six identical square faces?",
+        "options": [
+          "A pyramid",
+          "A cylinder",
+          "A cube",
+          "A cone"
+        ],
+        "explanation": "You find it everywhere, from the playing die to the sugar lump: its regular shape lets it stack perfectly."
+      },
+      "es": {
+        "text": "¿Cómo se llama un sólido que tiene seis caras cuadradas idénticas?",
+        "options": [
+          "Una pirámide",
+          "Un cilindro",
+          "Un cubo",
+          "Un cono"
+        ],
+        "explanation": "Se encuentra por todas partes, del dado al terrón de azúcar: su forma regular le permite apilarse a la perfección."
+      }
+    }
+  },
+  {
+    "sourceRef": "9dbe3d1951925442",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on le segment qui traverse un cercle de part en part, en passant par son centre ?",
+        "options": [
+          "La corde",
+          "L'arc",
+          "Le rayon",
+          "Le diamètre"
+        ],
+        "explanation": "Il vaut toujours deux fois le rayon ; en divisant la circonférence par lui, on retombe sur le fameux nombre pi."
+      },
+      "en": {
+        "text": "What do you call the line that crosses a circle right through, passing through its centre?",
+        "options": [
+          "The chord",
+          "The arc",
+          "The radius",
+          "The diameter"
+        ],
+        "explanation": "It is always twice the radius; dividing the circumference by it gives the famous number pi."
+      },
+      "es": {
+        "text": "¿Cómo se llama el segmento que atraviesa un círculo de lado a lado, pasando por su centro?",
+        "options": [
+          "La cuerda",
+          "El arco",
+          "El radio",
+          "El diámetro"
+        ],
+        "explanation": "Siempre vale el doble del radio; al dividir la circunferencia entre él, se obtiene el famoso número pi."
+      }
+    }
+  }
+]
