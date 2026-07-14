@@ -1,0 +1,3122 @@
+[
+  {
+    "sourceRef": "426b00eda66589a8",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quels organes, au nombre de deux, nous permettent de respirer en captant l'oxygène de l'air ?",
+        "options": [
+          "Les poumons",
+          "Le foie",
+          "Les reins",
+          "L'estomac"
+        ],
+        "explanation": "Déployée à plat, leur surface d'échange couvrirait à elle seule l'équivalent d'un court de tennis, repliée dans notre poitrine."
+      },
+      "en": {
+        "text": "Which pair of organs lets us breathe by taking oxygen from the air?",
+        "options": [
+          "The lungs",
+          "The liver",
+          "The kidneys",
+          "The stomach"
+        ],
+        "explanation": "Spread out flat, their exchange surface alone would cover the equivalent of a tennis court, folded inside our chest."
+      },
+      "es": {
+        "text": "¿Qué órganos, dos en total, nos permiten respirar captando el oxígeno del aire?",
+        "options": [
+          "Los pulmones",
+          "El hígado",
+          "Los riñones",
+          "El estómago"
+        ],
+        "explanation": "Desplegada en plano, su superficie de intercambio cubriría por sí sola el equivalente a una pista de tenis, plegada en nuestro pecho."
+      }
+    }
+  },
+  {
+    "sourceRef": "d5cb4d1ac7d479bd",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel gaz, symbole He, très léger et sans danger, gonfle les ballons qui s'envolent ?",
+        "options": [
+          "L'hydrogène",
+          "L'hélium",
+          "L'argon",
+          "Le méthane"
+        ],
+        "explanation": "Il fut d'abord détecté sur le Soleil avant de l'être sur Terre, ce qui lui valut un nom tiré du mot grec désignant l'astre du jour."
+      },
+      "en": {
+        "text": "Which gas, symbol He, very light and harmless, fills the balloons that float away?",
+        "options": [
+          "Hydrogen",
+          "Helium",
+          "Argon",
+          "Methane"
+        ],
+        "explanation": "It was first detected on the Sun before it was found on Earth, which earned it a name from the Greek word for the daytime star."
+      },
+      "es": {
+        "text": "¿Qué gas, símbolo He, muy ligero e inofensivo, hincha los globos que se elevan?",
+        "options": [
+          "El hidrógeno",
+          "El helio",
+          "El argón",
+          "El metano"
+        ],
+        "explanation": "Se detectó primero en el Sol antes de hallarse en la Tierra, lo que le valió un nombre del término griego para el astro del día."
+      }
+    }
+  },
+  {
+    "sourceRef": "74d9ee2334e74b9d",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle est l'étoile la plus proche de la Terre après le Soleil, dans le système d'Alpha du Centaure ?",
+        "options": [
+          "Sirius",
+          "Bételgeuse",
+          "Proxima du Centaure",
+          "Véga"
+        ],
+        "explanation": "Même à la vitesse de la lumière, sa lueur met plus de quatre ans à nous parvenir : la voir, c'est déjà regarder dans le passé."
+      },
+      "en": {
+        "text": "Which is the nearest star to Earth after the Sun, in the Alpha Centauri system?",
+        "options": [
+          "Sirius",
+          "Betelgeuse",
+          "Proxima Centauri",
+          "Vega"
+        ],
+        "explanation": "Even at the speed of light, its glow takes over four years to reach us: to see it is already to look into the past."
+      },
+      "es": {
+        "text": "¿Cuál es la estrella más cercana a la Tierra después del Sol, en el sistema de Alfa Centauri?",
+        "options": [
+          "Sirio",
+          "Betelgeuse",
+          "Próxima Centauri",
+          "Vega"
+        ],
+        "explanation": "Incluso a la velocidad de la luz, su brillo tarda más de cuatro años en llegarnos: verla es ya mirar al pasado."
+      }
+    }
+  },
+  {
+    "sourceRef": "88f193e440807fc2",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel métal précieux blanc et brillant, de symbole Ag, sert en bijouterie et servit longtemps en photographie ?",
+        "options": [
+          "Le platine",
+          "Le cuivre",
+          "L'aluminium",
+          "L'argent"
+        ],
+        "explanation": "C'est le meilleur conducteur d'électricité de tous les métaux, mais son prix le réserve aux usages où rien ne doit le remplacer."
+      },
+      "en": {
+        "text": "Which shiny white precious metal, symbol Ag, is used in jewellery and was long used in photography?",
+        "options": [
+          "Platinum",
+          "Copper",
+          "Aluminium",
+          "Silver"
+        ],
+        "explanation": "It is the best electrical conductor of all metals, but its price reserves it for uses where nothing else will do."
+      },
+      "es": {
+        "text": "¿Qué metal precioso blanco y brillante, de símbolo Ag, se usa en joyería y se usó mucho tiempo en fotografía?",
+        "options": [
+          "El platino",
+          "El cobre",
+          "El aluminio",
+          "La plata"
+        ],
+        "explanation": "Es el mejor conductor de electricidad de todos los metales, pero su precio lo reserva a usos donde nada puede sustituirlo."
+      }
+    }
+  },
+  {
+    "sourceRef": "c65b24fbbbf222b0",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel appareil mesure l'intensité d'un courant électrique, en ampères ?",
+        "options": [
+          "L'ampèremètre",
+          "Le voltmètre",
+          "Le baromètre",
+          "Le podomètre"
+        ],
+        "explanation": "On le branche « en série », comme un péage sur une route : tout le courant doit le traverser pour être compté."
+      },
+      "en": {
+        "text": "Which instrument measures the intensity of an electric current, in amperes?",
+        "options": [
+          "The ammeter",
+          "The voltmeter",
+          "The barometer",
+          "The pedometer"
+        ],
+        "explanation": "It is connected 'in series', like a tollbooth on a road: all the current must pass through it to be counted."
+      },
+      "es": {
+        "text": "¿Qué aparato mide la intensidad de una corriente eléctrica, en amperios?",
+        "options": [
+          "El amperímetro",
+          "El voltímetro",
+          "El barómetro",
+          "El podómetro"
+        ],
+        "explanation": "Se conecta 'en serie', como un peaje en una carretera: toda la corriente debe atravesarlo para ser contada."
+      }
+    }
+  },
+  {
+    "sourceRef": "1c310a5869a4ae20",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel physicien danois représenta l'atome avec des électrons circulant sur des orbites, comme un minuscule système solaire ?",
+        "options": [
+          "Max Planck",
+          "Niels Bohr",
+          "Erwin Schrödinger",
+          "Paul Dirac"
+        ],
+        "explanation": "Son modèle, aujourd'hui dépassé, reste l'image que l'on garde en tête de l'atome ; il orne encore le logo de bien des laboratoires."
+      },
+      "en": {
+        "text": "Which Danish physicist pictured the atom with electrons circling on orbits, like a tiny solar system?",
+        "options": [
+          "Max Planck",
+          "Niels Bohr",
+          "Erwin Schrödinger",
+          "Paul Dirac"
+        ],
+        "explanation": "His now-outdated model remains the image we keep in mind of the atom; it still adorns the logo of many a laboratory."
+      },
+      "es": {
+        "text": "¿Qué físico danés representó el átomo con electrones girando en órbitas, como un minúsculo sistema solar?",
+        "options": [
+          "Max Planck",
+          "Niels Bohr",
+          "Erwin Schrödinger",
+          "Paul Dirac"
+        ],
+        "explanation": "Su modelo, hoy superado, sigue siendo la imagen que guardamos del átomo; aún adorna el logotipo de muchos laboratorios."
+      }
+    }
+  },
+  {
+    "sourceRef": "a217900d47c92243",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel instrument, muni d'une aiguille aimantée, indique toujours la direction du nord ?",
+        "options": [
+          "Le sextant",
+          "Le gyroscope",
+          "La boussole",
+          "Le podomètre"
+        ],
+        "explanation": "Son aiguille s'aligne sur le champ magnétique de la Terre, qui agit comme un gigantesque aimant caché au cœur de la planète."
+      },
+      "en": {
+        "text": "Which instrument, with a magnetised needle, always points to the north?",
+        "options": [
+          "The sextant",
+          "The gyroscope",
+          "The compass",
+          "The pedometer"
+        ],
+        "explanation": "Its needle lines up with the Earth's magnetic field, which acts like a giant magnet hidden at the heart of the planet."
+      },
+      "es": {
+        "text": "¿Qué instrumento, provisto de una aguja imantada, indica siempre la dirección del norte?",
+        "options": [
+          "El sextante",
+          "El giroscopio",
+          "La brújula",
+          "El podómetro"
+        ],
+        "explanation": "Su aguja se alinea con el campo magnético de la Tierra, que actúa como un gigantesco imán oculto en el corazón del planeta."
+      }
+    }
+  },
+  {
+    "sourceRef": "0983bd4ebf1ce0ca",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Combien de paires de côtes possède en général le squelette d'un être humain ?",
+        "options": [
+          "10",
+          "14",
+          "8",
+          "12"
+        ],
+        "explanation": "Elles forment une cage souple qui protège le cœur et les poumons tout en se soulevant à chaque respiration."
+      },
+      "en": {
+        "text": "How many pairs of ribs does the human skeleton usually have?",
+        "options": [
+          "10",
+          "14",
+          "8",
+          "12"
+        ],
+        "explanation": "They form a flexible cage that shields the heart and lungs while rising with every breath."
+      },
+      "es": {
+        "text": "¿Cuántos pares de costillas suele tener el esqueleto de un ser humano?",
+        "options": [
+          "10",
+          "14",
+          "8",
+          "12"
+        ],
+        "explanation": "Forman una caja flexible que protege el corazón y los pulmones a la vez que se eleva con cada respiración."
+      }
+    }
+  },
+  {
+    "sourceRef": "64b8cd76a5ba1834",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle particule élémentaire, grain de lumière sans masse, voyage à la vitesse maximale de l'univers ?",
+        "options": [
+          "Le photon",
+          "L'électron",
+          "Le neutron",
+          "Le proton"
+        ],
+        "explanation": "Rien ne peut aller plus vite que lui dans le vide ; c'est cette limite absolue qu'Einstein plaça au cœur de sa théorie de la relativité."
+      },
+      "en": {
+        "text": "Which elementary particle, a massless grain of light, travels at the maximum speed of the universe?",
+        "options": [
+          "The photon",
+          "The electron",
+          "The neutron",
+          "The proton"
+        ],
+        "explanation": "Nothing can go faster than it in a vacuum; it is this absolute limit that Einstein placed at the heart of his theory of relativity."
+      },
+      "es": {
+        "text": "¿Qué partícula elemental, grano de luz sin masa, viaja a la velocidad máxima del universo?",
+        "options": [
+          "El fotón",
+          "El electrón",
+          "El neutrón",
+          "El protón"
+        ],
+        "explanation": "Nada puede ir más rápido que él en el vacío; es ese límite absoluto lo que Einstein puso en el corazón de su teoría de la relatividad."
+      }
+    }
+  },
+  {
+    "sourceRef": "e6b9d6d0f505e48b",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel savant suédois créa l'échelle de température où l'eau gèle à zéro degré et bout à cent ?",
+        "options": [
+          "Fahrenheit",
+          "Anders Celsius",
+          "Lord Kelvin",
+          "Réaumur"
+        ],
+        "explanation": "Curieusement, il avait d'abord placé le zéro à l'ébullition et le cent à la glace ; on inversa son échelle après sa mort."
+      },
+      "en": {
+        "text": "Which Swedish scientist created the temperature scale where water freezes at zero degrees and boils at a hundred?",
+        "options": [
+          "Fahrenheit",
+          "Anders Celsius",
+          "Lord Kelvin",
+          "Réaumur"
+        ],
+        "explanation": "Oddly, he had first set zero at boiling and a hundred at freezing; his scale was flipped after his death."
+      },
+      "es": {
+        "text": "¿Qué científico sueco creó la escala de temperatura donde el agua se congela a cero grados y hierve a cien?",
+        "options": [
+          "Fahrenheit",
+          "Anders Celsius",
+          "Lord Kelvin",
+          "Réaumur"
+        ],
+        "explanation": "Curiosamente, primero había puesto el cero en la ebullición y el cien en el hielo; su escala se invirtió tras su muerte."
+      }
+    }
+  },
+  {
+    "sourceRef": "953e446c9a123aa2",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle force semble pousser un objet vers l'extérieur lorsqu'il tourne, comme dans un manège ou une essoreuse ?",
+        "options": [
+          "La gravité",
+          "Le magnétisme",
+          "La force centrifuge",
+          "La poussée d'Archimède"
+        ],
+        "explanation": "C'est elle qui plaque les passagers contre leur siège dans les virages ; les machines à laver l'exploitent pour essorer le linge."
+      },
+      "en": {
+        "text": "Which force seems to push an object outward when it spins, as on a merry-go-round or in a spin-dryer?",
+        "options": [
+          "Gravity",
+          "Magnetism",
+          "The centrifugal force",
+          "Buoyancy"
+        ],
+        "explanation": "It is what pins passengers to their seats in bends; washing machines use it to spin the water out of clothes."
+      },
+      "es": {
+        "text": "¿Qué fuerza parece empujar un objeto hacia fuera cuando gira, como en un tiovivo o una centrifugadora?",
+        "options": [
+          "La gravedad",
+          "El magnetismo",
+          "La fuerza centrífuga",
+          "El empuje de Arquímedes"
+        ],
+        "explanation": "Es la que aplasta a los pasajeros contra su asiento en las curvas; las lavadoras la usan para escurrir la ropa."
+      }
+    }
+  },
+  {
+    "sourceRef": "43794393e0034183",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel gaz noble, symbole Ar, compose près d'un centième de l'air que nous respirons, sans y réagir ?",
+        "options": [
+          "Le méthane",
+          "L'ozone",
+          "Le radon",
+          "L'argon"
+        ],
+        "explanation": "Inerte, il ne se combine à presque rien ; on l'emploie pour remplir les ampoules et protéger les soudures de l'oxydation."
+      },
+      "en": {
+        "text": "Which noble gas, symbol Ar, makes up nearly one hundredth of the air we breathe, without reacting?",
+        "options": [
+          "Methane",
+          "Ozone",
+          "Radon",
+          "Argon"
+        ],
+        "explanation": "Inert, it combines with almost nothing; it is used to fill light bulbs and to shield welds from oxidation."
+      },
+      "es": {
+        "text": "¿Qué gas noble, símbolo Ar, compone casi una centésima del aire que respiramos, sin reaccionar?",
+        "options": [
+          "El metano",
+          "El ozono",
+          "El radón",
+          "El argón"
+        ],
+        "explanation": "Inerte, no se combina casi con nada; se usa para rellenar bombillas y proteger las soldaduras de la oxidación."
+      }
+    }
+  },
+  {
+    "sourceRef": "52fdcbd58d50bfd2",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on le passage de l'eau liquide à la glace sous l'effet du froid ?",
+        "options": [
+          "La solidification",
+          "L'évaporation",
+          "La fusion",
+          "La condensation"
+        ],
+        "explanation": "En gelant, l'eau prend plus de place : c'est pourquoi une bouteille pleine oubliée au congélateur finit par éclater."
+      },
+      "en": {
+        "text": "What do you call the change of liquid water into ice under the effect of cold?",
+        "options": [
+          "Freezing",
+          "Evaporation",
+          "Melting",
+          "Condensation"
+        ],
+        "explanation": "As it freezes, water takes up more room: that is why a full bottle left in the freezer eventually bursts."
+      },
+      "es": {
+        "text": "¿Cómo se llama el paso del agua líquida a hielo por efecto del frío?",
+        "options": [
+          "La solidificación",
+          "La evaporación",
+          "La fusión",
+          "La condensación"
+        ],
+        "explanation": "Al congelarse, el agua ocupa más sitio: por eso una botella llena olvidada en el congelador acaba estallando."
+      }
+    }
+  },
+  {
+    "sourceRef": "a2ceb452c0a2ea0d",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on le passage de la glace à l'eau liquide sous l'effet de la chaleur ?",
+        "options": [
+          "La solidification",
+          "La fusion",
+          "La sublimation",
+          "La condensation"
+        ],
+        "explanation": "Tant que la glace fond, sa température reste bloquée à zéro degré : toute la chaleur reçue sert d'abord à briser sa structure solide."
+      },
+      "en": {
+        "text": "What do you call the change of ice into liquid water under the effect of heat?",
+        "options": [
+          "Freezing",
+          "Melting",
+          "Sublimation",
+          "Condensation"
+        ],
+        "explanation": "While the ice is melting, its temperature stays stuck at zero degrees: all the heat taken in first goes to breaking its solid structure."
+      },
+      "es": {
+        "text": "¿Cómo se llama el paso del hielo a agua líquida por efecto del calor?",
+        "options": [
+          "La solidificación",
+          "La fusión",
+          "La sublimación",
+          "La condensación"
+        ],
+        "explanation": "Mientras el hielo se funde, su temperatura queda fija en cero grados: todo el calor recibido sirve primero para romper su estructura sólida."
+      }
+    }
+  },
+  {
+    "sourceRef": "a4b0fcc55590d32b",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel moine autrichien découvrit les lois de l'hérédité en croisant patiemment des plants de pois ?",
+        "options": [
+          "Louis Pasteur",
+          "Jean-Baptiste Lamarck",
+          "Gregor Mendel",
+          "Charles Darwin"
+        ],
+        "explanation": "Ignorés de son vivant, ses résultats jaunirent dans une revue obscure ; on ne redécouvrit son génie que des décennies après sa mort."
+      },
+      "en": {
+        "text": "Which Austrian monk discovered the laws of heredity by patiently crossing pea plants?",
+        "options": [
+          "Louis Pasteur",
+          "Jean-Baptiste Lamarck",
+          "Gregor Mendel",
+          "Charles Darwin"
+        ],
+        "explanation": "Overlooked in his lifetime, his results yellowed in an obscure journal; his genius was only rediscovered decades after his death."
+      },
+      "es": {
+        "text": "¿Qué monje austríaco descubrió las leyes de la herencia cruzando pacientemente plantas de guisante?",
+        "options": [
+          "Louis Pasteur",
+          "Jean-Baptiste Lamarck",
+          "Gregor Mendel",
+          "Charles Darwin"
+        ],
+        "explanation": "Ignorados en vida, sus resultados amarillearon en una revista oscura; su genio solo se redescubrió décadas después de su muerte."
+      }
+    }
+  },
+  {
+    "sourceRef": "6aceeddc6e1b0e6c",
+    "type": "qcm",
+    "theme": "science",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel inventeur serbo-américain fut un pionnier du courant alternatif, qui alimente aujourd'hui nos maisons ?",
+        "options": [
+          "Thomas Edison",
+          "Michael Faraday",
+          "André-Marie Ampère",
+          "Nikola Tesla"
+        ],
+        "explanation": "Génial mais peu doué pour les affaires, il mourut pauvre après avoir imaginé bien des technologies qui n'apparurent que des décennies plus tard."
+      },
+      "en": {
+        "text": "Which Serbian-American inventor was a pioneer of alternating current, which today powers our homes?",
+        "options": [
+          "Thomas Edison",
+          "Michael Faraday",
+          "André-Marie Ampère",
+          "Nikola Tesla"
+        ],
+        "explanation": "Brilliant but poor at business, he died penniless after imagining many technologies that only appeared decades later."
+      },
+      "es": {
+        "text": "¿Qué inventor serbio-estadounidense fue pionero de la corriente alterna, que hoy alimenta nuestras casas?",
+        "options": [
+          "Thomas Edison",
+          "Michael Faraday",
+          "André-Marie Ampère",
+          "Nikola Tesla"
+        ],
+        "explanation": "Genial pero poco dotado para los negocios, murió pobre tras imaginar muchas tecnologías que solo aparecieron décadas después."
+      }
+    }
+  },
+  {
+    "sourceRef": "d28d74e2151b5e33",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel mammifère marin, doté d'une longue défense torsadée sur le front, est surnommé la « licorne des mers » ?",
+        "options": [
+          "Le narval",
+          "Le morse",
+          "Le phoque",
+          "Le dauphin"
+        ],
+        "explanation": "Sa « corne » est en réalité une dent démesurée, truffée de terminaisons nerveuses, qui pourrait l'aider à percevoir son environnement."
+      },
+      "en": {
+        "text": "Which sea mammal, with a long twisted tusk on its forehead, is nicknamed the 'unicorn of the seas'?",
+        "options": [
+          "The narwhal",
+          "The walrus",
+          "The seal",
+          "The dolphin"
+        ],
+        "explanation": "Its 'horn' is really an oversized tooth, packed with nerve endings, which may help it sense its surroundings."
+      },
+      "es": {
+        "text": "¿Qué mamífero marino, con un largo colmillo torcido en la frente, es apodado el 'unicornio de los mares'?",
+        "options": [
+          "El narval",
+          "La morsa",
+          "La foca",
+          "El delfín"
+        ],
+        "explanation": "Su 'cuerno' es en realidad un diente descomunal, lleno de terminaciones nerviosas, que podría ayudarle a percibir su entorno."
+      }
+    }
+  },
+  {
+    "sourceRef": "f94a1f9f93956c08",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel gros mammifère marin à deux défenses et à grosses moustaches se hisse sur la banquise arctique ?",
+        "options": [
+          "Le phoque",
+          "Le morse",
+          "L'otarie",
+          "Le narval"
+        ],
+        "explanation": "Il plante ses défenses dans la glace pour se hisser hors de l'eau, ce qui lui a valu un nom scientifique signifiant « celui qui marche avec les dents »."
+      },
+      "en": {
+        "text": "Which large tusked sea mammal with big whiskers hauls itself onto the Arctic ice?",
+        "options": [
+          "The seal",
+          "The walrus",
+          "The sea lion",
+          "The narwhal"
+        ],
+        "explanation": "It digs its tusks into the ice to pull itself from the water, earning a scientific name meaning 'the one who walks with its teeth'."
+      },
+      "es": {
+        "text": "¿Qué gran mamífero marino de dos colmillos y grandes bigotes se iza sobre la banquisa ártica?",
+        "options": [
+          "La foca",
+          "La morsa",
+          "El león marino",
+          "El narval"
+        ],
+        "explanation": "Clava sus colmillos en el hielo para salir del agua, lo que le valió un nombre científico que significa 'el que camina con los dientes'."
+      }
+    }
+  },
+  {
+    "sourceRef": "e27b9656f4dc6e8b",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel oiseau incapable de voler, emblème de la Nouvelle-Zélande, est nocturne et pond des œufs énormes pour sa taille ?",
+        "options": [
+          "Le kakapo",
+          "Le casoar",
+          "Le kiwi",
+          "Le nandou"
+        ],
+        "explanation": "Son œuf peut représenter le quart du poids de la femelle : proportionnellement, l'un des plus gros œufs du monde animal."
+      },
+      "en": {
+        "text": "Which flightless bird, emblem of New Zealand, is nocturnal and lays eggs huge for its size?",
+        "options": [
+          "The kakapo",
+          "The cassowary",
+          "The kiwi",
+          "The rhea"
+        ],
+        "explanation": "Its egg can weigh a quarter of the female's body: proportionally, one of the largest eggs in the animal world."
+      },
+      "es": {
+        "text": "¿Qué ave incapaz de volar, emblema de Nueva Zelanda, es nocturna y pone huevos enormes para su tamaño?",
+        "options": [
+          "El kakapo",
+          "El casuario",
+          "El kiwi",
+          "El ñandú"
+        ],
+        "explanation": "Su huevo puede pesar un cuarto del cuerpo de la hembra: proporcionalmente, uno de los mayores huevos del mundo animal."
+      }
+    }
+  },
+  {
+    "sourceRef": "b5d07db8ebc0f272",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel insecte aux grandes ailes colorées butine les fleurs après avoir été une chenille ?",
+        "options": [
+          "La coccinelle",
+          "La libellule",
+          "La sauterelle",
+          "Le papillon"
+        ],
+        "explanation": "Certaines espèces migrent sur des milliers de kilomètres, un voyage si long qu'aucun individu ne le voit en entier : il faut plusieurs générations."
+      },
+      "en": {
+        "text": "Which insect with large colourful wings sips from flowers after having been a caterpillar?",
+        "options": [
+          "The ladybird",
+          "The dragonfly",
+          "The grasshopper",
+          "The butterfly"
+        ],
+        "explanation": "Some species migrate over thousands of kilometres, a journey so long that no single one completes it: it takes several generations."
+      },
+      "es": {
+        "text": "¿Qué insecto de grandes alas coloridas liba de las flores tras haber sido una oruga?",
+        "options": [
+          "La mariquita",
+          "La libélula",
+          "El saltamontes",
+          "La mariposa"
+        ],
+        "explanation": "Algunas especies migran miles de kilómetros, un viaje tan largo que ningún individuo lo completa: hacen falta varias generaciones."
+      }
+    }
+  },
+  {
+    "sourceRef": "8362f7353a0482d1",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel petit insecte rouge à points noirs est un allié du jardinier, dévorant les pucerons ?",
+        "options": [
+          "La coccinelle",
+          "La fourmi",
+          "La guêpe",
+          "Le criquet"
+        ],
+        "explanation": "On raconte qu'une seule d'entre elles peut engloutir des milliers de pucerons au cours de sa vie, ce qui en fait un insecticide vivant."
+      },
+      "en": {
+        "text": "Which small red insect with black spots is a gardener's ally, devouring aphids?",
+        "options": [
+          "The ladybird",
+          "The ant",
+          "The wasp",
+          "The locust"
+        ],
+        "explanation": "It is said that a single one can gobble up thousands of aphids in its life, making it a living pesticide."
+      },
+      "es": {
+        "text": "¿Qué pequeño insecto rojo de puntos negros es aliado del jardinero, devorando pulgones?",
+        "options": [
+          "La mariquita",
+          "La hormiga",
+          "La avispa",
+          "El saltamontes"
+        ],
+        "explanation": "Se dice que una sola puede engullir miles de pulgones a lo largo de su vida, lo que la hace un insecticida viviente."
+      }
+    }
+  },
+  {
+    "sourceRef": "48b17260bb8e73e3",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel grand félin des neiges, à l'épaisse fourrure claire tachetée, hante les montagnes d'Asie centrale ?",
+        "options": [
+          "Le puma",
+          "La panthère des neiges",
+          "Le jaguar",
+          "Le lynx"
+        ],
+        "explanation": "Sa longue queue épaisse lui sert à la fois de balancier sur les pentes escarpées et d'écharpe qu'il enroule autour de lui pour dormir au chaud."
+      },
+      "en": {
+        "text": "Which great cat of the snows, with thick spotted pale fur, haunts the mountains of Central Asia?",
+        "options": [
+          "The puma",
+          "The snow leopard",
+          "The jaguar",
+          "The lynx"
+        ],
+        "explanation": "Its long thick tail is both a balancing pole on steep slopes and a scarf it wraps around itself to sleep warm."
+      },
+      "es": {
+        "text": "¿Qué gran felino de las nieves, de espeso pelaje claro moteado, habita las montañas de Asia central?",
+        "options": [
+          "El puma",
+          "El leopardo de las nieves",
+          "El jaguar",
+          "El lince"
+        ],
+        "explanation": "Su larga y gruesa cola le sirve de balancín en las pendientes escarpadas y de bufanda que se enrolla para dormir caliente."
+      }
+    }
+  },
+  {
+    "sourceRef": "89ff580452fa82c8",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel mammifère couvert d'écailles se roule en boule pour se défendre, hélas le plus braconné du monde ?",
+        "options": [
+          "Le tatou",
+          "Le hérisson",
+          "Le pangolin",
+          "Le fourmilier"
+        ],
+        "explanation": "Ses écailles, faites de la même matière que nos ongles, sont si convoitées qu'elles font de ce timide mangeur de fourmis une cible tragique."
+      },
+      "en": {
+        "text": "Which scale-covered mammal rolls into a ball to defend itself, sadly the most trafficked in the world?",
+        "options": [
+          "The armadillo",
+          "The hedgehog",
+          "The pangolin",
+          "The anteater"
+        ],
+        "explanation": "Its scales, made of the same stuff as our nails, are so coveted that this shy ant-eater has become a tragic target."
+      },
+      "es": {
+        "text": "¿Qué mamífero cubierto de escamas se enrolla en bola para defenderse, por desgracia el más traficado del mundo?",
+        "options": [
+          "El armadillo",
+          "El erizo",
+          "El pangolín",
+          "El oso hormiguero"
+        ],
+        "explanation": "Sus escamas, de la misma materia que nuestras uñas, son tan codiciadas que este tímido comedor de hormigas se ha vuelto un blanco trágico."
+      }
+    }
+  },
+  {
+    "sourceRef": "da464ae93e60848a",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel grand oiseau blanc au long cou gracieux glisse sur les lacs et les étangs ?",
+        "options": [
+          "Le héron",
+          "Le canard",
+          "L'oie",
+          "Le cygne"
+        ],
+        "explanation": "Fidèle en amour, il forme souvent un couple pour la vie ; deux d'entre eux, cou contre cou, dessinent alors un cœur parfait."
+      },
+      "en": {
+        "text": "Which large white bird with a long graceful neck glides across lakes and ponds?",
+        "options": [
+          "The heron",
+          "The duck",
+          "The goose",
+          "The swan"
+        ],
+        "explanation": "Faithful in love, it often mates for life; two of them, neck against neck, then trace a perfect heart."
+      },
+      "es": {
+        "text": "¿Qué gran ave blanca de largo cuello grácil se desliza por lagos y estanques?",
+        "options": [
+          "La garza",
+          "El pato",
+          "El ganso",
+          "El cisne"
+        ],
+        "explanation": "Fiel en el amor, forma a menudo pareja para toda la vida; dos de ellos, cuello contra cuello, dibujan un corazón perfecto."
+      }
+    }
+  },
+  {
+    "sourceRef": "0e62977fecd8c242",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel animal à museau allongé et à longue langue collante se nourrit presque exclusivement de fourmis et de termites ?",
+        "options": [
+          "Le fourmilier",
+          "Le tapir",
+          "Le paresseux",
+          "Le lémurien"
+        ],
+        "explanation": "Dépourvu de dents, il gobe ses proies par milliers grâce à une langue qui peut se déployer sur plus de soixante centimètres."
+      },
+      "en": {
+        "text": "Which long-snouted animal with a sticky tongue feeds almost only on ants and termites?",
+        "options": [
+          "The anteater",
+          "The tapir",
+          "The sloth",
+          "The lemur"
+        ],
+        "explanation": "Toothless, it gulps down prey by the thousand with a tongue that can stretch out over sixty centimetres."
+      },
+      "es": {
+        "text": "¿Qué animal de hocico alargado y lengua pegajosa se alimenta casi solo de hormigas y termitas?",
+        "options": [
+          "El oso hormiguero",
+          "El tapir",
+          "El perezoso",
+          "El lémur"
+        ],
+        "explanation": "Sin dientes, engulle sus presas por millares con una lengua que puede desplegarse más de sesenta centímetros."
+      }
+    }
+  },
+  {
+    "sourceRef": "4b4b50d50c31a331",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel mammifère d'Amérique du Sud, très lent, passe presque toute sa vie suspendu aux branches, la tête en bas ?",
+        "options": [
+          "Le koala",
+          "Le paresseux",
+          "L'opossum",
+          "Le singe hurleur"
+        ],
+        "explanation": "Il bouge si peu que des algues poussent parfois dans son pelage, lui donnant une teinte verdâtre qui le camoufle dans le feuillage."
+      },
+      "en": {
+        "text": "Which very slow South American mammal spends almost all its life hanging from branches, upside down?",
+        "options": [
+          "The koala",
+          "The sloth",
+          "The opossum",
+          "The howler monkey"
+        ],
+        "explanation": "It moves so little that algae sometimes grow in its fur, giving it a greenish tint that camouflages it in the leaves."
+      },
+      "es": {
+        "text": "¿Qué mamífero de América del Sur, muy lento, pasa casi toda su vida colgado de las ramas, cabeza abajo?",
+        "options": [
+          "El koala",
+          "El perezoso",
+          "La zarigüeya",
+          "El mono aullador"
+        ],
+        "explanation": "Se mueve tan poco que a veces crecen algas en su pelaje, dándole un tono verdoso que lo camufla entre las hojas."
+      }
+    }
+  },
+  {
+    "sourceRef": "6172a1c2afc08140",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel oiseau au grand bec muni d'une poche extensible sous la gorge pêche en piquant vers l'eau ?",
+        "options": [
+          "Le cormoran",
+          "L'albatros",
+          "Le pélican",
+          "La mouette"
+        ],
+        "explanation": "Sa poche lui sert d'épuisette : il l'emplit d'eau et de poissons d'un coup, puis la vide de son eau avant d'avaler sa prise."
+      },
+      "en": {
+        "text": "Which bird with a large beak and a stretchy pouch under its throat fishes by diving towards the water?",
+        "options": [
+          "The cormorant",
+          "The albatross",
+          "The pelican",
+          "The gull"
+        ],
+        "explanation": "Its pouch works like a net: it scoops up water and fish in one go, then drains the water before swallowing its catch."
+      },
+      "es": {
+        "text": "¿Qué ave de gran pico y bolsa extensible bajo la garganta pesca lanzándose hacia el agua?",
+        "options": [
+          "El cormorán",
+          "El albatros",
+          "El pelícano",
+          "La gaviota"
+        ],
+        "explanation": "Su bolsa le sirve de red: la llena de agua y peces de golpe, y luego la vacía de agua antes de tragar su captura."
+      }
+    }
+  },
+  {
+    "sourceRef": "3e2ba4fd61e697c9",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle fleur rouge des champs, aux pétales fragiles et froissés, pousse souvent au milieu des blés ?",
+        "options": [
+          "La rose",
+          "La marguerite",
+          "La jonquille",
+          "Le coquelicot"
+        ],
+        "explanation": "Ses pétales tombent au moindre souffle : symbole de la fragilité de la vie, il est devenu celui du souvenir des soldats tombés à la guerre."
+      },
+      "en": {
+        "text": "Which red field flower, with fragile crumpled petals, often grows among the wheat?",
+        "options": [
+          "The rose",
+          "The daisy",
+          "The daffodil",
+          "The poppy"
+        ],
+        "explanation": "Its petals fall at the slightest breeze: a symbol of life's fragility, it became the emblem of remembrance for soldiers fallen in war."
+      },
+      "es": {
+        "text": "¿Qué flor roja de los campos, de pétalos frágiles y arrugados, crece a menudo entre el trigo?",
+        "options": [
+          "La rosa",
+          "La margarita",
+          "El narciso",
+          "La amapola"
+        ],
+        "explanation": "Sus pétalos caen al menor soplo: símbolo de la fragilidad de la vida, se volvió el del recuerdo de los soldados caídos en la guerra."
+      }
+    }
+  },
+  {
+    "sourceRef": "a916ee6bfe4f49a3",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel arbre fruitier se couvre au printemps de fleurs blanches ou roses avant de donner de petits fruits rouges à noyau ?",
+        "options": [
+          "Le cerisier",
+          "Le bouleau",
+          "Le saule",
+          "Le platane"
+        ],
+        "explanation": "Au Japon, l'éclosion de ses fleurs, éphémère et spectaculaire, est fêtée par des pique-niques sous les arbres, une tradition vieille de plus de mille ans."
+      },
+      "en": {
+        "text": "Which fruit tree bursts into white or pink blossom in spring before giving small red stone fruits?",
+        "options": [
+          "The cherry tree",
+          "The birch",
+          "The willow",
+          "The plane tree"
+        ],
+        "explanation": "In Japan the fleeting, spectacular blooming of its flowers is celebrated with picnics under the trees, a tradition over a thousand years old."
+      },
+      "es": {
+        "text": "¿Qué árbol frutal se cubre en primavera de flores blancas o rosas antes de dar pequeños frutos rojos con hueso?",
+        "options": [
+          "El cerezo",
+          "El abedul",
+          "El sauce",
+          "El plátano"
+        ],
+        "explanation": "En Japón la fugaz y espectacular floración de sus flores se celebra con picnics bajo los árboles, una tradición de más de mil años."
+      }
+    }
+  },
+  {
+    "sourceRef": "fd512a7ca6ec5d96",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel serpent, parmi les plus longs du monde, tue ses proies en les enserrant et les étouffant, sans venin ?",
+        "options": [
+          "Le cobra royal",
+          "Le python réticulé",
+          "La vipère",
+          "Le mamba noir"
+        ],
+        "explanation": "Il peut dépasser six mètres et, capable de décrocher sa mâchoire, avaler des proies bien plus larges que sa propre tête."
+      },
+      "en": {
+        "text": "Which snake, among the world's longest, kills its prey by coiling and suffocating it, without venom?",
+        "options": [
+          "The king cobra",
+          "The reticulated python",
+          "The viper",
+          "The black mamba"
+        ],
+        "explanation": "It can exceed six metres and, able to unhinge its jaw, swallow prey far wider than its own head."
+      },
+      "es": {
+        "text": "¿Qué serpiente, de las más largas del mundo, mata a sus presas apretándolas y asfixiándolas, sin veneno?",
+        "options": [
+          "La cobra real",
+          "La pitón reticulada",
+          "La víbora",
+          "La mamba negra"
+        ],
+        "explanation": "Puede superar los seis metros y, capaz de desencajar su mandíbula, tragar presas mucho más anchas que su propia cabeza."
+      }
+    }
+  },
+  {
+    "sourceRef": "08474df232e69e4c",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel petit rongeur du désert saute sur ses longues pattes arrière, comme un kangourou miniature ?",
+        "options": [
+          "La marmotte",
+          "Le hamster",
+          "La gerboise",
+          "Le castor"
+        ],
+        "explanation": "Adaptée à la sécheresse, elle ne boit presque jamais : elle tire toute l'eau dont elle a besoin des graines qu'elle grignote."
+      },
+      "en": {
+        "text": "Which small desert rodent hops on its long hind legs, like a miniature kangaroo?",
+        "options": [
+          "The marmot",
+          "The hamster",
+          "The jerboa",
+          "The beaver"
+        ],
+        "explanation": "Adapted to drought, it hardly ever drinks: it draws all the water it needs from the seeds it nibbles."
+      },
+      "es": {
+        "text": "¿Qué pequeño roedor del desierto salta sobre sus largas patas traseras, como un canguro en miniatura?",
+        "options": [
+          "La marmota",
+          "El hámster",
+          "El jerbo",
+          "El castor"
+        ],
+        "explanation": "Adaptado a la sequía, casi nunca bebe: obtiene toda el agua que necesita de las semillas que roe."
+      }
+    }
+  },
+  {
+    "sourceRef": "5b540964b442b37a",
+    "type": "qcm",
+    "theme": "nature",
+    "difficulty": "easy",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quelle plante aquatique aux larges feuilles rondes flottantes porte de belles fleurs sur les étangs ?",
+        "options": [
+          "Le roseau",
+          "L'algue",
+          "L'iris",
+          "Le nénuphar"
+        ],
+        "explanation": "Ses feuilles cirées laissent perler l'eau sans se mouiller ; ce phénomène naturel inspire aujourd'hui des tissus et des peintures qui restent propres."
+      },
+      "en": {
+        "text": "Which aquatic plant with broad round floating leaves bears beautiful flowers on ponds?",
+        "options": [
+          "The reed",
+          "The seaweed",
+          "The iris",
+          "The water lily"
+        ],
+        "explanation": "Its waxy leaves let water bead off without getting wet; this natural effect now inspires fabrics and paints that stay clean."
+      },
+      "es": {
+        "text": "¿Qué planta acuática de anchas hojas redondas flotantes luce bellas flores en los estanques?",
+        "options": [
+          "El junco",
+          "El alga",
+          "El lirio",
+          "El nenúfar"
+        ],
+        "explanation": "Sus hojas enceradas dejan resbalar el agua sin mojarse; este efecto natural inspira hoy telas y pinturas que se mantienen limpias."
+      }
+    }
+  },
+  {
+    "sourceRef": "5c16ded8a0972133",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel océan sépare les côtes de l'Europe de l'Ouest de celles de l'Amérique du Nord ?",
+        "options": [
+          "L'océan Atlantique",
+          "L'océan Pacifique",
+          "L'océan Indien",
+          "L'océan Arctique"
+        ],
+        "explanation": "Une dorsale sous-marine le traverse du nord au sud, une longue chaîne de volcans où naît peu à peu un nouveau plancher océanique."
+      },
+      "en": {
+        "text": "Which ocean separates the shores of Western Europe from those of North America?",
+        "options": [
+          "The Atlantic Ocean",
+          "The Pacific Ocean",
+          "The Indian Ocean",
+          "The Arctic Ocean"
+        ],
+        "explanation": "An underwater ridge crosses it from north to south, a long chain of volcanoes where new ocean floor is slowly born."
+      },
+      "es": {
+        "text": "¿Qué océano separa las costas de Europa occidental de las de América del Norte?",
+        "options": [
+          "El océano Atlántico",
+          "El océano Pacífico",
+          "El océano Índico",
+          "El océano Ártico"
+        ],
+        "explanation": "Una dorsal submarina lo cruza de norte a sur, una larga cadena de volcanes donde nace poco a poco un nuevo suelo oceánico."
+      }
+    }
+  },
+  {
+    "sourceRef": "a7ea76331089ac61",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel océan baigne l'est de l'Afrique, les côtes de l'Inde et l'ouest de l'Australie ?",
+        "options": [
+          "L'océan Atlantique",
+          "L'océan Indien",
+          "L'océan Pacifique",
+          "L'océan Austral"
+        ],
+        "explanation": "Ses moussons, ces vents qui s'inversent au fil des saisons, guidaient jadis les marchands arabes et indiens d'une rive à l'autre."
+      },
+      "en": {
+        "text": "Which ocean washes eastern Africa, the shores of India and western Australia?",
+        "options": [
+          "The Atlantic Ocean",
+          "The Indian Ocean",
+          "The Pacific Ocean",
+          "The Southern Ocean"
+        ],
+        "explanation": "Its monsoons, winds that reverse with the seasons, once guided Arab and Indian traders from one shore to the other."
+      },
+      "es": {
+        "text": "¿Qué océano baña el este de África, las costas de la India y el oeste de Australia?",
+        "options": [
+          "El océano Atlántico",
+          "El océano Índico",
+          "El océano Pacífico",
+          "El océano Austral"
+        ],
+        "explanation": "Sus monzones, vientos que se invierten con las estaciones, guiaban antaño a los mercaderes árabes e indios de una orilla a otra."
+      }
+    }
+  },
+  {
+    "sourceRef": "87260adb364d5913",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel grand fleuve traverse les États-Unis du nord au sud avant de se jeter dans le golfe du Mexique ?",
+        "options": [
+          "Le Colorado",
+          "L'Hudson",
+          "Le Mississippi",
+          "Le Rio Grande"
+        ],
+        "explanation": "Son bassin draine près de la moitié du pays ; les vapeurs à aubes qui le remontaient jadis ont inspiré toute une littérature américaine."
+      },
+      "en": {
+        "text": "Which great river crosses the United States from north to south before flowing into the Gulf of Mexico?",
+        "options": [
+          "The Colorado",
+          "The Hudson",
+          "The Mississippi",
+          "The Rio Grande"
+        ],
+        "explanation": "Its basin drains nearly half the country; the paddle steamers that once went up it inspired a whole American literature."
+      },
+      "es": {
+        "text": "¿Qué gran río atraviesa los Estados Unidos de norte a sur antes de desembocar en el golfo de México?",
+        "options": [
+          "El Colorado",
+          "El Hudson",
+          "El Misisipi",
+          "El Río Grande"
+        ],
+        "explanation": "Su cuenca drena casi la mitad del país; los vapores de ruedas que lo remontaban antaño inspiraron toda una literatura estadounidense."
+      }
+    }
+  },
+  {
+    "sourceRef": "645c35e134bfd289",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel immense désert de sable occupe une grande partie de la péninsule Arabique, son nom signifiant « quartier vide » ?",
+        "options": [
+          "Le Kalahari",
+          "Le Taklamakan",
+          "Le Sahara",
+          "Le Rub al-Khali"
+        ],
+        "explanation": "Ses dunes peuvent atteindre la hauteur d'un gratte-ciel ; on n'y rencontre presque aucune trace de vie, d'où son nom qui évoque le néant."
+      },
+      "en": {
+        "text": "Which vast sand desert covers much of the Arabian Peninsula, its name meaning 'empty quarter'?",
+        "options": [
+          "The Kalahari",
+          "The Taklamakan",
+          "The Sahara",
+          "The Rub al-Khali"
+        ],
+        "explanation": "Its dunes can reach the height of a skyscraper; almost no trace of life is found there, hence a name that evokes emptiness."
+      },
+      "es": {
+        "text": "¿Qué inmenso desierto de arena ocupa gran parte de la península arábiga, cuyo nombre significa 'cuarto vacío'?",
+        "options": [
+          "El Kalahari",
+          "El Taklamakán",
+          "El Sahara",
+          "El Rub al-Jali"
+        ],
+        "explanation": "Sus dunas pueden alcanzar la altura de un rascacielos; casi no hay rastro de vida allí, de ahí un nombre que evoca la nada."
+      }
+    }
+  },
+  {
+    "sourceRef": "36d87d45e0fb909f",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Sur quel continent se trouvent la Chine, l'Inde et le Japon ?",
+        "options": [
+          "L'Asie",
+          "L'Afrique",
+          "L'Europe",
+          "L'Océanie"
+        ],
+        "explanation": "C'est le plus vaste et le plus peuplé des continents : à lui seul, il abrite plus de la moitié de l'humanité."
+      },
+      "en": {
+        "text": "On which continent are China, India and Japan located?",
+        "options": [
+          "Asia",
+          "Africa",
+          "Europe",
+          "Oceania"
+        ],
+        "explanation": "It is the largest and most populous of the continents: on its own it is home to more than half of humanity."
+      },
+      "es": {
+        "text": "¿En qué continente se encuentran China, la India y Japón?",
+        "options": [
+          "Asia",
+          "África",
+          "Europa",
+          "Oceanía"
+        ],
+        "explanation": "Es el más vasto y poblado de los continentes: él solo alberga a más de la mitad de la humanidad."
+      }
+    }
+  },
+  {
+    "sourceRef": "967242bd5334adf4",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la capitale de l'Inde ?",
+        "options": [
+          "Bombay",
+          "New Delhi",
+          "Calcutta",
+          "Bangalore"
+        ],
+        "explanation": "Elle fut bâtie à côté de la vieille ville par les Britanniques, puis devint la capitale d'un pays qui compte aujourd'hui parmi les plus peuplés du monde."
+      },
+      "en": {
+        "text": "What is the capital of India?",
+        "options": [
+          "Mumbai",
+          "New Delhi",
+          "Kolkata",
+          "Bangalore"
+        ],
+        "explanation": "It was built next to the old city by the British, then became the capital of a country now among the most populous in the world."
+      },
+      "es": {
+        "text": "¿Cuál es la capital de la India?",
+        "options": [
+          "Bombay",
+          "Nueva Delhi",
+          "Calcuta",
+          "Bangalore"
+        ],
+        "explanation": "Los británicos la construyeron junto a la ciudad vieja, y luego se volvió la capital de un país hoy entre los más poblados del mundo."
+      }
+    }
+  },
+  {
+    "sourceRef": "875fef1081487c0d",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle grande île, la plus vaste d'Europe, réunit l'Angleterre, l'Écosse et le pays de Galles ?",
+        "options": [
+          "L'Irlande",
+          "L'Islande",
+          "La Grande-Bretagne",
+          "La Sardaigne"
+        ],
+        "explanation": "Longtemps reliée au continent, elle en fut définitivement séparée par la montée des eaux à la fin de la dernière période glaciaire."
+      },
+      "en": {
+        "text": "Which large island, the biggest in Europe, brings together England, Scotland and Wales?",
+        "options": [
+          "Ireland",
+          "Iceland",
+          "Great Britain",
+          "Sardinia"
+        ],
+        "explanation": "Long joined to the continent, it was finally cut off by rising seas at the end of the last ice age."
+      },
+      "es": {
+        "text": "¿Qué gran isla, la más vasta de Europa, reúne Inglaterra, Escocia y Gales?",
+        "options": [
+          "Irlanda",
+          "Islandia",
+          "Gran Bretaña",
+          "Cerdeña"
+        ],
+        "explanation": "Mucho tiempo unida al continente, quedó separada definitivamente por la subida de las aguas al final de la última glaciación."
+      }
+    }
+  },
+  {
+    "sourceRef": "34f5caea621c8b84",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel détroit sépare la France de l'Angleterre à son point le plus étroit, où passe le tunnel sous la Manche ?",
+        "options": [
+          "Le détroit de Gibraltar",
+          "Le détroit de Messine",
+          "Le Bosphore",
+          "Le pas de Calais"
+        ],
+        "explanation": "Large d'à peine trente kilomètres, il a vu tenter mille traversées : à la nage, en ballon, et même à pied sous la mer, par le tunnel."
+      },
+      "en": {
+        "text": "Which strait separates France from England at its narrowest point, where the Channel Tunnel runs?",
+        "options": [
+          "The Strait of Gibraltar",
+          "The Strait of Messina",
+          "The Bosphorus",
+          "The Strait of Dover"
+        ],
+        "explanation": "Barely thirty kilometres wide, it has seen a thousand crossings attempted: by swimming, by balloon, and even on foot under the sea, through the tunnel."
+      },
+      "es": {
+        "text": "¿Qué estrecho separa Francia de Inglaterra en su punto más angosto, por donde pasa el túnel del Canal?",
+        "options": [
+          "El estrecho de Gibraltar",
+          "El estrecho de Mesina",
+          "El Bósforo",
+          "El paso de Calais"
+        ],
+        "explanation": "De apenas treinta kilómetros de ancho, ha visto mil travesías: a nado, en globo, e incluso a pie bajo el mar, por el túnel."
+      }
+    }
+  },
+  {
+    "sourceRef": "cf94600ca77309c8",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel massif montagneux d'Europe centrale s'étire en arc de la Slovaquie à la Roumanie ?",
+        "options": [
+          "Les Carpates",
+          "Les Balkans",
+          "Les Apennins",
+          "Les Dolomites"
+        ],
+        "explanation": "Ses forêts profondes abritent encore l'une des dernières grandes populations d'ours bruns, de loups et de lynx d'Europe."
+      },
+      "en": {
+        "text": "Which Central European mountain range curves in an arc from Slovakia to Romania?",
+        "options": [
+          "The Carpathians",
+          "The Balkans",
+          "The Apennines",
+          "The Dolomites"
+        ],
+        "explanation": "Its deep forests still shelter one of Europe's last great populations of brown bears, wolves and lynx."
+      },
+      "es": {
+        "text": "¿Qué cordillera de Europa central se extiende en arco de Eslovaquia a Rumanía?",
+        "options": [
+          "Los Cárpatos",
+          "Los Balcanes",
+          "Los Apeninos",
+          "Los Dolomitas"
+        ],
+        "explanation": "Sus bosques profundos aún albergan una de las últimas grandes poblaciones de osos pardos, lobos y linces de Europa."
+      }
+    }
+  },
+  {
+    "sourceRef": "d5b5bcf3a708cd22",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel est le plus petit continent de la planète, où vivent kangourous et koalas ?",
+        "options": [
+          "L'Antarctique",
+          "L'Océanie",
+          "L'Europe",
+          "L'Amérique du Sud"
+        ],
+        "explanation": "Isolé depuis des millions d'années, il a vu évoluer une faune unique, dont de nombreux mammifères qui portent leurs petits dans une poche."
+      },
+      "en": {
+        "text": "Which is the smallest continent on the planet, home to kangaroos and koalas?",
+        "options": [
+          "Antarctica",
+          "Oceania",
+          "Europe",
+          "South America"
+        ],
+        "explanation": "Isolated for millions of years, it saw a unique fauna evolve, including many mammals that carry their young in a pouch."
+      },
+      "es": {
+        "text": "¿Cuál es el continente más pequeño del planeta, donde viven canguros y koalas?",
+        "options": [
+          "La Antártida",
+          "Oceanía",
+          "Europa",
+          "América del Sur"
+        ],
+        "explanation": "Aislado desde hace millones de años, vio evolucionar una fauna única, con muchos mamíferos que llevan a sus crías en una bolsa."
+      }
+    }
+  },
+  {
+    "sourceRef": "ed24aa41f7c6a19a",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel fleuve sacré de l'Inde traverse la ville de Varanasi avant de gagner le golfe du Bengale ?",
+        "options": [
+          "L'Indus",
+          "Le Mékong",
+          "Le Gange",
+          "Le Brahmapoutre"
+        ],
+        "explanation": "Des millions de fidèles viennent chaque année se baigner dans ses eaux, considérées comme purificatrices malgré la pollution qui les menace."
+      },
+      "en": {
+        "text": "Which sacred river of India flows through the city of Varanasi before reaching the Bay of Bengal?",
+        "options": [
+          "The Indus",
+          "The Mekong",
+          "The Ganges",
+          "The Brahmaputra"
+        ],
+        "explanation": "Millions of pilgrims come each year to bathe in its waters, held to be purifying despite the pollution that threatens them."
+      },
+      "es": {
+        "text": "¿Qué río sagrado de la India atraviesa la ciudad de Varanasi antes de llegar al golfo de Bengala?",
+        "options": [
+          "El Indo",
+          "El Mekong",
+          "El Ganges",
+          "El Brahmaputra"
+        ],
+        "explanation": "Millones de fieles vienen cada año a bañarse en sus aguas, consideradas purificadoras pese a la contaminación que las amenaza."
+      }
+    }
+  },
+  {
+    "sourceRef": "c238047ff144eecc",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel pays d'Amérique du Sud possède deux capitales, dont La Paz, l'une des plus hautes du monde ?",
+        "options": [
+          "Le Pérou",
+          "L'Équateur",
+          "Le Paraguay",
+          "La Bolivie"
+        ],
+        "explanation": "Le gouvernement siège dans les hauteurs, mais la capitale officielle est une autre ville, plus basse : un partage rare et curieux du pouvoir."
+      },
+      "en": {
+        "text": "Which South American country has two capitals, one of them La Paz, among the highest in the world?",
+        "options": [
+          "Peru",
+          "Ecuador",
+          "Paraguay",
+          "Bolivia"
+        ],
+        "explanation": "The government sits high in the mountains, but the official capital is another, lower city: a rare and curious sharing of power."
+      },
+      "es": {
+        "text": "¿Qué país de América del Sur tiene dos capitales, una de ellas La Paz, de las más altas del mundo?",
+        "options": [
+          "Perú",
+          "Ecuador",
+          "Paraguay",
+          "Bolivia"
+        ],
+        "explanation": "El gobierno reside en las alturas, pero la capital oficial es otra ciudad, más baja: un reparto raro y curioso del poder."
+      }
+    }
+  },
+  {
+    "sourceRef": "bd907f131d742425",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel grand fleuve d'Europe centrale traverse Vienne, Budapest et Belgrade avant de rejoindre la mer Noire ?",
+        "options": [
+          "Le Danube",
+          "Le Rhin",
+          "L'Elbe",
+          "La Vistule"
+        ],
+        "explanation": "Il arrose plus de pays qu'aucun autre fleuve du monde et inspira une célèbre valse évoquant ses reflets bleutés."
+      },
+      "en": {
+        "text": "Which great river of Central Europe flows through Vienna, Budapest and Belgrade before reaching the Black Sea?",
+        "options": [
+          "The Danube",
+          "The Rhine",
+          "The Elbe",
+          "The Vistula"
+        ],
+        "explanation": "It waters more countries than any other river in the world and inspired a famous waltz evoking its bluish sheen."
+      },
+      "es": {
+        "text": "¿Qué gran río de Europa central atraviesa Viena, Budapest y Belgrado antes de llegar al mar Negro?",
+        "options": [
+          "El Danubio",
+          "El Rin",
+          "El Elba",
+          "El Vístula"
+        ],
+        "explanation": "Riega más países que ningún otro río del mundo e inspiró un célebre vals que evoca sus reflejos azulados."
+      }
+    }
+  },
+  {
+    "sourceRef": "56f8d151fd1255e9",
+    "type": "qcm",
+    "theme": "geographie",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle mer chaude, réputée pour ses coraux, sépare l'Afrique de la péninsule Arabique ?",
+        "options": [
+          "La mer Noire",
+          "La mer Rouge",
+          "La mer Caspienne",
+          "La mer Baltique"
+        ],
+        "explanation": "Son nom viendrait des algues rougeâtres qui la colorent parfois, ou des montagnes voisines dont les roches se teintent au soleil couchant."
+      },
+      "en": {
+        "text": "Which warm sea, famed for its corals, separates Africa from the Arabian Peninsula?",
+        "options": [
+          "The Black Sea",
+          "The Red Sea",
+          "The Caspian Sea",
+          "The Baltic Sea"
+        ],
+        "explanation": "Its name may come from the reddish algae that sometimes colour it, or from the nearby mountains whose rocks glow at sunset."
+      },
+      "es": {
+        "text": "¿Qué mar cálido, famoso por sus corales, separa África de la península arábiga?",
+        "options": [
+          "El mar Negro",
+          "El mar Rojo",
+          "El mar Caspio",
+          "El mar Báltico"
+        ],
+        "explanation": "Su nombre vendría de las algas rojizas que a veces la tiñen, o de las montañas cercanas cuyas rocas se colorean al atardecer."
+      }
+    }
+  },
+  {
+    "sourceRef": "c169f9dae713dfd6",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel général romain conquit la Gaule puis franchit le Rubicon, déclenchant une guerre civile ?",
+        "options": [
+          "Jules César",
+          "Pompée",
+          "Marc Antoine",
+          "Crassus"
+        ],
+        "explanation": "En traversant cette petite rivière avec son armée, geste interdit, il lança, dit-on, la formule restée célèbre : « Le sort en est jeté. »"
+      },
+      "en": {
+        "text": "Which Roman general conquered Gaul and then crossed the Rubicon, sparking a civil war?",
+        "options": [
+          "Julius Caesar",
+          "Pompey",
+          "Mark Antony",
+          "Crassus"
+        ],
+        "explanation": "Crossing this small river with his army, a forbidden act, he is said to have uttered the famous line: 'The die is cast.'"
+      },
+      "es": {
+        "text": "¿Qué general romano conquistó la Galia y luego cruzó el Rubicón, desatando una guerra civil?",
+        "options": [
+          "Julio César",
+          "Pompeyo",
+          "Marco Antonio",
+          "Craso"
+        ],
+        "explanation": "Al cruzar este pequeño río con su ejército, gesto prohibido, habría pronunciado la célebre frase: 'La suerte está echada.'"
+      }
+    }
+  },
+  {
+    "sourceRef": "9492f3afa935b071",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel fut le tout premier empereur de Rome, héritier et fils adoptif de Jules César ?",
+        "options": [
+          "Tibère",
+          "Auguste",
+          "Caligula",
+          "Claude"
+        ],
+        "explanation": "Il se vantait d'avoir « trouvé une Rome de briques et laissé une Rome de marbre », transformant la cité en capitale d'un empire."
+      },
+      "en": {
+        "text": "Who was the very first emperor of Rome, heir and adopted son of Julius Caesar?",
+        "options": [
+          "Tiberius",
+          "Augustus",
+          "Caligula",
+          "Claudius"
+        ],
+        "explanation": "He boasted of having 'found a Rome of brick and left a Rome of marble', turning the city into the capital of an empire."
+      },
+      "es": {
+        "text": "¿Quién fue el primer emperador de Roma, heredero e hijo adoptivo de Julio César?",
+        "options": [
+          "Tiberio",
+          "Augusto",
+          "Calígula",
+          "Claudio"
+        ],
+        "explanation": "Presumía de haber 'hallado una Roma de ladrillo y dejado una Roma de mármol', convirtiendo la ciudad en capital de un imperio."
+      }
+    }
+  },
+  {
+    "sourceRef": "304ad89f5d72e80b",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel marchand vénitien décrivit ses voyages jusqu'en Chine dans un célèbre « Livre des merveilles » au XIIIᵉ siècle ?",
+        "options": [
+          "Amerigo Vespucci",
+          "Ibn Battuta",
+          "Marco Polo",
+          "Vasco de Gama"
+        ],
+        "explanation": "Ses récits parurent si extraordinaires qu'on le surnomma « Monsieur Million » ; sur son lit de mort, il jura pourtant n'avoir pas tout dit."
+      },
+      "en": {
+        "text": "Which Venetian merchant described his travels as far as China in a famous 'Book of Marvels' in the 13th century?",
+        "options": [
+          "Amerigo Vespucci",
+          "Ibn Battuta",
+          "Marco Polo",
+          "Vasco da Gama"
+        ],
+        "explanation": "His tales seemed so extraordinary that he was nicknamed 'Mister Million'; on his deathbed, though, he swore he had not told the half of it."
+      },
+      "es": {
+        "text": "¿Qué mercader veneciano describió sus viajes hasta China en un célebre 'Libro de las maravillas' en el siglo XIII?",
+        "options": [
+          "Amerigo Vespucio",
+          "Ibn Battuta",
+          "Marco Polo",
+          "Vasco de Gama"
+        ],
+        "explanation": "Sus relatos parecieron tan extraordinarios que le apodaron 'Micer Millón'; en su lecho de muerte, juró no haberlo contado todo."
+      }
+    }
+  },
+  {
+    "sourceRef": "d66c046391005e88",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel petit-fils de Gengis Khan fonda la dynastie Yuan en Chine et reçut, dit-on, Marco Polo à sa cour ?",
+        "options": [
+          "Tamerlan",
+          "Ögödeï",
+          "Batu",
+          "Kubilaï Khan"
+        ],
+        "explanation": "Son immense capitale d'été, aux jardins fabuleux, inspira des siècles plus tard un célèbre poème anglais sur un palais de plaisance."
+      },
+      "en": {
+        "text": "Which grandson of Genghis Khan founded the Yuan dynasty in China and is said to have received Marco Polo at his court?",
+        "options": [
+          "Tamerlane",
+          "Ögedei",
+          "Batu",
+          "Kublai Khan"
+        ],
+        "explanation": "His vast summer capital, with fabulous gardens, inspired, centuries later, a famous English poem about a pleasure palace."
+      },
+      "es": {
+        "text": "¿Qué nieto de Gengis Kan fundó la dinastía Yuan en China y habría recibido a Marco Polo en su corte?",
+        "options": [
+          "Tamerlán",
+          "Ögödei",
+          "Batu",
+          "Kublai Kan"
+        ],
+        "explanation": "Su inmensa capital de verano, de jardines fabulosos, inspiró siglos después un célebre poema inglés sobre un palacio de recreo."
+      }
+    }
+  },
+  {
+    "sourceRef": "c806bb743971b726",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel roi de France, surnommé « le Bien-Aimé », régna longtemps au XVIIIᵉ siècle avant la Révolution ?",
+        "options": [
+          "Louis XV",
+          "Louis XIII",
+          "Charles VII",
+          "François Iᵉʳ"
+        ],
+        "explanation": "Il monta sur le trône enfant, à cinq ans, ce qui obligea son royaume à être gouverné en son nom pendant plusieurs années."
+      },
+      "en": {
+        "text": "Which king of France, nicknamed 'the Beloved', reigned long in the 18th century before the Revolution?",
+        "options": [
+          "Louis XV",
+          "Louis XIII",
+          "Charles VII",
+          "Francis I"
+        ],
+        "explanation": "He came to the throne as a child of five, which meant his kingdom had to be governed in his name for several years."
+      },
+      "es": {
+        "text": "¿Qué rey de Francia, apodado 'el Bienamado', reinó mucho tiempo en el siglo XVIII antes de la Revolución?",
+        "options": [
+          "Luis XV",
+          "Luis XIII",
+          "Carlos VII",
+          "Francisco I"
+        ],
+        "explanation": "Subió al trono siendo un niño de cinco años, lo que obligó a gobernar su reino en su nombre durante varios años."
+      }
+    }
+  },
+  {
+    "sourceRef": "82a89d8e799d8b57",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle reine d'Angleterre régna près de soixante-quatre ans au XIXᵉ siècle, donnant son nom à toute une époque ?",
+        "options": [
+          "Marie Tudor",
+          "Victoria",
+          "Anne",
+          "Élisabeth Iʳᵉ"
+        ],
+        "explanation": "Sous son règne, l'empire britannique s'étendit sur tous les continents, au point qu'on disait que le soleil ne s'y couchait jamais."
+      },
+      "en": {
+        "text": "Which Queen of England reigned nearly sixty-four years in the 19th century, giving her name to a whole era?",
+        "options": [
+          "Mary Tudor",
+          "Victoria",
+          "Anne",
+          "Elizabeth I"
+        ],
+        "explanation": "Under her reign the British Empire spread over every continent, so much that it was said the sun never set on it."
+      },
+      "es": {
+        "text": "¿Qué reina de Inglaterra reinó casi sesenta y cuatro años en el siglo XIX, dando su nombre a toda una época?",
+        "options": [
+          "María Tudor",
+          "Victoria",
+          "Ana",
+          "Isabel I"
+        ],
+        "explanation": "Bajo su reinado, el imperio británico se extendió por todos los continentes, tanto que se decía que el sol nunca se ponía en él."
+      }
+    }
+  },
+  {
+    "sourceRef": "f2b779f4f91bcb43",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel roi de France, surnommé « le Roi de fer », fit arrêter et juger les chevaliers du Temple en 1307 ?",
+        "options": [
+          "Philippe Auguste",
+          "Saint Louis",
+          "Philippe le Bel",
+          "Charles V"
+        ],
+        "explanation": "Endetté auprès de l'ordre religieux et guerrier, il fit saisir ses richesses ; la malédiction lancée, dit la légende, par le dernier grand maître entra dans l'histoire."
+      },
+      "en": {
+        "text": "Which king of France, nicknamed the 'Iron King', had the Knights Templar arrested and tried in 1307?",
+        "options": [
+          "Philip Augustus",
+          "Saint Louis",
+          "Philip the Fair",
+          "Charles V"
+        ],
+        "explanation": "In debt to the religious and military order, he had its riches seized; the curse said to be laid by the last grand master passed into legend."
+      },
+      "es": {
+        "text": "¿Qué rey de Francia, apodado el 'Rey de Hierro', hizo arrestar y juzgar a los caballeros del Temple en 1307?",
+        "options": [
+          "Felipe Augusto",
+          "San Luis",
+          "Felipe el Hermoso",
+          "Carlos V"
+        ],
+        "explanation": "Endeudado con la orden religiosa y guerrera, hizo confiscar sus riquezas; la maldición que, según la leyenda, lanzó el último gran maestre pasó a la historia."
+      }
+    }
+  },
+  {
+    "sourceRef": "151b11c89689d612",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel moine allemand afficha, dit-on, ses 95 thèses en 1517, lançant la Réforme protestante ?",
+        "options": [
+          "Jean Calvin",
+          "Thomas More",
+          "Érasme",
+          "Martin Luther"
+        ],
+        "explanation": "Il traduisit la Bible dans la langue du peuple, la rendant accessible à tous, un tournant décisif pour la culture et la langue de son pays."
+      },
+      "en": {
+        "text": "Which German monk is said to have posted his 95 theses in 1517, launching the Protestant Reformation?",
+        "options": [
+          "John Calvin",
+          "Thomas More",
+          "Erasmus",
+          "Martin Luther"
+        ],
+        "explanation": "He translated the Bible into the language of the people, making it available to all, a decisive turning point for his country's culture and language."
+      },
+      "es": {
+        "text": "¿Qué monje alemán habría clavado sus 95 tesis en 1517, iniciando la Reforma protestante?",
+        "options": [
+          "Juan Calvino",
+          "Tomás Moro",
+          "Erasmo",
+          "Martín Lutero"
+        ],
+        "explanation": "Tradujo la Biblia a la lengua del pueblo, poniéndola al alcance de todos, un giro decisivo para la cultura y la lengua de su país."
+      }
+    }
+  },
+  {
+    "sourceRef": "d9e32ad046106847",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle dynastie régna sur la France de 1589 à la Révolution, avec des rois comme Henri IV et Louis XIV ?",
+        "options": [
+          "Les Bourbons",
+          "Les Valois",
+          "Les Plantagenêts",
+          "Les Habsbourg"
+        ],
+        "explanation": "Une branche de cette famille régna aussi sur l'Espagne ; certains de ses descendants portent encore aujourd'hui la couronne espagnole."
+      },
+      "en": {
+        "text": "Which dynasty ruled France from 1589 to the Revolution, with kings such as Henry IV and Louis XIV?",
+        "options": [
+          "The Bourbons",
+          "The Valois",
+          "The Plantagenets",
+          "The Habsburgs"
+        ],
+        "explanation": "A branch of this family also ruled Spain; some of its descendants still wear the Spanish crown today."
+      },
+      "es": {
+        "text": "¿Qué dinastía reinó en Francia de 1589 a la Revolución, con reyes como Enrique IV y Luis XIV?",
+        "options": [
+          "Los Borbones",
+          "Los Valois",
+          "Los Plantagenet",
+          "Los Habsburgo"
+        ],
+        "explanation": "Una rama de esta familia reinó también en España; algunos de sus descendientes aún portan hoy la corona española."
+      }
+    }
+  },
+  {
+    "sourceRef": "48f9430f6a927bc3",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel roi anglais dut apposer son sceau sur la Grande Charte en 1215, sous la pression de ses barons révoltés ?",
+        "options": [
+          "Richard Cœur de Lion",
+          "Jean sans Terre",
+          "Guillaume le Conquérant",
+          "Henri II"
+        ],
+        "explanation": "Surnommé ainsi car il hérita de peu de terres étant cadet, il resta dans l'histoire comme le roi contraint de limiter son propre pouvoir."
+      },
+      "en": {
+        "text": "Which English king had to set his seal on the Magna Carta in 1215, pressed by his rebellious barons?",
+        "options": [
+          "Richard the Lionheart",
+          "John Lackland",
+          "William the Conqueror",
+          "Henry II"
+        ],
+        "explanation": "Nicknamed thus because, as a younger son, he inherited little land, he remains in history as the king forced to limit his own power."
+      },
+      "es": {
+        "text": "¿Qué rey inglés tuvo que poner su sello en la Carta Magna en 1215, presionado por sus barones rebeldes?",
+        "options": [
+          "Ricardo Corazón de León",
+          "Juan sin Tierra",
+          "Guillermo el Conquistador",
+          "Enrique II"
+        ],
+        "explanation": "Apodado así porque, siendo hijo menor, heredó pocas tierras, quedó en la historia como el rey forzado a limitar su propio poder."
+      }
+    }
+  },
+  {
+    "sourceRef": "3f991c931161e582",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "easy",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "En quelle année le premier être humain voyagea-t-il dans l'espace ?",
+        "options": [
+          "1945",
+          "1957",
+          "1961",
+          "1969"
+        ],
+        "explanation": "Son vol dura moins de deux heures et fit à peine le tour de la Terre, mais il ouvrit pour l'humanité l'ère de la conquête spatiale."
+      },
+      "en": {
+        "text": "In which year did the first human being travel into space?",
+        "options": [
+          "1945",
+          "1957",
+          "1961",
+          "1969"
+        ],
+        "explanation": "His flight lasted less than two hours and barely circled the Earth, but it opened the age of space exploration for humanity."
+      },
+      "es": {
+        "text": "¿En qué año viajó al espacio el primer ser humano?",
+        "options": [
+          "1945",
+          "1957",
+          "1961",
+          "1969"
+        ],
+        "explanation": "Su vuelo duró menos de dos horas y apenas dio la vuelta a la Tierra, pero abrió para la humanidad la era de la conquista espacial."
+      }
+    }
+  },
+  {
+    "sourceRef": "0c24c1ed72eb76c2",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel cosmonaute soviétique fut le premier homme à voyager dans l'espace, en 1961 ?",
+        "options": [
+          "Alan Shepard",
+          "Neil Armstrong",
+          "Valentina Terechkova",
+          "Youri Gagarine"
+        ],
+        "explanation": "Son sourire fit le tour du monde ; devenu un héros mondial, il ne put jamais repartir dans l'espace, jugé trop précieux pour risquer sa vie."
+      },
+      "en": {
+        "text": "Which Soviet cosmonaut was the first man to travel into space, in 1961?",
+        "options": [
+          "Alan Shepard",
+          "Neil Armstrong",
+          "Valentina Tereshkova",
+          "Yuri Gagarin"
+        ],
+        "explanation": "His smile travelled the world; a global hero, he was never allowed to fly again, deemed too precious to risk his life."
+      },
+      "es": {
+        "text": "¿Qué cosmonauta soviético fue el primer hombre en viajar al espacio, en 1961?",
+        "options": [
+          "Alan Shepard",
+          "Neil Armstrong",
+          "Valentina Tereshkova",
+          "Yuri Gagarin"
+        ],
+        "explanation": "Su sonrisa dio la vuelta al mundo; convertido en héroe mundial, nunca pudo volver al espacio, juzgado demasiado valioso para arriesgar su vida."
+      }
+    }
+  },
+  {
+    "sourceRef": "ded5f3be105fa63c",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle dynastie d'origine grecque régna sur l'Égypte pendant trois siècles, s'achevant avec Cléopâtre ?",
+        "options": [
+          "Les Ramsès",
+          "Les Séleucides",
+          "Les Ptolémées",
+          "Les Séverin"
+        ],
+        "explanation": "Fondée par un général d'Alexandre le Grand, elle parlait grec à la cour ; Cléopâtre fut, dit-on, la première de la lignée à apprendre l'égyptien."
+      },
+      "en": {
+        "text": "Which dynasty of Greek origin ruled Egypt for three centuries, ending with Cleopatra?",
+        "options": [
+          "The Ramesses",
+          "The Seleucids",
+          "The Ptolemies",
+          "The Severans"
+        ],
+        "explanation": "Founded by a general of Alexander the Great, it spoke Greek at court; Cleopatra was, it is said, the first of the line to learn Egyptian."
+      },
+      "es": {
+        "text": "¿Qué dinastía de origen griego reinó en Egipto durante tres siglos, terminando con Cleopatra?",
+        "options": [
+          "Los Ramsés",
+          "Los Seléucidas",
+          "Los Ptolomeos",
+          "Los Severos"
+        ],
+        "explanation": "Fundada por un general de Alejandro Magno, hablaba griego en la corte; Cleopatra fue, según se dice, la primera del linaje en aprender egipcio."
+      }
+    }
+  },
+  {
+    "sourceRef": "025fef9a82eb0169",
+    "type": "qcm",
+    "theme": "histoire",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel mur de pierre, bâti par les Romains, barrait le nord de l'actuelle Grande-Bretagne pour contenir les tribus du Nord ?",
+        "options": [
+          "Le mur d'Hadrien",
+          "La Grande Muraille",
+          "Le mur de Berlin",
+          "Le mur des Lamentations"
+        ],
+        "explanation": "Long de plus de cent kilomètres, il marquait la limite septentrionale de l'Empire ; on en suit encore les vestiges à travers landes et collines."
+      },
+      "en": {
+        "text": "Which stone wall, built by the Romans, barred the north of present-day Britain to hold back the northern tribes?",
+        "options": [
+          "Hadrian's Wall",
+          "The Great Wall",
+          "The Berlin Wall",
+          "The Western Wall"
+        ],
+        "explanation": "Over a hundred kilometres long, it marked the empire's northern edge; its remains can still be traced across moors and hills."
+      },
+      "es": {
+        "text": "¿Qué muro de piedra, construido por los romanos, cerraba el norte de la actual Gran Bretaña para contener a las tribus del Norte?",
+        "options": [
+          "El muro de Adriano",
+          "La Gran Muralla",
+          "El Muro de Berlín",
+          "El Muro de las Lamentaciones"
+        ],
+        "explanation": "De más de cien kilómetros, marcaba el límite norte del imperio; aún se siguen sus restos por páramos y colinas."
+      }
+    }
+  },
+  {
+    "sourceRef": "73c1d32794a7c552",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un mot qui imite un bruit, comme « boum », « miaou » ou « tic-tac » ?",
+        "options": [
+          "Une onomatopée",
+          "Une métaphore",
+          "Une allitération",
+          "Une rime"
+        ],
+        "explanation": "Elles changent d'une langue à l'autre : le coq chante « cocorico » en français, mais « cock-a-doodle-doo » en anglais."
+      },
+      "en": {
+        "text": "What do you call a word that imitates a sound, like 'boom', 'meow' or 'tick-tock'?",
+        "options": [
+          "An onomatopoeia",
+          "A metaphor",
+          "An alliteration",
+          "A rhyme"
+        ],
+        "explanation": "They change from language to language: the cockerel crows 'cock-a-doodle-doo' in English, but 'cocorico' in French."
+      },
+      "es": {
+        "text": "¿Cómo se llama una palabra que imita un ruido, como 'bum', 'miau' o 'tic-tac'?",
+        "options": [
+          "Una onomatopeya",
+          "Una metáfora",
+          "Una aliteración",
+          "Una rima"
+        ],
+        "explanation": "Cambian de una lengua a otra: el gallo canta 'quiquiriquí' en español, pero 'cock-a-doodle-doo' en inglés."
+      }
+    }
+  },
+  {
+    "sourceRef": "56f91cc65470ff2f",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "easy",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Combien d'océans compte la Terre selon le découpage courant ?",
+        "options": [
+          "4",
+          "5",
+          "7",
+          "3"
+        ],
+        "explanation": "Le cinquième, autour de l'Antarctique, ne fut officiellement reconnu que récemment, longtemps confondu avec ses grands voisins."
+      },
+      "en": {
+        "text": "How many oceans does the Earth have according to the common division?",
+        "options": [
+          "4",
+          "5",
+          "7",
+          "3"
+        ],
+        "explanation": "The fifth, around Antarctica, was only officially recognised recently, long blurred with its larger neighbours."
+      },
+      "es": {
+        "text": "¿Cuántos océanos tiene la Tierra según la división habitual?",
+        "options": [
+          "4",
+          "5",
+          "7",
+          "3"
+        ],
+        "explanation": "El quinto, en torno a la Antártida, solo se reconoció oficialmente hace poco, mucho tiempo confundido con sus grandes vecinos."
+      }
+    }
+  },
+  {
+    "sourceRef": "09ac4225247af9b0",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle est la plus grande de ces unités de masse : le gramme, le kilogramme ou la tonne ?",
+        "options": [
+          "Le gramme",
+          "Le kilogramme",
+          "La tonne",
+          "Le milligramme"
+        ],
+        "explanation": "Elle vaut mille kilogrammes : c'est à peu près la masse d'une petite voiture, ou d'un très grand ours polaire."
+      },
+      "en": {
+        "text": "Which is the largest of these units of mass: the gram, the kilogram or the tonne?",
+        "options": [
+          "The gram",
+          "The kilogram",
+          "The tonne",
+          "The milligram"
+        ],
+        "explanation": "It equals a thousand kilograms: roughly the mass of a small car, or of a very large polar bear."
+      },
+      "es": {
+        "text": "¿Cuál es la mayor de estas unidades de masa: el gramo, el kilogramo o la tonelada?",
+        "options": [
+          "El gramo",
+          "El kilogramo",
+          "La tonelada",
+          "El miligramo"
+        ],
+        "explanation": "Equivale a mil kilogramos: más o menos la masa de un coche pequeño, o de un oso polar muy grande."
+      }
+    }
+  },
+  {
+    "sourceRef": "c17b920874d2d711",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on la barrière de vitesse franchie par un avion allant plus vite que le son ?",
+        "options": [
+          "La vitesse de libération",
+          "Le seuil de Planck",
+          "Le point critique",
+          "Le mur du son"
+        ],
+        "explanation": "Le franchir produit une détonation, cette « claque » que l'on entend au sol quand l'onde de choc de l'avion nous rattrape."
+      },
+      "en": {
+        "text": "What do you call the speed barrier crossed by an aircraft going faster than sound?",
+        "options": [
+          "The escape velocity",
+          "The Planck scale",
+          "The critical point",
+          "The sound barrier"
+        ],
+        "explanation": "Crossing it produces a bang, the 'boom' heard on the ground as the aircraft's shock wave catches up with us."
+      },
+      "es": {
+        "text": "¿Cómo se llama la barrera de velocidad que cruza un avión que va más rápido que el sonido?",
+        "options": [
+          "La velocidad de escape",
+          "La escala de Planck",
+          "El punto crítico",
+          "La barrera del sonido"
+        ],
+        "explanation": "Cruzarla produce una detonación, ese 'estampido' que se oye en tierra cuando la onda de choque del avión nos alcanza."
+      }
+    }
+  },
+  {
+    "sourceRef": "c6876c4e79ea81b7",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle unité mesure un angle, un tour complet valant 360 de ces unités ?",
+        "options": [
+          "Le degré",
+          "Le radian",
+          "Le grade",
+          "Le mètre"
+        ],
+        "explanation": "Ce choix de 360, hérité des astronomes de Babylone, est bien pratique : ce nombre se divise sans reste par une foule d'entiers."
+      },
+      "en": {
+        "text": "Which unit measures an angle, a full turn being 360 of these units?",
+        "options": [
+          "The degree",
+          "The radian",
+          "The gradian",
+          "The metre"
+        ],
+        "explanation": "This choice of 360, inherited from the astronomers of Babylon, is handy: the number divides evenly by a host of whole numbers."
+      },
+      "es": {
+        "text": "¿Qué unidad mide un ángulo, valiendo una vuelta completa 360 de estas unidades?",
+        "options": [
+          "El grado",
+          "El radián",
+          "El gradián",
+          "El metro"
+        ],
+        "explanation": "Esta elección de 360, heredada de los astrónomos de Babilonia, es práctica: el número se divide sin resto entre multitud de enteros."
+      }
+    }
+  },
+  {
+    "sourceRef": "b587b214ff5338d6",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Comment nomme-t-on la moitié du diamètre d'un cercle, du centre jusqu'au bord ?",
+        "options": [
+          "La corde",
+          "Le rayon",
+          "L'arc",
+          "La tangente"
+        ],
+        "explanation": "Le même mot désigne les rayons du soleil ou d'une roue de vélo : dans tous les cas, une droite partant d'un centre."
+      },
+      "en": {
+        "text": "What do you call half the diameter of a circle, from the centre to the edge?",
+        "options": [
+          "The chord",
+          "The radius",
+          "The arc",
+          "The tangent"
+        ],
+        "explanation": "The same word describes the rays of the sun or the spokes of a bicycle wheel: in each case, a line running out from a centre."
+      },
+      "es": {
+        "text": "¿Cómo se llama la mitad del diámetro de un círculo, del centro hasta el borde?",
+        "options": [
+          "La cuerda",
+          "El radio",
+          "El arco",
+          "La tangente"
+        ],
+        "explanation": "La misma palabra designa los rayos del sol o de una rueda de bicicleta: en todos los casos, una recta que sale de un centro."
+      }
+    }
+  },
+  {
+    "sourceRef": "1ab45f6261479b61",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un triangle dont les trois côtés et les trois angles sont égaux ?",
+        "options": [
+          "Isocèle",
+          "Scalène",
+          "Équilatéral",
+          "Rectangle"
+        ],
+        "explanation": "Ses trois angles valent chacun soixante degrés ; c'est la forme la plus parfaitement symétrique que puisse prendre un triangle."
+      },
+      "en": {
+        "text": "What do you call a triangle whose three sides and three angles are all equal?",
+        "options": [
+          "Isosceles",
+          "Scalene",
+          "Equilateral",
+          "Right-angled"
+        ],
+        "explanation": "Its three angles each measure sixty degrees; it is the most perfectly symmetrical shape a triangle can take."
+      },
+      "es": {
+        "text": "¿Cómo se llama un triángulo cuyos tres lados y tres ángulos son iguales?",
+        "options": [
+          "Isósceles",
+          "Escaleno",
+          "Equilátero",
+          "Rectángulo"
+        ],
+        "explanation": "Sus tres ángulos miden cada uno sesenta grados; es la forma más perfectamente simétrica que puede tomar un triángulo."
+      }
+    }
+  },
+  {
+    "sourceRef": "644e0e5e0cc361ac",
+    "type": "qcm",
+    "theme": "general",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on l'action de faire passer un texte d'une langue à une autre ?",
+        "options": [
+          "La transcription",
+          "La rédaction",
+          "La correction",
+          "La traduction"
+        ],
+        "explanation": "Un vieil adage italien la compare à une trahison, tant il est difficile de rendre à la fois le sens exact et la musique d'une phrase."
+      },
+      "en": {
+        "text": "What do you call the act of turning a text from one language into another?",
+        "options": [
+          "Transcription",
+          "Writing",
+          "Proofreading",
+          "Translation"
+        ],
+        "explanation": "An old Italian saying likens it to a betrayal, so hard is it to convey both the exact meaning and the music of a sentence."
+      },
+      "es": {
+        "text": "¿Cómo se llama la acción de pasar un texto de una lengua a otra?",
+        "options": [
+          "La transcripción",
+          "La redacción",
+          "La corrección",
+          "La traducción"
+        ],
+        "explanation": "Un viejo dicho italiano la compara con una traición, de lo difícil que es rendir a la vez el sentido exacto y la música de una frase."
+      }
+    }
+  },
+  {
+    "sourceRef": "53292fbb229efcb7",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on les petites créatures jaunes en salopette, au langage incompréhensible, des films « Moi, moche et méchant » ?",
+        "options": [
+          "Les Minions",
+          "Les Schtroumpfs",
+          "Les Barbapapa",
+          "Les Bisounours"
+        ],
+        "explanation": "Leur baragouin est un mélange de plusieurs langues réelles, où l'on reconnaît parfois des bribes de français, d'anglais ou d'espagnol."
+      },
+      "en": {
+        "text": "What do you call the small yellow creatures in dungarees, speaking gibberish, from the 'Despicable Me' films?",
+        "options": [
+          "The Minions",
+          "The Smurfs",
+          "The Barbapapa",
+          "The Care Bears"
+        ],
+        "explanation": "Their gibberish is a blend of several real languages, in which one sometimes recognises scraps of French, English or Spanish."
+      },
+      "es": {
+        "text": "¿Cómo se llaman las pequeñas criaturas amarillas de peto, de lenguaje incomprensible, de las películas 'Mi villano favorito'?",
+        "options": [
+          "Los Minions",
+          "Los Pitufos",
+          "Los Barbapapá",
+          "Los Osos Amorosos"
+        ],
+        "explanation": "Su jerigonza es una mezcla de varias lenguas reales, en la que a veces se reconocen fragmentos de francés, inglés o español."
+      }
+    }
+  },
+  {
+    "sourceRef": "d281dfa7eea2d80d",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel film de science-fiction de 1977, réalisé par George Lucas, lança la saga « Star Wars » ?",
+        "options": [
+          "L'Empire contre-attaque",
+          "Un nouvel espoir",
+          "Le Retour du Jedi",
+          "La Menace fantôme"
+        ],
+        "explanation": "Les studios n'y croyaient guère ; le réalisateur préféra toucher les droits dérivés plutôt qu'un salaire, un pari qui fit sa fortune."
+      },
+      "en": {
+        "text": "Which 1977 science-fiction film, directed by George Lucas, launched the 'Star Wars' saga?",
+        "options": [
+          "The Empire Strikes Back",
+          "A New Hope",
+          "Return of the Jedi",
+          "The Phantom Menace"
+        ],
+        "explanation": "The studios had little faith in it; the director chose the merchandising rights over a salary, a gamble that made his fortune."
+      },
+      "es": {
+        "text": "¿Qué película de ciencia ficción de 1977, dirigida por George Lucas, lanzó la saga 'Star Wars'?",
+        "options": [
+          "El Imperio contraataca",
+          "Una nueva esperanza",
+          "El retorno del Jedi",
+          "La amenaza fantasma"
+        ],
+        "explanation": "Los estudios apenas creían en ella; el director prefirió los derechos de merchandising a un salario, una apuesta que hizo su fortuna."
+      }
+    }
+  },
+  {
+    "sourceRef": "e3aec5cf45f6020b",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quel réalisateur allemand tourna le film muet expressionniste « Metropolis », vision d'une cité futuriste, en 1927 ?",
+        "options": [
+          "F.W. Murnau",
+          "Robert Wiene",
+          "Fritz Lang",
+          "Ernst Lubitsch"
+        ],
+        "explanation": "Son film, en avance sur son temps, imaginait des gratte-ciel, des écrans de visiophonie et des robots, des décennies avant leur apparition."
+      },
+      "en": {
+        "text": "Which German director made the expressionist silent film 'Metropolis', a vision of a futuristic city, in 1927?",
+        "options": [
+          "F.W. Murnau",
+          "Robert Wiene",
+          "Fritz Lang",
+          "Ernst Lubitsch"
+        ],
+        "explanation": "His film, ahead of its time, imagined skyscrapers, video-phone screens and robots, decades before they appeared."
+      },
+      "es": {
+        "text": "¿Qué director alemán rodó la película muda expresionista 'Metrópolis', visión de una ciudad futurista, en 1927?",
+        "options": [
+          "F.W. Murnau",
+          "Robert Wiene",
+          "Fritz Lang",
+          "Ernst Lubitsch"
+        ],
+        "explanation": "Su película, adelantada a su tiempo, imaginaba rascacielos, pantallas de videollamada y robots, décadas antes de que aparecieran."
+      }
+    }
+  },
+  {
+    "sourceRef": "f05ad449459d2235",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "hard",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel film de 1976, avec Robert De Niro en chauffeur de taxi solitaire à New York, fut réalisé par Martin Scorsese ?",
+        "options": [
+          "Raging Bull",
+          "Mean Streets",
+          "Le Roi de la comédie",
+          "Taxi Driver"
+        ],
+        "explanation": "Sa réplique improvisée, où le héros se parle seul dans un miroir, est devenue l'une des scènes les plus citées de tout le cinéma."
+      },
+      "en": {
+        "text": "Which 1976 film, with Robert De Niro as a lonely New York taxi driver, was directed by Martin Scorsese?",
+        "options": [
+          "Raging Bull",
+          "Mean Streets",
+          "The King of Comedy",
+          "Taxi Driver"
+        ],
+        "explanation": "Its improvised line, where the hero talks to himself in a mirror, has become one of the most quoted scenes in all cinema."
+      },
+      "es": {
+        "text": "¿Qué película de 1976, con Robert De Niro como taxista solitario en Nueva York, dirigió Martin Scorsese?",
+        "options": [
+          "Toro salvaje",
+          "Malas calles",
+          "El rey de la comedia",
+          "Taxi Driver"
+        ],
+        "explanation": "Su frase improvisada, donde el héroe se habla solo ante un espejo, se ha vuelto una de las escenas más citadas de todo el cine."
+      }
+    }
+  },
+  {
+    "sourceRef": "607fe78d154bdb6c",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quel personnage de conte, une fillette vêtue d'une cape rouge, va rendre visite à sa grand-mère et rencontre un loup ?",
+        "options": [
+          "Le Petit Chaperon rouge",
+          "Cendrillon",
+          "Blanche-Neige",
+          "Boucle d'or"
+        ],
+        "explanation": "Dans les versions les plus anciennes, l'histoire finissait mal ; c'est plus tard qu'un chasseur vint sauver l'héroïne du ventre du loup."
+      },
+      "en": {
+        "text": "Which fairy-tale character, a girl in a red cape, visits her grandmother and meets a wolf?",
+        "options": [
+          "Little Red Riding Hood",
+          "Cinderella",
+          "Snow White",
+          "Goldilocks"
+        ],
+        "explanation": "In the oldest versions the story ended badly; only later did a hunter come to save the heroine from the wolf's belly."
+      },
+      "es": {
+        "text": "¿Qué personaje de cuento, una niña con capa roja, va a visitar a su abuela y se encuentra con un lobo?",
+        "options": [
+          "Caperucita Roja",
+          "Cenicienta",
+          "Blancanieves",
+          "Ricitos de Oro"
+        ],
+        "explanation": "En las versiones más antiguas la historia acababa mal; solo después llegó un cazador a salvar a la heroína del vientre del lobo."
+      }
+    }
+  },
+  {
+    "sourceRef": "47203d5653b4f439",
+    "type": "qcm",
+    "theme": "cinema",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel archéologue aventurier au chapeau de feutre et au fouet est le héros d'une célèbre saga signée Spielberg et Lucas ?",
+        "options": [
+          "Allan Quatermain",
+          "Indiana Jones",
+          "Nathan Drake",
+          "Lara Croft"
+        ],
+        "explanation": "Son prénom, dit-on, était celui du chien du réalisateur ; le personnage a peur des serpents, un détail devenu un ressort comique récurrent."
+      },
+      "en": {
+        "text": "Which adventuring archaeologist with a felt hat and a whip is the hero of a famous saga by Spielberg and Lucas?",
+        "options": [
+          "Allan Quatermain",
+          "Indiana Jones",
+          "Nathan Drake",
+          "Lara Croft"
+        ],
+        "explanation": "His first name, it is said, was that of the director's dog; the character fears snakes, a detail turned into a recurring comic device."
+      },
+      "es": {
+        "text": "¿Qué arqueólogo aventurero con sombrero de fieltro y látigo es el héroe de una célebre saga de Spielberg y Lucas?",
+        "options": [
+          "Allan Quatermain",
+          "Indiana Jones",
+          "Nathan Drake",
+          "Lara Croft"
+        ],
+        "explanation": "Su nombre, según se dice, era el del perro del director; el personaje teme a las serpientes, un detalle vuelto recurso cómico recurrente."
+      }
+    }
+  },
+  {
+    "sourceRef": "5e608d3a40dd6edc",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Quelle plateforme permet de partager et regarder des vidéos, avec un logo rouge en forme de bouton lecture ?",
+        "options": [
+          "YouTube",
+          "Spotify",
+          "Twitch",
+          "Netflix"
+        ],
+        "explanation": "Sa toute première vidéo, mise en ligne en 2005, montre l'un des fondateurs devant les éléphants d'un zoo : dix-neuf secondes entrées dans l'histoire."
+      },
+      "en": {
+        "text": "Which platform lets you share and watch videos, with a red play-button logo?",
+        "options": [
+          "YouTube",
+          "Spotify",
+          "Twitch",
+          "Netflix"
+        ],
+        "explanation": "Its very first video, uploaded in 2005, shows one of the founders in front of the elephants at a zoo: nineteen seconds that made history."
+      },
+      "es": {
+        "text": "¿Qué plataforma permite compartir y ver vídeos, con un logo rojo en forma de botón de reproducción?",
+        "options": [
+          "YouTube",
+          "Spotify",
+          "Twitch",
+          "Netflix"
+        ],
+        "explanation": "Su primer vídeo, subido en 2005, muestra a uno de los fundadores ante los elefantes de un zoo: diecinueve segundos que hicieron historia."
+      }
+    }
+  },
+  {
+    "sourceRef": "9f503545f384ae40",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quel service de streaming musical, au logo vert, permet d'écouter des millions de chansons par abonnement ?",
+        "options": [
+          "Deezer",
+          "Spotify",
+          "iTunes",
+          "SoundCloud"
+        ],
+        "explanation": "Il rémunère les artistes selon le nombre d'écoutes, un modèle qui a bouleversé toute l'industrie du disque en quelques années."
+      },
+      "en": {
+        "text": "Which music streaming service, with a green logo, lets you listen to millions of songs by subscription?",
+        "options": [
+          "Deezer",
+          "Spotify",
+          "iTunes",
+          "SoundCloud"
+        ],
+        "explanation": "It pays artists by the number of plays, a model that upended the whole record industry within a few years."
+      },
+      "es": {
+        "text": "¿Qué servicio de streaming musical, de logo verde, permite escuchar millones de canciones por suscripción?",
+        "options": [
+          "Deezer",
+          "Spotify",
+          "iTunes",
+          "SoundCloud"
+        ],
+        "explanation": "Paga a los artistas según el número de reproducciones, un modelo que trastocó toda la industria del disco en pocos años."
+      }
+    }
+  },
+  {
+    "sourceRef": "ea6e513bdff94fea",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 2,
+    "translations": {
+      "fr": {
+        "text": "Quelle unité, égale à un million de pixels, mesure la définition d'un appareil photo numérique ?",
+        "options": [
+          "Le mégaoctet",
+          "Le mégahertz",
+          "Le mégapixel",
+          "Le mégawatt"
+        ],
+        "explanation": "Un plus grand nombre ne fait pas toujours une meilleure photo : la qualité du capteur et de l'objectif compte souvent bien davantage."
+      },
+      "en": {
+        "text": "Which unit, equal to one million pixels, measures the resolution of a digital camera?",
+        "options": [
+          "The megabyte",
+          "The megahertz",
+          "The megapixel",
+          "The megawatt"
+        ],
+        "explanation": "A higher number does not always make a better photo: the quality of the sensor and the lens often matters far more."
+      },
+      "es": {
+        "text": "¿Qué unidad, igual a un millón de píxeles, mide la resolución de una cámara digital?",
+        "options": [
+          "El megabyte",
+          "El megahercio",
+          "El megapíxel",
+          "El megavatio"
+        ],
+        "explanation": "Un número mayor no siempre hace una foto mejor: la calidad del sensor y del objetivo importa a menudo mucho más."
+      }
+    }
+  },
+  {
+    "sourceRef": "f20d148ce3c7b09f",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "medium",
+    "correctIndex": 3,
+    "translations": {
+      "fr": {
+        "text": "Quel petit carré fait de points noirs et blancs se scanne avec un téléphone pour ouvrir un lien ou un menu ?",
+        "options": [
+          "Le code-barres",
+          "Le cookie",
+          "Le hashtag",
+          "Le QR code"
+        ],
+        "explanation": "Inventé à l'origine pour suivre des pièces automobiles, il peut contenir bien plus d'informations qu'un simple code-barres à lignes."
+      },
+      "en": {
+        "text": "Which small square of black and white dots is scanned with a phone to open a link or a menu?",
+        "options": [
+          "The barcode",
+          "The cookie",
+          "The hashtag",
+          "The QR code"
+        ],
+        "explanation": "Invented originally to track car parts, it can hold far more information than a simple striped barcode."
+      },
+      "es": {
+        "text": "¿Qué pequeño cuadrado de puntos blancos y negros se escanea con un teléfono para abrir un enlace o un menú?",
+        "options": [
+          "El código de barras",
+          "La cookie",
+          "El hashtag",
+          "El código QR"
+        ],
+        "explanation": "Inventado en origen para seguir piezas de automóvil, puede contener mucha más información que un simple código de barras de líneas."
+      }
+    }
+  },
+  {
+    "sourceRef": "e427debb31ca55a4",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "easy",
+    "correctIndex": 0,
+    "translations": {
+      "fr": {
+        "text": "Comment appelle-t-on un court message texte envoyé d'un téléphone portable à un autre ?",
+        "options": [
+          "Un SMS",
+          "Un e-mail",
+          "Un spam",
+          "Un cookie"
+        ],
+        "explanation": "Le tout premier, envoyé en 1992, disait simplement « Joyeux Noël » ; on le tapait alors laborieusement sur les touches d'un clavier numérique."
+      },
+      "en": {
+        "text": "What do you call a short text message sent from one mobile phone to another?",
+        "options": [
+          "A text message (SMS)",
+          "An email",
+          "A spam",
+          "A cookie"
+        ],
+        "explanation": "The very first, sent in 1992, simply said 'Merry Christmas'; it was laboriously tapped out on the keys of a numeric keypad."
+      },
+      "es": {
+        "text": "¿Cómo se llama un breve mensaje de texto enviado de un teléfono móvil a otro?",
+        "options": [
+          "Un SMS",
+          "Un correo electrónico",
+          "Un spam",
+          "Una cookie"
+        ],
+        "explanation": "El primero, enviado en 1992, decía simplemente 'Feliz Navidad'; se tecleaba entonces laboriosamente en las teclas de un teclado numérico."
+      }
+    }
+  },
+  {
+    "sourceRef": "d19ae1029050b876",
+    "type": "qcm",
+    "theme": "tech",
+    "difficulty": "hard",
+    "correctIndex": 1,
+    "translations": {
+      "fr": {
+        "text": "Quelle entreprise américaine, au slogan « Intel Inside », conçoit les processeurs de nombreux ordinateurs ?",
+        "options": [
+          "Nvidia",
+          "Intel",
+          "Qualcomm",
+          "IBM"
+        ],
+        "explanation": "Son fameux petit jingle de cinq notes, entendu dans d'innombrables publicités, est devenu l'un des sons les plus reconnaissables au monde."
+      },
+      "en": {
+        "text": "Which American company, with the slogan 'Intel Inside', designs the processors of many computers?",
+        "options": [
+          "Nvidia",
+          "Intel",
+          "Qualcomm",
+          "IBM"
+        ],
+        "explanation": "Its famous little five-note jingle, heard in countless adverts, has become one of the most recognisable sounds in the world."
+      },
+      "es": {
+        "text": "¿Qué empresa estadounidense, con el eslogan 'Intel Inside', diseña los procesadores de muchos ordenadores?",
+        "options": [
+          "Nvidia",
+          "Intel",
+          "Qualcomm",
+          "IBM"
+        ],
+        "explanation": "Su famoso pequeño jingle de cinco notas, oído en innumerables anuncios, se ha vuelto uno de los sonidos más reconocibles del mundo."
+      }
+    }
+  }
+]
